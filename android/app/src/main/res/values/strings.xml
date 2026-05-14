@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">e-nutrition</string>
+    <string name="title_activity_main">e-nutrition</string>
+    <string name="package_name">com.ehyonutrition.app</string>
+    <string name="custom_url_scheme">com.ehyonutrition.app</string>
+</resources>
