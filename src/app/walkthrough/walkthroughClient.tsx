@@ -14,9 +14,9 @@ const WalkthroughClient = () => {
             </div>
             <OnboardingSlider />
             
-            <button className={styles["get-started"]}>
+            <Link href="/main" className={styles["get-started"]}>
                 Get Started
-            </button>
+            </Link>
         </div>
     )
 }

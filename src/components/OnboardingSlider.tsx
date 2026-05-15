@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import Image from 'next/image'
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -38,10 +39,12 @@ export default function OnboardingSlider() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="slide">
-              <img
+              <Image
                 src={slide.image}
                 alt={slide.title}
                 className="slide-image"
+                width={282}
+                height={282}
               />
 
               <h2>{slide.title}</h2>

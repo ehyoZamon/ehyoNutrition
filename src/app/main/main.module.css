@@ -1,0 +1,210 @@
+.main-layout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 24px;
+    padding-bottom: 24px;
+    gap: 24px;
+    overflow-y: auto;
+    background-color: #fefefe;
+}
+
+.welcome h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #91c788;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.welcome p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    font-size: 18px;
+    color: #7b7b7b;
+    margin: 0;
+    padding: 0;
+}
+
+.articles{
+    width: 100%;
+    border-radius: 32px;
+    max-width: 320px;
+    min-height: 169px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: linear-gradient(136deg, rgba(255, 242, 240, 0.5) 0%, #fff8eb 100%);
+    padding: 30px;
+}
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.article-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.article-label{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #ff806e;
+}
+
+.article-name{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #330600;
+}
+
+.read-now-button{
+    background: #ff8473;
+    border-radius: 8px;
+    min-width: 104px;
+    min-height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    gap: 8px;
+    outline: none;
+    border: none;
+}
+
+.explore-vitamins{
+    border-radius: 24px;
+    width: 100%;
+    max-width: 320px;
+    min-height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 104%;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #a3a0ca;
+    text-decoration: none;
+}
+
+.choose-your-favorites{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choose-your-favorites h3{
+    width: 100%;
+    max-width: 320px;
+    text-align: left;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 91%;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000;
+    margin: 0;
+}
+
+.favorites-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.favorite{
+    border-radius: 32px;
+    background: #fff2f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    gap: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    text-align: center;
+    color: #4d0a00;
+}
+
+.favorites-list .vegetables{
+    color: #1c3418;
+    background: #eff7ee;
+}
+
+.favorites-list .snack{
+    background: #fff8eb;
+    color: #4d3200;
+}
+
+.navigation{
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.nav-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-layout .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 36px;
+    flex: 1;
+}
+
