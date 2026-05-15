@@ -101,7 +101,7 @@ const MainClient = () => {
                     />
                 </Link>
 
-                <Link className={styles["nav-link"]} href="#">
+                <Link className={styles["nav-link"]} href="/products">
                     <Image
                         src="/main/products.svg"
                         alt={'products'}
@@ -110,7 +110,7 @@ const MainClient = () => {
                     />
                 </Link>
                 
-                <Link className={styles["nav-link"]} href="#">
+                <Link className={styles["nav-link"]} href="/vitamins">
                     <Image
                         src="/main/antioxidant.svg"
                         alt={'antioxidant'}
@@ -120,7 +120,7 @@ const MainClient = () => {
                 </Link>
 
                 
-                <Link className={styles["nav-link"]} href="#">
+                <Link className={styles["nav-link"]} href="/favorites">
                     <Image
                         src="/main/heart.svg"
                         alt={'heart'}

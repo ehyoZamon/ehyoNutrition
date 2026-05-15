@@ -1,0 +1,159 @@
+.main-layout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 24px;
+    padding-bottom: 24px;
+    gap: 24px;
+    overflow-y: auto;
+    background-color: #fefefe;
+}
+
+.navigation{
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.nav-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-container{
+    width: 100%;
+    max-width: 320px;
+    background: #f4f4f4;
+    border-radius: 24px;
+    min-height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 8px;
+}
+
+.search-container .search-icon{
+    flex-shrink: 0;
+}
+
+.search-container .search-input{
+    flex: 1;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    color: #999;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.main-layout .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.product{
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+.product-img-container{
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #fff2f0;
+}
+
+.product-details{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.product-details .product-name{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.product-details .product-category{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.02em;
+    color: #444;
+}
+
+.product-details .product-calories{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    color: #777;
+}
+
+.put-to-favorite{
+    cursor: pointer;
+}
+
+*::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #ddd;
+}
+
+
+*::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+
+*::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track{
+  display: none; 
+}
+
+
