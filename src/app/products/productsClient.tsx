@@ -1,31 +1,16 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./products.module.css";
+import products from "@/data/products.json";
 
-import {
-  initDatabase,
-  getProducts,
-} from "@/db/database";
+
 
 const ProductsClient = () => {
   const [search, setSearch] = useState("");
-  const [products, setProducts] = useState<any[]>([]);
-
-  useEffect(() => {
-    loadProducts();
-  }, []);
-
-  const loadProducts = async () => {
-    await initDatabase();
-
-    const data = await getProducts();
-
-    setProducts(data);
-  };
 
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
@@ -36,7 +21,7 @@ const ProductsClient = () => {
         product.category.toLowerCase().includes(query)
       );
     });
-  }, [products, search]);
+  }, [search]);
 
   return (
     <div className={styles["main-layout"]}>
@@ -61,10 +46,7 @@ const ProductsClient = () => {
       <div className={styles["content"]}>
         {filteredProducts.map((product) => (
           <div className={styles["product"]} key={product.id}>
-            <Link
-              href="/productinfo"
-              className={styles["product-img-container"]}
-            >
+            <Link href="/productinfo" className={styles["product-img-container"]}>
               <Image
                 src={product.image}
                 alt={product.name}
@@ -73,10 +55,7 @@ const ProductsClient = () => {
               />
             </Link>
 
-            <Link
-              href="/productinfo"
-              className={styles["product-details"]}
-            >
+            <Link href="/productinfo" className={styles["product-details"]}>
               <div className={styles["product-name"]}>
                 {product.name}
               </div>
@@ -108,10 +87,10 @@ const ProductsClient = () => {
         {filteredProducts.length === 0 && (
           <div className={styles["empty-state"]}>
             <Image
-              src="/nothing-found.svg"
-              alt="nothing-found"
-              width={48}
-              height={48}
+                src="/nothing-found.svg"
+                alt={"nothing-found"}
+                width={48}
+                height={48}
             />
             Nothing found
           </div>

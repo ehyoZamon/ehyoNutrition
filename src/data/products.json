@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Green Fresh Peas",
+    "category": "food/vegetables",
+    "calories": 134,
+    "image": "/products/peas.png",
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "name": "Egg",
+    "category": "food/eggs and dairy",
+    "calories": 72,
+    "image": "/products/egg.png",
+    "favorite": true
+  },
+  {
+    "id": 3,
+    "name": "Arugula",
+    "category": "food/vegetables",
+    "calories": 5,
+    "image": "/products/arugula.png",
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "name": "Bok-choy",
+    "category": "food/vegetables",
+    "calories": 15,
+    "image": "/products/bok-choy.png",
+    "favorite": false
+  },
+  {
+    "id": 5,
+    "name": "Apple",
+    "category": "food/fruits",
+    "calories": 20,
+    "image": "/products/apple.png",
+    "favorite": true
+  }
+]
