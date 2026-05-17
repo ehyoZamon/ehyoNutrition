@@ -8,7 +8,8 @@
     "unit": "mg",
     "benefit": "Boosts immunity, supports collagen production, helps wound healing",
     "image": "C",
-    "favorite": false
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-c"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "unit": "IU",
     "benefit": "Supports bone health, improves calcium absorption, boosts immunity",
     "image": "D",
-    "favorite": false
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-d"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "unit": "mcg",
     "benefit": "Supports vision, skin health, and immune system function",
     "image": "A",
-    "favorite": false
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-a"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "unit": "mcg",
     "benefit": "Supports nerve function, red blood cell formation, and energy production",
     "image": "B<sub>12</sub>",
-    "favorite": false
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b12"
   },
   {
     "id": 5,
@@ -52,6 +56,7 @@
     "unit": "mg",
     "benefit": "Acts as antioxidant, protects cells from oxidative stress",
     "image": "E",
-    "favorite": false
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-e"
   }
 ]

@@ -100,7 +100,7 @@ const ProductsClient = () => {
         {filteredProducts.map((product) => (
           <div className={styles["product"]} key={product.id}>
             <Link
-              href="/productinfo"
+              href={product.link}
               className={styles["product-img-container"]}
             >
               <Image
@@ -112,7 +112,7 @@ const ProductsClient = () => {
             </Link>
 
             <Link
-              href="/productinfo"
+              href={product.link}
               className={styles["product-details"]}
             >
               <div className={styles["product-name"]}>

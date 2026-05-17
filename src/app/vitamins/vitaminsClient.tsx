@@ -100,7 +100,7 @@ const VitaminsClient = () => {
         {filteredvitamins.map((vitamin) => (
           <div className={styles["vitamin"]} key={vitamin.id}>
             <Link
-              href="/vitamininfo"
+              href={vitamin.link}
               className={styles["vitamin-img-container"]}
             >
               <Image
@@ -114,7 +114,7 @@ const VitaminsClient = () => {
             </Link>
 
             <Link
-              href="/vitamininfo"
+              href={vitamin.link}
               className={styles["vitamin-details"]}
             >
               <div className={styles["vitamin-name"]}>
@@ -137,8 +137,8 @@ const VitaminsClient = () => {
               <Image
                 src={
                   vitamin.favorite
-                    ? "/heart-filled.svg"
-                    : "/heart.svg"
+                    ? "/vitamins/heart-filled.svg"
+                    : "/vitamins/heart.svg"
                 }
                 alt="favorite"
                 width={24}

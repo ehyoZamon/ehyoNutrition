@@ -5,7 +5,8 @@
     "category": "food/vegetables",
     "calories": 134,
     "image": "/products/peas.png",
-    "favorite": false
+    "favorite": false, 
+    "link": "/productinfo/green-fresh-peas"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "category": "food/eggs and dairy",
     "calories": 72,
     "image": "/products/egg.png",
-    "favorite": false
+    "favorite": false,
+    "link": "/productinfo/egg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "category": "food/vegetables",
     "calories": 5,
     "image": "/products/arugula.png",
-    "favorite": false
+    "favorite": false,
+    "link": "/productinfo/arugula"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "category": "food/vegetables",
     "calories": 15,
     "image": "/products/bok-choy.png",
-    "favorite": false
+    "favorite": false,
+    "link": "/productinfo/bok-choy"
   },
   {
     "id": 5,
@@ -37,6 +41,7 @@
     "category": "food/fruits",
     "calories": 20,
     "image": "/products/apple.png",
-    "favorite": false
+    "favorite": false,
+    "link": "/productinfo/apple"
   }
 ]
