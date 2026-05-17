@@ -101,6 +101,7 @@
     gap: 8px;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .explore-vitamins{
@@ -171,6 +172,7 @@
     line-height: 118%;
     text-align: center;
     color: #4d0a00;
+    cursor: pointer;
 }
 
 .favorites-list .vegetables{

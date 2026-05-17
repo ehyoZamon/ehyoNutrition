@@ -28,102 +28,93 @@
     text-decoration: none;
 }
 
-.search-container{
-    width: 100%;
-    max-width: 320px;
-    background: #f4f4f4;
-    border-radius: 24px;
-    min-height: 64px;
-    flex-shrink: 0;
+.content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex: 1;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    gap: 8px;
 }
 
-.search-container .search-icon{
-    flex-shrink: 0;
-}
-
-.search-container .search-input{
-    flex: 1;
+.product-name{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
+    font-size: 32px;
+    line-height: 63%;
     letter-spacing: -0.01em;
-    color: #999;
-    background: none;
-    border: none;
-    outline: none;
-}
-
-.main-layout .content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 24px;
-    flex: 1;
-    width: 100%;
-    overflow: hidden;
-    overflow-y: auto;
-}
-
-.product{
+    text-align: center;
+    color: #91c788;
     width: 100%;
     max-width: 320px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 17px;
-    cursor: pointer;
-    text-decoration: none;
+    position: relative;
+    padding-left: 35px;
 }
 
-.product-img-container{
-    width: 75px;
-    height: 75px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
+.product-name .back{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.product-name .leaves{
+    left: 10px;
+    position: relative;
+}
+
+.productConsistency{
     background: #fff2f0;
-}
-
-.product-details{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 320px;
+    padding: 40px;
+    gap: 20px; 
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    align-self: stretch;
+    justify-content: flex-start;
 }
 
-.product-details .product-name{
+.productConsistency .productCalories{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: -0.01em;
-    color: #000;
-    margin-bottom: 2px;
+    text-align: center;
+    color: #91c788;
+    width: 100%;
 }
 
-.product-details .product-category{
+
+.productConsistency .productMass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.productMassElem{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    line-height: 143%;
+    line-height: 100%;
     letter-spacing: -0.02em;
     color: #444;
+    gap: 10px;
 }
 
-.product-details .product-calories{
+.productMassElem .dot{
+    border-radius: 20px;
+    width: 12px;
+    height: 12px;
+}
+
+.productConsistency .vitamins{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 12px;
@@ -132,23 +123,34 @@
     color: #777;
 }
 
-.put-to-favorite{
-    cursor: pointer;
-}
-
-.empty-state{
+.productConsistency .comment {
+    position: relative;
+    left: -15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    gap: 5px;
+}
+
+.productConsistency .comment p{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 167%;
+    font-size: 10px;
+    line-height: 100%;
     letter-spacing: -0.02em;
     color: #777;
+    margin: 0;
+}
+
+.productConsistency .comment .dot{
+    content: "";
+    display: inline-block;
+    background: #777;
+    border-radius: 20px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
 }
 
 *::-webkit-scrollbar{
