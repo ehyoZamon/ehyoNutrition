@@ -13,7 +13,7 @@
     "category": "food/eggs and dairy",
     "calories": 72,
     "image": "/products/egg.png",
-    "favorite": true
+    "favorite": false
   },
   {
     "id": 3,
@@ -37,6 +37,6 @@
     "category": "food/fruits",
     "calories": 20,
     "image": "/products/apple.png",
-    "favorite": true
+    "favorite": false
   }
 ]

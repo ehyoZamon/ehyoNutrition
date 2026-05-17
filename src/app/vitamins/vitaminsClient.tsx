@@ -4,13 +4,13 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import styles from "./products.module.css";
+import styles from "./vitamins.module.css";
 
-import productsData from "@/data/products.json";
+import vitaminsData from "@/data/vitamins.json";
 
-const ProductsClient = () => {
+const VitaminsClient = () => {
   const [search, setSearch] = useState("");
-  const [products, setProducts] = useState(productsData);
+  const [vitamins, setvitamins] = useState(vitaminsData);
 
   /*
     LOAD FAVORITES
@@ -23,12 +23,12 @@ const ProductsClient = () => {
 
     const favoriteIds = JSON.parse(savedFavorites);
 
-    const updatedProducts = productsData.map((product) => ({
-      ...product,
-      favorite: favoriteIds.includes(product.id),
+    const updatedvitamins = vitaminsData.map((vitamin) => ({
+      ...vitamin,
+      favorite: favoriteIds.includes(vitamin.id),
     }));
 
-    setProducts(updatedProducts);
+    setvitamins(updatedvitamins);
   }, []);
 
   /*
@@ -36,24 +36,24 @@ const ProductsClient = () => {
   */
 
   const toggleFavorite = (id: number) => {
-    const updatedProducts = products.map((product) =>
-      product.id === id
+    const updatedvitamins = vitamins.map((vitamin) =>
+      vitamin.id === id
         ? {
-            ...product,
-            favorite: !product.favorite,
+            ...vitamin,
+            favorite: !vitamin.favorite,
           }
-        : product
+        : vitamin
     );
 
-    setProducts(updatedProducts);
+    setvitamins(updatedvitamins);
 
     /*
       SAVE TO LOCALSTORAGE
     */
 
-    const favoriteIds = updatedProducts
-      .filter((product) => product.favorite)
-      .map((product) => product.id);
+    const favoriteIds = updatedvitamins
+      .filter((vitamin) => vitamin.favorite)
+      .map((vitamin) => vitamin.id);
 
     localStorage.setItem(
       "favorites",
@@ -65,16 +65,16 @@ const ProductsClient = () => {
     SEARCH
   */
 
-  const filteredProducts = useMemo(() => {
-    return products.filter((product) => {
+  const filteredvitamins = useMemo(() => {
+    return vitamins.filter((vitamin) => {
       const query = search.toLowerCase();
 
       return (
-        product.name.toLowerCase().includes(query) ||
-        product.category.toLowerCase().includes(query)
+        vitamin.name.toLowerCase().includes(query) ||
+        vitamin.category.toLowerCase().includes(query)
       );
     });
-  }, [products, search]);
+  }, [vitamins, search]);
 
   return (
     <div className={styles["main-layout"]}>
@@ -89,7 +89,7 @@ const ProductsClient = () => {
 
         <input
           type="text"
-          placeholder="Search products, fruits, vegetables..."
+          placeholder="Search vitamins, fat, minerals..."
           className={styles["search-input"]}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -97,56 +97,51 @@ const ProductsClient = () => {
       </div>
 
       <div className={styles["content"]}>
-        {filteredProducts.map((product) => (
-          <div className={styles["product"]} key={product.id}>
+        {filteredvitamins.map((vitamin) => (
+          <div className={styles["vitamin"]} key={vitamin.id}>
             <Link
-              href="/productinfo"
-              className={styles["product-img-container"]}
+              href="/vitamininfo"
+              className={styles["vitamin-img-container"]}
             >
-              <Image
-                src={product.image}
-                alt={product.name}
-                width={48}
-                height={48}
-              />
+              <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
             </Link>
 
             <Link
-              href="/productinfo"
-              className={styles["product-details"]}
+              href="/vitamininfo"
+              className={styles["vitamin-details"]}
             >
-              <div className={styles["product-name"]}>
-                {product.name}
+              <div className={styles["vitamin-name"]}>
+                {vitamin.name}
               </div>
 
-              <div className={styles["product-category"]}>
-                {product.category}
-              </div>
 
-              <div className={styles["product-calories"]}>
-                Calories: {product.calories}
+              <div className={styles["vitamin-daily-value"]}>
+                Daily value: {vitamin.dailyValue} {vitamin.unit}
+              </div>
+              <div className={styles["vitamin-benefit"]}>
+                Benefit: {vitamin.benefit}
               </div>
             </Link>
 
             <div
               className={styles["put-to-favorite"]}
-              onClick={() => toggleFavorite(product.id)}
+              onClick={() => toggleFavorite(vitamin.id)}
             >
               <Image
                 src={
-                  product.favorite
+                  vitamin.favorite
                     ? "/heart-filled.svg"
                     : "/heart.svg"
                 }
                 alt="favorite"
-                width={27}
-                height={27}
+                width={24}
+                height={24}
               />
             </div>
           </div>
         ))}
 
-        {filteredProducts.length === 0 && (
+        {filteredvitamins.length === 0 && (
           <div className={styles["empty-state"]}>
             <Image
               src="/nothing-found.svg"
@@ -169,18 +164,18 @@ const ProductsClient = () => {
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="#">
+        <Link className={styles["nav-link"]} href="/products">
           <Image
-            src="/main/products-green.svg"
-            alt="products"
+            src="/main/products.svg"
+            alt="vitamins"
             width={48}
             height={48}
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="/vitamins">
+        <Link className={styles["nav-link"]} href="/#">
           <Image
-            src="/main/antioxidant.svg"
+            src="/main/antioxidant-green.svg"
             alt="antioxidant"
             width={48}
             height={48}
@@ -200,4 +195,4 @@ const ProductsClient = () => {
   );
 };
 
-export default ProductsClient;
+export default VitaminsClient;

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Vitamin C",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 90,
+    "unit": "mg",
+    "benefit": "Boosts immunity, supports collagen production, helps wound healing",
+    "image": "C",
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "name": "Vitamin D",
+    "category": "nutrients",
+    "group": "fat-soluble",
+    "dailyValue": 600,
+    "unit": "IU",
+    "benefit": "Supports bone health, improves calcium absorption, boosts immunity",
+    "image": "D",
+    "favorite": false
+  },
+  {
+    "id": 3,
+    "name": "Vitamin A",
+    "category": "nutrients",
+    "group": "fat-soluble",
+    "dailyValue": 900,
+    "unit": "mcg",
+    "benefit": "Supports vision, skin health, and immune system function",
+    "image": "A",
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "name": "Vitamin B12",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 2.4,
+    "unit": "mcg",
+    "benefit": "Supports nerve function, red blood cell formation, and energy production",
+    "image": "B<sub>12</sub>",
+    "favorite": false
+  },
+  {
+    "id": 5,
+    "name": "Vitamin E",
+    "category": "nutrients",
+    "group": "fat-soluble",
+    "dailyValue": 15,
+    "unit": "mg",
+    "benefit": "Acts as antioxidant, protects cells from oxidative stress",
+    "image": "E",
+    "favorite": false
+  }
+]
