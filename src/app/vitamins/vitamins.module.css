@@ -104,6 +104,20 @@
     font-weight: 600;
     font-size: 40px;
     line-height: 104%;
+    position: relative;
+}
+
+.vitamin-img-container span{
+    z-index: 10;
+    position: relative;
+}
+
+.vitamin-img-container .molecule{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+    z-index: 0;
 }
 
 .vitamin-img-container sub{

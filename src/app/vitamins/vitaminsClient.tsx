@@ -103,6 +103,13 @@ const VitaminsClient = () => {
               href="/vitamininfo"
               className={styles["vitamin-img-container"]}
             >
+              <Image
+                src="/vitamins/molecule.svg"
+                alt={"molecule"}
+                width={42}
+                height={42}
+                className={styles["molecule"]}
+              />
               <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
             </Link>
 
