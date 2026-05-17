@@ -1,56 +1,31 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./products.module.css";
 
-const products = [
-  {
-    id: 1,
-    name: "Green Fresh Peas",
-    category: "food/vegetables",
-    calories: 134,
-    image: "/products/peas.png",
-    favorite: false,
-  },
-  {
-    id: 2,
-    name: "Egg",
-    category: "food/eggs and dairy",
-    calories: 72,
-    image: "/products/egg.png",
-    favorite: true,
-  },
-  {
-    id: 3,
-    name: "Arugula",
-    category: "food/vegetables",
-    calories: 5,
-    image: "/products/arugula.png",
-    favorite: false,
-  },
-  {
-    id: 4,
-    name: "Bok-choy",
-    category: "food/vegetables",
-    calories: 15,
-    image: "/products/bok-choy.png",
-    favorite: false,
-  },
-  {
-    id: 5,
-    name: "Apple",
-    category: "food/fruits",
-    calories: 20,
-    image: "/products/apple.png",
-    favorite: true,
-  },
-];
+import {
+  initDatabase,
+  getProducts,
+} from "@/db/database";
 
 const ProductsClient = () => {
   const [search, setSearch] = useState("");
+  const [products, setProducts] = useState<any[]>([]);
+
+  useEffect(() => {
+    loadProducts();
+  }, []);
+
+  const loadProducts = async () => {
+    await initDatabase();
+
+    const data = await getProducts();
+
+    setProducts(data);
+  };
 
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
@@ -61,7 +36,7 @@ const ProductsClient = () => {
         product.category.toLowerCase().includes(query)
       );
     });
-  }, [search]);
+  }, [products, search]);
 
   return (
     <div className={styles["main-layout"]}>
@@ -85,17 +60,23 @@ const ProductsClient = () => {
 
       <div className={styles["content"]}>
         {filteredProducts.map((product) => (
-          <Link href="/productinfo" className={styles["product"]} key={product.id}>
-            <div className={styles["product-img-container"]}>
+          <div className={styles["product"]} key={product.id}>
+            <Link
+              href="/productinfo"
+              className={styles["product-img-container"]}
+            >
               <Image
                 src={product.image}
                 alt={product.name}
                 width={48}
                 height={48}
               />
-            </div>
+            </Link>
 
-            <div className={styles["product-details"]}>
+            <Link
+              href="/productinfo"
+              className={styles["product-details"]}
+            >
               <div className={styles["product-name"]}>
                 {product.name}
               </div>
@@ -107,7 +88,7 @@ const ProductsClient = () => {
               <div className={styles["product-calories"]}>
                 Calories: {product.calories}
               </div>
-            </div>
+            </Link>
 
             <div className={styles["put-to-favorite"]}>
               <Image
@@ -121,16 +102,16 @@ const ProductsClient = () => {
                 height={27}
               />
             </div>
-          </Link>
+          </div>
         ))}
 
         {filteredProducts.length === 0 && (
           <div className={styles["empty-state"]}>
             <Image
-                src="/nothing-found.svg"
-                alt={"nothing-found"}
-                width={48}
-                height={48}
+              src="/nothing-found.svg"
+              alt="nothing-found"
+              width={48}
+              height={48}
             />
             Nothing found
           </div>

@@ -67,7 +67,7 @@ const ProductInfoClient = () => {
                     />
                 </Link>
 
-                <Link className={styles["nav-link"]} href="/#">
+                <Link className={styles["nav-link"]} href="#">
                     <Image
                         src="/main/products-green.svg"
                         alt={'products'}

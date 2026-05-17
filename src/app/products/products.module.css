@@ -60,6 +60,7 @@
     outline: none;
 }
 
+
 .main-layout .content{
     display: flex;
     flex-direction: column;
@@ -70,6 +71,11 @@
     width: 100%;
     overflow: hidden;
     overflow-y: auto;
+}
+
+
+.main-layout .content a{
+    text-decoration: none;
 }
 
 .product{
