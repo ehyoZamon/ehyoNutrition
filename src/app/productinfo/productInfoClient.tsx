@@ -20,7 +20,7 @@ const ProductInfoClient = () => {
                     
                 bok choy
                 <Image
-                    src="/productInfo/leaves.svg"
+                    src="/productinfo/leaves.svg"
                     alt={"leaves"}
                     width={42}
                     height={44}
@@ -30,7 +30,7 @@ const ProductInfoClient = () => {
             
             <div className={styles["content"]}>
                 <Image
-                    src="/productInfo/boyChokChart.png"
+                    src="/productinfo/boyChokChart.png"
                     alt={"boyChokChart"}
                     width={247}
                     height={203}
