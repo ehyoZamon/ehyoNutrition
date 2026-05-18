@@ -43,5 +43,14 @@
     "image": "/products/apple.png",
     "favorite": false,
     "link": "/productinfo/apple"
+  },
+  {
+    "id": 6,
+    "name": "Cottage cheese",
+    "category": "food/milk products",
+    "calories": "170/100mg",
+    "image": "/products/cottage-cheese.png",
+    "favorite": false,
+    "link": "/productinfo/cottage-cheese"
   }
 ]
