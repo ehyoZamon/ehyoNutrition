@@ -93,7 +93,7 @@ html.dark body {
 }
 
 .wrapper{
-    border-radius: 24px;
+    /*border-radius: 24px;*/
     max-width: 400px;
     max-height: 1000px;
     width: 100%;

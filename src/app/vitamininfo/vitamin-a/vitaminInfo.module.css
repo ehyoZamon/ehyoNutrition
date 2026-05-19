@@ -45,7 +45,7 @@
     overflow-y: auto;
 }
 
-.product-img-container{
+.vitamin-img-container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
     position: relative;
 }
 
-.product-img-container .product-img{
+.vitamin-img-container .vitamin-img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -79,7 +79,7 @@
     gap: 8px;
 }
 
-.content-text .product-name{
+.content-text .vitamin-name{
     margin: 0;
     font-family: var(--font-family);
     font-weight: 400;
@@ -89,7 +89,7 @@
     color: #000;
 }
 
-.content-text .product-category{
+.content-text .vitamin-category{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -98,7 +98,7 @@
     color: #777;
 }
 
-.content-text .product-description{
+.content-text .vitamin-description{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
@@ -111,7 +111,7 @@
     background: #fff2f0;
 }
 
-.content-text .product-section{
+.content-text .vitamin-section{
     padding: 10px;
     border-radius: 10px;
     width: 100%;
@@ -119,7 +119,7 @@
     margin-top: 8px;
 }
 
-.content-text .product-section h3{
+.content-text .vitamin-section h3{
     margin: 0;
     font-family: var(--font-family);
     font-weight: 400;
@@ -129,7 +129,7 @@
     color: #000;
 }
 
-.content-text .product-section .subelem{
+.content-text .vitamin-section .subelem{
     border-radius: 10px;
     margin: 0;
     font-family: var(--font-family);
@@ -145,24 +145,124 @@
     color: #fff;
 }
 
+.content-text .food-sources-container{
+    width: calc(100% + 30px);
+    overflow: hidden;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    margin-left: -15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
 
-.content-text .product-section ul{
+.content-text .food-sources-container .food-source:last-child{
+    margin-right: 15px;
+}
+
+.content-text .top-food-sources{
+    padding: 0;
+}
+
+.content-text .top-food-sources .subelem{
+    background: #eff7ee;
+    height: 75px;
+    min-width: 75px;
+    max-width: 150px;
+    width: max-content;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.content-text .top-food-sources .food-source{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.content-text .top-food-sources .product-name{
+    white-space: nowrap;     /* Запрещаем перенос */
+    overflow: hidden;        /* Прячем то, что вылезло за пределы блока */
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+
+.content-text .vitamin-section ul{
     padding: 0;
     padding-left: 15px;
     margin: 8px 0;
 }
 
-.content-text .product-section li{
+.content-text .vitamin-section li{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
+    line-height: 120%;
     color: #000;
-    margin: 3px 0;
+    margin: 4px 0;
 }
 
-.content-text .product-section li::marker{
+.content-text .vitamin-section li::marker{
   color: orange;
+}
+
+
+.content .tabs-and-symptoms-section{
+    padding: 0;
+}
+
+.tabs-and-symptoms{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000;
+    gap: 4px;
+    padding: 4px;
+    background: #f5e1bf;
+    border-radius: 10px;
+}
+
+.tabs-and-symptoms .tab{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tabs-and-symptoms .tab.active{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tabs-and-symptoms-content{
+    padding: 5px 15px;
+}
+
+.tabs-and-symptoms-content .ts-tab{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000;
 }
 
 .backlink{

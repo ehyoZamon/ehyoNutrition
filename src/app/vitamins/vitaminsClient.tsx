@@ -180,7 +180,7 @@ const VitaminsClient = () => {
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="/#">
+        <Link className={styles["nav-link"]} href="#">
           <Image
             src="/main/antioxidant-green.svg"
             alt="antioxidant"
