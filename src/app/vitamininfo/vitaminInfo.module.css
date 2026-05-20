@@ -117,6 +117,12 @@
     width: 100%;
     background: #eff7ee;
     margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.02em;
+    color: #000;
 }
 
 .content-text .vitamin-section h3{
@@ -168,7 +174,7 @@
     background: #eff7ee;
     height: 75px;
     min-width: 75px;
-    max-width: 150px;
+    max-width: 100px;
     width: max-content;
     border-radius: 20px;
     overflow: hidden;
@@ -259,11 +265,12 @@
 .tabs-and-symptoms-content .ts-tab{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 120%;
     letter-spacing: -0.02em;
     color: #000;
 }
+
 
 .backlink{
     width: 30px;

@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cherryRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5a5a"></stop>
+      <stop offset="100%" stop-color="#b3002d"></stop>
+    </linearGradient>
+
+    <linearGradient id="leafGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ddf6d"></stop>
+      <stop offset="100%" stop-color="#1d7f32"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="rgba(0,0,0,0)"></rect>
+
+  <!-- Stems -->
+  <path d="M240 140 C220 90, 180 70, 150 60" stroke="#5a381e" stroke-width="10" fill="none" stroke-linecap="round"></path>
+
+  <path d="M270 140 C300 90, 340 70, 370 60" stroke="#5a381e" stroke-width="10" fill="none" stroke-linecap="round"></path>
+
+  <!-- Leaves -->
+  <path d="M160 50 
+           C120 20, 90 40, 100 80
+           C130 95, 170 85, 190 55 Z" fill="url(#leafGreen)"></path>
+
+  <path d="M360 50 
+           C400 20, 430 40, 420 80
+           C390 95, 350 85, 330 55 Z" fill="url(#leafGreen)"></path>
+
+  <!-- Cherries -->
+  <circle cx="210" cy="250" r="90" fill="url(#cherryRed)"></circle>
+  <circle cx="310" cy="250" r="90" fill="url(#cherryRed)"></circle>
+
+  <!-- Cherry highlights -->
+  <ellipse cx="180" cy="220" rx="22" ry="35" fill="rgba(255,255,255,0.35)"></ellipse>
+  <ellipse cx="280" cy="220" rx="22" ry="35" fill="rgba(255,255,255,0.35)"></ellipse>
+
+  <!-- Bottom shadow -->
+  <ellipse cx="256" cy="400" rx="140" ry="30" fill="#00000012"></ellipse>
+</svg>
