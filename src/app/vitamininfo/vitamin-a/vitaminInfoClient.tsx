@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from 'next/image';
 import { useState } from 'react';
-import styles from './vitaminInfo.module.css';
+import styles from "../vitaminInfo.module.css";
 
 const VitaminInfoClient = () => {
     const [activeTab, setActiveTab] = useState('deficiency');
