@@ -58,5 +58,29 @@
     "image": "E",
     "favorite": false,
     "link": "/vitamininfo/vitamin-e"
-  }
+  },
+  {
+    "id": 6,
+    "name": "Vitamin K",
+    "category": "nutrients",
+    "group": "fat-soluble",
+    "dailyValue": 120,
+    "unit": "mcg",
+    "benefit": "Supports blood clotting and bone health",
+    "image": "K",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-k"
+  },
+  {
+  "id": 7,
+  "name": "Vitamin B1",
+  "category": "nutrients",
+  "group": "water-soluble",
+  "dailyValue": 1.2,
+  "unit": "mg",
+  "benefit": "Supports energy metabolism, nerve function, and heart health",
+  "image": "B<sub>1</sub>",
+  "favorite": false,
+  "link": "/vitamininfo/vitamin-b1"
+}
 ]
