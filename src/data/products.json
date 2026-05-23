@@ -1,24 +1,15 @@
 [
   {
     "id": 1,
-    "name": "Green Fresh Peas",
-    "category": "food/vegetables",
-    "calories": 134,
-    "image": "/products/peas.png",
-    "favorite": false, 
-    "link": "/productinfo/green-fresh-peas"
-  },
-  {
-    "id": 2,
-    "name": "Egg",
+    "name": "Eggs",
     "category": "food/eggs and dairy",
     "calories": 72,
     "image": "/products/egg.png",
     "favorite": false,
-    "link": "/productinfo/egg"
+    "link": "/productinfo/eggs"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Arugula",
     "category": "food/vegetables",
     "calories": 5,
@@ -27,7 +18,7 @@
     "link": "/productinfo/arugula"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Bok-choy",
     "category": "food/vegetables",
     "calories": 15,
@@ -36,7 +27,7 @@
     "link": "/productinfo/bok-choy"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Apple",
     "category": "food/fruits",
     "calories": 20,
@@ -45,7 +36,7 @@
     "link": "/productinfo/apple"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Cottage cheese",
     "category": "food/milk products",
     "calories": "170/100mg",

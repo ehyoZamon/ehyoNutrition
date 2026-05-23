@@ -37,18 +37,6 @@
   },
   {
     "id": 4,
-    "name": "Vitamin B12",
-    "category": "nutrients",
-    "group": "water-soluble",
-    "dailyValue": 2.4,
-    "unit": "mcg",
-    "benefit": "Supports nerve function, red blood cell formation, and energy production",
-    "image": "B<sub>12</sub>",
-    "favorite": false,
-    "link": "/vitamininfo/vitamin-b12"
-  },
-  {
-    "id": 5,
     "name": "Vitamin E",
     "category": "nutrients",
     "group": "fat-soluble",
@@ -60,7 +48,7 @@
     "link": "/vitamininfo/vitamin-e"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Vitamin K",
     "category": "nutrients",
     "group": "fat-soluble",
@@ -72,15 +60,99 @@
     "link": "/vitamininfo/vitamin-k"
   },
   {
-  "id": 7,
-  "name": "Vitamin B1",
-  "category": "nutrients",
-  "group": "water-soluble",
-  "dailyValue": 1.2,
-  "unit": "mg",
-  "benefit": "Supports energy metabolism, nerve function, and heart health",
-  "image": "B<sub>1</sub>",
-  "favorite": false,
-  "link": "/vitamininfo/vitamin-b1"
-}
+  "id": 6,
+    "name": "Vitamin B1",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 1.2,
+    "unit": "mg",
+    "benefit": "Supports energy metabolism, nerve function, and heart health",
+    "image": "B<sub>1</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b1"
+  },
+  {
+    "id": 7,
+    "name": "Vitamin B2",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 1.3,
+    "unit": "mg",
+    "benefit": "Supports energy production, healthy skin, and eye function",
+    "image": "B<sub>2</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b2"
+  },
+  {
+    "id": 8,
+    "name": "Vitamin B3",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 16,
+    "unit": "mg",
+    "benefit": "Supports metabolism, nervous system function, and healthy skin",
+    "image": "B<sub>3</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b3"
+  },
+  {
+    "id": 9,
+    "name": "Vitamin B5",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 5,
+    "unit": "mg",
+    "benefit": "Supports energy production and hormone synthesis",
+    "image": "B<sub>5</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b5"
+  },
+  {
+    "id": 10,
+    "name": "Vitamin B6",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 1.7,
+    "unit": "mg",
+    "benefit": "Supports brain development, immune function, and protein metabolism",
+    "image": "B<sub>6</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b6"
+  },
+  {
+    "id": 11,
+    "name": "Vitamin B7",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 30,
+    "unit": "mcg",
+    "benefit": "Supports healthy hair, skin, nails, and metabolism",
+    "image": "B<sub>7</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b7"
+  },
+  {
+    "id": 12,
+    "name": "Vitamin B9",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 400,
+    "unit": "mcg",
+    "benefit": "Supports DNA synthesis, cell growth, and red blood cell formation",
+    "image": "B<sub>9</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b9"
+  },
+  {
+    "id": 13,
+    "name": "Vitamin B12",
+    "category": "nutrients",
+    "group": "water-soluble",
+    "dailyValue": 2.4,
+    "unit": "mcg",
+    "benefit": "Supports nerve function, red blood cell formation, and energy production",
+    "image": "B<sub>12</sub>",
+    "favorite": false,
+    "link": "/vitamininfo/vitamin-b12"
+  }
 ]

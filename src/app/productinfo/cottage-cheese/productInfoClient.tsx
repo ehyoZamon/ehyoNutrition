@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from 'next/image';
-import styles from './productInfo.module.css';
+import styles from "../productInfo.module.css";
 
 const ProductInfoClient = () => {
     return (    

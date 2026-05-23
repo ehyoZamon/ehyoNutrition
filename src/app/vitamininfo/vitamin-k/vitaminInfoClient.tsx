@@ -108,17 +108,6 @@ const VitaminInfoClient = () => {
                                 
                                 <div className={`${styles['food-source']} ${styles['subelem']}`}>
                                     <Image 
-                                        src={"/products/broccoli.png"}
-                                        alt={"broccoli"}
-                                        width={40}
-                                        height={40}
-                                        className={styles["food-source-img"]}
-                                    />
-                                    <div className={styles["product-name"]}>Avocados</div>
-                                </div>
-
-                                <div className={`${styles['food-source']} ${styles['subelem']}`}>
-                                    <Image 
                                         src={"/products/brussels-sprouts.png"}
                                         alt={"brussels-sprouts"}
                                         width={40}
@@ -173,17 +162,6 @@ const VitaminInfoClient = () => {
                                     <div className={styles["product-name"]}>Beef Liver</div>
                                 </div>
 
-                                <div className={`${styles['food-source']} ${styles['subelem']}`}>
-                                    <Image 
-                                        src={"/products/liver.png"}
-                                        alt={"liver"}
-                                        width={40}
-                                        height={40}
-                                        className={styles["food-source-img"]}
-                                    />
-                                    <div className={styles["product-name"]}>Beef Liver</div>
-                                </div>
-                                
                                 <div className={`${styles['food-source']} ${styles['subelem']}`}>
                                     <Image 
                                         src={"/products/chicken.png"}

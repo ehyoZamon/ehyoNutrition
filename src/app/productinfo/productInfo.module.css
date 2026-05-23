@@ -5,9 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 48px 24px;
+    padding: 0;
     padding-bottom: 24px;
-    gap: 24px;
     overflow-y: auto;
     background-color: #fefefe;
 }
@@ -21,6 +20,7 @@
     justify-content: space-between;
     gap: 10px;
     flex-shrink: 0;
+    padding-top: 10px;
 }
 
 .nav-link{
@@ -28,129 +28,252 @@
     text-decoration: none;
 }
 
-.content{
+.content-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     flex: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.product-img-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.product-name{
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 63%;
-    letter-spacing: -0.01em;
-    text-align: center;
-    color: #91c788;
-    width: 100%;
-    max-width: 320px;
-    position: relative;
-    padding-left: 35px;
-}
-
-.product-name .back{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.product-name .leaves{
-    left: 10px;
+    overflow: hidden;
+    aspect-ratio: 100/50;
+    max-width: 600px;
     position: relative;
 }
 
-.productConsistency{
-    background: #fff2f0;
-    border-radius: 20px;
+.product-img-container .product-img{
     width: 100%;
-    max-width: 320px;
-    padding: 40px;
-    gap: 20px; 
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+    position: relative; 
+}
+
+.content-text{
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    top: -30px;
+    background: #fff;
+    width: 100%;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    gap: 8px;
 }
 
-.productConsistency .productCalories{
+.content-text .product-name{
+    margin: 0;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: -0.01em;
-    text-align: center;
-    color: #91c788;
+    color: #000;
+}
+
+.content-text .product-category{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 143%;
+    letter-spacing: -0.02em;
+    color: #777;
+}
+
+.content-text .product-description{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.02em;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
     width: 100%;
+    background: #fff2f0;
 }
 
-
-.productConsistency .productMass{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
+.content-text .product-section{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background: #eff7ee;
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000;
 }
 
-.productMassElem{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+.content-text .product-section h3{
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 143%;
+    color: #000;
+}
+
+.content-text .product-section .subelem{
+    border-radius: 10px;
+    margin: 0;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
-    letter-spacing: -0.02em;
-    color: #444;
-    gap: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    color: #fff;
 }
 
-.productMassElem .dot{
-    border-radius: 20px;
-    width: 12px;
-    height: 12px;
+
+.content-text .product-section ul{
+    padding: 0;
+    padding-left: 15px;
+    margin: 8px 0;
 }
 
-.productConsistency .vitamins{
+.content-text .product-section li{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 12px;
-    line-height: 167%;
-    letter-spacing: -0.02em;
-    color: #777;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000;
+    margin: 4px 0;
 }
 
-.productConsistency .comment {
-    position: relative;
-    left: -15px;
+.content-text .product-section li::marker{
+  color: orange;
+}
+
+.backlink{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 100%;
+    overflow: hidden;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    background: #fff;
+    z-index: 10;
 }
 
-.productConsistency .comment p{
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    color: #777;
+/* Делаем элементы нутриентов визуально кликабельными */
+.clickable-element {
+    cursor: pointer;
+    transition: transform 0.1s ease, opacity 0.2s ease;
+    user-select: none;
+}
+
+.clickable-element:hover {
+    opacity: 0.9;
+}
+
+.clickable-element:active {
+    transform: scale(0.96);
+}
+
+.hint {
+    font-size: 11px;
+    color: #888;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+/* Стили для нативного диалогового окна */
+.modal-dialog {
+    border: none;
+    border-radius: 16px;
+    padding: 0;
+    max-width: 340px;
+    width: calc(100% - 32px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
     margin: 0;
 }
 
-.productConsistency .comment .dot{
-    content: "";
-    display: inline-block;
-    background: #777;
+/* Стилизация затемнения заднего плана */
+.modal-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+/* Контент внутри модалки */
+.modal-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    font-family: var(--font-family), sans-serif;
+}
+
+.modal-header-badge {
+    color: #fff;
+    padding: 6px 14px;
     border-radius: 20px;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.modal-description {
+    font-size: 14px;
+    line-height: 145%;
+    color: #333;
+    margin: 0;
+}
+
+.modal-close-btn {
+    align-self: flex-end;
+    background: #f0f0f0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease;
+    outline: none;
+    border: none;
+}
+
+.modal-close-btn:hover {
+    background: #e5e5e5;
+}
+
+.modal-close-btn:active {
+    transform: scale(0.98);
 }
 
 *::-webkit-scrollbar{
