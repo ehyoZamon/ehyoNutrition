@@ -10,6 +10,7 @@ const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
+        slug: "",
         amount: "~72 kcal",
         bg: "#15837c",
         description: "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
@@ -17,6 +18,7 @@ const MACRO_NUTRIENTS = [
     {
         id: "protein",
         name: "Protein",
+        slug: "",
         amount: "6.3 grams",
         bg: "#f5722c",
         description: "High-quality, bioavailable protein containing all nine essential amino acids. Essential for muscle repair, cellular construction, and immune function."
@@ -24,6 +26,7 @@ const MACRO_NUTRIENTS = [
     {
         id: "fat",
         name: "Total Fat",
+        slug: "",
         amount: "4.8 grams",
         bg: "#e4a910",
         description: "Includes healthy monounsaturated and polyunsaturated fats, alongside essential fatty acids, vital for hormone production and absorbing fat-soluble vitamins."
@@ -31,6 +34,7 @@ const MACRO_NUTRIENTS = [
     {
         id: "carbs",
         name: "Carbohydrates",
+        slug: "",
         amount: "0.4 grams",
         bg: "#15837c",
         description: "Extremely low in carbs, making eggs an excellent choice for stabilizing blood sugar and supporting low-glycemic dietary targets."
