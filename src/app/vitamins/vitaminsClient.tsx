@@ -7,57 +7,29 @@ import Image from "next/image";
 import styles from "./vitamins.module.css";
 
 import vitaminsData from "@/data/vitamins.json";
+import { loadFavorites, toggleVitaminFavorite } from "@/lib/favorites";
 
 const VitaminsClient = () => {
   const [search, setSearch] = useState("");
-  const [vitamins, setvitamins] = useState(vitaminsData);
-
-  /*
-    LOAD FAVORITES
-  */
+  const [vitamins, setVitamins] = useState(vitaminsData);
 
   useEffect(() => {
-    const savedFavorites = localStorage.getItem("favorites");
-
-    if (!savedFavorites) return;
-
-    const favoriteIds = JSON.parse(savedFavorites);
-
-    const updatedvitamins = vitaminsData.map((vitamin) => ({
-      ...vitamin,
-      favorite: favoriteIds.includes(vitamin.id),
-    }));
-
-    setvitamins(updatedvitamins);
+    const store = loadFavorites();
+    setVitamins(
+      vitaminsData.map((vitamin) => ({
+        ...vitamin,
+        favorite: store.vitamins.includes(vitamin.id),
+      }))
+    );
   }, []);
 
-  /*
-    TOGGLE FAVORITE
-  */
-
   const toggleFavorite = (id: number) => {
-    const updatedvitamins = vitamins.map((vitamin) =>
-      vitamin.id === id
-        ? {
-            ...vitamin,
-            favorite: !vitamin.favorite,
-          }
-        : vitamin
-    );
-
-    setvitamins(updatedvitamins);
-
-    /*
-      SAVE TO LOCALSTORAGE
-    */
-
-    const favoriteIds = updatedvitamins
-      .filter((vitamin) => vitamin.favorite)
-      .map((vitamin) => vitamin.id);
-
-    localStorage.setItem(
-      "favorites",
-      JSON.stringify(favoriteIds)
+    const store = toggleVitaminFavorite(id);
+    setVitamins((current) =>
+      current.map((vitamin) => ({
+        ...vitamin,
+        favorite: store.vitamins.includes(vitamin.id),
+      }))
     );
   };
 
@@ -65,7 +37,7 @@ const VitaminsClient = () => {
     SEARCH
   */
 
-  const filteredvitamins = useMemo(() => {
+  const filteredVitamins = useMemo(() => {
     return vitamins.filter((vitamin) => {
       const query = search.toLowerCase();
 
@@ -97,7 +69,7 @@ const VitaminsClient = () => {
       </div>
 
       <div className={styles["content"]}>
-        {filteredvitamins.map((vitamin) => (
+        {filteredVitamins.map((vitamin) => (
           <div className={styles["vitamin"]} key={vitamin.id}>
             <Link
               href={vitamin.link}
@@ -148,7 +120,7 @@ const VitaminsClient = () => {
           </div>
         ))}
 
-        {filteredvitamins.length === 0 && (
+        {filteredVitamins.length === 0 && (
           <div className={styles["empty-state"]}>
             <Image
               src="/nothing-found.svg"

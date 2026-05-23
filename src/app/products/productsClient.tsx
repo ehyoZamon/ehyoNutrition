@@ -7,57 +7,29 @@ import Image from "next/image";
 import styles from "./products.module.css";
 
 import productsData from "@/data/products.json";
+import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
 
 const ProductsClient = () => {
   const [search, setSearch] = useState("");
   const [products, setProducts] = useState(productsData);
 
-  /*
-    LOAD FAVORITES
-  */
-
   useEffect(() => {
-    const savedFavorites = localStorage.getItem("favorites");
-
-    if (!savedFavorites) return;
-
-    const favoriteIds = JSON.parse(savedFavorites);
-
-    const updatedProducts = productsData.map((product) => ({
-      ...product,
-      favorite: favoriteIds.includes(product.id),
-    }));
-
-    setProducts(updatedProducts);
+    const store = loadFavorites();
+    setProducts(
+      productsData.map((product) => ({
+        ...product,
+        favorite: store.products.includes(product.id),
+      }))
+    );
   }, []);
 
-  /*
-    TOGGLE FAVORITE
-  */
-
   const toggleFavorite = (id: number) => {
-    const updatedProducts = products.map((product) =>
-      product.id === id
-        ? {
-            ...product,
-            favorite: !product.favorite,
-          }
-        : product
-    );
-
-    setProducts(updatedProducts);
-
-    /*
-      SAVE TO LOCALSTORAGE
-    */
-
-    const favoriteIds = updatedProducts
-      .filter((product) => product.favorite)
-      .map((product) => product.id);
-
-    localStorage.setItem(
-      "favorites",
-      JSON.stringify(favoriteIds)
+    const store = toggleProductFavorite(id);
+    setProducts((current) =>
+      current.map((product) => ({
+        ...product,
+        favorite: store.products.includes(product.id),
+      }))
     );
   };
 
