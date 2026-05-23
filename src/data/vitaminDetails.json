@@ -1,0 +1,508 @@
+{
+  "vitamin-a": {
+    "slug": "vitamin-a",
+    "title": "Vitamin A (Retinol)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin A is a crucial, fat-soluble nutrient that plays a vital role in maintaining overall health, particularly for your vision, immune system, and skin.",
+    "keyFunctionsHtml": "<ul>\r\n                                <li><b>Vision Support:</b> It is a critical component of rhodopsin, a protein that allows your eyes to see in low-light conditions.</li>\r\n                                <li><b>Skin health</b> It promotes healthy cell turnover, keeps the skin barrier intact, and helps prevent conditions like severe dryness or acne.</li>\r\n                                <li><b>Immune Support:</b> It helps maintain the mucosal barriers in your respiratory and digestive tracts, acting as a first line of defense against infections.</li>\r\n                                <li><b>Antioxidant Protection:</b> It protects cells from oxidative stress and damage caused by free radicals.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/carrot.png",
+        "name": "Carrot"
+      },
+      {
+        "image": "/products/cottage-cheese.png",
+        "name": "Cottage Cheese"
+      },
+      {
+        "image": "/products/liver.png",
+        "name": "Liver"
+      },
+      {
+        "image": "/products/pumpkin.png",
+        "name": "Pumpkin"
+      }
+    ],
+    "foodSourcesNotesHtml": "",
+    "rdiHtml": "<ul>\r\n                                <li>700–900 mcg for adults</li>\r\n                                <li>300–600 mcg for children</li>\r\n                            </ul>",
+    "deficiencyHtml": "<ul>\r\n                                    <li><b>Night Blindness & Dry Eyes:</b> Early difficulty seeing in low light that progresses to severe dryness (Xerophthalmia) and white, foamy Bitot's spots on the eyes.</li>\r\n                                    <li><b>Permanent Blindness:</b> Severe, untreated deficiency that causes the cornea to soften, scar, and lead to permanent vision loss.</li>\r\n                                    <li><b>Rough, Dry Skin:</b> Keratin buildup in hair follicles that creates a rough, bumpy \"gooseflesh\" texture, alongside generally dry skin and hair.</li>\r\n                                    <li><b>Stunted Growth & Slow Healing:</b> Delayed physical and bone development in children, accompanied by significantly slower recovery times for wounds and cuts.</li>\r\n                                    </ul>",
+    "overdoseHtml": "<strong>Acute Overdose (Sudden High Dose):</strong>\r\n                                    <ul>\r\n                                    <li><b>Headaches, Dizziness & Confusion:</b> Caused by increased intracranial pressure from a sudden massive dose.</li>\r\n                                    <li><b>Nausea, Vomiting & Gastric Pain:</b> Immediate digestive distress and abdominal discomfort.</li>\r\n                                    <li><b>Skin Irritation & Peeling:</b> Rapidly developing skin rashes followed by peeling, especially on the palms and soles.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <strong>Chronic Overdose (Long-term Accumulation):</strong>\r\n                                    <ul>\r\n                                    <li><b>Bone & Joint Pain:</b> Abnormal bone thickening and painful swelling in the joints over time.</li>\r\n                                    <li><b>Liver Damage & Jaundice:</b> Chronic liver stress leading to enlargement, dysfunction, and yellowing of the skin or eyes.</li>\r\n                                    <li><b>Severe Dryness & Hair Loss:</b> Progressive toxicity causing cracked skin, split lips, and significant hair loss.</li>\r\n                                    <li><b>Fetal Birth Defects:</b> High toxicity risk for pregnant individuals, as excess preformed Vitamin A can harm fetal development.</li>\r\n                                    </ul>"
+  },
+  "vitamin-b1": {
+    "slug": "vitamin-b1",
+    "title": "Vitamin B1 (Thiamine)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B1 is a water-soluble vitamin and was the very first B vitamin to be discovered by scientists, earning it the number \"1.\" Because it is water-soluble, your body cannot store large amounts of it. Any excess is quickly washed out in your urine, meaning you need a steady, daily supply from your diet to keep your body's cellular engines running smoothly.",
+    "keyFunctionsHtml": "Thiamine works as an essential spark plug in your cells, primarily focusing on energy production and your nervous system:\r\n                            <ul>\r\n                                <li><b>Converting Food into Energy:</b> It acts as an indispensable coenzyme that helps your body break down carbohydrates and branched-chain amino acids (proteins) into adenosine triphosphate (ATP), which is the primary energy currency every single cell in your body uses.</li>\r\n                                <li><b>Nerve and Brain Function:</b> Your brain is the most energy-demanding organ in your body. Vitamin B1 ensures a steady supply of glucose to brain cells and is critical for creating acetylcholine, a major neurotransmitter that allows your brain to send messages to your muscles and organs.</li>\r\n                                <li><b>Heart Muscle Support:</b> Because the heart requires constant cellular energy to pump blood, thiamine is vital for maintaining proper cardiac muscle tone and regular pumping rhythms.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "Thiamine is present in a wide variety of whole foods, though heavy food processing (like refining whole grains into white flour) can strip it away. Consequently, many countries fortify basic food products.",
+    "foodSources": [
+      {
+        "image": "/products/black-beans.png",
+        "name": "Black beans"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/soybean.png",
+        "name": "Soybeans"
+      },
+      {
+        "image": "/products/sunflower-seeds.png",
+        "name": "Sunflower Seeds"
+      },
+      {
+        "image": "/products/flax-seed.png",
+        "name": "Flaxseeds"
+      },
+      {
+        "image": "/products/macadamia-nut.png",
+        "name": "Macadamia Nuts"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul> <li><b>Legumes:</b> Black beans, lentils, navy beans, and soybeans pack a massive plant-based dose.</li> <li><b>Seeds & Nuts:</b> Sunflower seeds, flaxseeds, and macadamia nuts are exceptionally high.</li> <li><b>Whole Grains:</b> Brown rice, whole wheat bread, oats, and quinoa retain their natural thiamine-rich outer bran layers.</li> <li><b>Fortified and Enriched Foods:</b> White rice, breakfast cereals, and white flour are heavily enriched with thiamine to prevent widespread nutritional deficiencies.</li> <li><b>Nutritional Yeast:</b> A favorite among vegetarians and vegans, providing an intense concentration of the entire B-vitamin complex.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B1 are measured in Milligrams (mg).\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men (19+ years): 1.2 mg / day</li>\r\n                                <li>Women (19+ years): 1.1 mg / day</li>\r\n                                <li>Pregnant Women: 1.4 mg / day</li>\r\n                                <li>Lactating Women: 1.4 mg / day — Extra thiamine is required to support the metabolic demands of milk production.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 0.2 mg / day</li>\r\n                                <li>Infants (7–12 months): 0.3 mg / day</li>\r\n                                <li>Toddlers (1–3 years): 0.5 mg / day</li>\r\n                                <li>Children (4–8 years): 0.6 mg / day</li>\r\n                                <li>Children (9–13 years): 0.9 mg / day</li>\r\n                                <li>Adolescents (14–18 years): 1.2 mg / day for boys, 1.0 mg / day for girls</li>\r\n                            </ul>",
+    "deficiencyHtml": "A severe, prolonged lack of Vitamin B1 stops your cells from producing energy properly, directly impacting your cardiovascular and nervous systems. This deficiency leads to a well-known historical disease called Beriberi, as well as neurological syndromes.\r\n                                    <br></br>\r\n                                    <b>Early Warning Signs</b>\r\n                                    <ul>\r\n                                        <li>Unexplained loss of appetite, indigestion, or sudden weight loss.</li>\r\n                                        <li>Short-term memory issues, confusion, and extreme irritability.</li>\r\n                                        <li>General muscle weakness, particularly in the legs, and a feeling of heavy fatigue.</li>\r\n                                    </ul>\r\n                                    <b>Advanced Diseases</b>\r\n                                    <ul>\r\n                                        <li>Dry Beriberi: This form targets the nervous system. It causes severe muscle wasting, a loss of knee/ankle reflexes, and peripheral neuropathy—characterized by a burning, tingling numbness that starts in the toes and feet.</li>\r\n                                        <li>Wet Beriberi: This form targets the cardiovascular system. The heart struggles to pump effectively, leading to a fast heart rate, severe shortness of breath during light activity, and fluid buildup that causes heavily swollen legs and ankles. Left untreated, it can cause congestive heart failure.</li>\r\n                                        <li>Wernicke-Korsakoff Syndrome: A severe brain disorder most commonly seen in cases of chronic alcoholism (as alcohol severely blocks thiamine absorption in the gut). Symptoms include deep mental confusion, complete loss of muscle coordination (ataxia), involuntary eye movements, and severe, permanent memory gaps.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Because Vitamin B1 is water-soluble, it has an incredibly high safety profile. Your digestive tract naturally limits how much thiamine it can absorb at one time, and your kidneys are highly efficient at flushing out any excess through your urine.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): There is no established Upper Limit for Vitamin B1. No toxic or adverse health effects have been recorded from consuming high amounts through whole foods or high-dose oral supplements.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>Potential Minor Side Effects</b>\r\n                                    Even at massive therapeutic doses (such as 100 mg to 500 mg used to treat severe deficiency under medical supervision), oral toxicity is practically unheard of. On rare occasions, if someone receives exceptionally high doses via an intravenous (IV) medical injection, they might experience a mild skin rash, temporary nausea, or localized irritation at the injection site, but these symptoms are rare and resolve quickly."
+  },
+  "vitamin-b12": {
+    "slug": "vitamin-b12",
+    "title": "Vitamin B12 (Cobalamin)",
+    "category": "Nutrients/vitamins",
+    "description": "Common supplemental forms: Cyanocobalamin (synthetic, stable) and Methylcobalamin (natural, active coenzyme)\n                            Vitamin B12 is a water-soluble vitamin that is structurally the largest and most complex of all vitamins. It is unique because it features a core molecule centered around a single mineral ion: cobalt (hence its scientific name). Unlike plants or animals, Vitamin B12 can only be synthesized by certain bacteria and archaea. Animals acquire it by consuming contaminated food or via their own internal gut bacteria, meaning B12 is found naturally almost exclusively in animal-derived foods.",
+    "keyFunctionsHtml": "Vitamin B12 is essential for cellular metabolism and plays foundational roles in three major systems:\r\n                            <ul>\r\n                                <li><b>Red Blood Cell Formation:</b> It is required for the proper division and maturation of red blood cells. Without it, DNA synthesis stalls, leading to malformed, oversized blood cells that cannot easily exit the bone marrow.</li>\r\n                                <li><b>Neurological Integrity & Myelin Sheath Maintenance:</b> B12 is critical for the production and maintenance of the myelin sheath—the protective insulating layer that wraps around nerves to ensure rapid, efficient electrical signaling.</li>\r\n                                <li><b>DNA and Energy Production:</b> It acts as a coenzyme in the synthesis of DNA during cell division and works closely with folate (Vitamin B9) to convert homocysteine into methionine, an essential pathway for overall cellular metabolism.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/liver.png",
+        "name": "Beef liver"
+      },
+      {
+        "image": "/products/kidney.png",
+        "name": "Kidney meat"
+      },
+      {
+        "image": "/products/shellfish.png",
+        "name": "Shellfish"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Organ Meats:</b> Beef liver and kidneys contain exceptionally high concentrations.</li><li><b>Shellfish:</b> Clams, oysters, and mussels are incredibly rich sources.</li><li><b>Seafood & Poultry:</b> Salmon, tuna, sardines, beef, and chicken.</li><li><b>Dairy & Eggs:</b> Whole milk, Swiss cheese, yogurt, and egg yolks provide moderate amounts.</li><li><b>Fortified Plant Foods:</b> For vegans and strict vegetarians, fortified foods are vital. These include nutritional yeast, fortified plant milks (oat, soy, almond), and fortified breakfast cereals.</li></ul>",
+    "rdiHtml": "Because Vitamin B12 is highly potent, the required amounts are tiny and measured in Micrograms<br></br>\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Adults (19+ years): 2.4μg / day</li>\r\n                                <li>Pregnant Women: 2.6μg / day</li>\r\n                                <li>Lactating Women: 2.8μg / day</li>\r\n                                <li>Older Adults (50+ years): While the daily dosage requirement is the same, medical guidelines strongly suggest that adults over 50 get their B12 from supplements or fortified foods. This is because older adults frequently produce less stomach acid, making it hard to extract B12 from whole animal proteins, whereas supplemental B12 bypasses this step.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 0.4μg / day</li>\r\n                                <li>nfants (7–12 months):  0.5μg / day</li>\r\n                                <li>Toddlers (1–3 years): 0.9μg / day</li>\r\n                                <li>Children (4–8 years): 1.2μg / day</li>\r\n                                <li>Children (9–13 years): 1.8μg / day</li>\r\n                                <li>Adolescents (14–18 years): 2.2μg / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "Because the human liver can store a 3-to-5-year supply of Vitamin B12, deficiency symptoms develop incredibly slowly and can take years to surface after absorption stops or dietary intake drops.\r\n                                    <br></br>\r\n                                   <b>Hematological Symptoms</b>\r\n                                    <ul>\r\n                                        <li><b>Megaloblastic Anemia:</b> The body produces fewer, abnormally large, and fragile red blood cells. Because these cells are malformed, they cannot carry oxygen efficiently, leading to chronic fatigue, severe weakness, pale skin, a smooth, swollen tongue (glossitis), and shortness of breath.</li>\r\n                                    </ul>\r\n                                    <b>Neurological & Psychological Symptoms (Can become permanent if untreated)</b>\r\n                                    <ul>\r\n                                        <li>Paresthesia: A persistent tingling, \"pins and needles,\" or numbness in the hands and feet caused by the degeneration of the nerve myelin sheaths.</li>\r\n                                        <li>Balance Problems: Difficulty walking, unsteadiness, or a loss of coordination (ataxia), especially in the dark.</li>\r\n                                        <li>Cognitive Decline: Brain fog, memory loss, confusion, and irritability. In severe cases, it can mimic symptoms of dementia.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Vitamin B12 has an exceptionally low toxicity profile. Because it is water-soluble, the body's digestive tract naturally decreases absorption efficiency as oral doses increase. Any excess circulating in the blood is easily filtered out by the kidneys and flushed out in urine.\r\n                                    <ul>\r\n                                        <li><b>Tolerable Upper Intake Level (UL):</b> There is no established Upper Limit for Vitamin B12 because no adverse health effects have been linked to high intakes from food or mega-dose supplements in healthy individuals.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>Potential Mild Reactions</b>\r\n                                    Even at high therapeutic doses (such as 1,000μg to 2,000μg used to treat deficiency), major side effects are non-existent. On rare occasions, individuals receiving high-dose supplemental injections might experience mild, transient side effects like localized skin breakouts (acne-like eruptions), mild diarrhea, or temporary itching, though these are typically reactions to binding agents rather than the vitamin itself."
+  },
+  "vitamin-b2": {
+    "slug": "vitamin-b2",
+    "title": "Vitamin B2 (Riboflavin)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B2, universally known as Riboflavin, is a essential water-soluble vitamin that plays a foundational role in human health. It cannot be synthesized or significantly stored by the body, meaning any excess is naturally flushed out through urine (often giving it a signature bright yellow-neon hue). A consistent daily intake through your diet is necessary to keep your cellular metabolisms running effectively.",
+    "keyFunctionsHtml": "Riboflavin works at the core cellular level, serving as a critical component of key coenzymes responsible for energy production and body maintenance:\r\n                            <ul>\r\n                                <li><b>Energy Production & Metabolism:</b> It acts as a mandatory builder for coenzymes (FAD and FMN) that help convert proteins, fats, and carbohydrates from your food into usable energy (ATP) for your entire body.</li>\r\n                                <li><b>Antioxidant & Cellular Protection:</b> Vitamin B2 helps recycle glutathione, which is one of the body’s most important internal antioxidants, shielding your cells from everyday oxidative damage.</li>\r\n                                <li><b>Skin, Eye, and Tissue Maintenance:</b> It plays a vital role in maintaining the normal health of your skin, mucous membranes, cornea, and nervous system, while aiding tissue repair.</li>\r\n                                <li><b>Conversion of Other B Vitamins:</b> Riboflavin is required to convert Vitamin B6 and Folate (B9) into their active forms so the body can actively utilize them.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "Riboflavin is found naturally in a wide spectrum of animal and plant-based foods, though it is highly sensitive to light and can be easily destroyed by improper storage.",
+    "foodSources": [
+      {
+        "image": "/products/liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/milk.png",
+        "name": "Milk & Dairy"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/almond.png",
+        "name": "Almonds"
+      },
+      {
+        "image": "/products/mushroom.png",
+        "name": "Mushrooms"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Organ Meats:</b> Beef liver and kidneys offer exceptionally high natural concentrations.</li><li><b>Dairy Products & Eggs:</b> Whole milk, yogurt, cheeses, and eggs are primary, highly bioavailable daily sources.</li><li><b>Green Leafy Vegetables:</b> Spinach, asparagus, and broccoli provide solid vegetable-based doses.</li><li><b>Nuts and Seeds:</b> Almonds and sunflower seeds are packed with natural riboflavin.</li><li><b>Fortified Grains:</b> Many commercial breakfast cereals, breads, and pastas are enriched with Vitamin B2 to prevent population-wide deficiencies.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B2 are measured in Milligrams (mg).\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men (19+ years): 1.3 mg / day</li>\r\n                                <li>Women (19+ years): 1.1 mg / day</li>\r\n                                <li>Pregnant Women: 1.4 mg / day</li>\r\n                                <li>Lactating Women: 1.6 mg / day — Increased intake is vital to properly maintain the nutritional quality of breast milk.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 0.3 mg / day</li>\r\n                                <li>Infants (7–12 months): 0.4 mg / day</li>\r\n                                <li>Toddlers (1–3 years): 0.5 mg / day</li>\r\n                                <li>Children (4–8 years): 0.6 mg / day</li>\r\n                                <li>Children (9–13 years): 0.9 mg / day</li>\r\n                                <li>Adolescents (14–18 years): 1.3 mg / day for boys, 1.0 mg / day for girls</li>\r\n                            </ul>",
+    "deficiencyHtml": "A clinical lack of Vitamin B2 triggers a specific deficiency medical condition known as <b>Ariboflavinosis</b>. Because riboflavin supports tissue repair and energy synthesis, its absence primarily manifests as prominent lesions, cracks, and inflammation on the skin and mucosal surfaces.\r\n                                    <br></br>\r\n                                    <b>Major Physical Symptoms</b>\r\n                                    <ul>\r\n                                        <li><b>Angular Cheilitis:</b> Painful cracking, split sores, and deep fissures at the outer corners of the mouth.</li>\r\n                                        <li><b>Glossitis and Stomatitis:</b> A swollen, sore, bright red or magenta-colored tongue, alongside general inflammation of the inner mouth lining.</li>\r\n                                        <li><b>Seborrheic Dermatitis:</b> Scaly, greasy, itchy skin eruptions, particularly affecting the scrotum, vulva, or the skin around the nose and eyelids.</li>\r\n                                        <li><b>Ocular Issues:</b> Bloodshot, watery eyes that are highly sensitive to light (photophobia), paired with blurred vision.</li>\r\n                                        <li><b>Anemia:</b> Long-term deficiency can impair iron absorption and utilization, leading to constant physical fatigue and weakness.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Because Vitamin B2 is entirely water-soluble, it has an exemplary safety and toxicity profile. The human gastrointestinal tract naturally limits how much riboflavin it can absorb from a single meal or supplement dose, and your kidneys actively filter out any excess through your urine.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): There is <b>no established Upper Limit</b> for Vitamin B2. No toxic side effects or adverse health events have been documented from consuming massive amounts through food or high-dose oral supplements.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>The Neon Urine Effect</b>\r\n                                    The only noticeable consequence of high Vitamin B2 intake is a dramatic change in urine color to a vibrant, glowing <b>neon yellow-orange</b>. This is completely harmless and is simply a visual sign of your body successfully processing and shedding the excess, unabsorbed vitamin.\r\n                                    <br></br>\r\n                                    <b>Potential Minor Side Effects</b>\r\n                                    Even at mega-therapeutic doses (such as 400 mg daily used clinically to help prevent migraines), digestive upset or mild diarrhea are extremely rare and typically disappear as soon as the excess supplementation is discontinued."
+  },
+  "vitamin-b3": {
+    "slug": "vitamin-b3",
+    "title": "Vitamin B3 (Niacin)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B3, commonly known as Niacin or Nicotinic Acid, is an essential water-soluble nutrient. The body can store it only in very limited amounts, making a consistent daily intake from your diet vital. Uniquely among B vitamins, the liver can actually synthesize a small portion of Niacin internally from the essential amino acid tryptophan, which is found in protein-rich foods.",
+    "keyFunctionsHtml": "Niacin functions as a component of two vital coenzymes (NAD and NADP) that are indispensable for more than 400 biochemical reactions in the human body:\r\n                            <ul>\r\n                                <li><b>Cellular Energy Production:</b> It plays a foundational role in cellular respiration, helping your body convert dietary proteins, fats, and carbohydrates into glucose and usable ATP energy.</li>\r\n                                <li><b>DNA Repair and Genomic Stability:</b> Vitamin B3 acts as a key helper in repairing damaged DNA molecules and regulates cellular responses to stress.</li>\r\n                                <li><b>Cholesterol Optimization:</b> In high therapeutic doses, Niacin helps improve blood lipid profiles by effectively lowering LDL (\"bad\") cholesterol and triglycerides while raising HDL (\"good\") cholesterol.</li>\r\n                                <li><b>Nervous and Skin Health:</b> It is vital for maintaining healthy nerve signaling across the brain and central nervous system, as well as preserving the moisture barrier of the skin.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "Niacin is exceptionally stable during cooking and food processing compared to other B vitamins. It is highly abundant in animal proteins and selectively found in grains and legumes.",
+    "foodSources": [
+      {
+        "image": "/products/chicken.png",
+        "name": "Chicken"
+      },
+      {
+        "image": "/products/tuna.png",
+        "name": "Tuna Fish"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef"
+      },
+      {
+        "image": "/products/peanut.png",
+        "name": "Peanuts"
+      },
+      {
+        "image": "/products/brown-rice.png",
+        "name": "Brown Rice"
+      },
+      {
+        "image": "/products/mushroom.png",
+        "name": "Mushrooms"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Poultry & Seafood:</b> Chicken, turkey, tuna, and salmon are incredibly dense natural sources of highly absorbable niacin.</li><li><b>Meat Products:</b> Lean beef, pork, and animal liver deliver high amounts per serving.</li><li><b>Legumes & Nuts:</b> Peanuts are an excellent plant-based source (one ounce provides around 4 mg). Lentils and green peas also offer moderate amounts.</li><li><b>Whole Grains:</b> Brown rice and whole wheat contain natural niacin, although it is less bioavailable unless fortified.</li><li><b>Fortified Foods:</b> Enriched breakfast cereals and flours frequently contain added Vitamin B3 to guarantee adequate population levels.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B3 are standardly measured in <b>Niacin Equivalents (NE)</b> in Milligrams (mg), taking into account the conversion of tryptophan.\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men (19+ years): 16 mg NE / day</li>\r\n                                <li>Women (19+ years): 14 mg NE / day</li>\r\n                                <li>Pregnant Women: 18 mg NE / day</li>\r\n                                <li>Lactating Women: 17 mg NE / day — Higher intake satisfies the direct metabolic demands of breast milk synthesis.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 2 mg NE / day</li>\r\n                                <li>Infants (7–12 months): 4 mg NE / day</li>\r\n                                <li>Toddlers (1–3 years): 6 mg NE / day</li>\r\n                                <li>Children (4–8 years): 8 mg NE / day</li>\r\n                                <li>Children (9–13 years): 12 mg NE / day</li>\r\n                                <li>Adolescents (14–18 years): 16 mg NE / day for boys, 14 mg NE / day for girls</li>\r\n                            </ul>",
+    "deficiencyHtml": "A severe, prolonged lack of Vitamin B3 results in a classic systemic disease known as <b>Pellagra</b>. It traditionally develops in populations where corn is the primary staple food without proper processing. Pellagra is characterized by the classic \"4 Ds\":\r\n                                    <br></br>\r\n                                    <b>The Classic 4 Ds of Pellagra</b>\r\n                                    <ul>\r\n                                        <li><b>Dermatitis:</b> Severe, symmetric, dark-scaly skin rashes that look like severe sunburns. They typically manifest around the neck (known as Casal's necklace) and on the back of the hands and feet.</li>\r\n                                        <li><b>Diarrhea:</b> Chronic inflammation of the entire digestive tract lining, leading to severe abdominal cramping, indigestion, and persistent diarrhea.</li>\r\n                                        <li><b>Dementia:</b> Central nervous system decline causing profound fatigue, deep depression, confusion, paranoia, and memory loss.</li>\r\n                                        <li><b>Death:</b> If left completely untreated by medical professionals, severe Pellagra is fatal.</li>\r\n                                    </ul>",
+    "overdoseHtml": "While consuming naturally occurring Niacin in regular food will not cause issues, high-dose commercial supplements can lead to adverse events.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): The established Upper Limit is <b>35 mg / day</b> for adults to prevent uncomfortable side effects.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>The Niacin Flush Effect</b>\r\n                                    Taking doses above 30–50 mg of nicotinic acid supplements typically triggers a classic **Niacin Flush**. This causes the small capillaries in the skin to dilate, leading to an intense, temporary redness, warmth, and burning or itching sensation across the face, neck, and chest. It is usually harmless and subsides in 1–2 hours.\r\n                                    <br></br>\r\n                                    <b>Severe Toxicity Risks</b>\r\n                                    Consuming massive doses (typically 1,000 mg to 3,000 mg per day under improper clinical management) can lead to serious conditions:\r\n                                    <ul>\r\n                                        <li>Hepatotoxicity (severe liver damage or elevated liver enzymes).</li>\r\n                                        <li>Severe gastrointestinal ulcers, nausea, and vomiting.</li>\r\n                                        <li>Impaired glucose tolerance and elevated blood sugar levels.</li>\r\n                                    </ul>"
+  },
+  "vitamin-b5": {
+    "slug": "vitamin-b5",
+    "title": "Vitamin B5 (Pantothenic Acid)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B5, widely known as Pantothenic Acid, is a water-soluble nutrient essential for all forms of life. Its name is derived from the Greek word \"pantothen,\" meaning \"from everywhere,\" which perfectly reflects its widespread presence in almost all plant and animal foods. Because it is water-soluble, it cannot be heavily stored in the body, requiring consistent dietary intake.",
+    "keyFunctionsHtml": "Pantothenic acid is primarily used by the body to synthesize **Coenzyme A (CoA)**, a critical molecule that participates in numerous vital metabolic and cellular operations:\r\n                            <ul>\r\n                                <li><b>Metabolism and Energy Release:</b> It plays a master role in cellular respiration, actively helping convert dietary carbohydrates, fats, and proteins into glucose and ATP energy.</li>\r\n                                <li><b>Fatty Acid and Cholesterol Synthesis:</b> Coenzyme A is directly required for the production of healthy fatty acids, cholesterol, and vital sphingolipids (fats critical for cell membranes).</li>\r\n                                <li><b>Hormone and Neurotransmitter Production:</b> Vitamin B5 is essential for the adrenal glands to synthesize steroid hormones (such as cortisol) and helps synthesize acetylcholine, an important brain neurotransmitter.</li>\r\n                                <li><b>Hemoglobin and Red Blood Cell Support:</b> It contributes to the complex biological synthesis of heme, the oxygen-carrying component of red blood cells.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "While Vitamin B5 is found in most foods, it is highly sensitive to intense heat, processing, and canning, which can destroy up to 30–50% of its content. Whole, unprocessed foods yield the highest amounts.",
+    "foodSources": [
+      {
+        "image": "/products/liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/shiitake-mushrooms.png",
+        "name": "Shiitake Mushrooms"
+      },
+      {
+        "image": "/products/avocado.png",
+        "name": "Avocado"
+      },
+      {
+        "image": "/products/sunflower-seeds.png",
+        "name": "Sunflower Seeds"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/chicken.png",
+        "name": "Chicken"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Organ Meats:</b> Beef liver and kidneys contain the highest natural concentrations of pantothenic acid.</li><li><b>Mushrooms:</b> Shiitake and white button mushrooms are exceptional plant-based sources.</li><li><b>Avocados & Seeds:</b> One whole avocado provides roughly 2 mg of B5. Sunflower seeds also offer exceptionally dense amounts.</li><li><b>Poultry & Seafood:</b> Chicken breast, turkey, salmon, and trout are prominent dietary sources.</li><li><b>Dairy & Whole Grains:</b> Whole milk, yogurt, eggs, brown rice, and whole oats provide stable quantities for daily meals.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B5 are established as **Adequate Intake (AI)** guidelines and measured in Milligrams (mg).\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men & Women (19+ years): 5 mg / day</li>\r\n                                <li>Pregnant Women: 6 mg / day</li>\r\n                                <li>Lactating Women: 7 mg / day — Increased dosage accounts for the significant amount of Vitamin B5 secreted into human breast milk.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 1.7 mg / day</li>\r\n                                <li>Infants (7–12 months): 1.8 mg / day</li>\r\n                                <li>Toddlers (1–3 years): 2 mg / day</li>\r\n                                <li>Children (4–8 years): 3 mg / day</li>\r\n                                <li>Children (9–13 years): 4 mg / day</li>\r\n                                <li>Adolescents (14–18 years): 5 mg / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "Because pantothenic acid is found so ubiquitously across normal diets, an isolated natural deficiency is extraordinarily rare. It has historically been observed only during severe clinical malnutrition or experimental studies.\r\n                                    <br></br>\r\n                                    <b>Key Deficiency Symptoms</b>\r\n                                    <ul>\r\n                                        <li><b>Burning Feet Syndrome:</b> The most classic sign of B5 deficiency, characterized by painful paresthesia, burning sensations, numbness, and shooting pains in the feet and toes.</li>\r\n                                        <li><b>Neurological Disturbances:</b> Marked irritability, restlessness, sleep disorders (insomnia), and chronic mental fatigue due to compromised acetylcholine production.</li>\r\n                                        <li><b>Gastrointestinal Distress:</b> Recurrent nausea, vomiting, abdominal cramps, and generalized digestive discomfort.</li>\r\n                                        <li><b>Muscle Cramps:</b> Impaired neuromuscular coordination and muscle spasms.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Vitamin B5 is universally recognized as highly safe and non-toxic. Since it is water-soluble, any excess concentration circulating in the bloodstream is easily processed by the kidneys and flushed out through urine.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): There is <b>no established Upper Limit</b> for Vitamin B5. No significant adverse events or toxic symptoms have been reported in individuals consuming high amounts from food or large oral doses.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>Potential Minor Side Effects</b>\r\n                                    Even when consuming exceptionally massive megadoses (ranging from 10,000 mg to 20,000 mg per day), the body remains mostly unaffected. The only documented mild side effects of such excessive oral supplement loading are temporary **mild diarrhea** and generalized **gastrointestinal distress**, which occur because unabsorbed quantities draw water into the large intestine. These minor symptoms resolve entirely upon reducing or stopping the supplement."
+  },
+  "vitamin-b6": {
+    "slug": "vitamin-b6",
+    "title": "Vitamin B6 (Pyridoxine)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B6 is a crucial water-soluble nutrient that exists in several chemical forms, with Pyridoxine being the most common in supplements and plant foods. Because it is water-soluble, your body cannot store large reserves of it and regularly excretes any excess. A steady, daily intake from whole foods or supplements is essential to support complex metabolic pathways across your entire system.",
+    "keyFunctionsHtml": "Vitamin B6 acts as an indispensable coenzyme (primarily in its active PLP form) that drives more than 100 enzymatic reactions, mostly focused on protein and nervous system regulation:\r\n                            <ul>\r\n                                <li><b>Protein and Amino Acid Metabolism:</b> It is the primary manager for breaking down and utilizing dietary proteins and amino acids, helping convert them into cellular structures and energy.</li>\r\n                                <li><b>Neurotransmitter Synthesis:</b> B6 is directly required to manufacture critical brain chemicals that regulate mood and sleep, including serotonin, dopamine, gamma-aminobutyric acid (GABA), and melatonin.</li>\r\n                                <li><b>Hemoglobin Production:</b> It plays a foundational role in the synthesis of heme, the vital iron-containing protein inside red blood cells that transports oxygen throughout your body.</li>\r\n                                <li><b>Immune Function and Glycogen Breakdown:</b> It supports immune defense by helping create white blood cells and antibodies, and acts as a key trigger to unlock stored carbohydrates (glycogen) from the liver for rapid energy.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "Vitamin B6 is widely available in both animal and plant foods. However, extensive cooking, freezing, or high-heat processing can significantly lower its nutritional availability.",
+    "foodSources": [
+      {
+        "image": "/products/chickpeas.png",
+        "name": "Chickpeas"
+      },
+      {
+        "image": "/products/liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/salmon.png",
+        "name": "Wild Salmon"
+      },
+      {
+        "image": "/products/chicken.png",
+        "name": "Chicken Breast"
+      },
+      {
+        "image": "/products/banana.png",
+        "name": "Bananas"
+      },
+      {
+        "image": "/products/potato.png",
+        "name": "Potatoes"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Legumes:</b> Chickpeas (garbanzo beans) are an outstanding non-animal source (one cup delivers over 50% of your daily value).</li><li><b>Organ and Lean Meats:</b> Beef liver, chicken breast, and turkey contain high amounts of bioavailable B6.</li><li><b>Fish & Seafood:</b> Salmon, tuna, and mackerel are exceptionally rich sources.</li><li><b>Fruits and Vegetables:</b> Bananas, potatoes, and starchy vegetables are premium plant choices that retain their vitamin content well.</li><li><b>Fortified Cereals:</b> Many processed grains and breakfast foods are heavily fortified with Pyridoxine to fulfill daily requirements.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B6 are standardly measured in Milligrams (mg).\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men (19–50 years): 1.3 mg / day || (51+ years): 1.7 mg / day</li>\r\n                                <li>Women (19–50 years): 1.3 mg / day || (51+ years): 1.5 mg / day</li>\r\n                                <li>Pregnant Women: 1.9 mg / day</li>\r\n                                <li>Lactating Women: 2.0 mg / day — Higher dosage supports the increased nutritional transport required for breast milk.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 0.1 mg / day</li>\r\n                                <li>Infants (7–12 months): 0.3 mg / day</li>\r\n                                <li>Toddlers (1–3 years): 0.5 mg / day</li>\r\n                                <li>Children (4–8 years): 0.6 mg / day</li>\r\n                                <li>Children (9–13 years): 1.0 mg / day</li>\r\n                                <li>Adolescents (14–18 years): 1.3 mg / day for boys, 1.2 mg / day for girls</li>\r\n                            </ul>",
+    "deficiencyHtml": "An isolated clinical deficiency of Vitamin B6 is uncommon, but it regularly occurs alongside low levels of other B-complex vitamins. Severe or long-term deficiency directly damages blood cells, nervous tissues, and skin integrity.\r\n                                    <br></br>\r\n                                    <b>Major Deficiency Symptoms</b>\r\n                                    <ul>\r\n                                        <li><b>Microcytic Anemia:</b> The body produces abnormally small red blood cells with insufficient hemoglobin, resulting in chronic fatigue, weakness, and pale skin.</li>\r\n                                        <li><b>Neurological Distortions:</b> Marked depression, cognitive confusion, and severe mood changes caused by impaired neurotransmitter production. In extreme cases, it can trigger seizures.</li>\r\n                                        <li><b>Peripheral Neuropathy:</b> Numbness, tingling, or shooting nerve pain in the hands, fingers, and feet.</li>\r\n                                        <li><b>Cheilosis and Glossitis:</b> Painful scaling and deep cracks at the corners of the mouth, paired with an inflamed, swollen tongue.</li>\r\n                                        <li><b>Weakened Immunity:</b> Increased susceptibility to infections and slower recovery times.</li>\r\n                                    </ul>",
+    "overdoseHtml": "While it is physically impossible to experience an overdose of Vitamin B6 from natural food sources, excessive intake of high-dose Pyridoxine supplements can lead to toxic conditions.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): The established safe Upper Limit for adults is <b>100 mg / day</b>.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>The Toxicity Risk: Sensory Neuropathy</b>\r\n                                    Unlike most water-soluble vitamins, taking chronic mega-doses of B6 (typically 1,000 mg to 3,000 mg per day over several months) can actively damage peripheral nerves. This triggers severe **Sensory Neuropathy**, resulting in:\r\n                                    <ul>\r\n                                        <li>Progressive numbness and loss of feeling in the legs and hands.</li>\r\n                                        <li>Difficulty walking or maintaining proper physical balance (ataxia).</li>\r\n                                        <li>Loss of normal reflexes.</li>\r\n                                    </ul>\r\n                                    <br></br>\r\n                                    <b>Important Safety Note:</b> These neurological symptoms are usually reversible once the excessive supplement intake is discontinued under medical observation, but recovery can be slow. Other symptoms include skin lesions, extreme sensitivity to sunlight (photosensitivity), and nausea."
+  },
+  "vitamin-b7": {
+    "slug": "vitamin-b7",
+    "title": "Vitamin B7 (Biotin)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B7, universally known as Biotin (and historically referred to as Vitamin H), is a vital water-soluble nutrient. Because it is water-soluble, your body cannot store it in significant amounts and readily excretes any excess. Biotin is highly celebrated for its beauty-enhancing properties, but its primary biological role is keeping your fundamental metabolic cellular engines active and efficient.",
+    "keyFunctionsHtml": "Biotin acts as an essential coenzyme for a group of enzymes called carboxylases, which are deeply involved in crucial metabolic processes throughout the body:\r\n                            <ul>\r\n                                <li><b>Macronutrient Metabolism:</b> It is fundamentally required to break down carbohydrates, dietary fats, and proteins from your food, converting them into usable glucose and ATP energy.</li>\r\n                                <li><b>Keratin Production (Hair, Skin & Nails):</b> Biotin supports the synthesis of keratin, the basic structural protein that makes up your hair, skin, and nails, helping maintain their strength and integrity.</li>\r\n                                <li><b>Fatty Acid Synthesis:</b> It activates the chemical pathways necessary to produce healthy fatty acids, which actively nourish skin cells and preserve the skin's natural moisture barrier.</li>\r\n                                <li><b>Nervous System & Brain Support:</b> It contributes to normal psychological functions and nervous system health by aiding neurotransmitter synthesis and glucose management.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "Biotin is found in a wide variety of foods, though usually in relatively small amounts. It is relatively stable during normal cooking, but high-heat processing can decrease its availability.",
+    "foodSources": [
+      {
+        "image": "/products/liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/salmon.png",
+        "name": "Salmon"
+      },
+      {
+        "image": "/products/avocado.png",
+        "name": "Avocado"
+      },
+      {
+        "image": "/products/sweet-potato.png",
+        "name": "Sweet Potatoes"
+      },
+      {
+        "image": "/products/almond.png",
+        "name": "Almonds"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Organ Meats:</b> Beef liver and kidneys contain the highest natural concentrations of biotin.</li><li><b>Eggs:</b> Cooked egg yolks are exceptionally rich sources of highly bioavailable biotin.</li><li><b>Seafood:</b> Salmon, tuna, and sardines provide excellent healthy fats alongside natural B7.</li><li><b>Nuts and Seeds:</b> Almonds, walnuts, peanuts, and sunflower seeds are outstanding plant-based choices.</li><li><b>Vegetables:</b> Sweet potatoes, spinach, broccoli, and avocados offer highly accessible doses for daily meals.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B7 are established as **Adequate Intake (AI)** guidelines and measured in **Micrograms (µg)**.\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men & Women (19+ years): 30 µg / day</li>\r\n                                <li>Pregnant Women: 30 µg / day</li>\r\n                                <li>Lactating Women: 35 µg / day — Higher intake satisfies the direct nutritional transport required for breast milk production.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 5 µg / day</li>\r\n                                <li>Infants (7–12 months): 6 µg / day</li>\r\n                                <li>Toddlers (1–3 years): 8 µg / day</li>\r\n                                <li>Children (4–8 years): 12 µg / day</li>\r\n                                <li>Children (9–13 years): 20 µg / day</li>\r\n                                <li>Adolescents (14–18 years): 25 µg / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "A natural dietary biotin deficiency is extremely rare because it is widely available in foods and synthesized by beneficial gut bacteria. However, it can occur in individuals with prolonged total parental nutrition, heavy alcohol abuse, genetic conditions, or those who consume excessive raw egg whites over months.\r\n                                    <br></br>\r\n                                    <b>The Raw Egg White Hazard:</b> Raw egg whites contain a protein called **avidin**, which binds tightly to biotin in the digestive tract, completely blocking its absorption. Cooking the egg white neutralizes avidin safely.\r\n                                    <br></br>\r\n                                    <b>Major Deficiency Symptoms</b>\r\n                                    <ul>\r\n                                        <li><b>Hair Thinning and Loss:</b> Progressive thinning of hair that can lead to alopecia, often accompanied by a loss of natural hair color.</li>\r\n                                        <li><b>Brittle Nails:</b> Nails that split, crack, or chip very easily under light pressure.</li>\r\n                                        <li><b>Red, Scaly Rashes:</b> A distinct, dry, scaly skin rash that typically manifests around the eyes, nose, mouth, and perineal area.</li>\r\n                                        <li><b>Neurological Distortions:</b> Chronic depression, extreme lethargy, hallucinations, and a burning or tingling sensation (paresthesia) in the hands and feet.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Vitamin B7 has an exemplary safety record. Because it is completely water-soluble, your body easily processes and eliminates any excessive amounts through your urine.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): There is <b>no established Upper Limit</b> for Vitamin B7. No toxic health effects or adverse events have been reported from high dietary intake or large oral doses of supplements.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>The Real Hazard: Lab Test Interference</b>\r\n                                    While mega-doses of Biotin (e.g., 5,000 µg to 10,000 µg commonly found in beauty supplements) will not cause physiological toxicity, they present a significant medical risk by **interfering with clinical blood tests**. \r\n                                    <br></br>\r\n                                    High biotin levels in your blood sample can cause false results in:\r\n                                    <ul>\r\n                                        <li>Thyroid hormone tests (falsely mimicking Graves' disease).</li>\r\n                                        <li>Troponin tests (a critical biomarker used to diagnose heart attacks, potentially leading to a dangerous missed diagnosis).</li>\r\n                                    </ul>\r\n                                    <br></br>\r\n                                    <b>Safety Recommendation:</b> It is highly recommended to stop taking high-dose biotin supplements at least 48 to 72 hours before undergoing any diagnostic blood work, and always inform your healthcare professional about your supplement routine."
+  },
+  "vitamin-b9": {
+    "slug": "vitamin-b9",
+    "title": "Vitamin B9 (Folate / Folic Acid)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin B9 is a vital water-soluble nutrient that exists in two main forms: Folate, which occurs naturally in whole foods, and Folic Acid, a highly stable synthetic form used in supplements and fortified grains. Because it is water-soluble, your body cannot store significant reserves of it, making a daily dietary supply absolutely non-negotiable for fundamental cellular replication and development.",
+    "keyFunctionsHtml": "Vitamin B9 works as a core driver of cellular life, acting as a mandatory coenzyme in the synthesis of genetic material and cellular division:\r\n                            <ul>\r\n                                <li><b>DNA Synthesis and Cell Division:</b> It is fundamentally required to produce and repair DNA and RNA, making it the most critical nutrient during periods of rapid tissue growth, such as fetal development, childhood, and adolescence.</li>\r\n                                <li><b>Red Blood Cell Production:</b> Vitamin B9 works in close coordination with Vitamin B12 to stimulate the bone marrow to produce healthy, properly shaped red blood cells that transport oxygen.</li>\r\n                                <li><b>Fetal Fetal Neural Tube Prevention:</b> Adequate maternal intake during early pregnancy is proven to prevent major congenital structural birth defects of the brain and spine (Neural Tube Defects).</li>\r\n                                <li><b>Cardiovascular Health:</b> It helps convert and break down homocysteine—an amino acid that, in high concentrations, is heavily linked to arterial damage and an increased risk of heart disease.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "Natural folates are highly sensitive to high culinary heat and water, meaning heavy boiling or prolonged cooking can destroy up to 50–70% of the nutrient. Fresh or lightly cooked whole plant foods offer the best concentration.",
+    "foodSources": [
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/avocado.png",
+        "name": "Avocado"
+      },
+      {
+        "image": "/products/orange.png",
+        "name": "Oranges"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Dark Green Leafy Vegetables:</b> Spinach, kale, romaine lettuce, and turnip greens are exceptionally rich natural sources (the name folate comes from \"folium\", meaning leaf).</li><li><b>Legumes:</b> Lentils, chickpeas, black-eyed peas, and kidney beans are incredibly dense plant sources of folate.</li><li><b>Organ Meats:</b> Beef liver provides an incredibly high concentrated dose of bioavailable B9.</li><li><b>Cruciferous Vegetables & Fruits:</b> Asparagus, broccoli, Brussels sprouts, avocados, and citrus fruits like oranges contain high natural amounts.</li><li><b>Fortified Grains:</b> Because of public health mandates in many countries, white flours, enriched breads, pastas, and rice are heavily fortified with folic acid.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin B9 are measured in **Dietary Folate Equivalents (DFEs)** in Micrograms (µg), reflecting that folic acid from supplements is absorbed significantly better than natural food folate.\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men & Women (19+ years): 400 µg DFE / day</li>\r\n                                <li>Pregnant Women: 600 µg DFE / day — Critical baseline required to prevent fetal developmental abnormalities.</li>\r\n                                <li>Lactating Women: 500 µg DFE / day — Extra intake fulfills nutritional excretion through maternal milk.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 65 µg DFE / day</li>\r\n                                <li>Infants (7–12 months): 80 µg DFE / day</li>\r\n                                <li>Toddlers (1–3 years): 150 µg DFE / day</li>\r\n                                <li>Children (4–8 years): 200 µg DFE / day</li>\r\n                                <li>Children (9–13 years): 300 µg DFE / day</li>\r\n                                <li>Adolescents (14–18 years): 400 µg DFE / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "A deficiency in Vitamin B9 severely puts a halt to proper cellular reproduction, manifesting quickly in rapidly growing tissues like blood cells, mucosal linings, and developing fetuses.\r\n                                    <br></br>\r\n                                    <b>Major Deficiency Symptoms</b>\r\n                                    <ul>\r\n                                        <li><b>Megaloblastic Anemia:</b> The bone marrow produces abnormally large, structurally malformed, and immature red blood cells that cannot carry oxygen efficiently, resulting in extreme weakness, chronic fatigue, and shortness of breath.</li>\r\n                                        <li><b>Neural Tube Defects (NTDs):</b> If a maternal deficiency occurs during the first few weeks of pregnancy, it can cause devastating birth defects, such as Spina Bifida (incomplete closing of the spine) or Anencephaly (severe underdevelopment of the brain).</li>\r\n                                        <li><b>Gastrointestinal & Mucosal Soreness:</b> A classic painful, swollen, smooth-looking red tongue (glossitis), along with painful ulcers inside the mouth and chronic diarrhea due to impaired intestinal lining repair.</li>\r\n                                        <li><b>Neurological Disturbances:</b> Deep irritability, cognitive confusion, clinical depression, and difficulties with memory focus.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Consuming natural folate from food sources carries zero toxicity risks. However, excessive intake of synthetic **Folic Acid** through high-dose medical supplements can present distinct clinical hazards.\r\n                                    <ul>\r\n                                        <li>Tolerable Upper Intake Level (UL): The established Upper Limit for synthetic folic acid in adults is **1,000 µg / day**.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>The Primary Hazard: Masking Vitamin B12 Deficiency</b>\r\n                                    The most dangerous risk of excessive folic acid loading is that it can fully resolve the blood symptoms (megaloblastic anemia) caused by a hidden **Vitamin B12 deficiency**, completely **masking** it from standard laboratory blood tests. \r\n                                    <br></br>\r\n                                    If the B12 deficiency goes unnoticed and uncorrected because the anemia is artificially hidden, the underlying neurological destruction caused by lack of B12 will continue to progress silently, eventually leading to irreversible nerve damage and cognitive decline.\r\n                                    <br></br>\r\n                                    <b>Other Risks</b>\r\n                                    Some clinical studies suggest that extreme, chronic over-supplementation of folic acid might accelerate the growth of pre-existing pre-cancerous lesions or interact unfavorably with specific anti-seizure medications."
+  },
+  "vitamin-c": {
+    "slug": "vitamin-c",
+    "title": "Vitamin С (Ascorbic acid)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin C is a essential, water-soluble vitamin. Unlike many animals, humans cannot synthesize it internally due to the lack of a specific enzyme (L-gulonolactone oxidase). Because it is water-soluble, your body does not store it in large amounts; any excess is flushed out through urine, meaning you need to consume it regularly through your diet.",
+    "keyFunctionsHtml": "Vitamin C acts as a powerful helper across several major bodily systems:\r\n                            <ul>\r\n                                <li><b>Antioxidant Protection:</b> It neutralizes free radicals—unstable molecules that damage cells and contribute to aging and diseases like cancer or heart disease.</li>\r\n                                <li><b>Collagen Synthesis:</b> It is a mandatory co-factor for building collagen, the primary structural protein that knits together your skin, tendons, ligaments, bones, and blood vessels.</li>\r\n                                <li><b>Immune Support:</b> It stimulates the production and function of white blood cells (like phagocytes and lymphocytes) which hunt down pathogens.</li>\r\n                                <li><b>Iron Absorption:</b> It significantly improves the absorption of non-heme iron (the type of iron found in plant-based foods like spinach and lentils).</li>\r\n                            </ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/arecola-cherries.svg",
+        "name": "Arecola cherries"
+      },
+      {
+        "image": "/products/kakadu-plums.svg",
+        "name": "Kakadu plums"
+      },
+      {
+        "image": "/products/bell-pepper.png",
+        "name": "Bell peppers"
+      },
+      {
+        "image": "/products/citrus-fruits.png",
+        "name": "Citrus fruits"
+      },
+      {
+        "image": "/products/kiwi.png",
+        "name": "Kiwi"
+      },
+      {
+        "image": "/products/crucifirous-vegetables.png",
+        "name": "Cruciferous vegetables.png"
+      },
+      {
+        "image": "/products/strawberry.png",
+        "name": "Strawberries"
+      },
+      {
+        "image": "/products/tomatoes.png",
+        "name": "Tomatoes"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Kakadu Plums & Acerola Cherries:</b> The absolute highest natural concentrations (though rarer to find fresh).</li><li><b>Red & Yellow Bell Peppers:</b> One medium red pepper provides roughly 150–190 mg of Vitamin C—more than double an orange.</li><li><b>Citrus Fruits:</b> Oranges, grapefruits, lemons, and limes.</li><li><b>Kiwi:</b> Two medium kiwis deliver about 130 mg.</li><li><b>Cruciferous Vegetables:</b> Broccoli, Brussels sprouts, and kale.</li><li><b>Strawberries & Tomatoes:</b> Excellent, easily accessible everyday sources.</li></ul>",
+    "rdiHtml": "The standard Recommended Dietary Allowances (RDA) vary distinctly by age and lifestyle factors:<br></br>\r\n                            Adults\r\n                            <ul>\r\n                                <li>Men (19+ years): 90 mg / day</li>\r\n                                <li>Women (19+ years): 75 mg / day</li>\r\n                                <li>Pregnant Women: 85 mg / day</li>\r\n                                <li>Lactating Women: 120 mg / day</li>\r\n                                <li>Smokers: Require an additional 35 mg / day because nicotine and tobacco smoke increase oxidative stress, depleting the body's vitamin stores faster.</li>\r\n                            </ul>\r\n                            Children\r\n                            <ul>\r\n                                <li>Infants (0–12 months): 40–50 mg / day (typically met via breastmilk or formula)</li>\r\n                                <li>Toddlers (1–3 years): 15 mg / day</li>\r\n                                <li>Children (4–8 years): 25 mg / day</li>\r\n                                <li>Children (9–13 years): 45 mg / day</li>\r\n                                <li>Adolescents (14–18 years): 75 mg / day for boys, 65 mg / day for girls</li>\r\n                            </ul>",
+    "deficiencyHtml": "A severe lack of Vitamin C over several weeks to months leads to the breakdown of collagen production, culminating in a historical condition known as Scurvy. <br></br>\r\n                                    <br></br>\r\n                                   <b>Early Warning Signs:</b>\r\n                                    <ul>\r\n                                        <li>Persistent, unexplained fatigue and lethargy.</li>\r\n                                        <li>\"Corkscrew\" hairs on the arms and legs.</li>\r\n                                        <li>Rough, bumpy, or dry skin (keratosis pilaris).</li>\r\n                                    </ul>\r\n                                    <b>Advandced Symptoms (Scurvy):</b>\r\n                                    <ul>\r\n                                        <li>Swollen and Bleeding Gums: The blood vessels lose structural integrity; teeth can eventually loosen and fall out.</li>\r\n                                        <li>Easy Bruising (Petechiae): Small, purple-red spots under the skin where tiny capillaries have ruptured.</li>\r\n                                        <li>Delayed Wound Healing: Old wounds or scars may even split back open because the body cannot generate the collagen required to repair tissue.</li>\r\n                                        <li>Severe Joint Pain: Caused by bleeding inside the joint capsules.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Because Vitamin C is water-soluble, it has low toxicity risks, and it is almost impossible to overdose via whole foods alone. However, high-dose supplementation can override the digestive tract's absorption capacity.\r\n                                    \r\n                                    <ul>\r\n                                        <li><b>Tolerable Upper Intake Level (UL):</b> 2,000 mg / day for adults. Consuming more than this limit generally triggers gastrointestinal distress.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>Symptoms of Excess Intake:</b>\r\n                                    <ul>\r\n                                        <li>Diarrhea and abdominal cramping (caused by unabsorbed vitamin drawing water into the large intestine).</li>\r\n                                        <li>Nausea and heartburn.</li>\r\n                                        <li><b>Kidney Stone Risk:</b> The body metabolizes excess Vitamin C into oxalate, which is excreted via urine. In individuals prone to kidney complications, hyper-dosing supplements can elevate the risk of developing calcium oxalate kidney stones.</li>\r\n                                    </ul>"
+  },
+  "vitamin-d": {
+    "slug": "vitamin-d",
+    "title": "Vitamin D (Calciferol)",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin D is unique because it is a fat-soluble nutrient that actually functions as a pro-hormone in the body. Unlike other vitamins, your body can synthesize it entirely on its own when ultraviolet B (UVB) rays from sunlight hit your skin. Because it is fat-soluble, excess amounts are stored in your liver and fatty tissues for future use rather than being immediately excreted.\n                                    Vitamin D2: Ergocalciferol (plant-derived)\n                                    Vitamin D3: Cholecalciferol (animal-derived and synthesized by human skin)",
+    "keyFunctionsHtml": "Vitamin D is a biological master key that regulates more than 200 genes. Its most crucial roles include:\r\n                            <ul>\r\n                                <li><b>Calcium and Phosphorus Absorption:</b> It directly signals your intestines to absorb calcium from your food. Without enough Vitamin D, your body can only absorb about 10–15% of dietary calcium.</li>\r\n                                <li><b>Bone and Tooth Mineralization:</b> It works alongside calcium to build dense, strong bone structures and enamel, preventing bones from becoming brittle, thin, or misshapen.</li>\r\n                                <li><b>Immune Regulation:</b> It enhances the pathogen-fighting effects of monocytes and macrophages (white blood cells) and decreases inflammation.</li>\r\n                                <li><b>Neuromuscular Function:</b> It plays a quiet but critical role in carrying messages between your brain and your muscles, ensuring proper muscle contraction and balance.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/cod-liver-oil.png",
+        "name": "Cod Liver Oil"
+      },
+      {
+        "image": "/products/fish.png",
+        "name": "Fatty Fish"
+      },
+      {
+        "image": "/products/mushroom.png",
+        "name": "Mushrooms"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Cod Liver Oil:</b> The absolute richest natural source (1 tbsp contains roughly 1,360 IU).</li><li><b>Fatty Fish:</b> Salmon, mackerel, trout, and sardines. A 3-ounce serving of cooked wild salmon can provide around 500–700 IU.</li><li><b>UV-Exposed Mushrooms:</b> Certain mushrooms (like Portobello or White Button) treated with UV light can synthesize high amounts of Vitamin D2.</li><li><b>Egg Yolks:</b> Provide a modest amount (roughly 40 IU per large yolk), mostly concentrated in the fat.</li><li><b>Fortified Foods:</b> Cow's milk, plant-based milk alternatives (soy, almond, oat), orange juice, and breakfast cereals are heavily fortified with Vitamin D to help meet public health needs.</li></ul>",
+    "rdiHtml": "Intake recommendations are usually listed in either International Units (IU) or Micrograms (μg).<br></br>\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Adults (19–70 years): 600 IU (15μg) / day</li>\r\n                                <li>Seniors (71+ years): 800 IU (20μg) / day — Higher intake is required to offset the skin's reduced capacity to synthesize the vitamin with age.</li>\r\n                                <li>Pregnant & Lactating Women: 600 IU (15μg) / day</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–12 months): 400 IU (10μg) / day — Breast milk is notoriously low in Vitamin D, so pediatricians routinely recommend standard drops for breastfed infants.</li>\r\n                                <li>Children & Adolescents (1–18 years): 600 IU (15μg) / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "A deficiency occurs when low intake is paired with minimal sunlight exposure (due to northern latitudes, heavy sunscreen use, spending daytime indoors, or high melanin levels which block UVB rays).\r\n                                    <br></br>\r\n                                   <b>Early & Subtle Signs:</b>\r\n                                    <ul>\r\n                                        <li>Chronic fatigue and generalized low energy.</li>\r\n                                        <li>Frequent infections, colds, or slow-healing wounds.</li>\r\n                                        <li>Vague bone pain (particularly in the shins, thighs, or lower back) and muscle weakness.</li>\r\n                                        <li>Mood shifts or a higher susceptibility to seasonal depression.</li>\r\n                                    </ul>\r\n                                    <b>Severe, Long-Term Pathologies</b>\r\n                                    <ul>\r\n                                        <li>Rickets (Children): A disease where the bone tissue fails to properly mineralize. This results in soft, malleable bones, leading to skeletal deformities like bowed legs, knocked knees, and a projected breastbone.</li>\r\n                                        <li>Osteomalacia (Adults): The adult equivalent of rickets. It features a severe softening of the bones, causing intense bone aching and an drastically increased risk of fractures.</li>\r\n                                        <li>Osteoporosis: Long-term depletion accelerates bone density loss, leading to fragile bones prone to breaks from minor falls.</li>\r\n                                    </ul>",
+    "overdoseHtml": "Vitamin D toxicity is almost exclusively caused by taking excessive high-dose commercial supplements over an extended period. It is physically impossible to overdose on Vitamin D from sunlight exposure (the skin self-regulates and destroys excess production) or from a standard whole-food diet.\r\n                                    <ul>\r\n                                        <li><b>Tolerable Upper Intake Level (UL):</b> 4,000 IU / day for anyone over 9 years old.</li>\r\n                                    </ul>\r\n                                    \r\n                                    The main danger of a Vitamin D overdose is hypercalcemia—an over-accumulation of calcium in your blood caused by excessive gut absorption and bone resorption.\r\n                                    <ul>\r\n                                        <li>Short-Term Toxic Symptoms: Nausea, vomiting, frequent urination, excessive thirst, severe abdominal pain, constipation, and muscle weakness.</li>\r\n                                        <li>Severe, Long-Term Damage: The excess calcium circulating in the blood begins to deposit into soft tissues. This can lead to the calcification of arteries, severe heart arrhythmias, and the formation of painful calcium kidney stones or permanent kidney damage.</li>\r\n                                    </ul>"
+  },
+  "vitamin-e": {
+    "slug": "vitamin-e",
+    "title": "Vitamin E (Alpha-tocopherol)",
+    "category": "Nutrients/vitamins",
+    "description": "Note: Vitamin E is actually a family of 8 different fat-soluble compounds (4 tocopherols and 4 tocotrienols), but alpha-tocopherol is the only form that meets human dietary requirements.\n                            Vitamin E is a fat-soluble nutrient, meaning your body absorbs it alongside dietary fats and stores the excess in your liver and fatty tissues. Known primarily as the body's premier bodyguard for cell membranes, it acts as a shield to keep your cellular structures intact and healthy.",
+    "keyFunctionsHtml": "Vitamin E works at the microscopic level to keep your systems running smoothly:\r\n                            <ul>\r\n                                <li><b>Primary Antioxidant Protection:</b> It stops the production of reactive oxygen species (ROS) when fat undergoes oxidation. In simple terms, it prevents the fats in your cell membranes from going \"rancid\" due to pollution, smoke, and normal metabolic waste.</li>\r\n                                <li><b>Immune System Enhancement:</b> It helps maintain the integrity of T-cell membranes, allowing these critical white blood cells to divide properly and communicate effectively to fight off infections.</li>\r\n                                <li><b>Cardiovascular & Blood Vessel Health:</b> It prevents blood platelets from clumping together abnormally and helps widen blood vessels, lowering the risk of unwanted blood clots.</li>\r\n                                <li><b>Skin and Eye Preservation:</b> By shielding lipid structures from oxidative stress, it helps protect the cells in your skin and eyes from UV and environmental damage.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/wheat-germ-oil.png",
+        "name": "Wheat Germ Oil"
+      },
+      {
+        "image": "/products/sunflower-seeds.png",
+        "name": "Sunflower seeds"
+      },
+      {
+        "image": "/products/sunflower-oil.png",
+        "name": "Sunflower oil"
+      },
+      {
+        "image": "/products/corn.png",
+        "name": "Corn"
+      },
+      {
+        "image": "/products/soybean-oil.png",
+        "name": "Soybean oil"
+      },
+      {
+        "image": "/products/avocado.png",
+        "name": "Avocados"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/swiss-chard.png",
+        "name": "Swiss chard"
+      },
+      {
+        "image": "/products/broccoli.png",
+        "name": "Broccoli"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Wheat Germ Oil:</b> The single richest natural source of Vitamin E—just one tablespoon provides over 100% of your daily value.</li><li><b>Seeds & Nuts:</b> Sunflower seeds, almonds, hazelnuts, and peanuts are excellent, concentrated sources.</li><li><b>Plant Oils:</b> Sunflower, safflower, soybean, and corn oils are major contributors in most diets.</li><li><b>Vegetables:</b> Spinach, Swiss chard, broccoli, and avocados provide moderate amounts, especially when eaten with a little healthy fat to boost absorption.</li></ul>",
+    "rdiHtml": "Dietary recommendations for Vitamin E are measured in Milligrams (mg).<br></br>\r\n                            <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men & Women (14+ years): 15 mg / day</li>\r\n                                <li>Pregnant Women: 15 mg / day</li>\r\n                                <li>Lactating Women: 19 mg / day — Increased intake is necessary to support the nutrient content exported into breast milk.</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 4 mg / day</li>\r\n                                <li>Infants (7–12 months): 5 mg / day</li>\r\n                                <li>Toddlers (1–3 years): 6 mg / day</li>\r\n                                <li>Children (4–8 years): 7 mg / day</li>\r\n                                <li>Children (9–13 years): 11 mg / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "True Vitamin E deficiency is incredibly rare in healthy individuals. When it does occur, it is almost always caused by diseases that prevent the body from absorbing fat correctly (such as Celiac disease, Cystic Fibrosis, or Crohn's disease).\r\n                                    <br></br>                                    <b>Major Symptoms</b>\r\n                                    \r\n                                    <ul>\r\n                                        <li><b>Peripheral Neuropathy:</b> Nerve damage in the hands and feet, leading to chronic numbness, tingling, or a \"pins and needles\" sensation.</li>\r\n                                        <li><b>Ataxia (Loss of Coordination):</b> Impaired nerve transmission causes a lack of control over bodily movements, resulting in difficulty walking or balancing.</li>\r\n                                        <li><b>Skeletal Myopathy:</b> Progressive muscle weakness and pain throughout the body.</li>\r\n                                        <li><b>Hemolytic Anemia:</b> A condition where red blood cells become structurally fragile and rupture easily, leading to low red blood cell counts and fatigue.</li>\r\n                                        <li><b>Retinopathy:</b> Degeneration of the light-sensing cells in the retina, which can impair vision over time.</li>\r\n                                    </ul>",
+    "overdoseHtml": "It is practically impossible to consume too much Vitamin E from a regular food-based diet. Toxicity is driven almost exclusively by high-dose, long-term use of synthetic supplements.\r\n                                    <ul>\r\n                                        <li><b>Tolerable Upper Intake Level (UL):</b> 1,000 mg / day for adults.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>The Primary Risk: Bleeding</b>\r\n                                    The biggest hazard of an overdose is Vitamin E’s ability to interfere with how your blood clots:\r\n                                    <li><b>Inhibition of Vitamin K:</b> High concentrations of Vitamin E actively block Vitamin K from doing its job, which is to help blood clot when you are injured.</li>\r\n                                    <li><b>Increased Hemorrhage Risk:</b> Exceeding the upper intake level increases the risk of severe, uncontrolled bleeding (hemorrhage) or an intracranial stroke, particularly if a person is already taking prescription blood thinners (like aspirin or warfarin).</li>\r\n                                    <li><b>General Side Effects:</b> Nausea, diarrhea, blurred vision, and profound muscle fatigue can occur at highly elevated, toxic doses.</li>"
+  },
+  "vitamin-k": {
+    "slug": "vitamin-k",
+    "title": "Vitamin K",
+    "category": "Nutrients/vitamins",
+    "description": "Vitamin K1 (Phylloquinone): Found primarily in plant foods, especially green leafy vegetables.\n                                Vitamin K2 (Vitamin K2): Found in fermented foods, animal products, and synthesized by beneficial bacteria in the human gut.\n                            Vitamin K is a fat-soluble nutrient best known as the body's internal \"coagulation captain.\" The \"K\" actually comes from the German word Koagulation, which reflects its primary job. Because it is fat-soluble, it requires dietary fats to be absorbed properly and is stored in small amounts in liver and fatty tissues, though the body recycles it efficiently to maintain healthy levels.",
+    "keyFunctionsHtml": "Vitamin K works behind the scenes to keep your circulatory and skeletal systems structurally sound:\r\n                            <ul>\r\n                                <li><b>Blood Clotting (Coagulation):</b> It acts as an indispensable trigger for the liver to produce several critical proteins (clotting factors) that allow your blood to clot when you get a cut, preventing you from bleeding excessively.</li>\r\n                                <li><b>Bone Health & Mineralization:</b> While Calcium builds the bone and Vitamin D absorbs it, Vitamin K acts as the traffic controller. It activates a protein called osteocalcin, which binds calcium directly to the bone matrix, keeping bones dense and strong.</li>\r\n                                <li><b>Cardiovascular Protection:</b> It activates the Matrix Gla Protein (MGP), which helps prevent calcium from depositing inside the walls of your arteries. By keeping calcium out of your blood vessels, it helps prevent arterial hardening.</li>\r\n                            </ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/kale.png",
+        "name": "Kale"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/collard.png",
+        "name": "Collard Greens"
+      },
+      {
+        "image": "/products/swiss-chard.png",
+        "name": "Swiss chard"
+      },
+      {
+        "image": "/products/turnip.png",
+        "name": "Turnip"
+      },
+      {
+        "image": "/products/brussels-sprouts.png",
+        "name": "Brussels Sprouts"
+      },
+      {
+        "image": "/products/cabbage.png",
+        "name": "Cabbage"
+      },
+      {
+        "image": "/products/natto.png",
+        "name": "Natto"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Yogurt"
+      },
+      {
+        "image": "/products/liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/chicken.png",
+        "name": "Chicken"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      }
+    ],
+    "foodSourcesNotesHtml": "Vitamin K1 is highly concentrated in green vegetables, while K2 is found in fermented foods and high-quality animal fats.<ul><li><b>Dark Green Leafy Vegetables:</b> Kale, spinach, collard greens, Swiss chard, and turnip greens. Just a half-cup of cooked kale delivers over 400% of your daily requirement.</li><li><b>Cruciferous Vegetables:</b> Broccoli, Brussels sprouts, and cabbage.</li><li><b>Natto:</b> A traditional Japanese fermented soybean dish that is the absolute richest known dietary source of Vitamin K2.</li><li><b>Fermented Cheeses & Yogurt:</b> Certain aged cheeses contain moderate amounts of Vitamin K2 due to bacterial synthesis.</li><li><b>Animal Products:</b> Beef liver, chicken, and egg yolks provide direct, highly absorbable Vitamin K2.</li></ul>",
+    "rdiHtml": "Because your body is highly efficient at recycling Vitamin K, the dietary guidelines—referred to as Adequate Intake (AI)—are relatively small and measured in micrograms (μg).\r\n   <b>Adults</b>\r\n                            <ul>\r\n                                <li>Men (19+ years): 120 μg / day</li>\r\n                                <li>Women (19+ years): 90 μg / day</li>\r\n                                <li>Pregnant & Lactating Women: 90 μg / day</li>\r\n                            </ul>\r\n                            <b>Children</b>\r\n                            <ul>\r\n                                <li>Infants (0–6 months): 2.0 μg / day</li>\r\n                                <li>Infants (7–12 months): 2.5 μg / day</li>\r\n                                <li>Toddlers (1–3 years): 30 μg / day</li>\r\n                                <li>Children (4–8 years): 55 μg / day</li>\r\n                                <li>Children (9–13 years): 60 μg / day</li>\r\n                                <li>Adolescents (14–18 years): 75 μg / day</li>\r\n                            </ul>",
+    "deficiencyHtml": "A severe Vitamin K deficiency is uncommon in healthy adults because it is widely available in everyday vegetables and generated by gut bacteria. However, it can occur in individuals with severe fat malabsorption disorders or those taking long-term broad-spectrum antibiotics that wipe out healthy gut microbes.\r\n                               <br></br>\r\n                                    <b>Major Symptoms</b>\r\n                                    \r\n                                    <ul>\r\n                                        <li><b>Excessive Bleeding (Hemorrhage):</b> Because blood cannot clot effectively, minor cuts bleed for a long time, and nosebleeds become frequent and difficult to stop.</li>\r\n                                        <li><b>Easy Bruising:</b> Large, dark bruises form from very minor bumps, and tiny red or purple blood spots (petechiae) may appear under the skin.</li>\r\n                                        <li><b>Bleeding in the Digestive Tract:</b> Can manifest as blood in the stool (making it look black or tarry) or blood in the urine.</li>\r\n                                        <li><b>Reduced Bone Density:</b> Over time, a lack of Vitamin K leaves bones fragile, increasing the long-term risk of developing osteoporosis and suffering fractures.</li>\r\n                                    </ul>\r\n\r\n                                    Important Public Health Note: Newborn infants are born with virtually no Vitamin K stored in their bodies, and breast milk contains very little. Because their gut bacteria haven't developed enough to produce it yet, babies are at a high risk for a rare but life-threatening bleeding condition called Vitamin K Deficiency Bleeding (VKDB). To prevent this, healthcare providers worldwide routinely give newborns a single, safe Vitamin K injection immediately after birth.",
+    "overdoseHtml": "Natural forms of Vitamin K (K1 from plants and K2 from your diet/gut bacteria) have an incredibly clean safety record.\r\n                                    <ul>\r\n                                        <li><b>Tolerable Upper Intake Level (UL):</b> There is no established Upper Limit for Vitamin K. The body naturally processes, utilizes, or safely excretes excess amounts without triggering toxic reactions.</li>\r\n                                    </ul>\r\n                                    \r\n                                    <b>Critical Medication Interactions</b>\r\n                                    While natural Vitamin K won't cause a toxic overdose, it poses a significant hazard if you take specific medications:\r\n                                    <ul>\r\n                                        <li><b>Blood Thinners (e.g., Warfarin / Coumadin):</b> These medications work by actively blocking Vitamin K to prevent dangerous blood clots. If you suddenly consume a massive amount of Vitamin K (like eating giant bowls of spinach every single day), you can completely counteract your medication, drastically increasing your risk of a blood clot or stroke.</li>\r\n                                        <li><b>The Solution:</b> If you take these medications, you do not need to cut out green vegetables entirely. Instead, the goal is to keep your Vitamin K intake consistent day-to-day so your doctor can calibrate your medication dosage accurately.</li>\r\n                                    </ul>"
+  }
+}

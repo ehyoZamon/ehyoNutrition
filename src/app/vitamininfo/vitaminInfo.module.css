@@ -187,6 +187,7 @@
     line-height: 120%;
     letter-spacing: -0.02em;
     color: #000;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;

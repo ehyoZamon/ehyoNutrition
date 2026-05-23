@@ -1,0 +1,2077 @@
+{
+  "avocados": {
+    "slug": "avocados",
+    "name": "Avocado",
+    "category": "Fruits & Berries",
+    "image": "/productinfo/avocados.png",
+    "imageAlt": "avocados",
+    "description": "Avocado is an uniquely structural, lipid-dense fruit. Renowned for its rich concentration of monounsaturated oleic acid instead of natural sugars, it serves as an exceptional functional food to drive deep fat-soluble nutrient absorption, cardiovascular protection, and metabolic satiety.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "160 kcal",
+        "bg": "#15837c",
+        "description": "Higher in energy than typical fruits, delivering dense, clean metabolic fuel derived from high-quality monounsaturated fats."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "2.0 grams",
+        "bg": "#f5722c",
+        "description": "Provides nominal plant proteins containing essential building blocks to assist in daily cellular tissue maintenance."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "14.7 grams",
+        "bg": "#e4a910",
+        "description": "An exceptional matrix of heart-healthy fats, overwhelmingly dominated by oleic acid, which maximizes fat-soluble nutrient delivery."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "8.5 grams",
+        "bg": "#15837c",
+        "description": "Mainly composed of complex structural dietary fibers with practically zero simple sugars, yielding a near-flat glycemic curve."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "6.7 grams",
+        "bg": "#f5722c",
+        "description": "A brilliant blend of soluble and insoluble fibers that supports digestive regularity, balances gut microbiota, and optimizes satiety."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "485 mg / 10% DV",
+        "bg": "#1a96cd",
+        "description": "An outstanding concentration—surpassing bananas—that regulates fluid pump mechanics, neural signaling, and resting vascular tone."
+      },
+      {
+        "id": "vitB5",
+        "slug": "vitamin-b5",
+        "name": "Vitamin B5 (Pantothenic Acid)",
+        "amount": "1.4 mg / 28% DV",
+        "bg": "#66ab63",
+        "description": "A major catalytic factor required for cellular hormone synthesis, fatty acid oxidation, and optimizing daily cognitive pathways."
+      },
+      {
+        "id": "vitB9",
+        "slug": "vitamin-b9",
+        "name": "Vitamin B9 (Folate)",
+        "amount": "81.0 mcg / 20% DV",
+        "bg": "#e4a910",
+        "description": "Crucial for deep cellular division, DNA replication, and supporting the healthy synthesis of red blood cells."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E",
+        "amount": "2.1 mg / 14% DV",
+        "bg": "#15837c",
+        "description": "A premier lipid-soluble antioxidant that actively guards tissue membranes against oxidative deterioration and preserves skin health."
+      },
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "271 mcg",
+        "bg": "#1a96cd",
+        "description": "Targeted plant carotenoids that concentrate in the eye's macular area, absorbing harmful blue wave frequencies and protecting vision."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Optimization:</b> Rich in monounsaturated fats (oleic acid) and plant sterols, avocado helps regulate low-density lipoprotein (LDL) cholesterol ratios and supports endothelial vascular health.",
+      "<b>Unrivaled Nutrient Assimilation:</b> Acts as an ideal lipid delivery vehicle. Adding avocado to raw vegetable meals can increase the biological absorption of companion fat-soluble antioxidants (like beta-carotene) up to fifteen-fold.",
+      "<b>Advanced Potassium Performance:</b> Supplying more potassium than a banana, it actively aids in lowering blood pressure levels, managing cellular fluid dynamics, and reducing sodium retention.",
+      "<b>Sustained Metabolic Satiety:</b> The dense combination of healthy fats and complex dietary fiber slows gastric emptying rates, keeping insulin curves incredibly flat and promoting long-lasting fullness."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Caloric Accumulation:</b> Due to its high lipid profile, avocado is significantly more energy-dense than other fruits. If strict caloric management or weight reduction is your primary goal, maintaining precise serving boundaries is recommended.",
+      "<b>Latex-Fruit Syndrome Cross-Reactivity:</b> Individuals possessing diagnosed allergies to natural rubber latex may experience mild to severe cross-reactive responses to avocados due to structurally similar plant defense proteins (chitinases).",
+      "<b>FODMAP Fermentation Bloating:</b> Avocado houses measurable levels of sorbitol, a natural sugar alcohol. Those with sensitive gastrointestinal tracts or functional Irritable Bowel Syndrome (IBS) may notice mild abdominal gas or bloating if over-consuming.",
+      "<b>Prescription Blood Thinner Synergy:</b> Avocados carry moderate quantities of Vitamin K1, which coordinates blood-coagulation cascades. If you are taking highly calibrated prescription anticoagulants (like Warfarin), keeping your avocado intake relatively consistent is helpful."
+    ]
+  },
+  "beef-liver": {
+    "slug": "beef-liver",
+    "name": "Beef Liver",
+    "category": "Meat & Offal",
+    "image": "/productinfo/beef-liver.png",
+    "imageAlt": "beef liver",
+    "description": "Beef liver is widely regarded as the ultimate king of superfoods. It contains an unmatched, highly concentrated matrix of pre-formed vitamins, essential minerals, and complete proteins, making it drastically superior to standard muscle meats in nutritional value.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "175 kcal",
+        "bg": "#15837c",
+        "description": "Provides nutrient-dense energy with a very low caloric cost relative to its massive vitamin profile."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "27.0 grams",
+        "bg": "#f5722c",
+        "description": "An exceptionally rich source of highly bioavailable, complete protein containing all essential amino acids for tissue synthesis."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "5.0 grams",
+        "bg": "#e4a910",
+        "description": "Low in total lipids, featuring a balanced profile of monounsaturated, polyunsaturated, and essential saturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "5.0 grams",
+        "bg": "#15837c",
+        "description": "Sourced naturally from stored animal glycogen. It represents a rare carbohydrate presence in meat, keeping a low glycemic index."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (Retinol)",
+        "amount": "9442 mcg / 1049% DV",
+        "bg": "#66ab63",
+        "description": "Pre-formed active Vitamin A (retinol) that directly fuels the visual cycle, maintains endothelial integrity, and fortifies systemic immunity."
+      },
+      {
+        "id": "b12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12",
+        "amount": "70.6 mcg / 2940% DV",
+        "bg": "#f5722c",
+        "description": "An astronomical concentration essential for myelin sheath repair, DNA replication, and preventing megaloblastic anemia."
+      },
+      {
+        "id": "copper",
+        "slug": "copper",
+        "name": "Copper",
+        "amount": "14.3 mg / 1580% DV",
+        "bg": "#15837c",
+        "description": "Acts as a vital biochemical catalyst for iron metabolism, collagen structure synthesis, and defense against oxidative stress."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron (Heme)",
+        "amount": "6.2 mg / 34% DV",
+        "bg": "#1a96cd",
+        "description": "Highly absorbable heme iron that binds instantly to hemoglobin, optimizing cellular oxygen transport and preventing fatigue."
+      },
+      {
+        "id": "b9",
+        "slug": "vitamin-b9",
+        "name": "Folate (Vitamin B9)",
+        "amount": "260 mcg / 65% DV",
+        "bg": "#e4a910",
+        "description": "Critical for cellular division, rapid amino acid conversion, and optimizing prenatal neural tube development."
+      },
+      {
+        "id": "choline",
+        "slug": "choline",
+        "name": "Choline",
+        "amount": "418 mg / 76% DV",
+        "bg": "#15837c",
+        "description": "A foundational building block for cell membrane phospholipids and the neurotransmitter acetylcholine, driving memory and cognitive focus."
+      },
+      {
+        "id": "b2",
+        "slug": "vitamin-b2",
+        "name": "Vitamin B2 (Riboflavin)",
+        "amount": "3.4 mg / 262% DV",
+        "bg": "#e4a910",
+        "description": "Crucial for mitochondrial respiration, electron transport chains, and converting macronutrients into actual ATP energy units."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Unrivaled Anemia Prevention:</b> The combination of high-density heme iron, copper, and vitamin B12 provides all necessary structural raw materials for efficient red blood cell production.",
+      "<b>Advanced Cognitive Architecture:</b> Tremendous concentrations of B-vitamins paired with Choline maximize neurotransmitter generation, preserving rapid brain signaling and nervous system integrity.",
+      "<b>Enhanced Metabolic Performance:</b> Acts as a powerful coenzyme powerhouse; its extreme riboflavin and pantothenic acid values catalyze the rapid breakdown of dietary elements into pure kinetic energy.",
+      "<b>Immune & Vision Optimization:</b> Provides massive doses of active, bioavailable retinol (Vitamin A) that directly strengthens cornea function, supports night vision, and reinforces white blood cell response."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Vitamin A Toxicity (Hypervitaminosis A):</b> Because liver holds pre-formed Vitamin A, which is fat-soluble and stores in our tissues, eating it daily can cause toxicity. Limiting consumption to 1-2 times per week is highly advised.",
+      "<b>Pregnancy Safety Thresholds:</b> Expectant mothers should strictly manage liver intake. Excess pre-formed Vitamin A (retinol) carries a documented risk of causing congenital developmental defects in the fetus.",
+      "<b>Copper Accumulation Risk:</b> The extremely high copper content means frequent intake can over-accumulate in the body, which might lead to oxidative strain or complicate issues for individuals with underlying copper metabolic conditions.",
+      "<b>Purine Density & Gout Management:</b> Organ meats are naturally heavy in purine structures. These break down into uric acid, which can aggregate inside joints and trigger painful flares in individuals prone to gout."
+    ]
+  },
+  "bell-peppers": {
+    "slug": "bell-peppers",
+    "name": "Bell Peppers",
+    "category": "Vegetables",
+    "image": "/productinfo/bell-peppers.png",
+    "imageAlt": "bell peppers",
+    "description": "Bell peppers are a remarkably crisp, refreshing, and nutrient-dense vegetable. Containing an unparalleled mega-dose of Vitamin C alongside a rich array of protective carotenoid antioxidants, they serve as an elite whole food for optimizing immune defense, skin elasticity, and vision.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "31 kcal",
+        "bg": "#15837c",
+        "description": "Very low in calories and highly hydrating, making it an excellent volume food for blood sugar control and weight management."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "1.0 grams",
+        "bg": "#f5722c",
+        "description": "Contains minor plant-based amino acids, serving as structural support within the vegetable's crisp cellular matrix."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.3 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free. However, pairing bell peppers with healthy dietary lipids (like olive oil) drastically boosts fat-soluble carotenoid absorption."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "6.0 grams",
+        "bg": "#15837c",
+        "description": "Composed of natural simple sugars (glucose, fructose) wrapped in structured dietary fibers, ensuring a negligible glycemic response."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "127.7 mg / 142% DV",
+        "bg": "#1a96cd",
+        "description": "An astronomical concentration that effortlessly beats citrus fruits, driving powerful collagen synthesis, tissue repair, and immune performance."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (Beta-Carotene)",
+        "amount": "157 mcg / 17% DV",
+        "bg": "#66ab63",
+        "description": "Rich in provitamin A carotenoids, which the body converts to active retinol to preserve night vision and maintain healthy mucosal barriers."
+      },
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6 (Pyridoxine)",
+        "amount": "0.29 mg / 17% DV",
+        "bg": "#f5722c",
+        "description": "Acts as a vital metabolic coenzyme required for the proper synthesis of red blood cells and neuro-signaling transmitters."
+      },
+      {
+        "id": "capsanthin",
+        "slug": "antioxidants",
+        "name": "Capsanthin",
+        "amount": "High Concentration",
+        "bg": "#e4a910",
+        "description": "A powerful, unique antioxidant responsible for the bright red hue; it scavenges free radicals and assists in protecting cellular health."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "211 mg / 5% DV",
+        "bg": "#15837c",
+        "description": "An essential systemic electrolyte that coordinates electrical cardiac pulses, fluid pump mechanics, and balanced blood pressure levels."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.1 grams",
+        "bg": "#1a96cd",
+        "description": "Provides crisp structural fibers that optimize transit time in the digestive tract and feed beneficial gut microbiomes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Unrivaled Immune System Defense:</b> Delivering over 140% of your daily Vitamin C in just 100g, bell peppers rapidly stimulate white blood cell production and bolster host defense mechanisms.",
+      "<b>Advanced Ocular Protection:</b> Loaded with lutein, zeaxanthin, and beta-carotene, frequent intake helps shield the retina from high-energy light damage and counteracts age-related visual degeneration.",
+      "<b>Dermal Integrity & Anti-Aging:</b> The heavy synthesis of Vitamin C works in perfect synergy with Vitamin E to maximize natural collagen assembly, improving vascular tone and skin elasticity.",
+      "<b>Enhanced Iron Bioavailability:</b> The incredible concentration of ascorbic acid transforms non-heme iron from companion plant-based foods into highly soluble, easily absorbable forms inside the gut."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Nightshade Sensitive Profile:</b> As prominent members of the nightshade family, bell peppers house trace alkaloids. While safe for the vast majority, individuals with specific autoimmune conditions or joint sensitivities may choose to track their tolerance.",
+      "<b>Gastrointestinal Skin & Seed Irritation:</b> The structural outer skin and internal seeds contain dense fibers that can sometimes be tough to process for sensitive stomachs, occasionally causing mild bloating or reflux unless peeled or cooked.",
+      "<b>Pesticide Surface Retention:</b> Because of their broad surface area and thin skins, conventionally farmed bell peppers can hold higher pesticide residues. Washing thoroughly or choosing organic options is beneficial.",
+      "<b>Cross-Reactive Pollen Allergies:</b> Individuals with specific seasonal allergies (such as birch or mugwort pollen) might experience mild cross-reactive oral allergy syndrome, presenting as itching in the mouth or throat."
+    ]
+  },
+  "broccoli": {
+    "slug": "broccoli",
+    "name": "Broccoli",
+    "category": "Vegetables & Greens",
+    "image": "/productinfo/broccoli.png",
+    "imageAlt": "broccoli",
+    "description": "Broccoli is an elite, highly complex cruciferous vegetable powerhouse. Packaging a monumental density of immune-boosting Vitamin C and bone-building Vitamin K1 alongside legendary cellular detox compounds like *sulforaphane*, it serves as a premier functional whole food for total body resilience and tissue defense.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "34 kcal",
+        "bg": "#15837c",
+        "description": "Very low in calories and exceptionally nutrient-dense, making it a perfect functional volume food for strict metabolic and weight management."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "2.8 grams",
+        "bg": "#f5722c",
+        "description": "Contains a surprisingly robust plant-based protein profile for a green vegetable, supplying clean essential amino acids for tissue repair."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.4 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free. However, cooking or serving it with a splash of healthy lipids drastically increases the absorption of its fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "6.6 grams",
+        "bg": "#15837c",
+        "description": "Composed of slow-digesting complex carbohydrates tightly wrapped in rigid plant fiber structures, keeping blood sugar curves completely flat."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "89.2 mg / 99% DV",
+        "bg": "#1a96cd",
+        "description": "An exceptional concentration that easily rival or beats most citrus fruits, fueling robust immune mechanics and dynamic collagen assembly."
+      },
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1 (Phylloquinone)",
+        "amount": "101.6 mcg / 85% DV",
+        "bg": "#15837c",
+        "description": "An abundant dose of this critical fat-soluble factor, essential for managing natural blood coagulation cascades and anchoring bone calcium."
+      },
+      {
+        "id": "sulforaphane",
+        "slug": "antioxidants",
+        "name": "Sulforaphane (Glucoraphanin)",
+        "amount": "High Concentration",
+        "bg": "#66ab63",
+        "description": "A legendary sulfur-rich compound unique to cruciferous vegetables that activates profound cellular detoxification and deep antioxidant defense."
+      },
+      {
+        "id": "vitB9",
+        "slug": "vitamin-b9",
+        "name": "Vitamin B9 (Folate)",
+        "amount": "63.0 mcg / 16% DV",
+        "bg": "#f5722c",
+        "description": "Crucial coenzyme necessary for continuous cellular division, proper DNA replication, and protecting vascular tissue equilibrium."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.6 grams",
+        "bg": "#e4a910",
+        "description": "A rich mix of soluble and insoluble structural fibers that optimize digestive transit times and heavily feed beneficial gut flora."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "316 mg / 7% DV",
+        "bg": "#1a96cd",
+        "description": "An essential systemic electrolyte coordinating healthy fluid mechanics, neuromuscular impulses, and resting vascular tone."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Advanced Cellular Detoxification:</b> The rich presence of glucoraphanin converts into *sulforaphane* upon chewing or chopping, triggering profound liver detox pathways and fighting systemic free-radical decay.",
+      "<b>Elite Vascular & Immune Defense:</b> Delivering nearly 100% of your daily Vitamin C per 100g, it aggressively drives white blood cell production while working with Vitamin K1 to support vascular lining flexibility.",
+      "<b>Skeletal Mineral Anchoring:</b> High natural levels of Vitamin K1 efficiently coordinate osteocalcin activation, ensuring calcium routes smoothly out of blood vessels and locks tightly into the structural bone matrix.",
+      "<b>Robust Glycemic Control:</b> Complex structural fibers combined with slow-burning starches delay gastric empty rates, keeping post-meal blood sugar curves phenomenally stable."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Cruciferous Goitrogen Activity:</b> Raw broccoli contains trace amounts of goitrogens—plant compounds that can theoretically compete with iodine absorption in the thyroid. For individuals with compromised thyroid health, lightly steaming completely neutralizes this effect.",
+      "<b>Gastrointestinal Gas & Fermentation:</b> Packed with dense, rigid cellulose fibers and a complex sugar called raffinose, raw broccoli can be tough to break down for sensitive stomachs, causing temporary bloating or lower abdominal gas. Cooked formats soften these structures significantly.",
+      "<b>Calibrated Blood Thinner Synergy:</b> Due to the high, rich volume of Vitamin K1—the master coordinator of the body's natural blood clotting mechanics—individuals taking prescription anticoagulants (like Warfarin) should maintain steady, highly consistent intake.",
+      "<b>Thermal Enzyme Deactivation:</b> Boiling broccoli inside excessive water for long periods kills *myrosinase*—the crucial enzyme required to unlock its highly therapeutic sulforaphane compound. Lightly steaming for 3 to 5 minutes is optimal for preserving its functional value."
+    ]
+  },
+  "carrot": {
+    "slug": "carrot",
+    "name": "Carrot",
+    "category": "Vegetables",
+    "image": "/productinfo/carrots.png",
+    "imageAlt": "carrots",
+    "description": "Carrots (Daucus carota) are vibrant, biennial root vegetables cultivated globally for their crisp texture and nutrient density. Traditionally associated with a deep orange hue, they also grow in heritage varieties of purple, yellow, red, and white.\n                            From a botanical perspective, carrots belong to the Apiaceae (parsley) family, sharing lineage with celery, parsnips, and fennel. While the sweet, taproot is the most commonly consumed part, the feathery green tops are also edible and rich in minerals. Carrots owe their signature orange color to highly concentrated carotenoid pigments, which serve as crucial precursors for essential vitamins in human metabolism.",
+    "macroTitle": "Macro Nutrients (per 100g raw)",
+    "macroIntro": "Carrots are a low-calorie, high-moisture crop composed of approximately 88% water. They provide clean energy primarily through complex carbohydrates, with a negligible fat profile.",
+    "microIntro": "Carrots are a premier dietary source of provitamin A and contain an array of synergistic micronutrients that support cellular integrity.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "41 kcal",
+        "bg": "#15837c",
+        "description": "Provides low-glycemic basal energy to fuel daily metabolic processes."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "0.9 grams",
+        "bg": "#f5722c",
+        "description": "Minimal; contains trace structural amino acids necessary for plant protein structures."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.2 grams",
+        "bg": "#e4a910",
+        "description": "Negligible; mostly composed of essential polyunsaturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "9.6 grams",
+        "bg": "#15837c",
+        "description": "Split between naturally occurring simple sugars (sucrose, glucose) and structural complex carbohydrates."
+      },
+      {
+        "id": "dietfiber",
+        "name": "Dietary Fiber",
+        "slug": "",
+        "amount": "2.8 grams",
+        "bg": "#f5722c",
+        "description": "Rich in soluble pectin and insoluble cellulose that optimize digestion and support gut microbiota."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A",
+        "amount": "835 mcg / 104% DV",
+        "bg": "#66ab63",
+        "description": "Packed with beta-carotene and alpha-carotene, which the liver converts into retinol for advanced vision and night sight protection."
+      },
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1",
+        "amount": "13.2 mcg / 11% DV",
+        "bg": "#15837c",
+        "description": "Essential for synthesizing blood-coagulation proteins and supporting structural bone mineralization."
+      },
+      {
+        "id": "b6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "0.14 mg / 9% DV",
+        "bg": "#f5722c",
+        "description": "Serves as a vital coenzyme in cellular amino acid metabolism, energy release, and neurotransmitter production."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "320 mg / 7% DV",
+        "bg": "#e4a910",
+        "description": "An essential intracellular electrolyte that regulates fluid balance, nerve signaling, and systemic blood pressure."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "5.9 mg / 7% DV",
+        "bg": "#1a96cd",
+        "description": "A water-soluble antioxidant that strengthens endothelial defenses, drives collagen synthesis, and boosts immunity."
+      },
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "256 mcg",
+        "bg": "#1a96cd",
+        "description": "Crucial carotenoid antioxidants that accumulate in the macular region of the eye, filtering harmful blue light wavelengths."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Advanced Vision Protection:</b> The high concentration of beta-carotene is utilized by the retina to synthesize rhodopsin, a biological pigment necessary for low-light and night vision. Additionally, carrots contain lutein, an antioxidant that accumulates in the macular region of the eye, filtering out harmful blue light wavelengths and mitigating the risk of age-related macular degeneration (AMD).",
+      "<b>Cardiovascular & Glycemic Regulation:</b> The soluble fiber profile in carrots consists heavily of pectin, which binds bile acids in the intestinal lumen, prompting the liver to draw cholesterol from the bloodstream to synthesize more bile—effectively lowering circulating LDL cholesterol. Despite their sweet taste, carrots have a low glycemic index (GI ~16 to 32 depending on raw vs. cooked states), preventing rapid blood glucose spikes.",
+      "<b>Digestive Tract Optimization:</b> The insoluble fibers (cellulose and hemicellulose) add bulk to fecal matter and stimulate peristalsis, preventing constipation. Furthermore, these fibers act as prebiotics, feeding beneficial short-chain fatty acid (SCFA)-producing bacteria in the large intestine, which fortifies the gut barrier function.",
+      "<b>Endothelial and Immune Defense:</b> Carotenoids and vitamin C act as potent free-radical scavengers, dampening systemic oxidative stress and protecting vascular endothelial cell walls. Vitamin A also regulates the differentiation and activation of T-cells and B-lymphocytes, reinforcing the body's primary immune response against pathogens."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Carotenemia:</b> Excessive, chronic consumption of carrots can lead to carotenemia—a benign clinical condition where excess beta-carotene accumulates in the stratum corneum, causing a distinct yellowish-orange discoloration of the skin (most visible on the palms and soles). It is completely reversible by reducing intake.",
+      "<b>Pesticide Residuals & Soil Hygiene:</b> Because carrots are subterranean taproots, they directly absorb chemicals present in the soil. Thorough scrubbing or peeling is highly recommended for conventional carrots to eliminate pesticide residues and pathogens like Listeria or Toxoplasma gondii.",
+      "<b>Oral Allergy Syndrome (OAS):</b> Individuals allergic to birch pollen or mugwort may experience cross-reactivity when eating raw carrots due to structural similarities in plant proteins. Symptoms include localized itching or swelling of the lips, mouth, and throat. Cooking the carrots denatures these proteins, typically eliminating the reaction."
+    ]
+  },
+  "corn": {
+    "slug": "corn",
+    "name": "Corn",
+    "category": "Vegetables & Grains",
+    "image": "/productinfo/corn.png",
+    "imageAlt": "corn",
+    "description": "Corn is a vibrant, carbohydrate-rich vegetable and cereal grain. Highly regarded for its exceptional content of protective macular carotenoids like lutein and zeaxanthin, it provides a functional balance of dietary fibers and B-vitamins to sustain physical stamina and ocular health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "86 kcal",
+        "bg": "#15837c",
+        "description": "A moderate-energy starchy vegetable that provides sustained, reliable fuel for muscular work and cellular respiration."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "3.2 grams",
+        "bg": "#f5722c",
+        "description": "Contains a notable amount of plant proteins for a vegetable, including zein, though it should be paired with legumes for a complete amino profile."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "1.2 grams",
+        "bg": "#e4a910",
+        "description": "Naturally very low in fat, containing trace heart-healthy monounsaturated and polyunsaturated fatty acids within the grain germ."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "19.0 grams",
+        "bg": "#15837c",
+        "description": "Primarily composed of complex starches and natural simple sugars, offering structured energy management to prevent rapid glucose spikes."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "642 mcg",
+        "bg": "#e4a910",
+        "description": "Phenomenal plant pigments that deposit directly into the macular region of the eye, filtering harmful blue light and guarding visual acuity."
+      },
+      {
+        "id": "vitB1",
+        "slug": "vitamin-b1",
+        "name": "Vitamin B1 (Thiamin)",
+        "amount": "0.15 mg / 13% DV",
+        "bg": "#1a96cd",
+        "description": "An essential coenzyme involved in carbohydrate metabolic cascades, crucial for optimizing cognitive drive and nervous system communication."
+      },
+      {
+        "id": "vitB9",
+        "slug": "vitamin-b9",
+        "name": "Vitamin B9 (Folate)",
+        "amount": "42.0 mcg / 11% DV",
+        "bg": "#66ab63",
+        "description": "Vital for cellular division, nucleotide synthesis, and erythrocyte maturation, playing a protective role in cardiovascular tissue health."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.7 grams",
+        "bg": "#f5722c",
+        "description": "Mainly insoluble fibers that add mechanical volume to the stool matrix, accelerating intestinal transit and supporting digestive regularity."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "37.0 mg / 9% DV",
+        "bg": "#15837c",
+        "description": "Assists in enzymatic cellular stabilization, supporting muscular relaxation, bone health, and smooth cardiac electrical performance."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "6.8 mg / 8% DV",
+        "bg": "#1a96cd",
+        "description": "Provides antioxidant assistance, neutralizing surface free radicals and supporting natural immune tissue integrity."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Targeted Macular Defense:</b> The high density of lutein and zeaxanthin acts as natural \"internal sunglasses,\" shielding retinal cells against oxidative blue light exposure and slowing macular breakdown.",
+      "<b>Sustained Glycemic Energy:</b> Its complex starch matrix, balanced by dietary fibers, results in steady metabolic glucose release, preventing sudden insulin crashes when eaten in whole form.",
+      "<b>Enhanced Bowel Motility:</b> Rich in insoluble plant fiber, corn swells within the intestinal tract, physically sweeping the colon lining, boosting peristalsis, and preventing general sluggishness.",
+      "<b>Neuro-Metabolic Support:</b> Substantial amounts of Thiamin (B1) support cellular energy pathways, optimizing memory mechanics and structural peripheral nerve health."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Starchy Glycemic Load Factors:</b> Corn contains significantly more carbohydrates than leafy or watery vegetables. Individuals managing Type 2 diabetes or tracking precise glycemic parameters should control serving volumes to avoid unexpected postprandial glucose shifts.",
+      "<b>Insoluble Outer Husk Toughness:</b> The clear cellulose shell wrapping each individual kernel is structurally un-digestible by human stomach acid. Improperly chewed corn can pass entirely intact, causing gas, mild cramps, or bloating in sensitive digestive tracts.",
+      "<b>Hidden Syrups & Ultra-Processed Additives:</b> While whole sweet corn is highly therapeutic, refined commercial corn offshoots—such as High-Fructose Corn Syrup (HFCS) or processed corn starch—lack all fibers and minerals, severely aggravating metabolic liver pathways.",
+      "<b>Fungal Mycotoxin Contamination:</b> If stored in poorly ventilated, high-humidity corporate grain silos, corn crops can easily develop mold strains producing aflatoxins. Always consume freshly cooked or properly sealed, verified retail products."
+    ]
+  },
+  "cottage-cheese": {
+    "slug": "cottage-cheese",
+    "name": "Cottage Cheese",
+    "category": "Dairy",
+    "image": "/productinfo/cottage-cheese-with-strawberries.png",
+    "imageAlt": "cottage cheese",
+    "description": "Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "98 kcal",
+        "bg": "#15837c",
+        "description": "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "11.1 grams",
+        "bg": "#f5722c",
+        "description": "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "4.3 grams",
+        "bg": "#e4a910",
+        "description": "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "3.4 grams",
+        "bg": "#15837c",
+        "description": "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "83 mg / 8% DV",
+        "bg": "#15837c",
+        "description": "The primary structural mineral required for developing and preserving high bone density and optimizing dental health."
+      },
+      {
+        "id": "b12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12",
+        "amount": "0.43 mcg / 18% DV",
+        "bg": "#f5722c",
+        "description": "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "159 mg / 13% DV",
+        "bg": "#66ab63",
+        "description": "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage."
+      },
+      {
+        "id": "selenium",
+        "slug": "selenium",
+        "name": "Selenium",
+        "amount": "9.7 mcg / 14% DV",
+        "bg": "#1a96cd",
+        "description": "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production."
+      },
+      {
+        "id": "b2",
+        "slug": "vitamin-b2",
+        "name": "Vitamin B2 (Riboflavin)",
+        "amount": "0.17 mg / 13% DV",
+        "bg": "#e4a910",
+        "description": "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy."
+      },
+      {
+        "id": "sodium",
+        "slug": "sodium",
+        "name": "Sodium",
+        "amount": "364 mg / 15% DV",
+        "bg": "#1a96cd",
+        "description": "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.",
+      "<b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.",
+      "<b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.",
+      "<b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.",
+      "<b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.",
+      "<b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.",
+      "<b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening."
+    ]
+  },
+  "eggs": {
+    "slug": "eggs",
+    "name": "Eggs",
+    "category": "Dairy",
+    "image": "/productinfo/eggs.png",
+    "imageAlt": "eggs",
+    "description": "Eggs are often called \"nature's multivitamin\" for a good reason. They are one of the most nutritionally dense, complete whole foods available, packed with high-quality protein, healthy fats, and a wide array of essential vitamins and minerals.",
+    "macroTitle": "Macro Nutrients (per 50g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "~72 kcal",
+        "bg": "#15837c",
+        "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "6.3 grams",
+        "bg": "#f5722c",
+        "description": "High-quality, bioavailable protein containing all nine essential amino acids. Essential for muscle repair, cellular construction, and immune function."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "4.8 grams",
+        "bg": "#e4a910",
+        "description": "Includes healthy monounsaturated and polyunsaturated fats, alongside essential fatty acids, vital for hormone production and absorbing fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "0.4 grams",
+        "bg": "#15837c",
+        "description": "Extremely low in carbs, making eggs an excellent choice for stabilizing blood sugar and supporting low-glycemic dietary targets."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "choline",
+        "slug": "choline",
+        "name": "Choline",
+        "amount": "147 mg",
+        "bg": "#15837c",
+        "description": "Critical for brain development, memory, and cellular structural integrity. One egg provides roughly 25-30% of your daily requirement."
+      },
+      {
+        "id": "selenium",
+        "slug": "selenium",
+        "name": "Selenium",
+        "amount": "15.4 mcg / 22% DV",
+        "bg": "#1a96cd",
+        "description": "A powerful antioxidant that supports thyroid function and protects the body from oxidative damage."
+      },
+      {
+        "id": "b12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12",
+        "amount": "0.5 mcg / 20% DV",
+        "bg": "#f5722c",
+        "description": "Vital for nerve tissue health, brain function, and red blood cell production."
+      },
+      {
+        "id": "b2",
+        "slug": "vitamin-b2",
+        "name": "Vitamin B2",
+        "amount": "0.2 mg / 15% DV",
+        "bg": "#e4a910",
+        "description": "Helps the body break down carbohydrates, proteins, and fats to produce energy."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A",
+        "amount": "270 IU / 6% DV",
+        "bg": "#66ab63",
+        "description": "Supports healthy vision, skin health, and immune system defense."
+      },
+      {
+        "id": "vitD",
+        "slug": "vitamin-d",
+        "name": "Vitamin D",
+        "amount": "41 IU / 5% DV",
+        "bg": "#15837c",
+        "description": "Necessary for bone density and calcium absorption. One of the few natural dietary sources."
+      },
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "Antioxidant Carotenoids",
+        "bg": "#1a96cd",
+        "description": "Crucial carotenoid antioxidants that protect the eyes from damaging blue light and reduce macular degeneration risk."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Promotes Muscle Maintenance & Recovery:</b> The highly bioavailable protein in eggs makes them an excellent food for tissue repair and building lean muscle mass.",
+      "<b>Supports Brain Health:</b> The high concentration of choline is used by the brain to synthesize acetylcholine, a neurotransmitter critical for memory, mood, and cognitive function.",
+      "<b>Improves Heart Health Architecture:</b> While eggs do contain dietary cholesterol, extensive research shows that for about 70% of the population, dietary cholesterol does not significantly raise blood cholesterol. In fact, egg consumption typically improves the lipid profile by raising \"good\" HDL cholesterol and changing the texture of \"bad\" LDL to large, less harmful particles.",
+      "<b>Aids Weight Management:</b> High protein foods increase satiety (the feeling of fullness) and regulate appetite hormones, which can naturally reduce subsequent calorie intake throughout the day.",
+      "<b>Protects Vision:</b> The antioxidants lutein and zeaxanthin accumulate in the retina, drastically lowering the risk of age-related cataracts and macular health decline."
+    ],
+    "precautionsIntro": "The Salmonella Risk: Raw or undercooked eggs can carry Salmonella enteritidis, a bacteria that causes food poisoning. Always cook eggs until the yolks and whites are firm, or use pasteurized eggs for recipes requiring raw components (like homemade mayo or tiramisu).",
+    "precautions": [
+      "<b>Egg Allergies:</b> Egg allergy is one of the most common food allergies, especially in children. Symptoms can range from mild hives to severe anaphylaxis. Fortunately, many children outgrow it by adolescence.",
+      "<b>Hyper-Responders to Cholesterol:</b> About 30% of people are \"hyper-responders,\" meaning dietary cholesterol significantly impacts their blood levels. If you have a genetic predisposition to high cholesterol, familial hypercholesterolemia, or existing type 2 diabetes, it is wise to monitor your overall egg intake and consult a medical professional.",
+      "<b>Proper Storage:</b> Eggs should be stored in their original carton in the main body of the refrigerator (at or below 4°C / 40°F) rather than the refrigerator door, where temperature fluctuations are highest."
+    ]
+  },
+  "fatty-fish": {
+    "slug": "fatty-fish",
+    "name": "Fatty Fish",
+    "category": "Fish & Seafood",
+    "image": "/productinfo/fatty-fish.png",
+    "imageAlt": "fatty fish",
+    "description": "Fatty fish (such as salmon, mackerel, and sardines) are unparalleled therapeutic superfoods. Providing a combination of highly bioavailable proteins, substantial amounts of active Vitamin D3, and profound concentrations of omega-3 fatty acids, they serve as the gold standard for cardiovascular and neural health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "206 kcal",
+        "bg": "#15837c",
+        "description": "Provides clean, sustained cellular energy driven primarily by high-quality proteins and healthy structural fats."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "22.0 grams",
+        "bg": "#f5722c",
+        "description": "An elite, highly bioavailable complete protein source containing all essential amino acids required for muscle synthesis and metabolic repair."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "13.0 grams",
+        "bg": "#e4a910",
+        "description": "Rich in vital polyunsaturated fats, specifically the anti-inflammatory omega-3 fatty acids EPA and DHA."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "0.0 grams",
+        "bg": "#15837c",
+        "description": "Completely clear of carbohydrates, making it an ideal whole food for stabilizing insulin and supporting low-glycemic dietary goals."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "omega3",
+        "slug": "omega-3",
+        "name": "Omega-3 (EPA/DHA)",
+        "amount": "2200 mg",
+        "bg": "#e4a910",
+        "description": "Essential long-chain fatty acids that construct healthy brain cell membranes, optimize lipid panels, and dramatically reduce systemic arterial inflammation."
+      },
+      {
+        "id": "vitD",
+        "slug": "vitamin-d",
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "amount": "526 IU / 66% DV",
+        "bg": "#15837c",
+        "description": "One of the absolute richest natural dietary sources of active Vitamin D3, foundational for systemic calcium absorption and immune system performance."
+      },
+      {
+        "id": "b12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12",
+        "amount": "3.2 mcg / 133% DV",
+        "bg": "#f5722c",
+        "description": "Critical nutrient for maintaining the nervous system, securing neurological processing speed, and driving red blood cell production."
+      },
+      {
+        "id": "selenium",
+        "slug": "selenium",
+        "name": "Selenium",
+        "amount": "41.4 mcg / 75% DV",
+        "bg": "#1a96cd",
+        "description": "A major trace antioxidant that activates enzymes to safeguard arterial linings and shield the thyroid gland from oxidative stress."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "363 mg / 8% DV",
+        "bg": "#66ab63",
+        "description": "An essential intracellular mineral that works in sync with sodium to regulate cellular fluid pump mechanics and manage resting blood pressure."
+      },
+      {
+        "id": "b6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "0.6 mg / 35% DV",
+        "bg": "#1a96cd",
+        "description": "Serves as a crucial metabolic coenzyme involved in cellular protein processing and the natural synthesis of cognitive neurotransmitters."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Smoothness & Architecture:</b> The heavy input of marine EPA and DHA lowers blood triglycerides, optimizes arterial elasticity, reduces resting blood pressure, and helps stabilize heart rhythms.",
+      "<b>Advanced Cognitive Optimization:</b> Since DHA is a primary structural lipid component of the human brain cortex, consistent consumption preserves optimal neuro-signaling, boosts memory parameters, and mitigates age-related cognitive decline.",
+      "<b>Powerful Systemic Anti-Inflammation:</b> Marine omega-3 fats directly compete with inflammatory pathways, drastically decreasing the production of pro-inflammatory cytokines and protecting metabolic tissues.",
+      "<b>Skeletal & Immune Reinforcement:</b> Exceptional natural concentrations of active Cholecalciferol (Vitamin D3) maximize intestinal calcium absorption, consolidating skeletal bone density matrices."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Mercury & Heavy Metal Bioaccumulation:</b> Large predatory fish species (like swordfish, king mackerel, and large tuna) can accumulate mercury in their muscle tissue over time. For frequent eating, choose smaller species like salmon, sardines, or trout.",
+      "<b>Environmental Pollutant Thresholds:</b> Wild-caught fish from heavily industrialized water bodies may contain trace persistent organic pollutants (POPs) or PCBs. Sourcing your seafood from certified, environmentally sustainable fisheries is highly advised.",
+      "<b>Fish and Seafood Allergies:</b> Fish allergy is highly prevalent and typically persists throughout adulthood, carrying a high risk of triggering severe, immediate anaphylactic reactions in sensitive individuals.",
+      "<b>Perishability & Histamine Toxicity:</b> If fatty fish is stored incorrectly or sits too long before freezing, the rapid bacterial breakdown of histidine can cause high histamine accumulation, leading to scombroid food poisoning."
+    ]
+  },
+  "kiwi": {
+    "slug": "kiwi",
+    "name": "Kiwi",
+    "category": "Fruits & Berries",
+    "image": "/productinfo/kiwi.png",
+    "imageAlt": "kiwi",
+    "description": "Kiwi is an exceptionally nutrient-dense, emerald-fleshed fruit. Renowned for containing a massive concentration of Vitamin C that completely surpasses citrus alternatives, it provides unique protein-cleaving enzymes, rich fibers, and dense mineral metrics to drive gut motility and optimal defense.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "61 kcal",
+        "bg": "#15837c",
+        "description": "A low-to-moderate calorie whole food options that delivers dense physical hydration and exceptional cellular fuel."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "1.1 grams",
+        "bg": "#f5722c",
+        "description": "Contains nominal structural plant proteins, though it is famous for housing actinidin—a unique protein-digesting enzyme."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.5 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, containing only trace healthy essential fatty acids embedded within its microscopic black edible seeds."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "14.7 grams",
+        "bg": "#15837c",
+        "description": "Composed of natural simple sugars managed efficiently by structural dietary fibers, resulting in a moderate glycemic response."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "92.7 mg / 103% DV",
+        "bg": "#1a96cd",
+        "description": "An extraordinary mega-dose that exceeds the daily recommended allowance in a single serving, boosting systemic immunity and skin cell synthesis."
+      },
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1",
+        "amount": "40.3 mcg / 34% DV",
+        "bg": "#15837c",
+        "description": "An essential fat-soluble factor required for perfect blood coagulation mechanics and supporting the structural density of bone tissue."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "3.0 grams",
+        "bg": "#f5722c",
+        "description": "A robust blend of soluble and insoluble fibers that accelerates intestinal transit, feeds gut flora, and keeps glycemic curves smooth."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "312 mg / 7% DV",
+        "bg": "#e4a910",
+        "description": "A crucial cellular electrolyte that assists in fluid balance dynamics, nervous system electrical signaling, and healthy cardiac tone."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E",
+        "amount": "1.5 mg / 10% DV",
+        "bg": "#1a96cd",
+        "description": "A fat-soluble antioxidant rarely found in high amounts in low-fat fruits; it works alongside Vitamin C to halt lipid oxidation chains."
+      },
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "122 mcg",
+        "bg": "#66ab63",
+        "description": "Crucial plant pigments that deposit into the eye's macular area, absorbing harmful blue wavelengths and shielding ocular cell architecture."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Digestive Enhancement:</b> Kiwi naturally produces *actinidin*, a highly functional protease enzyme that breaks down dense dietary proteins (like red meats or dairy), drastically speeding up gastric emptying and easing bloating.",
+      "<b>Unrivaled Immune Fortification:</b> Supplying over 100% of your daily Vitamin C value per 100g, kiwi drives rapid neutrophil leukocyte activity, helping guard systemic tissues from common pathogens.",
+      "<b>Intestinal Motility & Regularity:</b> The high water-binding capacity of kiwi's unique soluble and insoluble fibers softens the stool matrix and significantly optimizes bowel movement consistency without bloating.",
+      "<b>Endothelial Vasodilation:</b> The healthy presence of potassium and organic antioxidants aids in inhibiting blood platelet aggregation, helping manage lipid health and keeping blood pressure balanced."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Allergenic Potential:</b> Kiwi is a well-documented source of cross-reactive food allergens, primarily due to actinidin. Symptoms of a kiwi allergy include oral allergy syndrome (itching or tingling in the mouth and throat), hives, and in severe cases, anaphylaxis.",
+      "<b>The Gelatin Cooking Conflict:</b> Because actinidin aggressively breaks down protein molecules, using fresh raw kiwi in recipes containing gelatin or milk proteins will destroy the structure, preventing jello from setting or making dairy taste bitter.",
+      "<b>Oral Mucosal Soreness:</b> Consuming multiple raw kiwis at once can cause a temporary stinging or burning sensation on the tongue and inner cheeks. This is a harmless physical reaction caused by actinidin enzymes and microscopic needle-like calcium oxalate crystals (raphides) physically irritating the soft tissues.",
+      "<b>Moderate Oxalate Content:</b> Kiwi contains measurable amounts of natural organic oxalates. Individuals with a historical predisposition to calcium-oxalate kidney stone formations should regulate excessive intake."
+    ]
+  },
+  "mushrooms": {
+    "slug": "mushrooms",
+    "name": "Mushrooms",
+    "category": "Fungi",
+    "image": "/productinfo/mushrooms.png",
+    "imageAlt": "mushrooms",
+    "description": "Mushrooms occupy a completely unique biological kingdom. Low in calories yet deeply savory due to natural glutamate, they provide a remarkable matrix of immune-modulating beta-glucans, unique antioxidants like selenium, and are one of the few non-animal sources of Vitamin D.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "22 kcal",
+        "bg": "#15837c",
+        "description": "An incredibly low-calorie whole food option, highly favorable for weight management and structural metabolic restriction."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "3.1 grams",
+        "bg": "#f5722c",
+        "description": "Surprisingly high in protein for a non-animal source; contains a balanced profile of essential building-block amino acids."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.3 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, containing only trace levels of healthy unsaturated fatty acids and absolutely zero cholesterol."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "3.3 grams",
+        "bg": "#15837c",
+        "description": "Primarily made of complex structural carbohydrates and fibers, generating a negligible impact on systemic blood sugar levels."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitD",
+        "slug": "vitamin-d",
+        "name": "Vitamin D (Ergocalciferol)",
+        "amount": "18 IU / 4% DV",
+        "bg": "#15837c",
+        "description": "One of the exceptionally rare non-animal whole food sources of Vitamin D2, which helps facilitate systemic calcium retention and bone mineralization."
+      },
+      {
+        "id": "selenium",
+        "slug": "selenium",
+        "name": "Selenium",
+        "amount": "9.3 mcg / 17% DV",
+        "bg": "#1a96cd",
+        "description": "A potent antioxidant mineral that neutralizes free radical cellular strain, optimizes thyroid function, and supports immunity."
+      },
+      {
+        "id": "b2",
+        "slug": "vitamin-b2",
+        "name": "Vitamin B2 (Riboflavin)",
+        "amount": "0.4 mg / 31% DV",
+        "bg": "#e4a910",
+        "description": "Essential metabolic coenzyme that plays a major role in cellular energy extraction and the structural production of red blood cells."
+      },
+      {
+        "id": "b3",
+        "slug": "vitamin-b3",
+        "name": "Vitamin B3 (Niacin)",
+        "amount": "3.6 mg / 23% DV",
+        "bg": "#f5722c",
+        "description": "Supports healthy cellular respiration, optimizes enzyme activity, protects skin texture, and preserves baseline nervous system health."
+      },
+      {
+        "id": "copper",
+        "slug": "copper",
+        "name": "Copper",
+        "amount": "0.3 mg / 35% DV",
+        "bg": "#66ab63",
+        "description": "A fundamental trace mineral required to synthesize hemoglobin, construct vascular structures, and manufacture neurotransmitters."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "318 mg / 7% DV",
+        "bg": "#e4a910",
+        "description": "A primary intercellular electrolyte that regulates natural fluid metrics, neural signal pathways, and cardiovascular muscle tone."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Immune System Architecture:</b> Mushrooms contain complex polysaccharides called beta-glucans. These molecules act as natural immunomodulators, gently binding to immune cells to optimize host defense activities.",
+      "<b>Cellular Antioxidant Defense:</b> The robust concentration of selenium helps generate crucial glutathione peroxidase enzymes, shielding cellular membranes from everyday oxidative destruction.",
+      "<b>Cardiovascular Health Support:</b> Naturally rich in potassium and completely clear of sodium or cholesterol, mushrooms facilitate relaxed vascular tension and aid in proper systemic blood pressure control.",
+      "<b>Satiety with Minimal Calories:</b> Their dense structural matrix provides substantial dietary weight and a satisfying savory \"umami\" experience, keeping you full while incurring very low caloric costs."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Chitin Digestive Resistance:</b> Raw mushroom cell walls are built from chitin—a tough, rigid polymer. To avoid digestive strain, cramping, or bloating, mushrooms should always be cooked to break down this matrix.",
+      "<b>Foraging and Wild Toxicity Risk:</b> Never consume wild mushrooms unless they have been verified with absolute professional certainty. Toxic varieties can mimic edible species perfectly and cause fatal organ damage. Commercial store-bought options are completely safe.",
+      "<b>Porous Heavy Metal Absorption:</b> Fungi act like natural sponges, easily drawing pollutants or heavy metals from contaminated surrounding soil. Always purchase your mushrooms from trusted, quality-controlled cultivation vendors.",
+      "<b>Perishability and Mold Growth:</b> Due to high baseline moisture levels, fresh mushrooms spoil quickly and can harbor toxic molds if stored incorrectly. Keep them in breathable paper bags in the fridge and discard if they become slimy."
+    ]
+  },
+  "pumpkin": {
+    "slug": "pumpkin",
+    "name": "Pumpkin",
+    "category": "Vegetables",
+    "image": "/productinfo/pumpkin.png",
+    "imageAlt": "pumpkin",
+    "description": "Pumpkin is a highly nutritious, low-calorie autumn staple. Loaded with vibrant carotenoid antioxidants, skin-loving vitamins, and hydrating minerals, this versatile whole food provides exceptional structural benefits for systemic immunity and vision preservation.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "26 kcal",
+        "bg": "#15837c",
+        "description": "An incredibly low-calorie and water-dense food, perfect for volume eating and weight management."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "1.0 grams",
+        "bg": "#f5722c",
+        "description": "Minimal protein content; provides trace non-essential amino acids standard in cucurbitaceous plants."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.1 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, making it an excellent base for heart-healthy and low-fat dietary regimes."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "6.5 grams",
+        "bg": "#15837c",
+        "description": "Composed of complex carbohydrates and natural sugars, yielding a low glycemic load that keeps insulin spikes minimal."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (Beta-Carotene)",
+        "amount": "426 mcg / 53% DV",
+        "bg": "#66ab63",
+        "description": "Abundant in pro-vitamin A carotenoids (giving it the orange hue), which the body converts into retinol to shield eye health and enhance cellular repair."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "340 mg / 7% DV",
+        "bg": "#e4a910",
+        "description": "A vital systemic electrolyte that aids in smooth muscle contraction, healthy vascular tone, and balancing intra-cellular fluid levels."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "0.5 grams",
+        "bg": "#f5722c",
+        "description": "Though modest in raw flesh, its soluble fibers break down into gentle fuel for gut microbes and smooth out intestinal transit."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "9.0 mg / 10% DV",
+        "bg": "#1a96cd",
+        "description": "An essential water-soluble antioxidant that promotes white blood cell synthesis, skin elasticity, and optimal iron absorption."
+      },
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "1500 mcg",
+        "bg": "#15837c",
+        "description": "Powerful plant pigments that deposit directly in the macular retina, filtering high-energy blue light and mitigating oxidative cell degeneration."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E",
+        "amount": "1.06 mg / 7% DV",
+        "bg": "#1a96cd",
+        "description": "A fat-soluble antioxidant that collaborates with Vitamin C to safeguard cell membranes from environmental oxidative stressors."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Ocular & Vision Protection:</b> The rich combo of beta-carotene, lutein, and zeaxanthin builds a natural defense shield in the retina, reducing risks of long-term age-related macular degradation and cataracts.",
+      "<b>Immune Defense Reinforcement:</b> High doses of Vitamin A, paired with Vitamin C, optimize cellular mucosal barriers and accelerate white blood cell proliferation against external pathogens.",
+      "<b>Cardiovascular Smoothness:</b> The healthy presence of potassium and low sodium coordinates blood vessel relaxation, allowing for balanced fluid dynamics and blood pressure management.",
+      "<b>Metabolic Weight Management:</b> Being roughly 90% water, it provides a high-volume food structure that fills the stomach and promotes prolonged satiety with very minimal baseline calories."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Commercial Dynamic Overload:</b> While pure pumpkin is highly metabolic, seasonal commercial items (like pumpkin pies or sweetened purees) are heavily packed with processed sugars, fats, and chemical binders.",
+      "<b>Mild Diuretic Influence:</b> Due to its high water and potassium metrics, pumpkin acts as a mild natural diuretic. Individuals taking specific metabolic medications (like lithium) should monitor structural intake values.",
+      "<b>Carotenemia Profile:</b> Consuming massive quantities of pumpkin over a prolonged period can store extra beta-carotene under the skin, temporarily turning the palms and soles of the feet a slight yellow-orange hue (harmless and reversible).",
+      "<b>Gastrointestinal Adaptation:</b> For individuals with highly sensitive digestive tracts or during flare-ups of chronic gut issues, large portions of cooked squash may occasionally trigger mild bloating due to its complex carbohydrate fibers."
+    ]
+  },
+  "soybean-oil": {
+    "slug": "soybean-oil",
+    "name": "Soybean Oil",
+    "category": "Oils & Fats",
+    "image": "/productinfo/soybean-oil.png",
+    "imageAlt": "soybean oil",
+    "description": "Soybean oil is a highly popular, nutrient-dense botanical lipid extract. Exceptional for delivering an immense concentration of Vitamin K1 alongside a versatile profile of polyunsaturated fatty acids, it acts as an efficient medium for culinary applications and fat-soluble nutrient delivery.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "884 kcal",
+        "bg": "#15837c",
+        "description": "An immensely concentrated source of metabolic energy. Composed entirely of lipids, it requires careful portion management within your daily goals."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "0 grams",
+        "bg": "#f5722c",
+        "description": "Contains absolutely zero proteins or soy allergens (in highly refined versions) due to advanced extraction and purification procedures."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "100 grams",
+        "bg": "#e4a910",
+        "description": "A 100% pure lipid matrix, loaded with polyunsaturated and monounsaturated fatty acids that act as premium cellular structural supports."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "0 grams",
+        "bg": "#15837c",
+        "description": "Completely devoid of sugars, starches, or dietary fibers, yielding a definitive zero glycemic response."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1 (Phylloquinone)",
+        "amount": "183.9 mcg / 153% DV",
+        "bg": "#15837c",
+        "description": "An extraordinary mega-dose of this fat-soluble factor, absolutely essential for healthy blood coagulation mechanics and bone mineral retention."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E (Alpha-Tocopherol)",
+        "amount": "8.1 mg / 54% DV",
+        "bg": "#1a96cd",
+        "description": "A potent fat-soluble antioxidant that actively targets and neutralizes free radicals, safeguarding lipid membranes from oxidation."
+      },
+      {
+        "id": "omega6",
+        "slug": "omega-6",
+        "name": "Omega-6 (Linoleic Acid)",
+        "amount": "50.9 grams",
+        "bg": "#f5722c",
+        "description": "An essential polyunsaturated fatty acid that serves as a core structural element for building fluid, responsive cellular membranes."
+      },
+      {
+        "id": "omega3",
+        "slug": "omega-3",
+        "name": "Omega-3 (Alpha-Linolenic Acid)",
+        "amount": "6.8 grams",
+        "bg": "#66ab63",
+        "description": "A notable plant-based omega-3 fluid factor that assists in modulating systemic inflammatory pathways throughout vascular tissues."
+      },
+      {
+        "id": "omega9",
+        "slug": "omega-9",
+        "name": "Omega-9 (Oleic Acid)",
+        "amount": "22.6 grams",
+        "bg": "#e4a910",
+        "description": "A monounsaturated fatty acid that provides excellent chemical stability and structural resistance to thermal oxidation during food processing."
+      },
+      {
+        "id": "phytols",
+        "slug": "phytosterols",
+        "name": "Phytosterols",
+        "amount": "470 mg",
+        "bg": "#1a96cd",
+        "description": "Plant sterols that actively block low-density lipoprotein (LDL) cholesterol reception channels inside the gut, helping balance systemic profiles."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Bone Mineralization:</b> Boasting over 150% of the daily value of Vitamin K1, it strongly activates osteocalcin proteins, helping anchor calcium directly into the structural bone matrix.",
+      "<b>Vascular Wall Protection:</b> The rich distribution of plant phytosterols actively competes with dietary cholesterol in the gut, working to regulate low-density lipoprotein (LDL) assimilation.",
+      "<b>Cellular Membrane Fluidity:</b> Packed with essential linoleic acid (Omega-6), it offers structural lipids required to build and maintain flexible, responsive cell wall parameters.",
+      "<b>Enhanced Vitamin Bioavailability:</b> Functions as a highly effective fat transport vehicle, dramatically increasing the biological absorption of fat-soluble vitamins from companion foods."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Omega-6 to Omega-3 Balance:</b> Soybean oil is heavily weighted toward Omega-6 fats. Over-consumption without integrating clean Omega-3 sources (like wild-caught fish or flax) can skew tissue biomarkers toward a pro-inflammatory state.",
+      "<b>Blood Thinner (Anticoagulant) Interaction:</b> Because of the immense, dense concentration of Vitamin K1—which physically orchestrates blood clotting mechanisms—individuals taking prescription blood thinners (like Warfarin) must maintain highly consistent intake levels.",
+      "<b>Extreme Caloric Density:</b> Composed entirely of pure fats, a single tablespoon contains roughly 120 calories. Generous, unmeasured pouring can easily disrupt calibrated weight-management parameters.",
+      "<b>High-Heat Oxidation Limits:</b> While refined soybean oil has a relatively high smoke point, its high content of polyunsaturated links makes it susceptible to chemical breakdown if kept at extreme temperatures for too long, potentially creating toxic free-radical aldehydes."
+    ]
+  },
+  "spinach": {
+    "slug": "spinach",
+    "name": "Spinach",
+    "category": "Vegetables & Greens",
+    "image": "/productinfo/spinach.png",
+    "imageAlt": "spinach",
+    "description": "Spinach is a legendary, deep-green leafy vegetable packing an unparalleled micro-nutrient density. Delivering an astronomical concentration of Vitamin K1, protective ocular carotenoids, and vital folate, it serves as a top-tier therapeutic whole food for cellular resilience, vascular strength, and vision performance.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "23 kcal",
+        "bg": "#15837c",
+        "description": "Extremely low in calories and exceptionally hydrating, making it an ideal volume food for pristine metabolic control."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "2.9 grams",
+        "bg": "#f5722c",
+        "description": "Contains a remarkably high amino acid efficiency for a leafy green, providing structural support for cellular repair."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.4 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, though pairing spinach with healthy dietary lipids dramatically enhances the absorption of its fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "3.6 grams",
+        "bg": "#15837c",
+        "description": "Composed primarily of structured, non-digestible complex fibers, ensuring a near-zero impact on circulating glucose levels."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1 (Phylloquinone)",
+        "amount": "482.9 mcg / 402% DV",
+        "bg": "#15837c",
+        "description": "An astronomical mega-dose that serves as a core coordinator for healthy blood coagulation pathways and structural bone mineral binding."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (Beta-Carotene)",
+        "amount": "469 mcg / 52% DV",
+        "bg": "#66ab63",
+        "description": "Packed with provitamin A carotenoids, which convert to active retinol to drive cellular night vision mechanics and preserve mucosal immunity."
+      },
+      {
+        "id": "vitB9",
+        "slug": "vitamin-b9",
+        "name": "Vitamin B9 (Folate)",
+        "amount": "194.0 mcg / 49% DV",
+        "bg": "#f5722c",
+        "description": "An essential coenzyme critical for proper DNA repair, deep cellular replication cascades, and optimal cardiovascular tissue health."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron (Non-Heme)",
+        "amount": "2.7 mg / 15% DV",
+        "bg": "#e4a910",
+        "description": "An impressive botanical distribution of iron, necessary for hemoglobin synthesis and optimizing daily oxygen transportation channels."
+      },
+      {
+        "id": "lutein",
+        "slug": "lutein-zeaxanthin",
+        "name": "Lutein & Zeaxanthin",
+        "amount": "12198 mcg",
+        "bg": "#1a96cd",
+        "description": "A colossal density of eye-protective pigments that physically accumulate in the retina, blocking intense blue light and preserving long-term vision."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "28.1 mg / 31% DV",
+        "bg": "#1a96cd",
+        "description": "Provides key antioxidant support, neutralizing surface free radicals and assisting in the intestinal absorption of plant-bound iron."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Unrivaled Retinal Protection:</b> Boasting an exceptional concentration of lutein and zeaxanthin, it accumulates directly inside the macula, creating a powerful shield against oxidative blue-light degradation.",
+      "<b>Elite Vascular Coagulation & Bone Health:</b> Supplying over 400% of your daily Vitamin K1 in just 100g, it aggressively drives osteocalcin activation, ensuring calcium integrates perfectly into the structural bone matrix.",
+      "<b>Oxidative Stress Suppression:</b> An abundant array of flavonoids and alpha-lipoic acid helps lower systemic inflammatory markers and actively preserves cellular membrane structures.",
+      "<b>Enhanced Oxygen Dynamics:</b> Natural folate paired with non-heme iron supports red blood cell division, combatting physical fatigue and driving cellular energetic pathways."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Oxalic Acid Matrix:</b> Spinach contains heavy concentrations of oxalates, which can structurally bind to minerals like calcium. Individuals with a history of calcium-oxalate kidney stones should monitor intake or cook spinach to greatly reduce soluble oxalate loads.",
+      "<b>Prescription Blood Thinner Interactions:</b> Due to the extreme, dense volume of Vitamin K1—which dictates natural blood clotting cascades—individuals taking highly calibrated anticoagulants (like Warfarin) must keep their daily leafy green intake completely consistent.",
+      "<b>Non-Heme Iron Absorption Blocks:</b> The iron present in raw spinach is plant-bound (non-heme) and tightly anchored by polyphenols. Pairing spinach with ascorbic acid (Vitamin C from lemon or bell peppers) or cooking it helps unlock its full bio-availability.",
+      "<b>Nitrate Bioaccumulation Dynamics:</b> Like many leafy greens grown in conventional environments, spinach leaves can absorb large amounts of soil nitrates. Sourcing clean options and consuming fresh leaves prevents unwanted conversion to nitrites during poor storage."
+    ]
+  },
+  "strawberries": {
+    "slug": "strawberries",
+    "name": "Strawberries",
+    "category": "Fruits & Berries",
+    "image": "/productinfo/strawberries.png",
+    "imageAlt": "strawberries",
+    "description": "Strawberries are a highly celebrated, low-glycemic summer superfruit. Exceptionally loaded with immune-boosting Vitamin C, water-dense hydration, and protective anthocyanin antioxidants, they offer maximum nutritional density with remarkably low caloric costs.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "32 kcal",
+        "bg": "#15837c",
+        "description": "An exceptionally low-calorie, water-dense berry, offering sweet satisfaction with minimal metabolic impact."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "0.7 grams",
+        "bg": "#f5722c",
+        "description": "Contains nominal structural plant amino acids, typical for delicate low-density soft fruits."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.3 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "7.7 grams",
+        "bg": "#15837c",
+        "description": "Primarily made of simple sugars balanced perfectly by dietary fibers, maintaining a highly favorable low glycemic load."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "58.8 mg / 65% DV",
+        "bg": "#1a96cd",
+        "description": "An outstanding concentration that outpaces many citrus fruits, driving robust collagen formation, wound healing, and cellular immunity."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.39 mg / 17% DV",
+        "bg": "#66ab63",
+        "description": "An essential trace mineral acting as a cofactor for key metabolic enzymes involved in bone construction and free radical neutralization."
+      },
+      {
+        "id": "anthocyanins",
+        "slug": "antioxidants",
+        "name": "Anthocyanins (Pelargonidin)",
+        "amount": "High Concentration",
+        "bg": "#f5722c",
+        "description": "Potent polyphenols responsible for the vibrant red pigmentation. They directly support endothelial flexibility and shield cells from oxidative strain."
+      },
+      {
+        "id": "b9",
+        "slug": "vitamin-b9",
+        "name": "Folate (Vitamin B9)",
+        "amount": "24 mcg / 6% DV",
+        "bg": "#e4a910",
+        "description": "Crucial for baseline cellular division, DNA synthesis, and supporting tissue optimization during rapid physiological growth phases."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "153 mg / 3% DV",
+        "bg": "#15837c",
+        "description": "A systemic mineral electrolyte that assists in regulating cardiovascular muscle impulses and structural cellular fluid balances."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.0 grams",
+        "bg": "#1a96cd",
+        "description": "Mainly composed of soluble and insoluble fractions (like pectin) that slow digestion, fueling beneficial gut microbiota and preventing glucose spikes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular System Elasticity:</b> The rich array of anthocyanins, paired with potassium, prevents heavy lipid oxidation, enhances endothelial blood vessel function, and assists in blood pressure control.",
+      "<b>Dermal Integrity & Collagen Production:</b> A single 100g serving delivers over half your daily Vitamin C requirement, directly driving the natural synthesis of dermal collagen matrices to support skin elasticity.",
+      "<b>Blood Sugar Stabilization:</b> Despite their sweetness, strawberries rank low on the glycemic index ($GI = 40$). Their unique polyphenol matrices have been shown to slow down glucose absorption in the gut.",
+      "<b>Potent Cellular Defense:</b> Ellagic acid and pelargonidin cross paths inside cellular tissue to actively downregulate inflammatory pathways and trap reactive oxidative stressors."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Allergy & Histamine Risk Profile:</b> Strawberries are notorious for triggering food-allergic reactions, often linked to a specific protein associated with their red pigment. Symptoms can range from oral hives and itching to systemic flares.",
+      "<b>Pesticide Bioaccumulation Thresholds:</b> Due to their soft, porous skin and lack of protective outer shells, conventionally grown strawberries regularly top industrial lists for surface pesticide residues. Washing them thoroughly in running water is highly recommended.",
+      "<b>Gastrointestinal Oxalate Management:</b> Strawberries contain a moderate fraction of natural organic oxalates. If you have a clinical history of calcium-oxalate kidney architecture complications, moderate your portion sizes.",
+      "<b>High Perishability Factor:</b> These delicate berries absorb ambient humidity quickly, making them prone to rapid gray mold expansion. Keep them unwashed in a breathable container inside the fridge and clean them right before eating."
+    ]
+  },
+  "sunflower-oil": {
+    "slug": "sunflower-oil",
+    "name": "Sunflower Oil",
+    "category": "Oils & Fats",
+    "image": "/productinfo/sunflower-oil.png",
+    "imageAlt": "sunflower oil",
+    "description": "Sunflower oil is a highly refined or cold-pressed botanical lipid fluid. Boasting one of the richest natural distributions of Vitamin E (Alpha-Tocopherol) alongside an abundant matrix of essential unsaturated fats, it functions as a highly effective medium for food preparation and fat-soluble nutrient absorption.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "884 kcal",
+        "bg": "#15837c",
+        "description": "An incredibly concentrated source of pure metabolic energy. Since it consists entirely of lipids, proper portion control is key."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "0 grams",
+        "bg": "#f5722c",
+        "description": "Completely free of proteins and amino acids due to the intensive extraction and filtration processes of the seeds."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "100 grams",
+        "bg": "#e4a910",
+        "description": "100% pure dietary lipid matrix, primarily composed of unsaturated fatty acids (oleic and linoleic) that act as essential vehicle carriers for fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "0 grams",
+        "bg": "#15837c",
+        "description": "Contains zero sugars, starches, or dietary fibers, yielding an absolute zero glycemic response."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E (Alpha-Tocopherol)",
+        "amount": "41.1 mg / 274% DV",
+        "bg": "#1a96cd",
+        "description": "A phenomenal concentration of this primary fat-soluble antioxidant. It actively safeguards cellular lipids from oxidative stress and supports vascular walls."
+      },
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1 (Phylloquinone)",
+        "amount": "5.4 mcg / 5% DV",
+        "bg": "#66ab63",
+        "description": "Present in trace amounts, contributing subtly to the structural regulation of blood coagulation cascades and bone mineralization pathways."
+      },
+      {
+        "id": "pufa",
+        "slug": "omega-6",
+        "name": "Omega-6 (Linoleic Acid)",
+        "amount": "65.7 grams",
+        "bg": "#f5722c",
+        "description": "An essential polyunsaturated fatty acid that the human body cannot synthesize. It assists in maintaining structural cellular membrane fluidity."
+      },
+      {
+        "id": "mufa",
+        "slug": "omega-9",
+        "name": "Omega-9 (Oleic Acid)",
+        "amount": "19.5 grams",
+        "bg": "#e4a910",
+        "description": "A stable monounsaturated fatty acid that exhibits excellent resistance to thermal oxidation, helping preserve the structural integrity of the oil."
+      },
+      {
+        "id": "saturatedFat",
+        "slug": "saturated-fats",
+        "name": "Saturated Fats",
+        "amount": "10.3 grams",
+        "bg": "#15837c",
+        "description": "Maintains a very low percentage of saturated lipids, keeping the oil completely liquid at room temperatures and highly versatile."
+      },
+      {
+        "id": "phytols",
+        "slug": "phytosterols",
+        "name": "Phytosterols",
+        "amount": "260 mg",
+        "bg": "#1a96cd",
+        "description": "Plant-derived structural sterols that chemically compete with dietary cholesterol in the gut, helping moderate systemic cholesterol absorption."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Antioxidant Action:</b> With over 270% of the daily value of Vitamin E per 100g, it protects lipid-heavy organs like the brain and cardiovascular linings from free radical decay.",
+      "<b>Optimized Nutrient Carriage:</b> Acts as an ideal structural delivery vehicle, drastically increasing the biological assimilation of fat-soluble vitamins (A, D, E, K) from companion vegetables.",
+      "<b>Cholesterol Modulation via Sterols:</b> The healthy presence of phytosterols actively blocks intestinal pathways for low-density lipoprotein (LDL) absorption, aiding overall profile management.",
+      "<b>Dermal Softening Properties:</b> When utilized or ingested, the high linoleic acid concentrations directly reinforce skin barrier structures and aid structural lipid repair."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Extreme Caloric Concentration:</b> Composed entirely of pure fats, a single tablespoon contains roughly 120 calories. Heavy or unmeasured consumption can inadvertently disrupt daily energy-balance goals.",
+      "<b>Omega-6 to Omega-3 Imbalance:</b> Standard sunflower oil contains a high ratio of Omega-6 to Omega-3 fatty acids. Over-reliance without balancing with Omega-3 rich sources (like flax or fish oils) can encourage a pro-inflammatory profile in tissues.",
+      "<b>Smoke Point & Free Radical Risks:</b> Unrefined (cold-pressed) varieties possess a low smoke point. Heating them beyond safety levels causes rapid lipid breakdown, generating toxic aldehydes. For high-heat cooking, refined or high-oleic variants must be selected.",
+      "<b>Oxidative Rancidity Factors:</b> Due to the high structural volume of polyunsaturated links, improper storage exposed to direct light, air, or heat can oxidize the oil quickly, turning it rancid. Keeping it sealed in cool, dark environments is mandatory."
+    ]
+  },
+  "sunflower-seeds": {
+    "slug": "sunflower-seeds",
+    "name": "Sunflower Seeds",
+    "category": "Nuts & Seeds",
+    "image": "/productinfo/sunflower-seeds.png",
+    "imageAlt": "sunflower seeds",
+    "description": "Sunflower seeds are an incredibly potent, nutrient-dense whole food. Packing a phenomenal concentration of fat-soluble Vitamin E, robust plant proteins, and major minerals like magnesium and selenium, they serve as a top-tier functional food for cardiovascular protection and cellular resilience.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "584 kcal",
+        "bg": "#15837c",
+        "description": "A highly dense energy source packed with vital structural lipids and plant proteins, offering exceptional metabolic fuel in small volumes."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "20.8 grams",
+        "bg": "#f5722c",
+        "description": "Rich in plant-based complete amino acids, providing crucial building blocks for muscle synthesis and cellular tissue repair."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "51.5 grams",
+        "bg": "#e4a910",
+        "description": "Primarily composed of heart-healthy polyunsaturated and monounsaturated fatty acids, essential for optimal hormone production and nutrient transport."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "20.0 grams",
+        "bg": "#15837c",
+        "description": "Contains complex carbohydrates tightly bundled with rich dietary fibers, yielding a highly stable, low-glycemic curve."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E (Alpha-Tocopherol)",
+        "amount": "35.2 mg / 234% DV",
+        "bg": "#1a96cd",
+        "description": "An extraordinary mega-dose of this premier fat-soluble antioxidant, which aggressively neutralizes free radicals and stabilizes cellular membranes."
+      },
+      {
+        "id": "selenium",
+        "slug": "selenium",
+        "name": "Selenium",
+        "amount": "53.0 mcg / 96% DV",
+        "bg": "#f5722c",
+        "description": "A critical trace mineral required to synthesize master defense enzymes like glutathione peroxidase, directly supporting thyroid equilibrium."
+      },
+      {
+        "id": "vitB1",
+        "slug": "vitamin-b1",
+        "name": "Vitamin B1 (Thiamin)",
+        "amount": "1.5 mg / 125% DV",
+        "bg": "#e4a910",
+        "description": "Serves as an indispensable coenzyme for cellular glucose metabolism, fueling brain energy pathways and central nervous system health."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "325 mg / 77% DV",
+        "bg": "#15837c",
+        "description": "A fundamental macro-mineral that orchestrates over 300 enzymatic reactions, promoting smooth muscle relaxation and deep vascular calm."
+      },
+      {
+        "id": "copper",
+        "slug": "copper",
+        "name": "Copper",
+        "amount": "1.8 mg / 200% DV",
+        "bg": "#66ab63",
+        "description": "A major catalytic factor necessary for structural collagen generation, red blood cell manufacture, and seamless neural communication channels."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "8.6 grams",
+        "bg": "#1a96cd",
+        "description": "A robust structural fiber profile that drastically slows digestion, keeping your bowel motility highly consistent and feeding beneficial gut flora."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Unmatched Cardiovascular Defense:</b> The massive dose of natural Vitamin E prevents cholesterol profiles from oxidizing, halting plaque formation in its tracks, while phytosterols actively manage resting lipid balances.",
+      "<b>Nervous System & Vascular Calm:</b> High concentrations of magnesium work directly to lower peripheral vascular resistance, support heart rhythm stability, and regulate neuromuscular tone.",
+      "<b>Robust Cellular Resiliency:</b> The powerful pairing of Vitamin E and selenium coordinates a deep antioxidant shield, safeguarding cell membranes from permanent free-radical damage.",
+      "<b>Sustained Metabolic Energy:</b> Rich in high-quality plant proteins and dietary fibers, they provide a dense, filling satiety that slows down digestive empty rates and optimizes glucose absorption."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Energy & Caloric Density:</b> Because of their excellent lipid content, sunflower seeds are exceptionally high in calories. Managing portion sizes (around 30g per serving) is essential if your goals include strict weight restriction.",
+      "<b>Industrial Sodium Overload:</b> Commercial store-bought sunflower seeds are often intensely roasted and coated in heavy sodium, which can reverse their natural heart-healthy blood pressure benefits. Raw or lightly sprouted un-salted seeds are highly preferred.",
+      "<b>Cadmium Bioaccumulation Risk:</b> Sunflower plant roots readily pull cadmium—a systemic heavy metal pollutant—from surrounding soils. Sourcing seeds from reputable, highly audited cultivation regions prevents long-term kidney strain.",
+      "<b>Gastrointestinal Blockage Dynamics:</b> Consuming seed hulls or eating massive quantities of whole seeds with poor chewing habits can form a dense fibrous mass in the digestive canal, occasionally leading to severe fecal impaction or bowel discomfort."
+    ]
+  },
+  "swiss-chard": {
+    "slug": "swiss-chard",
+    "name": "Swiss Chard",
+    "category": "Vegetables & Greens",
+    "image": "/productinfo/swiss-chard.png",
+    "imageAlt": "swiss chard",
+    "description": "Swiss Chard is a visually stunning, highly therapeutic leafy green vegetable. Packaging an astronomical concentration of Vitamin K1 alongside unique blood-sugar-modulating polyphenols and deep mineral reserves like magnesium, it serves as an elite functional food for bone density, vascular integrity, and metabolic balance.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "19 kcal",
+        "bg": "#15837c",
+        "description": "An incredibly low-calorie, water-rich leafy green that delivers exceptional volume and hydration for strict metabolic management."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "1.8 grams",
+        "bg": "#f5722c",
+        "description": "Provides basic plant-based amino acids that assist in structural maintenance and cellular repair cascades."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.2 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free. However, pairing it with clean dietary lipids like olive oil drastically elevates fat-soluble nutrient assimilation."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "3.7 grams",
+        "bg": "#15837c",
+        "description": "Composed mostly of complex structural plant fibers with negligible simple sugars, guaranteeing a flat glycemic response."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1 (Phylloquinone)",
+        "amount": "830.0 mcg / 692% DV",
+        "bg": "#15837c",
+        "description": "An absolutely staggering mega-dose that acts as a vital director for bone mineralization pathways and healthy blood coagulation mechanisms."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (Beta-Carotene)",
+        "amount": "306 mcg / 34% DV",
+        "bg": "#66ab63",
+        "description": "Rich in provitamin A carotenoids, which convert to active retinol to support optimal night vision and preserve mucosal membrane tissue."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "81.0 mg / 19% DV",
+        "bg": "#1a96cd",
+        "description": "An outstanding concentration for greens, orchestrating neuromuscular relaxation, electrical cardiac tone, and steady energy production."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "30.0 mg / 33% DV",
+        "bg": "#e4a910",
+        "description": "A strong antioxidant factor that neutralizes environmental free radicals, boosts collagen synthesis, and enhances plant-iron uptake."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron (Non-Heme)",
+        "amount": "1.8 mg / 10% DV",
+        "bg": "#f5722c",
+        "description": "Provides an important plant-based pool of iron, required for hemoglobin manufacture and pristine oxygen transport efficiency."
+      },
+      {
+        "id": "syringic",
+        "slug": "antioxidants",
+        "name": "Syringic Acid & Betalains",
+        "amount": "High Concentration",
+        "bg": "#1a96cd",
+        "description": "Unique polyphenol and pigment compounds; syringic acid directly inhibits alpha-glucosidase, assisting in stabilizing blood glucose curves."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Unrivaled Bone Density Matrix:</b> Supplying nearly 700% of the daily value of Vitamin K1, it powerfully drives the carboxylation of osteocalcin, locking calcium securely into skeletal structures.",
+      "<b>Advanced Blood Glucose Regulation:</b> Swiss chard houses *syringic acid*, a powerful flavonoid that has been shown to inhibit alpha-glucosidase enzymes, stabilizing post-meal blood sugar curves.",
+      "<b>Neuromuscular & Cardiovascular Calm:</b> High structural reserves of magnesium work directly to lower peripheral vascular resistance, support ideal resting heart rhythms, and modulate neural excitability.",
+      "<b>Vibrant Cellular Defense:</b> The colorful stalks (especially in rainbow chard) contain potent *betalain* pigments, which exert profound anti-inflammatory and radical-scavenging protection across systemic organs."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Oxalate Concentrations:</b> Swiss chard contains a heavy density of natural organic oxalates. Individuals with a clinical history of calcium-oxalate kidney stone formations should regulate their intake or cook/blanch the leaves to discard soluble oxalates.",
+      "<b>Critical Anticoagulant Interactions:</b> Due to the truly massive volume of Vitamin K1—which directly coordinates the body's natural blood clotting machinery—individuals on tightly calibrated blood thinners (like Warfarin) must keep their daily intake completely stable.",
+      "<b>Sodium Concentration Metrics:</b> Compared to other leafy greens, Swiss chard naturally pulls and stores more sodium from the soil (around 213mg per 100g). While perfectly safe, those on strict medically monitored low-sodium diets should factor this into their parameters.",
+      "<b>Gastric Tract Sensitivity:</b> The dense, complex fiber matrix combined with raw oxalates can occasionally cause mild throat scratchiness or temporary abdominal bloating if eaten raw in massive quantities. Light steaming completely neutralizes this physical reaction."
+    ]
+  },
+  "tomatoes": {
+    "slug": "tomatoes",
+    "name": "Tomatoes",
+    "category": "Vegetables",
+    "image": "/productinfo/tomatoes.png",
+    "imageAlt": "tomatoes",
+    "description": "Tomatoes are a highly vibrant, nutrient-dense whole food packed with antioxidants. Composed of roughly 95% water, they provide heavy hydration, massive doses of heart-healthy lycopene, and essential vitamins that shield skin and blood vessel integrity.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "18 kcal",
+        "bg": "#15837c",
+        "description": "Extremely low in calories and exceptionally hydrating, making it an elite choice for weight management and volume eating."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "0.9 grams",
+        "bg": "#f5722c",
+        "description": "Contains modest structural plant proteins, providing minimal trace amino acids necessary for botanical matrices."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.2 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free; however, consuming tomatoes alongside healthy dietary lipids drastically boosts carotenoid absorption."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "3.9 grams",
+        "bg": "#15837c",
+        "description": "Consists mainly of naturally occurring simple sugars (fructose, glucose) and structural fibers, keeping the glycemic load minimal."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "lycopene",
+        "slug": "lycopene",
+        "name": "Lycopene",
+        "amount": "2573 mcg",
+        "bg": "#f5722c",
+        "description": "A powerhouse carotenoid antioxidant responsible for the deep red hue. It actively scavenges free radicals and protects vascular walls."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "13.7 mg / 15% DV",
+        "bg": "#1a96cd",
+        "description": "A vital water-soluble antioxidant that shields skin cells from UV oxidation, fuels collagen synthesis, and reinforces cellular immunity."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "237 mg / 5% DV",
+        "bg": "#e4a910",
+        "description": "An essential systemic electrolyte that coordinates electrical heart signaling, fluid balance, and healthy blood pressure levels."
+      },
+      {
+        "id": "vitK1",
+        "slug": "vitamin-k",
+        "name": "Vitamin K1",
+        "amount": "7.9 mcg / 7% DV",
+        "bg": "#15837c",
+        "description": "Necessary for activating calcium-binding proteins, supporting healthy blood coagulation, and preserving skeletal framework strength."
+      },
+      {
+        "id": "b9",
+        "slug": "vitamin-b9",
+        "name": "Folate (Vitamin B9)",
+        "amount": "15 mcg / 4% DV",
+        "bg": "#66ab63",
+        "description": "Supports normal tissue growth, DNA replication, cellular function, and is essential for reproductive health."
+      },
+      {
+        "id": "beta_carotene",
+        "slug": "vitamin-a",
+        "name": "Beta-Carotene",
+        "amount": "449 mcg",
+        "bg": "#1a96cd",
+        "description": "A provitamin antioxidant that the liver converts into Vitamin A as needed to support healthy corneal architecture and night sight."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Architecture & Protection:</b> Lycopene and beta-carotene help prevent the oxidation of LDL cholesterol—a key driver in plaque formation. Paired with potassium, this supports overall arterial flexibility and blood pressure regulation.",
+      "<b>Dermal UV & Skin Defense:</b> Clinical evidence indicates that lycopene, working alongside Vitamin C, strengthens the skin's internal cellular matrix, enhancing defense against light-induced UV damage and promoting elasticity.",
+      "<b>Profound Hydration & Satiety:</b> Their high water and organic fiber content expands inside the gastric cavity, creating a natural feeling of fullness with a negligible impact on overall daily calories.",
+      "<b>The Cooking Advantage:</b> Unlike many vegetables, cooking tomatoes with a dash of healthy fat (like olive oil) actually breaks down their cellular walls, significantly increasing the bioavailability and absorption of lycopene."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Gastrointestinal Acid Reflux:</b> Tomatoes are naturally rich in malic and citric acids. For individuals dealing with severe acid reflux, GERD, or sensitive stomach linings, heavy intake can trigger burning discomfort or heartburn.",
+      "<b>Nightshade Sensitive Solanine:</b> As members of the nightshade family, tomatoes contain trace amounts of alkaloids like solanine. While completely harmless to most, individuals with specific autoimmune conditions or chronic joint sensitivities occasionally choose to monitor their intake.",
+      "<b>Histamine Release Profile:</b> Tomatoes can act as natural histamine liberators in the digestive tract. If you have a confirmed histamine intolerance or localized gut allergy profiles, you may experience mild bloating or skin reactions.",
+      "<b>Kidney Stone Oxalate Management:</b> Tomatoes contain a moderate amount of oxalates. If you have a recurring clinical history of calcium-oxalate kidney stones, it is wise to balance your consumption parameters."
+    ]
+  }
+}
