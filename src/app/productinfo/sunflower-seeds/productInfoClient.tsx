@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г очищенных семян подсолнечника)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "584 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "A highly dense energy source packed with vital structural lipids and plant proteins, offering exceptional metabolic fuel in small volumes."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "20.8 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Rich in plant-based complete amino acids, providing crucial building blocks for muscle synthesis and cellular tissue repair."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "51.5 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Primarily composed of heart-healthy polyunsaturated and monounsaturated fatty acids, essential for optimal hormone production and nutrient transport."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "20.0 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Contains complex carbohydrates tightly bundled with rich dietary fibers, yielding a highly stable, low-glycemic curve."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
-    },
-    { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
-        bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        id: "vitE", 
+        slug: "vitamin-e",
+        name: "Vitamin E (Alpha-Tocopherol)", 
+        amount: "35.2 mg / 234% DV", 
+        bg: "#1a96cd", 
+        description: "An extraordinary mega-dose of this premier fat-soluble antioxidant, which aggressively neutralizes free radicals and stabilizes cellular membranes." 
     },
     { 
         id: "selenium", 
         slug: "selenium",
         name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        amount: "53.0 mcg / 96% DV", 
+        bg: "#f5722c", 
+        description: "A critical trace mineral required to synthesize master defense enzymes like glutathione peroxidase, directly supporting thyroid equilibrium." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "vitB1", 
+        slug: "b1", // Если есть слаг для тиамина, или оставьте пустой ""
+        name: "Vitamin B1 (Thiamin)", 
+        amount: "1.5 mg / 125% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "Serves as an indispensable coenzyme for cellular glucose metabolism, fueling brain energy pathways and central nervous system health." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "magnesium", 
+        slug: "magnesium",
+        name: "Magnesium", 
+        amount: "325 mg / 77% DV", 
+        bg: "#15837c", 
+        description: "A fundamental macro-mineral that orchestrates over 300 enzymatic reactions, promoting smooth muscle relaxation and deep vascular calm." 
+    },
+    { 
+        id: "copper", 
+        slug: "copper",
+        name: "Copper", 
+        amount: "1.8 mg / 200% DV", 
+        bg: "#66ab63", 
+        description: "A major catalytic factor necessary for structural collagen generation, red blood cell manufacture, and seamless neural communication channels." 
+    },
+    { 
+        id: "dietfiber", 
+        slug: "fiber",
+        name: "Dietary Fiber", 
+        amount: "8.6 grams", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "A robust structural fiber profile that drastically slows digestion, keeping your bowel motility highly consistent and feeding beneficial gut flora." 
     }
 ];
 
@@ -134,19 +134,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/sunflower-seeds.png"
+                            alt="sunflower seeds"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Sunflower Seeds</h1>
+                        <div className={styles["product-category"]}>Nuts & Seeds</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Sunflower seeds are an incredibly potent, nutrient-dense whole food. Packing a phenomenal concentration of fat-soluble Vitamin E, robust plant proteins, and major minerals like magnesium and selenium, they serve as a top-tier functional food for cardiovascular protection and cellular resilience.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +182,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Unmatched Cardiovascular Defense:</b> The massive dose of natural Vitamin E prevents cholesterol profiles from oxidizing, halting plaque formation in its tracks, while phytosterols actively manage resting lipid balances.</li>
+                                <li><b>Nervous System & Vascular Calm:</b> High concentrations of magnesium work directly to lower peripheral vascular resistance, support heart rhythm stability, and regulate neuromuscular tone.</li>
+                                <li><b>Robust Cellular Resiliency:</b> The powerful pairing of Vitamin E and selenium coordinates a deep antioxidant shield, safeguarding cell membranes from permanent free-radical damage.</li>
+                                <li><b>Sustained Metabolic Energy:</b> Rich in high-quality plant proteins and dietary fibers, they provide a dense, filling satiety that slows down digestive empty rates and optimizes glucose absorption.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>High Energy & Caloric Density:</b> Because of their excellent lipid content, sunflower seeds are exceptionally high in calories. Managing portion sizes (around 30g per serving) is essential if your goals include strict weight restriction.</li>
+                                <li><b>Industrial Sodium Overload:</b> Commercial store-bought sunflower seeds are often intensely roasted and coated in heavy sodium, which can reverse their natural heart-healthy blood pressure benefits. Raw or lightly sprouted un-salted seeds are highly preferred.</li>
+                                <li><b>Cadmium Bioaccumulation Risk:</b> Sunflower plant roots readily pull cadmium—a systemic heavy metal pollutant—from surrounding soils. Sourcing seeds from reputable, highly audited cultivation regions prevents long-term kidney strain.</li>
+                                <li><b>Gastrointestinal Blockage Dynamics:</b> Consuming seed hulls or eating massive quantities of whole seeds with poor chewing habits can form a dense fibrous mass in the digestive canal, occasionally leading to severe fecal impaction or bowel discomfort.</li>
                             </ul>
                         </div>
                     </div>

@@ -11,93 +11,93 @@ const MACRO_NUTRIENTS = [
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "~72 kcal",
+        amount: "41 kcal",
         bg: "#15837c",
-        description: "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+        description: "Provides low-glycemic basal energy to fuel daily metabolic processes."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "6.3 grams",
+        amount: "0.9 grams",
         bg: "#f5722c",
-        description: "High-quality, bioavailable protein containing all nine essential amino acids. Essential for muscle repair, cellular construction, and immune function."
+        description: "Minimal; contains trace structural amino acids necessary for plant protein structures."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.8 grams",
+        amount: "0.2 grams",
         bg: "#e4a910",
-        description: "Includes healthy monounsaturated and polyunsaturated fats, alongside essential fatty acids, vital for hormone production and absorbing fat-soluble vitamins."
+        description: "Negligible; mostly composed of essential polyunsaturated fatty acids."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "0.4 grams",
+        amount: "9.6 grams",
         bg: "#15837c",
-        description: "Extremely low in carbs, making eggs an excellent choice for stabilizing blood sugar and supporting low-glycemic dietary targets."
+        description: "Split between naturally occurring simple sugars (sucrose, glucose) and structural complex carbohydrates."
+    },
+    {
+        id: "dietfiber",
+        name: "Dietary Fiber",
+        slug: "",
+        amount: "2.8 grams",
+        bg: "#f5722c",
+        description: "Rich in soluble pectin and insoluble cellulose that optimize digestion and support gut microbiota."
     }
 ];
 
 const MICRO_NUTRIENTS = [
     { 
-        id: "choline", 
-        slug: "choline",
-        name: "Choline", 
-        amount: "147 mg", 
-        bg: "#15837c", 
-        description: "Critical for brain development, memory, and cellular structural integrity. One egg provides roughly 25-30% of your daily requirement." 
-    },
-    { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "15.4 mcg / 22% DV", 
-        bg: "#1a96cd", 
-        description: "A powerful antioxidant that supports thyroid function and protects the body from oxidative damage." 
-    },
-    { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.5 mcg / 20% DV", 
-        bg: "#f5722c", 
-        description: "Vital for nerve tissue health, brain function, and red blood cell production." 
-    },
-    { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2", 
-        amount: "0.2 mg / 15% DV", 
-        bg: "#e4a910", 
-        description: "Helps the body break down carbohydrates, proteins, and fats to produce energy." 
-    },
-    { 
         id: "vitA", 
         slug: "vitamin-a",
         name: "Vitamin A", 
-        amount: "270 IU / 6% DV", 
+        amount: "835 mcg / 104% DV", 
         bg: "#66ab63", 
-        description: "Supports healthy vision, skin health, and immune system defense." 
+        description: "Packed with beta-carotene and alpha-carotene, which the liver converts into retinol for advanced vision and night sight protection." 
     },
     { 
-        id: "vitD", 
-        slug: "vitamin-d",
-        name: "Vitamin D", 
-        amount: "41 IU / 5% DV", 
+        id: "vitK1", 
+        slug: "vitamin-k",
+        name: "Vitamin K1", 
+        amount: "13.2 mcg / 11% DV", 
         bg: "#15837c", 
-        description: "Necessary for bone density and calcium absorption. One of the few natural dietary sources." 
+        description: "Essential for synthesizing blood-coagulation proteins and supporting structural bone mineralization." 
+    },
+    { 
+        id: "b6", 
+        slug: "vitamin-b6",
+        name: "Vitamin B6", 
+        amount: "0.14 mg / 9% DV", 
+        bg: "#f5722c", 
+        description: "Serves as a vital coenzyme in cellular amino acid metabolism, energy release, and neurotransmitter production." 
+    },
+    { 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "320 mg / 7% DV", 
+        bg: "#e4a910", 
+        description: "An essential intracellular electrolyte that regulates fluid balance, nerve signaling, and systemic blood pressure." 
+    },
+    { 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "5.9 mg / 7% DV", 
+        bg: "#1a96cd", 
+        description: "A water-soluble antioxidant that strengthens endothelial defenses, drives collagen synthesis, and boosts immunity." 
     },
     { 
         id: "lutein", 
         slug: "lutein-zeaxanthin",
         name: "Lutein & Zeaxanthin", 
-        amount: "Antioxidant Carotenoids", 
+        amount: "256 mcg", 
         bg: "#1a96cd", 
-        description: "Crucial carotenoid antioxidants that protect the eyes from damaging blue light and reduce macular degeneration risk." 
-    },
+        description: "Crucial carotenoid antioxidants that accumulate in the macular region of the eye, filtering harmful blue light wavelengths." 
+    }
 ];
 
 // Объединяем типы для стейта модального окна
@@ -141,24 +141,28 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/eggs.png"
-                            alt="eggs"
+                            src="/productinfo/carrots.png"
+                            alt="carrots"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Eggs</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Carrot</h1>
+                        <div className={styles["product-category"]}>Vegetables</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Eggs are often called "nature's multivitamin" for a good reason. They are one of the most nutritionally dense, complete whole foods available, packed with high-quality protein, healthy fats, and a wide array of essential vitamins and minerals.
+                            Carrots (Daucus carota) are vibrant, biennial root vegetables cultivated globally for their crisp texture and nutrient density. Traditionally associated with a deep orange hue, they also grow in heritage varieties of purple, yellow, red, and white.
+                            <br></br>
+                            From a botanical perspective, carrots belong to the Apiaceae (parsley) family, sharing lineage with celery, parsnips, and fennel. While the sweet, taproot is the most commonly consumed part, the feathery green tops are also edible and rich in minerals. Carrots owe their signature orange color to highly concentrated carotenoid pigments, which serve as crucial precursors for essential vitamins in human metabolism.
                         </div>
 
                         {/* Список Макронутриентов: теперь тоже интерактивный рендеринг через .map() */}
                         <div style={{background: '#fbf0d9'}} className={`${styles["macro-nutrients"]} ${styles["product-section"]}`}>
-                            <h3>Macro Nutrients (per 50g) <span className={styles["hint"]}>(Click to learn more)</span></h3>
+                            <h3>Macro Nutrients (per 100g raw) <span className={styles["hint"]}>(Click to learn more)</span></h3>
+                            Carrots are a low-calorie, high-moisture crop composed of approximately 88% water. They provide clean energy primarily through complex carbohydrates, with a negligible fat profile.
+                            <br></br>
                             {MACRO_NUTRIENTS.map((item) => (
                                 <div 
                                     key={item.id}
@@ -174,6 +178,8 @@ const ProductInfoClient = () => {
                         {/* Список микроэлементов */}
                         <div style={{background: '#fbf0d9'}} className={`${styles["nutrients-and-microelements"]} ${styles["product-section"]}`}>
                             <h3>Nutrients and microelements <span className={styles["hint"]}>(Click to learn more)</span></h3>
+                            Carrots are a premier dietary source of provitamin A and contain an array of synergistic micronutrients that support cellular integrity.
+                            <br></br>
                             {MICRO_NUTRIENTS.map((item) => (
                                 <div 
                                     key={item.id}
@@ -189,22 +195,19 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Promotes Muscle Maintenance & Recovery:</b> The highly bioavailable protein in eggs makes them an excellent food for tissue repair and building lean muscle mass.</li>
-                                <li><b>Supports Brain Health:</b> The high concentration of choline is used by the brain to synthesize acetylcholine, a neurotransmitter critical for memory, mood, and cognitive function.</li>
-                                <li><b>Improves Heart Health Architecture:</b> While eggs do contain dietary cholesterol, extensive research shows that for about 70% of the population, dietary cholesterol does not significantly raise blood cholesterol. In fact, egg consumption typically improves the lipid profile by raising "good" HDL cholesterol and changing the texture of "bad" LDL to large, less harmful particles.</li>
-                                <li><b>Aids Weight Management:</b> High protein foods increase satiety (the feeling of fullness) and regulate appetite hormones, which can naturally reduce subsequent calorie intake throughout the day.</li>
-                                <li><b>Protects Vision:</b> The antioxidants lutein and zeaxanthin accumulate in the retina, drastically lowering the risk of age-related cataracts and macular health decline.</li>
+                                <li><b>Advanced Vision Protection:</b> The high concentration of beta-carotene is utilized by the retina to synthesize rhodopsin, a biological pigment necessary for low-light and night vision. Additionally, carrots contain lutein, an antioxidant that accumulates in the macular region of the eye, filtering out harmful blue light wavelengths and mitigating the risk of age-related macular degeneration (AMD).</li>
+                                <li><b>Cardiovascular & Glycemic Regulation:</b> The soluble fiber profile in carrots consists heavily of pectin, which binds bile acids in the intestinal lumen, prompting the liver to draw cholesterol from the bloodstream to synthesize more bile—effectively lowering circulating LDL cholesterol. Despite their sweet taste, carrots have a low glycemic index (GI ~16 to 32 depending on raw vs. cooked states), preventing rapid blood glucose spikes.</li>
+                                <li><b>Digestive Tract Optimization:</b> The insoluble fibers (cellulose and hemicellulose) add bulk to fecal matter and stimulate peristalsis, preventing constipation. Furthermore, these fibers act as prebiotics, feeding beneficial short-chain fatty acid (SCFA)-producing bacteria in the large intestine, which fortifies the gut barrier function.</li>
+                                <li><b>Endothelial and Immune Defense:</b> Carotenoids and vitamin C act as potent free-radical scavengers, dampening systemic oxidative stress and protecting vascular endothelial cell walls. Vitamin A also regulates the differentiation and activation of T-cells and B-lymphocytes, reinforcing the body's primary immune response against pathogens.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
-                            <br />
-                            <b>The Salmonella Risk:</b> Raw or undercooked eggs can carry Salmonella enteritidis, a bacteria that causes food poisoning. Always cook eggs until the yolks and whites are firm, or use pasteurized eggs for recipes requiring raw components (like homemade mayo or tiramisu).
                             <ul>
-                                <li><b>Egg Allergies:</b> Egg allergy is one of the most common food allergies, especially in children. Symptoms can range from mild hives to severe anaphylaxis. Fortunately, many children outgrow it by adolescence.</li>
-                                <li><b>Hyper-Responders to Cholesterol:</b> About 30% of people are "hyper-responders," meaning dietary cholesterol significantly impacts their blood levels. If you have a genetic predisposition to high cholesterol, familial hypercholesterolemia, or existing type 2 diabetes, it is wise to monitor your overall egg intake and consult a medical professional.</li>
-                                <li><b>Proper Storage:</b> Eggs should be stored in their original carton in the main body of the refrigerator (at or below 4°C / 40°F) rather than the refrigerator door, where temperature fluctuations are highest.</li>
+                                <li><b>Carotenemia:</b> Excessive, chronic consumption of carrots can lead to carotenemia—a benign clinical condition where excess beta-carotene accumulates in the stratum corneum, causing a distinct yellowish-orange discoloration of the skin (most visible on the palms and soles). It is completely reversible by reducing intake.</li>
+                                <li><b>Pesticide Residuals & Soil Hygiene:</b> Because carrots are subterranean taproots, they directly absorb chemicals present in the soil. Thorough scrubbing or peeling is highly recommended for conventional carrots to eliminate pesticide residues and pathogens like Listeria or Toxoplasma gondii.</li>
+                                <li><b>Oral Allergy Syndrome (OAS):</b> Individuals allergic to birch pollen or mugwort may experience cross-reactivity when eating raw carrots due to structural similarities in plant proteins. Symptoms include localized itching or swelling of the lips, mouth, and throat. Cooking the carrots denatures these proteins, typically eliminating the reaction.</li>
                             </ul>
                         </div>
                     </div>

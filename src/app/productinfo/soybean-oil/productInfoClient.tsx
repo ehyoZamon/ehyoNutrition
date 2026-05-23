@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г соевого масла)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "884 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "An immensely concentrated source of metabolic energy. Composed entirely of lipids, it requires careful portion management within your daily goals."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "0 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Contains absolutely zero proteins or soy allergens (in highly refined versions) due to advanced extraction and purification procedures."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "100 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "A 100% pure lipid matrix, loaded with polyunsaturated and monounsaturated fatty acids that act as premium cellular structural supports."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "0 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Completely devoid of sugars, starches, or dietary fibers, yielding a definitive zero glycemic response."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
+        id: "vitK1", 
+        slug: "vitamin-k",
+        name: "Vitamin K1 (Phylloquinone)", 
+        amount: "183.9 mcg / 153% DV", 
         bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        description: "An extraordinary mega-dose of this fat-soluble factor, absolutely essential for healthy blood coagulation mechanics and bone mineral retention." 
     },
     { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
+        id: "vitE", 
+        slug: "vitamin-e",
+        name: "Vitamin E (Alpha-Tocopherol)", 
+        amount: "8.1 mg / 54% DV", 
+        bg: "#1a96cd", 
+        description: "A potent fat-soluble antioxidant that actively targets and neutralizes free radicals, safeguarding lipid membranes from oxidation." 
+    },
+    { 
+        id: "omega6", 
+        slug: "omega-6",
+        name: "Omega-6 (Linoleic Acid)", 
+        amount: "50.9 grams", 
         bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
+        description: "An essential polyunsaturated fatty acid that serves as a core structural element for building fluid, responsive cellular membranes." 
     },
     { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
+        id: "omega3", 
+        slug: "omega-3", // Если есть слаг, или оставьте пустой
+        name: "Omega-3 (Alpha-Linolenic Acid)", 
+        amount: "6.8 grams", 
         bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "A notable plant-based omega-3 fluid factor that assists in modulating systemic inflammatory pathways throughout vascular tissues." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
-    },
-    { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "omega9", 
+        slug: "omega-9",
+        name: "Omega-9 (Oleic Acid)", 
+        amount: "22.6 grams", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "A monounsaturated fatty acid that provides excellent chemical stability and structural resistance to thermal oxidation during food processing." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "phytols", 
+        slug: "phytosterols",
+        name: "Phytosterols", 
+        amount: "470 mg", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Plant sterols that actively block low-density lipoprotein (LDL) cholesterol reception channels inside the gut, helping balance systemic profiles." 
     }
 ];
 
@@ -97,7 +97,6 @@ const MICRO_NUTRIENTS = [
 type NutrientItem = typeof MACRO_NUTRIENTS[number] | typeof MICRO_NUTRIENTS[number];
 
 const ProductInfoClient = () => {
-    // Единое состояние для выбранного элемента (макро или микро)
     const [selectedItem, setSelectedItem] = useState<null | NutrientItem>(null);
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -134,19 +133,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/soybean-oil.png"
+                            alt="soybean oil"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Soybean Oil</h1>
+                        <div className={styles["product-category"]}>Oils & Fats</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Soybean oil is a highly popular, nutrient-dense botanical lipid extract. Exceptional for delivering an immense concentration of Vitamin K1 alongside a versatile profile of polyunsaturated fatty acids, it acts as an efficient medium for culinary applications and fat-soluble nutrient delivery.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +181,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Elite Bone Mineralization:</b> Boasting over 150% of the daily value of Vitamin K1, it strongly activates osteocalcin proteins, helping anchor calcium directly into the structural bone matrix.</li>
+                                <li><b>Vascular Wall Protection:</b> The rich distribution of plant phytosterols actively competes with dietary cholesterol in the gut, working to regulate low-density lipoprotein (LDL) assimilation.</li>
+                                <li><b>Cellular Membrane Fluidity:</b> Packed with essential linoleic acid (Omega-6), it offers structural lipids required to build and maintain flexible, responsive cell wall parameters.</li>
+                                <li><b>Enhanced Vitamin Bioavailability:</b> Functions as a highly effective fat transport vehicle, dramatically increasing the biological absorption of fat-soluble vitamins from companion foods.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>High Omega-6 to Omega-3 Balance:</b> Soybean oil is heavily weighted toward Omega-6 fats. Over-consumption without integrating clean Omega-3 sources (like wild-caught fish or flax) can skew tissue biomarkers toward a pro-inflammatory state.</li>
+                                <li><b>Blood Thinner (Anticoagulant) Interaction:</b> Because of the immense, dense concentration of Vitamin K1—which physically orchestrates blood clotting mechanisms—individuals taking prescription blood thinners (like Warfarin) must maintain highly consistent intake levels.</li>
+                                <li><b>Extreme Caloric Density:</b> Composed entirely of pure fats, a single tablespoon contains roughly 120 calories. Generous, unmeasured pouring can easily disrupt calibrated weight-management parameters.</li>
+                                <li><b>High-Heat Oxidation Limits:</b> While refined soybean oil has a relatively high smoke point, its high content of polyunsaturated links makes it susceptible to chemical breakdown if kept at extreme temperatures for too long, potentially creating toxic free-radical aldehydes.</li>
                             </ul>
                         </div>
                     </div>
@@ -228,7 +227,6 @@ const ProductInfoClient = () => {
             >
                 {selectedItem && (
                     <div className={styles["modal-content"]}>
-                        {/* Кастомный бейдж с названием элемента */}
                         <div 
                             className={styles["modal-header-badge"]} 
                             style={{ backgroundColor: selectedItem.bg }}
@@ -236,13 +234,11 @@ const ProductInfoClient = () => {
                             {selectedItem.name}: {selectedItem.amount}
                         </div>
                         
-                        {/* Текст описания пользы */}
                         <p className={styles["modal-description"]}>
                             {selectedItem.description}
                         </p>
                         
                         <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: '10px', marginTop: '10px' }}>
-                            {/* Ссылка показывается ТОЛЬКО если slug существует и он не пустой */}
                             {selectedItem.slug && (
                                 <Link 
                                     href={`/vitamininfo/${selectedItem.slug}`}

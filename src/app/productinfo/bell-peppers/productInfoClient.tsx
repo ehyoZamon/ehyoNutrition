@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г свежего красного перца)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "31 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "Very low in calories and highly hydrating, making it an excellent volume food for blood sugar control and weight management."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "1.0 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Contains minor plant-based amino acids, serving as structural support within the vegetable's crisp cellular matrix."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "0.3 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Virtually fat-free. However, pairing bell peppers with healthy dietary lipids (like olive oil) drastically boosts fat-soluble carotenoid absorption."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "6.0 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Composed of natural simple sugars (glucose, fructose) wrapped in structured dietary fibers, ensuring a negligible glycemic response."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "127.7 mg / 142% DV", 
+        bg: "#1a96cd", 
+        description: "An astronomical concentration that effortlessly beats citrus fruits, driving powerful collagen synthesis, tissue repair, and immune performance." 
     },
     { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
+        id: "vitA", 
+        slug: "vitamin-a",
+        name: "Vitamin A (Beta-Carotene)", 
+        amount: "157 mcg / 17% DV", 
         bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "Rich in provitamin A carotenoids, which the body converts to active retinol to preserve night vision and maintain healthy mucosal barriers." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        id: "vitB6", 
+        slug: "vitamin-b6",
+        name: "Vitamin B6 (Pyridoxine)", 
+        amount: "0.29 mg / 17% DV", 
+        bg: "#f5722c", 
+        description: "Acts as a vital metabolic coenzyme required for the proper synthesis of red blood cells and neuro-signaling transmitters." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "capsanthin", 
+        slug: "antioxidants",
+        name: "Capsanthin", 
+        amount: "High Concentration", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "A powerful, unique antioxidant responsible for the bright red hue; it scavenges free radicals and assists in protecting cellular health." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "211 mg / 5% DV", 
+        bg: "#15837c", 
+        description: "An essential systemic electrolyte that coordinates electrical cardiac pulses, fluid pump mechanics, and balanced blood pressure levels." 
+    },
+    { 
+        id: "dietfiber", 
+        slug: "fiber",
+        name: "Dietary Fiber", 
+        amount: "2.1 grams", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Provides crisp structural fibers that optimize transit time in the digestive tract and feed beneficial gut microbiomes." 
     }
 ];
 
@@ -134,19 +134,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/bell-peppers.png"
+                            alt="bell peppers"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Bell Peppers</h1>
+                        <div className={styles["product-category"]}>Vegetables</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Bell peppers are a remarkably crisp, refreshing, and nutrient-dense vegetable. Containing an unparalleled mega-dose of Vitamin C alongside a rich array of protective carotenoid antioxidants, they serve as an elite whole food for optimizing immune defense, skin elasticity, and vision.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +182,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Unrivaled Immune System Defense:</b> Delivering over 140% of your daily Vitamin C in just 100g, bell peppers rapidly stimulate white blood cell production and bolster host defense mechanisms.</li>
+                                <li><b>Advanced Ocular Protection:</b> Loaded with lutein, zeaxanthin, and beta-carotene, frequent intake helps shield the retina from high-energy light damage and counteracts age-related visual degeneration.</li>
+                                <li><b>Dermal Integrity & Anti-Aging:</b> The heavy synthesis of Vitamin C works in perfect synergy with Vitamin E to maximize natural collagen assembly, improving vascular tone and skin elasticity.</li>
+                                <li><b>Enhanced Iron Bioavailability:</b> The incredible concentration of ascorbic acid transforms non-heme iron from companion plant-based foods into highly soluble, easily absorbable forms inside the gut.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Nightshade Sensitive Profile:</b> As prominent members of the nightshade family, bell peppers house trace alkaloids. While safe for the vast majority, individuals with specific autoimmune conditions or joint sensitivities may choose to track their tolerance.</li>
+                                <li><b>Gastrointestinal Skin & Seed Irritation:</b> The structural outer skin and internal seeds contain dense fibers that can sometimes be tough to process for sensitive stomachs, occasionally causing mild bloating or reflux unless peeled or cooked.</li>
+                                <li><b>Pesticide Surface Retention:</b> Because of their broad surface area and thin skins, conventionally farmed bell peppers can hold higher pesticide residues. Washing thoroughly or choosing organic options is beneficial.</li>
+                                <li><b>Cross-Reactive Pollen Allergies:</b> Individuals with specific seasonal allergies (such as birch or mugwort pollen) might experience mild cross-reactive oral allergy syndrome, presenting as itching in the mouth or throat.</li>
                             </ul>
                         </div>
                     </div>

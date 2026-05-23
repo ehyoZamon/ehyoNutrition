@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г свежего авокадо)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "160 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "Higher in energy than typical fruits, delivering dense, clean metabolic fuel derived from high-quality monounsaturated fats."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "2.0 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Provides nominal plant proteins containing essential building blocks to assist in daily cellular tissue maintenance."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "14.7 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "An exceptional matrix of heart-healthy fats, overwhelmingly dominated by oleic acid, which maximizes fat-soluble nutrient delivery."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "8.5 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Mainly composed of complex structural dietary fibers with practically zero simple sugars, yielding a near-flat glycemic curve."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
-    },
-    { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
+        id: "dietfiber", 
+        slug: "fiber",
+        name: "Dietary Fiber", 
+        amount: "6.7 grams", 
         bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
+        description: "A brilliant blend of soluble and insoluble fibers that supports digestive regularity, balances gut microbiota, and optimizes satiety." 
     },
     { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "485 mg / 10% DV", 
+        bg: "#1a96cd", 
+        description: "An outstanding concentration—surpassing bananas—that regulates fluid pump mechanics, neural signaling, and resting vascular tone." 
+    },
+    { 
+        id: "vitB5", 
+        slug: "pantothenic-acid", // Или оставьте пустой "", если нет слага
+        name: "Vitamin B5 (Pantothenic Acid)", 
+        amount: "1.4 mg / 28% DV", 
         bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "A major catalytic factor required for cellular hormone synthesis, fatty acid oxidation, and optimizing daily cognitive pathways." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
-    },
-    { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "vitB9", 
+        slug: "folate",
+        name: "Vitamin B9 (Folate)", 
+        amount: "81.0 mcg / 20% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "Crucial for deep cellular division, DNA replication, and supporting the healthy synthesis of red blood cells." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "vitE", 
+        slug: "vitamin-e",
+        name: "Vitamin E", 
+        amount: "2.1 mg / 14% DV", 
+        bg: "#15837c", 
+        description: "A premier lipid-soluble antioxidant that actively guards tissue membranes against oxidative deterioration and preserves skin health." 
+    },
+    { 
+        id: "lutein", 
+        slug: "lutein-zeaxanthin",
+        name: "Lutein & Zeaxanthin", 
+        amount: "271 mcg", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Targeted plant carotenoids that concentrate in the eye's macular area, absorbing harmful blue wave frequencies and protecting vision." 
     }
 ];
 
@@ -97,7 +97,6 @@ const MICRO_NUTRIENTS = [
 type NutrientItem = typeof MACRO_NUTRIENTS[number] | typeof MICRO_NUTRIENTS[number];
 
 const ProductInfoClient = () => {
-    // Единое состояние для выбранного элемента (макро или микро)
     const [selectedItem, setSelectedItem] = useState<null | NutrientItem>(null);
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -134,19 +133,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/avocados.png"
+                            alt="avocados"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Avocado</h1>
+                        <div className={styles["product-category"]}>Fruits & Berries</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Avocado is an uniquely structural, lipid-dense fruit. Renowned for its rich concentration of monounsaturated oleic acid instead of natural sugars, it serves as an exceptional functional food to drive deep fat-soluble nutrient absorption, cardiovascular protection, and metabolic satiety.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +181,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Cardiovascular Optimization:</b> Rich in monounsaturated fats (oleic acid) and plant sterols, avocado helps regulate low-density lipoprotein (LDL) cholesterol ratios and supports endothelial vascular health.</li>
+                                <li><b>Unrivaled Nutrient Assimilation:</b> Acts as an ideal lipid delivery vehicle. Adding avocado to raw vegetable meals can increase the biological absorption of companion fat-soluble antioxidants (like beta-carotene) up to fifteen-fold.</li>
+                                <li><b>Advanced Potassium Performance:</b> Supplying more potassium than a banana, it actively aids in lowering blood pressure levels, managing cellular fluid dynamics, and reducing sodium retention.</li>
+                                <li><b>Sustained Metabolic Satiety:</b> The dense combination of healthy fats and complex dietary fiber slows gastric emptying rates, keeping insulin curves incredibly flat and promoting long-lasting fullness.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>High Caloric Accumulation:</b> Due to its high lipid profile, avocado is significantly more energy-dense than other fruits. If strict caloric management or weight reduction is your primary goal, maintaining precise serving boundaries is recommended.</li>
+                                <li><b>Latex-Fruit Syndrome Cross-Reactivity:</b> Individuals possessing diagnosed allergies to natural rubber latex may experience mild to severe cross-reactive responses to avocados due to structurally similar plant defense proteins (chitinases).</li>
+                                <li><b>FODMAP Fermentation Bloating:</b> Avocado houses measurable levels of sorbitol, a natural sugar alcohol. Those with sensitive gastrointestinal tracts or functional Irritable Bowel Syndrome (IBS) may notice mild abdominal gas or bloating if over-consuming.</li>
+                                <li><b>Prescription Blood Thinner Synergy:</b> Avocados carry moderate quantities of Vitamin K1, which coordinates blood-coagulation cascades. If you are taking highly calibrated prescription anticoagulants (like Warfarin), keeping your avocado intake relatively consistent is helpful.</li>
                             </ul>
                         </div>
                     </div>
@@ -228,7 +227,6 @@ const ProductInfoClient = () => {
             >
                 {selectedItem && (
                     <div className={styles["modal-content"]}>
-                        {/* Кастомный бейдж с названием элемента */}
                         <div 
                             className={styles["modal-header-badge"]} 
                             style={{ backgroundColor: selectedItem.bg }}
@@ -236,13 +234,11 @@ const ProductInfoClient = () => {
                             {selectedItem.name}: {selectedItem.amount}
                         </div>
                         
-                        {/* Текст описания пользы */}
                         <p className={styles["modal-description"]}>
                             {selectedItem.description}
                         </p>
                         
                         <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: '10px', marginTop: '10px' }}>
-                            {/* Ссылка показывается ТОЛЬКО если slug существует и он не пустой */}
                             {selectedItem.slug && (
                                 <Link 
                                     href={`/vitamininfo/${selectedItem.slug}`}

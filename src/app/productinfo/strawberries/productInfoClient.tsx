@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г свежей клубники)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "32 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "An exceptionally low-calorie, water-dense berry, offering sweet satisfaction with minimal metabolic impact."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "0.7 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Contains nominal structural plant amino acids, typical for delicate low-density soft fruits."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "0.3 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "7.7 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Primarily made of simple sugars balanced perfectly by dietary fibers, maintaining a highly favorable low glycemic load."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "58.8 mg / 65% DV", 
+        bg: "#1a96cd", 
+        description: "An outstanding concentration that outpaces many citrus fruits, driving robust collagen formation, wound healing, and cellular immunity." 
     },
     { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
+        id: "manganese", 
+        slug: "manganese", // Если есть слаг для марганца, или оставьте пустой ""
+        name: "Manganese", 
+        amount: "0.39 mg / 17% DV", 
         bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "An essential trace mineral acting as a cofactor for key metabolic enzymes involved in bone construction and free radical neutralization." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        id: "anthocyanins", 
+        slug: "antioxidants",
+        name: "Anthocyanins (Pelargonidin)", 
+        amount: "High Concentration", 
+        bg: "#f5722c", 
+        description: "Potent polyphenols responsible for the vibrant red pigmentation. They directly support endothelial flexibility and shield cells from oxidative strain." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "b9", 
+        slug: "folate",
+        name: "Folate (Vitamin B9)", 
+        amount: "24 mcg / 6% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "Crucial for baseline cellular division, DNA synthesis, and supporting tissue optimization during rapid physiological growth phases." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "153 mg / 3% DV", 
+        bg: "#15837c", 
+        description: "A systemic mineral electrolyte that assists in regulating cardiovascular muscle impulses and structural cellular fluid balances." 
+    },
+    { 
+        id: "dietfiber", 
+        slug: "fiber",
+        name: "Dietary Fiber", 
+        amount: "2.0 grams", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Mainly composed of soluble and insoluble fractions (like pectin) that slow digestion, fueling beneficial gut microbiota and preventing glucose spikes." 
     }
 ];
 
@@ -134,19 +134,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/strawberries.png"
+                            alt="strawberries"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Strawberries</h1>
+                        <div className={styles["product-category"]}>Fruits & Berries</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Strawberries are a highly celebrated, low-glycemic summer superfruit. Exceptionally loaded with immune-boosting Vitamin C, water-dense hydration, and protective anthocyanin antioxidants, they offer maximum nutritional density with remarkably low caloric costs.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +182,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Cardiovascular System Elasticity:</b> The rich array of anthocyanins, paired with potassium, prevents heavy lipid oxidation, enhances endothelial blood vessel function, and assists in blood pressure control.</li>
+                                <li><b>Dermal Integrity & Collagen Production:</b> A single 100g serving delivers over half your daily Vitamin C requirement, directly driving the natural synthesis of dermal collagen matrices to support skin elasticity.</li>
+                                <li><b>Blood Sugar Stabilization:</b> Despite their sweetness, strawberries rank low on the glycemic index ($GI = 40$). Their unique polyphenol matrices have been shown to slow down glucose absorption in the gut.</li>
+                                <li><b>Potent Cellular Defense:</b> Ellagic acid and pelargonidin cross paths inside cellular tissue to actively downregulate inflammatory pathways and trap reactive oxidative stressors.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Allergy & Histamine Risk Profile:</b> Strawberries are notorious for triggering food-allergic reactions, often linked to a specific protein associated with their red pigment. Symptoms can range from oral hives and itching to systemic flares.</li>
+                                <li><b>Pesticide Bioaccumulation Thresholds:</b> Due to their soft, porous skin and lack of protective outer shells, conventionally grown strawberries regularly top industrial lists for surface pesticide residues. Washing them thoroughly in running water is highly recommended.</li>
+                                <li><b>Gastrointestinal Oxalate Management:</b> Strawberries contain a moderate fraction of natural organic oxalates. If you have a clinical history of calcium-oxalate kidney architecture complications, moderate your portion sizes.</li>
+                                <li><b>High Perishability Factor:</b> These delicate berries absorb ambient humidity quickly, making them prone to rapid gray mold expansion. Keep them unwashed in a breathable container inside the fridge and clean them right before eating.</li>
                             </ul>
                         </div>
                     </div>

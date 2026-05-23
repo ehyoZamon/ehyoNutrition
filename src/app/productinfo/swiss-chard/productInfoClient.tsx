@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г свежего сырого мангольда)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "19 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "An incredibly low-calorie, water-rich leafy green that delivers exceptional volume and hydration for strict metabolic management."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "1.8 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Provides basic plant-based amino acids that assist in structural maintenance and cellular repair cascades."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "0.2 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Virtually fat-free. However, pairing it with clean dietary lipids like olive oil drastically elevates fat-soluble nutrient assimilation."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "3.7 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Composed mostly of complex structural plant fibers with negligible simple sugars, guaranteeing a flat glycemic response."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
+        id: "vitK1", 
+        slug: "vitamin-k",
+        name: "Vitamin K1 (Phylloquinone)", 
+        amount: "830.0 mcg / 692% DV", 
         bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        description: "An absolutely staggering mega-dose that acts as a vital director for bone mineralization pathways and healthy blood coagulation mechanisms." 
     },
     { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
+        id: "vitA", 
+        slug: "vitamin-a",
+        name: "Vitamin A (Beta-Carotene)", 
+        amount: "306 mcg / 34% DV", 
         bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "Rich in provitamin A carotenoids, which convert to active retinol to support optimal night vision and preserve mucosal membrane tissue." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
+        id: "magnesium", 
+        slug: "magnesium",
+        name: "Magnesium", 
+        amount: "81.0 mg / 19% DV", 
         bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        description: "An outstanding concentration for greens, orchestrating neuromuscular relaxation, electrical cardiac tone, and steady energy production." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "30.0 mg / 33% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "A strong antioxidant factor that neutralizes environmental free radicals, boosts collagen synthesis, and enhances plant-iron uptake." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "iron", 
+        slug: "iron",
+        name: "Iron (Non-Heme)", 
+        amount: "1.8 mg / 10% DV", 
+        bg: "#f5722c", 
+        description: "Provides an important plant-based pool of iron, required for hemoglobin manufacture and pristine oxygen transport efficiency." 
+    },
+    { 
+        id: "syringic", 
+        slug: "antioxidants",
+        name: "Syringic Acid & Betalains", 
+        amount: "High Concentration", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Unique polyphenol and pigment compounds; syringic acid directly inhibits alpha-glucosidase, assisting in stabilizing blood glucose curves." 
     }
 ];
 
@@ -97,7 +97,6 @@ const MICRO_NUTRIENTS = [
 type NutrientItem = typeof MACRO_NUTRIENTS[number] | typeof MICRO_NUTRIENTS[number];
 
 const ProductInfoClient = () => {
-    // Единое состояние для выбранного элемента (макро или микро)
     const [selectedItem, setSelectedItem] = useState<null | NutrientItem>(null);
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -134,19 +133,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/swiss-chard.png"
+                            alt="swiss chard"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Swiss Chard</h1>
+                        <div className={styles["product-category"]}>Vegetables & Greens</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Swiss Chard is a visually stunning, highly therapeutic leafy green vegetable. Packaging an astronomical concentration of Vitamin K1 alongside unique blood-sugar-modulating polyphenols and deep mineral reserves like magnesium, it serves as an elite functional food for bone density, vascular integrity, and metabolic balance.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +181,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Unrivaled Bone Density Matrix:</b> Supplying nearly 700% of the daily value of Vitamin K1, it powerfully drives the carboxylation of osteocalcin, locking calcium securely into skeletal structures.</li>
+                                <li><b>Advanced Blood Glucose Regulation:</b> Swiss chard houses *syringic acid*, a powerful flavonoid that has been shown to inhibit alpha-glucosidase enzymes, stabilizing post-meal blood sugar curves.</li>
+                                <li><b>Neuromuscular & Cardiovascular Calm:</b> High structural reserves of magnesium work directly to lower peripheral vascular resistance, support ideal resting heart rhythms, and modulate neural excitability.</li>
+                                <li><b>Vibrant Cellular Defense:</b> The colorful stalks (especially in rainbow chard) contain potent *betalain* pigments, which exert profound anti-inflammatory and radical-scavenging protection across systemic organs.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>High Oxalate Concentrations:</b> Swiss chard contains a heavy density of natural organic oxalates. Individuals with a clinical history of calcium-oxalate kidney stone formations should regulate their intake or cook/blanch the leaves to discard soluble oxalates.</li>
+                                <li><b>Critical Anticoagulant Interactions:</b> Due to the truly massive volume of Vitamin K1—which directly coordinates the body's natural blood clotting machinery—individuals on tightly calibrated blood thinners (like Warfarin) must keep their daily intake completely stable.</li>
+                                <li><b>Sodium Concentration Metrics:</b> Compared to other leafy greens, Swiss chard naturally pulls and stores more sodium from the soil (around 213mg per 100g). While perfectly safe, those on strict medically monitored low-sodium diets should factor this into their parameters.</li>
+                                <li><b>Gastric Tract Sensitivity:</b> The dense, complex fiber matrix combined with raw oxalates can occasionally cause mild throat scratchiness or temporary abdominal bloating if eaten raw in massive quantities. Light steaming completely neutralizes this physical reaction.</li>
                             </ul>
                         </div>
                     </div>
@@ -228,7 +227,6 @@ const ProductInfoClient = () => {
             >
                 {selectedItem && (
                     <div className={styles["modal-content"]}>
-                        {/* Кастомный бейдж с названием элемента */}
                         <div 
                             className={styles["modal-header-badge"]} 
                             style={{ backgroundColor: selectedItem.bg }}
@@ -236,13 +234,11 @@ const ProductInfoClient = () => {
                             {selectedItem.name}: {selectedItem.amount}
                         </div>
                         
-                        {/* Текст описания пользы */}
                         <p className={styles["modal-description"]}>
                             {selectedItem.description}
                         </p>
                         
                         <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: '10px', marginTop: '10px' }}>
-                            {/* Ссылка показывается ТОЛЬКО если slug существует и он не пустой */}
                             {selectedItem.slug && (
                                 <Link 
                                     href={`/vitamininfo/${selectedItem.slug}`}

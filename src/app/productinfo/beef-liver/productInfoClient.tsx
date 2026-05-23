@@ -5,91 +5,99 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г готовой печени)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "175 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "Provides nutrient-dense energy with a very low caloric cost relative to its massive vitamin profile."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "27.0 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "An exceptionally rich source of highly bioavailable, complete protein containing all essential amino acids for tissue synthesis."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "5.0 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Low in total lipids, featuring a balanced profile of monounsaturated, polyunsaturated, and essential saturated fatty acids."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "5.0 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Sourced naturally from stored animal glycogen. It represents a rare carbohydrate presence in meat, keeping a low glycemic index."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        id: "vitA", 
+        slug: "vitamin-a",
+        name: "Vitamin A (Retinol)", 
+        amount: "9442 mcg / 1049% DV", 
+        bg: "#66ab63", 
+        description: "Pre-formed active Vitamin A (retinol) that directly fuels the visual cycle, maintains endothelial integrity, and fortifies systemic immunity." 
     },
     { 
         id: "b12", 
         slug: "b12",
         name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
+        amount: "70.6 mcg / 2940% DV", 
         bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
+        description: "An astronomical concentration essential for myelin sheath repair, DNA replication, and preventing megaloblastic anemia." 
     },
     { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
-        bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        id: "copper", 
+        slug: "copper",
+        name: "Copper", 
+        amount: "14.3 mg / 1580% DV", 
+        bg: "#15837c", 
+        description: "Acts as a vital biochemical catalyst for iron metabolism, collagen structure synthesis, and defense against oxidative stress." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
+        id: "iron", 
+        slug: "iron",
+        name: "Iron (Heme)", 
+        amount: "6.2 mg / 34% DV", 
         bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        description: "Highly absorbable heme iron that binds instantly to hemoglobin, optimizing cellular oxygen transport and preventing fatigue." 
+    },
+    { 
+        id: "b9", 
+        slug: "folate",
+        name: "Folate (Vitamin B9)", 
+        amount: "260 mcg / 65% DV", 
+        bg: "#e4a910", 
+        description: "Critical for cellular division, rapid amino acid conversion, and optimizing prenatal neural tube development." 
+    },
+    { 
+        id: "choline", 
+        slug: "choline",
+        name: "Choline", 
+        amount: "418 mg / 76% DV", 
+        bg: "#15837c", 
+        description: "A foundational building block for cell membrane phospholipids and the neurotransmitter acetylcholine, driving memory and cognitive focus." 
     },
     { 
         id: "b2", 
         slug: "b2",
         name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        amount: "3.4 mg / 262% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
-    },
-    { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
-        bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Crucial for mitochondrial respiration, electron transport chains, and converting macronutrients into actual ATP energy units." 
     }
 ];
 
@@ -134,19 +142,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/beef-liver.png"
+                            alt="beef liver"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Beef Liver</h1>
+                        <div className={styles["product-category"]}>Meat & Offal</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Beef liver is widely regarded as the ultimate king of superfoods. It contains an unmatched, highly concentrated matrix of pre-formed vitamins, essential minerals, and complete proteins, making it drastically superior to standard muscle meats in nutritional value.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +190,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Unrivaled Anemia Prevention:</b> The combination of high-density heme iron, copper, and vitamin B12 provides all necessary structural raw materials for efficient red blood cell production.</li>
+                                <li><b>Advanced Cognitive Architecture:</b> Tremendous concentrations of B-vitamins paired with Choline maximize neurotransmitter generation, preserving rapid brain signaling and nervous system integrity.</li>
+                                <li><b>Enhanced Metabolic Performance:</b> Acts as a powerful coenzyme powerhouse; its extreme riboflavin and pantothenic acid values catalyze the rapid breakdown of dietary elements into pure kinetic energy.</li>
+                                <li><b>Immune & Vision Optimization:</b> Provides massive doses of active, bioavailable retinol (Vitamin A) that directly strengthens cornea function, supports night vision, and reinforces white blood cell response.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Vitamin A Toxicity (Hypervitaminosis A):</b> Because liver holds pre-formed Vitamin A, which is fat-soluble and stores in our tissues, eating it daily can cause toxicity. Limiting consumption to 1-2 times per week is highly advised.</li>
+                                <li><b>Pregnancy Safety Thresholds:</b> Expectant mothers should strictly manage liver intake. Excess pre-formed Vitamin A (retinol) carries a documented risk of causing congenital developmental defects in the fetus.</li>
+                                <li><b>Copper Accumulation Risk:</b> The extremely high copper content means frequent intake can over-accumulate in the body, which might lead to oxidative strain or complicate issues for individuals with underlying copper metabolic conditions.</li>
+                                <li><b>Purine Density & Gout Management:</b> Organ meats are naturally heavy in purine structures. These break down into uric acid, which can aggregate inside joints and trigger painful flares in individuals prone to gout.</li>
                             </ul>
                         </div>
                     </div>

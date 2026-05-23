@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г свежих томатов)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "18 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "Extremely low in calories and exceptionally hydrating, making it an elite choice for weight management and volume eating."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "0.9 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Contains modest structural plant proteins, providing minimal trace amino acids necessary for botanical matrices."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "0.2 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Virtually fat-free; however, consuming tomatoes alongside healthy dietary lipids drastically boosts carotenoid absorption."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "3.9 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Consists mainly of naturally occurring simple sugars (fructose, glucose) and structural fibers, keeping the glycemic load minimal."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
-    },
-    { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
+        id: "lycopene", 
+        slug: "lycopene", // Если есть слаг для ликопина, или оставьте пустой ""
+        name: "Lycopene", 
+        amount: "2573 mcg", 
         bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
+        description: "A powerhouse carotenoid antioxidant responsible for the deep red hue. It actively scavenges free radicals and protects vascular walls." 
     },
     { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
-        bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
-    },
-    { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "13.7 mg / 15% DV", 
         bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        description: "A vital water-soluble antioxidant that shields skin cells from UV oxidation, fuels collagen synthesis, and reinforces cellular immunity." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "237 mg / 5% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "An essential systemic electrolyte that coordinates electrical heart signaling, fluid balance, and healthy blood pressure levels." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "vitK1", 
+        slug: "vitamin-k",
+        name: "Vitamin K1", 
+        amount: "7.9 mcg / 7% DV", 
+        bg: "#15837c", 
+        description: "Necessary for activating calcium-binding proteins, supporting healthy blood coagulation, and preserving skeletal framework strength." 
+    },
+    { 
+        id: "b9", 
+        slug: "folate",
+        name: "Folate (Vitamin B9)", 
+        amount: "15 mcg / 4% DV", 
+        bg: "#66ab63", 
+        description: "Supports normal tissue growth, DNA replication, cellular function, and is essential for reproductive health." 
+    },
+    { 
+        id: "beta_carotene", 
+        slug: "vitamin-a",
+        name: "Beta-Carotene", 
+        amount: "449 mcg", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "A provitamin antioxidant that the liver converts into Vitamin A as needed to support healthy corneal architecture and night sight." 
     }
 ];
 
@@ -134,19 +134,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/tomatoes.png"
+                            alt="tomatoes"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Tomatoes</h1>
+                        <div className={styles["product-category"]}>Vegetables</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Tomatoes are a highly vibrant, nutrient-dense whole food packed with antioxidants. Composed of roughly 95% water, they provide heavy hydration, massive doses of heart-healthy lycopene, and essential vitamins that shield skin and blood vessel integrity.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +182,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Cardiovascular Architecture & Protection:</b> Lycopene and beta-carotene help prevent the oxidation of LDL cholesterol—a key driver in plaque formation. Paired with potassium, this supports overall arterial flexibility and blood pressure regulation.</li>
+                                <li><b>Dermal UV & Skin Defense:</b> Clinical evidence indicates that lycopene, working alongside Vitamin C, strengthens the skin's internal cellular matrix, enhancing defense against light-induced UV damage and promoting elasticity.</li>
+                                <li><b>Profound Hydration & Satiety:</b> Their high water and organic fiber content expands inside the gastric cavity, creating a natural feeling of fullness with a negligible impact on overall daily calories.</li>
+                                <li><b>The Cooking Advantage:</b> Unlike many vegetables, cooking tomatoes with a dash of healthy fat (like olive oil) actually breaks down their cellular walls, significantly increasing the bioavailability and absorption of lycopene.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Gastrointestinal Acid Reflux:</b> Tomatoes are naturally rich in malic and citric acids. For individuals dealing with severe acid reflux, GERD, or sensitive stomach linings, heavy intake can trigger burning discomfort or heartburn.</li>
+                                <li><b>Nightshade Sensitive Solanine:</b> As members of the nightshade family, tomatoes contain trace amounts of alkaloids like solanine. While completely harmless to most, individuals with specific autoimmune conditions or chronic joint sensitivities occasionally choose to monitor their intake.</li>
+                                <li><b>Histamine Release Profile:</b> Tomatoes can act as natural histamine liberators in the digestive tract. If you have a confirmed histamine intolerance or localized gut allergy profiles, you may experience mild bloating or skin reactions.</li>
+                                <li><b>Kidney Stone Oxalate Management:</b> Tomatoes contain a moderate amount of oxalates. If you have a recurring clinical history of calcium-oxalate kidney stones, it is wise to balance your consumption parameters.</li>
                             </ul>
                         </div>
                     </div>

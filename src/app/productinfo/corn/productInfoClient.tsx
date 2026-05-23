@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г сладкой кукурузы)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "86 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "A moderate-energy starchy vegetable that provides sustained, reliable fuel for muscular work and cellular respiration."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "3.2 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Contains a notable amount of plant proteins for a vegetable, including zein, though it should be paired with legumes for a complete amino profile."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "1.2 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Naturally very low in fat, containing trace heart-healthy monounsaturated and polyunsaturated fatty acids within the grain germ."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "19.0 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Primarily composed of complex starches and natural simple sugars, offering structured energy management to prevent rapid glucose spikes."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
-        bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
-    },
-    { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
-        bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
-    },
-    { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
-    },
-    { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "lutein", 
+        slug: "lutein-zeaxanthin",
+        name: "Lutein & Zeaxanthin", 
+        amount: "642 mcg", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "Phenomenal plant pigments that deposit directly into the macular region of the eye, filtering harmful blue light and guarding visual acuity." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "vitB1", 
+        slug: "b1",
+        name: "Vitamin B1 (Thiamin)", 
+        amount: "0.15 mg / 13% DV", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "An essential coenzyme involved in carbohydrate metabolic cascades, crucial for optimizing cognitive drive and nervous system communication." 
+    },
+    { 
+        id: "vitB9", 
+        slug: "folate",
+        name: "Vitamin B9 (Folate)", 
+        amount: "42.0 mcg / 11% DV", 
+        bg: "#66ab63", 
+        description: "Vital for cellular division, nucleotide synthesis, and erythrocyte maturation, playing a protective role in cardiovascular tissue health." 
+    },
+    { 
+        id: "dietfiber", 
+        slug: "fiber",
+        name: "Dietary Fiber", 
+        amount: "2.7 grams", 
+        bg: "#f5722c", 
+        description: "Mainly insoluble fibers that add mechanical volume to the stool matrix, accelerating intestinal transit and supporting digestive regularity." 
+    },
+    { 
+        id: "magnesium", 
+        slug: "magnesium",
+        name: "Magnesium", 
+        amount: "37.0 mg / 9% DV", 
+        bg: "#15837c", 
+        description: "Assists in enzymatic cellular stabilization, supporting muscular relaxation, bone health, and smooth cardiac electrical performance." 
+    },
+    { 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "6.8 mg / 8% DV", 
+        bg: "#1a96cd", 
+        description: "Provides antioxidant assistance, neutralizing surface free radicals and supporting natural immune tissue integrity." 
     }
 ];
 
@@ -97,7 +97,6 @@ const MICRO_NUTRIENTS = [
 type NutrientItem = typeof MACRO_NUTRIENTS[number] | typeof MICRO_NUTRIENTS[number];
 
 const ProductInfoClient = () => {
-    // Единое состояние для выбранного элемента (макро или микро)
     const [selectedItem, setSelectedItem] = useState<null | NutrientItem>(null);
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -134,19 +133,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/corn.png"
+                            alt="corn"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Corn</h1>
+                        <div className={styles["product-category"]}>Vegetables & Grains</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Corn is a vibrant, carbohydrate-rich vegetable and cereal grain. Highly regarded for its exceptional content of protective macular carotenoids like lutein and zeaxanthin, it provides a functional balance of dietary fibers and B-vitamins to sustain physical stamina and ocular health.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +181,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Targeted Macular Defense:</b> The high density of lutein and zeaxanthin acts as natural "internal sunglasses," shielding retinal cells against oxidative blue light exposure and slowing macular breakdown.</li>
+                                <li><b>Sustained Glycemic Energy:</b> Its complex starch matrix, balanced by dietary fibers, results in steady metabolic glucose release, preventing sudden insulin crashes when eaten in whole form.</li>
+                                <li><b>Enhanced Bowel Motility:</b> Rich in insoluble plant fiber, corn swells within the intestinal tract, physically sweeping the colon lining, boosting peristalsis, and preventing general sluggishness.</li>
+                                <li><b>Neuro-Metabolic Support:</b> Substantial amounts of Thiamin (B1) support cellular energy pathways, optimizing memory mechanics and structural peripheral nerve health.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Starchy Glycemic Load Factors:</b> Corn contains significantly more carbohydrates than leafy or watery vegetables. Individuals managing Type 2 diabetes or tracking precise glycemic parameters should control serving volumes to avoid unexpected postprandial glucose shifts.</li>
+                                <li><b>Insoluble Outer Husk Toughness:</b> The clear cellulose shell wrapping each individual kernel is structurally un-digestible by human stomach acid. Improperly chewed corn can pass entirely intact, causing gas, mild cramps, or bloating in sensitive digestive tracts.</li>
+                                <li><b>Hidden Syrups & Ultra-Processed Additives:</b> While whole sweet corn is highly therapeutic, refined commercial corn offshoots—such as High-Fructose Corn Syrup (HFCS) or processed corn starch—lack all fibers and minerals, severely aggravating metabolic liver pathways.</li>
+                                <li><b>Fungal Mycotoxin Contamination:</b> If stored in poorly ventilated, high-humidity corporate grain silos, corn crops can easily develop mold strains producing aflatoxins. Always consume freshly cooked or properly sealed, verified retail products.</li>
                             </ul>
                         </div>
                     </div>
@@ -228,7 +227,6 @@ const ProductInfoClient = () => {
             >
                 {selectedItem && (
                     <div className={styles["modal-content"]}>
-                        {/* Кастомный бейдж с названием элемента */}
                         <div 
                             className={styles["modal-header-badge"]} 
                             style={{ backgroundColor: selectedItem.bg }}
@@ -236,13 +234,11 @@ const ProductInfoClient = () => {
                             {selectedItem.name}: {selectedItem.amount}
                         </div>
                         
-                        {/* Текст описания пользы */}
                         <p className={styles["modal-description"]}>
                             {selectedItem.description}
                         </p>
                         
                         <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: '10px', marginTop: '10px' }}>
-                            {/* Ссылка показывается ТОЛЬКО если slug существует и он не пустой */}
                             {selectedItem.slug && (
                                 <Link 
                                     href={`/vitamininfo/${selectedItem.slug}`}

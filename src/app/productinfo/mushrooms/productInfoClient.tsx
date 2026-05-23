@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г сырых грибов)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "22 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "An incredibly low-calorie whole food option, highly favorable for weight management and structural metabolic restriction."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "3.1 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Surprisingly high in protein for a non-animal source; contains a balanced profile of essential building-block amino acids."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "0.3 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Virtually fat-free, containing only trace levels of healthy unsaturated fatty acids and absolutely zero cholesterol."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "3.3 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Primarily made of complex structural carbohydrates and fibers, generating a negligible impact on systemic blood sugar levels."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
+        id: "vitD", 
+        slug: "vitamin-d",
+        name: "Vitamin D (Ergocalciferol)", 
+        amount: "18 IU / 4% DV", 
         bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
-    },
-    { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
-        bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "One of the exceptionally rare non-animal whole food sources of Vitamin D2, which helps facilitate systemic calcium retention and bone mineralization." 
     },
     { 
         id: "selenium", 
         slug: "selenium",
         name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
+        amount: "9.3 mcg / 17% DV", 
         bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        description: "A potent antioxidant mineral that neutralizes free radical cellular strain, optimizes thyroid function, and supports immunity." 
     },
     { 
         id: "b2", 
         slug: "b2",
         name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        amount: "0.4 mg / 31% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "Essential metabolic coenzyme that plays a major role in cellular energy extraction and the structural production of red blood cells." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
-        bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        id: "b3", 
+        slug: "vitamin-b3",
+        name: "Vitamin B3 (Niacin)", 
+        amount: "3.6 mg / 23% DV", 
+        bg: "#f5722c", 
+        description: "Supports healthy cellular respiration, optimizes enzyme activity, protects skin texture, and preserves baseline nervous system health." 
+    },
+    { 
+        id: "copper", 
+        slug: "copper",
+        name: "Copper", 
+        amount: "0.3 mg / 35% DV", 
+        bg: "#66ab63", 
+        description: "A fundamental trace mineral required to synthesize hemoglobin, construct vascular structures, and manufacture neurotransmitters." 
+    },
+    { 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "318 mg / 7% DV", 
+        bg: "#e4a910", 
+        description: "A primary intercellular electrolyte that regulates natural fluid metrics, neural signal pathways, and cardiovascular muscle tone." 
     }
 ];
 
@@ -134,19 +134,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/mushrooms.png"
+                            alt="mushrooms"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Mushrooms</h1>
+                        <div className={styles["product-category"]}>Fungi</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Mushrooms occupy a completely unique biological kingdom. Low in calories yet deeply savory due to natural glutamate, they provide a remarkable matrix of immune-modulating beta-glucans, unique antioxidants like selenium, and are one of the few non-animal sources of Vitamin D.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +182,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Immune System Architecture:</b> Mushrooms contain complex polysaccharides called beta-glucans. These molecules act as natural immunomodulators, gently binding to immune cells to optimize host defense activities.</li>
+                                <li><b>Cellular Antioxidant Defense:</b> The robust concentration of selenium helps generate crucial glutathione peroxidase enzymes, shielding cellular membranes from everyday oxidative destruction.</li>
+                                <li><b>Cardiovascular Health Support:</b> Naturally rich in potassium and completely clear of sodium or cholesterol, mushrooms facilitate relaxed vascular tension and aid in proper systemic blood pressure control.</li>
+                                <li><b>Satiety with Minimal Calories:</b> Their dense structural matrix provides substantial dietary weight and a satisfying savory "umami" experience, keeping you full while incurring very low caloric costs.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Chitin Digestive Resistance:</b> Raw mushroom cell walls are built from chitin—a tough, rigid polymer. To avoid digestive strain, cramping, or bloating, mushrooms should always be cooked to break down this matrix.</li>
+                                <li><b>Foraging and Wild Toxicity Risk:</b> Never consume wild mushrooms unless they have been verified with absolute professional certainty. Toxic varieties can mimic edible species perfectly and cause fatal organ damage. Commercial store-bought options are completely safe.</li>
+                                <li><b>Porous Heavy Metal Absorption:</b> Fungi act like natural sponges, easily drawing pollutants or heavy metals from contaminated surrounding soil. Always purchase your mushrooms from trusted, quality-controlled cultivation vendors.</li>
+                                <li><b>Perishability and Mold Growth:</b> Due to high baseline moisture levels, fresh mushrooms spoil quickly and can harbor toxic molds if stored incorrectly. Keep them in breathable paper bags in the fridge and discard if they become slimy.</li>
                             </ul>
                         </div>
                     </div>

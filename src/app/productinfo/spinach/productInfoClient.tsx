@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г свежего сырого шпината)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "23 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "Extremely low in calories and exceptionally hydrating, making it an ideal volume food for pristine metabolic control."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "2.9 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "Contains a remarkably high amino acid efficiency for a leafy green, providing structural support for cellular repair."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "0.4 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Virtually fat-free, though pairing spinach with healthy dietary lipids dramatically enhances the absorption of its fat-soluble vitamins."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "3.6 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Composed primarily of structured, non-digestible complex fibers, ensuring a near-zero impact on circulating glucose levels."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
+        id: "vitK1", 
+        slug: "vitamin-k",
+        name: "Vitamin K1 (Phylloquinone)", 
+        amount: "482.9 mcg / 402% DV", 
         bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        description: "An astronomical mega-dose that serves as a core coordinator for healthy blood coagulation pathways and structural bone mineral binding." 
     },
     { 
-        id: "b12", 
-        slug: "b12",
-        name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
-        bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
+        id: "vitA", 
+        slug: "vitamin-a",
+        name: "Vitamin A (Beta-Carotene)", 
+        amount: "469 mcg / 52% DV", 
         bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "Packed with provitamin A carotenoids, which convert to active retinol to drive cellular night vision mechanics and preserve mucosal immunity." 
     },
     { 
-        id: "selenium", 
-        slug: "selenium",
-        name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
-        bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        id: "vitB9", 
+        slug: "folate",
+        name: "Vitamin B9 (Folate)", 
+        amount: "194.0 mcg / 49% DV", 
+        bg: "#f5722c", 
+        description: "An essential coenzyme critical for proper DNA repair, deep cellular replication cascades, and optimal cardiovascular tissue health." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
+        id: "iron", 
+        slug: "iron",
+        name: "Iron (Non-Heme)", 
+        amount: "2.7 mg / 15% DV", 
         bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        description: "An impressive botanical distribution of iron, necessary for hemoglobin synthesis and optimizing daily oxygen transportation channels." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "lutein", 
+        slug: "lutein-zeaxanthin",
+        name: "Lutein & Zeaxanthin", 
+        amount: "12198 mcg", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "A colossal density of eye-protective pigments that physically accumulate in the retina, blocking intense blue light and preserving long-term vision." 
+    },
+    { 
+        id: "vitC", 
+        slug: "vitamin-c",
+        name: "Vitamin C", 
+        amount: "28.1 mg / 31% DV", 
+        bg: "#1a96cd", 
+        description: "Provides key antioxidant support, neutralizing surface free radicals and assisting in the intestinal absorption of plant-bound iron." 
     }
 ];
 
@@ -97,7 +97,6 @@ const MICRO_NUTRIENTS = [
 type NutrientItem = typeof MACRO_NUTRIENTS[number] | typeof MICRO_NUTRIENTS[number];
 
 const ProductInfoClient = () => {
-    // Единое состояние для выбранного элемента (макро или микро)
     const [selectedItem, setSelectedItem] = useState<null | NutrientItem>(null);
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -134,19 +133,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/spinach.png"
+                            alt="spinach"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Spinach</h1>
+                        <div className={styles["product-category"]}>Vegetables & Greens</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Spinach is a legendary, deep-green leafy vegetable packing an unparalleled micro-nutrient density. Delivering an astronomical concentration of Vitamin K1, protective ocular carotenoids, and vital folate, it serves as a top-tier therapeutic whole food for cellular resilience, vascular strength, and vision performance.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +181,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Unrivaled Retinal Protection:</b> Boasting an exceptional concentration of lutein and zeaxanthin, it accumulates directly inside the macula, creating a powerful shield against oxidative blue-light degradation.</li>
+                                <li><b>Elite Vascular Coagulation & Bone Health:</b> Supplying over 400% of your daily Vitamin K1 in just 100g, it aggressively drives osteocalcin activation, ensuring calcium integrates perfectly into the structural bone matrix.</li>
+                                <li><b>Oxidative Stress Suppression:</b> An abundant array of flavonoids and alpha-lipoic acid helps lower systemic inflammatory markers and actively preserves cellular membrane structures.</li>
+                                <li><b>Enhanced Oxygen Dynamics:</b> Natural folate paired with non-heme iron supports red blood cell division, combatting physical fatigue and driving cellular energetic pathways.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>High Oxalic Acid Matrix:</b> Spinach contains heavy concentrations of oxalates, which can structurally bind to minerals like calcium. Individuals with a history of calcium-oxalate kidney stones should monitor intake or cook spinach to greatly reduce soluble oxalate loads.</li>
+                                <li><b>Prescription Blood Thinner Interactions:</b> Due to the extreme, dense volume of Vitamin K1—which dictates natural blood clotting cascades—individuals taking highly calibrated anticoagulants (like Warfarin) must keep their daily leafy green intake completely consistent.</li>
+                                <li><b>Non-Heme Iron Absorption Blocks:</b> The iron present in raw spinach is plant-bound (non-heme) and tightly anchored by polyphenols. Pairing spinach with ascorbic acid (Vitamin C from lemon or bell peppers) or cooking it helps unlock its full bio-availability.</li>
+                                <li><b>Nitrate Bioaccumulation Dynamics:</b> Like many leafy greens grown in conventional environments, spinach leaves can absorb large amounts of soil nitrates. Sourcing clean options and consuming fresh leaves prevents unwanted conversion to nitrites during poor storage.</li>
                             </ul>
                         </div>
                     </div>
@@ -228,7 +227,6 @@ const ProductInfoClient = () => {
             >
                 {selectedItem && (
                     <div className={styles["modal-content"]}>
-                        {/* Кастомный бейдж с названием элемента */}
                         <div 
                             className={styles["modal-header-badge"]} 
                             style={{ backgroundColor: selectedItem.bg }}
@@ -236,13 +234,11 @@ const ProductInfoClient = () => {
                             {selectedItem.name}: {selectedItem.amount}
                         </div>
                         
-                        {/* Текст описания пользы */}
                         <p className={styles["modal-description"]}>
                             {selectedItem.description}
                         </p>
                         
                         <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: '10px', marginTop: '10px' }}>
-                            {/* Ссылка показывается ТОЛЬКО если slug существует и он не пустой */}
                             {selectedItem.slug && (
                                 <Link 
                                     href={`/vitamininfo/${selectedItem.slug}`}

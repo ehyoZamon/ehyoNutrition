@@ -10,38 +10,164 @@
   },
   {
     "id": 2,
-    "name": "Arugula",
+    "name": "Carrot",
     "category": "food/vegetables",
-    "calories": 5,
-    "image": "/products/arugula.png",
+    "calories": 41,
+    "image": "/products/carrot.png",
     "favorite": false,
-    "link": "/productinfo/arugula"
+    "link": "/productinfo/carrot"
   },
   {
     "id": 3,
-    "name": "Bok-choy",
-    "category": "food/vegetables",
-    "calories": 15,
-    "image": "/products/bok-choy.png",
-    "favorite": false,
-    "link": "/productinfo/bok-choy"
-  },
-  {
-    "id": 4,
-    "name": "Apple",
-    "category": "food/fruits",
-    "calories": 20,
-    "image": "/products/apple.png",
-    "favorite": false,
-    "link": "/productinfo/apple"
-  },
-  {
-    "id": 5,
-    "name": "Cottage cheese",
-    "category": "food/milk products",
-    "calories": "170/100mg",
+    "name": "Cottage Cheese",
+    "category": "food/eggs and dairy",
+    "calories": 98,
     "image": "/products/cottage-cheese.png",
     "favorite": false,
     "link": "/productinfo/cottage-cheese"
+  },
+  {
+    "id": 4,
+    "name": "Beef Liver",
+    "category": "food/meat",
+    "calories": 135,
+    "image": "/products/liver.png",
+    "favorite": false,
+    "link": "/productinfo/beef-liver"
+  },
+  {
+    "id": 5,
+    "name": "Pumpkin",
+    "category": "food/vegetables",
+    "calories": 26,
+    "image": "/products/pumpkin.png",
+    "favorite": false,
+    "link": "/productinfo/pumpkin"
+  },
+  {
+    "id": 6,
+    "name": "Mushrooms",
+    "category": "food/vegetables",
+    "calories": 22,
+    "image": "/products/mushroom.png",
+    "favorite": false,
+    "link": "/productinfo/mushrooms"
+  },
+  {
+    "id": 7,
+    "name": "Fatty Fish",
+    "category": "food/seafood",
+    "calories": 206,
+    "image": "/products/fish.png",
+    "favorite": false,
+    "link": "/productinfo/fatty-fish"
+  },
+  {
+    "id": 8,
+    "name": "Tomatoes",
+    "category": "food/vegetables",
+    "calories": 18,
+    "image": "/products/tomatoes.png",
+    "favorite": false,
+    "link": "/productinfo/tomatoes"
+  },
+  {
+    "id": 9,
+    "name": "Strawberries",
+    "category": "food/fruits",
+    "calories": 32,
+    "image": "/products/strawberry.png",
+    "favorite": false,
+    "link": "/productinfo/strawberries"
+  },
+  {
+    "id": 10,
+    "name": "Kiwi",
+    "category": "food/fruits",
+    "calories": 61,
+    "image": "/products/kiwi.png",
+    "favorite": false,
+    "link": "/productinfo/kiwi"
+  },
+  {
+    "id": 11,
+    "name": "Bell Peppers",
+    "category": "food/vegetables",
+    "calories": 31,
+    "image": "/products/bell-pepper.png",
+    "favorite": false,
+    "link": "/productinfo/bell-peppers"
+  },
+  {
+    "id": 12,
+    "name": "Sunflower Seeds",
+    "category": "food/seeds and nuts",
+    "calories": 584,
+    "image": "/products/sunflower-seeds.png",
+    "favorite": false,
+    "link": "/productinfo/sunflower-seeds"
+  },
+  {
+    "id": 13,
+    "name": "Sunflower Oil",
+    "category": "food/oils and fats",
+    "calories": 884,
+    "image": "/products/sunflower-oil.png",
+    "favorite": false,
+    "link": "/productinfo/sunflower-oil"
+  },
+  {
+    "id": 14,
+    "name": "Corn",
+    "category": "food/vegetables",
+    "calories": 96,
+    "image": "/products/corn.png",
+    "favorite": false,
+    "link": "/productinfo/corn"
+  },
+  {
+    "id": 15,
+    "name": "Soybean Oil",
+    "category": "food/oils and fats",
+    "calories": 884,
+    "image": "/products/soybean-oil.png",
+    "favorite": false,
+    "link": "/productinfo/soybean-oil"
+  },
+  {
+    "id": 16,
+    "name": "Avocados",
+    "category": "food/fruits",
+    "calories": 160,
+    "image": "/products/avocado.png",
+    "favorite": false,
+    "link": "/productinfo/avocados"
+  },
+  {
+    "id": 17,
+    "name": "Spinach",
+    "category": "food/vegetables",
+    "calories": 23,
+    "image": "/products/spinach.png",
+    "favorite": false,
+    "link": "/productinfo/spinach"
+  },
+  {
+    "id": 18,
+    "name": "Swiss Chard",
+    "category": "food/vegetables",
+    "calories": 19,
+    "image": "/products/swiss-chard.png",
+    "favorite": false,
+    "link": "/productinfo/swiss-chard"
+  },
+  {
+    "id": 19,
+    "name": "Broccoli",
+    "category": "food/vegetables",
+    "calories": 34,
+    "image": "/products/broccoli.png",
+    "favorite": false,
+    "link": "/productinfo/broccoli"
   }
 ]

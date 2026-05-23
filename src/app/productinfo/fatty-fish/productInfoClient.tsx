@@ -5,91 +5,91 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from "../productInfo.module.css";
 
-// Структурированный массив данных для макронутриентов (на 100г)
+// Структурированный массив данных для макронутриентов (на 100г готовой жирной рыбы)
 const MACRO_NUTRIENTS = [
     {
         id: "calories",
         name: "Calories",
         slug: "",
-        amount: "98 kcal",
+        amount: "206 kcal",
         bg: "#15837c",
-        description: "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
+        description: "Provides clean, sustained cellular energy driven primarily by high-quality proteins and healthy structural fats."
     },
     {
         id: "protein",
         name: "Protein",
         slug: "",
-        amount: "11.1 grams",
+        amount: "22.0 grams",
         bg: "#f5722c",
-        description: "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
+        description: "An elite, highly bioavailable complete protein source containing all essential amino acids required for muscle synthesis and metabolic repair."
     },
     {
         id: "fat",
         name: "Total Fat",
         slug: "",
-        amount: "4.3 grams",
+        amount: "13.0 grams",
         bg: "#e4a910",
-        description: "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
+        description: "Rich in vital polyunsaturated fats, specifically the anti-inflammatory omega-3 fatty acids EPA and DHA."
     },
     {
         id: "carbs",
         name: "Carbohydrates",
         slug: "",
-        amount: "3.4 grams",
+        amount: "0.0 grams",
         bg: "#15837c",
-        description: "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        description: "Completely clear of carbohydrates, making it an ideal whole food for stabilizing insulin and supporting low-glycemic dietary goals."
     }
 ];
 
 // Структурированный массив данных для микронутриентов (на 100г)
 const MICRO_NUTRIENTS = [
     { 
-        id: "calcium", 
-        slug: "calcium",
-        name: "Calcium", 
-        amount: "83 mg / 8% DV", 
+        id: "omega3", 
+        slug: "omega-3", // Если есть слаг для омега-3, или оставьте пустой ""
+        name: "Omega-3 (EPA/DHA)", 
+        amount: "2200 mg", 
+        bg: "#e4a910", 
+        description: "Essential long-chain fatty acids that construct healthy brain cell membranes, optimize lipid panels, and dramatically reduce systemic arterial inflammation." 
+    },
+    { 
+        id: "vitD", 
+        slug: "vitamin-d",
+        name: "Vitamin D3 (Cholecalciferol)", 
+        amount: "526 IU / 66% DV", 
         bg: "#15837c", 
-        description: "The primary structural mineral required for developing and preserving high bone density and optimizing dental health." 
+        description: "One of the absolute richest natural dietary sources of active Vitamin D3, foundational for systemic calcium absorption and immune system performance." 
     },
     { 
         id: "b12", 
         slug: "b12",
         name: "Vitamin B12", 
-        amount: "0.43 mcg / 18% DV", 
+        amount: "3.2 mcg / 133% DV", 
         bg: "#f5722c", 
-        description: "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells." 
-    },
-    { 
-        id: "phosphorus", 
-        slug: "phosphorus",
-        name: "Phosphorus", 
-        amount: "159 mg / 13% DV", 
-        bg: "#66ab63", 
-        description: "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage." 
+        description: "Critical nutrient for maintaining the nervous system, securing neurological processing speed, and driving red blood cell production." 
     },
     { 
         id: "selenium", 
         slug: "selenium",
         name: "Selenium", 
-        amount: "9.7 mcg / 14% DV", 
+        amount: "41.4 mcg / 75% DV", 
         bg: "#1a96cd", 
-        description: "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production." 
+        description: "A major trace antioxidant that activates enzymes to safeguard arterial linings and shield the thyroid gland from oxidative stress." 
     },
     { 
-        id: "b2", 
-        slug: "b2",
-        name: "Vitamin B2 (Riboflavin)", 
-        amount: "0.17 mg / 13% DV", 
-        bg: "#e4a910", 
-        description: "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy." 
+        id: "potassium", 
+        slug: "potassium",
+        name: "Potassium", 
+        amount: "363 mg / 8% DV", 
+        bg: "#66ab63", 
+        description: "An essential intracellular mineral that works in sync with sodium to regulate cellular fluid pump mechanics and manage resting blood pressure." 
     },
     { 
-        id: "sodium", 
-        slug: "sodium",
-        name: "Sodium", 
-        amount: "364 mg / 15% DV", 
+        id: "b6", 
+        slug: "vitamin-b6",
+        name: "Vitamin B6", 
+        amount: "0.6 mg / 35% DV", 
         bg: "#1a96cd", 
-        description: "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms." 
+        description: "Serves as a crucial metabolic coenzyme involved in cellular protein processing and the natural synthesis of cognitive neurotransmitters." 
     }
 ];
 
@@ -134,19 +134,19 @@ const ProductInfoClient = () => {
                             />
                         </Link>
                         <Image
-                            src="/productinfo/cottage-cheese-with-strawberries.png"
-                            alt="cottage cheese"
+                            src="/productinfo/fatty-fish.png"
+                            alt="fatty fish"
                             width={600}
                             height={472}
                             className={styles["product-img"]}
                         />
                     </div>
                     <div className={styles["content-text"]}>
-                        <h1 className={styles["product-name"]}>Cottage Cheese</h1>
-                        <div className={styles["product-category"]}>Dairy</div>
+                        <h1 className={styles["product-name"]}>Fatty Fish</h1>
+                        <div className={styles["product-category"]}>Fish & Seafood</div>
 
                         <div style={{background: '#fbf2d8'}} className={styles["product-description"]}>
-                            Cottage cheese is a fresh, curd-style dairy product celebrated globally by athletes and nutritionists. It is exceptionally rich in premium protein, remarkably low in baseline calories, and serves as an elite resource for slow-digesting amino acids.
+                            Fatty fish (such as salmon, mackerel, and sardines) are unparalleled therapeutic superfoods. Providing a combination of highly bioavailable proteins, substantial amounts of active Vitamin D3, and profound concentrations of omega-3 fatty acids, they serve as the gold standard for cardiovascular and neural health.
                         </div>
 
                         {/* Список Макронутриентов */}
@@ -182,20 +182,20 @@ const ProductInfoClient = () => {
                         <div style={{background: '#fbf2d8'}} className={`${styles["health-benefits"]} ${styles["product-section"]}`}>
                             <h3>Key Health Benefits</h3>
                             <ul>
-                                <li><b>Sustained Muscle Recovery:</b> The dominant protein group here is casein (~80%). Because it clots in the stomach, it digests slowly, providing a sustained anti-catabolic flow of amino acids, making it perfect for an evening or before-bed snack.</li>
-                                <li><b>Satiety & Weight Loss Architecture:</b> Thanks to its high protein density, it triggers fullness hormones like peptide YY, suppressing hunger cues while keeping overall caloric intake low.</li>
-                                <li><b>Skeletal System Integrity:</b> High concentrations of calcium and phosphorus directly nourish bone matrices and teeth, reducing risks associated with early bone density decline.</li>
-                                <li><b>Metabolic Boost:</b> Packed with B-complex vitamins that act as essential cellular catalysts, converting consumed food matrices into clean metabolic energy.</li>
+                                <li><b>Cardiovascular Smoothness & Architecture:</b> The heavy input of marine EPA and DHA lowers blood triglycerides, optimizes arterial elasticity, reduces resting blood pressure, and helps stabilize heart rhythms.</li>
+                                <li><b>Advanced Cognitive Optimization:</b> Since DHA is a primary structural lipid component of the human brain cortex, consistent consumption preserves optimal neuro-signaling, boosts memory parameters, and mitigates age-related cognitive decline.</li>
+                                <li><b>Powerful Systemic Anti-Inflammation:</b> Marine omega-3 fats directly compete with inflammatory pathways, drastically decreasing the production of pro-inflammatory cytokines and protecting metabolic tissues.</li>
+                                <li><b>Skeletal & Immune Reinforcement:</b> Exceptional natural concentrations of active Cholecalciferol (Vitamin D3) maximize intestinal calcium absorption, consolidating skeletal bone density matrices.</li>
                             </ul>
                         </div>
 
                         <div style={{background: '#fff2f0'}} className={`${styles["precautions"]} ${styles["product-section"]}`}>
                             <h3>Important Precautions</h3>
                             <ul>
-                                <li><b>Lactose Intolerance Profile:</b> Being a fresh, unaged cheese, it retains natural milk sugars. Individuals with severe lactose intolerance might experience gastrointestinal distress and should seek out lactose-free variants.</li>
-                                <li><b>Elevated Sodium Content:</b> Commercial manufacturing relies on sodium to process curd texture and longevity. If you are watching your blood pressure or managing structural kidney load, track the sodium content carefully or opt for low-sodium brands.</li>
-                                <li><b>Dairy Allergies:</b> Cottage cheese contains intact whey and casein structures. This makes it unsafe for individuals with a confirmed, IgE-mediated milk allergy.</li>
-                                <li><b>Storage and Freshness:</b> Fresh cheeses have high moisture contents and spoil rapidly. Always keep tightly sealed at or below 4°C (40°F) and consume within a few days of opening.</li>
+                                <li><b>Mercury & Heavy Metal Bioaccumulation:</b> Large predatory fish species (like swordfish, king mackerel, and large tuna) can accumulate mercury in their muscle tissue over time. For frequent eating, choose smaller species like salmon, sardines, or trout.</li>
+                                <li><b>Environmental Pollutant Thresholds:</b> Wild-caught fish from heavily industrialized water bodies may contain trace persistent organic pollutants (POPs) or PCBs. Sourcing your seafood from certified, environmentally sustainable fisheries is highly advised.</li>
+                                <li><b>Fish and Seafood Allergies:</b> Fish allergy is highly prevalent and typically persists throughout adulthood, carrying a high risk of triggering severe, immediate anaphylactic reactions in sensitive individuals.</li>
+                                <li><b>Perishability & Histamine Toxicity:</b> If fatty fish is stored incorrectly or sits too long before freezing, the rapid bacterial breakdown of histidine can cause high histamine accumulation, leading to scombroid food poisoning.</li>
                             </ul>
                         </div>
                     </div>
