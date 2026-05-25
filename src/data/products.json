@@ -169,5 +169,59 @@
     "image": "/products/broccoli.png",
     "favorite": false,
     "link": "/productinfo/broccoli"
+  },
+  {
+    "id": 20,
+    "name": "Milk",
+    "category": "food/eggs and dairy",
+    "calories": 42,
+    "image": "/products/milk.png",
+    "favorite": false,
+    "link": "/productinfo/milk"
+  },
+  {
+    "id": 21,
+    "name": "Almonds",
+    "category": "food/seeds and nuts",
+    "calories": 579,
+    "image": "/products/almond.png",
+    "favorite": false,
+    "link": "/productinfo/almonds"
+  },
+  {
+    "id": 22,
+    "name": "Macadamia Nuts",
+    "category": "food/seeds and nuts",
+    "calories": 718,
+    "image": "/products/macadamia-nut.png",
+    "favorite": false,
+    "link": "/productinfo/macadamia-nuts"
+  },
+  {
+    "id": 23,
+    "name": "Peanuts",
+    "category": "food/seeds and nuts",
+    "calories": 567,
+    "image": "/products/peanut.png",
+    "favorite": false,
+    "link": "/productinfo/peanuts"
+  },
+  {
+    "id": 24,
+    "name": "Bananas",
+    "category": "food/fruits",
+    "calories": 89,
+    "image": "/products/banana.png",
+    "favorite": false,
+    "link": "/productinfo/bananas"
+  },
+  {
+    "id": 25,
+    "name": "Potatoes",
+    "category": "food/vegetables",
+    "calories": 77,
+    "image": "/products/potato.png",
+    "favorite": false,
+    "link": "/productinfo/potatoes"
   }
 ]

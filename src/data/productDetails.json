@@ -2073,5 +2073,652 @@
       "<b>Histamine Release Profile:</b> Tomatoes can act as natural histamine liberators in the digestive tract. If you have a confirmed histamine intolerance or localized gut allergy profiles, you may experience mild bloating or skin reactions.",
       "<b>Kidney Stone Oxalate Management:</b> Tomatoes contain a moderate amount of oxalates. If you have a recurring clinical history of calcium-oxalate kidney stones, it is wise to balance your consumption parameters."
     ]
+  },
+  "milk": {
+    "slug": "milk",
+    "name": "Whole Milk (3.25%)",
+    "category": "Dairy Products",
+    "image": "/productinfo/milk.png",
+    "imageAlt": "milk",
+    "description": "Whole cow's milk is a highly complex, nutrient-dense liquid matrix designed by nature for complete biological support. It delivers an exceptionally bioavailable pool of structural proteins, essential fatty acids, and a premier mineral network engineered for bone and metabolic architecture.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "61 kcal",
+        "bg": "#15837c",
+        "description": "Provides balanced energy density derived from a natural ratio of healthy dietary fats, proteins, and carbohydrates."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "3.2 grams",
+        "bg": "#f5722c",
+        "description": "An elite complete protein source consisting of 80% casein and 20% whey, delivering all essential amino acids for optimal muscle synthesis and cellular repair."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "3.3 grams",
+        "bg": "#e4a910",
+        "description": "Composed of complex saturated, monounsaturated, and natural trans-fats (CLA) that serve as critical building blocks for cellular membranes and hormone pathways."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "4.8 grams",
+        "bg": "#15837c",
+        "description": "Consists entirely of lactose, a naturally occurring disaccharide sugar that provides steady glycemic energy and assists in intestinal mineral absorption."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "113 mg / 11% DV",
+        "bg": "#15837c",
+        "description": "The gold standard of bioavailable calcium, deeply embedded in a phosphoprotein matrix for seamless integration into the skeletal framework and teeth."
+      },
+      {
+        "id": "vitB12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12 (Cobalamin)",
+        "amount": "0.45 mcg / 19% DV",
+        "bg": "#f5722c",
+        "description": "An essential animal-derived vitamin critical for the maintenance of the myelin sheath in the nervous system and the synthesis of red blood cells."
+      },
+      {
+        "id": "vitB2",
+        "slug": "riboflavin",
+        "name": "Vitamin B2 (Riboflavin)",
+        "amount": "0.18 mg / 14% DV",
+        "bg": "#e4a910",
+        "description": "Plays a vital role as a coenzyme in cellular energy production cascades, mitochondrial health, and the metabolism of fats and carbohydrates."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "84 mg / 12% DV",
+        "bg": "#1a96cd",
+        "description": "Works in a strict synergistic loop with calcium to build strong bone tissue matrices and form ATP molecules for cellular energy currency."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "132 mg / 3% DV",
+        "bg": "#66ab63",
+        "description": "An essential intracellular electrolyte that helps modulate fluid equilibrium, nerve transmissions, and steady cardiovascular muscle tone."
+      },
+      {
+        "id": "vitD",
+        "slug": "vitamin-d",
+        "name": "Vitamin D",
+        "amount": "1.3 mcg / 7% DV",
+        "bg": "#1a96cd",
+        "description": "Often fortified or naturally present in trace fats, it acts as a master hormone to unlock hyper-efficient intestinal calcium absorption channels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Bone Mineralization Dynamics:</b> The highly structured combination of calcium, phosphorus, and milk proteins creates a synergistic matrix that aggressively locks minerals into bones, drastically maximizing skeletal density.",
+      "<b>Muscle Synthesis & Cellular Recovery:</b> The dual-action protein delivery of fast-digesting whey and slow-release casein ensures a sustained, continuous pool of circulating plasma amino acids, perfect for suppressing muscle breakdown.",
+      "<b>Metabolic Optimization with CLA:</b> Natural whole milk contains Conjugated Linoleic Acid (CLA), which clinical data suggests can support metabolic efficiency, immune resilience, and the modulation of body fat profiles.",
+      "<b>Neurological Coenzyme Support:</b> Robust levels of Riboflavin (B2) and Cobalamin (B12) work directly to maintain cellular energy pathways and defend nervous system tissue integrity from oxidative decline."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Lactose Intolerance Matrix:</b> Whole milk contains natural lactose sugar. Individuals with a genetic deficiency of the lactase enzyme will experience gastrointestinal distress, bloating, cramps, or gas due to bacterial fermentation in the colon.",
+      "<b>Cow's Milk Protein Allergy (CMPA):</b> Distinct from lactose intolerance, this is an immune-mediated response to alpha-s1 casein or beta-lactoglobulin proteins. It can trigger systemic inflammatory markers, skin hives, or digestive complications.",
+      "<b>Saturated Fat Management Parameters:</b> Because whole milk contains bio-active saturated lipids, individuals tracking strict lipid profiles or managing severe cardiovascular parameters should balance their total daily consumption vectors.",
+      "<b>Industrial Antibiotic & Hormone Tracking:</b> Depending on commercial agricultural sourcing, conventionally processed milk may retain trace environmental residues. Opting for clean, organic, or high-grade local processing ensures maximum purity."
+    ]
+  },"almonds": {
+    "slug": "almonds",
+    "name": "Almonds",
+    "category": "Nuts & Seeds",
+    "image": "/productinfo/almonds.png",
+    "imageAlt": "almonds",
+    "description": "Almonds are a premier, nutrient-dense structural whole food. Renowned for their extraordinary concentration of fat-soluble Vitamin E, heart-healthy monounsaturated lipids, and essential macrominerals like magnesium, they function as an exceptional dietary asset for vascular elasticity and cellular defense.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "579 kcal",
+        "bg": "#15837c",
+        "description": "A dense biological energy source, heavily packed with highly stable structural lipids and premium plant proteins for long-lasting metabolic fuel."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "21.2 grams",
+        "bg": "#f5722c",
+        "description": "Rich in plant-based essential amino acids, offering the fundamental structural blocks required for tissue regeneration and muscular preservation."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "49.9 grams",
+        "bg": "#e4a910",
+        "description": "Dominated by heart-healthy monounsaturated oleic acid, which serves as a highly efficient transport vehicle for fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "21.6 grams",
+        "bg": "#15837c",
+        "description": "Consists largely of slow-burning complex starches tightly bundled with a massive structural fiber matrix, resulting in a minimal glycemic impact."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E (Alpha-Tocopherol)",
+        "amount": "25.6 mg / 171% DV",
+        "bg": "#1a96cd",
+        "description": "A massive mega-dose of the body's premier fat-soluble antioxidant, aggressively shielding low-density lipoproteins and cell walls from oxidative degradation."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "270 mg / 64% DV",
+        "bg": "#15837c",
+        "description": "A vital macrominerals that regulates over 300 enzymatic pathways, driving smooth muscle relaxation, vascular calm, and steady ATP production."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "12.5 grams",
+        "bg": "#f5722c",
+        "description": "An incredibly robust structural fiber content that significantly delays gastric emptying, optimizes intestinal motility, and feeds beneficial gut flora."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "2.3 mg / 100% DV",
+        "bg": "#e4a910",
+        "description": "An essential trace element functioning as a primary coenzyme for superoxide dismutase, a master internal antioxidant defense network."
+      },
+      {
+        "id": "vitB2",
+        "slug": "riboflavin",
+        "name": "Vitamin B2 (Riboflavin)",
+        "amount": "1.1 mg / 85% DV",
+        "bg": "#66ab63",
+        "description": "Crucial for mitochondrial respiration, serving as a foundational coenzyme in electron transport chain mechanics to unlock cellular energy."
+      },
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "269 mg / 21% DV",
+        "bg": "#1a96cd",
+        "description": "The highest calcium concentration among common tree nuts, providing valuable non-dairy support for skeletal framework maintenance."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Advanced Vascular Elasticity:</b> The massive concentration of natural Vitamin E works synergistically with monounsaturated fats to halt the oxidation of LDL cholesterol, preserving arterial flexibility and blood vessel lining integrity.",
+      "<b>Glycemic and Insulin Stabilization:</b> The profound structural matrix of dense fibers, plant proteins, and clean fats slows down carbohydrate absorption curves, keeping postprandial glucose and insulin shifts exceptionally flat.",
+      "<b>Mitochondrial Energy Drive:</b> High natural levels of Riboflavin (B2) and Manganese directly feed core cellular metabolic pathways, optimizing daily energy conversion and neutral antioxidant defenses.",
+      "<b>Neuromuscular Tone Optimization:</b> Abundant bioavailable magnesium acts as a natural physiological calcium-channel blocker, relieving systemic vascular tension and promoting smooth neuromuscular calm."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Energy Caloric Density:</b> Because of their heavy, rich lipid profile, almonds accumulate high calorie volumes quickly. Managing explicit serving boundaries (approx. 30g) is critical if your parameters include strict fat-loss goals.",
+      "<b>Phytic Acid Mineral Binding:</b> Almond skins contain measurable amounts of phytic acid, an anti-nutrient that can structurally chelate minerals like iron, zinc, and calcium. Soaking or blanching almonds significantly dismantles this barrier, optimizing bio-availability.",
+      "<b>Tree Nut Allergenic Profiles:</b> Almonds contain potent storage proteins that can trigger serious immune-mediated IgE allergic responses. Individuals with diagnosed tree nut sensitivities must strictly avoid exposure to prevent systemic distress.",
+      "<b>Fungal Aflatoxin Risks:</b> If tree nuts are subjected to suboptimal, humid industrial storage conditions, they can readily develop Aspergillus mold strains that produce dangerous aflatoxins. Always source highly verified, crisp retail options."
+    ]
+  },
+  "macadamia-nuts": {
+    "slug": "macadamia-nuts",
+    "name": "Macadamia Nuts",
+    "category": "Nuts & Seeds",
+    "image": "/productinfo/macadamia-nuts.png",
+    "imageAlt": "macadamia nuts",
+    "description": "Macadamia nuts are an ultra-premium, decadent structural whole food. Possessing the highest lipid concentration among common tree nuts, they are uniquely dominated by heart-healthy monounsaturated palmitoleic and oleic acids, making them an elite fuel source for cellular membrane integrity, cognitive performance, and deep metabolic satiety.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "The macronutrient configuration of macadamia nuts is characterized by a massive, clean lipid profile that serves as an incredibly efficient, slow-burning source of metabolic energy.",
+    "microIntro": "Beyond their healthy fats, macadamia nuts house a potent crystalline matrix of essential trace minerals, neuro-supportive B-vitamins, and dense antioxidant coenzymes.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "718 kcal",
+        "bg": "#15837c",
+        "description": "An exceptionally dense biological energy source, offering premium, highly concentrated clean lipid fuel for sustained cellular respiration."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "7.9 grams",
+        "bg": "#f5722c",
+        "description": "Provides essential amino acid fractions supporting basic cellular tissue repair, enzymatic structural stability, and structural signaling pathways."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "75.8 grams",
+        "bg": "#e4a910",
+        "description": "An unmatched, rich lipid matrix composed almost entirely of premium monounsaturated fatty acids that optimize vascular and neurological health."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "13.8 grams",
+        "bg": "#15837c",
+        "description": "Mainly consisting of complex starches tightly bundled with dietary fibers, yielding an absolute minimal impact on blood glucose fluctuations."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "4.1 mg / 178% DV",
+        "bg": "#e4a910",
+        "description": "A staggering mega-dose of this trace element, acting as a mandatory cofactor for superoxide dismutase to drive systemic antioxidant cellular protection."
+      },
+      {
+        "id": "vitB1",
+        "slug": "b1",
+        "name": "Vitamin B1 (Thiamin)",
+        "amount": "1.2 mg / 100% DV",
+        "bg": "#1a96cd",
+        "description": "An indispensable coenzyme tracking carbohydrate and fat metabolic cascades, fueling central nervous system signaling and cognitive performance."
+      },
+      {
+        "id": "copper",
+        "slug": "copper",
+        "name": "Copper",
+        "amount": "0.8 mg / 84% DV",
+        "bg": "#66ab63",
+        "description": "A major catalytic mineral necessary for structural collagen integration, non-heme iron absorption, and seamless neural communication channels."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "8.6 grams",
+        "bg": "#f5722c",
+        "description": "A robust structural fiber profile that slows digestive transit rates, stabilizing satiety markers and nourishing beneficial gut microorganisms."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "130 mg / 31% DV",
+        "bg": "#15837c",
+        "description": "Assists in stabilizing resting vascular architecture, regulating smooth muscle tone, and driving efficient ATP energy synthesis loops."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron (Non-Heme)",
+        "amount": "3.7 mg / 21% DV",
+        "bg": "#1a96cd",
+        "description": "An excellent botanical reservoir of iron, supporting hemoglobin manufacture and upgrading systemic oxygen distribution channels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Cardiovascular Optimization:</b> Packed with monounsaturated fats—specifically *palmitoleic acid*, a rare Omega-7—macadamias actively lower systemic LDL cholesterol markers while defending the flexible, smooth lining of vascular walls.",
+      "<b>Neuro-Protective Metabolic Fuel:</b> The exceptional pairing of Thiamin (B1) and high-quality monounsaturated lipids optimizes cognitive processing speed, preserves structural myelin sheath architectures, and mitigates brain cell fatigue.",
+      "<b>Profound Insulin Sensitivity:</b> Its unique ultra-low carbohydrate profile combined with structural fiber prevents insulin spikes entirely, promoting a highly stable state of metabolic energy and suppressing sugar cravings.",
+      "<b>Superoxide Dismutase Activation:</b> The massive concentration of Manganese empowers internal antioxidant enzymes to hunt down circulating free radicals, shielding cells from permanent oxidative stress."
+    ],
+    "precautionsIntro": "While macadamia nuts offer elite structural and metabolic benefits, their distinct lipid density and unique chemical profile require careful integration parameters.",
+    "precautions": [
+      "<b>Extreme Energy Caloric Density:</b> Holding the highest fat percentage of any common nut, macadamias pack a massive caloric load per serving. Strict portion monitoring is highly required if your current parameters target aggressive fat loss.",
+      "<b>Omega-6 to Monounsaturated Ratios:</b> While incredibly low in inflammatory polyunsaturated fats compared to walnuts, heavy consumption can still alter balanced dietary lipid ratios if clean Omega-3 sources are absent from your lifestyle.",
+      "<b>Industrial Processing and Excess Sodium:</b> Commercially distributed macadamias are frequently roasted in low-grade seed oils and heavily dusted with sodium, which can fully reverse their natural cardiovascular benefits. Dry-roasted or raw un-salted variants are highly preferred.",
+      "<b>Severe Canine Toxicity:</b> Macadamia nuts house an un-identified systemic toxin unique to canines. Even minimal accidental ingestion can cause acute neurological weakness, vomiting, tremors, and hind-limb paralysis in household dogs."
+    ]
+  },
+  "peanuts": {
+    "slug": "peanuts",
+    "name": "Peanuts",
+    "category": "Nuts & Seeds",
+    "image": "/productinfo/peanuts.png",
+    "imageAlt": "peanuts",
+    "description": "Peanuts are a potent, high-protein legume that functions nutritionally as an elite oilseed. Packing an exceptional abundance of structural plant proteins, heart-healthy monounsaturated lipids, and critical cellular cofactors like resveratrol and biotin, they serve as a top-tier functional whole food for metabolic stamina, tissue repair, and vascular health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "The macronutrient blueprint of peanuts provides a high-caliber distribution of amino acids and dense lipids, engineered for sustained energy delivery and lean muscular preservation.",
+    "microIntro": "Peanuts contain a dense crystalline network of B-complex vitamins, antioxidant polyphenols, and foundational trace minerals critical for enzyme activation and genetic repair.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "567 kcal",
+        "bg": "#15837c",
+        "description": "A robust, highly concentrated biological energy matrix driven by premium plant fats and structural proteins, sustaining prolonged metabolic workflows."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "25.8 grams",
+        "bg": "#f5722c",
+        "description": "An exceptionally high protein distribution for a botanical seed, offering rich pools of arginine and essential building blocks for deep cellular tissue repair."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "49.2 grams",
+        "bg": "#e4a910",
+        "description": "Dominated by oleic acid (monounsaturated) and linoleic acid, providing structural lipids that preserve cellular membrane flexibility and drive fat-soluble absorption."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "16.1 grams",
+        "bg": "#15837c",
+        "description": "Composed primarily of low-glycemic complex carbohydrates bundled within structural fibers, producing a remarkably flat postprandial glucose signature."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitB3",
+        "slug": "niacin",
+        "name": "Vitamin B3 (Niacin)",
+        "amount": "12.1 mg / 75% DV",
+        "bg": "#15837c",
+        "description": "A massive concentration crucial for cellular DNA repair, optimal mitochondrial respiration, and the modulation of systemic lipid transport pathways."
+      },
+      {
+        "id": "vitB7",
+        "slug": "biotin",
+        "name": "Vitamin B7 (Biotin)",
+        "amount": "17.5 mcg / 58% DV",
+        "bg": "#f5722c",
+        "description": "A primary metabolic coenzyme that aggressively coordinates fatty acid synthesis, gluconeogenesis, and cellular keratin structures."
+      },
+      {
+        "id": "copper",
+        "slug": "copper",
+        "name": "Copper",
+        "amount": "1.1 mg / 122% DV",
+        "bg": "#66ab63",
+        "description": "An essential trace catalyst necessary for optimal iron absorption, structural collagen cross-linking, and pristine neural signaling pathways."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "168 mg / 40% DV",
+        "bg": "#e4a910",
+        "description": "Acts as a key coordinator in over 300 biochemical reactions, regulating neuromuscular relaxation, electrical cardiac tone, and smooth ATP assembly."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E (Alpha-Tocopherol)",
+        "amount": "8.3 mg / 55% DV",
+        "bg": "#1a96cd",
+        "description": "A powerful fat-soluble shield that anchors into cellular lipid bilayers, halting the free-radical oxidation of circulating low-density lipoproteins."
+      },
+      {
+        "id": "resveratrol",
+        "slug": "antioxidants",
+        "name": "Resveratrol & Polyphenols",
+        "amount": "High Bioactivity",
+        "bg": "#1a96cd",
+        "description": "Potent non-flavonoid polyphenols identical to those found in red grapes, known to stimulate sirtuin pathways and defend vascular wall elasticity."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Endothelial & Vascular Protection:</b> High natural distributions of Niacin and the antioxidant *resveratrol* work in synergy to lower systemic inflammatory markers, enhancing localized nitric oxide synthesis for optimal blood vessel dilation.",
+      "<b>Robust Amino Acid Muscle Support:</b> Packing more protein than traditional tree nuts, its massive complete amino acid pool supports skeletal tissue regeneration, making it a premier resource for post-exertion muscular preservation.",
+      "<b>Mitochondrial Metabolic Synthesis:</b> The extensive concentration of Biotin and Niacin serves as the foundational catalytic spark for cellular fat and carbohydrate oxidation, optimizing daily energy conversion states.",
+      "<b>Glycemic and Satiety Regulation:</b> The rich interplay of rigid structural fibers, plant-bound proteins, and healthy monounsaturated fats delays gastric emptying, promoting long-term satiety and preventing sharp insulin responses."
+    ],
+    "precautionsIntro": "Despite their exceptional functional profile, peanuts possess high-reactivity allergen vectors and storage sensitivities that demand strict dietary management parameters.",
+    "precautions": [
+      "<b>Severe IgE-Mediated Allergenic Vectors:</b> Peanuts house highly stable storage proteins (like Ara h 1, 2, and 3) that can trigger immediate, life-threatening anaphylactic immune cascades in hypersensitive profiles. Cross-contamination parameters must be strictly managed.",
+      "<b>Fungal Aflatoxin Vulnerability:</b> Because peanuts mature underground, poor industrial harvesting or humid storage conditions can rapidly cultivate *Aspergillus flavus* molds. These produce dangerous aflatoxins, requiring careful sourcing of verified, crisp retail batches.",
+      "<b>Anti-Nutrient Phytic Acid Chelation:</b> Raw peanuts carry significant stores of phytic acid, which binds tightly to essential minerals like iron and zinc within the digestive tract. Opting for dry-roasted variants significantly reduces this binding load.",
+      "<b>Omega-6 to Omega-3 Structural Imbalances:</b> The lipid architecture of peanuts is heavily weighted toward Omega-6 polyunsaturated fatty acids. Excessive consumption without incorporating clean Omega-3 sources (like fish or flax) can skew systemic inflammatory balance metrics."
+    ]
+  },
+  "bananas": {
+    "slug": "bananas",
+    "name": "Bananas",
+    "category": "Fruits",
+    "image": "/productinfo/bananas.png",
+    "imageAlt": "bananas",
+    "description": "Bananas are a premier, highly bioavailable carbohydrate fruit matrix. Exceptionally rich in systemic electrolytes like potassium, neuromuscular cofactors like Vitamin B6, and functional prebiotic fibers, they serve as an elite quick-acting whole food for rapid glycogen replenishment, cardiovascular tone, and gastrointestinal protection.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "The macronutrient profile of bananas offers an optimized blend of easily digestible starches and complex structural sugars, acting as a clean, rapid-firing fuel source for metabolic demand.",
+    "microIntro": "Bananas contain a vital crystalline network of water-soluble coenzymes and essential intracellular minerals engineered to maintain fluid equilibrium and neural transmission speeds.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "89 kcal",
+        "bg": "#15837c",
+        "description": "Provides efficient, fast-assimilating biological energy, making it an exceptional choice for pre- and post-exertion metabolic refueling."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "1.1 grams",
+        "bg": "#f5722c",
+        "description": "Contains trace botanical amino acids that assist in maintaining basic structural enzymatic frameworks."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.3 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, keeping gastric clearance times exceptionally quick and enabling rapid carbohydrate absorption paths."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "22.8 grams",
+        "bg": "#15837c",
+        "description": "Composed of a dynamic mix of natural simple sugars (sucrose, fructose, glucose) and structured starches that efficiently restock cellular glycogen."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "358 mg / 8% DV",
+        "bg": "#15837c",
+        "description": "The quintessential intracellular electrolyte that actively drives the sodium-potassium pump, regulating resting arterial tension and cardiac electrical activity."
+      },
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6 (Pyridoxine)",
+        "amount": "0.37 mg / 22% DV",
+        "bg": "#f5722c",
+        "description": "An essential neuro-cofactor necessary for amino acid metabolism, red blood cell synthesis, and the biological manufacture of serotonin and dopamine."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.27 mg / 12% DV",
+        "bg": "#e4a910",
+        "description": "A critical trace mineral coenzyme required for optimal bone matrix formulation and activating structural antioxidant defenses."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "8.7 mg / 10% DV",
+        "bg": "#1a96cd",
+        "description": "Provides standard water-soluble free-radical scavenging capabilities, shielding vascular tissue and upgrading basic immune resilience."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.6 grams",
+        "bg": "#66ab63",
+        "description": "Includes high-quality soluble fibers like pectin, which ease gastrointestinal transit and help stabilize sugar absorption rates into the bloodstream."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "27 mg / 7% DV",
+        "bg": "#1a96cd",
+        "description": "Works synergistically alongside potassium to modulate neuromuscular relaxation, support sleep pathways, and assist in cellular ATP configuration."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Rapid Glycogen & ATP Resynthesis:</b> The dense, easily broken-down carbohydrate configuration absorbs rapidly across the intestinal lining, making it a premier biological tool for instantly reversing physical fatigue and restocking muscle glycogen stores.",
+      "<b>Cardiovascular & Blood Pressure Regulation:</b> Abundant potassium concentrations help actively excrete excess systemic sodium via the renal pathway, lowering peripheral vascular resistance and stabilizing healthy heart rhythms.",
+      "<b>Gastrointestinal Mucosal Protection:</b> Pectin and resistant starch act as gentle, protective thickening agents in the digestive tract, soothing irritated stomach linings while feeding short-chain fatty acid-producing gut microbes.",
+      "<b>Neurotransmitter & Neuro-Axonal Support:</b> Rich natural levels of Vitamin B6 facilitate efficient amino acid conversions, directly fueling the internal synthesis of critical mood-regulating and neurological signaling compounds."
+    ],
+    "precautionsIntro": "While bananas function as a superior natural fuel matrix, their unique glycemic structure and chemical compounds require specific tracking under certain metabolic parameters.",
+    "precautions": [
+      "<b>Glycemic Surge in Ripened Formats:</b> As bananas ripen, their complex structural starches rapidly convert into simple sugars (fructose and glucose). Individuals managing Type 2 diabetes or strict insulin curves should opt for greener, less-ripe profiles to secure resistant starch benefits.",
+      "<b>Renal Potassium Clearance Limits:</b> Because of the high intracellular potassium density, individuals with advanced chronic kidney disease (CKD) or those on potassium-sparing diuretics must carefully regulate portion sizes to avoid hyperkalemia complications.",
+      "<b>Vasoactive Amine & Migraine Triggers:</b> Bananas contain measurable levels of tyramine, a natural substance that can accumulate significantly in overripe fruit. If you have a confirmed sensitivity or take MAO-inhibitor medications, it can occasionally precipitate vascular headaches.",
+      "<b>Latex-Fruit Cross-Reactivity:</b> Bananas share highly specific structural protein sequences with natural rubber latex. Individuals with diagnosed latex allergies may experience oral allergy syndrome, resulting in localized itching or swelling in the mouth upon ingestion."
+    ]
+  },
+  "potatoes": {
+    "slug": "potatoes",
+    "name": "Potatoes (with Skin)",
+    "category": "Vegetables",
+    "image": "/productinfo/potatoes.png",
+    "imageAlt": "potatoes",
+    "description": "Potatoes are a premier, highly versatile complex carbohydrate whole food. Boasting a massive intracellular potassium profile, an abundant yield of tissue-building Vitamin B6, and high-quality resistant starch structures, they provide long-lasting metabolic satiety, advanced muscular fuel, and robust vascular support.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "The macronutrient framework of potatoes is dominated by clean, complex polysaccharides, serving as an exceptional energy vehicle for muscle refueling and daily cognitive workloads.",
+    "microIntro": "Potatoes deliver an extensive micronutrient array, packing vital water-soluble coenzymes and critical cardiovascular minerals that are highly concentrated within and directly beneath the skin.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "77 kcal",
+        "bg": "#15837c",
+        "description": "Provides clean, moderate metabolic energy, offering an exceptionally high satiety index compared to other staple starch sources."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "",
+        "amount": "2.0 grams",
+        "bg": "#f5722c",
+        "description": "Contains high-quality plant proteins, rich in lysine and essential amino acids that boast a surprisingly high biological value for a root vegetable."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "",
+        "amount": "0.1 grams",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free, making it an excellent base food for keeping total dietary lipid parameters low while maximizing carbohydrate refueling."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "",
+        "amount": "17.5 grams",
+        "bg": "#15837c",
+        "description": "Composed primarily of complex amylose and amylopectin starches alongside prebiotic fibers, engineered for sustainable glucose delivery."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "421 mg / 9% DV",
+        "bg": "#15837c",
+        "description": "A powerful intracellular electrolyte density that aggressively supports renal sodium clearance, vascular relaxation, and proper muscle contractions."
+      },
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6 (Pyridoxine)",
+        "amount": "0.30 mg / 18% DV",
+        "bg": "#f5722c",
+        "description": "An indispensable enzymatic cofactor that drives cellular glycogen breakdown, red blood cell synthesis, and nervous system signaling."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "19.7 mg / 22% DV",
+        "bg": "#1a96cd",
+        "description": "A surprising wealth of this water-soluble antioxidant that shields internal cellular structures from oxidative decay and supports collagen synthesis."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron (Non-Heme)",
+        "amount": "0.8 mg / 4% DV",
+        "bg": "#e4a910",
+        "description": "Provides non-heme iron stores, which work alongside the potato's native Vitamin C to achieve optimal absorption rates in the gut."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.2 grams",
+        "bg": "#66ab63",
+        "description": "Delivers a robust blend of insoluble cellulose and soluble pectin fibers that promote structural digestive transit and gut lining stability."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "23 mg / 6% DV",
+        "bg": "#1a96cd",
+        "description": "Coordinates with potassium to maintain healthy neuromuscular relaxation, vascular tone, and cellular ATP energy configurations."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Elite Athletic Refueling & Satiety:</b> The rich complex starch architecture efficiently restocks depleted skeletal muscle glycogen stores, while its physical mass expands within the gastric cavity to suppress appetite pathways.",
+      "<b>Advanced Arterial Elasticity Support:</b> Massive natural potassium concentrations help decrease peripheral vascular resistance, enabling smooth blood flow and mitigating high blood pressure markers.",
+      "<b>Prebiotic Short-Chain Fatty Acid Generation:</b> When potatoes are cooked and then allowed to cool, they undergo retrogradation, forming *resistant starch*. This passes undigested into the colon, heavily feeding beneficial gut bacteria and generating protective butyrate.",
+      "<b>Neurological Amino Acid Balancing:</b> High bio-availability of Vitamin B6 assists in running continuous transamination pathways, unlocking balanced serotonin and dopamine production for stable mood profiles."
+    ],
+    "precautionsIntro": "Even though potatoes serve as a premier structural carbohydrate, their glycemic properties and unique botanical defensive compounds require specific culinary management.",
+    "precautions": [
+      "<b>Glycemic Index & Culinary Preparation:</b> Boiled or baked potatoes possess a high glycemic index that can cause rapid insulin responses if consumed plain. Pairing potatoes with clean dietary fibers, proteins, or healthy fats drastically flattens the blood glucose curve.",
+      "<b>Toxic Solanine Alkaloid Development:</b> When potatoes are exposed to prolonged light, they develop chlorophyll (turning green) and accumulate dangerous glycoalkaloids like *solanine*. Green patches or bitter sprouts must be deeply excised to prevent acute gastrointestinal or neurological toxicity.",
+      "<b>Thermal Acrylamide Synthesis:</b> Subjecting potatoes to ultra-high dry heat configurations—such as deep frying or heavy roasting at temperatures greater than 120°C—causes native sugars and the amino acid asparagine to react, synthesizing acrylamide. Boiling or steaming completely avoids this risk.",
+      "<b>Renal Potassium Filtration Management:</b> Due to the exceptionally high intracellular potassium density, individuals navigating advanced chronic kidney disease (CKD) must monitor portions or implement leaching (soaking chopped potatoes in water) to avoid hyperkalemia."
+    ]
   }
 }

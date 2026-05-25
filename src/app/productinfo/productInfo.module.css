@@ -52,7 +52,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    aspect-ratio: 100/50;
+    aspect-ratio: 60/40;
     max-width: 600px;
     position: relative;
 }
