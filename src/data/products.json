@@ -223,5 +223,212 @@
     "image": "/products/potato.png",
     "favorite": false,
     "link": "/productinfo/potatoes"
+  },
+  {
+    "id": 26,
+    "name": "Sweet Potatoes",
+    "category": "food/vegetables",
+    "calories": 86,
+    "image": "/products/sweet-potato.png",
+    "favorite": false,
+    "link": "/productinfo/sweet-potatoes"
+  },
+  {
+    "id": 27,
+    "name": "Oranges",
+    "category": "food/fruits",
+    "calories": 47,
+    "image": "/products/orange.png",
+    "favorite": false,
+    "link": "/productinfo/oranges"
+  },
+  {
+    "id": 28,
+    "name": "Kidney Meat",
+    "category": "food/meat",
+    "calories": 99,
+    "image": "/products/kidney.png",
+    "favorite": false,
+    "link": "/productinfo/kidney-meat"
+  },
+  {
+    "id": 29,
+    "name": "Shellfish",
+    "category": "food/seafood",
+    "calories": 99,
+    "image": "/products/shellfish.png",
+    "favorite": false,
+    "link": "/productinfo/shellfish"
+  },
+  {
+    "id": 30,
+    "name": "Salmon",
+    "category": "food/seafood",
+    "calories": 208,
+    "image": "/products/salmon.png",
+    "favorite": false,
+    "link": "/productinfo/salmon"
+  },
+  {
+    "id": 31,
+    "name": "Chickpeas",
+    "category": "food/legumes",
+    "calories": 164,
+    "image": "/products/chickpeas.png",
+    "favorite": false,
+    "link": "/productinfo/chickpeas"
+  },
+  {
+    "id": 32,
+    "name": "Shiitake Mushrooms",
+    "category": "food/vegetables",
+    "calories": 34,
+    "image": "/products/mushroom.png",
+    "favorite": false,
+    "link": "/productinfo/shiitake"
+  },
+  {
+    "id": 33,
+    "name": "Brown Rice",
+    "category": "food/grains",
+    "calories": 111,
+    "image": "/products/brown-rice.png",
+    "favorite": false,
+    "link": "/productinfo/brown-rice"
+  },
+  {
+    "id": 34,
+    "name": "Lean Beef",
+    "category": "food/meat",
+    "calories": 217,
+    "image": "/products/beef.png",
+    "favorite": false,
+    "link": "/productinfo/lean-beef"
+  },
+  {
+    "id": 35,
+    "name": "Tuna",
+    "category": "food/seafood",
+    "calories": 132,
+    "image": "/products/tuna.png",
+    "favorite": false,
+    "link": "/productinfo/tuna"
+  },
+  {
+    "id": 36,
+    "name": "Flaxseeds",
+    "category": "food/seeds and nuts",
+    "calories": 534,
+    "image": "/products/flax-seed.png",
+    "favorite": false,
+    "link": "/productinfo/flaxseeds"
+  },
+  {
+    "id": 37,
+    "name": "Soybeans",
+    "category": "food/legumes",
+    "calories": 173,
+    "image": "/products/soybean.png",
+    "favorite": false,
+    "link": "/productinfo/soybeans"
+  },
+  {
+    "id": 38,
+    "name": "Lentils",
+    "category": "food/legumes",
+    "calories": 116,
+    "image": "/products/lentils.png",
+    "favorite": false,
+    "link": "/productinfo/lentils"
+  },
+  {
+    "id": 39,
+    "name": "Black Beans",
+    "category": "food/legumes",
+    "calories": 132,
+    "image": "/products/black-beans.png",
+    "favorite": false,
+    "link": "/productinfo/black-beans"
+  },
+  {
+    "id": 40,
+    "name": "Chicken",
+    "category": "food/meat",
+    "calories": 239,
+    "image": "/products/chicken.png",
+    "favorite": false,
+    "link": "/productinfo/chicken"
+  },
+  {
+    "id": 41,
+    "name": "Yogurt",
+    "category": "food/eggs and dairy",
+    "calories": 59,
+    "image": "/products/yogurt.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt"
+  },
+  {
+    "id": 42,
+    "name": "Cabbage",
+    "category": "food/vegetables",
+    "calories": 25,
+    "image": "/products/cabbage.png",
+    "favorite": false,
+    "link": "/productinfo/cabbage"
+  },
+  {
+    "id": 43,
+    "name": "Brussels Sprouts",
+    "category": "food/vegetables",
+    "calories": 43,
+    "image": "/products/brussels-sprouts.png",
+    "favorite": false,
+    "link": "/productinfo/brussels-sprouts"
+  },
+  {
+    "id": 45,
+    "name": "Kale",
+    "category": "food/vegetables",
+    "calories": 35,
+    "image": "/products/kale.png",
+    "favorite": false,
+    "link": "/productinfo/kale"
+  },
+  {
+    "id": 46,
+    "name": "Wheat Germ Oil",
+    "category": "food/oils and fats",
+    "calories": 884,
+    "image": "/products/wheat-germ-oil.png",
+    "favorite": false,
+    "link": "/productinfo/wheat-germ-oil"
+  },
+  {
+    "id": 47,
+    "name": "Cod Liver Oil",
+    "category": "food/oils and fats",
+    "calories": 902,
+    "image": "/products/cod-liver-oil.png",
+    "favorite": false,
+    "link": "/productinfo/cod-liver-oil"
+  },
+  {
+    "id": 48,
+    "name": "Kakadu Plums",
+    "category": "food/fruits",
+    "calories": 59,
+    "image": "/products/kakadu-plums.svg",
+    "favorite": false,
+    "link": "/productinfo/kakadu-plums"
+  },
+  {
+    "id": 49,
+    "name": "Acerola Cherries",
+    "category": "food/fruits",
+    "calories": 50,
+    "image": "/products/arecola-cherries.svg",
+    "favorite": false,
+    "link": "/productinfo/acerola-cherries"
   }
 ]
