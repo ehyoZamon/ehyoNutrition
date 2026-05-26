@@ -1360,5 +1360,865 @@
     "rdiHtml": "While no universal Dietary Reference Intake (DRI) or strict Recommended Dietary Allowance (RDA) is set for EPA and DHA specifically, major global health organizations establish clear target guidelines for combined intake.<ul><b>Standard Adults (Combined EPA + DHA Guidelines)</b>\r\n<li>General Well-being Target: 250 to 500 mg / day (Equating to roughly two servings of fatty fish per week)</li>\r\n<li>Cardiovascular Therapeutic Target: 1,000 mg / day (Often recommended for individuals with pre-existing heart conditions under medical guidance)</li>\r\n<li>Hypertriglyceridemia Target: 2,000 to 4,000 mg / day (Strictly under clinical supervision)</li>\r\n<li>Pregnant & Lactating Women: Minimum of 300 mg / day, of which at least 200 mg should be pure DHA to ensure optimal fetal neurodevelopment.</li></ul>\r\n<b>Children & Adolescents</b>\r\n<ul><li>Infants (0–12 months): 100 to 120 mg of DHA / day (Sourced via breast milk or enriched formula)</li>\r\n<li>Children (2–4 years): 100 to 150 mg of combined EPA+DHA / day</li>\r\n<li>Children (6–10 years): 200 to 250 mg of combined EPA+DHA / day</li></ul>",
     "deficiencyHtml": "A chronic insufficiency of EPA and DHA is common in populations that follow a standard Western diet low in seafood and high in processed omega-6 industrial seed oils. It can cause subtle, long-term functional changes across multiple organ systems. <br></br><b>Major Symptoms of Sub-optimal Intake</b><ul><li><b>Cognitive Fatigue & Altered Mood:</b> Insufficient brain DHA levels can affect cellular signaling, manifesting as brain fog, attention challenges, low mental stamina, and an increased vulnerability to mood imbalances and depressive symptoms.</li><li><b>Dermatological Dryness:</b> A lack of essential marine fats disrupts the skin's lipid barrier, leading to dry, flaky skin, brittle nails, dull hair, and increased susceptibility to inflammatory skin conditions like eczema.</li><li><b>Ocular Discomfort & Dry Eyes:</b> Since DHA is a structural component of the eyes, inadequate levels can impair tear film quality, leading to chronic dry eye symptoms and visual fatigue.</li><li><b>Joint Stiffness and Discomfort:</b> A lack of EPA-derived anti-inflammatory compounds can allow unchecked low-grade inflammation, resulting in minor joint stiffness, soreness, and reduced flexibility.</li><li><b>Elevated Cardiovascular Risk Markers:</b> Long-term sub-optimal intake is associated with higher circulating blood triglycerides, lower HDL cholesterol, and reduced heart rate variability.</li></ul>",
     "overdoseHtml": "Consuming EPA and DHA through whole foods like fish carries an excellent safety record. However, when taking very high doses of isolated omega-3 supplements, specific medical precautions and biological boundaries must be respected.<ul><li><b>Tolerable Upper Intake Level (UL):</b> Regulatory bodies like the US FDA and the EFSA state that supplemental intakes of up to 3,000 to 5,000 mg of combined EPA and DHA per day are completely safe for long-term consumption by healthy individuals. Exceeding these amounts unnecessarily provides no added benefit.</li></ul><b>Critical Health & Medication Considerations</b><br>High-dose supplemental EPA and DHA intake requires careful management under specific medical conditions:<ul><li><b>Anticoagulant & Antiplatelet Dynamics:</b> Omega-3 fatty acids possess natural, mild blood-thinning properties by reducing platelet aggregation. Individuals taking prescription blood thinners (such as Warfarin, Coumadin, Eliquis, or aspirin), or those scheduled for major surgical procedures, must coordinate their supplement doses with their physician to avoid excessive bleeding risks.</li><li><b>Oxidative Stability & Supplement Quality:</b> Because polyunsaturated fats contain many delicate double bonds, isolated fish oils are highly vulnerable to heat, light, and oxygen exposure, which can cause them to go rancid. Consuming rancid, oxidized supplements can promote inflammation instead of reducing it. Always choose high-quality oils that are third-party tested for purity and low oxidation markers.</li><li><b>Gastrointestinal Comfort:</b> Taking large amounts of concentrated marine oils on an empty stomach can cause mild, temporary digestive side effects, including a fishy aftertaste, acid reflux, burping, mild nausea, or loose stools.</li></ul>"
+  },
+  "calcium": {
+    "slug": "calcium",
+    "title": "Calcium",
+    "category": "Nutrients/minerals",
+    "description": "Calcium is the most abundant essential macromineral in the human body, making up roughly 1.5% to 2% of total body weight. While approximately 99% of this mineral is structurally locked within the bones and teeth to provide a rigid framework, the remaining 1% circulates continuously in the blood, extracellular fluid, and soft tissues. This microscopic 1% is so biochemically critical to life that the body maintains it at a strictly constant concentration, utilizing a complex hormonal network to pull calcium out of bone storage if dietary intake falls short.",
+    "keyFunctionsHtml": "Calcium is a fundamental physiological signaling molecule and structural element required for skeletal strength, cellular communication, and muscular activity:<ul><li><b>Skeletal Mineralization & Density:</b> Calcium combines with phosphorus to form hydroxycrystals, which weave into a collagen matrix to construct the rigid architecture of bones and teeth. This matrix undergoes non-stop remodeling, acting as a structural reservoir that supports posture and movement.</li><li><b>Muscle Contraction Mechanics:</b> When a nerve signals a muscle to move, calcium ions are instantly released into the muscle cells, binding to regulatory proteins (troponin) that allow muscle fibers to slide together and contract. Pumping the calcium back out allows the muscle to relax, a mechanism crucial for voluntary movement and continuous cardiac pumping.</li><li><b>Nerve Impulse Transmission:</b> Calcium acts as a vital gatekeeper in the nervous system. When an electrical nerve impulse reaches the end of an axon, calcium enters the cell to trigger the release of neurotransmitters across synaptic gaps, enabling rapid communication between the brain and the rest of the body.</li><li><b>Coagulation Cascade (Blood Clotting):</b> Calcium (known as Factor IV in the coagulation cascade) is required at multiple enzymatic steps to activate clotting factors. This process converts fibrinogen into solid fibrin strands, allowing the body to seal blood vessels and heal wounds after an injury.</li><li><b>Cellular Signaling & Enzyme Activation:</b> Functioning as a universal intracellular second messenger, calcium influxes regulate a massive array of cellular operations, including the secretion of hormones like insulin, thyroid-stimulating hormone, and various digestive enzymes.</li></ul>",
+    "foodSourcesIntro": "While dairy products are classically recognized as the most highly bioavailable sources of calcium, a diverse array of green vegetables, seeds, seafood, and fortified foods offer excellent alternative options.",
+    "foodSources": [
+      {
+        "image": "/products/parmesan.png",
+        "name": "Parmesan Cheese"
+      },
+      {
+        "image": "/products/milk.png",
+        "name": "Whole Milk"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Greek Yogurt"
+      },
+      {
+        "image": "/products/sardines.png",
+        "name": "Sardines (with bones)"
+      },
+      {
+        "image": "/products/tofu.png",
+        "name": "Tofu (Calcium-Set)"
+      },
+      {
+        "image": "/products/chia-seeds.png",
+        "name": "Chia Seeds"
+      },
+      {
+        "image": "/products/sesame-seeds.png",
+        "name": "Sesame Seeds/Tahini"
+      },
+      {
+        "image": "/products/almonds.png",
+        "name": "Almonds"
+      },
+      {
+        "image": "/products/collard-greens.png",
+        "name": "Collard Greens"
+      },
+      {
+        "image": "/products/figs.png",
+        "name": "Dried Figs"
+      }
+    ],
+    "foodSourcesNotesHtml": "Maximizing calcium status requires choosing foods with high total content while being mindful of absorption factors like oxalates:<ul><li><b>Dairy Ecosystems (Highly Bioavailable):</b> Hard cheeses (such as Parmesan and Swiss), whole milk, kefir, and plain yogurt provide dense quantities of calcium. The lactose and vitamin D naturally present in dairy enhance its intestinal absorption rate.</li><li><b>Small Bone-In Fish:</b> Canned sardines and canned salmon with their soft, edible bones intact are exceptional, highly bioavailable sources of both calcium and vitamin D.</li><li><b>Plant Seeds & Nuts:</b> Chia seeds, sesame seeds (and tahini paste), hemp hearts, and almonds offer rich, plant-based mineral reserves alongside healthy fats and fiber.</li><li><b>Low-Oxalate Green Vegetables:</b> Leafy greens like collard greens, turnip greens, bok choy, and broccoli provide highly absorbable calcium. Note that while spinach and rhubarb are high in calcium, they also contain high amounts of oxalic acid, which binds to the mineral and prevents its absorption in the gut.</li><li><b>Calcium-Set Tofu & Fortified Products:</b> Tofu prepared using calcium sulfate provides a massive plant-based alternative that rivals dairy. Fortified plant milks (almond, oat, soy) and fortified orange juices also offer accessible options.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for calcium varies across a lifespan, peaking during adolescence and older adulthood to support rapid bone growth and mitigate structural bone mineral loss.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men (19–70 years): 1,000 mg / day</li>\r\n<li>Adult Women (19–50 years): 1,000 mg / day</li>\r\n<li>Older Adults (Women 51+ years and Men 71+ years): 1,200 mg / day to protect against age-related bone thinning.</li>\r\n<li>Pregnant & Lactating Women: 1,000 mg / day (the body naturally increases intestinal absorption efficiency during pregnancy to safeguard fetal skeletal development).</li></ul>\r\n<b>Children & Adolescents (Elevated to build peak bone mass)</b>\r\n<ul><li>Infants (7–12 months): 260 mg / day (Adequate Intake)</li>\r\n<li>Children (1–3 years): 700 mg / day</li>\r\n<li>Children (4–8 years): 1,000 mg / day</li>\r\n<li>Adolescents (9–18 years): 1,300 mg / day (Crucial window for structural skeletal optimization)</li></ul>",
+    "deficiencyHtml": "Because the body continuously pulls calcium from bones to maintain precise blood levels, a short-term dietary deficit will not alter blood calcium levels. However, chronic long-term insufficiency steadily depletes bone reserves, culminating in structural skeletal disorders. <br></br><b>Major Symptoms & Progression</b><ul><li><b>Osteopenia & Osteoporosis:</b> Prolonged inadequate intake causes bones to lose mineral density, becoming porous, brittle, and highly fragile. This significantly increases the risk of low-impact bone fractures, particularly in the spine, hips, and wrists.</li><li><b>Rickets (in Children):</b> A severe lack of calcium or vitamin D in developing children prevents proper bone mineralization, leading to soft, weak bones, delayed growth, skeletal deformities, and classic bowed legs.</li><li><b>Hypocalcemia (Acute Low Blood Levels):</b> While rare and typically caused by parathyroid hormone disorders or profound Vitamin D deficiency rather than diet alone, acute hypocalcemia causes nerve hyper-excitability. This manifests as tingling in the fingers and toes, muscle cramps, spasms (tetany), and in severe cases, dangerous cardiac arrhythmias.</li><li><b>Brittle Nails & Dental Weakness:</b> Chronic deficiency can lead to brittle, easily broken fingernails, weak tooth enamel, delayed tooth eruption in children, and an increased risk of tooth decay.</li></ul>",
+    "overdoseHtml": "Consuming calcium naturally through whole foods is highly unlikely to cause toxicity. However, excessive consumption via high-dose dietary supplements can overload metabolic clearing pathways and lead to undesirable tissue calcification.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For standard adults aged 19 to 50, the UL is set at 2,500 mg per day. For adults over 50, the limit drops to 2,000 mg per day to protect declining kidney function and minimize vascular calcification risks.</li></ul><b>Critical Health Considerations</b><br>Excessive supplemental calcium demands careful coordination due to potential physiological side effects:<ul><li><b>Hypercalcemia & Tissue Calcification:</b> Consuming large doses of isolated calcium supplements can lead to hypercalcemia (excessively high blood calcium). This can cause kidney stones, impair renal function, and contribute to the calcification of soft tissues, including arterial walls and heart valves.</li><li><b>Cardiovascular Health Nuances:</b> Clinical data suggests that high-dose calcium supplements taken without adequate companion nutrients (like Vitamin D3 and Vitamin K2) can cause a rapid spike in blood calcium. This can deposit in arterial plaque, increasing cardiovascular risk. Vitamin K2 is vital because it activates proteins that steer calcium into bones and away from blood vessels.</li><li><b>Gastrointestinal Discomfort:</b> The most common side effect of calcium supplements (particularly calcium carbonate) is digestive disruption, manifesting as gas, bloating, and acute constipation. Switch to calcium citrate or divide doses to help alleviate these symptoms.</li><li><b>Mineral Absorption Interference:</b> Flooding the gut with high concentrations of supplemental calcium can inhibit the competitive absorption of other vital minerals consumed in the same meal, particularly non-heme iron, zinc, and magnesium.</li></ul>"
+  },
+  "phosphorus": {
+    "slug": "phosphorus",
+    "title": "Phosphorus",
+    "category": "Nutrients/minerals",
+    "description": "Phosphorus is the second most abundant essential macromineral in the human body, accounting for roughly 1% of total body weight. Working in close metabolic synergy with calcium, approximately 85% of the body's phosphorus is structurally housed within bones and teeth. The remaining 15% is distributed throughout every living cell, where it acts as a fundamental component of structural tissues, genetic material, and cellular energy production. It is highly abundant across protein-rich food chains, meaning dietary shortfalls are rare in individuals with sufficient caloric intake.",
+    "keyFunctionsHtml": "Phosphorus serves as an essential energetic engine, structural blueprint, and biochemical buffer throughout the body:<ul><li><b>Skeletal Integrity and Mineralization:</b> Phosphorus binds tightly with calcium to create hydroxyapatite, the primary mineral crystal compound that gives rigid, load-bearing strength and density to bones and teeth.</li><li><b>Cellular Energy Production (ATP Core):</b> Phosphorus is the foundational element of Adenosine Triphosphate (ATP), the universal energy currency of life. ATP stores and releases biological energy through high-energy phosphate bonds, powering every muscular contraction, nerve impulse, and cellular synthesis process.</li><li><b>Genetic Code Blueprint (DNA & RNA):</b> It forms the continuous sugar-phosphate backbone of DNA and RNA molecules. Without phosphorus, the body cannot replicate cells, repair tissues, or translate genetic code into functional proteins.</li><li><b>Cell Membrane Architecture:</b> As a core component of phospholipids, phosphorus forms the structural bilayer of every cell membrane in the body. This structure maintains optimal cell permeability, controls what enters and exits the cell, and facilitates intracellular communication.</li><li><b>Acid-Base pH Buffering:</b> Phosphate buffer systems operate as primary chemical buffers in intracellular fluids and kidney tubules. They actively neutralize excess acids or bases to maintain the narrow, life-sustaining pH balance required for blood and tissues.</li><li><b>Enzyme Activation via Phosphorylation:</b> Many metabolic enzymes, proteins, and cell-signaling pathways are turned on or off by adding or removing a phosphate group (a process known as phosphorylation and dephosphorylation), which acts as a master switch for metabolism.</li></ul>",
+    "foodSourcesIntro": "Phosphorus is naturally ubiquitous across the food supply, with the highest concentrations found in protein-dense animal foods, dairy, whole grains, nuts, and seeds.",
+    "foodSources": [
+      {
+        "image": "/products/parmesan.png",
+        "name": "Parmesan Cheese"
+      },
+      {
+        "image": "/products/pumpkin-seeds.png",
+        "name": "Pumpkin Seeds"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef"
+      },
+      {
+        "image": "/products/salmon.png",
+        "name": "Salmon"
+      },
+      {
+        "image": "/products/chicken.png",
+        "name": "Chicken Breast"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Greek Yogurt"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/milk.png",
+        "name": "Whole Milk"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/oats.png",
+        "name": "Oats"
+      }
+    ],
+    "foodSourcesNotesHtml": "Evaluating phosphorus sources requires distinguishing between naturally occurring organic forms and industrially added inorganic forms:<ul><li><b>Animal & Dairy Proteins (Highly Absorbable):</b> Poultry, lean meats, wild fish, eggs, and dairy products like milk and yogurt provide rich organic phosphorus. The body absorbs roughly 50% to 70% of the organic phosphorus present in animal matrices.</li><li><b>Plant Seeds, Nuts, & Grains:</b> Pumpkin seeds, sunflower seeds, almonds, lentils, and whole oats contain significant plant-based phosphorus. However, much of it is bound up as phytic acid (phytate). Because humans lack significant amounts of the phytase enzyme, our absorption rate for plant-derived phosphorus is lower, averaging 40% to 50%, though sprouting, soaking, and leavening grains can increase bioavailability.</li><li><b>Inorganic Food Additives (Near-Total Absorption):</b> Highly processed foods, fast foods, dark colas, and processed meats often contain inorganic phosphorus additives (such as phosphoric acid, sodium phosphate, and polyphosphates) used as preservatives, texturizers, or emulsifiers. The gut absorbs nearly 100% of these inorganic forms, which can quickly lead to an undesirable surplus in the body.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for phosphorus is designed to support optimal bone health and cellular energy requirements. It peaks during adolescence to match the rapid pace of skeletal tissue assembly.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men and Women (19+ years): 700 mg / day</li>\r\n<li>Pregnant & Lactating Women: 700 mg / day (The standard baseline is sufficient due to natural metabolic adjustments that optimize nutrient handling).</li></ul>\r\n<b>Children & Adolescents (Elevated to fuel peak bone development)</b>\r\n<ul><li>Infants (7–12 months): 275 mg / day (Adequate Intake)</li>\r\n<li>Children (1–3 years): 460 mg / day</li>\r\n<li>Children (4–8 years): 500 mg / day</li>\r\n<li>Adolescents (9–18 years): 1,250 mg / day (Critical phase for structural mineralization and maximizing bone mass)</li></ul>",
+    "deficiencyHtml": "A dietary phosphorus deficiency (hypophosphatemia) is extremely rare in healthy populations due to the mineral's abundance in food. It typically surfaces only during severe starvation, chronic alcoholism, severe eating disorders, or specific medical conditions that alter renal or intestinal function. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Proximal Muscle Weakness & Lethargy:</b> Because phosphorus is essential for ATP production, a severe deficiency starves muscle cells of energy, resulting in deep physical fatigue, profound muscle weakness, and, in extreme cases, rhabdomyolysis (muscle tissue breakdown).</li><li><b>Bone Demineralization (Osteomalacia & Rickets):</b> Inadequate phosphorus levels prevent the proper formation of hydroxyapatite crystals. This causes the body to pull minerals from the skeleton, leading to soft, painful bones in adults and rickets (skeletal deformities and stunted growth) in children.</li><li><b>Neurological Disruption & Brain Fog:</b> Insufficient cellular energy can manifest as mental confusion, extreme irritability, numbness or tingling sensations in the extremities, and uncoordinated muscle control.</li><li><b>Respiratory and Cardiac Insufficiency:</b> Severe hypophosphatemia can weaken the diaphragm and cardiac muscles, potentially leading to respiratory difficulty or impaired heart pumping capacity.</li><li><b>Hemolytic Anemia:</b> Red blood cells require ATP to maintain their structural integrity. When phosphorus drops to critically low levels, red blood cells can rupture easily, causing low oxygen delivery to tissues.</li></ul>",
+    "overdoseHtml": "Consuming excess phosphorus through natural whole foods is rarely a problem for healthy individuals because the kidneys efficiently filter out surplus amounts. However, excessive intake driven by highly processed foods containing inorganic phosphorus additives can overwhelm regulatory systems, posing serious risks to bone and cardiovascular health.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults aged 19 to 70, the UL is established at 4,000 mg per day. For adults over 70, the limit drops to 3,000 mg per day to account for the natural decline in kidney filtering capacity.</li></ul><b>Critical Health Considerations</b><br>Excessive phosphorus requires careful management due to its profound impact on mineral balance and cardiovascular tissues:<ul><li><b>The Calcium-Phosphorus Ratio Balance:</b> The body requires a balanced dietary ratio of calcium to phosphorus. When phosphorus intake is excessively high (often due to diets heavy in fast food and dark colas) and calcium intake is low, it triggers a rise in Parathyroid Hormone (PTH). PTH forces the body to pull calcium out of bones to normalize blood ratios, steadily eroding bone mineral density over time.</li><li><b>Vascular Calcification and Heart Risks:</b> Consuming excessive amounts of highly absorbable inorganic phosphorus additives can lead to hyperphosphatemia (high blood phosphorus levels). Excess phosphorus can bind with circulating calcium to form hard mineral crystals that deposit directly into arterial walls and heart valves, accelerating cardiovascular stiffening.</li><li><b>Chronic Kidney Disease (CKD) Hazard:</b> For individuals suffering from impaired kidney function or CKD, managing phosphorus intake is a critical medical priority. Damaged kidneys lose the ability to clear excess phosphorus, causing it to accumulate rapidly in the blood. This leads to mineral and bone disorders, secondary hyperparathyroidism, and heavily increased cardiovascular risks. These individuals must follow a strict low-phosphorus diet and often require prescription phosphate binders taken with meals.</li></ul>"
+  },
+  "magnesium": {
+    "slug": "magnesium",
+    "title": "Magnesium",
+    "category": "Nutrients/minerals",
+    "description": "Magnesium is an essential macromineral and the fourth most abundant mineral in the human body. Roughly 50% to 60% of the body's magnesium is structurally embedded within the skeletal system, while the remainder resides within soft tissues, muscles, and extracellular fluid. Serving as a critical enzymatic cofactor, magnesium is required for more than 300 biochemical reactions that govern fundamental human physiology, ranging from cellular energy production and DNA synthesis to neuromuscular coordination and blood pressure regulation.",
+    "keyFunctionsHtml": "Magnesium acts as a master biochemical spark plug, structural stabilizer, and physiological relaxant throughout the body:<ul><li><b>Cellular Energy Production (ATP Stabilization):</b> Magnesium is the indispensable partner to Adenosine Triphosphate (ATP), the body's primary energy currency. ATP must bind to a magnesium ion to form a biologically active complex (Mg-ATP). Without magnesium, the body cannot utilize or transfer energy to power muscular, neurological, or metabolic processes.</li><li><b>Muscle Relaxation & Contraction Balance:</b> While calcium acts as a muscle contractor, magnesium acts as a natural calcium blocker and muscle relaxant. By competing with calcium for binding sites on regulatory proteins, magnesium prevents continuous muscle tension, helping to regulate healthy muscular relaxation, ease cramping, and maintain a steady cardiac rhythm.</li><li><b>Nerve Conduction & Sleep Architecture:</b> Magnesium helps regulate the nervous system by acting as a natural antagonist to NMDA receptors (which transmit excitatory brain signals) and supporting GABA pathways (the brain's primary calming neurotransmitter). This dual action dampens over-excitation, decreases mental chatter, and promotes a relaxed state conducive to restful sleep.</li><li><b>DNA, RNA, and Protein Synthesis:</b> It serves as a necessary structural cofactor for the polymerase enzymes responsible for replicating DNA, translating RNA, and manufacturing new cellular proteins required for tissue repair and growth.</li><li><b>Blood Pressure & Vascular Tone:</b> Magnesium stimulates the production of nitric oxide (a potent vasodilator) and regulates cellular ion transport. This mechanism relaxes the smooth muscle cells lining blood vessels, assisting in the maintenance of healthy blood pressure and optimal circulatory function.</li><li><b>Blood Sugar Management:</b> It plays a central role in carbohydrate metabolism by facilitating the secretion and cellular sensitivity of insulin. Proper magnesium levels help muscle and fat cells respond efficiently to insulin, promoting stable glucose uptake.</li></ul>",
+    "foodSourcesIntro": "Because magnesium is the core atom at the center of the chlorophyll molecule, it is highly abundant in green, leafy vegetables, alongside unrefined grains, legumes, nuts, and seeds.",
+    "foodSources": [
+      {
+        "image": "/products/pumpkin-seeds.png",
+        "name": "Pumpkin Seeds"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/chia-seeds.png",
+        "name": "Chia Seeds"
+      },
+      {
+        "image": "/products/dark-chocolate.png",
+        "name": "Dark Chocolate"
+      },
+      {
+        "image": "/products/almonds.png",
+        "name": "Almonds"
+      },
+      {
+        "image": "/products/black-beans.png",
+        "name": "Black Beans"
+      },
+      {
+        "image": "/products/avocado.png",
+        "name": "Avocado"
+      },
+      {
+        "image": "/products/quinoa.png",
+        "name": "Quinoa"
+      },
+      {
+        "image": "/products/brown-rice.png",
+        "name": "Brown Rice"
+      },
+      {
+        "image": "/products/mackerel.png",
+        "name": "Mackerel"
+      }
+    ],
+    "foodSourcesNotesHtml": "Maximizing dietary magnesium absorption involves prioritizing unrefined whole foods, as industrial processing strip this mineral away:<ul><li><b>Seeds & Nuts (The Ultimate Powerhouses):</b> Pumpkin seeds (pepitas), chia seeds, hemp hearts, almonds, and cashews offer exceptionally high amounts of magnesium. A small handful of pumpkin seeds can deliver nearly half of your daily requirement.</li><li><b>Chlorophyll-Rich Greens:</b> Leafy vegetables like boiled spinach, Swiss chard, and beet greens are elite sources. Cooking or steaming these greens reduces volume, making it easier to consume dense amounts of bioavailable magnesium.</li><li><b>Legumes & Ancient Grains:</b> Black beans, edamame, lentils, chickpeas, quinoa, and whole oats contain significant organic magnesium. While plant phytates can modestly hinder absorption, cooking and soaking these plant staples maximizes bioavailability.</li><li><b>Dark Chocolate:</b> High-quality dark chocolate (70-85% cacao or higher) is a surprisingly rich source of magnesium, packaged alongside beneficial polyphenols and antioxidants.</li><li><b>Mineral & Hard Tap Water:</b> Depending on your local geography, tap water and natural bottled mineral waters can be meaningful sources of highly absorbable magnesium and calcium ions.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for magnesium varies by age, biological sex, and specific life stages, increasing during periods of physical development or physiological demand.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men (19–30 years): 400 mg / day | (31+ years): 420 mg / day</li>\r\n<li>Adult Women (19–30 years): 310 mg / day | (31+ years): 320 mg / day</li>\r\n<li>Pregnant Women: 350 to 360 mg / day (Elevated to support fetal tissue growth and maternal blood volume expansion).</li>\r\n<li>Lactating Women: 310 to 320 mg / day</li></ul>\r\n<b>Children & Adolescents (Scaled to support bone mineralization and neuromuscular development)</b>\r\n<ul><li>Infants (7–12 months): 75 mg / day (Adequate Intake)</li>\r\n<li>Children (1–3 years): 80 mg / day</li>\r\n<li>Children (4–8 years): 130 mg / day</li>\r\n<li>Adolescents (9–13 years): 240 mg / day</li>\r\n<li>Adolescents (14–18 years): Boys: 410 mg / day | Girls: 360 mg / day</li></ul>",
+    "deficiencyHtml": "While clinical hypomagnesemia (critically low blood levels) is typically managed in hospital settings, sub-optimal chronic tissue insufficiency is widespread in Western societies due to a high intake of processed foods and mineral depletion in soils. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Muscle Twitches, Spasms, and Cramps:</b> Because magnesium regulates calcium entry into muscle cells, a deficiency allows calcium to flood nerve endings unchecked. This causes nerves to over-stimulate muscles, leading to involuntary eye twitches, painful calf cramps, and general muscle stiffness.</li><li><b>Physical Fatigue & Exercise Intolerance:</b> Lacking sufficient magnesium directly restricts optimal ATP activation, starving cells of energy and resulting in persistent physical weakness, low stamina, and poor recovery.</li><li><b>Mental Agitation, Anxiety, and Insomnia:</b> Insufficient magnesium leaves brain NMDA receptors over-stimulated and compromises calming GABA pathways. This manifests as heightened stress reactivity, brain fog, irritability, and sleep disturbances characterized by difficulty staying asleep.</li><li><b>Blood Pressure Shifts & Cardiac Palpitations:</b> Chronic low magnesium can cause blood vessels to constrict and drop potassium reserves, leading to elevated blood pressure and irregular heartbeats (arrhythmias or heart palpitations).</li><li><b>Migraines and Tension Headaches:</b> Deficiency promotes cortical spreading depression, alters neurotransmitter release, and increases blood vessel constriction in the brain, making individuals more prone to frequent headaches.</li><li><b>Secondary Mineral Depletion:</b> Prolonged magnesium deficiency impairs parathyroid hormone secretion, which can subsequently cause secondary hypocalcemia (low calcium) and hypokalemia (low potassium), even if those minerals are consumed adequately.</li></ul>",
+    "overdoseHtml": "Consuming magnesium naturally through food carries zero risk of toxicity for individuals with healthy kidneys, as the renal system efficiently filters any dietary surplus into urine. However, excessive consumption via concentrated laxatives, antacids, or high-dose isolated dietary supplements can trigger gastrointestinal upset or metabolic toxicity.<ul><li><b>Tolerable Upper Intake Level (UL):</b> The UL for magnesium is unique because it applies strictly to supplemental or medicinal sources (not food). For adults and adolescents, the supplemental UL is set at 350 mg per day to prevent digestive side effects.</li></ul><b>Critical Health Considerations</b><br>Supplemental magnesium should be managed thoughtfully regarding forms, medications, and organ function:<ul><li><b>The Laxative Effect & Form Variations:</b> The most common acute side effect of exceeding the supplemental limit is diarrhea, abdominal cramping, and nausea. Inorganic forms like magnesium oxide have a low intestinal absorption rate (~4%), drawing water into the colon via osmosis, which makes them effective laxatives but poor options for cellular repletion. Highly bioavailable organic chelated forms (such as magnesium glycinate, citrate, or malate) are much better absorbed and significantly gentler on the digestive tract.</li><li><b>Hypermagnesemia Risk (Severe Overdose):</b> If massive medicinal doses (typically exceeding 2,000–5,000 mg daily from laxatives) are consumed, or if kidney function is compromised, magnesium can build up in the blood. Hypermagnesemia manifests as dangerously low blood pressure, lethargy, muscle weakness, confusion, slowed breathing, and in extreme cases, cardiac arrest.</li><li><b>Renal Function Precaution:</b> Individuals suffering from chronic kidney disease (CKD) or kidney failure must strictly avoid magnesium supplements unless explicitly prescribed and monitored by a nephrologist, as their kidneys cannot filter out excess ions safely.</li><li><b>Medication Interactions:</b> Magnesium supplements can bind to and reduce the absorption of several vital medications. It should be taken at least 2 hours apart from tetracycline and fluoroquinolone antibiotics, osteoporosis medications (bisphosphonates), and thyroid drugs to ensure proper therapeutic efficacy.</li></ul>"
+  },
+  "sodium": {
+    "slug": "sodium",
+    "title": "Sodium",
+    "category": "Nutrients/minerals",
+    "description": "Sodium is an essential macromineral and the principal extracellular electrolyte in the human body. Unlike minerals like calcium or magnesium which are heavily stored within bone matrix, sodium resides primarily in the blood plasma and extracellular fluid surrounding cells. It works in an intricate, inverse metabolic partnership with potassium to maintain cellular homeostatic balance. Because it is highly soluble and easily absorbed, the human body has evolved sophisticated hormonal mechanisms to tightly regulate its concentration, balancing fluid pressures and electrical conductivity across all living tissues.",
+    "keyFunctionsHtml": "Sodium acts as a master regulator of fluid dynamics, blood pressure baseline, and cellular electrical signaling:<ul><li><b>Extracellular Fluid Volume & Hydration:</b> Sodium is the primary osmotic driver of fluid balance in the extracellular compartment. By pulling and holding water in the bloodstream and intercellular spaces, it regulates blood volume, prevents cellular dehydration, and maintains proper systemic hydration status.</li><li><b>The Sodium-Potassium Pump & Cellular Energy:</b> It is a core component of the Na+/K+-ATPase pump embedded in every cell membrane. This pump continually expels sodium ions while pulling potassium ions inside, consuming a large portion of the body's resting energy to create an electrochemical gradient that powers cellular nutrient absorption and cellular survival.</li><li><b>Nerve Impulse Propagation:</b> Sodium is the indispensable trigger for action potentials in the nervous system. When a nerve cell receives a signal, voltage-gated sodium channels instantly open, allowing sodium ions to flood into the cell. This rapid influx depolarizes the membrane, sending an electrical signal rushing down the axon to transmit thoughts, commands, and sensory data.</li><li><b>Muscle Contraction Coordination:</b> Similar to its role in nerves, the rapid movement of sodium across muscle cell membranes (sarcolemma) initiates the electrical wave necessary to trigger internal calcium release, allowing skeletal muscles to contract and the cardiac muscle to maintain a steady, continuous heartbeat.</li><li><b>Nutrient Co-Transport:</b> The electrochemical gradient created by sodium drives the active transport of other vital nutrients across the intestinal lining and kidney tubules. This process, known as symport, allows the body to efficiently absorb glucose, amino acids, and water-soluble vitamins.</li><li><b>Acid-Base Regulation:</b> Working closely with bicarbonate and chloride ions, sodium acts as a chemical buffer to help maintain the delicate, life-sustaining pH balance of the blood and extracellular fluids.</li></ul>",
+    "foodSourcesIntro": "While raw, unprocessed whole foods contain naturally low, balanced amounts of sodium, the vast majority of modern dietary sodium is introduced during food processing, curing, and industrial preservation.",
+    "foodSources": [
+      {
+        "image": "/products/sea-salt.png",
+        "name": "Table Salt / Sea Salt"
+      },
+      {
+        "image": "/products/soy-sauce.png",
+        "name": "Soy Sauce / Tamari"
+      },
+      {
+        "image": "/products/parmesan.png",
+        "name": "Aged Cheeses"
+      },
+      {
+        "image": "/products/pickles.png",
+        "name": "Pickled & Fermented Foods"
+      },
+      {
+        "image": "/products/olives.png",
+        "name": "Cured Olives"
+      },
+      {
+        "image": "/products/canned-soup.png",
+        "name": "Processed/Canned Soups"
+      },
+      {
+        "image": "/products/beef-jerky.png",
+        "name": "Cured Meats / Jerky"
+      },
+      {
+        "image": "/products/bread.png",
+        "name": "Breads & Baked Goods"
+      },
+      {
+        "image": "/products/shrimp.png",
+        "name": "Shellfish & Seafood"
+      },
+      {
+        "image": "/products/celery.png",
+        "name": "Celery & Leafy Greens"
+      }
+    ],
+    "foodSourcesNotesHtml": "Navigating sodium intake requires distinguishing between naturally occurring cellular sodium and industrial added salt:<ul><li><b>Pure Culinary Salts:</b> Table salt, pink Himalayan salt, and sea salt are chemically composed of roughly 40% sodium and 60% chloride. A single teaspoon of standard salt delivers approximately 2,300 mg of pure sodium, meeting or exceeding the daily target.</li><li><b>Industrial Preservatives & Condiments:</b> Soy sauce, fish sauce, salad dressings, bouillon cubes, and commercial hot sauces use high concentrations of salt for flavor enhancement and microbial preservation.</li><li><b>Cured and Processed Proteic Products:</b> Bacon, deli meats, salami, beef jerky, and smoked fish are heavily injected with sodium chloride and sodium nitrites during processing to prolong shelf-life and stabilize color.</li><li><b>Commercially Baked Goods:</b> Breads, tortillas, crackers, and savory snacks are hidden major contributors to daily sodium intake. While they may not taste intensely salty, they consume a significant portion of daily targets due to frequent consumption and baking soda (sodium bicarbonate) usage.</li><li><b>Natural Whole Foods (Low Baseline):</b> Fresh seafood (like shrimp and cod) and certain vegetables (like celery, beets, and spinach) contain modest, healthy baselines of organic sodium that are easily balanced by natural plant potassium.</li></ul>",
+    "rdiHtml": "Dietary guidelines define a baseline Adequate Intake (AI) required to sustain fundamental neurological and circulatory health, alongside a standard Chronic Disease Risk Reduction (CDRR) limit for the general population.<ul><b>Standard Adults (Dietary Target Reference Framework)</b>\r\n<li>Adequate Intake (AI) Baseline: 1,500 mg / day (The absolute physiological minimum required to support systemic nerve and vascular volume dynamics).</li>\r\n<li>General Upper Target Limit (CDRR): 2,300 mg / day (Equating to roughly 1 teaspoon of table salt daily, aimed at minimizing hypertension risks).</li>\r\n<li>Athletes & Heavy Laborers: Requirements can scale up substantially (potentially 3,000 to 5,000+ mg/day) to offset massive sodium losses experienced through prolonged sweating during intense training.</li></ul>\r\n<b>Children & Adolescents (Scaled to match expanding blood volume and physiological development)</b>\r\n<ul><li>Infants (7–12 months): 370 mg / day (Sourced primarily via breast milk or formula)</li>\r\n<li>Children (1–3 years): 1,200 mg / day</li>\r\n<li>Children (4–8 years): 1,500 mg / day</li>\r\n<li>Adolescents (9–13 years): 1,800 mg / day</li>\r\n<li>Adolescents (14–18 years): 2,300 mg / day</li></ul>",
+    "deficiencyHtml": "A dietary sodium deficiency is extremely rare under standard conditions due to its abundance in the food supply. However, clinical low blood sodium (hyponatremia) is a serious condition that can develop during extreme physical exertion, excessive water intake, or prolonged illness. <br></br><b>Major Symptoms & Progression</b><ul><li><b>Hyponatremia (Water Intoxication / Low Blood Sodium):</b> This occurs when blood sodium becomes dangerously diluted, typically caused by sweating heavily during endurance sports and rehydrating with pure water instead of electrolytes, or from severe vomiting and diarrhea.</li><li><b>Neurological Instability & Confusion:</b> As extracellular sodium drops, water rushes into brain cells via osmosis, causing cerebral swelling. Early symptoms include headaches, mental confusion, lethargy, slurred speech, and severe brain fog.</li><li><b>Muscle Cramps & Deep Physical Fatigue:</b> Lacking sufficient sodium disrupts the cellular action potentials required for muscle movement, triggering severe muscle twitching, painful cramps, and profound physical weakness.</li><li><b>Dizziness, Orthostatic Hypotension, and Nausea:</b> Low blood volume reduces central blood pressure, leading to dizziness or lightheadedness when standing up quickly, alongside loss of appetite and vomiting.</li><li><b>Seizures and Coma (Critical Emergency):</b> If blood sodium levels drop rapidly or severely, the resulting brain swelling can trigger generalized seizures, respiratory distress, coma, and can be fatal if left uncorrected.</li></ul>",
+    "overdoseHtml": "Consuming excess sodium is incredibly common in modern societies due to heavily processed food chains. While healthy kidneys filter out excess sodium into urine, a chronic dietary surplus can overtax regulatory systems and lead to long-term cardiovascular and metabolic complications.<ul><li><b>Chronic Overconsumption Threshold:</b> Consuming doses consistently exceeding 2,300 to 3,400 mg per day places a continuous osmotic burden on the vascular tree and the filtering units of the kidneys.</li></ul><b>Critical Health Considerations</b><br>Excessive sodium intake requires careful, strategic management due to its direct impact on fluid mechanics and arterial tissue health:<ul><li><b>Hypertension (High Blood Pressure):</b> When excess sodium accumulates in the bloodstream, it pulls water into the blood vessels, increasing total blood volume. This elevated volume places higher physical pressure against arterial walls, leading to chronic hypertension, a primary risk factor for heart attacks, strokes, and congestive heart failure.</li><li><b>The Sodium-to-Potassium Ratio Pivot:</b> Modern medical science focuses heavily on the dietary ratio of sodium to potassium. A diet high in sodium and low in potassium (lacking fruits and vegetables) exacerbates arterial stiffening. Elevating potassium intake helps the kidneys excrete excess sodium and relaxes blood vessel walls, mitigating many of the negative impacts of salt.</li><li><b>Fluid Retention & Edema:</b> Excess sodium causes the body to retain fluids in soft tissues, manifesting as visible swelling (edema) in the ankles, feet, legs, and hands, alongside a temporary increase in scale weight.</li><li><b>Chronic Kidney Disease (CKD) Aggravation:</b> High-salt diets increase intraglomerular pressure, accelerating the decline of filtering capacity in individuals with pre-existing kidney conditions. These populations must strictly adhere to low-sodium protocols to manage fluid retention and keep blood pressure controlled.</li><li><b>Calcium Depletion & Bone Density:</b> As the kidneys work to filter and excrete excess sodium into urine, calcium ions are cleared alongside it. Over time, high sodium intake can cause excessive urinary calcium loss, forcing the body to draw calcium from bones and increasing the long-term risk of osteoporosis and kidney stones.</li></ul>"
+  },
+  "potassium": {
+    "slug": "potassium",
+    "title": "Potassium",
+    "category": "Nutrients/minerals",
+    "description": "Potassium is an essential macromineral and the primary intracellular electrolyte in the human body, with roughly 98% of its total reserves residing inside cells—particularly within skeletal muscle and cardiac tissues. Operating in a vital, continuous partnership with sodium (the primary extracellular electrolyte), potassium establishes the electrochemical gradients that fuel cellular life. Because its systemic levels directly dictate cardiac rhythm and neuromuscular communication, the human body utilizes highly sensitive hormonal pathways to constantly balance, clear, and fine-tune its circulation.",
+    "keyFunctionsHtml": "Potassium governs cellular electrical excitability, fluid volume homeostasis, and smooth muscular coordination:<ul><li><b>The Sodium-Potassium Pump Core:</b> Potassium is the indispensable driver of the Na+/K+-ATPase pump embedded across all cell membranes. This mechanism actively pumps potassium into cells while expelling sodium, consuming a massive share of the body's resting energy to sustain the electrical potential required for cellular life and nutrient transport.</li><li><b>Myocardial Rhythmic Integrity:</b> It plays an elite role in the electrical conduction system of the heart. By regulating the repolarization phase of cardiac action potentials, potassium controls the rhythmic beating of the heart, preventing irregular cardiac cycles and supporting healthy circulation.</li><li><b>Nerve Impulse Propagation:</b> The precise movement of potassium ions back out of nerve cells resets the electrical charge across the cell membrane following a nerve impulse. This process allows nerves to fire repeatedly and smoothly, ensuring clear communication from the brain to the rest of the body.</li><li><b>Muscle Contraction & Relaxation:</b> Potassium helps manage skeletal and smooth muscle movement. By maintaining cellular membrane voltage, it ensures that muscles respond efficiently to nerve commands and relax properly afterward, preventing persistent tension or cramping.</li><li><b>Vasodilation & Blood Pressure Management:</b> It actively relaxes the smooth muscle cells lining blood vessel walls. This vasodilatory effect counters the constrictive action of sodium, easing arterial pressure and supporting long-term cardiovascular health.</li><li><b>Intracellular Fluid Architecture:</b> While sodium maintains fluid balance outside the cells, potassium is the primary osmotic manager inside the cells, keeping cellular structures plump, hydrated, and functionally stable.</li><li><b>Glycogen and Protein Storage:</b> It acts as a necessary cofactor in carbohydrate metabolism, where it is stored directly alongside glycogen in muscle and liver cells to provide rapid metabolic fuel during physical exertion.</li></ul>",
+    "foodSourcesIntro": "Potassium is highly abundant across unprocessed, whole-food plant ecosystems. Because industrial refining and canning strip this mineral away, prioritizing fresh, intact foods is key to meeting daily targets.",
+    "foodSources": [
+      {
+        "image": "/products/avocado.png",
+        "name": "Avocado"
+      },
+      {
+        "image": "/products/sweet-potato.png",
+        "name": "Sweet Potato"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach (Cooked)"
+      },
+      {
+        "image": "/products/banana.png",
+        "name": "Banana"
+      },
+      {
+        "image": "/products/salmon.png",
+        "name": "Salmon"
+      },
+      {
+        "image": "/products/white-beans.png",
+        "name": "White Beans / Cannellini"
+      },
+      {
+        "image": "/products/coconut-water.png",
+        "name": "Coconut Water"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Greek Yogurt"
+      },
+      {
+        "image": "/products/mushrooms.png",
+        "name": "Button Mushrooms"
+      },
+      {
+        "image": "/products/dried-apricots.png",
+        "name": "Dried Apricots"
+      }
+    ],
+    "foodSourcesNotesHtml": "Maximizing potassium levels involves selecting from a wide range of colorful plants and high-quality proteins:<ul><li><b>The Top Plant Powerhouses:</b> While bananas are famously cited, avocados and sweet potatoes actually deliver significantly higher concentrations of potassium per serving. A single medium avocado provides roughly 20% of the daily baseline target.</li><li><b>Leafy Greens & Fungi:</b> Cooked spinach, Swiss chard, and white button mushrooms are outstanding sources. Cooking these foods breaks down their volume, allowing you to consume dense, bioavailable mineral quantities easily.</li><li><b>Legumes & Pods:</b> White beans, lima beans, lentils, and edamame are exceptionally rich plant-based reservoirs that offer potassium alongside structural fiber and clean proteins.</li><li><b>Marine Proteic Sources:</b> Wild-caught fish like salmon, tuna, and halibut are excellent animal sources of potassium, matching their healthy omega-3 fatty acid profiles.</li><li><b>Hydrating Beverages:</b> Pure coconut water and pomegranate juice provide rich, refreshing, naturally occurring electrolyte options to quickly replenish lost potassium reserves after physical activity.</li><li><b>Concentrated Dairy:</b> Plain Greek yogurt and low-fat milk offer significant amounts of potassium paired with highly absorbable calcium.</li></ul>",
+    "rdiHtml": "Dietary guidelines set an Adequate Intake (AI) level for potassium intended to help optimize blood pressure baselines, reduce cardiovascular strain, and maintain fluid equilibrium across the population.<ul><b>Standard Adults (Adequate Intake Guidelines)</b>\r\n<li>Adult Men (19+ years): 3,400 mg / day</li>\r\n<li>Adult Women (19+ years): 2,600 mg / day</li>\r\n<li>Pregnant Women: 2,900 mg / day (Slightly elevated to sustain expanding maternal blood volume and fetal cell production).</li>\r\n<li>Lactating Women: 2,800 mg / day</li></ul>\r\n<b>Children & Adolescents (Scaled to match muscular expansion and tissue synthesis)</b>\r\n<ul><li>Infants (7–12 months): 860 mg / day (Sourced primarily via breast milk or formula)</li>\r\n<li>Children (1–3 years): 2,000 mg / day</li>\r\n<li>Children (4–8 years): 2,300 mg / day</li>\r\n<li>Adolescents (9–13 years): Boys: 2,500 mg / day | Girls: 2,300 mg / day</li>\r\n<li>Adolescents (14–18 years): Boys: 3,000 mg / day | Girls: 2,300 mg / day</li></ul>",
+    "deficiencyHtml": "A minor dietary deficit in potassium is incredibly common in Western societies due to a heavy reliance on processed foods. However, severe, acute low blood potassium (hypokalemia) is typically triggered by medical conditions or excessive fluid losses rather than diet alone. <br></br><b>Major Symptoms & Progression</b><ul><li><b>Chronic Muscle Weakness & Severe Cramps:</b> Because potassium regulates the resting membrane electrical charge of muscle cells, a deficiency makes it difficult for muscles to relax or contract properly. This manifests as ongoing physical weakness, a heavy feeling in the limbs, and painful muscle spasms or cramps—particularly in the calves and feet.</li><li><b>Persistent Fatigue & Mental Lethargy:</b> Lacking sufficient potassium impairs optimal carbohydrate utilization and cell signaling, leaving individuals experiencing deep physical exhaustion and sluggish mental processing.</li><li><b>Cardiac Palpitations & Irregular Rhythms:</b> Sub-optimal potassium directly destabilizes the electrical pacing of the heart. Early signs include the sensation of skipped heartbeats, pounding chest fluttering, or lightheadedness, which can progress to dangerous cardiac arrhythmias if left uncorrected.</li><li><b>Elevated Blood Pressure Baseline:</b> When potassium levels drop, the vascular smooth muscles constrict and the kidneys retain more sodium. This combination directly increases systemic vascular resistance, driving blood pressure upward.</li><li><b>Digestive Sluggishness & Constipation:</b> The smooth muscles lining the gastrointestinal tract rely on potassium to power rhythmic digestive waves (peristalsis). Deficiency slows these contractions down, causing abdominal bloating, cramping, and stubborn constipation.</li><li><b>Numbness and Tingling (Paresthesia):</b> Low potassium can weaken nerve signals, occasionally presenting as a pins-and-needles or burning sensation in the hands, fingers, feet, and toes.</li></ul>",
+    "overdoseHtml": "Consuming excess potassium from whole, natural foods carries zero risk of toxicity for individuals with healthy kidney function, as the renal system filters and excretes any dietary surplus into urine with incredible efficiency. However, consuming high-dose isolated potassium supplements or experiencing impaired organ function can lead to severe health hazards.<ul><li><b>Tolerable Upper Intake Level (UL):</b> There is no officially established mathematical upper limit for potassium derived from natural food matrices. However, because high doses of isolated potassium can disturb cardiac pacing, over-the-counter supplements are strictly capped by law in many regions to under 100 mg per serving.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive potassium accumulation requires precise clinical management due to its immediate impact on cardiac electrical stability:<ul><li><b>Hyperkalemia (High Blood Potassium Danger):</b> This occurs when potassium levels in the bloodstream rise to dangerous, toxic heights. Because hyperkalemia alters the electrical charge of the heart muscle, it can silence warning signs before suddenly triggering severe, life-threatening cardiac arrhythmias or complete cardiac arrest. High-dose isolated potassium pills or powders must never be taken without explicit medical authorization and lab tracking.</li><li><b>Chronic Kidney Disease (CKD) Restrictive Warning:</b> For individuals suffering from advanced kidney disease or renal failure, managing potassium intake is a critical, lifesaving medical priority. Because damaged kidneys lose the ability to filter and clear excess ions, potassium can build up rapidly in the blood. These individuals must follow a strict, low-potassium medical diet under the supervision of a nephrologist or renal dietitian.</li><li><b>Medication Interactions (ACE Inhibitors & Potassium-Sparing Diuretics):</b> Certain widely prescribed blood pressure medications—including ACE inhibitors (like lisinopril), Angiotensin Receptor Blockers (ARBs), and potassium-sparing diuretics (like spironolactone)—cause the body to retain potassium. Individuals taking these drugs must strictly avoid potassium supplements and salt substitutes made from potassium chloride to prevent accidental hyperkalemia.</li><li><b>Gastrointestinal Mucosal Irritation:</b> Consuming large doses of concentrated, non-enteric-coated potassium supplements can directly irritate the lining of the stomach and intestines, occasionally causing abdominal pain, nausea, vomiting, or internal lesions.</li></ul>"
+  },
+  "chloride": {
+    "slug": "chloride",
+    "title": "Chloride",
+    "category": "Nutrients/minerals",
+    "description": "Chloride is an essential macromineral and the primary negatively charged ion (anion) in the extracellular fluid compartment of the human body. Making up roughly 0.15% of total body weight, chloride works in an inseparable biochemical alliance with sodium and potassium to maintain systemic osmotic pressure, electrical neutrality, and fluid balances. Beyond its role as a major electrolyte, chloride is uniquely vital for human digestion, serving as a core component of the hydrochloric acid produced in the stomach to break down proteins and eliminate foodborne pathogens.",
+    "keyFunctionsHtml": "Chloride regulates extracellular fluid pressures, digestive acid production, and cellular acid-base balances:<ul><li><b>Extracellular Fluid Volume & Osmotic Equilibrium:</b> Operating alongside sodium, chloride is a primary osmotic determinant of fluid balance outside of cells. It pulls and holds water within blood vessels and interstitial spaces, maintaining proper blood volume and systemic hydration status.</li><li><b>Gastric Hydrochloric Acid (HCl) Production:</b> Parietal cells in the stomach lining actively harvest chloride ions from the blood to synthesize hydrochloric acid. This gastric juice is absolutely necessary for dropping stomach pH to activate digestive enzymes, denature complex dietary proteins, and kill ingested microbes.</li><li><b>The Chloride Shift & Acid-Base Balance:</b> Chloride plays an elite role in respiration and pH regulation through a process called the chloride shift. As red blood cells transport carbon dioxide from tissues to the lungs, chloride ions continuously cycle in and out of the cells in exchange for bicarbonate ions, keeping the blood's pH within a narrow, life-sustaining range.</li><li><b>Nerve Impulse Regulation (GABA Pathway):</b> In the central nervous system, chloride acts as a stabilizing force. When calming neurotransmitters like GABA bind to receptors on a nerve cell, they open specialized channels that allow chloride ions to flood inside. This hyperpolarizes the cell, lowering its electrical excitability and helping to reduce anxiety, stress, and muscle tension.</li><li><b>Cellular Electrical Conductance:</b> Along with sodium and potassium, the movement of chloride ions across cell membranes helps generate the electrochemical potentials required for skeletal muscle contractions and smooth muscle reactivity.</li></ul>",
+    "foodSourcesIntro": "Because chloride naturally couples with sodium to form salt, its presence in the modern diet is abundant, concentrated heavily within cured, processed, and seasoned foods.",
+    "foodSources": [
+      {
+        "image": "/products/sea-salt.png",
+        "name": "Table Salt / Sea Salt"
+      },
+      {
+        "image": "/products/soy-sauce.png",
+        "name": "Soy Sauce"
+      },
+      {
+        "image": "/products/seaweed.png",
+        "name": "Seaweed / Kelp"
+      },
+      {
+        "image": "/products/pickles.png",
+        "name": "Pickles & Brined Foods"
+      },
+      {
+        "image": "/products/olives.png",
+        "name": "Cured Olives"
+      },
+      {
+        "image": "/products/celery.png",
+        "name": "Celery"
+      },
+      {
+        "image": "/products/tomatoes.png",
+        "name": "Tomatoes"
+      },
+      {
+        "image": "/products/lettuce.png",
+        "name": "Romaine Lettuce"
+      },
+      {
+        "image": "/products/parmesan.png",
+        "name": "Aged Cheeses"
+      },
+      {
+        "image": "/products/canned-soup.png",
+        "name": "Processed Soups"
+      }
+    ],
+    "foodSourcesNotesHtml": "Meeting your daily chloride targets is highly efficient due to its ubiquity alongside sodium, though natural botanical sources offer excellent unrefined options:<ul><li><b>Pure Culinary Salts:</b> Standard table salt, sea salt, and rock salt are the primary sources of chloride in human nutrition, composed of roughly 60% chloride and 40% sodium by weight.</li><li><b>Marine Plant Ecosystems:</b> Seaweeds, dulse, nori, and kelp are naturally rich in organic chloride and trace ocean minerals, offering a savory profile without industrial additives.</li><li><b>Fermented & Brined Condiments:</b> Soy sauce, miso paste, sauerkraut, kimchi, pickles, and green olives utilize heavy concentrations of chloride-based salts to preserve structure and inhibit spoilage.</li><li><b>Natural Unrefined Vegetables:</b> Celery, tomatoes, lettuce, and rye grains possess notable amounts of naturally occurring, organic chloride that contribute to mineral pools independently of added table salt.</li><li><b>Processed & Pre-Packaged Foods:</b> Canned broths, cured meats, deli slices, and conventional savory snacks contain dense amounts of inorganic sodium chloride injected for shelf-life optimization and flavor delivery.</li></ul>",
+    "rdiHtml": "Dietary frameworks establish an Adequate Intake (AI) level for chloride designed to safely match the body's natural sodium retention parameters and prevent electrolyte imbalances.<ul><b>Standard Adults (Adequate Intake Guidelines)</b>\r\n<li>Adult Men and Women (19–50 years): 2.3 grams (2,300 mg) / day (Equating to roughly 3.8 grams of standard table salt).</li>\r\n<li>Older Adults (51–70 years): 2.0 grams (2,000 mg) / day</li>\r\n<li>Older Adults (71+ years): 1.8 grams (1,800 mg) / day (Adjusted downward to account for natural changes in kidney filtration rates).</li>\r\n<li>Pregnant & Lactating Women: 2.3 grams (2,300 mg) / day</li>\r\n<li>Athletes & Extreme Laborers: Targets scale up to compensate for heavy chloride ions cleared through heavy, prolonged sweating during training.</li></ul>\r\n<b>Children & Adolescents (Scaled to support extracellular volume adjustments and development)</b>\r\n<ul><li>Infants (7–12 months): 0.57 grams / day (Sourced via breast milk or formula)</li>\r\n<li>Children (1–3 years): 1.5 grams / day</li>\r\n<li>Children (4–8 years): 1.9 grams / day</li>\r\n<li>Adolescents (9–18 years): 2.3 grams / day</li></ul>",
+    "deficiencyHtml": "An isolated dietary deficiency in chloride is exceedingly rare due to its widespread presence in salt. However, clinical low blood chloride (hypochloremia) can manifest as a dangerous medical emergency during severe fluid losses or illness. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Hypochloremic Metabolic Alkalosis:</b> When large volumes of chloride are lost, the kidneys are forced to retain bicarbonate ions to maintain electrical neutrality in the blood. This causes the blood to become overly alkaline, disrupting enzyme pathways and normal respiration.</li><li><b>Severe Dehydration & Muscle Weakness:</b> A lack of chloride destabilizes extracellular fluid volumes, causing decreased blood pressure, physical lethargy, persistent muscle twitching, and deep muscle weakness.</li><li><b>Impaired Digestion & Hypochlorhydria:</b> Insufficient chloride restricts the stomach's ability to produce adequate hydrochloric acid. This causes poor protein breakdown, chronic indigestion, bloating, and leaves the digestive tract vulnerable to foodborne bacterial infections.</li><li><b>Profound Fluid Losses (Triggers):</b> Hypochloremia is typically triggered by heavy, prolonged vomiting (which expels stomach hydrochloric acid), chronic diarrhea, severe burns, or excessive use of loop diuretic medications that force the kidneys to excrete chloride.</li><li><b>Neurological Hyper-excitability:</b> Severe drops in chloride compromise the calming GABA nerve pathways, potentially leading to mental confusion, agitation, hyper-reflexia, and in extreme cases, respiratory depression.</li></ul>",
+    "overdoseHtml": "Consuming excess chloride via whole foods is rarely toxic for individuals with healthy kidneys, as the renal system filters out the surplus. However, chronic excess intake—almost always driven by a high consumption of sodium chloride (salt)—imposes a significant physiological burden over time.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults, the UL for chloride is established at 3.6 grams (3,600 mg) per day, which corresponds to roughly 6 grams of total daily table salt intake.</li></ul><b>Critical Health Considerations</b><br>Excessive chloride accumulation demands strategic tracking due to its direct interplay with vascular tone and renal filtering pathways:<ul><li><b>Hypertension & Vascular Strain:</b> Because chloride tightly binds with sodium in the bloodstream, excess intake increases the osmotic pull on water, swelling total blood volume. This directly drives up blood pressure against arterial walls, increasing long-term cardiovascular risks.</li><li><b>Hyperchloremic Metabolic Acidosis:</b> If large amounts of chloride accumulate in the blood (often due to severe kidney dysfunction or excessive intravenous saline infusions), it displaces bicarbonate ions. This forces the blood into a dangerous, overly acidic state that impairs cellular function.</li><li><b>Fluid Retention & Edema:</b> Excess sodium chloride causes the body to store water in intercellular spaces, manifesting as temporary scale-weight spikes and visible swelling (edema) in the feet, ankles, and hands.</li><li><b>Chronic Kidney Disease (CKD) Precaution:</b> Individuals with compromised kidney function cannot clear excess ions efficiently. High chloride intake accelerates glomerular stress, meaning these populations must follow strict low-salt, medically managed protocols to protect remaining organ integrity.</li></ul>"
+  },
+  "sulfur": {
+    "slug": "sulfur",
+    "title": "Sulfur",
+    "category": "Nutrients/minerals",
+    "description": "Sulfur is an essential macromineral and the third most abundant mineral in the human body by weight, trailing only calcium and phosphorus. Representing roughly 0.25% of total body mass, sulfur is not typically consumed or utilized as an isolated free element; instead, it is integrated into organic molecular matrices, primarily via the sulfur-containing amino acids methionine and cysteine. As a core chemical bridge-builder, sulfur is fundamentally responsible for establishing the rigid structural shapes of proteins, maintaining powerful cellular antioxidant defenses, and driving key metabolic detoxification pathways.",
+    "keyFunctionsHtml": "Sulfur dictates protein architectural configuration, cellular detoxification, and the structural integrity of connective tissues:<ul><li><b>Disulfide Bonds & Protein Folding:</b> Sulfur acts as a structural architect for proteins. The sulfur atoms in adjacent cysteine residues form strong covalent cross-links called disulfide bonds. These bonds lock complex proteins—such as keratin, collagen, and insulin—into their precise three-dimensional shapes, giving them structural durability and functional stability.</li><li><b>Glutathione Synthesis & Antioxidant Defense:</b> It is a crucial component of glutathione, the body's master antioxidant. The active functional core of glutathione is its sulfur-containing thiol (-SH) group, which directly neutralizes dangerous free radicals, mitigates systemic oxidative stress, and protects cellular DNA from damage.</li><li><b>Hepatic Detoxification (Sulfation Pathway):</b> The liver heavily relies on sulfur for Phase II detoxification, specifically the sulfation pathway. In this process, sulfur groups are enzymatically attached to environmental toxins, heavy metals, and spent hormones (like estrogen), transforming them into water-soluble compounds that can be safely excreted via urine or bile.</li><li><b>Connective Tissue & Joint Architecture:</b> It is a foundational element in glycosaminoglycans like chondroitin sulfate and glucosamine sulfate. These molecules form the rubbery matrix of joint cartilage, providing structural shock absorption, flexibility, and elasticity to joints, tendons, and ligaments.</li><li><b>Keratin Density for Hair, Skin, and Nails:</b> Keratin is exceptionally rich in sulfur cross-links. Proper systemic sulfur levels are directly responsible for the structural strength, thickness, and elasticity of human hair, fingernails, and the protective outer layers of the skin.</li><li><b>Cellular Metabolism Support:</b> Sulfur is an essential component of two critical B-vitamins—thiamin (Vitamin B1) and biotin (Vitamin B7)—as well as Coenzyme A, which is a vital hub for carbohydrate, fat, and protein energy metabolism.</li></ul>",
+    "foodSourcesIntro": "Because sulfur is primarily delivered to the body via protein structures and unique organosulfur plant chemicals, it is highly abundant in protein-rich animal foods, alliums, and cruciferous vegetables.",
+    "foodSources": [
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef"
+      },
+      {
+        "image": "/products/garlic.png",
+        "name": "Garlic"
+      },
+      {
+        "image": "/products/broccoli.png",
+        "name": "Broccoli"
+      },
+      {
+        "image": "/products/salmon.png",
+        "name": "Salmon"
+      },
+      {
+        "image": "/products/onions.png",
+        "name": "Onions"
+      },
+      {
+        "image": "/products/parmesan.png",
+        "name": "Parmesan Cheese"
+      },
+      {
+        "image": "/products/cabbage.png",
+        "name": "Cabbage"
+      },
+      {
+        "image": "/products/brazil-nuts.png",
+        "name": "Brazil Nuts"
+      },
+      {
+        "image": "/products/brussels-sprouts.png",
+        "name": "Brussels Sprouts"
+      }
+    ],
+    "foodSourcesNotesHtml": "Fulfilling your daily sulfur goals involves combining complete protein matrices with sulfur-rich botanical families:<ul><li><b>Animal & Dairy Proteins (Amino Acid-Bound):</b> Whole eggs, beef, poultry, pork, and wild fish (like salmon and tuna) are exceptionally dense sources of methionine and cysteine, delivering highly bioavailable organic sulfur directly into the body's amino acid pools.</li><li><b>The Allium Vegetable Family (Organosulfur Compounds):</b> Garlic, onions, leeks, shallots, and chives contain rich arrays of volatile organosulfur compounds (such as allicin). These molecules are responsible for both the pungent aroma of these plants and their potent cardiovascular and immune benefits.</li><li><b>Cruciferous Glucosinolates:</b> Broccoli, Brussels sprouts, cabbage, kale, and cauliflower are packed with sulfur-containing phytochemicals called glucosinolates. When chopped or chewed, these break down into sulforaphane, a compound that powerfully activates the body's internal antioxidant mechanisms.</li><li><b>Seeds, Nuts, & Legumes:</b> Brazil nuts, hemp seeds, sesame seeds, walnuts, and whole soybeans provide excellent, plant-based reservoirs of sulfur-bearing amino acids for individuals on vegetarian or vegan diets.</li></ul>",
+    "rdiHtml": "There is no officially established Recommended Dietary Allowance (RDA) or Adequate Intake (AI) level specifically for elemental sulfur. Instead, nutritional requirements are met by achieving the RDAs for the essential sulfur-containing amino acid, methionine, and total daily protein guidelines.<ul><b>Standard Adults (Indirect Dietary Reference Targets)</b>\r\n<li>The combined adult requirement for the sulfur-containing amino acids (Methionine + Cysteine) is established at 19 mg per kilogram of body weight per day.</li>\r\n<li>Adult weighing 60 kg (132 lbs): ~1,140 mg / day of sulfur-bearing amino acids.</li>\r\n<li>Adult weighing 70 kg (154 lbs): ~1,330 mg / day of sulfur-bearing amino acids.</li>\r\n<li>Consuming standard total daily protein requirements (0.8g to 1.2+g per kg of body weight) naturally ensures an abundant, thriving systemic sulfur status.</li></ul>",
+    "deficiencyHtml": "A standalone, isolated dietary sulfur deficiency is practically non-existent in individuals who consume sufficient daily protein. However, sub-optimal levels can manifest during states of severe protein-calorie malnutrition, extreme low-protein crash diets, or strict vegan diets that completely exclude grains, seeds, and alliums. <br></br><b>Major Symptoms & Structural Changes</b><ul><li><b>Brittle Nails & Hair Thinning:</b> Because keratin relies entirely on sulfur for structural integrity, a chronic deficiency leads to weak, brittle, easily splitting fingernails, along with thinning, dull, and fragile hair fibers.</li><li><b>Impaired Joint Flexibility & Cartilage Wear:</b> Inadequate sulfur limits the synthesis of chondroitin sulfate, which can manifest as persistent joint stiffness, minor joint discomfort, and a reduced ability for cartilage matrix to recover from physical stress.</li><li><b>Compromised Antioxidant Defenses:</b> A lack of sulfur limits the body's rate of glutathione production. This leaves tissues highly vulnerable to accelerated oxidative damage, cellular aging, and reduced protection against environmental toxins.</li><li><b>Sluggish Liver Detoxification:</b> Depleting the liver's sulfation pathways hinders the efficient neutralization of internal metabolic waste and environmental chemicals, occasionally contributing to feeling physically sluggish or fatigued.</li><li><b>Dry, Easily Irritated Skin:</b> Collagen structural pathways can become less resilient, resulting in dry, flaky skin, reduced skin elasticity, and slow or delayed wound healing after an injury.</li></ul>",
+    "overdoseHtml": "Consuming sulfur naturally through organic food matrices carries zero risk of toxicity for the general population because the body efficiently excretes any excess via the kidneys as sulfate compounds. However, excessive consumption via specific inorganic compounds, preservatives, or high-dose isolated dietary supplements requires careful clinical awareness.<ul><li><b>Tolerable Upper Intake Level (UL):</b> There is no officially established mathematical upper limit for dietary sulfur derived from whole foods. However, excessive intake of supplemental organic sulfur forms (like MSM) or inorganic sulfites can cause adverse reactions.</li></ul><b>Critical Health Considerations</b><br>Excessive exposure or supplemental sulfur requires targeted management under specific conditions:<ul><li><b>Sulfite Sensitivity & Respiratory Distress:</b> Inorganic sulfur compounds called sulfites (such as sodium metabisulfite) are widely used as chemical preservatives in dried fruits, wines, and processed meats to prevent browning. In sensitive individuals—particularly those with asthma—sulfites can trigger severe allergic reactions, manifesting as hives, abdominal pain, and acute respiratory wheezing.</li><li><b>Gastrointestinal Shifts & Hydrogen Sulfide Gas:</b> Consuming massive doses of isolated sulfur supplements (such as Methylsulfonylmethane or MSM) or an extreme overabundance of sulfurous proteins can alter the gut microbiome. Certain gut bacteria utilize excess sulfur to produce hydrogen sulfide gas, which can lead to flatulence with a strong odor, loose stools, or temporary abdominal bloating.</li><li><b>Supplemental Balance Precaution:</b> While MSM supplements are highly popular for joint and skin care and generally have an excellent safety profile, excessive, unmonitored intake should be balanced with a proper intake of pure water to assist the kidneys with normal processing and clearing.</li></ul>"
+  },
+  "iron": {
+    "slug": "iron",
+    "title": "Iron",
+    "category": "Nutrients/minerals",
+    "description": "Iron is an essential trace mineral indispensable for human survival, acting as the fundamental molecular linchpin for systemic oxygen transport and cellular respiration. The vast majority of the body's iron is dynamically bound within hemoglobin inside red blood cells, while the remainder is stored within the liver, spleen, and bone marrow inside ferritin complexes or utilized in skeletal muscles. Structurally versatile, iron transitions between chemical states (ferrous and ferric) to facilitate vital electron transfers, making it a critical player in metabolic energy production and cellular survival.",
+    "keyFunctionsHtml": "Iron coordinates systemic oxygen distribution, cellular energy production, and biological defense mechanisms:<ul><li><b>Systemic Oxygen Transport (Hemoglobin):</b> Iron forms the structural core of heme groups within hemoglobin, the protein inside red blood cells. It binds directly to oxygen molecules in the lungs and carries them through the circulatory system, delivering vital oxygen to every organ, tissue, and cell.</li><li><b>Intramuscular Oxygen Storage (Myoglobin):</b> Within skeletal and cardiac muscle tissues, iron is embedded inside myoglobin molecules. Myoglobin stores a localized reserve of oxygen, releasing it rapidly to fuel muscular work during periods of intense physical exertion or oxygen depletion.</li><li><b>Mitochondrial ATP Energy Synthesis:</b> It is a necessary structural component of cytochromes and iron-sulfur proteins within the mitochondrial electron transport chain. Through continuous electron transfers, iron drives the synthesis of Adenosine Triphosphate (ATP), providing the fundamental energy needed to power cellular metabolism.</li><li><b>DNA Synthesis and Cellular Replication:</b> Iron acts as an obligatory cofactor for ribonucleotide reductase, the rate-limiting enzyme responsible for copying DNA. This makes proper iron levels essential for tissue repair, red blood cell creation, and healthy cellular division.</li><li><b>Immune System Pathogen Defense:</b> It plays a vital role in immune function, supporting the proliferation and maturation of T-lymphocytes and driving the production of hydroxyl radicals inside neutrophils to destroy invading viral and bacterial pathogens.</li><li><b>Neurotransmitter Synthesis & Cognitive Support:</b> The brain relies heavily on iron-dependent enzymes to manufacture critical neurotransmitters, including dopamine, serotonin, and norepinephrine, which directly regulate mood, attention span, and cognitive performance.</li></ul>",
+    "foodSourcesIntro": "Dietary iron exists in two distinct chemical forms: highly bioavailable heme iron found exclusively in animal tissues, and non-heme iron found primarily in plant-based reservoirs, which requires conscious dietary pairing to maximize absorption.",
+    "foodSources": [
+      {
+        "image": "/products/beef-liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef / Red Meat"
+      },
+      {
+        "image": "/products/clams.png",
+        "name": "Clams / Oysters"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/pumpkin-seeds.png",
+        "name": "Pumpkin Seeds"
+      },
+      {
+        "image": "/products/tofu.png",
+        "name": "Tofu"
+      },
+      {
+        "image": "/products/sardines.png",
+        "name": "Sardines"
+      },
+      {
+        "image": "/products/dark-chocolate.png",
+        "name": "Dark Chocolate"
+      },
+      {
+        "image": "/products/white-beans.png",
+        "name": "White Beans"
+      }
+    ],
+    "foodSourcesNotesHtml": "Optimizing iron status requires understanding the differences between heme and non-heme absorption, as well as managing dietary inhibitors:<ul><li><b>Heme Iron (Highly Bioavailable):</b> Beef liver, lean red meats, duck, sardines, clams, and oysters contain pre-formed heme iron. The gut absorbs roughly 15% to 35% of heme iron, and its uptake is remarkably steady, unaffected by plant compounds or dietary inhibitors.</li><li><b>Non-Heme Plant Sources:</b> Lentils, chickpeas, white beans, spinach, pumpkin seeds, tofu, and high-quality dark chocolate are excellent reservoirs of non-heme iron. However, the baseline absorption rate for non-heme iron is lower, averaging only 2% to 20%.</li><li><b>The Vitamin C Synergy Boost:</b> Consuming non-heme plant iron alongside foods rich in Vitamin C (such as bell peppers, citrus fruits, strawberries, or broccoli) dramatically increases its bioavailability. Vitamin C reduces ferric iron to the more soluble ferrous state, facilitating its transport across the intestinal wall.</li><li><b>Dietary Inhibitors (Timing Matters):</b> Plant compounds like phytic acid (found in whole grains and raw legumes) and polyphenols or tannins (found in coffee, black tea, and red wine) bind tightly to non-heme iron and heavily reduce its absorption. To protect your iron uptake, consume coffee or tea at least 1 to 2 hours away from iron-rich meals.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for iron varies substantially across life stages and biological sexes, peaking significantly in premenopausal women to compensate for menstrual blood losses and during pregnancy to support fetal growth.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men (19+ years): 8 mg / day</li>\r\n<li>Adult Women (19–50 years): 18 mg / day (Elevated to replace regular menstrual blood losses).</li>\r\n<li>Older Women (51+ years): 8 mg / day (Adjusted downward following menopause).</li>\r\n<li>Pregnant Women: 27 mg / day (A massive clinical increase required to support maternal blood volume expansion and placenta construction).</li>\r\n<li>Lactating Women: 9 mg / day</li>\r\n<li>Vegetarians and Vegans: Guidelines suggest multiplying the standard RDA by 1.8 (aiming for ~14 mg for men and ~32 mg for premenopausal women) to account for the lower baseline absorption of non-heme plant iron.</li></ul>\r\n<b>Children & Adolescents (Elevated to fuel rapid blood volume expansion and muscle accretion)</b>\r\n<ul><li>Infants (7–12 months): 11 mg / day (Crucial window as natural newborn iron stores become depleted).</li>\r\n<li>Children (1–3 years): 7 mg / day</li>\r\n<li>Children (4–8 years): 10 mg / day</li>\r\n<li>Adolescents (9–13 years): 8 mg / day</li>\r\n<li>Adolescents (14–18 years): Boys: 11 mg / day | Girls: 15 mg / day</li></ul>",
+    "deficiencyHtml": "Iron deficiency is the most prevalent nutritional shortfall worldwide, developing progressively through stages from depleted tissue storage to clinical iron deficiency anemia (IDA). <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Profound Physical Fatigue & Weakness:</b> As iron stores decline, hemoglobin production stalls. This deprives muscles, tissues, and vital organs of adequate oxygen delivery, resulting in unrelenting physical exhaustion, generalized weakness, and diminished physical stamina.</li><li><b>Exertional Shortness of Breath & Dizziness:</b> With fewer oxygen-carrying red blood cells in circulation, minor activities like climbing stairs can cause a rapid heart rate (tachycardia), palpitations, shortness of breath, lightheadedness, and orthostatic dizziness.</li><li><b>Cognitive Fog & Poor Focus:</b> Insufficient oxygenation of brain tissues, combined with disrupted neurotransmitter pathways, impairs working memory, drops cognitive processing speeds, increases irritability, and manifests as persistent brain fog.</li><li><b>Dermatological Pallor & Brittle Nails:</b> Low hemoglobin deprives capillaries beneath the skin of their vibrant red hue, leading to a pale complexion, pale inner eyelids, dry skin, and characteristic spoon-shaped, brittle fingernails (koilonychia).</li><li><b>Restless Legs Syndrome (RLS) & Cold Intolerance:</b> Iron deficiency alters dopamine signaling in the brain, which is a primary underlying trigger for RLS—manifesting as an irresistible urge to move the legs at night. Additionally, restricted thyroid metabolism can lead to chronic cold hands and feet.</li><li><b>Pica (Unusual Cravings):</b> A classic, distinct behavioral symptom of advanced iron deficiency is pica—the compelling craving to chew or ingest non-nutritive substances such as ice, clay, chalk, or dirt.</li></ul>",
+    "overdoseHtml": "Because the human body lacks a controlled physiological mechanism to excrete excess iron, iron levels must be managed with extreme care. While excess iron from natural whole foods is rare due to intestinal regulation, high-dose isolated supplements or underlying genetic disorders can cause rapid, highly dangerous iron accumulation.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults and adolescents, the absolute UL for iron is established at 45 mg per day from all sources to protect against severe gastrointestinal injury and systemic overload.</li></ul><b>Critical Health Considerations</b><br>Excessive iron exposure demands precise clinical awareness due to its ability to drive massive oxidative tissue damage:<ul><li><b>Acute Toxicity (Emergency Warning):</b> Accidental ingestion of concentrated iron supplements is a leading cause of fatal poisoning in young children. Doses exceeding 20–60 mg/kg can cause severe acute symptoms, including hemorrhagic vomiting, bloody diarrhea, severe abdominal pain, liver failure, metabolic acidosis, and cardiovascular collapse. Keep all iron supplements strictly out of reach of children.</li><li><b>Hemochromatosis (Genetic Iron Overload):</b> Hereditary hemochromatosis is a common genetic metabolic disorder where the body loses its ability to regulate iron absorption, causing the gut to continually absorb massive amounts of dietary iron. This excess iron deposits directly into vital organs, leading to cellular scarring and tissue failure. Untreated hemochromatosis causes liver cirrhosis, heart failure (cardiomyopathy), hyperpigmentation ('bronze diabetes'), and severe joint destruction.</li><li><b>Gastrointestinal Side Effects:</b> High-dose isolated oral iron supplements (such as ferrous sulfate) frequently irritate the digestive lining, causing acute side effects like dark or black stools, severe constipation, abdominal cramping, nausea, and heartburn. Switching to gentle chelated forms like iron bisglycinate can minimize these symptoms.</li><li><b>Systemic Oxidative Stress:</b> Excess free iron acts as a potent pro-oxidant, driving the Fenton reaction to generate massive amounts of destructive hydroxyl free radicals. This process damages lipid membranes, cell walls, and DNA, contributing to chronic low-grade vascular inflammation.</li></ul>"
+  },
+  "zinc": {
+    "slug": "zinc",
+    "title": "Zinc",
+    "category": "Nutrients/minerals",
+    "description": "Zinc is an essential trace mineral indispensable for human survival, second only to iron in its concentration within the body. Unlike some minerals that serve a primary single purpose, zinc is a cellular multi-tasker distributed across skeletal muscle, bones, the liver, and the prostate gland. It functions as an obligatory catalytic or structural component for more than 300 distinct enzymes. Because the human body lacks a specialized specialized storage system for zinc, regular and consistent dietary intake is required to maintain physiological equilibrium.",
+    "keyFunctionsHtml": "Zinc acts as a master biological regulator governing genetic expression, immune defenses, cellular repair, and hormonal pathways:<ul><li><b>Immune Cascade Activation:</b> Zinc is essential for the healthy development and function of immune cells, including neutrophils, natural killer cells, and T-lymphocytes. It stabilizes cell membranes to keep pathogens out and regulates internal signaling to coordinate a balanced response against viral and bacterial invaders.</li><li><b>Genetic Transcription & Structural Integrity (Zinc Fingers):</b> It acts as a structural stabilizer for thousands of proteins known as 'zinc finger proteins.' These unique structures allow transcription factors to bind smoothly to DNA, controlling the replication of cells, transcription of RNA, and expression of genes required for tissue growth and repair.</li><li><b>Accelerated Wound Healing & Protein Synthesis:</b> It serves as a necessary cofactor for metalloproteinases and collagen-synthesizing enzymes. Proper zinc status accelerates cellular proliferation and re-epithelialization, enabling the body to repair cuts, skin damage, and vascular tissue efficiently.</li><li><b>Endocrine & Testosterone Homeostasis:</b> Zinc is highly concentrated within the endocrine system. It plays a primary role in the synthesis, storage, and release of insulin, and acts as an essential nutrient for testicular health, supporting Leydig cell function to maintain healthy testosterone production and optimal sperm quality.</li><li><b>Neurological Plasticity, Taste, and Smell:</b> It is heavily concentrated within the mossy fiber system of the brain's hippocampus, modulating neurotransmitter release to support memory consolidation and mood stability. Furthermore, zinc is a structural part of gustin, a protein vital for the healthy maturation and operation of taste buds and olfactory receptors.</li><li><b>Potent Antioxidant Protection:</b> Working as an essential structural cofactor for the enzyme Copper-Zinc Superoxide Dismutase (CuZn-SOD), zinc helps neutralize dangerous superoxide free radicals, protecting cellular lipids and delicate cell walls from oxidative stress.</li></ul>",
+    "foodSourcesIntro": "Dietary zinc is widely distributed across the food supply, with animal-based foods providing exceptionally rich, highly bioavailable concentrations, while select plant seeds and legumes offer valuable vegetarian alternatives.",
+    "foodSources": [
+      {
+        "image": "/products/oysters.png",
+        "name": "Oysters"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef / Red Meat"
+      },
+      {
+        "image": "/products/crab.png",
+        "name": "Crab / Lobster"
+      },
+      {
+        "image": "/products/pumpkin-seeds.png",
+        "name": "Pumpkin Seeds"
+      },
+      {
+        "image": "/products/chickpeas.png",
+        "name": "Chickpeas / Garbanzo"
+      },
+      {
+        "image": "/products/cashews.png",
+        "name": "Cashews"
+      },
+      {
+        "image": "/products/hemp-seeds.png",
+        "name": "Hemp Seeds"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/pork-chop.png",
+        "name": "Pork Chops"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Greek Yogurt"
+      }
+    ],
+    "foodSourcesNotesHtml": "Maximizing zinc status requires selecting nutrient-dense sources and managing plant compounds that can interfere with absorption:<ul><li><b>Marine Organisms (The Dense Heavyweights):</b> Oysters are the richest known dietary source of zinc by a massive margin; a single serving can provide several hundred percent of the daily requirement. Crab, lobster, and mussels also offer highly concentrated quantities.</li><li><b>Terrestrial Animal Proteins:</b> Lean beef, bison, lamb, dark chicken meat, and pork chops deliver substantial amounts of highly bioavailable zinc. The amino acids present in these animal proteins form soluble chelates with zinc in the gut, enhancing its overall absorption rate.</li><li><b>Seeds & Nuts:</b> Pumpkin seeds (pepitas), hemp hearts, sesame seeds, and cashews provide rich, accessible plant-based mineral pools alongside healthy fats and fiber.</li><li><b>Legumes & Sprouted Grains:</b> Chickpeas, lentils, black beans, and whole grains contain helpful quantities of zinc. However, their raw bioavailability is limited by phytic acid (phytate), which binds tightly to zinc ions in the intestine. Soaking, sprouting, or fermenting these plant foods helps break down phytates and significantly improves zinc absorption.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for zinc is scaled to biological sex and life stages, with increased requirements during periods of rapid tissue development and growth.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men (19+ years): 11 mg / day</li>\r\n<li>Adult Women (19+ years): 8 mg / day</li>\r\n<li>Pregnant Women: 11 mg / day (Elevated to support rapid fetal tissue growth and placental development).</li>\r\n<li>Lactating Women: 12 mg / day</li>\r\n<li>Vegetarians and Vegans: Because plant-heavy diets are rich in absorption-inhibiting phytates, guidelines suggest aiming for up to 50% more zinc than the standard RDA (~12 to 16.5 mg/day) to ensure adequate systemic levels.</li></ul>\r\n<b>Children & Adolescents (Crucial for avoiding developmental delay)</b>\r\n<ul><li>Infants (7–12 months): 3 mg / day (Sourced via complementary foods alongside milk)</li>\r\n<li>Children (1–3 years): 3 mg / day</li>\r\n<li>Children (4–8 years): 5 mg / day</li>\r\n<li>Adolescents (9–13 years): 8 mg / day</li>\r\n<li>Adolescents (14–18 years): Boys: 11 mg / day | Girls: 9 mg / day</li></ul>",
+    "deficiencyHtml": "A mild to moderate zinc deficiency is common globally, particularly in areas with low access to animal proteins or in populations consuming diets very heavy in unrefined grains. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Compromised Immune Defense & Frequent Illnesses:</b> Inadequate zinc levels quickly stall immune cell activity. This manifests as a higher vulnerability to seasonal colds, persistent respiratory tract infections, and prolonged illness duration.</li><li><b>Delayed Wound Healing & Skin Issues:</b> A lack of zinc impairs the body's ability to synthesize collagen and regenerate cells. This results in slow-healing cuts, rough or dry skin, acne flare-ups, and skin lesions.</li><li><b>Altered Taste and Smell (Hypogeusia):</b> Because zinc is a core structural element of taste signaling proteins, a deficiency causes a noticeable dulling of taste buds and a reduced ability to appreciate complex aromas or food flavors.</li><li><b>Thinning Hair & Alopecia:</b> Zinc supports hair follicle cell structure and repair pathways. Chronic deficiency can lead to structural weakness in hair shafts, resulting in dullness, brittleness, and unexplained hair shedding or localized hair thinning.</li><li><b>Hormonal Disruption & Low Vitality:</b> In men, sub-optimal zinc can lead to reduced testosterone production, lower sperm counts, and decreased physical vitality. In children, severe deficiency can cause stunted physiological growth and delayed sexual maturation.</li><li><b>Cognitive Sluggishness & Variable Mood:</b> Altered neurochemical signaling in the brain can manifest as difficulty focusing, mental fatigue, forgetfulness, and increased emotional irritability.</li></ul>",
+    "overdoseHtml": "Consuming excess zinc through standard whole foods is highly unlikely to cause adverse effects, with the exception of eating massive quantities of raw oysters. However, excessive consumption via high-dose isolated dietary supplements, zinc-containing lozenges, or denture adhesives can quickly cause acute toxicity or long-term mineral imbalances.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults and adolescents, the absolute UL for zinc is established at 40 mg per day from all sources to prevent internal copper depletion and gastrointestinal distress.</li></ul><b>Critical Health Considerations</b><br>Excessive supplemental zinc requires careful monitoring due to its profound impact on other essential trace elements:<ul><li><b>Copper-Induced Deficiency (Severe Long-Term Risk):</b> This is the most significant danger of chronic, high-dose zinc supplementation (typically doses exceeding 50–100 mg/day for several weeks). Excess zinc inside intestinal cells triggers the production of a protein called metallothionein. Metallothionein traps copper ions, preventing them from being absorbed. This leads to a severe secondary copper deficiency, which can cause profound neurological damage (myeloneuropathy, numbness, walking difficulties) and microcytic anemia that mimics iron deficiency.</li><li><b>Acute Gastrointestinal Distress:</b> Consuming large doses of isolated zinc supplements (especially on an empty stomach) frequently causes immediate acute side effects, including nausea, vomiting, sharp abdominal cramping, diarrhea, and a persistent metallic taste in the mouth.</li><li><b>Immune and Lipoprotein Alterations:</b> Ironically, while proper zinc doses support immunity, chronic excessive zinc intake (over 100–150 mg/day) can suppress immune cell function. It can also negatively alter cardiovascular lipid profiles by lowering beneficial HDL cholesterol.</li><li><b>Medication Interactions:</b> Zinc supplements can bind to specific prescription medications in the digestive tract, reducing their absorption. It should be taken at least 2 hours apart from tetracycline and fluoroquinolone antibiotics, as well as penicillamine drugs, to maintain their therapeutic efficacy.</li></ul>"
+  },
+  "copper": {
+    "slug": "copper",
+    "title": "Copper",
+    "category": "Nutrients/minerals",
+    "description": "Copper is an essential trace mineral that serves as a vital biological spark plug, driving electron transport, connective tissue formation, and iron metabolism. Distributed primarily within the skeletal muscle mass, liver, brain, and bones, copper operates as an indispensable structural or catalytic component for a specialized group of enzymes known as cuproenzymes. Because the human body maintains a relatively small, highly reactive pool of copper (around 50 to 120 milligrams total), its absorption and excretion are tightly regulated by the liver and biliary system to maintain metabolic harmony and prevent cellular toxicity.",
+    "keyFunctionsHtml": "Copper coordinates mitochondrial energy generation, cardiovascular tissue elasticity, neurological signaling, and iron mobilization:<ul><li><b>Mitochondrial ATP Energy Generation:</b> Copper is the functional core of cytochrome c oxidase, the terminal enzyme in the mitochondrial electron transport chain. By facilitating the final transfer of electrons to oxygen, it enables the cells to generate Adenosine Triphosphate (ATP), providing the primary energy currency required for all metabolic functions.</li><li><b>Iron Mobilization & Hemoglobin Synthesis:</b> It operates as a vital partner to iron through copper-dependent proteins like ceruloplasmin and hephaestin. These enzymes oxidize iron into its ferrous state, allowing it to bind securely to transferrin for transport to the bone marrow, where it is used to manufacture new red blood cells and hemoglobin.</li><li><b>Connective Tissue & Vascular Elasticity:</b> Copper is an obligatory cofactor for lysyl oxidase, an enzyme responsible for cross-linking collagen and elastin fibers. This process gives structural strength, resilience, and elasticity to blood vessels, heart tissue, bones, joints, and the skin matrix.</li><li><b>Neurotransmitter Synthesis & Brain Homeostasis:</b> The central nervous system relies heavily on copper for the enzyme dopamine beta-hydroxylase, which converts dopamine into norepinephrine. It also helps synthesize and maintain the protective myelin sheath that insulates nerve fibers, ensuring rapid and clear neurological communication.</li><li><b>Melanin Pigmentation Production:</b> It functions as a necessary component of the enzyme tyrosinase, which converts amino acids into melanin. Melanin is the primary pigment responsible for the natural color of human hair, skin, and eyes, while also providing basic photoprotection against ultraviolet radiation.</li><li><b>Superoxide Radical Neutralization:</b> Working as an essential structural partner alongside zinc inside Copper-Zinc Superoxide Dismutase (CuZn-SOD), copper assists in neutralizing destructive superoxide free radicals, protecting cellular membranes, lipids, and DNA from oxidative stress.</li></ul>",
+    "foodSourcesIntro": "Dietary copper is widely distributed across both animal and plant kingdoms, with organ meats, marine life, and unrefined seeds offering exceptionally rich, highly bioavailable concentrations.",
+    "foodSources": [
+      {
+        "image": "/products/beef-liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/oysters.png",
+        "name": "Oysters"
+      },
+      {
+        "image": "/products/dark-chocolate.png",
+        "name": "Dark Chocolate"
+      },
+      {
+        "image": "/products/shiitake-mushrooms.png",
+        "name": "Shiitake Mushrooms"
+      },
+      {
+        "image": "/products/pumpkin-seeds.png",
+        "name": "Pumpkin Seeds"
+      },
+      {
+        "image": "/products/cashews.png",
+        "name": "Cashews"
+      },
+      {
+        "image": "/products/crab.png",
+        "name": "Crab / Lobster"
+      },
+      {
+        "image": "/products/sunflower-seeds.png",
+        "name": "Sunflower Seeds"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/sesame-seeds.png",
+        "name": "Sesame Seeds / Tahini"
+      }
+    ],
+    "foodSourcesNotesHtml": "Fulfilling copper targets is highly efficient when incorporating whole, unrefined foods, though tracking dietary mineral interactions remains important:<ul><li><b>The Exceptional Top Sources:</b> Beef liver and oysters are the most concentrated sources of copper available by a very large margin. A single small serving of beef liver easily exceeds the weekly physiological requirement in a highly absorbable form.</li><li><b>Dark Chocolate & Fungi:</b> High-quality dark chocolate (70% cocoa or greater) and cooked shiitake or portobello mushrooms are outstanding, enjoyable plant-based pools of copper that support daily metabolic demands.</li><li><b>Seeds and Nuts:</b> Pumpkin seeds, sesame seeds (including tahini paste), sunflower seeds, cashews, and almonds are dense reservoirs of copper, which also supply healthy dietary fats and essential fibers.</li><li><b>Legumes & Intact Grains:</b> Lentils, chickpeas, soybeans, and whole grains provide steady, accessible copper options for individuals following vegetarian or vegan diets.</li><li><b>The Zinc Competition Factor:</b> Copper utilizes the same intestinal transport proteins as zinc. Consuming high-dose isolated zinc supplements can trigger the production of compounds that trap copper in the gut lining, blocking its absorption and potentially causing a severe secondary deficiency over time.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for copper is uniform across sexes, but increases during pregnancy and lactation to satisfy the structural demands of expanding tissues and milk production.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men and Women (19+ years): 900 micrograms (mcg) / day (0.9 mg/day)</li>\r\n<li>Pregnant Women: 1,000 mcg / day (1.0 mg/day, scaled up to support fetal circulatory growth and connective tissue architecture).</li>\r\n<li>Lactating Women: 1,300 mcg / day (1.3 mg/day, elevated to ensure optimal copper content in breast milk).</li></ul>\r\n<b>Children & Adolescents (Crucial for supporting vascular elasticity and neurological growth)</b>\r\n<ul><li>Infants (7–12 months): 220 mcg / day (Sourced primarily via balanced complementary foods and milk)</li>\r\n<li>Children (1–3 years): 340 mcg / day</li>\r\n<li>Children (4–8 years): 440 mcg / day</li>\r\n<li>Adolescents (9–13 years): 700 mcg / day</li>\r\n<li>Adolescents (14–18 years): 890 mcg / day</li></ul>",
+    "deficiencyHtml": "A dietary copper deficiency is relatively rare in populations eating balanced whole foods, but can manifest as a severe, progressive clinical condition when triggered by malabsorption, bariatric surgeries, or nutritional imbalances. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Microcytic Anemia & Fatigue:</b> Because copper-dependent enzymes are required to move iron into circulation, a copper deficiency stalls iron distribution. This creates a secondary iron-deficiency anemia, resulting in extreme physical weakness, pale skin, and chronic fatigue that fails to respond to iron supplements.</li><li><b>Neurological Damage & Myeloneuropathy:</b> Advanced copper deficiency damages the spinal cord's pathways and compromises the protective myelin sheath. This causes a clinical condition called copper deficiency myeloneuropathy, which presents as numbness or a pins-and-needles sensation in the hands and feet, unsteadiness when walking, coordination loss, and progressive muscle weakness.</li><li><b>Neutropenia & Weakened Immunity:</b> A lack of copper drastically reduces the production of white blood cells, specifically neutrophils (neutropenia). This cripples the body's primary line of defense against bacterial infections, leading to frequent illnesses and low resistance to pathogens.</li><li><b>Vascular Weakness & Bone Fragility:</b> Because lysyl oxidase relies on copper to build cross-links in collagen and elastin, deficiency impairs the structural integrity of tissues. This can manifest as weakened blood vessels, structural bone thinning (osteoporosis), joint discomfort, and an increased susceptibility to bone fractures.</li><li><b>Premature Hair Graying & Skin Changes:</b> Sub-optimal copper diminishes tyrosinase enzyme activity, halting natural melanin production. This can lead to premature graying of the hair, pale skin spots, and a loss of skin elasticity.</li></ul>",
+    "overdoseHtml": "Consuming excess copper from natural whole foods is rarely toxic for individuals with healthy liver function, as the biliary system efficiently clears excess copper into bile for excretion. However, excessive consumption via contaminated water sources, acidic copper cookware, or high-dose supplements can result in acute or chronic toxicity.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults, the absolute UL for copper is established at 10,000 micrograms (10 mg) per day from all sources to safeguard against liver damage and gastrointestinal distress.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive copper accumulation requires careful clinical monitoring due to its capacity to drive oxidative cell damage:<ul><li><b>Acute Gastrointestinal Toxicity:</b> Ingesting acute, toxic amounts of copper (often from drinking acidic water running through corroded copper pipes or eating food prepared in unlined copper pots) causes immediate irritation to the stomach lining. Symptoms include sudden nausea, severe vomiting (frequently with a blue-green color), sharp abdominal pain, metallic taste, and watery diarrhea.</li><li><b>Chronic Hepatic Accumulation:</b> Chronic over-supplementation or long-term exposure exceeding the UL can overtax the liver's storage proteins. Free copper ions can build up within liver cells, acting as potent pro-oxidants that trigger lipid peroxidation, potentially leading to tissue scarring (cirrhosis) and compromised liver health.</li><li><b>Wilson's Disease (Genetic Metabolic Overload):</b> Wilson's disease is a rare, life-threatening genetic disorder where the body loses its ability to excrete excess copper via bile, causing copper to build up dangerously within the liver, brain, and corneas of the eyes. Untreated Wilson's disease causes severe liver failure, tremors, speech difficulties, psychiatric shifts, and distinct copper colored rings around the iris (Kayser-Fleischer rings). This condition requires lifetime medical management with copper-chelating medications and a strict low-copper diet.</li><li><b>Interactions with Other Trace Elements:</b> Maintaining an appropriate balance between copper and zinc is essential. Just as excess zinc blocks copper absorption, massive, long-term over-supplementation of copper can conversely interfere with zinc utilization, disrupting normal immune and enzymatic cascades.</li></ul>"
+  },
+  "manganese": {
+    "slug": "manganese",
+    "title": "Manganese",
+    "category": "Nutrients/minerals",
+    "description": "Manganese is an essential trace mineral that acts as a vital spark plug for metabolic processing, structural tissue synthesis, and cellular antioxidant protection. Distributed primarily across the liver, pancreas, kidneys, and bone matrix, manganese acts as an irreplaceable catalytic cofactor for an elite group of enzymes known as manganese-dependent metalloenzymes. Because the human body maintains a very small, tightly regulated pool of this mineral (roughly 12 to 20 milligrams total), it balances intestinal absorption and biliary excretion with remarkable precision to support systemic equilibrium.",
+    "keyFunctionsHtml": "Manganese coordinates mitochondrial free radical defense, bone matrix structural development, and macronutrient metabolism:<ul><li><b>Mitochondrial Free Radical Defense:</b> Manganese is the foundational core of Manganese Superoxide Dismutase (Mn-SOD), the primary antioxidant enzyme operating inside the mitochondria. By neutralizing highly destructive superoxide free radicals generated during energy production, Mn-SOD protects mitochondrial DNA and cell walls from severe oxidative stress.</li><li><b>Skeletal Development & Cartilage Integrity:</b> It functions as an obligatory cofactor for glycosyltransferases and prolidase, enzymes required for the synthesis of proteoglycans and collagen. These structural compounds form the rubbery ground substance of joint cartilage and the framework of bone tissue, making manganese essential for skeletal strength and flexibility.</li><li><b>Macronutrient Metabolism & Gluconeogenesis:</b> The body relies on manganese-dependent enzymes like pyruvate carboxylase and phosphoenolpyruvate carboxykinase to drive gluconeogenesis (the creation of glucose from non-carbohydrate sources). It also activates enzymes involved in the metabolism of cholesterol, amino acids, and fatty acids.</li><li><b>Hepatic Ammonia Detoxification:</b> Within the liver's urea cycle, manganese is a necessary cofactor for the enzyme arginase. This enzyme converts highly toxic ammonia—a natural byproduct of protein breakdown—into non-toxic urea, which can be safely filtered and excreted by the kidneys.</li><li><b>Wound Healing & Collagen Synthesis:</b> By activating prolidase, an enzyme that provides the amino acid proline for collagen construction, manganese plays a key role in cellular repair, skin rebuilding, and the healing of physical wounds.</li><li><b>Brain Homeostasis & Neurotransmitter Balance:</b> It is required for the enzyme glutamine synthetase, which converts the excitatory neurotransmitter glutamate into non-toxic glutamine inside brain glial cells, helping to protect the central nervous system from glutamate-induced excitotoxicity.</li></ul>",
+    "foodSourcesIntro": "Manganese is naturally abundant across plant-based food chains, with whole grains, unrefined seeds, nuts, and leafy greens providing rich, highly bioavailable concentrations, while animal products generally contain very little.",
+    "foodSources": [
+      {
+        "image": "/products/oats.png",
+        "name": "Oats / Whole Grains"
+      },
+      {
+        "image": "/products/pumpkin-seeds.png",
+        "name": "Pumpkin Seeds"
+      },
+      {
+        "image": "/products/hazelnuts.png",
+        "name": "Hazelnuts"
+      },
+      {
+        "image": "/products/brown-rice.png",
+        "name": "Brown Rice"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/chickpeas.png",
+        "name": "Chickpeas"
+      },
+      {
+        "image": "/products/black-tea.png",
+        "name": "Black / Green Tea"
+      },
+      {
+        "image": "/products/pineapple.png",
+        "name": "Pineapple"
+      },
+      {
+        "image": "/products/dark-chocolate.png",
+        "name": "Dark Chocolate"
+      }
+    ],
+    "foodSourcesNotesHtml": "Meeting daily manganese goals is straightforward when emphasizing unrefined botanical selections, though tracking specific mineral pairings can maximize efficiency:<ul><li><b>Whole Grains & Ancient Seeds:</b> Whole oats, brown rice, quinoa, and wheat germ are outstanding sources of manganese. A single cup of cooked brown rice or oatmeal can comfortably supply a significant portion of the daily baseline requirement.</li><li><b>Nuts and Seed Powerhouses:</b> Hazelnuts, walnuts, pecans, almonds, pumpkin seeds, and hemp hearts provide dense, highly snackable reservoirs of manganese alongside healthy plant lipids and trace elements.</li><li><b>Legumes & Pods:</b> Lentils, chickpeas, black beans, and soybeans are packed with manganese, serving as core nutrient anchors for individuals following vegetarian or vegan protocols.</li><li><b>Leafy Botanical Ecosystems & Tea:</b> Spinach, kale, Swiss chard, and brewed black or green tea contain high amounts of manganese. The roots of tea plants absorb manganese from the soil efficiently, making a simple cup of tea a notable dietary contributor.</li><li><b>The Iron & Phytate Absorption Balance:</b> Manganese shares intestinal transport pathways with iron. Diets exceptionally rich in non-heme iron or high-dose iron supplements can competitively inhibit manganese uptake. Additionally, raw plant phytic acid can modestly bind manganese in the gut, but standard cooking, soaking, or fermenting helps minimize this effect.</li></ul>",
+    "rdiHtml": "Because clinical data is insufficient to establish a precise Recommended Dietary Allowance (RDA), health organizations define an Adequate Intake (AI) level designed to sustain healthy enzyme saturation and bone architecture.<ul><b>Standard Adults (Adequate Intake Guidelines)</b>\r\n<li>Adult Men (19+ years): 2.3 milligrams (mg) / day</li>\r\n<li>Adult Women (19+ years): 1.8 milligrams (mg) / day</li>\r\n<li>Pregnant Women: 2.0 mg / day (Slightly elevated to support maternal metabolic adjustments and fetal skeletal scaffolding).</li>\r\n<li>Lactating Women: 2.6 mg / day (Elevated to ensure adequate mineral transfer into breast milk).</li></ul>\r\n<b>Children & Adolescents (Essential for tracking proper skeletal expansion and neurological stability)</b>\r\n<ul><li>Infants (7–12 months): 0.6 mg / day (Sourced via milk and early solid foods)</li>\r\n<li>Children (1–3 years): 1.2 mg / day</li>\r\n<li>Children (4–8 years): 1.5 mg / day</li>\r\n<li>Adolescents (9–13 years): Boys: 1.9 mg / day | Girls: 1.6 mg / day</li>\r\n<li>Adolescents (14–18 years): Boys: 2.3 mg / day | Girls: 1.6 mg / day</li></ul>",
+    "deficiencyHtml": "A dietary manganese deficiency is exceptionally rare in humans due to its widespread abundance in plant foods, but can be induced clinically under experimental conditions or manifest during severe intestinal malabsorption. <br></br><b>Major Symptoms & Structural Changes</b><ul><li><b>Impaired Growth & Skeletal Demineralization:</b> Because manganese is necessary for cartilage and bone matrix assembly, a deficiency can alter bone density, lead to skeletal adjustments, and result in slow or stunted growth markers in developing children.</li><li><b>Altered Carbohydrate and Lipid Tolerance:</b> Sub-optimal levels compromise the activity of gluconeogenic and metabolic enzymes, potentially contributing to irregular blood glucose clearance and altered circulating cholesterol profiles.</li><li><b>Dermatological Irritation & Slow Healing:</b> Depleting the prolidase enzyme stalls collagen synthesis. This manifests as a dry, scaly skin rash (transient dermatitis), reduced skin elasticity, and slow or delayed healing of small cuts and abrasions.</li><li><b>Reproductive & Fertility Inefficiencies:</b> Experimental models show that a profound lack of manganese can interfere with normal reproductive tissue maturation, decrease fertility success, and disrupt ovarian or testicular hormonal stability.</li><li><b>Weakened Antioxidant Capacity:</b> A lack of manganese drops the functional activity of Mn-SOD inside mitochondria, leaving delicate cellular machinery more vulnerable to accelerated oxidative cellular strain and aging.</li></ul>",
+    "overdoseHtml": "Consuming excess manganese through standard whole foods carries virtually zero risk of toxicity for individuals with healthy liver and biliary function, as the liver efficiently screens and eliminates excess ions via bile. However, excessive consumption via high-dose isolated supplements, contaminated well water, or occupational inhalation can result in dangerous neurological toxicity.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults, the absolute UL for manganese is established at 11 mg per day from all sources to safeguard against central nervous system disruption and liver over-accumulation.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive manganese exposure demands strict clinical tracking due to its selective vulnerability toward neurological tissues:<ul><li><b>Manganism (Severe Neurological Overload):</b> This is the most dangerous risk of chronic manganese toxicity, traditionally seen in industrial workers (like miners or welders) inhaling toxic manganese dust, or individuals drinking heavily contaminated well water. Excess manganese bypasses normal clearing mechanisms and deposits directly into the brain's basal ganglia. This causes 'manganism,' a progressive neurological disorder that heavily mimics Parkinson's disease, presenting with tremors, muscle rigidity, mask-like facial expressions, a shuffling gait, and emotional volatility.</li><li><b>Hepatic Failure Restrictive Precaution:</b> Because manganese is cleared exclusively through the biliary tract, individuals suffering from advanced liver cirrhosis, hepatitis, or biliary obstruction cannot excrete this mineral properly. This can cause manganese to accumulate rapidly in the blood and brain, meaning these populations must strictly avoid manganese supplements and undergo routine monitoring.</li><li><b>Iron Deficiency Interplay:</b> Individuals suffering from iron-deficiency anemia exhibit up-regulated intestinal transport machinery. Because iron and manganese share these transport mechanisms, an iron-deficient body will inadvertently absorb much higher amounts of dietary manganese, making iron-deficient individuals more susceptible to manganese over-accumulation if exposed to elevated levels.</li><li><b>Gastrointestinal and Mineral Balance:</b> Flooding the gut with excessive supplemental manganese can create competitive interference with other vital divalent minerals consumed in the same timeframe, particularly reducing the optimal absorption of non-heme iron, zinc, and magnesium.</li></ul>"
+  },
+  "iodine": {
+    "slug": "iodine",
+    "title": "Iodine",
+    "category": "Nutrients/minerals",
+    "description": "Iodine is an essential trace mineral required exclusively for the synthesis of thyroid hormones, which act as the master chemical orchestrators of human metabolism, cellular growth, and neurological development. Distributed primarily within the thyroid gland, iodine atoms are captured from blood circulation and chemically bonded onto the structure of the amino acid tyrosine. Because the human body cannot synthesize iodine and maintains only a small systemic reserve, regular dietary intake is mandatory to sustain hormonal equilibrium and prevent metabolic decline.",
+    "keyFunctionsHtml": "Iodine coordinates thyroid hormone synthesis, systemic metabolic rate regulation, and fetal neurodevelopment:<ul><li><b>Thyroid Hormone Synthesis (T4 & T3):</b> The sole physiological function of iodine is to serve as an indispensable building block for thyroid hormones. The thyroid gland combines iodine with tyrosine to produce thyroxine (T4, containing four iodine atoms) and triiodothyronine (T3, containing three iodine atoms), which are released into circulation to manage systemic cellular operations.</li><li><b>Basal Metabolic Rate Regulation:</b> Through the actions of T3 and T4, iodine controls the basal metabolic rate of every living cell. It dictates how efficiently the body converts macronutrients into cellular energy (ATP), regulates core body temperature, and influences resting oxygen consumption.</li><li><b>Fetal Brain & Neurological Development:</b> During pregnancy and early infancy, iodine is crucial for the healthy development of the fetal central nervous system. It drives neuronal proliferation, migration, and the structural myelination of nerve fibers, directly influencing long-term cognitive and behavioral milestones.</li><li><b>Somatic Growth & Tissue Maturation:</b> Iodine-dependent thyroid hormones operate in close synergy with growth hormone to regulate skeletal elongation, muscular development, and cellular maturation across a lifespan.</li><li><b>Cardiovascular Dynamics:</b> Proper iodine levels support optimal cardiovascular function. Thyroid hormones directly modulate heart rate, myocardial contractility, and vascular resistance, ensuring efficient oxygen distribution to tissues.</li></ul>",
+    "foodSourcesIntro": "Because iodine is unevenly distributed across the earth's crust, its concentration in terrestrial foods depends heavily on local soil composition. Marine environments provide the most reliable, dense reservoirs of bioavailable iodine.",
+    "foodSources": [
+      {
+        "image": "/products/seaweed.png",
+        "name": "Seaweed / Kelp / Nori"
+      },
+      {
+        "image": "/products/cod.png",
+        "name": "Cod / Cold-Water Fish"
+      },
+      {
+        "image": "/products/iodized-salt.png",
+        "name": "Iodized Salt"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Greek Yogurt"
+      },
+      {
+        "image": "/products/milk.png",
+        "name": "Whole Milk"
+      },
+      {
+        "image": "/products/shrimp.png",
+        "name": "Shrimp / Seafood"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/tuna.png",
+        "name": "Canned Tuna"
+      },
+      {
+        "image": "/products/prunes.png",
+        "name": "Dried Prunes"
+      }
+    ],
+    "foodSourcesNotesHtml": "Ensuring adequate iodine intake requires incorporating marine foods or utilizing fortified staples, especially in regions far from coastlines:<ul><li><b>Marine Organisms & Sea Vegetables:</b> Seaweeds (such as kelp, kombu, nori, and wakame) are the richest known dietary sources of iodine by a massive margin. A small serving of kelp can deliver several hundred percent of the daily target. Marine fish like cod, haddock, and tuna, along with shrimp, provide highly bioavailable, consistent amounts.</li><li><b>Iodized Table Salt:</b> Introduced as a public health intervention to combat endemic goiter, standard iodized salt provides an accessible, reliable method to satisfy baseline requirements. Note that specialty salts like pink Himalayan, Celtic, or sea salt typically contain very little or no iodine unless explicitly fortified.</li><li><b>Dairy Products & Eggs:</b> Whole milk, Greek yogurt, and cottage cheese are surprisingly rich sources of iodine. This is primarily due to the iodine-enriched feed given to dairy cattle and the sanitizing agents used on milking equipment. Eggs also contain helpful quantities concentrated within the yolk.</li><li><b>The Goitrogen Interaction Factor:</b> Certain raw plant foods contain natural compounds called goitrogens (found in cruciferous vegetables like cabbage, kale, and Brussels sprouts, as well as soy). Goitrogens can interfere with how the thyroid gland processes iodine. However, cooking these foods completely inactivates goitrogens, rendering them perfectly safe.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for iodine is uniform for adult men and women but increases dramatically during pregnancy and lactation to satisfy fetal and infant developmental requirements.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men and Women (19+ years): 150 micrograms (mcg) / day</li>\r\n<li>Pregnant Women: 220 mcg / day (Elevated to account for increased maternal hormone production and fetal transfer).</li>\r\n<li>Lactating Women: 290 mcg / day (A significant clinical increase designed to ensure breast milk delivers sufficient iodine to the nursing infant).</li></ul>\r\n<b>Children & Adolescents (Essential for tracking proper neurological and physical expansion)</b>\r\n<ul><li>Infants (0–12 months): 110 to 130 mcg / day (Adequate Intake sourced via breast milk or formula)</li>\r\n<li>Children (1–8 years): 90 mcg / day</li>\r\n<li>Children (9–13 years): 120 mcg / day</li>\r\n<li>Adolescents (14–18 years): 150 mcg / day</li></ul>",
+    "deficiencyHtml": "Iodine deficiency remains a significant public health concern globally, particularly in geographical regions away from oceans where the soil is depleted of minerals. It manifests as a spectrum of structural and functional thyroid disorders. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Goiter Formation (Thyroid Enlargement):</b> When dietary iodine is insufficient, the pituitary gland releases excessive Thyroid-Stimulating Hormone (TSH) to force the thyroid to work harder. This chronic stimulation causes the thyroid gland to physically swell, creating a visible mass in the neck known as a goiter, which can eventually cause swallowing or breathing difficulties.</li><li><b>Hypothyroidism & Metabolic Sluggishness:</b> Severe deficiency halts adequate T3 and T4 production, triggering clinical hypothyroidism. Symptoms include profound physical fatigue, rapid unexplained weight gain, severe cold intolerance, a sluggish heart rate (bradycardia), dry skin, brittle hair, and chronic constipation.</li><li><b>Cognitive Slowing & Mental Fatigue:</b> A lack of thyroid hormones deprives the brain of basic metabolic stimulation, manifesting as extreme mental fatigue, short-term memory challenges, low focus, depression, and persistent brain fog.</li><li><b>Congenital Hypothyroidism (Severe Maternal Risk):</b> If a pregnant woman suffers from profound iodine deficiency, the fetus is deprived of the hormones required for brain development. This can result in congenital hypothyroidism, characterized by permanent cognitive deficits, stunted physical growth, deaf-mutism, and motor spasticity.</li><li><b>Reproductive Disruption:</b> Chronic sub-optimal iodine status can cause irregular menstrual cycles, ovulatory dysfunction, and increases the clinical risk of miscarriages and stillbirths in pregnant populations.</li></ul>",
+    "overdoseHtml": "Consuming excess iodine naturally through a standard balanced diet is generally safe, but excessive consumption via concentrated kelp supplements, high-dose iodine drops, or specific medical contrast dyes can cause acute toxicity or trigger thyroid dysfunction.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults, the absolute UL for iodine is established at 1,100 micrograms (1.1 mg) per day from all sources to safeguard against thyroid hyper-stimulation and hormonal imbalances.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive iodine exposure demands careful clinical tracking due to its complex, paradoxical effects on thyroid tissue:<ul><li><b>The Wolff-Chaikoff Effect & Hypothyroidism:</b> Paradoxically, a sudden, massive overabundance of supplemental iodine can completely shut down thyroid hormone synthesis. This protective mechanism, known as the Wolff-Chaikoff effect, is usually temporary but can lead to long-term iodine-induced hypothyroidism in sensitive individuals.</li><li><b>Iodine-Induced Hyperthyroidism (Jod-Basedow Phenomenon):</b> In individuals with a pre-existing hidden goiter or autonomous thyroid nodules, a large influx of iodine can act as raw fuel, causing the thyroid to overproduce hormones uncontrollably. This triggers hyperthyroidism (Jod-Basedow phenomenon), manifesting as a rapid heart rate, severe anxiety, heat intolerance, hand tremors, and rapid weight loss.</li><li><b>Acute Toxicity Response:</b> Ingesting highly concentrated elemental iodine or large quantities of supplements can cause immediate gastrointestinal injury. Symptoms include a burning sensation in the mouth and throat, abdominal pain, nausea, vomiting, diarrhea, and a metallic taste.</li><li><b>Autoimmune Thyroiditis Aggravation:</b> High, unregulated supplemental iodine intake can increase the antigenicity of thyroglobulin, potentially triggering or worsening autoimmune thyroid conditions like Hashimoto's thyroiditis or Graves' disease in genetically susceptible individuals.</li></ul>"
+  },
+  "selenium": {
+    "slug": "selenium",
+    "title": "Selenium",
+    "category": "Nutrients/minerals",
+    "description": "Selenium is an essential trace mineral required in microscopic quantities to maintain powerful antioxidant defenses, proper thyroid function, and optimal reproductive health. Rather than acting as an isolated free element, selenium is integrated directly into the genetic code to manufacture a specialized group of proteins known as selenoproteins. Because the human body cannot synthesize selenium and maintains only a small systemic reserve within skeletal muscle and the liver, consistent dietary intake is necessary to preserve cellular health.",
+    "keyFunctionsHtml": "Selenium coordinates cellular antioxidant defense systems, thyroid hormone conversion pathways, and immunological stability:<ul><li><b>Master Antioxidant Defense (Glutathione Peroxidases):</b> Selenium forms the indispensable active catalytic core of glutathione peroxidases (GPx). These vital selenoproteins neutralize destructive hydrogen peroxide and lipid hydroperoxides before they can cause oxidative damage to cellular membranes, lipids, and DNA.</li><li><b>Thyroid Hormone Activation & Conversion:</b> The thyroid gland contains more selenium per gram of tissue than any other organ. Selenium-dependent enzymes called iodothyronine deiodinases are strictly required to convert the inactive thyroid hormone thyroxine (T4) into its biologically active form, triiodothyronine (T3), driving systemic metabolic rate regulation.</li><li><b>Immune Function & Cellular Defense:</b> It enhances the proliferation, maturation, and cytotoxic activity of T-lymphocytes, natural killer cells, and neutrophils, enabling the immune system to coordinate aggressive, efficient responses against viral and bacterial pathogens.</li><li><b>Spermatogenesis & Male Reproductive Integrity:</b> Selenoprotein P and selenoprotein 15 are crucial structural components of the sperm mitochondrial capsule. Proper selenium levels protect sperm from oxidative damage, ensuring optimal structural morphology, flagellar motility, and male fertility.</li><li><b>Heavy Metal Detoxification:</b> Selenium exhibits a natural, high chemical affinity for toxic heavy metals, particularly mercury and cadmium. It binds directly to these toxins in the bloodstream, creating non-toxic, insoluble complexes that can be safely excreted from the body.</li></ul>",
+    "foodSourcesIntro": "Because selenium is absorbed by plants from the earth, its concentration in food depends heavily on local soil geography. Marine life, select seeds, and organ meats offer the most dense, predictable sources.",
+    "foodSources": [
+      {
+        "image": "/products/brazil-nuts.png",
+        "name": "Brazil Nuts"
+      },
+      {
+        "image": "/products/salmon.png",
+        "name": "Salmon"
+      },
+      {
+        "image": "/products/tuna.png",
+        "name": "Yellowfin Tuna"
+      },
+      {
+        "image": "/products/pork-chop.png",
+        "name": "Pork Chops"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef"
+      },
+      {
+        "image": "/products/chicken.png",
+        "name": "Chicken Breast"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/sardines.png",
+        "name": "Sardines"
+      },
+      {
+        "image": "/products/sunflower-seeds.png",
+        "name": "Sunflower Seeds"
+      },
+      {
+        "image": "/products/shiitake-mushrooms.png",
+        "name": "Shiitake Mushrooms"
+      }
+    ],
+    "foodSourcesNotesHtml": "Fulfilling selenium targets requires strategic food choices, as plant levels vary while marine and animal forms remain highly reliable:<ul><li><b>The Exceptional Brazil Nut Matrix:</b> Brazil nuts are the richest known dietary source of selenium by a massive margin. Growing on deep-rooted trees in selenium-dense Amazonian soils, a single Brazil nut can deliver more than 100% of the daily adult requirement. Consuming just 1 to 2 nuts daily is sufficient; eating them in large amounts regularly can cause accidental toxicity.</li><li><b>Marine Organisms & Seafood:</b> Yellowfin tuna, wild salmon, sardines, and shrimp are outstanding, highly bioavailable sources. Selenium in fish often forms complexes with marine mercury, neutralizing the toxin while supplying active mineral pools to the body.</li><li><b>Terrestrial Lean Proteins:</b> Pork chops, lean beef, turkey, and chicken breast offer significant, consistent amounts of selenium bound as selenomethionine within the animal tissue. Whole eggs also provide helpful amounts concentrated in the yolk.</li><li><b>Plant Seeds & Fungi:</b> Sunflower seeds, chia seeds, brown rice, and cooked shiitake mushrooms offer excellent vegan and vegetarian alternatives, provided they are grown in soil with sufficient selenium content.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for selenium is uniform across adult biological sexes, but increases during pregnancy and lactation to satisfy the developmental needs of the fetus and nursing infant.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men and Women (19+ years): 55 micrograms (mcg) / day</li>\r\n<li>Pregnant Women: 60 mcg / day (Slightly elevated to support maternal thyroid adjustments and fetal tissue development).</li>\r\n<li>Lactating Women: 70 mcg / day (Elevated to ensure optimal selenium concentrations are transferred via breast milk).</li></ul>\r\n<b>Children & Adolescents (Essential for supporting growth and antioxidant defenses)</b>\r\n<ul><li>Infants (7–12 months): 20 mcg / day (Adequate Intake)</li>\r\n<li>Children (1–3 years): 20 mcg / day</li>\r\n<li>Children (4–8 years): 30 mcg / day</li>\r\n<li>Adolescents (9–13 years): 40 mcg / day</li>\r\n<li>Adolescents (14–18 years): 55 mcg / day</li></ul>",
+    "deficiencyHtml": "A severe, isolated dietary selenium deficiency is rare in most modern populations, but can surface in regions with profoundly depleted agricultural soil, or in individuals suffering from severe gastrointestinal malabsorption disorders. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Keshan Disease (Cardiomyopathy):</b> Named after a region in China with selenium-depleted soil, Keshan disease is a severe, life-threatening cardiomyopathy. A lack of selenium cripples mitochondrial antioxidant defenses in the heart, making cardiac tissues highly vulnerable to viral infections that cause heart enlargement and heart failure.</li><li><b>Kashin-Beck Disease (Osteoarthropathy):</b> This is a chronic, degenerative bone and joint disease occurring primarily in low-selenium regions. It causes cartilage cell death, manifesting as swollen, painful joints, restricted movement, and stunted physical growth in children.</li><li><b>Altered Thyroid Balance & Slow Metabolism:</b> Sub-optimal levels reduce deiodinase enzyme activity, stalling T4-to-T3 hormone conversion. This can trigger symptoms of hypothyroidism, including unexplained physical fatigue, weight gain, cold intolerance, and brain fog.</li><li><b>Muscle Weakness & Physical Wasting:</b> Because the skeletal muscle mass holds the largest reserve of selenium, severe deficiency can manifest as localized muscle pain, persistent muscle weakness, and proximal wasting.</li><li><b>Weakened Immunity & Reproductive Challenges:</b> Inadequate selenium weakens cellular antioxidant defenses, leaving the body more vulnerable to infections. In men, it can impair sperm motility and compromise fertility markers.</li></ul>",
+    "overdoseHtml": "Consuming excess selenium through standard whole foods is highly unlikely, unless an individual regularly consumes large quantities of Brazil nuts or takes high-dose isolated supplements. Because the margin between therapeutic efficacy and toxicity is narrow, supplemental selenium must be managed carefully.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults and adolescents, the absolute UL for selenium is established at 400 micrograms (mcg) per day from all sources to safeguard against chronic selenosis.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive selenium exposure demands precise management due to its systemic toxicity pathways:<ul><li><b>Selenosis (Chronic Toxicity):</b> Chronic intake exceeding the UL leads to a clinical condition known as selenosis. Early diagnostic signs include a distinct, pungent garlic odor on the breath and a metallic taste in the mouth. As toxicity advances, it causes structural hair brittleness and widespread hair loss (alopecia), white lines or horizontal ridging on the fingernails, brittle nails that easily split or fall off, and skin lesions.</li><li><b>Neurological & Gastrointestinal Distress:</b> Advanced selenosis triggers nervous system damage, manifesting as peripheral numbness, a pins-and-needles sensation in the extremities, hyperreflexia, tremors, and mental fatigue, alongside acute nausea, vomiting, and diarrhea.</li><li><b>Acute Toxic Shock Warning:</b> Ingesting extreme, toxic amounts of selenium (typically from errors in manufacturing concentrated liquid supplements) can drive rapid systemic oxidative stress. This can cause acute respiratory distress syndrome (ARDS), myocardial infarction, severe liver cirrhosis, renal failure, and can be fatal.</li><li><b>Supplements Quality Management:</b> When using supplements, select high-quality forms like selenomethionine or selenium-enriched yeast, which are absorbed more predictably, and strictly adhere to labeled guidelines to prevent accidental over-accumulation.</li></ul>"
+  },
+  "chromium": {
+    "slug": "chromium",
+    "title": "Chromium",
+    "category": "Nutrients/minerals",
+    "description": "Chromium is an essential trace mineral that serves as a critical biochemical optimizer for insulin activity and macronutrient metabolism. Occurring naturally in food and the human body primarily in its trivalent state (Chromium III), this mineral operates as a key component of an oligopeptide complex known as chromodulin. Because the human body requires only microscopic amounts and maintains a very small systemic pool, consistent dietary intake is necessary to assist cells in efficiently extracting energy from circulating blood glucose.",
+    "keyFunctionsHtml": "Chromium coordinates insulin receptor sensitivity, intracellular glucose clearance, and macronutrient metabolic pathways:<ul><li><b>Insulin Receptor Sensitivity Amplification:</b> The primary biological role of chromium is to enhance the signaling efficiency of insulin. When insulin binds to its receptor on a cell wall, chromium drives the binding of chromodulin to the intracellular side of the receptor, amplifying its activity and making cells far more responsive to circulating insulin.</li><li><b>Intracellular Glucose Clearance (GLUT4 Activation):</b> By boosting insulin receptor activity, chromium indirectly accelerates the translocation of GLUT4 transport proteins from inside the cell to the cell membrane. This opens the chemical gates required for glucose to move out of the bloodstream and into skeletal muscle and fat cells to be burned as fuel.</li><li><b>Carbohydrate & Glycogen Homeostasis:</b> Proper chromium status helps maintain stable blood sugar regulation, ensuring efficient carbohydrate disposal after meals and supporting the continuous storage of surplus glucose as glycogen within liver and muscle tissues.</li><li><b>Lipid & Cholesterol Metabolism:</b> It plays an active supportive role in lipid pathways, helping to regulate the hepatic synthesis of cholesterol and fatty acids, which contributes to maintaining balanced circulating lipoprotein profiles.</li><li><b>Protein Synthesis Support:</b> By optimizing insulin function—which is a highly anabolic hormone—chromium indirectly supports the transport of amino acids into muscle tissues, aiding in cellular protein synthesis and lean tissue maintenance.</li></ul>",
+    "foodSourcesIntro": "Chromium is widely distributed across the food supply in minute amounts, with brewer's yeast, whole grains, select lean meats, and spices offering the most reliable, concentrated dietary sources.",
+    "foodSources": [
+      {
+        "image": "/products/brewers-yeast.png",
+        "name": "Brewer's Yeast"
+      },
+      {
+        "image": "/products/broccoli.png",
+        "name": "Broccoli"
+      },
+      {
+        "image": "/products/beef.png",
+        "name": "Lean Beef"
+      },
+      {
+        "image": "/products/grape-juice.png",
+        "name": "Grape Juice (Pure)"
+      },
+      {
+        "image": "/products/oats.png",
+        "name": "Oats / Whole Wheat"
+      },
+      {
+        "image": "/products/turkey.png",
+        "name": "Turkey Breast"
+      },
+      {
+        "image": "/products/black-pepper.png",
+        "name": "Black Pepper"
+      },
+      {
+        "image": "/products/egg.png",
+        "name": "Eggs"
+      },
+      {
+        "image": "/products/apple.png",
+        "name": "Apples"
+      },
+      {
+        "image": "/products/green-beans.png",
+        "name": "Green Beans"
+      }
+    ],
+    "foodSourcesNotesHtml": "Meeting daily chromium metrics relies on consuming unrefined whole foods, as modern industrial processing can heavily deplete this mineral:<ul><li><b>The Traditional Rich Sources:</b> Brewer's yeast is historically recognized as an incredibly dense source of highly bioavailable chromium. Among everyday vegetables, broccoli stands out as an exceptional provider, with a single cup supplying a substantial portion of the daily requirement.</li><li><b>Lean Animal Proteins:</b> Lean beef, turkey breast, and whole eggs offer consistent, highly bioavailable pools of chromium integrated naturally within their organic matrices.</li><li><b>Intact Grains & Spices:</b> Whole oats, unrefined whole wheat, and high-quality black pepper contain rich concentrations. Industrial milling and the refining of grains remove the mineral-dense outer bran and germ layers, erasing up to 80% of their native chromium content.</li><li><b>Pure Fruit Extracts:</b> Unsweetened grape juice and whole apples offer accessible, plant-based trace chromium, which helps balance the fruit's natural sugar delivery.</li><li><b>The Vitamin C Absorption Boost:</b> Consuming chromium-rich foods alongside foods high in Vitamin C (such as citrus fruits or bell peppers) significantly enhances its absorption rate across the intestinal wall, whereas high intakes of simple refined sugars actively increase the excretion of chromium via urine.</li></ul>",
+    "rdiHtml": "Because scientific data is insufficient to establish a precise Recommended Dietary Allowance (RDA), health authorities have set an Adequate Intake (AI) level designed to maintain healthy glucose metabolism and cellular insulin sensitivity.<ul><b>Standard Adults (Adequate Intake Guidelines)</b>\r\n<li>Adult Men (19–50 years): 35 micrograms (mcg) / day</li>\r\n<li>Adult Men (51+ years): 30 micrograms (mcg) / day (Adjusted downward to account for reduced overall caloric intake).</li>\r\n<li>Adult Women (19–50 years): 25 micrograms (mcg) / day</li>\r\n<li>Older Women (51+ years): 20 micrograms (mcg) / day</li>\r\n<li>Pregnant Women: 30 mcg / day (Elevated to support maternal metabolic adaptations and fetal growth).</li>\r\n<li>Lactating Women: 45 mcg / day (Elevated to ensure adequate mineral content is delivered through breast milk).</li></ul>\r\n<b>Children & Adolescents (Essential for tracking proper metabolic pathways and physical growth)</b>\r\n<ul><li>Infants (7–12 months): 5.5 mcg / day (Sourced via complementary foods and milk)</li>\r\n<li>Children (1–3 years): 11 mcg / day</li>\r\n<li>Children (4–8 years): 15 mcg / day</li>\r\n<li>Adolescents (9–13 years): Boys: 25 mcg / day | Girls: 21 mcg / day</li>\r\n<li>Adolescents (14–18 years): Boys: 35 mcg / day | Girls: 24 mcg / day</li></ul>",
+    "deficiencyHtml": "True clinical chromium deficiency is exceedingly rare in individuals consuming a varied diet, but it can surface in patients receiving long-term total parenteral nutrition (TPN) without mineral supplementation, or in populations consuming extreme amounts of refined sugars. <br></br><b>Major Symptoms & Metabolic Changes</b><ul><li><b>Impaired Glucose Tolerance & Insulin Resistance:</b> A lack of chromium reduces chromodulin activity, directly impairing insulin's ability to unlock cell membranes. This causes glucose to accumulate in the bloodstream, resulting in elevated fasting blood sugars and reduced glucose tolerance.</li><li><b>Hyperinsulinemia (Elevated Insulin Levels):</b> To compensate for sluggish receptors, the pancreas is forced to produce and pump out extra insulin. This creates a state of hyperinsulinemia, making it progressively harder for the body to access stored fat for energy.</li><li><b>Unexplained Weight Changes & Increased Blood Lipids:</b> Disrupted insulin signaling impairs the body's ability to process carbohydrates and fats efficiently, which can contribute to altered circulating lipid profiles (such as elevated LDL cholesterol and triglycerides) and unexpected fat accumulation.</li><li><b>Peripheral Neuropathy & Nerve Irritation:</b> In severe, documented cases of long-term depletion, individuals developed peripheral neuropathy. Symptoms include a pins-and-needles sensation, numbness, or burning pain in the hands and feet, combined with coordinate unsteadiness.</li><li><b>Mental Fatigue & Irritability:</b> Because the brain relies on steady glucose delivery for energy, erratic blood sugar fluctuations caused by sub-optimal chromium can manifest as intense mental fatigue, brain fog, variable mood swings, and constant sugar cravings.</li></ul>",
+    "overdoseHtml": "Consuming excess trivalent chromium (Chromium III) through natural whole foods carries virtually zero risk of toxicity, as the intestinal tract absorbs less than 2% of dietary chromium and clears any surplus efficiently. However, massive over-supplementation with isolated industrial compounds or occupational exposure requires careful tracking.<ul><li><b>Tolerable Upper Intake Level (UL):</b> Because documented adverse effects from dietary trivalent chromium are exceptionally rare, health organizations have not established a specific, strict UL. However, caution is advised when using isolated high-dose supplements.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive supplemental chromium demands careful awareness due to its interactions with target organs and medications:<ul><li><b>Chemical Distinction Warning (Trivalent vs. Hexavalent):</b> It is absolutely vital to separate dietary Trivalent Chromium (Chromium III, found in foods and supplements) from Hexavalent Chromium (Chromium VI). Hexavalent chromium is a highly toxic industrial byproduct used in leather tanning and metal plating. It is a dangerous carcinogen and poison that causes severe lung injury, skin ulcers, and organ failure if inhaled or ingested. It is never used in human nutrition.</li><li><b>Renal & Hepatic Stress Precautions:</b> While standard supplemental doses (such as 200–400 mcg/day of chromium picolinate) are generally safe, isolated clinical case reports show that taking extreme, unauthorized daily doses (exceeding 1,000–2,000 mcg/day for months) can cause acute kidney injury (tubular necrosis) and hepatic inflammation in susceptible individuals.</li><li><b>Hypoglycemia Risk with Anti-Diabetic Medications:</b> Because chromium enhances insulin sensitivity, individuals using prescription medications to lower blood sugar (such as exogenous insulin, metformin, or sulfonylureas) must consult their physician before supplementing. Combining high-dose chromium with these drugs can cause an additive effect, potentially dropping blood glucose to dangerously low levels (hypoglycemia).</li><li><b>Interference with Thyroid Medications:</b> Chromium supplements can bind to specific medications in the gut, reducing their therapeutic uptake. For example, it can significantly decrease the absorption of levothyroxine (thyroid hormone replacement), meaning these compounds should be taken at least 4 hours apart.</li></ul>"
+  },
+  "molybdenum": {
+    "slug": "molybdenum",
+    "title": "Molybdenum",
+    "category": "Nutrients/minerals",
+    "description": "Molybdenum is an essential trace mineral required in microscopic quantities to sustain vital biochemical cleanup, genetic processing, and drug metabolism. Distributed primarily within the liver, kidneys, bones, and skin, molybdenum functions exclusively as an indispensable component of an organic cofactor called the molybdenum cofactor (Moco). This unique complex activates four critical enzymes that neutralize toxic sulfur compounds, clear cellular waste, and prevent metabolic stagnation. Because the human body maintains only a minute systemic reserve, consistent dietary intake is necessary to maintain metabolic harmony.",
+    "keyFunctionsHtml": "Molybdenum coordinates toxic sulfite neutralization, purine waste degradation, and hepatic drug detoxification:<ul><li><b>Toxic Sulfite Neutralization (Sulfite Oxidase):</b> Molybdenum is the vital core of the enzyme sulfite oxidase. This crucial enzyme converts toxic sulfites—natural byproducts of sulfur amino acid metabolism and common food preservatives—into harmless sulfates, preventing dangerous neurological accumulation and sulfite-induced cell damage.</li><li><b>Purine Waste Degradation (Xanthine Oxidase):</b> It serves as a necessary cofactor for xanthine oxidase, an enzyme responsible for breaking down purines (compounds found in DNA and certain foods) into uric acid. This process allows the body to safely clear cellular waste through the kidneys, though its activity must remain balanced to prevent excessive uric acid buildup.</li><li><b>Hepatic Drug and Toxin Detoxification:</b> Through the enzymes aldehyde oxidase and mitochondrial amidoxime reducing component (mARC), molybdenum plays an active role in Phase I liver detoxification. These pathways metabolize environmental chemicals, clear heterocyclic amines, and process specific pharmaceutical drugs, converting them into benign, excretable forms.</li><li><b>Iron Mobilization Support:</b> Xanthine oxidase also helps liberate iron from its storage form (ferritin) in the liver, indirectly supporting healthy iron distribution and the continuous production of hemoglobin.</li></ul>",
+    "foodSourcesIntro": "Because molybdenum is absorbed by plant roots directly from the earth, its concentration in food varies significantly based on local soil geography. Legumes, unrefined grains, and nuts provide the most dense, reliable sources.",
+    "foodSources": [
+      {
+        "image": "/products/black-beans.png",
+        "name": "Black Beans / Legumes"
+      },
+      {
+        "image": "/products/lentils.png",
+        "name": "Lentils"
+      },
+      {
+        "image": "/products/oats.png",
+        "name": "Oats / Whole Grains"
+      },
+      {
+        "image": "/products/chickpeas.png",
+        "name": "Chickpeas"
+      },
+      {
+        "image": "/products/beef-liver.png",
+        "name": "Beef Liver"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/milk.png",
+        "name": "Whole Milk"
+      },
+      {
+        "image": "/products/almonds.png",
+        "name": "Almonds / Nuts"
+      },
+      {
+        "image": "/products/potatoes.png",
+        "name": "Potatoes"
+      },
+      {
+        "image": "/products/yogurt.png",
+        "name": "Greek Yogurt"
+      }
+    ],
+    "foodSourcesNotesHtml": "Meeting daily molybdenum targets is highly efficient when emphasizing unrefined botanical selections, as plant staples naturally concentrate this trace mineral:<ul><li><b>The Elite Legume Family:</b> Black beans, lentils, lima beans, chickpeas, and soybeans are the richest known dietary sources of molybdenum by a massive margin. A single serving of cooked lentils or black beans can comfortably supply several hundred percent of the daily baseline requirement.</li><li><b>Unrefined Whole Grains:</b> Whole oats, brown rice, barley, and whole wheat germ contain rich concentrations. Industrial milling and the heavy processing of grains remove the mineral-dense outer bran layers, significantly lowering their native molybdenum content.</li><li><b>Organ Meats & Concentrated Dairy:</b> Beef liver and kidneys offer consistent, highly bioavailable pools of molybdenum integrated naturally within animal tissue matrices. Whole milk and plain Greek yogurt also provide helpful amounts, reflecting the mineral content of the feed consumed by dairy cattle.</li><li><b>Leafy Greens & Nuts:</b> Spinach, almonds, walnuts, and white potatoes provide excellent plant-based alternatives, contributing steady amounts to daily trace mineral pools independently of animal proteins.</li></ul>",
+    "rdiHtml": "The Recommended Dietary Allowance (RDA) for molybdenum is uniform across adult biological sexes but increases during pregnancy and lactation to satisfy the structural and metabolic demands of the growing fetus and nursing infant.<ul><b>Standard Adults (Recommended Dietary Allowance)</b>\r\n<li>Adult Men and Women (19+ years): 45 micrograms (mcg) / day</li>\r\n<li>Pregnant Women: 50 mcg / day (Slightly elevated to support maternal metabolic adaptations and fetal cellular growth).</li>\r\n<li>Lactating Women: 50 mcg / day (Elevated to ensure adequate mineral transfer into breast milk).</li></ul>\r\n<b>Children & Adolescents (Essential for supporting enzymatic development and physical growth)</b>\r\n<ul><li>Infants (7–12 months): 3 mcg / day (Adequate Intake sourced via milk and early complementary foods)</li>\r\n<li>Children (1–3 years): 17 mcg / day</li>\r\n<li>Children (4–8 years): 22 mcg / day</li>\r\n<li>Adolescents (9–13 years): 34 mcg / day</li>\r\n<li>Adolescents (14–18 years): 43 mcg / day</li></ul>",
+    "deficiencyHtml": "A dietary molybdenum deficiency is extraordinarily rare in humans due to its abundance in common plant foods, but it can manifest as a severe genetic disorder or be induced clinically during long-term unsupplemented intravenous feeding. <br></br><b>Major Symptoms & Clinical Impact</b><ul><li><b>Sulfite Toxicity & Neurological Irritation:</b> Inadequate molybdenum halts sulfite oxidase activity, allowing toxic sulfites to build up in tissues. This can trigger severe adverse reactions, manifesting as rapid heart rates (tachycardia), mental confusion, headaches, and heightened sensitivity to sulfite-preserved foods.</li><li><b>Molybdenum Cofactor Deficiency (Genetic Disorder):</b> This is a rare, life-threatening genetic mutation where infants are born unable to synthesize the molybdenum cofactor. Without working enzymes, toxic metabolic waste accumulates rapidly in the brain, leading to severe intractable seizures, neurological decay, structural brain deformities, and failure to thrive.</li><li><b>Altered Uric Acid Clearance:</b> Sub-optimal levels reduce xanthine oxidase activity, dropping blood and urinary uric acid levels to abnormally low baselines, which impairs normal purine metabolic disposal.</li><li><b>Physical Lethargy & Night Blindness:</b> Clinical symptoms observed during long-term nutritional depletion include severe physical fatigue, emotional irritability, and, in some cases, night blindness or visual disturbances related to altered sulfur and amino acid clearance.</li></ul>",
+    "overdoseHtml": "Consuming excess molybdenum through standard whole foods carries virtually zero risk of toxicity for individuals with healthy kidneys, as the renal system filters and excretes any dietary surplus into urine with incredible efficiency. However, excessive consumption via high-dose isolated supplements or occupational mining exposure can cause metabolic imbalances.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For healthy adults and adolescents, the absolute UL for molybdenum is established at 2,000 micrograms (2 mg) per day from all sources to safeguard against copper depletion and joint discomfort.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive molybdenum exposure demands careful clinical awareness due to its distinct interactions with other trace minerals and uric acid pathways:<ul><li><b>Copper-Induced Deficiency Risk:</b> High doses of molybdenum can interact with copper in the gastrointestinal tract and blood, forming stable complexes that inhibit copper absorption and accelerate its excretion. Taking massive, unregulated molybdenum supplements over extended periods can trigger a secondary copper deficiency, potentially leading to microcytic anemia and neurological changes.</li><li><b>Hyperuricemia and Gout-Like Symptoms:</b> Because molybdenum stimulates xanthine oxidase, chronic over-supplementation can accelerate the conversion of purines into uric acid. This can elevate circulating uric acid levels (hyperuricemia), potentially causing painful uric acid crystals to deposit in joints, mimicking the swelling, stiffness, and severe discomfort of classic gout.</li><li><b>Renal Function Precaution:</b> Individuals suffering from chronic kidney disease (CKD) or impaired kidney filtration cannot clear excess trace minerals safely. These populations must strictly avoid high-dose multi-mineral supplements containing molybdenum to prevent accidental systemic accumulation.</li><li><b>Competitive Mineral Interference:</b> Flooding the digestive tract with excessive supplemental molybdenum can create competitive transport interference, modestly altering the optimal absorption of other vital trace elements consumed within the same timeframe.</li></ul>"
+  },
+  "fluoride": {
+    "slug": "fluoride",
+    "title": "Fluoride",
+    "category": "Nutrients/minerals",
+    "description": "Fluoride is an essential trace mineral that serves as a localized structural shield for the human skeletal and dental systems. Found primarily concentrated within bones and developing teeth, fluoride operates by replacing weak mineral ions in structural crystalline matrices to form exceptionally resilient, acid-resistant mineral barriers. Because the human body maintains only a tight structural pool bound inside calcified tissues, consistent exposure—primarily through drinking water, seafood, and dental applications—is necessary to sustain enamel integrity and slow skeletal mineral decay.",
+    "keyFunctionsHtml": "Fluoride coordinates dental enamel remineralization, structural acid resistance, and skeletal matrix stability:<ul><li><b>Dental Enamel Remineralization:</b> Fluoride works locally in the oral cavity to accelerate the remineralization of damaged tooth enamel. It draws ambient calcium and phosphate ions from saliva back into the microscopic structural gaps of weakened teeth, reversing early stages of tooth decay before cavities can physically form.</li><li><b>Fluorapatite Synthesis (Acid Resistance):</b> It chemically transforms the primary structural mineral of teeth, transforming weak hydroxyapatite into a highly resilient compound known as fluorapatite. Fluorapatite has a significantly lower chemical solubility point, allowing teeth to resist demineralization from acidic foods and bacterial waste.</li><li><b>Inhibition of Cariogenic Oral Bacteria:</b> Fluoride acts as a mild metabolic inhibitor against harmful oral bacteria like Streptococcus mutans. By disrupting the internal enzyme pathways of these bacteria, it directly reduces their ability to ferment dietary sugars and pump out tooth-corroding acids.</li><li><b>Skeletal Matrix Density & Bone Stability:</b> Within the skeletal architecture, fluoride stimulates osteoblast proliferation (the cells responsible for building bone). It integrates into the crystalline structure of the skeleton, helping to maintain structural bone mass and reinforcing the framework of deep skeletal tissues.</li></ul>",
+    "foodSourcesIntro": "Unlike other trace minerals, fluoride intake is driven primarily by water chemistry, prepared beverages, and marine organisms that naturally absorb minerals from seawater.",
+    "foodSources": [
+      {
+        "image": "/products/fluoridated-water.png",
+        "name": "Fluoridated Water"
+      },
+      {
+        "image": "/products/black-tea.png",
+        "name": "Black / Green Tea"
+      },
+      {
+        "image": "/products/sardines.png",
+        "name": "Sardines / Canned Fish"
+      },
+      {
+        "image": "/products/shrimp.png",
+        "name": "Shrimp / Seafood"
+      },
+      {
+        "image": "/products/coffee.png",
+        "name": "Brewed Coffee"
+      },
+      {
+        "image": "/products/grape-juice.png",
+        "name": "Grape Juice"
+      },
+      {
+        "image": "/products/potatoes.png",
+        "name": "Russet Potatoes"
+      },
+      {
+        "image": "/products/oatmeal.png",
+        "name": "Oatmeal"
+      },
+      {
+        "image": "/products/crab.png",
+        "name": "Crab Meat"
+      },
+      {
+        "image": "/products/raisins.png",
+        "name": "Raisins"
+      }
+    ],
+    "foodSourcesNotesHtml": "Securing adequate fluoride relies heavily on liquid intake and specific cooking preparations, as standard terrestrial agricultural plant levels are typically nominal:<ul><li><b>The Primary Hydration Vehicle:</b> Community fluoridated drinking water is the most reliable and consistent source of fluoride globally. Foods prepared using fluoridated water (such as soups, stews, and commercial baked goods) automatically absorb and carry this trace element into the diet.</li><li><b>The Tea Plant Accumulator:</b> Black and green tea leaves are exceptional natural accumulators of fluoride, pulling it continuously from the soil. A single cup of brewed black tea can deliver a notable portion of the daily baseline requirement.</li><li><b>Marine Food Intact Bones:</b> Canned sardines, pink salmon, and small marine organisms consumed with their soft, edible bones provide a highly concentrated source of structural fluoride, along with clean shrimp and crab meat.</li><li><b>The Grape and Soil Factor:</b> Commercial grape products like pure grape juice and raisins frequently exhibit elevated fluoride concentrations, reflecting both soil uptake and agricultural washing practices.</li><li><b>The Topical Application Distinction:</b> While swallowing systemic dietary fluoride supports developing teeth in children, adults receive the vast majority of their dental protection from topical contact with fluoridated toothpastes and mouthwashes rather than internal digestion.</li></ul>",
+    "rdiHtml": "Because precise scientific data is insufficient to establish a formal Recommended Dietary Allowance (RDA), health organizations define an Adequate Intake (AI) level calculated to provide maximum protection against dental cavities without causing cosmetic enamel modifications.<ul><b>Standard Adults (Adequate Intake Guidelines)</b>\r\n<li>Adult Men (19+ years): 4.0 milligrams (mg) / day</li>\r\n<li>Adult Women (19+ years): 3.0 milligrams (mg) / day</li>\r\n<li>Genetic or Biological Adjustments: The AI remains static at 3.0 mg/day during pregnancy and lactation, as maternal fluoride transfer across the placenta is tightly restricted, and fluoride content in human breast milk remains naturally low.</li></ul>\r\n<b>Children & Adolescents (Critical for reinforcing structural enamel as adult teeth develop)</b>\r\n<ul><li>Infants (0–6 months): 0.01 mg / day (Sourced primarily via natural breast milk)</li>\r\n<li>Infants (7–12 months): 0.5 mg / day</li>\r\n<li>Children (1–3 years): 0.7 mg / day</li>\r\n<li>Children (4–8 years): 1.0 mg / day</li>\r\n<li>Adolescents (9–13 years): 2.0 mg / day</li>\r\n<li>Adolescents (14–18 years): 3.0 mg / day</li></ul>",
+    "deficiencyHtml": "A systemic lack of fluoride does not cause an immediate metabolic failure, but it compromises the structural resilience of calcified tissues, leading to a significant increase in dental vulnerability. <br></br><b>Major Symptoms & Structural Vulnerabilities</b><ul><li><b>Accelerated Dental Caries (Cavities):</b> A lack of fluoride deprives teeth of the acid-resistant fluorapatite layer. This leaves enamel highly vulnerable to bacterial acids, accelerating demineralization and causing a significant spike in tooth decay, painful structural cavities, and subsequent root infections.</li><li><b>Weakened Tooth Enamel Structural Integrity:</b> Without ambient fluoride to catalyze remineralization from saliva, tooth surfaces experience slow, unmitigated wear. This manifests as increased tooth sensitivity, brittle enamel prone to chipping, and rapid structural erosion.</li><li><b>Potential Skeletal Demineralization Risk:</b> While less clinically pronounced than dental impacts, long-term absence of trace fluoride exposure can reduce the optimal stimulation of bone-building osteoblast pathways, potentially acting as a minor contributing factor to reduced bone mineral density in aging populations.</li></ul>",
+    "overdoseHtml": "Consuming excess fluoride through standard whole foods is rare, but chronic ingestion of high levels via unmonitored natural well water, infant formulas mixed with high-fluoride water, or swallowing concentrated dental products can cause toxicity.<ul><li><b>Tolerable Upper Intake Level (UL):</b> For adults and adolescents over 14, the absolute UL for fluoride is set at 10 milligrams (10 mg) per day from all sources to safeguard against bone stiffness and dental structural changes.</li></ul><b>Critical Health & Medical Considerations</b><br>Excessive fluoride accumulation demands clinical tracking due to its structural affinity for calcified frameworks:<ul><li><b>Dental Fluorosis (Cosmetic & Structural Modification):</b> Chronic over-ingestion of fluoride during the critical tooth-forming years (specifically under age 8) causes dental fluorosis. In mild cases, this presents as harmless pearly white streaks on the teeth. In severe cases resulting from high-fluoride well water, the enamel structure becomes disrupted, manifesting as widespread brown staining, pitting, and structural brittleness. Once teeth have erupted, adults cannot develop dental fluorosis.</li><li><b>Skeletal Fluorosis (Advanced Systemic Overload):</b> This is a serious, debilitating bone condition triggered by decades of drinking water containing extremely high natural fluoride levels or long-term workplace inhalation. Excess fluoride builds up in bones over time, causing thick bone overgrowths, severe joint stiffness, calcification of spinal ligaments, chronic bone pain, and an increased risk of structural fractures.</li><li><b>Acute Toxicity Response:</b> Accidentally swallowing large, concentrated amounts of dental products (such as an entire tube of fluoridated toothpaste) can cause immediate, acute gastrointestinal distress. Symptoms include severe abdominal burning, nausea, vomiting, hypersalivation, and diarrhea, requiring immediate medical evaluation.</li><li><b>Water Filtration & Preparation Monitoring:</b> Families utilizing deep private well water should undergo regular water mineral testing. If natural fluoride levels exceed recommended public safety thresholds, specialized filtration (such as reverse osmosis or distillation) should be implemented to protect developing children from over-exposure.</li></ul>"
   }
 }
