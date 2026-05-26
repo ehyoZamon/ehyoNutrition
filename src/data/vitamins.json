@@ -514,5 +514,53 @@
     "image": "F",
     "favorite": false,
     "link": "/vitamininfo/fluoride"
+  },
+  {
+    "id": 44,
+    "name": "Fiber",
+    "category": "carbohydrates",
+    "group": "dietary fiber",
+    "dailyValue": 28,
+    "unit": "g",
+    "benefit": "Supports digestive health, helps regulate blood sugar levels, promotes satiety, and supports heart health",
+    "image": "Fib",
+    "favorite": false,
+    "link": "/vitamininfo/fiber"
+  },
+  {
+    "id": 45,
+    "name": "Creatine",
+    "category": "performance-compounds",
+    "group": "amino acid derivatives",
+    "dailyValue": 5,
+    "unit": "g",
+    "benefit": "Supports muscle strength, energy production during high-intensity exercise, and athletic performance",
+    "image": "Cr",
+    "favorite": false,
+    "link": "/vitamininfo/creatine"
+  },
+  {
+    "id": 46,
+    "name": "Probiotics",
+    "category": "digestive-health",
+    "group": "beneficial bacteria",
+    "dailyValue": "no official RDA",
+    "unit": "",
+    "benefit": "Supports gut health, digestion, immune function, and helps maintain a healthy balance of intestinal bacteria",
+    "image": "Pro",
+    "favorite": false,
+    "link": "/vitamininfo/probiotics"
+  },
+  {
+    "id": 47,
+    "name": "Antioxidants",
+    "category": "phytonutrients",
+    "group": "protective compounds",
+    "dailyValue": 0,
+    "unit": "mg",
+    "benefit": "Helps protect cells from oxidative stress, supports immune health, and may reduce damage caused by free radicals",
+    "image": "AOX",
+    "favorite": false,
+    "link": "/vitamininfo/antioxidants"
   }
 ]

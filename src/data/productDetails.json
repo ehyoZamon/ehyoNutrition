@@ -353,7 +353,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "2.8 grams",
         "bg": "#f5722c",
         "description": "Contains a surprisingly robust plant-based protein profile for a green vegetable, supplying clean essential amino acids for tissue repair."
@@ -361,7 +361,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.4 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, cooking or serving it with a splash of healthy lipids drastically increases the absorption of its fat-soluble vitamins."
@@ -369,7 +369,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "6.6 grams",
         "bg": "#15837c",
         "description": "Composed of slow-digesting complex carbohydrates tightly wrapped in rigid plant fiber structures, keeping blood sugar curves completely flat."
@@ -461,7 +461,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.9 grams",
         "bg": "#f5722c",
         "description": "Minimal; contains trace structural amino acids necessary for plant protein structures."
@@ -469,7 +469,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Negligible; mostly composed of essential polyunsaturated fatty acids."
@@ -477,7 +477,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "9.6 grams",
         "bg": "#15837c",
         "description": "Split between naturally occurring simple sugars (sucrose, glucose) and structural complex carbohydrates."
@@ -485,7 +485,7 @@
       {
         "id": "dietfiber",
         "name": "Dietary Fiber",
-        "slug": "",
+        "slug": "dietary-fiber",
         "amount": "2.8 grams",
         "bg": "#f5722c",
         "description": "Rich in soluble pectin and insoluble cellulose that optimize digestion and support gut microbiota."
@@ -576,7 +576,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "3.2 grams",
         "bg": "#f5722c",
         "description": "Contains a notable amount of plant proteins for a vegetable, including zein, though it should be paired with legumes for a complete amino profile."
@@ -584,7 +584,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "1.2 grams",
         "bg": "#e4a910",
         "description": "Naturally very low in fat, containing trace heart-healthy monounsaturated and polyunsaturated fatty acids within the grain germ."
@@ -592,7 +592,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "19.0 grams",
         "bg": "#15837c",
         "description": "Primarily composed of complex starches and natural simple sugars, offering structured energy management to prevent rapid glucose spikes."
@@ -684,7 +684,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "11.1 grams",
         "bg": "#f5722c",
         "description": "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
@@ -692,7 +692,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "4.3 grams",
         "bg": "#e4a910",
         "description": "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
@@ -700,7 +700,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "3.4 grams",
         "bg": "#15837c",
         "description": "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
@@ -792,7 +792,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "6.3 grams",
         "bg": "#f5722c",
         "description": "High-quality, bioavailable protein containing all nine essential amino acids. Essential for muscle repair, cellular construction, and immune function."
@@ -800,7 +800,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "4.8 grams",
         "bg": "#e4a910",
         "description": "Includes healthy monounsaturated and polyunsaturated fats, alongside essential fatty acids, vital for hormone production and absorbing fat-soluble vitamins."
@@ -808,7 +808,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.4 grams",
         "bg": "#15837c",
         "description": "Extremely low in carbs, making eggs an excellent choice for stabilizing blood sugar and supporting low-glycemic dietary targets."
@@ -908,7 +908,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "22.0 grams",
         "bg": "#f5722c",
         "description": "An elite, highly bioavailable complete protein source containing all essential amino acids required for muscle synthesis and metabolic repair."
@@ -916,7 +916,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "13.0 grams",
         "bg": "#e4a910",
         "description": "Rich in vital polyunsaturated fats, specifically the anti-inflammatory omega-3 fatty acids EPA and DHA."
@@ -924,7 +924,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Completely clear of carbohydrates, making it an ideal whole food for stabilizing insulin and supporting low-glycemic dietary goals."
@@ -933,7 +933,7 @@
     "microNutrients": [
       {
         "id": "omega3",
-        "slug": "omega-3",
+        "slug": "alpha-linolenic-acid",
         "name": "Omega-3 (EPA/DHA)",
         "amount": "2200 mg",
         "bg": "#e4a910",
@@ -1016,7 +1016,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.1 grams",
         "bg": "#f5722c",
         "description": "Contains nominal structural plant proteins, though it is famous for housing actinidin—a unique protein-digesting enzyme."
@@ -1024,7 +1024,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.5 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, containing only trace healthy essential fatty acids embedded within its microscopic black edible seeds."
@@ -1032,7 +1032,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "14.7 grams",
         "bg": "#15837c",
         "description": "Composed of natural simple sugars managed efficiently by structural dietary fibers, resulting in a moderate glycemic response."
@@ -1081,7 +1081,7 @@
       },
       {
         "id": "lutein",
-        "slug": "lutein-zeaxanthin",
+        "slug": "lutein",
         "name": "Lutein & Zeaxanthin",
         "amount": "122 mcg",
         "bg": "#66ab63",
@@ -1124,7 +1124,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "3.1 grams",
         "bg": "#f5722c",
         "description": "Surprisingly high in protein for a non-animal source; contains a balanced profile of essential building-block amino acids."
@@ -1132,7 +1132,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, containing only trace levels of healthy unsaturated fatty acids and absolutely zero cholesterol."
@@ -1140,7 +1140,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "3.3 grams",
         "bg": "#15837c",
         "description": "Primarily made of complex structural carbohydrates and fibers, generating a negligible impact on systemic blood sugar levels."
@@ -1232,7 +1232,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.0 grams",
         "bg": "#f5722c",
         "description": "Minimal protein content; provides trace non-essential amino acids standard in cucurbitaceous plants."
@@ -1240,7 +1240,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an excellent base for heart-healthy and low-fat dietary regimes."
@@ -1248,7 +1248,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "6.5 grams",
         "bg": "#15837c",
         "description": "Composed of complex carbohydrates and natural sugars, yielding a low glycemic load that keeps insulin spikes minimal."
@@ -1289,7 +1289,7 @@
       },
       {
         "id": "lutein",
-        "slug": "lutein-zeaxanthin",
+        "slug": "lutein",
         "name": "Lutein & Zeaxanthin",
         "amount": "1500 mcg",
         "bg": "#15837c",
@@ -1340,7 +1340,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0 grams",
         "bg": "#f5722c",
         "description": "Contains absolutely zero proteins or soy allergens (in highly refined versions) due to advanced extraction and purification procedures."
@@ -1348,7 +1348,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "100 grams",
         "bg": "#e4a910",
         "description": "A 100% pure lipid matrix, loaded with polyunsaturated and monounsaturated fatty acids that act as premium cellular structural supports."
@@ -1356,7 +1356,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0 grams",
         "bg": "#15837c",
         "description": "Completely devoid of sugars, starches, or dietary fibers, yielding a definitive zero glycemic response."
@@ -1381,7 +1381,7 @@
       },
       {
         "id": "omega6",
-        "slug": "omega-6",
+        "slug": "linolenic-acid",
         "name": "Omega-6 (Linoleic Acid)",
         "amount": "50.9 grams",
         "bg": "#f5722c",
@@ -1389,7 +1389,7 @@
       },
       {
         "id": "omega3",
-        "slug": "omega-3",
+        "slug": "alpha-linolenic-acid",
         "name": "Omega-3 (Alpha-Linolenic Acid)",
         "amount": "6.8 grams",
         "bg": "#66ab63",
@@ -1397,7 +1397,7 @@
       },
       {
         "id": "omega9",
-        "slug": "omega-9",
+        "slug": "oleic-acid",
         "name": "Omega-9 (Oleic Acid)",
         "amount": "22.6 grams",
         "bg": "#e4a910",
@@ -1448,7 +1448,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "2.9 grams",
         "bg": "#f5722c",
         "description": "Contains a remarkably high amino acid efficiency for a leafy green, providing structural support for cellular repair."
@@ -1456,7 +1456,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.4 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, though pairing spinach with healthy dietary lipids dramatically enhances the absorption of its fat-soluble vitamins."
@@ -1464,7 +1464,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "3.6 grams",
         "bg": "#15837c",
         "description": "Composed primarily of structured, non-digestible complex fibers, ensuring a near-zero impact on circulating glucose levels."
@@ -1505,7 +1505,7 @@
       },
       {
         "id": "lutein",
-        "slug": "lutein-zeaxanthin",
+        "slug": "lutein",
         "name": "Lutein & Zeaxanthin",
         "amount": "12198 mcg",
         "bg": "#1a96cd",
@@ -1556,7 +1556,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.7 grams",
         "bg": "#f5722c",
         "description": "Contains nominal structural plant amino acids, typical for delicate low-density soft fruits."
@@ -1564,7 +1564,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
@@ -1572,7 +1572,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "7.7 grams",
         "bg": "#15837c",
         "description": "Primarily made of simple sugars balanced perfectly by dietary fibers, maintaining a highly favorable low glycemic load."
@@ -1664,7 +1664,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0 grams",
         "bg": "#f5722c",
         "description": "Completely free of proteins and amino acids due to the intensive extraction and filtration processes of the seeds."
@@ -1672,7 +1672,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "100 grams",
         "bg": "#e4a910",
         "description": "100% pure dietary lipid matrix, primarily composed of unsaturated fatty acids (oleic and linoleic) that act as essential vehicle carriers for fat-soluble vitamins."
@@ -1680,7 +1680,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0 grams",
         "bg": "#15837c",
         "description": "Contains zero sugars, starches, or dietary fibers, yielding an absolute zero glycemic response."
@@ -1705,7 +1705,7 @@
       },
       {
         "id": "pufa",
-        "slug": "omega-6",
+        "slug": "linolenic-acid",
         "name": "Omega-6 (Linoleic Acid)",
         "amount": "65.7 grams",
         "bg": "#f5722c",
@@ -1713,7 +1713,7 @@
       },
       {
         "id": "mufa",
-        "slug": "omega-9",
+        "slug": "oleic-acid",
         "name": "Omega-9 (Oleic Acid)",
         "amount": "19.5 grams",
         "bg": "#e4a910",
@@ -1772,7 +1772,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "20.8 grams",
         "bg": "#f5722c",
         "description": "Rich in plant-based complete amino acids, providing crucial building blocks for muscle synthesis and cellular tissue repair."
@@ -1780,7 +1780,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "51.5 grams",
         "bg": "#e4a910",
         "description": "Primarily composed of heart-healthy polyunsaturated and monounsaturated fatty acids, essential for optimal hormone production and nutrient transport."
@@ -1788,7 +1788,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "20.0 grams",
         "bg": "#15837c",
         "description": "Contains complex carbohydrates tightly bundled with rich dietary fibers, yielding a highly stable, low-glycemic curve."
@@ -1880,7 +1880,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.8 grams",
         "bg": "#f5722c",
         "description": "Provides basic plant-based amino acids that assist in structural maintenance and cellular repair cascades."
@@ -1888,7 +1888,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, pairing it with clean dietary lipids like olive oil drastically elevates fat-soluble nutrient assimilation."
@@ -1896,7 +1896,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "3.7 grams",
         "bg": "#15837c",
         "description": "Composed mostly of complex structural plant fibers with negligible simple sugars, guaranteeing a flat glycemic response."
@@ -1988,7 +1988,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.9 grams",
         "bg": "#f5722c",
         "description": "Contains modest structural plant proteins, providing minimal trace amino acids necessary for botanical matrices."
@@ -1996,7 +1996,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free; however, consuming tomatoes alongside healthy dietary lipids drastically boosts carotenoid absorption."
@@ -2004,7 +2004,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "3.9 grams",
         "bg": "#15837c",
         "description": "Consists mainly of naturally occurring simple sugars (fructose, glucose) and structural fibers, keeping the glycemic load minimal."
@@ -2096,7 +2096,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "3.2 grams",
         "bg": "#f5722c",
         "description": "An elite complete protein source consisting of 80% casein and 20% whey, delivering all essential amino acids for optimal muscle synthesis and cellular repair."
@@ -2104,7 +2104,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "3.3 grams",
         "bg": "#e4a910",
         "description": "Composed of complex saturated, monounsaturated, and natural trans-fats (CLA) that serve as critical building blocks for cellular membranes and hormone pathways."
@@ -2112,7 +2112,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "4.8 grams",
         "bg": "#15837c",
         "description": "Consists entirely of lactose, a naturally occurring disaccharide sugar that provides steady glycemic energy and assists in intestinal mineral absorption."
@@ -2203,7 +2203,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "21.2 grams",
         "bg": "#f5722c",
         "description": "Rich in plant-based essential amino acids, offering the fundamental structural blocks required for tissue regeneration and muscular preservation."
@@ -2211,7 +2211,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "49.9 grams",
         "bg": "#e4a910",
         "description": "Dominated by heart-healthy monounsaturated oleic acid, which serves as a highly efficient transport vehicle for fat-soluble vitamins."
@@ -2219,7 +2219,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "21.6 grams",
         "bg": "#15837c",
         "description": "Consists largely of slow-burning complex starches tightly bundled with a massive structural fiber matrix, resulting in a minimal glycemic impact."
@@ -2311,7 +2311,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "7.9 grams",
         "bg": "#f5722c",
         "description": "Provides essential amino acid fractions supporting basic cellular tissue repair, enzymatic structural stability, and structural signaling pathways."
@@ -2319,7 +2319,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "75.8 grams",
         "bg": "#e4a910",
         "description": "An unmatched, rich lipid matrix composed almost entirely of premium monounsaturated fatty acids that optimize vascular and neurological health."
@@ -2327,7 +2327,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "13.8 grams",
         "bg": "#15837c",
         "description": "Mainly consisting of complex starches tightly bundled with dietary fibers, yielding an absolute minimal impact on blood glucose fluctuations."
@@ -2419,7 +2419,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "25.8 grams",
         "bg": "#f5722c",
         "description": "An exceptionally high protein distribution for a botanical seed, offering rich pools of arginine and essential building blocks for deep cellular tissue repair."
@@ -2427,7 +2427,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "49.2 grams",
         "bg": "#e4a910",
         "description": "Dominated by oleic acid (monounsaturated) and linoleic acid, providing structural lipids that preserve cellular membrane flexibility and drive fat-soluble absorption."
@@ -2435,7 +2435,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "16.1 grams",
         "bg": "#15837c",
         "description": "Composed primarily of low-glycemic complex carbohydrates bundled within structural fibers, producing a remarkably flat postprandial glucose signature."
@@ -2527,7 +2527,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.1 grams",
         "bg": "#f5722c",
         "description": "Contains trace botanical amino acids that assist in maintaining basic structural enzymatic frameworks."
@@ -2535,7 +2535,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, keeping gastric clearance times exceptionally quick and enabling rapid carbohydrate absorption paths."
@@ -2543,7 +2543,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "22.8 grams",
         "bg": "#15837c",
         "description": "Composed of a dynamic mix of natural simple sugars (sucrose, fructose, glucose) and structured starches that efficiently restock cellular glycogen."
@@ -2635,7 +2635,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "2.0 grams",
         "bg": "#f5722c",
         "description": "Contains high-quality plant proteins, rich in lysine and essential amino acids that boast a surprisingly high biological value for a root vegetable."
@@ -2643,7 +2643,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an excellent base food for keeping total dietary lipid parameters low while maximizing carbohydrate refueling."
@@ -2651,7 +2651,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "17.5 grams",
         "bg": "#15837c",
         "description": "Composed primarily of complex amylose and amylopectin starches alongside prebiotic fibers, engineered for sustainable glucose delivery."
@@ -2743,7 +2743,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.6 grams",
         "bg": "#f5722c",
         "description": "Contains unique functional proteins like *sporamins*, which account for over 80% of its total protein and exhibit significant internal antioxidant properties."
@@ -2751,7 +2751,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, allowing for swift gastric transit while creating an optimal base to pair with healthy external lipids for maximum nutrient absorption."
@@ -2759,7 +2759,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "20.1 grams",
         "bg": "#15837c",
         "description": "Composed of a sophisticated matrix of complex starches, natural maltose fractions, and soluble fibers that prevent aggressive postprandial glucose shifts."
@@ -2851,7 +2851,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.9 grams",
         "bg": "#f5722c",
         "description": "Contains minimal botanical amino acid fractions that support fundamental metabolic enzymatic frameworks."
@@ -2859,7 +2859,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, ensuring exceptionally rapid gastric clearance and immediate utilization of its hydrating micronutrient network."
@@ -2867,7 +2867,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "11.8 grams",
         "bg": "#15837c",
         "description": "Composed of natural simple sugars (sucrose, glucose, fructose) tightly enveloped in structural soluble fibers that modulate absorption curves."
@@ -2884,7 +2884,7 @@
       },
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "30 mcg / 8% DV",
         "bg": "#f5722c",
@@ -2959,7 +2959,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "17.4 grams",
         "bg": "#f5722c",
         "description": "A highly complete, premium animal protein containing all essential amino acids required for rapid muscular repair, enzyme manufacturing, and tissue recovery."
@@ -2967,7 +2967,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "3.1 grams",
         "bg": "#e4a910",
         "description": "An incredibly lean lipid profile with minimal saturated fat, providing just enough structural fat to efficiently transport its rich fat-soluble vitamin stores."
@@ -2975,7 +2975,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Completely free of carbohydrates or starches, ensuring an absolute zero impact on blood glucose fluctuations or insulin shifts."
@@ -3067,7 +3067,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "11.2 grams",
         "bg": "#f5722c",
         "description": "A highly complete marine protein supplying all essential amino acids required for rapid structural muscle synthesis and cell membrane rebuilding."
@@ -3075,7 +3075,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "1.8 grams",
         "bg": "#e4a910",
         "description": "Extremely low in total lipids, but rich in vital Omega-3 polyunsaturated fatty acids (EPA and DHA) that safeguard vascular and neurological tissues."
@@ -3083,7 +3083,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "4.1 grams",
         "bg": "#15837c",
         "description": "Uniquely contains small amounts of natural animal glycogen bound within the delicate muscle tissue, creating a minimal and steady glycemic impact."
@@ -3132,7 +3132,7 @@
       },
       {
         "id": "omega3",
-        "slug": "fatty-acids",
+        "slug": "epa-dha",
         "name": "Omega-3 (EPA/DHA)",
         "amount": "450 mg",
         "bg": "#1a96cd",
@@ -3200,7 +3200,7 @@
     "microNutrients": [
       {
         "id": "omega3",
-        "slug": "fatty-acids",
+        "slug": "epa-dha",
         "name": "Omega-3 (EPA/DHA)",
         "amount": "2018 mg",
         "bg": "#15837c",
@@ -3283,7 +3283,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "8.9 grams",
         "bg": "#f5722c",
         "description": "A robust source of plant-based protein rich in essential amino acids like lysine and arginine, supporting basic lean tissue maintenance and metabolic synthesis."
@@ -3291,7 +3291,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "2.6 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, consisting primarily of healthy polyunsaturated and monounsaturated fatty acids that preserve cellular membrane flexibility."
@@ -3299,7 +3299,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "27.4 grams",
         "bg": "#15837c",
         "description": "Composed of complex amylose starches and dense prebiotic fibers that absorb gradually, completely preventing rapid blood glucose spikes."
@@ -3308,7 +3308,7 @@
     "microNutrients": [
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "172 mcg / 43% DV",
         "bg": "#15837c",
@@ -3391,7 +3391,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.6 grams",
         "bg": "#f5722c",
         "description": "Contains unique fungal amino acid fractions, offering non-animal structural blocks that support basic cellular enzymatic maintenance."
@@ -3399,7 +3399,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, ensuring incredibly rapid gastric clearance and immediate assimilation of its primary medicinal polysaccharides."
@@ -3407,7 +3407,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "14.4 grams",
         "bg": "#15837c",
         "description": "Composed of complex, non-glycemic structural starches tightly bundled with potent medicinal soluble fibers like chitin and beta-glucans."
@@ -3499,7 +3499,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "2.7 grams",
         "bg": "#f5722c",
         "description": "Provides hypoallergenic botanical amino acid fractions, offering basic structural blocks that assist in daily cellular tissue maintenance."
@@ -3507,7 +3507,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "1.0 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, containing high-quality bran oils like gamma-oryzanol that support healthy systemic lipid transport profiles."
@@ -3515,7 +3515,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "25.6 grams",
         "bg": "#15837c",
         "description": "Composed of complex amylose and amylopectin starches tightly bundled with dietary fiber, completely avoiding sharp blood sugar spikes."
@@ -3607,7 +3607,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "26.1 grams",
         "bg": "#f5722c",
         "description": "An elite complete protein source containing a perfect ratio of all essential amino acids to accelerate skeletal muscle synthesis and enzymatic remodeling."
@@ -3615,7 +3615,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "6.8 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, consisting of a balanced mix of heart-healthy monounsaturated oleic acid and necessary saturated structural fats."
@@ -3623,7 +3623,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Completely free of carbohydrates or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
@@ -3672,7 +3672,7 @@
       },
       {
         "id": "creatine",
-        "slug": "amino-acids",
+        "slug": "creatine",
         "name": "Creatine & Carnosine",
         "amount": "High Bioactivity",
         "bg": "#1a96cd",
@@ -3715,7 +3715,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "29.1 grams",
         "bg": "#f5722c",
         "description": "An exceptionally dense, high-caliber complete protein source supplying all essential amino acids required to drive rapid skeletal muscle synthesis and cellular remodeling."
@@ -3723,7 +3723,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.6 grams",
         "bg": "#e4a910",
         "description": "Extremely low in total lipids, yet providing vital traces of long-chain Omega-3 polyunsaturated fatty acids (EPA and DHA) that safeguard cell membrane integrity."
@@ -3731,7 +3731,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Completely free of carbohydrates, fibers, or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
@@ -3823,7 +3823,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "16.6 grams",
         "bg": "#f5722c",
         "description": "A rare, complete botanical protein source housing all nine essential amino acids in an optimal ratio to drive skeletal muscle synthesis and enzymatic remodeling."
@@ -3831,7 +3831,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "9.0 grams",
         "bg": "#e4a910",
         "description": "Low in saturated fat and dominated by essential polyunsaturated linoleic and alpha-linolenic acids, preserving smooth cellular membrane flexibility."
@@ -3839,7 +3839,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "9.9 grams",
         "bg": "#15837c",
         "description": "Composed of slow-absorbing complex carbohydrates and low-glycemic dietary fibers, ensuring an exceptionally flat postprandial glucose signature."
@@ -3864,7 +3864,7 @@
       },
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "54 mcg / 14% DV",
         "bg": "#66ab63",
@@ -3931,7 +3931,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "9.0 grams",
         "bg": "#f5722c",
         "description": "A powerful source of plant protein, extraordinarily rich in essential amino acids like lysine and leucine to drive structural cellular remodeling and recovery."
@@ -3939,7 +3939,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.4 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, keeping gastric clearance times exceptionally quick and enabling efficient utilization of its core micronutrient network."
@@ -3947,7 +3947,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "20.1 grams",
         "bg": "#15837c",
         "description": "Composed of complex, slow-burning starches intricately bound within an advanced structural fiber matrix to prevent sharp postprandial glucose shifts."
@@ -3956,7 +3956,7 @@
     "microNutrients": [
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "181 mcg / 45% DV",
         "bg": "#15837c",
@@ -4039,7 +4039,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "8.9 grams",
         "bg": "#f5722c",
         "description": "A robust source of plant-based protein rich in lysine, essential for supporting lean muscular repair, enzyme synthesis, and structural cell remodeling."
@@ -4047,7 +4047,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.5 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, keeping global dietary lipid parameters strictly low while encouraging rapid gastric clearance into the lower digestive tract."
@@ -4055,7 +4055,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "23.7 grams",
         "bg": "#15837c",
         "description": "Composed entirely of complex amylose starches and indigestible fibers that break down slowly, preventing aggressive postprandial insulin surges."
@@ -4064,7 +4064,7 @@
     "microNutrients": [
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "149 mcg / 37% DV",
         "bg": "#15837c",
@@ -4147,7 +4147,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "31.0 grams",
         "bg": "#f5722c",
         "description": "An exceptionally dense, high-caliber complete protein source containing a perfect ratio of all essential amino acids to accelerate skeletal muscle synthesis and cellular remodeling."
@@ -4155,7 +4155,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "3.6 grams",
         "bg": "#e4a910",
         "description": "An incredibly lean lipid profile with minimal saturated fat, providing just enough essential structural lipids to maintain healthy cellular membrane frameworks."
@@ -4163,7 +4163,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Completely free of carbohydrates, fibers, or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
@@ -4255,7 +4255,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "10.0 grams",
         "bg": "#f5722c",
         "description": "An elite animal-derived complete protein matrix, rich in branched-chain amino acids (BCAAs) to drive continuous skeletal muscle synthesis and cellular remodeling."
@@ -4263,7 +4263,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "1.9 grams",
         "bg": "#e4a910",
         "description": "A low-density lipid profile containing valuable short- and medium-chain fatty acids, plus conjugated linoleic acid (CLA) that supports baseline metabolic parameters."
@@ -4271,7 +4271,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "3.6 grams",
         "bg": "#15837c",
         "description": "Composed primarily of trace residual milk sugars (lactose), yielding an exceptionally flat postprandial blood glucose and insulin signature."
@@ -4363,7 +4363,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.3 grams",
         "bg": "#f5722c",
         "description": "Provides basic plant-based amino acid fractions, rich in L-glutamine, which serves as the primary structural fuel for intestinal lining cells."
@@ -4371,7 +4371,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, enabling rapid gastric clearance and immediate assimilation of its primary water-soluble vitamins and active phytonutrients."
@@ -4379,7 +4379,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "5.8 grams",
         "bg": "#15837c",
         "description": "Composed of slow-absorbing natural complex sugars tightly bundled with tough, low-glycemic structural cellulose fibers."
@@ -4412,7 +4412,7 @@
       },
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "43 mcg / 11% DV",
         "bg": "#e4a910",
@@ -4471,7 +4471,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "3.4 grams",
         "bg": "#f5722c",
         "description": "Contains an elevated protein-to-weight ratio for a vegetable, supplying basic amino acid structural fragments that assist in daily cellular maintenance."
@@ -4479,7 +4479,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, ensuring exceptionally rapid gastric transit and prompt assimilation of its foundational antioxidant and phytonutrient networks."
@@ -4487,7 +4487,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "9.0 grams",
         "bg": "#15837c",
         "description": "Composed of complex, slow-fusing plant polysaccharides bound within dense structural fibers, generating a completely flat glycemic response."
@@ -4520,7 +4520,7 @@
       },
       {
         "id": "folate",
-        "slug": "folate",
+        "slug": "vitamin-b9",
         "name": "Vitamin B9 (Folate)",
         "amount": "61 mcg / 15% DV",
         "bg": "#e4a910",
@@ -4579,7 +4579,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "3.5 grams",
         "bg": "#f5722c",
         "description": "Provides an elevated protein-to-weight ratio for a leafy green, supplying basic plant amino acid structural fragments that assist in daily cellular maintenance."
@@ -4587,7 +4587,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.6 grams",
         "bg": "#e4a910",
         "description": "Extremely low in lipids, yet containing crucial trace thylakoid membrane fatty acids (including alpha-linolenic acid) that support the assimilation of its fat-soluble vitamins."
@@ -4595,7 +4595,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "6.1 grams",
         "bg": "#15837c",
         "description": "Composed of slow-absorbing natural complex sugars tightly bundled within an advanced structural cellulose fiber matrix, generating a completely flat glycemic response."
@@ -4687,7 +4687,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.0 grams",
         "bg": "#f5722c",
         "description": "Completely free of proteins or amino acid fractions, isolating its therapeutic utility entirely within the body's lipid-soluble pathways."
@@ -4695,7 +4695,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "100.0 grams",
         "bg": "#e4a910",
         "description": "A premier lipid matrix dominated by essential polyunsaturated linoleic acid (Omega-6) and monounsaturated oleic acid to keep cell membranes fluid."
@@ -4703,7 +4703,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Contains absolute zero carbohydrates, starches, or sugars, ensuring zero impact on postprandial glucose fluctuations or insulin shifts."
@@ -4736,7 +4736,7 @@
       },
       {
         "id": "linoleic",
-        "slug": "fatty-acids",
+        "slug": "epa-dha",
         "name": "Omega-6 (Linoleic Acid)",
         "amount": "54.8 grams",
         "bg": "#e4a910",
@@ -4744,7 +4744,7 @@
       },
       {
         "id": "oleic",
-        "slug": "fatty-acids",
+        "slug": "epa-dha",
         "name": "Omega-9 (Oleic Acid)",
         "amount": "16.6 grams",
         "bg": "#1a96cd",
@@ -4795,7 +4795,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.0 grams",
         "bg": "#f5722c",
         "description": "Completely free of proteins, fibers, or amino acid fractions, isolating its therapeutic utility entirely within the body's lipid-soluble pathways."
@@ -4803,7 +4803,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "100.0 grams",
         "bg": "#e4a910",
         "description": "An elite marine lipid matrix heavily dominated by vital, long-chain polyunsaturated omega-3 fatty acids that maintain healthy systemic membrane fluidity."
@@ -4811,7 +4811,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Contains absolute zero carbohydrates or sugars, ensuring zero impact on postprandial glucose fluctuations or insulin shifts."
@@ -4836,7 +4836,7 @@
       },
       {
         "id": "omega3_dha",
-        "slug": "fatty-acids",
+        "slug": "epa-dha",
         "name": "DHA (Docosahexaenoic Acid)",
         "amount": "11.0 grams",
         "bg": "#66ab63",
@@ -4844,7 +4844,7 @@
       },
       {
         "id": "omega3_epa",
-        "slug": "fatty-acids",
+        "slug": "epa-dha",
         "name": "EPA (Eicosapentaenoic Acid)",
         "amount": "9.0 grams",
         "bg": "#e4a910",
@@ -4895,7 +4895,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.8 grams",
         "bg": "#f5722c",
         "description": "Contains trace botanical amino acid fragments that support basic enzymatic tasks within the plant matrix."
@@ -4903,7 +4903,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.5 grams",
         "bg": "#e4a910",
         "description": "Virtually lipid-free, keeping global dietary fat parameters strictly low while maximizing the immediate absorption of water-soluble antioxidants."
@@ -4911,7 +4911,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "12.8 grams",
         "bg": "#15837c",
         "description": "Composed of low-glycemic, slow-absorbing natural fruit sugars tightly complexed with unrefined structural plant fibers."
@@ -5003,7 +5003,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "0.4 grams",
         "bg": "#f5722c",
         "description": "Contains trace botanical amino acid fragments assisting in basic cellular maintenance within the plant matrix."
@@ -5011,7 +5011,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually lipid-free, keeping global dietary fat parameters strictly low while encouraging rapid absorption of its primary water-soluble antioxidants."
@@ -5019,7 +5019,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "7.7 grams",
         "bg": "#15837c",
         "description": "Composed of low-density, slow-fusing natural fruit sugars tightly bundled within unrefined structural plant fibers."
