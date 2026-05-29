@@ -1,7 +1,8 @@
+"use client"
 import MainClient from "./mainClient"
 
-const mainPage = async () => {
-  return <MainClient/>
-}
+const mainPage = () => {
+  return <MainClient />;
+};
 
-export default mainPage
+export default mainPage;

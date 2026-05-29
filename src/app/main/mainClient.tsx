@@ -2,29 +2,35 @@
 
 import Link from "next/link";
 import Image from 'next/image';
+import { useTranslations } from 'next-intl'; // Импортируем хук для переводов
 import styles from './main.module.css';
 import OnboardingSlider from "@/components/OnboardingSlider";
-
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 const MainClient = () => {
+    // Подключаем блок настроек "Main" из наших JSON файлов
+    const t = useTranslations('Main');
+
     return (    
         <div className={styles["main-layout"]}>
+            <LanguageSwitcher />
             <div className={styles["welcome"]}>
-                <h2>Hello!</h2>
-                <p>Find, track and eat heathy food.</p>
+                {/* t('hello') автоматически вернет "Hello!" или "Привет!" */}
+                <h2>{t('hello')}</h2>
+                <p>{t('subtitle')}</p>
             </div>
             
             <div className={styles["content"]}>
                 <div className={styles["articles"]}>
                     <div className={styles["article-content"]}>
                         <div className={styles["article-label"]}>
-                            Article
+                            {t('articleLabel')}
                         </div>
                         <div className={styles["article-name"]}>
-                            The pros and cons of fast food.
+                            {t('articleTitle')}
                         </div>
                         <button className={styles["read-now-button"]}>
-                            Read Now 
+                            {t('readNow')} 
                             <Image
                                 src="/main/arrow-right.svg" 
                                 alt={"arrow-right"}  
@@ -43,8 +49,8 @@ const MainClient = () => {
                     </div>
                 </div>
 
-                <Link href="#" className={styles["explore-vitamins"]}>
-                    Explore Vitamins 
+                <Link href="/vitamins" className={styles["explore-vitamins"]}>
+                    {t('exploreVitamins')} 
                     <Image 
                         src="/main/arrow-right-purple.svg" 
                         alt={"arrow-purple"}
@@ -54,7 +60,7 @@ const MainClient = () => {
                 </Link>
 
                 <div className={styles["choose-your-favorites"]}>
-                    <h3>Choose Your Favorites</h3>
+                    <h3>{t('chooseFavorites')}</h3>
                     <div className={styles["favorites-list"]}>
                         <div className={`${styles["favorite"]} ${styles["fruits"]}`}>
                             <Image
@@ -63,7 +69,7 @@ const MainClient = () => {
                                 height={48}
                                 width={32}
                             />
-                            Fruits
+                            {t('fruits')}
                         </div>
 
                         <div className={`${styles["favorite"]} ${styles["vegetables"]}`}>
@@ -73,7 +79,7 @@ const MainClient = () => {
                                 height={48}
                                 width={50}
                             />
-                            Vegetables
+                            {t('vegetables')}
                         </div>
 
                         <div className={`${styles["favorite"]} ${styles["snack"]}`}>
@@ -83,16 +89,14 @@ const MainClient = () => {
                                 height={48}
                                 width={48}
                             />
-                            Snack
+                            {t('snack')}
                         </div>
                     </div>
                 </div>
             </div>
 
-            
-
             <div className={styles["navigation"]}>
-                <Link className={styles["nav-link"]} href="#">
+                <Link className={styles["nav-link"]} href="/main">
                     <Image
                         src="/main/home-green.svg"
                         alt={'home'}
@@ -118,7 +122,6 @@ const MainClient = () => {
                         height={48}
                     />
                 </Link>
-
                 
                 <Link className={styles["nav-link"]} href="/favorites">
                     <Image
@@ -130,7 +133,7 @@ const MainClient = () => {
                 </Link>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default MainClient;

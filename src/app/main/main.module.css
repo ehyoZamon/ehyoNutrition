@@ -10,6 +10,7 @@
     gap: 24px;
     overflow-y: auto;
     background-color: #fefefe;
+    position: relative;
 }
 
 .welcome h2{
@@ -210,3 +211,43 @@
     flex: 1;
 }
 
+/* Контейнер для абсолютного позиционирования кнопки в углу макета */
+.lang-switcher-container {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 10;
+}
+
+/* Круглая кнопка в стиле элементов приложения */
+.lang-toggle-btn {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #7b7b7b;              /* Цвет как у подзаголовка welcome */
+    
+    background-color: #eff7ee;   /* Нежно-зеленый фон, как у блока vegetables */
+    border: 1px solid #91c788;   /* Граница в цвет главного заголовка */
+    border-radius: 50%;          /* Идеальный круг */
+    
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(145, 199, 136, 0.15);
+    transition: all 0.2s ease;
+}
+
+/* Легкий эффект при нажатии на мобильном устройстве */
+.lang-toggle-btn:active {
+    transform: scale(0.92);
+    background-color: #91c788;
+    color: #fff;
+}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Signika, Nunito, Inter } from "next/font/google";
+import LanguageProvider from "@/components/LanguageProvider"; // Импортируем наш провайдер
 import "./globals.css";
 
 const signika = Signika({
@@ -14,11 +15,11 @@ const nunito = Nunito({
   variable: "--font-nunito", 
 });
 
-const inter=Inter({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
   variable: "--font-inter",   
-})
+});
 
 export const metadata: Metadata = {
   title: "Ehyo Nutrition App",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ehyo Nutrition App",
     description: "Nutrition App - planning healthy food ",
-    url: "https://ehyo.com", // замени на свой домен
+    url: "https://ehyo.com",
     siteName: "Ehyo",
     images: [
       {
@@ -55,19 +56,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className={`${signika.variable} ${nunito.variable} ${inter.variable}`} suppressHydrationWarning>
-      {/* Next.js сам вставит сюда head на основе объекта metadata выше */}
+    // Тег <html> изначально получает дефолтный язык en, но LanguageProvider обновит его динамически
+    <html lang="en" className={`${signika.variable} ${nunito.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light dark" />
       </head>
       <body>
-          <div className="main-layout">
-            <div className="wrapper">
-                {children}
-            </div>
-          </div>
+        {/* Оборачиваем все дочерние страницы в мультиязычный контекст */}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );
 }
-
