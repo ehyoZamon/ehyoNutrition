@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "name": "Яйца",
+    "category": "Яйца и молочные продукты",
+    "calories": 72,
+    "image": "/products/egg.png",
+    "favorite": false,
+    "link": "/productinfo/eggs"
+  },
+  {
+    "id": 2,
+    "name": "Морковь",
+    "category": "Овощи",
+    "calories": 41,
+    "image": "/products/carrot.png",
+    "favorite": false,
+    "link": "/productinfo/carrot"
+  },
+  {
+    "id": 3,
+    "name": "Творог",
+    "category": "Яйца и молочные продукты",
+    "calories": 98,
+    "image": "/products/cottage-cheese.png",
+    "favorite": false,
+    "link": "/productinfo/cottage-cheese"
+  },
+  {
+    "id": 4,
+    "name": "Говяжья печень",
+    "category": "Мясо",
+    "calories": 135,
+    "image": "/products/liver.png",
+    "favorite": false,
+    "link": "/productinfo/beef-liver"
+  },
+  {
+    "id": 5,
+    "name": "Тыква",
+    "category": "Овощи",
+    "calories": 26,
+    "image": "/products/pumpkin.png",
+    "favorite": false,
+    "link": "/productinfo/pumpkin"
+  },
+  {
+    "id": 6,
+    "name": "Грибы",
+    "category": "Овощи",
+    "calories": 22,
+    "image": "/products/mushroom.png",
+    "favorite": false,
+    "link": "/productinfo/mushrooms"
+  },
+  {
+    "id": 7,
+    "name": "Жирная рыба",
+    "category": "Морепродукты",
+    "calories": 206,
+    "image": "/products/fish.png",
+    "favorite": false,
+    "link": "/productinfo/fatty-fish"
+  },
+  {
+    "id": 8,
+    "name": "Помидоры",
+    "category": "Овощи",
+    "calories": 18,
+    "image": "/products/tomatoes.png",
+    "favorite": false,
+    "link": "/productinfo/tomatoes"
+  },
+  {
+    "id": 9,
+    "name": "Клубника",
+    "category": "Фрукты и ягоды",
+    "calories": 32,
+    "image": "/products/strawberry.png",
+    "favorite": false,
+    "link": "/productinfo/strawberries"
+  },
+  {
+    "id": 10,
+    "name": "Киви",
+    "category": "Фрукты и ягоды",
+    "calories": 61,
+    "image": "/products/kiwi.png",
+    "favorite": false,
+    "link": "/productinfo/kiwi"
+  },
+  {
+    "id": 11,
+    "name": "Болгарский перец",
+    "category": "Овощи",
+    "calories": 31,
+    "image": "/products/bell-pepper.png",
+    "favorite": false,
+    "link": "/productinfo/bell-peppers"
+  },
+  {
+    "id": 12,
+    "name": "Семена подсолнечника",
+    "category": "Семена и орехи",
+    "calories": 584,
+    "image": "/products/sunflower-seeds.png",
+    "favorite": false,
+    "link": "/productinfo/sunflower-seeds"
+  },
+  {
+    "id": 13,
+    "name": "Подсолнечное масло",
+    "category": "Масла и жиры",
+    "calories": 884,
+    "image": "/products/sunflower-oil.png",
+    "favorite": false,
+    "link": "/productinfo/sunflower-oil"
+  },
+  {
+    "id": 14,
+    "name": "Кукуруза",
+    "category": "Овощи",
+    "calories": 96,
+    "image": "/products/corn.png",
+    "favorite": false,
+    "link": "/productinfo/corn"
+  },
+  {
+    "id": 15,
+    "name": "Соевое масло",
+    "category": "Масла и жиры",
+    "calories": 884,
+    "image": "/products/soybean-oil.png",
+    "favorite": false,
+    "link": "/productinfo/soybean-oil"
+  },
+  {
+    "id": 16,
+    "name": "Авокадо",
+    "category": "Фрукты и ягоды",
+    "calories": 160,
+    "image": "/products/avocado.png",
+    "favorite": false,
+    "link": "/productinfo/avocados"
+  },
+  {
+    "id": 17,
+    "name": "Шпинат",
+    "category": "Овощи",
+    "calories": 23,
+    "image": "/products/spinach.png",
+    "favorite": false,
+    "link": "/productinfo/spinach"
+  },
+  {
+    "id": 18,
+    "name": "Мангольд",
+    "category": "Овощи",
+    "calories": 19,
+    "image": "/products/swiss-chard.png",
+    "favorite": false,
+    "link": "/productinfo/swiss-chard"
+  },
+  {
+    "id": 19,
+    "name": "Брокколи",
+    "category": "Овощи",
+    "calories": 34,
+    "image": "/products/broccoli.png",
+    "favorite": false,
+    "link": "/productinfo/broccoli"
+  },
+  {
+    "id": 20,
+    "name": "Молоко",
+    "category": "Яйца и молочные продукты",
+    "calories": 42,
+    "image": "/products/milk.png",
+    "favorite": false,
+    "link": "/productinfo/milk"
+  },
+  {
+    "id": 21,
+    "name": "Миндаль",
+    "category": "Семена и орехи",
+    "calories": 579,
+    "image": "/products/almond.png",
+    "favorite": false,
+    "link": "/productinfo/almonds"
+  },
+  {
+    "id": 22,
+    "name": "Орехи макадамия",
+    "category": "Семена и орехи",
+    "calories": 718,
+    "image": "/products/macadamia-nut.png",
+    "favorite": false,
+    "link": "/productinfo/macadamia-nuts"
+  },
+  {
+    "id": 23,
+    "name": "Арахис",
+    "category": "Семена и орехи",
+    "calories": 567,
+    "image": "/products/peanut.png",
+    "favorite": false,
+    "link": "/productinfo/peanuts"
+  },
+  {
+    "id": 24,
+    "name": "Бананы",
+    "category": "Фрукты и ягоды",
+    "calories": 89,
+    "image": "/products/banana.png",
+    "favorite": false,
+    "link": "/productinfo/bananas"
+  },
+  {
+    "id": 25,
+    "name": "Картофель",
+    "category": "Овощи",
+    "calories": 77,
+    "image": "/products/potato.png",
+    "favorite": false,
+    "link": "/productinfo/potatoes"
+  },
+  {
+    "id": 26,
+    "name": "Батат",
+    "category": "Овощи",
+    "calories": 86,
+    "image": "/products/sweet-potato.png",
+    "favorite": false,
+    "link": "/productinfo/sweet-potatoes"
+  },
+  {
+    "id": 27,
+    "name": "Апельсины",
+    "category": "Фрукты и ягоды",
+    "calories": 47,
+    "image": "/products/orange.png",
+    "favorite": false,
+    "link": "/productinfo/oranges"
+  },
+  {
+    "id": 28,
+    "name": "Почки",
+    "category": "Мясо",
+    "calories": 99,
+    "image": "/products/kidney.png",
+    "favorite": false,
+    "link": "/productinfo/kidney-meat"
+  },
+  {
+    "id": 29,
+    "name": "Моллюски",
+    "category": "Морепродукты",
+    "calories": 99,
+    "image": "/products/shellfish.png",
+    "favorite": false,
+    "link": "/productinfo/shellfish"
+  },
+  {
+    "id": 30,
+    "name": "Лосось",
+    "category": "Морепродукты",
+    "calories": 208,
+    "image": "/products/salmon.png",
+    "favorite": false,
+    "link": "/productinfo/salmon"
+  },
+  {
+    "id": 31,
+    "name": "Нут",
+    "category": "Бобовые",
+    "calories": 164,
+    "image": "/products/chickpeas.png",
+    "favorite": false,
+    "link": "/productinfo/chickpeas"
+  },
+  {
+    "id": 32,
+    "name": "Грибы шиитаке",
+    "category": "Овощи",
+    "calories": 34,
+    "image": "/products/mushroom.png",
+    "favorite": false,
+    "link": "/productinfo/shiitake"
+  },
+  {
+    "id": 33,
+    "name": "Бурый рис",
+    "category": "Зерновые",
+    "calories": 111,
+    "image": "/products/brown-rice.png",
+    "favorite": false,
+    "link": "/productinfo/brown-rice"
+  },
+  {
+    "id": 34,
+    "name": "Нежирная говядина",
+    "category": "Мясо",
+    "calories": 217,
+    "image": "/products/beef.png",
+    "favorite": false,
+    "link": "/productinfo/lean-beef"
+  },
+  {
+    "id": 35,
+    "name": "Тунец",
+    "category": "Морепродукты",
+    "calories": 132,
+    "image": "/products/tuna.png",
+    "favorite": false,
+    "link": "/productinfo/tuna"
+  },
+  {
+    "id": 36,
+    "name": "Семена льна",
+    "category": "Семена и орехи",
+    "calories": 534,
+    "image": "/products/flax-seed.png",
+    "favorite": false,
+    "link": "/productinfo/flaxseeds"
+  },
+  {
+    "id": 37,
+    "name": "Соевые бобы",
+    "category": "Бобовые",
+    "calories": 173,
+    "image": "/products/soybean.png",
+    "favorite": false,
+    "link": "/productinfo/soybeans"
+  },
+  {
+    "id": 38,
+    "name": "Чечевица",
+    "category": "Бобовые",
+    "calories": 116,
+    "image": "/products/lentils.png",
+    "favorite": false,
+    "link": "/productinfo/lentils"
+  },
+  {
+    "id": 39,
+    "name": "Черная фасоль",
+    "category": "Бобовые",
+    "calories": 132,
+    "image": "/products/black-beans.png",
+    "favorite": false,
+    "link": "/productinfo/black-beans"
+  },
+  {
+    "id": 40,
+    "name": "Курица",
+    "category": "Мясо",
+    "calories": 239,
+    "image": "/products/chicken.png",
+    "favorite": false,
+    "link": "/productinfo/chicken"
+  },
+  {
+    "id": 41,
+    "name": "Йогурт",
+    "category": "Яйца и молочные продукты",
+    "calories": 59,
+    "image": "/products/yogurt.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt"
+  },
+  {
+    "id": 42,
+    "name": "Капуста",
+    "category": "Овощи",
+    "calories": 25,
+    "image": "/products/cabbage.png",
+    "favorite": false,
+    "link": "/productinfo/cabbage"
+  },
+  {
+    "id": 43,
+    "name": "Брюссельская капуста",
+    "category": "Овощи",
+    "calories": 43,
+    "image": "/products/brussels-sprouts.png",
+    "favorite": false,
+    "link": "/productinfo/brussels-sprouts"
+  },
+  {
+    "id": 45,
+    "name": "Капуста кале",
+    "category": "Овощи",
+    "calories": 35,
+    "image": "/products/kale.png",
+    "favorite": false,
+    "link": "/productinfo/kale"
+  },
+  {
+    "id": 46,
+    "name": "Масло зародышей пшеницы",
+    "category": "Масла и жиры",
+    "calories": 884,
+    "image": "/products/wheat-germ-oil.png",
+    "favorite": false,
+    "link": "/productinfo/wheat-germ-oil"
+  },
+  {
+    "id": 47,
+    "name": "Печень трески (масло)",
+    "category": "Масла и жиры",
+    "calories": 902,
+    "image": "/products/cod-liver-oil.png",
+    "favorite": false,
+    "link": "/productinfo/cod-liver-oil"
+  },
+  {
+    "id": 48,
+    "name": "Сливы какаду",
+    "category": "Фрукты и ягоды",
+    "calories": 59,
+    "image": "/products/kakadu-plums.svg",
+    "favorite": false,
+    "link": "/productinfo/kakadu-plums"
+  },
+  {
+    "id": 49,
+    "name": "Вишня ацерола",
+    "category": "Фрукты и ягоды",
+    "calories": 50,
+    "image": "/products/arecola-cherries.svg",
+    "favorite": false,
+    "link": "/productinfo/acerola-cherries"
+  }
+]

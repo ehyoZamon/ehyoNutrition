@@ -10,5 +10,18 @@
     "fruits": "Fruits",
     "vegetables": "Vegetables",
     "snack": "Snack"
+  },
+  "Products": {
+    "searchPlaceholder": "Search products, fruits, vegetables...",
+    "calories": "Calories",
+    "nothingFound": "Nothing found"
+  },
+  "ProductInfo": {
+    "clickToLearnMore": "(Click to learn more)",
+    "nutrientsAndMicroelements": "Nutrients and microelements",
+    "keyHealthBenefits": "Key Health Benefits",
+    "importantPrecautions": "Important Precautions",
+    "modalMore": "More",
+    "modalClose": "Close"
   }
 }

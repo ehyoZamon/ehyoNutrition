@@ -1,42 +1,69 @@
-import productDetailsData from "@/data/productDetails.json";
-import productsCatalogData from "@/data/products.json";
-import vitaminDetailsData from "@/data/vitaminDetails.json";
 import type {
   ProductDetail,
   VitaminDetail,
   VitaminFoodSourceProduct,
 } from "@/types/details";
 
-const productDetails = productDetailsData as Record<string, ProductDetail>;
-const vitaminDetails = vitaminDetailsData as Record<string, VitaminDetail>;
+// 1. Импортируем английские и русские версии всех JSON-файлов данных
+import productDetailsEn from "@/data/en/productDetails.json";
+import productDetailsRu from "@/data/ru/productDetails.json";
 
-const productsCatalog = productsCatalogData as Array<{
-  name: string;
-  image: string;
-  link: string;
-}>;
+import productsCatalogEn from "@/data/en/products.json";
+import productsCatalogRu from "@/data/ru/products.json";
 
-const catalogBySlug = new Map(
-  productsCatalog.map((item) => {
-    const slug = item.link.replace("/productinfo/", "");
-    return [slug, item] as const;
-  })
+import vitaminDetailsEn from "@/data/en/vitaminDetails.json";
+import vitaminDetailsRu from "@/data/ru/vitaminDetails.json";
+
+// Маппинг для быстрого доступа к данным в зависимости от локали
+const productDetailsMap = {
+  en: productDetailsEn as unknown as Record<string, ProductDetail>,
+  ru: productDetailsRu as unknown as Record<string, ProductDetail>,
+};
+
+const vitaminDetailsMap = {
+  en: vitaminDetailsEn as unknown as Record<string, VitaminDetail>,
+  ru: vitaminDetailsRu as unknown as Record<string, VitaminDetail>,
+};
+
+type CatalogItem = { name: string; image: string; link: string };
+const productsCatalogMap = {
+  en: productsCatalogEn as unknown as CatalogItem[],
+  ru: productsCatalogRu as unknown as CatalogItem[],
+};
+
+// 2. Кэшируем Catalog по Slug для каждой локали по отдельности
+const catalogBySlugEn = new Map(
+  productsCatalogMap.en.map((item) => [item.link.replace("/productinfo/", ""), item] as const)
+);
+const catalogBySlugRu = new Map(
+  productsCatalogMap.ru.map((item) => [item.link.replace("/productinfo/", ""), item] as const)
 );
 
+const catalogBySlugMap = {
+  en: catalogBySlugEn,
+  ru: catalogBySlugRu,
+};
+
+// --- ФУНКЦИИ ---
+
+// Слагов в обеих базах одинаковое количество, берем дефолтный en
 export function getProductSlugs(): string[] {
-  return Object.keys(productDetails);
+  return Object.keys(productDetailsEn);
 }
 
 export function getVitaminSlugs(): string[] {
-  return Object.keys(vitaminDetails);
+  return Object.keys(vitaminDetailsEn);
 }
 
-export function getProductDetail(slug: string): ProductDetail | undefined {
-  return productDetails[slug];
+// Добавляем аргумент locale со значением по умолчанию 'en'
+export function getProductDetail(slug: string, locale: string = "en"): ProductDetail | undefined {
+  const source = productDetailsMap[locale as keyof typeof productDetailsMap] || productDetailsMap.en;
+  return source[slug];
 }
 
-export function getVitaminDetail(slug: string): VitaminDetail | undefined {
-  return vitaminDetails[slug];
+export function getVitaminDetail(slug: string, locale: string = "en"): VitaminDetail | undefined {
+  const source = vitaminDetailsMap[locale as keyof typeof vitaminDetailsMap] || vitaminDetailsMap.en;
+  return source[slug];
 }
 
 function productContainsVitamin(
@@ -54,9 +81,15 @@ function productContainsVitamin(
   return null;
 }
 
+// Самая важная функция: собирает продукты на нужном языке
 export function getProductsByVitaminSlug(
-  vitaminSlug: string
+  vitaminSlug: string,
+  locale: string = "en"
 ): VitaminFoodSourceProduct[] {
+  // Выбираем правильные источники данных под текущий язык
+  const productDetails = productDetailsMap[locale as keyof typeof productDetailsMap] || productDetailsMap.en;
+  const catalogBySlug = catalogBySlugMap[locale as keyof typeof catalogBySlugMap] || catalogBySlugMap.en;
+
   return Object.values(productDetails)
     .map((product) => {
       const amount = productContainsVitamin(product, vitaminSlug);
@@ -73,5 +106,6 @@ export function getProductsByVitaminSlug(
       };
     })
     .filter((item): item is VitaminFoodSourceProduct => item !== null)
-    .sort((a, b) => a.name.localeCompare(b.name));
+    // Сортировка будет работать корректно для алфавита выбранной локали (включая кириллицу)
+    .sort((a, b) => a.name.localeCompare(b.name, locale));
 }

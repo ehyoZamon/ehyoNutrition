@@ -3,25 +3,39 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 
 import styles from "./products.module.css";
-
-import productsData from "@/data/products.json";
 import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+
+// Импортируем оба файла
+import productsRu from "@/data/ru/products.json";
+import productsEn from "@/data/en/products.json";
 
 const ProductsClient = () => {
-  const [search, setSearch] = useState("");
-  const [products, setProducts] = useState(productsData);
+  const t = useTranslations("Products");
+  const locale = useLocale();
 
+  const [search, setSearch] = useState("");
+  
+  // Выбираем правильный источник данных на основе локали
+  const currentProductsData = useMemo(() => {
+    return locale === "ru" ? productsRu : productsEn;
+  }, [locale]);
+
+  const [products, setProducts] = useState(currentProductsData);
+
+  // Свежая инициализация при смене локали или монтировании
   useEffect(() => {
     const store = loadFavorites();
     setProducts(
-      productsData.map((product) => ({
+      currentProductsData.map((product) => ({
         ...product,
         favorite: store.products.includes(product.id),
       }))
     );
-  }, []);
+  }, [currentProductsData]);
 
   const toggleFavorite = (id: number) => {
     const store = toggleProductFavorite(id);
@@ -36,7 +50,6 @@ const ProductsClient = () => {
   /*
     SEARCH
   */
-
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
       const query = search.toLowerCase();
@@ -50,6 +63,9 @@ const ProductsClient = () => {
 
   return (
     <div className={styles["main-layout"]}>
+      {/* Кнопка смены языка */}
+      <LanguageSwitcher />
+
       <div className={styles["search-container"]}>
         <Image
           src="/search.svg"
@@ -61,7 +77,7 @@ const ProductsClient = () => {
 
         <input
           type="text"
-          placeholder="Search products, fruits, vegetables..."
+          placeholder={t("searchPlaceholder")}
           className={styles["search-input"]}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -96,7 +112,7 @@ const ProductsClient = () => {
               </div>
 
               <div className={styles["product-calories"]}>
-                Calories: {product.calories}
+                {t("calories")}: {product.calories}
               </div>
             </Link>
 
@@ -126,11 +142,12 @@ const ProductsClient = () => {
               width={48}
               height={48}
             />
-            Nothing found
+            {t("nothingFound")}
           </div>
         )}
       </div>
 
+      {/* Навигация */}
       <div className={styles["navigation"]}>
         <Link className={styles["nav-link"]} href="/main">
           <Image

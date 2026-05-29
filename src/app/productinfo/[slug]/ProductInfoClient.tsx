@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl"; // Импортируем хук перевода
 import styles from "../productInfo.module.css";
 import { getVitaminSlugs } from "@/lib/details";
 import type { NutrientItem, ProductDetail } from "@/types/details";
@@ -14,6 +15,7 @@ type Props = {
 };
 
 const ProductInfoClient = ({ product }: Props) => {
+  const t = useTranslations("ProductInfo"); // Подключаем секцию ProductInfo
   const [selectedItem, setSelectedItem] = useState<NutrientItem | null>(null);
   const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -71,7 +73,7 @@ const ProductInfoClient = ({ product }: Props) => {
             >
               <h3>
                 {product.macroTitle}{" "}
-                <span className={styles["hint"]}>(Click to learn more)</span>
+                <span className={styles["hint"]}>{t("clickToLearnMore")}</span>
               </h3>
               {product.macroIntro && (
                 <>
@@ -96,8 +98,8 @@ const ProductInfoClient = ({ product }: Props) => {
               className={`${styles["nutrients-and-microelements"]} ${styles["product-section"]}`}
             >
               <h3>
-                Nutrients and microelements{" "}
-                <span className={styles["hint"]}>(Click to learn more)</span>
+                {t("nutrientsAndMicroelements")}{" "}
+                <span className={styles["hint"]}>{t("clickToLearnMore")}</span>
               </h3>
               {product.microIntro && (
                 <>
@@ -121,7 +123,7 @@ const ProductInfoClient = ({ product }: Props) => {
               style={{ background: "#fbf2d8" }}
               className={`${styles["health-benefits"]} ${styles["product-section"]}`}
             >
-              <h3>Key Health Benefits</h3>
+              <h3>{t("keyHealthBenefits")}</h3>
               <ul>
                 {product.healthBenefits.map((benefit) => (
                   <li
@@ -136,7 +138,7 @@ const ProductInfoClient = ({ product }: Props) => {
               style={{ background: "#fff2f0" }}
               className={`${styles["precautions"]} ${styles["product-section"]}`}
             >
-              <h3>Important Precautions</h3>
+              <h3>{t("importantPrecautions")}</h3>
               {product.precautionsIntro && (
                 <>
                   <br />
@@ -236,7 +238,7 @@ const ProductInfoClient = ({ product }: Props) => {
                     textAlign: "center",
                   }}
                 >
-                  More
+                  {t("modalMore")}
                 </Link>
               )}
 
@@ -245,7 +247,7 @@ const ProductInfoClient = ({ product }: Props) => {
                 onClick={handleCloseModal}
                 style={{ flex: 1 }}
               >
-                Close
+                {t("modalClose")}
               </button>
             </div>
           </div>

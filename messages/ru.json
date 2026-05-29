@@ -10,5 +10,18 @@
     "fruits": "Фрукты",
     "vegetables": "Овощи",
     "snack": "Перекусы"
+  },
+  "Products": {
+    "searchPlaceholder": "Поиск продуктов, фруктов, овощей...",
+    "calories": "Калории",
+    "nothingFound": "Ничего не найдено"
+  },
+  "ProductInfo": {
+    "clickToLearnMore": "(Нажмите, чтобы узнать больше)",
+    "nutrientsAndMicroelements": "Нутриенты и микроэлементы",
+    "keyHealthBenefits": "Ключевая польза для здоровья",
+    "importantPrecautions": "Важные меры предосторожности",
+    "modalMore": "Подробнее",
+    "modalClose": "Закрыть"
   }
 }

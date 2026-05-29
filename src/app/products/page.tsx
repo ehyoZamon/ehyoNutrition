@@ -1,6 +1,7 @@
+"use client"
 import ProductsClient from "./productsClient"
 
-const ProductsPage = async () => {
+const ProductsPage = () => {
   return <ProductsClient/>
 }
 
