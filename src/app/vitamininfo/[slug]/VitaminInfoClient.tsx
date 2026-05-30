@@ -3,19 +3,28 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useMemo, useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import styles from "../vitaminInfo.module.css";
 import { getProductsByVitaminSlug } from "@/lib/details";
 import type { VitaminDetail } from "@/types/details";
 
 type Props = {
-  vitamin: VitaminDetail;
+  vitaminEn: VitaminDetail;
+  vitaminRu: VitaminDetail;
 };
 
-const VitaminInfoClient = ({ vitamin }: Props) => {
+const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
+  const t = useTranslations("VitaminInfo");
+  const locale = useLocale();
+
+  // Автоматически выбираем нужные локализованные данные на основе выбранного языка
+  const vitamin = locale === "ru" ? vitaminRu : vitaminEn;
+
   const [activeTab, setActiveTab] = useState<"deficiency" | "overdose">(
     "deficiency"
   );
 
+  // Список продуктов, содержащих данный элемент
   const foodSources = useMemo(
     () => getProductsByVitaminSlug(vitamin.slug),
     [vitamin.slug]
@@ -59,7 +68,7 @@ const VitaminInfoClient = ({ vitamin }: Props) => {
               style={{ background: "#fbf2d8" }}
               className={`${styles["key-functions"]} ${styles["vitamin-section"]}`}
             >
-              <h3>Key Functions</h3>
+              <h3>{t("keyFunctions")}</h3>
               <div
                 dangerouslySetInnerHTML={{ __html: vitamin.keyFunctionsHtml }}
               />
@@ -69,7 +78,7 @@ const VitaminInfoClient = ({ vitamin }: Props) => {
               style={{ background: "none" }}
               className={`${styles["top-food-sources"]} ${styles["vitamin-section"]}`}
             >
-              <h3>Top Food Sources</h3>
+              <h3>{t("topFoodSources")}</h3>
               {vitamin.foodSourcesIntro && <p>{vitamin.foodSourcesIntro}</p>}
               {foodSources.length > 0 ? (
                 <div className={styles["food-sources-container"]}>
@@ -91,7 +100,7 @@ const VitaminInfoClient = ({ vitamin }: Props) => {
                   ))}
                 </div>
               ) : (
-                <p>No products in the catalog contain this nutrient yet.</p>
+                <p>{t("noProductsFound")}</p>
               )}
               {vitamin.foodSourcesNotesHtml && (
                 <div
@@ -106,7 +115,7 @@ const VitaminInfoClient = ({ vitamin }: Props) => {
               style={{ background: "#fbf0d9" }}
               className={`${styles["nutrients-and-microelements"]} ${styles["vitamin-section"]}`}
             >
-              <h3>Recommended Daily Intake (RDI)</h3>
+              <h3>{t("recommendedDailyIntake")}</h3>
               <div dangerouslySetInnerHTML={{ __html: vitamin.rdiHtml }} />
             </div>
 
@@ -119,13 +128,13 @@ const VitaminInfoClient = ({ vitamin }: Props) => {
                   onClick={() => setActiveTab("deficiency")}
                   className={`${styles["tab"]} ${activeTab === "deficiency" ? styles["active"] : ""}`}
                 >
-                  Deficiency Symptoms
+                  {t("deficiencySymptoms")}
                 </div>
                 <div
                   onClick={() => setActiveTab("overdose")}
                   className={`${styles["tab"]} ${activeTab === "overdose" ? styles["active"] : ""}`}
                 >
-                  Overdose
+                  {t("overdose")}
                 </div>
               </div>
 

@@ -3,25 +3,52 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 
 import styles from "./vitamins.module.css";
-
-import vitaminsData from "@/data/vitamins.json";
 import { loadFavorites, toggleVitaminFavorite } from "@/lib/favorites";
 
-const VitaminsClient = () => {
-  const [search, setSearch] = useState("");
-  const [vitamins, setVitamins] = useState(vitaminsData);
+// Типизация структуры объекта витамина
+type VitaminItem = {
+  id: number;
+  name: string;
+  category: string;
+  group: string;
+  dailyValue: number | string;
+  unit: string;
+  benefit: string;
+  image: string;
+  favorite: boolean;
+  link: string;
+};
 
+type Props = {
+  vitaminsEn: VitaminItem[];
+  vitaminsRu: VitaminItem[];
+};
+
+const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
+  const t = useTranslations("Vitamins"); // Используем пространство имен из локализации интерфейса
+  const locale = useLocale(); // Опознаем текущий язык ('ru' или 'en')
+
+  // Автоматически подбираем базовый массив данных на основе выбранного языка
+  const currentData = useMemo(() => {
+    return locale === "ru" ? vitaminsRu : vitaminsEn;
+  }, [locale, vitaminsEn, vitaminsRu]);
+
+  const [search, setSearch] = useState("");
+  const [vitamins, setVitamins] = useState<VitaminItem[]>(currentData);
+
+  // Синхронизируем состояние витаминов, если язык изменился на лету
   useEffect(() => {
     const store = loadFavorites();
     setVitamins(
-      vitaminsData.map((vitamin) => ({
+      currentData.map((vitamin) => ({
         ...vitamin,
         favorite: store.vitamins.includes(vitamin.id),
       }))
     );
-  }, []);
+  }, [currentData]);
 
   const toggleFavorite = (id: number) => {
     const store = toggleVitaminFavorite(id);
@@ -34,16 +61,16 @@ const VitaminsClient = () => {
   };
 
   /*
-    SEARCH
+    SEARCH FILTER
   */
-
   const filteredVitamins = useMemo(() => {
     return vitamins.filter((vitamin) => {
       const query = search.toLowerCase();
 
       return (
         vitamin.name.toLowerCase().includes(query) ||
-        vitamin.category.toLowerCase().includes(query)
+        vitamin.category.toLowerCase().includes(query) ||
+        vitamin.benefit.toLowerCase().includes(query)
       );
     });
   }, [vitamins, search]);
@@ -61,7 +88,7 @@ const VitaminsClient = () => {
 
         <input
           type="text"
-          placeholder="Search vitamins, fat, minerals..."
+          placeholder={t("searchPlaceholder")} // Переводной плейсхолдер: например, "Поиск витаминов, минералов..."
           className={styles["search-input"]}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -77,7 +104,7 @@ const VitaminsClient = () => {
             >
               <Image
                 src="/vitamins/molecule.svg"
-                alt={"molecule"}
+                alt="molecule"
                 width={42}
                 height={42}
                 className={styles["molecule"]}
@@ -93,12 +120,11 @@ const VitaminsClient = () => {
                 {vitamin.name}
               </div>
 
-
               <div className={styles["vitamin-daily-value"]}>
-                Daily value: {vitamin.dailyValue} {vitamin.unit}
+                {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
               </div>
               <div className={styles["vitamin-benefit"]}>
-                Benefit: {vitamin.benefit}
+                {t("benefit")}: {vitamin.benefit}
               </div>
             </Link>
 
@@ -128,7 +154,7 @@ const VitaminsClient = () => {
               width={48}
               height={48}
             />
-            Nothing found
+            {t("nothingFound")}
           </div>
         )}
       </div>

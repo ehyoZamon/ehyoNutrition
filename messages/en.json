@@ -23,5 +23,30 @@
     "importantPrecautions": "Important Precautions",
     "modalMore": "More",
     "modalClose": "Close"
+  },
+  "Vitamins": {
+    "searchPlaceholder": "Search vitamins, fat, minerals...",
+    "dailyValue": "Daily value",
+    "benefit": "Benefit",
+    "nothingFound": "Nothing found"
+  },
+  "VitaminInfo": {
+    "keyFunctions": "Key Functions",
+    "topFoodSources": "Top Food Sources",
+    "noProductsFound": "No products in the catalog contain this nutrient yet.",
+    "recommendedDailyIntake": "Recommended Daily Intake (RDI)",
+    "deficiencySymptoms": "Deficiency Symptoms",
+    "overdose": "Overdose"
+  },
+  "Favorites": {
+    "title": "Favorites",
+    "subtitle": "Products and vitamins you saved for quick access",
+    "emptyTitle": "No favorites yet",
+    "emptyHint": "Tap the heart on Products or Vitamins to add items here",
+    "productsSection": "Products",
+    "vitaminsSection": "Vitamins",
+    "calories": "Calories",
+    "dailyValue": "Daily value",
+    "benefit": "Benefit"
   }
 }

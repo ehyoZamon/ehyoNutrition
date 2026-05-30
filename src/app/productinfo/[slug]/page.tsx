@@ -1,5 +1,5 @@
+// src/app/productinfo/[slug]/page.tsx
 import { notFound } from "next/navigation";
-import { getLocale } from "next-intl/server"; // Импортируем получение локали на сервере
 import ProductInfoClient from "./ProductInfoClient";
 import { getProductDetail, getProductSlugs } from "@/lib/details";
 
@@ -7,7 +7,7 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-// Next.js сгенерирует статические страницы для всех slug
+// Обязательная функция для сборки в статическое мобильное приложение (output: 'export')
 export function generateStaticParams() {
   return getProductSlugs().map((slug) => ({ slug }));
 }
@@ -15,15 +15,20 @@ export function generateStaticParams() {
 export default async function ProductInfoPage({ params }: PageProps) {
   const { slug } = await params;
   
-  // Получаем текущую локаль сборки/запроса ("ru" или "en")
-  const locale = await getLocale();
-  
-  // Передаем локаль в функцию получения данных
-  const product = getProductDetail(slug, locale);
+  // Извлекаем из локальных JSON обе версии данных продукта
+  const productEn = getProductDetail(slug, "en");
+  const productRu = getProductDetail(slug, "ru");
 
-  if (!product) {
+  // Если продукт вообще не найден ни в одном файле — отдаем 404
+  if (!productEn && !productRu) {
     notFound();
   }
 
-  return <ProductInfoClient product={product} />;
+  // Передаем обе языковые версии в клиентский компонент
+  return (
+    <ProductInfoClient 
+      productEn={productEn || productRu!} 
+      productRu={productRu || productEn!} 
+    />
+  );
 }

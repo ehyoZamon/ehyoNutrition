@@ -23,5 +23,30 @@
     "importantPrecautions": "Важные меры предосторожности",
     "modalMore": "Подробнее",
     "modalClose": "Закрыть"
+  },
+  "Vitamins": {
+    "searchPlaceholder": "Поиск витаминов, жиров, минералов...",
+    "dailyValue": "Суточная норма",
+    "benefit": "Польза",
+    "nothingFound": "Ничего не найдено"
+  },
+  "VitaminInfo": {
+    "keyFunctions": "Основные функции",
+    "topFoodSources": "Главные пищевые источники",
+    "noProductsFound": "В каталоге пока нет продуктов, содержащих этот нутриент.",
+    "recommendedDailyIntake": "Рекомендуемая суточная норма (RDI)",
+    "deficiencySymptoms": "Симптомы дефицита",
+    "overdose": "Передозировка"
+  },
+  "Favorites": {
+    "title": "Избранное",
+    "subtitle": "Продукты и витамины, которые вы сохранили для быстрого доступа",
+    "emptyTitle": "В избранном пока пусто",
+    "emptyHint": "Нажмите на сердечко в карточке продукта или витамина, чтобы добавить его сюда",
+    "productsSection": "Продукты",
+    "vitaminsSection": "Витамины",
+    "calories": "Калории",
+    "dailyValue": "Суточная норма",
+    "benefit": "Польза"
   }
 }

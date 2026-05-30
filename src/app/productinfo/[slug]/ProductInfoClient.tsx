@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl"; // Импортируем хук перевода
+import { useTranslations, useLocale } from "next-intl"; // Импортируем хуки переводов и локали
 import styles from "../productInfo.module.css";
 import { getVitaminSlugs } from "@/lib/details";
 import type { NutrientItem, ProductDetail } from "@/types/details";
@@ -11,11 +11,17 @@ import type { NutrientItem, ProductDetail } from "@/types/details";
 const vitaminSlugs = new Set(getVitaminSlugs());
 
 type Props = {
-  product: ProductDetail;
+  productEn: ProductDetail;
+  productRu: ProductDetail;
 };
 
-const ProductInfoClient = ({ product }: Props) => {
-  const t = useTranslations("ProductInfo"); // Подключаем секцию ProductInfo
+const ProductInfoClient = ({ productEn, productRu }: Props) => {
+  const t = useTranslations("ProductInfo"); // Подключаем секцию общих переводов интерфейса
+  const locale = useLocale(); // Получаем текущий активный язык ("ru" или "en")
+
+  // Автоматически выбираем нужный языковой пакет данных на основе локали
+  const product = locale === "ru" ? productRu : productEn;
+
   const [selectedItem, setSelectedItem] = useState<NutrientItem | null>(null);
   const dialogRef = useRef<HTMLDialogElement | null>(null);
 
@@ -30,7 +36,13 @@ const ProductInfoClient = ({ product }: Props) => {
     }
   }, [selectedItem]);
 
-  const handleOpenModal = (item: NutrientItem) => setSelectedItem(item);
+  const handleOpenModal = (item: NutrientItem) => {
+    // Находим этот же нутриент в текущей локали, чтобы модалка открывалась на правильном языке
+    const currentNutrients = [...product.macroNutrients, ...product.microNutrients];
+    const localizedItem = currentNutrients.find((n) => n.id === item.id) || item;
+    setSelectedItem(localizedItem);
+  };
+
   const handleCloseModal = () => setSelectedItem(null);
 
   const descriptionParts = product.description.split("\n").filter(Boolean);

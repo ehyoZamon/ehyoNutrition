@@ -7,7 +7,6 @@ import { useTranslations, useLocale } from "next-intl";
 
 import styles from "./products.module.css";
 import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 // Импортируем оба файла
 import productsRu from "@/data/ru/products.json";
@@ -64,8 +63,7 @@ const ProductsClient = () => {
   return (
     <div className={styles["main-layout"]}>
       {/* Кнопка смены языка */}
-      <LanguageSwitcher />
-
+      
       <div className={styles["search-container"]}>
         <Image
           src="/search.svg"

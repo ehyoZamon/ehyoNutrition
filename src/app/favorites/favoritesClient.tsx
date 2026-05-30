@@ -4,19 +4,32 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { useTranslations, useLocale } from "next-intl";
 import styles from "./favorites.module.css";
-import productsData from "@/data/products.json";
-import vitaminsData from "@/data/vitamins.json";
+
+// Импортируем оба языковых набора данных
+import productsEn from "@/data/en/products.json";
+import productsRu from "@/data/ru/products.json"; 
+import vitaminsEn from "@/data/en/vitamins.json";
+import vitaminsRu from "@/data/ru/vitamins.json";
+
 import { loadFavorites, toggleProductFavorite, toggleVitaminFavorite } from "@/lib/favorites";
 
-type ProductItem = (typeof productsData)[number];
-type VitaminItem = (typeof vitaminsData)[number];
+type ProductItem = (typeof productsEn)[number];
+type VitaminItem = (typeof vitaminsEn)[number];
 
 const FavoritesClient = () => {
+  const t = useTranslations("Favorites");
+  const locale = useLocale();
   const pathname = usePathname();
+
   const [favoriteProductIds, setFavoriteProductIds] = useState<number[]>([]);
   const [favoriteVitaminIds, setFavoriteVitaminIds] = useState<number[]>([]);
   const [isReady, setIsReady] = useState(false);
+
+  // Определяем, какой набор данных использовать на основе локали
+  const currentProductsData = (locale === "ru" ? productsRu : productsEn) as ProductItem[];
+  const currentVitaminsData = (locale === "ru" ? vitaminsRu : vitaminsEn) as VitaminItem[];
 
   const syncFavorites = useCallback(() => {
     const store = loadFavorites();
@@ -40,18 +53,18 @@ const FavoritesClient = () => {
 
   const favoriteProducts = useMemo(
     () =>
-      (productsData as ProductItem[]).filter((product) =>
+      currentProductsData.filter((product) =>
         favoriteProductIds.includes(product.id)
       ),
-    [favoriteProductIds]
+    [favoriteProductIds, currentProductsData]
   );
 
   const favoriteVitamins = useMemo(
     () =>
-      (vitaminsData as VitaminItem[]).filter((vitamin) =>
+      currentVitaminsData.filter((vitamin) =>
         favoriteVitaminIds.includes(vitamin.id)
       ),
-    [favoriteVitaminIds]
+    [favoriteVitaminIds, currentVitaminsData]
   );
 
   const handleToggleProduct = (id: number) => {
@@ -70,10 +83,8 @@ const FavoritesClient = () => {
   return (
     <div className={styles["main-layout"]}>
       <header className={styles["header"]}>
-        <h1 className={styles["title"]}>Favorites</h1>
-        <p className={styles["subtitle"]}>
-          Products and vitamins you saved for quick access
-        </p>
+        <h1 className={styles["title"]}>{t("title")}</h1>
+        <p className={styles["subtitle"]}>{t("subtitle")}</p>
       </header>
 
       <div className={styles["content"]}>
@@ -85,16 +96,14 @@ const FavoritesClient = () => {
               width={48}
               height={48}
             />
-            <span>No favorites yet</span>
-            <span className={styles["empty-hint"]}>
-              Tap the heart on Products or Vitamins to add items here
-            </span>
+            <span>{t("emptyTitle")}</span>
+            <span className={styles["empty-hint"]}>{t("emptyHint")}</span>
           </div>
         )}
 
         {!isEmpty && favoriteProducts.length > 0 && (
           <section className={styles["section"]}>
-            <h2 className={styles["section-title"]}>Products</h2>
+            <h2 className={styles["section-title"]}>{t("productsSection")}</h2>
             {favoriteProducts.map((product) => (
               <div className={styles["product"]} key={`product-${product.id}`}>
                 <Link
@@ -115,7 +124,7 @@ const FavoritesClient = () => {
                     {product.category}
                   </div>
                   <div className={styles["product-calories"]}>
-                    Calories: {product.calories}
+                    {t("calories")}: {product.calories}
                   </div>
                 </Link>
 
@@ -139,7 +148,7 @@ const FavoritesClient = () => {
 
         {!isEmpty && favoriteVitamins.length > 0 && (
           <section className={styles["section"]}>
-            <h2 className={styles["section-title"]}>Vitamins</h2>
+            <h2 className={styles["section-title"]}>{t("vitaminsSection")}</h2>
             {favoriteVitamins.map((vitamin) => (
               <div className={styles["vitamin"]} key={`vitamin-${vitamin.id}`}>
                 <Link
@@ -159,10 +168,10 @@ const FavoritesClient = () => {
                 <Link href={vitamin.link} className={styles["vitamin-details"]}>
                   <div className={styles["vitamin-name"]}>{vitamin.name}</div>
                   <div className={styles["vitamin-daily-value"]}>
-                    Daily value: {vitamin.dailyValue} {vitamin.unit}
+                    {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
                   </div>
                   <div className={styles["vitamin-benefit"]}>
-                    Benefit: {vitamin.benefit}
+                    {t("benefit")}: {vitamin.benefit}
                   </div>
                 </Link>
 
