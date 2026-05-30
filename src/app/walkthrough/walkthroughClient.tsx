@@ -10,14 +10,14 @@ const WalkthroughClient = () => {
         document.cookie = "hasSeenWalkthrough=true; path=/; max-age=31536000";
     };
 
-    return (        
+    return (    
         <div className={styles["walkthrough-layout"]}>
-            {/* ... ваш код ... */}
-            <Link 
-                href="/main" 
-                className={styles["get-started"]}
-                onClick={handleGetStarted}
-            >
+            <div className={styles["ehyo-logo"]}>
+                Ehyo
+            </div>
+            <OnboardingSlider />
+            
+            <Link href="/main" className={styles["get-started"]}>
                 Get Started
             </Link>
         </div>
