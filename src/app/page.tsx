@@ -1,7 +1,27 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { redirect } from "next/navigation"
+"use client";
 
-export default async function Home() {
-  redirect("/walkthrough")
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { Preferences } from "@capacitor/preferences";
+
+export default function HomePage() {
+    const router = useRouter();
+
+    useEffect(() => {
+        const checkOnboarding = async () => {
+            const { value } = await Preferences.get({
+                key: "onboardingCompleted",
+            });
+
+            if (value === "true") {
+                router.replace("/main");
+            } else {
+                router.replace("/walkthrough");
+            }
+        };
+
+        checkOnboarding();
+    }, [router]);
+
+    return null;
 }
