@@ -3,10 +3,15 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 
 import styles from "./products.module.css";
 import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
+import {
+  FAVORITE_CATEGORY_FILTERS,
+  isFavoriteCategory,
+} from "@/lib/productCategories";
 
 // Импортируем оба файла
 import productsRu from "@/data/ru/products.json";
@@ -15,6 +20,11 @@ import productsEn from "@/data/en/products.json";
 const ProductsClient = () => {
   const t = useTranslations("Products");
   const locale = useLocale();
+  const searchParams = useSearchParams();
+  const categoryParam = searchParams.get("category");
+  const activeCategory = isFavoriteCategory(categoryParam)
+    ? categoryParam
+    : null;
 
   const [search, setSearch] = useState("");
   
@@ -50,7 +60,19 @@ const ProductsClient = () => {
     SEARCH
   */
   const filteredProducts = useMemo(() => {
+    const localeKey = locale === "ru" ? "ru" : "en";
+    const allowedCategories = activeCategory
+      ? FAVORITE_CATEGORY_FILTERS[activeCategory][localeKey]
+      : null;
+
     return products.filter((product) => {
+      if (
+        allowedCategories &&
+        !allowedCategories.includes(product.category)
+      ) {
+        return false;
+      }
+
       const query = search.toLowerCase();
 
       return (
@@ -58,7 +80,7 @@ const ProductsClient = () => {
         product.category.toLowerCase().includes(query)
       );
     });
-  }, [products, search]);
+  }, [products, search, activeCategory, locale]);
 
   return (
     <div className={styles["main-layout"]}>
@@ -156,7 +178,7 @@ const ProductsClient = () => {
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="#">
+        <Link className={styles["nav-link"]} href="/products" aria-current="page">
           <Image
             src="/main/products-green.svg"
             alt="products"

@@ -1,8 +1,5 @@
-"use client"
-import MainClient from "./mainClient"
+import MainClient from "./mainClient";
 
-const mainPage = () => {
+export default function MainPage() {
   return <MainClient />;
-};
-
-export default mainPage;
+}

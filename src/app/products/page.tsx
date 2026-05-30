@@ -1,8 +1,10 @@
-"use client"
-import ProductsClient from "./productsClient"
+import { Suspense } from "react";
+import ProductsClient from "./productsClient";
 
-const ProductsPage = () => {
-  return <ProductsClient/>
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={null}>
+      <ProductsClient />
+    </Suspense>
+  );
 }
-
-export default ProductsPage

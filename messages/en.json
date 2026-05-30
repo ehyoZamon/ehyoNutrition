@@ -38,6 +38,21 @@
     "deficiencySymptoms": "Deficiency Symptoms",
     "overdose": "Overdose"
   },
+  "Article": {
+    "back": "Back to home",
+    "label": "Article",
+    "title": "The pros and cons of fast food",
+    "intro": "Fast food is convenient and affordable, but regular consumption affects energy, weight, and long-term health. Here is a balanced look at what it offers and what to watch for.",
+    "prosTitle": "Pros",
+    "pros1": "Quick and convenient when you are short on time.",
+    "pros2": "Predictable portions and calories on many menus.",
+    "pros3": "Affordable option compared with many sit-down restaurants.",
+    "consTitle": "Cons",
+    "cons1": "Often high in salt, sugar, and unhealthy fats.",
+    "cons2": "Low in fiber and micronutrients compared with whole foods.",
+    "cons3": "Frequent intake is linked to weight gain and higher cardiovascular risk.",
+    "outro": "Occasional fast food is fine for most people. For everyday nutrition, prioritize vegetables, fruits, lean proteins, and home-cooked meals from the product catalog."
+  },
   "Favorites": {
     "title": "Favorites",
     "subtitle": "Products and vitamins you saved for quick access",
