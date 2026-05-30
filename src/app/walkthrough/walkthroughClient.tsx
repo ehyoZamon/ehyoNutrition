@@ -6,18 +6,24 @@ import OnboardingSlider from "@/components/OnboardingSlider";
 
 const WalkthroughClient = () => {
     const handleGetStarted = () => {
-        // Устанавливаем куку, которая живет 365 дней
-        document.cookie = "hasSeenWalkthrough=true; path=/; max-age=31536000";
+        // Устанавливаем куку
+        document.cookie = "hasSeenWalkthrough=true; path=/; max-age=31536000; SameSite=Lax";
+        console.log("Cookie set!"); // Для отладки в Android WebView
     };
 
-    return (    
+    return (        
         <div className={styles["walkthrough-layout"]}>
             <div className={styles["ehyo-logo"]}>
                 Ehyo
             </div>
             <OnboardingSlider />
             
-            <Link href="/main" className={styles["get-started"]}>
+            {/* Добавляем onClick */}
+            <Link 
+                href="/main" 
+                className={styles["get-started"]}
+                onClick={handleGetStarted} 
+            >
                 Get Started
             </Link>
         </div>
