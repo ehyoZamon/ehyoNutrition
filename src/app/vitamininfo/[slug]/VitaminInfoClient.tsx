@@ -26,8 +26,8 @@ const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
 
   // Список продуктов, содержащих данный элемент
   const foodSources = useMemo(
-    () => getProductsByVitaminSlug(vitamin.slug),
-    [vitamin.slug]
+    () => getProductsByVitaminSlug(vitamin.slug, locale),
+    [vitamin.slug, locale]
   );
 
   const descriptionParts = vitamin.description.split("\n").filter(Boolean);

@@ -1,4 +1,237 @@
 {
+  "walnuts": {
+    "slug": "walnuts",
+    "name": "Walnuts",
+    "category": "Seeds & Nuts",
+    "image": "/productinfo/walnuts.png",
+    "imageAlt": "walnuts",
+    "description": "Walnuts are a unique superfood rich in alpha-linolenic acid (Omega-3) and antioxidants. They are renowned for supporting brain health and cardiovascular function due to their high nutrient density.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "654 kcal",
+        "bg": "#15837c",
+        "description": "High-energy food; recommended for consumption in moderate portions."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "15.2 g",
+        "bg": "#f5722c",
+        "description": "A good source of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "65.2 g",
+        "bg": "#e4a910",
+        "description": "Primarily healthy polyunsaturated fatty acids, including Omega-3s."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "13.7 g",
+        "bg": "#15837c",
+        "description": "Includes dietary fiber that supports digestive health."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "omega3",
+        "slug": "omega-3",
+        "name": "Omega-3 (ALA)",
+        "amount": "9 g",
+        "bg": "#1a96cd",
+        "description": "High content of alpha-linolenic acid, which supports heart health."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "158 mg",
+        "bg": "#66ab63",
+        "description": "Essential for the nervous system and blood pressure regulation."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Brain Support:</b> High levels of antioxidants and Omega-3s improve cognitive function.",
+      "<b>Heart Health:</b> Helps lower levels of 'bad' LDL cholesterol.",
+      "<b>Inflammation Control:</b> Contains compounds that reduce chronic inflammatory processes."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Caloric Density:</b> Due to the high caloric density, portion control is recommended.",
+      "<b>Allergy:</b> Nuts are a common and severe allergen for many individuals.",
+      "<b>Oxidation:</b> The oils in nuts oxidize quickly; store in a cool, dark place to maintain quality."
+    ]
+  },
+  "onions": {
+    "slug": "onions",
+    "name": "Onions",
+    "category": "Vegetables",
+    "image": "/productinfo/onion.png",
+    "imageAlt": "onions",
+    "description": "Onions are a versatile vegetable known for their high content of phytonutrients, particularly flavonoids and sulfur compounds. Beyond adding depth of flavor to culinary dishes, they possess significant anti-inflammatory and antioxidant properties that support metabolic health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "40 kcal",
+        "bg": "#15837c",
+        "description": "A low-calorie food rich in fiber and biologically active compounds."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.1 g",
+        "bg": "#f5722c",
+        "description": "Contains a small amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.1 g",
+        "bg": "#e4a910",
+        "description": "Contains negligible amounts of fat."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "9.3 g",
+        "bg": "#15837c",
+        "description": "Contains natural sugars and prebiotic dietary fibers that are beneficial for gut microflora."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "7.4 mg",
+        "bg": "#1a96cd",
+        "description": "Supports immune function and helps protect cells from damage."
+      },
+      {
+        "id": "quercetin",
+        "slug": "quercetin",
+        "name": "Quercetin",
+        "amount": "present",
+        "bg": "#66ab63",
+        "description": "A potent flavonoid antioxidant that helps fight inflammation and supports heart health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Heart Health:</b> Regular consumption helps improve blood circulation and maintain healthy cholesterol levels.",
+      "<b>Antioxidant Support:</b> A high concentration of quercetin helps neutralize free radicals.",
+      "<b>Microbiome Support:</b> The prebiotic fibers in onions serve as food for beneficial gut bacteria.",
+      "<b>Anti-inflammatory Effects:</b> Sulfur compounds assist in reducing inflammatory markers in the body."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Digestive Sensitivity:</b> In some individuals, raw onions may cause bloating or heartburn.",
+      "<b>Eye Irritation:</b> Cutting onions releases volatile substances that can irritate the eyes.",
+      "<b>Individual Intolerance:</b> Allergic reactions to components of the plant are possible."
+    ]
+  },
+  "garlic": {
+    "slug": "garlic",
+    "name": "Garlic",
+    "category": "Vegetables",
+    "image": "/productinfo/garlic.png",
+    "imageAlt": "garlic",
+    "description": "Garlic is an aromatic plant of the onion family, renowned for its potent biologically active compounds. Due to its high content of sulfur-containing substances, such as allicin, it is not only an essential culinary spice but also a natural antiseptic with significant immunomodulatory properties.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "149 kcal",
+        "bg": "#15837c",
+        "description": "A source of moderate energy. The primary value of garlic lies in its phytonutrients rather than its caloric density."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "6.4 g",
+        "bg": "#f5722c",
+        "description": "Contains plant-based protein rich in sulfur-containing amino acids necessary for metabolism."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.5 g",
+        "bg": "#e4a910",
+        "description": "Minimal fat content, making garlic a diet-friendly food."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "33 g",
+        "bg": "#15837c",
+        "description": "Consists mainly of complex carbohydrates and fiber, which support gut health."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "31.2 mg",
+        "bg": "#1a96cd",
+        "description": "A powerful antioxidant that supports immune function and collagen synthesis."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "1.7 mg",
+        "bg": "#66ab63",
+        "description": "Essential for the metabolism of proteins and carbohydrates, as well as the functioning of enzymatic defense systems in the body."
+      },
+      {
+        "id": "allicin",
+        "slug": "allicin",
+        "name": "Allicin",
+        "amount": "present",
+        "bg": "#f5722c",
+        "description": "A key sulfur-containing compound formed when garlic is crushed; it possesses antibacterial and anti-inflammatory properties."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Immune System Support:</b> Regular consumption helps reduce the frequency and severity of colds by enhancing the body's defensive functions.",
+      "<b>Cardiovascular Support:</b> Helps maintain normal blood pressure levels and contributes to lowering total cholesterol.",
+      "<b>Antioxidant Protection:</b> Its rich composition of sulfur compounds neutralizes free radicals, slowing down oxidative processes in cells.",
+      "<b>Detoxification:</b> Facilitates the removal of heavy metals and supports the natural cleansing processes of the liver."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Mucosal Irritation:</b> In its raw form, garlic can be aggressive to the stomach lining and esophagus, especially for individuals with gastritis or peptic ulcer disease.",
+      "<b>Blood Effects:</b> It has a mild blood-thinning effect; those taking anticoagulants should consult with a physician.",
+      "<b>Individual Intolerance:</b> Allergic reactions or individual sensitivity may occur, manifesting as gastrointestinal discomfort.",
+      "<b>Specific Odor:</b> Volatile sulfur compounds can cause a persistent odor on the breath and skin, which is a byproduct of allicin metabolism."
+    ]
+  },
   "avocados": {
     "slug": "avocados",
     "name": "Avocado",
@@ -21,7 +254,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "2.0 grams",
         "bg": "#f5722c",
         "description": "Provides nominal plant proteins containing essential building blocks to assist in daily cellular tissue maintenance."
@@ -29,7 +262,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "14.7 grams",
         "bg": "#e4a910",
         "description": "An exceptional matrix of heart-healthy fats, overwhelmingly dominated by oleic acid, which maximizes fat-soluble nutrient delivery."
@@ -37,7 +270,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "8.5 grams",
         "bg": "#15837c",
         "description": "Mainly composed of complex structural dietary fibers with practically zero simple sugars, yielding a near-flat glycemic curve."
@@ -129,7 +362,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "27.0 grams",
         "bg": "#f5722c",
         "description": "An exceptionally rich source of highly bioavailable, complete protein containing all essential amino acids for tissue synthesis."
@@ -137,7 +370,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "5.0 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, featuring a balanced profile of monounsaturated, polyunsaturated, and essential saturated fatty acids."
@@ -145,7 +378,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "5.0 grams",
         "bg": "#15837c",
         "description": "Sourced naturally from stored animal glycogen. It represents a rare carbohydrate presence in meat, keeping a low glycemic index."
@@ -245,7 +478,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "1.0 grams",
         "bg": "#f5722c",
         "description": "Contains minor plant-based amino acids, serving as structural support within the vegetable's crisp cellular matrix."
@@ -253,7 +486,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, pairing bell peppers with healthy dietary lipids (like olive oil) drastically boosts fat-soluble carotenoid absorption."
@@ -261,7 +494,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "6.0 grams",
         "bg": "#15837c",
         "description": "Composed of natural simple sugars (glucose, fructose) wrapped in structured dietary fibers, ensuring a negligible glycemic response."
@@ -3175,7 +3408,7 @@
       {
         "id": "protein",
         "name": "Protein",
-        "slug": "",
+        "slug": "protein",
         "amount": "22.3 grams",
         "bg": "#f5722c",
         "description": "An elite complete protein source containing all essential amino acids required for rapid muscular synthesis, tissue remodeling, and enzymatic manufacturing."
@@ -3183,7 +3416,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "",
+        "slug": "fat",
         "amount": "10.4 grams",
         "bg": "#e4a910",
         "description": "Dominated by highly fluid monounsaturated fats and essential polyunsaturated Omega-3 fatty acids that optimize vascular linings and brain cell structures."
@@ -3191,7 +3424,7 @@
       {
         "id": "carbs",
         "name": "Carbohydrates",
-        "slug": "",
+        "slug": "carbohydrates",
         "amount": "0.0 grams",
         "bg": "#15837c",
         "description": "Completely free of carbohydrates, fibers, or starches, ensuring an absolute zero impact on blood glucose curves or insulin shifts."
@@ -5087,6 +5320,1280 @@
       "<b>Extreme Sensitivity to Thermal Oxidation:</b> The fragile water-soluble ascorbic acid matrix is highly prone to swift thermal destruction when exposed to cooking heat, pasteurization, or direct sunlight. Utilizing freeze-dried, unheated powder formats or raw fruit is required to preserve potency.",
       "<b>Soluble Oxalate Accumulation Balance:</b> Acerola cherries carry a highly active organic acid profile containing natural oxalates. For individuals navigating a historical clinical baseline of calcium-oxalate kidney stones, intake volume must be managed to protect urinary filtration paths.",
       "<b>Rapid Post-Harvest Degradation:</b> Because of the delicate, thin-skinned nature of the fruit, its raw structural integrity decays rapidly within 3-5 days post-harvest. Sourcing exclusively from highly verified, rapid freeze-dried supply chains or immediate local harvest is highly required."
+    ]
+  },
+  "pistachios": {
+    "slug": "pistachios",
+    "name": "Pistachios",
+    "category": "Seeds & Nuts",
+    "image": "/productinfo/pistachios.png",
+    "imageAlt": "pistachios",
+    "description": "Pistachios are nutrient-dense nuts with a unique antioxidant profile, including lutein and zeaxanthin. They are an excellent source of plant-based protein and healthy fats that support eye health and cardiovascular function.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "562 kcal",
+        "bg": "#15837c",
+        "description": "A dense source of energy that requires portion control."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "20.2 g",
+        "bg": "#f5722c",
+        "description": "One of the most protein-rich nut varieties."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "45.3 g",
+        "bg": "#e4a910",
+        "description": "Mainly monounsaturated and polyunsaturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "27.2 g",
+        "bg": "#15837c",
+        "description": "Contains a significant amount of fiber to support healthy digestion."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "1.7 mg",
+        "bg": "#1a96cd",
+        "description": "Essential for amino acid metabolism and immune system health."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "1025 mg",
+        "bg": "#66ab63",
+        "description": "Helps regulate blood pressure and fluid balance."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Eye Health:</b> High levels of lutein and zeaxanthin protect the retina from oxidative damage.",
+      "<b>Weight Management:</b> The presence of fiber and protein promotes a feeling of fullness.",
+      "<b>Heart Health:</b> Helps lower cholesterol levels and supports vascular elasticity."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Sodium Content:</b> Many commercially available pistachios are heavily salted, which should be avoided by those with hypertension.",
+      "<b>Allergy:</b> Like other tree nuts, they can cause severe allergic reactions in sensitive individuals.",
+      "<b>Caloric Monitoring:</b> It is easy to overconsume due to their high palatability."
+    ]
+  },
+  "blueberries": {
+    "slug": "blueberries",
+    "name": "Blueberries",
+    "category": "Berries",
+    "image": "/productinfo/blueberries.png",
+    "imageAlt": "blueberries",
+    "description": "Blueberries are a low-calorie 'super-berry' renowned for their exceptional antioxidant content, particularly anthocyanins. They are a valuable addition to the diet for improving cognitive function and protecting cells from oxidative stress.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "57 kcal",
+        "bg": "#15837c",
+        "description": "Low caloric density with high nutrient concentration."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.7 g",
+        "bg": "#f5722c",
+        "description": "Contains minimal amounts of protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.3 g",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "14.5 g",
+        "bg": "#15837c",
+        "description": "Consists of natural sugars and fiber that provide energy."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "9.7 mg",
+        "bg": "#1a96cd",
+        "description": "Strengthens the immune system and supports collagen production."
+      },
+      {
+        "id": "anthocyanins",
+        "slug": "anthocyanins",
+        "name": "Anthocyanins",
+        "amount": "present",
+        "bg": "#66ab63",
+        "description": "Powerful antioxidant pigments that protect cells from damage."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Powerful Antioxidant:</b> A high content of anthocyanins helps neutralize free radicals.",
+      "<b>Cognitive Health:</b> Studies link regular consumption to improved memory and brain function.",
+      "<b>Cardiovascular Support:</b> May help lower blood pressure and levels of 'bad' LDL cholesterol."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Allergy:</b> While rare, individual allergic reactions to berries can occur.",
+      "<b>Sugar Content:</b> While sugar levels are moderate, individuals with diabetes should monitor total carbohydrate intake.",
+      "<b>Pesticides:</b> Berries can be susceptible to pesticide residues, so thorough washing is recommended."
+    ]
+  },
+  "blackberries": {
+    "slug": "blackberries",
+    "name": "Blackberries",
+    "category": "Berries",
+    "image": "/productinfo/blackberries.png",
+    "imageAlt": "blackberries",
+    "description": "Blackberries are a nutrient-dense berry high in fiber and antioxidants. They are known for their deep flavor and their ability to support brain health and the digestive system.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "43 kcal",
+        "bg": "#15837c",
+        "description": "A low-calorie food with an excellent nutrient profile."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.4 g",
+        "bg": "#f5722c",
+        "description": "Contains a small amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.5 g",
+        "bg": "#e4a910",
+        "description": "Negligible fat content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "9.6 g",
+        "bg": "#15837c",
+        "description": "High in fiber, which promotes healthy digestion."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "21 mg",
+        "bg": "#1a96cd",
+        "description": "Critical for immune function and collagen synthesis."
+      },
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "20 mcg",
+        "bg": "#66ab63",
+        "description": "Supports bone health and normal blood clotting."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestive Health:</b> High content of both insoluble and soluble fiber supports regular bowel function.",
+      "<b>Brain Power:</b> Antioxidants help protect brain cells and may improve memory.",
+      "<b>Oral Health:</b> Exhibits natural antibacterial properties that support gum health."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Sensitivity:</b> Individuals with tannin sensitivity may experience digestive irritation if consumed in large quantities.",
+      "<b>Allergy:</b> Individual allergic reactions are possible, though rare.",
+      "<b>Pesticides:</b> Thorough washing is recommended before consumption."
+    ]
+  },
+  "raspberries": {
+    "slug": "raspberries",
+    "name": "Raspberries",
+    "category": "Berries",
+    "image": "/productinfo/raspberries.png",
+    "imageAlt": "raspberries",
+    "description": "Raspberries are aromatic berries with a high nutrient density and a significant amount of dietary fiber. They are known for their anti-inflammatory properties and high antioxidant content that supports overall health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "52 kcal",
+        "bg": "#15837c",
+        "description": "A low-calorie food suitable for a balanced diet."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.2 g",
+        "bg": "#f5722c",
+        "description": "Contains a small amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.7 g",
+        "bg": "#e4a910",
+        "description": "Minimal fat content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "11.9 g",
+        "bg": "#15837c",
+        "description": "Rich in fiber, which helps slow down sugar absorption."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "26.2 mg",
+        "bg": "#1a96cd",
+        "description": "Essential for maintaining immune function and skin health."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.7 mg",
+        "bg": "#66ab63",
+        "description": "Necessary for metabolism and bone health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Antioxidant Protection:</b> Rich in ellagic acid and anthocyanins, which fight oxidative stress.",
+      "<b>Blood Sugar Control:</b> High fiber content helps prevent spikes in blood glucose levels.",
+      "<b>Heart Health:</b> Flavonoids contained in raspberries help maintain healthy blood pressure."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Allergy:</b> Individual intolerance is possible, especially in those with salicylate allergies.",
+      "<b>Acidity:</b> Due to the organic acids present, they may cause discomfort for those with gastritis.",
+      "<b>Pesticides:</b> Berries require thorough washing before consumption."
+    ]
+  },
+  "apples": {
+    "slug": "apples",
+    "name": "Apples",
+    "category": "Fruits",
+    "image": "/productinfo/apples.png",
+    "imageAlt": "apples",
+    "description": "Apples are one of the most popular and accessible fruits, rich in pectin and flavonoids. They are known for their benefits to digestion and cardiovascular health, making them a convenient snack for daily consumption.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "52 kcal",
+        "bg": "#15837c",
+        "description": "A low-calorie food, ideal for a healthy snack."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.3 g",
+        "bg": "#f5722c",
+        "description": "Contains a minimal amount of protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Virtually fat-free."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "13.8 g",
+        "bg": "#15837c",
+        "description": "A source of natural sugars and fiber, including pectin."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "4.6 mg",
+        "bg": "#1a96cd",
+        "description": "An antioxidant that supports the immune system."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "107 mg",
+        "bg": "#66ab63",
+        "description": "Important for maintaining normal blood pressure."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestion:</b> High pectin content helps regulate bowel function.",
+      "<b>Heart Health:</b> Flavonoids help lower levels of 'bad' LDL cholesterol.",
+      "<b>Weight Management:</b> Low caloric density and high water content promote satiety."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Pesticides:</b> Apples are frequently treated with chemicals, so washing thoroughly or peeling is recommended.",
+      "<b>Seeds:</b> Contain trace amounts of amygdalin, which releases cyanide when digested (unsafe in large quantities).",
+      "<b>Acidity:</b> The acids present may irritate the stomach in sensitive individuals."
+    ]
+  },
+  "pomegranate": {
+    "slug": "pomegranate",
+    "name": "Pomegranate",
+    "category": "Fruits",
+    "image": "/productinfo/pomegranate.png",
+    "imageAlt": "pomegranate",
+    "description": "Pomegranate is a unique fruit known for its vibrant red seeds (arils), which are a potent source of polyphenols. It is highly valued for its significant anti-inflammatory properties and its positive impact on cardiovascular health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "83 kcal",
+        "bg": "#15837c",
+        "description": "A moderately caloric food rich in natural sugars and fiber."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.7 g",
+        "bg": "#f5722c",
+        "description": "Contains a small amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "1.2 g",
+        "bg": "#e4a910",
+        "description": "Minimal fat content, primarily found in the seeds."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "18.7 g",
+        "bg": "#15837c",
+        "description": "A source of simple carbohydrates and valuable dietary fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "10.2 mg",
+        "bg": "#1a96cd",
+        "description": "Supports the immune system and protects cells from aging."
+      },
+      {
+        "id": "polyphenols",
+        "slug": "polyphenols",
+        "name": "Polyphenols",
+        "amount": "high content",
+        "bg": "#66ab63",
+        "description": "Powerful antioxidants (punicalagins) that slow down oxidative processes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Heart Health:</b> Helps improve blood circulation and lower blood pressure.",
+      "<b>Anti-inflammatory Effects:</b> High concentration of punicalagins fights inflammation in the body.",
+      "<b>Antioxidant Protection:</b> Effectively neutralizes free radicals, supporting tissue health."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>Drug Interaction:</b> May affect the efficacy of blood pressure-lowering medications and blood thinners.",
+      "<b>Acidity:</b> The high concentration of organic acids may irritate the stomach lining.",
+      "<b>Dental Enamel:</b> Concentrated juice can stain tooth enamel and increase sensitivity."
+    ]
+  },
+  "grapes": {
+    "slug": "grapes",
+    "name": "Grapes",
+    "category": "Fruits",
+    "image": "/productinfo/grapes.png",
+    "imageAlt": "grapes",
+    "description": "Grapes are juicy berries known for their high content of resveratrol and other polyphenols. They are valued for their antioxidant properties, support for heart health, and ability to provide a quick energy boost.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "69 kcal",
+        "bg": "#15837c",
+        "description": "An energy-dense food high in natural sugars."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.7 g",
+        "bg": "#f5722c",
+        "description": "Contains a minimal amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Contains virtually no fat."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "18.1 g",
+        "bg": "#15837c",
+        "description": "Rich in glucose and fructose, providing a quick energy source."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "3.2 mg",
+        "bg": "#1a96cd",
+        "description": "Supports immune function and protects cells."
+      },
+      {
+        "id": "resveratrol",
+        "slug": "resveratrol",
+        "name": "Resveratrol",
+        "amount": "present",
+        "bg": "#66ab63",
+        "description": "A powerful antioxidant, especially in the skin of dark varieties, beneficial for heart health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Heart Health:</b> Polyphenols help relax blood vessels and improve blood flow.",
+      "<b>Antioxidant Support:</b> Resveratrol fights aging processes and protects blood vessels.",
+      "<b>Digestion:</b> Contains organic acids that stimulate the gastrointestinal tract."
+    ],
+    "precautionsIntro": "",
+    "precautions": [
+      "<b>High Sugar Levels:</b> Due to the high sugar content, portion sizes should be limited for individuals with diabetes.",
+      "<b>Allergy:</b> Individual allergic reactions to components of the grape skin are possible.",
+      "<b>Pesticides:</b> Grapes are frequently treated with chemicals, so they must be washed thoroughly."
+    ]
+  },
+  "mango": {
+    "slug": "mango",
+    "name": "Mango",
+    "category": "Fruits",
+    "image": "/productinfo/mango.png",
+    "imageAlt": "ripe juicy mango fruit",
+    "description": "Mango is a tropical biochemical complex that serves as a potent delivery vehicle for a broad spectrum of carotenoids, enzymes, and unique polyphenols, such as mangiferin. This fruit represents a complex matrix optimized to support epithelial tissue health, enhance immunological status, and provide the body with easily accessible energy bound to bioactive fibers.",
+    "macroTitle": "Macro Nutrients (per 100g, raw pulp)",
+    "macroIntro": "The macronutrient profile of mango is balanced for rapid energetic tissue replenishment, while the carbohydrate matrix is structured to minimize sharp insulin response spikes when consumed correctly.",
+    "microIntro": "Mango is a phytonutrient concentrate containing specialized antioxidant compounds that work synergistically to provide cellular protection against photodamage and oxidative destruction.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "60 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy density that provides an efficient metabolic influx while maintaining control over daily caloric intake."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.8 g",
+        "bg": "#f5722c",
+        "description": "Contains a basic set of amino acids necessary to support the metabolic homeostasis of the plant matrix."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.4 g",
+        "bg": "#e4a910",
+        "description": "Minimal amount of lipids, acting as carriers for fat-soluble vitamins (A, E, K)."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "15.0 g",
+        "bg": "#15837c",
+        "description": "A complex mix of mono- and disaccharides integrated into a dietary fiber matrix, ensuring gradual glucose delivery."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "765 IU / 25% DV",
+        "bg": "#15837c",
+        "description": "High concentration of provitamin A provides fundamental support for mucosal integrity and visual acuity."
+      },
+      {
+        "id": "mangiferin",
+        "slug": "antioxidants",
+        "name": "Mangiferin",
+        "amount": "High bioactivity",
+        "bg": "#f5722c",
+        "description": "A unique xanthonoid possessing specific antiviral and immunomodulatory properties that neutralize free radicals."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "36 mg / 40% DV",
+        "bg": "#66ab63",
+        "description": "A significant dose contributing to endogenous collagen synthesis and enhancing overall organism resistance."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "168 mg / 4% DV",
+        "bg": "#e4a910",
+        "description": "A critically important electrolyte for maintaining cardiovascular function and nerve impulse conduction."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "1.6 g",
+        "bg": "#1a96cd",
+        "description": "Supports intestinal peristalsis and creates a favorable environment for the microbiome."
+      },
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "0.1 mg / 6% DV",
+        "bg": "#1a96cd",
+        "description": "Essential for cognitive function and maintaining stable neurotransmitter levels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Deep Retinal Protection:</b> The rich profile of carotenoids (lutein, zeaxanthin) actively absorbs harmful blue light, reducing degenerative processes in the eye's macula.",
+      "<b>Immune Modulation via Mangiferin:</b> Bioactive mangiferin exerts a systemic anti-inflammatory effect, supporting immune system readiness against external pathogenic factors.",
+      "<b>Optimization of Dermal Regeneration:</b> High bioavailability of vitamins A and C accelerates cellular renewal processes and structural skin protein synthesis.",
+      "<b>Metabolic Stabilization:</b> The combination of fibers and specific polyphenols promotes normalization of the glycemic profile during metabolic processes."
+    ],
+    "precautionsIntro": "Mango is a highly active tropical product, and its inclusion in the diet should take into account individual metabolic characteristics.",
+    "precautions": [
+      "<b>Allergic Potential (Mango Allergy):</b> Contact with mango skin or consumption of the fruit can cause contact dermatitis or systemic reaction in individuals sensitive to urushiol (found in the peel).",
+      "<b>Glycemic Load:</b> Due to the high concentration of fructose, individuals with insulin resistance or diabetes should strictly control portion size to avoid hyperglycemic spikes.",
+      "<b>Mucosal Irritation:</b> High content of organic acids in the presence of gastritis with high acidity or ulcerous processes can cause gastrointestinal discomfort.",
+      "<b>Pesticide Load:</b> Mango belongs to a category of products frequently subjected to intensive chemical treatment for transportation, requiring thorough cleaning of the peel before consumption."
+    ]
+  },
+  "oats": {
+    "slug": "oats",
+    "name": "Oats",
+    "category": "Cereals",
+    "image": "/productinfo/oats.png",
+    "imageAlt": "whole oat grains",
+    "description": "Oats are a benchmark functional grain matrix possessing a unique composition of soluble dietary fibers known as beta-glucans. This cereal serves as a fundamental metabolic regulator, providing prolonged energy release and modulating the organism's lipid profile due to its complex phytochemical structure.",
+    "macroTitle": "Macro Nutrients (per 100g, dry product)",
+    "macroIntro": "The macronutrient profile of oats is characterized by an optimal balance of slow-burning carbohydrates and valuable plant-based protein, making it an indispensable resource for long-term metabolic stability.",
+    "microIntro": "Oat grains contain a concentrated supply of essential nutrients, including specific antioxidants called avenanthramides, which protect the cardiovascular system and reduce systemic inflammation.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "389 kcal",
+        "bg": "#15837c",
+        "description": "A dense source of metabolic energy with a high satiety coefficient, providing gradual cellular nourishment."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "16.9 g",
+        "bg": "#f5722c",
+        "description": "High-quality plant-based protein with a favorable amino acid profile, promoting muscle tissue repair."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "6.9 g",
+        "bg": "#e4a910",
+        "description": "A source of healthy unsaturated fatty acids that support cellular membrane integrity."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "66.3 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates that, due to high fiber content, ensure smooth glycemic control."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "betaglucans",
+        "slug": "fiber",
+        "name": "Beta-glucans",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "A special type of soluble fiber that forms a viscous gel in the gut, hindering the absorption of excess cholesterol."
+      },
+      {
+        "id": "avenanthramides",
+        "slug": "antioxidants",
+        "name": "Avenanthramides",
+        "amount": "Bioactive profile",
+        "bg": "#f5722c",
+        "description": "Unique antioxidants found exclusively in oats, possessing significant anti-inflammatory properties."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "177 mg / 42% DV",
+        "bg": "#66ab63",
+        "description": "A key mineral for the nervous system, involved in over 300 biochemical reactions in the body."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "4.9 mg / 213% DV",
+        "bg": "#e4a910",
+        "description": "Provides structural support for bone tissue and functions of antioxidant defense enzymes."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "523 mg / 42% DV",
+        "bg": "#1a96cd",
+        "description": "Necessary for cellular energy production (ATP) and maintaining acid-base balance."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "4.7 mg / 26% DV",
+        "bg": "#1a96cd",
+        "description": "Participates in oxygen transport and maintaining high energy tone."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Metabolic Cholesterol Regulation:</b> Beta-glucans actively bind bile acids, forcing the liver to use endogenous cholesterol for their renewal, which lowers LDL levels.",
+      "<b>Glycemic Index Stabilization:</b> By forming a gel-like structure in the GI tract, oats slow down the enzymatic breakdown of carbohydrates, preventing glucose spikes.",
+      "<b>Synergistic Vascular Protection:</b> Avenanthramides reduce cytokine levels, decreasing endothelial inflammation and preventing LDL oxidation.",
+      "<b>Microbiome Support:</b> Oats act as a prebiotic, providing nourishment for beneficial gut flora, which improves systemic immunity."
+    ],
+    "precautionsIntro": "Oats are considered an extremely safe product; however, to achieve maximum therapeutic efficacy, the following aspects should be considered:",
+    "precautions": [
+      "<b>Gluten Cross-Contamination Risk:</b> Although oats themselves do not contain gluten, they often come into contact with wheat during industrial processing, which is critical for individuals with celiac disease.",
+      "<b>Presence of Anti-nutrients (Phytic Acid):</b> Contains phytates, which may reduce the bioavailability of certain minerals with prolonged consumption of large portions. Soaking or fermentation is recommended.",
+      "<b>Gas Production with Sudden Fiber Increase:</b> Introducing large portions of whole oats into the diet without previous habits may cause temporary adaptation load on the GI tract (bloating).",
+      "<b>Degree of Processing:</b> To preserve maximum bioactivity, choose whole grains or steel-cut oats, avoiding instant products with added sugars."
+    ]
+  },
+  "barley": {
+    "slug": "barley",
+    "name": "Barley",
+    "category": "Cereals",
+    "image": "/productinfo/barley.png",
+    "imageAlt": "whole barley grains",
+    "description": "Barley is an ancient, highly effective cereal grain matrix possessing a unique composition of soluble fibers, specifically beta-glucans, and a rich profile of micronutrients. This cereal serves as a powerful metabolic modulator, facilitating smooth glycemic control and supporting cardiovascular health through its complex phytochemical architecture.",
+    "macroTitle": "Macro Nutrients (per 100g, dry grain)",
+    "macroIntro": "The macronutrient profile of barley is optimized for prolonged energy release, making it a strategically important component for metabolic stability.",
+    "microIntro": "Barley represents a concentrated source of vital minerals and antioxidant compounds, working synergistically to maintain cellular integrity and optimize endogenous defense mechanisms.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "352 kcal",
+        "bg": "#15837c",
+        "description": "A stable energy substrate with high nutrient density, providing long-term satiety."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "12.5 g",
+        "bg": "#f5722c",
+        "description": "Plant-based protein containing a complex of essential amino acids to support cellular metabolism."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "2.3 g",
+        "bg": "#e4a910",
+        "description": "Low lipid content, consisting primarily of unsaturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "73.5 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates with a low glycemic index, integrated with highly effective fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "betaglucans",
+        "slug": "fiber",
+        "name": "Beta-glucans",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "A type of soluble fiber forming a viscous gel that significantly slows the absorption of glucose and cholesterol."
+      },
+      {
+        "id": "selenium",
+        "slug": "antioxidants",
+        "name": "Selenium",
+        "amount": "37.7 mcg / 69% DV",
+        "bg": "#f5722c",
+        "description": "A critically important micronutrient that supports thyroid function and protects cells from oxidative damage."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "133 mg / 32% DV",
+        "bg": "#66ab63",
+        "description": "An essential mineral modulating biochemical processes in the nervous and muscular systems."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "401 mg / 32% DV",
+        "bg": "#e4a910",
+        "description": "Necessary for maintaining bone structure and the formation of energy molecules (ATP)."
+      },
+      {
+        "id": "niacin",
+        "slug": "vitamin-b3",
+        "name": "Niacin (Vitamin B3)",
+        "amount": "4.6 mg / 29% DV",
+        "bg": "#1a96cd",
+        "description": "Participates in the conversion of food into energy and the repair of DNA integrity."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "3.6 mg / 20% DV",
+        "bg": "#1a96cd",
+        "description": "Supports oxygen transport and the body's vitality."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Protection:</b> High beta-glucan content helps lower LDL-cholesterol levels, preventing the formation of atherosclerotic plaques.",
+      "<b>Metabolic Stabilization:</b> Barley’s unique carbohydrate structure slows the release of glucose into the bloodstream, ensuring long-term insulin response stability.",
+      "<b>Antioxidant Status:</b> Rich in selenium and lignans, which provide systemic support to immunity and reduce inflammatory markers.",
+      "<b>GI Optimization:</b> Insoluble dietary fibers improve intestinal motility and serve as a substrate for beneficial microflora."
+    ],
+    "precautionsIntro": "Despite its high metabolic value, barley requires informed inclusion in the diet:",
+    "precautions": [
+      "<b>Gluten Presence:</b> Barley is a gluten-containing grain; therefore, it is strictly contraindicated for individuals with celiac disease or non-celiac gluten sensitivity.",
+      "<b>Anti-nutrient Load:</b> Like other whole grains, it contains phytic acid. Prolonged soaking or fermentation before cooking is necessary to neutralize this factor.",
+      "<b>GI Adaptation Period:</b> Introducing large quantities of barley into the diet without prior habituation may trigger temporary discomfort due to increased intestinal fermentation.",
+      "<b>Processing Level:</b> For maximum therapeutic effect, prioritize hulless barley over pearled barley, which has undergone deep scouring."
+    ]
+  },
+  "cauliflower": {
+    "slug": "cauliflower",
+    "name": "Cauliflower",
+    "category": "Vegetables",
+    "image": "/productinfo/cauliflower.png",
+    "imageAlt": "fresh head of cauliflower",
+    "description": "Cauliflower is a highly functional vegetable matrix belonging to the cruciferous family. It is valued for its unique profile of sulfur-containing compounds, such as glucosinolates, and a high density of antioxidants that provide fundamental support for the body's detoxification processes and cell cycle regulation.",
+    "macroTitle": "Macro Nutrients (per 100g, raw)",
+    "macroIntro": "The macronutrient composition of cauliflower is characterized by an extremely low caloric density while maintaining a high volume of fiber, making it an ideal tool for metabolic dietary correction.",
+    "microIntro": "The product is a complex biochemical cluster containing antioxidant catalysts and mineral cofactors necessary for optimizing neuroendocrine and defense systems.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "25 kcal",
+        "bg": "#15837c",
+        "description": "Minimal caloric footprint, allowing the product to be consumed in significant volumes without the risk of excess energy accumulation."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.9 g",
+        "bg": "#f5722c",
+        "description": "Contains plant-based protein fragments that support basic metabolic processes."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.3 g",
+        "bg": "#e4a910",
+        "description": "Virtually zero lipids, supporting the overall dietary leanness of the product."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "5.0 g",
+        "bg": "#15837c",
+        "description": "Represented by low-glycemic sugars and complex fiber, preventing insulin spikes."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "glucosinolates",
+        "slug": "antioxidants",
+        "name": "Glucosinolates",
+        "amount": "High bioactivity",
+        "bg": "#15837c",
+        "description": "Sulfur-containing compounds that transform into isothiocyanates during metabolism, possessing powerful antimutagenic potential."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "48 mg / 53% DV",
+        "bg": "#f5722c",
+        "description": "High dosage of ascorbic acid for systemic cell protection against oxidative stress."
+      },
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "16 mcg / 13% DV",
+        "bg": "#66ab63",
+        "description": "Critically important for bone metabolism and hemostasis regulation."
+      },
+      {
+        "id": "choline",
+        "slug": "choline",
+        "name": "Choline",
+        "amount": "44 mg / 8% DV",
+        "bg": "#e4a910",
+        "description": "An essential nutrient necessary for the synthesis of neurotransmitters and maintaining membrane structure."
+      },
+      {
+        "id": "sulforaphane",
+        "slug": "antioxidants",
+        "name": "Sulforaphane",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "A powerful activator of the Nrf2 pathway, stimulating the production of endogenous detoxification enzymes."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.0 g",
+        "bg": "#1a96cd",
+        "description": "Optimizes intestinal transit and supports the integrity of the mucosal enterocytes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Deep Cellular Detoxification:</b> Sulforaphane and glucosinolates activate phase II detoxification enzymes, neutralizing carcinogenic and toxic compounds.",
+      "<b>Metabolic Stabilization:</b> High fiber content ensures long-term satiety and normalizes the glycemic profile.",
+      "<b>Endothelial Support:</b> Vitamin K and antioxidants contribute to reducing the level of systemic vascular wall inflammation.",
+      "<b>Cognitive Support via Choline:</b> The presence of choline is critical for the integrity of neural pathways and memory formation processes."
+    ],
+    "precautionsIntro": "Cauliflower has high biological activity, so the following factors should be considered when integrating it into the diet:",
+    "precautions": [
+      "<b>Risk with Hypothyroidism:</b> Contains goitrogens, which, in raw form, may interfere with iodine absorption if thyroid function is initially low. Thermal processing significantly reduces this risk.",
+      "<b>Dyspeptic Symptoms:</b> Large amounts of complex fibers and raffinose may cause bloating and flatulence in individuals with sensitive GI tracts. Gradual introduction is recommended.",
+      "<b>Purine Content:</b> Individuals with gout or elevated uric acid levels should limit portion size due to the moderate content of purine bases.",
+      "<b>Nutrient Thermal Degradation:</b> Prolonged boiling destroys a significant portion of fragile antioxidants. Gentle processing methods (steaming, quick cooking) are preferred."
+    ]
+  },
+  "watermelon": {
+    "slug": "watermelon",
+    "name": "Watermelon",
+    "category": "Fruits and Berries",
+    "image": "/productinfo/watermelon.png",
+    "imageAlt": "fresh juicy watermelon",
+    "description": "Watermelon is a highly hydrating botanical matrix consisting primarily of structured water enriched with phytochemical agents. It represents a unique dietary tool for maintaining water-electrolyte balance, containing record concentrations of lycopene—a potent carotenoid antioxidant that protects cellular membranes from photo-oxidative stress.",
+    "macroTitle": "Macro Nutrients (per 100g, raw pulp)",
+    "macroIntro": "The macronutrient profile of watermelon is characterized by minimal energy density and a high degree of bioavailability of simple sugars, which contributes to immediate recovery of energy reserves under intense metabolic loads.",
+    "microIntro": "Watermelon is a carrier of a rare profile of micronutrients, including L-citrulline, which acts as a key metabolic precursor for optimizing vascular tone and accelerating regenerative processes.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "30 kcal",
+        "bg": "#15837c",
+        "description": "A low-calorie product with an extremely high satiety index due to fluid volume."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.6 g",
+        "bg": "#f5722c",
+        "description": "Contains trace amounts of plant-based proteins that do not make a significant contribution to the overall amino acid pool."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Virtually zero lipids, ensuring purity of metabolic energy exchange."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "7.6 g",
+        "bg": "#15837c",
+        "description": "Represented by fast sugars (glucose, fructose) that provide immediate metabolic energy availability."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "lycopene",
+        "slug": "antioxidants",
+        "name": "Lycopene",
+        "amount": "High bioactivity",
+        "bg": "#15837c",
+        "description": "A carotenoid with potent antioxidant action that protects the cardiovascular system and epithelial tissues from oxidation."
+      },
+      {
+        "id": "citrulline",
+        "slug": "amino-acids",
+        "name": "L-Citrulline",
+        "amount": "High concentration",
+        "bg": "#f5722c",
+        "description": "An amino acid converted to L-arginine in the body, promoting vasodilation and improved blood flow."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "8.1 mg / 9% DV",
+        "bg": "#66ab63",
+        "description": "Supports immune function and contributes to collagen synthesis."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "112 mg / 2% DV",
+        "bg": "#e4a910",
+        "description": "An electrolyte critical for regulating blood pressure and proper muscle contraction function."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "569 IU / 11% DV",
+        "bg": "#1a96cd",
+        "description": "Necessary for maintaining retinal and mucosal membrane health."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "10 mg / 2% DV",
+        "bg": "#1a96cd",
+        "description": "Involved in smooth muscle relaxation processes and cellular membrane stabilization."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Support:</b> L-citrulline promotes nitric oxide production, which helps relax vessel walls and lower blood pressure.",
+      "<b>Skin Antioxidant Protection:</b> Lycopene accumulates in the epidermis, providing natural cell protection against the damaging effects of ultraviolet radiation.",
+      "<b>Hydration Optimization:</b> Due to structured water and electrolytes, watermelon restores water-salt balance much more effectively than plain water.",
+      "<b>Reduced Muscle Soreness:</b> Consumption of watermelon juice contributes to decreasing lactate accumulation in muscles after intense workouts."
+    ],
+    "precautionsIntro": "Watermelon is a powerful hydrating agent, however its use requires understanding metabolic dynamics:",
+    "precautions": [
+      "<b>Glycemic Profile:</b> Watermelon has a relatively high glycemic index with low glycemic load. Individuals with diabetes or significant insulin resistance should strictly limit portion size.",
+      "<b>Diuretic Effect:</b> Excessive consumption of watermelon has a pronounced diuretic effect, which requires caution in cases of kidney disease or a tendency toward hypotension.",
+      "<b>Nitrate Load Risk:</b> Early-season watermelons may accumulate nitrogenous fertilizers that can convert into nitrites. Quality and seasonality certification checks are required.",
+      "<b>GI Reactions:</b> High concentrations of fructose when consumed in large volumes may cause fermentation in the gut, triggering bloating in individuals with Irritable Bowel Syndrome (IBS)."
+    ]
+  },
+  "melon": {
+    "slug": "melon",
+    "name": "Melon",
+    "category": "Fruits",
+    "image": "/productinfo/melon.png",
+    "imageAlt": "slice of ripe sweet melon",
+    "description": "Melon is a highly functional gourd crop, serving as a dense matrix of hydrating nutrients and specific enzymes. It acts as an effective metabolic modulator that maintains water-electrolyte homeostasis and provides the organism with a carotenoid complex, critically important for protecting the visual apparatus and regenerating skin tissues.",
+    "macroTitle": "Macro Nutrients (per 100g, raw pulp)",
+    "macroIntro": "The macronutrient profile of melon is characterized by moderate energy density and the presence of easily digestible carbohydrates, making it a valuable source of energy for rapid recovery after neuromuscular exertion.",
+    "microIntro": "Melon is a biochemical concentrate of essential vitamins and minerals that contribute to lowering systemic inflammation levels and optimizing cardiovascular function.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "34 kcal",
+        "bg": "#15837c",
+        "description": "Low calorie count with a high satiety index, contributing to the maintenance of metabolic balance."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.8 g",
+        "bg": "#f5722c",
+        "description": "Contains a basic set of plant-based amino acids supporting enzymatic processes."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Minimal lipid content, facilitating digestion and absorption of the product."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "8.2 g",
+        "bg": "#15837c",
+        "description": "A blend of simple sugars providing rapid energy influx with moderate impact on insulin response."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "3382 IU / 68% DV",
+        "bg": "#15837c",
+        "description": "High concentration of antioxidant carotenoid necessary for supporting immunity and mucosal health."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "36.7 mg / 41% DV",
+        "bg": "#f5722c",
+        "description": "A significant dose of ascorbic acid for collagen synthesis and combatting oxidative stress."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "267 mg / 6% DV",
+        "bg": "#66ab63",
+        "description": "An electrolyte ensuring heart rhythm stability and blood pressure normalization."
+      },
+      {
+        "id": "folate",
+        "slug": "vitamin-b9",
+        "name": "Folate (Vitamin B9)",
+        "amount": "21 mcg / 5% DV",
+        "bg": "#e4a910",
+        "description": "Necessary for hematopoiesis processes and cell division."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "12 mg / 3% DV",
+        "bg": "#1a96cd",
+        "description": "A mineral involved in muscle relaxation and modulation of nerve impulses."
+      },
+      {
+        "id": "adenosine",
+        "slug": "compounds",
+        "name": "Adenosine",
+        "amount": "Bioactive profile",
+        "bg": "#1a96cd",
+        "description": "A compound promoting blood fluidity and preventing platelet aggregation."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Ophthalmological Protection:</b> High beta-carotene and zeaxanthin content protect the retina from damage caused by light exposure.",
+      "<b>Cardio-metabolic Support:</b> Adenosine and potassium work synergistically to improve coronary blood flow and control blood pressure.",
+      "<b>Skin Regeneration:</b> High levels of vitamin C and antioxidants stimulate epithelial tissue renewal and improve skin turgor.",
+      "<b>Detoxification and Hydration:</b> Possesses a mild diuretic effect, promoting the cleansing of urinary tracts and maintaining overall fluid levels in the body."
+    ],
+    "precautionsIntro": "Melon is an active enzymatic product that requires careful attention regarding how it is consumed:",
+    "precautions": [
+      "<b>GI Fermentation:</b> Consuming melon immediately after a heavy protein or fatty meal often leads to excessive fermentation, causing bloating and heaviness. It is recommended to consume it as a separate meal.",
+      "<b>Glycemic Risk:</b> Contains easily digestible sugars; individuals with diabetes should strictly dose consumption to avoid glycemic spikes.",
+      "<b>Nitrate Load:</b> Like other gourd crops, melons are prone to accumulating nitrogen fertilizers in the rind. It is necessary to clean the pulp thoroughly, avoiding the area near the rind.",
+      "<b>Individual Sensitivity:</b> High sugar content can exacerbate conditions associated with Small Intestinal Bacterial Overgrowth (SIBO)."
+    ]
+  },
+  "cucumber": {
+    "slug": "cucumber",
+    "name": "Cucumber",
+    "category": "Vegetables",
+    "image": "/productinfo/cucumber.png",
+    "imageAlt": "fresh green cucumber",
+    "description": "Cucumber is a highly hydrating vegetable matrix possessing low energy density and a high concentration of electrolytes. It serves as a fundamental tool for maintaining systemic water balance and detoxifying the body, providing a supply of phytochemical compounds (cucurbitacins) that possess anti-inflammatory and protective potential.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product with peel)",
+    "macroIntro": "The macronutrient composition of cucumber is almost entirely focused on supporting hydration, making it an indispensable component of metabolic weight loss protocols.",
+    "microIntro": "The product is a unique source of organic silica and specific polyphenols that act synergistically on the integrity of connective tissue and the antioxidant defense of cells.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "15 kcal",
+        "bg": "#15837c",
+        "description": "Extremely low energy value with significant volume, providing a quick feeling of satiety."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.7 g",
+        "bg": "#f5722c",
+        "description": "Contains trace amounts of amino acids, having no significant nutritional load."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.1 g",
+        "bg": "#e4a910",
+        "description": "Virtually zero lipids, supporting the dietary lightness of the product."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "3.6 g",
+        "bg": "#15837c",
+        "description": "Represented primarily by non-digestible fiber, supporting intestinal peristalsis."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "cucurbitacins",
+        "slug": "antioxidants",
+        "name": "Cucurbitacins",
+        "amount": "High bioactivity",
+        "bg": "#15837c",
+        "description": "Specific compounds possessing marked anti-tumor and anti-inflammatory effects."
+      },
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "16.4 mcg / 14% DV",
+        "bg": "#f5722c",
+        "description": "Necessary for bone mineralization processes and blood clotting regulation."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "147 mg / 3% DV",
+        "bg": "#66ab63",
+        "description": "A key intracellular electrolyte, normalizing fluid balance and vascular system function."
+      },
+      {
+        "id": "silica",
+        "slug": "minerals",
+        "name": "Silica",
+        "amount": "Bioactive profile",
+        "bg": "#e4a910",
+        "description": "An element contributing to the strengthening of collagen fibers, improving the condition of skin, hair, and nails."
+      },
+      {
+        "id": "lignans",
+        "slug": "antioxidants",
+        "name": "Lignans",
+        "amount": "Active profile",
+        "bg": "#1a96cd",
+        "description": "Phytoestrogens that reduce the risk of hormone-dependent pathologies and improve antioxidant status."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "2.8 mg / 3% DV",
+        "bg": "#1a96cd",
+        "description": "Supports local immunity and neutralizes free radicals."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Hydration Optimization:</b> Cucumber's structured water has high bioavailability, contributing to the efficient excretion of metabolic waste products.",
+      "<b>Connective Tissue Support:</b> High silica content strengthens structural proteins, promoting skin elasticity and the durability of bone structures.",
+      "<b>Glycemic Profile Regulation:</b> Due to its low glycemic index and fiber content, cucumber does not trigger an insulin response.",
+      "<b>Anti-inflammatory Activity:</b> Cucurbitacins and flavonoids systemically reduce markers of inflammation, protecting cells from premature aging."
+    ],
+    "precautionsIntro": "Cucumber is considered a safe product; however, to prevent side effects, consumption specifics should be considered:",
+    "precautions": [
+      "<b>Nitrate Profile:</b> Early-season and greenhouse cucumbers are prone to nitrate accumulation, especially in the peel and near the stem. Peeling is recommended if the origin is uncertain.",
+      "<b>Bloating in IBS:</b> In individuals with Irritable Bowel Syndrome (IBS) or flatulence, consuming raw cucumbers may provoke discomfort due to the high fiber content and specific sugars.",
+      "<b>Anti-nutrient Components:</b> The presence of cucurbitacins in some varieties may impart bitterness and, in excess, cause mild gastric mucosal irritation.",
+      "<b>Compatibility:</b> Due to enzymatic activity, cucumbers are not always recommended to be mixed with dairy products, as this may provoke digestive disturbances in individuals with sensitive GI tracts."
     ]
   }
 }

@@ -430,5 +430,158 @@
     "image": "/products/arecola-cherries.svg",
     "favorite": false,
     "link": "/productinfo/acerola-cherries"
+  },
+  {
+    "id": 50,
+    "name": "Garlic",
+    "category": "food/vegetables",
+    "calories": 149,
+    "image": "/products/garlic.png",
+    "favorite": false,
+    "link": "/productinfo/garlic"
+  },
+  {
+  "id": 51,
+    "name": "Onion",
+    "category": "food/vegetables",
+    "calories": 40,
+    "image": "/products/onion.png",
+    "favorite": false,
+    "link": "/productinfo/onion"
+  },
+  {
+    "id": 52,
+    "name": "Walnuts",
+    "category": "food/nuts and seeds",
+    "calories": 654,
+    "image": "/products/walnuts.png",
+    "favorite": false,
+    "link": "/productinfo/walnuts"
+  },
+  {
+    "id": 53,
+    "name": "Pistachios",
+    "category": "food/nuts and seeds",
+    "calories": 562,
+    "image": "/products/pistachios.png",
+    "favorite": false,
+    "link": "/productinfo/pistachios"
+  },
+  {
+    "id": 54,
+    "name": "Blueberries",
+    "category": "food/fruits",
+    "calories": 57,
+    "image": "/products/blueberries.png",
+    "favorite": false,
+    "link": "/productinfo/blueberries"
+  },
+  {
+    "id": 55,
+    "name": "Blackberries",
+    "category": "food/fruits",
+    "calories": 43,
+    "image": "/products/blackberries.png",
+    "favorite": false,
+    "link": "/productinfo/blackberries"
+  },
+  {
+    "id": 56,
+    "name": "Raspberries",
+    "category": "food/fruits",
+    "calories": 52,
+    "image": "/products/raspberries.png",
+    "favorite": false,
+    "link": "/productinfo/raspberries"
+  },
+  {
+    "id": 57,
+    "name": "Apples",
+    "category": "food/fruits",
+    "calories": 52,
+    "image": "/products/apple.png",
+    "favorite": false,
+    "link": "/productinfo/apples"
+  },
+  {
+    "id": 58,
+    "name": "Pomegranate",
+    "category": "food/fruits",
+    "calories": 83,
+    "image": "/products/pomegranate.png",
+    "favorite": false,
+    "link": "/productinfo/pomegranate"
+  },
+  {
+    "id": 59,
+    "name": "Grapes",
+    "category": "food/fruits",
+    "calories": 69,
+    "image": "/products/grapes.png",
+    "favorite": false,
+    "link": "/productinfo/grapes"
+  },
+  {
+    "id": 60,
+    "name": "Mango",
+    "category": "food/fruits",
+    "calories": 60,
+    "image": "/products/mango.png",
+    "favorite": false,
+    "link": "/productinfo/mango"
+  },
+  {
+    "id": 61,
+    "name": "Oats",
+    "category": "food/grains and cereals",
+    "calories": 389,
+    "image": "/products/oats.png",
+    "favorite": false,
+    "link": "/productinfo/oats"
+  },
+  {
+    "id": 62,
+    "name": "Barley",
+    "category": "food/grains and cereals",
+    "calories": 352,
+    "image": "/products/barley.png",
+    "favorite": false,
+    "link": "/productinfo/barley"
+  },
+  {
+    "id": 63,
+    "name": "Cauliflower",
+    "category": "food/vegetables",
+    "calories": 25,
+    "image": "/products/cauliflower.png",
+    "favorite": false,
+    "link": "/productinfo/cauliflower"
+  },
+  {
+    "id": 64,
+    "name": "Watermelon",
+    "category": "food/fruits",
+    "calories": 30,
+    "image": "/products/watermelon.png",
+    "favorite": false,
+    "link": "/productinfo/watermelon"
+  },
+  {
+    "id": 65,
+    "name": "Melon",
+    "category": "food/fruits",
+    "calories": 34,
+    "image": "/products/melon.png",
+    "favorite": false,
+    "link": "/productinfo/melon"
+  },
+  {
+    "id": 66,
+    "name": "Cucumber",
+    "category": "food/vegetables",
+    "calories": 15,
+    "image": "/products/cucumber.png",
+    "favorite": false,
+    "link": "/productinfo/cucumber"
   }
 ]

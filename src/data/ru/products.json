@@ -430,5 +430,158 @@
     "image": "/products/arecola-cherries.svg",
     "favorite": false,
     "link": "/productinfo/acerola-cherries"
+  },
+  {
+    "id": 50,
+    "name": "Чеснок",
+    "category": "Овощи",
+    "calories": 149,
+    "image": "/products/garlic.png",
+    "favorite": false,
+    "link": "/productinfo/garlic"
+  },
+  {
+    "id": 51,
+    "name": "Лук репчатый",
+    "category": "Овощи",
+    "calories": 40,
+    "image": "/products/onion.png",
+    "favorite": false,
+    "link": "/productinfo/onions"
+  },
+  {
+    "id": 52,
+    "name": "Грецкие орехи",
+    "category": "Орехи и семена",
+    "calories": 654,
+    "image": "/products/walnuts.png",
+    "favorite": false,
+    "link": "/productinfo/walnuts"
+  },
+  {
+    "id": 53,
+    "name": "Фисташки",
+    "category": "Орехи и семена",
+    "calories": 562,
+    "image": "/products/pistachios.png",
+    "favorite": false,
+    "link": "/productinfo/pistachios"
+  },
+  {
+    "id": 54,
+    "name": "Черника",
+    "category": "Фрукты и ягоды",
+    "calories": 57,
+    "image": "/products/blueberries.png",
+    "favorite": false,
+    "link": "/productinfo/blueberries"
+  },
+  {
+    "id": 55,
+    "name": "Ежевика",
+    "category": "Фрукты и ягоды",
+    "calories": 43,
+    "image": "/products/blackberries.png",
+    "favorite": false,
+    "link": "/productinfo/blackberries"
+  },
+  {
+    "id": 56,
+    "name": "Малина",
+    "category": "Фрукты и ягоды",
+    "calories": 52,
+    "image": "/products/raspberries.png",
+    "favorite": false,
+    "link": "/productinfo/raspberries"
+  },
+  {
+    "id": 57,
+    "name": "Яблоки",
+    "category": "Фрукты и ягоды",
+    "calories": 52,
+    "image": "/products/apple.png",
+    "favorite": false,
+    "link": "/productinfo/apples"
+  },
+  {
+    "id": 58,
+    "name": "Гранат",
+    "category": "Фрукты и ягоды",
+    "calories": 83,
+    "image": "/products/pomegranate.png",
+    "favorite": false,
+    "link": "/productinfo/pomegranate"
+  },
+  {
+    "id": 59,
+    "name": "Виноград",
+    "category": "Фрукты и ягоды",
+    "calories": 69,
+    "image": "/products/grapes.png",
+    "favorite": false,
+    "link": "/productinfo/grapes"
+  },
+  {
+    "id": 60,
+    "name": "Манго",
+    "category": "Фрукты и ягоды",
+    "calories": 60,
+    "image": "/products/mango.png",
+    "favorite": false,
+    "link": "/productinfo/mango"
+  },
+  {
+    "id": 61,
+    "name": "Овсянка",
+    "category": "Крупы и злаки",
+    "calories": 389,
+    "image": "/products/oats.png",
+    "favorite": false,
+    "link": "/productinfo/oats"
+  },
+  {
+    "id": 62,
+    "name": "Ячмень",
+    "category": "Крупы и злаки",
+    "calories": 352,
+    "image": "/products/barley.png",
+    "favorite": false,
+    "link": "/productinfo/barley"
+  },
+  {
+    "id": 63,
+    "name": "Цветная капуста",
+    "category": "Овощи",
+    "calories": 25,
+    "image": "/products/cauliflower.png",
+    "favorite": false,
+    "link": "/productinfo/cauliflower"
+  },
+  {
+    "id": 64,
+    "name": "Арбуз",
+    "category": "Фрукты и ягоды",
+    "calories": 30,
+    "image": "/products/watermelon.png",
+    "favorite": false,
+    "link": "/productinfo/watermelon"
+  },
+  {
+    "id": 65,
+    "name": "Дыня",
+    "category": "Фрукты и ягоды",
+    "calories": 34,
+    "image": "/products/melon.png",
+    "favorite": false,
+    "link": "/productinfo/melon"
+  },
+  {
+    "id": 66,
+    "name": "Огурец",
+    "category": "Овощи",
+    "calories": 15,
+    "image": "/products/cucumber.png",
+    "favorite": false,
+    "link": "/productinfo/cucumber"
   }
 ]
