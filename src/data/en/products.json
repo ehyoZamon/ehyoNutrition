@@ -646,5 +646,41 @@
     "image": "/products/apricot.png",
     "favorite": false,
     "link": "/productinfo/apricot"
+  },
+  {
+    "id": 74,
+    "name": "Whole Wheat Bread",
+    "category": "food/grains and cereals",
+    "calories": 247,
+    "image": "/products/whole-wheat-bread.png",
+    "favorite": false,
+    "link": "/productinfo/whole-wheat-bread"
+  },
+  {
+    "id": 75,
+    "name": "Whole Wheat Pasta",
+    "category": "food/grains and cereals",
+    "calories": 348,
+    "image": "/products/whole-grain-pasta.png",
+    "favorite": false,
+    "link": "/productinfo/whole-grain-pasta"
+  },
+  {
+    "id": 76,
+    "name": "Beetroot",
+    "category": "food/vegetables",
+    "calories": 43,
+    "image": "/products/beetroot.png",
+    "favorite": false,
+    "link": "/productinfo/beetroot"
+  },
+  {
+    "id": 77,
+    "name": "Radish",
+    "category": "food/vegetables",
+    "calories": 16,
+    "image": "/products/radish.png",
+    "favorite": false,
+    "link": "/productinfo/radish"
   }
 ]

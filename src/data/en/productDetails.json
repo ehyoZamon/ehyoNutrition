@@ -7351,5 +7351,420 @@
       "<b>Pits:</b> The kernels of the pits contain amygdalin, which releases cyanide during metabolism. Consuming large amounts of kernels is dangerous.",
       "<b>Allergy:</b> Individual intolerance is possible, especially in individuals sensitive to birch pollen or other stone fruits."
     ]
+  },
+  "whole-wheat-bread": {
+    "slug": "whole-wheat-bread",
+    "name": "Whole Wheat Bread",
+    "category": "Bakery Products",
+    "image": "/productinfo/whole-wheat-bread.png",
+    "imageAlt": "slice of whole wheat bread",
+    "description": "Whole wheat bread is a high-energy matrix of complex carbohydrates obtained from flour containing all parts of the grain (bran, endosperm, and germ). It is a fundamental source of slowly released glucose, dietary fiber, and a wide spectrum of micronutrients necessary for maintaining metabolic stability and GI tract health.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "The macronutrient profile of the product is balanced to provide prolonged satiety, preventing sharp insulin spikes in the systemic bloodstream.",
+    "microIntro": "The bread serves as a carrier for key B-vitamins and minerals that play a critical role in nervous system functioning and energy metabolism.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "250 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy density, providing long-term maintenance of performance."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "12.0 g",
+        "bg": "#f5722c",
+        "description": "Plant-based protein (gluten) containing a complex of essential amino acids."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "3.5 g",
+        "bg": "#e4a910",
+        "description": "Low fat content, mainly unsaturated, which are part of the grain germ."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "45.0 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates and dietary fiber, providing slow and even energy release."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "7.0 g",
+        "bg": "#15837c",
+        "description": "Necessary for regular intestinal motility and microbiota modulation."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "80 mg / 20% DV",
+        "bg": "#f5722c",
+        "description": "Involved in muscle relaxation and support of the nervous system."
+      },
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "0.3 mg / 18% DV",
+        "bg": "#66ab63",
+        "description": "Regulates protein metabolism and supports hormonal balance."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "3.5 mg / 19% DV",
+        "bg": "#e4a910",
+        "description": "Important element for hemoglobin synthesis and oxygen delivery."
+      },
+      {
+        "id": "niacin",
+        "slug": "vitamin-b3",
+        "name": "Niacin (B3)",
+        "amount": "4.0 mg / 25% DV",
+        "bg": "#1a96cd",
+        "description": "Supports energy metabolism and vascular health."
+      },
+      {
+        "id": "zinc",
+        "slug": "zinc",
+        "name": "Zinc",
+        "amount": "2.0 mg / 18% DV",
+        "bg": "#1a96cd",
+        "description": "Critical for immune response and tissue regeneration."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Glycemic Stabilization:</b> A low glycemic index helps prevent metabolic crashes and maintains stable blood sugar levels.",
+      "<b>Intestinal Support:</b> Fiber stimulates peristalsis and creates an environment for the proliferation of beneficial microflora.",
+      "<b>Cardiovascular Support:</b> Regular consumption of whole grains is associated with a lower risk of hypertension and CHD.",
+      "<b>Satiety and Weight Control:</b> High fiber content ensures rapid satiety, helping to control the volume of consumed calories."
+    ],
+    "precautionsIntro": "Despite its high nutritional value, whole wheat bread requires consideration of some aspects:",
+    "precautions": [
+      "<b>Gluten Sensitivity:</b> For individuals with celiac disease or gluten intolerance, consumption of this product is strictly contraindicated.",
+      "<b>Anti-nutrients:</b> Whole grains contain phytic acid, which can reduce the bioavailability of certain minerals (zinc, calcium) if consumed in excess.",
+      "<b>GI Irritation:</b> In individuals with acute gastritis or irritable bowel syndrome, rough fibers can cause mechanical irritation of the mucosa.",
+      "<b>Raw Material Quality:</b> It is important to choose products made from quality grain, as bran can accumulate pesticides if stored improperly."
+    ]
+  },
+  "whole-grain-pasta": {
+    "slug": "whole-grain-pasta",
+    "name": "Whole Grain Pasta",
+    "category": "Grain Products / Pasta",
+    "image": "/productinfo/whole-grain-pasta.png",
+    "imageAlt": "whole grain pasta",
+    "description": "Whole grain pasta is a nutritionally enriched form of a carbohydrate matrix produced from whole wheat flour, which retains all grain layers: bran, endosperm, and germ. The product is characterized by a high content of complex carbohydrates and dietary fiber, ensuring a physiologically optimal glucose response and prolonged satiety.",
+    "macroTitle": "Macro Nutrients (per 100g, dry product)",
+    "macroIntro": "The macronutrient profile provides balanced energy support while maintaining a low glycemic index, promoting the body's metabolic flexibility.",
+    "microIntro": "This product is an important source of minerals and B-vitamins involved in energy metabolism and the protection of cellular structures.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "350 kcal",
+        "bg": "#15837c",
+        "description": "Energy value ensuring full replenishment of glycogen stores."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "13.0 g",
+        "bg": "#f5722c",
+        "description": "Plant-based protein containing amino acids necessary for maintaining muscle tone."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "2.5 g",
+        "bg": "#e4a910",
+        "description": "Minimal content of beneficial lipids from the grain germ."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "65.0 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates and fiber, preventing sharp insulin spikes."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "7.5 g",
+        "bg": "#15837c",
+        "description": "Critically important for normal GI tract motility and microbiome modulation."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "110 mg / 28% DV",
+        "bg": "#f5722c",
+        "description": "Supports neuromuscular transmission and protein synthesis."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "220 mg / 31% DV",
+        "bg": "#66ab63",
+        "description": "Essential for ATP synthesis and bone mineralization."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "3.2 mg / 18% DV",
+        "bg": "#e4a910",
+        "description": "Important element for hematopoiesis and cellular energy metabolism."
+      },
+      {
+        "id": "vitB3",
+        "slug": "vitamin-b3",
+        "name": "Niacin (B3)",
+        "amount": "5.0 mg / 31% DV",
+        "bg": "#1a96cd",
+        "description": "Participates in the body's oxidation-reduction processes."
+      },
+      {
+        "id": "zinc",
+        "slug": "zinc",
+        "name": "Zinc",
+        "amount": "2.5 mg / 23% DV",
+        "bg": "#1a96cd",
+        "description": "Activates enzymatic reactions and immune status."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Metabolic Stability:</b> High dietary fiber content helps slow down glucose absorption, preventing hyperglycemia.",
+      "<b>Microbiota Support:</b> Prebiotic fibers serve as a substrate for beneficial gut flora, supporting immune system health.",
+      "<b>Cardioprotection:</b> Replacing refined carbohydrates with whole grains is associated with a reduced risk of cardiovascular diseases.",
+      "<b>Appetite Control:</b> Prolonged digestion and satiety facilitate the control of energy balance and body weight."
+    ],
+    "precautionsIntro": "Whole grain pasta is a safe product but has limitations:",
+    "precautions": [
+      "<b>Gluten Enteropathy:</b> The product is contraindicated for individuals with diagnosed celiac disease.",
+      "<b>Gastroenterological Conditions:</b> During acute gastritis or peptic ulcer disease, coarse fiber may cause mechanical irritation of the mucosa.",
+      "<b>Mineral Bioavailability:</b> Phytic acid contained in bran may partially block the absorption of zinc and iron if consumed in excess.",
+      "<b>Individual Intolerance:</b> In individuals with heightened sensitivity to wheat components, uncomfortable GI reactions are possible."
+    ]
+  },
+  "beetroot": {
+    "slug": "beetroot",
+    "name": "Beetroot",
+    "category": "Vegetables",
+    "image": "/productinfo/beetroot.png",
+    "imageAlt": "fresh red beetroot",
+    "description": "Beetroot is a highly functional root vegetable possessing a unique profile of bioactive compounds, including betalains (plant pigments) and nitrates. It is an effective natural modulator of cardiovascular function, promoting vasodilation and optimizing energy metabolism in tissues.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "Beetroot is characterized by moderate caloric content and high sugar levels, which, combined with fiber, ensure a stable energy response.",
+    "microIntro": "The product is a rich source of micronutrients that support metabolic health and the body's detoxification processes.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "43 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy density with high biological value."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.6 g",
+        "bg": "#f5722c",
+        "description": "Contains a basic set of plant-based amino acids."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Virtually zero fat content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "9.6 g",
+        "bg": "#15837c",
+        "description": "Represented by natural sugars and pectin substances."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "folate",
+        "slug": "vitamin-b9",
+        "name": "Folate (B9)",
+        "amount": "109 mcg / 27% DV",
+        "bg": "#15837c",
+        "description": "Critically important for DNA synthesis and cell renewal."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.3 mg / 16% DV",
+        "bg": "#f5722c",
+        "description": "Involved in metabolism and antioxidant defense."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "325 mg / 7% DV",
+        "bg": "#66ab63",
+        "description": "Supports electrolyte balance and heart function."
+      },
+      {
+        "id": "betalains",
+        "slug": "antioxidants",
+        "name": "Betalains",
+        "amount": "High concentration",
+        "bg": "#e4a910",
+        "description": "Pigments with powerful anti-inflammatory action."
+      },
+      {
+        "id": "nitrates",
+        "slug": "compounds",
+        "name": "Dietary Nitrates",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "Promote nitric oxide production, improving blood circulation."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "4.9 mg / 5% DV",
+        "bg": "#1a96cd",
+        "description": "Supports immune function and collagen synthesis."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Support:</b> Dietary nitrates help lower blood pressure and improve muscle oxygen use efficiency.",
+      "<b>Detoxification:</b> Betalains stimulate liver function, helping the body effectively neutralize and eliminate toxins.",
+      "<b>Digestive Function:</b> Pectin fibers improve intestinal peristalsis and support a healthy microbiota.",
+      "<b>Antioxidant Defense:</b> High levels of antioxidants neutralize free radicals, slowing down cellular aging processes."
+    ],
+    "precautionsIntro": "Beetroot is a highly beneficial product, but individual characteristics should be considered:",
+    "precautions": [
+      "<b>Oxalates:</b> Beetroot contains oxalates, so individuals prone to forming oxalate kidney stones should limit its consumption.",
+      "<b>Hypotension:</b> Due to the vasodilatory effect of nitrates, excessive beetroot consumption can trigger an excessive drop in blood pressure.",
+      "<b>Glycemic Control:</b> Beetroot has a moderate glycemic index, so portion control is required in cases of diabetes.",
+      "<b>Urine Discoloration:</b> Consuming beetroot can cause temporary urine color changes (beeturia), which is a physiological norm, not a pathology."
+    ]
+  },
+  "radish": {
+    "slug": "radish",
+    "name": "Radish",
+    "category": "Vegetables",
+    "image": "/productinfo/radish.png",
+    "imageAlt": "fresh red radish",
+    "description": "Radish is a low-calorie root vegetable with pronounced antibacterial and choleretic effects. It is valued for its content of isothiocyanates — sulfur-containing compounds that exhibit antioxidant activity and promote detoxification processes in the body.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "Radish has an extremely low energy density, making it an excellent component for low-calorie diets.",
+    "microIntro": "The product contains important minerals and vitamins that contribute to maintaining metabolic status.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "16 kcal",
+        "bg": "#15837c",
+        "description": "Minimal calories with high nutritional value."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.7 g",
+        "bg": "#f5722c",
+        "description": "Small amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.1 g",
+        "bg": "#e4a910",
+        "description": "Virtually zero fat content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "3.4 g",
+        "bg": "#15837c",
+        "description": "Represented by fiber and simple sugars."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "14.8 mg / 16% DV",
+        "bg": "#15837c",
+        "description": "Supports immunity and collagen synthesis."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "233 mg / 5% DV",
+        "bg": "#f5722c",
+        "description": "Important for normal heart muscle function."
+      },
+      {
+        "id": "isothiocyanates",
+        "slug": "compounds",
+        "name": "Isothiocyanates",
+        "amount": "High bioactivity",
+        "bg": "#66ab63",
+        "description": "Sulfur-containing compounds with antibacterial properties."
+      },
+      {
+        "id": "folate",
+        "slug": "vitamin-b9",
+        "name": "Folate (B9)",
+        "amount": "25 mcg / 6% DV",
+        "bg": "#e4a910",
+        "description": "Necessary for cell division processes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestive Support:</b> The essential oils of radish stimulate gastric juice secretion and improve appetite.",
+      "<b>Antimicrobial Effect:</b> Radish components inhibit the growth of pathogenic flora in the GI tract.",
+      "<b>Detoxification:</b> Promotes the elimination of excess fluid and the normalization of liver function.",
+      "<b>Vascular Support:</b> Helps strengthen vascular walls and normalize cholesterol levels."
+    ],
+    "precautionsIntro": "Radish has an active effect on the GI tract, so moderation is advised:",
+    "precautions": [
+      "<b>GI Disorders:</b> Due to the content of essential oils, radish consumption is not recommended for those with gastritis with high acidity, ulcers, and pancreatitis in the acute stage.",
+      "<b>Thyroid Gland:</b> Radish contains goitrogenic substances which, in large amounts, can hinder iodine absorption.",
+      "<b>Individual Intolerance:</b> An allergic reaction to components of cruciferous vegetables is possible."
+    ]
   }
 }

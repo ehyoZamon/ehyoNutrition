@@ -646,5 +646,41 @@
     "image": "/products/apricot.png",
     "favorite": false,
     "link": "/productinfo/apricot"
+  },
+  {
+    "id": 74,
+    "name": "Цельнозерновой хлеб",
+    "category": "Крупы и злаки",
+    "calories": 247,
+    "image": "/products/whole-wheat-bread.png",
+    "favorite": false,
+    "link": "/productinfo/whole-wheat-bread"
+  },
+  {
+    "id": 75,
+    "name": "Цельнозерновые макароны",
+    "category": "Крупы и злаки",
+    "calories": 348,
+    "image": "/products/whole-grain-pasta.png",
+    "favorite": false,
+    "link": "/productinfo/whole-grain-pasta"
+  },
+  {
+    "id": 76,
+    "name": "Свёкла",
+    "category": "Овощи",
+    "calories": 43,
+    "image": "/products/beetroot.png",
+    "favorite": false,
+    "link": "/productinfo/beetroot"
+  },
+  {
+    "id": 77,
+    "name": "Редис",
+    "category": "Овощи",
+    "calories": 16,
+    "image": "/products/radish.png",
+    "favorite": false,
+    "link": "/productinfo/radish"
   }
 ]
