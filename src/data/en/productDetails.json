@@ -6595,5 +6595,761 @@
       "<b>Anti-nutrient Components:</b> The presence of cucurbitacins in some varieties may impart bitterness and, in excess, cause mild gastric mucosal irritation.",
       "<b>Compatibility:</b> Due to enzymatic activity, cucumbers are not always recommended to be mixed with dairy products, as this may provoke digestive disturbances in individuals with sensitive GI tracts."
     ]
+  },
+  "kefir": {
+    "slug": "kefir",
+    "name": "Kefir",
+    "category": "Fermented Dairy Products",
+    "image": "/productinfo/kefir.png",
+    "imageAlt": "glass of fresh kefir",
+    "description": "Kefir is a highly effective fermented probiotic matrix obtained by fermenting milk with kefir grains. It represents a complex symbiosis of beneficial bacteria and yeasts, possessing a marked modulating effect on the intestinal microbiota and the body's systemic immune reactivity.",
+    "macroTitle": "Macro Nutrients (per 100g, 2.5% fat)",
+    "macroIntro": "The macronutrient profile of kefir is balanced to provide the body with easily digestible proteins and a moderate amount of dairy fats, which contributes to high-quality tissue regeneration.",
+    "microIntro": "Kefir is a unique carrier of metabolically active compounds, B-vitamins, and organic acids, working synergistically to support the body's internal environment.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "50 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy density, providing complete nutritional intake at a controlled calorie level."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "3.0 g",
+        "bg": "#f5722c",
+        "description": "Easily digestible dairy protein (casein and whey proteins) containing the full spectrum of essential amino acids."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "2.5 g",
+        "bg": "#e4a910",
+        "description": "Dairy fats in emulsified form, necessary for the absorption of fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "4.0 g",
+        "bg": "#15837c",
+        "description": "Represented by lactose, which is partially fermented during the maturation process, making the product easier to digest."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "probiotics",
+        "slug": "probiotics",
+        "name": "Probiotic Cultures",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "A unique complex of lactobacilli, bifidobacteria, and beneficial yeasts colonizing the gut."
+      },
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "120 mg / 12% DV",
+        "bg": "#f5722c",
+        "description": "An essential mineral for the structural integrity of bone tissue and the transmission of nerve impulses."
+      },
+      {
+        "id": "vitB12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12",
+        "amount": "0.4 mcg / 17% DV",
+        "bg": "#66ab63",
+        "description": "Critically important for hematopoiesis and neuronal metabolism."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "95 mg / 14% DV",
+        "bg": "#e4a910",
+        "description": "Supports energy metabolism (ATP) and skeletal system health."
+      },
+      {
+        "id": "riboflavin",
+        "slug": "vitamin-b2",
+        "name": "Riboflavin (B2)",
+        "amount": "0.15 mg / 12% DV",
+        "bg": "#1a96cd",
+        "description": "Participates in oxidation-reduction reaction processes and vision maintenance."
+      },
+      {
+        "id": "organicAcids",
+        "slug": "acids",
+        "name": "Organic Acids",
+        "amount": "Active profile",
+        "bg": "#1a96cd",
+        "description": "Lactic and acetic acids, creating an optimal pH environment in the gut."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Microbiome Correction:</b> Kefir is one of the most powerful natural sources of probiotics that restore the diversity of intestinal flora.",
+      "<b>Immune Modulation:</b> Through its impact on the GALT system (gut-associated lymphoid tissue), systematic consumption of kefir increases the body's overall resistance.",
+      "<b>GI Optimization:</b> Organic acids and enzymes contribute to efficient food digestion and regular bowel motility.",
+      "<b>Metabolic Improvement:</b> Regular consumption contributes to improving the cholesterol profile and stabilizing blood sugar levels."
+    ],
+    "precautionsIntro": "Kefir is a biologically active product, so it is important to consider individual characteristics when including it in the diet:",
+    "precautions": [
+      "<b>Lactose Intolerance:</b> Despite partial lactose breakdown, people with severe lactase deficiency may experience symptoms of indigestion.",
+      "<b>Acidity:</b> High organic acid content may cause discomfort in individuals with hyperacidic gastritis or peptic ulcers in the acute stage.",
+      "<b>Alcohol Content:</b> Natural kefir contains trace amounts of ethanol (a result of yeast fermentation). This amount is minimal, but should be considered if strictly abstaining.",
+      "<b>Product Freshness:</b> Kefir has different effects on the GI tract depending on storage time: fresh (one-day) has a mild laxative effect, while 'old' (three-day) has a constipating effect."
+    ]
+  },
+  "cheese": {
+    "slug": "cheese",
+    "name": "Cheese",
+    "category": "Dairy Products",
+    "image": "/productinfo/cheese.png",
+    "imageAlt": "piece of hard cheese",
+    "description": "Cheese is a highly concentrated protein-lipid matrix obtained through the fermentation and coagulation of milk protein. It is a nutritionally dense product that serves as a rich source of bioavailable calcium, complete animal protein, and fat-soluble vitamins, providing structural support for the skeletal system and metabolic processes.",
+    "macroTitle": "Macro Nutrients (per 100g, average values for semi-hard varieties)",
+    "macroIntro": "Cheese is characterized by high energy density and an optimal ratio of macronutrients, making it a strategic product for maintaining muscle tone and energy balance.",
+    "microIntro": "The product is a unique storehouse of essential nutrients, including vitamins A, D, and B12, and mineral elements that work synergistically to maintain physiological homeostasis.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "350-400 kcal",
+        "bg": "#15837c",
+        "description": "High energy capacity, ensuring prolonged satiety and high performance."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "25-30 g",
+        "bg": "#f5722c",
+        "description": "A concentrated source of casein, providing the body with the necessary set of amino acids for tissue regeneration."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "25-35 g",
+        "bg": "#e4a910",
+        "description": "Animal-based fats, necessary for hormone synthesis and the absorption of fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "0-2 g",
+        "bg": "#15837c",
+        "description": "Minimal carbohydrate content due to the almost complete fermentation of lactose during the maturation process."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "700-1000 mg",
+        "bg": "#15837c",
+        "description": "The most bioavailable form of the mineral, critically important for skeletal health and muscle contraction."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A",
+        "amount": "High concentration",
+        "bg": "#f5722c",
+        "description": "Supports the regeneration of mucous membranes, immune defense, and visual function."
+      },
+      {
+        "id": "vitB12",
+        "slug": "vitamin-b12",
+        "name": "Vitamin B12",
+        "amount": "High concentration",
+        "bg": "#66ab63",
+        "description": "Essential for DNA synthesis, hematopoiesis, and the metabolic health of the nervous system."
+      },
+      {
+        "id": "phosphorus",
+        "slug": "phosphorus",
+        "name": "Phosphorus",
+        "amount": "500-700 mg",
+        "bg": "#e4a910",
+        "description": "Together with calcium, it forms the mineral basis of the skeleton and participates in energy metabolism (ATP)."
+      },
+      {
+        "id": "zinc",
+        "slug": "zinc",
+        "name": "Zinc",
+        "amount": "Moderate concentration",
+        "bg": "#1a96cd",
+        "description": "A mineral involved in protein synthesis and supporting the body's defense mechanisms."
+      },
+      {
+        "id": "vitK2",
+        "slug": "vitamin-k2",
+        "name": "Vitamin K2",
+        "amount": "Variable concentration",
+        "bg": "#1a96cd",
+        "description": "Regulates calcium transport, preventing its deposition in blood vessels and directing it into bone tissue."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Skeletal Support:</b> The unique combination of calcium, phosphorus, and vitamin K2 provides fundamental strength to bone structures.",
+      "<b>Protein Synthesis:</b> The high concentration of casein makes cheese an effective product for maintaining muscle mass and long-term metabolic satiety.",
+      "<b>Oral Health:</b> Regular cheese consumption helps increase the oral cavity's pH, reducing tooth enamel demineralization.",
+      "<b>Neuroendocrine Stability:</b> Cheese fats and amino acids contribute to maintaining hormonal balance and cognitive functions."
+    ],
+    "precautionsIntro": "Cheese is a highly active product, so it should be included in the diet considering the following aspects:",
+    "precautions": [
+      "<b>Sodium Content:</b> Hard and aged varieties often contain high doses of salt, which requires monitoring in cases of arterial hypertension or kidney disease.",
+      "<b>Saturated Fats:</b> The high content of saturated fatty acids requires portion limitation for individuals with dyslipidemia and a tendency toward cardiovascular pathologies.",
+      "<b>Amines and Histamine:</b> Aged cheeses contain tyramine and other biogenic amines that may provoke headaches in sensitive individuals.",
+      "<b>Individual Intolerance:</b> Despite the low lactose content, allergy to dairy proteins (casein) is a direct contraindication for consuming most types of cheese."
+    ]
+  },
+  "lemon": {
+    "slug": "lemon",
+    "name": "Lemon",
+    "category": "Citrus",
+    "image": "/productinfo/lemon.png",
+    "imageAlt": "fresh yellow lemon",
+    "description": "Lemon is a highly concentrated biochemical agent belonging to the Rutaceae family. It is valued for its unique content of citric acid, high doses of ascorbic acid, and a wide spectrum of phytonutrients (flavonoids), which provide powerful antioxidant protection and optimization of metabolic processes in the body.",
+    "macroTitle": "Macro Nutrients (per 100g, pulp)",
+    "macroIntro": "Lemon is characterized by extremely low caloric content and an almost total absence of fat and protein, making it a tool for flavor and nutritional modulation of dishes without significantly changing their energy density.",
+    "microIntro": "The product is a complex storehouse of vitamins and organic compounds, playing a critical role in maintaining immune status and systemic detoxification.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "29 kcal",
+        "bg": "#15837c",
+        "description": "Minimal energy footprint, allowing the product to be used without restricting caloric intake."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.1 g",
+        "bg": "#f5722c",
+        "description": "Contains a negligible amount of plant-based proteins."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.3 g",
+        "bg": "#e4a910",
+        "description": "Virtually zero lipids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "9.3 g",
+        "bg": "#15837c",
+        "description": "Represented by simple sugars and organic acids, contributing to improved digestion."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "53 mg / 59% DV",
+        "bg": "#15837c",
+        "description": "A powerful antioxidant, critically important for collagen synthesis and immune defense."
+      },
+      {
+        "id": "citricAcid",
+        "slug": "acids",
+        "name": "Citric Acid",
+        "amount": "High bioactivity",
+        "bg": "#f5722c",
+        "description": "An organic acid that promotes improved digestion and helps prevent kidney stone formation."
+      },
+      {
+        "id": "flavonoids",
+        "slug": "antioxidants",
+        "name": "Flavonoids",
+        "amount": "Active profile",
+        "bg": "#66ab63",
+        "description": "Hesperidin and eriocitrin—compounds protecting cells from oxidative damage."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "138 mg / 3% DV",
+        "bg": "#e4a910",
+        "description": "Important for maintaining electrolyte balance and regulating blood pressure."
+      },
+      {
+        "id": "folate",
+        "slug": "vitamin-b9",
+        "name": "Folate (B9)",
+        "amount": "11 mcg / 3% DV",
+        "bg": "#1a96cd",
+        "description": "Necessary for cell division and tissue renewal processes."
+      },
+      {
+        "id": "limonene",
+        "slug": "compounds",
+        "name": "Limonene",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "An aromatic compound with marked anti-inflammatory and anti-tumor potential."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Immune Stimulation:</b> High concentration of Vitamin C activates the phagocytic activity of immune system cells.",
+      "<b>Cardiovascular Support:</b> Flavonoids and potassium contribute to reducing systemic vascular inflammation and normalizing blood pressure.",
+      "<b>Renal Prophylaxis:</b> Citric acid increases urinary citrate levels, which inhibits the crystallization of oxalate stones.",
+      "<b>Metabolic Activation:</b> Consuming lemon water promotes the stimulation of digestive enzyme secretion."
+    ],
+    "precautionsIntro": "Despite the benefits, the high acidity of lemon requires caution in the following conditions:",
+    "precautions": [
+      "<b>GERD:</b> High acidity may provoke heartburn and esophageal mucosal irritation in individuals with GERD.",
+      "<b>Enamel Erosion:</b> Direct contact of lemon juice with teeth demineralizes the enamel. Using a straw or rinsing the mouth with water is recommended.",
+      "<b>Ulcerative Lesions:</b> In cases of gastritis or stomach ulcer exacerbation, lemon juice consumption is strictly not recommended due to the risk of mucosal damage.",
+      "<b>Allergic Reactions:</b> Citrus fruits are known allergens. Individuals with hypersensitivity should exercise caution when introducing them for the first time."
+    ]
+  },
+  "peaches": {
+    "slug": "peaches",
+    "name": "Peaches",
+    "category": "Fruits",
+    "image": "/productinfo/peaches.png",
+    "imageAlt": "fresh juicy peaches",
+    "description": "The peach is a highly functional fruit, representing a concentrated matrix of organic acids, soluble fibers, and carotenoid pigments. It is an effective metabolic modulator that supports the health of epithelial tissues, immune function, and the body's optimal antioxidant balance.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "The macronutrient composition of the peach is characterized by moderate energy density and high sugar availability, ensuring the rapid restoration of glycogen stores during physical activity.",
+    "microIntro": "Peaches are a unique source of polyphenolic compounds that work synergistically to reduce systemic inflammation and protect cellular structures from oxidative damage.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "39 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy value combined with high nutritional density."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.9 g",
+        "bg": "#f5722c",
+        "description": "Contains basic amino acid fragments of plant origin."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.3 g",
+        "bg": "#e4a910",
+        "description": "Minimal lipid content, contributing to the easy digestibility of the product."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "9.5 g",
+        "bg": "#15837c",
+        "description": "Represented by fructose and glucose, which provide a gentle yet rapid influx of energy."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "6.6 mg / 7% DV",
+        "bg": "#15837c",
+        "description": "Critically important for collagen synthesis and strengthening the body's defenses."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "326 IU / 7% DV",
+        "bg": "#f5722c",
+        "description": "An antioxidant necessary for retinal health and maintaining skin integrity."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "190 mg / 4% DV",
+        "bg": "#66ab63",
+        "description": "An electrolyte involved in regulating blood pressure and smooth muscle contraction."
+      },
+      {
+        "id": "niacin",
+        "slug": "vitamin-b3",
+        "name": "Niacin (B3)",
+        "amount": "0.8 mg / 5% DV",
+        "bg": "#e4a910",
+        "description": "Participates in cellular respiration and energy metabolism processes."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "1.5 g",
+        "bg": "#1a96cd",
+        "description": "Ensures normal GI tract motility and the maintenance of a healthy microbiota."
+      },
+      {
+        "id": "chlorogenicAcid",
+        "slug": "antioxidants",
+        "name": "Chlorogenic Acid",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "A phenolic compound contributing to antioxidant protection and glucose metabolism modulation."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Dermatological Support:</b> The high concentration of vitamins and antioxidants contributes to improved skin turgor and protection against UV-induced damage.",
+      "<b>Cardioprotection:</b> Regular consumption of peaches contributes to the normalization of blood lipid profiles and the reduction of systemic inflammation.",
+      "<b>Digestive Modulation:</b> Soluble fibers promote smooth food transit and prevent digestive disturbances.",
+      "<b>Antioxidant Status:</b> Phenolic compounds and carotenoids neutralize free radicals, slowing down cellular aging processes."
+    ],
+    "precautionsIntro": "Peaches are a safe product, but their consumption should take into account physiological characteristics:",
+    "precautions": [
+      "<b>Allergic Reactions:</b> Due to the presence of specific lipid-transfer proteins (LTP), peaches can cause food allergies, especially in individuals with pollinosis (pollen allergy).",
+      "<b>Glycemic Profile:</b> Although the fruit has a moderate glycemic index, individuals with diabetes should limit the consumption of very sweet varieties.",
+      "<b>Dyspepsia:</b> In people with Irritable Bowel Syndrome (IBS) or fructose intolerance, consuming large amounts of peaches can provoke fermentation and gas.",
+      "<b>Nitrate Load:</b> Like other fruits, peaches can accumulate fertilizers if agricultural protocols are violated, so thorough washing of the fruits is recommended."
+    ]
+  },
+  "dill": {
+    "slug": "dill",
+    "name": "Dill",
+    "category": "Greens / Aromatic Herbs",
+    "image": "/productinfo/dill.png",
+    "imageAlt": "fresh bunch of green dill",
+    "description": "Dill is a biologically active phytomatrix possessing pronounced antispasmodic, carminative, and antibacterial potential. It is a concentrate of essential oils (notably carvone and limonene), which modulate digestive tract functions and support the systemic antioxidant status of the organism.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh greens)",
+    "macroIntro": "Dill is a low-calorie product with an extremely low density of macronutrients, making it a valuable functional addition to the diet without significantly altering energy balance.",
+    "microIntro": "The product is a unique source of phytonutrients and trace elements working synergistically to normalize metabolism and support immune system health.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "43 kcal",
+        "bg": "#15837c",
+        "description": "Low energy value with high concentration of active phyto-compounds."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "3.5 g",
+        "bg": "#f5722c",
+        "description": "Contains plant-based proteins that contribute to the overall nutritional enrichment of the diet."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "1.1 g",
+        "bg": "#e4a910",
+        "description": "Minimal lipid content, mainly represented by essential oil components."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "7.0 g",
+        "bg": "#15837c",
+        "description": "Represented primarily by dietary fibers that improve intestinal peristalsis."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "85 mg / 94% DV",
+        "bg": "#15837c",
+        "description": "High concentration of antioxidant for cell protection and immune function stimulation."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "7700 IU / 154% DV",
+        "bg": "#f5722c",
+        "description": "Essential nutrient for mucosal health and visual acuity."
+      },
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "208 mg / 21% DV",
+        "bg": "#66ab63",
+        "description": "Critically important for bone mineralization and nerve conduction."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "6.6 mg / 37% DV",
+        "bg": "#e4a910",
+        "description": "Necessary for hematopoiesis processes and oxygen delivery to tissues."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "1.3 mg / 55% DV",
+        "bg": "#1a96cd",
+        "description": "Mineral involved in antioxidant defense and connective tissue metabolism."
+      },
+      {
+        "id": "carvone",
+        "slug": "compounds",
+        "name": "Carvone and Limonene",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "Essential oils providing antispasmodic and antimicrobial effects."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestive Modulation:</b> Dill effectively relaxes the smooth muscles of the intestines, eliminating spasms, bloating, and flatulence.",
+      "<b>Antimicrobial Activity:</b> The phytoncides contained in the plant suppress pathogenic flora, contributing to the improvement of the intestinal environment.",
+      "<b>Metabolic Support:</b> High content of vitamins and minerals strengthens the body's protective barrier and contributes to general recovery.",
+      "<b>Cardiovascular Regulation:</b> Dill flavonoids contribute to blood pressure stabilization and the reduction of systemic inflammation."
+    ],
+    "precautionsIntro": "Dill is safe when used in culinary doses, but requires consideration of some nuances:",
+    "precautions": [
+      "<b>Photosensitivity:</b> When taking concentrated dill extracts, increased skin sensitivity to ultraviolet light (photosensitization) is possible.",
+      "<b>Hypotension:</b> Excessive consumption of dill can lead to an excessive decrease in blood pressure, which is important for individuals prone to hypotension.",
+      "<b>Allergic Reactions:</b> In individuals sensitive to plants of the Apiaceae family, dill consumption may provoke allergic reactions.",
+      "<b>Pregnancy:</b> In pharmacological doses, dill extracts are not recommended during pregnancy due to potential effects on uterine tone."
+    ]
+  },
+  "parsley": {
+    "slug": "parsley",
+    "name": "Parsley",
+    "category": "Greens / Aromatic Herbs",
+    "image": "/productinfo/parsley.png",
+    "imageAlt": "fresh bunch of parsley",
+    "description": "Parsley is a nutritionally dense phytomatrix possessing powerful diuretic and anti-inflammatory potential. It serves as a unique source of vitamins C, K, and specific flavonoids (apigenin), which exert a protective effect on the vascular wall and support the body's antioxidant homeostasis.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh greens)",
+    "macroIntro": "Parsley is characterized by low energy density with a significant content of bioactive compounds, making it an ideal component for the functional enrichment of any diet.",
+    "microIntro": "The plant is a biochemical concentrate of essential nutrients that contribute to the detoxification of the body and the improvement of the metabolic profile.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "36 kcal",
+        "bg": "#15837c",
+        "description": "Low-calorie product with a high concentration of protective phytonutrients."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "3.0 g",
+        "bg": "#f5722c",
+        "description": "Contains plant-based protein, complementing the amino acid composition of the diet."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.8 g",
+        "bg": "#e4a910",
+        "description": "Minimal amount of lipids, mainly as components of essential oils."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "6.3 g",
+        "bg": "#15837c",
+        "description": "Contains dietary fibers that optimize intestinal peristalsis."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "1640 mcg / 1366% DV",
+        "bg": "#15837c",
+        "description": "Extremely high concentration for blood clotting and bone metabolism."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "133 mg / 148% DV",
+        "bg": "#f5722c",
+        "description": "Powerful antioxidant for immune support and collagen synthesis."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "8424 IU / 168% DV",
+        "bg": "#66ab63",
+        "description": "Important for vision health, mucosal membranes, and the immune system."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "6.2 mg / 34% DV",
+        "bg": "#e4a910",
+        "description": "Critically important for hemoglobin synthesis and energy metabolism."
+      },
+      {
+        "id": "apigenin",
+        "slug": "antioxidants",
+        "name": "Apigenin",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "Flavonoid with anti-tumor and anxiolytic potential."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "554 mg / 12% DV",
+        "bg": "#1a96cd",
+        "description": "Electrolyte supporting vascular tone and water balance."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Protection:</b> Apigenin and folic acid contribute to lowering homocysteine levels and improving arterial elasticity.",
+      "<b>Diuretic Effect:</b> Myristicin and apiol contained in parsley oil stimulate kidney function, facilitating the excretion of excess fluid.",
+      "<b>Bone Mineralization:</b> An extremely high concentration of Vitamin K ensures correct calcium fixation in bone tissue.",
+      "<b>Antioxidant Support:</b> High levels of vitamins C and A systemically suppress free radical activity."
+    ],
+    "precautionsIntro": "Parsley is a product with pronounced biological activity, so the following should be considered:",
+    "precautions": [
+      "<b>Pregnancy:</b> In concentrated forms (essential oils), parsley may stimulate uterine contractions, so it should be avoided in therapeutic doses.",
+      "<b>Kidney Disease:</b> Due to high oxalate content, regular consumption of very large doses of greens requires caution if prone to kidney stones.",
+      "<b>Interaction with Anticoagulants:</b> High levels of Vitamin K may reduce the effectiveness of blood-thinning medications (e.g., warfarin).",
+      "<b>Allergy:</b> Individual hypersensitivity to plants of the Apiaceae family is possible."
+    ]
+  },
+  "apricot": {
+    "slug": "apricot",
+    "name": "Apricot",
+    "category": "Fruits",
+    "image": "/productinfo/apricot.png",
+    "imageAlt": "fresh orange apricots",
+    "description": "The apricot is a functional fruit that serves as a concentrated source of carotenoids and potassium. It is an effective metabolic agent that promotes optimization of the cardiovascular system, improves tissue regeneration, and supports the body's antioxidant homeostasis.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+    "macroIntro": "Apricots have moderate energy density and high fiber content, ensuring stable energy release and normalization of digestive tract function.",
+    "microIntro": "The fruit is a unique biochemical storehouse of vitamins A, C, and E, working synergistically to protect cells from oxidative damage.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "48 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy capacity, optimal for a balanced diet."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.4 g",
+        "bg": "#f5722c",
+        "description": "Contains a negligible amount of plant-based proteins."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.4 g",
+        "bg": "#e4a910",
+        "description": "Minimal lipid content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "11.1 g",
+        "bg": "#15837c",
+        "description": "Represented by sugars and fiber, supporting energy balance."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "1926 IU / 39% DV",
+        "bg": "#15837c",
+        "description": "Critically important for vision, skin health, and immune defense."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "10 mg / 11% DV",
+        "bg": "#f5722c",
+        "description": "An antioxidant necessary for collagen synthesis."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "259 mg / 6% DV",
+        "bg": "#66ab63",
+        "description": "An electrolyte involved in blood pressure regulation."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E",
+        "amount": "0.9 mg / 6% DV",
+        "bg": "#e4a910",
+        "description": "Protects cell membranes from free radicals."
+      },
+      {
+        "id": "dietfiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "2.0 g",
+        "bg": "#1a96cd",
+        "description": "Contribute to correct intestinal motility."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "0.4 mg / 2% DV",
+        "bg": "#1a96cd",
+        "description": "Participates in oxygen transport processes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardio-metabolic Support:</b> High potassium levels contribute to blood pressure stabilization and maintenance of myocardial health.",
+      "<b>Ophthalmological Protection:</b> Carotenoids (beta-carotene, zeaxanthin) protect the retina from degenerative changes.",
+      "<b>Digestive Optimization:</b> Fiber improves peristalsis, preventing constipation and supporting gut microbiota.",
+      "<b>Tissue Regeneration:</b> The combination of vitamins A, C, and E accelerates the healing of epithelial structures."
+    ],
+    "precautionsIntro": "Apricots are beneficial, but their consumption has physiological limitations:",
+    "precautions": [
+      "<b>Sugar Content:</b> In dried form, sugar concentration is extremely high, requiring monitoring in cases of diabetes.",
+      "<b>Acidity:</b> Large quantities of consumed fresh apricots can provoke a laxative effect and discomfort in people with sensitive GI tracts.",
+      "<b>Pits:</b> The kernels of the pits contain amygdalin, which releases cyanide during metabolism. Consuming large amounts of kernels is dangerous.",
+      "<b>Allergy:</b> Individual intolerance is possible, especially in individuals sensitive to birch pollen or other stone fruits."
+    ]
   }
 }

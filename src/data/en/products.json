@@ -583,5 +583,68 @@
     "image": "/products/cucumber.png",
     "favorite": false,
     "link": "/productinfo/cucumber"
+  },
+  {
+    "id": 67,
+    "name": "Kefir",
+    "category": "food/eggs and dairy",
+    "calories": 61,
+    "image": "/products/kefir.png",
+    "favorite": false,
+    "link": "/productinfo/kefir"
+  },
+  {
+    "id": 68,
+    "name": "Cheese",
+    "category": "food/eggs and dairy",
+    "calories": 402,
+    "image": "/products/cheese.png",
+    "favorite": false,
+    "link": "/productinfo/cheese"
+  },
+  {
+    "id": 69,
+    "name": "Lemon",
+    "category": "food/fruits",
+    "calories": 29,
+    "image": "/products/lemon.png",
+    "favorite": false,
+    "link": "/productinfo/lemon"
+  },
+  {
+    "id": 70,
+    "name": "Peaches",
+    "category": "food/fruits",
+    "calories": 39,
+    "image": "/products/peaches.png",
+    "favorite": false,
+    "link": "/productinfo/peaches"
+  },
+  {
+    "id": 71,
+    "name": "Dill",
+    "category": "food/herbs and spices",
+    "calories": 43,
+    "image": "/products/dill.png",
+    "favorite": false,
+    "link": "/productinfo/dill"
+  },
+  {
+    "id": 72,
+    "name": "Parsley",
+    "category": "food/herbs and spices",
+    "calories": 36,
+    "image": "/products/parsley.png",
+    "favorite": false,
+    "link": "/productinfo/parsley"
+  },
+  {
+    "id": 73,
+    "name": "Apricot",
+    "category": "food/fruits",
+    "calories": 48,
+    "image": "/products/apricot.png",
+    "favorite": false,
+    "link": "/productinfo/apricot"
   }
 ]
