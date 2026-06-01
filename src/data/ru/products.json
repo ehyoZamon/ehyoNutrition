@@ -682,5 +682,104 @@
     "image": "/products/radish.png",
     "favorite": false,
     "link": "/productinfo/radish"
+  },
+  {
+    "id": 78,
+    "name": "Репа",
+    "category": "Овощи",
+    "calories": 28,
+    "image": "/products/turnip.png",
+    "favorite": false,
+    "link": "/productinfo/turnip"
+  },
+  {
+    "id": 79,
+    "name": "Сельдерей",
+    "category": "Овощи",
+    "calories": 16,
+    "image": "/products/celery.png",
+    "favorite": false,
+    "link": "/productinfo/celery"
+  },
+  {
+    "id": 80,
+    "name": "Зелёный лук",
+    "category": "Овощи",
+    "calories": 32,
+    "image": "/products/green-onion.png",
+    "favorite": false,
+    "link": "/productinfo/green-onion"
+  }, 
+  {
+    "id": 81,
+    "name": "Eggplant",
+    "category": "food/vegetables",
+    "calories": 25,
+    "image": "/products/eggplant.png",
+    "favorite": false,
+    "link": "/productinfo/eggplant"
+  },
+  {
+    "id": 82,
+    "name": "Острый перец",
+    "category": "Овощи",
+    "calories": 40,
+    "image": "/products/hot-pepper.png",
+    "favorite": false,
+    "link": "/productinfo/hot-pepper"
+  },
+  {
+    "id": 83,
+    "name": "Кабачок",
+    "category": "Овощи",
+    "calories": 17,
+    "image": "/products/zucchini.png",
+    "favorite": false,
+    "link": "/productinfo/zucchini"
+  },
+  {
+    "id": 84,
+    "name": "Горох",
+    "category": "Бобовые",
+    "calories": 81,
+    "image": "/products/green-peas.png",
+    "favorite": false,
+    "link": "/productinfo/green-peas"
+  },
+  {
+    "id": 85,
+    "name": "Фасоль",
+    "category": "Бобовые",
+    "calories": 333,
+    "image": "/products/beans.png",
+    "favorite": false,
+    "link": "/productinfo/beans"
+  },
+  {
+    "id": 86,
+    "name": "Базилик",
+    "category": "Травы и специи",
+    "calories": 23,
+    "image": "/products/basil.png",
+    "favorite": false,
+    "link": "/productinfo/basil"
+  },
+  {
+    "id": 87,
+    "name": "Гречка",
+    "category": "Крупы и злаки",
+    "calories": 343,
+    "image": "/products/buckwheat.png",
+    "favorite": false,
+    "link": "/productinfo/buckwheat"
+  },
+  {
+    "id": 88,
+    "name": "Имбирь",
+    "category": "Травы и специи",
+    "calories": 80,
+    "image": "/products/ginger.png",
+    "favorite": false,
+    "link": "/productinfo/ginger"
   }
 ]

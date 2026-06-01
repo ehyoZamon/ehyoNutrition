@@ -7766,5 +7766,940 @@
       "<b>Thyroid Gland:</b> Radish contains goitrogenic substances which, in large amounts, can hinder iodine absorption.",
       "<b>Individual Intolerance:</b> An allergic reaction to components of cruciferous vegetables is possible."
     ]
+  },
+  "turnip": {
+    "slug": "turnip",
+    "name": "Turnip",
+    "category": "Vegetables / Root Vegetables",
+    "image": "/productinfo/turnip.png",
+    "imageAlt": "fresh yellow turnip",
+    "description": "The turnip is a dietary root vegetable of the cruciferous family, characterized by high nutrient density and low caloric content. It is a valuable source of vitamin C, fiber, and glucosinolates, which support immune function, metabolic health, and the body's detoxification processes.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "Turnips have low energy value and contribute to prolonged satiety due to significant dietary fiber content.",
+    "microIntro": "The product is a biochemically active source of minerals and vitamins working synergistically to maintain systemic homeostasis.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "28 kcal",
+        "bg": "#15837c",
+        "description": "Low calorie content, optimal for weight management."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.9 g",
+        "bg": "#f5722c",
+        "description": "Contains plant-based proteins in negligible amounts."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.1 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "6.4 g",
+        "bg": "#15837c",
+        "description": "Represented primarily by complex carbohydrates and fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "21 mg / 23% DV",
+        "bg": "#15837c",
+        "description": "Powerful antioxidant supporting immunity and collagen synthesis."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "191 mg / 4% DV",
+        "bg": "#f5722c",
+        "description": "Regulates electrolyte balance and cardiovascular system function."
+      },
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "1.8 g",
+        "bg": "#66ab63",
+        "description": "Improve intestinal motility and support microbiota."
+      },
+      {
+        "id": "glucosinolates",
+        "slug": "compounds",
+        "name": "Glucosinolates",
+        "amount": "High bioactivity",
+        "bg": "#1a96cd",
+        "description": "Sulfur-containing compounds with anti-cancer potential."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Metabolic Support:</b> A low glycemic index helps maintain a stable blood glucose level.",
+      "<b>Detoxification:</b> Glucosinolates stimulate liver enzymatic systems, promoting toxin neutralization.",
+      "<b>Digestive Modulation:</b> Fiber prevents constipation and supports colon health.",
+      "<b>Antioxidant Defense:</b> Vitamin C neutralizes free radicals, reducing systemic inflammation."
+    ],
+    "precautionsIntro": "Turnips are beneficial for most people but have certain contraindications:",
+    "precautions": [
+      "<b>GI Conditions:</b> In raw form, turnips can cause flatulence and mucosal irritation, so they are contraindicated during exacerbations of gastritis, ulcers, or pancreatitis.",
+      "<b>Endocrine Disorders:</b> In cases of hypothyroidism, consume with caution due to the presence of compounds that can affect iodine absorption.",
+      "<b>Individual Intolerance:</b> Allergic reactions characteristic of all members of the cruciferous family are possible."
+    ]
+  },
+  "celery": {
+    "slug": "celery",
+    "name": "Celery",
+    "category": "Vegetables",
+    "image": "/productinfo/celery.png",
+    "imageAlt": "green celery stalks",
+    "description": "Celery is a low-calorie product with a high concentration of water and bioactive flavonoids (apigenin, luteolin). It is known for its diuretic, anti-inflammatory properties and its ability to support the cardiovascular system due to the presence of phthalides.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh stalk)",
+    "macroIntro": "Celery has an extremely low energy density, making it an ideal product for adding volume to a diet.",
+    "microIntro": "The plant is rich in Vitamin K and antioxidants that support vascular elasticity and cellular membrane integrity.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "16 kcal",
+        "bg": "#15837c",
+        "description": "Minimal calorie content; suitable for strict diets."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.7 g",
+        "bg": "#f5722c",
+        "description": "Contains a negligible amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "3.0 g",
+        "bg": "#15837c",
+        "description": "Includes dietary fiber that supports GI motility."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "29.3 mcg / 24% DV",
+        "bg": "#15837c",
+        "description": "Necessary for blood clotting and bone health."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "260 mg / 6% DV",
+        "bg": "#f5722c",
+        "description": "Supports water-salt balance and vascular tone."
+      },
+      {
+        "id": "apigenin",
+        "slug": "antioxidants",
+        "name": "Apigenin",
+        "amount": "High bioactivity",
+        "bg": "#66ab63",
+        "description": "Flavonoid with a pronounced anti-inflammatory effect."
+      },
+      {
+        "id": "phthalides",
+        "slug": "compounds",
+        "name": "Phthalides",
+        "amount": "Unique compounds",
+        "bg": "#e4a910",
+        "description": "Promote relaxation of arterial smooth muscles."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Support:</b> Phthalides help relax arterial walls, contributing to blood pressure reduction.",
+      "<b>Diuretic Effect:</b> High potassium content and specific essential oils help eliminate excess fluid.",
+      "<b>Anti-inflammatory Activity:</b> Luteolin and apigenin suppress markers of systemic inflammation.",
+      "<b>Digestive Support:</b> Fiber and high water content prevent constipation and facilitate GI function."
+    ],
+    "precautionsIntro": "Despite all the benefits of celery, several limitations should be considered:",
+    "precautions": [
+      "<b>Allergy:</b> Celery is a common allergen; serious cross-reactions are possible.",
+      "<b>Kidney Disease:</b> Due to a mild diuretic effect, moderation should be observed in the presence of serious renal pathologies.",
+      "<b>Pregnancy:</b> In very large quantities (concentrated juices, seeds), celery may stimulate uterine contractile activity."
+    ]
+  },
+  "green-onion": {
+    "slug": "green-onion",
+    "name": "Green Onion",
+    "category": "Greens / Vegetables",
+    "image": "/productinfo/green-onion.png",
+    "imageAlt": "fresh bunch of green onions",
+    "description": "Green onion is a valuable nutraceutical product characterized by a high content of phytoncides, vitamins, and antioxidants. It has a pronounced immunomodulatory, antibacterial, and metabolic effect, contributing to the maintenance of the body's homeostasis.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+    "macroIntro": "It has an extremely low energy value with a high concentration of biologically active substances.",
+    "microIntro": "It is an important source of vitamins K and C, necessary for maintaining vascular tone and immune defense.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "31 kcal",
+        "bg": "#15837c",
+        "description": "Low calorie content, optimal for dietary nutrition."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.8 g",
+        "bg": "#f5722c",
+        "description": "Contains a small amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "7.3 g",
+        "bg": "#15837c",
+        "description": "Includes dietary fiber and simple carbohydrates."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "207 mcg / 173% DV",
+        "bg": "#15837c",
+        "description": "Critically important for blood clotting and bone metabolism."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "18.8 mg / 21% DV",
+        "bg": "#f5722c",
+        "description": "Supports immune function and antioxidant defense."
+      },
+      {
+        "id": "folate",
+        "slug": "vitamin-b9",
+        "name": "Folate (B9)",
+        "amount": "64 mcg / 16% DV",
+        "bg": "#66ab63",
+        "description": "Involved in hematopoiesis and cell regeneration processes."
+      },
+      {
+        "id": "quercetin",
+        "slug": "antioxidants",
+        "name": "Quercetin",
+        "amount": "High concentration",
+        "bg": "#e4a910",
+        "description": "Flavonoid with powerful anti-inflammatory and vascular strengthening effect."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Immune Defense:</b> Phytoncides suppress the activity of pathogenic microorganisms, reducing the risk of seasonal infections.",
+      "<b>Vascular Tone:</b> Quercetin and vitamin K help strengthen vascular walls and normalize blood clotting.",
+      "<b>Antioxidant Activity:</b> High polyphenol content neutralizes free radicals, preventing cellular damage.",
+      "<b>Digestion:</b> Contributes to improved appetite and secretion of digestive enzymes."
+    ],
+    "precautionsIntro": "Green onion is an active product requiring caution in the following cases:",
+    "precautions": [
+      "<b>GI Conditions:</b> In raw form, it can irritate the stomach and intestinal mucosa, so it is not recommended during exacerbations of gastritis, peptic ulcer disease, and pancreatitis.",
+      "<b>Individual Intolerance:</b> Allergic reactions to onion components are possible.",
+      "<b>Hypercoagulation:</b> Due to the high vitamin K content, individuals taking anticoagulants should consult a doctor to control their diet."
+    ]
+  },
+  "eggplant": {
+    "slug": "eggplant",
+    "name": "Eggplant",
+    "category": "Vegetables",
+    "image": "/productinfo/eggplant.png",
+    "imageAlt": "fresh purple eggplant",
+    "description": "Eggplant is a low-calorie vegetable of the nightshade family, known for its high content of anthocyanins (nasunin), which have pronounced antioxidant properties. It supports the cardiovascular system, helps control blood sugar levels, and has a mild diuretic effect.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "Eggplant is characterized by very low energy density and a significant content of dietary fiber, contributing to effective satiety.",
+    "microIntro": "The product is rich in phytonutrients and minerals that help protect cells from oxidative stress.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "25 kcal",
+        "bg": "#15837c",
+        "description": "Low calorie content, suitable for a dietary regimen."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.0 g",
+        "bg": "#f5722c",
+        "description": "Contains a minimal amount of plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "5.7 g",
+        "bg": "#15837c",
+        "description": "Includes beneficial fiber and pectin substances."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "nasunin",
+        "slug": "antioxidants",
+        "name": "Nasunin",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "An anthocyanin that protects brain cell membranes from damage."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "229 mg / 5% DV",
+        "bg": "#f5722c",
+        "description": "Important for normal heart and muscle function."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.25 mg / 14% DV",
+        "bg": "#66ab63",
+        "description": "Involved in metabolism and bone tissue maintenance."
+      },
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Fiber",
+        "amount": "3.0 g",
+        "bg": "#e4a910",
+        "description": "Promotes regulation of cholesterol and blood sugar levels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Support:</b> Anthocyanins and fiber help maintain normal cholesterol levels.",
+      "<b>Glucose Control:</b> Due to its low glycemic index and fiber content, eggplant helps slow down sugar absorption.",
+      "<b>Antioxidant Defense:</b> Nasunin neutralizes free radicals, slowing down aging processes.",
+      "<b>GI Support:</b> Dietary fiber improves intestinal motility and supports healthy microflora."
+    ],
+    "precautionsIntro": "Eggplant is a beneficial product but requires caution in some cases:",
+    "precautions": [
+      "<b>Solanine:</b> Eggplants contain a small amount of solanine (especially overripe ones), which can cause discomfort in people with high sensitivity.",
+      "<b>Oxalates:</b> They contain oxalates, so individuals with kidney stone disease (oxalate type) should exercise moderation.",
+      "<b>Individual Intolerance:</b> As a member of the nightshade family, it may cause allergic reactions in predisposed individuals."
+    ]
+  },
+  "hot-pepper": {
+    "slug": "hot-pepper",
+    "name": "Hot Pepper (Chili)",
+    "category": "Vegetables / Spices",
+    "image": "/productinfo/hot-pepper.png",
+    "imageAlt": "fresh red chili pepper",
+    "description": "Hot pepper is a vegetable crop containing capsaicin, a unique bioactive compound responsible for its spicy taste, which possesses pronounced metabolic, anti-inflammatory, and analgesic properties.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+    "macroIntro": "It has low calorie content, yet significantly impacts thermogenesis due to its biological activity.",
+    "microIntro": "It is a concentrated source of vitamins that support vascular tone and the immune system.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "40 kcal",
+        "bg": "#15837c",
+        "description": "Low energy value."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.9 g",
+        "bg": "#f5722c",
+        "description": "Contains plant-based protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.4 g",
+        "bg": "#e4a910",
+        "description": "Minimal lipid amount."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "8.8 g",
+        "bg": "#15837c",
+        "description": "Represented by sugars and fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "capsaicin",
+        "slug": "compounds",
+        "name": "Capsaicin",
+        "amount": "High bioactivity",
+        "bg": "#15837c",
+        "description": "Alkaloid that activates metabolism and suppresses pain receptors."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "143 mg / 159% DV",
+        "bg": "#f5722c",
+        "description": "Critically important for immunity and collagen synthesis."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "952 mcg / 106% DV",
+        "bg": "#66ab63",
+        "description": "Supports eye health and mucosal integrity."
+      },
+      {
+        "id": "vitB6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "0.5 mg / 30% DV",
+        "bg": "#e4a910",
+        "description": "Necessary for energy metabolism."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Metabolic Activation:</b> Capsaicin stimulates thermogenesis, contributing to faster fat oxidation.",
+      "<b>Cardiovascular Support:</b> Helps improve blood circulation and may contribute to lowering 'bad' cholesterol levels.",
+      "<b>Analgesic Effect:</b> Capsaicin blocks the transmission of pain impulses when applied topically.",
+      "<b>Digestive Improvement:</b> Stimulates gastric juice production (in the absence of contraindications)."
+    ],
+    "precautionsIntro": "Hot pepper has a powerful physiological effect, so it requires careful handling:",
+    "precautions": [
+      "<b>GI Pathologies:</b> Capsaicin can cause significant irritation of the mucosa, so it is strictly contraindicated in cases of gastritis, peptic ulcer disease, GERD, and hemorrhoids.",
+      "<b>Individual Reaction:</b> May cause severe burning of mucous membranes and skin (use gloves when cooking).",
+      "<b>Drug Interaction:</b> May affect the absorption of certain medications."
+    ]
+  },
+  "zucchini": {
+    "slug": "zucchini",
+    "name": "Zucchini",
+    "category": "Vegetables",
+    "image": "/productinfo/zucchini.png",
+    "imageAlt": "fresh green zucchini",
+    "description": "Zucchini is an easily digestible vegetable of the gourd family, possessing high hydration value and containing moderate levels of antioxidants (lutein, zeaxanthin). It serves as a mild diuretic and dietary component that helps normalize water balance.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "It has very low caloric content and high water content, making it an excellent product for weight management.",
+    "microIntro": "Contains important carotenoids and potassium, supporting eye health and the cardiovascular system.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "17 kcal",
+        "bg": "#15837c",
+        "description": "Minimal energy density."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.2 g",
+        "bg": "#f5722c",
+        "description": "Negligible plant protein content."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.3 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "3.1 g",
+        "bg": "#15837c",
+        "description": "Represented by easily digestible fibers."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "261 mg / 6% DV",
+        "bg": "#15837c",
+        "description": "Supports water-salt balance and muscle tone."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "17.9 mg / 20% DV",
+        "bg": "#f5722c",
+        "description": "Antioxidant support for immunity."
+      },
+      {
+        "id": "lutein",
+        "slug": "antioxidants",
+        "name": "Lutein and Zeaxanthin",
+        "amount": "Moderate concentration",
+        "bg": "#66ab63",
+        "description": "Carotenoids important for retinal health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestive Ease:</b> Soft fiber does not irritate the GI tract, making zucchini suitable for dietary and infant nutrition.",
+      "<b>Diuretic Effect:</b> Helps eliminate excess fluid and sodium from the body.",
+      "<b>Vision Support:</b> Lutein helps protect eyes from the negative impact of ultraviolet light.",
+      "<b>Dietary Value:</b> High volume with minimal calories contributes to a prolonged feeling of satiety."
+    ],
+    "precautionsIntro": "Zucchini is a safe product, but consider the following:",
+    "precautions": [
+      "<b>Kidney Conditions:</b> In chronic renal failure, excess potassium in the diet requires medical monitoring.",
+      "<b>Raw Consumption:</b> In rare cases, raw zucchini may cause discomfort in people with sensitive stomachs due to the presence of specific proteins (cucurbitacins) in wild varieties, so thermal processing is preferred."
+    ]
+  },
+  "green-peas": {
+    "slug": "green-peas",
+    "name": "Green Peas",
+    "category": "Legumes",
+    "image": "/productinfo/green-peas.png",
+    "imageAlt": "fresh green peas",
+    "description": "Peas are a nutritious member of the legume family, characterized by a high concentration of plant-based protein and dietary fiber. They are a valuable source of complex carbohydrates, B vitamins, and minerals that support muscle mass and stable blood sugar levels.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh green peas)",
+    "macroIntro": "Peas are a nutrient-dense food that provides sustained satiety.",
+    "microIntro": "The product is rich in essential micronutrients that support energy metabolism and the nervous system.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "81 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy density; a great source of energy."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "5.4 g",
+        "bg": "#f5722c",
+        "description": "High plant-based protein content for a legume."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.4 g",
+        "bg": "#e4a910",
+        "description": "Minimal fat content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "14.5 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates and fiber for stable energy."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "24.8 mcg / 21% DV",
+        "bg": "#15837c",
+        "description": "Necessary for bone health and blood clotting."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "40 mg / 44% DV",
+        "bg": "#f5722c",
+        "description": "Supports immunity and antioxidant defense."
+      },
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Fiber",
+        "amount": "5.7 g",
+        "bg": "#66ab63",
+        "description": "Supports gut health and peristalsis."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Glucose Stabilization:</b> Due to a low glycemic index and fiber content, peas help prevent spikes in blood sugar levels.",
+      "<b>Heart Support:</b> Potassium and magnesium contribute to maintaining normal blood pressure.",
+      "<b>Digestive Health:</b> High insoluble fiber content promotes regular bowel movements.",
+      "<b>Muscle Support:</b> The combination of protein and complex carbohydrates is beneficial for post-exercise recovery."
+    ],
+    "precautionsIntro": "Peas are beneficial but require consideration of individual reactions:",
+    "precautions": [
+      "<b>Flatulence:</b> Like other legumes, peas can cause bloating due to the presence of oligosaccharides (especially when consumed in excess).",
+      "<b>Gout:</b> Contains purines, so it is recommended to limit consumption during gout flare-ups.",
+      "<b>GI Disorders:</b> During periods of GI disease exacerbation (gastritis, ulcers), peas in rough form may be contraindicated."
+    ]
+  },
+  "beans": {
+    "slug": "beans",
+    "name": "Beans",
+    "category": "Legumes",
+    "image": "/productinfo/beans.png",
+    "imageAlt": "various types of dry beans",
+    "description": "Beans are a highly nutritious member of the legume family, characterized by a unique combination of plant-based protein, slow-burning carbohydrates, and a high concentration of dietary fiber. They are an important component of diets aimed at maintaining cardiovascular health and glucose control.",
+    "macroTitle": "Macro Nutrients (per 100g, cooked product)",
+    "macroIntro": "Beans have high nutrient density, providing a prolonged sense of satiety due to their complex carbohydrate composition.",
+    "microIntro": "The product is a powerful source of minerals that support hematopoiesis and energy metabolism.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "127 kcal",
+        "bg": "#15837c",
+        "description": "A dense source of energy for the body."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "8.7 g",
+        "bg": "#f5722c",
+        "description": "Quality plant-based protein containing important amino acids."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.5 g",
+        "bg": "#e4a910",
+        "description": "Almost complete absence of fat."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "22.8 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates providing a slow release of glucose."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "2.1 mg / 12% DV",
+        "bg": "#15837c",
+        "description": "Necessary for hemoglobin synthesis and oxygen transport."
+      },
+      {
+        "id": "folate",
+        "slug": "folate",
+        "name": "Folate (B9)",
+        "amount": "130 mcg / 33% DV",
+        "bg": "#f5722c",
+        "description": "Critically important for cell renewal and hematopoiesis."
+      },
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "7.4 g",
+        "bg": "#66ab63",
+        "description": "Improve GI tract function and lower cholesterol levels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Glycemic Control:</b> A low glycemic index helps maintain a stable blood sugar level.",
+      "<b>Heart Support:</b> High potassium and fiber content help regulate blood pressure.",
+      "<b>Digestion:</b> Promotes the growth of beneficial gut microflora due to the prebiotic properties of the fiber.",
+      "<b>Energy Value:</b> Complex carbohydrates ensure a stable energy level without spikes."
+    ],
+    "precautionsIntro": "Beans require proper preparation before consumption:",
+    "precautions": [
+      "<b>Anti-nutrients:</b> In their raw state, they contain lectins and phytates that can inhibit nutrient absorption, so soaking and thorough boiling are mandatory.",
+      "<b>Flatulence:</b> Can cause bloating due to the presence of complex sugars (oligosaccharides).",
+      "<b>Gout:</b> Due to the presence of purines, consumption should be moderate in cases of impaired purine metabolism."
+    ]
+  },
+  "basil": {
+    "slug": "basil",
+    "name": "Basil",
+    "category": "Greens / Herbs",
+    "image": "/productinfo/basil.png",
+    "imageAlt": "fresh green basil leaves",
+    "description": "Basil is an aromatic herb rich in essential oils (eugenol) and antioxidants. It possesses pronounced anti-inflammatory, antibacterial, and adaptogenic properties, contributing to immune support and the normalization of digestive processes.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh leaves)",
+    "macroIntro": "It has an extremely low energy value, so it is used in cooking mainly for flavoring.",
+    "microIntro": "It is an important source of Vitamin K and antioxidants that protect cells from damage.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "23 kcal",
+        "bg": "#15837c",
+        "description": "Low caloric content; does not affect the total energy density of a dish."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "3.2 g",
+        "bg": "#f5722c",
+        "description": "Negligible plant-based protein content."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.6 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "2.7 g",
+        "bg": "#15837c",
+        "description": "Includes dietary fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitK",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "415 mcg / 346% DV",
+        "bg": "#15837c",
+        "description": "Critically important for blood clotting and bone density."
+      },
+      {
+        "id": "eugenol",
+        "slug": "essential-oils",
+        "name": "Eugenol",
+        "amount": "High bioactivity",
+        "bg": "#f5722c",
+        "description": "Essential oil with anti-inflammatory and antiseptic properties."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "264 mcg / 29% DV",
+        "bg": "#66ab63",
+        "description": "Antioxidant supporting eye and skin health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Anti-inflammatory Effect:</b> Eugenol helps reduce the activity of inflammatory processes in the body.",
+      "<b>Digestion:</b> Contributes to reduced flatulence and improved appetite.",
+      "<b>Antioxidant Defense:</b> Basil flavonoids protect cells from oxidative stress.",
+      "<b>Adaptogenic Properties:</b> May help reduce stress levels and improve general well-being."
+    ],
+    "precautionsIntro": "Basil is beneficial, but requires moderation in the following situations:",
+    "precautions": [
+      "<b>Hypercoagulation:</b> Due to the very high Vitamin K content, individuals taking anticoagulant medications (e.g., warfarin) should exercise caution.",
+      "<b>Pregnancy:</b> It is not recommended to use in concentrated form (essential oil).",
+      "<b>Individual Reaction:</b> Allergies to plants of the Lamiaceae family are possible."
+    ]
+  },
+  "buckwheat": {
+    "slug": "buckwheat",
+    "name": "Buckwheat",
+    "category": "Cereals / Pseudocereals",
+    "image": "/productinfo/buckwheat.png",
+    "imageAlt": "buckwheat groats",
+    "description": "Buckwheat is a nutritious food that is technically a pseudocereal (fruit seed) and is gluten-free. It is valued for its high level of antioxidants (rutin), complex carbohydrates, and easily digestible plant proteins.",
+    "macroTitle": "Macro Nutrients (per 100g, dry groats)",
+    "macroIntro": "It has high energy density and a balanced nutrient composition.",
+    "microIntro": "It is an important source of magnesium, iron, and B vitamins.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "343 kcal",
+        "bg": "#15837c",
+        "description": "Source of sustained energy."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "13.3 g",
+        "bg": "#f5722c",
+        "description": "High amino acid content, including lysine."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "3.4 g",
+        "bg": "#e4a910",
+        "description": "Predominantly unsaturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "71.5 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates with a low glycemic index."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "231 mg / 55% DV",
+        "bg": "#15837c",
+        "description": "Important for the nervous system and heart function."
+      },
+      {
+        "id": "rutin",
+        "slug": "antioxidants",
+        "name": "Rutin",
+        "amount": "High concentration",
+        "bg": "#f5722c",
+        "description": "Flavonoid that strengthens capillary walls."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "2.2 mg / 12% DV",
+        "bg": "#66ab63",
+        "description": "Participates in hematopoiesis processes."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Vascular Health:</b> Rutin helps strengthen capillaries and improve blood circulation.",
+      "<b>Glucose Control:</b> Due to slow-release carbohydrates, it helps maintain stable blood sugar levels.",
+      "<b>Gluten-free:</b> Safe for individuals with celiac disease or gluten intolerance.",
+      "<b>Heart Support:</b> High magnesium content helps normalize blood pressure."
+    ],
+    "precautionsIntro": "Buckwheat is considered one of the safest foods, but there are nuances:",
+    "precautions": [
+      "<b>Individual Intolerance:</b> Extremely rare cases of allergic reactions.",
+      "<b>Portion Control:</b> Despite its benefits, it is a calorie-dense product; for weight loss, monitoring total intake volume is important."
+    ]
+  },
+  "ginger": {
+    "slug": "ginger",
+    "name": "Ginger",
+    "category": "Spices / Roots",
+    "image": "/productinfo/ginger.png",
+    "imageAlt": "fresh ginger root",
+    "description": "Ginger is an aromatic root containing gingerols and shogaols, which determine its pungent taste and pronounced medicinal properties. It is widely known as an effective anti-nausea remedy and a powerful anti-inflammatory agent.",
+    "macroTitle": "Macro Nutrients (per 100g, raw root)",
+    "macroIntro": "Ginger is consumed in small doses as a seasoning, so its calorie count per serving is negligible.",
+    "microIntro": "Contains biologically active compounds that have a systemic effect on the body.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "80 kcal",
+        "bg": "#15837c",
+        "description": "Minimal energy contribution when used in cooking."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "17.8 g",
+        "bg": "#15837c",
+        "description": "Includes dietary fiber and starch."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "1.8 g",
+        "bg": "#f5722c",
+        "description": "Negligible amount."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "gingerol",
+        "slug": "compounds",
+        "name": "Gingerol",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "Main bioactive component with anti-inflammatory effects."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "415 mg / 9% DV",
+        "bg": "#f5722c",
+        "description": "Supports water-electrolyte balance."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Anti-nausea:</b> Clinically proven efficacy for motion sickness, pregnancy-related morning sickness, and post-operative nausea.",
+      "<b>Anti-inflammatory:</b> Helps reduce muscle pain and inflammatory processes in joints.",
+      "<b>Digestion:</b> Stimulates enzyme production, speeding up stomach emptying.",
+      "<b>Immune Support:</b> Possesses antiseptic and warming properties, useful during colds."
+    ],
+    "precautionsIntro": "Ginger is a potent product that requires caution:",
+    "precautions": [
+      "<b>GI Pathologies:</b> Due to its irritating effect on the mucosa, it is not recommended for ulcers, gastritis, or erosive processes.",
+      "<b>Blood Thinning:</b> May enhance the effect of anticoagulants, increasing the risk of bleeding.",
+      "<b>Gallstones:</b> Possesses a pronounced choleretic effect, which may trigger stone movement."
+    ]
   }
 }
