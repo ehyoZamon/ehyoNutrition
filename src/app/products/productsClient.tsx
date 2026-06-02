@@ -13,7 +13,6 @@ import {
   isFavoriteCategory,
 } from "@/lib/productCategories";
 
-// Импортируем оба файла
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
 
@@ -27,15 +26,13 @@ const ProductsClient = () => {
     : null;
 
   const [search, setSearch] = useState("");
-  
-  // Выбираем правильный источник данных на основе локали
+
   const currentProductsData = useMemo(() => {
     return locale === "ru" ? productsRu : productsEn;
   }, [locale]);
 
   const [products, setProducts] = useState(currentProductsData);
 
-  // Свежая инициализация при смене локали или монтировании
   useEffect(() => {
     const store = loadFavorites();
     setProducts(
@@ -56,36 +53,37 @@ const ProductsClient = () => {
     );
   };
 
-  /*
-    SEARCH
-  */
-  const filteredProducts = useMemo(() => {
+  // Группировка продуктов по категориям
+  const groupedProducts = useMemo(() => {
     const localeKey = locale === "ru" ? "ru" : "en";
     const allowedCategories = activeCategory
       ? FAVORITE_CATEGORY_FILTERS[activeCategory][localeKey]
       : null;
 
-    return products.filter((product) => {
-      if (
-        allowedCategories &&
-        !allowedCategories.includes(product.category)
-      ) {
+    const filtered = products.filter((product) => {
+      if (allowedCategories && !allowedCategories.includes(product.category)) {
         return false;
       }
-
       const query = search.toLowerCase();
-
       return (
         product.name.toLowerCase().includes(query) ||
         product.category.toLowerCase().includes(query)
       );
     });
+
+    return filtered.reduce((acc, product) => {
+      if (!acc[product.category]) {
+        acc[product.category] = [];
+      }
+      acc[product.category].push(product);
+      return acc;
+    }, {} as Record<string, typeof products>);
   }, [products, search, activeCategory, locale]);
+
+  const categories = Object.keys(groupedProducts);
 
   return (
     <div className={styles["main-layout"]}>
-      {/* Кнопка смены языка */}
-      
       <div className={styles["search-container"]}>
         <Image
           src="/search.svg"
@@ -94,7 +92,6 @@ const ProductsClient = () => {
           height={16}
           className={styles["search-icon"]}
         />
-
         <input
           type="text"
           placeholder={t("searchPlaceholder")}
@@ -105,56 +102,54 @@ const ProductsClient = () => {
       </div>
 
       <div className={styles["content"]}>
-        {filteredProducts.map((product) => (
-          <div className={styles["product"]} key={product.id}>
-            <Link
-              href={product.link}
-              className={styles["product-img-container"]}
-            >
-              <Image
-                src={product.image}
-                alt={product.name}
-                width={48}
-                height={48}
-              />
-            </Link>
+        {categories.length > 0 ? (
+          categories.map((category) => (
+            <div key={category} className={styles["category-group"]}>
+              <h3 className={styles["category-title"]}>{category}</h3>
+              {groupedProducts[category].map((product) => (
+                <div className={styles["product"]} key={product.id}>
+                  <Link
+                    href={product.link}
+                    className={styles["product-img-container"]}
+                  >
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={48}
+                      height={48}
+                    />
+                  </Link>
 
-            <Link
-              href={product.link}
-              className={styles["product-details"]}
-            >
-              <div className={styles["product-name"]}>
-                {product.name}
-              </div>
+                  <Link href={product.link} className={styles["product-details"]}>
+                    <div className={styles["product-name"]}>{product.name}</div>
+                    <div className={styles["product-category"]}>
+                      {product.category}
+                    </div>
+                    <div className={styles["product-calories"]}>
+                      {t("calories")}: {product.calories}
+                    </div>
+                  </Link>
 
-              <div className={styles["product-category"]}>
-                {product.category}
-              </div>
-
-              <div className={styles["product-calories"]}>
-                {t("calories")}: {product.calories}
-              </div>
-            </Link>
-
-            <div
-              className={styles["put-to-favorite"]}
-              onClick={() => toggleFavorite(product.id)}
-            >
-              <Image
-                src={
-                  product.favorite
-                    ? "/heart-filled.svg"
-                    : "/heart.svg"
-                }
-                alt="favorite"
-                width={27}
-                height={27}
-              />
+                  <div
+                    className={styles["put-to-favorite"]}
+                    onClick={() => toggleFavorite(product.id)}
+                  >
+                    <Image
+                      src={
+                        product.favorite
+                          ? "/heart-filled.svg"
+                          : "/heart.svg"
+                      }
+                      alt="favorite"
+                      width={27}
+                      height={27}
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
-          </div>
-        ))}
-
-        {filteredProducts.length === 0 && (
+          ))
+        ) : (
           <div className={styles["empty-state"]}>
             <Image
               src="/nothing-found.svg"
@@ -167,42 +162,18 @@ const ProductsClient = () => {
         )}
       </div>
 
-      {/* Навигация */}
       <div className={styles["navigation"]}>
         <Link className={styles["nav-link"]} href="/main">
-          <Image
-            src="/main/home.svg"
-            alt="home"
-            width={48}
-            height={48}
-          />
+          <Image src="/main/home.svg" alt="home" width={48} height={48} />
         </Link>
-
         <Link className={styles["nav-link"]} href="/products" aria-current="page">
-          <Image
-            src="/main/products-green.svg"
-            alt="products"
-            width={48}
-            height={48}
-          />
+          <Image src="/main/products-green.svg" alt="products" width={48} height={48} />
         </Link>
-
         <Link className={styles["nav-link"]} href="/vitamins">
-          <Image
-            src="/main/antioxidant.svg"
-            alt="antioxidant"
-            width={48}
-            height={48}
-          />
+          <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
         </Link>
-
         <Link className={styles["nav-link"]} href="/favorites">
-          <Image
-            src="/main/heart.svg"
-            alt="heart"
-            width={48}
-            height={48}
-          />
+          <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
         </Link>
       </div>
     </div>

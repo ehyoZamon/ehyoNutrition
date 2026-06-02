@@ -157,6 +157,24 @@
     color: #777;
 }
 
+.category-group {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.category-title {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    padding-left: 8px;
+    margin: 0;
+}
+
 *::-webkit-scrollbar{
     width: 8px;
     height: 8px;

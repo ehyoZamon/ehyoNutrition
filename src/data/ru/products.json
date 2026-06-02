@@ -712,8 +712,8 @@
   }, 
   {
     "id": 81,
-    "name": "Eggplant",
-    "category": "food/vegetables",
+    "name": "Баклажан",
+    "category": "Овощи",
     "calories": 25,
     "image": "/products/eggplant.png",
     "favorite": false,
@@ -826,5 +826,50 @@
     "image": "/products/butter.png",
     "favorite": false,
     "link": "/productinfo/butter"
+  },
+  {
+    "id": 94,
+    "name": "Оливковое масло",
+    "category": "Масла и жиры",
+    "calories": 884,
+    "image": "/products/olive-oil.png",
+    "favorite": false,
+    "link": "/productinfo/olive-oil"
+  },
+  {
+    "id": 95,
+    "name": "Чёрный чай",
+    "category": "Напитки",
+    "calories": 1,
+    "image": "/products/black-tea.png",
+    "favorite": false,
+    "link": "/productinfo/black-tea"
+  },
+  {
+    "id": 96,
+    "name": "Зелёный чай",
+    "category": "Напитки",
+    "calories": 1,
+    "image": "/products/green-tea.png",
+    "favorite": false,
+    "link": "/productinfo/green-tea"
+  },
+  {
+    "id": 97,
+    "name": "Кофе",
+    "category": "Напитки",
+    "calories": 2,
+    "image": "/products/coffee.png",
+    "favorite": false,
+    "link": "/productinfo/coffee"
+  },
+  {
+    "id": 98,
+    "name": "Тёмный шоколад",
+    "category": "Сладости и снеки",
+    "calories": 598,
+    "image": "/products/chocolate.png",
+    "favorite": false,
+    "link": "/productinfo/dark-chocolate"
   }
 ]

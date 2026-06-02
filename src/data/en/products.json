@@ -826,5 +826,50 @@
     "image": "/products/butter.png",
     "favorite": false,
     "link": "/productinfo/butter"
+  },
+  {
+    "id": 94,
+    "name": "Olive Oil",
+    "category": "food/oils and fats",
+    "calories": 884,
+    "image": "/products/olive-oil.png",
+    "favorite": false,
+    "link": "/productinfo/olive-oil"
+  },
+  {
+    "id": 95,
+    "name": "Black Tea",
+    "category": "food/beverages",
+    "calories": 1,
+    "image": "/products/black-tea.png",
+    "favorite": false,
+    "link": "/productinfo/black-tea"
+  },
+  {
+    "id": 96,
+    "name": "Green Tea",
+    "category": "food/beverages",
+    "calories": 1,
+    "image": "/products/green-tea.png",
+    "favorite": false,
+    "link": "/productinfo/green-tea"
+  },
+  {
+    "id": 97,
+    "name": "Coffee",
+    "category": "food/beverages",
+    "calories": 2,
+    "image": "/products/coffee.png",
+    "favorite": false,
+    "link": "/productinfo/coffee"
+  },
+  {
+    "id": 98,
+    "name": "Dark Chocolate",
+    "category": "food/snacks and sweets",
+    "calories": 598,
+    "image": "/products/chocolate.png",
+    "favorite": false,
+    "link": "/productinfo/dark-chocolate"
   }
 ]

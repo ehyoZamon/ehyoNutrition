@@ -25,6 +25,7 @@
     padding: 0;
     margin-bottom: 10px;
     flex-shrink: 0;
+    max-width: 320px;
 }
 
 .welcome p{
@@ -37,6 +38,7 @@
     color: #7b7b7b;
     margin: 0;
     padding: 0;
+    max-width: 320px;
 }
 
 .articles{

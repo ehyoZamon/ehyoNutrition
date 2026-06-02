@@ -9114,5 +9114,298 @@
       "<b>Caloric Content:</b> Excessive consumption easily leads to a calorie surplus and weight gain.",
       "<b>Individual Intolerance:</b> Contraindicated for those with a dairy protein (casein) allergy or lactose intolerance (depending on purity)."
     ]
+  },
+  "olive_oil": {
+    "slug": "olive-oil",
+    "name": "Olive Oil",
+    "category": "Plant-based Fats",
+    "image": "/productinfo/olive_oil.png",
+    "imageAlt": "bottle of olive oil",
+    "description": "Olive oil (primarily Extra Virgin) is a fundamental component of the Mediterranean diet. It is rich in monounsaturated fatty acids (oleic acid) and powerful polyphenols that provide pronounced antioxidant and anti-inflammatory effects.",
+    "macroTitle": "Macro Nutrients (per 100g, classic oil)",
+    "macroIntro": "Pure source of lipids with high energy density.",
+    "microIntro": "Contains a significant amount of antioxidants and vitamins that protect the cardiovascular system.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "884 kcal",
+        "bg": "#15837c",
+        "description": "High energy value."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "100 g",
+        "bg": "#e4a910",
+        "description": "Predominantly monounsaturated fatty acids."
+      },
+      {
+        "id": "vitE",
+        "slug": "vitamin-e",
+        "name": "Vitamin E",
+        "amount": "14 mg / 93% DV",
+        "bg": "#66ab63",
+        "description": "Powerful fat-soluble antioxidant."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardiovascular Protection:</b> Regular consumption helps lower 'bad' cholesterol and maintain vascular elasticity.",
+      "<b>Anti-inflammatory Effect:</b> Contains oleocanthal, which possesses anti-inflammatory properties comparable to some pharmaceutical analgesics.",
+      "<b>Antioxidant Profile:</b> Polyphenols neutralize free radicals, slowing down cellular aging."
+    ],
+    "precautionsIntro": "Olive oil is a beneficial product, but consider the following:",
+    "precautions": [
+      "<b>Calorie Control:</b> Due to its extremely high energy density, it is necessary to strictly dose intake when managing weight.",
+      "<b>Thermal Processing:</b> Extra Virgin oils have a relatively low smoke point, so it is recommended to use them primarily raw (dressings, sauces) to preserve all biologically active substances.",
+      "<b>Storage:</b> Sensitive to light and heat; requires storage in a dark glass container in a cool place to prevent oxidation."
+    ]
+  },
+  "black-tea": {
+    "slug": "black-tea",
+    "name": "Black Tea",
+    "category": "Beverages",
+    "image": "/productinfo/black-tea.png",
+    "imageAlt": "cup of black tea",
+    "description": "Black tea is a product of full fermentation of the tea leaf (Camellia sinensis), rich in polyphenols (theaflavins and thearubigins) and caffeine. It has a pronounced tonic effect, improves cognitive functions, and supports the cardiovascular system when consumed in moderation.",
+    "macroTitle": "Macro Nutrients (per 100 ml of brewed beverage)",
+    "macroIntro": "The beverage contains almost no calories if consumed without additives (sugar, milk).",
+    "microIntro": "A source of antioxidants that support metabolism and cellular protection.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "1-2 kcal",
+        "bg": "#15837c",
+        "description": "Zero energy density."
+      },
+      {
+        "id": "caffeine",
+        "name": "Caffeine",
+        "slug": "caffeine",
+        "amount": "20-50 mg",
+        "bg": "#f5722c",
+        "description": "Stimulates the central nervous system."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "theaflavins",
+        "slug": "antioxidants",
+        "name": "Theaflavins",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "Antioxidants unique to black tea."
+      },
+      {
+        "id": "fluoride",
+        "slug": "fluoride",
+        "name": "Fluoride",
+        "amount": "Moderate content",
+        "bg": "#66ab63",
+        "description": "Supports dental enamel health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cardioprotection:</b> Flavonoids contribute to improved vascular endothelial function and reduced risk of cardiovascular diseases.",
+      "<b>Cognitive Effect:</b> Caffeine combined with L-theanine improves concentration and productivity.",
+      "<b>Antioxidant Defense:</b> Theaflavins help neutralize free radicals.",
+      "<b>Metabolism:</b> Contributes to increased general body tone."
+    ],
+    "precautionsIntro": "Black tea is beneficial but requires moderation:",
+    "precautions": [
+      "<b>Iron Deficiency:</b> Tannins may inhibit the absorption of non-heme iron from plant-based foods when consumed simultaneously.",
+      "<b>Sleep:</b> High caffeine content may disrupt sleep phases if consumed in the afternoon.",
+      "<b>GI Sensitivity:</b> In some people, it may cause irritation of the stomach lining due to tannins."
+    ]
+  },
+  "green_tea": {
+    "slug": "green-tea",
+    "name": "Green Tea",
+    "category": "Beverages",
+    "image": "/productinfo/green_tea.png",
+    "imageAlt": "cup of green tea",
+    "description": "Green tea is a minimally fermented tea leaf (Camellia sinensis) rich in catechins (especially EGCG). It is known for its pronounced antioxidant and anti-inflammatory properties, as well as its ability to support metabolism and cognitive functions.",
+    "macroTitle": "Macro Nutrients (per 100 ml of brewed beverage)",
+    "macroIntro": "The beverage contains almost no calories if consumed without additives (sugar, honey).",
+    "microIntro": "It is a concentrated source of polyphenols.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "1 kcal",
+        "bg": "#15837c",
+        "description": "Minimal energy value."
+      },
+      {
+        "id": "caffeine",
+        "name": "Caffeine",
+        "slug": "caffeine",
+        "amount": "15-30 mg",
+        "bg": "#f5722c",
+        "description": "Mild CNS stimulant."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "EGCG",
+        "slug": "catechins",
+        "name": "Epigallocatechin gallate (EGCG)",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "Powerful antioxidant characteristic of green tea."
+      },
+      {
+        "id": "L-theanine",
+        "slug": "amino-acids",
+        "name": "L-theanine",
+        "amount": "Present",
+        "bg": "#66ab63",
+        "description": "Amino acid that promotes relaxation without drowsiness."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Antioxidant Defense:</b> Catechins help protect cells from oxidative damage.",
+      "<b>Metabolic Support:</b> May contribute to a slight increase in fat oxidation rate.",
+      "<b>Cognitive Effect:</b> The combination of caffeine and L-theanine improves focus.",
+      "<b>Cardiovascular System:</b> Regular consumption is linked to a reduced risk of heart disease factors."
+    ],
+    "precautionsIntro": "Green tea is beneficial but requires caution:",
+    "precautions": [
+      "<b>Iron Absorption:</b> Tannins may decrease iron absorption from plant-based foods.",
+      "<b>Caffeine:</b> Despite having less than coffee or black tea, individuals with high sensitivity should limit intake.",
+      "<b>Liver:</b> Extremely high dosages of green tea extracts (in supplement form) can be hepatotoxic."
+    ]
+  },
+  "coffee": {
+    "slug": "coffee",
+    "name": "Coffee (Black)",
+    "category": "Beverages",
+    "image": "/productinfo/coffee.png",
+    "imageAlt": "cup of black coffee",
+    "description": "Coffee is a popular beverage obtained from roasted coffee beans. It is a powerful CNS stimulant due to its high caffeine content and contains significant amounts of antioxidants, including chlorogenic acid.",
+    "macroTitle": "Macro Nutrients (per 100 ml of brewed beverage)",
+    "macroIntro": "Black coffee contains almost no calories if no sugar, cream, or milk is added.",
+    "microIntro": "Contains a wide range of bioactive compounds and minerals in trace amounts.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "2 kcal",
+        "bg": "#15837c",
+        "description": "Zero energy density."
+      },
+      {
+        "id": "caffeine",
+        "name": "Caffeine",
+        "slug": "caffeine",
+        "amount": "40-80 mg",
+        "bg": "#f5722c",
+        "description": "Main active component."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "chlorogenic_acid",
+        "slug": "antioxidants",
+        "name": "Chlorogenic Acid",
+        "amount": "High concentration",
+        "bg": "#15837c",
+        "description": "Antioxidant that helps regulate metabolism."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "90 mg",
+        "bg": "#66ab63",
+        "description": "Supports cardiovascular system function."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Cognitive Functions:</b> Caffeine improves concentration, memory, and general productivity.",
+      "<b>Physical Activity:</b> Increases endurance and workout efficiency by mobilizing fatty acids.",
+      "<b>Metabolism:</b> Chlorogenic acid may help improve insulin sensitivity.",
+      "<b>Antioxidant Defense:</b> One of the largest sources of antioxidants in many people's diets."
+    ],
+    "precautionsIntro": "Coffee is an active product, so it is important to consider:",
+    "precautions": [
+      "<b>Sleep Disruption:</b> Caffeine blocks adenosine receptors, which can cause insomnia if consumed in the afternoon.",
+      "<b>Cardiovascular Reaction:</b> Can increase blood pressure and cause tachycardia in sensitive individuals.",
+      "<b>GI Impact:</b> Stimulates hydrochloric acid production, which may be undesirable for gastritis or high acidity.",
+      "<b>Nutrient Absorption:</b> In large amounts, it may interfere with calcium and iron absorption."
+    ]
+  },
+  "dark-chocolate": {
+    "slug": "dark-chocolate",
+    "name": "Dark Chocolate",
+    "category": "Sweets / Superfood",
+    "image": "/productinfo/chocolate.png",
+    "imageAlt": "pieces of dark chocolate",
+    "description": "Dark chocolate is a processed cocoa bean product rich in flavonoids, theobromine, and antioxidants. With high cocoa content, it acts as a functional food, contributing to improved blood circulation and mood.",
+    "macroTitle": "Macro Nutrients (per 100g, 70-85% cocoa)",
+    "macroIntro": "A product with very high energy density due to its cocoa butter content.",
+    "microIntro": "It is a concentrated source of magnesium, iron, and copper.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "550-600 kcal",
+        "bg": "#15837c",
+        "description": "High-calorie product."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "40-45 g",
+        "bg": "#e4a910",
+        "description": "Predominantly beneficial saturated and monounsaturated fats."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "30-35 g",
+        "bg": "#15837c",
+        "description": "Includes dietary fiber and sugars."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "200-230 mg / 50% DV",
+        "bg": "#15837c",
+        "description": "Important for the nervous system and muscle function."
+      },
+      {
+        "id": "flavanols",
+        "slug": "antioxidants",
+        "name": "Flavanols",
+        "amount": "High concentration",
+        "bg": "#f5722c",
+        "description": "Antioxidants that strengthen blood vessels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Vascular Health:</b> Flavanols help dilate blood vessels and lower blood pressure.",
+      "<b>Cognitive Effect:</b> Theobromine and caffeine provide a mild stimulating effect, improving focus.",
+      "<b>Psychological Well-being:</b> Stimulates the production of endorphins and serotonin.",
+      "<b>Antioxidant Defense:</b> High polyphenol content fights free radicals."
+    ],
+    "precautionsIntro": "Chocolate is a very high-calorie and potent product, so it is important to:",
+    "precautions": [
+      "<b>Portion Control:</b> High energy density requires limiting consumption (15-30g per day is recommended).",
+      "<b>Caffeine Content:</b> Consider the total daily caffeine dose if you are sensitive to stimulants.",
+      "<b>Oxalates:</b> Contains oxalates, which requires caution if you are prone to kidney stones."
+    ]
   }
 }
