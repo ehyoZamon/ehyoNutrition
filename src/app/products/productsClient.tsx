@@ -63,7 +63,7 @@ const ProductsClient = () => {
 
       const nutrients = [
         ...(details.macroNutrients || []),
-        ...(details.microNutrients || []),
+        ...(((details as any).microNutrients) || []),
       ];
 
       const nutrientsMap = nutrients.reduce((acc: any, n: any) => {
