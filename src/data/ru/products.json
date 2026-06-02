@@ -781,5 +781,50 @@
     "image": "/products/ginger.png",
     "favorite": false,
     "link": "/productinfo/ginger"
+  },
+  {
+    "id": 89,
+    "name": "Ананас",
+    "category": "Фрукты и ягоды",
+    "calories": 50,
+    "image": "/products/pineapple.png",
+    "favorite": false,
+    "link": "/productinfo/pineapple"
+  },
+  {
+    "id": 90,
+    "name": "Мандарин",
+    "category": "Фрукты и ягоды",
+    "calories": 53,
+    "image": "/products/tangerine.png",
+    "favorite": false,
+    "link": "/productinfo/tangerine"
+  },
+  {
+    "id": 91,
+    "name": "Хурма",
+    "category": "Фрукты и ягоды",
+    "calories": 70,
+    "image": "/products/persimmon.png",
+    "favorite": false,
+    "link": "/productinfo/persimmon"
+  },
+  {
+    "id": 92,
+    "name": "Сметана",
+    "category": "Яйца и молочные продукты",
+    "calories": 206,
+    "image": "/products/sour-cream.png",
+    "favorite": false,
+    "link": "/productinfo/sour-cream"
+  },
+  {
+    "id": 93,
+    "name": "Сливочное масло",
+    "category": "Яйца и молочные продукты",
+    "calories": 717,
+    "image": "/products/butter.png",
+    "favorite": false,
+    "link": "/productinfo/butter"
   }
 ]

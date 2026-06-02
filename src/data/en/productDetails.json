@@ -8701,5 +8701,418 @@
       "<b>Blood Thinning:</b> May enhance the effect of anticoagulants, increasing the risk of bleeding.",
       "<b>Gallstones:</b> Possesses a pronounced choleretic effect, which may trigger stone movement."
     ]
+  },
+  "pineapple": {
+    "slug": "pineapple",
+    "name": "Pineapple",
+    "category": "Fruits",
+    "image": "/productinfo/pineapple.png",
+    "imageAlt": "fresh pineapple",
+    "description": "Pineapple is a tropical fruit unique for its content of bromelain, a complex of proteolytic enzymes that facilitate protein breakdown and possess anti-inflammatory properties. It is also a rich source of vitamin C and manganese.",
+    "macroTitle": "Macro Nutrients (per 100g, raw product)",
+    "macroIntro": "Pineapple has moderate caloric content and high sugar levels, providing a quick energy response.",
+    "microIntro": "The product contains important trace elements to support immunity and connective tissue health.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "50 kcal",
+        "bg": "#15837c",
+        "description": "Moderate energy value."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.5 g",
+        "bg": "#f5722c",
+        "description": "Minimal content."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.1 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "13.1 g",
+        "bg": "#15837c",
+        "description": "Represented by natural sugars."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "bromelain",
+        "slug": "enzymes",
+        "name": "Bromelain",
+        "amount": "High bioactivity",
+        "bg": "#15837c",
+        "description": "Enzyme aiding digestion and reducing inflammation."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "47.8 mg / 53% DV",
+        "bg": "#f5722c",
+        "description": "Supports the immune system and collagen synthesis."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.9 mg / 40% DV",
+        "bg": "#66ab63",
+        "description": "Important for metabolism and bone health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestive Support:</b> Bromelain facilitates protein breakdown, promoting comfortable digestion.",
+      "<b>Anti-inflammatory Effect:</b> Helps reduce swelling and inflammatory processes after injuries or surgeries.",
+      "<b>Immune Defense:</b> High vitamin C content strengthens the body's defenses.",
+      "<b>Antioxidant Effect:</b> Rich in flavonoids that fight oxidative stress."
+    ],
+    "precautionsIntro": "Pineapple is an active product, so consider the following:",
+    "precautions": [
+      "<b>Acidity:</b> High acidity can irritate the stomach lining in cases of gastritis or ulcers.",
+      "<b>Allergy:</b> Individual intolerance is possible, especially in people with latex allergies.",
+      "<b>Drug Interaction:</b> Bromelain can affect blood clotting, so its consumption should be discussed with a doctor if taking anticoagulants."
+    ]
+  },
+  "tangerine": {
+    "slug": "tangerine",
+    "name": "Tangerine",
+    "category": "Fruits / Citrus",
+    "image": "/productinfo/tangerine.png",
+    "imageAlt": "fresh tangerines",
+    "description": "Tangerine is a citrus fruit rich in vitamin C, flavonoids, and fiber. It has a pronounced antioxidant effect, contributes to immune support, and improves the overall metabolic state of the body.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+    "macroIntro": "Tangerines have a moderate caloric content and high water content, which contributes to hydration.",
+    "microIntro": "The product is an important source of vitamins that contribute to antioxidant defense and vascular strengthening.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "53 kcal",
+        "bg": "#15837c",
+        "description": "Low calorie content, suitable for a healthy snack."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.8 g",
+        "bg": "#f5722c",
+        "description": "Minimal content."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.3 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "13.3 g",
+        "bg": "#15837c",
+        "description": "Represented by natural sugars and dietary fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "26.7 mg / 30% DV",
+        "bg": "#15837c",
+        "description": "Key antioxidant for the immune system."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "166 mg / 4% DV",
+        "bg": "#f5722c",
+        "description": "Regulates water balance and heart function."
+      },
+      {
+        "id": "flavonoids",
+        "slug": "antioxidants",
+        "name": "Flavonoids",
+        "amount": "High activity",
+        "bg": "#66ab63",
+        "description": "Compounds that reduce the risk of oxidative stress."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Immune Support:</b> High vitamin C content helps increase the body's resistance to infections.",
+      "<b>Skin Health:</b> Vitamin C contributes to collagen synthesis, maintaining skin elasticity.",
+      "<b>Antioxidant Defense:</b> The antioxidant content helps fight free radicals.",
+      "<b>Digestion:</b> Dietary fiber contributes to the normalization of intestinal motility."
+    ],
+    "precautionsIntro": "Tangerines are a useful but active product that requires caution:",
+    "precautions": [
+      "<b>Allergic Reactions:</b> They are a common allergen; if predisposed, rashes or other reactions are possible.",
+      "<b>Acidity:</b> Organic acids can irritate the stomach lining, which is not recommended for gastritis and peptic ulcer disease.",
+      "<b>Individual Intolerance:</b> It is important to exercise moderation, as excessive consumption can cause allergies even in healthy individuals."
+    ]
+  },
+  "persimmon": {
+    "slug": "persimmon",
+    "name": "Persimmon",
+    "category": "Fruits",
+    "image": "/productinfo/persimmon.png",
+    "imageAlt": "ripe persimmon",
+    "description": "Persimmon is a nutrient-dense fruit known for its high content of beta-carotene, antioxidants, and dietary fiber. It possesses pronounced general strengthening properties and contributes to maintaining eye health and cardiovascular function.",
+    "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+    "macroIntro": "It has moderate caloric content and high levels of natural sugars, providing a quick energy boost.",
+    "microIntro": "It is a concentrated source of Vitamin A and essential minerals.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "70 kcal",
+        "bg": "#15837c",
+        "description": "Source of quick energy."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.6 g",
+        "bg": "#f5722c",
+        "description": "Minimal content."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "0.2 g",
+        "bg": "#e4a910",
+        "description": "Practically absent."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "18.6 g",
+        "bg": "#15837c",
+        "description": "Represented by glucose, fructose, and dietary fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A (beta-carotene)",
+        "amount": "162 mcg / 18% DV",
+        "bg": "#15837c",
+        "description": "Necessary for maintaining vision and health of epithelial tissues."
+      },
+      {
+        "id": "vitC",
+        "slug": "vitamin-c",
+        "name": "Vitamin C",
+        "amount": "7.5 mg / 8% DV",
+        "bg": "#f5722c",
+        "description": "Supports immunity and collagen synthesis."
+      },
+      {
+        "id": "tannins",
+        "slug": "tannins",
+        "name": "Tannins",
+        "amount": "High concentration",
+        "bg": "#66ab63",
+        "description": "Provide astringent taste and possess antibacterial properties."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Vision Health:</b> A high level of beta-carotene and zeaxanthin helps protect the retina.",
+      "<b>Vascular Support:</b> Antioxidants help reduce inflammation in the circulatory system.",
+      "<b>Digestion:</b> Dietary fiber improves intestinal motility.",
+      "<b>Antioxidant Defense:</b> Helps reduce oxidative stress due to high flavonoid content."
+    ],
+    "precautionsIntro": "Persimmon requires careful consumption in the following cases:",
+    "precautions": [
+      "<b>Astringent Effect:</b> Unripe fruits contain many tannins, which can cause the formation of bezoars (food boluses) in the stomach.",
+      "<b>Diabetes Mellitus:</b> High sugar content requires portion control if the glycemic profile is impaired.",
+      "<b>Individual Intolerance:</b> Risk of allergic reactions in sensitive individuals."
+    ]
+  },
+  "sour-cream": {
+    "slug": "sour-cream",
+    "name": "Sour Cream",
+    "category": "Dairy Products",
+    "image": "/productinfo/sour-cream.png",
+    "imageAlt": "sour cream in a bowl",
+    "description": "Sour cream is a fermented milk product obtained by fermenting cream with lactic acid bacteria. It is valued for its content of probiotics, fat-soluble vitamins, and calcium, which are necessary for bone tissue and intestinal microflora.",
+    "macroTitle": "Macro Nutrients (per 100g, 20% fat content)",
+    "macroIntro": "A product with high energy density, consisting mainly of milk fats.",
+    "microIntro": "It is a source of calcium and B vitamins.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "206 kcal",
+        "bg": "#15837c",
+        "description": "High energy value."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "2.5 g",
+        "bg": "#f5722c",
+        "description": "Small amount of milk protein."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "20 g",
+        "bg": "#e4a910",
+        "description": "Primary source of energy and fat-soluble vitamins."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "3.2 g",
+        "bg": "#15837c",
+        "description": "Includes residual lactose."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "80 mg / 8% DV",
+        "bg": "#15837c",
+        "description": "Critically important for bones and teeth."
+      },
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A",
+        "amount": "180 mcg / 20% DV",
+        "bg": "#f5722c",
+        "description": "Supports immunity and vision."
+      },
+      {
+        "id": "probiotics",
+        "slug": "probiotics",
+        "name": "Probiotics",
+        "amount": "High concentration",
+        "bg": "#66ab63",
+        "description": "Beneficial bacteria for intestinal microflora."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Intestinal Microflora:</b> The presence of lactic acid bacteria helps improve digestion.",
+      "<b>Vitamin Absorption:</b> Milk fats help the body absorb fat-soluble vitamins better from other foods.",
+      "<b>Bone Health:</b> Contains calcium and vitamin D (in some types) that support bone density."
+    ],
+    "precautionsIntro": "Sour cream is a high-fat product, so consider the following:",
+    "precautions": [
+      "<b>Calorie Control:</b> High fat content requires portion monitoring for weight management.",
+      "<b>Cholesterol:</b> Contains saturated fats, which requires caution for cardiovascular conditions.",
+      "<b>Lactose:</b> Individuals with severe lactose intolerance should choose lactose-free alternatives."
+    ]
+  },
+  "butter": {
+    "slug": "butter",
+    "name": "Butter",
+    "category": "Dairy Products / Fats",
+    "image": "/productinfo/butter.png",
+    "imageAlt": "piece of butter",
+    "description": "Butter is concentrated milk fat obtained by churning cream. It is an important source of fat-soluble vitamins (A, D, E, K2) and conjugated linoleic acid (CLA), which has potential anti-carcinogenic properties.",
+    "macroTitle": "Macro Nutrients (per 100g, classic butter 82.5% fat)",
+    "macroIntro": "A product with maximum energy density, consisting almost entirely of lipids.",
+    "microIntro": "Contains a unique profile of fat-soluble micronutrients.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "748 kcal",
+        "bg": "#15837c",
+        "description": "High-calorie product."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "0.6 g",
+        "bg": "#f5722c",
+        "description": "Minimal amount."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fat",
+        "amount": "82.5 g",
+        "bg": "#e4a910",
+        "description": "Primary nutrient, including saturated fats."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "0.8 g",
+        "bg": "#15837c",
+        "description": "Trace amounts."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitA",
+        "slug": "vitamin-a",
+        "name": "Vitamin A",
+        "amount": "684 mcg / 76% DV",
+        "bg": "#15837c",
+        "description": "Important for skin and eye health."
+      },
+      {
+        "id": "CLA",
+        "slug": "fatty-acids",
+        "name": "Conjugated Linoleic Acid",
+        "amount": "Bioactive compound",
+        "bg": "#f5722c",
+        "description": "Fatty acid that supports metabolism."
+      },
+      {
+        "id": "vitK2",
+        "slug": "vitamin-k2",
+        "name": "Vitamin K2",
+        "amount": "Significant content",
+        "bg": "#66ab63",
+        "description": "Promotes proper calcium metabolism in bones."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Vitamin Source:</b> Provides high bioavailability of vitamins A, D, E, and K2.",
+      "<b>Metabolic Support:</b> CLA (in butter from grass-fed cows) may help improve body composition.",
+      "<b>Culinary Value:</b> Stable saturated fats make it suitable for many cooking methods at moderate heat."
+    ],
+    "precautionsIntro": "Due to its high energy density and fat composition, moderation is recommended:",
+    "precautions": [
+      "<b>Cardiovascular Risks:</b> High content of saturated fats requires monitoring consumption in cases of dyslipidemia.",
+      "<b>Caloric Content:</b> Excessive consumption easily leads to a calorie surplus and weight gain.",
+      "<b>Individual Intolerance:</b> Contraindicated for those with a dairy protein (casein) allergy or lactose intolerance (depending on purity)."
+    ]
   }
 }

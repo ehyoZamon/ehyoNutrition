@@ -781,5 +781,50 @@
     "image": "/products/ginger.png",
     "favorite": false,
     "link": "/productinfo/ginger"
+  },
+  {
+    "id": 89,
+    "name": "Pineapple",
+    "category": "food/fruits",
+    "calories": 50,
+    "image": "/products/pineapple.png",
+    "favorite": false,
+    "link": "/productinfo/pineapple"
+  },
+  {
+    "id": 90,
+    "name": "Mandarin",
+    "category": "food/fruits",
+    "calories": 53,
+    "image": "/products/tangerine.png",
+    "favorite": false,
+    "link": "/productinfo/tangerine"
+  },
+  {
+    "id": 91,
+    "name": "Persimmon",
+    "category": "food/fruits",
+    "calories": 70,
+    "image": "/products/persimmon.png",
+    "favorite": false,
+    "link": "/productinfo/persimmon"
+  },
+  {
+    "id": 92,
+    "name": "Sour Cream",
+    "category": "food/eggs and dairy",
+    "calories": 206,
+    "image": "/products/sour-cream.png",
+    "favorite": false,
+    "link": "/productinfo/sour-cream"
+  },
+  {
+    "id": 93,
+    "name": "Butter",
+    "category": "food/eggs and dairy",
+    "calories": 717,
+    "image": "/products/butter.png",
+    "favorite": false,
+    "link": "/productinfo/butter"
   }
 ]
