@@ -85,7 +85,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 17px;
+    gap: 10px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -195,6 +195,50 @@
 
 *::-webkit-scrollbar-track{
   display: none; 
+}
+
+.filter-icon {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.filter-bar {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.filter-select {
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  padding: 0 12px;
+  background: #f4f4f4;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #999;
+  flex: 1;
+  overflow: hidden;
+  width: calc(320px - 60px - 8px);
+}
+
+.filter-select *{
+    max-width: 100%;
+}
+
+.filter-reset {
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: none;
+  background: #eee;
+  color: #999;
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 60px;
 }
 
 @media (max-width: 767px) {

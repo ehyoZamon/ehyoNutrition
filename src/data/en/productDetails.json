@@ -394,7 +394,7 @@
         "description": "Pre-formed active Vitamin A (retinol) that directly fuels the visual cycle, maintains endothelial integrity, and fortifies systemic immunity."
       },
       {
-        "id": "b12",
+        "id": "vitamin-b12",
         "slug": "vitamin-b12",
         "name": "Vitamin B12",
         "amount": "70.6 mcg / 2940% DV",
@@ -949,7 +949,7 @@
         "description": "The primary structural mineral required for developing and preserving high bone density and optimizing dental health."
       },
       {
-        "id": "b12",
+        "id": "vitamin-b12",
         "slug": "vitamin-b12",
         "name": "Vitamin B12",
         "amount": "0.43 mcg / 18% DV",
@@ -1065,7 +1065,7 @@
         "description": "A powerful antioxidant that supports thyroid function and protects the body from oxidative damage."
       },
       {
-        "id": "b12",
+        "id": "vitamin-b12",
         "slug": "vitamin-b12",
         "name": "Vitamin B12",
         "amount": "0.5 mcg / 20% DV",
@@ -1181,7 +1181,7 @@
         "description": "One of the absolute richest natural dietary sources of active Vitamin D3, foundational for systemic calcium absorption and immune system performance."
       },
       {
-        "id": "b12",
+        "id": "vitamin-b12",
         "slug": "vitamin-b12",
         "name": "Vitamin B12",
         "amount": "3.2 mcg / 133% DV",
