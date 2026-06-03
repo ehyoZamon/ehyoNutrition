@@ -1,6 +1,6 @@
 .main-layout {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,6 +9,7 @@
   gap: 20px;
   overflow-y: auto;
   background-color: #fefefe;
+  position: fixed;
 }
 
 .header {
@@ -42,10 +43,11 @@
   gap: 20px;
 }
 
+
 .label {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 140%;
   letter-spacing: -0.02em;
   color: #ff806e;

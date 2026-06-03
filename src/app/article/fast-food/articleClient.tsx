@@ -15,7 +15,7 @@ const ArticleClient = () => {
     <div className={styles["main-layout"]}>
       <div className={styles.header}>
         <Link href="/main" className={styles.backlink} aria-label={t("back")}>
-          <Image src="/back.svg" alt="" width={20} height={20} />
+          <Image src="/back.svg" alt="" width={30} height={30} />
         </Link>
         <span className={styles.label}>{t("label")}</span>
       </div>

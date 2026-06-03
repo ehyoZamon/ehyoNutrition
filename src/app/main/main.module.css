@@ -10,7 +10,6 @@
     gap: 24px;
     overflow-y: auto;
     background-color: #fefefe;
-    position: relative;
 }
 
 .welcome h2{
