@@ -9,7 +9,49 @@
     "chooseFavorites": "Choose Your Favorites",
     "fruits": "Fruits",
     "vegetables": "Vegetables",
-    "snack": "Snack"
+    "snack": "Snack",
+
+    "nutritionStatistics": "Nutrition Statistics",
+    "bodyWater": "Human body is water",
+    "adultBones": "Bones in adult body",
+    "bodyMuscles": "Muscles in body",
+    "brainEnergy": "Energy used by brain",
+
+    "dailyRecommendations": "Daily Recommendations",
+    "water": "Water",
+    "protein": "Protein",
+    "fiber": "Fiber",
+
+    "commonDeficiencies": "Most Common Deficiencies",
+
+    "healthyPlate": "Healthy Plate Formula",
+    "plateVegetables": "Vegetables",
+    "plateProtein": "Protein",
+    "plateCarbohydrates": "Carbohydrates",
+
+    "didYouKnow": "Did You Know?",
+
+    "fact1": "The brain consumes about 20% of the body's daily energy.",
+    "fact2": "Magnesium participates in more than 300 biochemical reactions.",
+    "fact3": "Vitamin D is the only vitamin your body can produce from sunlight.",
+    "fact4": "About 60% of an adult human body consists of water.",
+    "fact5": "One serving of beef liver can provide more than 1000% of daily Vitamin B12.",
+
+    "healthyHabits": "Healthy Habits",
+
+    "habit1": "Drink water instead of sugary drinks.",
+    "habit2": "Eat vegetables with every main meal.",
+    "habit3": "Add at least one fruit to your daily diet.",
+    "habit4": "Include protein in breakfast.",
+    "habit5": "Walk at least 30 minutes daily.",
+    "habit6": "Choose whole grains more often.",
+    "habit7": "Eat fish at least twice a week.",
+
+    "topSources": "Top Nutrient Sources",
+
+    "vitaminCSources": "Kakadu Plum, Acerola Cherry, Guava, Bell Pepper, Kiwi",
+    "ironSources": "Beef Liver, Clams, Lentils, Spinach, Tofu",
+    "magnesiumSources": "Pumpkin Seeds, Almonds, Spinach, Black Beans, Dark Chocolate"
   },
   "Products": {
     "searchPlaceholder": "Search products, fruits, vegetables...",
