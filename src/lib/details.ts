@@ -70,7 +70,11 @@ function productContainsVitamin(
   product: ProductDetail,
   vitaminSlug: string
 ): string | null {
-  const nutrients = [...product.macroNutrients, ...product.microNutrients];
+  // Безопасно получаем массивы, если они undefined, используем пустой массив []
+  const macroNutrients = product.macroNutrients || [];
+  const microNutrients = product.microNutrients || [];
+  
+  const nutrients = [...macroNutrients, ...microNutrients];
 
   for (const nutrient of nutrients) {
     if (nutrient.slug === vitaminSlug) {
