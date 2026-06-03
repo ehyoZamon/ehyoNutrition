@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from "next-intl"; // Импортируе�
 import styles from "../productInfo.module.css";
 import { getVitaminSlugs } from "@/lib/details";
 import type { NutrientItem, ProductDetail } from "@/types/details";
+import { useRouter } from "next/navigation";
 
 const vitaminSlugs = new Set(getVitaminSlugs());
 
@@ -18,7 +19,7 @@ type Props = {
 const ProductInfoClient = ({ productEn, productRu }: Props) => {
   const t = useTranslations("ProductInfo"); // Подключаем секцию общих переводов интерфейса
   const locale = useLocale(); // Получаем текущий активный язык ("ru" или "en")
-
+  const router = useRouter();
   // Автоматически выбираем нужный языковой пакет данных на основе локали
   const product = locale === "ru" ? productRu : productEn;
 
@@ -52,9 +53,9 @@ const ProductInfoClient = ({ productEn, productRu }: Props) => {
       <div className={styles["content-section"]}>
         <div className={styles["content"]}>
           <div className={styles["product-img-container"]}>
-            <Link href="/products" className={styles["backlink"]}>
+            <div onClick={() => router.back()} className={styles["backlink"]}>
               <Image src="/back.svg" alt="back" width={20} height={20} />
-            </Link>
+            </div>
             <Image
               src={product.image}
               alt={product.imageAlt}

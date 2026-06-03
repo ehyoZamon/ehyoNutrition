@@ -181,6 +181,7 @@
     justify-content: center;
     background: #fff;
     z-index: 10;
+    cursor: pointer;
 }
 
 /* Делаем элементы нутриентов визуально кликабельными */

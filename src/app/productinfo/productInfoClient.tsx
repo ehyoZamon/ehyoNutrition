@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from 'next/image';
 import styles from "./productInfo.module.css";
+import { useRouter } from "next/navigation";
 
 // Структурированный массив данных для макронутриентов
 const MACRO_NUTRIENTS = [
@@ -108,6 +109,8 @@ const ProductInfoClient = () => {
     const [selectedItem, setSelectedItem] = useState<null | NutrientItem>(null);
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
+    const router = useRouter();
+
     useEffect(() => {
         const dialog = dialogRef.current;
         if (!dialog) return;
@@ -132,14 +135,14 @@ const ProductInfoClient = () => {
             <div className={styles["content-section"]}>
                 <div className={styles["content"]}>
                     <div className={styles["product-img-container"]}>
-                        <Link href="/products" className={styles["backlink"]}>
+                        <div onClick={() => router.back()} className={styles["backlink"]}>
                             <Image 
                                 src="/back.svg"
                                 alt="back"
                                 width={20}
                                 height={20}
                             />
-                        </Link>
+                        </div>
                         <Image
                             src="/productinfo/eggs.png"
                             alt="eggs"

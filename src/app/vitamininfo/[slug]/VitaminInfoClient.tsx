@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from "next-intl";
 import styles from "../vitaminInfo.module.css";
 import { getProductsByVitaminSlug } from "@/lib/details";
 import type { VitaminDetail } from "@/types/details";
+import { useRouter } from "next/navigation";
 
 type Props = {
   vitaminEn: VitaminDetail;
@@ -16,6 +17,8 @@ type Props = {
 const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
   const t = useTranslations("VitaminInfo");
   const locale = useLocale();
+  
+  const router = useRouter();
 
   // Автоматически выбираем нужные локализованные данные на основе выбранного языка
   const vitamin = locale === "ru" ? vitaminRu : vitaminEn;
@@ -37,9 +40,9 @@ const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
       <div className={styles["content-section"]}>
         <div className={styles["content"]}>
           <div className={styles["vitamin-img-container"]}>
-            <Link href="/vitamins" className={styles["backlink"]}>
+            <div onClick={() => router.back()} className={styles["backlink"]}>
               <Image src="/back.svg" alt="back" width={20} height={20} />
-            </Link>
+            </div>
             <Image
               src="/vitamininfo/nutrients.png"
               alt="nutrients"
