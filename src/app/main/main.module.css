@@ -1,4 +1,3 @@
-
 .main-layout{
     width: 100%;
     height: 100%;
@@ -518,4 +517,26 @@
 .sourceCard:active,
 .deficiencyCard:active {
     transform: scale(0.98);
+}
+
+*::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #ddd;
+}
+
+
+*::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+
+*::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track{
+  display: none; 
 }
