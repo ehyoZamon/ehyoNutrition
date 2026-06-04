@@ -51,7 +51,19 @@
 
     "vitaminCSources": "Kakadu Plum, Acerola Cherry, Guava, Bell Pepper, Kiwi",
     "ironSources": "Beef Liver, Clams, Lentils, Spinach, Tofu",
-    "magnesiumSources": "Pumpkin Seeds, Almonds, Spinach, Black Beans, Dark Chocolate"
+    "magnesiumSources": "Pumpkin Seeds, Almonds, Spinach, Black Beans, Dark Chocolate",
+    
+    "measurementUnits": "Guide to Measurement Units",
+    "unitMcgTitle": "mcg (µg) — Microgram",
+    "unitMcgDesc": "One millionth of a gram (1/1000 mg). Used for microelements that the body requires in microscopic doses but possess colossal biological activity. For instance, the daily value of vital Vitamin D3 (20 mcg) is visually smaller than a single grain of sand, and Vitamin B12 status is measured precisely in mcg.",
+    "unitMgTitle": "mg — Milligram",
+    "unitMgDesc": "One thousandth of a gram. This is the baseline measure for most vitamins and minerals. To help you visualize: a standard vitamin C tablet is typically 50-100 mg. Milligrams measure your daily requirements for Iron, Zinc, as well as macrominerals like Calcium and Magnesium (which are needed in larger amounts — around 400-1000 mg).",
+    "unitGTitle": "g — Gram",
+    "unitGDesc": "The primary unit of weight. Grams are used exclusively for macronutrients (Proteins, Fats, Carbohydrates) and dietary fiber. The total weight of food items in the app is also displayed in grams. Remember that 1 gram of fat provides 9 kcal, while 1 gram of protein or carbs provides 4 kcal.",
+    "unitDvTitle": "% DV — Percent of Daily Value",
+    "unitDvDesc": "The ultimate guide for reading nutritional data. It shows what percentage of the average adult's daily requirement is supplied by one serving. Apply the golden rule: if a nutrient is ≤ 5% DV, the food is low in it; if it is ≥ 20% DV (like the 22% in the example above), it is considered an excellent, high-potency source.",
+    "unitMeTitle": "IU (ME) — International Unit",
+    "unitMeDesc": "Measures biological activity rather than physical weight. Different forms of a vitamin have different weights, but IU standardizes their potency. Most commonly used for Vitamins D, A, and E. For example, 400 IU of Vitamin D3 is exactly equal to 10 mcg."
   },
   "Products": {
     "searchPlaceholder": "Search products, fruits, vegetables...",

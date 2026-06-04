@@ -222,7 +222,7 @@
   color: #999;
   flex: 1;
   overflow: hidden;
-  width: calc(320px - 60px - 8px);
+  width: calc(100% - 60px - 8px);
 }
 
 .filter-select *{

@@ -519,6 +519,58 @@
     transform: scale(0.98);
 }
 
+/* ==========================
+   MEASUREMENT UNITS
+========================== */
+
+.unitsSection {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.unitsSection h3 {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 110%;
+    color: #000;
+}
+
+.unitCard {
+    background: #ffffff;
+    border: 2px solid #f7faff;
+    background: linear-gradient(180deg, #ffffff 0%, #fcfdfe 100%);
+    box-shadow: 0 4px 12px rgba(163, 160, 202, 0.05);
+    border-radius: 24px;
+    padding: 18px;
+    transition: transform 0.15s ease;
+}
+
+.unitCard strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #6561a1; /* Мягкий фиолетовый акцент в тон кнопок витаминов */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.unitCard p {
+    margin: 0;
+    line-height: 145%;
+    font-size: 13px;
+    color: #616161;
+    font-family: var(--font-family);
+}
+
+/* Эффект нажатия для мобилок */
+.unitCard:active {
+    transform: scale(0.98);
+}
+
 *::-webkit-scrollbar{
     width: 8px;
     height: 8px;

@@ -29,7 +29,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "65.2 g",
         "bg": "#e4a910",
         "description": "Primarily healthy polyunsaturated fatty acids, including Omega-3s."
@@ -103,7 +103,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 g",
         "bg": "#e4a910",
         "description": "Contains negligible amounts of fat."
@@ -178,7 +178,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.5 g",
         "bg": "#e4a910",
         "description": "Minimal fat content, making garlic a diet-friendly food."
@@ -262,7 +262,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "14.7 grams",
         "bg": "#e4a910",
         "description": "An exceptional matrix of heart-healthy fats, overwhelmingly dominated by oleic acid, which maximizes fat-soluble nutrient delivery."
@@ -370,7 +370,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "5.0 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, featuring a balanced profile of monounsaturated, polyunsaturated, and essential saturated fatty acids."
@@ -486,7 +486,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, pairing bell peppers with healthy dietary lipids (like olive oil) drastically boosts fat-soluble carotenoid absorption."
@@ -594,7 +594,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, cooking or serving it with a splash of healthy lipids drastically increases the absorption of its fat-soluble vitamins."
@@ -702,7 +702,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Negligible; mostly composed of essential polyunsaturated fatty acids."
@@ -817,7 +817,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "1.2 grams",
         "bg": "#e4a910",
         "description": "Naturally very low in fat, containing trace heart-healthy monounsaturated and polyunsaturated fatty acids within the grain germ."
@@ -925,7 +925,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "4.3 grams",
         "bg": "#e4a910",
         "description": "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
@@ -1033,7 +1033,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "4.8 grams",
         "bg": "#e4a910",
         "description": "Includes healthy monounsaturated and polyunsaturated fats, alongside essential fatty acids, vital for hormone production and absorbing fat-soluble vitamins."
@@ -1149,7 +1149,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "13.0 grams",
         "bg": "#e4a910",
         "description": "Rich in vital polyunsaturated fats, specifically the anti-inflammatory omega-3 fatty acids EPA and DHA."
@@ -1257,7 +1257,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.5 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, containing only trace healthy essential fatty acids embedded within its microscopic black edible seeds."
@@ -1365,7 +1365,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, containing only trace levels of healthy unsaturated fatty acids and absolutely zero cholesterol."
@@ -1473,7 +1473,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an excellent base for heart-healthy and low-fat dietary regimes."
@@ -1581,7 +1581,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "100 grams",
         "bg": "#e4a910",
         "description": "A 100% pure lipid matrix, loaded with polyunsaturated and monounsaturated fatty acids that act as premium cellular structural supports."
@@ -1689,7 +1689,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, though pairing spinach with healthy dietary lipids dramatically enhances the absorption of its fat-soluble vitamins."
@@ -1797,7 +1797,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
@@ -1905,7 +1905,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "100 grams",
         "bg": "#e4a910",
         "description": "100% pure dietary lipid matrix, primarily composed of unsaturated fatty acids (oleic and linoleic) that act as essential vehicle carriers for fat-soluble vitamins."
@@ -2013,7 +2013,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "51.5 grams",
         "bg": "#e4a910",
         "description": "Primarily composed of heart-healthy polyunsaturated and monounsaturated fatty acids, essential for optimal hormone production and nutrient transport."
@@ -2121,7 +2121,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, pairing it with clean dietary lipids like olive oil drastically elevates fat-soluble nutrient assimilation."
@@ -2229,7 +2229,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free; however, consuming tomatoes alongside healthy dietary lipids drastically boosts carotenoid absorption."
@@ -2337,7 +2337,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "3.3 grams",
         "bg": "#e4a910",
         "description": "Composed of complex saturated, monounsaturated, and natural trans-fats (CLA) that serve as critical building blocks for cellular membranes and hormone pathways."
@@ -2444,7 +2444,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "49.9 grams",
         "bg": "#e4a910",
         "description": "Dominated by heart-healthy monounsaturated oleic acid, which serves as a highly efficient transport vehicle for fat-soluble vitamins."
@@ -2552,7 +2552,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "75.8 grams",
         "bg": "#e4a910",
         "description": "An unmatched, rich lipid matrix composed almost entirely of premium monounsaturated fatty acids that optimize vascular and neurological health."
@@ -2660,7 +2660,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "49.2 grams",
         "bg": "#e4a910",
         "description": "Dominated by oleic acid (monounsaturated) and linoleic acid, providing structural lipids that preserve cellular membrane flexibility and drive fat-soluble absorption."
@@ -2768,7 +2768,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, keeping gastric clearance times exceptionally quick and enabling rapid carbohydrate absorption paths."
@@ -2876,7 +2876,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an excellent base food for keeping total dietary lipid parameters low while maximizing carbohydrate refueling."
@@ -2984,7 +2984,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, allowing for swift gastric transit while creating an optimal base to pair with healthy external lipids for maximum nutrient absorption."
@@ -3092,7 +3092,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, ensuring exceptionally rapid gastric clearance and immediate utilization of its hydrating micronutrient network."
@@ -3200,7 +3200,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "3.1 grams",
         "bg": "#e4a910",
         "description": "An incredibly lean lipid profile with minimal saturated fat, providing just enough structural fat to efficiently transport its rich fat-soluble vitamin stores."
@@ -3308,7 +3308,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "1.8 grams",
         "bg": "#e4a910",
         "description": "Extremely low in total lipids, but rich in vital Omega-3 polyunsaturated fatty acids (EPA and DHA) that safeguard vascular and neurological tissues."
@@ -3416,7 +3416,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "10.4 grams",
         "bg": "#e4a910",
         "description": "Dominated by highly fluid monounsaturated fats and essential polyunsaturated Omega-3 fatty acids that optimize vascular linings and brain cell structures."
@@ -3524,7 +3524,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "2.6 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, consisting primarily of healthy polyunsaturated and monounsaturated fatty acids that preserve cellular membrane flexibility."
@@ -3632,7 +3632,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, ensuring incredibly rapid gastric clearance and immediate assimilation of its primary medicinal polysaccharides."
@@ -3740,7 +3740,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "1.0 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, containing high-quality bran oils like gamma-oryzanol that support healthy systemic lipid transport profiles."
@@ -3848,7 +3848,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "6.8 grams",
         "bg": "#e4a910",
         "description": "Low in total lipids, consisting of a balanced mix of heart-healthy monounsaturated oleic acid and necessary saturated structural fats."
@@ -3956,7 +3956,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.6 grams",
         "bg": "#e4a910",
         "description": "Extremely low in total lipids, yet providing vital traces of long-chain Omega-3 polyunsaturated fatty acids (EPA and DHA) that safeguard cell membrane integrity."
@@ -4064,7 +4064,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "9.0 grams",
         "bg": "#e4a910",
         "description": "Low in saturated fat and dominated by essential polyunsaturated linoleic and alpha-linolenic acids, preserving smooth cellular membrane flexibility."
@@ -4172,7 +4172,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, keeping gastric clearance times exceptionally quick and enabling efficient utilization of its core micronutrient network."
@@ -4280,7 +4280,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.5 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, keeping global dietary lipid parameters strictly low while encouraging rapid gastric clearance into the lower digestive tract."
@@ -4388,7 +4388,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "3.6 grams",
         "bg": "#e4a910",
         "description": "An incredibly lean lipid profile with minimal saturated fat, providing just enough essential structural lipids to maintain healthy cellular membrane frameworks."
@@ -4496,7 +4496,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "1.9 grams",
         "bg": "#e4a910",
         "description": "A low-density lipid profile containing valuable short- and medium-chain fatty acids, plus conjugated linoleic acid (CLA) that supports baseline metabolic parameters."
@@ -4604,7 +4604,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, enabling rapid gastric clearance and immediate assimilation of its primary water-soluble vitamins and active phytonutrients."
@@ -4712,7 +4712,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually fat-free, ensuring exceptionally rapid gastric transit and prompt assimilation of its foundational antioxidant and phytonutrient networks."
@@ -4820,7 +4820,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.6 grams",
         "bg": "#e4a910",
         "description": "Extremely low in lipids, yet containing crucial trace thylakoid membrane fatty acids (including alpha-linolenic acid) that support the assimilation of its fat-soluble vitamins."
@@ -4928,7 +4928,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "100.0 grams",
         "bg": "#e4a910",
         "description": "A premier lipid matrix dominated by essential polyunsaturated linoleic acid (Omega-6) and monounsaturated oleic acid to keep cell membranes fluid."
@@ -5036,7 +5036,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "100.0 grams",
         "bg": "#e4a910",
         "description": "An elite marine lipid matrix heavily dominated by vital, long-chain polyunsaturated omega-3 fatty acids that maintain healthy systemic membrane fluidity."
@@ -5136,7 +5136,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.5 grams",
         "bg": "#e4a910",
         "description": "Virtually lipid-free, keeping global dietary fat parameters strictly low while maximizing the immediate absorption of water-soluble antioxidants."
@@ -5244,7 +5244,7 @@
       {
         "id": "fat",
         "name": "Total Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 grams",
         "bg": "#e4a910",
         "description": "Virtually lipid-free, keeping global dietary fat parameters strictly low while encouraging rapid absorption of its primary water-soluble antioxidants."
@@ -5352,7 +5352,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "45.3 g",
         "bg": "#e4a910",
         "description": "Mainly monounsaturated and polyunsaturated fatty acids."
@@ -5426,7 +5426,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 g",
         "bg": "#e4a910",
         "description": "Virtually fat-free."
@@ -5500,7 +5500,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.5 g",
         "bg": "#e4a910",
         "description": "Negligible fat content."
@@ -5574,7 +5574,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.7 g",
         "bg": "#e4a910",
         "description": "Minimal fat content."
@@ -5648,7 +5648,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Virtually fat-free."
@@ -5722,7 +5722,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "1.2 g",
         "bg": "#e4a910",
         "description": "Minimal fat content, primarily found in the seeds."
@@ -5796,7 +5796,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Contains virtually no fat."
@@ -5870,7 +5870,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 g",
         "bg": "#e4a910",
         "description": "Minimal amount of lipids, acting as carriers for fat-soluble vitamins (A, E, K)."
@@ -5978,7 +5978,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "6.9 g",
         "bg": "#e4a910",
         "description": "A source of healthy unsaturated fatty acids that support cellular membrane integrity."
@@ -6086,7 +6086,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "2.3 g",
         "bg": "#e4a910",
         "description": "Low lipid content, consisting primarily of unsaturated fatty acids."
@@ -6194,7 +6194,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 g",
         "bg": "#e4a910",
         "description": "Virtually zero lipids, supporting the overall dietary leanness of the product."
@@ -6302,7 +6302,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Virtually zero lipids, ensuring purity of metabolic energy exchange."
@@ -6410,7 +6410,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Minimal lipid content, facilitating digestion and absorption of the product."
@@ -6518,7 +6518,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 g",
         "bg": "#e4a910",
         "description": "Virtually zero lipids, supporting the dietary lightness of the product."
@@ -6626,7 +6626,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "2.5 g",
         "bg": "#e4a910",
         "description": "Dairy fats in emulsified form, necessary for the absorption of fat-soluble vitamins."
@@ -6734,7 +6734,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "25-35 g",
         "bg": "#e4a910",
         "description": "Animal-based fats, necessary for hormone synthesis and the absorption of fat-soluble vitamins."
@@ -6842,7 +6842,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 g",
         "bg": "#e4a910",
         "description": "Virtually zero lipids."
@@ -6950,7 +6950,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 g",
         "bg": "#e4a910",
         "description": "Minimal lipid content, contributing to the easy digestibility of the product."
@@ -7058,7 +7058,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "1.1 g",
         "bg": "#e4a910",
         "description": "Minimal lipid content, mainly represented by essential oil components."
@@ -7166,7 +7166,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.8 g",
         "bg": "#e4a910",
         "description": "Minimal amount of lipids, mainly as components of essential oils."
@@ -7274,7 +7274,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 g",
         "bg": "#e4a910",
         "description": "Minimal lipid content."
@@ -7382,7 +7382,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "3.5 g",
         "bg": "#e4a910",
         "description": "Low fat content, mainly unsaturated, which are part of the grain germ."
@@ -7490,7 +7490,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "2.5 g",
         "bg": "#e4a910",
         "description": "Minimal content of beneficial lipids from the grain germ."
@@ -7598,7 +7598,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Virtually zero fat content."
@@ -7706,7 +7706,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 g",
         "bg": "#e4a910",
         "description": "Virtually zero fat content."
@@ -7797,7 +7797,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -7888,7 +7888,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -7979,7 +7979,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8070,7 +8070,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8161,7 +8161,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 g",
         "bg": "#e4a910",
         "description": "Minimal lipid amount."
@@ -8252,7 +8252,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8334,7 +8334,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.4 g",
         "bg": "#e4a910",
         "description": "Minimal fat content."
@@ -8417,7 +8417,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.5 g",
         "bg": "#e4a910",
         "description": "Almost complete absence of fat."
@@ -8500,7 +8500,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.6 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8583,7 +8583,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "3.4 g",
         "bg": "#e4a910",
         "description": "Predominantly unsaturated fatty acids."
@@ -8732,7 +8732,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.1 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8815,7 +8815,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.3 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8898,7 +8898,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "0.2 g",
         "bg": "#e4a910",
         "description": "Practically absent."
@@ -8981,7 +8981,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "20 g",
         "bg": "#e4a910",
         "description": "Primary source of energy and fat-soluble vitamins."
@@ -9063,7 +9063,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "82.5 g",
         "bg": "#e4a910",
         "description": "Primary nutrient, including saturated fats."
@@ -9137,7 +9137,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "100 g",
         "bg": "#e4a910",
         "description": "Predominantly monounsaturated fatty acids."
@@ -9363,7 +9363,7 @@
       {
         "id": "fat",
         "name": "Fat",
-        "slug": "fat",
+        "slug": "fats",
         "amount": "40-45 g",
         "bg": "#e4a910",
         "description": "Predominantly beneficial saturated and monounsaturated fats."

@@ -87,6 +87,67 @@ const MainClient = () => {
           />
         </Link>
 
+        {/* FAVORITES */}
+
+        <div className={styles["choose-your-favorites"]}>
+          <h3>{t("chooseFavorites")}</h3>
+
+          <div className={styles["favorites-list"]}>
+            {FAVORITE_LINKS.map(({ key, href, className }) => {
+              const icon = FAVORITE_ICONS[key];
+
+              return (
+                <Link
+                  key={key}
+                  href={href}
+                  className={`${styles.favorite} ${styles["favorite-link"]} ${className}`}
+                >
+                  <Image
+                    src={icon.src}
+                    alt=""
+                    width={icon.width}
+                    height={icon.height}
+                  />
+
+                  {t(key)}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+
+    {/* MEASUREMENT UNITS */}
+
+        <section className={styles.unitsSection}>
+          <h3>{t("measurementUnits")}</h3>
+          
+          <div className={styles.unitCard}>
+            <strong>{t("unitMcgTitle")}</strong>
+            <p>{t("unitMcgDesc")}</p>
+          </div>
+
+          <div className={styles.unitCard}>
+            <strong>{t("unitMeTitle")}</strong>
+            <p>{t("unitMeDesc")}</p>
+          </div>
+
+          <div className={styles.unitCard}>
+            <strong>{t("unitMgTitle")}</strong>
+            <p>{t("unitMgDesc")}</p>
+          </div>
+
+          <div className={styles.unitCard}>
+            <strong>{t("unitGTitle")}</strong>
+            <p>{t("unitGDesc")}</p>
+          </div>
+
+          <div className={styles.unitCard}>
+            <strong>{t("unitDvTitle")}</strong>
+            <p>{t("unitDvDesc")}</p>
+          </div>
+        </section>
+        
+
         {/* NUTRITION STATISTICS */}
 
         <section className={styles.statsSection}>
@@ -268,34 +329,9 @@ const MainClient = () => {
           </div>
         </section>
 
-        {/* FAVORITES */}
+    
 
-        <div className={styles["choose-your-favorites"]}>
-          <h3>{t("chooseFavorites")}</h3>
-
-          <div className={styles["favorites-list"]}>
-            {FAVORITE_LINKS.map(({ key, href, className }) => {
-              const icon = FAVORITE_ICONS[key];
-
-              return (
-                <Link
-                  key={key}
-                  href={href}
-                  className={`${styles.favorite} ${styles["favorite-link"]} ${className}`}
-                >
-                  <Image
-                    src={icon.src}
-                    alt=""
-                    width={icon.width}
-                    height={icon.height}
-                  />
-
-                  {t(key)}
-                </Link>
-              );
-            })}
-          </div>
-        </div>
+        
       </div>
 
       <nav className={styles.navigation} aria-label="Main navigation">
