@@ -871,5 +871,14 @@
     "image": "/products/chocolate.png",
     "favorite": false,
     "link": "/productinfo/dark-chocolate"
+  },
+  {
+    "id": 99,
+    "name": "Мёд",
+    "category": "Сладости и снеки",
+    "calories": 304,
+    "image": "/products/honey.png",
+    "favorite": false,
+    "link": "/productinfo/honey"
   }
 ]

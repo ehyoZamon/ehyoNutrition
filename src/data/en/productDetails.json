@@ -9407,5 +9407,56 @@
       "<b>Caffeine Content:</b> Consider the total daily caffeine dose if you are sensitive to stimulants.",
       "<b>Oxalates:</b> Contains oxalates, which requires caution if you are prone to kidney stones."
     ]
+  },
+  "honey": {
+    "slug": "honey",
+    "name": "Honey",
+    "category": "Sweets / Superfood",
+    "image": "/productinfo/honey.png",
+    "imageAlt": "jar of natural honey",
+    "description": "Honey is a natural product produced by bees from plant nectar. It is rich in enzymes, antioxidants, and natural sugars, acting as a natural energy booster and antiseptic.",
+    "macroTitle": "Macronutrients (per 100g)",
+    "macroIntro": "A product with a high concentration of easily digestible carbohydrates.",
+    "microIntro": "Contains trace amounts of B vitamins, Vitamin C, and minerals.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "300-330 kcal",
+        "bg": "#15837c",
+        "description": "High-energy carbohydrate product."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "80-82 g",
+        "bg": "#e4a910",
+        "description": "Primarily composed of fructose and glucose."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "phenols",
+        "slug": "antioxidants",
+        "name": "Phenolic compounds",
+        "amount": "Moderate concentration",
+        "bg": "#f5722c",
+        "description": "Natural antioxidants with anti-inflammatory effects."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Antiseptic effect:</b> Honey possesses significant antibacterial properties.",
+      "<b>Immune support:</b> Assists the body in fighting common colds and infections.",
+      "<b>Energy source:</b> Quickly replenishes glycogen stores, beneficial for physical exertion.",
+      "<b>Soothing effect:</b> A traditional remedy for relieving coughs and improving sleep quality."
+    ],
+    "precautionsIntro": "Honey is a potent allergen and a source of simple sugars, therefore it is important to:",
+    "precautions": [
+      "<b>Allergies:</b> Risk of allergic reactions to bee pollen.",
+      "<b>Diabetes:</b> A high glycemic index requires caution for those with metabolic disorders.",
+      "<b>Botulism:</b> Honey should never be given to infants under 1 year of age."
+    ]
   }
 }
