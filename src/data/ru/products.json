@@ -880,5 +880,104 @@
     "image": "/products/honey.png",
     "favorite": false,
     "link": "/productinfo/honey"
+  },
+  {
+    "id": 100,
+    "name": "Оливки",
+    "category": "Фрукты и ягоды",
+    "calories": 115,
+    "image": "/products/olives.png",
+    "favorite": false,
+    "link": "/productinfo/olives"
+  },
+  {
+    "id": 101,
+    "name": "Маш",
+    "category": "Бобовые",
+    "calories": 347,
+    "image": "/products/mung-bean.png",
+    "favorite": false,
+    "link": "/productinfo/mung-bean"
+  },
+  {
+    "id": 102,
+    "name": "Соль",
+    "category": "Травы и специи",
+    "calories": 0,
+    "image": "/products/salt.png",
+    "favorite": false,
+    "link": "/productinfo/salt"
+  },
+  {
+    "id": 103,
+    "name": "Халва",
+    "category": "Сладости и снеки",
+    "calories": 516,
+    "image": "/products/halva.png",
+    "favorite": false,
+    "link": "/productinfo/halva"
+  },
+  {
+    "id": 104,
+    "name": "Финики",
+    "category": "Фрукты и ягоды",
+    "calories": 282,
+    "image": "/products/dates.png",
+    "favorite": false,
+    "link": "/productinfo/dates"
+  },
+  {
+    "id": 105,
+    "name": "Чернослив",
+    "category": "Фрукты и ягоды",
+    "calories": 240,
+    "image": "/products/prunes.png",
+    "favorite": false,
+    "link": "/productinfo/prunes"
+  },
+  {
+    "id": 106,
+    "name": "Чёрный тмин",
+    "category": "Травы и специи",
+    "calories": 375,
+    "image": "/products/black-cumin.png",
+    "favorite": false,
+    "link": "/productinfo/black-cumin"
+  },
+  {
+    "id": 107,
+    "name": "Индейка",
+    "category": "Мясо",
+    "calories": 135,
+    "image": "/products/turkey.png",
+    "favorite": false,
+    "link": "/productinfo/turkey"
+  },
+  {
+    "id": 108,
+    "name": "Фундук",
+    "category": "Орехи и семена",
+    "calories": 628,
+    "image": "/products/hazelnut.png",
+    "favorite": false,
+    "link": "/productinfo/hazelnut"
+  },
+  {
+    "id": 109,
+    "name": "Сгущёнка",
+    "category": "Яйца и молочные продукты",
+    "calories": 321,
+    "image": "/products/condensed-milk.png",
+    "favorite": false,
+    "link": "/productinfo/condensed-milk"
+  },
+  {
+    "id": 110,
+    "name": "Перепелиное яйцо",
+    "category": "Яйца и молочные продукты",
+    "calories": 158,
+    "image": "/products/quail-egg.png",
+    "favorite": false,
+    "link": "/productinfo/quail-egg"
   }
 ]

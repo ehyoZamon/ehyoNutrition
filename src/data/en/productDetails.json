@@ -9458,5 +9458,987 @@
       "<b>Diabetes:</b> A high glycemic index requires caution for those with metabolic disorders.",
       "<b>Botulism:</b> Honey should never be given to infants under 1 year of age."
     ]
+  },
+  "olives": {
+    "slug": "olives",
+    "name": "Olives",
+    "category": "Vegetables / Superfood",
+    "image": "/productinfo/olives.png",
+    "imageAlt": "olives in a bowl",
+    "description": "Olives are the fruit of the olive tree, rich in monounsaturated fatty acids and vitamin E. They are a key component of the Mediterranean diet, known for supporting heart health.",
+    "macroTitle": "Macronutrients (per 100g)",
+    "macroIntro": "A product high in healthy plant-based fats.",
+    "microIntro": "An excellent source of vitamin E and polyphenols.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "115-150 kcal",
+        "bg": "#15837c",
+        "description": "Moderate calorie content due to fat content."
+      },
+      {
+        "id": "fat",
+        "name": "Fats",
+        "slug": "fats",
+        "amount": "10-15 g",
+        "bg": "#e4a910",
+        "description": "Primarily oleic acid (omega-9)."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "3-6 g",
+        "bg": "#15837c",
+        "description": "Mostly dietary fiber."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitamin-e",
+        "slug": "vitamins",
+        "name": "Vitamin E",
+        "amount": "15-20% DV",
+        "bg": "#15837c",
+        "description": "A powerful antioxidant for cellular protection."
+      },
+      {
+        "id": "polyphenols",
+        "slug": "antioxidants",
+        "name": "Polyphenols",
+        "amount": "High concentration",
+        "bg": "#f5722c",
+        "description": "Oleuropein and other compounds for vascular health."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Heart Health:</b> Oleic acid helps lower levels of 'bad' cholesterol.",
+      "<b>Antioxidant activity:</b> Protects body cells from oxidative stress.",
+      "<b>Skin health:</b> Vitamin E contributes to maintaining skin elasticity.",
+      "<b>Anti-inflammatory effect:</b> Contains compounds that help fight inflammation."
+    ],
+    "precautionsIntro": "Olives undergo a curing process, so it is important to consider:",
+    "precautions": [
+      "<b>Salt:</b> High sodium content due to brining, which requires moderation for those with hypertension.",
+      "<b>Individual reactions:</b> Rare cases of intolerance to ingredients in the brine."
+    ]
+  },
+  "mung-bean": {
+    "slug": "mung-bean",
+    "name": "Mung Bean",
+    "category": "Legumes",
+    "image": "/productinfo/mung-bean.png",
+    "imageAlt": "dry mung beans",
+    "description": "Mung beans are small green beans that possess high nutritional value and excellent digestibility. They are a valuable source of plant-based protein and antioxidants, and are generally easier on the digestive system than many other types of legumes.",
+    "macroTitle": "Macro Nutrients (per 100g, cooked product)",
+    "macroIntro": "Mung beans are characterized by a balanced composition of proteins and complex carbohydrates, providing prolonged satiety.",
+    "microIntro": "The product is rich in important minerals, including manganese, magnesium, and folic acid.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "105 kcal",
+        "bg": "#15837c",
+        "description": "A light and nutritious energy source."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "7.0 g",
+        "bg": "#f5722c",
+        "description": "Plant protein essential for tissue repair."
+      },
+      {
+        "id": "fat",
+        "name": "Fat",
+        "slug": "fats",
+        "amount": "0.4 g",
+        "bg": "#e4a910",
+        "description": "Minimal fat content."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "19.2 g",
+        "bg": "#15837c",
+        "description": "Complex carbohydrates for stable blood sugar levels."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.3 mg / 15% DV",
+        "bg": "#15837c",
+        "description": "Important for metabolism and bone health."
+      },
+      {
+        "id": "folate",
+        "slug": "folate",
+        "name": "Folate (B9)",
+        "amount": "62 mcg / 16% DV",
+        "bg": "#f5722c",
+        "description": "Essential for cell renewal and hematopoiesis."
+      },
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "7.6 g",
+        "bg": "#66ab63",
+        "description": "Supports GI tract health and helps normalize cholesterol levels."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Digestive Ease:</b> Contains fewer oligosaccharides than other legumes, making it less likely to cause bloating.",
+      "<b>Heart Support:</b> Helps lower levels of 'bad' cholesterol.",
+      "<b>Antioxidant Effect:</b> High phenolic content protects cells from damage.",
+      "<b>Blood Sugar Regulation:</b> A low glycemic index prevents glucose spikes."
+    ],
+    "precautionsIntro": "Although mung beans are easier to digest than others, keep in mind:",
+    "precautions": [
+      "<b>Individual Intolerance:</b> Allergic reactions are possible, though rare.",
+      "<b>Processing:</b> Like all legumes, they require rinsing and cooking to neutralize natural anti-nutrients.",
+      "<b>Dietary Restrictions:</b> If you have severe GI tract conditions in an acute phase, consult with a doctor."
+    ]
+  },
+  "salt": {
+    "slug": "salt",
+    "name": "Salt",
+    "category": "Spices / Minerals",
+    "image": "/productinfo/salt.png",
+    "imageAlt": "crystals of table salt",
+    "description": "Table salt (sodium chloride) is an essential electrolyte that plays a critical role in maintaining fluid balance, nerve conduction, and muscle contraction.",
+    "macroTitle": "Mineral composition (per 100g)",
+    "macroIntro": "The primary source of sodium and chloride in the human diet.",
+    "microIntro": "Unrefined varieties may contain trace amounts of other minerals.",
+    "macroNutrients": [
+      {
+        "id": "sodium",
+        "name": "Sodium",
+        "slug": "sodium",
+        "amount": "39,000 mg",
+        "bg": "#15837c",
+        "description": "Key electrolyte for blood pressure regulation."
+      },
+      {
+        "id": "chloride",
+        "name": "Chloride",
+        "slug": "chloride",
+        "amount": "60,000 mg",
+        "bg": "#e4a910",
+        "description": "Essential for the production of gastric acid."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "trace-minerals",
+        "slug": "minerals",
+        "name": "Trace Minerals",
+        "amount": "Trace",
+        "bg": "#66ab63",
+        "description": "Iodized salt is additionally fortified with iodine."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Fluid balance:</b> Regulates osmotic pressure within body cells.",
+      "<b>Nervous system:</b> Necessary for the transmission of nerve impulses.",
+      "<b>Muscle function:</b> Involved in the processes of muscle contraction and relaxation.",
+      "<b>Digestion:</b> Maintains the necessary stomach acidity for protein digestion."
+    ],
+    "precautionsIntro": "Excessive salt intake is associated with health risks:",
+    "precautions": [
+      "<b>Hypertension:</b> Excessive sodium retains water and raises blood pressure.",
+      "<b>Edema:</b> High salt intake contributes to fluid retention in body tissues.",
+      "<b>Kidneys:</b> High consumption increases the burden on the excretory system."
+    ]
+  },
+  "halva": {
+    "slug": "halva",
+    "name": "Halva",
+    "category": "Sweets / Superfood",
+    "image": "/productinfo/halva.png",
+    "imageAlt": "a piece of sunflower halva",
+    "description": "Halva is a traditional Oriental delicacy made from oilseeds (sunflower, sesame) or nuts and a caramel mass. It is a concentrated source of plant-based fats, vitamins, and energy.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "A product with very high energy density due to the content of high-quality fats.",
+    "microIntro": "Rich in Vitamin E, B vitamins, and essential minerals (magnesium, calcium, iron).",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "500-530 kcal",
+        "bg": "#15837c",
+        "description": "High-calorie product for rapid energy replenishment."
+      },
+      {
+        "id": "fat",
+        "name": "Fats",
+        "slug": "fats",
+        "amount": "30-35 g",
+        "bg": "#e4a910",
+        "description": "Predominantly unsaturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "45-50 g",
+        "bg": "#15837c",
+        "description": "A combination of simple sugars and complex seed carbohydrates."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "vitamin-e",
+        "slug": "vitamins",
+        "name": "Vitamin E",
+        "amount": "High content",
+        "bg": "#15837c",
+        "description": "A powerful antioxidant that supports skin health."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "Moderate concentration",
+        "bg": "#f5722c",
+        "description": "Important for the nervous system and heart function."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Energy source:</b> Quickly restores strength during physical and mental exertion.",
+      "<b>Skin health:</b> High Vitamin E content promotes cell regeneration.",
+      "<b>Nervous system support:</b> The magnesium content helps manage stress.",
+      "<b>Digestibility:</b> Plant fats from seeds are easier for the body to assimilate than animal fats."
+    ],
+    "precautionsIntro": "Due to the high concentration of sugar and fat, moderation is important:",
+    "precautions": [
+      "<b>Portion control:</b> High caloric value requires limiting portions (20-30g per day recommended).",
+      "<b>Sugar:</b> Not recommended for those with diabetes due to the caramel mass content.",
+      "<b>Allergies:</b> May cause allergic reactions (especially sesame-based halva)."
+    ]
+  },
+  "dates": {
+    "slug": "dates",
+    "name": "Dates",
+    "category": "Dried Fruits / Superfood",
+    "image": "/productinfo/dates.png",
+    "imageAlt": "dried date palm fruits",
+    "description": "Dates are the fruit of the date palm, known for their high natural sweetness and rich fiber content. They are an excellent natural sugar substitute and a source of quick-acting carbohydrates.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "A product with high energy value due to its high natural sugar content.",
+    "microIntro": "Rich in potassium, copper, and Vitamin B6.",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "270-280 kcal",
+        "bg": "#15837c",
+        "description": "High-energy product."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "75 g",
+        "bg": "#e4a910",
+        "description": "Primarily fructose, glucose, and sucrose."
+      },
+      {
+        "id": "fiber",
+        "name": "Fiber",
+        "slug": "fiber",
+        "amount": "7-8 g",
+        "bg": "#15837c",
+        "description": "Important for normalizing bowel function."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "650-700 mg",
+        "bg": "#15837c",
+        "description": "Essential for heart and muscle health."
+      },
+      {
+        "id": "antioxidants",
+        "slug": "antioxidants",
+        "name": "Antioxidants",
+        "amount": "High concentration",
+        "bg": "#f5722c",
+        "description": "Flavonoids and carotenoids that protect cells."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Quick energy:</b> An ideal snack for restoring strength after a workout.",
+      "<b>Digestive support:</b> High fiber content helps combat constipation.",
+      "<b>Heart health:</b> Potassium helps normalize blood pressure.",
+      "<b>Natural sweetness:</b> A healthy alternative to confectionery with added sugars."
+    ],
+    "precautionsIntro": "Due to the high simple sugar content, caution is recommended:",
+    "precautions": [
+      "<b>Portion control:</b> High caloric density requires limiting consumption (3-5 pieces per day).",
+      "<b>Diabetes:</b> They have a high glycemic index, requiring blood sugar monitoring.",
+      "<b>Hygiene:</b> The surface of dried dates is sticky, so they must be thoroughly washed before eating."
+    ]
+  },
+  "prunes": {
+    "slug": "prunes",
+    "name": "Prunes",
+    "category": "Dried Fruits",
+    "image": "/productinfo/prunes.png",
+    "imageAlt": "prunes",
+    "description": "Prunes are dried plums renowned for their exceptional contributions to digestive health and skeletal integrity. Packed with concentrated dietary fiber, essential minerals like potassium, and vital bone-protecting vitamins, they serve as a potent, natural source of sustained energetic vitality.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "~240 kcal",
+        "bg": "#15837c",
+        "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "2.2 grams",
+        "bg": "#f5722c",
+        "description": "Provides modest amounts of plant-based amino acids, aiding in basic cellular maintenance and muscle retention."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "fats",
+        "amount": "0.4 grams",
+        "bg": "#e4a910",
+        "description": "Extremely low fat content, consisting primarily of trace, healthy unsaturated fatty acids."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "64.0 grams",
+        "bg": "#15837c",
+        "description": "A dense source of complex carbohydrates, natural fruit sugars (fructose and glucose), and unique sugar alcohols."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "7.1 g / 25% DV",
+        "bg": "#66ab63",
+        "description": "Crucial for optimal digestive regulation. Promotes gut motility, feeds beneficial microbiome strains, and slows glucose absorption."
+      },
+      {
+        "id": "vitamin-k",
+        "slug": "vitamin-k",
+        "name": "Vitamin K",
+        "amount": "59.5 mcg / 50% DV",
+        "bg": "#15837c",
+        "description": "An absolute powerhouse for bone density. Plays an indispensable role in activating proteins required for bone mineralization and optimal blood clotting function."
+      },
+      {
+        "id": "potassium",
+        "slug": "potassium",
+        "name": "Potassium",
+        "amount": "732 mg / 16% DV",
+        "bg": "#1a96cd",
+        "description": "A critical electrolyte that helps manage fluid balance, regulates heart rhythm, stabilizes blood pressure, and reduces stroke vulnerability."
+      },
+      {
+        "id": "copper",
+        "slug": "copper",
+        "name": "Copper",
+        "amount": "0.28 mg / 31% DV",
+        "bg": "#f5722c",
+        "description": "Essential micro-mineral that supports iron absorption, aids in red blood cell generation, and sustains healthy connective tissues."
+      },
+      {
+        "id": "manganese",
+        "slug": "manganese",
+        "name": "Manganese",
+        "amount": "0.3 mg / 13% DV",
+        "bg": "#e4a910",
+        "description": "Contributes significantly to bone matrix formation, carbohydrate metabolism, and active free-radical defense systems."
+      },
+      {
+        "id": "vitamin-b6",
+        "slug": "vitamin-b6",
+        "name": "Vitamin B6",
+        "amount": "0.2 mg / 12% DV",
+        "bg": "#1a96cd",
+        "description": "Supports neurotransmitter production, cognitive focus, and effective energy conversion from consumed macronutrients."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "41 mg / 10% DV",
+        "bg": "#66ab63",
+        "description": "Assists with over 300 biochemical pathways, including physical muscle relaxation, nerve signal transmissions, and cellular ATP energy synthesis."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Exceptional Digestive Support:</b> Prunes work naturally to relieve constipation due to their high fiber content paired with 14.7g of sorbitol—a sugar alcohol that draws moisture into the large intestine to smooth stool transit.",
+      "<b>Preserves & Enhances Bone Density:</b> Regular prune intake has been clinically demonstrated to prevent bone mineral loss and significantly decrease the structural risks of osteoporosis, primarily due to synergistic blends of Vitamin K, potassium, and boron.",
+      "<b>High Antioxidant Shielding:</b> Loaded with polyphenolic compounds, prunes effectively neutralize oxidative free radicals, helping to stifle chronic inflammation throughout the cardiovascular network.",
+      "<b>Aids Satiety & Weight Regulation:</b> Despite their rich sweetness, the high concentration of dietary fibers creates a lower glycemic impact, delaying hunger cues and helping stabilize blood sugar patterns.",
+      "<b>Cardiovascular Protection:</b> The rich reservoir of bioavailable potassium coupled with protective fiber targets the minimization of artery-hardening factors and helps keep blood pressure reading ranges optimal."
+    ],
+    "precautionsIntro": "Sorbitol Sensitivity: The presence of natural sorbitol can cause mild gastrointestinal distress, bloating, or loose stools if prunes are consumed excessively within a short timeframe. Introduce them gradually into your diet to assess tolerance.",
+    "precautions": [
+      "<b>Acrylamide Concentration:</b> Because they undergo a heat-based drying process, prunes contain trace amounts of acrylamide. While these levels are well within safe thresholds for human ingestion, moderate culinary consumption remains recommended.",
+      "<b>Caloric Density Considerations:</b> As with all dehydrated fruits, water removal intensifies sugar and caloric concentrations. Portion tracking is essential if managing precise weight loss or rigid diabetic nutritional frameworks.",
+      "<b>Sulfur Dioxide Preservation:</b> Certain commercially packed prunes utilize sulfites to retain texture and stave off spoilage. Individuals with documented sulfite hypersensitivities or asthma should carefully seek out 'organic' or 'sulfite-free' variations."
+    ]
+  },
+  "black-cumin": {
+    "slug": "black-cumin",
+    "name": "Black Cumin",
+    "category": "Spices & Herbs",
+    "image": "/productinfo/black-cumin.png",
+    "imageAlt": "black cumin",
+    "description": "Black seed (Nigella sativa) is a legendary medicinal spice traditionally known as the 'seed of blessing.' It is highly revered in modern nutrition for its exceptional concentrations of thymoquinone, powerful volatile oils, and essential fatty acids that support robust immune architecture.",
+    "macroTitle": "Macro Nutrients (per 100g)",
+    "macroIntro": "",
+    "microIntro": "",
+    "macroNutrients": [
+      {
+        "id": "calories",
+        "name": "Calories",
+        "slug": "",
+        "amount": "~345 kcal",
+        "bg": "#15837c",
+        "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+      },
+      {
+        "id": "protein",
+        "name": "Protein",
+        "slug": "protein",
+        "amount": "16.0 grams",
+        "bg": "#f5722c",
+        "description": "An impressively high plant-based protein profile for a spice, providing essential amino acids for tissue maintenance."
+      },
+      {
+        "id": "fat",
+        "name": "Total Fat",
+        "slug": "fats",
+        "amount": "15.0 grams",
+        "bg": "#e4a910",
+        "description": "Rich in healthy polyunsaturated and monounsaturated fatty acids, notably linoleic acid (Omega-6) and oleic acid (Omega-9)."
+      },
+      {
+        "id": "carbs",
+        "name": "Carbohydrates",
+        "slug": "carbohydrates",
+        "amount": "52.0 grams",
+        "bg": "#15837c",
+        "description": "Mainly composed of complex carbohydrates and a substantial matrix of non-digestible dietary fibers."
+      }
+    ],
+    "microNutrients": [
+      {
+        "id": "fiber",
+        "slug": "fiber",
+        "name": "Dietary Fiber",
+        "amount": "40.0 g / 143% DV",
+        "bg": "#66ab63",
+        "description": "An extraordinarily dense source of fiber that facilitates excellent gastrointestinal transit and acts as a robust prebiotic."
+      },
+      {
+        "id": "iron",
+        "slug": "iron",
+        "name": "Iron",
+        "amount": "18.5 mg / 103% DV",
+        "bg": "#f5722c",
+        "description": "Exceeds the daily value milestone. Crucial for red blood cell formation, cellular oxygenation, and preventing fatigue."
+      },
+      {
+        "id": "calcium",
+        "slug": "calcium",
+        "name": "Calcium",
+        "amount": "1196 mg / 92% DV",
+        "bg": "#15837c",
+        "description": "Vital for maintaining skeletal bone density, optimizing muscle contractions, and managing nerve signal transmissions."
+      },
+      {
+        "id": "zinc",
+        "slug": "zinc",
+        "name": "Zinc",
+        "amount": "6.0 mg / 55% DV",
+        "bg": "#e4a910",
+        "description": "An indispensable mineral for reinforcing immune cell defenses, accelerating wound healing, and supporting DNA synthesis."
+      },
+      {
+        "id": "magnesium",
+        "slug": "magnesium",
+        "name": "Magnesium",
+        "amount": "265 mg / 63% DV",
+        "bg": "#1a96cd",
+        "description": "Supports cellular energy ATP manufacturing, calms nervous system hyper-excitability, and regulates muscle health."
+      },
+      {
+        "id": "thymoquinone",
+        "slug": "thymoquinone",
+        "name": "Thymoquinone",
+        "amount": "Active Bio-Compound",
+        "bg": "#66ab63",
+        "description": "The star bioactive phytochemical in black seed. Possesses intense antioxidant, anti-inflammatory, and hepatoprotective properties."
+      }
+    ],
+    "healthBenefits": [
+      "<b>Potent Immune System Modulator:</b> Thymoquinone directly stimulates the activity of natural killer (NK) cells and macrophages, optimizing the body's baseline resistance against viral and bacterial threats.",
+      "<b>Powerful Bronchodilator & Respiratory Support:</b> Historically used for asthma and allergies. Its volatile oils exert a calming, anti-inflammatory effect on lung tissues, helping to relax bronchial smooth muscles.",
+      "<b>Supports Blood Sugar Regulation:</b> Clinical trials indicate that black seed assists in improving fasting blood glucose, reducing insulin resistance, and protecting pancreatic beta-cell functionality.",
+      "<b>Enhances Cardiovascular & Lipid Profiles:</b> Helps decrease 'bad' LDL cholesterol and plasma triglycerides, contributing to cleaner arterial passage and optimal systemic blood pressure support.",
+      "<b>Robust Gastrointestinal Protection:</b> The seed oil exhibits noticeable anti-ulcer actions, shielding the gastric mucosa from damage, suppressing harmful bacteria like H. pylori, and mitigating severe bloating."
+    ],
+    "precautionsIntro": "Dosage and Concentrates: While black seeds are highly safe in standard culinary amounts, therapeutic concentrations (like pure black seed oil) are highly potent. Overconsumption can strain liver or kidney processing pathways.",
+    "precautions": [
+      "<b>Pregnancy Warnings:</b> Large medicinal doses of black seed are contraindicated during pregnancy as it can alter or stimulate uterine smooth muscle contractions.",
+      "<b>Bleeding & Surgery Risks:</b> Black seed can naturally slow down blood clotting mechanics. Discontinue therapeutic use at least two weeks prior to any scheduled surgical or dental procedures.",
+      "<b>Hypoglycemia Interventions:</b> Due to its natural capacity to drive blood sugar downward, individuals taking prescription antidiabetic medications must track glucose closely to avert sudden hypoglycemic drops."
+    ]
+  },
+  "turkey": {
+  "slug": "turkey",
+  "name": "Turkey",
+  "category": "Meat & Poultry",
+  "image": "/productinfo/turkey.png",
+  "imageAlt": "turkey",
+  "description": "Turkey is an exceptional, lean whole-food protein source highly favored in sports and therapeutic nutrition. It stands out for its remarkably low saturated fat content, high bioavailability of essential amino acids, and rich concentration of mood-regulating tryptophan.",
+  "macroTitle": "Macro Nutrients (per 100g, skinless breast cooked)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~135 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "30.1 grams",
+      "bg": "#f5722c",
+      "description": "An incredibly dense source of complete, high-quality protein containing all essential amino acids necessary for optimal muscle retention and repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.7 grams",
+      "bg": "#e4a910",
+      "description": "Extremely lean when skinless, keeping saturated fat to an absolute minimum while offering trace essential lipids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Completely free of carbohydrates, making it ideal for blood sugar stabilization and low-glycemic or ketogenic dietary goals."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "31.0 mcg / 56% DV",
+      "bg": "#1a96cd",
+      "description": "A potent trace mineral and antioxidant that critical for activating thyroid hormones and neutralizing oxidative damage."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "9.8 mg / 61% DV",
+      "bg": "#f5722c",
+      "description": "Essential for converting macronutrients into functional ATP cellular energy and maintaining skin integrity and nervous system health."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6",
+      "amount": "0.8 mg / 47% DV",
+      "bg": "#e4a910",
+      "description": "Vital for neurotransmitter synthesis, cognitive cognitive function, and healthy red blood cell production."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "2.1 mg / 19% DV",
+      "bg": "#15837c",
+      "description": "Supports immune cellular defense mechanisms, accelerates wound healing, and plays a foundational role in DNA synthesis."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "220 mg / 22% DV",
+      "bg": "#1a96cd",
+      "description": "Works closely with calcium to build and support structural skeletal bone density and tooth enamel strength."
+    },
+    {
+      "id": "tryptophan",
+      "slug": "tryptophan",
+      "name": "Tryptophan",
+      "amount": "0.35 g",
+      "bg": "#66ab63",
+      "description": "An essential amino acid used by the brain to manufacture serotonin (the 'happy' neurotransmitter) and melatonin, promoting better sleep architectures."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Accelerates Muscle Development & Fat Loss:</b> Offering over 30g of protein per serving with almost zero fat, turkey induces high satiety levels, boosts thermogenesis, and optimally fuels lean muscle recovery.",
+    "<b>Enhances Mood and Sleep Architecture:</b> The rich reservoir of tryptophan, when combined with healthy dietary carbs in a meal, smoothly crosses the blood-brain barrier to synthesize serotonin, helping alleviate stress and improve sleep quality.",
+    "<b>Supports Thyroid Optimization:</b> High natural levels of selenium and zinc protect the thyroid gland from oxidative stress and aid the smooth conversion of thyroid hormones into their active forms.",
+    "<b>Reinforces Cardiovascular Integrity:</b> Due to its negligible saturated fat and sodium levels (when unprocessed), turkey breast fits perfectly into heart-healthy, low-cholesterol dietary strategies to maintain blood pressure profiles.",
+    "<b>Combats Chronic Fatigue:</b> The powerhouse combination of B-vitamins (B3 and B6) works aggressively within cellular pathways to streamline metabolic energy extraction from your daily food intake."
+  ],
+  "precautionsIntro": "Sodium and Processing Hazards: While fresh, whole turkey breast is incredibly healthy, commercially processed alternatives like turkey deli meats, ham, or bacon are highly loaded with added sodium, nitrates, and chemical preservatives.",
+  "precautions": [
+    "<b>High Purine Concentration:</b> Turkey contains moderate-to-high levels of purines, which break down into uric acid. Individuals managing gout or prone to uric acid kidney stones should monitor their total portion consumption.",
+    "<b>Hidden Allergens in Pre-Basted Birds:</b> Many commercially frozen whole turkeys are injected with artificial brines, flavor enhancers, or hidden gluten to retain moisture. Always read packaging labels closely if you have celiac disease or food sensitivities.",
+    "<b>Proper Internal Cooking Safeguards:</b> Like all poultry, turkey carries risk of Campylobacter or Salmonella colonization. Always cook turkey until it reaches a safe internal target temperature of 74°C (165°F) to eliminate bacterial hazards."
+  ]
+  },
+  "hazelnut": {
+  "slug": "hazelnut",
+  "name": "Hazelnut",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/hazelnut.png",
+  "imageAlt": "hazelnut",
+  "description": "Hazelnut (filbert) is a nutrient-dense whole food celebrated for its exceptional brain-boosting capabilities and cardioprotective properties. Rich in monounsaturated fats, powerful vitamin E antioxidants, and structural minerals, it serves as an elite fuel source for metabolic longevity.",
+  "macroTitle": "Macro Nutrients (per 100g, raw kernels)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~628 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "15.0 grams",
+      "bg": "#f5722c",
+      "description": "A valuable plant-based protein profile packed with essential amino acids like arginine to support tissue preservation and vascular health."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "60.8 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by healthy monounsaturated fatty acids (oleic acid), which are crucial for optimal cellular membrane structure and reducing systemic inflammation."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "16.7 grams",
+      "bg": "#15837c",
+      "description": "Consists predominantly of complex low-glycemic carbohydrates combined with a dense, non-digestible fiber matrix."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-e",
+      "slug": "vitamin-e",
+      "name": "Vitamin E",
+      "amount": "15.0 mg / 100% DV",
+      "bg": "#66ab63",
+      "description": "Hits the full daily milestone. A premier lipid-soluble antioxidant that shields neural cells from oxidative degradation and delays cellular aging."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "6.2 mg / 270% DV",
+      "bg": "#f5722c",
+      "description": "Massively exceeds the baseline daily value. An essential cofactor for bone mineral matrix formation and the activation of endogenous antioxidant enzymes."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "1.7 mg / 190% DV",
+      "bg": "#e4a910",
+      "description": "A vital micro-mineral required for maintaining iron homeostatic kinetics, building red blood cells, and supporting collagen cross-linking."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "163 mg / 41% DV",
+      "bg": "#1a96cd",
+      "description": "Supports ATP cellular energy manufacturing, mitigates nervous system hyper-excitability, and relaxes smooth blood vessel walls."
+    },
+    {
+      "id": "thiamine",
+      "slug": "thiamine",
+      "name": "Vitamin B1 (Thiamine)",
+      "amount": "0.6 mg / 50% DV",
+      "bg": "#15837c",
+      "description": "Plays a vital role in glucose metabolic pathways, directly converting dietary carbohydrates into active fuel for brain and nerve fibers."
+    },
+    {
+      "id": "fiber",
+      "slug": "fiber",
+      "name": "Dietary Fiber",
+      "amount": "9.7 g / 35% DV",
+      "bg": "#66ab63",
+      "description": "A superb fiber payload that actively optimizes gastrointestinal motility, improves satiety curves, and stabilizes postprandial glucose levels."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuroprotective & Cognitive Support:</b> The synergistic combination of 100% DV Vitamin E, thiamine, and healthy fats helps preserve cognitive capacities, limits neurodegenerative acceleration, and optimizes neurotransmitter performance.",
+    "<b>Robust Cardiovascular Preservation:</b> High concentrations of oleic acid paired with dietary fiber target the reduction of circulating 'bad' LDL cholesterol while maintaining healthy HDL levels, optimizing arterial elasticity.",
+    "<b>Potent Antioxidant System Activation:</b> With staggering amounts of manganese and polyphenolic compounds, hazelnuts rapidly supercharge superoxide dismutase (SOD) enzymes to aggressively neutralize free radicals.",
+    "<b>Streamlines Blood Sugar Control:</b> Arginine, healthy lipids, and low-glycemic fiber work in unison to improve cellular insulin sensitivity, making hazelnuts a highly protective food choice for metabolic health.",
+    "<b>Reinforces Bone & Tissue Matrix:</b> Massive natural reserves of manganese and copper cooperate with magnesium to fortify baseline bone mineral density and enhance the tensile strength of skeletal frameworks."
+  ],
+  "precautionsIntro": "Caloric Load and Oxidation: Because hazelnuts are intensely concentrated in healthy fats and calories, mindful serving control is required to stay within specific metabolic targets. Raw nuts can spoil if exposed to heat and light.",
+  "precautions": [
+    "<b>Severe Allergenic Potential:</b> Tree nut allergies are highly potent and potentially life-threatening. Individuals with documented hazelnut or birch pollen cross-reactivity must completely avoid exposure.",
+    "<b>Phytic Acid Mineral Binding:</b> Raw hazelnuts contain phytic acid, which can partially inhibit the biological absorption of iron, zinc, and calcium. Activating or roasting the nuts can drastically mitigate this effect.",
+    "<b>Aflatoxin Contamination Risk:</b> Improper drying or storage in humid conditions can lead to Aspergillus mold proliferation, creating toxic aflatoxins. Always source from quality distributors and store in airtight, cool environments."
+  ]
+  },
+  "condensed-milk": {
+  "slug": "condensed-milk",
+  "name": "Sweetened Condensed Milk",
+  "category": "Dairy Products",
+  "image": "/productinfo/condensed-milk.png",
+  "imageAlt": "sweetened condensed milk",
+  "description": "Sweetened condensed milk is a highly concentrated dairy product made by evaporating water from whole milk and adding pure sugar. Renowned for its rich texture and long shelf life, it serves as an intense source of rapid metabolic energy and bioavailable milk minerals.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~321 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "7.9 grams",
+      "bg": "#f5722c",
+      "description": "Contains high-quality dairy proteins, including casein and whey, providing essential amino acids for cellular structures."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "8.7 grams",
+      "bg": "#e4a910",
+      "description": "Derived directly from milk fat, supplying saturated fatty acids and fat-soluble nutrients."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "54.4 grams",
+      "bg": "#15837c",
+      "description": "Extremely high concentration, dominated by added sucrose along with natural milk sugars (lactose)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "284 mg / 28% DV",
+      "bg": "#15837c",
+      "description": "A highly bioavailable dairy mineral essential for maintaining structural skeletal bone density and tooth enamel strength."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "253 mg / 25% DV",
+      "bg": "#1a96cd",
+      "description": "Works synergistically with calcium to support the skeletal matrix and plays a key role in cellular ATP energy conversion."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "371 mg / 8% DV",
+      "bg": "#e4a910",
+      "description": "An important intracellular electrolyte that assists in fluid balance maintenance and healthy muscle contractions."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "0.5 mcg / 21% DV",
+      "bg": "#66ab63",
+      "description": "Vital for maintaining healthy nerve cells, supporting red blood cell formation, and facilitating DNA synthesis."
+    },
+    {
+      "id": "riboflavin",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.4 mg / 31% DV",
+      "bg": "#f5722c",
+      "description": "Essential for carbohydrate metabolism, protecting vision health, and assisting in cellular energy production."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Glycogen & Energy Replenishment:</b> The massive concentration of simple sugars provides immediate fuel, making it a highly effective choice for quick calorie replenishment after intense physical exhaustion.",
+    "<b>Supports Skeletal Matrix:</b> Packed with natural dairy calcium and phosphorus, it contributes directly to the maintenance of bone mineral density and tooth preservation.",
+    "<b>High Caloric and Nutrient Density:</b> Offers a concentrated portion of dairy vitamins and proteins in a small volume, beneficial for individuals needing to meet high caloric requirements or manage weight-gain regimens.",
+    "<b>Promotes Red Blood Cell Synthesis:</b> Bioavailable Vitamin B12 helps support healthy erythropoiesis (red blood cell production), preventing megaloblastic fatigue.",
+    "<b>Excellent Metabolic Carrier:</b> The presence of bioavailable fats ensures smooth absorption of fat-soluble vitamins throughout the digestive tract."
+  ],
+  "precautionsIntro": "Sugar and Caloric Load: Due to the extreme concentration of added sucrose, regular or large-scale consumption can destabilize metabolic profiles. It should be treated strictly as an occasional treat rather than a daily nutritional source.",
+  "precautions": [
+    "<b>Severe Glycemic Fluctuations:</b> The exceptionally high glycemic index triggers rapid blood sugar and insulin spikes. Individuals managing Type 2 diabetes or insulin resistance must avoid consumption.",
+    "<b>Lactose Intolerance Reactivity:</b> Because it is concentrated milk, it contains highly dense amounts of lactose. Individuals with lactose hypersensitivity will experience notable digestive distress, gas, and bloating.",
+    "<b>Dental Caries Development Risk:</b> The sticky, highly sweetened nature of condensed milk allows it to easily adhere to tooth surfaces, rapidly accelerating bacterial plaque formation and enamel decay."
+  ]
+  },
+  "quail-egg": {
+  "slug": "quail-egg",
+  "name": "Quail Egg",
+  "category": "Dairy & Eggs",
+  "image": "/productinfo/quail-egg.png",
+  "imageAlt": "quail egg",
+  "description": "Quail eggs are premium, nutrient-dense whole foods that pack a significantly higher concentration of vitamins, minerals, and healthy fats per gram than standard chicken eggs. Revered for their high bioavailability, they provide elite support for immune modulation and neuro-cellular restoration.",
+  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~158 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.1 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding source of highly bioavailable, complete protein featuring a pristine balance of all essential amino acids for structural cellular repairs."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "11.1 grams",
+      "bg": "#e4a910",
+      "description": "Rich in essential mono- and polyunsaturated fatty acids, lecithin, and beneficial phospholipids crucial for neural signaling networks."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.4 grams",
+      "bg": "#15837c",
+      "description": "Contains a negligible carbohydrate load, ensuring an absolute zero-glycemic impact on stabilizing baseline blood sugar trends."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "choline",
+      "slug": "choline",
+      "name": "Choline",
+      "amount": "263 mg / 48% DV",
+      "bg": "#66ab63",
+      "description": "An elite brain food and cell-membrane precursor required for synthesizing acetylcholine, the primary neurotransmitter governing memory and focus."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "1.6 mcg / 66% DV",
+      "bg": "#1a96cd",
+      "description": "Supplies an exceptional natural yield. Essential for maintaining healthy neural myelination and preventing systemic fatigue by optimizing red blood cell production."
+    },
+    {
+      "id": "riboflavin",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.8 mg / 61% DV",
+      "bg": "#f5722c",
+      "description": "Crucial for streamlining carbohydrate and fatty acid energy extraction, maintaining vision pathways, and protecting cellular respiration structures."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "3.7 mg / 21% DV",
+      "bg": "#e4a910",
+      "description": "Contains nearly double the iron concentration found in standard chicken eggs, accelerating tissue oxygenation and metabolic energy synthesis."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A",
+      "amount": "156 mcg / 17% DV",
+      "bg": "#15837c",
+      "description": "Vital for maintaining retinal night vision mechanics, reinforcing skin architecture, and orchestrating immune cellular responses."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "32.0 mcg / 58% DV",
+      "bg": "#1a96cd",
+      "description": "A foundational trace mineral antioxidant that preserves thyroid cellular integrity and neutralizes circulating oxidative free-radical damage."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuro-Cognitive Optimization:</b> Dense concentrations of choline, phospholipids, and B-vitamins aggressively support mental processing speed, fortify long-term memory pathways, and optimize nervous system communication.",
+    "<b>Accelerated Hematopoiesis Support:</b> The superior concentration of organic iron paired with Vitamin B12 directly stimulates rapid red blood cell production, combating anemias and boosting functional oxygen transportation.",
+    "<b>Natural Anti-Allergic Properties:</b> Quail eggs are rich in ovomucoid proteins, a bioactive compound that acts as a natural antihistamine, helping to alleviate seasonal allergy symptoms and asthma flares.",
+    "<b>Immunomodulatory Reinforcement:</b> Packed with selenium and Vitamin A, they systematically elevate macrophage and white blood cell resistance against bacterial and viral exposures.",
+    "<b>Drives Cellular Tissue Repair:</b> The highly bioavailable amino acid matrix ensures rapid protein synthesis, accelerating muscle tissue recovery, wound healing, and metabolic homeostasis."
+  ],
+  "precautionsIntro": "Handling and Microbiological Safety: While quail eggs are remarkably resilient due to high lysozyme concentrations, proper sanitation protocols and culinary practices remain essential to mitigate food safety issues.",
+  "precautions": [
+    "<b>Salmonella Infection Safeguards:</b> Contrary to the popular culinary myth that quail eggs cannot harbor Salmonella due to body temperature, the risk still exists. Avoid raw consumption; ensure thorough boiling or cooking.",
+    "<b>Cholesterol Density Considerations:</b> Gram-for-gram, quail eggs contain a higher concentration of dietary cholesterol and saturated fat than chicken eggs. Individuals tracking hyper-responsive lipid profiles should manage overall intake volumes.",
+    "<b>Cross-Reactive Allergenic Triggers:</b> Children or adults with severe allergies to chicken egg whites may exhibit cross-reactivity to the matching proteins in quail eggs. Introduce them with careful clinical observation."
+  ]
   }
 }
