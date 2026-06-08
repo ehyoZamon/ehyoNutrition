@@ -979,5 +979,50 @@
     "image": "/products/quail-egg.png",
     "favorite": false,
     "link": "/productinfo/quail-egg"
+  },
+  {
+    "id": 111,
+    "name": "Арахисовая паста",
+    "category": "Орехи и семена",
+    "calories": 588,
+    "image": "/products/peanut-butter.png",
+    "favorite": false,
+    "link": "/productinfo/peanut-butter"
+  },
+  {
+    "id": 112,
+    "name": "Утиное мясо",
+    "category": "Мясо",
+    "calories": 337,
+    "image": "/products/duck-meat.png",
+    "favorite": false,
+    "link": "/productinfo/duck-meat"
+  },
+  {
+    "id": 113,
+    "name": "Утиное яйцо",
+    "category": "Яйца и молочные продукты",
+    "calories": 185,
+    "image": "/products/duck-egg.png",
+    "favorite": false,
+    "link": "/productinfo/duck-egg"
+  },
+  {
+    "id": 114,
+    "name": "Яйцо индейки",
+    "category": "Яйца и молочные продукты",
+    "calories": 171,
+    "image": "/products/turkey-egg.png",
+    "favorite": false,
+    "link": "/productinfo/turkey-egg"
+  },
+  {
+    "id": 115,
+    "name": "Гусиное яйцо",
+    "category": "Яйца и молочные продукты",
+    "calories": 185,
+    "image": "/products/goose-egg.png",
+    "favorite": false,
+    "link": "/productinfo/goose-egg"
   }
 ]

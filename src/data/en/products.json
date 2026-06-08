@@ -979,5 +979,50 @@
     "image": "/products/quail-egg.png",
     "favorite": false,
     "link": "/productinfo/quail-egg"
+  },
+  {
+    "id": 111,
+    "name": "Peanut Butter",
+    "category": "food/nuts and seeds",
+    "calories": 588,
+    "image": "/products/peanut-butter.png",
+    "favorite": false,
+    "link": "/productinfo/peanut-butter"
+  },
+  {
+    "id": 112,
+    "name": "Duck Meat",
+    "category": "food/meat",
+    "calories": 337,
+    "image": "/products/duck-meat.png",
+    "favorite": false,
+    "link": "/productinfo/duck-meat"
+  },
+  {
+    "id": 113,
+    "name": "Duck Egg",
+    "category": "food/eggs and dairy",
+    "calories": 185,
+    "image": "/products/duck-egg.png",
+    "favorite": false,
+    "link": "/productinfo/duck-egg"
+  },
+  {
+    "id": 114,
+    "name": "Turkey Egg",
+    "category": "food/eggs and dairy",
+    "calories": 171,
+    "image": "/products/turkey-egg.png",
+    "favorite": false,
+    "link": "/productinfo/turkey-egg"
+  },
+  {
+    "id": 115,
+    "name": "Goose Egg",
+    "category": "food/eggs and dairy",
+    "calories": 185,
+    "image": "/products/goose-egg.png",
+    "favorite": false,
+    "link": "/productinfo/goose-egg"
   }
 ]

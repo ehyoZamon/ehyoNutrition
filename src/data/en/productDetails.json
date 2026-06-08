@@ -10440,5 +10440,545 @@
     "<b>Cholesterol Density Considerations:</b> Gram-for-gram, quail eggs contain a higher concentration of dietary cholesterol and saturated fat than chicken eggs. Individuals tracking hyper-responsive lipid profiles should manage overall intake volumes.",
     "<b>Cross-Reactive Allergenic Triggers:</b> Children or adults with severe allergies to chicken egg whites may exhibit cross-reactivity to the matching proteins in quail eggs. Introduce them with careful clinical observation."
   ]
-  }
+  },
+  "peanut-butter": {
+  "slug": "peanut-butter",
+  "name": "Peanut Butter",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/peanut-butter.png",
+  "imageAlt": "peanut butter",
+  "description": "Peanut butter is an energy-dense whole food rich in monounsaturated fatty acids, plant-based proteins, and vital cellular antioxidants. Highly favored in athletic and metabolic nutrition, it delivers sustained, low-glycemic fuel while supporting cardiovascular health and metabolic satiety curves.",
+  "macroTitle": "Macro Nutrients (per 100g, 100% pure unsweetened)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~588 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "25.1 grams",
+      "bg": "#f5722c",
+      "description": "An exceptionally dense source of plant-based protein, rich in L-arginine, making it highly valuable for muscle preservation and vascular function."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "50.4 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by heart-healthy monounsaturated and polyunsaturated fats (primarily oleic and linoleic acids) that optimize lipid profiles."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "20.0 grams",
+      "bg": "#15837c",
+      "description": "Consists of complex, slow-digesting carbohydrates paired with a sturdy dietary fiber matrix."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "13.4 mg / 84% DV",
+      "bg": "#f5722c",
+      "description": "An outstanding concentration vital for converting dietary macromolecules into cellular energy (ATP) and repairing DNA structures."
+    },
+    {
+      "id": "vitamin-e",
+      "slug": "vitamin-e",
+      "name": "Vitamin E",
+      "amount": "9.0 mg / 60% DV",
+      "bg": "#66ab63",
+      "description": "A potent fat-soluble antioxidant that actively defends cellular membranes against oxidative stress and supports vascular endothelial health."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "154 mg / 39% DV",
+      "bg": "#1a96cd",
+      "description": "Essential for neuromodulation, steadying cardiac rhythms, and mediating enzymatic reactions linked to glucose regulation."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "358 mg / 36% DV",
+      "bg": "#15837c",
+      "description": "Works in tandem with calcium to maintain structural bone density and drives cellular energy storage systems."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6",
+      "amount": "0.5 mg / 29% DV",
+      "bg": "#e4a910",
+      "description": "Plays a core role in amino acid metabolism, red blood cell synthesis, and the production of neurotransmitters like serotonin."
+    },
+    {
+      "id": "fiber",
+      "slug": "fiber",
+      "name": "Dietary Fiber",
+      "amount": "6.0 g / 24% DV",
+      "bg": "#66ab63",
+      "description": "Optimizes gastrointestinal motility, slows the release of glucose into the bloodstream, and encourages healthy gut flora development."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Sustained Metabolic Energy & Satiety:</b> The synergistic combination of protein, fiber, and monounsaturated lipids delays gastric emptying, preventing blood sugar crashes and stabilizing appetite control.",
+    "<b>Cardiovascular Matrix Support:</b> High in oleic acid, pure peanut butter targets the improvement of the LDL-to-HDL ratio, reducing arterial plaque risks and supporting endothelial elasticity.",
+    "<b>Enhances Mitochondrial Energy Yield:</b> Massively rich in Niacin (B3) and Magnesium, it optimizes the biochemical pathways responsible for cellular respiration and systemic anti-fatigue mechanisms.",
+    "<b>Antioxidant Cellular Protection:</b> Delivers robust amounts of Vitamin E and polyphenols (including resveratrol) that combat systematic low-grade inflammation and oxidative cellular aging.",
+    "<b>Accelerates Muscle Recovery and Synthesis:</b> Providing over 25g of plant protein per 100g, it offers a dense amino acid reservoir that aids structural tissue repair and hypertrophic adaptations."
+  ],
+  "precautionsIntro": "Industrial Additives and Caloric Density: While pure, 100% peanut butter is remarkably healthy, commercial varieties frequently introduce hazardous hydrogenated trans-fats, palm oils, and refined sugars to prevent oil separation.",
+  "precautions": [
+    "<b>Severe Allergenic Threat:</b> Peanuts are among the most potent and widespread allergens. Individuals with diagnosed peanut hypersensitivity must avoid all contact, as it can trigger sudden, life-threatening anaphylaxis.",
+    "<b>Aflatoxin Mold Vulnerability:</b> Peanuts grow underground and are highly susceptible to contamination by Aspergillus molds, which produce carcinogenic aflatoxins. Always source from verified, high-quality manufacturers.",
+    "<b>Imbalanced Omega-6 to Omega-3 Ratio:</b> Peanut butter features an heavily skewed concentration of Omega-6 fatty acids. Overconsumption without adequate Omega-3 intake can shift the body toward a pro-inflammatory state."
+  ]
+  },
+  "duck-meat": {
+  "slug": "duck-meat",
+  "name": "Duck Meat",
+  "category": "Meat & Poultry",
+  "image": "/productinfo/duck-meat.png",
+  "imageAlt": "duck meat",
+  "description": "Duck meat is a premium, flavor-rich poultry that bridges the gap between white and red meat. Characterized by its dense dark muscle fibers, it offers exceptional biological yields of highly absorbable heme iron, monounsaturated lipids, and critical B-complex vitamins for optimizing energetic pathways and cellular vitality.",
+  "macroTitle": "Macro Nutrients (per 100g, raw meat without skin)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~135 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "18.3 grams",
+      "bg": "#f5722c",
+      "description": "A top-tier source of structural, complete animal protein containing a balanced ratio of all essential amino acids necessary for lean muscle retention and structural enzyme production."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "6.0 grams",
+      "bg": "#e4a910",
+      "description": "Skinless duck meat is surprisingly lean. Its fat profile is remarkably rich in monounsaturated oleic acid, resembling the healthy fats found in olive oil."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute zero carbohydrate footprint, facilitating an entirely flat glycemic response ideal for metabolic control."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "4.8 mg / 30% DV",
+      "bg": "#f5722c",
+      "description": "Plays a vital role in cellular respiration mechanics, lipid synthesis coordination, and repairing genetic DNA strands."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "14.0 mcg / 25% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace elemental antioxidant that actively neutralizes circulating free radicals and supports thyroid hormone conversion."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "2.4 mg / 13% DV",
+      "bg": "#e4a910",
+      "description": "Significantly higher concentrations than chicken or turkey. Highly bioavailable heme iron immediately facilitates optimal red blood cell synthesis and systemic oxygen kinetics."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "1.9 mg / 17% DV",
+      "bg": "#15837c",
+      "description": "A paramount cofactor for enzymatic processes driving systemic immune regulation, cellular mitosis, and natural testosterone synthesis."
+    },
+    {
+      "id": "vitamin-b5",
+      "slug": "vitamin-b5",
+      "name": "Vitamin B5 (Pantothenic Acid)",
+      "amount": "1.1 mg / 22% DV",
+      "bg": "#66ab63",
+      "description": "Crucial for synthesizing fatty acids, supporting adrenal cortex hormone production, and streamlining mitochondrial energy conversion."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "0.3 mcg / 13% DV",
+      "bg": "#1a96cd",
+      "description": "Essential for maintaining the biological integrity of neural myelination, protecting cognitive pathways, and preventing macrocytic anemic profiles."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Superior Hematopoiesis Support:</b> The abundant reservoir of highly bioavailable heme iron, working in synergy with Vitamin B12, dramatically optimizes hemoglobin production and combats tissue hypoxia.",
+    "<b>Mitochondrial Energy Acceleration:</b> High concentrations of Niacin (B3) and Pantothenic Acid (B5) streamline cellular ATP creation, reducing chronic fatigue and elevating systemic metabolic endurance.",
+    "<b>Cardiovascular-Friendly Lipid Balance:</b> When consumed skinless, the monounsaturated-heavy fatty acid composition (oleic acid) assists in maintaining favorable HDL-to-LDL ratios and protecting endothelial surfaces.",
+    "<b>Immunomodulatory Optimization:</b> Rich yields of Zinc and Selenium dynamically bolster cellular immunity, amplifying white blood cell efficiency against viral pathogens.",
+    "<b>Enhanced Cellular Tissue Repair:</b> The pristine, complete amino acid blueprint serves as premium structural building blocks, drastically speeding up muscle fiber recovery post-exertion."
+  ],
+  "precautionsIntro": "Preparation Variations and Saturated Fat: While skinless duck is lean and highly nutritious, leaving the skin intact dramatically increases the overall caloric density and saturated fat metrics, requiring intentional dietary calculation.",
+  "precautions": [
+    "<b>Extreme Caloric Surges with Skin:</b> Cooking duck with its fat-rich skin can more than double the total caloric and saturated fat payload, potentially conflicting with strict weight-management or cardiac protocols.",
+    "<b>Microbiological Pathogen Prevention:</b> Raw duck can harbor harmful pathogens like Campylobacter and Salmonella. It must always be stored meticulously and cooked to a safe core internal temperature of 74°C (165°F).",
+    "<b>Purine-Driven Uric Acid Accumulation:</b> Duck meat contains moderate-to-high purine configurations. Individuals predisposed to gout flare-ups or hyperuricemia must regulate portion sizes to avoid crystal precipitation in joints."
+  ]
+  },
+  "duck-egg": {
+  "slug": "duck-egg",
+  "name": "Duck Egg",
+  "category": "Dairy & Eggs",
+  "image": "/productinfo/duck-egg.png",
+  "imageAlt": "duck egg",
+  "description": "Duck eggs are premium, exceptionally rich whole foods featuring a larger yolk-to-white ratio than standard chicken eggs. This composition delivers an elite payload of fat-soluble vitamins, dense omega-3 fatty acids, and highly bioavailable proteins targeted for cellular membrane restoration and advanced neuro-cognitive performance.",
+  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~185 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "12.8 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding structural profile containing highly digestible, complete proteins rich in essential amino acids for tissue repair and enzymatic optimization."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "13.8 grams",
+      "bg": "#e4a910",
+      "description": "Concentrated in the large yolk, providing dense monounsaturated fats, essential phospholipids, and critical long-chain omega-3 fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.4 grams",
+      "bg": "#15837c",
+      "description": "Presents a negligible carbohydrate trace, guaranteeing a non-existent glycemic impact on daily insulin trends."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "5.4 mcg / 225% DV",
+      "bg": "#1a96cd",
+      "description": "Massively exceeds the daily threshold. A critical coordinator of red blood cell maturation, neural myelination preservation, and genomic stability."
+    },
+    {
+      "id": "choline",
+      "slug": "choline",
+      "name": "Choline",
+      "amount": "263 mg / 48% DV",
+      "bg": "#66ab63",
+      "description": "A foundational neural nutrient essential for structural cell-membrane synthesis and producing acetylcholine, the brain's primary memory neurotransmitter."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "36.4 mcg / 66% DV",
+      "bg": "#15837c",
+      "description": "A powerful trace mineral cofactor that directly fuels endogenous antioxidant defenses, protecting vascular and thyroid architectures."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A",
+      "amount": "269 mcg / 30% DV",
+      "bg": "#e4a910",
+      "description": "Abundant in the deep orange yolk, essential for maintaining optical dark adaptation, skin structural barrier integrity, and immune cascades."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "3.8 mg / 21% DV",
+      "bg": "#f5722c",
+      "description": "Provides superior concentration compared to chicken eggs, drastically improving functional systemic oxygen transport kinetics and mitochondrial energy output."
+    },
+    {
+      "id": "vitamin-d",
+      "slug": "vitamin-d",
+      "name": "Vitamin D",
+      "amount": "1.7 mcg / 9% DV",
+      "bg": "#1a96cd",
+      "description": "Naturally occurring fat-soluble vitamin required for regulating calcium homeostatic mechanics, skeletal fortification, and immune modulation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuro-Cognitive Supercharge:</b> Massive reserves of bioavailable Vitamin B12 and choline actively preserve neural fiber structural myelin, boost memory consolidation pathways, and decrease cognitive lag.",
+    "<b>Advanced Hematopoietic Kinetics:</b> High concentrations of organic iron operating in absolute synergy with mega-doses of B12 accelerate hemoglobin production, aggressively defending against anemic exhaustion.",
+    "<b>Robust Cellular Membrane Stabilization:</b> Dense yields of high-quality phospholipids, cholesterol, and omega-3 fats immediately integrate into cellular lipid bilayers, optimizing flexibility and signal reception.",
+    "<b>Deep Antioxidant Cellular Defense:</b> Striking natural concentrations of selenium and Vitamin A provide critical support to cellular defense systems, limiting free-radical structural cell aging.",
+    "<b>Premium Architectural Tissue Repair:</b> The complete, highly bioavailable animal protein matrix delivers all foundational amino acids smoothly, driving fast muscle structure recovery and cellular maintenance."
+  ],
+  "precautionsIntro": "Pathogen Resilience and Nutritional Density: Because ducks are waterfowl, their eggs possess distinct microstructural Shell characteristics and a heavy lipid payload, mandating explicit culinary safety protocols and portions.",
+  "precautions": [
+    "<b>Elevated Salmonella Infection Risk:</b> Duck eggs are statistically more susceptible to holding Salmonella pathogens due to the birds' damp environmental habits. Raw or soft-boiled consumption is strictly discouraged; cook thoroughly for a minimum of 10-13 minutes.",
+    "<b>Dense Cholesterol and Saturated Lipid Profiles:</b> The massive, nutrient-rich yolk contains significant levels of dietary cholesterol and fats. Individuals closely monitoring hyper-responsive blood lipid panels must adjust consumption balance.",
+    "<b>Distinct Allergenic Sensitivities:</b> The structural protein matrix in duck egg whites differs chemically from chicken eggs. People who are allergic to chicken eggs might tolerate duck eggs, but the inverse is also true—always introduce with caution."
+  ]
+  },
+  "turkey-egg": {
+  "slug": "turkey-egg",
+  "name": "Turkey Egg",
+  "category": "Dairy & Eggs",
+  "image": "/productinfo/turkey-egg.png",
+  "imageAlt": "turkey egg",
+  "description": "Turkey eggs are highly prized, structurally dense whole foods that closely mirror the exceptional bioavailability of premium poultry nutrition. Visually distinct with speckles and a robust shell, they deliver a significantly richer concentration of essential phospholipids, protective trace minerals, and neuro-supportive B-vitamins compared to traditional chicken eggs.",
+  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
+  "macroIntro": "The macronutrient profile of turkey eggs reflects an energy-dense configuration, optimized by a larger, lipid-rich yolk that provides high-quality structural fats alongside complete animal proteins.",
+  "microIntro": "Turkey eggs are packed with highly bioavailable micronutrients, delivering a potent therapeutic payload of neurological coordinators and cellular antioxidants that comfortably clear baseline metabolic milestones.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~171 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.7 grams",
+      "bg": "#f5722c",
+      "description": "An incredibly complete biological source of structural protein containing all nine essential amino acids required for tissue synthesis, hypertrophic repair, and enzyme production."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "11.9 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by beneficial monounsaturated fatty acids and core phospholipids like lecithin, which directly construct fluid and functional cellular membranes."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.1 grams",
+      "bg": "#15837c",
+      "description": "Presents a minimal carbohydrate baseline, ensuring an entirely flat glycemic response with no disruption to daily insulin stabilization."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "1.7 mcg / 71% DV",
+      "bg": "#1a96cd",
+      "description": "An exceptional yield required for the maturation of red blood cells, preserving the myelin sheath of nerve cells, and supporting genomic DNA synthesis."
+    },
+    {
+      "id": "choline",
+      "slug": "choline",
+      "name": "Choline",
+      "amount": "260 mg / 47% DV",
+      "bg": "#66ab63",
+      "description": "An elite neuro-nutrient that acts as a structural building block for cell signaling and synthesizes acetylcholine, the primary neurotransmitter for memory."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "34.3 mcg / 62% DV",
+      "bg": "#15837c",
+      "description": "A foundational trace mineral and powerful antioxidant that activates thyroid hormones and systematically neutralizes oxidative stress."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "3.2 mg / 18% DV",
+      "bg": "#e4a910",
+      "description": "Highly absorbable animal iron that drives hemoglobin construction, optimizes cellular oxygen transport kinetics, and eliminates metabolic fatigue."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.5 mg / 38% DV",
+      "bg": "#f5722c",
+      "description": "Crucial for accelerating the breakdown and metabolic extraction of energy from carbohydrates and fats while supporting clear visual pathways."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A",
+      "amount": "166 mcg / 18% DV",
+      "bg": "#1a96cd",
+      "description": "Concentrated in the nutrient-dense yolk, supporting optical dark adaptation, skin barrier renewal, and immune cellular response coordination."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuro-Cognitive Restoration:</b> The rich reservoir of choline paired with robust doses of Vitamin B12 directly preserves the integrity of neural pathways, accelerates mental processing speeds, and sharpens memory recall.",
+    "<b>Advanced Hematopoiesis Support:</b> Superior concentrations of organic iron work in perfect metabolic synergy with Vitamin B12 to streamline red blood cell production, preventing anemic lethargy and boosting tissue oxygenation.",
+    "<b>Optimal Cellular Membrane Maintenance:</b> Packed with beneficial animal lipids, cholesterol, and phospholipids, turkey eggs provide premium material to repair and stabilize cellular lipid bilayers, enhancing nutrient absorption.",
+    "<b>Systemic Antioxidant Shielding:</b> Outstanding natural levels of selenium fuel glutathione peroxidase enzymes, aggressively neutralizing circulating free radicals to protect cardiovascular and thyroid tissue.",
+    "<b>Premium Tissue Synthesis & Recovery:</b> The flawless, highly bioavailable amino acid matrix ensures rapid protein translation, making it a stellar whole food for structural muscle recovery and metabolic repair."
+  ],
+  "precautionsIntro": "Portion Control and Food Safety: Due to their larger size and dense nutritional profile, integrating turkey eggs requires intentional dietary tracking alongside strict attention to culinary sanitation benchmarks.",
+  "precautions": [
+    "<b>Concentrated Saturated Fats and Cholesterol:</b> The oversized, rich yolk contains elevated levels of dietary lipids. Individuals tracking hyper-responsive blood lipid panels should manage portion frequencies systematically.",
+    "<b>Salmonella Elimination Safeguards:</b> Like all raw poultry products, turkey eggs carry a standard risk of Salmonella colonization. Avoid raw or undercooked formats; always cook thoroughly until both whites and yolks are entirely firm.",
+    "<b>Cross-Reactive Protein Allergies:</b> Individuals with diagnosed hypersensitivities or severe allergies to chicken egg whites frequently show cross-reactivity to the structural proteins in turkey eggs. Introduce them with extreme clinical caution."
+  ]
+  },
+  "goose-egg": {
+  "slug": "goose-egg",
+  "name": "Goose Egg",
+  "category": "Dairy & Eggs",
+  "image": "/productinfo/goose-egg.png",
+  "imageAlt": "goose egg",
+  "description": "Goose eggs are massive, exceptionally rich whole foods that deliver an unparalleled concentration of essential structural lipids and bioavailable micronutrients. Characterized by a highly dense white and a giant, velvety yolk, they represent an elite metabolic engine for systemic cellular repair and advanced neurological preservation.",
+  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
+  "macroIntro": "The macronutrient configuration of goose eggs features an intensely rich and energy-dense matrix, driven by an oversized yolk-to-white ratio that maximizes healthy monounsaturated fats alongside heavy loads of complete animal protein.",
+  "microIntro": "Packed with a magnificent payload of fat-soluble vitamins and nerve-protecting coordinators, the micronutrient density of goose eggs comfortably clears daily metabolic thresholds in single therapeutic portions.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~185 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.9 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding source of highly digestible, complete protein possessing a flawless amino acid score necessary for driving muscular hypertrophy and structural cellular repairs."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "13.3 grams",
+      "bg": "#e4a910",
+      "description": "Concentrated almost entirely in the substantial yolk, delivering vital phospholipids, omega-3 fatty acids, and fluid monounsaturated fats."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.3 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute minimal carbohydrate trace, maintaining an entirely flat glycemic response with zero disruption to baseline insulin curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "5.1 mcg / 213% DV",
+      "bg": "#1a96cd",
+      "description": "A colossal natural yield that completely shatters daily milestones. Vital for protecting neural myelination structures, accelerating red blood cell formation, and ensuring genomic DNA replication stability."
+    },
+    {
+      "id": "choline",
+      "slug": "choline",
+      "name": "Choline",
+      "amount": "263 mg / 48% DV",
+      "bg": "#66ab63",
+      "description": "An elite neurological nutrient required for synthesizing acetylcholine, the brain's fundamental neurotransmitter for rapid cognitive processing and long-term memory retrieval."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "36.9 mcg / 67% DV",
+      "bg": "#15837c",
+      "description": "A powerful trace mineral cofactor that directly fuels endogenous antioxidant enzyme networks, preserving cellular architectures from free-radical erosion."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "3.6 mg / 20% DV",
+      "bg": "#e4a910",
+      "description": "Supplies double the concentration found in standard chicken eggs, drastically boosting functional hemoglobin kinetics and cellular tissue oxygenation."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A",
+      "amount": "192 mcg / 21% DV",
+      "bg": "#f5722c",
+      "description": "Abundant within the rich orange yolk, essential for maintaining optical dark adaptation, skin barrier renewal, and immune cellular response coordination."
+    },
+    {
+      "id": "folate",
+      "slug": "folate",
+      "name": "Folate (Vitamin B9)",
+      "amount": "76.0 mcg / 19% DV",
+      "bg": "#1a96cd",
+      "description": "Crucial for amino acid metabolism, cellular mitosis pathways, and supporting cardiovascular health by managing circulating homocysteine levels."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuro-Cognitive Preservation:</b> Massive natural concentrations of bioavailable Vitamin B12 and choline rapidly strengthen the brain's white matter myelin, optimize neurotransmitter performance, and eliminate cognitive fatigue.",
+    "<b>Advanced Hematopoietic Kinetics:</b> The intense synergy between organic heme-mimicking iron and mega-doses of Vitamin B12 coordinates rapid red blood cell maturation, aggressively fighting off systemic tissue hypoxia.",
+    "<b>Superior Cellular Membrane Renovation:</b> Rich yields of premium phospholipids, essential cholesterol, and unsaturated lipids seamlessly integrate into compromised cellular structures, boosting cellular fluidity and insulin signal pathways.",
+    "<b>Deep Systematic Antioxidant Defenses:</b> Outstanding natural levels of selenium fuel glutathione peroxidase enzymes, working alongside Vitamin A to neutralize circulating free radicals and shield thyroid architecture.",
+    "<b>Premium Architectural Muscle Repair:</b> The complete, highly bioavailable animal protein matrix delivers all foundational amino acids smoothly, driving fast muscle structure recovery and cellular maintenance."
+  ],
+  "precautionsIntro": "Pathogen Resilience and Nutritional Density: Because geese are waterfowl, their eggs possess distinct microstructural shell characteristics and a heavy lipid payload, mandating explicit culinary safety protocols and portions.",
+  "precautions": [
+    "<b>High Risk of Salmonella Proliferation:</b> Due to the aquatic and muddy environments geese inhabit, their porous shells are statistically more susceptible to Salmonella colonization. Avoid raw or soft formats; boil thoroughly for at least 13-15 minutes.",
+    "<b>Heavy Saturated Lipid and Caloric Payload:</b> A single goose egg is roughly three times larger than a chicken egg and contains massive doses of cholesterol and fat. Individuals tracking hyper-responsive blood lipid panels must manage portion frequencies tightly.",
+    "<b>Distinct Protein Matrix Allergies:</b> The structural protein makeup in goose egg whites is chemically distinct from chicken eggs. People who are allergic to chicken eggs might tolerate goose eggs, but the inverse is also true—always introduce with extreme caution."
+  ]
+}
 }
