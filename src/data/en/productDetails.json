@@ -10980,5 +10980,545 @@
     "<b>Heavy Saturated Lipid and Caloric Payload:</b> A single goose egg is roughly three times larger than a chicken egg and contains massive doses of cholesterol and fat. Individuals tracking hyper-responsive blood lipid panels must manage portion frequencies tightly.",
     "<b>Distinct Protein Matrix Allergies:</b> The structural protein makeup in goose egg whites is chemically distinct from chicken eggs. People who are allergic to chicken eggs might tolerate goose eggs, but the inverse is also true—always introduce with extreme caution."
   ]
-}
+  },
+  "beef-brain": {
+  "slug": "beef-brain",
+  "name": "Beef Brain",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-brain.png",
+  "imageAlt": "beef brain",
+  "description": "Beef brain is a highly specialized, nutrient-dense organ meat renowned for its exceptional concentration of structural lipids, essential phospholipids, and neuro-supportive micronutrients. Featuring a remarkably delicate, creamy texture, it serves as an elite biological substrate directly targeted at optimizing cellular membrane fluidity and preserving advanced neural networks.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked/simmered)",
+  "macroIntro": "The macronutrient blueprint of beef brain showcases an intensely lipid-centric profile, characterized by low protein density and an absolute absence of dietary carbohydrates, making it a powerful source of structural metabolic fats.",
+  "microIntro": "Beef brain features a phenomenal payload of highly bioavailable micronutrients, delivering immense yields of nerve-protecting coordinators and vital trace elements that heavily reinforce executive cognitive processing.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~151 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "10.3 grams",
+      "bg": "#f5722c",
+      "description": "Provides a modest but highly digestible pool of complete animal protein containing all essential amino acids necessary for core enzyme synthesis and cellular maintenance."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "11.7 grams",
+      "bg": "#e4a910",
+      "description": "Composed overwhelmingly of specialized structural lipids, including high-density essential phospholipids, sphingolipids, and long-chain fatty acids critical for neural signaling links."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute zero carbohydrate footprint, facilitating an entirely flat glycemic response ideal for strict metabolic and ketogenic regimens."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "10.0 mcg / 417% DV",
+      "bg": "#1a96cd",
+      "description": "An astronomical natural yield that drastically clears daily metabolic milestones. Essential for the structural preservation of neural myelin sheaths and maintaining genomic DNA stability."
+    },
+    {
+      "id": "choline",
+      "slug": "choline",
+      "name": "Choline",
+      "amount": "492 mg / 90% DV",
+      "bg": "#66ab63",
+      "description": "An elite concentration ranking among the highest in nature. Acts as a core structural precursor for generating acetylcholine, the brain's primary neurotransmitter for memory, focus, and logical processing."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "21.8 mcg / 40% DV",
+      "bg": "#15837c",
+      "description": "A powerful trace elemental antioxidant that actively drives endogenous enzyme protection networks, shielding delicate lipids from free-radical erosion."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "10.7 mg / 12% DV",
+      "bg": "#f5722c",
+      "description": "Unusually present for an animal tissue, providing localized antioxidant support to mitigate oxidative cellular stress and facilitate collagen synthesis pathways."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "332 mg / 33% DV",
+      "bg": "#1a96cd",
+      "description": "Works synergistically with calcium to maintain cellular structural boundaries and plays a critical role in mitochondrial ATP energy storage mechanics."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "1.7 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "Supplies highly bioavailable heme iron that smoothly assists in cellular oxygen kinetics, metabolic respiration, and preventing iron-deficiency lethargy."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuro-Cognitive Supercharge:</b> Massive natural reserves of bioavailable choline and Vitamin B12 rapidly fortify the nervous system, drastically accelerating mental processing speed, optimizing memory consolidation, and decreasing cognitive lag.",
+    "<b>Advanced Cellular Membrane Restoration:</b> Heavy yields of specialized phospholipids and sphingolipids seamlessly integrate into compromised cellular structures, boosting lipid bilayer fluidity and enhancing insulin receptor signaling pathways.",
+    "<b>Mitochondrial Energy Acceleration:</b> High concentrations of Vitamin B12 operate in absolute harmony with phosphorus to streamline cellular ATP creation, fighting chronic mental fatigue and elevating neural endurance.",
+    "<b>Targeted Antioxidant Protection:</b> The synergistic presence of selenium and natural Vitamin C provides robust defenses against systemic low-grade inflammation, preserving lipid-heavy neural architectures from free-radical structural aging.",
+    "<b>Genomic Stability Support:</b> The monumental yield of Vitamin B12 plays a foundational role in coordinating proper nucleotide synthesis, facilitating clean cellular mitosis, and protecting DNA replication accuracy."
+  ],
+  "precautionsIntro": "Cholesterol Density and Strict Sourcing Safety: Due to its unique biological composition as an organ tissue, integrating beef brain requires meticulous attention to portion calculation and absolute verification of regional livestock security protocols.",
+  "precautions": [
+    "<b>Colossal Dietary Cholesterol Concentration:</b> Beef brain contains the highest concentration of dietary cholesterol found in any whole food (~3100mg per 100g). Individuals tracking hyper-responsive blood lipid panels or managing advanced cardiovascular disease must exert careful clinical discretion.",
+    "<b>Prion Disease Safeguards (BSE):</b> Bovine Spongiform Encephalopathy (BSE or 'Mad Cow Disease') is a fatal neurodegenerative prion disease transmitted through infected neural tissues. It is absolutely vital to avoid consuming brain tissue from older cattle or regions with unverified veterinary monitoring standards.",
+    "<b>Heavy Metal Bioaccumulation Risk:</b> As a highly metabolic central organ, brain tissue can potentially accumulate trace environmental heavy metals over the animal's life span. Ensure products are exclusively sourced from young, strictly regulated, grass-fed livestock."
+  ]
+  },
+  "beef-tongue": {
+  "slug": "beef-tongue",
+  "name": "Beef Tongue",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-tongue.png",
+  "imageAlt": "beef tongue",
+  "description": "Beef tongue is a premium, melt-in-your-mouth organ meat highly prized for its tender texture and dense nutritional efficiency. Unlike other organ meats, it functions as a hardworking muscular tissue, yielding a rich layout of monounsaturated fatty acids alongside elite concentrations of hematological minerals and energy-producing B-vitamins designed for accelerated systemic repair.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked/simmered)",
+  "macroIntro": "The macronutrient configuration of simmered beef tongue features a highly bioavailable, protein-dense profile integrated into a rich lipid matrix that serves as an excellent source of sustained metabolic fuel.",
+  "microIntro": "Beef tongue delivers a potent payload of critical micronutrients, offering outstanding concentrations of zinc, heme iron, and cellular cofactors that easily clear foundational endocrine and energy milestones.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~224 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "14.9 grams",
+      "bg": "#f5722c",
+      "description": "A complete and highly digestible animal protein providing a flawless amino acid score necessary for cellular rebuilding, muscular recovery, and structural synthesis."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "16.1 grams",
+      "bg": "#e4a910",
+      "description": "Composed of a highly functional mix of monounsaturated oleic acid (similar to olive oil) and saturated fatty acids, providing dense, long-lasting cellular fuel."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute zero carbohydrate footprint, facilitating an entirely flat glycemic response with no disruption to baseline insulin curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "3.1 mcg / 129% DV",
+      "bg": "#1a96cd",
+      "description": "Comfortably exceeds the daily milestone. Crucial for driving red blood cell maturation, optimizing neural myelination pathways, and maintaining genomic DNA replication stability."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "4.1 mg / 37% DV",
+      "bg": "#15837c",
+      "description": "An essential trace mineral cofactor that directly governs endogenous hormone synthesis, cellular reproduction cascades, and systemic immune cellular responses."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "2.6 mg / 14% DV",
+      "bg": "#e4a910",
+      "description": "Provides highly bioavailable organic heme iron that accelerates hemoglobin production, optimizes cellular oxygen transport kinetics, and eliminates metabolic fatigue."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.3 mg / 23% DV",
+      "bg": "#f5722c",
+      "description": "Essential for carbohydrate, protein, and lipid energy breakdown within mitochondrial cycles, supporting skin resilience and clear ocular metabolic functions."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "3.8 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "Plays a vital role in cellular repair mechanisms, driving tissue respiration pathways, and modulating systemic cholesterol profiles."
+    },
+    {
+      "id": "choline",
+      "slug": "choline",
+      "name": "Choline",
+      "amount": "65.0 mg / 12% DV",
+      "bg": "#66ab63",
+      "description": "A supportive neurological nutrient required for keeping cell membranes structurally stable and synthesizing neurotransmitters involved in mood and memory control."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Advanced Hematopoiesis Support:</b> The outstanding combination of bioavailable heme iron and high-dose Vitamin B12 coordinates rapid red blood cell replication, preventing anemic exhaustion and boosting muscle oxygenation.",
+    "<b>Optimized Endocrine Balance:</b> Outstanding yields of bioavailable zinc provide critical support to enzymatic pathways responsible for healthy natural testosterone synthesis and standard immune defense modulation.",
+    "<b>Mitochondrial Energy Extraction:</b> Dense concentrations of Niacin (B3) and Riboflavin (B2) work to streamline the chemical breakdown of macronutrients, elevating daily metabolic efficiency and cell respiration.",
+    "<b>Premium Tissue Reconstruction:</b> The complete, highly bioavailable animal protein matrix delivers all foundational amino acids smoothly, assisting in rapid structural recovery and systemic protein synthesis.",
+    "<b>Neural Fiber Structural Protection:</b> Complete daily coverage of Vitamin B12 actively helps preserve the myelin sheaths enveloping nerve pathways, preventing long-term neurocognitive lag and supporting nervous system health."
+  ],
+  "precautionsIntro": "Caloric Density and Thorough Preparation: Due to its unique composition as a lipid-rich muscle tissue, integrating beef tongue requires intentional portion tracking alongside careful culinary peeling and boiling protocols.",
+  "precautions": [
+    "<b>Elevated Caloric and Saturated Lipid Payload:</b> The velvety texture comes from a significant lipid footprint. Individuals closely tracking hyper-responsive blood lipid panels or strict daily caloric limits must regulate portions systematically.",
+    "<b>Purine-Driven Uric Acid Accumulation:</b> Like most premium red meats and organ cuts, beef tongue holds notable purine compounds. Individuals predisposed to gout or hyperuricemia should monitor consumption frequencies.",
+    "<b>Mandatory Culinary Peeling Requirements:</b> The outer skin layer of the tongue is tough, fibrous, and completely indigestible. It must be boiled extensively and peeled away completely before consumption to ensure food safety and gastrointestinal comfort."
+  ]
+  },
+  "beef-lung": {
+  "slug": "beef-lung",
+  "name": "Beef Lung",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-lung.png",
+  "imageAlt": "beef lung",
+  "description": "Beef lung is a highly specialized, ultra-lean organ meat characterized by its unique, spongy microstructure and exceptional macro-efficiency. Providing a substantial payload of highly bioavailable heme iron and complete animal protein with a near-zero lipid baseline, it represents an elite dietary tool for targeted hematological support and strict caloric management.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked/simmered)",
+  "macroIntro": "The macronutrient profile of simmered beef lung offers a pure protein-centric configuration, boasting an exceptionally low caloric density and a completely minimalist fat footprint.",
+  "microIntro": "Beef lung is deeply packed with essential trace minerals and neurological cofactors, delivering outstanding yields of highly bioavailable organic iron and protective B-vitamins that smoothly drive systemic oxygen transport.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~120 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "20.3 grams",
+      "bg": "#f5722c",
+      "description": "A dense source of complete animal protein featuring a highly efficient amino acid profile essential for nitrogen retention, tissue synthesis, and lean muscle remodeling."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.5 grams",
+      "bg": "#e4a910",
+      "description": "Presents an exceptionally low lipid density, making it one of the leanest offal cuts available, ideal for cardiovascular-conscious dietary frameworks."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute zero carbohydrate footprint, facilitating a completely flat glycemic index with no disruption to baseline insulin kinetics."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "7.9 mg / 44% DV",
+      "bg": "#e4a910",
+      "description": "An extraordinary concentration of organic heme iron that directly accelerates hemoglobin construction, speeds cellular oxygen transport, and aggressively combats metabolic fatigue."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "4.2 mcg / 175% DV",
+      "bg": "#1a96cd",
+      "description": "Massively exceeds the daily physiological baseline. Crucial for regulating healthy red blood cell maturation, protecting neural myelin coatings, and facilitating genomic replication."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "24.1 mcg / 44% DV",
+      "bg": "#15837c",
+      "description": "A powerful antioxidant trace mineral cofactor that stabilizes endogenous enzyme networks, shielding vascular architecture from oxidative cellular stress."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "254 mg / 25% DV",
+      "bg": "#1a96cd",
+      "description": "Operates in perfect structural synergy with calcium to support structural bone integrity and drives mitochondrial ATP energetic transfer pathways."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "1.9 mg / 17% DV",
+      "bg": "#66ab63",
+      "description": "An essential catalytic mineral that aids in coordinating systemic immune responses, cellular division cascades, and structural protein translation."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.2 mg / 15% DV",
+      "bg": "#f5722c",
+      "description": "Assists within mitochondrial energy extraction cycles, promoting the clean breakdown of macronutrients and protecting optical tissue integrity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Oxygen Kinetics & Energy:</b> The massive combination of bioavailable heme iron and high-dose Vitamin B12 coordinates rapid red blood cell production, preventing anemic exhaustion and optimizing muscular oxygenation pathways.",
+    "<b>Lean Muscular Remodeling:</b> Delivering over 20 grams of complete animal protein alongside minimal fat, it provides an exceptional biological substrate for clean tissue repair and muscle maintenance without caloric spillover.",
+    "<b>Advanced Neural Fiber Protection:</b> Complete daily coverage of Vitamin B12 actively helps preserve the myelin sheaths enveloping nerve pathways, supporting sharp nervous system health and eliminating cognitive lag.",
+    "<b>Systemic Antioxidant Shielding:</b> Outstanding natural levels of selenium fuel glutathione peroxidase enzymes, working systematically to protect cardiovascular tissues from low-grade free-radical erosion.",
+    "<b>Enhanced Cellular Energy Storage:</b> High structural yields of phosphorus work alongside metabolic B-vitamins to streamline cellular ATP creation, improving physical stamina and reducing chronic daily lethargy."
+  ],
+  "precautionsIntro": "Textural Integrity and Meticulous Culinary Processing: Due to its highly unique spongy architecture and respiratory function, beef lung demands specific preparation steps and careful attention to cooking times.",
+  "precautions": [
+    "<b>Mandatory Pre-Boiling and Cleaning:</b> Because lungs contain large bronchial pathways, they must be thoroughly washed, compressed, and parboiled extensively to extract trapped air, fluid, and foam before final culinary preparation.",
+    "<b>Purine Content Regulations:</b> Like all premium organ cuts and red meats, beef lung holds significant purine configurations. Individuals predisposed to gout or hyperuricemia must manage consumption frequencies systematically.",
+    "<b>Strict Veterinary Sourcing Protocols:</b> As a vital respiratory organ, lung tissue is highly sensitive to environmental contaminants and livestock pathogens. Ensure the product is exclusively sourced from strictly regulated, youthfully slaughtered, pasture-raised cattle."
+  ]
+  },
+  "beef-heart": {
+  "slug": "beef-heart",
+  "name": "Beef Heart",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-heart.png",
+  "imageAlt": "beef heart meat",
+  "description": "Beef heart is a premium, structurally dense organ meat that bridges the gap between traditional muscle cuts and nutrient-dense offal. As a constantly working, heavy-duty metabolic muscle, it provides an exceptional biological matrix loaded with natural Coenzyme Q10 (CoQ10), collagen proteins, bioavailable heme iron, and essential B-vitamins configured to maximize cellular stamina and cardiovascular longevity.",
+  "macroTitle": "Macro Nutrients (per 100g, trimmed raw muscle)",
+  "macroIntro": "The macronutrient configuration of trimmed beef heart delivers a highly efficient, protein-centric profile featuring a moderate lipid load and absolute zero carbohydrate layout, ideal for sustaining skeletal and metabolic repair.",
+  "microIntro": "Beef heart is packed with a magnificent, bioavailable micro-matrix, boasting elite natural levels of heart-protecting enzymes and neurological cofactors that comfortably support foundational energy production.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~112 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.7 grams",
+      "bg": "#f5722c",
+      "description": "A high-quality, complete animal protein containing all essential amino acids alongside rich yields of collagen-building glycine and proline to support vascular and joint structural integrity."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.9 grams",
+      "bg": "#e4a910",
+      "description": "When trimmed of surface fat caps, the internal muscle tissue is exceptionally lean, holding a highly functional balance of monounsaturated and essential polyunsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute zero carbohydrate trace, maintaining entirely flat insulin responses with no disruption to baseline blood sugar curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "8.5 mcg / 354% DV",
+      "bg": "#1a96cd",
+      "description": "A monumental natural payload that completely shatters daily thresholds. Vital for accelerating red blood cell production, stabilizing neural myelin structures, and protecting DNA replication loops."
+    },
+    {
+      "id": "coenzyme-q10",
+      "slug": "coenzyme-q10",
+      "name": "Coenzyme Q10 (CoQ10)",
+      "amount": "~3.4 mg / *",
+      "bg": "#66ab63",
+      "description": "An outstanding biological source of ubiquinone. Acts as a premier mitochondrial cofactor that explicitly drives energetic ATP generation and protects heavy-duty cardiovascular muscle layers from oxidative wear."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "4.3 mg / 24% DV",
+      "bg": "#e4a910",
+      "description": "Supplies double the concentration found in standard beef loin cuts, substantially boosting hemoglobin metrics, tissue oxygen kinetics, and overall systemic endurance."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "212 mg / 21% DV",
+      "bg": "#1a96cd",
+      "description": "Operates in tight structural coordination with calcium to stabilize cellular boundaries and fuels biochemical high-energy phosphate transfer mechanisms."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "1.7 mg / 15% DV",
+      "bg": "#15837c",
+      "description": "An essential trace mineral catalyst required for maintaining structural integrity during protein translation, supporting immune cellular responses, and optimizing natural hormone balance."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.9 mg / 69% DV",
+      "bg": "#f5722c",
+      "description": "A magnificent concentration required for converting dietary fats and carbohydrates into pure cellular energy within the mitochondrial respiratory network."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Mitochondrial Energy Expansion:</b> Massive natural concentrations of Coenzyme Q10 (CoQ10) and Riboflavin work in perfect synergy to optimize the creation of cellular ATP, rapidly eliminating systemic lethargy and building high physical stamina.",
+    "<b>Advanced Hematopoiesis Support:</b> The outstanding combination of dense bioavailable heme iron and mega-doses of Vitamin B12 coordinates rapid red blood cell maturation, successfully treating tissue hypoxia.",
+    "<b>Cardiovascular Structure Defense:</b> The localized yield of organic CoQ10 shields arterial networks and myocardial walls from free-radical lipid peroxidation, supporting long-term healthy blood pressure mechanics.",
+    "<b>Vascular Architecture Renovation:</b> Rich yields of collagenous amino acids (glycine, proline) combined with dense complete proteins directly assist in reinforcing structural blood vessels, connective tissues, and joint boundaries.",
+    "<b>Neural Fiber Structural Preservation:</b> Complete daily coverage of Vitamin B12 actively helps preserve the myelin sheaths enveloping nerve pathways, preventing cognitive lag and supporting sharp nervous system health."
+  ],
+  "precautionsIntro": "Proper Trimming Techniques and Purine Awareness: As a highly dense, hard-working organ muscle, integrating beef heart requires intentional structural preparation and moderate portion tracking.",
+  "precautions": [
+    "<b>Mandatory External Fat Trimming:</b> Raw beef heart is typically surrounded by a thick, heavy exterior fat cap. To maintain a lean, heart-healthy macro-profile, this outer saturated lipid block must be meticulously sliced away before cooking.",
+    "<b>Purine-Driven Uric Acid Accumulation:</b> Like most premium organ meats and dense red cuts, beef heart holds notable purine compounds. Individuals predisposed to gout or hyperuricemia must regulate portion frequencies closely.",
+    "<b>Tough Textural Microstructure:</b> Due to the dense concentration of interlaced muscular fibers and collagen, improper flash-cooking can cause the tissue to become excessively rubbery and difficult to digest. Requires slow-braising or ultra-thin slicing."
+  ]
+  },
+  "beef-kidneys": {
+  "slug": "beef-kidneys",
+  "name": "Beef Kidneys",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-kidneys.png",
+  "imageAlt": "beef kidneys",
+  "description": "Beef kidneys are an elite, highly concentrated therapeutic organ meat prized in advanced nutritional frameworks for their exceptional density of vital micronutrients. Boasting an incomparable yield of Vitamin B12, selenium, and active metabolic cofactors with a remarkably low lipid profile, they serve as a powerful biological catalyst for cellular detox pathways, heavy-duty hematopoiesis, and optimal systemic energy production.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked/simmered)",
+  "macroIntro": "The macronutrient configuration of simmered beef kidneys offers a deeply lean, protein-centric architecture that provides high-quality structural amino acids while keeping total caloric and lipid spillovers completely minimized.",
+  "microIntro": "Beef kidneys hold a staggering, highly bioavailable micronutrient matrix, delivering monumental concentrations of essential trace minerals and neurological cofactors that comfortably shatter standard daily biological baselines.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~134 kcal",
+      "bg": "#15837c",
+      "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "23.5 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding source of complete animal protein with an exceptional biological score, packed with essential amino acids needed for continuous cell restoration and muscular tissue recovery."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.1 grams",
+      "bg": "#e4a910",
+      "description": "Maintains a highly restrictive, low lipid footprint when properly trimmed of surrounding suet, delivering clean metabolic fuel without excessive saturated fat loads."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#15837c",
+      "description": "Contains an absolute zero carbohydrate footprint, facilitating an entirely flat glycemic index with no disruption to daily blood glucose curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12",
+      "amount": "24.9 mcg / 1038% DV",
+      "bg": "#1a96cd",
+      "description": "A truly monumental natural payload that massively clears daily thresholds. Essential for optimizing red blood cell maturation, safeguarding nerve myelin sheaths, and fueling DNA synthesis."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "141 mcg / 256% DV",
+      "bg": "#66ab63",
+      "description": "An extraordinary concentration of this vital trace element antioxidant. Directly fuels glutathione peroxidase enzyme pathways, crucial for heavy-metal detoxification and thyroid hormone modulation."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "2.8 mg / 215% DV",
+      "bg": "#f5722c",
+      "description": "Shines as an elite mitochondrial cofactor required for extracting pure cellular energy (ATP) from macronutrients and supporting systemic cellular detoxification."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "5.4 mg / 30% DV",
+      "bg": "#e4a910",
+      "description": "Provides a robust, highly bioavailable organic heme iron source that directly accelerates hemoglobin formation, preventing chronic tissue fatigue and low-grade hypoxia."
+    },
+    {
+      "id": "vitamin-b5",
+      "slug": "vitamin-b5",
+      "name": "Vitamin B5 (Pantothenic Acid)",
+      "amount": "3.6 mg / 72% DV",
+      "bg": "#15837c",
+      "description": "Plays a vital role in synthesizing Coenzyme A, driving fatty acid oxidation pathways, and providing structural reinforcement to active adrenal cortex hormone synthesis."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "2.6 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "An essential catalytic mineral cofactor that directly governs optimal cellular division, endogenous endocrine production, and systemic immune defenses."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Hyper-Accelerated Hematopoiesis:</b> The combined mega-doses of highly bioavailable organic iron and massive Vitamin B12 act as a powerful engine for rapid red blood cell production, boosting physical stamina.",
+    "<b>Elite Cellular Antioxidant Shielding:</b> Unmatched natural yields of selenium maximize the body's internal antioxidant networks, protecting cell membranes from free-radical erosion and supporting active thyroid performance.",
+    "<b>Mitochondrial Energy Amplification:</b> Tremendous concentrations of Riboflavin (B2) and Pantothenic Acid (B5) drive rapid biochemical energy conversion cycles, optimizing ATP output and eliminating metabolic lethargy.",
+    "<b>Endogenous Detoxification Support:</b> The unique chemical matrix of trace minerals and B-vitamins inside kidney tissue provides essential raw cofactors that assist the liver and kidneys in daily blood clearance and heavy-metal filtration.",
+    "<b>Nervous System Myelin Preservation:</b> Staggering levels of Vitamin B12 systematically safeguard the structural integrity of myelin coatings around neural fibers, maximizing cognitive speed and preventing neurodegenerative fatigue."
+  ],
+  "precautionsIntro": "Meticulous Culinary Pre-Treatment and Nutrient Density Moderation: Due to their specific role as a filtration organ and their immense micronutrient concentration, beef kidneys require specialized processing and disciplined portion planning.",
+  "precautions": [
+    "<b>Mandatory Odor Neutralization and Soaking:</b> Lacking proper preparation, raw kidneys hold a sharp, pungent urinary aroma. They must be split open, fully stripped of internal white core fat/tubules, and repeatedly soaked in cold water, milk, or acidulated water before boiling.",
+    "<b>Purine-Driven Uric Acid Accumulation:</b> Beef kidneys contain very high levels of purine compounds. Individuals tracking hyperuricemia or those predisposed to painful gout flare-ups must strictly limit consumption frequencies.",
+    "<b>Substantial Dietary Cholesterol Payload:</b> While exceptionally lean in terms of standard triglycerides, kidneys hold a prominent natural cholesterol footprint. Individuals with hyper-responsive ApoB or complex lipid markers should regulate portions carefully."
+  ]
+  }
 }

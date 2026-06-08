@@ -1024,5 +1024,50 @@
     "image": "/products/goose-egg.png",
     "favorite": false,
     "link": "/productinfo/goose-egg"
+  },
+  {
+    "id": 116,
+    "name": "Beef Brain",
+    "category": "food/meat",
+    "calories": 143,
+    "image": "/products/beef-brain.png",
+    "favorite": false,
+    "link": "/productinfo/beef-brain"
+  },
+  {
+    "id": 117,
+    "name": "Beef Tongue",
+    "category": "food/meat",
+    "calories": 224,
+    "image": "/products/beef-tongue.png",
+    "favorite": false,
+    "link": "/productinfo/beef-tongue"
+  },
+  {
+    "id": 118,
+    "name": "Beef Lung",
+    "category": "food/meat",
+    "calories": 92,
+    "image": "/products/beef-lung.png",
+    "favorite": false,
+    "link": "/productinfo/beef-lung"
+  },
+   {
+    "id": 119,
+    "name": "Beef Heart",
+    "category": "food/meat",
+    "calories": 112,
+    "image": "/products/beef-heart.png",
+    "favorite": false,
+    "link": "/productinfo/beef-heart"
+  },
+  {
+    "id": 120,
+    "name": "Beef Kidneys",
+    "category": "food/meat",
+    "calories": 99,
+    "image": "/products/beef-kidneys.png",
+    "favorite": false,
+    "link": "/productinfo/beef-kidneys"
   }
 ]
