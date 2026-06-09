@@ -452,7 +452,7 @@
   {
     "id": 52,
     "name": "Walnuts",
-    "category": "food/nuts and seeds",
+    "category": "food/seeds and nuts",
     "calories": 654,
     "image": "/products/walnuts.png",
     "favorite": false,
@@ -461,7 +461,7 @@
   {
     "id": 53,
     "name": "Pistachios",
-    "category": "food/nuts and seeds",
+    "category": "food/seeds and nuts",
     "calories": 562,
     "image": "/products/pistachios.png",
     "favorite": false,
@@ -956,7 +956,7 @@
   {
     "id": 108,
     "name": "Hazelnut",
-    "category": "food/nuts and seeds",
+    "category": "food/seeds and nuts",
     "calories": 628,
     "image": "/products/hazelnut.png",
     "favorite": false,
@@ -965,7 +965,7 @@
   {
     "id": 109,
     "name": "Condensed Milk",
-    "category": "food/dairy",
+    "category": "food/eggs and dairy",
     "calories": 321,
     "image": "/products/condensed-milk.png",
     "favorite": false,
@@ -983,7 +983,7 @@
   {
     "id": 111,
     "name": "Peanut Butter",
-    "category": "food/nuts and seeds",
+    "category": "food/seeds and nuts",
     "calories": 588,
     "image": "/products/peanut-butter.png",
     "favorite": false,
@@ -1069,5 +1069,50 @@
     "image": "/products/beef-kidneys.png",
     "favorite": false,
     "link": "/productinfo/beef-kidneys"
+  },
+  {
+    "id": 121,
+    "name": "Cashews",
+    "category": "food/seeds and nuts",
+    "calories": 553,
+    "image": "/products/cashews.png",
+    "favorite": false,
+    "link": "/productinfo/cashews"
+  },
+  {
+    "id": 122,
+    "name": "Butternut Squash",
+    "category": "food/vegetables",
+    "calories": 45,
+    "image": "/products/butternut-squash.png",
+    "favorite": false,
+    "link": "/productinfo/butternut-squash"
+  },
+  {
+    "id": 123,
+    "name": "Acorn Squash",
+    "category": "food/vegetables",
+    "calories": 40,
+    "image": "/products/acorn-squash.png",
+    "favorite": false,
+    "link": "/productinfo/acorn-squash"
+  },
+  {
+    "id": 124,
+    "name": "Dried Apricots",
+    "category": "food/fruits",
+    "calories": 241,
+    "image": "/products/dried-apricots.png",
+    "favorite": false,
+    "link": "/productinfo/dried-apricots"
+  },
+  {
+    "id": 125,
+    "name": "Quince",
+    "category": "food/fruits",
+    "calories": 57,
+    "image": "/products/quince.png",
+    "favorite": false,
+    "link": "/productinfo/quince"
   }
 ]

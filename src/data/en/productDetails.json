@@ -11520,5 +11520,545 @@
     "<b>Purine-Driven Uric Acid Accumulation:</b> Beef kidneys contain very high levels of purine compounds. Individuals tracking hyperuricemia or those predisposed to painful gout flare-ups must strictly limit consumption frequencies.",
     "<b>Substantial Dietary Cholesterol Payload:</b> While exceptionally lean in terms of standard triglycerides, kidneys hold a prominent natural cholesterol footprint. Individuals with hyper-responsive ApoB or complex lipid markers should regulate portions carefully."
   ]
+  },
+  "cashews": {
+  "slug": "cashew",
+  "name": "Cashews",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/cashews.png",
+  "imageAlt": "raw cashew nuts",
+  "description": "Cashews are a premium, delicately sweet nut highly prized for their buttery texture and exceptional nutrient density. Technically the seeds of the cashew apple, they deliver a highly bioavailable matrix of heart-healthy monounsaturated fats, plant-derived proteins, and a powerful suite of structural minerals designed to optimize metabolic efficiency, nervous system stability, and musculoskeletal integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "The macronutrient profile of raw cashews features a dense, highly efficient energy layout driven by clean fats and structured plant proteins, offering sustained metabolic fuel with a moderate carbohydrate impact.",
+  "microIntro": "Cashews pack a potent micronutrient payload, serving as an elite plant-based source of copper, magnesium, and essential cofactors that smoothly support neurological and vascular longevity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~553 kcal",
+      "bg": "#15837c",
+      "description": "Dense, slow-burning energy provided by premium healthy fats and proteins to sustain baseline metabolic fuel over extended periods."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "18.2 grams",
+      "bg": "#f5722c",
+      "description": "A high-quality plant protein matrix offering an excellent amino acid yield to assist in continuous tissue cellular repair and lean muscular recovery."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "43.8 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by oleic acid (the same monounsaturated fat found in olive oil), which actively promotes optimal cardiovascular health and cell membrane fluidity."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "30.2 grams",
+      "bg": "#15837c",
+      "description": "Contains complex carbohydrates balanced by dietary fiber (~3.3g), resulting in a steady, gradual glucose release without sharp insulin spikes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "2.2 mg / 244% DV",
+      "bg": "#1a96cd",
+      "description": "A phenomenal natural source. Acts as a vital catalytic cofactor for iron utilization, vascular flexibility, genomic collagen synthesis, and systemic antioxidant protection."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "292 mg / 73% DV",
+      "bg": "#66ab63",
+      "description": "An elite intracellular mineral concentration that stabilizes neuromuscular conduction, regulates healthy resting blood pressure, and drives mitochondrial ATP creation."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "1.7 mg / 74% DV",
+      "bg": "#e4a910",
+      "description": "An essential trace mineral required for executing dense bone matrix formation and fueling superoxide dismutase enzymes for cellular defense."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "593 mg / 47% DV",
+      "bg": "#1a96cd",
+      "description": "Works in direct biochemical synergy with calcium to support absolute skeletal bone density and reinforce cellular lipid bilayers."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "5.8 mg / 53% DV",
+      "bg": "#15837c",
+      "description": "An excellent plant-derived yield that effectively drives natural endocrine hormone synthesis, immune cell replication, and continuous tissue regeneration."
+    },
+    {
+      "id": "vitamin-k",
+      "slug": "vitamin-k",
+      "name": "Vitamin K",
+      "amount": "34.1 mcg / 28% DV",
+      "bg": "#f5722c",
+      "description": "Crucial for supporting standard blood coagulation pathways and directing proper calcium deposition straight into the skeletal matrix rather than arterial walls."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Vascular Flexibility & Resilience:</b> The extraordinary natural concentration of copper actively catalyzes collagen and elastin cross-linking, reinforcing the structural strength and elasticity of blood vessels.",
+    "<b>Neuromuscular Stability:</b> High bioavailable yields of magnesium regulate calcium channels within neural tissues, preventing chronic muscle cramping, mitigating stress responses, and supporting deep sleep cycles.",
+    "<b>Cardiovascular Lipid Support:</b> Rich profiles of monounsaturated oleic acid work systematically to balance total blood cholesterol profiles, lowering low-density lipoprotein (LDL) markers while preserving protective high-density fractions.",
+    "<b>Advanced Bone Matrix Optimization:</b> The dual presence of phosphorus and Vitamin K coordinates highly efficient calcium metabolism, ensuring proper skeletal mineral density and minimizing fracture risks.",
+    "<b>Cellular Antioxidant Defense:</b> Active trace minerals feed core endogenous antioxidant networks, systematically neutralizing free-radical stress and mitigating long-term systemic cellular wear."
+  ],
+  "precautionsIntro": "Caloric Tracking and Processing Integrity: Due to their high energy density and specific biochemical composition, incorporating cashews requires deliberate portion tracking and mindful structural sourcing.",
+  "precautions": [
+    "<b>Elevated Caloric Density:</b> The exceptionally rich and buttery flavor comes from a concentrated lipid foundation. Individuals navigating strict daily caloric deficits must measure portions intentionally to prevent unexpected surpluses.",
+    "<b>Presence of Phytates and Oxalates:</b> Raw cashews contain natural phytic acid compounds that can bind trace minerals, alongside moderate oxalates. Individuals predisposed to calcium-oxalate kidney stones should monitor intake or opt for soaked/roasted variants.",
+    "<b>Strict Shell Contamination Safeguards:</b> The raw shell of the cashew contains anacardic acid (urushiol), a potent toxin capable of causing severe dermatitis. Commercial cashews are thoroughly steam-processed or roasted to safely neutralize this layer before packaging."
+  ]
+  },
+  "butternut-squash": {
+  "slug": "butternut-squash",
+  "name": "Butternut Squash",
+  "category": "Vegetables",
+  "image": "/productinfo/butternut-squash.png",
+  "imageAlt": "fresh butternut squash",
+  "description": "Butternut squash is a premium, nutrient-dense winter squash celebrated for its smooth, sweet, nutty flavor and vibrant orange flesh. Structurally rich in complex carbohydrates and dietary fiber while maintaining a highly restrictive caloric density, it serves as an exceptional biological source of carotenoid antioxidants, active B-vitamins, and essential minerals configured to optimize metabolic health, vision integrity, and systemic immune defense.",
+  "macroTitle": "Macro Nutrients (per 100g, baked/roasted)",
+  "macroIntro": "The macronutrient profile of baked butternut squash offers a clean, low-calorie carbohydrate blueprint packed with functional dietary fiber and a completely negligible fat footprint, making it an ideal fuel source for metabolic weight management.",
+  "microIntro": "Butternut squash holds a profound, highly bioavailable micronutrient matrix, delivering magnificent yields of Provitamin A, Vitamin C, and regulating electrolytes that smoothly assist tissue preservation and immune kinetics.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~40 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally low energy density, offering high volume and rich satiety without creating unexpected daily caloric surpluses."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.9 grams",
+      "bg": "#f5722c",
+      "description": "A minimalist plant-derived protein footprint, characteristic of starchy winter vegetables and root crops."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "Maintains a near-zero lipid baseline, making it an elite carbohydrate source for strict ultra-low-fat nutritional frameworks."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "10.5 grams",
+      "bg": "#15837c",
+      "description": "Composed of complex, slow-burning starches balanced by soluble and insoluble fiber (~2.0g), facilitating smooth glucose absorption curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "532 mcg / 59% DV",
+      "bg": "#f5722c",
+      "description": "An extraordinary concentration of plant carotenoids. Readily converts to active retinol, which directly fuels the retinal visual cycle and governs skin cell differentiation."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "15.1 mg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "An essential antioxidant cofactor that accelerates endogenous collagen synthesis, reinforces capillary walls, and boosts immune cell response cascades."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "362 mg / 8% DV",
+      "bg": "#66ab63",
+      "description": "A prominent intracellular electrolyte that actively regulates fluid homeostasis, balances systemic sodium loads, and stabilizes neuromuscular electrical conduction."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.2 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "An essential trace element catalyst required for building joint cartilage matrices and supporting internal superoxide dismutase antioxidant systems."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.1 mg / 6% DV",
+      "bg": "#15837c",
+      "description": "Acts as a mandatory cofactor in amino acid metabolism, red blood cell synthesis, and the modulation of central neurotransmitter signaling pathways."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "22 mg / 5% DV",
+      "bg": "#1a96cd",
+      "description": "Supports foundational enzymatic transfers, promotes muscular relaxation, and contributes to structural bone mineral retention."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Ocular Matrix & Vision Protection:</b> Massive natural yields of beta-carotene combined with lutein and zeaxanthin shield retinal tissues from oxidative blue-light damage and mitigate risks of macular degradation.",
+    "<b>Glycemic & Digestive Stabilization:</b> The structural matrix of complex starches and soluble dietary fibers delays gastric emptying, ensuring smooth glucose kinetics and feeding beneficial gut microbiota.",
+    "<b>Systemic Antioxidant Barrier:</b> The potent synergetic pairing of Vitamin C and carotenoids actively neutralizes free-radical stress, preventing low-grade inflammation and preserving vascular cellular health.",
+    "<b>Electrolyte and Blood Pressure Regulation:</b> High concentrations of potassium work to alleviate vascular tension, actively driving down elevated blood pressure and stabilizing fluid distribution.",
+    "<b>Dermatological & Collagen Support:</b> Robust Provitamin A payloads stimulate rapid skin cell turnover and continuous mucous membrane repair, helping maintain a clear dermal barrier."
+  ],
+  "precautionsIntro": "Glycemic Load Management and Preparation Integrity: While highly therapeutic, introducing butternut squash requires attention to cooking methods and glycemic volume control.",
+  "precautions": [
+    "<b>Elevated Glycemic Index when Over-Roasted:</b> Prolonged, high-heat baking breaks down complex starches into simpler sugars, raising its glycemic index. Individuals managing severe insulin resistance or type 2 diabetes should favor steaming or monitor portion sizes.",
+    "<b>High Potassium Clearance Considerations:</b> Due to the dense concentration of potassium, individuals navigating advanced stages of chronic kidney disease (CKD) or those on potassium-sparing medications must coordinate intake frequencies closely.",
+    "<b>Dense Fiber Gastrointestinal Adaptations:</b> The heavy payload of complex fibers can cause mild bloating or flatulence in individuals unaccustomed to fiber-rich diets or those managing acute irritable bowel syndrome (IBS)."
+  ]
+  },
+  "acorn-squash": {
+  "slug": "acorn-squash",
+  "name": "Acorn Squash",
+  "category": "Vegetables",
+  "image": "/productinfo/acorn-squash.png",
+  "imageAlt": "fresh acorn squash",
+  "description": "Acorn squash is a premium, structurally dense winter squash recognized for its distinct ridged, acorn-like silhouette and sweet, yellow-orange flesh. Exceptionally rich in soluble dietary fibers and regulating electrolytes while maintaining a highly restrictive caloric layout, it delivers a potent botanical matrix packed with complex B-vitamins, Vitamin C, and diverse carotenoids configured to optimize gastrointestinal kinetic pathways, vascular tone, and cellular energy production.",
+  "macroTitle": "Macro Nutrients (per 100g, baked/roasted)",
+  "macroIntro": "The macronutrient configuration of baked acorn squash delivers an elite, low-density carbohydrate blueprint featuring an outstanding yield of dietary fiber and an absolute near-zero lipid profile, making it a premier choice for sustaining clean metabolic energy.",
+  "microIntro": "Acorn squash houses a deeply functional, bioavailable micronutrient payload, presenting magnificent structural levels of potassium, magnesium, and essential metabolic cofactors that easily reinforce cardiac and nervous system health.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~56 kcal",
+      "bg": "#15837c",
+      "description": "A very low energy density profile that offers high volumetric satiety, keeping baseline metabolic loading exceptionally clean."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.1 grams",
+      "bg": "#f5722c",
+      "description": "A modest, foundational plant-based protein contribution typical of high-fiber winter squash varieties."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "Holds a virtually non-existent fat trace, facilitating strict lipid control within optimized, whole-food nutritional regimens."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "14.6 grams",
+      "bg": "#15837c",
+      "description": "Composed of robust complex starches combined with an outstanding dietary fiber payload (~4.0g), generating long-lasting energy release curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "437 mg / 9% DV",
+      "bg": "#66ab63",
+      "description": "An elite intracellular electrolyte concentration that significantly outpaces standard bananas, working directly to regulate healthy systemic fluid pressures."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "11.0 mg / 12% DV",
+      "bg": "#1a96cd",
+      "description": "A fundamental antioxidant cofactor required for driving endogenous collagen synthesis, reinforcing cellular walls, and neutralizing free-radical stress."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "32 mg / 8% DV",
+      "bg": "#15837c",
+      "description": "A highly functional mineral level that supports enzyme-driven energy pathways, relaxes vascular smooth muscle, and helps preserve skeletal density."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.2 mg / 12% DV",
+      "bg": "#f5722c",
+      "description": "Plays an active coenzymatic role in amino acid breakdown, proper red blood cell synthesis, and the modulation of cognitive neurotransmitter pathways."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.2 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "An essential trace mineral catalyst that assists in bone mineral matrix formatting and drives mitochondrial superoxide dismutase defense networks."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "18 mcg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "Provides a moderate payload of alpha and beta-carotenoid pigments that support mucous membrane cellular health and basic night vision adaptation loops."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Kinetic Optimization:</b> The exceptional concentration of soluble and insoluble fibers accelerates proper bowel transit mechanics, prevents toxic stasis, and heavily populates beneficial gut biomes.",
+    "<b>Vascular Architecture & Pressure Relief:</b> Massive natural payloads of potassium work in strict coordination with magnesium to soothe arterial wall tension, actively dropping elevated blood pressure metrics.",
+    "<b>Enhanced Mitochondrial Metabolism:</b> A highly robust profile of Vitamin B6 and key mineral catalysts acts directly on carbohydrate oxidation loops, converting starches into usable cellular ATP without metabolic lag.",
+    "<b>Systemic Radical Neutralization:</b> Endogenous Vitamin C paired with active polyphenols creates a dependable biological shield that halts lipid peroxidation, safeguarding vascular cellular boundaries from premature wear.",
+    "<b>Skeletal Mineralization Support:</b> The functional co-presence of magnesium and manganese serves as vital raw structural materials required for sustaining dense bone remodeling cycles and matrix strength."
+  ],
+  "precautionsIntro": "Carbohydrate Volume Management and Potassium Clearance Factors: Integrating acorn squash requires objective portion calibration depending on specific metabolic baselines and kidney health variables.",
+  "precautions": [
+    "<b>Dense Complex Carbohydrate Load:</b> Acorn squash possesses a higher starch and caloric density per gram compared to summer squash or standard pumpkins. Individuals following strict ketogenic or hyper-restrictive low-carb protocols must monitor volume metrics closely.",
+    "<b>Advanced Renal Clearance Considerations:</b> Because of the unusually high potassium load, individuals navigating severe chronic kidney disease (CKD) or those taking specific potassium-sparing medications must moderate portion frequencies.",
+    "<b>High-Fiber Gastrointestinal Adaptation Phase:</b> The highly concentrated fiber matrix may cause transient flatulence, bloating, or mild abdominal cramps in individuals transitioning from a low-fiber diet or managing acute irritable bowel syndrome (IBS)."
+  ]
+  },
+  "dried-apricots": {
+  "slug": "dried-apricots",
+  "name": "Dried Apricots",
+  "category": "Fruits & Berries",
+  "image": "/productinfo/dried-apricots.png",
+  "imageAlt": "dried apricots uruk kuraga",
+  "description": "Dried apricots are a premium, highly concentrated dried fruit celebrated for their intense flavor and remarkable nutrient density. By removing moisture, the naturally occurring potassium, iron, dietary fibers, and carotenoids are concentrated into a deeply functional metabolic fuel matrix designed to optimize cardiovascular performance, blood cell health, and gastrointestinal kinetic pathways.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient configuration of dried apricots presents a dense, slow-release carbohydrate framework packed with organic dietary fibers, maintaining an absolute near-zero fat footprint to deliver sustained energy.",
+  "microIntro": "Dried apricots pack an extraordinary micronutrient payload, serving as one of the most potent plant-based sources of potassium and iron, smoothly reinforcing vascular stability and hematopoiesis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~241 kcal",
+      "bg": "#15837c",
+      "description": "A dense energy concentration derived from natural fruit sugars, providing efficient fuel for physical recovery and cognitive endurance."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.4 grams",
+      "bg": "#f5722c",
+      "description": "An honorable plant-based protein yield for a dried fruit, contributing to baseline amino acid balance."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.5 grams",
+      "bg": "#e4a910",
+      "description": "Holds a virtually non-existent lipid baseline, keeping total systemic fat loading entirely clean."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "62.6 grams",
+      "bg": "#15837c",
+      "description": "Composed of natural fructose and glucose perfectly balanced by a massive dietary fiber matrix (~7.3g), resulting in a steady energy release."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "1162 mg / 25% DV",
+      "bg": "#66ab63",
+      "description": "A magnificent, industry-leading intracellular electrolyte concentration. Actively coordinates systemic fluid balance and directly lowers arterial blood pressure."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "180 mcg / 20% DV",
+      "bg": "#f5722c",
+      "description": "A profound payload of plant carotenoids that readily converts into active retinol to protect retinal tissues and support skin cell turnover."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "2.7 mg / 15% DV",
+      "bg": "#e4a910",
+      "description": "An excellent non-heme organic iron yield that assists in hemoglobin formation, supporting continuous cellular oxygenation."
+    },
+    {
+      "id": "vitamin-e",
+      "slug": "vitamin-e",
+      "name": "Vitamin E",
+      "amount": "4.3 mg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "A highly functional fat-soluble antioxidant payload that actively shields cellular membranes from oxidative degradation and supports vascular health."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.3 mg / 33% DV",
+      "bg": "#15837c",
+      "description": "An essential catalytic mineral cofactor required for optimal iron absorption, melanin production, and cardiovascular flexibility."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "32 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Supports baseline enzyme-driven energy pathways, promotes muscular relaxation, and contributes to neural system stability."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Vascular Architecture & Pressure Relief:</b> The exceptional concentration of natural potassium acts as a powerful diuretic, soothing arterial wall tension and rapidly dropping elevated blood pressure metrics.",
+    "<b>Gastrointestinal Kinetic Optimization:</b> Massive yields of soluble fiber, including pectin, accelerate healthy bowel transit mechanics, preventing toxic stasis and acting as a premier prebiotic for gut microbiota.",
+    "<b>Hematopoiesis & Oxygen Transport:</b> The potent combination of plant-derived iron and copper coordinates highly efficient red blood cell production, neutralizing tissue fatigue and low-grade hypoxia.",
+    "<b>Ocular Matrix Shielding:</b> Concentrated payloads of beta-carotene paired with Vitamin E create a dependable biological shield that protects visual pathways from oxidative blue-light damage.",
+    "<b>Myocardial Muscle Conditioning:</b> Dense mineral and electrolyte availability systematically optimizes cardiac electrical conduction, reinforcing smooth, steady heart muscle contraction cycles."
+  ],
+  "precautionsIntro": "Glycemic Volume Coordination and Chemical Processing Integrity: Due to their high concentration of natural sugars and common industrial preservation methods, integrating dried apricots requires mindful portion tracking and sourcing awareness.",
+  "precautions": [
+    "<b>Concentrated Glycemic & Caloric Payload:</b> Dehydration drastically condenses sugars and calories per gram compared to fresh apricots. Individuals managing insulin resistance or strict daily caloric thresholds must calibrate portions intentionally.",
+    "<b>Sulfur Dioxide Preservative Hazards:</b> Commercially bright orange dried apricots are treated with sulfur dioxide ($SO_2$) to prevent browning. This chemical compound can trigger intense allergic reactions, respiratory distress, or migraines in sensitive individuals. Opting for organic, naturally brown sun-dried variants is highly recommended.",
+    "<b>Fructose-Driven Gastrointestinal Sensitivity:</b> The dense layout of fermentable natural oligosaccharides and fructose can cause transient bloating, gas, or mild cramps in individuals with sensitive digestive tracts or active IBS."
+  ]
+  },
+  "quince": {
+  "slug": "quince",
+  "name": "Quince",
+  "category": "Fruits & Berries",
+  "image": "/productinfo/quince.png",
+  "imageAlt": "fresh golden quince fruit",
+  "description": "Quince is a premium, structurally dense pome fruit celebrated for its intense aromatic profile, golden astringent flesh, and extraordinary concentration of soluble fibers. Maintaining a highly restrictive caloric layout, it delivers a potent botanical matrix of organic acids, heavy pectin structures, and diverse polyphenolic antioxidants engineered to optimize gastrointestinal cellular defense, vascular flexibility, and systemic immune kinetics.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "The macronutrient configuration of raw quince delivers a exceptionally clean, low-calorie carbohydrate layout packed with functional dietary fiber and a completely negligible fat footprint, making it an ideal choice for strict glycemic management.",
+  "microIntro": "Quince houses a deeply functional, bioavailable micronutrient payload, presenting excellent foundational levels of Vitamin C, copper, and active organic compounds that easily reinforce metabolic and tissue integrity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~57 kcal",
+      "bg": "#15837c",
+      "description": "A very low energy density profile that offers excellent volumetric satiety while keeping baseline metabolic loading clean."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.4 grams",
+      "bg": "#f5722c",
+      "description": "A minimalist plant protein footprint, characteristic of crisp, dense pome fruit varieties."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "Holds a virtually non-existent lipid baseline, making it ideal for ultra-low-fat nutritional frameworks."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "15.3 grams",
+      "bg": "#15837c",
+      "description": "Composed of complex carbohydrates balanced by an exceptional dietary fiber matrix (~1.9g), yielding a steady, gradual glucose release."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "15.0 mg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "An essential antioxidant cofactor that accelerates endogenous collagen synthesis, reinforces capillary walls, and drives immune cell defense."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.13 mg / 14% DV",
+      "bg": "#15837c",
+      "description": "An essential catalytic trace mineral required for optimal iron absorption, maintaining vascular tissue elasticity, and genomic cross-linking."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "197 mg / 4% DV",
+      "bg": "#66ab63",
+      "description": "A foundational intracellular electrolyte that actively coordinates cellular fluid balance and regulates vascular smooth muscle tone."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "0.7 mg / 4% DV",
+      "bg": "#e4a910",
+      "description": "Provides a modest non-heme organic iron yield to assist in baseline hemoglobin production and cellular oxygenation cycles."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.04 mg / 3% DV",
+      "bg": "#f5722c",
+      "description": "Contributes to baseline coenzymatic amino acid metabolism and supports standard central neurotransmitter signaling pathways."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "8 mg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "Supports basic enzymatic transfers, cellular ATP stability, and neuromuscular relaxation mechanisms."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Mucosal Protection:</b> Massive natural payloads of soluble pectin and mucilage compounds form a physical, protective gel layer over gastric linings, soothing low-grade inflammation and accelerating ulcer recovery.",
+    "<b>Astringent Cellular Defense:</b> A highly concentrated profile of tannins (catechin and epicatechin) actively binds to and precipitates toxic compounds, shielding intestinal walls from oxidative stress and balancing bowel kinetics.",
+    "<b>Vascular Flexibility & Capillary Support:</b> The synergetic pairing of Vitamin C and active copper promotes robust collagen matrices, directly reinforcing the structural elasticity and strength of blood vessels.",
+    "<b>Hepatic Stabilization & Lipid Control:</b> Natural organic acids and antioxidant polyphenols help modulate liver metabolic processing, actively reducing lipid accumulation and stabilizing cholesterol transport frameworks.",
+    "<b>Immune Response Modulation:</b> Concentrated payloads of vitamin C combined with unique antiviral polyphenolic fractions optimize macrophage kinetics and bolster systemic cellular defense barriers."
+  ],
+  "precautionsIntro": "Astringency Variables, Seed Toxicity, and Thermal Preparation: Incorporating quince requires structural awareness regarding raw texturing and core management.",
+  "precautions": [
+    "<b>High Raw Tannin Concentration:</b> Due to its dense astringency and hard texture, eating raw quince can be difficult and may cause temporary dryness of the oral mucosa or mild stomach discomfort in individuals with hyper-sensitive digestion. Cooking or poaching easily softens these structural fibers.",
+    "<b>Amygdalin Hazard in Seeds:</b> Quince seeds contain a chemical compound called amygdalin, which breaks down into toxic hydrogen cyanide when digested. The core and seeds must be strictly removed before consumption or culinary processing.",
+    "<b>Added Sugar Traps in Culinary Preparation:</b> Because quince is naturally tart and astringent, commercial recipes (jams, compotes, pastes like dulcet de membrillo) utilize heavy loads of refined sugar. Portions of processed quince must be tracked carefully to prevent unintended glycemic spikes."
+  ]
   }
 }

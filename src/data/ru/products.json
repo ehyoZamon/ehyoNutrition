@@ -1069,5 +1069,50 @@
     "image": "/products/beef-kidneys.png",
     "favorite": false,
     "link": "/productinfo/beef-kidneys"
+  },
+  {
+    "id": 121,
+    "name": "Кешью",
+    "category": "Орехи и семена",
+    "calories": 553,
+    "image": "/products/cashews.png",
+    "favorite": false,
+    "link": "/productinfo/cashews"
+  },
+  {
+    "id": 122,
+    "name": "Тыква баттернат",
+    "category": "Овощи",
+    "calories": 45,
+    "image": "/products/butternut-squash.png",
+    "favorite": false,
+    "link": "/productinfo/butternut-squash"
+  },
+  {
+    "id": 123,
+    "name": "Тыква акорн",
+    "category": "Овощи",
+    "calories": 40,
+    "image": "/products/acorn-squash.png",
+    "favorite": false,
+    "link": "/productinfo/acorn-squash"
+  },
+  {
+    "id": 124,
+    "name": "Сушёные абрикосы",
+    "category": "Фрукты и ягоды",
+    "calories": 241,
+    "image": "/products/dried-apricots.png",
+    "favorite": false,
+    "link": "/productinfo/dried-apricots"
+  },
+  {
+    "id": 125,
+    "name": "Айва",
+    "category": "Фрукты и ягоды",
+    "calories": 57,
+    "image": "/products/quince.png",
+    "favorite": false,
+    "link": "/productinfo/quince"
   }
 ]
