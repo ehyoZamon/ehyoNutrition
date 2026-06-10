@@ -1114,5 +1114,230 @@
     "image": "/products/quince.png",
     "favorite": false,
     "link": "/productinfo/quince"
+  },
+  {
+    "id": 126,
+    "name": "Груша",
+    "category": "Фрукты и ягоды",
+    "calories": 57,
+    "image": "/products/pear.png",
+    "favorite": false,
+    "link": "/productinfo/pear"
+  },
+  {
+    "id": 127,
+    "name": "Артишоки",
+    "category": "Овощи",
+    "calories": 47,
+    "image": "/products/artichoke.png",
+    "favorite": false,
+    "link": "/productinfo/artichoke"
+  },
+  {
+    "id": 128,
+    "name": "Бамия",
+    "category": "Овощи",
+    "calories": 33,
+    "image": "/products/okra.png",
+    "favorite": false,
+    "link": "/productinfo/okra"
+  },
+  {
+    "id": 129,
+    "name": "Грейпфрут",
+    "category": "Фрукты и ягоды",
+    "calories": 42,
+    "image": "/products/grapefruit.png",
+    "favorite": false,
+    "link": "/productinfo/grapefruit"
+  },
+  {
+    "id": 130,
+    "name": "Брюква",
+    "category": "Овощи",
+    "calories": 37,
+    "image": "/products/rutabaga.png",
+    "favorite": false,
+    "link": "/productinfo/rutabaga"
+  },
+  {
+    "id": 131,
+    "name": "Икра",
+    "category": "Рыба и морепродукты",
+    "calories": 264,
+    "image": "/products/caviar.png",
+    "favorite": false,
+    "link": "/productinfo/caviar"
+  },
+  {
+    "id": 132,
+    "name": "Вино",
+    "category": "Напитки",
+    "calories": 85,
+    "image": "/products/wine.png",
+    "favorite": false,
+    "link": "/productinfo/wine"
+  },
+  {
+    "id": 133,
+    "name": "Виноградные листья",
+    "category": "Овощи",
+    "calories": 93,
+    "image": "/products/grape-leaves.png",
+    "favorite": false,
+    "link": "/productinfo/grape-leaves"
+  },
+  {
+    "id": 134,
+    "name": "Вода",
+    "category": "Напитки",
+    "calories": 0,
+    "image": "/products/water.png",
+    "favorite": false,
+    "link": "/productinfo/water"
+  },
+  {
+    "id": 135,
+    "name": "Пшеница",
+    "category": "Крупы и злаки",
+    "calories": 340,
+    "image": "/products/wheat.png",
+    "favorite": false,
+    "link": "/productinfo/wheat"
+  },
+  {
+    "id": 136,
+    "name": "Голубиный горох",
+    "category": "Бобовые",
+    "calories": 343,
+    "image": "/products/pigeon-pea.png",
+    "favorite": false,
+    "link": "/productinfo/pigeon-pea"
+  },
+  {
+    "id": 137,
+    "name": "Гуава",
+    "category": "Фрукты и ягоды",
+    "calories": 68,
+    "image": "/products/guava.png",
+    "favorite": false,
+    "link": "/productinfo/guava"
+  },
+  {
+    "id": 138,
+    "name": "Дайкон",
+    "category": "Овощи",
+    "calories": 18,
+    "image": "/products/daikon.png",
+    "favorite": false,
+    "link": "/productinfo/daikon"
+  },
+  {
+    "id": 139,
+    "name": "Джамболан",
+    "category": "Фрукты и ягоды",
+    "calories": 60,
+    "image": "/products/java-plum.png",
+    "favorite": false,
+    "link": "/productinfo/java-plum"
+  },
+  {
+    "id": 140,
+    "name": "Жир индейки",
+    "category": "Масла и жиры",
+    "calories": 900,
+    "image": "/products/turkey-fat.png",
+    "favorite": false,
+    "link": "/productinfo/fat"
+  },
+  {
+    "id": 141,
+    "name": "Гусиный жир",
+    "category": "Масла и жиры",
+    "calories": 900,
+    "image": "/products/fat.png",
+    "favorite": false,
+    "link": "/productinfo/goose-fat"
+  },
+  {
+    "id": 142,
+    "name": "Говяжий жир",
+    "category": "Масла и жиры",
+    "calories": 902,
+    "image": "/products/fat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-fat"
+  },
+  {
+    "id": 143,
+    "name": "Бараний жир",
+    "category": "Масла и жиры",
+    "calories": 902,
+    "image": "/products/fat.png",
+    "favorite": false,
+    "link": "/productinfo/mutton-tallow"
+  },
+  {
+    "id": 144,
+    "name": "Зира",
+    "category": "Травы и специи",
+    "calories": 375,
+    "image": "/products/cumin-seeds.png",
+    "favorite": false,
+    "link": "/productinfo/cumin-seeds"
+  },
+  {
+    "id": 145,
+    "name": "Инжир",
+    "category": "Фрукты и ягоды",
+    "calories": 74,
+    "image": "/products/figs.png",
+    "favorite": false,
+    "link": "/productinfo/figs"
+  },
+  {
+    "id": 146,
+    "name": "Какао",
+    "category": "Напитки",
+    "calories": 228,
+    "image": "/products/cocoa.png",
+    "favorite": false,
+    "link": "/productinfo/cocoa-powder"
+  },
+  {
+    "id": 147,
+    "name": "Кардамон",
+    "category": "Травы и специи",
+    "calories": 311,
+    "image": "/products/cardamom-seeds.png",
+    "favorite": false,
+    "link": "/productinfo/cardamom-seeds"
+  },
+  {
+    "id": 148,
+    "name": "Баранина",
+    "category": "Мясо",
+    "calories": 294,
+    "image": "/products/mutton.png",
+    "favorite": false,
+    "link": "/productinfo/mutton"
+  },
+  {
+    "id": 149,
+    "name": "Кедровый орех",
+    "category": "Орехи и семена",
+    "calories": 673,
+    "image": "/products/pine-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/pine-nuts"
+  },
+  {
+  "id": 150,
+    "name": "Киноа",
+    "category": "Крупы и злаки",
+    "calories": 368,
+    "image": "/products/quinoa.png",
+    "favorite": false,
+    "link": "/productinfo/quinoa"
   }
 ]
