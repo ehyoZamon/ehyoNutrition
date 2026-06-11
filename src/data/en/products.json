@@ -1237,18 +1237,18 @@
     "name": "Java Plum",
     "category": "food/fruits",
     "calories": 60,
-    "image": "/products/java-plum.png",
+    "image": "/products/jambolan.png",
     "favorite": false,
-    "link": "/productinfo/java-plum"
+    "link": "/productinfo/jambolan"
   },
   {
     "id": 140,
     "name": "Turkey Fat",
     "category": "food/oils and fats",
     "calories": 900,
-    "image": "/products/turkey-fat.png",
+    "image": "/products/fat.png",
     "favorite": false,
-    "link": "/productinfo/fat"
+    "link": "/productinfo/turkey-fat"
   },
   {
     "id": 141,

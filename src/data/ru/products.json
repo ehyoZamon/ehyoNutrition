@@ -1237,18 +1237,18 @@
     "name": "Джамболан",
     "category": "Фрукты и ягоды",
     "calories": 60,
-    "image": "/products/java-plum.png",
+    "image": "/products/jambolan.png",
     "favorite": false,
-    "link": "/productinfo/java-plum"
+    "link": "/productinfo/jambolan"
   },
   {
     "id": 140,
     "name": "Жир индейки",
     "category": "Масла и жиры",
     "calories": 900,
-    "image": "/products/turkey-fat.png",
+    "image": "/products/fat.png",
     "favorite": false,
-    "link": "/productinfo/fat"
+    "link": "/productinfo/turkey-fat"
   },
   {
     "id": 141,
