@@ -290,7 +290,7 @@
   {
     "id": 33,
     "name": "Brown Rice",
-    "category": "food/grains",
+    "category": "food/grains and cereals",
     "calories": 111,
     "image": "/products/brown-rice.png",
     "favorite": false,
@@ -1325,7 +1325,7 @@
   {
     "id": 149,
     "name": "Pine Nuts",
-    "category": "food/nuts and seeds",
+    "category": "food/seeds and nuts",
     "calories": 673,
     "image": "/products/pine-nuts.png",
     "favorite": false,

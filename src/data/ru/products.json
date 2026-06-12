@@ -290,7 +290,7 @@
   {
     "id": 33,
     "name": "Бурый рис",
-    "category": "Зерновые",
+    "category": "Крупы и злаки",
     "calories": 111,
     "image": "/products/brown-rice.png",
     "favorite": false,
@@ -1163,7 +1163,7 @@
   {
     "id": 131,
     "name": "Икра",
-    "category": "Рыба и морепродукты",
+    "category": "Морепродукты",
     "calories": 264,
     "image": "/products/caviar.png",
     "favorite": false,
