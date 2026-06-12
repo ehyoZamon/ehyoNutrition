@@ -172,9 +172,9 @@
 
 .content-text .top-food-sources .subelem{
     background: #eff7ee;
-    height: 75px;
-    min-width: 75px;
-    max-width: 100px;
+    height: 80px;
+    min-width: 100px;
+    max-width: 120px;
     width: max-content;
     border-radius: 20px;
     overflow: hidden;
@@ -201,6 +201,15 @@
     overflow: hidden;        /* Прячем то, что вылезло за пределы блока */
     text-overflow: ellipsis;
     width: 100%;
+}
+
+
+.content-text .top-food-sources .nutrient-amount{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: #777777;
 }
 
 

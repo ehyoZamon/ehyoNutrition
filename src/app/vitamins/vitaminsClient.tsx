@@ -100,6 +100,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
           <div className={styles["vitamin"]} key={vitamin.id}>
             <Link
               href={vitamin.link}
+              prefetch={false}
               className={styles["vitamin-img-container"]}
             >
               <Image
@@ -115,6 +116,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
             <Link
               href={vitamin.link}
               className={styles["vitamin-details"]}
+              prefetch={false}
             >
               <div className={styles["vitamin-name"]}>
                 {vitamin.name}
@@ -160,7 +162,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
       </div>
 
       <div className={styles["navigation"]}>
-        <Link className={styles["nav-link"]} href="/main">
+        <Link prefetch={false} className={styles["nav-link"]} href="/main">
           <Image
             src="/main/home.svg"
             alt="home"
@@ -169,7 +171,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="/products">
+        <Link prefetch={false} className={styles["nav-link"]} href="/products">
           <Image
             src="/main/products.svg"
             alt="vitamins"
@@ -178,7 +180,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="#">
+        <Link prefetch={false} className={styles["nav-link"]} href="#">
           <Image
             src="/main/antioxidant-green.svg"
             alt="antioxidant"
@@ -187,7 +189,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
           />
         </Link>
 
-        <Link className={styles["nav-link"]} href="/favorites">
+        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
           <Image
             src="/main/heart.svg"
             alt="heart"

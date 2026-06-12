@@ -25,6 +25,9 @@
   --third-family: var(--font-nunito), sans-serif;
 }
 
+html, body {
+  touch-action: manipulation;
+}
 
 *{
     box-sizing: border-box;

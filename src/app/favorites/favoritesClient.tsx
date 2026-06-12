@@ -107,6 +107,7 @@ const FavoritesClient = () => {
             {favoriteProducts.map((product) => (
               <div className={styles["product"]} key={`product-${product.id}`}>
                 <Link
+                  prefetch={false}
                   href={product.link}
                   className={styles["product-img-container"]}
                 >
@@ -118,7 +119,7 @@ const FavoritesClient = () => {
                   />
                 </Link>
 
-                <Link href={product.link} className={styles["product-details"]}>
+                <Link prefetch={false} href={product.link} className={styles["product-details"]}>
                   <div className={styles["product-name"]}>{product.name}</div>
                   <div className={styles["product-category"]}>
                     {product.category}
@@ -152,6 +153,7 @@ const FavoritesClient = () => {
             {favoriteVitamins.map((vitamin) => (
               <div className={styles["vitamin"]} key={`vitamin-${vitamin.id}`}>
                 <Link
+                  prefetch={false}
                   href={vitamin.link}
                   className={styles["vitamin-img-container"]}
                 >
@@ -165,7 +167,7 @@ const FavoritesClient = () => {
                   <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
                 </Link>
 
-                <Link href={vitamin.link} className={styles["vitamin-details"]}>
+                <Link prefetch={false} href={vitamin.link} className={styles["vitamin-details"]}>
                   <div className={styles["vitamin-name"]}>{vitamin.name}</div>
                   <div className={styles["vitamin-daily-value"]}>
                     {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
@@ -195,13 +197,13 @@ const FavoritesClient = () => {
       </div>
 
       <div className={styles["navigation"]}>
-        <Link className={styles["nav-link"]} href="/main">
+        <Link prefetch={false} className={styles["nav-link"]} href="/main">
           <Image src="/main/home.svg" alt="home" width={48} height={48} />
         </Link>
-        <Link className={styles["nav-link"]} href="/products">
+        <Link prefetch={false} className={styles["nav-link"]} href="/products">
           <Image src="/main/products.svg" alt="products" width={48} height={48} />
         </Link>
-        <Link className={styles["nav-link"]} href="/vitamins">
+        <Link prefetch={false}  className={styles["nav-link"]} href="/vitamins">
           <Image
             src="/main/antioxidant.svg"
             alt="vitamins"
@@ -209,7 +211,7 @@ const FavoritesClient = () => {
             height={48}
           />
         </Link>
-        <Link className={styles["nav-link"]} href="/favorites">
+        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
           <Image src="/heart-filled.svg" alt="favorites" width={48} height={48} />
         </Link>
       </div>

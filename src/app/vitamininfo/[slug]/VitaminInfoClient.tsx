@@ -17,17 +17,15 @@ type Props = {
 const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
   const t = useTranslations("VitaminInfo");
   const locale = useLocale();
-  
   const router = useRouter();
 
-  // Автоматически выбираем нужные локализованные данные на основе выбранного языка
   const vitamin = locale === "ru" ? vitaminRu : vitaminEn;
 
   const [activeTab, setActiveTab] = useState<"deficiency" | "overdose">(
     "deficiency"
   );
 
-  // Список продуктов, содержащих данный элемент
+  // Получаем уже отсортированный по убыванию массив продуктов
   const foodSources = useMemo(
     () => getProductsByVitaminSlug(vitamin.slug, locale),
     [vitamin.slug, locale]
@@ -87,9 +85,11 @@ const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
                 <div className={styles["food-sources-container"]}>
                   {foodSources.map((source) => (
                     <Link
+                      prefetch={false}
                       key={source.slug}
                       href={source.link}
                       className={`${styles["food-source"]} ${styles["subelem"]}`}
+                      style={{ display: "flex", flexDirection: "column", alignItems: "center" }} // Складываем контент в столбик
                     >
                       <Image
                         src={source.image}
@@ -99,6 +99,13 @@ const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
                         className={styles["food-source-img"]}
                       />
                       <div className={styles["product-name"]}>{source.name}</div>
+                      
+                      {/* КОЛИЧЕСТВО НУТРИЕНТА СНИЗУ ИМЕНИ */}
+                      <div 
+                        className={styles["nutrient-amount"]} 
+                      >
+                        {source.amount}
+                      </div>
                     </Link>
                   ))}
                 </div>
@@ -161,13 +168,13 @@ const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
       </div>
 
       <div className={styles["navigation"]}>
-        <Link className={styles["nav-link"]} href="/main">
+        <Link prefetch={false} className={styles["nav-link"]} href="/main">
           <Image src="/main/home.svg" alt="home" width={48} height={48} />
         </Link>
-        <Link className={styles["nav-link"]} href="/products">
+        <Link prefetch={false} className={styles["nav-link"]} href="/products">
           <Image src="/main/products.svg" alt="products" width={48} height={48} />
         </Link>
-        <Link className={styles["nav-link"]} href="/vitamins">
+        <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
           <Image
             src="/main/antioxidant-green.svg"
             alt="antioxidant"
@@ -175,7 +182,7 @@ const VitaminInfoClient = ({ vitaminEn, vitaminRu }: Props) => {
             height={48}
           />
         </Link>
-        <Link className={styles["nav-link"]} href="/favorites">
+        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
           <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
         </Link>
       </div>

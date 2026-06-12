@@ -41,6 +41,7 @@ const WalkthroughClient = () => {
             <OnboardingSlider />
 
             <Link
+                prefetch={false}
                 href="/main"
                 className={styles["get-started"]}
                 onClick={handleGetStarted}

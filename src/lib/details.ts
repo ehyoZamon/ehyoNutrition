@@ -44,9 +44,17 @@ const catalogBySlugMap = {
   ru: catalogBySlugRu,
 };
 
+// --- ВСПОМОГАТЕЛЬНЫЕ УТИЛИТЫ ---
+
+// Извлекает число из строк вида "158 mg", "9.5 g", "40 kcal". Если "present" или пусто — возвращает 0.
+function parseAmount(amountStr: string): number {
+  if (!amountStr || amountStr.toLowerCase() === "present") return 0;
+  const match = amountStr.match(/[\d.]+/);
+  return match ? parseFloat(match[0]) : 0;
+}
+
 // --- ФУНКЦИИ ---
 
-// Слагов в обеих базах одинаковое количество, берем дефолтный en
 export function getProductSlugs(): string[] {
   return Object.keys(productDetailsEn);
 }
@@ -55,7 +63,6 @@ export function getVitaminSlugs(): string[] {
   return Object.keys(vitaminDetailsEn);
 }
 
-// Добавляем аргумент locale со значением по умолчанию 'en'
 export function getProductDetail(slug: string, locale: string = "en"): ProductDetail | undefined {
   const source = productDetailsMap[locale as keyof typeof productDetailsMap] || productDetailsMap.en;
   return source[slug];
@@ -70,7 +77,6 @@ function productContainsVitamin(
   product: ProductDetail,
   vitaminSlug: string
 ): string | null {
-  // Безопасно получаем массивы, если они undefined, используем пустой массив []
   const macroNutrients = product.macroNutrients || [];
   const microNutrients = product.microNutrients || [];
   
@@ -85,12 +91,11 @@ function productContainsVitamin(
   return null;
 }
 
-// Самая важная функция: собирает продукты на нужном языке
+// ОБНОВЛЕННАЯ ФУНКЦИЯ: Сортирует продукты по убыванию количества нутриента
 export function getProductsByVitaminSlug(
   vitaminSlug: string,
   locale: string = "en"
 ): VitaminFoodSourceProduct[] {
-  // Выбираем правильные источники данных под текущий язык
   const productDetails = productDetailsMap[locale as keyof typeof productDetailsMap] || productDetailsMap.en;
   const catalogBySlug = catalogBySlugMap[locale as keyof typeof catalogBySlugMap] || catalogBySlugMap.en;
 
@@ -106,10 +111,10 @@ export function getProductsByVitaminSlug(
         name: product.name,
         image: catalogItem?.image ?? product.image,
         link: `/productinfo/${product.slug}`,
-        amount,
+        amount, // Сохраняем оригинальную строку (например, "158 mg") для рендеринга
       };
     })
     .filter((item): item is VitaminFoodSourceProduct => item !== null)
-    // Сортировка будет работать корректно для алфавита выбранной локали (включая кириллицу)
-    .sort((a, b) => a.name.localeCompare(b.name, locale));
+    // Сортируем по убыванию числового значения из строки amount
+    .sort((a, b) => parseAmount(b.amount) - parseAmount(a.amount));
 }

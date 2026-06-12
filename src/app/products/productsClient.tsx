@@ -15,9 +15,40 @@ import {
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
-
 import productDetailsRu from "@/data/ru/productDetails.json";
 import productDetailsEn from "@/data/en/productDetails.json";
+
+// Оптимизация 1: Выносим парсинг за пределы компонента.
+// Функция вызывается реже и не пересоздается.
+const normalizeAmount = (amount: string): number => {
+  const value = parseFloat(amount);
+  if (isNaN(value)) return 0;
+  if (amount.includes("mg")) return value * 1000;
+  return value; // mcg или базовое значение
+};
+
+// Оптимизация 2: Выносим тяжелый сбор уникальных нутриентов.
+// Нам не нужно делать это внутри хуков компонента, данные статичны.
+const generateNutrientsList = (detailsData: any) => {
+  const map = new Map<string, string>();
+  const values = Object.values(detailsData);
+  
+  for (let i = 0; i < values.length; i++) {
+    const details = values[i] as any;
+    const nutrients = [
+      ...(details.macroNutrients || []),
+      ...(details.microNutrients || []),
+    ];
+    for (let j = 0; j < nutrients.length; j++) {
+      const n = nutrients[j];
+      const key = n.slug || n.id;
+      if (!map.has(key)) {
+        map.set(key, n.name);
+      }
+    }
+  }
+  return Array.from(map.entries()).map(([value, label]) => ({ value, label }));
+};
 
 const ProductsClient = () => {
   const t = useTranslations("Products");
@@ -25,37 +56,41 @@ const ProductsClient = () => {
   const searchParams = useSearchParams();
 
   const categoryParam = searchParams.get("category");
-  const activeCategory = isFavoriteCategory(categoryParam)
-    ? categoryParam
-    : null;
+  const activeCategory = isFavoriteCategory(categoryParam) ? categoryParam : null;
 
   const [search, setSearch] = useState("");
   const [selectedNutrient, setSelectedNutrient] = useState<string | null>(null);
   const [showFilter, setShowFilter] = useState(false);
+  
+  // Храним только ID избранных товаров для мгновенного O(1) поиска
+  const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
 
-  const currentProductsData = useMemo(() => {
-    return locale === "ru" ? productsRu : productsEn;
+  // Загружаем избранное один раз при маунте
+  useEffect(() => {
+    const store = loadFavorites();
+    if (store?.products) {
+      setFavoriteIds(store.products);
+    }
+  }, []);
+
+  // Выбираем данные в зависимости от локали
+  const { currentProductsData, productDetailsData } = useMemo(() => {
+    return locale === "ru" 
+      ? { currentProductsData: productsRu, productDetailsData: productDetailsRu }
+      : { currentProductsData: productsEn, productDetailsData: productDetailsEn };
   }, [locale]);
 
-  const productDetailsData =
-    locale === "ru" ? productDetailsRu : productDetailsEn;
+  // Статичный список нутриентов для селекта
+  const nutrientsList = useMemo(() => {
+    return generateNutrientsList(productDetailsData);
+  }, [productDetailsData]);
 
-  const normalizeAmount = (amount: string) => {
-    const value = parseFloat(amount);
-    if (isNaN(value)) return 0;
-
-    if (amount.includes("mg")) return value * 1000;
-    if (amount.includes("mcg")) return value;
-
-    return value;
-  };
-
-  // 🔥 объединение данных
+  // Оптимизация 3: Сборка карты продуктов с деталями (делаем ОДИН раз при смене языка)
   const productsWithDetails = useMemo(() => {
     return currentProductsData.map((product) => {
-      const slug = product.link.split("/").pop();
-      const details =
-        productDetailsData[slug as keyof typeof productDetailsData];
+      // Быстрое извлечение slug без лишних split, если структура ссылки предсказуема
+      const slug = product.link.substring(product.link.lastIndexOf("/") + 1);
+      const details = productDetailsData[slug as keyof typeof productDetailsData] as any;
 
       if (!details) {
         return { ...product, nutrientsMap: {} };
@@ -63,20 +98,19 @@ const ProductsClient = () => {
 
       const nutrients = [
         ...(details.macroNutrients || []),
-        ...(((details as any).microNutrients) || []),
+        ...(details.microNutrients || []),
       ];
 
-      const nutrientsMap = nutrients.reduce((acc: any, n: any) => {
+      const nutrientsMap: Record<string, { name: string; amount: string; numericAmount: number }> = {};
+      for (let i = 0; i < nutrients.length; i++) {
+        const n = nutrients[i];
         const key = n.slug || n.id;
-
-        acc[key] = {
+        nutrientsMap[key] = {
           name: n.name,
           amount: n.amount,
           numericAmount: normalizeAmount(n.amount),
         };
-
-        return acc;
-      }, {});
+      }
 
       return {
         ...product,
@@ -85,72 +119,34 @@ const ProductsClient = () => {
     });
   }, [currentProductsData, productDetailsData]);
 
-  // 🔥 список нутриентов
-  const nutrientsList = useMemo(() => {
-    const map = new Map<string, string>();
-
-    Object.values(productDetailsData).forEach((details: any) => {
-      const nutrients = [
-        ...(details.macroNutrients || []),
-        ...(details.microNutrients || []),
-      ];
-
-      nutrients.forEach((n: any) => {
-        const key = n.slug || n.id;
-        if (!map.has(key)) {
-          map.set(key, n.name);
-        }
-      });
-    });
-
-    return Array.from(map.entries()).map(([value, label]) => ({
-      value,
-      label,
-    }));
-  }, [productDetailsData]);
-
-  const [products, setProducts] = useState(productsWithDetails);
-
-  useEffect(() => {
-    const store = loadFavorites();
-
-    setProducts(
-      productsWithDetails.map((product) => ({
-        ...product,
-        favorite: store.products.includes(product.id),
-      }))
-    );
-  }, [productsWithDetails]);
-
+  // Функция переключения избранного работает напрямую со стейтом ID
   const toggleFavorite = (id: number) => {
     const store = toggleProductFavorite(id);
-
-    setProducts((current) =>
-      current.map((product) => ({
-        ...product,
-        favorite: store.products.includes(product.id),
-      }))
-    );
+    if (store?.products) {
+      setFavoriteIds(store.products);
+    }
   };
 
-  // 🔥 фильтрация
+  // Оптимизация 4: Единый цикл фильтрации, сортировки и группировки
   const groupedProducts = useMemo(() => {
     const localeKey = locale === "ru" ? "ru" : "en";
-
     const allowedCategories = activeCategory
       ? FAVORITE_CATEGORY_FILTERS[activeCategory][localeKey]
       : null;
 
-    let filtered = products;
+    const query = search.trim().toLowerCase();
+
+    // 1. Фильтруем базовый массив
+    let filtered = productsWithDetails.map(p => ({
+      ...p,
+      favorite: favoriteIds.includes(p.id) // Накладываем актуальный статус избранного на лету
+    }));
 
     if (allowedCategories) {
-      filtered = filtered.filter((p) =>
-        allowedCategories.includes(p.category)
-      );
+      filtered = filtered.filter((p) => allowedCategories.includes(p.category));
     }
 
-    if (search) {
-      const query = search.toLowerCase();
+    if (query) {
       filtered = filtered.filter(
         (product) =>
           product.name.toLowerCase().includes(query) ||
@@ -168,20 +164,24 @@ const ProductsClient = () => {
         );
     }
 
-    return filtered.reduce((acc: any, product: any) => {
-      if (!acc[product.category]) {
-        acc[product.category] = [];
+    // 2. Группируем за один проход
+    const groups: Record<string, typeof filtered> = {};
+    for (let i = 0; i < filtered.length; i++) {
+      const product = filtered[i];
+      if (!groups[product.category]) {
+        groups[product.category] = [];
       }
-      acc[product.category].push(product);
-      return acc;
-    }, {});
-  }, [products, search, selectedNutrient, activeCategory, locale]);
+      groups[product.category].push(product);
+    }
 
-  const categories = Object.keys(groupedProducts);
+    return groups;
+  }, [productsWithDetails, search, selectedNutrient, activeCategory, locale, favoriteIds]);
+
+  const categories = useMemo(() => Object.keys(groupedProducts), [groupedProducts]);
 
   return (
     <div className={styles["main-layout"]}>
-      {/* 🔍 поиск + иконка */}
+      {/* 🔍 Поиск */}
       <div className={styles["search-container"]}>
         <Image
           src="/search.svg"
@@ -209,20 +209,18 @@ const ProductsClient = () => {
         />
       </div>
 
-      {/* 🔽 ФИЛЬТР */}
+      {/* 🔽 Фильтр */}
       {showFilter && (
         <div className={styles["filter-bar"]}>
           <select
             className={styles["filter-select"]}
             value={selectedNutrient || ""}
             onChange={(e) => {
-              const value = e.target.value || null;
-              setSelectedNutrient(value);
-              setShowFilter(false); // 🔥 скрыть после выбора
+              setSelectedNutrient(e.target.value || null);
+              setShowFilter(false);
             }}
           >
             <option value="">All nutrients</option>
-
             {nutrientsList.map((n) => (
               <option key={n.value} value={n.value}>
                 {n.label}
@@ -244,7 +242,7 @@ const ProductsClient = () => {
         </div>
       )}
 
-      {/* 📦 контент */}
+      {/* 📦 Контент */}
       <div className={styles["content"]}>
         {categories.length > 0 ? (
           categories.map((category) => (
@@ -255,6 +253,7 @@ const ProductsClient = () => {
                 <div className={styles["product"]} key={product.id}>
                   <Link
                     href={product.link}
+                    prefetch={false}
                     className={styles["product-img-container"]}
                   >
                     <Image
@@ -267,23 +266,15 @@ const ProductsClient = () => {
 
                   <Link
                     href={product.link}
+                    prefetch={false}
                     className={styles["product-details"]}
                   >
-                    <div className={styles["product-name"]}>
-                      {product.name}
-                    </div>
-
-                    <div className={styles["product-category"]}>
-                      {product.category}
-                    </div>
-
+                    <div className={styles["product-name"]}>{product.name}</div>
+                    <div className={styles["product-category"]}>{product.category}</div>
                     <div className={styles["product-calories"]}>
                       {selectedNutrient
-                        ? `${
-                            product.nutrientsMap[selectedNutrient]?.name
-                          }: ${
-                            product.nutrientsMap[selectedNutrient]?.amount ||
-                            "-"
+                        ? `${product.nutrientsMap[selectedNutrient]?.name}: ${
+                            product.nutrientsMap[selectedNutrient]?.amount || "-"
                           }`
                         : `${t("calories")}: ${product.calories}`}
                     </div>
@@ -294,11 +285,7 @@ const ProductsClient = () => {
                     onClick={() => toggleFavorite(product.id)}
                   >
                     <Image
-                      src={
-                        product.favorite
-                          ? "/heart-filled.svg"
-                          : "/heart.svg"
-                      }
+                      src={product.favorite ? "/heart-filled.svg" : "/heart.svg"}
                       alt="favorite"
                       width={27}
                       height={27}
@@ -321,16 +308,16 @@ const ProductsClient = () => {
         )}
       </div>
 
-      {/* 🔽 навигация */}
+      {/* 🔽 Навигация */}
       <div className={styles["navigation"]}>
-        <Link className={styles["nav-link"]} href="/main">
+        <Link prefetch={false} className={styles["nav-link"]} href="/main">
           <Image src="/main/home.svg" alt="home" width={48} height={48} />
         </Link>
-
         <Link
           className={styles["nav-link"]}
           href="/products"
           aria-current="page"
+          prefetch={false}
         >
           <Image
             src="/main/products-green.svg"
@@ -339,17 +326,10 @@ const ProductsClient = () => {
             height={48}
           />
         </Link>
-
-        <Link className={styles["nav-link"]} href="/vitamins">
-          <Image
-            src="/main/antioxidant.svg"
-            alt="antioxidant"
-            width={48}
-            height={48}
-          />
+        <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+          <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
         </Link>
-
-        <Link className={styles["nav-link"]} href="/favorites">
+        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
           <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
         </Link>
       </div>
