@@ -1447,5 +1447,68 @@
   "image": "/products/sesame-seeds.png",
   "favorite": false,
   "link": "/productinfo/sesame-seeds"
+  },
+  {
+    "id": 163,
+    "name": "Куриная печень",
+    "category": "Мясо и субпродукты",
+    "calories": 167,
+    "image": "/products/chicken-liver.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-liver"
+  },
+  {
+    "id": 164,
+    "name": "Куриные желудки",
+    "category": "Мясо и субпродукты",
+    "calories": 114,
+    "image": "/products/chicken-gizzards.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-gizzards"
+  },
+  {
+    "id": 165,
+    "name": "Куриные сердца",
+    "category": "Мясо и субпродукты",
+    "calories": 185,
+    "image": "/products/chicken-hearts.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-hearts"
+  },
+  {
+    "id": 166,
+    "name": "Куркума",
+    "category": "Травы и специи",
+    "calories": 312,
+    "image": "/products/turmeric.png",
+    "favorite": false,
+    "link": "/productinfo/turmeric"
+  },
+  {
+    "id": 167,
+    "name": "Лавровый лист",
+    "category": "Травы и специи",
+    "calories": 313,
+    "image": "/products/bay-leaf.png",
+    "favorite": false,
+    "link": "/productinfo/bay-leaf"
+  },
+  {
+    "id": 168,
+    "name": "Лайм",
+    "category": "Фрукты и ягоды",
+    "calories": 30,
+    "image": "/products/lime.png",
+    "favorite": false,
+    "link": "/productinfo/lime"
+  },
+  {
+    "id": 169,
+    "name": "Бобы люпина",
+    "category": "Бобовые",
+    "calories": 371,
+    "image": "/products/lupin-beans.png",
+    "favorite": false,
+    "link": "/productinfo/lupin-beans"
   }
 ]

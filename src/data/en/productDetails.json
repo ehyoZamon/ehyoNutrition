@@ -15856,5 +15856,705 @@
     "<b>Oxalate and Phytic Mineral Binding:</b> The outer hull of the raw seed houses significant phytic acid and oxalate matrices that can bind dietary calcium and zinc. Utilizing light roasting, soaking, or mechanical crushing completely enhances mineral bioavailability.",
     "<b>Caloric Density Management:</b> Due to the exceptionally high lipid concentration (~50% fat composition), unmanaged consumption can lead to unintended caloric surpluses. Portions should be structurally calibrated in metabolic diet plans."
   ]
-  }
+  },
+  "chicken-liver": {
+  "slug": "chicken-liver",
+  "name": "Chicken Liver",
+  "category": "Meat and Poultry",
+  "image": "/productinfo/chicken-liver.png",
+  "imageAlt": "fresh raw whole chicken livers on a marble cutting board with a sprig of rosemary",
+  "description": "Chicken liver is an exceptionally nutrient-dense organ meat, functioning as a premier biological reservoir for essential vitamins and highly bioavailable trace minerals. It features a radically concentrated micronutrient profile dominated by heme iron, preformed Vitamin A (retinol), and the complete family of B-complex vitamins—especially cobalamin (B12) and folate (B9). This metabolic powerhouse drives immediate cellular energy synthesis, supports efficient hematopoiesis, and fortifies hepatic detoxification pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, raw uncooked liver)",
+  "macroIntro": "Chicken liver delivers a highly bioavailable, lean macronutrient architecture dominated by premium structural animal proteins and an exceptionally low carbohydrate footprint.",
+  "microIntro": "The cellular matrix of chicken liver holds an unparalleled micronutrient payload, yielding elite concentrations of hematopoiectic vitamins, organic heme iron, and structural selenium.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~119 kcal",
+      "bg": "#15837c",
+      "description": "A low-caloric, high-nutrient-density energy profile that provides efficient metabolic fuel without excessive lipid or carbohydrate burdens."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.9 grams",
+      "bg": "#f5722c",
+      "description": "A complete animal protein structure holding a perfect balance of all essential amino acids, driving rapid cellular repair, enzyme synthesis, and muscle maintenance."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.8 grams",
+      "bg": "#e4a910",
+      "description": "A moderate, balanced lipid profile consisting of saturated, monounsaturated, and essential polyunsaturated fatty fatty acids required for hormone synthesis."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.7 grams",
+      "bg": "#1a96cd",
+      "description": "An ultra-minimal footprint, composed entirely of residual animal glycogen stored within the hepatic tissue structures."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "16.6 mcg / 692% DV",
+      "bg": "#15837c",
+      "description": "An astronomical cobalamin payload mandatory for driving erythrocyte maturation, preserving myelin sheath nerve integrity, and maintaining DNA stability."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Retinol)",
+      "amount": "3290 mcg / 366% DV",
+      "bg": "#f5722c",
+      "description": "A massive pool of highly bioavailable, preformed Vitamin A critical for modulating photoreceptor dark-adaptation metrics and maintaining mucosal epithelial linings."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "9.0 mg / 50% DV",
+      "bg": "#66ab63",
+      "description": "An elite cache of highly bioavailable heme iron, directly incorporated into hemoglobin synthesis loops to optimize systemic oxygen transport metrics."
+    },
+    {
+      "id": "vitamin-b9",
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "588 mcg / 147% DV",
+      "bg": "#1a96cd",
+      "description": "An exceptional coenzyme source required for rapid nucleic acid synthesis, single-carbon amino acid methylation, and prevention of megaloblastic anemia."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "54.6 mcg / 99% DV",
+      "bg": "#e4a910",
+      "description": "A vital trace mineral cofactor for glutathione peroxidase enzymes, playing an indispensable role in thyroid hormone metabolism and antioxidant security."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Hematopoiesis Acceleration:</b> The heavy synergy of **heme iron, B12, and folate** drives immediate red blood cell production, rapidly reversing iron-deficiency anemia states.",
+    "<b>Neuro-Cognitive Energy Boost:</b> Elite concentrations of the **B-vitamin complex** optimize cellular energy pathways within mitochondria, dispelling chronic fatigue and brain fog.",
+    "<b>Retinal and Dermal Regeneration:</b> Massive reserves of preformed **retinol (Vitamin A)** preserve nighttime visual acuity and orchestrate rapid cellular turnover across epithelial tissues.",
+    "<b>Thyroid and Antioxidant Shielding:</b> Exceptional volumes of **selenium** power the conversion of thyroid hormones while neutralizing systemic cellular oxidative stress cascades.",
+    "<b>Endogenous Detoxification Support:</b> A rich matrix of sulfur-containing amino acids and B-vitamins reinforces Phase I and Phase II hepatic clearance pathways within the human liver."
+  ],
+  "precautionsIntro": "Hypervitaminosis A Retinol Hazards, Endogenous Cholesterol Density, and Purine Mediated Uric Acid Dynamics: Structural dietary pacing ensures metabolic equilibrium.",
+  "precautions": [
+    "<b>Retinol Mediated Teratogenic and Toxicity Risks:</b> Due to the extreme concentrations of preformed **Vitamin A**, excessive consumption can precipitate chronic hypervitaminosis A. Pregnant individuals must carefully monitor portions to mitigate teratogenic developmental risks.",
+    "<b>Purine Induced Gout Flare-Ups:</b> Organ meats naturally hold dense cellular matrices rich in **purines**. Metabolic degradation of these structures elevates plasma uric acid levels, which is strictly contraindicated during acute gouty arthritis.",
+    "<b>Endogenous Cholesterol Densities:</b> Chicken liver contains significant built-in cholesterol matrices (~560mg per 100g). While dietary cholesterol has varying impacts on individual lipid profiles, hyper-responders with disrupted sterol homeostasis should regulate intake frequencies."
+  ]
+  },
+  "chicken-gizzards": {
+  "slug": "chicken-gizzards",
+  "name": "Chicken Gizzards",
+  "category": "Meat and Poultry",
+  "image": "/productinfo/chicken-gizzards.png",
+  "imageAlt": "fresh raw cleaned chicken gizzards on a wooden chopping board with whole black peppercorns",
+  "description": "Chicken gizzards are a dense, highly muscular organ meat that offers an exceptionally lean, protein-dense nutritional architecture. Unlike other organ meats, gizzards function purely as mechanical digestive tissue, resulting in a low-lipid framework that behaves similarly to skeletal muscle but with significantly higher concentrations of connective tissue, zinc, selenium, and iron. This metabolic substrate provides premium essential peptides to drive structural tissue synthesis while avoiding the extreme Vitamin A concentrations found in hepatic profiles.",
+  "macroTitle": "Macro Nutrients (per 100g, raw uncooked gizzards)",
+  "macroIntro": "Chicken gizzards exhibit a remarkably lean, carbohydrate-free macronutrient matrix, combining high concentrations of structural animal proteins with minimal lipid interventions.",
+  "microIntro": "The tightly woven muscular matrix of the gizzard houses a robust trace element profile, yielding exceptional volumes of organic zinc, metabolic selenium, and tissue-building iron.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~94 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally low caloric footprint, providing highly efficient animal energy without generating an excess lipid load."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.7 grams",
+      "bg": "#f5722c",
+      "description": "A dense, complete animal protein profile rich in collagen-forming amino acids like glycine and proline, critical for structural tissue re-synthesis."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.1 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid signature dominated by a balanced mix of monounsaturated and essential polyunsaturated fatty fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Naturally completely devoid of carbohydrate fractions or residual sugars, providing a pure protein-and-lipid substrate."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "2.7 mg / 25% DV",
+      "bg": "#15837c",
+      "description": "An abundant intracellular mineral required for coordinating T-lymphocyte maturation, stabilizing DNA replication, and optimizing testosterone synthesis loops."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "25.5 mcg / 46% DV",
+      "bg": "#f5722c",
+      "description": "A vital antioxidant trace mineral cofactor required to activate glutathione peroxidase and manage proper thyroid hormone metabolism."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "2.5 mg / 14% DV",
+      "bg": "#66ab63",
+      "description": "A highly bioavailable organic heme iron cache, easily absorbed by gut mucosal pathways to reinforce systemic hemoglobin metrics."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "3.3 mg / 21% DV",
+      "bg": "#1a96cd",
+      "description": "An essential water-soluble coenzyme precursor (NAD/NADP) critical for driving cellular mitochondrial ATP production and repairing damaged DNA strains."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "1.2 mcg / 50% DV",
+      "bg": "#e4a910",
+      "description": "A significant cobalamin payload necessary for supporting optimal erythrocyte development and protecting neural myelin sheath networks."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Lean Muscular Recovery:</b> The high **17.7g protein** payload combined with minimal lipids delivers highly targeted amino acids to rebuild damaged myofibrillar tissue networks.",
+    "<b>Immunological Support (Zinc):</b> Robust concentrations of **zinc** catalyze enzymatic pathways responsible for generating active white blood cells to combat infectious pathogens.",
+    "<b>Connective Tissue Reinforcement:</b> Dense native collagen fragments inside the muscular walls supply the specific peptide precursors needed to fortify human joint cartilage.",
+    "<b>Mitochondrial Energy Acceleration:</b> High levels of **Niacin and Vitamin B12** optimize metabolic pathways, maximizing the extraction of energy from dietary macros.",
+    "<b>Hematopoiesis Stabilization:</b> Readily accessible **heme iron** modules work synergistically with B-vitamins to promote consistent red blood cell synthesis loops."
+  ],
+  "precautionsIntro": "Purine-Mediated Nitrogenous Waste Accumulation, Dense Structural Collagen Resistances, and Endogenous Cholesterol Profiles: Controlled culinary preparation secures metabolic comfort.",
+  "precautions": [
+    "<b>Purine Overloads and Hyperuricemia:</b> Like most dense organ meats, chicken gizzards carry a heavy cellular matrix rich in **purines**. The downstream breakdown of these compounds into uric acid can catalyze acute arthritic flare-ups in gout patients.",
+    "<b>Connective Tissue Gastrointestinal Strain:</b> The dense, tightly bound muscular fiber and collagen matrix can cause digestive delays or mechanical irritation in sensitive gastrointestinal tracts if undercooked. Extended slow-braising or pressure-cooking is mandatory to soften these tissues.",
+    "<b>Endogenous Cholesterol Content:</b> Chicken gizzards carry a notable built-in cholesterol payload (~240mg per 100g). Individuals presenting with advanced hypercholesterolemia or genetic lipid clearance defects should calibrate intake volumes accordingly."
+  ]
+  },
+  "chicken-hearts": {
+  "slug": "chicken-hearts",
+  "name": "Chicken Hearts",
+  "category": "Meat and Poultry",
+  "image": "/productinfo/chicken-hearts.png",
+  "imageAlt": "fresh raw whole chicken hearts on a slate board with dark peppercorns and a bay leaf",
+  "description": "Chicken hearts are a specialized, highly metabolically active organ meat that exhibits a rich, nutrient-dense muscle profile. As a purely cardiac muscle, the heart functions non-stop, housing an extraordinary density of mitochondria. This unique biological architecture yields exceptional concentrations of Coenzyme Q10 (ubiquinone), cellular energy vitamins (especially B12 and riboflavin), and critical organic minerals like heme iron and zinc, providing premium physiological support for human cardiovascular and metabolic pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, raw uncooked hearts)",
+  "macroIntro": "Chicken hearts provide a protein-dense, carbohydrate-free macronutrient blueprint supported by a moderate, energy-efficient profile of healthy essential fats.",
+  "microIntro": "The heavily working mitochondrial matrix of chicken hearts creates a premier micronutrient ecosystem, delivering unmatched yields of Coenzyme Q10 and bioavailable B-complex vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~153 kcal",
+      "bg": "#15837c",
+      "description": "A moderate, balanced energetic yield driven by highly bioavailable structural proteins and efficient lipid fuel fractions."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "15.6 grams",
+      "bg": "#f5722c",
+      "description": "A complete animal protein structure rich in sulfur-containing and branched-chain amino acids, driving comprehensive cellular maintenance and tissue repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "9.3 grams",
+      "bg": "#e4a910",
+      "description": "Consists of a balanced ratio of monounsaturated and essential polyunsaturated fatty acids, crucial for supporting cellular membrane integrity."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Entirely clean of carbohydrate fractions, starch, or residual sugars, making it a highly compatible choice for metabolic ketogenic strategies."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "coenzyme-q10",
+      "slug": "coenzyme-q10",
+      "name": "Coenzyme Q10 (Ubiquinone)",
+      "amount": "Highly Concentrated",
+      "bg": "#15837c",
+      "description": "A premier fat-soluble antioxidant localized heavily inside cardiac tissue that directly facilitates mitochondrial ATP production and preserves vascular endothelial health."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "7.3 mcg / 304% DV",
+      "bg": "#f5722c",
+      "description": "A heavy cobalamin reserve that accelerates red blood cell maturation, maintains myelin sheath structural integrity, and manages systemic homocysteine metrics."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "4.8 mg / 27% DV",
+      "bg": "#66ab63",
+      "description": "An abundant, highly absorbable form of organic heme iron that rapidly synthesizes hemoglobin to maximize tissue oxygenation parameters."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "6.6 mg / 60% DV",
+      "bg": "#1a96cd",
+      "description": "An elite zinc payload vital for activating hundreds of enzymatic reactions, stabilizing DNA strands, and stimulating T-cell immune responses."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.9 mg / 69% DV",
+      "bg": "#e4a910",
+      "description": "An essential component of flavoprotein coenzymes needed to drive fatty acid oxidation loops and cellular respiration processes within the mitochondria."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Mitochondrial ATP Fortification:</b> Elite naturally occurring reserves of **Coenzyme Q10** and **Riboflavin** dramatically optimize cellular respiration and energy production.",
+    "<b>Cardiovascular Biomarker Regulation:</b> Massive concentrations of **Vitamin B12** actively downregulate plasma homocysteine levels, assisting in the reduction of cardiovascular lesion risks.",
+    "<b>Erythrocyte Production Boost:</b> The powerful synergy of bioavailable **heme iron** and B-vitamins triggers rapid hemoglobin assembly to reverse fatigue states.",
+    "<b>Enhanced Immunological Response:</b> Exceptional titers of organic **zinc** stimulate macrophage motility and catalyze optimal lymphocyte differentiation.",
+    "<b>Myofibrillar Tissue Regeneration:</b> A full-spectrum **amino acid payload** delivers the building blocks necessary to rebuild skeletal muscle architectures and maintain functional lean mass."
+  ],
+  "precautionsIntro": "Purine-Induced Nitrogenous Waste Elevations, Built-in Lipid-Cholesterol Matrices, and Connective Elastic Realities: Structural dietary modulation secures physiological safety.",
+  "precautions": [
+    "<b>Purine Induced Hyperuricemia Risk:</b> As a metabolically dense organ meat, chicken hearts contain a high concentration of **purines**. Their biological breakdown elevates plasma uric acid, which can trigger acute inflammatory flare-ups in individuals with gout.",
+    "<b>Endogenous Cholesterol Accumulation:</b> Chicken hearts carry a notable structural cholesterol load (~242mg per 100g). While highly nutritious, individuals with diagnosed genetic dyslipidemia or disrupted sterol homeostasis should pace their portion frequencies.",
+    "<b>Elastic Structural Mechanical Density:</b> The dense, elastic nature of cardiac muscle requires thorough trimming (to remove heavy external fat caps and residual vascular tubes) and prolonged cooking to break down tough muscular fibers for sensitive digestive systems."
+  ]
+  }, 
+  "turmeric": {
+  "slug": "turmeric",
+  "name": "Turmeric",
+  "category": "Spices and Herbs",
+  "image": "/productinfo/turmeric.png",
+  "imageAlt": "whole raw turmeric rhizomes with a small rustic bowl filled with vibrant orange-yellow turmeric powder",
+  "description": "Turmeric (Curcuma longa) is a highly revered rhizomatous perennial plant functioning as a premier bioactive botanical matrix. The physiological power of turmeric is concentrated within its unique polyphenolic molecular landscape, which is heavily dominated by curcuminoid compounds—most notably curcumin. This specialized lipophilic pigment operates at the deepest cellular levels, directly modulating major inflammatory transcription factors, neutralizing aggressive free radicals, and stimulating endogenous hepatic antioxidant enzyme synthesis.",
+  "macroTitle": "Macro Nutrients (per 100g, ground dried rhizome)",
+  "macroIntro": "As a concentrated botanical spice, dried turmeric possesses a complex carbohydrate structure heavily woven with therapeutic dietary fiber and protective volatile essential oils.",
+  "microIntro": "The cellular matrix of ground turmeric acts as a dense structural reservoir for metabolic trace elements, boasting high concentrations of neurological manganese and hematopoietic iron.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~312 kcal",
+      "bg": "#15837c",
+      "description": "A moderate caloric density derived from structural plant compounds, though negligible in standard culinary or supplemental serving sizes."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "9.7 grams",
+      "bg": "#f5722c",
+      "description": "Contains basic structural plant peptides, serving minor metabolic utility due to the limited absolute quantities consumed."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.3 grams",
+      "bg": "#e4a910",
+      "description": "A small lipid fraction containing functional volatile essential oils (turmerones), which are critical for increasing the solubility of native curcuminoids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "67.1 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of complex plant starches and a dense non-soluble dietary fiber matrix (~22.7g) that aids gastrointestinal microbial biomes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "curcuminoids",
+      "slug": "curcuminoids",
+      "name": "Curcuminoids (Curcumin)",
+      "amount": "Highly Concentrated",
+      "bg": "#15837c",
+      "description": "The primary lipophilic polyphenolic complex that suppresses NF-kB activation cascades, protects endothelial linings, and downregulates inflammatory signaling."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "19.8 mg / 861% DV",
+      "bg": "#f5722c",
+      "description": "An astronomical trace element concentration vital for activating superoxide dismutase (SOD) defense systems and driving bone matrix synthesis."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "55.0 mg / 306% DV",
+      "bg": "#66ab63",
+      "description": "A massive non-heme mineral payload, acting as a crucial building block for systemic cellular oxygenation pathways and enzymatic reactions."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.9 mg / 53% DV",
+      "bg": "#1a96cd",
+      "description": "An essential water-soluble coenzyme needed to modulate central nervous system neurotransmitter synthesis and maintain regular amino acid metabolism."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "2080 mg / 44% DV",
+      "bg": "#e4a910",
+      "description": "A dense intracellular electrolyte pool required for managing vascular osmotic pressures, stabilizing nerve conductivity, and supporting cardiac rhythm."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Systemic Anti-Inflammatory Blockade:</b> Active **curcumin** downregulates pro-inflammatory enzyme cascades (COX-2 and iNOS) by effectively preventing the nuclear translocation of NF-kB.",
+    "<b>Endogenous Antioxidant Cascade:</b> Turmeric compounds directly neutralize free radicals while upregulating the body’s own production of glutathione, catalase, and superoxide dismutase.",
+    "<b>Neuroprotective Neurogenesis Support:</b> Bioactive molecules elevate Brain-Derived Neurotrophic Factor (BDNF) levels, helping delay degenerative cognitive decline and supporting synaptic plasticity.",
+    "<b>Endothelial Function Enhancement:</b> Curcumin significantly optimizes vascular endothelial nitric oxide delivery, improving systemic blood pressure dynamics and vessel elasticity.",
+    "<b>Articular Cartilage Comfort:</b> The robust anti-inflammatory matrix dampens articular cytokine pathways, providing clinically relevant pain reduction across arthritic joints."
+  ],
+  "precautionsIntro": "Low Curcumin Bioavailability Profiles, Anticoagulant Drug Interaction Risks, and Oxalate Mediated Renal Realities: Calibrated intake profiles optimize therapeutic safety.",
+  "precautions": [
+    "<b>Ultra-Low Native Bioavailability:</b> Curcumin naturally presents extremely low intestinal absorption and rapid hepatic clearing. To bypass this barrier, it must be co-ingested with lipid vectors or **piperine (black pepper extract)**, which blocks glucuronidation and increases bioavailability by up to 2000%.",
+    "<b>Anticoagulant and Bleeding Hazards:</b> Turmeric possesses natural antiplatelet modulatory properties. Consuming high therapeutic doses alongside prescription blood thinners (e.g., warfarin, aspirin) may dangerously amplify bleeding risks and disrupt coagulation cycles.",
+    "<b>High Oxalate Concentrations:</b> Commercial ground turmeric contains notable levels of soluble **oxalates**. Individuals displaying a high metabolic predisposition to forming calcium oxalate renal calculi (kidney stones) should severely limit high-dose supplementation."
+  ]
+  },
+  "bay-leaf": {
+  "slug": "bay-leaf",
+  "name": "Bay Leaf",
+  "category": "Spices and Herbs",
+  "image": "/productinfo/bay-leaf.png",
+  "imageAlt": "whole dried aromatic bay leaves piled together on a dark wooden background",
+  "description": "Bay leaf (Laurus nobilis) is a highly aromatic culinary and medicinal botanical matrix derived from the evergreen laurel tree. Its physiological efficacy resides within its densely concentrated volatile essential oils, heavily dominated by eucalyptol (1,8-cineole), monoterpenes, and sesquiterpenes. These active lipophilic compounds operate as potent natural antimicrobials, stimulate gastrointestinal enzymatic secretions, modulate insulin receptor sensitivity, and deliver target-specific antioxidant protective mechanics at the cellular level.",
+  "macroTitle": "Macro Nutrients (per 100g, dried whole leaves)",
+  "macroIntro": "In its dehydrated botanical form, bay leaf features a structurally dense carbohydrate profile dominated by non-soluble lignins, functional dietary fibers, and therapeutic volatile essential oils.",
+  "microIntro": "The cellular structure of dried bay leaves acts as an exceptional mineral repository, boasting elite concentrations of structural manganese, hematopoietic iron, and enzymatic zinc.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~313 kcal",
+      "bg": "#15837c",
+      "description": "A moderate caloric framework locked within dense plant cell walls, rendering it entirely negligible in standard culinary infusions or teas."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "7.6 grams",
+      "bg": "#f5722c",
+      "description": "Contains basic structural plant amino acid sequences that assist in overall botanical integrity but offer minimal direct macro value due to minimal consumption."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "8.4 grams",
+      "bg": "#e4a910",
+      "description": "A complex lipid matrix composed of hydrophobic essential volatile oils, monounsaturated fatty acids, and natural plant waxes."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "75.0 grams",
+      "bg": "#1a96cd",
+      "description": "Dominated by highly complex non-soluble plant starches and robust dietary fibers (~26.3g) that assist in slow volatile oil retention."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "eucalyptol",
+      "slug": "eucalyptol",
+      "name": "Eucalyptol (1,8-Cineole)",
+      "amount": "Highly Concentrated",
+      "bg": "#15837c",
+      "description": "The dominant volatile terpene compound driving powerful anti-inflammatory pathways, respiratory bronchodilation, and natural broad-spectrum antimicrobial defense."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "8.2 mg / 355% DV",
+      "bg": "#f5722c",
+      "description": "An elite trace mineral volume required for driving superoxide dismutase (SOD) synthesis and optimizing internal connective tissue development loops."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "43.0 mg / 239% DV",
+      "bg": "#66ab63",
+      "description": "A massive non-heme iron reservoir acting as an essential cofactor for mitochondrial cellular respiration and systemic oxygen binding pathways."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "309 mcg / 34% DV",
+      "bg": "#1a96cd",
+      "description": "A significant provitamin A carotenoid pool essential for maintaining healthy mucosal integrity, upgrading immune response, and protecting ocular health."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "3.7 mg / 34% DV",
+      "bg": "#e4a910",
+      "description": "An essential intracellular trace mineral crucial for accelerating cell division, optimizing DNA repair cycles, and boosting active immune cell proliferation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Enzyme Activation:</b> Active volatile compounds stimulate optimal gastric acid and bile production, accelerating protein breakdown and mitigating intestinal bloating.",
+    "<b>Glycemic Response Modulation:</b> Phenolic components enhance insulin receptor activity, assisting in the stabilization of postprandial blood glucose levels.",
+    "<b>Respiratory Bronchodilation:</b> Vaporized **eucalyptol** modules act directly on the respiratory mucosa to liquify stuck mucus and relieve acute bronchial congestion.",
+    "<b>Vascular Endothelial Support:</b> Natural caffeic acid and rutin compounds strengthen capillary walls, downregulating systemic oxidative stress across cardiovascular loops.",
+    "<b>Broad-Spectrum Antimicrobial Defense:</b> The hydrophobic terpene matrix disrupts pathogenic bacterial and fungal cellular membranes, preventing gut dysbiosis."
+  ],
+  "precautionsIntro": "Mechanical Gastrointestinal Perforation Hazards, Uterine Contraction Stimulations, and Essential Oil Toxicities: Strategic botanical filtering preserves internal safety.",
+  "precautions": [
+    "<b>Mechanical Gastrointestinal Tract Trauma:</b> Whole dried bay leaves possess incredibly rigid, leathery structures with sharp edges that cannot be broken down by human digestive enzymes. If accidentally swallowed intact, they can cause physical lacerations or severe mechanical blockages in the esophagus or intestinal linings. Leaves must always be removed prior to food service.",
+    "<b>Uterine Smooth Muscle Stimulation:</b> Concentrated therapeutic doses or decoctions of bay leaf exert strong emmenagogue properties that stimulate uterine blood flow and smooth muscle contractions. High supplemental intake is strictly contraindicated during pregnancy.",
+    "<b>Volatile Essential Oil Overdosing:</b> Isolated bay leaf essential oil contains high levels of concentrated terpenes that can become neurotoxic or severely irritate gastric mucosal barriers if ingested directly. It should only be used in highly diluted, controlled applications."
+  ]
+  },
+  "lime": {
+  "slug": "lime",
+  "name": "Lime",
+  "category": "Fruits and Berries",
+  "image": "/productinfo/lime.png",
+  "imageAlt": "fresh whole green lime and a half slice on a reflective dark surface with water droplets",
+  "description": "Lime (Citrus aurantiifolia) is a highly acidic, energetically vibrant citrus fruit functioning as a premier organic fluid optimizer. The core therapeutic value of the lime resides in its complex organic acid matrix, heavily dominated by exogenous citric acid, alongside an elite payload of L-ascorbic acid (Vitamin C) and volatile monoterpenes like d-limonene. Operating within cellular systems, these bioactive substrates optimize non-heme iron absorption, neutralize heavy free radicals, and act as significant dietary alkalizing agents once fully metabolized via the citric acid cycle.",
+  "macroTitle": "Macro Nutrients (per 100g, raw flesh without peel)",
+  "macroIntro": "Lime flesh presents an ultra-low-calorie, hydration-centric macronutrient architecture with minimal simple sugars and a functional matrix of soluble pectin fibers.",
+  "microIntro": "The cellular vacuoles of lime juice house a highly bioavailable reservoir of radical-scavenging antioxidants, mineral chelators, and essential extracellular electrolytes.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~30 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally light energetic profile, delivering crisp cellular hydration without shifting glycemic indices or inducing lipid storage."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.7 grams",
+      "bg": "#f5722c",
+      "description": "Contains trace, negligible vegetative amino acid fractions that support fundamental plant enzyme structures."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 grams",
+      "bg": "#e4a910",
+      "description": "Virtually devoid of lipids, hosting only minor structural hydrophobic cuticular waxes within the cell walls."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "10.5 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of low-density natural simple hexoses, stabilized by a soluble dietary fiber framework (~2.8g) made up mostly of structural pectins."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "amount": "29.1 mg / 32% DV",
+      "bg": "#15837c",
+      "description": "A powerful water-soluble antioxidant essential for driving structural collagen synthesis, reinforcing vascular endothelial walls, and maximizing neutrophil motility."
+    },
+    {
+      "id": "citric-acid",
+      "slug": "citric-acid",
+      "name": "Citric Acid",
+      "amount": "Highly Concentrated (~4.5g)",
+      "bg": "#f5722c",
+      "description": "A prominent organic tricarboxylic acid that enhances gastric digestive mechanics, solubilizes mineral substrates, and promotes systemic urine alkalization."
+    },
+    {
+      "id": "flavonoids",
+      "slug": "flavonoids",
+      "name": "Flavonoids (Hesperidin)",
+      "amount": "Highly Concentrated",
+      "bg": "#66ab63",
+      "description": "Potent secondary plant polyphenols that work synergistically with Vitamin C to suppress capillary fragility and reduce systemic vascular oxidation."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "102 mg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "A critical extracellular electrolyte that assists in regulating internal fluid balance, maintaining cellular osmotic pressure, and stabilizing smooth muscle tones."
+    },
+    {
+      "id": "vitamin-b9",
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "8.0 mcg / 2% DV",
+      "bg": "#e4a910",
+      "description": "An essential water-soluble coenzyme building block required for managing regular nucleic acid synthesis and regulating cellular replication loops."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Collagen Synthesis Acceleration:</b> Concentrated **Vitamin C** acts as an absolute structural cofactor for prolyl hydroxylase enzymes, directly assembling tough human dermal and vascular collagen frameworks.",
+    "<b>Systemic Non-Heme Iron Chelation:</b> Abundant native **citric acid** and ascorbic complexes reduce non-heme dietary iron into highly absorbable ferrous configurations within the intestinal lumen.",
+    "<b>Urolithiasis Prevention:</b> Elevated dietary citrate complexes bind tightly to urinary calcium channels, effectively inhibiting the crystallization and growth of calcium oxalate kidney stones.",
+    "<b>Vascular Capillary Reinforcement:</b> Active bioflavonoid profiles reduce vascular permeability, improving capillary wall strength and maintaining systemic microcirculation parameters.",
+    "<b>Endogenous Salivary Activation:</b> The sharp, low-pH organic acid matrix stimulates immediate salivary and gastric juice cascades, drastically improving protein digestion loops."
+  ],
+  "precautionsIntro": "Dental Enamel Acid Dissolution, Phytophotodermatitis Risks, and Gastric Mucosal Irritations: Strategic consumption protects structural barrier systems.",
+  "precautions": [
+    "<b>Dental Enamel Demineralization:</b> The high concentration of raw **citric acid** gives lime juice a very low pH (~2.0). Direct, frequent exposure can chemically dissolve protective hydroxyapatite crystals in tooth enamel, inducing permanent sensitivity. Rinsing the mouth with pure water immediately after ingestion is advised.",
+    "<b>Furanocoumarin Mediated Phytophotodermatitis:</b> Lime peel containing volatile essential oils is rich in **furanocoumarins**. If skin surfaces are contaminated with lime oil and subsequently exposed to Ultraviolet (UV) solar radiation, a intense photochemical reaction can cause severe blistering, hyperpigmentation, and burns.",
+    "<b>Acute Gastric Mucosal Irritation:</b> In individuals presenting with active hyperacidic gastritis, peptic ulcer diseases, or severe gastroesophageal reflux (GERD), the direct entry of concentrated lime acid can sharply irritate hypersensitive mucosal walls, triggering acute heartburn and esophageal spasms."
+  ]
+  },
+  "lupin-beans": {
+  "slug": "lupin-beans",
+  "name": "Lupin Beans",
+  "category": "Legumes",
+  "image": "/productinfo/lupin-beans.png",
+  "imageAlt": "plump yellow cooked lupin-beans in a ceramic bowl with macro details of their smooth skins",
+  "description": "Lupin beans (Lupinus) are an ancient, structurally superior legume matrix showcasing an elite nutritional blueprint. They possess an exceptional nitrogen-fixing capability that yields an unmatched ratio of plant-derived protein alongside a carbohydrate-free, high-density prebiotic fiber framework. Bioactively, lupin seeds are highly regarded for their specific alkaloid structures (when properly debittered), which modulate glucose transport channels, and their unique storage protein, gamma-conglutin, which directly interacts with systemic metabolic and insulin-signaling pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked boiled unsalted beans)",
+  "macroIntro": "Lupin beans deliver a protein-dominant, ultra-low glycemic macronutrient profile characterized by a complete absence of usable simple sugars and a heavy prebiotic fiber matrix.",
+  "microIntro": "The internal biological core of the lupin bean concentrates essential enzymatic trace minerals, housing dense cell-building magnesium payloads and structural zinc balances.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~119 kcal",
+      "bg": "#15837c",
+      "description": "A lean, highly efficient caloric density driven primarily by clean, structural amino acids rather than metabolic simple sugars."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "15.6 grams",
+      "bg": "#f5722c",
+      "description": "An elite plant-based protein content that rivals soy, featuring an excellent essential amino acid index crucial for nitrogen balance and muscle synthesis."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.9 grams",
+      "bg": "#e4a910",
+      "description": "A minimal, cardiovascular-friendly lipid fraction consisting mostly of oleic and linoleic essential unsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "9.9 grams",
+      "bg": "#1a96cd",
+      "description": "Composed almost entirely of non-digestible, non-glycemic prebiotic structural oligosaccharides and complex dietary fibers (~2.8g net carbs)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "gamma-conglutin",
+      "slug": "gamma-conglutin",
+      "name": "Gamma-Conglutin",
+      "amount": "Highly Bioactive",
+      "bg": "#15837c",
+      "description": "A unique, functional lupin globulin protein that acts as an insulin-mimetic agent, aiding glucose clearance and cellular GLUT-4 transporter recruitment."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "54.0 mg / 14% DV",
+      "bg": "#f5722c",
+      "description": "A central intracellular catalyst required for stabilizing ATP molecules, modulating nerve conduction, and relaxing vascular smooth muscle fibers."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "1.4 mg / 13% DV",
+      "bg": "#66ab63",
+      "description": "A critical metalloenzyme cofactor that accelerates cellular repair cycles, maintains DNA stability, and supports T-cell immune functionality."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "1.2 mg / 7% DV",
+      "bg": "#1a96cd",
+      "description": "Essential non-heme mineral substrate required for optimizing tissue oxygen saturation parameters and supporting mitochondrial electron transport."
+    },
+    {
+      "id": "vitamin-b9",
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "59.0 mcg / 15% DV",
+      "bg": "#e4a910",
+      "description": "A fundamental water-soluble coenzyme that regulates DNA methylation cycles, prevents neural tube anomalies, and controls systemic homocysteine metrics."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Index Regulation:</b> The specialized storage protein **gamma-conglutin** mimics insulin mechanisms, significantly reducing postprandial glucose surges.",
+    "<b>Prebiotic Microbiome Optimization:</b> High concentrations of fermentable **oligosaccharides** feed beneficial Bifidobacteria, maximizing short-chain fatty acid (SCFA) production.",
+    "<b>Satiety and Leptin Synergy:</b> The dense, concurrent delivery of **high protein** and dietary fiber triggers rapid vagal nerve stretch responses and prolonged satiety signaling.",
+    "<b>Vascular Tone Optimization:</b> High natural ratios of the amino acid **L-arginine** boost endothelial nitric oxide (NO) production, supporting optimal blood pressure management.",
+    "<b>Lipid Profile Refinement:</b> Soluble fiber matrices trap circulating bile acids within the intestinal lumen, gently assisting in the down-regulation of LDL cholesterol fractions."
+  ],
+  "precautionsIntro": "Severe Legume Cross-Allergy Hazards, Quinolizidine Alkaloid Toxicity Risks, and Purine Induced Uric Acid Accumulations: Strict preparation controls maximize culinary safety.",
+  "precautions": [
+    "<b>High Cross-Allergenicity with Peanuts:</b> Lupin beans contain specific storage proteins that display a massive structural homology with peanut allergens. Individuals with known **peanut allergies** are at an extremely high risk for life-threatening anaphylactic cross-reactions and must approach lupin with extreme caution.",
+    "<b>Quinolizidine Alkaloid Toxicity:</b> Raw 'bitter' lupin varieties possess toxic **quinolizidine alkaloids** that can induce neurological and anticholinergic poisoning (blurred vision, confusion, respiratory depression). They require an intensive, multi-day soaking and boiling washing protocol to thoroughly leach out toxins before consumption.",
+    "<b>Purine and Gastrointestinal Load:</b> Containing notable amounts of **purines**, unmetered intake can elevate blood uric acid levels, posing challenges for individuals with gout. Additionally, its dense oligosaccharide matrix can cause acute flatulence and bloating in individuals with sensitive digestive architecture."
+  ]
+}
 }
