@@ -14656,5 +14656,1205 @@
     "<b>Phytic Acid Mineral Binding:</b> High concentrations of phytic acid can chelate essential minerals like iron and zinc in the digestive tract. Utilizing soaking, sprouting, or thorough boiling methods optimizes mineral bioavailability.",
     "<b>Oxalate Accumulation Risk:</b> Quinoa is structurally rich in natural oxalates. Individuals with a history of recurring calcium-oxalate kidney stones must monitor absolute portion sizes within their dietary protocols."
   ]
-}
+  },
+  "cranberries": {
+  "slug": "cranberries",
+  "name": "Cranberry",
+  "category": "Fruits and Berries",
+  "image": "/productinfo/cranberries.png",
+  "imageAlt": "fresh organic whole raw cranberries on a wet rustic wooden surface",
+  "description": "Cranberries, derived from the tart red fruits of Vaccinium macrocarpon, are highly nutrient-dense, low-glycemic berries natively adapted to bog ecosystems. Renowned for their intensely astringent and acidic flavor profile driven by organic acids, they function as an elite urological protective agent and systemic vascular optimizer, powered by a rare structural density of Type-A proanthocyanidins.",
+  "macroTitle": "Macro Nutrients (per 100g, raw berries)",
+  "macroIntro": "Raw cranberries exhibit an exceptionally lean, low-calorie macronutrient profile, minimizing simple sugars while offering a solid structure of prebiotic structural plant fibers.",
+  "microIntro": "Cranberries deliver a highly targeted biochemical micro-matrix, delivering high thresholds of ascorbic acid, manganese, and unique anti-adhesive polyphenolic compounds.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~46 kcal",
+      "bg": "#15837c",
+      "description": "A very low metabolic energy load, ensuring absolute compatibility with calorie-restricted and strictly low-glycemic dietary frameworks."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.4 grams",
+      "bg": "#f5722c",
+      "description": "Contains trace botanical amino acids, serving primarily as a functional cellular carbohydrate-dominant signaling structure."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "Virtually non-existent lipid fractions, with minor essential essential fatty acid complexes structuralized inside the microscopic seeds."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "12.2 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of low-density fruit sugars, deeply balanced and buffered by a tough, insoluble prebiotic dietary fiber network (~4.6g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "type-a-pacs",
+      "slug": "type-a-pacs",
+      "name": "Type-A Proanthocyanidins",
+      "amount": "Bioactive Polyphenols",
+      "bg": "#15837c",
+      "description": "A unique, structurally rare molecular class of condensed tannins that exerts powerful anti-adhesive vectors against uropathogenic bacteria."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C (Ascorbic Acid)",
+      "amount": "13.3 mg / 15% DV",
+      "bg": "#f5722c",
+      "description": "A classic water-soluble antioxidant cofactor that stabilizes leukocyte operations and directly sparks structural collagen synthesis."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.36 mg / 16% DV",
+      "bg": "#66ab63",
+      "description": "An essential trace mineral cofactor required for activating mitochondrial antioxidant enzymes and supporting bone matrix mineralization."
+    },
+    {
+      "id": "quercetin",
+      "slug": "quercetin",
+      "name": "Quercetin & Myricetin",
+      "amount": "Flavonoid Matrix",
+      "bg": "#1a96cd",
+      "description": "Highly concentrated, premium plant pigments that systematically scavenge circulating free radicals and downregulate inflammatory signals."
+    },
+    {
+      "id": "salicylic-acid",
+      "slug": "salicylic-acid",
+      "name": "Salicylic & Organic Acids",
+      "amount": "Natural Organic Acids",
+      "bg": "#e4a910",
+      "description": "Includes citric, malic, and quinic acids that help modulate internal urinary tract pH and exhibit mild natural anti-inflammatory activity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Anti-Adhesive Urinary Tract Protection:</b> Rare structural **Type-A proanthocyanidins** systematically prevent *E. coli* from anchoring to urothelial walls, drastically lowering the incidence of acute urinary tract infections.",
+    "<b>Gastric Epithelium Defense:</b> The potent polyphenolic matrix exerts similar anti-adhesive properties inside the stomach lining, inhibiting the structural colonization of *Helicobacter pylori*.",
+    "<b>Vascular Endothelial Stabilization:</b> Synergistic actions of natural **quercetin** and vitamin C preserve arterial wall compliance, lowering systemic LDL oxidation vectors and supporting capillary elasticity.",
+    "<b>Periodontal Bacterial Inhibition:</b> Bioactive molecules interfere with plaque accumulation pathways in the oral cavity, effectively neutralizing cariogenic bacteria and reinforcing gum profiles.",
+    "<b>Prebiotic Metabolic Balancing:</b> High ratios of non-digestible **dietary fiber** fuel short-chain fatty acid production in the lower gut, improving overall metabolic and immune baselines."
+  ],
+  "precautionsIntro": "High Oxalate Concentrations, Acidity-Induced Gastric Aggravation, and Anticoagulant Interactions: Strategic implementation maximizes system parameters safely.",
+  "precautions": [
+    "<b>Oxalate Nephrolithiasis Warnings:</b> Cranberries possess moderately elevated thresholds of organic **oxalates**. Excessive ingestion of concentrated extracts can accelerate calcium-oxalate crystallization paths within vulnerable renal filtration lines.",
+    "<b>Gastrointestinal Mucosal Irritation:</b> The profound natural density of citric and malic organic acids can actively irritate sensitive mucosal tissue lines, escalating acute symptoms of hyperacitid gastritis, acid reflux, or peptic ulcers.",
+    "<b>Coumarin Derivative Interactions:</b> High therapeutic volumes of cranberry compounds can competitively inhibit hepatic cytochrome P450 pathways, potentially multiplying the systemic activity and bleeding risks of blood-thinning medications like Warfarin."
+  ]
+  },
+  "goat-raw": {
+  "slug": "goat-raw",
+  "name": "Goat Meat (Chevon)",
+  "category": "Meat and Eggs",
+  "image": "/productinfo/goat-raw.png",
+  "imageAlt": "fresh raw lean goat meat cutlet on a dark rustic stone surface",
+  "description": "Goat meat (chevon) is an exceptionally lean, nutrient-dense red meat derived from Capra hircus. Globally recognized for its subtle, gamey flavor profile and highly efficient metabolic footprint, it stands as one of the leanest domesticated structural proteins available. It is uniquely rich in intracellular minerals, lean structural lipids, and crucial hematinic cofactors that support cardiovascular efficiency and musculoskeletal recovery.",
+  "macroTitle": "Macro Nutrients (per 100g, lean raw meat)",
+  "macroIntro": "Goat meat delivers a premium, hyper-lean, protein-dominant macronutrient profile, offering significantly less saturated fat and total lipid mass compared to traditional commercial red meats.",
+  "microIntro": "Goat meat possesses an elite, bioavailable micronutrient matrix, delivering immense concentrations of organic iron, metabolic potassium, and critical neuro-supporting B-complex vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~143 kcal",
+      "bg": "#15837c",
+      "description": "A notably low-density caloric payload for red meat, maximizing protein delivery per calorie while keeping systemic lipid loads minimal."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "27.1 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding concentration of high-quality complete protein containing all nine essential amino acids in optimal ratios for myofibrillar repair and nitrogen retention."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.0 grams",
+      "bg": "#e4a910",
+      "description": "An exceptionally lean lipid matrix, featuring remarkably low saturated fat levels alongside high relative concentrations of monounsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Contains absolutely zero carbohydrates or plant fiber fibers, ensuring a non-existent glycemic index impact on plasma glucose dynamics."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "heme-iron",
+      "slug": "heme-iron",
+      "name": "Heme Iron",
+      "amount": "3.7 mg / 21% DV",
+      "bg": "#66ab63",
+      "description": "An exceptionally dense source of organic plant-unrestricted iron, surpassing beef and chicken metrics to maximize red blood cell hemoglobin saturation."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "1.2 mcg / 50% DV",
+      "bg": "#15837c",
+      "description": "An essential cobalt-centered cofactor required for myelin sheath maintenance, neural signaling propagation, and erythropoiesis cascades."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "405 mg / 9% DV",
+      "bg": "#1a96cd",
+      "description": "An essential intracellular cation that helps maintain systemic osmotic equilibrium, balances fluid dynamics, and regulates cardiac electrical activity."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "4.0 mg / 36% DV",
+      "bg": "#f5722c",
+      "description": "An exceptionally bioavailable intracellular trace mineral that acts as a structural anchor for DNA synthesis, testosterone production, and immune cascades."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "3.8 mg / 24% DV",
+      "bg": "#e4a910",
+      "description": "A primary metabolic coenzyme (NAD/NADP) component essential for substrate oxidation, cellular energy release, and lipid synthesis pathways."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Hyper-Lean Muscle Tissue Support:</b> Offering a high **protein-to-fat ratio**, it accelerates nitrogen retention paths and preserves lean muscle mass metrics without introducing excessive dietary fat.",
+    "<b>Superior Hematinic Performance:</b> The astronomical presentation of organic **Heme Iron** effectively optimizes red blood cell maturation, outperforming other red meats in resolving anemic baselines.",
+    "<b>Cardiovascular Lipid Management:</b> Possessing exceptionally low **saturated lipid** levels alongside a high proportion of unsaturated fats, it supports favorable serum lipid profiles.",
+    "<b>Intracellular Fluid Equilibrium:</b> Sizable concentrations of organic **potassium** work in tandem with low natural sodium levels to optimize arterial tone and maintain balanced fluid metrics.",
+    "<b>Immune Cascade and T-Cell Reinforcement:</b> Exceptional, highly absorbable **zinc** profiles drive cellular replication loops, supporting optimal immune system defense paths."
+  ],
+  "precautionsIntro": "Purine Nucleotide Concentrations, Collagen Density Preparation, and Myoglobin Thermal Modifications: Calculated preparation and portioning maximize long-term cardiovascular parameters.",
+  "precautions": [
+    "<b>Hyperuricemia and Gout Vulnerabilities:</b> Goat meat houses noticeability elevated concentrations of natural **purines**. Metabolic breakdown yields uric acid, which can trigger painful crystal aggregation inside joint spaces if clear clearing limits are exceeded.",
+    "<b>High Collagen Toughness Matrix:</b> Due to its active lifestyle structure, goat meat features high collagen densities. Rapid, dry cooking methods can cause proteins to seize and tighten, requiring low, slow, moist thermal processing to gelatinize connective tissues.",
+    "<b>Advanced Glycation End-Product (AGE) Hazards:</b> Subjecting goat meat to extreme thermal processing methods like aggressive charring, open flame roasting, or deep frying creates carcinogenic heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs)."
+  ]
+  },
+  "coconut-milk": {
+  "slug": "coconut-milk",
+  "name": "Coconut Milk",
+  "category": "Dairy and Alternatives",
+  "image": "/productinfo/coconut-milk.png",
+  "imageAlt": "creamy organic coconut milk poured into a rustic ceramic bowl with coconut halves nearby",
+  "description": "Coconut milk is a rich, lipophilic liquid matrix extracted from the grated solid endosperm of mature Cocos nucifera fruits. Distinct from low-density coconut water, this nutrient-dense emulsion features an exceptional concentration of medium-chain triglycerides (MCTs), primarily lauric acid, rendering it an elite, rapidly deployable metabolic fuel source with inherent antimicrobial and mucosal-protective vectors.",
+  "macroTitle": "Macro Nutrients (per 100g, canned/smooth liquid)",
+  "macroIntro": "Coconut milk possesses a highly specialized macronutrient architecture, dominated by structured saturated plant lipids that bypass traditional adipocyte storage pathways.",
+  "microIntro": "Coconut milk delivers a highly functional biochemical micro-matrix, delivering therapeutic mineral fractions of manganese, iron, and cellular copper bound within a protective lipid emulsion.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~230 kcal",
+      "bg": "#15837c",
+      "description": "A high-efficiency, lipid-driven caloric payload that supplies immediate biological energy substrates to mitochondrial processing loops."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.3 grams",
+      "bg": "#f5722c",
+      "description": "Contains minor plant peptide fractions, acting primarily as a structural emulsifying agent rather than a primary nitrogen source."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "23.8 grams",
+      "bg": "#e4a910",
+      "description": "Composed primarily of medium-chain saturated fatty acids (~18g), which are rapidly absorbed and shuttled directly to the liver via the portal vein."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "5.5 grams",
+      "bg": "#1a96cd",
+      "description": "Low net impact carbohydrates, providing a mild, low-glycemic background sweetness balanced by trace structural plant fiber (~2.2g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "lauric-acid",
+      "slug": "lauric-acid",
+      "name": "Lauric Acid (MCT)",
+      "amount": "Bioactive Lipid fraction",
+      "bg": "#15837c",
+      "description": "The predominant medium-chain fatty acid in coconut fat. It metabolizes into monolaurin, a powerful compound that destabilizes lipid-coated pathogens."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.92 mg / 40% DV",
+      "bg": "#f5722c",
+      "description": "An essential trace element acting as an obligatory cofactor for structural carbohydrate metabolism and mitochondrial free radical scavenging."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.26 mg / 29% DV",
+      "bg": "#66ab63",
+      "description": "A foundational biological trace mineral required for iron absorption loops, collagen matrix cross-linking, and cellular respiration kinetics."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "1.6 mg / 9% DV",
+      "bg": "#1a96cd",
+      "description": "A notable botanical iron fraction that assists in cellular oxygen transportation pathways and supports general enzymatic function."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "100 mg / 8% DV",
+      "bg": "#e4a910",
+      "description": "A critical structural element involved in the synthesis of cellular phospholipid bilayers and genetic nucleic acid frameworks."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Mitochondrial Ketogenesis Fueling:</b> Abundant **medium-chain triglycerides (MCTs)** bypass traditional chylomicron pathways, traveling directly to the liver for immediate conversion into clean ketone bodies.",
+    "<b>Immunological Membrane Disruption:</b> Systemic conversion of **lauric acid** into monolaurin actively solubilizes the protective lipophilic outer membranes of pathogenic bacteria and enveloped viruses.",
+    "<b>Gastrointestinal Mucosal Protective Insulation:</b> The natural lipid-emulsion matrices coat the gastric lining, providing a soothing structural barrier that reinforces mucosal integrity against acid-induced erosion.",
+    "<b>Satiety Leptin Optimization:</b> High-density structured plant lipids trigger localized release of cholecystokinin (CCK) and peptide YY, sustaining a prolonged state of neurological satiety.",
+    "<b>Superoxide Dismutase Enzyme Activation:</b> Sizable concentrations of bioavailable **manganese** accelerate internal defense mechanisms, mitigating chronic cellular oxidative stress."
+  ],
+  "precautionsIntro": "Elevated Lipophilic Energy Densities, Potential Guar Gum Additive Reactive Risks, and Cardiovascular Saturated Lipid Bounds: Monitored intake aligns systemic profiles.",
+  "precautions": [
+    "<b>High Caloric and Lipophilic Mass:</b> The high density of saturated fats means unrestricted consumption can shift energy balance limits, necessitating strategic macro-budgeting in metabolic weight management.",
+    "<b>Industrial Stabilizer (Guar Gum) Irritations:</b> Many commercial canned coconut milks incorporate emulsifiers like guar gum or carboxymethylcellulose. These compounds can cause dysbiosis, flatulence, and acute intestinal cramping in hyper-sensitive gastrointestinal tracts.",
+    "<b>Serum Cholesterol Modification Vulnerabilities:</b> While MCTs oxidize efficiently, excessive intake of highly concentrated coconut fats can alter lipid panels in specific individuals (hyper-responders), increasing overall ApoB and LDL-cholesterol markers."
+  ]
+  },
+  "chicory": {
+  "slug": "chicory",
+  "name": "Chicory",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/chicory.png",
+  "imageAlt": "soluble chicory powder in a rustic ceramic cup with roasted chicory roots nearby",
+  "description": "Chicory is a highly functional, caffeine-free beverage substrate processed from the roasted roots of Cichorium intybus. Globally revered as an elite botanical prebiotic source and metabolic stabilizer, it features an extraordinary concentration of soluble inulin fiber. It delivers a rich, deeply bitter, coffee-like flavor profile driven by sesquiterpene lactones and polyphenols, serving as a powerful modulator of glucose homeostasis and gastrointestinal integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, dry soluble powder)",
+  "macroIntro": "Soluble chicory powder exhibits a carbohydrate-dominant macronutrient profile heavily structuralized by non-digestible prebiotic fibers rather than simple metabolic sugars.",
+  "microIntro": "Chicory delivers a distinct biochemical micro-matrix, offering robust reserves of metabolic potassium, structural trace minerals, and unique bitter glycosides that catalyze digestive secretions.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~295 kcal",
+      "bg": "#15837c",
+      "description": "Derived primarily from soluble carbohydrate matrices and prebiotic fibers that exhibit a highly attenuated, low-glycemic metabolic impact."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.8 grams",
+      "bg": "#f5722c",
+      "description": "Contains minor plant peptide fractions, acting as a small background organic asset rather than a primary nitrogen source."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 grams",
+      "bg": "#e4a910",
+      "description": "A virtually non-existent lipid profile, ensuring absolute integration into ultra-low-fat dietary protocols and vascular management frameworks."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "64.0 grams",
+      "bg": "#1a96cd",
+      "description": "Composed predominantly of soluble **inulin** (~30g to 50g depending on processing), a fructan-type polysaccharide that completely resists upper-tract enzymatic digestion."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "inulin-fiber",
+      "slug": "inulin-fiber",
+      "name": "Inulin (Prebiotic)",
+      "amount": "High Functional Density",
+      "bg": "#15837c",
+      "description": "A premier soluble storage polysaccharide that travels entirely intact to the colon, acting as an elite selective substrate for bifidobacteria."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "290 mg / 6% DV",
+      "bg": "#66ab63",
+      "description": "An essential intracellular cation required for regulating osmotic equilibrium, stabilizing arterial pressures, and balancing vascular fluids."
+    },
+    {
+      "id": "sesquiterpene-lactones",
+      "slug": "sesquiterpene-lactones",
+      "name": "Sesquiterpene Lactones",
+      "amount": "Bitter Glycosides",
+      "bg": "#f5722c",
+      "description": "Bioactive bitter elements (lactucin and lactucopicrin) that structurally spark gustatory receptors to boost bile synthesis and gastrointestinal enzyme flow."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.23 mg / 10% DV",
+      "bg": "#1a96cd",
+      "description": "An important trace mineral cofactor needed for activating mitochondrial defense systems and coordinating internal carbohydrate signaling pathways."
+    },
+    {
+      "id": "polyphenols",
+      "slug": "polyphenols",
+      "name": "Chlorogenic & Chicoric Acids",
+      "amount": "Antioxidant Phenols",
+      "bg": "#e4a910",
+      "description": "Potent plant-derived antioxidants that neutralize free radicals, reduce cellular inflammation, and enhance peripheral insulin sensitivity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Deep Bifidogenic Microbiome Fueling:</b> The immense structural density of soluble **inulin** serves as targeted food for beneficial gut microbes, multiplying short-chain fatty acid (SCFA) production.",
+    "<b>Glycemic Flattening and Insulin Efficiency:</b> Inulin slows down gastrointestinal carbohydrate absorption loops, preventing sharp plasma glucose spikes and stabilizing insulin curves.",
+    "<b>Caffeine-Free Nervous System Stabilization:</b> Delivering a robust, coffee-like sensory profile without any xanthine alkaloids, it avoids stimulating the adrenal axis or triggering tachycardic episodes.",
+    "<b>Hepatic Bile and Digestive Sparking:</b> Natural **sesquiterpene lactones** stimulate the vagus nerve, optimizing bile secretion profiles and accelerating upper GI motility vectors.",
+    "<b>Vascular Tone and Fluid Flushing:</b> The synergy of metabolic **potassium** and active polyphenols aids in clearing excess sodium loads, relieving structural pressure within the endothelial network."
+  ],
+  "precautionsIntro": "Inulin-Induced Bifidogenic Fermentation Distress, Asteraceae Botanical Allergenic Risks, and Cholelithiasis Translocation Warnings: Strategic dosage integration avoids metabolic discomfort.",
+  "precautions": [
+    "<b>Inulin-Driven Fermentation Flatulence:</b> Rapidly introducing high doses of soluble inulin can trigger intense microbial fermentation in hyper-sensitive or dysbiotic digestive systems, causing acute bloating, painful cramps, and flatulence.",
+    "<b>Asteraceae Cross-Reactive Allergies:</b> Chicory belongs to the Asteraceae (Compositae) plant family. Individuals with known hyper-sensitivities to ragweed, marigolds, or daisies may experience structural allergic responses or contact dermatitis.",
+    "<b>Cholelithiasis Bile Translocation Risks:</b> Because chicory compounds possess potent choleretic and cholagogue activities that accelerate bile ejection, individuals with large active gallstones must exercise caution to prevent mechanical bile duct obstructions."
+  ]
+  },
+  "rabbit-raw": {
+  "slug": "rabbit-raw",
+  "name": "Rabbit Meat",
+  "category": "Meat and Eggs",
+  "image": "/productinfo/rabbit-raw.png",
+  "imageAlt": "fresh raw lean rabbit meat portions on a clean light slate surface",
+  "description": "Rabbit meat is an elite, ultra-lean white meat derived from Oryctolagus cuniculus. Globally recognized for its exceptional structural density, minimal lipid footprint, and high biological value, it stands as one of the most allergen-friendly, easily digestible mammalian proteins available. Rich in intracellular electrolytes and essential B-complex cofactors, it provides premium metabolic support for cardiovascular integrity and deep myofibrillar synthesis.",
+  "macroTitle": "Macro Nutrients (per 100g, lean raw meat)",
+  "macroIntro": "Rabbit meat exhibits a highly efficient, protein-dominant macronutrient profile, yielding an exceptionally low caloric weight alongside minimal saturated lipid levels.",
+  "microIntro": "Rabbit meat features an advanced, highly bioavailable micronutrient matrix, offering massive thresholds of intracellular potassium, metabolic phosphorus, and neural B-complex vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~136 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally light metabolic energy density for mammalian meat, maximizing functional protein delivery per calorie consumed."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "21.8 grams",
+      "bg": "#f5722c",
+      "description": "A premium concentration of highly digestible complete protein containing all essential amino acids in optimal ratios for muscle matrix repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.9 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-low total lipid structure containing minimal saturated fats and balanced ratios of heart-healthy monounsaturated and polyunsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Contains absolutely zero carbohydrate matrices, generating a completely flat, non-existent response on glycemic or insulinemic curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "6.5 mcg / 270% DV",
+      "bg": "#15837c",
+      "description": "An extraordinary presentation of this critical cobalt-based cofactor, driving rapid myelin sheath maintenance and red blood cell maturation cascades."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "225 mg / 18% DV",
+      "bg": "#f5722c",
+      "description": "A structural macro-mineral required for synthesizing the intracellular adenosine triphosphate (ATP) energy matrix and stabilizing bone mineralization."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "343 mg / 7% DV",
+      "bg": "#66ab63",
+      "description": "An important intracellular electrolyte that acts as an osmotic pump stabilizer, maintaining proper cellular fluid balance and resting membrane potentials."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "15.9 mcg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace mineral incorporated into glutathione peroxidase enzymes, offering robust protection against systemic oxidative stress vectors."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "1.6 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "A highly bioavailable organic heme iron fraction that accelerates cellular oxygen transportation and supports active mitochondrial respiration."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Myofibrillar Tissue Synthesis:</b> Boasting an exceptional **protein bioavailability score**, it maximizes cellular nitrogen retention loops while placing minimal digestive stress on the GI tract.",
+    "<b>Neuro-Metabolic Axis Optimization:</b> Astronomical thresholds of **Vitamin B12** systematically support neural signaling efficiency, nerve insulation health, and cognitive stamina indices.",
+    "<b>Cardiovascular Endothelial Protection:</b> Possessing exceptionally low levels of **saturated lipids** and sodium, it helps maintain flexible vascular walls and mitigates plaque build-up risks.",
+    "<b>Allergen-Sensitive Protein Alternative:</b> Due to its unique structural peptide chain composition, it triggers a remarkably low incidence of immune reactivity, ideal for elimination protocols.",
+    "<b>Intracellular ATP Regeneration:</b> The rich synergy of **phosphorus** and B-vitamins accelerates cellular energy conversion loops, reducing markers of chronic physiological fatigue."
+  ],
+  "precautionsIntro": "Purine Nucleotide Base Load, High-Protein Malnutrition Risk (Rabbit Starvation), and Thermal Processing Guidelines: Calibrated integration ensures balanced metabolic parameters.",
+  "precautions": [
+    "<b>Purine Nucleotide Accumulation Risks:</b> Rabbit meat houses moderate concentrations of natural **purines**. Excess metabolic breakdown can elevate serum uric acid levels, necessitating portion control for individuals prone to gout.",
+    "<b>Lean Protein Malnutrition Limitations:</b> Due to the extreme absence of fat mass, relying exclusively on rabbit meat as a singular macro source without supplemental dietary fats can disrupt nitrogen-to-lipid metabolic balancing (known historically as rabbit starvation).",
+    "<b>Oxidative Degradation Overcooking Hazards:</b> Because of its ultra-lean tissue architecture, rapid exposure to high-temperature dry cooking can cause immediate moisture evacuation, necessitating gentle, moisture-rich culinary processing to avoid tough myofibrils."
+  ]
+  },
+  "watercress": {
+  "slug": "watercress",
+  "name": "Watercress",
+  "category": "Fruits and Vegetables",
+  "image": "/productinfo/watercress.png",
+  "imageAlt": "fresh raw green watercress sprigs with drops of water in a rustic bowl",
+  "description": "Watercress is an elite, hyper-nutrient-dense aquatic cruciferous vegetable derived from Nasturtium officinale. Renowned globally for sitting at the absolute apex of nutrient density scales, it features an extraordinary concentration of organosulfur compounds, specifically glucosinolates. It delivers a sharp, peppery flavor profile driven by isothiocyanates, serving as a powerful biological catalyst for phase II hepatic detoxification and cellular defense networks.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh raw greens)",
+  "macroIntro": "Watercress possesses a virtually non-existent macronutrient footprint, offering an ultra-low caloric density that acts primarily as a structural vehicle for dense micronutrient delivery.",
+  "microIntro": "Watercress features a spectacular, highly bioavailable micronutrient matrix, yielding massive concentrations of bone-stabilizing Vitamin K1, antioxidant carotenoids, and protective cellular compounds.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~11 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally low caloric load, rendering it one of the most nutrient-dense botanical substances per calorie on Earth."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.3 grams",
+      "bg": "#f5722c",
+      "description": "Surprisingly elevated complete amino acid fractions for a structural water-based leafy green, supporting trace cellular maintenance pathways."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "A completely negligible lipid profile, perfectly accommodating strict fat-restricted dietary protocols and cardiovascular management systems."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.3 grams",
+      "bg": "#1a96cd",
+      "description": "Extremely low net carbs balanced by structural plant fiber (~0.5g), ensuring absolutely zero impact on peripheral glycemic dynamics."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-k",
+      "slug": "vitamin-k",
+      "name": "Vitamin K1 (Phylloquinone)",
+      "amount": "250 mcg / 208% DV",
+      "bg": "#15837c",
+      "description": "An astronomical threshold of phylloquinone, required for activating hepatic blood-clotting factors and driving bone osteocalcin mineralization loops."
+    },
+    {
+      "id": "peitc",
+      "slug": "peitc",
+      "name": "Phenethyl Isothiocyanate (PEITC)",
+      "amount": "High Bioactive Load",
+      "bg": "#f5722c",
+      "description": "A unique, highly potent organosulfur breakdown compound that directly triggers cellular phase II detox enzymes and protects DNA matrices from oxidative damage."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "43 mg / 48% DV",
+      "bg": "#66ab63",
+      "description": "A robust concentration of organic ascorbic acid that accelerates collagen synthesis, neutralizes free radicals, and strengthens immune responses."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "160 mcg RAE / 18% DV",
+      "bg": "#1a96cd",
+      "description": "Abundant pro-vitamin carotenoids that accumulate in the retina to maintain optimal visual acuity and preserve epithelial cell integrity."
+    },
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "120 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "A highly bioavailable botanical calcium fraction that works in synergy with Vitamin K to optimize skeletal infrastructure dynamics."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Cellular Detoxification Signaling:</b> Abundant **PEITC** and glucosinolates actively upregulate phase II liver enzymes, accelerating the neutralisation and clearance of environmental toxins.",
+    "<b>Skeletal Matrix Mineralization:</b> Piercing concentrations of **Vitamin K1** guide calcium directly into the bone matrix structure, optimizing bone density parameters and preventing vascular calcification.",
+    "<b>Vascular Endothelial Protection:</b> Natural dietary nitrates and active antioxidants reduce arterial stiffness, maximizing nitric oxide paths to support optimal blood pressure bounds.",
+    "<b>Retinal Macular Shielding:</b> Wealthy structural reservoirs of **lutein and zeaxanthin** filter harmful high-energy blue wavelengths, protecting ocular cells from oxidative degradation.",
+    "<b>Systemic Oxidative Stress Mitigation:</b> The high concentration of **Vitamin C** works synergistically with cruciferous phenols to clear free radicals and reduce systemic markers of inflammation."
+  ],
+  "precautionsIntro": "High Vitamin K Blood Interaction Potentials, Iodine Uptake Glucosinolate Competitions, and Wild Sourcing Parasitic Hazards: Strategic integration maximizes cellular security.",
+  "precautions": [
+    "<b>Anticoagulant Medication Interferences:</b> Due to the exceptionally high concentration of **Vitamin K1**, sudden spikes in consumption can mechanically counteract the efficacy of blood thinners like warfarin, requiring strict dietary consistency.",
+    "<b>Thyroid Goitrogenic Interruptions:</b> Like all cruciferous vegetables, raw watercress contains trace compounds that can theoretically compete with iodine uptake. Individuals with uncompensated hypothyroidism should monitor high intake of raw extracts.",
+    "<b>Wild Sourcing Pathogen Hazards:</b> Foraging wild watercress from slow-moving water near livestock runs introduces severe risks of Fasciola hepatica (sheep liver fluke) contamination, making cultivated or thoroughly washed versions mandatory."
+  ]
+  },
+  "corn-grits": {
+  "slug": "corn-grits",
+  "name": "Corn Grits",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/corn-grits.png",
+  "imageAlt": "dry golden corn grits in a rustic wooden bowl with dried corn ears in the background",
+  "description": "Corn grits are a clean, gluten-free carbohydrate substrate processed from the milled endosperm of dried Zea mays kernels. Globally valued for its excellent digestive tolerance and complete absence of prolamine allergenic complexes, this golden grain serves as an exceptional source of slow-releasing energy. Rich in complex starchy matrices and structural carotenoids, it provides clean metabolic fueling while preserving gastrointestinal boundary integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked grits)",
+  "macroIntro": "Corn grits display a robust carbohydrate-dense macronutrient matrix, structuralized primarily by complex starches that deliver sustained, incremental systemic glucose loading.",
+  "microIntro": "Corn grits deliver a distinct biochemical micro-matrix, offering solid stores of neural B-complex vitamins, metabolic phosphorus, and lipid-soluble lutein carotenoids.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~360 kcal",
+      "bg": "#15837c",
+      "description": "A dense, high-efficiency caloric reservoir providing stable, long-lasting glycogen replenishment for active skeletal and organic systems."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "8.3 grams",
+      "bg": "#f5722c",
+      "description": "Contains plant peptides consisting primarily of zein fractions, offering an inherently gluten-free, non-reactive nitrogen source."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.2 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid footprint featuring minor polyunsaturated fatty acid fractions, preventing rancidity and optimizing vascular safety limits."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "77.5 grams",
+      "bg": "#1a96cd",
+      "description": "Composed almost entirely of complex, slow-digesting starches balanced by a protective layer of insoluble structural plant fiber (~3.9g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "lutein-zeaxanthin",
+      "slug": "lutein-zeaxanthin",
+      "name": "Lutein & Zeaxanthin",
+      "amount": "Carotenoid fraction",
+      "bg": "#15837c",
+      "description": "Lipid-soluble yellow xanthophyll pigments that specifically accumulate within human ocular tissues to insulate against high-energy light damage."
+    },
+    {
+      "id": "vitamin-b1",
+      "slug": "vitamin-b1",
+      "name": "Vitamin B1 (Thiamin)",
+      "amount": "0.38 mg / 32% DV",
+      "bg": "#f5722c",
+      "description": "A critical enzymatic cofactor required for carbohydrate decarboxylation loops and accelerating neurological ATP conversion cascades."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "120 mg / 10% DV",
+      "bg": "#66ab63",
+      "description": "An essential structural macro-mineral required for validating bone density matrix parameters and synthesizing cellular phospholipid membranes."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.22 mg / 13% DV",
+      "bg": "#1a96cd",
+      "description": "An organic cofactor that facilitates structural amino acid transamination pathways and supports normal neurotransmitter balancing routines."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "32 mg / 8% DV",
+      "bg": "#e4a910",
+      "description": "An abundant intracellular cation operating as a vital cofactor for muscular relaxation kinetics and systemic energy management loops."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gluten-Free Enterocyte Preservation:</b> Naturally completely devoid of wheat-type gluten proteins, it allows secure mucosal regeneration in celiac or non-celiac gluten-sensitive bowel environments.",
+    "<b>Incremental Glycogen Loading:</b> The intricate structural starch network releases glucose molecule strings gradually, preventing rapid, destabilizing plasma insulin surges.",
+    "<b>Retinal Macular Micro-Shielding:</b> Substantial concentrations of bioavailable **lutein** actively concentrate inside the retina, serving as a functional shield against progressive macular breakdown.",
+    "<b>Neuro-Metabolic Energy Catalysis:</b> Wealthy reserves of **Thiamin (B1)** accelerate the systematic conversion of ingested carbohydrates into clean, usable cellular energy substrate.",
+    "<b>Peristaltic Mechanical Cleanse:</b> Plentiful insoluble **hemicellulose fiber** fractions absorb localized GI fluids to expand stool bulk, promoting consistent, toxic-clearing bowel clearance kinetics."
+  ],
+  "precautionsIntro": "Elevated Starchy Glycemic Mass, Essential Lysine Amino Acid Deficiencies, and Fine Particle Culinary Hydration Controls: Strategic macro allocation maximizes performance.",
+  "precautions": [
+    "<b>High Glycemic Index When Overprocessed:</b> Finely ground or overcooked corn porridge quickly gelatinizes, causing accelerated starch conversion that can spike glucose curves in uncompensated diabetic profiles.",
+    "<b>Incomplete Essential Peptide Profile:</b> Corn protein is highly deficient in essential amino acids like **lysine and tryptophan**. Relying on it as a single mono-protein base can trigger amino acid imbalances if not coupled with legumes or animal foods.",
+    "<b>Industrial Phytate Mineral Binding:</b> Unrefined corn grains carry natural phytic acid complexes that can chelate iron and zinc. Utilizing optimal soaking or slow thermal simmering methods completely neutralizes these binding structures."
+  ]
+  },
+  "barley-groats": {
+  "slug": "barley-groats",
+  "name": "Barley Groats (Pearled Barley)",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/barley-groats.png",
+  "imageAlt": "dry raw pearled barley groats in a rustic ceramic bowl on a dark concrete background",
+  "description": "Barley groats (commonly encountered as pearled barley) are a highly nourishing, low-glycemic carbohydrate substrate derived from the polished grains of Hordeum vulgare. Though lightly abraded to remove the fibrous outer hull, it fully retains its dense internal layers of functional beta-glucan soluble fibers. Renowned for its exceptional water-binding capacity during culinary processing, it serves as a powerful metabolic and gastrointestinal shield that flattens postprandial glucose curves and optimizes vascular endothelial health.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked groats)",
+  "macroIntro": "Barley groats display a highly favorable, slow-burning macronutrient architecture, delivering dense complex starches alongside a major structural dietary fiber footprint.",
+  "microIntro": "Pearled barley houses an impressive, intact micronutrient matrix rich in metabolic phosphorus, nervous-system-stabilizing magnesium, and essential neurotropic B-vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~352 kcal",
+      "bg": "#15837c",
+      "description": "A robust energetic payload that yields stable, prolonged metabolic fuel due to its dense, slow-digesting complex carbohydrate structures."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "9.9 grams",
+      "bg": "#f5722c",
+      "description": "A solid source of structural plant proteins with notable levels of essential amino acids like tryptophan and lysine to support lean cellular repair loops."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.2 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid signature with negligible saturated fats, emphasizing heart-healthy unsaturated essential fatty acid fractions instead."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "77.7 grams",
+      "bg": "#1a96cd",
+      "description": "Composed primarily of multi-branched non-starchy complex carbohydrates and a heavy functional dietary fiber matrix (~15.6g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "beta-glucan",
+      "slug": "beta-glucan",
+      "name": "Beta-Glucan Soluble Fiber",
+      "amount": "High Therapeutic Load",
+      "bg": "#15837c",
+      "description": "A critical, gel-forming soluble polysaccharide that systematically increases intestinal viscosity to slow down glucose absorption and bind vascular lipids."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "221 mg / 18% DV",
+      "bg": "#f5722c",
+      "description": "An essential intracellular mineral required for synthesizing the adenosine triphosphate (ATP) energy matrix and reinforcing skeletal structures."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "79 mg / 20% DV",
+      "bg": "#66ab63",
+      "description": "A vital neuro-muscular cofactor that dampens central nervous system hyper-reactivity and optimizes cellular insulin receptor sensitivity thresholds."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "37.7 mcg / 68% DV",
+      "bg": "#1a96cd",
+      "description": "An essential antioxidant trace element embedded into glutathione peroxidase complexes, defending delicate cellular walls from oxidative stress cascades."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "4.6 mg / 29% DV",
+      "bg": "#e4a910",
+      "description": "An important organic respiratory coenzyme factor necessary for stabilizing lipid profiles and driving mitochondrial cellular energy pathways."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Sustained Glycemic Stabilization:</b> High concentrations of functional **beta-glucans** decelerate gastric emptying, establishing a smooth, completely flat postprandial glucose response.",
+    "<b>Vascular Plaque Mitigation:</b> The viscous digestive gel traps intestinal bile acids, prompting the liver to systematically pull circulating LDL cholesterol from the bloodstream for new bile synthesis.",
+    "<b>Satiety and Weight Management:</b> The expansive nature of barley fibers induces mechanical stomach distension, activating satiety signaling pathways to suppress long-term hunger spikes.",
+    "<b>Deep Prebiotic Colonization:</b> Complex non-digestible polysaccharides undergo active fermentation by beneficial colonic microbes, accelerating the production of anti-inflammatory short-chain fatty acids (SCFAs).",
+    "<b>Mucosal Soothing Properties:</b> When slowly simmered, it releases healing starches that form a viscous, protective coat over hyper-reactive or inflamed gastric mucosal linings."
+  ],
+  "precautionsIntro": "Hordein Gluten Complex Hazards, Gastrointestinal Fiber Adaptation Boundaries, and Phytic Binding Dynamics: Strategic culinary processing maximizes metabolic safety.",
+  "precautions": [
+    "<b>Hordein Gluten Autoimmune Reactions:</b> Barley grains natively synthesize **hordein**, a specific structural prolamin belonging to the gluten family. It is strictly contraindicated for individuals with celiac disease or gluten enterprise disorders.",
+    "<b>Gastrointestinal Bloating Sensitivities:</b> The massive influx of unrefined **insoluble and soluble fibers** can induce significant flatulence, cramping, or bloating in individuals unaccustomed to a high-fiber load or those with IBS.",
+    "<b>Phytic Acid Mineral Chelation:</b> Outer grain segments retain trace phytic acid compounds that can cross-bind dietary iron and zinc. Implementing an overnight soaking cycle before boiling totally inactivates these anti-nutritional factors."
+  ]
+  },
+  "wheat-groats": {
+  "slug": "wheat-groats",
+  "name": "Wheat Groats",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/wheat-groats.png",
+  "imageAlt": "dry raw crushed wheat groats in a rustic ceramic bowl on a dark background",
+  "description": "Wheat groats (often processed as crushed whole wheat or Arnautka) are a highly energizing carbohydrate substrate derived from the crushed kernels of hard durum wheat (Triticum durum). Retaining significant fractions of the original embryonic germ and structural bran layers, this ancient grain delivers a reliable matrix of complex starches. It acts as a sustained systemic fuel source, providing dense neurological support and robust mechanical activation of the digestive tract.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked groats)",
+  "macroIntro": "Wheat groats present a solid, starch-dense macronutrient profile heavily fortified by structural plant proteins and non-digestible cellulose fibers.",
+  "microIntro": "Crushed hard wheat yields a highly concentrated micronutrient matrix, offering rich deposits of metabolic phosphorus, muscle-stabilizing magnesium, and essential neurotropic B-vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~340 kcal",
+      "bg": "#15837c",
+      "description": "A dense, high-yield caloric reservoir that provides stable, long-lasting glycogen replenishment for demanding physical and cognitive workflows."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "11.5 grams",
+      "bg": "#f5722c",
+      "description": "An elevated plant protein structure containing crucial amino acid fractions, supporting basic tissue cellular repair and systemic nitrogen balance."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.3 grams",
+      "bg": "#e4a910",
+      "description": "A minor lipid footprint composed primarily of essential polyunsaturated fatty acids located within the preserved germ and bran particles."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "68.5 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of complex, slow-digesting starches tightly packed within a supportive network of insoluble structural plant fibers (~6.0g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "260 mg / 21% DV",
+      "bg": "#15837c",
+      "description": "An essential macro-mineral required for synthesizing cellular ATP molecules and validating structural bone density matrix parameters."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "90 mg / 23% DV",
+      "bg": "#f5722c",
+      "description": "A vital intracellular cofactor that modulates neural excitability, supports muscle relaxation kinetics, and optimizes peripheral insulin responses."
+    },
+    {
+      "id": "vitamin-b1",
+      "slug": "vitamin-b1",
+      "name": "Vitamin B1 (Thiamin)",
+      "amount": "0.30 mg / 25% DV",
+      "bg": "#66ab63",
+      "description": "A critical enzymatic coenzyme required for carbohydrate metabolism, driving clean glucose-to-ATP energy conversion pathways in the brain."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "3.1 mg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace element necessary for supporting hemoglobin synthesis, facilitating oxygen transport, and maintaining cellular respiration loops."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.25 mg / 15% DV",
+      "bg": "#e4a910",
+      "description": "An organic cofactor that coordinates structural amino acid transamination pathways and assists in systemic neurotransmitter balancing routines."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Sustained Glycogen Replenishment:</b> The dense complex starch network releases glucose molecule strings gradually, preventing rapid, destabilizing plasma insulin spikes.",
+    "<b>Peristaltic Mechanical Cleanse:</b> Rich **insoluble cellulose fiber** fractions absorb localized GI fluids to expand stool bulk, promoting consistent, toxin-clearing bowel kinetics.",
+    "<b>Neuro-Metabolic Energy Support:</b> Abundant reserves of **Thiamin (B1)** accelerate the systematic conversion of ingested carbohydrates into clean, usable cellular energy substrate.",
+    "<b>Cellular Oxygenation Synthesis:</b> Healthy amounts of plant-based **iron** actively support hemoglobin synthesis, helping prevent chronic fatigue states caused by trace element deficiencies.",
+    "<b>Prebiotic Biomass Expansion:</b> Unrefined non-starchy polysaccharides serve as selective fermentation substrates for beneficial intestinal microbes, optimizing gut barrier integrity."
+  ],
+  "precautionsIntro": "Gliadin Gluten Complex Hazards, Acute Inflammatory Gastrointestinal Contrainidications, and Phytic Chelation Dynamics: Methodical meal integration preserves mucosal comfort.",
+  "precautions": [
+    "<b>Gliadin Gluten Autoimmune Triggers:</b> Wheat groats natively possess high concentrations of **gliadin and glutenin**, the primary structural proteins forming gluten. It is strictly contraindicated for individuals with celiac disease or non-celiac gluten enterprise disorders.",
+    "<b>Mechanical Mucosal Irritation:</b> Because these groats retain coarse, unpolished bran particles, introducing them during acute flare-ups of gastritis, colitis, or gastric ulcers can cause painful mechanical irritation.",
+    "<b>Phytic Acid Mineral Binding:</b> The outer layers of the crushed wheat endosperm contain phytic acid complexes that can chelate iron, calcium, and zinc. Implementing an overnight soaking cycle or prolonged boiling completely neutralizes these binding structures."
+  ]
+  },
+  "amaranth-groats": {
+  "slug": "amaranth-groats",
+  "name": "Amaranth Groats",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/amaranth-groats.png",
+  "imageAlt": "dry raw amaranth seeds in a rustic small wooden scoop on a dark textured background",
+  "description": "Amaranth groats are an ancient, completely gluten-free pseudocereal substrate derived from the dense, nutrient-packed seeds of Amaranthus cruentus or Amaranthus hypochondriacus. Highly distinct from traditional cereal grains, amaranth features a radically superior amino acid matrix centered around optimal concentrations of lysine. Enriched with squalene—a critical lipid-soluble antioxidant—and dense soluble fibers, it delivers phenomenal vascular endothelial protection and complete, non-reactive peptide absorption.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked groats)",
+  "macroIntro": "Amaranth exhibits a heavily balanced, protein-dense macronutrient matrix, combining premium essential peptides with high-quality unsaturated fatty acids and complex, slow-releasing starches.",
+  "microIntro": "The amaranth seed houses an incredibly rich biochemical micro-matrix, boasting extraordinary volumes of squalene, organic iron, structural magnesium, and tissue-building calcium.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~371 kcal",
+      "bg": "#15837c",
+      "description": "A high-efficiency energy payload that provides continuous mitochondrial fuel, driven by highly accessible complex starches and dense lipid reserves."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.6 grams",
+      "bg": "#f5722c",
+      "description": "A structurally superior plant protein framework holding a complete amino acid profile, remarkably rich in lysine, which facilitates rapid cellular repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "7.0 grams",
+      "bg": "#e4a910",
+      "description": "An expanded, healthy lipid profile dominated by linoleic fatty acid fractions and functional biological compounds like squalene."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "65.3 grams",
+      "bg": "#1a96cd",
+      "description": "Formed of fine-grained complex starches embedded within a robust, multi-branched dietary fiber web (~6.7g) that prevents swift glucose spikes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "squalene",
+      "slug": "squalene",
+      "name": "Squalene",
+      "amount": "300 - 400 mg",
+      "bg": "#15837c",
+      "description": "A powerful bio-active hydrocarbon antioxidant that acts as a natural skin shield, traps oxygen at the cellular level, and stabilizes lipid profiles."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "248 mg / 62% DV",
+      "bg": "#f5722c",
+      "description": "A massive intracellular mineral deposit that systematically balances nervous transmission, reduces vascular tension, and powers ATP synthesis."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "7.6 mg / 42% DV",
+      "bg": "#66ab63",
+      "description": "An exceptionally dense trace element cache essential for validating systemic hemoglobin counts and managing oxygen transport cascades."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "557 mg / 45% DV",
+      "bg": "#1a96cd",
+      "description": "An abundant structural mineral required for driving cellular energy exchanges and maintaining genetic DNA/RNA phosphate backbones."
+    },
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "159 mg / 12% DV",
+      "bg": "#e4a910",
+      "description": "An unusually high mineral yield for a grain-like seed, critical for fortifying bone mineral densities and regulating neuromuscular triggers."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gluten-Free Enterocyte Security:</b> Naturally completely free of prolamin gluten fractions, it permits clean, non-inflammatory nutrient assimilation for individuals with celiac tissue profiles.",
+    "<b>Squalene Cellular Oxygenation:</b> Exceptional **squalene** concentrations neutralize free radicals within deep tissues, promoting rapid dermal healing and optimizing oxygen delivery loops.",
+    "<b>Complete Peptide Re-Synthesis:</b> Massive **lysine** thresholds allow the body to utilize the plant protein fully without encountering amino acid bottlenecking, driving efficient muscle repair.",
+    "<b>Cardiovascular Tension Reduction:</b> Heavy structural reserves of **magnesium** actively coordinate smooth vascular muscle relaxation, assisting in the management of normal arterial tension.",
+    "<b>Hematopoiesis Stabilization:</b> Prominent concentrations of highly bioavailable **iron** stimulate erythropoiesis, expanding systemic red blood cell counts to conquer fatigue states."
+  ],
+  "precautionsIntro": "Oxalate Crystal Aggregations, Raw Saponin Antinutrient Buffers, and Gastrointestinal Adaptation Thresholds: Strategic thermal boiling secures metabolic safety.",
+  "precautions": [
+    "<b>Oxalate Mediated Renal Load:</b> Amaranth contains measurable amounts of organic oxalates. Individuals with established calcium-oxalate kidney stone backgrounds must regulate portion scales and integrate optimal hydration protocols.",
+    "<b>Raw Saponin and Phytate Complexes:</b> The exterior coating of the seeds carries mild saponin bitters and phytic structures that can decrease trace element absorption. Thorough pre-rinsing and extended boiling completely deactivates these elements.",
+    "<b>Intestinal Adaptation to Dense Fiber:</b> Due to its dense, highly concentrated fiber and lipid matrix, unmanaged consumption can precipitate temporary bloating, soft stools, or mild cramping in sensitive gastrointestinal tracts."
+  ]
+  },
+  "kumquat": {
+  "slug": "kumquat",
+  "name": "Kumquat",
+  "category": "Fruits and Berries",
+  "image": "/productinfo/kumquat.png",
+  "imageAlt": "fresh whole and halved bright orange kumquat fruits on a branch with green leaves",
+  "description": "The kumquat is a unique, small citrus fruit from the genus Citrus (formerly Fortunella) eaten entirely whole, including its sweet, oil-rich epicarp (peel) and tart endosperm (pulp). The rind houses an extraordinary concentration of lipophilic essential oils, primarily limonene, while the internal flesh delivers dense pools of organic acids. Together, they create a highly bioavailable antioxidant matrix that enhances immune defense pathways, modulates lipid profiles, and safeguards cellular membranes from oxidative degradation.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh raw fruit)",
+  "macroIntro": "Kumquats possess a hydration-dense, low-caloric macronutrient architecture that features a prominent, unrefined dietary fiber payload located within the edible rind structures.",
+  "microIntro": "Eating the skin provides a concentrated biochemical micro-matrix, delivering exceptional volumes of ascorbic acid, structural potassium, and bio-active monoterpenes.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~71 kcal",
+      "bg": "#15837c",
+      "description": "A very low, weight-conscious energetic footprint driven by natural, slow-absorbing simple carbohydrate fractions and structural fibers."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.9 grams",
+      "bg": "#f5722c",
+      "description": "A modest plant protein presence, offering trace essential amino acid fractions typical for small citrus botanical structures."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.9 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid signature located primarily within the volatile essential oils and seed fractions of the fruit matrix."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "15.9 grams",
+      "bg": "#1a96cd",
+      "description": "Consists of naturally occurring fruit sugars tempered by an impressively large structural dietary fiber framework (~6.5g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C (Ascorbic Acid)",
+      "amount": "43.9 mg / 49% DV",
+      "bg": "#15837c",
+      "description": "A potent water-soluble antioxidant that rapidly drives leukocyte activation, stimulates collagen synthesis, and scavenges circulating free radicals."
+    },
+    {
+      "id": "limonene",
+      "slug": "limonene",
+      "name": "Limonene & Monoterpenes",
+      "amount": "High Essential Oil Density",
+      "bg": "#f5722c",
+      "description": "Volatile phytochemicals concentrated in the rind that possess strong anti-inflammatory, gastroprotective, and phase-II detoxification enzyme-inducing properties."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "290 IU / 6% DV",
+      "bg": "#66ab63",
+      "description": "A key fat-soluble carotenoid precursor that preserves retinal photoreceptor integrity and modulates mucosal epithelial tissue regeneration loops."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "186 mg / 4% DV",
+      "bg": "#1a96cd",
+      "description": "An essential intracellular electrolyte required for modulating systemic fluid balance, vascular compliance, and myocardial electrical conductance."
+    },
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "62 mg / 5% DV",
+      "bg": "#e4a910",
+      "description": "An uncharacteristically high mineral yield for a citrus fruit, extracted directly from the dense cellular walls of the sweet edible peel."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Enhanced Immunological Defense:</b> High titers of **Vitamin C** synergize with skin flavonoids to accelerate macrophage proliferation and shield respiratory tissues from viral replication.",
+    "<b>Gastrointestinal Peristalsis Regulation:</b> Consuming the whole fruit with its dense **6.5g of fiber** mechanically triggers healthy intestinal contractions and supports regular bowel evacuation.",
+    "<b>Vascular and Endothelial Shielding:</b> Active **monoterpenes (limonene)** in the rind lower oxidative stress within blood vessels, aiding in the prevention of early atherogenic plaque formation.",
+    "<b>Ocular Photoreceptor Support:</b> Significant reserves of **Beta-Carotene** preserve dark-adaptation vision metrics and defend delicate retinal cells from high-energy blue light frequencies.",
+    "<b>Cellular Stress Mitigation:</b> A dense combination of polymethoxyflavones and organic acids systematically neutralizes lipid peroxidation cascades across systemic cellular membranes."
+  ],
+  "precautionsIntro": "Citrus Allergenic Protein Re-activities, Essential Oil Induced Mucosal Hyperemia, and Organic Acid Dental Erosion Dynamics: Structured ingestion protects tissue integrity.",
+  "precautions": [
+    "<b>Citrus Allergenic Cross-Reactivity:</b> Kumquats contain specialized lipid transfer proteins and citrus allergens. Individuals with confirmed hypersensitivities to oranges or grapefruits must exercise strict caution.",
+    "<b>Mucosal and Dermatological Irritation:</b> The concentrated volatile **essential oils** in the raw peel can trigger localized contact dermatitis around the lips or induce chemical hyper-reactivity in hyper-acidic or ulcerated gastric linings.",
+    "<b>Enamel Acid Demineralization:</b> The high concentration of citric and malic acid inside the pulp can temporarily soften tooth enamel. Rinsing the oral cavity with pure water immediately after consumption completely neutralizes this effect."
+  ]
+  },
+  "sesame-seeds": {
+  "slug": "sesame-seeds",
+  "name": "Sesame Seeds",
+  "category": "Nuts and Seeds",
+  "image": "/productinfo/sesame-seeds.png",
+  "imageAlt": "dry raw whole white and black sesame seeds cascading from a small rustic wooden bowl",
+  "description": "Sesame seeds (Sesamum indicum) are an exceptionally dense, lipid-stable bioactive matrix renowned as one of the oldest cultivated oilseeds. Packed within their protective outer hulls is a highly sophisticated phytochemical landscape dominated by unique lignans—specifically sesamin and sesamolin. These specialized antioxidant compounds work synergistically with lipophilic tocopherols to provide phenomenal hepatic shield support, aggressively lower vascular lipid peroxidation, and regulate critical systemic inflammatory cascades.",
+  "macroTitle": "Macro Nutrients (per 100g, whole dried seeds)",
+  "macroIntro": "Sesame seeds feature an extremely concentrated, energy-dense macronutrient footprint driven by high-quality unsaturated fatty acids and premium structural plant proteins.",
+  "microIntro": "The cellular architecture of the sesame seed yields an extraordinary micronutrient reservoir, boasting elite concentrations of structural calcium, metabolic copper, and potent lipid-soluble lignans.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~573 kcal",
+      "bg": "#15837c",
+      "description": "A dense, highly efficient metabolic payload that yields sustained cellular energy and supports fat-soluble nutrient delivery vectors."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.7 grams",
+      "bg": "#f5722c",
+      "description": "A robust source of plant peptides containing an excellent amino acid balance, particularly rich in methionine and cysteine to support structural tissue repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "49.7 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by heart-healthy monounsaturated and polyunsaturated fatty acids (oleic and linoleic), which dynamically optimize circulating lipid markers."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "23.4 grams",
+      "bg": "#1a96cd",
+      "description": "Mainly composed of non-starchy complex carbohydrates and a heavy structural dietary fiber matrix (~11.8g) that assists intestinal motility."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "975 mg / 98% DV",
+      "bg": "#15837c",
+      "description": "An astronomical macro-mineral payload (especially in unhulled seeds) vital for validating skeletal bone matrix densities and managing neuromuscular triggers."
+    },
+    {
+      "id": "sesamin-lignans",
+      "slug": "sesamin-lignans",
+      "name": "Sesamin & Sesamolin Lignans",
+      "amount": "Highly Concentrated",
+      "bg": "#f5722c",
+      "description": "Unique, powerful phytoestrogens that inhibit hepatic cholesterol synthesis, boost fatty acid oxidation, and scavenge circulating reactive oxygen species."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "4.1 mg / 453% DV",
+      "bg": "#66ab63",
+      "description": "An exceptional trace element concentration required for activating superoxide dismutase enzymes, cross-linking collagen, and driving iron absorption loops."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "351 mg / 88% DV",
+      "bg": "#1a96cd",
+      "description": "A deep intracellular mineral reserve that coordinates smooth vascular muscle relaxation, stabilizes blood pressure, and optimizes insulin receptor kinetics."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "7.8 mg / 71% DV",
+      "bg": "#e4a910",
+      "description": "A critical structural component for over 300 metabolic enzymes, deeply involved in T-lymphocyte maturation and DNA replication stability."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Skeletal Density Fortification:</b> The massive, bioavailable **calcium and phosphorus** matrix structurally reinforces bone mineral networks, combating early osteopenic progressions.",
+    "<b>Hepatic Cholesterol Modulation:</b> Specialized **sesamin lignans** systematically interfere with intestinal cholesterol absorption and suppress hepatic HMG-CoA reductase pathways.",
+    "<b>Antioxidant Vascular Defense:</b> Synergistic interaction between vitamin E isomers and sesamolin aggressively halts lipid peroxidation, protecting endothelial walls from plaque accumulation.",
+    "<b>Systemic Inflammation Attenuation:</b> High concentrations of **copper and zinc** downregulate pro-inflammatory cytokine expression cascades, providing targeted support for arthritic joint tissues.",
+    "<b>Metabolic Glucose Regulation:</b> Dense structural **magnesium** optimizes peripheral cellular sensitivity thresholds to insulin, stabilizing long-term plasma glucose responses."
+  ],
+  "precautionsIntro": "Sesame Oleosin Allergenic Hazards, High Lipophilic Energy Footprints, and Oxalate/Phytate Chelation Dynamics: Controlled dietary application ensures tissue safety.",
+  "precautions": [
+    "<b>Severe Oleosin Allergenic Triggers:</b> Sesame seeds contain specific structural storage proteins (**oleosins and globulins**). It is a recognized major allergen capable of triggering severe IgE-mediated hypersensitivity reactions, including systemic anaphylaxis.",
+    "<b>Oxalate and Phytic Mineral Binding:</b> The outer hull of the raw seed houses significant phytic acid and oxalate matrices that can bind dietary calcium and zinc. Utilizing light roasting, soaking, or mechanical crushing completely enhances mineral bioavailability.",
+    "<b>Caloric Density Management:</b> Due to the exceptionally high lipid concentration (~50% fat composition), unmanaged consumption can lead to unintended caloric surpluses. Portions should be structurally calibrated in metabolic diet plans."
+  ]
+  }
 }

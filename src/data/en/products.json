@@ -1339,5 +1339,113 @@
     "image": "/products/quinoa.png",
     "favorite": false,
     "link": "/productinfo/quinoa"
+  },
+  {
+    "id": 151,
+    "name": "Cranberries",
+    "category": "food/fruits",
+    "calories": 46,
+    "image": "/products/cranberries.png",
+    "favorite": false,
+    "link": "/productinfo/cranberries"
+  },
+  {
+    "id": 152,
+    "name": "Goat Meat",
+    "category": "food/meat",
+    "calories": 143,
+    "image": "/products/goat-raw.png",
+    "favorite": false,
+    "link": "/productinfo/goat-meat"
+  },
+  {
+    "id": 153,
+    "name": "Coconut Milk",
+    "category": "food/beverages",
+    "calories": 230,
+    "image": "/products/coconut-milk.png",
+    "favorite": false,
+    "link": "/productinfo/coconut-milk"
+  },
+  {
+    "id": 154,
+    "name": "Chicory",
+    "category": "food/beverages",
+    "calories": 23,
+    "image": "/products/chicory.png",
+    "favorite": false,
+    "link": "/productinfo/chicory"
+  },
+  {
+    "id": 155,
+    "name": "Rabbit Meat",
+    "category": "food/meat",
+    "calories": 173,
+    "image": "/products/rabbit-raw.png",
+    "favorite": false,
+    "link": "/productinfo/rabbit-raw"
+  },
+  {
+    "id": 156,
+    "name": "Watercress",
+    "category": "food/vegetables",
+    "calories": 11,
+    "image": "/products/watercress.png",
+    "favorite": false,
+    "link": "/productinfo/watercress"
+  },
+  {
+    "id": 157,
+    "name": "Corn Grits",
+    "category": "food/grains and cereals",
+    "calories": 362,
+    "image": "/products/corn-grits.png",
+    "favorite": false,
+    "link": "/productinfo/corn-grits"
+  },
+  {
+    "id": 158,
+    "name": "Pearl Barley Groats",
+    "category": "food/grains and cereals",
+    "calories": 352,
+    "image": "/products/barley-groats.png",
+    "favorite": false,
+    "link": "/productinfo/barley-groats"
+  },
+  {
+    "id": 159,
+    "name": "Wheat Groats",
+    "category": "food/grains and cereals",
+    "calories": 339,
+    "image": "/products/wheat-groats.png",
+    "favorite": false,
+    "link": "/productinfo/wheat-groats"
+  },
+  {
+    "id": 160,
+    "name": "Amaranth Groats",
+    "category": "food/grains and cereals",
+    "calories": 371,
+    "image": "/products/amaranth-groats.png",
+    "favorite": false,
+    "link": "/productinfo/amaranth-groats"
+  },
+  {
+    "id": 161,
+    "name": "Kumquat",
+    "category": "food/fruits",
+    "calories": 71,
+    "image": "/products/kumquat.png",
+    "favorite": false,
+    "link": "/productinfo/kumquat"
+  },
+  {
+    "id": 162,
+    "name": "Sesame Seeds",
+    "category": "food/nuts and seeds",
+    "calories": 573,
+    "image": "/products/sesame-seeds.png",
+    "favorite": false,
+    "link": "/productinfo/sesame-seeds"
   }
 ]
