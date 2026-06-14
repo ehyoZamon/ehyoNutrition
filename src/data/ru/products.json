@@ -1510,5 +1510,149 @@
     "image": "/products/lupin-beans.png",
     "favorite": false,
     "link": "/productinfo/lupin-beans"
+  },
+  {
+    "id": 170,
+    "name": "Манная крупа",
+    "category": "Крупы и злаки",
+    "calories": 360,
+    "image": "/products/semolina.png",
+    "favorite": false,
+    "link": "/productinfo/semolina"
+  },
+  {
+    "id": 171,
+    "name": "Маракуйя",
+    "category": "Фрукты и ягоды",
+    "calories": 97,
+    "image": "/products/passion-fruit.png",
+    "favorite": false,
+    "link": "/productinfo/passion-fruit"
+  },
+  {
+    "id": 172,
+    "name": "Козье молоко",
+    "category": "Яйца и молочные продукты",
+    "calories": 69,
+    "image": "/products/goat-milk.png",
+    "favorite": false,
+    "link": "/productinfo/goat-milk"
+  },
+  {
+    "id": 173,
+    "name": "Овечье молоко",
+    "category": "Яйца и молочные продукты",
+    "calories": 108,
+    "image": "/products/sheep-milk.png",
+    "favorite": false,
+    "link": "/productinfo/sheep-milk"
+  },
+  {
+    "id": 174,
+    "name": "Коровье молоко",
+    "category": "Яйца и молочные продукты",
+    "calories": 61,
+    "image": "/products/cow-milk.png",
+    "favorite": false,
+    "link": "/productinfo/cow-milk"
+  },
+  {
+    "id": 175,
+    "name": "Нектарин",
+    "category": "Фрукты и ягоды",
+    "calories": 44,
+    "image": "/products/nectarine.png",
+    "favorite": false,
+    "link": "/productinfo/nectarine"
+  },
+  {
+    "id": 176,
+    "name": "Помело",
+    "category": "Фрукты и ягоды",
+    "calories": 38,
+    "image": "/products/pomelo.png",
+    "favorite": false,
+    "link": "/productinfo/pomelo"
+  },
+  {
+    "id": 177,
+    "name": "Оранжевые помидоры",
+    "category": "Овощи",
+    "calories": 18,
+    "image": "/products/orange-tomatoes.png",
+    "favorite": false,
+    "link": "/productinfo/orange-tomatoes"
+  },
+  {
+    "id": 178,
+    "name": "Ревень",
+    "category": "Овощи",
+    "calories": 21,
+    "image": "/products/rhubarb.png",
+    "favorite": false,
+    "link": "/productinfo/rhubarb"
+  },
+  {
+    "id": 179,
+    "name": "Розмарин",
+    "category": "Травы и специи",
+    "calories": 131,
+    "image": "/products/rosemary.png",
+    "favorite": false,
+    "link": "/productinfo/rosemary"
+  },
+  {
+    "id": 180,
+    "name": "Руккола",
+    "category": "Овощи",
+    "calories": 25,
+    "image": "/products/arugula.png",
+    "favorite": false,
+    "link": "/productinfo/arugula"
+  },
+  {
+    "id": 181,
+    "name": "Ряженка",
+    "category": "Яйца и молочные продукты",
+    "calories": 67,
+    "image": "/products/ryazhenka.png",
+    "favorite": false,
+    "link": "/productinfo/ryazhenka"
+  },
+  {
+    "id": 182,
+    "name": "Семена тыквы",
+    "category": "Орехи и семена",
+    "calories": 559,
+    "image": "/products/pumpkin-seeds.png",
+    "favorite": false,
+    "link": "/productinfo/pumpkin-seeds"
+  },
+  {
+    "id": 183,
+    "name": "Сердце индейки",
+    "category": "Мясо и субпродукты",
+    "calories": 165,
+    "image": "/products/turkey-heart.png",
+    "favorite": false,
+    "link": "/productinfo/turkey-heart"
+  },
+  {
+    "id": 184,
+    "name": "Соевое молоко",
+    "category": "Напитки",
+    "calories": 54,
+    "image": "/products/soy-milk.png",
+    "favorite": false,
+    "link": "/productinfo/soy-milk"
+  },
+  {
+    "id": 185,
+    "name": "Соевый соус",
+    "category": "Травы и специи",
+    "calories": 53,
+    "image": "/products/soy-sauce.png",
+    "favorite": false,
+    "link": "/productinfo/soy-sauce"
   }
 ]
