@@ -2436,5 +2436,1127 @@
     "rdiHtml": "Because 'antioxidants' represents a massive category containing thousands of distinct molecules rather than a single, specific chemical element, there is no official singular Recommended Dietary Allowance (RDA) for total antioxidants. Instead, values are framed around meeting the specific individual metrics of established antioxidant vitamins and minerals.<ul><b>Key Antioxidant Micronutrient Reference Targets (Standard Adults)</b>\r\n<li>Vitamin C (Ascorbic Acid): Men: 90 mg / day | Women: 75 mg / day (Elevated by an additional 35 mg/day for smokers due to increased oxidative stress from smoke inhalation).</li>\r\n<li>Vitamin E (Alpha-Tocopherol): Men and Women: 15 mg / day</li>\r\n<li>Selenium: Men and Women: 55 mcg / day (Vital for activating the body's internal glutathione peroxidase systems).</li>\r\n<li>Zinc: Men: 11 mg / day | Women: 8 mg / day (Serves as a critical cofactor for Copper-Zinc Superoxide Dismutase).</li></ul>\r\n<b>The ORAC Value Context</b>\r\n<ul><li>Historical Measurement: In past decades, the Oxygen Radical Absorbance Capacity (ORAC) index was used to quantify the antioxidant power of foods in a test tube. However, because test-tube performance does not accurately reflect how complex molecules are digested, absorbed, and utilized inside the human body, health organizations no longer use ORAC scores to establish dietary guidelines.</li></ul>",
     "deficiencyHtml": "An isolated deficiency in total antioxidants is not classified as a singular clinical disease. Instead, a diet severely lacking in antioxidant-rich plant foods leads to systemic oxidative stress, leaving tissues increasingly vulnerable to cellular damage and accelerated functional decline. <br></br><b>Major Systemic Vulnerabilities & Structural Changes</b><ul><li><b>Accelerated Skin Aging & Photodamage:</b> Lacking dietary antioxidants like Vitamin C, Vitamin E, and carotenoids leaves skin tissues highly vulnerable to UV-induced oxidative stress. This accelerates the structural breakdown of collagen and elastin fibers, manifesting as premature wrinkling, loss of skin elasticity, and sunspots.</li><li><b>Increased Exercise-Induced Muscle Soreness:</b> A sub-optimal antioxidant pool limits the body's ability to buffer the temporary spike in free radicals generated during strenuous physical training. This can lead to prolonged delayed onset muscle soreness (DOMS), slower tissue recovery, and elevated muscle markers of oxidative fatigue.</li><li><b>Vascular Vulnerability:</b> Deficiencies in polyphenol and vitamin antioxidants reduce the systemic protection of circulating lipids. This can allow native LDL particles to become oxidized more easily, contributing to early vascular irritation and low-grade arterial inflammation.</li><li><b>Classic Micronutrient Deficiencies:</b> If the antioxidant shortfall stems from extreme restrictions of specific vitamins, classic severe conditions can manifest—such as scurvy from a total lack of Vitamin C (causing systemic collagen failure and bleeding gums) or neuromuscular coordination issues from a severe lack of Vitamin E.</li></ul>",
     "overdoseHtml": "Consuming an abundance of antioxidants naturally through a diet rich in whole fruits, vegetables, and herbs carries virtually zero risk of toxicity, as the digestive tract naturally regulates absorption. However, consuming extreme, concentrated doses via isolated synthetic supplements can backfire, causing metabolic harm.<ul><li><b>The Dietary vs. Supplemental Boundary:</b> While whole-food antioxidants are inherently safe and supportive, taking high-dose isolated antioxidant supplements can overwhelm the body's metabolic pathways and lead to adverse health outcomes.</li></ul><b>Critical Health & Biological Considerations</b><br>Managing antioxidant exposure requires understanding the delicate balance between reduction and oxidation pathways:<ul><li><b>The Antioxidant Paradox (Pro-Oxidant Transition):</b> When consumed in massive, unphysiological doses via isolated supplements, certain antioxidants can paradoxically change behavior and turn into pro-oxidants. For example, extreme doses of isolated Vitamin C or beta-carotene can accelerate the generation of free radicals inside tissues rather than neutralizing them, driving up cellular stress.</li><li><b>Blunting Beneficial Exercise Adaptations:</b> This is an important consideration for athletes: research shows that taking high-dose antioxidant supplements (like 1,000 mg of Vitamin C and 400 IU of Vitamin E) immediately around workouts can completely blunt the beneficial cellular signaling of exercise. The body relies on the temporary, minor burst of free radicals from training to signal muscles to grow stronger, improve insulin sensitivity, and build more mitochondria. Suppressing this signal with supplements prevents these healthy adaptations.</li><li><b>Interference with Crucial Cellular Signaling:</b> Free radicals are not exclusively toxic waste; in controlled micro-amounts, they serve as vital signaling molecules that help the immune system detect abnormal cells and coordinate basic biological processes. Completely wiping out these signals with excessive, unregulated supplementation can disrupt the body's natural cellular surveillance systems.</li><li><b>Medication & Therapy Interventions:</b> Because high-dose antioxidant supplements aggressively neutralize reactive oxygen species, they can actively interfere with medical therapies that intentionally rely on oxidative bursts to function, such as specific oncology protocols. Always consult a physician before introducing concentrated antioxidant supplements during active clinical treatments.</li></ul>"
+  },
+  "lutein": {
+    "slug": "lutein",
+    "title": "Lutein",
+    "category": "Nutrients/carotenoids",
+    "description": "Lutein is a naturally occurring xanthophyll, a type of carotenoid pigment synthesized only by plants. In the human body, it concentrates in high amounts within the macula of the eye (alongside zeaxanthin), forming the macular pigment. As a fat-soluble compound, it requires dietary fats for proper absorption. Since the human body cannot produce lutein, it must be regularly obtained from dietary sources or supplements.",
+    "keyFunctionsHtml": "Lutein serves as a critical protective agent for ocular and cognitive health:\r\n<ul>\r\n<li><b>Blue Light Filtration:</b> It acts as \"natural sunglasses\" inside the eye, absorbing high-energy blue light and protecting the retina from photo-oxidative damage.</li>\r\n<li><b>Antioxidant Action in the Eyes:</b> It neutralizes free radicals in the macula, significantly lowering the risk of age-related macular degeneration (AMD) and cataracts.</li>\r\n<li><b>Visual Performance Support:</b> It enhances visual acuity, improves glare recovery time, and boosts contrast sensitivity.</li>\r\n<li><b>Cognitive and Skin Health:</b> It accumulates in brain tissues, where it is linked to better cognitive function and memory, and helps protect the skin from UV-induced oxidative stress.</li>\r\n</ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/kale.png",
+        "name": "Kale"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      },
+      {
+        "image": "/products/parsley.png",
+        "name": "Parsley"
+      },
+      {
+        "image": "/products/pistachios.png",
+        "name": "Pistachios"
+      },
+      {
+        "image": "/products/egg-yolk.png",
+        "name": "Egg yolks"
+      },
+      {
+        "image": "/products/green-peas.png",
+        "name": "Green peas"
+      },
+      {
+        "image": "/products/zucchini.png",
+        "name": "Zucchini"
+      },
+      {
+        "image": "/products/corn.png",
+        "name": "Corn"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Dark Leafy Greens (Kale & Spinach):</b> The absolute richest dietary sources of lutein; cooking them slightly actually increases bioavailability.</li><li><b>Egg Yolks:</b> Although they contain lower absolute amounts compared to greens, the fat matrix in yolks makes the lutein highly bioavailable.</li><li><b>Pistachios:</b> The only nut containing significant amounts of lutein.</li><li><b>Green & Yellow Vegetables:</b> Zucchini, corn, and green peas provide excellent, bioavailable daily amounts.</li></ul>",
+    "rdiHtml": "There is no official established Recommended Dietary Allowance (RDA) for lutein, but clinical studies and nutritional guidelines suggest daily intake ranges based on health targets:<br></br>\r\nAdults\r\n<ul>\r\n<li>General Well-being: 6–10 mg / day to support standard eye health and antioxidant defense.</li>\r\n<li>Therapeutic Support (AMD/Cataracts): 10–20 mg / day, often combined with 2–4 mg of zeaxanthin (as validated by the AREDS2 clinical trials).</li>\r\n<li>Pregnancy & Lactation: Maintaining a steady intake of 6–10 mg / day is beneficial, as lutein is transferred to the fetus and infant, supporting early eye and brain development.</li>\r\n</ul>\r\nChildren\r\n<ul>\r\n<li>Toddlers & Children: 2–5 mg / day, easily achieved through a balanced diet including green vegetables.</li>\r\n</ul>",
+    "deficiencyHtml": "A diet lacking in lutein does not cause an immediate, acute deficiency disease, but a chronic shortage leads to gradual, long-term degradation of tissue functions.<br></br>\r\n<br></br>\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Decreased Macular Pigment Optical Density (MPOD):</b> Thining of the protective layer in the retina, leaving the eyes vulnerable to light damage.</li>\r\n<li><b>Increased Susceptibility to AMD:</b> Higher risk of developing age-related macular degeneration, a leading cause of irreversible vision loss.</li>\r\n<li><b>Higher Cataract Risk:</b> The lens of the eye becomes more vulnerable to oxidative clouding over time.</li>\r\n<li><b>Poor Visual Performance:</b> Increased sensitivity to glare, slower recovery after being dazzled by bright lights, and reduced contrast sensitivity in low-light environments.</li>\r\n</ul>",
+    "overdoseHtml": "Lutein is considered highly safe and non-toxic, even when consumed in high doses from dietary sources or long-term supplementation.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No strict toxic upper limit has been set, but clinical safety data confirms that doses up to 20 mg / day are entirely safe for long-term use.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Carotenodermia:</b> Benign, reversible yellowing of the skin (especially visible on the palms of the hands and soles of the feet) caused by excessive accumulation of pigments. It is completely harmless and disappears once intake is reduced.</li>\r\n</ul>"
+  },
+  "zeaxanthin": {
+    "slug": "zeaxanthin",
+    "title": "Zeaxanthin",
+    "category": "Nutrients/carotenoids",
+    "description": "Zeaxanthin is a structural isomer of lutein and a powerful xanthophyll carotenoid found naturally in certain plants and microorganisms. Within the human eye, zeaxanthin selectively concentrates in the very center of the macula (the fovea), whereas lutein dominates the peripheral macula. Together, they form the macular pigment. As a fat-soluble molecule, its absorption is highly dependent on the presence of dietary lipids. Since humans cannot produce zeaxanthin, it must be consistently supplied via food or supplementation.",
+    "keyFunctionsHtml": "Zeaxanthin works in tandem with lutein to provide elite protection and support for visual and cognitive systems:\r\n<ul>\r\n<li><b>Central Retinal Shielding:</b> It acts as a primary filter for harmful high-energy blue light directly in the fovea, the area responsible for sharp, central vision.</li>\r\n<li><b>Targeted Foveal Antioxidant:</b> It neutralizes singlet oxygen and free radicals at the precise point of highest light concentration, drastically reducing the progression of age-related macular degeneration (AMD).</li>\r\n<li><b>Enhanced Visual Clarity:</b> It minimizes chromatic aberration (light scattering) and reduces glare disability, allowing for crisper vision in bright sunlight or nighttime driving conditions.</li>\r\n<li><b>Brain Tissue Protection:</b> Like lutein, it crosses the blood-brain barrier to support neural efficiency, speed of visual processing, and overall executive cognitive function.</li>\r\n</ul>",
+    "foodSourcesIntro": "",
+    "foodSources": [
+      {
+        "image": "/products/orange-bell-pepper.png",
+        "name": "Orange bell peppers"
+      },
+      {
+        "image": "/products/corn.png",
+        "name": "Corn"
+      },
+      {
+        "image": "/products/egg-yolk.png",
+        "name": "Egg yolks"
+      },
+      {
+        "image": "/products/goji-berries.png",
+        "name": "Goji berries"
+      },
+      {
+        "image": "/products/paprika.png",
+        "name": "Paprika (Spice)"
+      },
+      {
+        "image": "/products/saffron.png",
+        "name": "Saffron"
+      },
+      {
+        "image": "/products/kale.png",
+        "name": "Kale"
+      },
+      {
+        "image": "/products/spinach.png",
+        "name": "Spinach"
+      }
+    ],
+    "foodSourcesNotesHtml": "<ul><li><b>Orange Bell Peppers:</b> Contain the highest concentration of zeaxanthin among common vegetables, providing a massive bioavailable dose.</li><li><b>Goji Berries:</b> An incredibly rich traditional source, containing zeaxanthin mainly in an easily absorbable dipalmitate form.</li><li><b>Corn & Yellow Squash:</b> Excellent everyday sources where zeaxanthin provides the vibrant yellow hue.</li><li><b>Egg Yolks:</b> Contain both lutein and zeaxanthin bound in a lipid matrix, ensuring superior intestinal absorption despite lower absolute amounts.</li><li><b>Spices (Paprika & Saffron):</b> Extremely concentrated, though consumed in smaller dietary quantities.</li></ul>",
+    "rdiHtml": "While no definitive Recommended Dietary Allowance (RDA) exists for zeaxanthin, scientific literature and large-scale clinical trials suggest the following daily protocols:<br></br>\r\nAdults\r\n<ul>\r\n<li>General Preventive Intake: 2 mg / day is widely recommended to maintain adequate macular pigment density and overall eye defense.</li>\r\n<li>Clinical/Therapeutic Dosage: 2–4 mg / day, ideally paired with 10–20 mg of lutein, to actively combat or slow down diagnosed AMD or early-stage cataracts (AREDS2 formulation).</li>\r\n<li>Lactation: Crucial for nursing mothers, as zeaxanthin is actively secreted into breast milk to support the baby's developing visual cortex and retina.</li>\r\n</ul>\r\nChildren\r\n<ul>\r\n<li>Children & Teens: 0.5–1 mg / day, naturally obtained via colorful orange and yellow vegetables.</li>\r\n</ul>",
+    "deficiencyHtml": "A deficiency in zeaxanthin does not result in immediate or painful symptoms, but rather manifests as a hidden, long-term vulnerability to environmental light damage.<br></br>\r\n<br></br>\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Foveal Depletion:</b> Loss of the dense, yellow protective pigment at the center of the retina, leaving central photoreceptors exposed to blue light stress.</li>\r\n<li><b>Accelerated Central Vision Loss:</b> Higher statistical probability of progressing toward the wet or dry forms of advanced macular degeneration.</li>\r\n<li><b>Severe Glare Sensitivity:</b> Difficulty adjusting to abrupt light changes, prolonged blinding when encountering oncoming headlights at night, and reduced contrast in low-visibility environments.</li>\r\n</ul>",
+    "overdoseHtml": "Zeaxanthin has an exemplary safety profile with zero recorded instances of systemic toxicity or serious adverse side effects from high dietary or supplemental intake.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No toxic ceiling is established. Doses up to 10 mg / day in clinical trials have demonstrated absolute safety over multi-year periods.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Carotenemia/Carotenodermia:</b> A harmless, completely reversible yellowing of the skin surfaces (most noticeably on palms and soles) due to saturation of fat stores with carotenoids. It resolves naturally when intake levels are normalized.</li>\r\n</ul>"
+  },
+  "choline": {
+  "slug": "choline",
+  "title": "Choline (Vitamin B4)",
+  "category": "Nutrients/vitamins",
+  "description": "Choline is an essential nutrient that was officially recognized as a required nutrient by the Institute of Medicine in 1998. Although the liver can produce small amounts of choline, humans must consume it through their diet to prevent deficiency. It is a precursor for key structural components of cell membranes and critical neurotransmitters, playing a foundational role in brain development, liver health, and cellular signaling.",
+  "keyFunctionsHtml": "Choline serves as a vital building block for structural and neurological functions:\r\n<ul>\r\n<li><b>Neurotransmitter Synthesis:</b> It is the direct precursor for acetylcholine, a critical neurotransmitter responsible for memory, mood, muscle control, and other brain and nervous system functions.</li>\r\n<li><b>Cell Membrane Integrity:</b> It is required to produce phosphatidylcholine and sphingomyelin, structural phospholipids that maintain the fluid and structural integrity of all cell membranes.</li>\r\n<li><b>Lipid Transport & Metabolism:</b> It is essential for making very-low-density lipoproteins (VLDL), which transport cholesterol and triglycerides out of the liver. Without choline, fats accumulate in liver tissues.</li>\r\n<li><b>Methylation Pathways:</b> It converts into betaine, a compound that provides methyl groups needed to convert homocysteine to methionine, supporting cardiovascular and genetic health.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/beef-liver.png",
+      "name": "Beef liver"
+    },
+    {
+      "image": "/products/egg-yolk.png",
+      "name": "Egg yolks"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Beef"
+    },
+    {
+      "image": "/products/chicken-breast.png",
+      "name": "Chicken breast"
+    },
+    {
+      "image": "/products/salmon.png",
+      "name": "Salmon"
+    },
+    {
+      "image": "/products/soybeans.png",
+      "name": "Soybeans"
+    },
+    {
+      "image": "/products/broccoli.png",
+      "name": "Broccoli"
+    },
+    {
+      "image": "/products/shiitake-mushrooms.png",
+      "name": "Shiitake mushrooms"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Beef Liver & Egg Yolks:</b> The single richest dietary sources available. One large egg provides roughly 25% of an adult's daily requirement.</li><li><b>Animal Proteins:</b> Beef, chicken breast, salmon, and cod offer highly bioavailable forms of choline.</li><li><b>Legumes & Nuts:</b> Soybeans (and soy lecithin), kidney beans, and peanuts are the best plant-based options.</li><li><b>Cruciferous Vegetables:</b> Broccoli and Brussels sprouts contain moderate amounts that contribute well to vegan diets.</li></ul>",
+  "rdiHtml": "The Adequate Intake (AI) parameters established for choline provide steady baselines for different life stages:\r\nAdults\r\n<ul>\r\n<li>Men (19+ years): 550 mg / day</li>\r\n<li>Women (19+ years): 425 mg / day</li>\r\n<li>Pregnant Women: 450 mg / day (critical for fetal neural tube closure and brain architecture)</li>\r\n<li>Lactating Women: 550 mg / day</li>\r\n</ul>\r\nChildren\r\n<ul>\r\n<li>Infants (0–12 months): 125–150 mg / day</li>\r\n<li>Toddlers (1–3 years): 200 mg / day</li>\r\n<li>Children (4–13 years): 250–375 mg / day</li>\r\n<li>Adolescents (14–18 years): 550 mg / day for boys, 400 mg / day for girls</li>\r\n</ul>",
+  "deficiencyHtml": "A severe lack of dietary choline rapidly affects metabolic organs and neuromuscular pathways.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Non-Alcoholic Fatty Liver Disease (NAFLD):</b> Fat trapped in liver cells due to an inability to synthesize VLDL particles, potentially progressing to cirrhosis.</li>\r\n<li><b>Muscle Tissue Damage:</b> Suboptimal structural fat integrity in muscle walls, causing leakage of creatine phosphokinase into the blood and muscle wasting.</li>\r\n<li><b>Cognitive Impairment:</b> Reduced acetylcholine reserves, presenting as noticeable memory lapses, poor focus, and diminished learning capacity.</li>\r\n<li><b>Pregnancy Complications:</b> Low maternal levels correlate with a higher statistical risk of neural tube defects and altered cognitive function profiles in offspring.</li>\r\n</ul>",
+  "overdoseHtml": "Choline has an established toxicity ceiling, primarily associated with high-dose supplemental intake rather than whole foods.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> 3,500 mg / day for adults. Consuming amounts beyond this threshold can trigger systematic systemic disruptions.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Fishy Body Odor:</b> Excess choline is metabolized by gut bacteria into trimethylamine (TMA), which is excreted through sweat and breath, causing an unpleasant smell.</li>\r\n<li><b>Gastrointestinal and Circulatory Issues:</b> Heavy supplement use can lead to low blood pressure (hypotension), profuse sweating, salivation, nausea, and vomiting.</li>\r\n</ul>"
+  },
+  "coenzyme-q10": {
+  "slug": "coenzyme-q10",
+  "title": "Coenzyme Q10 (Ubiquinone)",
+  "category": "Nutrients/coenzymes",
+  "description": "Coenzyme Q10, also known as ubiquinone, is a vitamin-like compound synthesized naturally by the human body and found in virtually all living cells. It plays a critical role in cellular energy production within the mitochondria and acts as a powerful fat-soluble antioxidant. While the body can produce CoQ10 internally, production peaks in early adulthood and steadily declines with age, making dietary intake and supplementation increasingly important.",
+  "keyFunctionsHtml": "Coenzyme Q10 is essential for cellular bioenergetics and systemic antioxidant defense:\r\n<ul>\r\n<li><b>Cellular Energy Production:</b> It is a mandatory component of the electron transport chain in mitochondria, facilitating the generation of adenosine triphosphate (ATP), the primary energy currency of cells.</li>\r\n<li><b>Mitochondrial Protection:</b> Acts as a potent fat-soluble antioxidant, neutralizing free radicals directly within mitochondrial membranes and protecting cellular structures, DNA, and lipids from oxidative damage.</li>\r\n<li><b>Cardiovascular Support:</b> Heart muscle cells possess the highest concentration of mitochondria and energy demands; CoQ10 supports cardiac contractility, helps maintain optimal endothelial function, and helps manage blood pressure stability.</li>\r\n<li><b>Statin Side Effect Mitigation:</b> Statin medications lower cholesterol by blocking the HMG-CoA reductase pathway, which also inadvertently suppresses the body's natural synthesis of CoQ10, leading to muscle fatigue or pain.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/beef-heart.png",
+      "name": "Organ meats (Heart & Liver)"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Beef"
+    },
+    {
+      "image": "/products/mackerel.png",
+      "name": "Mackerel"
+    },
+    {
+      "image": "/products/sardines.png",
+      "name": "Sardines"
+    },
+    {
+      "image": "/products/spinach.png",
+      "name": "Spinach"
+    },
+    {
+      "image": "/products/broccoli.png",
+      "name": "Broccoli"
+    },
+    {
+      "image": "/products/peanuts.png",
+      "name": "Peanuts"
+    },
+    {
+      "image": "/products/sesame-seeds.png",
+      "name": "Sesame seeds"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Organ Meats:</b> Beef, pork, and chicken hearts and livers provide the absolute highest concentrations of CoQ10.</li><li><b>Fatty Fish:</b> Mackerel, sardines, and salmon are excellent, highly bioavailable sources.</li><li><b>Muscle Meats:</b> Standard beef, pork, and chicken contain moderate amounts.</li><li><b>Plant Sources:</b> Spinach, broccoli, peanuts, pistachios, and sesame seeds offer modest amounts, which are best absorbed when consumed alongside healthy fats.</li></ul>",
+  "rdiHtml": "There is no official Recommended Dietary Allowance (RDA) established for CoQ10, but professional clinical assessments and health guidelines suggest the following ranges:\r\nAdults\r\n<ul>\r\n<li>General Maintenance: 30–100 mg / day for healthy adults to support antioxidant defenses and age-related decline.</li>\r\n<li>Cardiovascular & Cellular Support: 100–200 mg / day is frequently used to manage optimal blood pressure, support heart function, or assist mitochondrial recovery.</li>\r\n<li>Statin-Induced Myopathy: 100–200 mg / day is commonly recommended to replenish CoQ10 depletion and ease prescription-related muscle discomfort.</li>\r\n</ul>",
+  "deficiencyHtml": "A clinical deficiency of CoQ10 is rarely acute due to endogenous production, but suboptimal levels develop gradually with age, chronic health stress, or specific medications.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Chronic Cellular Fatigue:</b> Decreased ATP production capacity, manifesting as persistent muscle weakness, exercise intolerance, and physical exhaustion.</li>\r\n<li><b>Cardiovascular Decline:</b> Reduced energetic efficiency of the myocardium, which can contribute to cardiomyopathy, irregular heart rhythms, or poor circulatory health.</li>\r\n<li><b>Increased Oxidative Damage:</b> Weakened mitochondrial defense systems, leading to accelerated cellular aging and structural damage.</li>\r\n<li><b>Statin-Associated Muscle Symptoms (SAMS):</b> Muscle aches, cramping, or persistent soreness in limbs specifically precipitated by cholesterol-lowering therapies.</li>\r\n</ul>",
+  "overdoseHtml": "Coenzyme Q10 exhibits a very low toxicity profile, and it is considered extremely safe for long-term use even at high supplemental intake levels.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> Clinical evidence indicates that doses up to 1,200 mg / day are entirely safe and well-tolerated without serious toxicity risk.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Mild Digestive Distress:</b> High supplemental doses can occasionally trigger mild nausea, upper abdominal discomfort, diarrhea, or appetite suppression.</li>\r\n<li><b>Insomnia:</b> Because CoQ10 optimizes cellular energy cycles, taking large doses late in the evening may sometimes interfere with sleep onset.</li>\r\n</ul>"
+  },
+  "l-carnitine": {
+  "slug": "carnitine",
+  "title": "L-Carnitine",
+  "category": "Nutrients/amino-acids",
+  "description": "L-Carnitine is a naturally occurring amino acid derivative that plays a crucial role in energy production. It is synthesized in the body from the amino acids lysine and methionine, primarily within the liver and kidneys. L-Carnitine is highly concentrated in tissues that utilize fatty acids as their primary fuel, such as skeletal and cardiac muscles, where it acts as a shuttle for fat metabolism.",
+  "keyFunctionsHtml": "L-Carnitine is essential for fatty acid oxidation and cellular energy optimization:\r\n<ul>\r\n<li><b>Fatty Acid Transport:</b> It functions as a metabolic shuttle, transporting long-chain fatty acids across the inner mitochondrial membrane into the mitochondrial matrix so they can be oxidized (\"burned\") for energy via beta-oxidation.</li>\r\n<li><b>Cellular Energy & Stamina:</b> By facilitating the utilization of fats for fuel, it supports aerobic capacity, reduces glycogen depletion during prolonged exercise, and helps decrease exercise-induced muscle fatigue.</li>\r\n<li><b>Cardiovascular Efficiency:</b> The heart derives approximately 70% of its energy from fatty acids; L-Carnitine maintains heavy metabolic demands, assists myocardial tissue recovery, and supports standard ischemic repair pathways.</li>\r\n<li><b>Metabolic Waste Clearance:</b> It aids in removing short- and medium-chain fatty acids from the mitochondria that can accumulate during periods of intense metabolic stress, preventing toxic cellular buildup.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/beef.png",
+      "name": "Beef (Steak & Ground)"
+    },
+    {
+      "image": "/products/pork.png",
+      "name": "Pork"
+    },
+    {
+      "image": "/products/chicken-leg.png",
+      "name": "Chicken (Dark meat)"
+    },
+    {
+      "image": "/products/milk.png",
+      "name": "Whole milk"
+    },
+    {
+      "image": "/products/cod.png",
+      "name": "Cod"
+    },
+    {
+      "image": "/products/cheddar-cheese.png",
+      "name": "Cheddar cheese"
+    },
+    {
+      "image": "/products/avocado.png",
+      "name": "Avocado"
+    },
+    {
+      "image": "/products/whole-wheat-bread.png",
+      "name": "Whole wheat bread"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Red Meat:</b> Beef provides the highest concentration of L-Carnitine of any food source. The redder the meat, the higher the concentration.</li><li><b>Poultry & Fish:</b> Chicken and fish contain lower but highly bioavailable quantities, with dark meat containing more than white meat.</li><li><b>Dairy Products:</b> Whole milk, cheese, and ice cream contain moderate amounts of carnitine.</li><li><b>Plant Sources:</b> Plant foods like avocados and whole grains contain only trace amounts, making strict vegetarian or vegan diets naturally low in direct carnitine intake.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) for L-Carnitine due to endogenous synthesis, but common clinical and supplemental guide brackets include:\r\nAdults\r\n<ul>\r\n<li>General Diet Maintenance: A typical balanced diet provides 60–180 mg / day, which maintains standard physiological plasma balance.</li>\r\n<li>Fitness & Performance Optimization: 1,000–2,000 mg / day is frequently used in clinical fitness studies to enhance exercise recovery and support fat metabolism.</li>\r\n<li>Clinical Supplementation (Deficiencies): 2,000–3,000 mg / day may be administered under strict medical guidance for primary or secondary carnitine depletion.</li>\r\n</ul>",
+  "deficiencyHtml": "True genetic primary carnitine deficiency is rare, but secondary deficiency can manifest due to metabolic issues, specific medications, or highly restrictive diets over time.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Muscle Weakness & Hypotonia:</b> Reduced ability to use fats for muscle contraction, resulting in significant muscle weakness, sluggishness, and structural fat infiltration into tissues.</li>\r\n<li><b>Cardiomyopathy:</b> Weakened contractility of the heart muscles due to lack of fatty acid energy supply, which can compromise long-term cardiovascular output.</li>\r\n<li><b>Hepatic Steatosis (Fatty Liver):</b> Accumulation of long-chain fatty acids within the liver cells because they cannot be transported into the mitochondria for processing.</li>\r\n<li><b>Severe Exercise Intolerance:</b> Premature exhaustion and severe muscle cramping during physical activities as the body struggles to generate sufficient ATP.</li>\r\n</ul>",
+  "overdoseHtml": "L-Carnitine is generally well-tolerated, and excessive intake from whole foods is virtually impossible. Supplemental excesses are excreted via urine.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No strict toxic UL is set, but supplemental doses above 3,000 mg / day frequently lead to standard gastrointestinal excretion limits.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Gastrointestinal Upset:</b> Large supplemental doses can cause transient abdominal cramps, mild nausea, vomiting, and loose stools or diarrhea.</li>\r\n<li><b>Fishy Body Odor:</b> High supplemental doses can lead to the production of trimethylamine (TMA) by gut bacteria, causing sweat and breath to take on a noticeable fishy smell.</li>\r\n</ul>"
+  },
+  "taurine": {
+  "slug": "taurine",
+  "title": "Taurine",
+  "category": "Nutrients/amino-acids",
+  "description": "Taurine is a naturally occurring sulfur-containing amino acid derivative. Unlike traditional amino acids, it is not used as a building block for proteins; instead, it remains free in tissues, particularly in the brain, retina, heart, and skeletal muscles. While the human body can synthesize taurine in adult stages from cysteine and methionine, dietary intake remains essential during rapid development and periods of heavy physiological stress.",
+  "keyFunctionsHtml": "Taurine plays a versatile and foundational role in cellular homeostasis and organ systems:\r\n<ul>\r\n<li><b>Osmo-Regulation & Hydration:</b> It regulates the balance of water and essential minerals (like sodium, potassium, and calcium) inside cells, preventing cellular dehydration or swelling.</li>\r\n<li><b>Cardiovascular Stability:</b> It modulates calcium channels within the myocardium, supporting optimal cardiac contractility, regulating heart rhythms, and helping maintain stable blood pressure.</li>\r\n<li><b>Retinal Development & Protection:</b> It is the most abundant free amino acid in the retina, where it acts as a primary structural element and shields photoreceptor cells from UV and oxidative stress.</li>\r\n<li><b>Bile Acid Conjugation:</b> In the liver, it binds with cholesterol to form bile salts, which are indispensable for emulsifying and absorbing dietary fats and fat-soluble vitamins.</li>\r\n<li><b>Neurological Modulation:</b> It acts as a mild inhibitory neurotransmitter or neuromodulator, interacting with GABA receptors to calm the central nervous system and buffer against neurotoxicity.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/clams.png",
+      "name": "Shellfish (Clams, Mussels, Oysters)"
+    },
+    {
+      "image": "/products/scallops.png",
+      "name": "Scallops"
+    },
+    {
+      "image": "/products/tuna.png",
+      "name": "Tuna"
+    },
+    {
+      "image": "/products/chicken-leg.png",
+      "name": "Chicken (Dark meat)"
+    },
+    {
+      "image": "/products/turkey.png",
+      "name": "Turkey (Dark meat)"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Beef"
+    },
+    {
+      "image": "/products/seaweed.png",
+      "name": "Seaweed (Nori)"
+    },
+    {
+      "image": "/products/milk.png",
+      "name": "Cow's milk"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Seafood & Shellfish:</b> Clams, mussels, oysters, and scallops contain the absolute highest concentrations of natural taurine.</li><li><b>Dark Poultry Meat:</b> Chicken and turkey thighs or drumsticks contain significantly higher amounts of taurine than white breast meat.</li><li><b>Red Meat:</b> Beef and lamb supply substantial, highly bioavailable daily amounts.</li><li><b>Plant Absence:</b> Taurine is completely absent from terrestrial plants. Strict vegans must rely entirely on internal synthesis, though certain marine algae (like Nori seaweed) contain minimal trace amounts.</li></ul>",
+  "rdiHtml": "There is no official Recommended Dietary Allowance (RDA) established for taurine due to endogenous synthesis, but common dietary baselines and clinical guides include:\r\nAdults\r\n<ul>\r\n<li>Standard Dietary Intake: A typical omnivorous diet naturally delivers between 40–400 mg / day, which adequately maintains baseline plasma concentrations.</li>\r\n<li>Supplemental and Therapeutic Ranges: Doses of 500–2,000 mg / day are widely utilized in clinical settings to support cardiovascular safety, liver metabolism, or intensive athletic recovery.</li>\r\n</ul>",
+  "deficiencyHtml": "While adults can synthesize taurine, long-term dietary restriction combined with metabolic stress can gradually deplete cellular reserves.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Retinal Degeneration:</b> Chronic severe lack of taurine leads to structural changes in the retina and can trigger progressive visual acuity loss.</li>\r\n<li><b>Cardiovascular Vulnerability:</b> Low levels compromise myocardial calcium regulation, increasing the statistical risk of arrhythmias or reduced left ventricular function.</li>\r\n<li><b>Impaired Fat Digestion:</b> Reduced capacity to conjugate bile acids, leading to poorer tolerance of fatty meals and sluggish fat-soluble vitamin absorption.</li>\r\n<li><b>Muscle Cramps & Spasms:</b> Disruption of cellular osmoregulation and electrolyte balance within skeletal muscles, causing frequent cramping or delayed recovery.</li>\r\n</ul>",
+  "overdoseHtml": "Taurine is renowned for its excellent safety profile, with excess quantities safely eliminated by healthy kidneys via urine.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No toxic upper limit is set, but extensive clinical safety data indicates that supplemental doses up to 3,000 mg / day are completely safe for long-term use without adverse effects.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Mild Digestive Discomfort:</b> Extremely high doses of pure supplements taken on an empty stomach may occasionally cause temporary nausea, stomach cramps, or loose stools.</li>\r\n<li><b>Note on Energy Drinks:</b> Adverse health symptoms often associated with high taurine intake in energy drinks are almost exclusively caused by excessive caffeine and sugar co-ingestion, not the taurine itself.</li>\r\n</ul>"
+  },
+  "glutathione": {
+  "slug": "glutathione",
+  "title": "Glutathione",
+  "category": "Nutrients/antioxidants",
+  "description": "Glutathione is a powerful tripeptide composed of three amino acids: glutamic acid, cysteine, and glycine. Often referred to as the body's \"master antioxidant,\" it is synthesized endogenously by virtually every cell, with the highest concentrations found in the liver. It alternates between its reduced active form (GSH) and oxidized form (GSSG) to neutralize free radicals, detoxify xenobiotics, and maintain optimal immune function. Internal production naturally declines with age, chronic illness, poor nutrition, and environmental toxicity.",
+  "keyFunctionsHtml": "Glutathione serves as a cornerstone for systemic detoxification, cellular defense, and metabolic longevity:\r\n<ul>\r\n<li><b>Master Antioxidant Neutralization:</b> It directly neutralizes reactive oxygen species (ROS) and free radicals, while uniquely recycling other essential antioxidants, such as vitamins C and E, back into their active states.</li>\r\n<li><b>Hepatic Detoxification:</b> It is the primary engine of Phase II detoxification in the liver, binding directly to heavy metals, pollutants, medications, and alcohol metabolites to render them water-soluble for safe excretion.</li>\r\n<li><b>Immune Cell Optimization:</b> It regulates and fuels the proliferation and activity of lymphocytes, natural killer (NK) cells, and macrophages, preserving precise immune responsiveness.</li>\r\n<li><b>Mitochondrial DNA Protection:</b> It actively shields delicate mitochondrial membranes and mitochondrial DNA from structural oxidative damage, preserving efficient cellular energy production.</li>\r\n<li><b>Melanin Pathway Modulation:</b> In skin tissues, it downregulates the enzyme tyrosinase, shifting melanin production from dark eumelanin to lighter pheomelanin, which supports systemic skin clarity and even tone.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/whey-protein.png",
+      "name": "Whey protein (Undenatured)"
+    },
+    {
+      "image": "/products/garlic.png",
+      "name": "Garlic"
+    },
+    {
+      "image": "/products/onions.png",
+      "name": "Onions"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Fresh beef"
+    },
+    {
+      "image": "/products/avocado.png",
+      "name": "Avocado"
+    },
+    {
+      "image": "/products/asparagus.png",
+      "name": "Asparagus"
+    },
+    {
+      "image": "/products/broccoli.png",
+      "name": "Broccoli"
+    },
+    {
+      "image": "/products/eggs.png",
+      "name": "Eggs"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Sulfur-Rich Building Blocks:</b> Garlic, onions, leeks, and cruciferous vegetables (broccoli, Brussels sprouts) don't contain glutathione directly but supply critical sulfur compounds required for its internal cellular synthesis.</li><li><b>Precursor Proteins:</b> Undenatured whey protein and fresh meats supply optimal brackets of cysteine, the primary rate-limiting amino acid for glutathione production.</li><li><b>Direct Plant Sources:</b> Asparagus, avocados, spinach, and okra contain moderate amounts of dietary glutathione, though much is broken down during cooking and digestive transit.</li><li><b>Selenium Co-factors:</b> Brazil nuts and seafood supply selenium, an essential element required to activate glutathione peroxidase enzymes.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) for glutathione due to cellular synthesis. Traditional oral glutathione faces heavy breakdown during digestion; hence, absorption-enhanced strategies or precursors are clinically prioritized:\r\nAdults\r\n<ul>\r\n<li>Dietary Precursor Maintenance: Consuming sulfur-rich foods or 600–1,200 mg / day of N-Acetyl Cysteine (NAC) effectively raises internal synthesis baselines.</li>\r\n<li>Bioavailable Supplementation: For direct supplemental replenishment, 250–1,000 mg / day of Liposomal or Acetylated (S-Acetyl) L-Glutathione is recommended for systemic absorption.</li>\r\n</ul>",
+  "deficiencyHtml": "Chronic internal depletion of glutathione leaves cells highly vulnerable to oxidative stress and limits the liver's processing capacity.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Accelerated Oxidative Stress:</b> Systematic structural cell damage, presenting as premature cellular aging, chronic low-grade tissue inflammation, and profound systemic fatigue.</li>\r\n<li><b>Impaired Liver Clearance:</b> Decreased processing tolerance for medications, environmental pollutants, and metabolic waste, increasing the risk of chemical liver stress.</li>\r\n<li><b>Immune Vulnerability:</b> Weakened resistance to chronic pathogens and viral threats due to a suboptimally fueled lymphocyte defense matrix.</li>\r\n<li><b>Neurodegenerative Susceptibility:</b> Brain tissue is highly sensitive to oxidative pathways; depleted glutathione levels correlate with faster cognitive decline and neuro-cellular stress.</li>\r\n</ul>",
+  "overdoseHtml": "Glutathione is generally non-toxic with a safe therapeutic profile, though over-supplementation can alter internal cellular redox homeostasis balances.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No specific toxic upper limit is established, but prolonged excessive daily supplemental intake above 2,000 mg may cause mild physiological adjustments.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Digestive Distress:</b> High oral supplemental doses can occasionally trigger mild bloating, abdominal cramps, loose stools, or brief nausea.</li>\r\n<li><b>Zinc Depletion Risk:</b> Long-term, highly elevated doses of direct glutathione may deplete zinc levels over extended periods, requiring monitoring.</li>\r\n</ul>"
+  },
+  "betaine": {
+  "slug": "betaine",
+  "title": "Betaine (Trimethylglycine / Betaine HCl)",
+  "category": "Nutrients/amino-acids",
+  "description": "Betaine, chemically known as trimethylglycine (TMG), is a naturally occurring amino acid derivative found in various foods and synthesized within the human body from choline. It operates primarily as an efficient methyl donor in crucial biochemical pathways and serves as an intracellular osmolyte, protecting cells from environmental stress. In dietary supplements, it commonly appears either as anhydrous betaine (TMG) for metabolic support or as betaine hydrochloride (Betaine HCl) to aid gastric digestion.",
+  "keyFunctionsHtml": "Betaine is vital for methylation balance, cellular hydration, and digestive efficiency:\r\n<ul>\r\n<li><b>Homocysteine Regulation (Methylation):</b> It acts as a major methyl donor, transferring a methyl group via the BHMT enzyme to convert damaging homocysteine back into the beneficial amino acid methionine, directly shielding cardiovascular and neurological structures.</li>\r\n<li><b>Cellular Osmoregulation:</b> As an osmolyte, it maintains optimal fluid balance within cells, protecting structural cellular proteins and enzymes from environmental stress, dehydration, and thermal fluctuations.</li>\r\n<li><b>Gastric Acid Support (Betaine HCl):</b> When bound to hydrochloric acid, it releases hydrogen ions directly inside the stomach chamber, helping lower gastric pH to assist protein denaturation, activate pepsin enzymes, and create an acidic barrier against ingested pathogens.</li>\r\n<li><b>Hepatic Protection:</b> It aids liver health by supporting lipid metabolism and preventing the accumulation of fat deposits in hepatic tissues, lowering the risks associated with fatty liver progression.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/wheat-bran.png",
+      "name": "Wheat bran"
+    },
+    {
+      "image": "/products/wheat-germ.png",
+      "name": "Wheat germ"
+    },
+    {
+      "image": "/products/spinach.png",
+      "name": "Spinach"
+    },
+    {
+      "image": "/products/beets.png",
+      "name": "Beets"
+    },
+    {
+      "image": "/products/shrimp.png",
+      "name": "Shrimp"
+    },
+    {
+      "image": "/products/rye-grain.png",
+      "name": "Whole grain rye"
+    },
+    {
+      "image": "/products/sweet-potato.png",
+      "name": "Sweet potato"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Beef"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Wheat Germ & Bran:</b> The absolute richest dietary sources of betaine available, providing heavy concentrations in whole-grain fractions.</li><li><b>Beets & Spinach:</b> Excellent, highly bioavailable plant-based sources. The name \"betaine\" is directly derived from the sugar beet (Beta vulgaris) from which it was first isolated.</li><li><b>Seafood:</b> Shellfish like shrimp and crabs contain high amounts of betaine, using it as an organic osmolyte to survive in saltwater environments.</li><li><b>Endogenous Production:</b> The body can naturally synthesize betaine within the liver and kidneys through the irreversible oxidation of dietary choline.</li></ul>",
+  "rdiHtml": "There is no official Recommended Dietary Allowance (RDA) established for betaine, but clinical evaluations and health practices suggest the following guidelines:\r\nAdults\r\n<ul>\r\n<li>Dietary Intake Baseline: A balanced diet typically provides 100–400 mg / day, which supports standard cellular baseline needs.</li>\r\n<li>Metabolic Support (Betaine Anhydrous / TMG): 500–2,000 mg / day is frequently used in clinical research to optimize homocysteine balance and support physical power output.</li>\r\n<li>Digestive Assistance (Betaine HCl): 500–1,500 mg is often taken exclusively alongside protein-heavy, large meals to temporarily support suboptimal stomach acid production.</li>\r\n</ul>",
+  "deficiencyHtml": "A strict clinical deficiency of betaine is uncommon due to internal synthesis from choline, but low intake coupled with poor choline levels can cause notable systemic disruptions.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Hyperhomocysteinemia:</b> Elevated homocysteine concentrations in the blood, which chemically irritate arterial walls and significantly elevate the statistical risk of cardiovascular events.</li>\r\n<li><b>Hypochlorhydria Symptoms (Lack of Stomach Acid):</b> Indigestion, premature bloating immediately after meals, acid reflux, and chronic malabsorption of critical elements like B12, iron, and calcium.</li>\r\n<li><b>Hepatic Fat Accumulation:</b> Reduced methyl-donor pool limits lipid transport out of hepatic cells, predisposing tissues to non-alcoholic fatty liver changes.</li>\r\n<li><b>Cellular Stress Vulnerability:</b> Tissues become less resistant to osmotic changes, resulting in poor cellular hydration balance during physiological stress or heavy exertion.</li>\r\n</ul>",
+  "overdoseHtml": "Betaine is considered highly safe and non-toxic, with excess quantities easily processed and safely eliminated through standard renal filtration.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal toxic upper ceiling is established, though clinical research indicates that daily supplemental doses up to 3,000 mg are safely handled without metabolic toxicities.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Digestive Irritation:</b> High supplemental doses can occasionally trigger mild diarrhea, nausea, or abdominal cramping. Taking Betaine HCl without a substantial meal can cause a burning sensation in the stomach.</li>\r\n<li><b>Body Odor Changes:</b> Extremely high doses can be broken down by gut microflora into trimethylamine, occasionally producing a temporary fishy odor in sweat or breath.</li>\r\n<li><b>Cholesterol Elevation:</b> Very high doses of anhydrous betaine (above 6g per day) may slightly elevate total cholesterol and LDL levels in some individuals.</li>\r\n</ul>"
+  },
+  "lycopene": {
+  "slug": "lycopene",
+  "title": "Lycopene",
+  "category": "Nutrients/antioxidants",
+  "description": "Lycopene is a naturally occurring bright red carotenoid hydrocarbon found in various fruits and vegetables, most notably tomatoes. Unlike other closely related carotenoids such as beta-carotene, lycopene does not possess vitamin A activity (cannot be converted into retinol). Instead, it operates as one of the most potent fat-soluble singlet oxygen quenchers and antioxidants within human tissues, demonstrating a specific affinity for accumulating in the prostate, liver, adrenal glands, and skin.",
+  "keyFunctionsHtml": "Lycopene provides targeted structural protection, cellular defense, and vascular support:\r\n<ul>\r\n<li><b>Potent Singlet Oxygen Quenching:</b> It exhibits an exceptionally high physical quenching rate for singlet oxygen, neutralizing destructive free radicals more efficiently than beta-carotene and alpha-tocopherol to mitigate systemic oxidative stress.</li>\r\n<li><b>Prostate Tissue Protection:</b> It accumulates heavily within prostate tissues, where it modulates inflammatory cytokines, supports normal cell-cycle progression, and maintains healthy cell signaling pathways.</li>\r\n<li><b>Cardiovascular and Endothelial Support:</b> Inhibits the oxidation of low-density lipoprotein (LDL) cholesterol, preventing plaque formation in arterial walls, while promoting nitric oxide production to sustain blood vessel flexibility.</li>\r\n<li><b>Dermal Photo-Protection:</b> It migrates to skin layers to act as an internal defensive shield against ultraviolet (UV-A and UV-B) radiation, significantly lowering the biomarkers of skin redness and cellular sun damage.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/tomato-paste.png",
+      "name": "Tomato paste"
+    },
+    {
+      "image": "/products/sun-dried-tomatoes.png",
+      "name": "Sun-dried tomatoes"
+    },
+    {
+      "image": "/products/watermelon.png",
+      "name": "Watermelon"
+    },
+    {
+      "image": "/products/guava.png",
+      "name": "Pink guava"
+    },
+    {
+      "image": "/products/papaya.png",
+      "name": "Papaya"
+    },
+    {
+      "image": "/products/grapefruit.png",
+      "name": "Pink grapefruit"
+    },
+    {
+      "image": "/products/sweet-red-pepper.png",
+      "name": "Sweet red pepper (cooked)"
+    },
+    {
+      "image": "/products/rosehip.png",
+      "name": "Rosehips"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Thermal Processing Enhancement:</b> Raw tomatoes have rigid cellular walls that trap lycopene. Cooking, crushing, and processing them into paste, purees, or sauces breaks these walls down, increasing lycopene bioavailability by several hundred percent.</li><li><b>Fat-Dependent Absorption:</b> Lycopene is highly lipophilic (fat-soluble). Consuming tomato products alongside healthy fats like olive oil or avocado drastically boosts intestinal absorption rates.</li><li><b>Non-Tomato Sources:</b> Watermelon and pink guava provide substantial amounts of ready-to-absorb cis-lycopene that does not strictly require heat processing for basic absorption.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for lycopene, but extensive clinical assessments and epidemiological studies indicate the following daily parameters:\r\nAdults\r\n<ul>\r\n<li>General Antioxidant Maintenance: 5–10 mg / day is sufficient to maintain standard baseline blood plasma concentrations and support overall health.</li>\r\n<li>Therapeutic & Prostate Support: 15–30 mg / day is commonly utilized in clinical trials to manage therapeutic prostate biomarkers, support blood pressure stability, and enhance skin UV resistance.</li>\r\n</ul>",
+  "deficiencyHtml": "Because lycopene is not an essential vitamin with a specific biochemical deficiency disease, acute lack does not yield immediate structural failure, but subclinical depletion removes a vital tissue shield.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Heightened Oxidative Damage:</b> Lower systemic protection against cellular lipid peroxidation, leaving vascular linings and delicate glandular tissues more vulnerable to chronic inflammatory stress.</li>\r\n<li><b>Increased Prostate Vulnerability:</b> Low tissue concentrations correlate statistically with elevated long-term risks of age-related prostate cellular shifts and structural imbalances.</li>\r\n<li><b>Accelerated Skin Photo-Aging:</b> Lowered internal threshold against UV radiation, resulting in a higher susceptibility to sun damage, premature fine lines, and moisture loss.</li>\r\n<li><b>Vascular Elasticity Decline:</b> Unprotected LDL particles undergo faster oxidation, leading to a higher statistical predisposition toward early plaque accumulation and arterial stiffness.</li>\r\n</ul>",
+  "overdoseHtml": "Lycopene possesses an excellent safety profile and is completely non-toxic. The body simply downregulates intestinal absorption transparency when tissue stores are fully saturated.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal toxic upper ceiling is established. Clinical studies show that high daily intakes of up to 75 mg are safely tolerated without adverse metabolic outcomes.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Lycopenodermia:</b> A completely harmless, reversible cosmetic condition where excessive long-term consumption causes a yellowish-orange or reddish tint to develop on the skin, most visible on the palms and soles. It fades naturally once intake is reduced.</li>\r\n<li><b>Mild Digestive Adjustment:</b> Consuming massive amounts of lycopene-rich processed foods (like excessive tomato sauces) may occasionally trigger mild loose stools, bloating, or temporary acid reflux due to the natural acidity of the food matrix itself.</li>\r\n</ul>"
+  },
+  "beta-carotene": {
+  "slug": "beta-carotene",
+  "title": "Beta-Carotene",
+  "category": "Nutrients/antioxidants",
+  "description": "Beta-carotene is a prominent organic, strongly colored red-orange pigment abundant in fungi, plants, and fruits. It belongs to the carotenoid family and is classified specifically as a provitamin A carotenoid, serving as the primary dietary precursor to vitamin A (retinol) in humans. Beyond its foundational role as a structural baseline for vitamin A synthesis, it operates independently as a potent, fat-soluble antioxidant, scavenging free radicals and offering protective stability to cellular lipid structures.",
+  "keyFunctionsHtml": "Beta-carotene provides crucial enzymatic balance, antioxidant protection, and visual pathway support:\r\n<ul>\r\n<li><b>Provitamin A Conversion:</b> It is cleaved enzymatically in the intestinal mucosa by the BCO1 enzyme into two active molecules of retinal, supporting systemic vitamin A requirements for cellular differentiation, bone growth, and immune responses without risking toxicity.</li>\r\n<li><b>Visual Pathway Maintenance:</b> By supplying the essential building blocks for retinal synthesis, it ensures the continuous renewal of rhodopsin—the light-sensitive pigment in retinal rod cells required for low-light, night, and color vision.</li>\r\n<li><b>Lipophilic Antioxidant Defense:</b> It operates within the lipid bilayers of cellular membranes, neutralizing peroxyl radicals and protecting delicate fatty acid structures from lipid peroxidation.</li>\r\n<li><b>Immune Competence and Skin Integrity:</b> It modulates immune cell proliferation (such as T-helper cells and natural killer cells) and preserves epithelial tissues, enhancing the physical barrier performance of skin and mucous membranes.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/carrot.png",
+      "name": "Carrots"
+    },
+    {
+      "image": "/products/sweet-potato.png",
+      "name": "Sweet potatoes"
+    },
+    {
+      "image": "/products/pumpkin.png",
+      "name": "Pumpkin"
+    },
+    {
+      "image": "/products/kale.png",
+      "name": "Kale"
+    },
+    {
+      "image": "/products/spinach.png",
+      "name": "Spinach"
+    },
+    {
+      "image": "/products/cantaloupe.png",
+      "name": "Cantaloupe melon"
+    },
+    {
+      "image": "/products/dried-apricots.png",
+      "name": "Dried apricots"
+    },
+    {
+      "image": "/products/mango.png",
+      "name": "Mango"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Visual Indicators (Color Matrices):</b> The intense orange coloration of carrots and sweet potatoes directly reflects their high beta-carotene content. In dark leafy greens like kale and spinach, the orange pigment is fully present but masked by dominant green chlorophyll.</li><li><b>Bioavailability Optimization:</b> Beta-carotene is trapped within dense plant matrix cell walls. Gentle cooking, pureeing, or mechanical chopping ruptures these walls, liberating the compound for absorption.</li><li><b>Fat-Assisted Transport:</b> Because it is strictly fat-soluble, emulsifying food sources with healthy lipids (such as olive oil, butter, or nuts) dramatically enhances micelle formation and intestinal transport efficiency.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established exclusively for beta-carotene; instead, it is often quantified under Vitamin A Retinol Activity Equivalents (RAE), where 12 mcg of dietary beta-carotene equals 1 mcg of active retinol. Clinical parameters suggest:\r\nAdults\r\n<ul>\r\n<li>Standard Maintenance Intake: 3–6 mg / day from diverse food sources is widely recommended to maintain adequate tissue stores and baseline antioxidant capacity.</li>\r\n<li>Therapeutic/Protective Support: 6–15 mg / day may be used under professional assessment to address specific skin sensitivity or localized systemic antioxidant requirements.</li>\r\n</ul>",
+  "deficiencyHtml": "A distinct standalone deficiency of beta-carotene does not cause immediate clinical disease if preformed vitamin A intake is sufficient, but secondary systemic impacts occur when overall carotenoid levels collapse.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Secondary Vitamin A Depletion:</b> If dietary preformed retinol is low, lack of beta-carotene drives early signs of vitamin A deficiency, beginning with night blindness (nyctalopia) and poor dark adaptation.</li>\r\n<li><b>Follicular Hyperkeratosis:</b> Suboptimal skin renewal leading to rough, dry, and bumpy skin textures due to excessive keratin accumulation in hair follicles.</li>\r\n<li><b>Impaired Immune Resistance:</b> Decreased integrity of respiratory and gastrointestinal mucosal linings, rendering the individual more susceptible to opportunistic surface infections.</li>\r\n<li><b>Elevated Oxidative Vulnerability:</b> Weakened lipophilic cellular defense shields, leading to accelerated photo-aging from UV exposure and lower systemic resistance to lipid damage.</li>\r\n</ul>",
+  "overdoseHtml": "Beta-carotene is highly safe and non-toxic because the body strictly downregulates the conversion enzyme (BCO1) as vitamin A stores become fully saturated, preventing retinol toxicity.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal upper toxic limit is established for dietary beta-carotene from food matrices.</li>\r\n</ul>\r\n<b>Symptoms and Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Carotenodermia:</b> A completely benign and reversible cosmetic condition where extreme, prolonged intake causes excess pigment to store in subcutaneous fat, turning the skin (especially palms and soles) a noticeable yellow-orange hue. It resolves naturally when intake is moderated.</li>\r\n<li><b>Pulmonary Risk in High-Smoker Cohorts:</b> Large-scale clinical trials (CARET and ATBC) demonstrated that massive *supplemental* doses (20–30 mg/day of isolated synthetic beta-carotene) paradoxically exert pro-oxidant effects in heavy smokers and asbestos-exposed individuals, statistically raising lung cancer risk. Whole-food dietary intake shows no such risk.</li>\r\n</ul>"
+  },
+  "quercetin": {
+  "slug": "quercetin",
+  "title": "Quercetin",
+  "category": "Nutrients/antioxidants",
+  "description": "Quercetin is a prominent plant-derived aglycone flavonoid belonging to the flavonol subclass. It is widely distributed throughout the plant kingdom and is responsible for the deep pigments found in many fruits, vegetables, and grains. Celebrated as a versatile bioactive compound, quercetin exerts profound antioxidant, anti-inflammatory, and zinc ionophore properties, interacting closely with immune pathways to stabilize mast cells and manage localized systemic histamine responses.",
+  "keyFunctionsHtml": "Quercetin provides exceptional cellular defense, allergy management, and immune regulation:\r\n<ul>\r\n<li><b>Mast Cell & Histamine Stabilization:</b> It directly stabilizes the cell membranes of mast cells and basophils, preventing them from degranulating and releasing histamine and other inflammatory chemical cascades triggered by seasonal allergens.</li>\r\n<li><b>Potent Anti-Inflammatory Pathways:</b> It inhibits pro-inflammatory enzymes, specifically cyclooxygenase (COX) and lipoxygenase (LOX), while downregulating the transcription factor NF-kB to curb chronic low-grade tissue inflammation.</li>\r\n<li><b>Zinc Ionophore Properties:</b> It acts as a biochemical transport vehicle (ionophore) across lipid cellular walls, binding to extracellular zinc ions and ferrying them directly into the cellular cytoplasm, where zinc can inhibit viral replication cycles.</li>\r\n<li><b>Cardiovascular Smooth Muscle Protection:</b> It encourages nitric oxide synthesis within the endothelial lining, improving blood vessel relaxation, supporting blood pressure stability, and protecting low-density lipoproteins (LDL) from oxidative modification.</li>\r\n<li><b>Sirtuin and Senolytic Activity:</b> It acts as a mild senolytic agent, assisting in the selective removal of aged, dysfunctional cells (\"zombie cells\") while promoting SIRT1 enzyme pathways associated with cellular longevity and energy regulation.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/red-onion.png",
+      "name": "Red onions"
+    },
+    {
+      "image": "/products/capers.png",
+      "name": "Capers"
+    },
+    {
+      "image": "/products/elderberries.png",
+      "name": "Elderberries"
+    },
+    {
+      "image": "/products/apples.png",
+      "name": "Apples (with skin)"
+    },
+    {
+      "image": "/products/kale.png",
+      "name": "Kale"
+    },
+    {
+      "image": "/products/cranberries.png",
+      "name": "Cranberries"
+    },
+    {
+      "image": "/products/buckwheat.png",
+      "name": "Buckwheat"
+    },
+    {
+      "image": "/products/green-tea.png",
+      "name": "Green tea"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Capers & Red Onions:</b> Capers provide the single highest concentrated natural source of quercetin per gram, followed closely by raw red onions, where the compound is concentrated heavily in the outer rings.</li><li><b>Skin Retention (Apples & Berries):</b> In apples, pears, and plums, quercetin is almost entirely localized within the outer skin layers to protect the fruit from UV stress; peeling these fruits completely eliminates the nutrient.</li><li><b>Bioavailability Obstacles:</b> Free quercetin has naturally low water solubility and poor baseline absorption in the intestinal tract. Consuming food sources alongside healthy fats or bromelain (a pineapple enzyme) significantly elevates absorption rates.</li></ul>",
+  "rdiHtml": "There is no official Recommended Dietary Allowance (RDA) established for quercetin, but clinical studies and dietary practices support the following daily parameters:\r\nAdults\r\n<ul>\r\n<li>Dietary Intake Maintenance: 10–40 mg / day is typical for a diet rich in fruits and vegetables, maintaining basic plasma baseline balance.</li>\r\n<li>Supplemental and Allergenic Support: 500–1,000 mg / day (often divided into two distinct doses) is commonly utilized to manage seasonal immune responses, support capillary strength, and provide targeted antioxidant defense.</li>\r\n</ul>",
+  "deficiencyHtml": "Because quercetin is a non-essential dietary phytochemical rather than a vitamin, its absence does not result in an acute deficiency disease, but low chronic intake removes a vital cellular shield.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Elevated Histamine Sensitivity:</b> A lower cellular threshold against environmental allergens, manifesting as more frequent instances of seasonal sneezing, watery eyes, and hyper-reactive respiratory responses.</li>\r\n<li><b>Unchecked Inflammatory Biomarkers:</b> Decreased baseline defense against general oxidative tissue stress, contributing to faster systemic cellular aging and less resilient endothelial blood vessel walls.</li>\r\n<li><b>Reduced Intracellular Mineral Support:</b> Without adequate ionophores like quercetin, the transport rate of minerals such as zinc into cell centers during periods of immune stress may operate at sub-optimal speeds.</li>\r\n</ul>",
+  "overdoseHtml": "Quercetin has an excellent safety profile and is highly tolerated. Excess amounts undergo phase II conjugation in the liver and kidneys and are safely eliminated via urine.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No strict toxic upper ceiling is established for food sources, though long-term supplemental intake is considered safe up to 1,000 mg / day for continuous periods.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Mild Gastrointestinal Tract Irritation:</b> Very large supplemental doses taken on an empty stomach can occasionally trigger transient nausea, mild stomach cramps, or loose stools.</li>\r\n<li><b>Headaches & Tingling:</b> High oral supplemental doses (above 1,000 mg at once) may occasionally induce mild, short-lived headaches or a slight tingling sensation in the extremities.</li>\r\n<li><b>Renal Safety Note:</b> Extremely high intravenous doses (not standard oral intake) have historically been associated with mild, temporary renal stress; individuals with established kidney disease should consult a medical professional before taking high-dose supplements.</li>\r\n</ul>"
+  },
+  "anthocyanins": {
+  "slug": "anthocyanins",
+  "title": "Anthocyanins",
+  "category": "Nutrients/antioxidants",
+  "description": "Anthocyanins are water-soluble vacuolar pigments belonging to the widespread flavonoid class of polyphenols. They are responsible for the vibrant red, purple, blue, and black colors displayed by many fruits, vegetables, and flowers. Beyond providing visual coloration, anthocyanins serve as potent, systemically distributed antioxidants. They interact deeply with cellular signaling pathways to lower vascular inflammation, improve capillary resilience, and enhance metabolic regulation.",
+  "keyFunctionsHtml": "Anthocyanins provide robust vascular defense, metabolic stabilization, and cellular protection:\r\n<ul>\r\n<li><b>Systemic Free Radical Scavenging:</b> They possess exceptional chemical structure profiles that directly neutralize highly reactive oxygen species (ROS) and combat systemic oxidative stress within water-soluble cellular environments.</li>\r\n<li><b>Endothelial Strength & Capillary Resilience:</b> They inhibit the enzymatic degradation of collagen and connective tissues, strengthening weak capillary walls, reducing microvascular permeability, and encouraging nitric oxide synthesis for stable blood pressure.</li>\r\n<li><b>Metabolic & Insulin Sensitivity Modulation:</b> They interact with glucose transporter pathways and activate AMP-activated protein kinase (AMPK), helping optimize insulin responsiveness and regulating post-meal glucose spikes.</li>\r\n<li><b>Neuro-Protective Pathways:</b> They cross the blood-brain barrier to localize in brain regions associated with learning and memory, mitigating neuro-inflammation and shielding delicate neurons from lipid peroxidation.</li>\r\n<li><b>Visual Acuity & Rhodopsin Regeneration:</b> They accelerate the regeneration rate of rhodopsin (visual purple) in retinal rod cells, supporting faster adaptation to dark environments and mitigating digital eye fatigue.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/blackberries.png",
+      "name": "Blackberries"
+    },
+    {
+      "image": "/products/blueberries.png",
+      "name": "Blueberries"
+    },
+    {
+      "image": "/products/black-currants.png",
+      "name": "Black currants"
+    },
+    {
+      "image": "/products/red-cabbage.png",
+      "name": "Red cabbage"
+    },
+    {
+      "image": "/products/cherries.png",
+      "name": "Cherries"
+    },
+    {
+      "image": "/products/eggplant.png",
+      "name": "Eggplant (with skin)"
+    },
+    {
+      "image": "/products/pomegranate.png",
+      "name": "Pomegranate"
+    },
+    {
+      "image": "/products/black-grapes.png",
+      "name": "Black grapes"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Color Matrix Indication:</b> The rule of thumb for anthocyanins is simple—the darker, deeper, and more intense the blue, purple, or black hue, the richer the concentration of the nutrient.</li><li><b>Skin Retention Focus:</b> In crops like eggplants, plums, and grapes, anthocyanins are heavily localized within the outer epidermal skin cells. Peeling these foods completely discards the beneficial pigment layers.</li><li><b>pH-Dependent Color Shifting:</b> Anthocyanins act as natural pH indicators; they shift dynamically from red in acidic conditions to purple in neutral settings, and deep blue or green in alkaline environments.</li><li><b>Cooking Sensitivities:</b> Being highly water-soluble, significant amounts of anthocyanins can leach into boiling water. Steaming, baking, or consuming raw formats preserves the total nutrient yield best.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for anthocyanins, but epidemiological metrics and nutritional longevity profiles suggest the following guidelines:\r\nAdults\r\n<ul>\r\n<li>Standard Baseline Intake: 15–50 mg / day is easily achieved via a balanced diet containing moderate berry or dark vegetable fractions, supporting standard antioxidant needs.</li>\r\n<li>Targeted/Therapeutic Support: 100–350 mg / day (often sourced via concentrated extracts or dedicated daily berry consumption) is frequently utilized in clinical trials to manage vascular markers, support microcirculation, and boost cognitive resilience scores.</li>\r\n</ul>",
+  "deficiencyHtml": "Because anthocyanins are non-essential plant phytochemicals rather than classic vitamins, their omission does not lead to an acute deficiency crisis, but a chronic subclinical lack removes a critical vascular protective shield.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Elevated Microvascular Fragility:</b> Weakened capillary structures that can manifest as increased susceptibility to bruising, spider veins, or slower structural eye muscle recovery after prolonged screen strain.</li>\r\n<li><b>Unchecked Oxidative Biomarkers:</b> Decreased baseline resistance against lipid peroxidation and endothelial irritation, leaving vascular pathways more vulnerable to early metabolic plaque stresses.</li>\r\n<li><b>Suboptimal Metabolic Agility:</b> Lower internal support for natural insulin pathways, contributing over decades to less efficient glucose management in contexts of high refined carbohydrate intake.</li>\r\n</ul>",
+  "overdoseHtml": "Anthocyanins demonstrate an outstanding clinical safety profile and are completely non-toxic when consumed from natural whole food matrices. Intestinal absorption slows down naturally once systemic tissues reach full capacity.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No upper toxic threshold is established. Long-term supplemental study intakes of up to 500–1,000 mg / day show high tolerability without negative adverse parameters.</li>\r\n</ul>\r\n<b>Symptoms of Excess Intake:</b>\r\n<ul>\r\n<li><b>Harmless Coloration Shifts:</b> Extremely massive dietary intakes of highly concentrated purple or black foods may temporarily darken stool color or lightly tint urine, which is entirely benign.</li>\r\n<li><b>Mild Digestive Transit Changes:</b> Consuming massive quantities of pure berries to reach high anthocyanin counts may introduce high fiber and organic fruit acid volumes at once, occasionally leading to transient loose stools or minor bloating.</li>\r\n</ul>"
+  },
+  "catechins": {
+  "slug": "catechins",
+  "title": "Catechins",
+  "category": "Nutrients/antioxidants",
+  "description": "Catechins are natural polyphenolic secondary metabolites belonging to the flavan-3-ol subclass of flavonoids. Widely recognized for their dense presence in the Camellia sinensis plant, they represent some of the most thoroughly researched water-soluble phytochemicals. Among them, epigallocatechin gallate (EGCG) stands out as the most biologically active, offering expansive antioxidant safety grids, cellular life-cycle modulation, and broad thermogenic metabolic assistance.",
+  "keyFunctionsHtml": "Catechins execute high-level mitochondrial protection, vascular reinforcement, and metabolic optimization:\r\n<ul>\r\n<li><b>Advanced Radical Neutralization:</b> Their specialized chemical ring structures donate hydrogen atoms rapidly to quench reactive oxygen species (ROS), breaking destructive lipid peroxidation chains and shielding cellular DNA from oxidative mutation.</li>\r\n<li><b>Metabolic Rate & Lipolysis Support (EGCG):</b> They inhibit the enzyme catechol-O-methyltransferase (COMT), which preserves synaptic norepinephrine levels. This prolongs sympathetic nervous system signaling, gently boosting metabolic thermogenesis and accelerating fat breakdown (lipolysis).</li>\r\n<li><b>Cardiovascular Smooth Muscle Care:</b> They stimulate endothelial nitric oxide synthase (eNOS) to elevate nitric oxide synthesis, promoting arterial smooth muscle relaxation, stabilizing healthy blood pressure profiles, and suppressing inflammatory cell adhesion molecules.</li>\r\n<li><b>Neuroprotection and Amyloid Support:</b> They cross the blood-brain barrier to modulate neurotrophic factors and minimize neuro-inflammation, while helping inhibit the abnormal aggregation of misfolded proteins associated with cognitive decline.</li>\r\n<li><b>Cellular Autophagy Induction:</b> They assist in clearing cellular waste pathways by encouraging autophagy—the process by which cells break down and recycle their own damaged internal components.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/green-tea.png",
+      "name": "Green tea"
+    },
+    {
+      "image": "/products/matcha.png",
+      "name": "Matcha powder"
+    },
+    {
+      "image": "/products/dark-chocolate.png",
+      "name": "Dark chocolate (70%+)"
+    },
+    {
+      "image": "/products/apples.png",
+      "name": "Apples (with skin)"
+    },
+    {
+      "image": "/products/blackberries.png",
+      "name": "Blackberries"
+    },
+    {
+      "image": "/products/broad-beans.png",
+      "name": "Broad beans (fava beans)"
+    },
+    {
+      "image": "/products/red-wine.png",
+      "name": "Red wine"
+    },
+    {
+      "image": "/products/pecans.png",
+      "name": "Pecans"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Green Tea & Matcha Dominance:</b> Unfermented green tea is the premier source of monomeric catechins like EGCG. Matcha provides an even higher concentration per serving because the entire ground tea leaf is consumed rather than just the brewed water infusion.</li><li><b>Oxidation Depletion (Black Tea):</b> As tea leaves undergo fermentation to become black tea, native monomeric catechins are enzymatically oxidized into complex polymeric networks called theaflavins and thearubigins. While still healthy, this changes their specific metabolic behavior.</li><li><b>Cacao Integrity:</b> High-percentage dark chocolate and raw cacao nibs are rich in epicatechins. However, heavy alkaline processing (Dutch processing) of cocoa powder destroys a significant portion of these natural polyphenols.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for catechins, but clinical evaluations and population longevity data suggest the following parameters:\r\nAdults\r\n<ul>\r\n<li>Standard Maintenance Intake: 100–250 mg / day is typical within cultures consuming moderate amounts of green tea or dark fruits, covering foundational cellular protection.</li>\r\n<li>Targeted Metabolic & Vascular Support: 400–800 mg / day (often measured specifically by total EGCG content) is commonly used in clinical trials targeting fat oxidation support, vascular health enhancement, and cellular protection.</li>\r\n</ul>",
+  "deficiencyHtml": "Because catechins are non-essential plant-derived phytochemicals rather than vital vitamins, their complete absence does not lead to an acute, classic deficiency disease, but long-term omission thins cellular defense lines.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Decreased Cellular Resilience:</b> Reduced baseline defense against systemic oxidative tissue stress, contributing over time to less adaptable endothelial blood vessel walls and higher systemic inflammation markers.</li>\r\n<li><b>Suboptimal Metabolic Adaptation:</b> Lower internal support for natural thermogenic pathways, reducing the body's natural efficiency at mobilizing stored fatty acids during metabolic exertion.</li>\r\n<li><b>Vascular Agility Vulnerability:</b> Unprotected vessel linings encounter higher oxidative stress from circulating lipids, which can slowly accelerate early age-related arterial stiffening.</li>\r\n</ul>",
+  "overdoseHtml": "Dietary catechins consumed from natural food matrices possess an exceptional safety record. However, high-dose isolated supplemental extracts require careful dosage boundaries.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> For whole food sources, no upper toxic ceiling is established. For concentrated dietary supplements, safety authorities advise keeping isolated EGCG intake below 800 mg / day to protect liver structures.</li>\r\n</ul>\r\n<b>Symptoms and Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Hepatotoxicity Risks (High-Dose Extracts):</b> Massive doses of isolated, fasted EGCG supplements (typically exceeding 800–1,000 mg/day in capsule form) can act as pro-oxidants within hepatic tissues, causing temporary elevations in liver enzymes. This risk is absent when drinking traditional green tea beverages.</li>\r\n<li><b>Gastrointestinal Discomfort:</b> High concentrations of tea catechins taken on an empty stomach can bind to mucosal proteins, causing mild stomach lining irritation, transient nausea, or slight abdominal tightness due to their natural astringent properties.</li>\r\n<li><b>Iron Absorption Inhibition:</b> Catechins can bind tightly to non-heme iron (plant-based iron) inside the digestive tract, forming insoluble complexes that reduce iron absorption. Drinking highly concentrated green tea directly during major plant-based meals may limit iron uptake in prone individuals.</li>\r\n</ul>"
+  },
+  "resveratrol": {
+  "slug": "resveratrol",
+  "title": "Resveratrol",
+  "category": "Nutrients/antioxidants",
+  "description": "Resveratrol is a natural polyphenolic phytoalexin belonging to the stilbenoid subclass. It is synthesized by several plants, most notably grapes and berries, as a localized defensive response to physical injury, fungal pathogen infection, or intense ultraviolet (UV) radiation. Extensively researched for its unique interactions with cellular metabolic pathways, resveratrol operates as an intracellular signaling modulator that triggers protective longevity networks, mimics biological caloric restriction effects, and enhances mitochondrial efficiency.",
+  "keyFunctionsHtml": "Resveratrol modulates critical enzymatic survival pathways, vascular integrity, and metabolic function:\r\n<ul>\r\n<li><b>Sirtuin (SIRT1) Activation:</b> It acts as a potent allosteric stimulator of SIRT1, a crucial NAD+-dependent deacetylase enzyme. This activation promotes structural histone clearing, enhances mitochondrial biogenesis via PGC-1alpha, and encourages cellular repair pathways mimicking caloric restriction.</li>\r\n<li><b>Nitric Oxide and Vascular Tone Support:</b> It upregulates endothelial nitric oxide synthase (eNOS) expression, directly boosting the synthesis of nitric oxide (NO) to encourage smooth arterial muscle relaxation, lower systemic vascular resistance, and preserve vessel elasticity.</li>\r\n<li><b>Inflammatory Pathway Control:</b> It dampens systemic tissue inflammation by inhibiting the nuclear translocation of NF-kB, downregulating pro-inflammatory cytokines, and suppressing cyclooxygenase (COX) activity.</li>\r\n<li><b>Mitochondrial Efficiency Improvement:</b> By activating AMP-activated protein kinase (AMPK), it supports optimal cellular energy processing, helping cells stabilize ATP production and manage metabolic stressors more efficiently.</li>\r\n<li><b>Lipid and Endothelial Stabilization:</b> It acts as a fat-soluble shield that blocks the dangerous peroxidation of low-density lipoproteins (LDL), reducing the initiation rate of cellular adherence inside arterial linings.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/black-grapes.png",
+      "name": "Red/Black grapes (with skin)"
+    },
+    {
+      "image": "/products/red-wine.png",
+      "name": "Red wine"
+    },
+    {
+      "image": "/products/blueberries.png",
+      "name": "Blueberries"
+    },
+    {
+      "image": "/products/cranberries.png",
+      "name": "Cranberries"
+    },
+    {
+      "image": "/products/peanuts.png",
+      "name": "Peanuts"
+    },
+    {
+      "image": "/products/dark-chocolate.png",
+      "name": "Dark chocolate (70%+)"
+    },
+    {
+      "image": "/products/pistachios.png",
+      "name": "Pistachios"
+    },
+    {
+      "image": "/products/mulberries.png",
+      "name": "Mulberries"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Skin Localization:</b> Grapes synthesize resveratrol entirely within their outer skins to defend the underlying pulp from environmental dampness and fungal rot. Consequently, white wine contains negligible amounts compared to red wine, as the grape skins are removed early in white wine fermentation.</li><li><b>Botanical Concentration (Knotweed):</b> While grapes are the most famous dietary source, the absolute highest concentrations found in nature occur in the roots of Polygonum cuspidatum (Japanese knotweed), which serves as the primary raw source for commercial high-dose dietary supplements.</li><li><b>Low Natural Concentrations:</b> Dietary food matrices contain very small microgram-to-milligram quantities of resveratrol. For example, a standard bottle of red wine typically yields only 1 to 8 mg of trans-resveratrol, meaning therapeutic doses are difficult to achieve through diet alone.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for resveratrol by health authorities, but clinical evaluations and longevity protocols indicate the following guidelines:\r\nAdults\r\n<ul>\r\n<li>Dietary Intake Baseline: A diet naturally rich in dark berries, nuts, and grapes delivers roughly 0.5–5 mg / day, which contributes to baseline water-and-fat-soluble antioxidant networks.</li>\r\n<li>Supplemental & Longevity Protocols: 100–500 mg / day of isolated trans-resveratrol is commonly utilized in clinical research to safely target metabolic health, support arterial flexibility, and activate SIRT1 pathways.</li>\r\n</ul>",
+  "deficiencyHtml": "Because resveratrol is a non-essential botanical phytoalexin and not a vitamin, it lacks a classic deficiency disease profile. However, its exclusion from the diet leaves certain metabolic longevity networks unprompted.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Suboptimal Sirtuin Activation:</b> Missing out on direct external plant-based triggers for the SIRT1 longevity pathway, which over decades can lead to less adaptable responses to cellular stress.</li>\r\n<li><b>Elevated Vascular Sensitivity:</b> Lower immediate antioxidant shielding inside thin blood vessel linings, reducing the endogenous threshold against early lipid peroxidation and microvascular irritation.</li>\r\n<li><b>Reduced Mitochondrial Adaptation:</b> Less native chemical support for enzyme pathways like AMPK, making it slightly more difficult for cells to optimize energy turnover during metabolic stress.</li>\r\n</ul>",
+  "overdoseHtml": "Resveratrol exhibits an excellent general safety profile when consumed at low-to-moderate doses. Excess amounts are readily metabolized by the liver via glucuronidation and sulfation pathways and cleared through urine.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No strict toxic upper limit is established for food sources, though safety trials show high oral tolerability for supplemental intakes up to 1,000 mg / day over continuous periods.</li>\r\n</ul>\r\n<b>Symptoms and Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Gastrointestinal Intestinal Cleansing (High Doses):</b> Large supplemental doses (typically exceeding 1,500–2,000 mg at once) frequently induce transient stomach cramping, abdominal gas, nausea, or mild diarrhea due to unabsorbed compounds irritating the lower intestinal tract.</li>\r\n<li><b>Hepatic Cleansing Interference:</b> Massive supplemental doses can competitively inhibit certain cytochrome P450 enzymes in the liver. This can temporarily slow down or speed up the clearance rates of unrelated prescription medications, requiring professional clearance for concurrent use.</li>\r\n<li><b>Mild Joints Stiffness:</b> Anecdotal and clinical reports note that ultra-high supplemental doses may occasionally induce mild, transient joint stiffness or aches, which fully resolve upon dropping the dosage back down to baseline levels.</li>\r\n</ul>"
+  },
+  "phytosterols": {
+  "slug": "phytosterols",
+  "title": "Phytosterols (Plant Sterols and Stanols)",
+  "category": "Nutrients/antioxidants",
+  "description": "Phytosterols, encompassing both plant sterols and saturated stanols, are naturally occurring bioactive steroid compounds found within the lipid bilayers of plant cell membranes. Structurally analogous to human cholesterol, they feature an identical four-ring cyclopentanophenanthrene nucleus with slight variations in their carbon side chains. This structural mimicking allows them to competitively inhibit cholesterol absorption inside the human digestive tract, operating as a powerful, non-pharmacological lipid-stabilizing dietary asset.",
+  "keyFunctionsHtml": "Phytosterols exert targeted molecular displacement within the gut lumen and support cellular health:\r\n<ul>\r\n<li><b>Competitive Cholesterol Displacement:</b> Because their chemical shape matches human cholesterol, they competitively occupy intestinal mixed micelles. This displaces both dietary and biliary cholesterol from micelle carriers, leaving the displaced cholesterol unabsorbed and safely excreted.</li>\r\n<li><b>NPC1L1 Transporter Downregulation:</b> They directly interact with the Niemann-Pick C1-Like 1 (NPC1L1) transporter proteins on the enterocyte brush border, reducing the mechanical uptake of total circulating sterols into the bloodstream.</li>\r\n<li><b>Hepatic LDL-Receptor Clearance:</b> By reducing the volume of cholesterol returning to the liver, they trigger hepatic cells to upregulate low-density lipoprotein (LDL) receptors, pulling more circulating LDL particles out of the bloodstream.</li>\r\n<li><b>Immunomodulatory Activity:</b> They display gentle immune-balancing effects, supporting a healthy ratio between Th1 and Th2 helper cells and helping suppress pro-inflammatory cytokine profiles.</li>\r\n<li><b>Apoptosis Induction in Aberrant Cells:</b> They integrate into human cellular membranes, where they modulate sphingomyelin pathways and cell-signaling cascades, helping inhibit the proliferation of structural cellular abnormalities.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/unrefined-oils.png",
+      "name": "Unrefined plant oils (Sea buckthorn, Corn, Wheat germ)"
+    },
+    {
+      "image": "/products/pumpkin-seeds.png",
+      "name": "Pumpkin seeds"
+    },
+    {
+      "image": "/products/sunflower-seeds.png",
+      "name": "Sunflower seeds"
+    },
+    {
+      "image": "/products/sesame-seeds.png",
+      "name": "Sesame seeds"
+    },
+    {
+      "image": "/products/wheat-germ.png",
+      "name": "Wheat germ"
+    },
+    {
+      "image": "/products/pistachios.png",
+      "name": "Pistachios"
+    },
+    {
+      "image": "/products/almonds.png",
+      "name": "Almonds"
+    },
+    {
+      "image": "/products/avocado.png",
+      "name": "Avocado"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Unrefined Cold-Pressed Oils:</b> Sea buckthorn, wheat germ, and unrefined corn oils represent the densest liquid storage reservoirs of natural phytosterols; chemical refining and high-heat deodorization heavily degrade these compounds.</li><li><b>Concentration in Seeds & Nuts:</b> Sesame seeds, pumpkin seeds, and pistachios supply rich baseline quantities wrapped in protective fiber and healthy monounsaturated fats.</li><li><b>Low Absolute Concentration in Greens:</b> While present in all vegetables (like broccoli or Brussels sprouts), their absolute lipid concentration is low, requiring substantial bulk consumption compared to seeds or grains.</li><li><b>Free vs. Esterified Formats:</b> In whole foods, phytosterols exist largely in free forms, whereas fortified clinical functional foods (like specialized spreads) use esterified phytosterols dissolved in fats to drastically increase mechanical delivery.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for phytosterols by safety boards, but clinical cardiovascular therapeutic guidelines establish precise structural benchmarks:\r\nAdults\r\n<ul>\r\n<li>Standard Baseline Intake: A standard modern diet typically supplies between 150–400 mg / day, which is insufficient to trigger active therapeutic lipid reduction.</li>\r\n<li>Therapeutic Cholesterol Reduction Threshold: Clinical protocols demonstrate that a targeted dose of 1,500–2,000 mg / day (1.5–2.0 g) is required to actively block intestinal micelles and systematically lower blood LDL cholesterol levels.</li>\r\n</ul>",
+  "deficiencyHtml": "Because phytosterols are non-essential plant-derived secondary metabolites and not vital vitamins, their complete absence does not lead to an acute biological deficiency disease, but subclinical lack eliminates a primary natural cardiovascular balance system.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Elevated Intestinal Cholesterol Uptake:</b> Without phytosterol competition, the gut absorbs maximum percentages of both dietary cholesterol and recirculating bile cholesterol, raising total systemic LDL loading over time.</li>\r\n<li><b>Suboptimal Vascular Shielding:</b> The body lacks a primary dietary tool to gently regulate structural lipid profiles, leaving individuals entirely reliant on internal synthesis feedback loops to balance arterial plaque risks.</li>\r\n</ul>",
+  "overdoseHtml": "Phytosterols demonstrate an exceptional clinical safety grid, as human enterocytes naturally pump unutilized plant sterols back into the intestinal lumen via ABCG5/G8 transporters, keeping systemic blood accumulation exceptionally low.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> Clinical endpoints show that daily intakes up to 3,000 mg (3.0 g) are entirely safe and yield no added toxicities, though benefits plateau beyond 2.5 g / day.</li>\r\n</ul>\r\n<b>Symptoms and Specific Genetic Risks of Excess Intake:</b>\r\n<ul>\r\n<li><b>Fat-Soluble Vitamin Absorption Decline:</b> Because massive doses of phytosterols continuously disrupt intestinal micelles, taking excessive amounts over long periods can lower the absorption efficiency of fat-soluble beta-carotene, vitamin E, and carotenoids, requiring higher dietary intake of colored vegetables.</li>\r\n<li><b>Mild Digestive Transit Shifts:</b> Consuming extremely large doses of fortified phytosterol supplements can occasionally induce mild gastrointestinal reactions, such as temporary bloating, loose stools, or mild indigestion.</li>\r\n<li><b>Genetic Contraindication (Sitosterolemia):</b> Individuals with the rare homozygous genetic mutation in ABCG5 or ABCG8 transporters cannot pump plant sterols back out of their cells. For these specific individuals, phytosterols accumulate heavily in blood vessels and tissues, causing premature vascular risks. They must strictly avoid high-phytosterol diets or supplements.</li>\r\n</ul>"
+  },
+  "glucosamine": {
+  "slug": "glucosamine",
+  "title": "Glucosamine",
+  "category": "Nutrients/amino-acids",
+  "description": "Glucosamine is a naturally occurring amino sugar and a prominent precursor in the biochemical synthesis of glycosylated proteins and lipids. It serves as a foundational structural building block for the biosynthesis of essential connective tissue components, including glycosaminoglycans (GAGs), proteoglycans, and hyaluronic acid. Synthesized naturally within the human body from glucose and glutamine, it is heavily concentrated in cartilage matrices, synovial fluid, and intervertebral discs, operating as a key component for joint structural integrity and mechanical shock absorption.",
+  "keyFunctionsHtml": "Glucosamine is critical for cartilage preservation, synovial lubrication, and extracellular matrix synthesis:\r\n<ul>\r\n<li><b>Extracellular Matrix Biosynthesis:</b> It acts as the direct rate-limiting substrate for chondrocytes to produce aggrecan and other proteoglycans, which form the structural scaffolding necessary to maintain cartilage density and elasticity.</li>\r\n<li><b>Synovial Fluid Optimization:</b> It stimulates the metabolic production of hyaluronic acid by synovial cells, enhancing the viscoelastic properties of joint fluid to reduce friction and improve mechanical lubrication.</li>\r\n<li><b>Chondroprotective Activity:</b> It assists in downregulating pro-inflammatory signaling pathways, helping suppress catabolic enzymes like matrix metalloproteinases (MMPs) and aggrecanases that degrade joint tissues under structural stress.</li>\r\n<li><b>Connective Tissue Repair Support:</b> It supplies the necessary raw organic blocks required for the continuous physiological remodeling and structural repair of tendons, ligaments, and vascular walls.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/shrimp-shells.png",
+      "name": "Shrimp exoskeletons"
+    },
+    {
+      "image": "/products/crab-shells.png",
+      "name": "Crab shells"
+    },
+    {
+      "image": "/products/lobster-shells.png",
+      "name": "Lobster shells"
+    },
+    {
+      "image": "/products/bone-broth.png",
+      "name": "Animal bone broth"
+    },
+    {
+      "image": "/products/animal-cartilage.png",
+      "name": "Animal cartilage"
+    },
+    {
+      "image": "/products/fungi-fermented.png",
+      "name": "Fermented fungi (Aspergillus niger)"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Exoskeleton Exclusivity:</b> Glucosamine is not present in standard mammalian muscle meats or plant tissues. The absolute richest natural concentration is found in chitin, which forms the hard outer shells of crustaceans like shrimp, crabs, and lobsters.</li><li><b>Dietary Extrapolations:</b> Because humans do not ingest raw crustacean shells, standard diets provide near-zero structural glucosamine. Simmering animal joints, connective tissues, or bones into long-cooked bone broths extracts small bioavailable fractions of glycosaminoglycans.</li><li><b>Supplemental Processing:</b> Commercial dietary supplements harvest chitin from seafood processing waste, converting it into highly bioavailable glucosamine sulfate or glucosamine hydrochloride.</li><li><b>Vegan Alternatives:</b> For individuals with shellfish allergies or plant-based preferences, vegan-friendly glucosamine is industrially produced via the controlled fermentation of specific fungal strains.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for glucosamine by health authorities since it is an endogenously synthesized amino sugar. However, extensive clinical trials for joint support establish precise daily parameters:\r\nAdults\r\n<ul>\r\n<li>Therapeutic Joint Protocols: 1,500 mg / day is the universally accepted standard dose utilized in clinical research. This is typically taken either as a single daily dose or divided into three separate 500 mg doses alongside meals.</li>\r\n<li>Sulfate vs. Hydrochloride: Glucosamine sulfate is the form most extensively supported by long-term clinical data regarding structural bioavailability, often paired with chondroitin sulfate for synergistic effects.</li>\r\n</ul>",
+  "deficiencyHtml": "Because glucosamine is synthesized endogenously, its lack does not cause an acute nutritional deficiency disease, but a biological decline in production reduces tissue resilience.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Accelerated Cartilage Thinning:</b> Aging or high physical stress reduces natural chondrocyte synthesis rates, causing the cartilage matrix to lose density, become brittle, and show micro-cracks under structural loads.</li>\r\n<li><b>Suboptimal Synovial Lubrication:</b> A drop in hyaluronic acid production thinning the synovial fluid, resulting in increased joint friction, clicking sounds, and stiffness during early morning movement.</li>\r\n<li><b>Joint Space Narrowing:</b> Protracted structural degradation of the extracellular matrix contributes statistically to age-related joint space narrowing, a classic marker seen in progressive osteoarthritic changes.</li>\r\n</ul>",
+  "overdoseHtml": "Glucosamine possesses an excellent general safety profile and is highly tolerated by the human body. Excess oral intake is broken down, metabolized via standard glycolytic pathways, and safely cleared.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal toxic upper limit is established, though human clinical safety trials show high tolerability for continuous supplemental intakes up to 2,000–3,000 mg / day without adverse events.</li>\r\n</ul>\r\n<b>Symptoms and Specific Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Mild Digestive Discomfort:</b> Very large oral doses taken without sufficient water or food can occasionally trigger mild, short-lived gastrointestinal side effects, such as heartburn, nausea, temporary bloating, or loose stools.</li>\r\n<li><b>Shellfish Allergy Precaution:</b> Because most commercial glucosamine is extracted from crustacean shells, individuals with severe shellfish hypersensitivities must verify the source. While the allergen is technically located in the meat protein, shell cross-contamination remains a risk; using fungal-sourced glucosamine is highly recommended for safety.</li>\r\n<li><b>Glucose Metabolism Note:</b> Because it is an amino sugar, early animal model research suggested high doses might theoretically interfere with insulin sensitivity. However, extensive human clinical trials demonstrate that standard therapeutic doses (1,500 mg/day) do not alter fasting blood glucose levels or HbA1c scores in healthy individuals or those with controlled type 2 diabetes.</li>\r\n</ul>"
+  },
+  "chondroitin": {
+  "slug": "chondroitin",
+  "title": "Chondroitin",
+  "category": "Nutrients/amino-acids",
+  "description": "Chondroitin is a naturally occurring sulfated glycosaminoglycan (GAG) composed of an alternating chain of sugars (N-acetylgalactosamine and glucuronic acid). It stands as one of the most prominent macromolecular structural components of the extracellular matrix within mammalian connective tissues, including cartilage, tendons, ligaments, and vascular walls. Highly concentrated in the cartilage matrix, it is covalently attached to proteins to form proteoglycans (primarily aggrecan), providing joints with structural resistance against mechanical compression, shock, and heavy osmotic loads.",
+  "keyFunctionsHtml": "Chondroitin executes essential mechanical cushioning, enzymatic regulation, and matrix stabilization:\r\n<ul>\r\n<li><b>Osmotic Water Retention:</b> Due to its highly dense negative charge, chondroitin holds water molecules tightly inside the articular matrix. This creates a high osmotic swelling pressure, giving the cartilage its flexible elasticity, sponge-like bounce, and mechanical shock-absorbing capacity.</li>\r\n<li><b>Inhibition of Catabolic Enzymes:</b> It significantly dampens the overactivity of destructive enzymes like matrix metalloproteinases (MMPs), elastases, and aggrecanases that prematurely tear down connective tissue structures during joint stress.</li>\r\n<li><b>Hyaluronic Acid & GAG Stimulation:</b> It serves as a signaling macro-molecule that encourages chondrocytes to ramp up their natural production of new proteoglycans, collagen fibers, and high-molecular-weight hyaluronic acid.</li>\r\n<li><b>Micro-Inflammation Management:</b> It interferes with the structural nuclear activation of NF-kB, lowering the baseline production of pro-inflammatory cytokines and nitric oxide inside the synovial compartment.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/animal-cartilage.png",
+      "name": "Animal cartilage (Pork/Beef ear, snout, trachea)"
+    },
+    {
+      "image": "/products/shark-cartilage.png",
+      "name": "Marine cartilage (Shark, Skate)"
+    },
+    {
+      "image": "/products/bone-broth.png",
+      "name": "Long-simmered bone broth"
+    },
+    {
+      "image": "/products/fish-heads.png",
+      "name": "Fish bones and heads (stewed)"
+    },
+    {
+      "image": "/products/poultry-sternum.png",
+      "name": "Avian sternum (Chicken cartilage)"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Connective Tissue Matrix:</b> Chondroitin is exclusively found in animal-derived matrices. Standard lean meat fillets contain near-zero quantities, as it is strictly locked within hard cartilage tissues, ears, snouts, trachea, and structural joints.</li><li><b>Bioavailability Constraints:</b> In its raw dietary state, chondroitin exists as a giant, high-molecular-weight polymer that is difficult for the human digestive tract to break down and absorb. Prolonged boiling (as in traditional aspics or long-simmered bone broths) helps break these dense chains into shorter, absorbable segments.</li><li><b>Supplemental Isolation:</b> Commercial supplements utilize purified animal cartillage (bovine, avian, or marine) subjected to enzyme hydrolysis to extract uniform chondroitin sulfate with standardized molecular weights for optimal intestinal transit.</li><li><b>No Vegan Natural Counterparts:</b> Plants do not possess cartilage or synthesize glycosaminoglycans. Non-animal formulations must rely on advanced industrial bacterial fermentation of sugar matrices to mimic the human molecule.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for chondroitin by regulatory boards since it is naturally produced by mammalian tissues. However, global osteoarthritic clinical guidelines define clear therapeutic boundaries:\r\nAdults\r\n<ul>\r\n<li>Therapeutic Support Intake: 800–1,200 mg / day of purified chondroitin sulfate is the universally recognized clinical dosage range, frequently split into two or three smaller doses taken concurrently with meals.</li>\r\n<li>Synergistic Pairing: In clinical environments, it is most frequently combined directly with glucosamine sulfate (typically 1,500 mg/day) because the two molecules provide overlapping raw components that together support cartilage maintenance.</li>\r\n</ul>",
+  "deficiencyHtml": "Because chondroitin is an endogenously manufactured molecule, its absence does not trigger an acute dietary deficiency disease, but a biological drop leads to a gradual reduction in structural physical protection.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Loss of Cartilage Hydration:</b> A drop in matrix chondroitin levels thins out the bound water content within the joints, causing the cartilage to lose its rubbery bounce, dry up, and become highly vulnerable to wear and tear.</li>\r\n<li><b>Unchecked Matrix Breakdown:</b> Without chondroitin's natural braking effect on catabolic enzymes, structural proteins are degraded at a faster rate than chondrocytes can rebuild them.</li>\r\n<li><b>Joint Shock Vulnerability:</b> Dehydrated, brittle joint linings transmit physical impacts directly to the underlying bone surfaces, accelerating early morning pain, stiffness, and joint line discomfort.</li>\r\n</ul>",
+  "overdoseHtml": "Chondroitin displays a remarkable safety record across long-term human evaluation trials. Excess amounts are simply degraded in the lower intestines, metabolized, or safely cleared via normal excretory routes.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal toxic upper ceiling is established, with human clinical studies showing no adverse systemic safety shifts at continuous intakes up to 2,000 mg / day.</li>\r\n</ul>\r\n<b>Symptoms and Specific Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Gastrointestinal Shifts:</b> Consuming massive supplemental doses at once on an empty stomach can occasionally cause mild, temporary digestive disruptions, including nausea, soft stools, stomach heaviness, or flatulence.</li>\r\n<li><b>Mild Anticoagulant Caution:</b> Because chondroitin is structurally related to heparin (a blood-thinning compound), ultra-high doses may theoretically exert a very weak antiplatelet effect. Individuals taking potent prescription blood thinners (like warfarin) should monitor their parameters when starting high-dose regimens.</li>\r\n<li><b>Source Transparency:</b> Given its animal-derived origin, individuals with strict religious dietary boundaries or deep allergies to specific proteins (such as bovine or marine products) must carefully check supplement labels to ensure the raw source aligns with their health guidelines.</li>\r\n</ul>"
+  },
+  "collagen": {
+  "slug": "collagen",
+  "title": "Collagen",
+  "category": "Nutrients/amino-acids",
+  "description": "Collagen is the primary structural extracellular matrix protein found within mammalian connective tissues, accounting for approximately 30% of the body's total protein mass. Characterized by a unique triple-helix quaternary structure consisting of elongated polypeptide chains rich in glycine, proline, and hydroxyproline, it forms dense, insoluble fibrous networks. This protein serves as the essential mechanical scaffolding that provides tensile strength, elastic resilience, and structural integrity to the dermis, skeletal bones, articular cartilage, tendons, ligaments, and vascular walls.",
+  "keyFunctionsHtml": "Collagen forms structural frameworks, preserves tissue elasticity, and accelerates cell regeneration:\r\n<ul>\r\n<li><b>Tensile Strength and Scaffolding:</b> It establishes the primary mechanical infrastructure of the extracellular matrix, enabling tissues to withstand high pulling forces and structural stretching without tearing.</li>\r\n<li><b>Dermal Matrix Elasticity:</b> It acts as the core structural component of the deep skin layers, maintaining skin firmness, hydration, and volume while directly preventing the formation of deep structural wrinkles.</li>\r\n<li><b>Cartilage Cushioning Support:</b> Type II collagen forms dense fiber cross-links that entrap proteoglycans within articular cartilage, helping joints absorb structural shock and resist compression.</li>\r\n<li><b>Bone Mineralization Matrix:</b> It provides the organic structural blueprint and flexible grid upon which calcium and phosphorus crystals deposit, preventing bones from becoming brittle.</li>\r\n<li><b>Vascular Wall Integrity:</b> It reinforces the inner and middle elastic layers of arterial walls, ensuring blood vessels can expand and contract safely under fluctuating blood pressure.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/bone-broth.png",
+      "name": "Long-simmered bone broth (bovine, chicken, fish)"
+    },
+    {
+      "image": "/products/fish-skin.png",
+      "name": "Fish skin and scales"
+    },
+    {
+      "image": "/products/gelatin.png",
+      "name": "Gelatin"
+    },
+    {
+      "image": "/products/chicken-feet.png",
+      "name": "Chicken feet, wing tips, and necks"
+    },
+    {
+      "image": "/products/meat-cuts.png",
+      "name": "Tough meat cuts with abundant connective tissue (shank, brisket)"
+    },
+    {
+      "image": "/products/egg-membrane.png",
+      "name": "Eggshell membranes"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Animal Matrix Exclusivity:</b> Native collagen is synthesized exclusively by animals. Lean muscle meat provides very low quantities; it is concentrated in skin, bones, cartilage, scales, and connective sheets.</li><li><b>The Digestion Barrier:</b> Intact, native collagen is a massive molecule that is highly resistant to standard digestive enzymes, resulting in poor direct absorption. Prolonged boiling denatures these tough fibers into gelatin, making the constituent peptides more accessible.</li><li><b>Supplemental Hydrolysis:</b> Commercial collagen peptides (hydrolyzed collagen) undergo controlled enzymatic cleavage. This breaks the protein down into ultra-short bioactive di- and tri-peptides that easily pass through the intestinal wall into the bloodstream.</li><li><b>The Vegan Alternative Reality:</b> True \"plant-based collagen\" does not exist in nature. Vegetarian supplements instead provide specific amino acid profiles combined with vitamin C to stimulate the human body's own natural collagen synthesis pathways.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for collagen because it is metabolized into non-essential and conditional amino acids. However, clinical and dermatological studies establish precise functional benchmarks:\r\nAdults\r\n<ul>\r\n<li>Dermatological Support Threshold: 2.5–5.0 g / day of hydrolyzed bioactive collagen peptides is clinically shown to improve skin hydration, dermal elasticity, and nail strength within 8–12 weeks.</li>\r\n<li>Joint and Bone Therapeutic Range: 5.0–10.0 g / day is typically required to support chondrocyte function, reduce activity-induced joint pain, and support bone mineral density.</li>\r\n</ul>",
+  "deficiencyHtml": "A systemic drop in collagen production does not cause an immediate nutrient deficiency disease, but it accelerates physical structural aging and reduces joint resilience.\r\n<b>Long-Term Risks & Signs:</b>\r\n<ul>\r\n<li><b>Accelerated Dermal Aging:</b> Natural synthesis drops by roughly 1% annually after age 20-25, causing the skin to thin, lose its elastic bounce, dry out, and develop progressive sagging and deep wrinkles.</li>\r\n<li><b>Musculoskeletal Wear and Tear:</b> The articular cartilage matrix thins, leading to increased joint friction, stiffness, structural vulnerability to exercise, and a higher statistical risk of developing osteoarthritic changes.</li>\r\n<li><b>Tendon and Ligament Fragility:</b> Connective tissues lose their tensile flexibility and structural density, making individuals more vulnerable to chronic sprains, strains, and tendonitis under load.</li>\r\n</ul>",
+  "overdoseHtml": "Collagen has an excellent clinical safety record. Because it is fundamentally a dietary protein, excess amounts are simply broken down into basic amino acids, utilized for general energy, or naturally excreted.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal toxic upper limit is set, with human safety trials confirming excellent tolerability at daily therapeutic doses up to 15–20 g / day over extended periods.</li>\r\n</ul>\r\n<b>Symptoms and Specific Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Mild Gastrointestinal Effects:</b> Consuming massive daily doses of collagen powder in a single serving can occasionally cause minor digestive shifts, such as a temporary feeling of fullness, mild bloating, or a lingering aftertaste.</li>\r\n<li><b>Amino Acid Imbalance Precaution:</b> Collagen is an incomplete protein because it entirely lacks tryptophan. Relying on collagen for more than 30-40% of daily total protein intake can theoretically skew systemic amino acid ratios; it should complement, not replace, complete dietary proteins.</li>\r\n<li><b>Source Allergies and Purity:</b> Supplemental collagen is derived from bovine, porcine, avian, or marine sources. Individuals with severe seafood or specific meat allergies must carefully screen labeling. Selecting high-purity, third-party tested brands avoids potential issues with heavy metal contamination or processing residues.</li>\r\n</ul>"
+  },
+  "omega-6": {
+  "slug": "omega-6",
+  "title": "Omega-6 Fatty Acids",
+  "category": "Nutrients/lipids",
+  "description": "Omega-6 fatty acids are a family of polyunsaturated fatty acids (PUFAs) characterized by the presence of a double bond at the sixth carbon atom from the methyl (omega) end of the carbon chain. The parent compound, Linoleic Acid (LA), is strictly essential, meaning it cannot be synthesized endogenously by the human body and must be acquired through dietary intake. Within the body, omega-6 fatty acids serve as critical structural components of cell membranes, regulate cellular signaling, and act as primary biochemical precursors for the synthesis of eicosanoids—signaling molecules that coordinate cellular immune responses, blood clotting, and inflammatory cascades.",
+  "keyFunctionsHtml": "Omega-6 fatty acids govern cellular membrane structure, skin barrier integrity, and adaptive inflammatory responses:\r\n<ul>\r\n<li><b>Cell Membrane Fluidity and Structure:</b> They integrate directly into the phospholipid bilayers of cells throughout the body, maintaining ideal membrane fluidity, permeability, and supporting the proper mechanical function of membrane-bound receptors and transport proteins.</li>\r\n<li><b>Epidermal Barrier Integrity:</b> Linoleic acid is an essential structural component of ceramides in the stratum corneum. It forms the skin's natural lipid moisture barrier, preventing transepidermal water loss (TEWL) and shielding the body from environmental microbes and allergens.</li>\r\n<li><b>Precursors to Immune Signaling Molecules:</b> Arachidonic Acid (ARA), synthesized from linoleic acid, serves as the primary substrate for the production of pro-inflammatory eicosanoids (prostaglandins, thromboxanes, and leukotrienes via the COX and LOX pathways) which are vital for initiating adaptive acute inflammation, localized cellular repair, and blood clotting.</li>\r\n<li><b>Anti-Inflammatory Side Pathways (GLA):</b> Certain omega-6 variants, such as Gamma-Linolenic Acid (GLA), bypass standard inflammatory routes and are converted into Dihomo-Gamma-Linolenic Acid (DGLA), which generates anti-inflammatory series-1 prostaglandins, helping soothe tissue hyper-reactivity.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/walnuts.png",
+      "name": "Walnuts"
+    },
+    {
+      "image": "/products/sunflower-seeds.png",
+      "name": "Sunflower seeds"
+    },
+    {
+      "image": "/products/sunflower-oil.png",
+      "name": "Sunflower oil"
+    },
+    {
+      "image": "/products/corn-oil.png",
+      "name": "Corn oil"
+    },
+    {
+      "image": "/products/pumpkin-seeds.png",
+      "name": "Pumpkin seeds"
+    },
+    {
+      "image": "/products/pine-nuts.png",
+      "name": "Pine nuts"
+    },
+    {
+      "image": "/products/evening-primrose.png",
+      "name": "Evening primrose oil (rich in GLA)"
+    },
+    {
+      "image": "/products/eggs.png",
+      "name": "Poultry and eggs (sources of preformed ARA)"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Abundance in Vegetable Oils:</b> Industrial seed and vegetable oils (sunflower, corn, soybean, cottonseed) represent highly concentrated sources of linoleic acid. Due to their widespread use in modern processed foods, omega-6 intake is rarely deficient.</li><li><b>Whole Food vs. Refined Oils:</b> Consuming omega-6 from whole food matrices like walnuts, pumpkin seeds, and sesame seeds delivers these fats alongside natural vitamin E, fiber, and trace minerals, protecting the delicate polyunsaturated double bonds from oxidative damage during digestion.</li><li><b>The GLA Exception:</b> Gamma-Linolenic Acid (GLA) is exceptionally rare in standard dietary matrices, found in meaningful amounts only in specialized botanical oils like evening primrose, borage, and black currant seed oils.</li></ul>",
+  "rdiHtml": "Recommended intake levels for omega-6 fatty acids focus on maintaining an optimal balance relative to omega-3 intake rather than simple isolated volume:\r\nAdults\r\n<ul>\r\n<li>Adequate Intake (AI): Roughly 11–17 g / day for adult men and 11–12 g / day for adult women, typically translating to about 5–10% of total daily caloric intake.</li>\r\n<li><b>The Critical Ratio Concept:</b> Modern industrial diets frequently feature an asymmetrical omega-6 to omega-3 ratio of 15:1 or 20:1. Clinical longevity research indicates that optimizing this ratio down toward a more balanced 4:1 or 2:1 ratio supports systemic inflammatory balance.</li>\r\n</ul>",
+  "deficiencyHtml": "Because linoleic acid is highly abundant in standard modern diets, clinical deficiency is exceptionally rare, typically occurring only in cases of severe fat malabsorption or prolonged unsupplemented intravenous nutrition.\r\n<b>Risks & Signs of Deficient Intake:</b>\r\n<ul>\r\n<li><b>Severe Skin Barrier Failure:</b> Severe deficiency manifests as dry, scaly skin, follicular hyperkeratosis, and a highly compromised epidermal barrier, leaving the skin prone to irritation, eczema-like flares, and slow wound healing.</li>\r\n<li><b>Increased Susceptibility to Infection:</b> A lack of essential structural fatty acids impairs the structural defense of epithelial sheets and slows down the rapid cellular signaling cascades required for an agile immune response.</li>\r\n<li><b>Growth Retardation in Children:</b> Insufficient levels of essential lipids during critical development stages can halt appropriate cellular division, affecting growth velocity and structural tissue maturation.</li>\r\n</ul>",
+  "overdoseHtml": "Omega-6 fatty acids carry no direct acute toxicity, but a massive, unmitigated chronic dietary overabundance—especially when decoupled from protective antioxidants and omega-3s—can distort cellular signaling dynamics.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No strict toxic upper ceiling is established, but nutritional science cautions against excessive intake of highly refined, heated seed oils.</li>\r\n</ul>\r\n<b>Potential Systemic Risks of Chronic Excessive Intake:</b>\r\n<ul>\r\n<li><b>Pro-Inflammatory Tissue Shift:</b> An extreme dietary overabundance of linoleic acid can saturate cellular membrane phospholipids, overloading arachidonic acid pathways. If un-countered by omega-3 fats (EPA/DHA), this can shift the systemic biochemical baseline toward chronic, low-grade inflammatory responses.</li>\r\n<li><b>Oxidative Stress and Lipid Peroxidation:</b> Because polyunsaturated fats possess multiple highly reactive double bonds, consuming large quantities of refined omega-6 oils that have been exposed to high cooking heats or industrial processing can introduce oxidized lipid byproducts into the body, accelerating cellular oxidative stress.</li>\r\n<li><b>Vascular Wall Sensitivity:</b> Excessively high circulating levels of oxidized omega-6 fatty acids can incorporate into low-density lipoproteins (LDL), making these particles more susceptible to oxidative modifications that trigger endothelial irritation.</li>\r\n</ul>"
+  },
+  "omega-9": {
+  "slug": "omega-9",
+  "title": "Omega-9 Fatty Acids (Monounsaturated Fatty Acids)",
+  "category": "Nutrients/lipids",
+  "description": "Omega-9 fatty acids are a family of monounsaturated fatty acids (MUFAs) characterized by a single carbon-carbon double bond located at the ninth carbon atom from the methyl (omega) end of the fatty acid chain. Unlike Omega-3 and Omega-6, Omega-9 fatty acids are technically non-essential because the human body possesses the enzymatic machinery (delta-9 desaturase) to synthesize them endogenously from saturated stearic acid. Oleic acid is the most prominent and abundantly distributed member of this group, serving as a highly stable structural asset for cellular membranes and a primary clean-burning mitochondrial fuel source.",
+  "keyFunctionsHtml": "Omega-9 fatty acids optimize mitochondrial energy production, preserve vascular flexibility, and support lipid homeostasis:\r\n<ul>\r\n<li><b>Mitochondrial Fuel Efficiency:</b> They serve as an exceptional, clean-burning energy substrate. Due to their single double bond, they are easily mobilized for beta-oxidation inside the mitochondria, yielding high ATP output while generating fewer reactive oxygen species (ROS) than saturated fats.</li>\r\n<li><b>Vascular Wall Preservation:</b> They substitute for saturated fats in cellular bilayers, maintaining standard membrane fluidity without making the membrane hyper-susceptible to lipid peroxidation, which keeps blood vessels flexible and resilient against physical stress.</li>\r\n<li><b>Lipid Profile Homeostasis:</b> Diets naturally abundant in oleic acid actively support healthy blood lipid parameters by helping maintain optimal high-density lipoprotein (HDL) counts while lowering circulating low-density lipoprotein (LDL) fractions and plasma triglycerides.</li>\r\n<li><b>Endothelial Inflammatory Balance:</b> They demonstrate a neutral-to-suppressive impact on cellular inflammatory signaling. They help downregulate endothelial adhesion molecules (such as VCAM-1), reducing the physical tendency of circulating white blood cells to adhere to arterial walls.</li>\r\n<li><b>Myelin Sheath Structuring:</b> Erucic acid and nervonic acid (long-chain omega-9 variants) are integral structural lipids required for building and maintaining the myelin sheaths that insulate nerve fibers, promoting smooth neural signal propagation.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/olive-oil.png",
+      "name": "Extra virgin olive oil"
+    },
+    {
+      "image": "/products/avocado.png",
+      "name": "Avocado and avocado oil"
+    },
+    {
+      "image": "/products/macadamia.png",
+      "name": "Macadamia nuts"
+    },
+    {
+      "image": "/products/almonds.png",
+      "name": "Almonds"
+    },
+    {
+      "image": "/products/hazelnuts.png",
+      "name": "Hazelnuts"
+    },
+    {
+      "image": "/products/cashews.png",
+      "name": "Cashews"
+    },
+    {
+      "image": "/products/high-oleic-sunflower.png",
+      "name": "High-oleic sunflower or safflower oil"
+    },
+    {
+      "image": "/products/goose-fat.png",
+      "name": "Poultry fats (Duck and goose fat)"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>The Mediterreanean Pillar:</b> Extra virgin olive oil stands as the definitive dietary benchmark for oleic acid, typically composed of 70–80% omega-9 fats. This high concentration underpins many of the documented metabolic benefits of Mediterranean dietary patterns.</li><li><b>Oxidative Thermal Stability:</b> Possessing only a single double bond makes monounsaturated omega-9 fats structurally far more resistant to heat-induced oxidation and rancidity than polyunsaturated oils (omega-3 and omega-6). This renders cold-pressed olive or avocado oils highly suitable for moderate-heat everyday cooking.</li><li><b>Distinction from Saturated Fats:</b> While the body can manufacture oleic acid from saturated fats, consuming it directly from clean plant sources reduces the biological need to process excess dietary saturated fatty acids, preventing unnecessary liver lipid loading.</li></ul>",
+  "rdiHtml": "There is no formal Recommended Dietary Allowance (RDA) established for omega-9 fatty acids since they can be synthesized endogenously, but macronutrient guidelines emphasize their value as a primary dietary fat source:\r\nAdults\r\n<ul>\r\n<li>Optimal Dietary Share: Nutritional guidelines recommend that monounsaturated fatty acids (MUFAs) should constitute the largest proportion of total daily fat intake, representing roughly 15–20% of total daily caloric intake.</li>\r\n<li>Functional Target: Consuming 1 to 2 tablespoons of extra virgin olive oil daily easily satisfies functional requirements, delivering excellent baseline cellular stability and supporting fat-soluble nutrient absorption.</li>\r\n</ul>",
+  "deficiencyHtml": "Because omega-9 fatty acids are synthesized endogenously, a true clinical deficiency state does not exist. However, a subclinical dietary absence combined with poor overall fat intake can impact general tissue quality.\r\n<b>Long-Term Risks & Signs of Suboptimal Intake:</b>\r\n<ul>\r\n<li><b>Compromised Cellular Membrane Flexibility:</b> In the absence of dietary MUFAs, the body is forced to utilize excess saturated fats or trans-fats to build cell membranes, causing the structural lipid bilayers to stiffen and altering cell receptor sensitivity.</li>\r\n<li><b>Elevated Vascular Vulnerability:</b> A diet lacking clean monounsaturated fats often relies heavily on highly refined carbohydrates or excessive saturated fats, which can negatively alter circulating lipid markers and compromise overall endothelial agility over time.</li>\r\n<li><b>Dry Cutaneous Tissues:</b> Insufficient baseline intake of stable monounsaturated lipids can occasionally manifest as less efficient skin hydration management, leading to mild cutaneous dryness or a dull skin appearance.</li>\r\n</ul>",
+  "overdoseHtml": "Omega-9 fatty acids exhibit a highly safe and biocompatible metabolic profile. Because they are a primary source of clean caloric energy, excess amounts are naturally routed toward beta-oxidation or stored as adipose tissue for future metabolic needs.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No toxic upper limit is established. Their consumption is bounded primarily by total daily energy balance and macronutrient distribution requirements.</li>\r\n</ul>\r\n<b>Potential Management Safeguards of Excess Intake:</b>\r\n<ul>\r\n<li><b>Caloric Surfeit Considerations:</b> Like all dietary lipids, omega-9 fats are highly energy-dense, yielding 9 calories per gram. Consuming massive quantities of even the highest-quality oils without managing overall energy expenditures can lead to unexpected weight gain.</li>\r\n<li><b>Transient Intestinal Transit Acceleration:</b> Ingesting an excessive, highly concentrated volume of pure oil in a single sitting can overwhelm temporary pancreatic lipase capacities, resulting in minor digestive acceleration, soft stools, or mild nausea.</li>\r\n</ul>"
+  },
+  "arginine": {
+  "slug": "arginine",
+  "title": "L-Arginine",
+  "category": "Nutrients/amino-acids",
+  "description": "L-arginine is a conditionally essential proteogenic amino acid featuring a highly basic guanidino side chain. While the adult human body can synthesize it endogenously via the intestinal-renal axis through the urea cycle, demand frequently outpaces internal production rates during periods of rapid physical growth, heavy athletic exertion, systemic trauma, or metabolic stress. It serves as the single direct physiological substrate for nitric oxide (NO) generation, making it a critical cellular signaling orchestrator that governs systemic vascular tone, immune responsiveness, and nitrogenous waste clearance.",
+  "keyFunctionsHtml": "L-arginine initiates powerful hemodynamic dilation, cellular waste clearance, and endocrine modulation:\r\n<ul>\r\n<li><b>The Nitric Oxide (NO) Pathway:</b> It serves as the exclusive precursor for endothelial nitric oxide synthase (eNOS) to generate nitric oxide. This volatile gas diffuses into vascular smooth muscle cells, activating soluble guanylyl cyclase to stimulate deep arterial relaxation, optimize systemic blood flow, and support healthy blood pressure profiles.</li>\r\n<li><b>Urea Cycle Detoxification:</b> It functions as a core structural intermediate in the liver's urea cycle. It assists in converting highly toxic metabolic ammonia—produced during protein catabolism and intense muscular contraction—into neutral urea for safe, efficient renal excretion.</li>\r\n<li><b>Endocrine Secretion Stimulus:</b> High circulating concentrations of arginine chemically stimulate the anterior pituitary gland and pancreatic islets, prompting the physiological release of growth hormone (GH), prolactin, and insulin into the bloodstream.</li>\r\n<li><b>T-Cell and Immune Support:</b> It is absolutely required for the metabolic proliferation and activation of T-lymphocytes. Intracellular arginase activity regulates the cytotoxic capability of macrophages during acute immune responses.</li>\r\n<li><b>Collagen Biosynthesis and Repair:</b> It is metabolized into L-proline and polyamines, which are vital rate-limiting components for collagen matrix synthesis, granulation tissue layout, and structural cellular wound healing.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/pumpkin-seeds.png",
+      "name": "Pumpkin seeds"
+    },
+    {
+      "image": "/products/turkey.png",
+      "name": "Turkey breast"
+    },
+    {
+      "image": "/products/chicken.png",
+      "name": "Chicken breast"
+    },
+    {
+      "image": "/products/peanuts.png",
+      "name": "Peanuts"
+    },
+    {
+      "image": "/products/sesame-seeds.png",
+      "name": "Sesame seeds"
+    },
+    {
+      "image": "/products/spirulina.png",
+      "name": "Spirulina"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Lean beef"
+    },
+    {
+      "image": "/products/soybeans.png",
+      "name": "Soy protein isolate"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Seed and Nut Dominance:</b> Raw pumpkin seeds and sesame seeds pack some of the absolute highest concentrations of natural arginine per gram, outperforming many animal meats on a purely structural dry-weight basis.</li><li><b>Poultry Abundance:</b> White meats, particularly roasted turkey and chicken breast, supply highly bioavailable, dense quantities of arginine alongside minimal saturated fats, making them ideal for recovery-focused diets.</li><li><b>The Lysine Competition Factor:</b> Arginine shares a highly competitive intestinal and cellular transport system with the amino acid L-lysine. Consuming whole foods with a balanced ratio is simple, but taking isolated supplements high in one can temporarily suppress the uptake of the other.</li></ul>",
+  "rdiHtml": "Because L-arginine is produced endogenously, there is no formal Recommended Dietary Allowance (RDA), but standard human consumption and clinical boundaries dictate the following benchmarks:\r\nAdults\r\n<ul>\r\n<li>Typical Dietary Intake: A balanced, omnivorous diet naturally delivers roughly 4–6 g / day, which sufficiently covers baseline structural protein synthesis and normal urea clearing.</li>\r\n<li>Targeted Vascular & Athletic Support: Doses of 3–6 g / day of isolated L-arginine (or L-arginine alpha-ketoglutarate / AAKG) are commonly utilized in clinical trials and athletic protocols to maximize nitric oxide synthesis and enhance localized muscle perfusion.</li>\r\n</ul>",
+  "deficiencyHtml": "A true structural deficiency is rare in healthy adults due to internal synthesis, but subclinical depletion can impair cardiovascular adaptability and tissue clearing.\r\n<b>Long-Term Risks & Signs of Depletion:</b>\r\n<ul>\r\n<li><b>Endothelial Dysfunction:</b> Insufficient substrate for nitric oxide production results in a restricted ability for blood vessels to dilate dynamically, contributing over time to arterial stiffness and elevated baseline blood pressure.</li>\r\n<li><b>Impaired Ammonia Clearance:</b> Sluggish performance within the liver's urea cycle can cause micro-accumulations of metabolic nitrogen compounds, presenting as unexplained muscular fatigue, brain fog, or reduced recovery capacity after intense physical training.</li>\r\n<li><b>Delayed Tissue Healing:</b> Low systemic availability of arginine restricts local collagen layout and structural protein synthesis, slowing down the closure rate of skin lacerations and muscle-tendon micro-tears.</li>\r\n</ul>",
+  "overdoseHtml": "L-arginine displays a solid safety threshold when consumed through food matrices. However, high-dose oral supplementation can overwhelm local intestinal capacity or trigger specific vascular sensitivities.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No rigid toxic upper ceiling is established, but clinical safety trials suggest keeping isolated oral supplementation under 15–20 g / day to prevent localized digestive distress.</li>\r\n</ul>\r\n<b>Symptoms and Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Gastrointestinal Hyper-Osmolarity:</b> Taking massive single doses of pure L-arginine powder (typically exceeding 9–10 g at once) acts as an osmotic laxative in the gut, drawing water into the intestinal lumen to cause rapid bloating, abdominal cramps, and watery diarrhea.</li>\r\n<li><b>The Viral Replication Risk (Herpes Simplex):</b> Because the Herpes Simplex Virus (HSV) requires an arginine-rich intracellular environment to synthesize its structural capsule proteins, massive supplementation can shift the cellular lysine-to-arginine ratio. In prone individuals, this can trigger or accelerate viral outbreaks (canker sores or blisters).</li>\r\n<li><b>Nitric Oxide Over-Production (Hypotension):</b> Extreme excess intake can induce a sudden, unmanaged systemic drop in blood pressure (hypotension), manifesting as temporary dizziness, lightheadedness, or mild headaches due to profound vascular dilation.</li>\r\n</ul>"
+  },
+  "cysteine": {
+  "slug": "cysteine",
+  "title": "L-Cysteine",
+  "category": "Nutrients/amino-acids",
+  "description": "L-cysteine is a conditionally essential, sulfur-containing proteinogenic amino acid. While the human body can synthesize it endogenously via the transsulfuration pathway using methionine and serine, its manufacturing rate can become a limiting factor under metabolic stress, heavy oxidative burden, or low dietary protein availability. L-cysteine features a highly reactive thiol (sulfhydryl) side chain, making it an indispensable catalytic structural component in protein folding and the absolute rate-limiting substrate for the synthesis of glutathione—the body's master endogenous antioxidant.",
+  "keyFunctionsHtml": "L-cysteine drives critical cellular antioxidant defense, structural protein stability, and phase-II detoxification:\r\n<ul>\r\n<li><b>Glutathione Synthesis Triad:</b> It serves as the absolute rate-limiting precursor for the intracellular synthesis of reduced glutathione (GSH). Glutathione directly neutralizes free radicals, protects lipid membranes from peroxidation, and recycles vitamins C and E.</li>\r\n<li><b>Disulfide Bond Formation:</b> The reactive sulfhydryl (-SH) groups of two adjacent cysteine residues oxidize to form stable disulfide bonds (-S-S-). These structural linkages determine the tertiary and quaternary configuration of structural proteins like keratin, collagen, insulin, and immunoglobulins.</li>\r\n<li><b>Hepatic Phase II Detoxification:</b> It participates in sulfation pathways within the liver, donating sulfur groups to conjugate, neutralize, and clear toxic xenobiotics, heavy metals, environmental pollutants, and medication metabolites via the kidneys.</li>\r\n<li><b>Mucolytic Action:</b> When delivered in modified forms like N-Acetyl-L-Cysteine (NAC), its free sulfhydryl groups physically cleave the disulfide bonds linking mucin proteins in thick mucus, dramatically reducing its viscosity to clear respiratory passages.</li>\r\n<li><b>Precursor to Taurine and Coenzyme A:</b> It undergoes enzymatic conversion to produce taurine—vital for bile acid conjugation and osmotic cardiac stability—and supplies the active sulfur core required to build Coenzyme A for mitochondrial fatty acid metabolism.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/eggs.png",
+      "name": "Whole eggs"
+    },
+    {
+      "image": "/products/chicken.png",
+      "name": "Chicken breast"
+    },
+    {
+      "image": "/products/turkey.png",
+      "name": "Turkey breast"
+    },
+    {
+      "image": "/products/pork.png",
+      "name": "Lean pork loin"
+    },
+    {
+      "image": "/products/sunflower-seeds.png",
+      "name": "Sunflower seeds"
+    },
+    {
+      "image": "/products/garlic.png",
+      "name": "Garlic and onions"
+    },
+    {
+      "image": "/products/oats.png",
+      "name": "Whole grain oats"
+    },
+    {
+      "image": "/products/cottage-cheese.png",
+      "name": "Cottage cheese"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>The Poultry and Egg Matrix:</b> Eggs and white poultry meats represent some of the highest and most bioavailable sources of sulfur-containing amino acids, delivering dense structural building blocks for immediate cellular glutathione production.</li><li><b>Allium and Cruciferous Support:</b> Vegetables like garlic, onions, broccoli, and Brussels sprouts do not always contain massive isolated free cysteine, but are rich in secondary organosulfur compounds that actively support and spare the body's internal cysteine pools.</li><li><b>Thermal Sensitivity Constraints:</b> Excessive, high-heat dry cooking or prolonged processing can degrade or denature delicate sulfur amino acid chains. Consuming gently cooked, minimally processed protein sources preserves optimal peptide bioavailability.</li><li><b>Supplemental Formats (NAC vs. Cysteine):</b> Pure isolated L-cysteine supplements are highly susceptible to spontaneous oxidation in the gut. Therefore, clinical and dietary protocols primarily utilize N-Acetyl-L-Cysteine (NAC) because it safely bypasses early digestive degradation and raises intracellular cysteine levels much more efficiently.</li></ul>",
+  "rdiHtml": "There is no isolated Recommended Dietary Allowance (RDA) established for L-cysteine alone; health authorities establish a combined daily requirement for the sulfur-containing amino acids (Methionine + Cysteine):\r\nAdults\r\n<ul>\r\n<li>Combined Dietary Baseline (Met + Cys): The World Health Organization (WHO) establishes a baseline requirement of roughly 19 mg / kg of body weight per day (approximately 1.3–1.5 grams daily for an average adult).</li>\r\n<li>Supplemental Target (NAC): For targeted antioxidant upregulation, respiratory clearing, or liver defense support, clinical protocols commonly implement 600–1,200 mg / day of N-Acetyl-L-Cysteine taken in divided doses.</li>\r\n</ul>",
+  "deficiencyHtml": "A clinical deficiency of cysteine rarely occurs in isolation, but suboptimal levels drastically compromise cellular cellular resilience and structural integrity.\r\n<b>Long-Term Risks & Signs of Depletion:</b>\r\n<ul>\r\n<li><b>Glutathione Depletion & Oxidative Vulnerability:</b> Low intracellular cysteine halts glutathione production, rendering cells highly vulnerable to oxidative damage, accelerating systemic tissue aging, and weakening overall immune defenses.</li>\r\n<li><b>Keratin Matrix Degradation:</b> Because keratin structural integrity depends entirely on cysteine disulfide cross-links, chronic depletion manifests directly as brittle, thinning hair, split ends, slow hair growth, and weak, easily peeling nails.</li>\r\n<li><b>Impaired T-Cell Proliferation:</b> Immune cells require an agile supply of glutathione to divide rapidly. Cysteine scarcity cripples T-lymphocyte activation, leaving the body less responsive to viral or bacterial encounters.</li>\r\n</ul>",
+  "overdoseHtml": "L-cysteine consumed from dietary whole foods carries a pristine safety grid. High supplemental intakes of isolated sulfur compounds can, however, saturate metabolic clearance pathways or trigger transient physiological changes.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No formal toxic upper limit is set for dietary sources, though safety trials for isolated N-Acetyl-L-Cysteine (NAC) show excellent tolerability for daily doses up to 2,000–3,000 mg.</li>\r\n</ul>\r\n<b>Symptoms and Specific Risk Vectors of Excess Intake:</b>\r\n<ul>\r\n<li><b>Gastrointestinal Intestinal Irritation:</b> Large supplemental doses of isolated cysteine or NAC (especially on an empty stomach) can irritate the mucosal lining, triggering temporary nausea, abdominal cramps, heartburn, or loose stools.</li>\r\n<li><b>Sulfurous Breath and Flatulence:</b> Because it contains an active sulfur core, unabsorbed fractions metabolized by lower gut bacteria can produce a transient sulfurous (rotten egg) odor in breath or intestinal gas.</li>\r\n<li><b>Trace Mineral Chelation Precaution:</b> Massive, prolonged supplemental doses can theoretically bind to and increase the urinary clearance of essential divalent trace minerals like zinc and copper, making a balanced multivitamin protocol prudent during extended high-dose regimens.</li>\r\n</ul>"
+  },
+  "glutamine": {
+  "slug": "glutamine",
+  "title": "L-Glutamine",
+  "category": "Nutrients/amino-acids",
+  "description": "L-glutamine is the most abundant free amino acid in human blood and muscle tissue. Classified as a conditionally essential amino acid, the body can typically synthesize sufficient quantities endogenously under normal physiological conditions. However, during periods of severe metabolic stress, major physical trauma, prolonged high-intensity athletic exhaustion, or critical illness, intracellular glutamine pools deplete rapidly, turning it into a strictly essential dietary requirement. It serves as a primary fuel source for rapidly dividing cells, an indispensable regulator of systemic acid-base balance, and a core vehicle for safe nitrogen transport between tissues.",
+  "keyFunctionsHtml": "L-glutamine drives intestinal barrier repair, fuels immune cells, and regulates nitrogen homeostasis:\r\n<ul>\r\n<li><b>Intestinal Mucosal Integrity:</b> It functions as the primary, preferred fuel source for enterocytes and colonocytes (the cells lining the small and large intestines). It directly stimulates tight junction protein expression (such as claudin and occludin), preserving intestinal barrier function and mitigating hyper-permeability (\"leaky gut\").</li>\r\n<li><b>Immune System Fuel:</b> Rapidly proliferating immune cells, including lymphocytes and macrophages, consume glutamine at a rate equal to or greater than glucose. It acts as an essential energy substrate to maintain an agile immune response during infections or physiological stress.</li>\r\n<li><b>Inter-Tissue Nitrogen Transport:</b> It functions as a safe, non-toxic shuttle for nitrogen throughout the body. It picks up excess metabolic ammonia generated in peripheral tissues and transports it securely through the bloodstream to the liver and kidneys for safe processing and excretion.</li>\r\n<li><b>Renal Acid-Base Regulation:</b> Within the kidneys, the enzymatic cleavage of glutamine by glutaminase releases ammonia ions, which bind directly with filtered hydrogen ions ($H^+$). This process plays a foundational role in neutralizing systemic metabolic acidosis and preserving baseline blood pH.</li>\r\n<li><b>Muscle Glycogen and Protein Support:</b> It serves as an anti-catabolic agent in muscular tissue. By maintaining high cellular hydration levels and donating nitrogen for protein synthesis, it helps preserve lean muscle mass during catabolic states and supports glycogen resynthesis post-exercise.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/beef.png",
+      "name": "Lean beef"
+    },
+    {
+      "image": "/products/chicken.png",
+      "name": "Chicken breast"
+    },
+    {
+      "image": "/products/eggs.png",
+      "name": "Whole eggs"
+    },
+    {
+      "image": "/products/cottage-cheese.png",
+      "name": "Cottage cheese"
+    },
+    {
+      "image": "/products/cabbage.png",
+      "name": "Raw white cabbage (and fermented cabbage juice)"
+    },
+    {
+      "image": "/products/tofu.png",
+      "name": "Tofu and soybeans"
+    },
+    {
+      "image": "/products/whey-protein.png",
+      "name": "Whey protein isolate"
+    },
+    {
+      "image": "/products/spinach.png",
+      "name": "Raw spinach"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Protein-Dense Abundance:</b> Because glutamine is a key structural building block in most dietary proteins, consuming concentrated protein sources like beef, poultry, eggs, and dairy ensures an abundant intake of peptide-bound glutamine.</li><li><b>Thermal Degradation Risks:</b> Glutamine is relatively heat-sensitive. High-temperature cooking, prolonged boiling, or aggressive industrial processing denatures the free amino acid structure. Incorporating cold-processed dairy (like cottage cheese) or raw, crisp vegetables (like raw cabbage or spinach) helps maximize raw intake.</li><li><b>The Cabbage Factor:</b> Historically, raw cabbage juice was utilized as a traditional remedy for peptic ulcers; this therapeutic efficacy is deeply tied to its naturally high concentrations of free, highly bioavailable L-glutamine.</li></ul>",
+  "rdiHtml": "Because the body manufactures its own baseline supply, there is no official Recommended Dietary Allowance (RDA) for L-glutamine, but established nutritional and clinical protocols utilize specific operational guidelines:\r\nAdults\r\n<ul>\r\n<li>Typical Dietary Intake: A standard omnivorous diet rich in whole protein matrices naturally provides between 3 to 6 grams of glutamine per day.</li>\r\n<li>Targeted Intestinal & Athletic Protocols: For gut barrier support, mucosal healing, or intense athletic recovery, clinical and sports nutrition guidelines commonly utilize isolated oral doses ranging from 5 to 15 grams per day, often split into two or three separate intakes.</li>\r\n</ul>",
+  "deficiencyHtml": "While deficiency is rare in healthy, sedentary individuals, severe physiological exhaustion or systemic trauma can lead to localized depletion that triggers clear systemic consequences.\r\n<b>Risks & Signs of Suboptimal Intracellular Intake:</b>\r\n<ul>\r\n<li><b>Intestinal Barrier Failure:</b> A severe local shortage of glutamine deprives enterocytes of vital energy, causing mucosal atrophy, thinning of the intestinal lining, and a breakdown of tight junctions, which can manifest as chronic digestive distress or food sensitivities.</li>\r\n<li><b>Immune Suppression and Slow Recovery:</b> When internal glutamine synthesis cannot keep pace with immune demand during critical stress, immune cell proliferation stalls, leading to increased susceptibility to opportunistic infections and delayed cellular recovery.</li>\r\n<li><b>Muscle Wasting (Catabolism):</b> If the immune system and visceral organs exhaust circulating glutamine levels, the body will catabolize skeletal muscle tissue to release stored amino acids, leading to lean muscle wasting and decreased physical strength.</li>\r\n</ul>",
+  "overdoseHtml": "L-glutamine has a broad therapeutic index and a highly favorable safety profile when consumed via dietary protein. However, massive, unmitigated chronic supplementation of the isolated free amino acid can saturate amino acid transport pathways.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> A strict toxic upper ceiling is not established, but clinical safety data suggests that short-to-medium-term oral intakes of up to 20 to 30 grams per day are well tolerated by healthy adults without adverse effects.</li>\r\n</ul>\r\n<b>Potential Systemic Risks of Chronic Excessive Intake:</b>\r\n<ul>\r\n<li><b>Amino Acid Transport Saturation:</b> Consuming massive single doses of isolated L-glutamine can overwhelm shared intestinal transport systems, temporarily inhibiting the efficient absorption of other essential amino acids like L-leucine, L-isoleucine, and L-valine.</li>\r\n<li><b>Transient Neurological Excitation Precaution:</b> Because glutamine readily crosses the blood-brain barrier and serves as a direct metabolic precursor to the excitatory neurotransmitter glutamate, individuals highly sensitive to neurological shifts or those with specific hepatic clearance issues should avoid massive isolated doses to prevent minor headaches or restless energy.</li>\r\n<li><b>Minor Digestive Osmotic Stress:</b> Ingesting very large single doses of pure unbuffered powder (typically exceeding 15 grams at once) can cause transient osmotic shifts in the gut lumen, resulting in mild abdominal bloating, nausea, or soft stools.</li>\r\n</ul>"
+  },
+  "glycine": {
+  "slug": "glycine",
+  "title": "Glycine",
+  "category": "Nutrients/amino-acids",
+  "description": "Glycine is the simplest possible proteogenic amino acid, uniquely lacking an asymmetric carbon atom and possessing a single hydrogen atom as its side chain. While officially classified as a non-essential amino acid because the human body can synthesize it from serine, choline, or threonine, structural modeling indicates that endogenous production rates (~3 g/day) fall significantly short of meeting total metabolic and mechanical requirements (~14.5 g/day). It acts as a primary inhibitory neurotransmitter within the central nervous system, a crucial structural building block for the collagen matrix, and a foundational precursor for heme, purines, and glutathione.",
+  "keyFunctionsHtml": "Glycine stabilizes neurological firing, drives structural collagen layout, and powers essential metabolic pathways:\r\n<ul>\r\n<li><b>Central Inhibitory Neurotransmission:</b> It acts as a dedicated inhibitory neurotransmitter in the spinal cord and brainstem. By binding to ionotropic glycine receptors (GlyR), it triggers an influx of chloride ions ($Cl^-$), hyperpolarizing neurons to dampen excessive motor firing, mitigate neurological hyperexcitability, and support deep sleep stability.</li>\r\n<li><b>NMDA Receptor Co-Agonism:</b> Within the cerebral cortex and hippocampus, it serves as an obligatory co-agonist at the strychnine-insensitive binding site of NMDA glutamate receptors. In this localized capacity, it is absolutely required alongside glutamate to facilitate synaptic plasticity, memory formation, and baseline cognitive processing.</li>\r\n<li><b>Collagen Architecture Synthesis:</b> It represents exactly one-third of the structural amino acid residues within the collagen triple-helix matrix, explicitly anchoring the \"Gly-X-Y\" repeating structural peptide sequence. Its minute molecular size allows dense structural folding, ensuring tensile strength in tendons, cartilage, bones, and vascular walls.</li>\r\n<li><b>Endogenous Glutathione Formation:</b> It serves as the final structural addition in the cellular synthesis of reduced glutathione (GSH), combining with gamma-glutamylcysteine to complete the body's primary endogenous antioxidant shield against oxidative stress.</li>\r\n<li><b>Heme and Conjugation Detoxification:</b> It provides the carbon and nitrogen structural core required for porphyrin and heme synthesis, which is critical for hemoglobin formation. Furthermore, it drives Phase II hepatic glyco-conjugation, binding directly to benzoic acid and other foreign xenobiotics to form harmless hippuric acid for smooth renal clearing.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/gelatin.png",
+      "name": "Gelatin and bone broth"
+    },
+    {
+      "image": "/products/pork-rind.png",
+      "name": "Pork skins (Pork rinds/Chicharrones)"
+    },
+    {
+      "image": "/products/chicken.png",
+      "name": "Chicken skin and dark poultry meat"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Lean beef and connective tissues"
+    },
+    {
+      "image": "/products/shrimp.png",
+      "name": "Shrimp and marine mollusks"
+    },
+    {
+      "image": "/products/eggs.png",
+      "name": "Whole eggs"
+    },
+    {
+      "image": "/products/pumpkin-seeds.png",
+      "name": "Pumpkin seeds"
+    },
+    {
+      "image": "/products/soybeans.png",
+      "name": "Soy protein isolate"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>Connective Tissue Superiority:</b> Glycine is heavily concentrated in structural animal tissues. Pure gelatin, bone broth, and crispy pork or chicken skin deliver an overwhelmingly higher concentration of glycine compared to standard lean muscle cuts.</li><li><b>Marine Abundance:</b> Shellfish, such as shrimp, crabs, and clams, are rich in free-form glycine, which contributes directly to their characteristically mild, sweet flavor profile.</li><li><b>Supplemental Isolation:</b> Isolated free-form glycine supplements possess a naturally sweet taste and exceptional water solubility. Because it does not experience competitive breakdown in the early gut, taking pure glycine before bed quickly crosses the blood-brain barrier to assist neurological cooling pathways without disrupting digestion.</li></ul>",
+  "rdiHtml": "Because the body can produce baseline glycine, no formal Recommended Dietary Allowance (RDA) has been established, but human metabolic models identify clear functional guidelines:\r\nAdults\r\n<ul>\r\n<li>Dietary and Synthesis Gap: A standard omnivorous diet supplies approximately 2–3 grams of glycine daily, leaving a substantial biological deficit relative to the total mechanical and collagen demands of a healthy adult body.</li>\r\n<li>Targeted Cognitive and Sleep Protocols: Clinical trials and sleep research frameworks frequently implement 3 grams of pure isolated glycine taken roughly 30–60 minutes before bedtime to improve sleep architecture and reduce daytime somnolence.</li>\r\n<li>Connective Tissue and Metabolic Support: For deep collagen matrix support or metabolic regulation, operational doses typically scale up to 5–10 grams per day, often consumed in divided doses or through targeted gelatin supplementation.</li>\r\n</ul>",
+  "deficiencyHtml": "A severe, acute clinical deficiency of glycine is prevented by internal synthesis, but chronic subclinical scarcity limits optimal structural renewal and metabolic adaptability.\r\n<b>Long-Term Risks & Signs of Depletion:</b>\r\n<ul>\r\n<li><b>Sluggish Collagen Turnover:</b> Because metabolic pathways prioritize critical heme synthesis over joint maintenance during glycine scarcity, chronic low availability contributes over time to osteoarticular cartilage erosion, brittle tendons, and reduced vascular elasticity.</li>\r\n<li><b>Sleep Inversion and Neurological Restlessness:</b> Inadequate central glycine concentrations can diminish optimal inhibitory neurological pathways, manifesting as fragmented sleep architecture, difficulty calming a racing mind at night, or reduced resilience to daytime stress.</li>\r\n<li><b>Attenuated Antioxidant Capacity:</b> A shortage of baseline glycine can restrict optimal cellular glutathione production during periods of high oxidative load, accelerating systemic cellular wear and diminishing hepatic phase II clearing efficiency.</li>\r\n</ul>",
+  "overdoseHtml": "Glycine exhibits an exceptionally high safety threshold and superb biocompatibility within human metabolic systems. Because of its simple structure, excess dietary amounts are easily converted into glucose, used for energy, or processed through normal nitrogen clearing mechanisms.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No strict toxic upper limit is established. Clinical studies exploring severe metabolic disorders have safely implemented up to 15–30 grams per day without documented toxic reactions.</li>\r\n</ul>\r\n<b>Potential Systemic Safeguards of Excessive Intake:</b>\r\n<ul>\r\n<li><b>Transient Intestinal Transit Changes:</b> Ingesting massive single doses of pure isolated glycine powder (typically exceeding 10–15 grams at once on an empty stomach) can cause minor osmotic imbalances in the gut lumen, leading to brief nausea, mild abdominal rumbling, or soft stools.</li>\r\n<li><b>Temporary Mild Drowsiness:</b> Due to its direct inhibitory activity within the brainstem, consuming very high isolated amounts during daylight hours can occasionally induce a temporary state of deep physical relaxation or mild, transient lethargy.</li>\r\n</ul>"
+  },
+  "tyrosine": {
+  "slug": "tyrosine",
+  "title": "L-Tyrosine",
+  "category": "Nutrients/amino-acids",
+  "description": "L-tyrosine is a conditionally essential, aromatic proteogenic amino acid featuring a polar phenylhydroxyl (phenolic) side chain. While the human body can synthesize it endogenously in the liver through the enzymatic hydroxylation of the essential amino acid L-phenylalanine via phenylalanine hydroxylase, internal production rates can fall short under prolonged neurological stress, deep sleep deprivation, or genetic variations. L-tyrosine is the single foundational biochemical precursor for the synthesis of catecholamine neurotransmitters (dopamine, norepinephrine, epinephrine) and thyroid hormones, serving as an essential modulator of cognitive resilience, sympathetic drive, and systemic metabolic rate.",
+  "keyFunctionsHtml": "L-tyrosine drives central catecholamine synthesis, modulates neuro-cognitive adaptation, and fuels thyroid hormone production:\r\n<ul>\r\n<li><b>Catecholamine Pathway Precursor:</b> It serves as the primary initial substrate for tyrosine hydroxylase, the rate-limiting enzyme that converts it into L-DOPA, which is subsequently decarboxylated into dopamine. In adrenergic neurons and the adrenal medulla, dopamine is further metabolized into norepinephrine and epinephrine, orchestrating alertness, executive function, and the sympathetic \"fight-or-flight\" response.</li>\r\n<li><b>Cognitive Preservation Under Stress:</b> During acute environmental or psychological stressors (such as extreme cold, intense continuous cognitive load, or severe sleep deprivation), central catecholamine turnover accelerates dramatically, depleting localized transmitter pools. L-tyrosine resupplies these pathways, preserving working memory, focus, and multi-tasking performance.</li>\r\n<li><b>Thyroid Hormone Synthesis Matrix:</b> Within the follicular cells of the thyroid gland, tyrosine residues built into the structure of thyroglobulin undergo localized iodination by thyroid peroxidase. This specific coupling reaction synthesizes the active metabolic hormones Thyroxine (T4) and Triiodothyronine (T3).</li>\r\n<li><b>Melanin Pigment Foundation:</b> It acts as the core substrate for the copper-dependent enzyme tyrosinase within melanocytes. This chemical pathway synthesizes eumelanin and pheomelanin pigments, providing biological coloration and UV radiation shielding to the basal skin and hair strands.</li>\r\n</ul>",
+  "foodSourcesIntro": "",
+  "foodSources": [
+    {
+      "image": "/products/parmesan.png",
+      "name": "Parmesan and aged cheeses"
+    },
+    {
+      "image": "/products/turkey.png",
+      "name": "Turkey breast"
+    },
+    {
+      "image": "/products/chicken.png",
+      "name": "Chicken breast"
+    },
+    {
+      "image": "/products/beef.png",
+      "name": "Lean beef"
+    },
+    {
+      "image": "/products/soybeans.png",
+      "name": "Soy protein isolate and tofu"
+    },
+    {
+      "image": "/products/eggs.png",
+      "name": "Whole eggs"
+    },
+    {
+      "image": "/products/pumpkin-seeds.png",
+      "name": "Pumpkin seeds"
+    },
+    {
+      "image": "/products/peanuts.png",
+      "name": "Peanuts"
+    }
+  ],
+  "foodSourcesNotesHtml": "<ul><li><b>The Tyrosine Crystal Reality:</b> The name \"tyrosine\" originates from the Greek word <i>tyros</i>, meaning cheese. In heavily aged cheeses like authentic Parmesan, the hard, crunchy white micro-crystals frequently visible within the cheese matrix are literally crystallized deposits of pure tyrosine, showcasing its natural density in dairy proteins.</li><li><b>Precursor Dependency:</b> Because the human body synthesizes tyrosine directly from L-phenylalanine, eating foods rich in phenylalanine (such as wild game, fish, and nuts) effectively expands the body's internal tyrosine reserves.</li><li><b>Blood-Brain Barrier Saturation:</b> Isolated L-tyrosine supplements cross the blood-brain barrier via the Large Neutral Amino Acid (LNAA) transporter system, competing directly with tryptophan and BCAAs. To maximize its neurological impact on dopamine synthesis, isolated supplements are best taken on an empty stomach, separated from large, mixed-protein meals.</li></ul>",
+  "rdiHtml": "Because L-tyrosine can be synthesized endogenously from L-phenylalanine, health authorities establish a combined daily requirement for these two aromatic amino acids rather than an isolated tyrosine allowance:\r\nAdults\r\n<ul>\r\n<li>Combined Dietary Baseline (Phe + Tyr): The World Health Organization (WHO) recommends a minimum baseline intake of 25 mg / kg of body weight per day (equivalent to approximately 1.7–2.0 grams daily for an average adult).</li>\r\n<li>Targeted Cognitive Protocols: For preserving focus during acute stress or sleep loss, clinical studies utilize short-term isolated oral doses of 500–2,000 mg of L-tyrosine, typically taken 30–60 minutes prior to a demanding task.</li>\r\n</ul>",
+  "deficiencyHtml": "A strict structural deficiency of tyrosine is exceedingly rare under standard conditions, but localized depletion in central neurotransmitter pathways can compromise cognitive agility and energy regulation.\r\n<b>Long-Term Risks & Signs of Suboptimal Intracellular Intake:</b>\r\n<ul>\r\n<li><b>Catecholamine Exhaustion and Cognitive Fatigue:</b> Chronic subclinical scarcity—especially paired with persistent high stress—can exhaust localized dopamine and norepinephrine pools, manifesting as mental burnout, apathy, a lack of morning motivation, and diminished focus.</li>\r\n<li><b>Suboptimal Thyroid Dynamics:</b> Insufficient baseline availability of tyrosine can restrict ideal thyroxine synthesis during metabolic demands, potentially contributing to sluggish metabolism, chronic physical fatigue, and cold sensitivity.</li>\r\n<li><b>The Phenylketonuria (PKU) Exception:</b> In individuals born with Phenylketonuria, a genetic mutation disables the phenylalanine hydroxylase enzyme. Consequently, they cannot convert phenylalanine to tyrosine, turning tyrosine into a strictly essential amino acid that must be meticulously supplemented to prevent profound developmental complications.</li>\r\n</ul>",
+  "overdoseHtml": "L-tyrosine consumed through food matrices exhibits an excellent clinical safety record. High-dose oral supplementation with the isolated free amino acid is well tolerated but requires specific biochemical precautions.\r\n<ul>\r\n<li><b>Tolerable Upper Intake Level (UL):</b> No rigid toxic upper limit is established for dietary intake, though safety trials confirm that isolated oral doses up to 5,000–10,000 mg / day over short periods do not cause toxic tissue accumulation.</li>\r\n</ul>\r\n<b>Symptoms and Specific Counter-indications of Excess Intake:</b>\r\n<ul>\r\n<li><b>Mild Gastrointestinal Shifts:</b> Consuming massive single doses of pure L-tyrosine powder on an empty stomach can occasionally irritate sensitive stomach linings, causing temporary nausea, heartburn, or a mild headache.</li>\r\n<li><b>The MAOI Medication Hazard:</b> Tyrosine supplementation is strictly contraindicated for individuals taking Monoamine Oxidase Inhibitors (MAOIs) for mood management. Inhibiting the MAO enzyme prevents the normal breakdown of catecholamines, meaning high tyrosine intake can trigger a rapid accumulation of tyramine and norepinephrine, resulting in a dangerous hypertensive crisis.</li>\r\n<li><b>Melanoma Precaution:</b> Because tyrosine serves as the direct biochemical substrate for melanin production, individuals with a medical history of malignant melanoma or active skin hyperpigmentation disorders are typically advised to avoid high-dose isolated supplementation.</li>\r\n</ul>"
   }
 }
