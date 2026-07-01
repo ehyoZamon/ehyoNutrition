@@ -835,83 +835,115 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "34 kcal",
+        "amount": "34 kcal / 2% DV",
         "bg": "#15837c",
         "description": "Very low in calories and exceptionally nutrient-dense, making it a perfect functional volume food for strict metabolic and weight management."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "2.8 grams",
+        "amount": "2.8 g / 6% DV",
         "bg": "#f5722c",
         "description": "Contains a surprisingly robust plant-based protein profile for a green vegetable, supplying clean essential amino acids for tissue repair."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.4 grams",
+        "amount": "0.4 g / 1% DV",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, cooking or serving it with a splash of healthy lipids drastically increases the absorption of its fat-soluble vitamins."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "6.6 grams",
+        "amount": "6.6 g / 2% DV",
         "bg": "#15837c",
         "description": "Composed of slow-digesting complex carbohydrates tightly wrapped in rigid plant fiber structures, keeping blood sugar curves completely flat."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "89.2 mg / 99% DV",
         "bg": "#1a96cd",
         "description": "An exceptional concentration that easily rival or beats most citrus fruits, fueling robust immune mechanics and dynamic collagen assembly."
       },
       {
-        "id": "vitK1",
-        "slug": "vitamin-k",
+        "id": 6,
         "name": "Vitamin K1 (Phylloquinone)",
+        "slug": "vitamin-k",
         "amount": "101.6 mcg / 85% DV",
         "bg": "#15837c",
         "description": "An abundant dose of this critical fat-soluble factor, essential for managing natural blood coagulation cascades and anchoring bone calcium."
       },
       {
-        "id": "sulforaphane",
-        "slug": "antioxidants",
-        "name": "Sulforaphane (Glucoraphanin)",
-        "amount": "High Concentration",
-        "bg": "#66ab63",
-        "description": "A legendary sulfur-rich compound unique to cruciferous vegetables that activates profound cellular detoxification and deep antioxidant defense."
-      },
-      {
-        "id": "vitB9",
-        "slug": "vitamin-b9",
+        "id": 12,
         "name": "Vitamin B9 (Folate)",
+        "slug": "vitamin-b9",
         "amount": "63.0 mcg / 16% DV",
         "bg": "#f5722c",
         "description": "Crucial coenzyme necessary for continuous cellular division, proper DNA replication, and protecting vascular tissue equilibrium."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
+        "id": 2,
+        "name": "Vitamin A (Beta-Carotene)",
+        "slug": "vitamin-a",
+        "amount": "31 mcg / 3% DV",
+        "bg": "#66ab63",
+        "description": "Supplies provitamin A carotenoids to assist in mucosal barrier maintenance and nighttime visual accommodation."
+      },
+      {
+        "id": 31,
+        "name": "Magnesium",
+        "slug": "magnesium",
+        "amount": "21 mg / 5% DV",
+        "bg": "#8e24aa",
+        "description": "Supports intracellular enzyme reactions, muscular relaxation, and baseline cellular energy synthesis."
+      },
+      {
+        "id": 32,
+        "name": "Potassium",
+        "slug": "potassium",
+        "amount": "316 mg / 7% DV",
+        "bg": "#1a96cd",
+        "description": "An essential systemic electrolyte coordinating healthy fluid mechanics, neuromuscular impulses, and resting vascular tone."
+      },
+      {
+        "id": 44,
         "name": "Dietary Fiber",
-        "amount": "2.6 grams",
+        "slug": "fiber",
+        "amount": "2.6 g / 10% DV",
         "bg": "#e4a910",
         "description": "A rich mix of soluble and insoluble structural fibers that optimize digestive transit times and heavily feed beneficial gut flora."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
-        "name": "Potassium",
-        "amount": "316 mg / 7% DV",
-        "bg": "#1a96cd",
-        "description": "An essential systemic electrolyte coordinating healthy fluid mechanics, neuromuscular impulses, and resting vascular tone."
+        "id": 59,
+        "name": "Lutein",
+        "slug": "lutein",
+        "amount": "1400 mcg",
+        "bg": "#00acc1",
+        "description": "Concentrates inside the macular tissues, filtering blue light stress and supporting core visual acuity over time."
+      },
+      {
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "23 mcg",
+        "bg": "#0288d1",
+        "description": "Works synergistically alongside lutein within the eye matrix to protect photoreceptor structures from light damage."
+      },
+      {
+        "id": "sulforaphane",
+        "name": "Sulforaphane (Glucoraphanin)",
+        "slug": "antioxidants",
+        "amount": "High Concentration",
+        "bg": "#66ab63",
+        "description": "A legendary sulfur-rich compound unique to cruciferous vegetables that activates profound cellular detoxification and deep antioxidant defense."
       }
     ],
     "healthBenefits": [
@@ -934,7 +966,7 @@
     "category": "Vegetables",
     "image": "/productinfo/carrots.png",
     "imageAlt": "carrots",
-    "description": "Carrots (Daucus carota) are vibrant, biennial root vegetables cultivated globally for their crisp texture and nutrient density. Traditionally associated with a deep orange hue, they also grow in heritage varieties of purple, yellow, red, and white.\n                            From a botanical perspective, carrots belong to the Apiaceae (parsley) family, sharing lineage with celery, parsnips, and fennel. While the sweet, taproot is the most commonly consumed part, the feathery green tops are also edible and rich in minerals. Carrots owe their signature orange color to highly concentrated carotenoid pigments, which serve as crucial precursors for essential vitamins in human metabolism.",
+    "description": "Carrots (Daucus carota) are vibrant, biennial root vegetables cultivated globally for their crisp texture and nutrient density. Traditionally associated with a deep orange hue, they also grow in heritage varieties of purple, yellow, red, and white. From a botanical perspective, carrots belong to the Apiaceae (parsley) family, sharing lineage with celery, parsnips, and fennel. While the sweet, taproot is the most commonly consumed part, the feathery green tops are also edible and rich in minerals. Carrots owe their signature orange color to highly concentrated carotenoid pigments, which serve as crucial precursors for essential vitamins in human metabolism.",
     "macroTitle": "Macro Nutrients (per 100g raw)",
     "macroIntro": "Carrots are a low-calorie, high-moisture crop composed of approximately 88% water. They provide clean energy primarily through complex carbohydrates, with a negligible fat profile.",
     "microIntro": "Carrots are a premier dietary source of provitamin A and contain an array of synergistic micronutrients that support cellular integrity.",
@@ -943,91 +975,99 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "41 kcal",
+        "amount": "41 kcal / 2% DV",
         "bg": "#15837c",
         "description": "Provides low-glycemic basal energy to fuel daily metabolic processes."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "0.9 grams",
+        "amount": "0.9 g / 2% DV",
         "bg": "#f5722c",
         "description": "Minimal; contains trace structural amino acids necessary for plant protein structures."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.2 grams",
+        "amount": "0.2 g / 0% DV",
         "bg": "#e4a910",
         "description": "Negligible; mostly composed of essential polyunsaturated fatty acids."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "9.6 grams",
+        "amount": "9.6 g / 3% DV",
         "bg": "#15837c",
         "description": "Split between naturally occurring simple sugars (sucrose, glucose) and structural complex carbohydrates."
       },
       {
-        "id": "dietfiber",
+        "id": 44,
         "name": "Dietary Fiber",
-        "slug": "dietary-fiber",
-        "amount": "2.8 grams",
+        "slug": "fiber",
+        "amount": "2.8 g / 10% DV",
         "bg": "#f5722c",
         "description": "Rich in soluble pectin and insoluble cellulose that optimize digestion and support gut microbiota."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitA",
-        "slug": "vitamin-a",
+        "id": 3,
         "name": "Vitamin A",
+        "slug": "vitamin-a",
         "amount": "835 mcg / 104% DV",
         "bg": "#66ab63",
         "description": "Packed with beta-carotene and alpha-carotene, which the liver converts into retinol for advanced vision and night sight protection."
       },
       {
-        "id": "vitK1",
-        "slug": "vitamin-k",
+        "id": 5,
         "name": "Vitamin K1",
+        "slug": "vitamin-k",
         "amount": "13.2 mcg / 11% DV",
         "bg": "#15837c",
         "description": "Essential for synthesizing blood-coagulation proteins and supporting structural bone mineralization."
       },
       {
-        "id": "b6",
-        "slug": "vitamin-b6",
+        "id": 10,
         "name": "Vitamin B6",
+        "slug": "vitamin-b6",
         "amount": "0.14 mg / 9% DV",
         "bg": "#f5722c",
         "description": "Serves as a vital coenzyme in cellular amino acid metabolism, energy release, and neurotransmitter production."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 32,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "320 mg / 7% DV",
         "bg": "#e4a910",
         "description": "An essential intracellular electrolyte that regulates fluid balance, nerve signaling, and systemic blood pressure."
       },
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "5.9 mg / 7% DV",
         "bg": "#1a96cd",
         "description": "A water-soluble antioxidant that strengthens endothelial defenses, drives collagen synthesis, and boosts immunity."
       },
       {
-        "id": "lutein",
-        "slug": "lutein-zeaxanthin",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "256 mcg",
+        "id": 48,
+        "name": "Lutein",
+        "slug": "lutein",
+        "amount": "138 mcg",
         "bg": "#1a96cd",
-        "description": "Crucial carotenoid antioxidants that accumulate in the macular region of the eye, filtering harmful blue light wavelengths."
+        "description": "A crucial carotenoid antioxidant that concentrates in the macula, filtering harmful blue light and protecting visual cells from oxidative stress."
+      },
+      {
+        "id": 49,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "118 mcg",
+        "bg": "#0288d1",
+        "description": "An eye-protective carotenoid that works synergistically with lutein to maintain sharp vision and shield photoreceptors from light damage."
       }
     ],
     "healthBenefits": [
@@ -1058,83 +1098,91 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "86 kcal",
+        "amount": "86 kcal / 4% DV",
         "bg": "#15837c",
         "description": "A moderate-energy starchy vegetable that provides sustained, reliable fuel for muscular work and cellular respiration."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "3.2 grams",
+        "amount": "3.2 g / 6% DV",
         "bg": "#f5722c",
         "description": "Contains a notable amount of plant proteins for a vegetable, including zein, though it should be paired with legumes for a complete amino profile."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "1.2 grams",
+        "amount": "1.2 g / 2% DV",
         "bg": "#e4a910",
         "description": "Naturally very low in fat, containing trace heart-healthy monounsaturated and polyunsaturated fatty acids within the grain germ."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "19.0 grams",
+        "amount": "19.0 g / 7% DV",
         "bg": "#15837c",
         "description": "Primarily composed of complex starches and natural simple sugars, offering structured energy management to prevent rapid glucose spikes."
       }
     ],
     "microNutrients": [
       {
-        "id": "lutein",
-        "slug": "lutein-zeaxanthin",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "642 mcg",
-        "bg": "#e4a910",
-        "description": "Phenomenal plant pigments that deposit directly into the macular region of the eye, filtering harmful blue light and guarding visual acuity."
-      },
-      {
-        "id": "vitB1",
-        "slug": "vitamin-b1",
+        "id": 7,
         "name": "Vitamin B1 (Thiamin)",
+        "slug": "vitamin-b1",
         "amount": "0.15 mg / 13% DV",
         "bg": "#1a96cd",
         "description": "An essential coenzyme involved in carbohydrate metabolic cascades, crucial for optimizing cognitive drive and nervous system communication."
       },
       {
-        "id": "vitB9",
-        "slug": "vitamin-b9",
+        "id": 12,
         "name": "Vitamin B9 (Folate)",
+        "slug": "vitamin-b9",
         "amount": "42.0 mcg / 11% DV",
         "bg": "#66ab63",
         "description": "Vital for cellular division, nucleotide synthesis, and erythrocyte maturation, playing a protective role in cardiovascular tissue health."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
-        "name": "Dietary Fiber",
-        "amount": "2.7 grams",
-        "bg": "#f5722c",
-        "description": "Mainly insoluble fibers that add mechanical volume to the stool matrix, accelerating intestinal transit and supporting digestive regularity."
-      },
-      {
-        "id": "magnesium",
-        "slug": "magnesium",
+        "id": 31,
         "name": "Magnesium",
+        "slug": "magnesium",
         "amount": "37.0 mg / 9% DV",
         "bg": "#15837c",
         "description": "Assists in enzymatic cellular stabilization, supporting muscular relaxation, bone health, and smooth cardiac electrical performance."
       },
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "6.8 mg / 8% DV",
         "bg": "#1a96cd",
         "description": "Provides antioxidant assistance, neutralizing surface free radicals and supporting natural immune tissue integrity."
+      },
+      {
+        "id": 44,
+        "name": "Dietary Fiber",
+        "slug": "fiber",
+        "amount": "2.7 g / 11% DV",
+        "bg": "#f5722c",
+        "description": "Mainly insoluble fibers that add mechanical volume to the stool matrix, accelerating intestinal transit and supporting digestive regularity."
+      },
+      {
+        "id": 59,
+        "name": "Lutein",
+        "slug": "lutein",
+        "amount": "342 mcg",
+        "bg": "#e4a910",
+        "description": "A critical antioxidant pigment that concentrates in the retinal tissues, filtering out harmful high-energy blue light and counteracting oxidative breakdown."
+      },
+      {
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "300 mcg",
+        "bg": "#0288d1",
+        "description": "Deposits directly into the central macula, working alongside lutein to safeguard visual sharpness and shield photoreceptor health."
       }
     ],
     "healthBenefits": [
@@ -1166,80 +1214,80 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "98 kcal",
+        "amount": "98 kcal / 5% DV",
         "bg": "#15837c",
         "description": "Low-calorie energy base, making it an exceptional option for weight management and lean muscle retention."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "11.1 grams",
+        "amount": "11.1 g / 22% DV",
         "bg": "#f5722c",
         "description": "Packed with slow-digesting casein protein, which delivers a steady, multi-hour release of essential amino acids to muscles."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "4.3 grams",
+        "amount": "4.3 g / 6% DV",
         "bg": "#e4a910",
         "description": "Contains a balance of fatty acids, including healthy lipids that aid in the absorption of fat-soluble vitamins without overloading calories."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "3.4 grams",
+        "amount": "3.4 g / 1% DV",
         "bg": "#15837c",
-        "description": "Comes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
+        "description": "Comcomes mostly from naturally occurring lactose. It has a very low glycemic impact, preventing sudden blood sugar spikes."
       }
     ],
     "microNutrients": [
       {
-        "id": "calcium",
-        "slug": "calcium",
+        "id": 21,
         "name": "Calcium",
+        "slug": "calcium",
         "amount": "83 mg / 8% DV",
         "bg": "#15837c",
         "description": "The primary structural mineral required for developing and preserving high bone density and optimizing dental health."
       },
       {
-        "id": "vitamin-b12",
-        "slug": "vitamin-b12",
+        "id": 13,
         "name": "Vitamin B12",
+        "slug": "vitamin-b12",
         "amount": "0.43 mcg / 18% DV",
         "bg": "#f5722c",
         "description": "Crucial for the neurological system, sound brain signaling, and the continuous synthesis of healthy red blood cells."
       },
       {
-        "id": "phosphorus",
-        "slug": "phosphorus",
+        "id": 23,
         "name": "Phosphorus",
+        "slug": "phosphorus",
         "amount": "159 mg / 13% DV",
         "bg": "#66ab63",
         "description": "Works synchronously with calcium to rebuild bone matrices, while supporting cellular ATP energy storage."
       },
       {
-        "id": "selenium",
-        "slug": "selenium",
+        "id": 43,
         "name": "Selenium",
+        "slug": "selenium",
         "amount": "9.7 mcg / 14% DV",
         "bg": "#1a96cd",
         "description": "An essential trace mineral that acts as an antioxidant defense catalyst and regulates thyroid hormone production."
       },
       {
-        "id": "b2",
-        "slug": "vitamin-b2",
+        "id": 8,
         "name": "Vitamin B2 (Riboflavin)",
+        "slug": "vitamin-b2",
         "amount": "0.17 mg / 13% DV",
         "bg": "#e4a910",
         "description": "A key coenzyme that enables metabolic breakdown of proteins, fats, and carbs into usable cellular energy."
       },
       {
-        "id": "sodium",
-        "slug": "sodium",
+        "id": 35,
         "name": "Sodium",
+        "slug": "sodium",
         "amount": "364 mg / 15% DV",
         "bg": "#1a96cd",
         "description": "An extracellular electrolyte used during commercial curd styling. It regulates physical fluid balancing and cellular pump mechanisms."
