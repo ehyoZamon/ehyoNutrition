@@ -14,51 +14,139 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "654 kcal",
+        "amount": "654 kcal / 33% DV",
         "bg": "#15837c",
         "description": "High-energy food; recommended for consumption in moderate portions."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "15.2 g",
+        "amount": "15.2 g / 30% DV",
         "bg": "#f5722c",
         "description": "A good source of plant-based protein."
       },
       {
-        "id": "fat",
-        "name": "Fat",
+        "id": 16,
+        "name": "Fats",
         "slug": "fats",
-        "amount": "65.2 g",
+        "amount": "65.2 g / 84% DV",
         "bg": "#e4a910",
         "description": "Primarily healthy polyunsaturated fatty acids, including Omega-3s."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "13.7 g",
+        "amount": "13.7 g / 5% DV",
         "bg": "#15837c",
         "description": "Includes dietary fiber that supports digestive health."
       }
     ],
     "microNutrients": [
       {
-        "id": "omega3",
-        "slug": "omega-3",
-        "name": "Omega-3 (ALA)",
-        "amount": "9 g",
+        "id": "alpha-linolenic-acid",
+        "name": "Alpha-Linolenic Acid",
+        "slug": "alpha-linolenic-acid",
+        "amount": "9.1 g / 569% DV",
         "bg": "#1a96cd",
-        "description": "High content of alpha-linolenic acid, which supports heart health."
+        "description": "An essential omega-3 fatty acid crucial for brain and cardiovascular health."
       },
       {
-        "id": "magnesium",
-        "slug": "magnesium",
+        "id": 44,
+        "name": "Fiber",
+        "slug": "fiber",
+        "amount": "6.7 g / 24% DV",
+        "bg": "#43a047",
+        "description": "Supports digestive health and helps maintain steady blood sugar levels."
+      },
+      {
+        "id": 38,
+        "name": "Manganese",
+        "slug": "manganese",
+        "amount": "3.4 mg / 148% DV",
+        "bg": "#7cb342",
+        "description": "Provides powerful antioxidant defense and supports bone formation."
+      },
+      {
+        "id": 37,
+        "name": "Copper",
+        "slug": "copper",
+        "amount": "1.6 mg / 178% DV",
+        "bg": "#d84315",
+        "description": "Supports iron metabolism, nerve health, and immune system function."
+      },
+      {
+        "id": 31,
         "name": "Magnesium",
-        "amount": "158 mg",
+        "slug": "magnesium",
+        "amount": "158 mg / 38% DV",
         "bg": "#66ab63",
-        "description": "Essential for the nervous system and blood pressure regulation."
+        "description": "Essential for the nervous system, muscle function, and blood pressure regulation."
+      },
+      {
+        "id": 30,
+        "name": "Phosphorus",
+        "slug": "phosphorus",
+        "amount": "346 mg / 28% DV",
+        "bg": "#0288d1",
+        "description": "Aids in energy production (ATP) and maintains strong bones and cell membranes."
+      },
+      {
+        "id": 10,
+        "name": "Vitamin B6",
+        "slug": "vitamin-b6",
+        "amount": "0.5 mg / 29% DV",
+        "bg": "#8e24aa",
+        "description": "Supports protein metabolism, cognitive development, and immune function."
+      },
+      {
+        "id": 29,
+        "name": "Iron",
+        "slug": "iron",
+        "amount": "2.9 mg / 16% DV",
+        "bg": "#e64a19",
+        "description": "Supports oxygen transport in the blood and cellular energy production."
+      },
+      {
+        "id": 33,
+        "name": "Zinc",
+        "slug": "zinc",
+        "amount": "3.1 mg / 28% DV",
+        "bg": "#00acc1",
+        "description": "Crucial for DNA synthesis, immune defense, and wound healing."
+      },
+      {
+        "id": 12,
+        "name": "Vitamin B9",
+        "slug": "vitamin-b9",
+        "amount": "98 mcg / 25% DV",
+        "bg": "#c0ca33",
+        "description": "Supports cell growth, red blood cell formation, and DNA synthesis."
+      },
+      {
+        "id": "arginine",
+        "name": "Arginine",
+        "slug": "arginine",
+        "amount": "2.3 g / 51% DV",
+        "bg": "#fb8c00",
+        "description": "An amino acid that improves blood flow and vascular health through nitric oxide production."
+      },
+      {
+        "id": "leucine",
+        "name": "Leucine",
+        "slug": "leucine",
+        "amount": "1.2 g / 43% DV",
+        "bg": "#f4511e",
+        "description": "An essential amino acid that plays a vital role in muscle protein synthesis."
+      },
+      {
+        "id": "valine",
+        "name": "Valine",
+        "slug": "valine",
+        "amount": "0.75 g / 41% DV",
+        "bg": "#00897b",
+        "description": "Supports tissue repair, muscle metabolism, and energy regulation."
       }
     ],
     "healthBenefits": [
@@ -88,51 +176,91 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "40 kcal",
+        "amount": "40 kcal / 2% DV",
         "bg": "#15837c",
         "description": "A low-calorie food rich in fiber and biologically active compounds."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "1.1 g",
+        "amount": "1.1 g / 2% DV",
         "bg": "#f5722c",
         "description": "Contains a small amount of plant-based protein."
       },
       {
-        "id": "fat",
-        "name": "Fat",
+        "id": 16,
+        "name": "Fats",
         "slug": "fats",
-        "amount": "0.1 g",
+        "amount": "0.1 g / 0% DV",
         "bg": "#e4a910",
         "description": "Contains negligible amounts of fat."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "9.3 g",
+        "amount": "9.3 g / 3% DV",
         "bg": "#15837c",
         "description": "Contains natural sugars and prebiotic dietary fibers that are beneficial for gut microflora."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
-        "name": "Vitamin C",
-        "amount": "7.4 mg",
-        "bg": "#1a96cd",
-        "description": "Supports immune function and helps protect cells from damage."
-      },
-      {
-        "id": "quercetin",
-        "slug": "quercetin",
+        "id": 58,
         "name": "Quercetin",
-        "amount": "present",
+        "slug": "quercetin",
+        "amount": "15 mg",
         "bg": "#66ab63",
         "description": "A potent flavonoid antioxidant that helps fight inflammation and supports heart health."
+      },
+      {
+        "id": 1,
+        "name": "Vitamin C",
+        "slug": "vitamin-c",
+        "amount": "7.4 mg / 8% DV",
+        "bg": "#1a96cd",
+        "description": "Supports immune function and helps protect cells from oxidative damage."
+      },
+      {
+        "id": 44,
+        "name": "Fiber",
+        "slug": "fiber",
+        "amount": "1.7 g / 6% DV",
+        "bg": "#43a047",
+        "description": "Provides prebiotic fibers like inulin to feed beneficial gut bacteria."
+      },
+      {
+        "id": 10,
+        "name": "Vitamin B6",
+        "slug": "vitamin-b6",
+        "amount": "0.12 mg / 7% DV",
+        "bg": "#8e24aa",
+        "description": "Plays an important role in metabolism and red blood cell production."
+      },
+      {
+        "id": 32,
+        "name": "Potassium",
+        "slug": "potassium",
+        "amount": "146 mg / 3% DV",
+        "bg": "#0288d1",
+        "description": "Helps maintain fluid balance and supports healthy blood pressure levels."
+      },
+      {
+        "id": 12,
+        "name": "Vitamin B9",
+        "slug": "vitamin-b9",
+        "amount": "19 mcg / 5% DV",
+        "bg": "#c0ca33",
+        "description": "Essential for proper cell division, DNA synthesis, and tissue growth."
+      },
+      {
+        "id": 38,
+        "name": "Manganese",
+        "slug": "manganese",
+        "amount": "0.13 mg / 6% DV",
+        "bg": "#7cb342",
+        "description": "Supports bone formation, metabolism, and enzyme function."
       }
     ],
     "healthBenefits": [
@@ -163,59 +291,99 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "149 kcal",
+        "amount": "149 kcal / 7% DV",
         "bg": "#15837c",
         "description": "A source of moderate energy. The primary value of garlic lies in its phytonutrients rather than its caloric density."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "6.4 g",
+        "amount": "6.4 g / 13% DV",
         "bg": "#f5722c",
         "description": "Contains plant-based protein rich in sulfur-containing amino acids necessary for metabolism."
       },
       {
-        "id": "fat",
-        "name": "Fat",
+        "id": 16,
+        "name": "Fats",
         "slug": "fats",
-        "amount": "0.5 g",
+        "amount": "0.5 g / 1% DV",
         "bg": "#e4a910",
         "description": "Minimal fat content, making garlic a diet-friendly food."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "33 g",
+        "amount": "33 g / 12% DV",
         "bg": "#15837c",
         "description": "Consists mainly of complex carbohydrates and fiber, which support gut health."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
-        "name": "Vitamin C",
-        "amount": "31.2 mg",
-        "bg": "#1a96cd",
-        "description": "A powerful antioxidant that supports immune function and collagen synthesis."
+        "id": "allicin",
+        "name": "Allicin",
+        "slug": "allicin",
+        "amount": "2.5 g",
+        "bg": "#f5722c",
+        "description": "A key sulfur-containing compound formed when garlic is crushed; it possesses antibacterial and anti-inflammatory properties."
       },
       {
-        "id": "manganese",
-        "slug": "manganese",
+        "id": 10,
+        "name": "Vitamin B6",
+        "slug": "vitamin-b6",
+        "amount": "1.24 mg / 73% DV",
+        "bg": "#8e24aa",
+        "description": "Crucial for nervous system function, red blood cell synthesis, and energy metabolism."
+      },
+      {
+        "id": 38,
         "name": "Manganese",
-        "amount": "1.7 mg",
+        "slug": "manganese",
+        "amount": "1.7 mg / 74% DV",
         "bg": "#66ab63",
         "description": "Essential for the metabolism of proteins and carbohydrates, as well as the functioning of enzymatic defense systems in the body."
       },
       {
-        "id": "allicin",
-        "slug": "allicin",
-        "name": "Allicin",
-        "amount": "present",
-        "bg": "#f5722c",
-        "description": "A key sulfur-containing compound formed when garlic is crushed; it possesses antibacterial and anti-inflammatory properties."
+        "id": 1,
+        "name": "Vitamin C",
+        "slug": "vitamin-c",
+        "amount": "31.2 mg / 35% DV",
+        "bg": "#1a96cd",
+        "description": "A powerful antioxidant that supports immune function and collagen synthesis."
+      },
+      {
+        "id": 35,
+        "name": "Selenium",
+        "slug": "selenium",
+        "amount": "14.2 mcg / 26% DV",
+        "bg": "#009688",
+        "description": "Plays a critical role in thyroid health, DNA synthesis, and protecting cells from oxidative damage."
+      },
+      {
+        "id": 44,
+        "name": "Fiber",
+        "slug": "fiber",
+        "amount": "2.1 g / 8% DV",
+        "bg": "#43a047",
+        "description": "Supports gastrointestinal health and acts as a prebiotic for beneficial gut bacteria."
+      },
+      {
+        "id": 21,
+        "name": "Calcium",
+        "slug": "calcium",
+        "amount": "181 mg / 14% DV",
+        "bg": "#ff5722",
+        "description": "Supports bone density, muscle contractions, and nerve signaling."
+      },
+      {
+        "id": 37,
+        "name": "Copper",
+        "slug": "copper",
+        "amount": "0.3 mg / 33% DV",
+        "bg": "#d84315",
+        "description": "Essential for vascular strength, iron absorption, and cellular energy production."
       }
     ],
     "healthBenefits": [
@@ -247,83 +415,115 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "160 kcal",
+        "amount": "160 kcal / 8% DV",
         "bg": "#15837c",
         "description": "Higher in energy than typical fruits, delivering dense, clean metabolic fuel derived from high-quality monounsaturated fats."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "2.0 grams",
+        "amount": "2.0 g / 4% DV",
         "bg": "#f5722c",
         "description": "Provides nominal plant proteins containing essential building blocks to assist in daily cellular tissue maintenance."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "14.7 grams",
+        "amount": "14.7 g / 19% DV",
         "bg": "#e4a910",
         "description": "An exceptional matrix of heart-healthy fats, overwhelmingly dominated by oleic acid, which maximizes fat-soluble nutrient delivery."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "8.5 grams",
+        "amount": "8.5 g / 3% DV",
         "bg": "#15837c",
         "description": "Mainly composed of complex structural dietary fibers with practically zero simple sugars, yielding a near-flat glycemic curve."
       }
     ],
     "microNutrients": [
       {
-        "id": "dietfiber",
-        "slug": "fiber",
+        "id": 44,
         "name": "Dietary Fiber",
-        "amount": "6.7 grams",
+        "slug": "fiber",
+        "amount": "6.7 g / 24% DV",
         "bg": "#f5722c",
         "description": "A brilliant blend of soluble and insoluble fibers that supports digestive regularity, balances gut microbiota, and optimizes satiety."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 32,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "485 mg / 10% DV",
         "bg": "#1a96cd",
         "description": "An outstanding concentration—surpassing bananas—that regulates fluid pump mechanics, neural signaling, and resting vascular tone."
       },
       {
-        "id": "vitB5",
-        "slug": "vitamin-b5",
+        "id": 9,
         "name": "Vitamin B5 (Pantothenic Acid)",
+        "slug": "vitamin-b5",
         "amount": "1.4 mg / 28% DV",
         "bg": "#66ab63",
         "description": "A major catalytic factor required for cellular hormone synthesis, fatty acid oxidation, and optimizing daily cognitive pathways."
       },
       {
-        "id": "vitB9",
-        "slug": "vitamin-b9",
+        "id": 12,
         "name": "Vitamin B9 (Folate)",
-        "amount": "81.0 mcg / 20% DV",
+        "slug": "vitamin-b9",
+        "amount": "81 mcg / 20% DV",
         "bg": "#e4a910",
         "description": "Crucial for deep cellular division, DNA replication, and supporting the healthy synthesis of red blood cells."
       },
       {
-        "id": "vitE",
-        "slug": "vitamin-e",
+        "id": 5,
         "name": "Vitamin E",
+        "slug": "vitamin-e",
         "amount": "2.1 mg / 14% DV",
         "bg": "#15837c",
         "description": "A premier lipid-soluble antioxidant that actively guards tissue membranes against oxidative deterioration and preserves skin health."
       },
       {
-        "id": "lutein",
-        "slug": "lutein-zeaxanthin",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "271 mcg",
+        "id": 6,
+        "name": "Vitamin K1",
+        "slug": "vitamin-k",
+        "amount": "21 mcg / 18% DV",
+        "bg": "#2e7d32",
+        "description": "Essential for blood coagulation cascades and supporting optimal bone mineralization."
+      },
+      {
+        "id": 10,
+        "name": "Vitamin B6",
+        "slug": "vitamin-b6",
+        "amount": "0.26 mg / 15% DV",
+        "bg": "#8e24aa",
+        "description": "Aids in neurotransmitter synthesis, protein metabolism, and supporting immune health."
+      },
+      {
+        "id": 37,
+        "name": "Copper",
+        "slug": "copper",
+        "amount": "0.19 mg / 21% DV",
+        "bg": "#d84315",
+        "description": "Plays an important role in iron metabolism and maintaining healthy connective tissues."
+      },
+      {
+        "id": 59,
+        "name": "Lutein",
+        "slug": "lutein",
+        "amount": "260 mcg",
         "bg": "#1a96cd",
-        "description": "Targeted plant carotenoids that concentrate in the eye's macular area, absorbing harmful blue wave frequencies and protecting vision."
+        "description": "A vital plant carotenoid that accumulates in the macula of the eye, protecting it from blue light damage and oxidative stress."
+      },
+      {
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "11 mcg",
+        "bg": "#0288d1",
+        "description": "An antioxidant carotenoid concentrated in the central macula that works alongside lutein to maintain sharp visual acuity."
       }
     ],
     "healthBenefits": [
@@ -355,91 +555,115 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "175 kcal",
+        "amount": "175 kcal / 9% DV",
         "bg": "#15837c",
         "description": "Provides nutrient-dense energy with a very low caloric cost relative to its massive vitamin profile."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "27.0 grams",
+        "amount": "27.0 g / 54% DV",
         "bg": "#f5722c",
         "description": "An exceptionally rich source of highly bioavailable, complete protein containing all essential amino acids for tissue synthesis."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "5.0 grams",
+        "amount": "5.0 g / 6% DV",
         "bg": "#e4a910",
         "description": "Low in total lipids, featuring a balanced profile of monounsaturated, polyunsaturated, and essential saturated fatty acids."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "5.0 grams",
+        "amount": "5.0 g / 2% DV",
         "bg": "#15837c",
         "description": "Sourced naturally from stored animal glycogen. It represents a rare carbohydrate presence in meat, keeping a low glycemic index."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitA",
-        "slug": "vitamin-a",
+        "id": 2,
         "name": "Vitamin A (Retinol)",
+        "slug": "vitamin-a",
         "amount": "9442 mcg / 1049% DV",
         "bg": "#66ab63",
         "description": "Pre-formed active Vitamin A (retinol) that directly fuels the visual cycle, maintains endothelial integrity, and fortifies systemic immunity."
       },
       {
-        "id": "vitamin-b12",
-        "slug": "vitamin-b12",
+        "id": 13,
         "name": "Vitamin B12",
+        "slug": "vitamin-b12",
         "amount": "70.6 mcg / 2940% DV",
         "bg": "#f5722c",
         "description": "An astronomical concentration essential for myelin sheath repair, DNA replication, and preventing megaloblastic anemia."
       },
       {
-        "id": "copper",
-        "slug": "copper",
+        "id": 37,
         "name": "Copper",
+        "slug": "copper",
         "amount": "14.3 mg / 1580% DV",
         "bg": "#15837c",
         "description": "Acts as a vital biochemical catalyst for iron metabolism, collagen structure synthesis, and defense against oxidative stress."
       },
       {
-        "id": "iron",
-        "slug": "iron",
+        "id": 29,
         "name": "Iron (Heme)",
+        "slug": "iron",
         "amount": "6.2 mg / 34% DV",
         "bg": "#1a96cd",
         "description": "Highly absorbable heme iron that binds instantly to hemoglobin, optimizing cellular oxygen transport and preventing fatigue."
       },
       {
-        "id": "b9",
+        "id": 12,
+        "name": "Fate (Vitamin B9)",
         "slug": "vitamin-b9",
-        "name": "Folate (Vitamin B9)",
         "amount": "260 mcg / 65% DV",
         "bg": "#e4a910",
         "description": "Critical for cellular division, rapid amino acid conversion, and optimizing prenatal neural tube development."
       },
       {
-        "id": "choline",
-        "slug": "choline",
+        "id": 41,
         "name": "Choline",
+        "slug": "choline",
         "amount": "418 mg / 76% DV",
         "bg": "#15837c",
         "description": "A foundational building block for cell membrane phospholipids and the neurotransmitter acetylcholine, driving memory and cognitive focus."
       },
       {
-        "id": "b2",
-        "slug": "vitamin-b2",
+        "id": 8,
         "name": "Vitamin B2 (Riboflavin)",
+        "slug": "vitamin-b2",
         "amount": "3.4 mg / 262% DV",
         "bg": "#e4a910",
         "description": "Crucial for mitochondrial respiration, electron transport chains, and converting macronutrients into actual ATP energy units."
+      },
+      {
+        "id": 11,
+        "name": "Vitamin B3 (Niacin)",
+        "slug": "vitamin-b3",
+        "amount": "13.2 mg / 83% DV",
+        "bg": "#8e24aa",
+        "description": "Supports DNA repair, skin health, and plays an essential role in converting macronutrients into cellular energy."
+      },
+      {
+        "id": 33,
+        "name": "Zinc",
+        "slug": "zinc",
+        "amount": "4.0 mg / 36% DV",
+        "bg": "#00acc1",
+        "description": "Vital for immune response, wound healing, testosterone synthesis, and robust metabolic health."
+      },
+      {
+        "id": 35,
+        "name": "Selenium",
+        "slug": "selenium",
+        "amount": "32.8 mcg / 60% DV",
+        "bg": "#009688",
+        "description": "Provides powerful antioxidant defense, guarding tissues against oxidative stress and supporting thyroid hormone function."
       }
     ],
     "healthBenefits": [
@@ -471,83 +695,115 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "31 kcal",
+        "amount": "31 kcal / 2% DV",
         "bg": "#15837c",
         "description": "Very low in calories and highly hydrating, making it an excellent volume food for blood sugar control and weight management."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "1.0 grams",
+        "amount": "1.0 g / 2% DV",
         "bg": "#f5722c",
         "description": "Contains minor plant-based amino acids, serving as structural support within the vegetable's crisp cellular matrix."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.3 grams",
+        "amount": "0.3 g / 0% DV",
         "bg": "#e4a910",
         "description": "Virtually fat-free. However, pairing bell peppers with healthy dietary lipids (like olive oil) drastically boosts fat-soluble carotenoid absorption."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "6.0 grams",
+        "amount": "6.0 g / 2% DV",
         "bg": "#15837c",
         "description": "Composed of natural simple sugars (glucose, fructose) wrapped in structured dietary fibers, ensuring a negligible glycemic response."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "127.7 mg / 142% DV",
         "bg": "#1a96cd",
         "description": "An astronomical concentration that effortlessly beats citrus fruits, driving powerful collagen synthesis, tissue repair, and immune performance."
       },
       {
-        "id": "vitA",
-        "slug": "vitamin-a",
+        "id": 2,
         "name": "Vitamin A (Beta-Carotene)",
+        "slug": "vitamin-a",
         "amount": "157 mcg / 17% DV",
         "bg": "#66ab63",
         "description": "Rich in provitamin A carotenoids, which the body converts to active retinol to preserve night vision and maintain healthy mucosal barriers."
       },
       {
-        "id": "vitB6",
-        "slug": "vitamin-b6",
+        "id": 10,
         "name": "Vitamin B6 (Pyridoxine)",
+        "slug": "vitamin-b6",
         "amount": "0.29 mg / 17% DV",
         "bg": "#f5722c",
         "description": "Acts as a vital metabolic coenzyme required for the proper synthesis of red blood cells and neuro-signaling transmitters."
       },
       {
-        "id": "capsanthin",
-        "slug": "antioxidants",
-        "name": "Capsanthin",
-        "amount": "High Concentration",
-        "bg": "#e4a910",
-        "description": "A powerful, unique antioxidant responsible for the bright red hue; it scavenges free radicals and assists in protecting cellular health."
+        "id": 5,
+        "name": "Vitamin E",
+        "slug": "vitamin-e",
+        "amount": "1.6 mg / 11% DV",
+        "bg": "#15837c",
+        "description": "A fat-soluble antioxidant that works in synergy with Vitamin C to protect cells from oxidative stress and support skin health."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 12,
+        "name": "Folate (Vitamin B9)",
+        "slug": "vitamin-b9",
+        "amount": "46 mcg / 12% DV",
+        "bg": "#c0ca33",
+        "description": "Supports red blood cell formation, tissue growth, and cellular division throughout the body."
+      },
+      {
+        "id": 32,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "211 mg / 5% DV",
         "bg": "#15837c",
         "description": "An essential systemic electrolyte that coordinates electrical cardiac pulses, fluid pump mechanics, and balanced blood pressure levels."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
+        "id": 44,
         "name": "Dietary Fiber",
-        "amount": "2.1 grams",
+        "slug": "fiber",
+        "amount": "2.1 g / 8% DV",
         "bg": "#1a96cd",
         "description": "Provides crisp structural fibers that optimize transit time in the digestive tract and feed beneficial gut microbiomes."
+      },
+      {
+        "id": 59,
+        "name": "Lutein",
+        "slug": "lutein",
+        "amount": "440 mcg",
+        "bg": "#00acc1",
+        "description": "A powerful eye-protective carotenoid that filters harmful blue wavelengths and maintains long-term macular health."
+      },
+      {
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "11 mcg",
+        "bg": "#0288d1",
+        "description": "Concentrates directly in the central retina, working alongside lutein to protect cells against light-induced oxidative stress."
+      },
+      {
+        "id": "capsanthin",
+        "name": "Capsanthin",
+        "slug": "antioxidants",
+        "amount": "High Concentration",
+        "bg": "#e4a910",
+        "description": "A powerful, unique antioxidant responsible for the bright red hue; it scavenges free radicals and assists in protecting cellular health."
       }
     ],
     "healthBenefits": [
