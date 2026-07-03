@@ -1322,91 +1322,99 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "~72 kcal",
+        "amount": "~72 kcal / 4% DV",
         "bg": "#15837c",
         "description": "Energy provided by the food to fuel your body's daily metabolic processes and physical activities."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "6.3 grams",
+        "amount": "6.3 g / 13% DV",
         "bg": "#f5722c",
         "description": "High-quality, bioavailable protein containing all nine essential amino acids. Essential for muscle repair, cellular construction, and immune function."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "4.8 grams",
+        "amount": "4.8 g / 6% DV",
         "bg": "#e4a910",
         "description": "Includes healthy monounsaturated and polyunsaturated fats, alongside essential fatty acids, vital for hormone production and absorbing fat-soluble vitamins."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "0.4 grams",
+        "amount": "0.4 g / 0% DV",
         "bg": "#15837c",
         "description": "Extremely low in carbs, making eggs an excellent choice for stabilizing blood sugar and supporting low-glycemic dietary targets."
       }
     ],
     "microNutrients": [
       {
-        "id": "choline",
-        "slug": "choline",
+        "id": 42,
         "name": "Choline",
-        "amount": "147 mg",
+        "slug": "choline",
+        "amount": "147 mg / 27% DV",
         "bg": "#15837c",
-        "description": "Critical for brain development, memory, and cellular structural integrity. One egg provides roughly 25-30% of your daily requirement."
+        "description": "Critical for brain development, memory, and cellular structural integrity. One egg provides a substantial portion of your daily requirement."
       },
       {
-        "id": "selenium",
-        "slug": "selenium",
+        "id": 43,
         "name": "Selenium",
+        "slug": "selenium",
         "amount": "15.4 mcg / 22% DV",
         "bg": "#1a96cd",
         "description": "A powerful antioxidant that supports thyroid function and protects the body from oxidative damage."
       },
       {
-        "id": "vitamin-b12",
-        "slug": "vitamin-b12",
+        "id": 13,
         "name": "Vitamin B12",
+        "slug": "vitamin-b12",
         "amount": "0.5 mcg / 20% DV",
         "bg": "#f5722c",
         "description": "Vital for nerve tissue health, brain function, and red blood cell production."
       },
       {
-        "id": "b2",
+        "id": 8,
+        "name": "Vitamin B2 (Riboflavin)",
         "slug": "vitamin-b2",
-        "name": "Vitamin B2",
         "amount": "0.2 mg / 15% DV",
         "bg": "#e4a910",
         "description": "Helps the body break down carbohydrates, proteins, and fats to produce energy."
       },
       {
-        "id": "vitA",
-        "slug": "vitamin-a",
+        "id": 3,
         "name": "Vitamin A",
-        "amount": "270 IU / 6% DV",
+        "slug": "vitamin-a",
+        "amount": "81 mcg / 9% DV",
         "bg": "#66ab63",
         "description": "Supports healthy vision, skin health, and immune system defense."
       },
       {
-        "id": "vitD",
-        "slug": "vitamin-d",
+        "id": 4,
         "name": "Vitamin D",
-        "amount": "41 IU / 5% DV",
+        "slug": "vitamin-d",
+        "amount": "1.1 mcg / 6% DV",
         "bg": "#15837c",
         "description": "Necessary for bone density and calcium absorption. One of the few natural dietary sources."
       },
       {
-        "id": "lutein",
-        "slug": "lutein-zeaxanthin",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "Antioxidant Carotenoids",
+        "id": 59,
+        "name": "Lutein",
+        "slug": "lutein",
+        "amount": "110 mcg",
         "bg": "#1a96cd",
-        "description": "Crucial carotenoid antioxidants that protect the eyes from damaging blue light and reduce macular degeneration risk."
+        "description": "Crucial carotenoid antioxidant that deposits in the macular region of the eye, filtering out harmful blue light."
+      },
+      {
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "90 mcg",
+        "bg": "#0288d1",
+        "description": "Works synergistically with lutein to shield retinal photoreceptors from oxidative stress and maintain structural visual acuity."
       }
     ],
     "healthBenefits": [
@@ -1438,80 +1446,80 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "206 kcal",
+        "amount": "206 kcal / 10% DV",
         "bg": "#15837c",
         "description": "Provides clean, sustained cellular energy driven primarily by high-quality proteins and healthy structural fats."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "22.0 grams",
+        "amount": "22.0 g / 44% DV",
         "bg": "#f5722c",
         "description": "An elite, highly bioavailable complete protein source containing all essential amino acids required for muscle synthesis and metabolic repair."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "13.0 grams",
+        "amount": "13.0 g / 17% DV",
         "bg": "#e4a910",
         "description": "Rich in vital polyunsaturated fats, specifically the anti-inflammatory omega-3 fatty acids EPA and DHA."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "0.0 grams",
+        "amount": "0.0 g / 0% DV",
         "bg": "#15837c",
         "description": "Completely clear of carbohydrates, making it an ideal whole food for stabilizing insulin and supporting low-glycemic dietary goals."
       }
     ],
     "microNutrients": [
       {
-        "id": "omega3",
-        "slug": "alpha-linolenic-acid",
+        "id": 41,
         "name": "Omega-3 (EPA/DHA)",
-        "amount": "2200 mg",
+        "slug": "alpha-linolenic-acid",
+        "amount": "2200 mg / 138% DV",
         "bg": "#e4a910",
         "description": "Essential long-chain fatty acids that construct healthy brain cell membranes, optimize lipid panels, and dramatically reduce systemic arterial inflammation."
       },
       {
-        "id": "vitD",
-        "slug": "vitamin-d",
+        "id": 4,
         "name": "Vitamin D3 (Cholecalciferol)",
+        "slug": "vitamin-d",
         "amount": "526 IU / 66% DV",
         "bg": "#15837c",
         "description": "One of the absolute richest natural dietary sources of active Vitamin D3, foundational for systemic calcium absorption and immune system performance."
       },
       {
-        "id": "vitamin-b12",
-        "slug": "vitamin-b12",
+        "id": 13,
         "name": "Vitamin B12",
+        "slug": "vitamin-b12",
         "amount": "3.2 mcg / 133% DV",
         "bg": "#f5722c",
         "description": "Critical nutrient for maintaining the nervous system, securing neurological processing speed, and driving red blood cell production."
       },
       {
-        "id": "selenium",
-        "slug": "selenium",
+        "id": 43,
         "name": "Selenium",
+        "slug": "selenium",
         "amount": "41.4 mcg / 75% DV",
         "bg": "#1a96cd",
         "description": "A major trace antioxidant that activates enzymes to safeguard arterial linings and shield the thyroid gland from oxidative stress."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 34,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "363 mg / 8% DV",
         "bg": "#66ab63",
         "description": "An essential intracellular mineral that works in sync with sodium to regulate cellular fluid pump mechanics and manage resting blood pressure."
       },
       {
-        "id": "b6",
-        "slug": "vitamin-b6",
+        "id": 9,
         "name": "Vitamin B6",
+        "slug": "vitamin-b6",
         "amount": "0.6 mg / 35% DV",
         "bg": "#1a96cd",
         "description": "Serves as a crucial metabolic coenzyme involved in cellular protein processing and the natural synthesis of cognitive neurotransmitters."
@@ -1546,83 +1554,91 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "61 kcal",
+        "amount": "61 kcal / 3% DV",
         "bg": "#15837c",
-        "description": "A low-to-moderate calorie whole food options that delivers dense physical hydration and exceptional cellular fuel."
+        "description": "A low-to-moderate calorie whole food option that delivers dense physical hydration and exceptional cellular fuel."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "1.1 grams",
+        "amount": "1.1 g / 2% DV",
         "bg": "#f5722c",
         "description": "Contains nominal structural plant proteins, though it is famous for housing actinidin—a unique protein-digesting enzyme."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.5 grams",
+        "amount": "0.5 g / 1% DV",
         "bg": "#e4a910",
         "description": "Virtually fat-free, containing only trace healthy essential fatty acids embedded within its microscopic black edible seeds."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "14.7 grams",
+        "amount": "14.7 g / 5% DV",
         "bg": "#15837c",
         "description": "Composed of natural simple sugars managed efficiently by structural dietary fibers, resulting in a moderate glycemic response."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "92.7 mg / 103% DV",
         "bg": "#1a96cd",
         "description": "An extraordinary mega-dose that exceeds the daily recommended allowance in a single serving, boosting systemic immunity and skin cell synthesis."
       },
       {
-        "id": "vitK1",
-        "slug": "vitamin-k",
+        "id": 5,
         "name": "Vitamin K1",
+        "slug": "vitamin-k",
         "amount": "40.3 mcg / 34% DV",
         "bg": "#15837c",
         "description": "An essential fat-soluble factor required for perfect blood coagulation mechanics and supporting the structural density of bone tissue."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
+        "id": 44,
         "name": "Dietary Fiber",
-        "amount": "3.0 grams",
+        "slug": "fiber",
+        "amount": "3.0 g / 12% DV",
         "bg": "#f5722c",
         "description": "A robust blend of soluble and insoluble fibers that accelerates intestinal transit, feeds gut flora, and keeps glycemic curves smooth."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 34,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "312 mg / 7% DV",
         "bg": "#e4a910",
         "description": "A crucial cellular electrolyte that assists in fluid balance dynamics, nervous system electrical signaling, and healthy cardiac tone."
       },
       {
-        "id": "vitE",
-        "slug": "vitamin-e",
+        "id": 2,
         "name": "Vitamin E",
+        "slug": "vitamin-e",
         "amount": "1.5 mg / 10% DV",
         "bg": "#1a96cd",
         "description": "A fat-soluble antioxidant rarely found in high amounts in low-fat fruits; it works alongside Vitamin C to halt lipid oxidation chains."
       },
       {
-        "id": "lutein",
+        "id": 59,
+        "name": "Lutein",
         "slug": "lutein",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "122 mcg",
+        "amount": "110 mcg",
         "bg": "#66ab63",
-        "description": "Crucial plant pigments that deposit into the eye's macular area, absorbing harmful blue wavelengths and shielding ocular cell architecture."
+        "description": "Crucial plant pigment that deposits into the eye's macular area, absorbing harmful blue wavelengths and shielding ocular cell architecture."
+      },
+      {
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "12 mcg",
+        "bg": "#0288d1",
+        "description": "Works alongside lutein in the central retina, providing essential antioxidant coverage to shield photoreceptors from oxidative degradation."
       }
     ],
     "healthBenefits": [
@@ -1641,110 +1657,110 @@
   },
   "mushrooms": {
     "slug": "mushrooms",
-    "name": "Mushrooms",
-    "category": "Fungi",
+    "name": "Грибы",
+    "category": "Грибы",
     "image": "/productinfo/mushrooms.png",
-    "imageAlt": "mushrooms",
-    "description": "Mushrooms occupy a completely unique biological kingdom. Low in calories yet deeply savory due to natural glutamate, they provide a remarkable matrix of immune-modulating beta-glucans, unique antioxidants like selenium, and are one of the few non-animal sources of Vitamin D.",
-    "macroTitle": "Macro Nutrients (per 100g)",
+    "imageAlt": "грибы",
+    "description": "Грибы занимают совершенно уникальное биологическое царство. Низкокалорийные, но обладающие насыщенным вкусом благодаря природному глутамату, они обеспечивают мощную матрицу иммуномодулирующих бета-глюканов, уникальных антиоксидантов вроде селена и являются одним из немногих неживотных источников витамина D.",
+    "macroTitle": "Макронутриенты (на 100 г)",
     "macroIntro": "",
     "microIntro": "",
     "macroNutrients": [
       {
         "id": "calories",
-        "name": "Calories",
+        "name": "Калории",
         "slug": "",
-        "amount": "22 kcal",
+        "amount": "22 ккал / 1% СН",
         "bg": "#15837c",
-        "description": "An incredibly low-calorie whole food option, highly favorable for weight management and structural metabolic restriction."
+        "description": "Невероятно низкокалорийный цельный продукт, крайне благоприятный для контроля веса и метаболических ограничений."
       },
       {
-        "id": "protein",
-        "name": "Protein",
+        "id": 14,
+        "name": "Белки",
         "slug": "protein",
-        "amount": "3.1 grams",
+        "amount": "3.1 г / 6% СН",
         "bg": "#f5722c",
-        "description": "Surprisingly high in protein for a non-animal source; contains a balanced profile of essential building-block amino acids."
+        "description": "Удивительно высокое содержание белка для растительного источника; обладает сбалансированным профилем незаменимых аминокислот."
       },
       {
-        "id": "fat",
-        "name": "Total Fat",
+        "id": 16,
+        "name": "Жиры",
         "slug": "fats",
-        "amount": "0.3 grams",
+        "amount": "0.3 г / 0% СН",
         "bg": "#e4a910",
-        "description": "Virtually fat-free, containing only trace levels of healthy unsaturated fatty acids and absolutely zero cholesterol."
+        "description": "Практически не содержат жира, включают лишь следовые количества полезных ненасыщенных жирных кислот и абсолютно лишены холестерина."
       },
       {
-        "id": "carbs",
-        "name": "Carbohydrates",
+        "id": 15,
+        "name": "Углеводы",
         "slug": "carbohydrates",
-        "amount": "3.3 grams",
+        "amount": "3.3 г / 1% СН",
         "bg": "#15837c",
-        "description": "Primarily made of complex structural carbohydrates and fibers, generating a negligible impact on systemic blood sugar levels."
+        "description": "В основном состоят из сложных структурных углеводов и волокон, оказывая ничтожно малое влияние на системный уровень сахара в крови."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitD",
+        "id": 3,
+        "name": "Витамин D (Эргокальциферол)",
         "slug": "vitamin-d",
-        "name": "Vitamin D (Ergocalciferol)",
-        "amount": "18 IU / 4% DV",
+        "amount": "18 МЕ / 4% СН",
         "bg": "#15837c",
-        "description": "One of the exceptionally rare non-animal whole food sources of Vitamin D2, which helps facilitate systemic calcium retention and bone mineralization."
+        "description": "Один из исключительно редких неживотных источников витамина D2, который помогает улучшить задержку кальция и минерализацию костей."
       },
       {
-        "id": "selenium",
+        "id": 43,
+        "name": "Селен",
         "slug": "selenium",
-        "name": "Selenium",
-        "amount": "9.3 mcg / 17% DV",
+        "amount": "9.3 мкг / 17% СН",
         "bg": "#1a96cd",
-        "description": "A potent antioxidant mineral that neutralizes free radical cellular strain, optimizes thyroid function, and supports immunity."
+        "description": "Мощный антиоксидантный минерал, который нейтрализует свободные радикалы, оптимизирует функцию щитовидной железы и поддерживает иммунитет."
       },
       {
-        "id": "b2",
+        "id": 7,
+        "name": "Витамин B2 (Рибофлавин)",
         "slug": "vitamin-b2",
-        "name": "Vitamin B2 (Riboflavin)",
-        "amount": "0.4 mg / 31% DV",
+        "amount": "0.4 мг / 31% СН",
         "bg": "#e4a910",
-        "description": "Essential metabolic coenzyme that plays a major role in cellular energy extraction and the structural production of red blood cells."
+        "description": "Важнейший метаболический кофермент, играющий главную роль в извлечении клеточной энергии и структурном производстве эритроцитов."
       },
       {
-        "id": "b3",
+        "id": 8,
+        "name": "Витамин B3 (Ниацин)",
         "slug": "vitamin-b3",
-        "name": "Vitamin B3 (Niacin)",
-        "amount": "3.6 mg / 23% DV",
+        "amount": "3.6 мг / 23% СН",
         "bg": "#f5722c",
-        "description": "Supports healthy cellular respiration, optimizes enzyme activity, protects skin texture, and preserves baseline nervous system health."
+        "description": "Поддерживает здоровое клеточное дыхание, оптимизирует активность ферментов, защищает текстуру кожи и сохраняет базовое здоровье нервной систем."
       },
       {
-        "id": "copper",
+        "id": 37,
+        "name": "Медь",
         "slug": "copper",
-        "name": "Copper",
-        "amount": "0.3 mg / 35% DV",
+        "amount": "0.3 мг / 35% СН",
         "bg": "#66ab63",
-        "description": "A fundamental trace mineral required to synthesize hemoglobin, construct vascular structures, and manufacture neurotransmitters."
+        "description": "Основополагающий микроэлемент, необходимый для синтеза гемоглобина, построения сосудистых структур и выработки нейромедиаторов."
       },
       {
-        "id": "potassium",
+        "id": 34,
+        "name": "Калий",
         "slug": "potassium",
-        "name": "Potassium",
-        "amount": "318 mg / 7% DV",
+        "amount": "318 мг / 7% СН",
         "bg": "#e4a910",
-        "description": "A primary intercellular electrolyte that regulates natural fluid metrics, neural signal pathways, and cardiovascular muscle tone."
+        "description": "Основной внутриклеточный электролит, регулирующий естественный водный баланс, проводящие пути нервных сигналов и тонус сердечной мышцы."
       }
     ],
     "healthBenefits": [
-      "<b>Immune System Architecture:</b> Mushrooms contain complex polysaccharides called beta-glucans. These molecules act as natural immunomodulators, gently binding to immune cells to optimize host defense activities.",
-      "<b>Cellular Antioxidant Defense:</b> The robust concentration of selenium helps generate crucial glutathione peroxidase enzymes, shielding cellular membranes from everyday oxidative destruction.",
-      "<b>Cardiovascular Health Support:</b> Naturally rich in potassium and completely clear of sodium or cholesterol, mushrooms facilitate relaxed vascular tension and aid in proper systemic blood pressure control.",
-      "<b>Satiety with Minimal Calories:</b> Their dense structural matrix provides substantial dietary weight and a satisfying savory \"umami\" experience, keeping you full while incurring very low caloric costs."
+      "<b>Архитектура иммунной системы:</b> Грибы содержат сложные полисахариды — бета-глюканы. Эти молекулы действуют как естественные иммуномодуляторы, мягко связываясь с иммунными клетками для оптимизации защитных функций.",
+      "<b>Клеточная антиоксидантная защита:</b> Высокая концентрация селена помогает выработке ферментов глутатионпероксидазы, защищая клеточные мембраны от повседневного окислительного разрушения.",
+      "<b>Поддержка сердечно-сосудистой системы:</b> Естественно богатые калием и полностью лишенные натрия или холестерина, грибы способствуют снятию сосудистого тонуса и помогают контролировать артериальное давление.",
+      "<b>Сытость при минимуме калорий:</b> Их плотная структурная матрица обеспечивает ощутимый объем пищи и приятный пикантный вкус «умами», сохраняя чувство сытости при крайне низких затратах калорий."
     ],
     "precautionsIntro": "",
     "precautions": [
-      "<b>Chitin Digestive Resistance:</b> Raw mushroom cell walls are built from chitin—a tough, rigid polymer. To avoid digestive strain, cramping, or bloating, mushrooms should always be cooked to break down this matrix.",
-      "<b>Foraging and Wild Toxicity Risk:</b> Never consume wild mushrooms unless they have been verified with absolute professional certainty. Toxic varieties can mimic edible species perfectly and cause fatal organ damage. Commercial store-bought options are completely safe.",
-      "<b>Porous Heavy Metal Absorption:</b> Fungi act like natural sponges, easily drawing pollutants or heavy metals from contaminated surrounding soil. Always purchase your mushrooms from trusted, quality-controlled cultivation vendors.",
-      "<b>Perishability and Mold Growth:</b> Due to high baseline moisture levels, fresh mushrooms spoil quickly and can harbor toxic molds if stored incorrectly. Keep them in breathable paper bags in the fridge and discard if they become slimy."
+      "<b>Сложность переваривания хитина:</b> Клеточные стенки сырых грибов состоят из хитина — жесткого, прочного полимера. Чтобы избежать расстройства пищеварения, спазмов или вздутия живота, грибы всегда следует подвергать термообработке для разрушения этой матрицы.",
+      "<b>Риск отравления дикорастущими грибами:</b> Никогда не употребляйте дикорастущие грибы, если их безопасность не подтверждена профессиональным микологом с абсолютной точностью. Токсичные виды могут идеально имитировать съедобные и вызывать смертельные поражения органов. Коммерческие магазинные варианты полностью безопасны.",
+      "<b>Пористое поглощение тяжелых металлов:</b> Грибы действуют как природные губки, легко впитывая загрязняющие вещества или тяжелые металлы из загрязненной окружающей почвы. Всегда приобретайте грибы у проверенных поставщиков с контролируемым качеством выращивания.",
+      "<b>Быстрая порча и рост плесени:</b> Из-за высокого исходного уровня влажности свежие грибы быстро портятся и могут накапливать токсичную плесень при неправильном хранении. Держите их в дышащих бумажных пакетах в холодильнике и выбрасывайте, если они стали слизистыми."
     ]
   },
   "pumpkin": {
@@ -1762,80 +1778,88 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "26 kcal",
+        "amount": "26 kcal / 1% DV",
         "bg": "#15837c",
         "description": "An incredibly low-calorie and water-dense food, perfect for volume eating and weight management."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "1.0 grams",
+        "amount": "1.0 g / 2% DV",
         "bg": "#f5722c",
         "description": "Minimal protein content; provides trace non-essential amino acids standard in cucurbitaceous plants."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.1 grams",
+        "amount": "0.1 g / 0% DV",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an excellent base for heart-healthy and low-fat dietary regimes."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "6.5 grams",
+        "amount": "6.5 g / 2% DV",
         "bg": "#15837c",
         "description": "Composed of complex carbohydrates and natural sugars, yielding a low glycemic load that keeps insulin spikes minimal."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitA",
-        "slug": "vitamin-a",
+        "id": 26,
         "name": "Vitamin A (Beta-Carotene)",
+        "slug": "vitamin-a",
         "amount": "426 mcg / 53% DV",
         "bg": "#66ab63",
         "description": "Abundant in pro-vitamin A carotenoids (giving it the orange hue), which the body converts into retinol to shield eye health and enhance cellular repair."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 34,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "340 mg / 7% DV",
         "bg": "#e4a910",
         "description": "A vital systemic electrolyte that aids in smooth muscle contraction, healthy vascular tone, and balancing intra-cellular fluid levels."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
+        "id": 44,
         "name": "Dietary Fiber",
-        "amount": "0.5 grams",
+        "slug": "fiber",
+        "amount": "0.5 g / 2% DV",
         "bg": "#f5722c",
         "description": "Though modest in raw flesh, its soluble fibers break down into gentle fuel for gut microbes and smooth out intestinal transit."
       },
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "9.0 mg / 10% DV",
         "bg": "#1a96cd",
         "description": "An essential water-soluble antioxidant that promotes white blood cell synthesis, skin elasticity, and optimal iron absorption."
       },
       {
-        "id": "lutein",
+        "id": 59,
+        "name": "Lutein",
         "slug": "lutein",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "1500 mcg",
+        "amount": "1350 mcg",
         "bg": "#15837c",
-        "description": "Powerful plant pigments that deposit directly in the macular retina, filtering high-energy blue light and mitigating oxidative cell degeneration."
+        "description": "Powerful plant pigment that deposits directly in the macular retina, filtering high-energy blue light and mitigating oxidative cell degeneration."
       },
       {
-        "id": "vitE",
-        "slug": "vitamin-e",
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "150 mcg",
+        "bg": "#0288d1",
+        "description": "Works in synergetic combination with lutein inside the eye tissue, absorbing scattering wavelengths to sustain sharp visual resolution."
+      },
+      {
+        "id": 2,
         "name": "Vitamin E",
+        "slug": "vitamin-e",
         "amount": "1.06 mg / 7% DV",
         "bg": "#1a96cd",
         "description": "A fat-soluble antioxidant that collaborates with Vitamin C to safeguard cell membranes from environmental oxidative stressors."
@@ -1870,80 +1894,80 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "884 kcal",
+        "amount": "884 kcal / 44% DV",
         "bg": "#15837c",
         "description": "An immensely concentrated source of metabolic energy. Composed entirely of lipids, it requires careful portion management within your daily goals."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "0 grams",
+        "amount": "0 g / 0% DV",
         "bg": "#f5722c",
         "description": "Contains absolutely zero proteins or soy allergens (in highly refined versions) due to advanced extraction and purification procedures."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "100 grams",
+        "amount": "100 g / 128% DV",
         "bg": "#e4a910",
         "description": "A 100% pure lipid matrix, loaded with polyunsaturated and monounsaturated fatty acids that act as premium cellular structural supports."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "0 grams",
+        "amount": "0 g / 0% DV",
         "bg": "#15837c",
         "description": "Completely devoid of sugars, starches, or dietary fibers, yielding a definitive zero glycemic response."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitK1",
-        "slug": "vitamin-k",
+        "id": 5,
         "name": "Vitamin K1 (Phylloquinone)",
+        "slug": "vitamin-k",
         "amount": "183.9 mcg / 153% DV",
         "bg": "#15837c",
         "description": "An extraordinary mega-dose of this fat-soluble factor, absolutely essential for healthy blood coagulation mechanics and bone mineral retention."
       },
       {
-        "id": "vitE",
-        "slug": "vitamin-e",
+        "id": 2,
         "name": "Vitamin E (Alpha-Tocopherol)",
+        "slug": "vitamin-e",
         "amount": "8.1 mg / 54% DV",
         "bg": "#1a96cd",
         "description": "A potent fat-soluble antioxidant that actively targets and neutralizes free radicals, safeguarding lipid membranes from oxidation."
       },
       {
-        "id": "omega6",
-        "slug": "linolenic-acid",
+        "id": 81,
         "name": "Omega-6 (Linoleic Acid)",
-        "amount": "50.9 grams",
+        "slug": "linolenic-acid",
+        "amount": "50.9 g",
         "bg": "#f5722c",
         "description": "An essential polyunsaturated fatty acid that serves as a core structural element for building fluid, responsive cellular membranes."
       },
       {
-        "id": "omega3",
-        "slug": "alpha-linolenic-acid",
+        "id": 80,
         "name": "Omega-3 (Alpha-Linolenic Acid)",
-        "amount": "6.8 grams",
+        "slug": "alpha-linolenic-acid",
+        "amount": "6.8 g",
         "bg": "#66ab63",
         "description": "A notable plant-based omega-3 fluid factor that assists in modulating systemic inflammatory pathways throughout vascular tissues."
       },
       {
-        "id": "omega9",
-        "slug": "oleic-acid",
+        "id": 82,
         "name": "Omega-9 (Oleic Acid)",
-        "amount": "22.6 grams",
+        "slug": "oleic-acid",
+        "amount": "22.6 g",
         "bg": "#e4a910",
         "description": "A monounsaturated fatty acid that provides excellent chemical stability and structural resistance to thermal oxidation during food processing."
       },
       {
-        "id": "phytols",
-        "slug": "phytosterols",
+        "id": 78,
         "name": "Phytosterols",
+        "slug": "phytosterols",
         "amount": "470 mg",
         "bg": "#1a96cd",
         "description": "Plant sterols that actively block low-density lipoprotein (LDL) cholesterol reception channels inside the gut, helping balance systemic profiles."
@@ -1978,80 +2002,88 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "23 kcal",
+        "amount": "23 kcal / 1% DV",
         "bg": "#15837c",
         "description": "Extremely low in calories and exceptionally hydrating, making it an ideal volume food for pristine metabolic control."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "2.9 grams",
+        "amount": "2.9 g / 6% DV",
         "bg": "#f5722c",
         "description": "Contains a remarkably high amino acid efficiency for a leafy green, providing structural support for cellular repair."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.4 grams",
+        "amount": "0.4 g / 1% DV",
         "bg": "#e4a910",
         "description": "Virtually fat-free, though pairing spinach with healthy dietary lipids dramatically enhances the absorption of its fat-soluble vitamins."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "3.6 grams",
+        "amount": "3.6 g / 1% DV",
         "bg": "#15837c",
         "description": "Composed primarily of structured, non-digestible complex fibers, ensuring a near-zero impact on circulating glucose levels."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitK1",
-        "slug": "vitamin-k",
+        "id": 5,
         "name": "Vitamin K1 (Phylloquinone)",
+        "slug": "vitamin-k",
         "amount": "482.9 mcg / 402% DV",
         "bg": "#15837c",
         "description": "An astronomical mega-dose that serves as a core coordinator for healthy blood coagulation pathways and structural bone mineral binding."
       },
       {
-        "id": "vitA",
-        "slug": "vitamin-a",
+        "id": 26,
         "name": "Vitamin A (Beta-Carotene)",
+        "slug": "vitamin-a",
         "amount": "469 mcg / 52% DV",
         "bg": "#66ab63",
         "description": "Packed with provitamin A carotenoids, which convert to active retinol to drive cellular night vision mechanics and preserve mucosal immunity."
       },
       {
-        "id": "vitB9",
-        "slug": "vitamin-b9",
+        "id": 31,
         "name": "Vitamin B9 (Folate)",
+        "slug": "vitamin-b9",
         "amount": "194.0 mcg / 49% DV",
         "bg": "#f5722c",
         "description": "An essential coenzyme critical for proper DNA repair, deep cellular replication cascades, and optimal cardiovascular tissue health."
       },
       {
-        "id": "iron",
-        "slug": "iron",
+        "id": 37,
         "name": "Iron (Non-Heme)",
+        "slug": "iron",
         "amount": "2.7 mg / 15% DV",
         "bg": "#e4a910",
         "description": "An impressive botanical distribution of iron, necessary for hemoglobin synthesis and optimizing daily oxygen transportation channels."
       },
       {
-        "id": "lutein",
+        "id": 59,
+        "name": "Lutein",
         "slug": "lutein",
-        "name": "Lutein & Zeaxanthin",
-        "amount": "12198 mcg",
+        "amount": "11598 mcg",
         "bg": "#1a96cd",
-        "description": "A colossal density of eye-protective pigments that physically accumulate in the retina, blocking intense blue light and preserving long-term vision."
+        "description": "A colossal density of eye-protective pigment that physically accumulates in the retina, blocking intense blue light and preserving long-term vision."
       },
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 60,
+        "name": "Zeaxanthin",
+        "slug": "zeaxanthin",
+        "amount": "600 mcg",
+        "bg": "#0288d1",
+        "description": "Works in synergetic combination with lutein inside the macular retina, absorbing high-energy wavelengths to sustain sharp visual resolution."
+      },
+      {
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "28.1 mg / 31% DV",
         "bg": "#1a96cd",
         "description": "Provides key antioxidant support, neutralizing surface free radicals and assisting in the intestinal absorption of plant-bound iron."
@@ -2086,83 +2118,83 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "32 kcal",
+        "amount": "32 kcal / 2% DV",
         "bg": "#15837c",
         "description": "An exceptionally low-calorie, water-dense berry, offering sweet satisfaction with minimal metabolic impact."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "0.7 grams",
+        "amount": "0.7 g / 1% DV",
         "bg": "#f5722c",
         "description": "Contains nominal structural plant amino acids, typical for delicate low-density soft fruits."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "0.3 grams",
+        "amount": "0.3 g / 0% DV",
         "bg": "#e4a910",
         "description": "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "7.7 grams",
+        "amount": "7.7 g / 3% DV",
         "bg": "#15837c",
         "description": "Primarily made of simple sugars balanced perfectly by dietary fibers, maintaining a highly favorable low glycemic load."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitC",
-        "slug": "vitamin-c",
+        "id": 1,
         "name": "Vitamin C",
+        "slug": "vitamin-c",
         "amount": "58.8 mg / 65% DV",
         "bg": "#1a96cd",
         "description": "An outstanding concentration that outpaces many citrus fruits, driving robust collagen formation, wound healing, and cellular immunity."
       },
       {
-        "id": "manganese",
-        "slug": "manganese",
+        "id": 38,
         "name": "Manganese",
+        "slug": "manganese",
         "amount": "0.39 mg / 17% DV",
         "bg": "#66ab63",
         "description": "An essential trace mineral acting as a cofactor for key metabolic enzymes involved in bone construction and free radical neutralization."
       },
       {
-        "id": "anthocyanins",
-        "slug": "antioxidants",
-        "name": "Anthocyanins (Pelargonidin)",
-        "amount": "High Concentration",
-        "bg": "#f5722c",
-        "description": "Potent polyphenols responsible for the vibrant red pigmentation. They directly support endothelial flexibility and shield cells from oxidative strain."
+        "id": 44,
+        "name": "Dietary Fiber",
+        "slug": "fiber",
+        "amount": "2.0 g / 8% DV",
+        "bg": "#1a96cd",
+        "description": "Mainly composed of soluble and insoluble fractions (like pectin) that slow digestion, fueling beneficial gut microbiota and preventing glucose spikes."
       },
       {
-        "id": "b9",
-        "slug": "vitamin-b9",
+        "id": 31,
         "name": "Folate (Vitamin B9)",
+        "slug": "vitamin-b9",
         "amount": "24 mcg / 6% DV",
         "bg": "#e4a910",
         "description": "Crucial for baseline cellular division, DNA synthesis, and supporting tissue optimization during rapid physiological growth phases."
       },
       {
-        "id": "potassium",
-        "slug": "potassium",
+        "id": 34,
         "name": "Potassium",
+        "slug": "potassium",
         "amount": "153 mg / 3% DV",
         "bg": "#15837c",
         "description": "A systemic mineral electrolyte that assists in regulating cardiovascular muscle impulses and structural cellular fluid balances."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
-        "name": "Dietary Fiber",
-        "amount": "2.0 grams",
-        "bg": "#1a96cd",
-        "description": "Mainly composed of soluble and insoluble fractions (like pectin) that slow digestion, fueling beneficial gut microbiota and preventing glucose spikes."
+        "id": 75,
+        "name": "Anthocyanins (Pelargonidin)",
+        "slug": "antioxidants",
+        "amount": "High Concentration",
+        "bg": "#f5722c",
+        "description": "Potent polyphenols responsible for the vibrant red pigmentation. They directly support endothelial flexibility and shield cells from oxidative strain."
       }
     ],
     "healthBenefits": [
@@ -2194,80 +2226,80 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "884 kcal",
+        "amount": "884 kcal / 44% DV",
         "bg": "#15837c",
         "description": "An incredibly concentrated source of pure metabolic energy. Since it consists entirely of lipids, proper portion control is key."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "0 grams",
+        "amount": "0 g / 0% DV",
         "bg": "#f5722c",
         "description": "Completely free of proteins and amino acids due to the intensive extraction and filtration processes of the seeds."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "100 grams",
+        "amount": "100 g / 128% DV",
         "bg": "#e4a910",
         "description": "100% pure dietary lipid matrix, primarily composed of unsaturated fatty acids (oleic and linoleic) that act as essential vehicle carriers for fat-soluble vitamins."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "0 grams",
+        "amount": "0 g / 0% DV",
         "bg": "#15837c",
         "description": "Contains zero sugars, starches, or dietary fibers, yielding an absolute zero glycemic response."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitE",
-        "slug": "vitamin-e",
+        "id": 2,
         "name": "Vitamin E (Alpha-Tocopherol)",
+        "slug": "vitamin-e",
         "amount": "41.1 mg / 274% DV",
         "bg": "#1a96cd",
         "description": "A phenomenal concentration of this primary fat-soluble antioxidant. It actively safeguards cellular lipids from oxidative stress and supports vascular walls."
       },
       {
-        "id": "vitK",
-        "slug": "vitamin-k",
+        "id": 5,
         "name": "Vitamin K1 (Phylloquinone)",
+        "slug": "vitamin-k",
         "amount": "5.4 mcg / 5% DV",
         "bg": "#66ab63",
         "description": "Present in trace amounts, contributing subtly to the structural regulation of blood coagulation cascades and bone mineralization pathways."
       },
       {
-        "id": "pufa",
-        "slug": "linolenic-acid",
+        "id": 81,
         "name": "Omega-6 (Linoleic Acid)",
-        "amount": "65.7 grams",
+        "slug": "linolenic-acid",
+        "amount": "65.7 g",
         "bg": "#f5722c",
         "description": "An essential polyunsaturated fatty acid that the human body cannot synthesize. It assists in maintaining structural cellular membrane fluidity."
       },
       {
-        "id": "mufa",
-        "slug": "oleic-acid",
+        "id": 82,
         "name": "Omega-9 (Oleic Acid)",
-        "amount": "19.5 grams",
+        "slug": "oleic-acid",
+        "amount": "19.5 g",
         "bg": "#e4a910",
         "description": "A stable monounsaturated fatty acid that exhibits excellent resistance to thermal oxidation, helping preserve the structural integrity of the oil."
       },
       {
-        "id": "saturatedFat",
-        "slug": "saturated-fats",
+        "id": 83,
         "name": "Saturated Fats",
-        "amount": "10.3 grams",
+        "slug": "saturated-fats",
+        "amount": "10.3 g",
         "bg": "#15837c",
         "description": "Maintains a very low percentage of saturated lipids, keeping the oil completely liquid at room temperatures and highly versatile."
       },
       {
-        "id": "phytols",
-        "slug": "phytosterols",
+        "id": 78,
         "name": "Phytosterols",
+        "slug": "phytosterols",
         "amount": "260 mg",
         "bg": "#1a96cd",
         "description": "Plant-derived structural sterols that chemically compete with dietary cholesterol in the gut, helping moderate systemic cholesterol absorption."
@@ -2302,81 +2334,81 @@
         "id": "calories",
         "name": "Calories",
         "slug": "",
-        "amount": "584 kcal",
+        "amount": "584 kcal / 29% DV",
         "bg": "#15837c",
         "description": "A highly dense energy source packed with vital structural lipids and plant proteins, offering exceptional metabolic fuel in small volumes."
       },
       {
-        "id": "protein",
+        "id": 14,
         "name": "Protein",
         "slug": "protein",
-        "amount": "20.8 grams",
+        "amount": "20.8 g / 42% DV",
         "bg": "#f5722c",
         "description": "Rich in plant-based complete amino acids, providing crucial building blocks for muscle synthesis and cellular tissue repair."
       },
       {
-        "id": "fat",
+        "id": 16,
         "name": "Total Fat",
         "slug": "fats",
-        "amount": "51.5 grams",
+        "amount": "51.5 g / 66% DV",
         "bg": "#e4a910",
         "description": "Primarily composed of heart-healthy polyunsaturated and monounsaturated fatty acids, essential for optimal hormone production and nutrient transport."
       },
       {
-        "id": "carbs",
+        "id": 15,
         "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "20.0 grams",
+        "amount": "20.0 g / 7% DV",
         "bg": "#15837c",
         "description": "Contains complex carbohydrates tightly bundled with rich dietary fibers, yielding a highly stable, low-glycemic curve."
       }
     ],
     "microNutrients": [
       {
-        "id": "vitE",
-        "slug": "vitamin-e",
+        "id": 2,
         "name": "Vitamin E (Alpha-Tocopherol)",
+        "slug": "vitamin-e",
         "amount": "35.2 mg / 234% DV",
         "bg": "#1a96cd",
         "description": "An extraordinary mega-dose of this premier fat-soluble antioxidant, which aggressively neutralizes free radicals and stabilizes cellular membranes."
       },
       {
-        "id": "selenium",
-        "slug": "selenium",
-        "name": "Selenium",
-        "amount": "53.0 mcg / 96% DV",
-        "bg": "#f5722c",
-        "description": "A critical trace mineral required to synthesize master defense enzymes like glutathione peroxidase, directly supporting thyroid equilibrium."
-      },
-      {
-        "id": "vitB1",
-        "slug": "vitamin-b1",
-        "name": "Vitamin B1 (Thiamin)",
-        "amount": "1.5 mg / 125% DV",
-        "bg": "#e4a910",
-        "description": "Serves as an indispensable coenzyme for cellular glucose metabolism, fueling brain energy pathways and central nervous system health."
-      },
-      {
-        "id": "magnesium",
-        "slug": "magnesium",
-        "name": "Magnesium",
-        "amount": "325 mg / 77% DV",
-        "bg": "#15837c",
-        "description": "A fundamental macro-mineral that orchestrates over 300 enzymatic reactions, promoting smooth muscle relaxation and deep vascular calm."
-      },
-      {
-        "id": "copper",
-        "slug": "copper",
+        "id": 40,
         "name": "Copper",
+        "slug": "copper",
         "amount": "1.8 mg / 200% DV",
         "bg": "#66ab63",
         "description": "A major catalytic factor necessary for structural collagen generation, red blood cell manufacture, and seamless neural communication channels."
       },
       {
-        "id": "dietfiber",
-        "slug": "fiber",
+        "id": 23,
+        "name": "Vitamin B1 (Thiamin)",
+        "slug": "vitamin-b1",
+        "amount": "1.5 mg / 125% DV",
+        "bg": "#e4a910",
+        "description": "Serves as an indispensable coenzyme for cellular glucose metabolism, fueling brain energy pathways and central nervous system health."
+      },
+      {
+        "id": 42,
+        "name": "Selenium",
+        "slug": "selenium",
+        "amount": "53.0 mcg / 96% DV",
+        "bg": "#f5722c",
+        "description": "A critical trace mineral required to synthesize master defense enzymes like glutathione peroxidase, directly supporting thyroid equilibrium."
+      },
+      {
+        "id": 35,
+        "name": "Magnesium",
+        "slug": "magnesium",
+        "amount": "325 mg / 77% DV",
+        "bg": "#15837c",
+        "description": "A fundamental macro-mineral that orchestrates over 300 enzymatic reactions, promoting smooth muscle relaxation and deep vascular calm."
+      },
+      {
+        "id": 44,
         "name": "Dietary Fiber",
-        "amount": "8.6 grams",
+        "slug": "fiber",
+        "amount": "8.6 g / 34% DV",
         "bg": "#1a96cd",
         "description": "A robust structural fiber profile that drastically slows digestion, keeping your bowel motility highly consistent and feeding beneficial gut flora."
       }
