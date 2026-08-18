@@ -1657,110 +1657,110 @@
   },
   "mushrooms": {
     "slug": "mushrooms",
-    "name": "Грибы",
-    "category": "Грибы",
+    "name": "Mushrooms",
+    "category": "Mushrooms",
     "image": "/productinfo/mushrooms.png",
-    "imageAlt": "грибы",
-    "description": "Грибы занимают совершенно уникальное биологическое царство. Низкокалорийные, но обладающие насыщенным вкусом благодаря природному глутамату, они обеспечивают мощную матрицу иммуномодулирующих бета-глюканов, уникальных антиоксидантов вроде селена и являются одним из немногих неживотных источников витамина D.",
-    "macroTitle": "Макронутриенты (на 100 г)",
+    "imageAlt": "mushrooms",
+    "description": "Mushrooms occupy a completely unique biological kingdom. Low in calories yet rich in flavor thanks to natural glutamate, they provide a powerful matrix of immunomodulating beta-glucans, unique antioxidants like selenium, and are one of the few non-animal sources of vitamin D.",
+    "macroTitle": "Macronutrients (per 100 g)",
     "macroIntro": "",
     "microIntro": "",
     "macroNutrients": [
       {
         "id": "calories",
-        "name": "Калории",
+        "name": "Calories",
         "slug": "",
-        "amount": "22 ккал / 1% СН",
+        "amount": "22 kcal / 1% DV",
         "bg": "#15837c",
-        "description": "Невероятно низкокалорийный цельный продукт, крайне благоприятный для контроля веса и метаболических ограничений."
+        "description": "An incredibly low-calorie whole food, highly beneficial for weight management and metabolic restrictions."
       },
       {
         "id": 14,
-        "name": "Белки",
+        "name": "Protein",
         "slug": "protein",
-        "amount": "3.1 г / 6% СН",
+        "amount": "3.1 g / 6% DV",
         "bg": "#f5722c",
-        "description": "Удивительно высокое содержание белка для растительного источника; обладает сбалансированным профилем незаменимых аминокислот."
+        "description": "Surprisingly high protein content for a plant-based source; features a balanced essential amino acid profile."
       },
       {
         "id": 16,
-        "name": "Жиры",
+        "name": "Fats",
         "slug": "fats",
-        "amount": "0.3 г / 0% СН",
+        "amount": "0.3 g / 0% DV",
         "bg": "#e4a910",
-        "description": "Практически не содержат жира, включают лишь следовые количества полезных ненасыщенных жирных кислот и абсолютно лишены холестерина."
+        "description": "Virtually fat-free, containing only trace amounts of healthy unsaturated fatty acids and absolutely no cholesterol."
       },
       {
         "id": 15,
-        "name": "Углеводы",
+        "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "3.3 г / 1% СН",
+        "amount": "3.3 g / 1% DV",
         "bg": "#15837c",
-        "description": "В основном состоят из сложных структурных углеводов и волокон, оказывая ничтожно малое влияние на системный уровень сахара в крови."
+        "description": "Composed mainly of complex structural carbohydrates and fiber, exerting a negligible impact on systemic blood sugar levels."
       }
     ],
     "microNutrients": [
       {
         "id": 3,
-        "name": "Витамин D (Эргокальциферол)",
+        "name": "Vitamin D (Ergocalciferol)",
         "slug": "vitamin-d",
-        "amount": "18 МЕ / 4% СН",
+        "amount": "18 IU / 4% DV",
         "bg": "#15837c",
-        "description": "Один из исключительно редких неживотных источников витамина D2, который помогает улучшить задержку кальция и минерализацию костей."
+        "description": "One of the exceptionally rare non-animal sources of vitamin D2, helping to improve calcium retention and bone mineralization."
       },
       {
         "id": 43,
-        "name": "Селен",
+        "name": "Selenium",
         "slug": "selenium",
-        "amount": "9.3 мкг / 17% СН",
+        "amount": "9.3 mcg / 17% DV",
         "bg": "#1a96cd",
-        "description": "Мощный антиоксидантный минерал, который нейтрализует свободные радикалы, оптимизирует функцию щитовидной железы и поддерживает иммунитет."
+        "description": "A potent antioxidant mineral that neutralizes free radicals, optimizes thyroid function, and supports the immune system."
       },
       {
         "id": 7,
-        "name": "Витамин B2 (Рибофлавин)",
+        "name": "Vitamin B2 (Riboflavin)",
         "slug": "vitamin-b2",
-        "amount": "0.4 мг / 31% СН",
+        "amount": "0.4 mg / 31% DV",
         "bg": "#e4a910",
-        "description": "Важнейший метаболический кофермент, играющий главную роль в извлечении клеточной энергии и структурном производстве эритроцитов."
+        "description": "An essential metabolic coenzyme playing a key role in cellular energy extraction and structural red blood cell production."
       },
       {
         "id": 8,
-        "name": "Витамин B3 (Ниацин)",
+        "name": "Vitamin B3 (Niacin)",
         "slug": "vitamin-b3",
-        "amount": "3.6 мг / 23% СН",
+        "amount": "3.6 mg / 23% DV",
         "bg": "#f5722c",
-        "description": "Поддерживает здоровое клеточное дыхание, оптимизирует активность ферментов, защищает текстуру кожи и сохраняет базовое здоровье нервной систем."
+        "description": "Supports healthy cellular respiration, optimizes enzyme activity, protects skin texture, and maintains foundational nervous system health."
       },
       {
         "id": 37,
-        "name": "Медь",
+        "name": "Copper",
         "slug": "copper",
-        "amount": "0.3 мг / 35% СН",
+        "amount": "0.3 mg / 35% DV",
         "bg": "#66ab63",
-        "description": "Основополагающий микроэлемент, необходимый для синтеза гемоглобина, построения сосудистых структур и выработки нейромедиаторов."
+        "description": "A fundamental trace element necessary for hemoglobin synthesis, vascular structure assembly, and neurotransmitter production."
       },
       {
         "id": 34,
-        "name": "Калий",
+        "name": "Potassium",
         "slug": "potassium",
-        "amount": "318 мг / 7% СН",
+        "amount": "318 mg / 7% DV",
         "bg": "#e4a910",
-        "description": "Основной внутриклеточный электролит, регулирующий естественный водный баланс, проводящие пути нервных сигналов и тонус сердечной мышцы."
+        "description": "A primary intracellular electrolyte regulating natural fluid balance, nerve signaling pathways, and cardiac muscle tone."
       }
     ],
     "healthBenefits": [
-      "<b>Архитектура иммунной системы:</b> Грибы содержат сложные полисахариды — бета-глюканы. Эти молекулы действуют как естественные иммуномодуляторы, мягко связываясь с иммунными клетками для оптимизации защитных функций.",
-      "<b>Клеточная антиоксидантная защита:</b> Высокая концентрация селена помогает выработке ферментов глутатионпероксидазы, защищая клеточные мембраны от повседневного окислительного разрушения.",
-      "<b>Поддержка сердечно-сосудистой системы:</b> Естественно богатые калием и полностью лишенные натрия или холестерина, грибы способствуют снятию сосудистого тонуса и помогают контролировать артериальное давление.",
-      "<b>Сытость при минимуме калорий:</b> Их плотная структурная матрица обеспечивает ощутимый объем пищи и приятный пикантный вкус «умами», сохраняя чувство сытости при крайне низких затратах калорий."
+      "<b>Immune System Architecture:</b> Mushrooms contain complex polysaccharides known as beta-glucans. These molecules act as natural immunomodulators, gently binding to immune cells to optimize defense functions.",
+      "<b>Cellular Antioxidant Protection:</b> A high concentration of selenium aids in the production of glutathione peroxidase enzymes, protecting cell membranes from daily oxidative damage.",
+      "<b>Cardiovascular Support:</b> Naturally rich in potassium and completely devoid of sodium or cholesterol, mushrooms help relieve vascular tone and aid in maintaining healthy blood pressure.",
+      "<b>Satiety with Minimal Calories:</b> Their dense structural matrix provides substantial food volume and a pleasant savory 'umami' flavor, maintaining feelings of fullness at an extremely low caloric cost."
     ],
     "precautionsIntro": "",
     "precautions": [
-      "<b>Сложность переваривания хитина:</b> Клеточные стенки сырых грибов состоят из хитина — жесткого, прочного полимера. Чтобы избежать расстройства пищеварения, спазмов или вздутия живота, грибы всегда следует подвергать термообработке для разрушения этой матрицы.",
-      "<b>Риск отравления дикорастущими грибами:</b> Никогда не употребляйте дикорастущие грибы, если их безопасность не подтверждена профессиональным микологом с абсолютной точностью. Токсичные виды могут идеально имитировать съедобные и вызывать смертельные поражения органов. Коммерческие магазинные варианты полностью безопасны.",
-      "<b>Пористое поглощение тяжелых металлов:</b> Грибы действуют как природные губки, легко впитывая загрязняющие вещества или тяжелые металлы из загрязненной окружающей почвы. Всегда приобретайте грибы у проверенных поставщиков с контролируемым качеством выращивания.",
-      "<b>Быстрая порча и рост плесени:</b> Из-за высокого исходного уровня влажности свежие грибы быстро портятся и могут накапливать токсичную плесень при неправильном хранении. Держите их в дышащих бумажных пакетах в холодильнике и выбрасывайте, если они стали слизистыми."
+      "<b>Difficulty Digesting Chitin:</b> The cell walls of raw mushrooms consist of chitin—a rigid, tough polymer. To prevent digestive distress, cramps, or bloating, mushrooms should always be cooked to break down this matrix.",
+      "<b>Risk of Wild Mushroom Poisoning:</b> Never consume wild mushrooms unless their safety has been confirmed with absolute certainty by a professional mycologist. Toxic species can perfectly mimic edible ones and cause fatal organ damage. Commercial store-bought varieties are completely safe.",
+      "<b>Porous Heavy Metal Absorption:</b> Mushrooms act like natural sponges, easily absorbing contaminants or heavy metals from polluted surrounding soil. Always purchase mushrooms from trusted suppliers with controlled cultivation quality.",
+      "<b>Rapid Spoilage and Mold Growth:</b> Due to their high initial moisture level, fresh mushrooms spoil quickly and can accumulate toxic mold if stored improperly. Keep them in breathable paper bags in the refrigerator and discard them if they become slimy."
     ]
   },
   "pumpkin": {
@@ -3617,110 +3617,110 @@
   },
   "shellfish": {
     "slug": "shellfish",
-    "name": "Морепродукты микс (Устрицы и Мидии)",
-    "category": "Рыба и морепродукты",
+    "name": "Mixed Shellfish (Oysters & Mussels)",
+    "category": "Fish and Seafood",
     "image": "/productinfo/shellfish.png",
-    "imageAlt": "морепродукты микс",
-    "description": "Морепродукты представляют собой первоклассную функциональную цельную пищевую матрицу морского происхождения. Обладая монументальной плотностью высокобиодоступного цинка, редких микроэлементов и важнейшего для нервной системы витамина B12, они служат диетическим ресурсом высшего порядка для глубокой оптимизации иммунитета, регуляции эндокринной системы и передовой когнитивной деятельности.",
-    "macroTitle": "Макронутриенты (на 100 г)",
-    "macroIntro": "Макронутриентная архитектура морепродуктов обеспечивает невероятно постное, контролируемое по калорийности распределение структурных белков высшего качества в сочетании с небольшими ценными запасами гликогена и противовоспалительных морских липидов.",
-    "microIntro": "Морепродукты содержат беспрецедентную сеть минералов и водорастворимых витаминов, включая массивные пулы связанных с животными белками микроэлементов, которые запускают главные ферментативные каскады.",
+    "imageAlt": "mixed shellfish",
+    "description": "Shellfish represent a premier functional whole-food matrix of marine origin. Possessing a monumental density of highly bioavailable zinc, rare trace minerals, and essential neuro-supportive vitamin B12, they serve as a top-tier dietary resource for deep immune optimization, endocrine system regulation, and advanced cognitive performance.",
+    "macroTitle": "Macronutrients (per 100 g)",
+    "macroIntro": "The macronutrient architecture of shellfish provides an exceptionally lean, calorie-controlled distribution of top-quality structural proteins combined with modest, valuable reserves of glycogen and anti-inflammatory marine lipids.",
+    "microIntro": "Shellfish contain an unprecedented network of minerals and water-soluble vitamins, including massive pools of animal-bound trace elements that trigger key enzymatic cascades.",
     "macroNutrients": [
       {
         "id": "calories",
-        "name": "Калорийность",
+        "name": "Calories",
         "slug": "",
-        "amount": "79 ккал / 4% СН",
+        "amount": "79 kcal / 4% DV",
         "bg": "#15837c",
-        "description": "Исключительно низкий калорийный след, обеспечивающий огромную отдачу незаменимых микроэлементов на калорию без избыточных запасов biological энергии."
+        "description": "An exceptionally low caloric footprint that yields a massive return of essential micronutrients per calorie without excess biological energy storage."
       },
       {
         "id": 14,
-        "name": "Белки",
+        "name": "Protein",
         "slug": "protein",
-        "amount": "11.2 г / 22% СН",
+        "amount": "11.2 g / 22% DV",
         "bg": "#f5722c",
-        "description": "Полноценный marine белок, поставляющий все незаменимые аминокислоты, необходимые для быстрого структурного синтеза мышц и перестройки клеточных мембран."
+        "description": "Complete marine protein supplying all essential amino acids required for rapid muscle structural synthesis and cell membrane rebuilding."
       },
       {
         "id": 16,
-        "name": "Жиры",
+        "name": "Fats",
         "slug": "fats",
-        "amount": "1.8 г / 2% СН",
+        "amount": "1.8 g / 2% DV",
         "bg": "#e4a910",
-        "description": "Экстремально низкое содержание общих липидов, но при этом продукт богат жизненно важными полиненасыщенными жирными кислотами Омега-3 (EPA и DHA), которые защищают сосудистые и неврологические ткани."
+        "description": "Extremely low total lipid content, yet rich in vital Omega-3 polyunsaturated fatty acids (EPA and DHA) that protect vascular and neurological tissues."
       },
       {
         "id": 15,
-        "name": "Углеводы",
+        "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "4.1 г / 1% СН",
+        "amount": "4.1 g / 1% DV",
         "bg": "#15837c",
-        "description": "Уникально содержат небольшое количество природного животного гликогена, связанного внутри нежной мышечной ткани, что создает минимальное и стабильное гликемическое воздействие."
+        "description": "Uniquely contains a small amount of natural animal glycogen bound within delicate muscle tissue, creating a minimal and stable glycemic impact."
       }
     ],
     "microNutrients": [
       {
         "id": 37,
-        "name": "Цинк",
+        "name": "Zinc",
         "slug": "zinc",
-        "amount": "16.6 мг / 151% СН",
+        "amount": "16.6 mg / 151% DV",
         "bg": "#15837c",
-        "description": "Колослальная концентрация высокобиодоступного цинка, выступающего обязательным катализатором для выработки тестостерона, синтеза ДНК и репликации иммунных белых кровяных телец."
+        "description": "A colossal concentration of highly bioavailable zinc, serving as an indispensable catalyst for testosterone production, DNA synthesis, and white blood cell replication."
       },
       {
         "id": 29,
-        "name": "Витамин B12 (Кобаламин)",
+        "name": "Vitamin B12 (Cobalamin)",
         "slug": "vitamin-b12",
-        "amount": "12.0 мкг / 500% СН",
+        "amount": "12.0 mcg / 500% DV",
         "bg": "#f5722c",
-        "description": "Астрономическая доза кобаламина, необходимая для сохранения миелиновых оболочек нервных волокон, оптимизации производства эритроцитов и купирования усталости клеток головного мозга."
+        "description": "An astronomical dose of cobalamin required for preserving nerve fiber myelin sheaths, optimizing red blood cell production, and arresting brain cell fatigue."
       },
       {
         "id": 45,
-        "name": "Селен",
+        "name": "Selenium",
         "slug": "selenium",
-        "amount": "49.6 мкг / 90% СН",
+        "amount": "49.6 mcg / 90% DV",
         "bg": "#66ab63",
-        "description": "Обильный пул этого микроэлемента, запускающий активность глутатионпероксидазы для связывания циркулирующих свободных радикалов и поддержки активной конверсии гормонов щитовидной железы."
+        "description": "An abundant trace element pool that triggers glutathione peroxidase activity to scavenge circulating free radicals and support active thyroid hormone conversion."
       },
       {
         "id": 40,
-        "name": "Медь",
+        "name": "Copper",
         "slug": "copper",
-        "amount": "1.7 мг / 189% СН",
+        "amount": "1.7 mg / 189% DV",
         "bg": "#e4a910",
-        "description": "Мощный каталитический минерал, необходимый для работы в строгом балансе с цинком для содействия всасыванию негемового железа и поддержания структурной целостности коллагена."
+        "description": "A powerful catalytic mineral required to operate in strict balance with zinc to facilitate non-heme iron absorption and maintain collagen structural integrity."
       },
       {
         "id": 38,
-        "name": "Железо (Гемовое)",
+        "name": "Iron (Heme)",
         "slug": "iron",
-        "amount": "5.2 мг / 29% СН",
+        "amount": "5.2 mg / 29% DV",
         "bg": "#1a96cd",
-        "description": "Продукт насыщен чистым морским гемовым железом, которое легко преодолевает слизистую оболочку кишечника для максимизации транспорта кислорода и устранения системных маркеров усталости."
+        "description": "Packed with pure marine heme iron that readily crosses the intestinal mucosa to maximize oxygen transport and resolve systemic fatigue markers."
       },
       {
         "id": 50,
-        "name": "Омега-3 (EPA/DHA)",
+        "name": "Omega-3 (EPA/DHA)",
         "slug": "epa-dha",
-        "amount": "450 мг",
+        "amount": "450 mg",
         "bg": "#1a96cd",
-        "description": "Незаменимые длинноцепочечные морские липиды, которые снижают системные маркеры воспаления и структурно интегрируются в стенки клеток сердечно-сосудистой системы."
+        "description": "Essential long-chain marine lipids that attenuate systemic inflammation markers and structurally integrate into cardiovascular cell membranes."
       }
     ],
     "healthBenefits": [
-      "<b>Оптимизация эндокринной системы и тестостерона:</b> Беспрецедентная плотность биодоступного цинка служит главным архитектурным стимулом для путей естественного производства гормонов, оптимизируя репродуктивную функцию и циклы клеточного восстановления.",
-      "<b>Скорость нейро-аксональной передачи сигналов:</b> Потрясающие концентрации витамина B12 в сочетании с незаменимыми морскими жирными кислотами Омега-3 сохраняют структурную изоляцию нервов, оптимизируя долгосрочную когнитивную выносливость и ясность ума.",
-      "<b>Митохондриальное кроветворение:</b> Слаженная физиологическая координация между высокобиодоступным морским гемовым железом и глубокими пулами кобаламина (B12) ускоряет генерацию здоровых эритроцитов, обеспечивая оптимальное насыщение тканей кислородом.",
-      "<b>Запуск глутатионовой защиты:</b> Обильные базовые запасы селена активируют механизмы внутренней антиоксидантной защиты, снижая общее перекисное окисление липидов в сосудах и защищая тканевые структуры печени."
+      "<b>Endocrine System & Testosterone Optimization:</b> The unprecedented density of bioavailable zinc acts as a prime architectural stimulus for natural hormone production pathways, optimizing reproductive function and cellular recovery cycles.",
+      "<b>Neuro-Axonal Signaling Velocity:</b> Outstanding concentrations of vitamin B12 combined with essential Omega-3 marine fatty acids preserve structural nerve insulation, optimizing long-term cognitive stamina and mental clarity.",
+      "<b>Mitochondrial Hematopoiesis:</b> Harmonious physiological coordination between highly bioavailable marine heme iron and deep cobalamin (B12) pools accelerates healthy red blood cell generation, ensuring optimal tissue oxygenation.",
+      "<b>Glutathione Defense Activation:</b> Abundant foundational selenium reserves activate internal antioxidant defense mechanisms, reducing overall lipid peroxidation in vessels and protecting liver tissue structures."
     ],
-    "precautionsIntro": "Из-за высокой биохимической плотности, морских механизмов фильтрации и аллергенных свойств, интеграция морепродуктов требует чётких параметров диетического контроля.",
+    "precautionsIntro": "Due to their high biochemical density, marine filtration mechanisms, and allergenic properties, integrating shellfish requires clear dietary management parameters.",
     "precautions": [
-      "<b>Тяжелая IgE-опосредованная аллергия на тропомиозин:</b> Морепродукты содержат высокостабильные мышечные белки, такие как *тропомиозин*, способные вызывать немедленные, опасные для жизни анафилактические иммунные каскады. Лица с диагностированной чувствительностью должны соблюдать строгие параметры нулевого контакта.",
-      "<b>Накопление тяжелых металлов и микропластика:</b> Поскольку морепродукты функционируют как фильтраторы, они могут накапливать морские загрязнители, кадмий или микропластик из водной среды. Настоятельно требуется закупка продукции из строго проверенных, чистых и холодных морских регионов.",
-      "<b>Риски бактерий и морских биотоксинов:</b> Сырые или недоваренные морепродукты могут содержать опасные патогены, такие как *Vibrio vulnificus*, или водорослевые биотоксины, устойчивые к термической обработке. Морепродукты должны быть полностью приготовлены до безопасного внутреннего состояния, чтобы нейтрализовать потенциальную острую желудочно-кишечную токсичность.",
-      "<b>Параметры ферментативного баланса цинка и меди:</b> Хотя массивное содержание цинка имеет высокий терапевтический эффект, чрезмерное и непрерывное ежедневное употребление богатых цинком морепродуктов теоретически может нарушить долгосрочные пути всасывания меди, что требует сбалансированного цикла потребления."
+      "<b>Severe IgE-Mediated Allergy to Tropomyosin:</b> Shellfish contain highly stable muscle proteins such as *tropomyosin*, which can trigger immediate, life-threatening anaphylactic immune cascades. Individuals with diagnosed sensitivity must maintain strict zero-contact parameters.",
+      "<b>Heavy Metal and Microplastic Accumulation:</b> Because shellfish function as filter feeders, they can accumulate marine contaminants, cadmium, or microplastics from the surrounding aquatic environment. Sourcing products from strictly monitored, clean, cold marine regions is highly recommended.",
+      "<b>Risk of Bacteria and Marine Biotoxins:</b> Raw or undercooked shellfish may harbor dangerous pathogens such as *Vibrio vulnificus* or algal biotoxins that resist heat treatment. Shellfish must be fully cooked to a safe internal temperature to neutralize potential acute gastrointestinal toxicity.",
+      "<b>Zinc and Copper Enzymatic Balance Parameters:</b> While the massive zinc content offers profound therapeutic benefits, excessive and continuous daily consumption of zinc-rich shellfish could theoretically disrupt long-term copper absorption pathways, necessitating a balanced consumption cycle."
     ]
   },
   "salmon": {
@@ -15282,126 +15282,126 @@
   },
   "goat-raw": {
     "slug": "goat-raw",
-    "name": "Козлятина",
-    "category": "Мясо и яйца",
+    "name": "Goat Meat (Raw)",
+    "category": "Meat and Eggs",
     "image": "/productinfo/goat-raw.png",
-    "imageAlt": "свежий сырой постный кусок козлятины на темной деревенской каменной поверхности",
-    "description": "Козлятина — это исключительно постное, богатое питательными веществами красное мясо, полученное от Capra hircus. Во всем мире ценится за тонкий, дикий вкусовой профиль и высокую метаболическую эффективность. Это один из самых постных домашних источников структурного белка. Мясо уникально богато внутриклеточными минералами, постными структурными липидами и важнейшими гематиническими кофакторами, которые поддерживают сердечно-сосудистую систему и восстановление опорно-двигательного аппарата.",
-    "macroTitle": "Макронутриенты (на 100 г, сырое постное мясо)",
-    "macroIntro": "Козлятина обеспечивает превосходный, гипер-постный, белково-доминирующий профиль макронутриентов, предлагая значительно меньше насыщенных жиров и общую липидную массу по сравнению с традиционным коммерческим красным мясом.",
-    "microIntro": "Козлятина обладает элитной, биодоступной матрицей микронутриентов, обеспечивая огромные концентрации органического железа, метаболического калия и критически важных витаминов группы B, поддерживающих нервную систему.",
+    "imageAlt": "fresh raw lean piece of goat meat on a dark rustic stone surface",
+    "description": "Goat meat is an exceptionally lean, nutrient-dense red meat derived from Capra hircus. Valued worldwide for its subtle, wild flavor profile and high metabolic efficiency, it is one of the leanest domestic sources of structural protein. The meat is uniquely rich in intracellular minerals, lean structural lipids, and essential hematinic cofactors that support the cardiovascular system and musculoskeletal recovery.",
+    "macroTitle": "Macronutrients (per 100 g, raw lean meat)",
+    "macroIntro": "Goat meat provides a superior, hyper-lean, protein-dominant macronutrient profile, offering significantly less saturated fat and total lipid mass compared to traditional commercial red meats.",
+    "microIntro": "Goat meat possesses an elite, bioavailable micronutrient matrix, delivering massive concentrations of organic iron, metabolic potassium, and critical neuro-supportive B vitamins.",
     "macroNutrients": [
       {
         "id": "calories",
-        "name": "Калорийность",
+        "name": "Calories",
         "slug": "",
-        "amount": "~143 ккал",
+        "amount": "~143 kcal",
         "bg": "#15837c",
-        "description": "Заметно низкая плотность калорий для красного мяса, максимизирующая доставку белка на калорию при сохранении минимальной системной липидной нагрузки."
+        "description": "Noticeably low caloric density for red meat, maximizing protein delivery per calorie while maintaining a minimal systemic lipid load."
       },
       {
         "id": "protein",
-        "name": "Белки",
+        "name": "Protein",
         "slug": "protein",
-        "amount": "27.1 г",
+        "amount": "27.1 g",
         "bg": "#f5722c",
-        "description": "Выдающаяся концентрация высококачественного полноценного белка, содержащего все девять незаменимых аминокислот в оптимальных пропорциях для восстановления миофибрилл и удержания азота."
+        "description": "Outstanding concentration of high-quality complete protein, containing all nine essential amino acids in optimal proportions for myofibrillar repair and nitrogen retention."
       },
       {
         "id": "fat",
-        "name": "Жиры",
+        "name": "Fats",
         "slug": "fats",
-        "amount": "3.0 г",
+        "amount": "3.0 g",
         "bg": "#e4a910",
-        "description": "Исключительно постная липидная матрица, характеризующаяся удивительно низким уровнем насыщенных жиров наряду с высокой относительной концентрацией мононенасыщенных жирных кислот."
+        "description": "Exceptionally lean lipid matrix characterized by remarkably low levels of saturated fat alongside a high relative concentration of monounsaturated fatty acids."
       },
       {
         "id": "carbs",
-        "name": "Углеводы",
+        "name": "Carbohydrates",
         "slug": "carbohydrates",
-        "amount": "0.0 г",
+        "amount": "0.0 g",
         "bg": "#1a96cd",
-        "description": "Содержит ноль углеводов или растительной клетчатки, что обеспечивает отсутствие гликемического воздействия на динамику глюкозы в плазме."
+        "description": "Contains zero carbohydrates or plant fiber, ensuring a complete absence of glycemic impact on plasma glucose dynamics."
       }
     ],
     "microNutrients": [
       {
         "id": "heme-iron",
         "slug": "heme-iron",
-        "name": "Гемовое железо",
-        "amount": "3.7 мг / 21% СН",
+        "name": "Heme Iron",
+        "amount": "3.7 mg / 21% DV",
         "bg": "#66ab63",
-        "description": "Исключительно плотный источник органического железа, превосходящий показатели говядины и курицы для максимального насыщения гемоглобином."
+        "description": "An exceptionally dense source of organic iron, surpassing the levels found in beef and chicken for maximum hemoglobin saturation."
       },
       {
         "id": "vitamin-b12",
         "slug": "vitamin-b12",
-        "name": "Витамин B12 (Кобаламин)",
-        "amount": "1.2 мкг / 50% СН",
+        "name": "Vitamin B12 (Cobalamin)",
+        "amount": "1.2 mcg / 50% DV",
         "bg": "#15837c",
-        "description": "Незаменимый кофактор, необходимый для поддержания миелиновой оболочки, передачи нейронных сигналов и эритропоэза."
+        "description": "An indispensable cofactor required for myelin sheath maintenance, neural signal transmission, and erythropoiesis."
       },
       {
         "id": "potassium",
         "slug": "potassium",
-        "name": "Калий",
-        "amount": "405 мг / 9% СН",
+        "name": "Potassium",
+        "amount": "405 mg / 9% DV",
         "bg": "#1a96cd",
-        "description": "Внутриклеточный катион, помогающий поддерживать системное осмотическое равновесие и регулирующий электрическую активность сердца."
+        "description": "An intracellular cation that helps maintain systemic osmotic equilibrium and regulates cardiac electrical activity."
       },
       {
         "id": "zinc",
         "slug": "zinc",
-        "name": "Цинк",
-        "amount": "4.0 мг / 36% СН",
+        "name": "Zinc",
+        "amount": "4.0 mg / 36% DV",
         "bg": "#f5722c",
-        "description": "Биодоступный микроэлемент, выступающий структурным якорем для синтеза ДНК, выработки тестостерона и иммунных каскадов."
+        "description": "A bioavailable trace mineral serving as a structural anchor for DNA synthesis, testosterone production, and immune cascades."
       },
       {
         "id": "vitamin-b3",
         "slug": "vitamin-b3",
-        "name": "Витамин B3 (Ниацин)",
-        "amount": "3.8 мг / 24% СН",
+        "name": "Vitamin B3 (Niacin)",
+        "amount": "3.8 mg / 24% DV",
         "bg": "#e4a910",
-        "description": "Основной метаболический кофермент (НАД/НАДФ), необходимый для окисления субстратов и высвобождения клеточной энергии."
+        "description": "A key metabolic coenzyme (NAD/NADP) necessary for substrate oxidation and cellular energy release."
       },
       {
         "id": "selenium",
         "slug": "selenium",
-        "name": "Селен",
-        "amount": "27.5 мкг / 50% СН",
+        "name": "Selenium",
+        "amount": "27.5 mcg / 50% DV",
         "bg": "#8c6bb1",
-        "description": "Важный микроэлемент, входящий в состав глутатионпероксидазы, обеспечивающий мощную антиоксидантную защиту."
+        "description": "An essential trace element incorporated into glutathione peroxidase, providing robust antioxidant protection."
       },
       {
         "id": "vitamin-b6",
         "slug": "vitamin-b6",
-        "name": "Витамин B6 (Пиридоксин)",
-        "amount": "0.3 мг / 18% СН",
+        "name": "Vitamin B6 (Pyridoxine)",
+        "amount": "0.3 mg / 18% DV",
         "bg": "#d81b60",
-        "description": "Ускоряет метаболизм аминокислот, синтез нейромедиаторов и поддерживает здоровый углеводный обмен."
+        "description": "Accelerates amino acid metabolism, neurotransmitter synthesis, and supports healthy carbohydrate metabolism."
       },
       {
         "id": "phosphorus",
         "slug": "phosphorus",
-        "name": "Фосфор",
-        "amount": "190 мг / 15% СН",
+        "name": "Phosphorus",
+        "amount": "190 mg / 15% DV",
         "bg": "#9e9e9e",
-        "description": "Необходим для минерализации костей, хранения энергии АТФ и поддержания клеточного pH-баланса."
+        "description": "Essential for bone mineralization, ATP energy storage, and maintaining cellular pH balance."
       }
     ],
     "healthBenefits": [
-      "<b>Поддержка мышечной ткани:</b> Высокое соотношение белка к жиру ускоряет удержание азота и сохраняет мышечную массу.",
-      "<b>Кроветворение:</b> Высокий уровень гемового железа оптимизирует созревание эритроцитов и помогает при анемии.",
-      "<b>Здоровье сосудов:</b> Низкий уровень насыщенных жиров способствует поддержанию здорового липидного профиля.",
-      "<b>Баланс жидкостей:</b> Калий оптимизирует тонус артерий и поддерживает водно-солевой баланс.",
-      "<b>Иммунная защита:</b> Биодоступный цинк поддерживает репликацию клеток и защитные силы организма."
+      "<b>Muscle Tissue Support:</b> High protein-to-fat ratio accelerates nitrogen retention and preserves lean muscle mass.",
+      "<b>Hematopoiesis:</b> High levels of heme iron optimize erythrocyte maturation and aid in preventing anemia.",
+      "<b>Vascular Health:</b> Low saturated fat content helps maintain a healthy systemic lipid profile.",
+      "<b>Fluid Balance:</b> Potassium optimizes arterial tone and supports water-salt homeostasis.",
+      "<b>Immune Defense:</b> Bioavailable zinc supports cell replication and the body's natural defense mechanisms."
     ],
-    "precautionsIntro": "Пурины, плотность коллагена и тепловая обработка: правильная подготовка максимизирует пользу для здоровья.",
+    "precautionsIntro": "Purines, collagen density, and thermal processing: proper preparation maximizes health benefits.",
     "precautions": [
-      "<b>Подагра:</b> Козлятина содержит повышенную концентрацию пуринов, что может спровоцировать отложение мочевой кислоты при склонности к подагре.",
-      "<b>Коллаген:</b> Из-за активного образа жизни животного мясо плотное; рекомендуется длительное влажное приготовление для размягчения соединительных тканей.",
-      "<b>AGE-соединения:</b> Агрессивные методы обработки (жарка на открытом огне) создают вредные канцерогены (ГКА и ПАУ)."
+      "<b>Gout Considerations:</b> Goat meat contains an elevated concentration of purines, which can trigger uric acid accumulation in individuals prone to gout.",
+      "<b>Collagen Density:</b> Due to the animal's active lifestyle, the meat is dense; slow, moist cooking methods are recommended to tenderize connective tissues.",
+      "<b>AGE Compounds:</b> Aggressive cooking techniques (high-heat grilling over open flames) generate harmful carcinogens (HCAs and PAHs)."
     ]
   },
   "coconut-milk": {

@@ -6730,110 +6730,110 @@
   },
   "melon": {
     "slug": "melon",
-    "name": "Melon",
-    "category": "Fruits and Berries",
+    "name": "Дыня",
+    "category": "Фрукты и ягоды",
     "image": "/productinfo/melon.png",
-    "imageAlt": "slice of ripe sweet melon",
-    "description": "Melon represents a highly functional, enzymatically active cucurbitaceous botanical matrix. It functions as a dense, biocompatible network of structured water, essential minerals, and unique purine nucleosides. This matrix is biochemically optimized to regulate extracellular fluid volume, support metabolic detoxification cascades, and deliver high concentrations of lipophilic carotenoid precursors vital for photoreceptor integrity and dermal extracellular matrix synthesis.",
-    "macroTitle": "Macro Nutrients (per 100g, raw pulp)",
-    "macroIntro": "The macronutrient profile of raw melon pulp is characterized by a low thermodynamic energy density combined with highly bioavailable monosaccharides, facilitating rapid glycogen re-synthesis without taxing the enzymatic capacity of the upper gastrointestinal tract.",
-    "microIntro": "The cellular fluid of melon serves as a specialized biological vehicle, sequestering vital water-soluble vitamins, crucial intracellular electrolytes, and systemic anti-aggregatory compounds.",
+    "imageAlt": "ломтик спелой сладкой дыни",
+    "description": "Дыня представляет собой высокофункциональную, ферментативно активную ботаническую матрицу семейства тыквенных. Она функционирует как плотная, биосовместимая сеть структурированной воды, жизненно важных минералов и уникальных пуриновых нуклеозидов. Эта матрица биохимически оптимизирована для регуляции объема внеклеточной жидкости, поддержки каскадов метаболической детоксикации и доставки высоких концентраций липофильных предшественников каротиноидов, необходимых для целостности фоторецепторов и синтеза внеклеточного матрикса дермы.",
+    "macroTitle": "Макронутриенты (на 100 г, сырая мякоть)",
+    "macroIntro": "Макронутриентный профиль сырой мякоти дыни характеризуется низкой термодинамической плотностью энергии в сочетании с высокобиодоступными моносахаридами, что способствует быстрому повторному синтезу гликогена без нагрузки на ферментативную емкость верхних отделов желудочно-кишечного тракта.",
+    "microIntro": "Клеточная жидкость дыни служит специализированным биологическим вектором, изолирующим жизненно важные водорастворимые витамины, ключевые внутриклеточные электролиты и системные антиагрегантные соединения.",
     "macroNutrients": [
       {
         "id": "calories",
-        "name": "Calories",
+        "name": "Калорийность",
         "slug": "",
-        "amount": "34 kcal / 2% DV",
+        "amount": "34 ккал / 2% СН",
         "bg": "#15837c",
-        "description": "A minimal caloric footprint that triggers stretch-mediated mechanoreceptors in the gastric wall, promoting temporary satiety without energetic over-saturation."
+        "description": "Минимальный калорийный след, активирующий механорецепторы растяжения в стенке желудка и способствующий временному насыщению без энергетического перенасыщения."
       },
       {
         "id": 14,
-        "name": "Protein",
+        "name": "Белки",
         "slug": "protein",
-        "amount": "0.8 g / 2% DV",
+        "amount": "0.8 г / 2% СН",
         "bg": "#f5722c",
-        "description": "Provides trace amounts of soluble plant peptides and a baseline pool of non-essential amino acids involved in localized cellular maintenance."
+        "description": "Обеспечивает следовые количества растворимых растительных пептидов и базовый пул заменимых аминокислот, участвующих в локальном клеточном обслуживании."
       },
       {
         "id": 16,
-        "name": "Total Fat",
+        "name": "Жиры",
         "slug": "fats",
-        "amount": "0.2 g / 0% DV",
+        "amount": "0.2 г / 0% СН",
         "bg": "#e4a910",
-        "description": "Negligible lipid fractions, ensuring rapid gastric emptying and unhindered absorption of accompanying water-soluble elements."
+        "description": "Незначительные липидные фракции, обеспечивающие быстрое опорожнение желудка и беспрепятственное всасывание сопутствующих водорастворимых элементов."
       },
       {
         "id": 15,
-        "name": "Carbohydrates",
+        "name": "Углеводы",
         "slug": "carbohydrates",
-        "amount": "8.2 g / 3% DV",
+        "amount": "8.2 г / 3% СН",
         "bg": "#15837c",
-        "description": "A refined carbohydrate matrix composed of sucrose, fructose, and glucose, offering an immediate and highly bioavailable substrate for cellular ATP generation."
+        "description": "Очищенная углеводная матрица, состоящая из сахарозы, фруктозы и глюкозы, предлагающая немедленный и высокобиодоступный субстрат для генерации клеточного АТФ."
       }
     ],
     "microNutrients": [
       {
         "id": 22,
-        "name": "Vitamin A (as Beta-Carotene)",
+        "name": "Витамин A (в виде бета-каротина)",
         "slug": "vitamin-a",
-        "amount": "3382 IU / 68% DV",
+        "amount": "3382 МЕ / 68% СН",
         "bg": "#15837c",
-        "description": "An exceptional payload of provitamin A carotenoids, serving as a primary substrate for retinal synthesis and a powerful lipid-phase free radical scavenger."
+        "description": "Исключительный ресурс каротиноидов провитамина A, служащий основным субстратом для синтеза ретиналя и мощным поглотителем свободных радикалов в липидной фазе."
       },
       {
         "id": 21,
-        "name": "Vitamin C (L-Ascorbic Acid)",
+        "name": "Витамин C (L-аскорбиновая кислота)",
         "slug": "vitamin-c",
-        "amount": "36.7 mg / 41% DV",
+        "amount": "36.7 мг / 41% СН",
         "bg": "#f5722c",
-        "description": "A crucial water-soluble electron donor that protects vascular endothelial cells, enhances non-heme iron absorption, and maintains collagen cross-linking cascades."
+        "description": "Важнейший водорастворимый донор электронов, который защищает эндотелиальные клетки сосудов, усиливает всасывание негемового железа и поддерживает каскады сшивания коллагена."
       },
       {
         "id": 33,
-        "name": "Potassium",
+        "name": "Калий",
         "slug": "potassium",
-        "amount": "267 mg / 6% DV",
+        "amount": "267 мг / 6% СН",
         "bg": "#66ab63",
-        "description": "A core intracellular cation necessary for modulating the cardiac action potential, maintaining vascular tone, and regulating osmotic fluid shifts."
+        "description": "Основной внутриклеточный катион, необходимый для модуляции потенциала действия сердца, поддержания сосудистого тонуса и регуляции осмотических сдвигов жидкости."
       },
       {
         "id": 26,
-        "name": "Folate (Vitamin B9)",
+        "name": "Фолат (Витамин B9)",
         "slug": "vitamin-b9",
-        "amount": "21 mcg / 5% DV",
+        "amount": "21 мкг / 5% СН",
         "bg": "#e4a910",
-        "description": "An essential coenzyme intermediate required for one-carbon transfer reactions, driving nucleic acid synthesis, methyl donor pathways, and erythropoiesis."
+        "description": "Незаменимый ферментный промежуточный продукт, необходимый для реакций одноуглеродного переноса, запускающий синтез нуклеиновых кислот, пути доноров метила и эритропоэз."
       },
       {
         "id": 31,
-        "name": "Magnesium",
+        "name": "Магний",
         "slug": "magnesium",
-        "amount": "12 mg / 3% DV",
+        "amount": "12 мг / 3% СН",
         "bg": "#1a96cd",
-        "description": "A structural mineral cofactor involved in over 300 enzymatic reactions, moderating neuromuscular transmission and stabilizing cell membrane potentials."
+        "description": "Структурный минеральный кофактор, участвующий более чем в 300 ферментативных реакциях, умеренно регулирующий нервно-мышечную передачу и стабилизирующий потенциалы клеточных мембран."
       },
       {
         "id": 96,
-        "name": "Adenosine",
+        "name": "Аденозин",
         "slug": "compounds",
-        "amount": "Bioactive Profile",
+        "amount": "Биоактивный профиль",
         "bg": "#1a96cd",
-        "description": "An endogenous purine nucleoside that acts on vascular purinergic receptors, dampening platelet aggregation cascades and optimizing blood rheology."
+        "description": "Эндогенный пуриновый нуклеозид, действующий на сосудистые пуринергические рецепторы, ослабляющий каскады агрегации тромбоцитов и оптимизирующий реологию крови."
       }
     ],
     "healthBenefits": [
-      "<b>Retinal and Macular Photoprotection:</b> High concentrations of bioavailable beta-carotene undergo conversion to retinal within the mucosal epithelium, systematically supporting rod cell functionality, while secondary xanthophylls filter damaging short-wavelength blue light at the macula.",
-      "<b>Synergistic Cardiovascular Hemodynamics:</b> Endogenous potassium reserves work in concert with purinergic adenosine fractions to decrease peripheral arterial resistance, lower systemic blood pressure, and inhibit pathological intravascular thrombus formation.",
-      "<b>Dermal Extracellular Matrix Rejuvenation:</b> The combined metabolic action of L-ascorbic acid and retinol precursors upregulates transcript levels of Type I and Type III collagen within dermal fibroblasts, enhancing tissue turgor and neutralizing UV-induced matrix metalloproteinases.",
-      "<b>Renal Cleansing and Fluid Homeostasis:</b> Functions as a mild, natural osmotic diuretic that increases glomerular filtration rates, helping flush crystalline precipitates from the urinary tract while maintaining the proper systemic balance of essential electrolytes."
+      "<b>Фотопротекция сетчатки и макулы:</b> Высокие концентрации биодоступного бета-каротина подвергаются превращению в ретиналь в слизистом эпителии, системно поддерживая функциональность палочек, тогда как вторичные ксантофиллы фильтруют вредный коротковолновый синий свет в области макулы.",
+      "<b>Синергетическая гемодинамика сердечно-сосудистой системы:</b> Эндогенные запасы калия работают в согласии с пуринергическими фракциями аденозина, снижая периферическое артериальное сопротивление, понижая системное артериальное давление и ингибируя патологическое внутрисосудистое тромбообразование.",
+      "<b>Омоложение внеклеточного матрикса дермы:</b> Комбинированное метаболическое действие L-аскорбиновой кислоты и предшественников ретинола повышает транскрипционный уровень коллагена I и III типов в фибробластах дермы, увеличивая тургор тканей и нейтрализуя матриксные металлопротеиназы, индуцированные УФ-излучением.",
+      "<b>Очищение почек и гомеостаз жидкости:</b> Действует как мягкий естественный осмотический диуретик, увеличивающий скорость клубочковой фильтрации, помогая выводить кристаллические осадки из мочевыводящих путей при сохранении надлежащего системного баланса ключевых электролитов."
     ],
-    "precautionsIntro": "Due to its unique enzymatic configuration and rapid absorption dynamics, melon requires specific dietary timing and management under distinct clinical conditions.",
+    "precautionsIntro": "Из-за уникальной ферментативной конфигурации и динамики быстрого всасывания, дыня требует соблюдения определенного времени приема и контроля при отдельных клинических состояниях.",
     "precautions": [
-      "<b>Gastrointestinal Fermentation and Dysbiosis:</b> Melon contains volatile enzymes and simple sugars that digest rapidly. When ingested immediately following dense lipid or complex peptide meals, the melon matrix gets trapped in the stomach, driving massive microbial fermentation, severe flatulence, and osmotic luminal stress. It is strongly advised to consume melon in strict isolation.",
-      "<b>Postprandial Glycemic Fluctuations:</b> Exhibiting a high Glycemic Index (GI ≈ 65–70), its fast carbohydrates can cause rapid spikes in blood glucose if consumed in excessive quantities, necessitating calculated portion controls for individuals managing Type 2 diabetes.",
-      "<b>Peripheral Nitrate Contamination:</b> The rind of cucurbitaceous crops is highly susceptible to sequestering exogenous nitrogenous fertilizers. To avoid accidental nitrite toxicity and associated methemoglobinemia risks, slice well away from the fibrous green sub-epidermal layers.",
-      "<b>Exacerbation of Luminal Overgrowth (SIBO):</b> The abundance of rapidly fermentable monosaccharides serves as an immediate substrate for displaced bacteria in individuals diagnosed with Small Intestinal Bacterial Overgrowth, potentially triggering acute abdominal distension and cramping."
+      "<b>Желудочно-кишечная ферментация и дисбиоз:</b> Дыня содержит летучие ферменты и простые сахара, которые быстро перевариваются. При употреблении сразу после тяжелой пищи, богатой липидами или сложными пептидами, матрица дыни задерживается в желудке, провоцируя массивную микробиологическую ферментацию, выраженный метеоризм и осмотический просветный стресс. Настоятельно рекомендуется употреблять дыню строго отдельно от других продуктов.",
+      "<b>Постпрандиальные колебания гликемии:</b> Обладая высоким гликемическим индексом (ГИ ≈ 65–70), ее быстрые углеводы могут вызывать резкие скачки глюкозы в крови при употреблении в избыточных количествах, что требует расчетного контроля порций для лиц с диабетом 2 типа.",
+      "<b>Периферическое загрязнение нитратами:</b> Корка бахчевых культур крайне склонна к накоплению экзогенных азотных удобрений. Чтобы избежать случайной интоксикации нитритами и сопутствующих рисков метгемоглобинемии, срезайте мякоть на достаточном расстоянии от зеленого волокнистого подкожистого слоя.",
+      "<b>Обострение синдрома избыточного бактериального роста (СИБР):</b> Изобилие быстроферментируемых моносахаридов служит немедленным субстратом для смещенной бактериальной флоры у лиц с диагнозом СИБР, что может вызывать острое вздутие живота и спазмы."
     ]
   },
   "cucumber": {
@@ -14981,42 +14981,42 @@
   },
   "cocoa-powder": {
     "slug": "cocoa-powder",
-    "name": "Cocoa Powder",
-    "category": "Spices and Herbs",
+    "name": "Какао-порошок",
+    "category": "Специи и приправы",
     "image": "/productinfo/cocoa-powder.png",
-    "imageAlt": "pure unsweetened dark cocoa powder in a ceramic bowl",
-    "description": "Cocoa powder is a highly complex, nutrient-dense matrix obtained by expression of cocoa butter from ground cacao nibs (Theobroma cacao). Globally revered as a premier longevity food, it houses a dense concentration of bitter methylxanthine alkaloids, cardioprotective flavanols, and essential minerals that synergistically drive mitochondrial cellular energy, cognitive acuity, and vascular endothelial elasticity.",
-    "macroTitle": "Macro Nutrients (per 100g, unsweetened)",
-    "macroIntro": "Pure unsweetened cocoa powder exhibits an exceptional, protein-dense, high-fiber macronutrient balance, far removed from highly processed sugar formulations.",
-    "microIntro": "Cocoa contains a supreme polyphenol and mineral micro-matrix, delivering therapeutic levels of magnesium, copper, and specialized natural stimulants that reinforce systemic neuro-vascular tone.",
+    "imageAlt": "чистый несладкий темный какао-порошок в керамической пиале",
+    "description": "Какао-порошок — это высококомплексная, богатая питательными веществами матрица, получаемая путем отжима какао-масла из измельченных какао-нибсов (Theobroma cacao). Всемирно признанный как элитный продукт для долголетия, он содержит высокую концентрацию горьких метилксантиновых алкалоидов, кардиопротекторных флаванолов и жизненно важных минералов, которые синергетически стимулируют митохондриальную клеточную энергию, когнитивную остроту и эластичность эндотелия сосудов.",
+    "macroTitle": "Макронутриенты (на 100 г, несладкий)",
+    "macroIntro": "Чистый несладкий какао-порошок демонстрирует исключительный макронутриентный баланс с высокой концентрацией белка и клетчатки, кардинально отличаясь от высокопереработанных сахарных составов.",
+    "microIntro": "Какао содержит превосходную микроматрицу полифенолов и минералов, обеспечивая терапевтические уровни магния, меди и специализированных природных стимуляторов, укрепляющих системный нейроваскулярный тонус.",
     "macroNutrients": [
-      { "id": "calories", "name": "Calories", "slug": "", "amount": "~228 kcal", "bg": "#15837c", "description": "A stable, non-glycemic caloric baseline derived from residual structured plant fats and an extensive, indigestible prebiotic fiber network." },
-      { "id": "protein", "name": "Protein", "slug": "protein", "amount": "19.6 grams", "bg": "#f5722c", "description": "An impressive plant amino acid reserve that supplies essential building blocks for systemic cellular tissue repair and metabolic enzymatic paths." },
-      { "id": "fat", "name": "Total Fat", "slug": "fats", "amount": "13.7 grams", "bg": "#e4a910", "description": "Composed of clean cocoa butter fractions containing stable stearic, palmitic, and monounsaturated oleic acids that do not elevate atherogenic lipid markers." },
-      { "id": "carbs", "name": "Carbohydrates", "slug": "carbohydrates", "amount": "57.9 grams", "bg": "#1a96cd", "description": "Dominated heavily by critical structural dietary fibers (~33.2g), leaving an exceptionally low net impact on blood glucose dynamics." }
+      { "id": "calories", "name": "Калорийность", "slug": "", "amount": "~228 ккал", "bg": "#15837c", "description": "Стабильный, негликемический калорийный базис, полученный из остаточных структурированных растительных жиров и обширной сети неперевариваемых пребиотических волокон." },
+      { "id": "protein", "name": "Белки", "slug": "protein", "amount": "19.6 г", "bg": "#f5722c", "description": "Впечатляющий запас растительных аминокислот, поставляющий незаменимые строительные блоки для восстановления системных клеточных тканей и метаболических ферментативных путей." },
+      { "id": "fat", "name": "Всего жиров", "slug": "fats", "amount": "13.7 г", "bg": "#e4a910", "description": "Состоит из фракций чистого какао-масла, содержащих стабильные стеариновую, пальмитиновую и мононенасыщенную олеиновую кислоты, которые не повышают атерогенные липидные маркеры." },
+      { "id": "carbs", "name": "Углеводы", "slug": "carbohydrates", "amount": "57.9 г", "bg": "#1a96cd", "description": "В основном представлен важнейшими структурными пищевыми волокнами (~33.2 г), оказывая исключительно низкое чистое влияние на динамику глюкозы в крови." }
     ],
     "microNutrients": [
-      { "id": "theobromine", "slug": "theobromine", "name": "Theobromine", "amount": "~2.0 g", "bg": "#15837c", "description": "A gentle, long-lasting methylxanthine alkaloid that stimulates cardiac output and smooth muscle relaxation without triggering central nervous system jitters." },
-      { "id": "magnesium", "slug": "magnesium", "name": "Magnesium", "amount": "499 mg / 125% DV", "bg": "#66ab63", "description": "A maximal biological mineral payload crucial for managing neuromuscular coordination, ATP mitochondrial synthesis, and coronary relaxation cascades[cite: 1]." },
-      { "id": "iron", "slug": "iron", "name": "Iron", "amount": "13.9 mg / 77% DV", "bg": "#1a96cd", "description": "Highly concentrated plant-derived iron, contributing directly to cellular oxygen transport, tissue respiration, and hemoglobin synthesis loops[cite: 1]." },
-      { "id": "copper", "slug": "copper", "name": "Copper", "amount": "3.8 mg / 422% DV", "bg": "#e4a910", "description": "An indispensable trace mineral required for iron metabolism, collagen cross-linking, and supporting robust endogenous antioxidant enzyme pathways[cite: 1]." },
-      { "id": 32, "slug": "potassium", "name": "Potassium", "amount": "1524 mg / 32% DV", "bg": "#66ab63", "description": "Supports heart function, muscle contraction, nerve signaling, and fluid balance[cite: 1]." },
-      { "id": 36, "slug": "zinc", "name": "Zinc", "amount": "6.8 mg / 62% DV", "bg": "#f5722c", "description": "Supports immune function, wound healing, DNA synthesis, and cell growth[cite: 1]." },
-      { "id": 38, "slug": "manganese", "name": "Manganese", "amount": "3.8 mg / 165% DV", "bg": "#1a96cd", "description": "Supports bone formation, metabolism, antioxidant defense, and enzyme function[cite: 1]." },
-      { "id": 44, "slug": "fiber", "name": "Fiber", "amount": "33.2 g / 118% DV", "bg": "#e4a910", "description": "Supports digestive health, helps regulate blood sugar levels, promotes satiety, and supports heart health[cite: 1]." }
+      { "id": "theobromine", "slug": "theobromine", "name": "Теобромин", "amount": "~2.0 г", "bg": "#15837c", "description": "Мягкий, длительно действующий метилксантиновый алкалоид, который стимулирует сердечный выброс и расслабление гладкой мускулатуры, не вызывая перевозбуждения центральной нервной системы." },
+      { "id": "magnesium", "slug": "magnesium", "name": "Магний", "amount": "499 мг / 125% СН", "bg": "#66ab63", "description": "Максимальный биологический ресурс минералов, критически важный для нервно-мышечной координации, митохондриального синтеза АТФ и каскадов коронарного расслабления." },
+      { "id": "iron", "slug": "iron", "name": "Железо", "amount": "13.9 мг / 77% СН", "bg": "#1a96cd", "description": "Высококонцентрированное железо растительного происхождения, напрямую участвующее в транспорте клеточного кислорода, тканевом дыхании и циклах синтеза гемоглобина." },
+      { "id": "copper", "slug": "copper", "name": "Медь", "amount": "3.8 мг / 422% СН", "bg": "#e4a910", "description": "Незаменимый микроэлемент, необходимый для метаболизма железа, сшивания коллагена и поддержки мощных эндогенных антиоксидантных ферментных путей." },
+      { "id": 32, "slug": "potassium", "name": "Калий", "amount": "1524 мг / 32% СН", "bg": "#66ab63", "description": "Поддерживает работу сердца, сокращение мышц, передачу нервных импульсов и баланс жидкости." },
+      { "id": 36, "slug": "zinc", "name": "Цинк", "amount": "6.8 мг / 62% СН", "bg": "#f5722c", "description": "Поддерживает иммунную функцию, заживление ран, синтез ДНК и рост клеток." },
+      { "id": 38, "slug": "manganese", "name": "Марганец", "amount": "3.8 мг / 165% СН", "bg": "#1a96cd", "description": "Поддерживает формирование костей, метаболизм, антиоксидантную защиту и функцию ферментов." },
+      { "id": 44, "slug": "fiber", "name": "Клетчатка", "amount": "33.2 г / 118% СН", "bg": "#e4a910", "description": "Поддерживает пищеварение, помогает регулировать уровень сахара в крови, способствует насыщению и поддерживает здоровье сердца." }
     ],
     "healthBenefits": [
-      "<b>Endothelial Nitric Oxide and Vasodilation:</b> Dense concentrations of <b>cocoa flavanols</b> act directly on blood vessel linings to increase nitric oxide bioavailability, optimizing blood pressure and reducing arterial stiffness.",
-      "<b>Sustained, Jitter-Free Cognitive Enhancement:</b> Natural <b>theobromine</b> elevates cerebral blood flow, dramatically boosting attention span and memory retention without triggering the crash linked to aggressive stimulants.",
-      "<b>Deep Prebiotic Colonization:</b> The immense structural <b>dietary fiber</b> and unabsorbed polyphenols serve as targeted fuel for beneficial gut microbiota, suppressing systemic metabolic inflammation.",
-      "<b>Mitochondrial ATP Energy Stabilization:</b> Housing an unmatched concentration of <b>magnesium and copper</b>, cocoa accelerates the electron transport chain inside cellular mitochondria, optimizing overall metabolic output.",
-      "<b>Neurotransmitter Adaptation and Mood Uplift:</b> Bioactive factors help preserve circulating anandamide and encourage mild dopamine release, cultivating a sense of calm, focused well-being."
+      "<b>Эндотелиальный оксид азота и вазодилатация:</b> Высокая концентрация <b>флаванолов какао</b> напрямую воздействует на эндотелий сосудов, увеличивая биодоступность оксида азота, оптимизируя артериальное давление и снижая жесткость артерий.",
+      "<b>Устойчивое когнитивное стимулирование без нервозности:</b> Природный <b>теобромин</b> усиливает мозговой кровоток, значительно повышая концентрацию внимания и удержание памяти без резких спадов, свойственных агрессивным стимуляторам.",
+      "<b>Глубокая пребиотическая колонизация:</b> Внушительный объем структурных <b>пищевых волокон</b> и неабсорбированных полифенолов служат целевым топливом для полезной микрофлоры кишечника, подавляя системное метаболическое воспаление.",
+      "<b>Стабилизация митохондриальной энергии АТФ:</b> Обладая непревзойденной концентрацией <b>магния и меди</b>, какао ускоряет электронно-транспортную цепь внутри клеточных митохондрий, оптимизируя общий метаболический выход.",
+      "<b>Нейромедиаторная адаптация и повышение настроения:</b> Биоактивные факторы помогают сохранять циркулирующий анандамид и стимулируют мягкое высвобождение дофамина, формируя чувство спокойствия и сфокусированного благополучия."
     ],
-    "precautionsIntro": "Cadmium Heavy-Metal Risks, Caffeine/Theobromine Thresholds, and Oxalate Metrics: Maximizing cocoa benefits requires selecting clean sources and tracking systemic sensitivity.",
+    "precautionsIntro": "Риски тяжелых металлов (кадмия), пороги кофеина/теобромина и метрики оксалатов: получение максимальной пользы от какао требует выбора чистых источников и контроля системной чувствительности.",
     "precautions": [
-      "<b>Heavy Metal Bioaccumulation (Cadmium and Lead):</b> Cacao plants naturally draw toxic heavy metals from specific volcanic soils. Regular use of low-grade, untested cocoa powder can cause heavy metal accumulation, demanding third-party tested, clean sourcing.",
-      "<b>Methylxanthine Overstimulation:</b> Containing both theobromine and a small fraction of caffeine, excessive consumption can manifest as sleep disruption, mild tachycardia, or gastroesophageal reflux in sensitive individuals.",
-      "<b>Renal Calcium-Oxalate Aggregation:</b> Cocoa is structurally dense in natural oxalates. Individuals navigating recurring kidney stones or specialized renal filtration protocols must carefully manage total dietary portions."
+      "<b>Биоаккумуляция тяжелых металлов (кадмия и свинца):</b> Деревья какао естественным образом вытягивают токсичные тяжелые металлы из специфических вулканических почв. Регулярное употребление низкосортного, непроверенного какао-порошка может вызвать накопление тяжелых металлов, поэтому требуется выбор продукции, прошедшей независимое лабораторное тестирование.",
+      "<b>Перевозбуждение метилксантинами:</b> Содержа одновременно теобромин и небольшую фракцию кофеина, избыточное потребление может проявляться нарушением сна, легкой тахикардией или гастроэзофагеальным рефлюксом у чувствительных людей.",
+      "<b>Почечная кальций-оксалатная агрегация:</b> Какао структурно насыщен природными оксалатами. Лицам с рецидивирующими камнями в почках или находящимся на специализированных протоколах почечной фильтрации необходимо тщательно контролировать общий объем порций."
     ]
   },
   "cardamom-seeds": {
