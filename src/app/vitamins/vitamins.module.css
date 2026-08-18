@@ -47,6 +47,21 @@
     flex-shrink: 0;
 }
 
+.search-container .filter-icon{
+    flex-shrink: 0;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.15s ease;
+}
+
+.search-container .filter-icon:hover{
+    opacity: 1;
+}
+
+.search-container .filter-icon-active{
+    opacity: 1;
+}
+
 .search-container .search-input{
     flex: 1;
     font-family: var(--font-family);
@@ -60,6 +75,83 @@
     outline: none;
 }
 
+
+.filter-bar{
+    width: 100%;
+    max-width: 320px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.organ-filter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.organ-filter::-webkit-scrollbar{
+    display: none;
+}
+
+.organ-chip{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 14px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    background: #f4f4f4;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    color: #555;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.organ-chip-icon{
+    font-size: 14px;
+    line-height: 1;
+}
+
+.organ-chip-active{
+    background: #A3A0CA;
+    border-color: #A3A0CA;
+    color: #fff;
+}
+
+.filter-reset{
+    align-self: flex-start;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    color: #A3A0CA;
+    text-decoration: underline;
+}
 
 .main-layout .content{
     display: flex;

@@ -20,12 +20,31 @@ type VitaminItem = {
   image: string;
   favorite: boolean;
   link: string;
+  organs?: string[];
 };
 
 type Props = {
   vitaminsEn: VitaminItem[];
   vitaminsRu: VitaminItem[];
 };
+
+// Список органов/систем организма для фильтра.
+// Ключи (key) должны совпадать со значениями поля "organs" в vitamins.json
+const ORGANS: { key: string; en: string; ru: string; icon: string }[] = [
+  { key: "eyes", en: "Eyes", ru: "Глаза", icon: "👁️" },
+  { key: "brain", en: "Brain & nervous system", ru: "Мозг и нервная система", icon: "🧠" },
+  { key: "heart", en: "Heart & circulation", ru: "Сердце и кровообращение", icon: "❤️" },
+  { key: "blood", en: "Blood", ru: "Кровь", icon: "🩸" },
+  { key: "bones", en: "Bones & teeth", ru: "Кости и зубы", icon: "🦴" },
+  { key: "joints", en: "Joints & cartilage", ru: "Суставы и хрящи", icon: "🦵" },
+  { key: "muscles", en: "Muscles", ru: "Мышцы", icon: "💪" },
+  { key: "skin", en: "Skin, hair & nails", ru: "Кожа, волосы, ногти", icon: "✨" },
+  { key: "immune", en: "Immune system", ru: "Иммунитет", icon: "🛡️" },
+  { key: "digestion", en: "Digestion & gut", ru: "Пищеварение", icon: "🍽️" },
+  { key: "liver", en: "Liver", ru: "Печень", icon: "🫘" },
+  { key: "thyroid", en: "Thyroid", ru: "Щитовидная железа", icon: "🦋" },
+  { key: "metabolism", en: "Metabolism & energy", ru: "Метаболизм и энергия", icon: "⚡" },
+];
 
 const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   const t = useTranslations("Vitamins"); // Используем пространство имен из локализации интерфейса
@@ -37,6 +56,8 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   }, [locale, vitaminsEn, vitaminsRu]);
 
   const [search, setSearch] = useState("");
+  const [selectedOrgan, setSelectedOrgan] = useState<string | null>(null);
+  const [showFilter, setShowFilter] = useState(false);
   const [vitamins, setVitamins] = useState<VitaminItem[]>(currentData);
 
   // Синхронизируем состояние витаминов, если язык изменился на лету
@@ -61,19 +82,33 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   };
 
   /*
-    SEARCH FILTER
+    SEARCH + ORGAN FILTER
   */
   const filteredVitamins = useMemo(() => {
     return vitamins.filter((vitamin) => {
       const query = search.toLowerCase();
 
-      return (
+      const matchesSearch =
         vitamin.name.toLowerCase().includes(query) ||
         vitamin.category.toLowerCase().includes(query) ||
-        vitamin.benefit.toLowerCase().includes(query)
-      );
+        vitamin.benefit.toLowerCase().includes(query);
+
+      const matchesOrgan =
+        !selectedOrgan || (vitamin.organs ?? []).includes(selectedOrgan);
+
+      return matchesSearch && matchesOrgan;
     });
-  }, [vitamins, search]);
+  }, [vitamins, search, selectedOrgan]);
+
+  const toggleOrgan = (organKey: string) => {
+    setSelectedOrgan((current) => (current === organKey ? null : organKey));
+    setShowFilter(false);
+  };
+
+  const resetOrgan = () => {
+    setSelectedOrgan(null);
+    setShowFilter(false);
+  };
 
   return (
     <div className={styles["main-layout"]}>
@@ -93,7 +128,47 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
+
+        <Image
+          src="/filter.svg"
+          alt="filter"
+          width={20}
+          height={20}
+          className={`${styles["filter-icon"]} ${
+            selectedOrgan ? styles["filter-icon-active"] : ""
+          }`}
+          onClick={() => setShowFilter((prev) => !prev)}
+        />
       </div>
+
+      {showFilter && (
+        <div className={styles["filter-bar"]}>
+          <div className={styles["organ-filter"]}>
+            {ORGANS.map((organ) => (
+              <button
+                key={organ.key}
+                type="button"
+                className={`${styles["organ-chip"]} ${
+                  selectedOrgan === organ.key ? styles["organ-chip-active"] : ""
+                }`}
+                onClick={() => toggleOrgan(organ.key)}
+              >
+                {locale === "ru" ? organ.ru : organ.en}
+              </button>
+            ))}
+          </div>
+
+          {selectedOrgan && (
+            <button
+              type="button"
+              className={styles["filter-reset"]}
+              onClick={resetOrgan}
+            >
+              {locale === "ru" ? "Сбросить" : "Reset"}
+            </button>
+          )}
+        </div>
+      )}
 
       <div className={styles["content"]}>
         {filteredVitamins.map((vitamin) => (

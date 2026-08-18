@@ -9,7 +9,11 @@
     "benefit": "Boosts immunity, supports collagen production, helps wound healing",
     "image": "C",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-c"
+    "link": "/vitamininfo/vitamin-c",
+    "organs": [
+      "skin",
+      "immune"
+    ]
   },
   {
     "id": 2,
@@ -21,7 +25,11 @@
     "benefit": "Supports bone health, improves calcium absorption, boosts immunity",
     "image": "D",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-d"
+    "link": "/vitamininfo/vitamin-d",
+    "organs": [
+      "bones",
+      "immune"
+    ]
   },
   {
     "id": 3,
@@ -33,7 +41,12 @@
     "benefit": "Supports vision, skin health, and immune system function",
     "image": "A",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-a"
+    "link": "/vitamininfo/vitamin-a",
+    "organs": [
+      "eyes",
+      "skin",
+      "immune"
+    ]
   },
   {
     "id": 4,
@@ -45,7 +58,11 @@
     "benefit": "Acts as antioxidant, protects cells from oxidative stress",
     "image": "E",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-e"
+    "link": "/vitamininfo/vitamin-e",
+    "organs": [
+      "skin",
+      "immune"
+    ]
   },
   {
     "id": 5,
@@ -57,10 +74,14 @@
     "benefit": "Supports blood clotting and bone health",
     "image": "K",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-k"
+    "link": "/vitamininfo/vitamin-k",
+    "organs": [
+      "blood",
+      "bones"
+    ]
   },
   {
-  "id": 6,
+    "id": 6,
     "name": "Vitamin B1",
     "category": "nutrients",
     "group": "water-soluble",
@@ -69,7 +90,12 @@
     "benefit": "Supports energy metabolism, nerve function, and heart health",
     "image": "B<sub>1</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b1"
+    "link": "/vitamininfo/vitamin-b1",
+    "organs": [
+      "metabolism",
+      "brain",
+      "heart"
+    ]
   },
   {
     "id": 7,
@@ -81,7 +107,12 @@
     "benefit": "Supports energy production, healthy skin, and eye function",
     "image": "B<sub>2</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b2"
+    "link": "/vitamininfo/vitamin-b2",
+    "organs": [
+      "metabolism",
+      "skin",
+      "eyes"
+    ]
   },
   {
     "id": 8,
@@ -93,7 +124,12 @@
     "benefit": "Supports metabolism, nervous system function, and healthy skin",
     "image": "B<sub>3</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b3"
+    "link": "/vitamininfo/vitamin-b3",
+    "organs": [
+      "metabolism",
+      "brain",
+      "skin"
+    ]
   },
   {
     "id": 9,
@@ -105,7 +141,10 @@
     "benefit": "Supports energy production and hormone synthesis",
     "image": "B<sub>5</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b5"
+    "link": "/vitamininfo/vitamin-b5",
+    "organs": [
+      "metabolism"
+    ]
   },
   {
     "id": 10,
@@ -117,7 +156,12 @@
     "benefit": "Supports brain development, immune function, and protein metabolism",
     "image": "B<sub>6</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b6"
+    "link": "/vitamininfo/vitamin-b6",
+    "organs": [
+      "brain",
+      "immune",
+      "metabolism"
+    ]
   },
   {
     "id": 11,
@@ -129,7 +173,11 @@
     "benefit": "Supports healthy hair, skin, nails, and metabolism",
     "image": "B<sub>7</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b7"
+    "link": "/vitamininfo/vitamin-b7",
+    "organs": [
+      "skin",
+      "metabolism"
+    ]
   },
   {
     "id": 12,
@@ -141,7 +189,10 @@
     "benefit": "Supports DNA synthesis, cell growth, and red blood cell formation",
     "image": "B<sub>9</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b9"
+    "link": "/vitamininfo/vitamin-b9",
+    "organs": [
+      "blood"
+    ]
   },
   {
     "id": 13,
@@ -153,7 +204,12 @@
     "benefit": "Supports nerve function, red blood cell formation, and energy production",
     "image": "B<sub>12</sub>",
     "favorite": false,
-    "link": "/vitamininfo/vitamin-b12"
+    "link": "/vitamininfo/vitamin-b12",
+    "organs": [
+      "brain",
+      "blood",
+      "metabolism"
+    ]
   },
   {
     "id": 14,
@@ -165,7 +221,10 @@
     "benefit": "Supports muscle growth, tissue repair, enzyme production, and overall body function",
     "image": "P",
     "favorite": false,
-    "link": "/vitamininfo/protein"
+    "link": "/vitamininfo/protein",
+    "organs": [
+      "muscles"
+    ]
   },
   {
     "id": 15,
@@ -177,7 +236,11 @@
     "benefit": "Provides energy for the body and brain, supports physical activity and metabolism",
     "image": "C",
     "favorite": false,
-    "link": "/vitamininfo/carbohydrates"
+    "link": "/vitamininfo/carbohydrates",
+    "organs": [
+      "metabolism",
+      "brain"
+    ]
   },
   {
     "id": 16,
@@ -189,7 +252,11 @@
     "benefit": "Supports energy storage, hormone production, brain function, and absorption of fat-soluble vitamins",
     "image": "Fat",
     "favorite": false,
-    "link": "/vitamininfo/fats"
+    "link": "/vitamininfo/fats",
+    "organs": [
+      "metabolism",
+      "brain"
+    ]
   },
   {
     "id": 17,
@@ -201,7 +268,11 @@
     "benefit": "Supports tissue growth, red blood cell production, and nerve protection",
     "image": "His",
     "favorite": false,
-    "link": "/vitamininfo/histidine"
+    "link": "/vitamininfo/histidine",
+    "organs": [
+      "blood",
+      "brain"
+    ]
   },
   {
     "id": 18,
@@ -213,7 +284,12 @@
     "benefit": "Supports muscle recovery, energy production, and immune function",
     "image": "Ile",
     "favorite": false,
-    "link": "/vitamininfo/isoleucine"
+    "link": "/vitamininfo/isoleucine",
+    "organs": [
+      "muscles",
+      "metabolism",
+      "immune"
+    ]
   },
   {
     "id": 19,
@@ -225,7 +301,11 @@
     "benefit": "Supports muscle protein synthesis, tissue repair, and energy regulation",
     "image": "Leu",
     "favorite": false,
-    "link": "/vitamininfo/leucine"
+    "link": "/vitamininfo/leucine",
+    "organs": [
+      "muscles",
+      "metabolism"
+    ]
   },
   {
     "id": 20,
@@ -237,7 +317,12 @@
     "benefit": "Supports protein synthesis, collagen formation, immune function, and calcium absorption",
     "image": "Lys",
     "favorite": false,
-    "link": "/vitamininfo/lysine"
+    "link": "/vitamininfo/lysine",
+    "organs": [
+      "skin",
+      "immune",
+      "bones"
+    ]
   },
   {
     "id": 21,
@@ -249,7 +334,11 @@
     "benefit": "Supports metabolism, detoxification, tissue growth, and antioxidant production",
     "image": "Met",
     "favorite": false,
-    "link": "/vitamininfo/methionine"
+    "link": "/vitamininfo/methionine",
+    "organs": [
+      "liver",
+      "metabolism"
+    ]
   },
   {
     "id": 22,
@@ -261,7 +350,10 @@
     "benefit": "Supports neurotransmitter production, brain function, and mood regulation",
     "image": "Phe",
     "favorite": false,
-    "link": "/vitamininfo/phenylalanine"
+    "link": "/vitamininfo/phenylalanine",
+    "organs": [
+      "brain"
+    ]
   },
   {
     "id": 23,
@@ -273,7 +365,11 @@
     "benefit": "Supports protein balance, immune function, and collagen and elastin production",
     "image": "Thr",
     "favorite": false,
-    "link": "/vitamininfo/threonine"
+    "link": "/vitamininfo/threonine",
+    "organs": [
+      "immune",
+      "skin"
+    ]
   },
   {
     "id": 24,
@@ -285,7 +381,10 @@
     "benefit": "Supports serotonin production, sleep regulation, mood balance, and overall brain function",
     "image": "Trp",
     "favorite": false,
-    "link": "/vitamininfo/tryptophan"
+    "link": "/vitamininfo/tryptophan",
+    "organs": [
+      "brain"
+    ]
   },
   {
     "id": 25,
@@ -297,7 +396,12 @@
     "benefit": "Supports muscle metabolism, tissue repair, energy production, and nervous system function",
     "image": "Val",
     "favorite": false,
-    "link": "/vitamininfo/valine"
+    "link": "/vitamininfo/valine",
+    "organs": [
+      "muscles",
+      "metabolism",
+      "brain"
+    ]
   },
   {
     "id": 26,
@@ -309,7 +413,11 @@
     "benefit": "Supports heart health, brain function, reduces inflammation, and contributes to omega-3 fatty acid balance",
     "image": "ALA",
     "favorite": false,
-    "link": "/vitamininfo/alpha-linolenic-acid"
+    "link": "/vitamininfo/alpha-linolenic-acid",
+    "organs": [
+      "heart",
+      "brain"
+    ]
   },
   {
     "id": 27,
@@ -321,7 +429,12 @@
     "benefit": "Supports heart health, brain function, vision, and reduces inflammation",
     "image": "<span style='font-size: 20px;'>EPA<br>DHA</span>",
     "favorite": false,
-    "link": "/vitamininfo/epa-dha"
+    "link": "/vitamininfo/epa-dha",
+    "organs": [
+      "heart",
+      "brain",
+      "eyes"
+    ]
   },
   {
     "id": 28,
@@ -333,7 +446,13 @@
     "benefit": "Supports bone and teeth strength, muscle contraction, nerve signaling, and blood clotting",
     "image": "Ca",
     "favorite": false,
-    "link": "/vitamininfo/calcium"
+    "link": "/vitamininfo/calcium",
+    "organs": [
+      "bones",
+      "muscles",
+      "brain",
+      "blood"
+    ]
   },
   {
     "id": 29,
@@ -345,7 +464,11 @@
     "benefit": "Supports bone and teeth formation, energy production (ATP), and cell membrane structure",
     "image": "P",
     "favorite": false,
-    "link": "/vitamininfo/phosphorus"
+    "link": "/vitamininfo/phosphorus",
+    "organs": [
+      "bones",
+      "metabolism"
+    ]
   },
   {
     "id": 30,
@@ -357,7 +480,13 @@
     "benefit": "Supports muscle and nerve function, energy production, bone health, and blood glucose regulation",
     "image": "Mg",
     "favorite": false,
-    "link": "/vitamininfo/magnesium"
+    "link": "/vitamininfo/magnesium",
+    "organs": [
+      "muscles",
+      "brain",
+      "bones",
+      "metabolism"
+    ]
   },
   {
     "id": 31,
@@ -369,7 +498,12 @@
     "benefit": "Helps regulate fluid balance, supports nerve impulse transmission, and muscle function",
     "image": "Na",
     "favorite": false,
-    "link": "/vitamininfo/sodium"
+    "link": "/vitamininfo/sodium",
+    "organs": [
+      "muscles",
+      "brain",
+      "metabolism"
+    ]
   },
   {
     "id": 32,
@@ -381,7 +515,13 @@
     "benefit": "Supports heart function, muscle contraction, nerve signaling, and fluid balance",
     "image": "K+",
     "favorite": false,
-    "link": "/vitamininfo/potassium"
+    "link": "/vitamininfo/potassium",
+    "organs": [
+      "heart",
+      "muscles",
+      "brain",
+      "metabolism"
+    ]
   },
   {
     "id": 33,
@@ -393,7 +533,11 @@
     "benefit": "Helps maintain fluid balance, supports digestion through stomach acid (HCl), and regulates acid-base balance",
     "image": "Cl",
     "favorite": false,
-    "link": "/vitamininfo/chloride"
+    "link": "/vitamininfo/chloride",
+    "organs": [
+      "digestion",
+      "metabolism"
+    ]
   },
   {
     "id": 34,
@@ -405,7 +549,10 @@
     "benefit": "Supports protein structure, detoxification processes, and formation of important amino acids like methionine and cysteine",
     "image": "S",
     "favorite": false,
-    "link": "/vitamininfo/sulfur"
+    "link": "/vitamininfo/sulfur",
+    "organs": [
+      "liver"
+    ]
   },
   {
     "id": 35,
@@ -417,7 +564,12 @@
     "benefit": "Supports oxygen transport in blood (hemoglobin), energy production, and immune system function",
     "image": "Fe",
     "favorite": false,
-    "link": "/vitamininfo/iron"
+    "link": "/vitamininfo/iron",
+    "organs": [
+      "blood",
+      "metabolism",
+      "immune"
+    ]
   },
   {
     "id": 36,
@@ -429,7 +581,11 @@
     "benefit": "Supports immune function, wound healing, DNA synthesis, and cell growth",
     "image": "Zn",
     "favorite": false,
-    "link": "/vitamininfo/zinc"
+    "link": "/vitamininfo/zinc",
+    "organs": [
+      "immune",
+      "skin"
+    ]
   },
   {
     "id": 37,
@@ -441,7 +597,13 @@
     "benefit": "Supports iron metabolism, energy production, connective tissue formation, and nervous system function",
     "image": "Cu",
     "favorite": false,
-    "link": "/vitamininfo/copper"
+    "link": "/vitamininfo/copper",
+    "organs": [
+      "blood",
+      "metabolism",
+      "brain",
+      "skin"
+    ]
   },
   {
     "id": 38,
@@ -453,7 +615,11 @@
     "benefit": "Supports bone formation, metabolism, antioxidant defense, and enzyme function",
     "image": "Mn",
     "favorite": false,
-    "link": "/vitamininfo/manganese"
+    "link": "/vitamininfo/manganese",
+    "organs": [
+      "bones",
+      "metabolism"
+    ]
   },
   {
     "id": 39,
@@ -465,7 +631,11 @@
     "benefit": "Supports thyroid hormone production, metabolism regulation, and healthy growth and development",
     "image": "I",
     "favorite": false,
-    "link": "/vitamininfo/iodine"
+    "link": "/vitamininfo/iodine",
+    "organs": [
+      "thyroid",
+      "metabolism"
+    ]
   },
   {
     "id": 40,
@@ -477,7 +647,11 @@
     "benefit": "Supports antioxidant defense, thyroid function, immune system health, and protects cells from oxidative damage",
     "image": "Se",
     "favorite": false,
-    "link": "/vitamininfo/selenium"
+    "link": "/vitamininfo/selenium",
+    "organs": [
+      "thyroid",
+      "immune"
+    ]
   },
   {
     "id": 41,
@@ -489,7 +663,10 @@
     "benefit": "Supports blood sugar regulation, enhances insulin activity, and aids macronutrient metabolism",
     "image": "Cr",
     "favorite": false,
-    "link": "/vitamininfo/chromium"
+    "link": "/vitamininfo/chromium",
+    "organs": [
+      "metabolism"
+    ]
   },
   {
     "id": 42,
@@ -501,7 +678,11 @@
     "benefit": "Supports enzyme function, helps break down harmful substances, and aids metabolism of sulfur-containing amino acids",
     "image": "Mo",
     "favorite": false,
-    "link": "/vitamininfo/molybdenum"
+    "link": "/vitamininfo/molybdenum",
+    "organs": [
+      "liver",
+      "metabolism"
+    ]
   },
   {
     "id": 43,
@@ -513,7 +694,10 @@
     "benefit": "Supports dental health by strengthening tooth enamel and helps prevent tooth decay",
     "image": "F",
     "favorite": false,
-    "link": "/vitamininfo/fluoride"
+    "link": "/vitamininfo/fluoride",
+    "organs": [
+      "bones"
+    ]
   },
   {
     "id": 44,
@@ -525,7 +709,12 @@
     "benefit": "Supports digestive health, helps regulate blood sugar levels, promotes satiety, and supports heart health",
     "image": "Fib",
     "favorite": false,
-    "link": "/vitamininfo/fiber"
+    "link": "/vitamininfo/fiber",
+    "organs": [
+      "digestion",
+      "heart",
+      "metabolism"
+    ]
   },
   {
     "id": 45,
@@ -537,7 +726,11 @@
     "benefit": "Supports muscle strength, energy production during high-intensity exercise, and athletic performance",
     "image": "Cr",
     "favorite": false,
-    "link": "/vitamininfo/creatine"
+    "link": "/vitamininfo/creatine",
+    "organs": [
+      "muscles",
+      "metabolism"
+    ]
   },
   {
     "id": 46,
@@ -549,7 +742,11 @@
     "benefit": "Supports gut health, digestion, immune function, and helps maintain a healthy balance of intestinal bacteria",
     "image": "Pro",
     "favorite": false,
-    "link": "/vitamininfo/probiotics"
+    "link": "/vitamininfo/probiotics",
+    "organs": [
+      "digestion",
+      "immune"
+    ]
   },
   {
     "id": 47,
@@ -561,7 +758,10 @@
     "benefit": "Helps protect cells from oxidative stress, supports immune health, and may reduce damage caused by free radicals",
     "image": "AOX",
     "favorite": false,
-    "link": "/vitamininfo/antioxidants"
+    "link": "/vitamininfo/antioxidants",
+    "organs": [
+      "immune"
+    ]
   },
   {
     "id": 48,
@@ -573,7 +773,10 @@
     "benefit": "Supports eye health, helps protect the retina from blue light, and may reduce the risk of age-related macular degeneration",
     "image": "Lut",
     "favorite": false,
-    "link": "/vitamininfo/lutein"
+    "link": "/vitamininfo/lutein",
+    "organs": [
+      "eyes"
+    ]
   },
   {
     "id": 49,
@@ -585,7 +788,10 @@
     "benefit": "Supports eye health, helps protect the retina from blue light and oxidative stress, and may reduce the risk of age-related macular degeneration",
     "image": "Zea",
     "favorite": false,
-    "link": "/vitamininfo/zeaxanthin"
+    "link": "/vitamininfo/zeaxanthin",
+    "organs": [
+      "eyes"
+    ]
   },
   {
     "id": 50,
@@ -597,7 +803,11 @@
     "benefit": "Supports brain function, memory, liver health, nerve signaling, and the production of cell membranes",
     "image": "Cho",
     "favorite": false,
-    "link": "/vitamininfo/choline"
+    "link": "/vitamininfo/choline",
+    "organs": [
+      "brain",
+      "liver"
+    ]
   },
   {
     "id": 51,
@@ -609,7 +819,11 @@
     "benefit": "Supports energy production in cells, heart health, antioxidant defense, and may help reduce fatigue and support healthy aging",
     "image": "CoQ10",
     "favorite": false,
-    "link": "/vitamininfo/coenzyme-q10"
+    "link": "/vitamininfo/coenzyme-q10",
+    "organs": [
+      "heart",
+      "metabolism"
+    ]
   },
   {
     "id": 52,
@@ -621,7 +835,12 @@
     "benefit": "Supports energy production by transporting fatty acids into mitochondria, promotes heart and muscle health, and may improve exercise performance and recovery",
     "image": "Car",
     "favorite": false,
-    "link": "/vitamininfo/l-carnitine"
+    "link": "/vitamininfo/l-carnitine",
+    "organs": [
+      "heart",
+      "muscles",
+      "metabolism"
+    ]
   },
   {
     "id": 53,
@@ -633,7 +852,13 @@
     "benefit": "Supports heart health, nervous system function, eye health, muscle performance, and helps regulate fluid and electrolyte balance",
     "image": "Tau",
     "favorite": false,
-    "link": "/vitamininfo/taurine"
+    "link": "/vitamininfo/taurine",
+    "organs": [
+      "heart",
+      "brain",
+      "eyes",
+      "muscles"
+    ]
   },
   {
     "id": 54,
@@ -645,7 +870,11 @@
     "benefit": "Acts as a powerful antioxidant, helps protect cells from oxidative stress, supports liver detoxification, immune function, and cellular health",
     "image": "GSH",
     "favorite": false,
-    "link": "/vitamininfo/glutathione"
+    "link": "/vitamininfo/glutathione",
+    "organs": [
+      "liver",
+      "immune"
+    ]
   },
   {
     "id": 55,
@@ -657,7 +886,11 @@
     "benefit": "Supports methylation processes in the body, helps regulate homocysteine levels, may support liver function, cellular hydration, and contribute to metabolic and exercise performance",
     "image": "BET",
     "favorite": false,
-    "link": "/vitamininfo/betaine"
+    "link": "/vitamininfo/betaine",
+    "organs": [
+      "liver",
+      "muscles"
+    ]
   },
   {
     "id": 56,
@@ -669,7 +902,11 @@
     "benefit": "A powerful antioxidant carotenoid that helps protect cells from oxidative stress, supports heart health, and may contribute to prostate health and skin protection from UV-related damage",
     "image": "LYC",
     "favorite": false,
-    "link": "/vitamininfo/lycopene"
+    "link": "/vitamininfo/lycopene",
+    "organs": [
+      "heart",
+      "skin"
+    ]
   },
   {
     "id": 57,
@@ -681,7 +918,12 @@
     "benefit": "A provitamin A carotenoid that acts as an antioxidant, supports vision, immune function, skin health, and serves as a precursor for vitamin A production in the body",
     "image": "BCA",
     "favorite": false,
-    "link": "/vitamininfo/beta-carotene"
+    "link": "/vitamininfo/beta-carotene",
+    "organs": [
+      "eyes",
+      "immune",
+      "skin"
+    ]
   },
   {
     "id": 58,
@@ -693,7 +935,10 @@
     "benefit": "A flavonoid antioxidant that helps reduce inflammation, supports immune function, may stabilize histamine release, and protects cells from oxidative stress",
     "image": "QRC",
     "favorite": false,
-    "link": "/vitamininfo/quercetin"
+    "link": "/vitamininfo/quercetin",
+    "organs": [
+      "immune"
+    ]
   },
   {
     "id": 59,
@@ -705,7 +950,11 @@
     "benefit": "Plant pigments with strong antioxidant activity that help protect cells from oxidative stress, support cardiovascular health, may improve vision, and contribute to anti-inflammatory effects",
     "image": "ANC",
     "favorite": false,
-    "link": "/vitamininfo/anthocyanins"
+    "link": "/vitamininfo/anthocyanins",
+    "organs": [
+      "heart",
+      "eyes"
+    ]
   },
   {
     "id": 60,
@@ -717,7 +966,12 @@
     "benefit": "Polyphenol antioxidants that help reduce oxidative stress, support heart health, may improve metabolism, and contribute to anti-inflammatory and neuroprotective effects",
     "image": "CAT",
     "favorite": false,
-    "link": "/vitamininfo/catechins"
+    "link": "/vitamininfo/catechins",
+    "organs": [
+      "heart",
+      "metabolism",
+      "brain"
+    ]
   },
   {
     "id": 61,
@@ -729,7 +983,10 @@
     "benefit": "A polyphenol antioxidant that helps protect cells from oxidative stress, supports cardiovascular health, may promote healthy aging pathways, and has anti-inflammatory properties",
     "image": "RSV",
     "favorite": false,
-    "link": "/vitamininfo/resveratrol"
+    "link": "/vitamininfo/resveratrol",
+    "organs": [
+      "heart"
+    ]
   },
   {
     "id": 62,
@@ -741,7 +998,10 @@
     "benefit": "Plant-derived sterols that help reduce cholesterol absorption in the intestines, support cardiovascular health, and contribute to maintaining healthy lipid levels",
     "image": "PTS",
     "favorite": false,
-    "link": "/vitamininfo/phytosterols"
+    "link": "/vitamininfo/phytosterols",
+    "organs": [
+      "heart"
+    ]
   },
   {
     "id": 63,
@@ -753,7 +1013,10 @@
     "benefit": "A naturally occurring compound that supports cartilage structure, helps maintain joint health, may reduce symptoms of osteoarthritis, and contributes to synovial fluid formation",
     "image": "GLU",
     "favorite": false,
-    "link": "/vitamininfo/glucosamine"
+    "link": "/vitamininfo/glucosamine",
+    "organs": [
+      "joints"
+    ]
   },
   {
     "id": 64,
@@ -765,7 +1028,10 @@
     "benefit": "A structural component of cartilage that helps maintain joint elasticity, supports cartilage hydration, may reduce joint pain and slow cartilage breakdown in osteoarthritis",
     "image": "CHN",
     "favorite": false,
-    "link": "/vitamininfo/chondroitin"
+    "link": "/vitamininfo/chondroitin",
+    "organs": [
+      "joints"
+    ]
   },
   {
     "id": 65,
@@ -777,7 +1043,12 @@
     "benefit": "The main structural protein in connective tissues that supports skin elasticity, joint and bone health, and contributes to the strength of tendons, ligaments, and hair",
     "image": "COL",
     "favorite": false,
-    "link": "/vitamininfo/collagen"
+    "link": "/vitamininfo/collagen",
+    "organs": [
+      "skin",
+      "bones",
+      "joints"
+    ]
   },
   {
     "id": 66,
@@ -789,7 +1060,11 @@
     "benefit": "Essential polyunsaturated fats that support brain function, skin health, growth and development, and play a role in inflammatory and metabolic processes in the body",
     "image": "OME6",
     "favorite": false,
-    "link": "/vitamininfo/omega-6"
+    "link": "/vitamininfo/omega-6",
+    "organs": [
+      "brain",
+      "skin"
+    ]
   },
   {
     "id": 67,
@@ -801,7 +1076,11 @@
     "benefit": "Non-essential monounsaturated fats that support heart health, help maintain healthy cholesterol levels, and contribute to energy metabolism and cell membrane function",
     "image": "OME9",
     "favorite": false,
-    "link": "/vitamininfo/omega-9"
+    "link": "/vitamininfo/omega-9",
+    "organs": [
+      "heart",
+      "metabolism"
+    ]
   },
   {
     "id": 68,
@@ -813,7 +1092,12 @@
     "benefit": "A semi-essential amino acid that supports nitric oxide production, improves blood flow, aids immune function, and contributes to muscle recovery and protein synthesis",
     "image": "ARG",
     "favorite": false,
-    "link": "/vitamininfo/arginine"
+    "link": "/vitamininfo/arginine",
+    "organs": [
+      "heart",
+      "immune",
+      "muscles"
+    ]
   },
   {
     "id": 69,
@@ -825,7 +1109,11 @@
     "benefit": "A sulfur-containing amino acid that supports antioxidant defense through glutathione production, aids detoxification, contributes to skin, hair, and nail structure, and supports protein synthesis",
     "image": "CYS",
     "favorite": false,
-    "link": "/vitamininfo/cysteine"
+    "link": "/vitamininfo/cysteine",
+    "organs": [
+      "liver",
+      "skin"
+    ]
   },
   {
     "id": 70,
@@ -837,7 +1125,12 @@
     "benefit": "A conditionally essential amino acid that supports muscle recovery, immune system function, gut health, and serves as a key energy source for rapidly dividing cells",
     "image": "GLN",
     "favorite": false,
-    "link": "/vitamininfo/glutamine"
+    "link": "/vitamininfo/glutamine",
+    "organs": [
+      "muscles",
+      "immune",
+      "digestion"
+    ]
   },
   {
     "id": 71,
@@ -849,7 +1142,12 @@
     "benefit": "A non-essential amino acid that supports collagen formation, neurotransmission, sleep quality, detoxification processes, and overall metabolic function",
     "image": "GLY",
     "favorite": false,
-    "link": "/vitamininfo/glycine"
+    "link": "/vitamininfo/glycine",
+    "organs": [
+      "skin",
+      "brain",
+      "liver"
+    ]
   },
   {
     "id": 72,
@@ -861,6 +1159,10 @@
     "benefit": "A non-essential amino acid that serves as a precursor for dopamine, norepinephrine, and thyroid hormones, supporting cognitive performance, mood regulation, and stress response",
     "image": "TYR",
     "favorite": false,
-    "link": "/vitamininfo/tyrosine"
+    "link": "/vitamininfo/tyrosine",
+    "organs": [
+      "brain",
+      "thyroid"
+    ]
   }
 ]
