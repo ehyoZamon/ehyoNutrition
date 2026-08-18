@@ -143,7 +143,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
 
       {showFilter && (
         <div className={styles["filter-bar"]}>
-          <div className={styles["organ-filter"]}>
+          <div className={styles["filter"]}>
             {ORGANS.map((organ) => (
               <button
                 key={organ.key}

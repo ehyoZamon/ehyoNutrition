@@ -247,3 +247,68 @@
   }
 }
 
+.organs-scroll {
+  width: 100%;
+  max-width: 320px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.organs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.organ-chip {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background: #f4f4f4;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 125%;
+  letter-spacing: -0.01em;
+  color: #555;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.organ-icon {
+  font-size: 14px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.organ-label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 125%;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.organ-chip-active {
+  background: #A3A0CA;
+  border-color: #A3A0CA;
+  color: #fff;
+}
+
+.organ-chip-active .organ-label {
+  color: #fff;
+}

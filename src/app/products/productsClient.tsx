@@ -12,27 +12,25 @@ import {
   FAVORITE_CATEGORY_FILTERS,
   isFavoriteCategory,
 } from "@/lib/productCategories";
+import { ORGANS, OrganKey } from "@/data/organs";
+import { scoreProductForOrgan } from "@/lib/organNutrients";
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
 import productDetailsRu from "@/data/ru/productDetails.json";
 import productDetailsEn from "@/data/en/productDetails.json";
 
-// Оптимизация 1: Выносим парсинг за пределы компонента.
-// Функция вызывается реже и не пересоздается.
 const normalizeAmount = (amount: string): number => {
   const value = parseFloat(amount);
   if (isNaN(value)) return 0;
   if (amount.includes("mg")) return value * 1000;
-  return value; // mcg или базовое значение
+  return value;
 };
 
-// Оптимизация 2: Выносим тяжелый сбор уникальных нутриентов.
-// Нам не нужно делать это внутри хуков компонента, данные статичны.
 const generateNutrientsList = (detailsData: any) => {
   const map = new Map<string, string>();
   const values = Object.values(detailsData);
-  
+
   for (let i = 0; i < values.length; i++) {
     const details = values[i] as any;
     const nutrients = [
@@ -60,12 +58,11 @@ const ProductsClient = () => {
 
   const [search, setSearch] = useState("");
   const [selectedNutrient, setSelectedNutrient] = useState<string | null>(null);
+  const [selectedOrgan, setSelectedOrgan] = useState<OrganKey | null>(null);
   const [showFilter, setShowFilter] = useState(false);
-  
-  // Храним только ID избранных товаров для мгновенного O(1) поиска
+
   const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
 
-  // Загружаем избранное один раз при маунте
   useEffect(() => {
     const store = loadFavorites();
     if (store?.products) {
@@ -73,22 +70,18 @@ const ProductsClient = () => {
     }
   }, []);
 
-  // Выбираем данные в зависимости от локали
   const { currentProductsData, productDetailsData } = useMemo(() => {
-    return locale === "ru" 
+    return locale === "ru"
       ? { currentProductsData: productsRu, productDetailsData: productDetailsRu }
       : { currentProductsData: productsEn, productDetailsData: productDetailsEn };
   }, [locale]);
 
-  // Статичный список нутриентов для селекта
   const nutrientsList = useMemo(() => {
     return generateNutrientsList(productDetailsData);
   }, [productDetailsData]);
 
-  // Оптимизация 3: Сборка карты продуктов с деталями (делаем ОДИН раз при смене языка)
   const productsWithDetails = useMemo(() => {
     return currentProductsData.map((product) => {
-      // Быстрое извлечение slug без лишних split, если структура ссылки предсказуема
       const slug = product.link.substring(product.link.lastIndexOf("/") + 1);
       const details = productDetailsData[slug as keyof typeof productDetailsData] as any;
 
@@ -119,7 +112,6 @@ const ProductsClient = () => {
     });
   }, [currentProductsData, productDetailsData]);
 
-  // Функция переключения избранного работает напрямую со стейтом ID
   const toggleFavorite = (id: number) => {
     const store = toggleProductFavorite(id);
     if (store?.products) {
@@ -127,7 +119,18 @@ const ProductsClient = () => {
     }
   };
 
-  // Оптимизация 4: Единый цикл фильтрации, сортировки и группировки
+  const handleOrganClick = (key: OrganKey) => {
+    setSelectedOrgan((prev) => (prev === key ? null : key));
+    setSelectedNutrient(null);
+    setShowFilter(false);
+  };
+
+  const handleNutrientChange = (value: string) => {
+    setSelectedNutrient(value || null);
+    setSelectedOrgan(null);
+    setShowFilter(false);
+  };
+
   const groupedProducts = useMemo(() => {
     const localeKey = locale === "ru" ? "ru" : "en";
     const allowedCategories = activeCategory
@@ -136,10 +139,9 @@ const ProductsClient = () => {
 
     const query = search.trim().toLowerCase();
 
-    // 1. Фильтруем базовый массив
-    let filtered = productsWithDetails.map(p => ({
+    let filtered = productsWithDetails.map((p) => ({
       ...p,
-      favorite: favoriteIds.includes(p.id) // Накладываем актуальный статус избранного на лету
+      favorite: favoriteIds.includes(p.id),
     }));
 
     if (allowedCategories) {
@@ -154,6 +156,22 @@ const ProductsClient = () => {
       );
     }
 
+    // 🫀 Фильтр по органу: считаем очки полезности и сортируем по убыванию
+    if (selectedOrgan) {
+      const scored = filtered
+        .map((p) => {
+          const { score, topNutrient } = scoreProductForOrgan(p.nutrientsMap as any, selectedOrgan);
+          return { ...p, organScore: score, organTopNutrient: topNutrient };
+        })
+        .filter((p) => p.organScore > 0)
+        .sort((a, b) => b.organScore - a.organScore);
+
+      const organInfo = ORGANS.find((o) => o.key === selectedOrgan)!;
+      const groupTitle = `${locale === "ru" ? organInfo.ru : organInfo.en}`;
+
+      return scored.length ? { [groupTitle]: scored } : {};
+    }
+
     if (selectedNutrient) {
       filtered = filtered
         .filter((p) => p.nutrientsMap[selectedNutrient])
@@ -164,7 +182,6 @@ const ProductsClient = () => {
         );
     }
 
-    // 2. Группируем за один проход
     const groups: Record<string, typeof filtered> = {};
     for (let i = 0; i < filtered.length; i++) {
       const product = filtered[i];
@@ -175,7 +192,7 @@ const ProductsClient = () => {
     }
 
     return groups;
-  }, [productsWithDetails, search, selectedNutrient, activeCategory, locale, favoriteIds]);
+  }, [productsWithDetails, search, selectedNutrient, selectedOrgan, activeCategory, locale, favoriteIds]);
 
   const categories = useMemo(() => Object.keys(groupedProducts), [groupedProducts]);
 
@@ -183,14 +200,7 @@ const ProductsClient = () => {
     <div className={styles["main-layout"]}>
       {/* 🔍 Поиск */}
       <div className={styles["search-container"]}>
-        <Image
-          src="/search.svg"
-          alt="search-icon"
-          width={16}
-          height={16}
-          className={styles["search-icon"]}
-        />
-
+        <Image src="/search.svg" alt="search-icon" width={16} height={16} className={styles["search-icon"]} />
         <input
           type="text"
           placeholder={t("searchPlaceholder")}
@@ -198,7 +208,6 @@ const ProductsClient = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-
         <Image
           src="/filter.svg"
           alt="filter"
@@ -209,16 +218,32 @@ const ProductsClient = () => {
         />
       </div>
 
-      {/* 🔽 Фильтр */}
+      {/* 🫀 Фильтр по органам */}
+      {showFilter && (
+      <div className={styles["organs-scroll"]}>
+      {ORGANS.map((organ) => (
+        <button
+          key={organ.key}
+          type="button"
+          className={`${styles["organ-chip"]} ${
+            selectedOrgan === organ.key ? styles["organ-chip-active"] : ""
+          }`}
+          onClick={() => handleOrganClick(organ.key)}
+        >
+          <span className={styles["organ-label"]}>
+            {locale === "ru" ? organ.ru : organ.en}
+          </span>
+        </button>
+      ))}
+    </div>)}
+
+      {/* 🔽 Фильтр по нутриенту */}
       {showFilter && (
         <div className={styles["filter-bar"]}>
           <select
             className={styles["filter-select"]}
             value={selectedNutrient || ""}
-            onChange={(e) => {
-              setSelectedNutrient(e.target.value || null);
-              setShowFilter(false);
-            }}
+            onChange={(e) => handleNutrientChange(e.target.value)}
           >
             <option value="">All nutrients</option>
             {nutrientsList.map((n) => (
@@ -251,28 +276,17 @@ const ProductsClient = () => {
 
               {groupedProducts[category].map((product: any) => (
                 <div className={styles["product"]} key={product.id}>
-                  <Link
-                    href={product.link}
-                    prefetch={false}
-                    className={styles["product-img-container"]}
-                  >
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      width={48}
-                      height={48}
-                    />
+                  <Link href={product.link} prefetch={false} className={styles["product-img-container"]}>
+                    <Image src={product.image} alt={product.name} width={48} height={48} />
                   </Link>
 
-                  <Link
-                    href={product.link}
-                    prefetch={false}
-                    className={styles["product-details"]}
-                  >
+                  <Link href={product.link} prefetch={false} className={styles["product-details"]}>
                     <div className={styles["product-name"]}>{product.name}</div>
                     <div className={styles["product-category"]}>{product.category}</div>
                     <div className={styles["product-calories"]}>
-                      {selectedNutrient
+                      {selectedOrgan && product.organTopNutrient
+                        ? `${product.organTopNutrient.name}: ${product.organTopNutrient.amount}`
+                        : selectedNutrient
                         ? `${product.nutrientsMap[selectedNutrient]?.name}: ${
                             product.nutrientsMap[selectedNutrient]?.amount || "-"
                           }`
@@ -280,10 +294,7 @@ const ProductsClient = () => {
                     </div>
                   </Link>
 
-                  <div
-                    className={styles["put-to-favorite"]}
-                    onClick={() => toggleFavorite(product.id)}
-                  >
+                  <div className={styles["put-to-favorite"]} onClick={() => toggleFavorite(product.id)}>
                     <Image
                       src={product.favorite ? "/heart-filled.svg" : "/heart.svg"}
                       alt="favorite"
@@ -297,12 +308,7 @@ const ProductsClient = () => {
           ))
         ) : (
           <div className={styles["empty-state"]}>
-            <Image
-              src="/nothing-found.svg"
-              alt="nothing-found"
-              width={48}
-              height={48}
-            />
+            <Image src="/nothing-found.svg" alt="nothing-found" width={48} height={48} />
             {t("nothingFound")}
           </div>
         )}
@@ -313,18 +319,8 @@ const ProductsClient = () => {
         <Link prefetch={false} className={styles["nav-link"]} href="/main">
           <Image src="/main/home.svg" alt="home" width={48} height={48} />
         </Link>
-        <Link
-          className={styles["nav-link"]}
-          href="/products"
-          aria-current="page"
-          prefetch={false}
-        >
-          <Image
-            src="/main/products-green.svg"
-            alt="products"
-            width={48}
-            height={48}
-          />
+        <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
+          <Image src="/main/products-green.svg" alt="products" width={48} height={48} />
         </Link>
         <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
           <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
