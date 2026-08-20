@@ -203,6 +203,9 @@ const FavoritesClient = () => {
         <Link prefetch={false} className={styles["nav-link"]} href="/products">
           <Image src="/main/products.svg" alt="products" width={48} height={48} />
         </Link>
+        <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+          <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
+        </Link>
         <Link prefetch={false}  className={styles["nav-link"]} href="/vitamins">
           <Image
             src="/main/antioxidant.svg"

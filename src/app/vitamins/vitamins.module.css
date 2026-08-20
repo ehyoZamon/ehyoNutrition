@@ -76,7 +76,7 @@
 }
 
 
-.filter-bar{
+.organ-filter-bar{
     width: 100%;
     max-width: 320px;
     flex-shrink: 0;
@@ -127,6 +127,10 @@
     transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
+.organ-chip-icon{
+    font-size: 14px;
+    line-height: 1;
+}
 
 .organ-chip-active{
     background: #A3A0CA;

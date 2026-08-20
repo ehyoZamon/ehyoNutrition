@@ -142,8 +142,8 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
       </div>
 
       {showFilter && (
-        <div className={styles["filter-bar"]}>
-          <div className={styles["filter"]}>
+        <div className={styles["organ-filter-bar"]}>
+          <div className={styles["organ-filter"]}>
             {ORGANS.map((organ) => (
               <button
                 key={organ.key}
@@ -253,6 +253,11 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
             width={48}
             height={48}
           />
+        </Link>
+
+        
+        <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+          <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
         </Link>
 
         <Link prefetch={false} className={styles["nav-link"]} href="#">
