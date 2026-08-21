@@ -21,10 +21,10 @@ export type DiaryProduct = {
 type AddFoodSheetProps = {
   open: boolean;
   onClose: () => void;
-  onAddProduct: (product: DiaryProduct) => void;
+  onSelectProduct: (product: DiaryProduct) => void;
 };
 
-const AddFoodSheet = ({ open, onClose, onAddProduct }: AddFoodSheetProps) => {
+const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => {
   const locale = useLocale();
   const [search, setSearch] = useState("");
 
@@ -85,7 +85,7 @@ const AddFoodSheet = ({ open, onClose, onAddProduct }: AddFoodSheetProps) => {
                   type="button"
                   className={styles["add-btn"]}
                   aria-label={`Add ${product.name}`}
-                  onClick={() => onAddProduct(product)}
+                  onClick={() => onSelectProduct(product)}
                 >
                   +
                 </button>
