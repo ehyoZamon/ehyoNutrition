@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Signika, Nunito, Inter } from "next/font/google";
 import LanguageProvider from "@/components/LanguageProvider"; // Импортируем наш провайдер
 import "./globals.css";
+import DBProvider from './providers/DBProvider';
 
 const signika = Signika({
   subsets: ["latin"],
@@ -62,10 +63,13 @@ export default function RootLayout({
         <meta name="color-scheme" content="light dark" />
       </head>
       <body>
+        
         {/* Оборачиваем все дочерние страницы в мультиязычный контекст */}
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <DBProvider>
+          <LanguageProvider>
+            {children}
+          </LanguageProvider>
+        </DBProvider>
       </body>
     </html>
   );

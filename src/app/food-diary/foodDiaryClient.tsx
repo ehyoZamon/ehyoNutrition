@@ -18,7 +18,7 @@ import {
 } from "date-fns";
 import styles from "./foodDiary.module.css";
 import DailyValueModule from "@/components/daily-value/dailyValueModule";
-
+import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 
 // ---- Types ----
 type DayTone = "green" | "coral" | "muted";
@@ -116,7 +116,8 @@ const foodDiaryClient = () => {
   const [viewMonth, setViewMonth] = useState(() => startOfMonth(new Date(2026, 7, 21)));
   const [selectedDate, setSelectedDate] = useState(() => new Date(2026, 7, 21));
   const [dailyValueData, setDailyValueData] = useState<Awaited<ReturnType<typeof getDailyValueData>> | null>(null);
-  
+  const [isAddSheetOpen, setIsAddSheetOpen] = useState(false);
+
   useEffect(() => {
     getDailyValueData().then(setDailyValueData);
   }, []);
@@ -156,6 +157,18 @@ const foodDiaryClient = () => {
 
   const removeEntry = (id: string) => {
     setEntryList((prev) => prev.filter((e) => e.id !== id));
+  };
+
+  const handleAddProduct = (product: DiaryProduct) => {
+    setEntryList((prev) => [
+      ...prev,
+      {
+        id: `${product.id}-${Date.now()}`, // временный уникальный id для UI
+        emoji: product.image,
+        label: product.name,
+        amount: "100g", // заглушка, пока нет ввода количества
+      },
+    ]);
   };
 
   return (
@@ -229,6 +242,7 @@ const foodDiaryClient = () => {
             ))}
           </div>
         </div>
+        
 
         {/* Today's / selected day intake */}
         <h2 className={styles["intake-title"]}>
@@ -259,12 +273,22 @@ const foodDiaryClient = () => {
           )}
         </div>
 
-        <button type="button" className={styles["add-button"]}>
+        <button
+          type="button"
+          className={styles["add-button"]}
+          onClick={() => setIsAddSheetOpen(true)}
+        >
           Add to Daily Intake
         </button>
 
         {dailyValueData && <DailyValueModule {...dailyValueData} />}
       </div>
+
+      <AddFoodSheet
+        open={isAddSheetOpen}
+        onClose={() => setIsAddSheetOpen(false)}
+        onAddProduct={handleAddProduct}
+      />
 
       {/* 🔽 Навигация */}
       <div className={styles["navigation"]}>
@@ -286,6 +310,9 @@ const foodDiaryClient = () => {
       </div>
     </div>
   );
+
+  
 };
+
 
 export default foodDiaryClient;
