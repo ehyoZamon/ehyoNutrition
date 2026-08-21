@@ -32,7 +32,7 @@ type FoodEntry = {
 
 // ---- Demo data: entries keyed by yyyy-MM-dd ----
 const DEMO_ENTRIES: Record<string, FoodEntry[]> = {
-  "2026-08-20": [
+  "2026-08-21": [
     { id: "1", emoji: "/products/apple.png", label: "Apples", amount: "100g" },
     { id: "2", emoji: "/products/egg.png", label: "Eggs", amount: "2 pieces (100 g)" },
     { id: "3", emoji: "/products/broccoli.png", label: "Boy chock", amount: "150 g" },
@@ -63,6 +63,7 @@ const DEMO_TONES: Record<string, DayTone> = {
   "2026-08-17": "green",
   "2026-08-18": "green",
   "2026-08-19": "green",
+  "2026-08-20": "green",
 };
 
 function getDayTone(date: Date, viewMonth: Date): DayTone {
@@ -112,8 +113,8 @@ async function getDailyValueData() {
 
 
 const foodDiaryClient = () => {
-  const [viewMonth, setViewMonth] = useState(() => startOfMonth(new Date(2026, 7, 20)));
-  const [selectedDate, setSelectedDate] = useState(() => new Date(2026, 7, 20));
+  const [viewMonth, setViewMonth] = useState(() => startOfMonth(new Date(2026, 7, 21)));
+  const [selectedDate, setSelectedDate] = useState(() => new Date(2026, 7, 21));
   const [dailyValueData, setDailyValueData] = useState<Awaited<ReturnType<typeof getDailyValueData>> | null>(null);
   
   useEffect(() => {
@@ -159,8 +160,8 @@ const foodDiaryClient = () => {
 
   return (
     <div className={styles["main-layout"]}>
+      <h1 className={styles["page-title"]}>Food Diary</h1>
       <div className={styles["content"]}>
-        <h1 className={styles["page-title"]}>Food Diary</h1>
 
         {/* Calendar */}
         <div className={styles["calendar"]}>
