@@ -3,7 +3,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations} from "next-intl";
 import styles from "./quantitySheet.module.css";
 import { DiaryProduct } from "./addFoodSheet";
 
@@ -23,6 +23,7 @@ type QuantitySheetProps = {
 
 const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) => {
   const locale = useLocale();
+  const t = useTranslations("FoodDiary");
 
   const productDetailsData = useMemo(() => {
     return locale === "ru" ? productDetailsRu : productDetailsEn;
@@ -90,10 +91,10 @@ const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) =>
 
         <div className={styles["actions"]}>
           <button type="button" className={styles["cancel-btn"]} onClick={onClose}>
-            Cancel
+            {t("cancelBtn")}
           </button>
           <button type="button" className={styles["add-btn"]} onClick={handleAdd}>
-            Add
+            {t("addBtn")}
           </button>
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 import React from "react";
 import styles from "./dailyValue.module.css";
+import {useTranslations} from "next-intl";
 
 /* ============================================================
    Fixed structure — which nutrients exist never changes,
@@ -186,13 +187,14 @@ export default function DailyValueModule({
   mineralsOverallPercent = 0,
   mineralPercents = {},
 }: DailyValueModuleProps) {
+  const t = useTranslations("FoodDiary");
   return (
     <div className={styles["dashboard"]}>
-      <h1 className={styles["dashboard-title"]}>Daily value</h1>
+      <h1 className={styles["dashboard-title"]}>{t("dailyValue")}</h1>
 
       {/* Vitamins */}
       <section className={styles["section"]}>
-        <SectionHeader title="Vitamins" percent={vitaminsOverallPercent} />
+        <SectionHeader title={t("vitaminsSection")} percent={vitaminsOverallPercent} />
         <LinearBar percent={vitaminsOverallPercent} color="var(--dv-orange)" />
 
         <div className={styles["ring-row-lg"]}>
@@ -220,20 +222,20 @@ export default function DailyValueModule({
 
       {/* Calories */}
       <section className={styles["section"]}>
-        <SectionHeader title="Calories" percent={caloriesPercent} />
+        <SectionHeader title={t("calories")} percent={caloriesPercent} />
         <LinearBar percent={caloriesPercent} color="var(--dv-green)" />
       </section>
 
       {/* Macronutrients */}
       <section className={`${styles["section"]} ${styles["macronutrients-section"]}`}>
-        <SectionHeader title="Macronutrients" percent={macrosOverallPercent} />
+        <SectionHeader title={t("macronutrientsSection")} percent={macrosOverallPercent} />
         <LinearBar percent={macrosOverallPercent} color="var(--dv-coral)" />
 
         <div className={styles["ring-row-lg"]}>
           {MACRO_ITEMS.map((m) => (
             <CircleRing
               key={m.key}
-              label={m.label}
+              label={t(m.key)}
               percent={macroPercents[m.key] ?? 0}
               size={64}
             />
@@ -243,12 +245,12 @@ export default function DailyValueModule({
 
       {/* Minerals */}
       <section className={styles["section"]}>
-        <SectionHeader title="Minerals" percent={mineralsOverallPercent} />
+        <SectionHeader title={t("mineralsSection")} percent={mineralsOverallPercent} />
         <LinearBar percent={mineralsOverallPercent} color="var(--dv-coral)" />
 
         <div className={styles["vbar-row"]}>
           {MINERAL_ITEMS.map((m) => (
-            <VerticalBar key={m.key} label={m.label} percent={mineralPercents[m.key] ?? 0} />
+            <VerticalBar key={m.key} label={t(m.key)} percent={mineralPercents[m.key] ?? 0} />
           ))}
         </div>
       </section>

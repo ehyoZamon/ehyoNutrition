@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   addMonths,
   subMonths,
@@ -17,11 +17,13 @@ import {
   isSameMonth,
   format,
 } from "date-fns";
+import { ru, enUS } from "date-fns/locale";
 import styles from "./foodDiary.module.css";
 import DailyValueModule from "@/components/daily-value/dailyValueModule";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
 import { computeDailyValueData } from "@/lib/dailyValue";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 import {
   addDiaryEntry,
@@ -65,7 +67,7 @@ const FoodDiaryClient = () => {
   const [isAddSheetOpen, setIsAddSheetOpen] = useState(false);
   const [isQuantitySheetOpen, setIsQuantitySheetOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<DiaryProduct | null>(null);
-
+const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Локализованные данные продуктов ----
   const productMap = useMemo(() => {
     const list = (locale === "ru" ? productsRu : productsEn) as DiaryProduct[];
@@ -224,16 +226,17 @@ const FoodDiaryClient = () => {
     setSelectedProduct(null);
   };
 
+  const t = useTranslations("FoodDiary");
   return (
     <div className={styles["main-layout"]}>
-      <h1 className={styles["page-title"]}>Food Diary</h1>
+      <h1 className={styles["page-title"]}>{t("title")}</h1>
       <div className={styles["content"]}>
 
         {/* Calendar */}
         <div className={styles["calendar"]}>
           <div className={styles["calendar-header"]}>
             <span className={styles["calendar-month-label"]}>
-              {format(viewMonth, "LLLL yyyy")}
+              {format(viewMonth, "LLLL yyyy", { locale: dateFnsLocale })}
             </span>
             <div className={styles["calendar-nav"]}>
               <button type="button" aria-label="Previous month" className={styles["calendar-nav-btn"]} onClick={goPrevMonth}>
@@ -247,7 +250,7 @@ const FoodDiaryClient = () => {
 
           <div className={styles["calendar-weekdays"]}>
             {WEEKDAYS.map((wd) => (
-              <span key={wd} className={styles["calendar-weekday"]}>{wd}</span>
+              <span key={wd} className={styles["calendar-weekday"]}>{t(`weekdays.${wd}`)}</span>
             ))}
           </div>
 
@@ -286,7 +289,7 @@ const FoodDiaryClient = () => {
 
         {/* Today's / selected day intake */}
         <h2 className={styles["intake-title"]}>
-          {isToday(selectedDate) ? "Today\u2019s Intake" : `Intake — ${format(selectedDate, "d MMM")}`}
+          {isToday(selectedDate) ? t("todaysIntake") : `${t("intake")} — ${format(selectedDate, "d MMM")}`}
         </h2>
 
         <div className={styles["intake-list"]}>
@@ -309,7 +312,7 @@ const FoodDiaryClient = () => {
             </div>
           ))}
           {entryList.length === 0 && (
-            <p className={styles["intake-empty"]}>No entries for this day.</p>
+            <p className={styles["intake-empty"]}>{t("noEntries")}</p>
           )}
         </div>
 
@@ -319,7 +322,7 @@ const FoodDiaryClient = () => {
             className={styles["add-button"]}
             onClick={() => setIsAddSheetOpen(true)}
           >
-            Add to Daily Intake
+            {t("addFoodButton")}
           </button>
         )}
 

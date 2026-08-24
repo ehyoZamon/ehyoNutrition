@@ -3,11 +3,12 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import styles from "./addFoodSheet.module.css";
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
+
 
 export type DiaryProduct = {
   id: number;
@@ -44,8 +45,11 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
   }, [productsData, search]);
 
   // Сбрасываем поиск при каждом открытии, чтобы не тащить старый запрос
+  const t = useTranslations("FoodDiary");
+  
   if (!open) return null;
 
+  
   return (
     <div className={styles["overlay"]} onClick={onClose}>
       <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
@@ -59,7 +63,7 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
           />
           <input
             type="text"
-            placeholder="Search food"
+            placeholder={t("searchPlaceholder")}
             className={styles["search-input"]}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
@@ -94,13 +98,13 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
           ) : (
             <div className={styles["empty-state"]}>
               <Image src="/nothing-found.svg" alt="nothing-found" width={48} height={48} />
-              Nothing found
+              {t("nothingFound")}
             </div>
           )}
         </div>
 
         <button type="button" className={styles["close-btn"]} onClick={onClose}>
-          Close
+          {t("closeBtn")}
         </button>
       </div>
     </div>
