@@ -63,7 +63,7 @@ const NUTRIENT_SLUG_MAP: Record<string, { category: Category; key: string }> = {
 
 function extractDVPercent(amount: string | undefined): number | null {
   if (!amount) return null;
-  const match = amount.match(/([\d.]+)\s*%\s*DV/i);
+  const match = amount.match(/([\d.]+)\s*%\s*(?:DV|СН)/i);
   return match ? parseFloat(match[1]) : null;
 }
 
@@ -73,14 +73,12 @@ function extractDVPercent(amount: string | undefined): number | null {
 function getBaseGrams(macroTitle: string | undefined): number {
   const title = macroTitle || "";
 
-  const compoundMatch = title.match(/per\s+[\d.]+\s*(?:pieces?|pcs|шт\.?)\s*[/(]?\s*([\d.]+)\s*(g|г|ml|мл)/i);
-  if (compoundMatch) return parseFloat(compoundMatch[1]);
-
-  const simpleMatch = title.match(/per\s+([\d.]+)\s*(g|г|ml|мл)/i);
-  if (simpleMatch) return parseFloat(simpleMatch[1]);
+  const match = title.match(/(?:per|на)\s+([\d.]+)\s*(g|г|ml|мл)/i);
+  if (match) return parseFloat(match[1]);
 
   return 100; // фолбэк
 }
+
 
 type DiaryEntryInput = {
   productId: number;

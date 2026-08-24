@@ -13,31 +13,36 @@ export type ServingInfo = {
 export function parseServingInfo(macroTitle: string | undefined): ServingInfo {
   const title = macroTitle || "";
 
+  // На случай если в будущем в данные добавят штучные продукты
   const compoundMatch = title.match(
-    /per\s+([\d.]+)\s*(pieces?|pcs|шт\.?)\s*[/(]?\s*([\d.]+)\s*(g|г|ml|мл)/i
+    /(?:per|на)\s+([\d.]+)\s*(pieces?|pcs|шт\.?)\s*[/(]?\s*([\d.]+)\s*(g|г|ml|мл)/i
   );
   if (compoundMatch) {
     const count = parseFloat(compoundMatch[1]);
     const totalGrams = parseFloat(compoundMatch[3]);
     return {
       mode: "count",
-      unit: "pieces",
+      unit: compoundMatch[2].toLowerCase().startsWith("шт") ? "шт" : "pieces",
       baseAmount: count,
       gramsPerUnit: count > 0 ? totalGrams / count : totalGrams,
     };
   }
 
-  const simpleMatch = title.match(/per\s+([\d.]+)\s*(g|г|ml|мл)/i);
+  const simpleMatch = title.match(/(?:per|на)\s+([\d.]+)\s*(g|г|ml|мл)/i);
   if (simpleMatch) {
+    const unitRaw = simpleMatch[2].toLowerCase();
+    const isRussian = unitRaw === "г" || unitRaw === "мл";
+    const isMl = unitRaw === "ml" || unitRaw === "мл";
     return {
       mode: "weight",
-      unit: simpleMatch[2].toLowerCase().startsWith("m") ? "ml" : "g",
+      unit: isMl ? (isRussian ? "мл" : "ml") : (isRussian ? "г" : "g"),
       baseAmount: parseFloat(simpleMatch[1]),
     };
   }
 
   return { mode: "weight", unit: "g", baseAmount: 100 };
 }
+
 
 // Обратное преобразование: граммы из БД -> человекочитаемая строка
 export function formatAmountLabel(grams: number, servingInfo: ServingInfo): string {
