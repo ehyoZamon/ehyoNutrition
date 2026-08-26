@@ -183,8 +183,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
   const goPrevMonth = () => setViewMonth((m) => subMonths(m, 1));
   const goNextMonth = () => setViewMonth((m) => addMonths(m, 1));
-
+  
   const removeEntry = async (id: number) => {
+    if (!isToday(selectedDate)) return; // страховка: удаление доступно только для сегодняшнего дня
+
     const dateStr = format(selectedDate, "yyyy-MM-dd");
     try {
       await deleteDiaryEntry(id, dateStr);
@@ -194,7 +196,6 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       console.error("Не удалось удалить запись:", e);
     }
   };
-
   const handleSelectProduct = (product: DiaryProduct) => {
     setSelectedProduct(product);
     setIsAddSheetOpen(false);
@@ -301,14 +302,16 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                   {entry.label} - {entry.amount}
                 </span>
               </div>
-              <button
-                type="button"
-                aria-label={`Remove ${entry.label}`}
-                className={styles["intake-remove-btn"]}
-                onClick={() => removeEntry(entry.id)}
-              >
-                <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
-              </button>
+              {isToday(selectedDate) && (
+                <button
+                  type="button"
+                  aria-label={`Remove ${entry.label}`}
+                  className={styles["intake-remove-btn"]}
+                  onClick={() => removeEntry(entry.id)}
+                >
+                  <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
+                </button>
+              )}
             </div>
           ))}
           {entryList.length === 0 && (
