@@ -1,0 +1,124 @@
+{
+  "slug": "amaranth-groats",
+  "name": "Amaranth Groats",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/amaranth-groats.png",
+  "imageAlt": "dry raw amaranth seeds in a rustic small wooden scoop on a dark textured background",
+  "description": "Amaranth groats are an ancient, completely gluten-free pseudocereal substrate derived from the dense, nutrient-packed seeds of Amaranthus cruentus or Amaranthus hypochondriacus. Highly distinct from traditional cereal grains, amaranth features a radically superior amino acid matrix centered around optimal concentrations of lysine. Enriched with squalene—a critical lipid-soluble antioxidant—and dense soluble fibers, it delivers phenomenal vascular endothelial protection and complete, non-reactive peptide absorption.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked groats)",
+  "macroIntro": "Amaranth exhibits a heavily balanced, protein-dense macronutrient matrix, combining premium essential peptides with high-quality unsaturated fatty acids and complex, slow-releasing starches.",
+  "microIntro": "The amaranth seed houses an incredibly rich biochemical micro-matrix, boasting extraordinary volumes of squalene, organic iron, structural magnesium, and tissue-building calcium.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~371 kcal",
+      "bg": "#15837c",
+      "description": "A high-efficiency energy payload that provides continuous mitochondrial fuel, driven by highly accessible complex starches and dense lipid reserves."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.6 grams",
+      "bg": "#f5722c",
+      "description": "A structurally superior plant protein framework holding a complete amino acid profile, remarkably rich in lysine, which facilitates rapid cellular repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "7.0 grams",
+      "bg": "#e4a910",
+      "description": "An expanded, healthy lipid profile dominated by linoleic fatty acid fractions and functional biological compounds like squalene."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "65.3 grams",
+      "bg": "#1a96cd",
+      "description": "Formed of fine-grained complex starches embedded within a robust, multi-branched dietary fiber web (~6.7g) that prevents swift glucose spikes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "squalene",
+      "slug": "squalene",
+      "name": "Squalene",
+      "amount": "300 - 400 mg",
+      "bg": "#15837c",
+      "description": "A powerful bio-active hydrocarbon antioxidant that acts as a natural skin shield, traps oxygen at the cellular level, and stabilizes lipid profiles."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "248 mg / 62% DV",
+      "bg": "#f5722c",
+      "description": "A massive intracellular mineral deposit that systematically balances nervous transmission, reduces vascular tension, and powers ATP synthesis."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "7.6 mg / 42% DV",
+      "bg": "#66ab63",
+      "description": "An exceptionally dense trace element cache essential for validating systemic hemoglobin counts and managing oxygen transport cascades."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "557 mg / 45% DV",
+      "bg": "#1a96cd",
+      "description": "An abundant structural mineral required for driving cellular energy exchanges and maintaining genetic DNA/RNA phosphate backbones."
+    },
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "159 mg / 12% DV",
+      "bg": "#e4a910",
+      "description": "An unusually high mineral yield for a grain-like seed, critical for fortifying bone mineral densities and regulating neuromuscular triggers."
+    },
+    {
+      "id": 45,
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "508 mg / 11% DV",
+      "bg": "#66ab63",
+      "description": "Vital for maintaining electrolyte balance, cellular communication, and healthy blood pressure."
+    },
+    {
+      "id": 46,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6",
+      "amount": "0.59 mg / 35% DV",
+      "bg": "#1a96cd",
+      "description": "Facilitates amino acid metabolism, red blood cell synthesis, and neurochemical stability."
+    },
+    {
+      "id": 47,
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "4.2 mg / 5% DV",
+      "bg": "#e4a910",
+      "description": "A gentle antioxidant dose supporting collagen production and tissue-level cellular protection."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gluten-Free Enterocyte Security:</b> Naturally completely free of prolamin gluten fractions, it permits clean, non-inflammatory nutrient assimilation for individuals with celiac tissue profiles.",
+    "<b>Squalene Cellular Oxygenation:</b> Exceptional <b>squalene</b> concentrations neutralize free radicals within deep tissues, promoting rapid dermal healing and optimizing oxygen delivery loops.",
+    "<b>Complete Peptide Re-Synthesis:</b> Massive <b>lysine</b> thresholds allow the body to utilize the plant protein fully without encountering amino acid bottlenecking, driving efficient muscle repair.",
+    "<b>Cardiovascular Tension Reduction:</b> Heavy structural reserves of <b>magnesium</b> actively coordinate smooth vascular muscle relaxation, assisting in the management of normal arterial tension.",
+    "<b>Hematopoiesis Stabilization:</b> Prominent concentrations of highly bioavailable <b>iron</b> stimulate erythropoiesis, expanding systemic red blood cell counts to conquer fatigue states."
+  ],
+  "precautionsIntro": "Oxalate Crystal Aggregations, Raw Saponin Antinutrient Buffers, and Gastrointestinal Adaptation Thresholds: Strategic thermal boiling secures metabolic safety.",
+  "precautions": [
+    "<b>Oxalate Mediated Renal Load:</b> Amaranth contains measurable amounts of organic oxalates. Individuals with established calcium-oxalate kidney stone backgrounds must regulate portion scales and integrate optimal hydration protocols.",
+    "<b>Raw Saponin and Phytate Complexes:</b> The exterior coating of the seeds carries mild saponin bitters and phytic structures that can decrease trace element absorption. Thorough pre-rinsing and extended boiling completely deactivates these elements.",
+    "<b>Intestinal Adaptation to Dense Fiber:</b> Due to its dense, highly concentrated fiber and lipid matrix, unmanaged consumption can precipitate temporary bloating, soft stools, or mild cramping in sensitive gastrointestinal tracts."
+  ]
+}

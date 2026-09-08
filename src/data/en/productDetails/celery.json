@@ -1,0 +1,108 @@
+{
+  "slug": "celery",
+  "name": "Celery",
+  "category": "Vegetables",
+  "image": "/productinfo/celery.png",
+  "imageAlt": "green celery stalks",
+  "description": "Celery represents a highly functional, hydro-dense vegetative phytomatrix belonging to the Apiaceae family, distinguished by its sparse thermodynamic profile combined with specialized secondary metabolites, including flavones (apigenin, luteolin) and unique benzofuran derivatives (phthalides). It operates as an active natural regulator of systemic hemodynamics and extracellular fluid volume, exhibiting pronounced anti-inflammatory, secretomotor, and vascular smooth muscle-relaxing effects. This cohesive botanical structure optimizes endothelial nitric oxide pathways, accelerates tissue edematous fluid clearance via renal tubular modulation, and preserves cellular membrane integrity with minimal metabolic load.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh stalk)",
+  "macroIntro": "The macronutrient configuration of fresh celery stalks features an exceptionally low caloric distribution, pairing a dominant aqueous phase with unrefined structural polysaccharides to optimize gut volume metrics without glycemic distress.",
+  "microIntro": "As a specialized succulent bio-accumulator, the fresh celery matrix concentrates critical fat-soluble vitamins, monovalent mineral electrolytes, and bio-active volatile compounds essential for cardioprotective and systemic cell signaling cascades.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "16 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "An exceptionally sparse energy payload that facilitates volumetric dietary expansion, allowing high satiety feedback without adding cumulative weight-gaining lipids or sugars."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.7 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "Comprises trace structural vegetative peptide complexes and free non-protein nitrogen structures, providing negligible substrate values for systemic nitrogen pools."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A virtually absent lipid footprint, consisting only of minor functional cuticular plant waxes and surface cell membrane phospholipids."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.0 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Represented by low-molecular simple sugars locked within a rigid lattice of non-starch carbohydrates, inducing a neutral postprandial insulinotropic response."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 23,
+      "name": "Vitamin K (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "29.3 mcg / 24% DV",
+      "bg": "#15837c",
+      "description": "An essential fat-soluble enzyme cofactor critical for gamma-glutamyl carboxylase operations, steering standard blood coagulation loops and osteocalcin bone mineralization."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "260 mg / 6% DV",
+      "bg": "#f5722c",
+      "description": "A vital monovalent intracellular electrolyte driving proper myofibrillar cell resting potentials, mitigating excessive sodium tension, and safeguarding vascular tone compliance."
+    },
+    {
+      "id": 105,
+      "name": "Apigenin",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#66ab63",
+      "description": "A specialized bioactive flavone that actively downregulates pro-inflammatory cytokines, binds free radicals, and limits cellular oxidative damage markers."
+    },
+    {
+      "id": 106,
+      "name": "Phthalides (3-n-Butylphthalide)",
+      "slug": "compounds",
+      "amount": "Unique Compounds",
+      "bg": "#e4a910",
+      "description": "Unique volatile compounds that modulate calcium ion channels in vascular smooth muscle walls, leading to lumen expansion and reduced peripheral tension."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "1.6 g / 6% DV",
+      "bg": "#1a96cd",
+      "description": "Consists of highly hydrophilic structural cellulose and lignin matrices that mechanically guide intestinal chyme clearance and support local microbiota."
+    },
+    {
+      "id": 30,
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "80 mg / 3% DV",
+      "bg": "#1a96cd",
+      "description": "An essential extracellular cation natively balanced within the stalk juice, working in tandem with potassium to regulate osmotic pressure and neural transmission."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Vascular Smooth Muscle Relaxation and Hemodynamic Buffering:</b> Active phthalides (primarily 3-n-butylphthalide) lower tyrosine hydroxylase action, blocking catecholamine-induced vasoconstriction to effectively dilate arterial lumen and lower systemic blood pressure.",
+    "<b>Osmotic Fluid Regulation and Aquaporin Optimization:</b> The combination of native monovalent ions ($K^+$ and $Na^+$) coupled with volatile terpenoids stimulates renal cortical filtration, driving sodium-linked diuresis and reducing interstitial edematous swelling.",
+    "<b>Suppression of Systemic Inflammatory Cascades:</b> Bioactive flavones (apigenin and luteolin) downregulate the expression of inducible nitric oxide synthase (iNOS) and cyclooxygenase-2 (COX-2), arresting intracellular pro-inflammatory signaling pathways.",
+    "<b>Gastrointestinal Hydro-Volumetric Motility:</b> The high water content (approx. 95%) bound with insoluble hemicellulose strings expands luminal chyme volume, maximizing mechanical peristaltic triggers and lubricating mucosal transitions."
+  ],
+  "precautionsIntro": "Notwithstanding its exceptional profile as a low-calorie metabolic enhancer, the presence of specific powerful allergens and uterine stimulants in celery demands precision under certain clinical conditions.",
+  "precautions": [
+    "<b>Severe Cross-Reactive IgE Hypersensitivity:</b> Celery contains highly heat-stable allergen proteins (such as Api g 1) capable of triggering intense IgE-mediated immune cascades, potentially culminating in anaphylactic shock, frequently crossing with mugwort and birch pollens.",
+    "<b>Uterine Smooth Muscle Stimulation in Pregnancy:</b> Concentrated celery derivatives, particularly essential oils and seed fractions, carry notable concentrations of apiol, an aromatic compound known to induce uterine smooth muscle contractions and pelvic hyperemia, creating risks during gestation.",
+    "<b>Dermal Phototoxicity and Psoralen Exposure:</b> Celery matrices harbor linear furanocoumarins (psoralens) that can bind to epithelial DNA; upon exposure to ultraviolet radiation, they may trigger localized photodermatitis or hyperpigmentation.",
+    "<b>Renal Solute Overload in Acute Pathologies:</b> The elevated native sodium content alongside active diuretic essential oils mandates controlled intake in patients suffering from advanced stages of chronic kidney disease (CKD) to prevent electrolyte imbalances."
+  ]
+}

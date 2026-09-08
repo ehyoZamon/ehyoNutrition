@@ -1,0 +1,124 @@
+{
+  "slug": "corn-grits",
+  "name": "Corn Grits",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/corn-grits.png",
+  "imageAlt": "dry golden corn grits in a rustic wooden bowl with dried corn ears in the background",
+  "description": "Corn grits are a clean, gluten-free carbohydrate substrate processed from the milled endosperm of dried Zea mays kernels. Globally valued for its excellent digestive tolerance and complete absence of prolamine allergenic complexes, this golden grain serves as an exceptional source of slow-releasing energy. Rich in complex starchy matrices and structural carotenoids, it provides clean metabolic fueling while preserving gastrointestinal boundary integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked grits)",
+  "macroIntro": "Corn grits display a robust carbohydrate-dense macronutrient matrix, structuralized primarily by complex starches that deliver sustained, incremental systemic glucose loading.",
+  "microIntro": "Corn grits deliver a distinct biochemical micro-matrix, offering solid stores of neural B-complex vitamins, metabolic phosphorus, and lipid-soluble lutein carotenoids.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~360 kcal",
+      "bg": "#15837c",
+      "description": "A dense, high-efficiency caloric reservoir providing stable, long-lasting glycogen replenishment for active skeletal and organic systems."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "8.3 grams",
+      "bg": "#f5722c",
+      "description": "Contains plant peptides consisting primarily of zein fractions, offering an inherently gluten-free, non-reactive nitrogen source."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.2 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid footprint featuring minor polyunsaturated fatty acid fractions, preventing rancidity and optimizing vascular safety limits."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "77.5 grams",
+      "bg": "#1a96cd",
+      "description": "Composed almost entirely of complex, slow-digesting starches balanced by a protective layer of insoluble structural plant fiber (~3.9g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "lutein-zeaxanthin",
+      "slug": "lutein-zeaxanthin",
+      "name": "Lutein & Zeaxanthin",
+      "amount": "Carotenoid fraction",
+      "bg": "#15837c",
+      "description": "Lipid-soluble yellow xanthophyll pigments that specifically accumulate within human ocular tissues to insulate against high-energy light damage."
+    },
+    {
+      "id": "vitamin-b1",
+      "slug": "vitamin-b1",
+      "name": "Vitamin B1 (Thiamin)",
+      "amount": "0.38 mg / 32% DV",
+      "bg": "#f5722c",
+      "description": "A critical enzymatic cofactor required for carbohydrate decarboxylation loops and accelerating neurological ATP conversion cascades."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "120 mg / 10% DV",
+      "bg": "#66ab63",
+      "description": "An essential structural macro-mineral required for validating bone density matrix parameters and synthesizing cellular phospholipid membranes."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.22 mg / 13% DV",
+      "bg": "#1a96cd",
+      "description": "An organic cofactor that facilitates structural amino acid transamination pathways and supports normal neurotransmitter balancing routines."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "32 mg / 8% DV",
+      "bg": "#e4a910",
+      "description": "An abundant intracellular cation operating as a vital cofactor for muscular relaxation kinetics and systemic energy management loops."
+    },
+    {
+      "id": 34,
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "2.7 mg / 15% DV",
+      "bg": "#f5722c",
+      "description": "Supports oxygen transportation throughout the body and assists in mitochondrial energy production."
+    },
+    {
+      "id": 32,
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "150 mg / 3% DV",
+      "bg": "#66ab63",
+      "description": "Crucial for maintaining fluid balance, nerve signals, and proper muscle contractions."
+    },
+    {
+      "id": 31,
+      "slug": "niacin",
+      "name": "Niacin (Vitamin B3)",
+      "amount": "1.9 mg / 12% DV",
+      "bg": "#1a96cd",
+      "description": "Plays a vital role in converting nutrients into energy and supporting skin, nerve, and digestive health."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gluten-Free Enterocyte Preservation:</b> Naturally completely devoid of wheat-type gluten proteins, it allows secure mucosal regeneration in celiac or non-celiac gluten-sensitive bowel environments.",
+    "<b>Incremental Glycogen Loading:</b> The intricate structural starch network releases glucose molecule strings gradually, preventing rapid, destabilizing plasma insulin surges.",
+    "<b>Retinal Macular Micro-Shielding:</b> Substantial concentrations of bioavailable <b>lutein</b> actively concentrate inside the retina, serving as a functional shield against progressive macular breakdown.",
+    "<b>Neuro-Metabolic Energy Catalysis:</b> Wealthy reserves of <b>Thiamin (B1)</b> accelerate the systematic conversion of ingested carbohydrates into clean, usable cellular energy substrate.",
+    "<b>Peristaltic Mechanical Cleanse:</b> Plentiful insoluble <b>hemicellulose fiber</b> fractions absorb localized GI fluids to expand stool bulk, promoting consistent, toxic-clearing bowel clearance kinetics."
+  ],
+  "precautionsIntro": "Elevated Starchy Glycemic Mass, Essential Lysine Amino Acid Deficiencies, and Fine Particle Culinary Hydration Controls: Strategic macro allocation maximizes performance.",
+  "precautions": [
+    "<b>High Glycemic Index When Overprocessed:</b> Finely ground or overcooked corn porridge quickly gelatinizes, causing accelerated starch conversion that can spike glucose curves in uncompensated diabetic profiles.",
+    "<b>Incomplete Essential Peptide Profile:</b> Corn protein is highly deficient in essential amino acids like <b>lysine and tryptophan</b>. Relying on it as a single mono-protein base can trigger amino acid imbalances if not coupled with legumes or animal foods.",
+    "<b>Industrial Phytate Mineral Binding:</b> Unrefined corn grains carry natural phytic acid complexes that can chelate iron and zinc. Utilizing optimal soaking or slow thermal simmering methods completely neutralizes these binding structures."
+  ]
+}

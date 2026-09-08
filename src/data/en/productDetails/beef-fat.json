@@ -1,0 +1,84 @@
+{
+  "slug": "beef-fat",
+  "name": "Beef Tallow",
+  "category": "Fats and Oils",
+  "image": "/productinfo/beef-fat.png",
+  "imageAlt": "rendered pure traditional beef tallow block in a jar",
+  "description": "Beef tallow is a highly stable animal lipid matrix composed of triglycerides rich in saturated and monounsaturated fatty acids. Renowned for its biochemical heat resistance, it provides a dense metabolic fuel source, CLA, and fat-soluble vitamins that reinforce cellular structures and metabolic homeostasis.",
+  "macroTitle": "Macro Nutrients (per 100g, rendered)",
+  "macroIntro": "A pure, water-free hydrophobic lipid profile isolated from proteins and carbohydrates.",
+  "microIntro": "A lipophilic matrix containing specialized fatty acids and antioxidants supporting metabolic health.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "902 kcal / 45% DV",
+      "bg": "#15837c",
+      "description": "Maximal energy density serving as a sustained non-glycemic fuel reserve."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "100.0 g / 128% DV",
+      "bg": "#e4a910",
+      "description": "Robust matrix: ~50% saturated, ~45% monounsaturated, ~5% polyunsaturated."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 171,
+      "name": "Stearic Acid",
+      "slug": "stearic-acid",
+      "amount": "19.0 g",
+      "bg": "#15837c",
+      "description": "Unique saturated fatty acid neutral to hepatic LDL receptor expression."
+    },
+    {
+      "id": 164,
+      "name": "Oleic Acid (Omega-9)",
+      "slug": "oleic-acid",
+      "amount": "40.0 g",
+      "bg": "#66ab63",
+      "description": "Monounsaturated acid preserving vascular endothelial flexibility."
+    },
+    {
+      "id": 172,
+      "name": "Conjugated Linoleic Acid (CLA)",
+      "slug": "cla",
+      "amount": "Bioactive",
+      "bg": "#f5722c",
+      "description": "Ruminant isomer linked to lean tissue preservation and immune modulation."
+    },
+    {
+      "id": 166,
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "slug": "vitamin-e",
+      "amount": "2.7 mg / 18% DV",
+      "bg": "#1a96cd",
+      "description": "Lipid-soluble antioxidant protecting cellular membranes."
+    },
+    {
+      "id": 170,
+      "name": "Dietary Cholesterol",
+      "slug": "cholesterol",
+      "amount": "109 mg",
+      "bg": "#e4a910",
+      "description": "Sterol precursor for steroid hormones and Vitamin D synthesis."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Thermal Stability:</b> Massive smoke point (~210°C) prevents toxic aldehyde formation.",
+    "<b>CLA Delivery:</b> Modulates inflammation and supports metabolic lean tissue maintenance.",
+    "<b>Lipophilic Transport:</b> Improves bioavailability of vitamins A, D, E, K.",
+    "<b>Membrane Reinforcement:</b> Provides essential fatty acid matrix for lipid bilayers.",
+    "<b>Non-Insulinogenic:</b> Pure triglyceride stream promotes stable ketogenesis."
+  ],
+  "precautionsIntro": "Considerations for caloric density and source quality:",
+  "precautions": [
+    "<b>Caloric Excess:</b> High energy density necessitates portion control to prevent surplus.",
+    "<b>Saturated Lipid Markers:</b> Moderate consumption to manage potential shifts in LDL/ApoB levels.",
+    "<b>Sourcing:</b> Prioritize pasture-raised, grass-fed tallow to minimize accumulation of environmental lipophilic toxins."
+  ]
+}

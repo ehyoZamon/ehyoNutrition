@@ -1,0 +1,107 @@
+{
+  "slug": "pear",
+  "name": "Pear",
+  "category": "Fruits & Berries",
+  "image": "/productinfo/pear.png",
+  "imageAlt": "fresh sweet pear",
+  "description": "Pear (Pyrus communis) is a structurally elegant pome fruit valued for its rich content of soluble dietary fibers, specifically pectin, and an elite electrolyte profile. This botanical matrix, enriched with flavonols and essential trace minerals, is engineered to optimize gastrointestinal transit, support cardiovascular hemodynamics, and maintain systemic hydration through precise metabolic interactions.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "A clean, low-density carbohydrate architecture characterized by significant fiber payload and negligible lipid content, promoting stable glycemic kinetics.",
+  "microIntro": "A balanced micronutrient matrix providing foundational Vitamin C, copper, and potassium, which facilitate cellular fluid homeostasis and structural tissue integrity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "57 kcal / 3% DV",
+      "bg": "#15837c",
+      "description": "Low energy density providing high volumetric satiety with minimal metabolic loading."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.4 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "Minimalist plant-derived protein content characteristic of crisp pome fruits."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 g / 0.1% DV",
+      "bg": "#e4a910",
+      "description": "Negligible lipid baseline, supporting ultra-low-fat nutritional frameworks."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "15.2 g / 6% DV",
+      "bg": "#15837c",
+      "description": "Complex carbohydrates balanced by dense dietary fiber (~3g), facilitating gradual glucose absorption curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "116 mg / 3% DV",
+      "bg": "#66ab63",
+      "description": "Intracellular electrolyte essential for fluid homeostasis and vascular smooth muscle tone regulation."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "4.3 mg / 5% DV",
+      "bg": "#1a96cd",
+      "description": "Antioxidant cofactor required for endogenous collagen synthesis and free-radical stress neutralization."
+    },
+    {
+      "id": 145,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.08 mg / 9% DV",
+      "bg": "#15837c",
+      "description": "Trace catalyst essential for iron absorption, tissue elasticity, and structural collagen cross-linking."
+    },
+    {
+      "id": 142,
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "4.4 mcg / 4% DV",
+      "bg": "#e4a910",
+      "description": "Regulator of blood coagulation factors and skeletal calcium-binding protein synthesis."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "7 mg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "Supports ATP stability and enzymatic transfers essential for neuromuscular relaxation."
+    },
+    {
+      "id": 24,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.2 mg / 1% DV",
+      "bg": "#f5722c",
+      "description": "Non-heme iron supporting baseline hemoglobin production and cellular oxygenation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Kinematics:</b> High pectin density optimizes bowel transit mechanics and bolsters gut microbiome diversity.",
+    "<b>Vascular Architecture:</b> Potassium profiles assist in arterial tension reduction and systemic blood pressure stabilization.",
+    "<b>Glycemic Modulation:</b> Flavonols within the fruit peel synergize with fiber to enhance insulin sensitivity.",
+    "<b>Structural Collagen Support:</b> Trace copper and Vitamin C facilitate robust dermal turnover and internal tissue repair."
+  ],
+  "precautionsIntro": "Digestive sensitivity and ripening considerations for metabolic management:",
+  "precautions": [
+    "<b>Fructose/Sorbitol Sensitivity:</b> High concentrations of fermentable carbohydrates may induce bloating in individuals with IBS or fructose malabsorption.",
+    "<b>Mechanical Irritation (Sclereids):</b> The gritty stone cells (sclereids) near the core may mechanically irritate inflamed mucosal linings in patients with acute gastritis.",
+    "<b>Glycemic Transmutation:</b> The transition from firm to over-ripe involves starch-to-sugar conversion; insulin-sensitive individuals should prefer firmer, less mature fruit."
+  ]
+}

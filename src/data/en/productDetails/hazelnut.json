@@ -1,0 +1,107 @@
+{
+  "slug": "hazelnut",
+  "name": "Hazelnut",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/hazelnut.png",
+  "imageAlt": "hazelnut",
+  "description": "Hazelnut (Corylus avellana) represents the seed of a deciduous shrub, functioning as a high-energy botanical matrix packed with monounsaturated lipids, specific amino acid profiles, and robust mineral clusters. Structurally, the kernel is an dense array of oleic acid triglycerides shielded by a fibrous skin rich in proanthocyanidin polyphenols. This superfood operates as a potent neuroprotective and metabolic modulator, leveraging its lipid-soluble antioxidant capacity to preserve vascular endothelial integrity and drive skeletal matrix cross-linking, while providing sustained fuel for cognitive energy requirements.",
+  "macroTitle": "Macro Nutrients (per 100g, raw kernels)",
+  "macroIntro": "The macronutrient profile is characterized by a high thermodynamic density dominated by oleic-rich lipids, structural plant proteins, and a slow-release carbohydrate-fiber matrix.",
+  "microIntro": "A critically dense reservoir of trace minerals and fat-soluble antioxidants essential for neutralizing intracellular oxidative cascades.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "628 kcal / 31% DV",
+      "bg": "#15837c",
+      "description": "Significant caloric payload originating from the complete beta-oxidation of long-chain fatty acids."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "15.0 g / 30% DV",
+      "bg": "#f5722c",
+      "description": "A valuable plant-based amino acid profile rich in L-arginine, a critical precursor for endothelial nitric oxide production."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "60.8 g / 78% DV",
+      "bg": "#e4a910",
+      "description": "Lipid fraction dominated by monounsaturated oleic acid, which maintains cell membrane fluidity and cardiovascular homeostasis."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "16.7 g / 6% DV",
+      "bg": "#15837c",
+      "description": "A complex botanical saccharide array providing steady-state glucose substrates alongside high-density insoluble structural fibers."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 110,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "9.7 g / 35% DV",
+      "bg": "#66ab63",
+      "description": "A sophisticated structural cellulose and lignin matrix that regulates mechanical gastrointestinal transit and postprandial insulinemia."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin E (Tocopherol)",
+      "slug": "vitamin-e",
+      "amount": "15.0 mg / 100% DV",
+      "bg": "#66ab63",
+      "description": "A primary lipid-soluble antioxidant that protects cellular phospholipid bilayers from lipid peroxidation."
+    },
+    {
+      "id": 34,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "6.2 mg / 270% DV",
+      "bg": "#f5722c",
+      "description": "A critical enzymatic cofactor for superoxide dismutase, directly neutralizing reactive mitochondrial oxygen species."
+    },
+    {
+      "id": 35,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "1.7 mg / 190% DV",
+      "bg": "#e4a910",
+      "description": "An essential transition metal cofactor for lysyl oxidase, which facilitates cross-linking of structural collagen and elastin proteins."
+    },
+    {
+      "id": 33,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "163 mg / 41% DV",
+      "bg": "#1a96cd",
+      "description": "A fundamental intracellular cation modulating nerve transmission, muscle relaxation, and stabilized adenosine triphosphate synthesis."
+    },
+    {
+      "id": 19,
+      "name": "Vitamin B1 (Thiamine)",
+      "slug": "thiamine",
+      "amount": "0.6 mg / 50% DV",
+      "bg": "#15837c",
+      "description": "A coenzyme driving the decarboxylation of alpha-keto acids, facilitating rapid energy metabolism within the central nervous system."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Neuroprotective and Cognitive Enhancement:</b> High-dose tocopherols and thiamine synergistically protect neuronal mitochondrial membranes, facilitating superior signal transduction and long-term synaptic integrity.",
+    "<b>Cardiovascular Lipid Homeostasis:</b> Oleic acid and structural fibers act in concert to decrease low-density lipoprotein (LDL) oxidation, preserving arterial lumen elasticity.",
+    "<b>Endogenous Antioxidant Supercharging:</b> The massive manganese content activates intracellular superoxide dismutase (SOD) systems, providing a systemic defense against chronic oxidative degradation.",
+    "<b>Skeletal and Connective Tissue Matrix Support:</b> High concentrations of copper and magnesium enable the robust cross-linking of bone proteins and cartilage fibers, reinforcing structural rigidity."
+  ],
+  "precautionsIntro": "The high caloric and lipid density requires precise nutritional integration, alongside the management of potential anti-nutritional and biological variables:",
+  "precautions": [
+    "<b>Severe Allergic Reactivity:</b> The kernel contains potent tree nut proteins capable of triggering life-threatening anaphylactic responses in sensitized phenotypes.",
+    "<b>Phytic Acid Mineral Sequestration:</b> High concentrations of phytic acid in the raw state may reduce the bio-availability of divalent cations like iron and zinc, a risk mitigated by thermal processing or soaking.",
+    "<b>Aflatoxin and Fungal Proliferation:</b> Improper moisture management during storage creates a high-risk matrix for Aspergillus flavus colonization and subsequent secondary mycotoxin (aflatoxin) accumulation."
+  ]
+}

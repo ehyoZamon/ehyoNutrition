@@ -1,0 +1,100 @@
+{
+  "slug": "cod-liver-oil",
+  "name": "Cod Liver Oil",
+  "category": "Fats & Oils",
+  "image": "/productinfo/cod-liver-oil.png",
+  "imageAlt": "cod liver oil dropping from a spoon",
+  "description": "Cod liver oil is an elite, therapeutic marine lipid whole food matrix. Extracted directly from the nutrient-dense livers of Atlantic cod, it distinguishes itself from standard fish oils by integrating an extraordinary, hyper-bioavailable concentration of fat-soluble Vitamins A and D3 alongside a massive payload of long-chain Omega-3 fatty acids (EPA and DHA), serving as a premier dietary resource for neurological stamina, systemic anti-inflammatory signaling, and ocular shield maintenance.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient framework of unrefined cod liver oil delivers a pure, high-potency marine lipid profile engineered for rapid cellular membrane assimilation, nervous system insulation, and direct endocrine raw material supply.",
+  "microIntro": "Cod liver oil houses a spectacular, uniquely concentrated pool of preformed fat-soluble vitamins and marine polyunsaturated fatty acids that run master structural, immune, and cardiovascular loops.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "902 kcal / 45% DV",
+      "bg": "#15837c",
+      "description": "An exceptionally dense biological energy source composed entirely of pure structural marine lipids, providing highly efficient fat fuel for cellular respiration."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#f5722c",
+      "description": "Completely free of proteins, fibers, or amino acid fractions, isolating its therapeutic utility entirely within the body's lipid-soluble pathways."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "100.0 g / 128% DV",
+      "bg": "#e4a910",
+      "description": "An elite marine lipid matrix heavily dominated by vital, long-chain polyunsaturated omega-3 fatty acids that maintain healthy systemic membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Contains absolute zero carbohydrates or sugars, ensuring zero impact on postprandial glucose fluctuations or insulin shifts."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 12,
+      "name": "Vitamin A (Preformed Retinol)",
+      "slug": "vitamin-a",
+      "amount": "30,000 mcg RAE / 3333% DV",
+      "bg": "#15837c",
+      "description": "A phenomenal concentration of preformed, highly active retinol, serving as a core driver for mucosal immunity, tissue repair, and deep retinal health."
+    },
+    {
+      "id": 23,
+      "name": "Vitamin D3 (Cholecalciferol)",
+      "slug": "vitamin-d",
+      "amount": "250 mcg / 1250% DV",
+      "bg": "#f5722c",
+      "description": "An astronomical natural pool of Cholecalciferol, acting as a master steroidal hormone cofactor for systemic immune calibration and bone matrix density."
+    },
+    {
+      "id": 65,
+      "name": "DHA (Docosahexaenoic Acid)",
+      "slug": "epa-dha",
+      "amount": "11.0 g",
+      "bg": "#66ab63",
+      "description": "A dense concentration of long-chain omega-3, representing a foundational structural component of cerebral cortex phospholipids and retinal membranes."
+    },
+    {
+      "id": 64,
+      "name": "EPA (Eicosapentaenoic Acid)",
+      "slug": "epa-dha",
+      "amount": "9.0 g",
+      "bg": "#e4a910",
+      "description": "A massive pool of marine-bound fatty acid that acts as a direct enzymatic precursor to anti-inflammatory series-3 prostaglandins, keeping blood vessels clear."
+    },
+    {
+      "id": 25,
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "slug": "vitamin-e",
+      "amount": "20.0 mg / 133% DV",
+      "bg": "#1a96cd",
+      "description": "Provides natural alpha-tocopherol that serves to shield the delicate internal polyunsaturated marine double-bonds from localized oxidative degradation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Profound Neurological Insulation & Signaling:</b> Massive concentrations of marine DHA fuse straight into brain cell phospholipid layers, accelerating synaptic processing speed, preserving myelin integrity, and clearing cognitive fatigue paths.",
+    "<b>Advanced Endocrine & Bone Matrix Crystallization:</b> Unparalleled natural reserves of Vitamin D3 drive high-caliber intestinal absorption of calcium, working in perfect coordination with systemic minerals to secure density within the bone matrix.",
+    "<b>Systemic Anti-Inflammatory Signaling Cascades:</b> Substantial pools of EPA effortlessly displacement pro-inflammatory arachidonic acid in cellular linings, suppressing cyclooxygenase (COX) pathways to downregulate vascular and joint tension.",
+    "<b>Ocular Matrix Defense & Mucosal Shielding:</b> The hyper-dense presence of preformed Retinol (Vitamin A) rapidly replenishes rhodopsin stores in the retina, stabilizing night vision pathways while aggressively fortifying respiratory and gut immune boundaries."
+  ],
+  "precautionsIntro": "While unrefined cod liver oil operates as an unmatched therapeutic lipid asset, its extreme fat-soluble vitamin concentrations and delicate marine bonds require exact tracking parameters.",
+  "precautions": [
+    "<b>Clinical Risk of Vitamin A & D Hypervitaminosis:</b> Because it holds an exceptionally high, preformed fat-soluble vitamin architecture, unmonitored excessive chronic ingestion can trigger toxic storage accumulation in the liver, necessitating strict portion tracking.",
+    "<b>Extreme Sensitivity to Thermal Oxidation:</b> Due to the fragile long-chain polyunsaturated structures of EPA and DHA, cod liver oil has an incredibly low thermal baseline and is completely destroyed by cooking heat, which mutates clean marine lipids into toxic lipid peroxides. Consume strictly cold.",
+    "<b>Rapid Atmospheric Degradation (Rancidity):</b> Direct exposure to oxygen, light, or ambient temperature triggers rapid oxidative decay, destroying its clean omega-3 fractions. Storing the oil in tightly sealed, dark amber bottles entirely within a refrigerated environment is mandatory.",
+    "<b>Anti-Coagulation Blood Modification:</b> The significant blood-thinning capabilities of high-dose marine EPA/DHA can extend bleeding times. Individuals preparing for major surgical interventions or undergoing pharmaceutical anti-coagulant treatment (like Warfarin) must track intake closely."
+  ]
+}

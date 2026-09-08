@@ -1,0 +1,108 @@
+{
+  "slug": "yogurt",
+  "name": "Plain Greek Yogurt (Low-Fat)",
+  "category": "Dairy & Eggs",
+  "image": "/productinfo/yogurt.png",
+  "imageAlt": "plain greek yogurt",
+  "description": "Greek yogurt is a premier, fermented dairy whole food matrix. Subjected to extensive straining to eliminate excess liquid whey, it yields a highly concentrated distribution of complete micellar caseins and whey proteins, alongside millions of live, transient probiotics and highly bioavailable bone-building minerals, serving as an elite functional resource for gastrointestinal optimization, skeletal remodeling, and muscle tissue preservation.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient architecture of strained Greek yogurt features an exceptional protein density paired with a low, controlled glycemic and lipid footprint, engineered for sustained metabolic satiety and continuous cellular repair.",
+  "microIntro": "Greek yogurt houses a rich, bio-active matrix of essential intracellular electrolytes, fat-soluble and water-soluble vitamins, and active organic acids that drive master enzymatic and structural loops.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "73 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "Provides efficient, nutrient-dense biological energy focused heavily on structural amino acid delivery rather than excess adipose storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "10.0 g / 20% DV",
+      "bg": "#f5722c",
+      "description": "An elite animal-derived complete protein matrix, rich in branched-chain amino acids (BCAAs) to drive continuous skeletal muscle synthesis and cellular remodeling."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.9 g / 2% DV",
+      "bg": "#e4a910",
+      "description": "A low-density lipid profile containing valuable short- and medium-chain fatty acids, plus conjugated linoleic acid (CLA) that supports baseline metabolic parameters."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.6 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Composed primarily of trace residual milk sugars (lactose), yielding an exceptionally flat postprandial blood glucose and insulin signature."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 33,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "110 mg / 11% DV",
+      "bg": "#15837c",
+      "description": "A highly absorbable mineral pool complexed with lactic acid, driving rapid bone matrix crystallization and proper neuromuscular signaling loops."
+    },
+    {
+      "id": 98,
+      "name": "Live Cultures (Probiotics)",
+      "slug": "probiotics",
+      "amount": "Millions CFU",
+      "bg": "#f5722c",
+      "description": "Active, transient beneficial bacteria (such as *L. bulgaricus* and *S. thermophilus*) that colonize the digestive lumen to regulate immune barriers."
+    },
+    {
+      "id": 26,
+      "name": "Vitamin B12 (Cobalamin)",
+      "slug": "vitamin-b12",
+      "amount": "0.6 mcg / 25% DV",
+      "bg": "#66ab63",
+      "description": "An essential animal-bound coenzyme critical for the preservation of neural myelin sheaths, red blood cell synthesis, and DNA replication cascades."
+    },
+    {
+      "id": 34,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "135 mg / 11% DV",
+      "bg": "#e4a910",
+      "description": "Works in a strict physiological coordination loop with calcium to support structural bone density and maintain cellular ATP energy configurations."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "141 mg / 3% DV",
+      "bg": "#1a96cd",
+      "description": "A vital intracellular electrolyte that modulates smooth resting vascular tension, fluids equilibrium, and nerve signaling lines."
+    },
+    {
+      "id": 17,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "0.14 mg / 11% DV",
+      "bg": "#1a96cd",
+      "description": "An indispensable cofactor driving the mitochondrial electron transport chain to convert macro-nutrients into usable biological cellular energy."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Profound Gastrointestinal Ecosystem Regulation:</b> Millions of active live cultures directly reinforce the intestinal mucosal barrier, competitively displacing pathogenic bacteria and modulating local immune signaling lines.",
+    "<b>Elite Muscle Architecture & Recovery:</b> Strained Greek yogurt packs double the protein of regular yogurt, yielding a dense pool of slow-digesting micellar casein that fuels long-term amino acid delivery and lean tissue repair.",
+    "<b>Advanced Skeletal Remodeling Loop:</b> The direct chemical synergy between bioavailable Calcium and Phosphorus triggers hyper-efficient osteoblast activity, securing structural minerals into the bone matrix.",
+    "<b>Glycemic and Metabolic Saturation:</b> The combination of high complete proteins and native lactic acid heavily delays gastric emptying parameters, yielding a low insulin response while promoting profound satiety."
+  ],
+  "precautionsIntro": "Even though fermented Greek yogurt operates as a premier health asset, its specific dairy properties and commercial manufacturing variances dictate exact integration parameters.",
+  "precautions": [
+    "<b>Residual Lactose and Dairy Sensitivities:</b> While the straining process eliminates the vast majority of liquid whey and a high percentage of lactose, individuals navigating severe clinical lactose intolerance or immunoglobin-mediated milk protein (casein) allergies must monitor their tolerance thresholds or enforce zero-exposure parameters.",
+    "<b>Commercial Added Sugar Exploitation:</b> Many commercially distributed flavored yogurts are aggressively augmented with high volumes of processed sucrose or high-fructose corn syrup, completely neutralizing its low-glycemic, metabolic advantages. Selecting strictly plain, unflavored varieties is highly required.",
+    "<b>Active Probiotic Thermal Degradation:</b> Exposing active yogurt to high temperatures during cooking or baking cascades completely denatures and kills the live probiotic cultures, stripping away its foundational microflora-modulating benefits.",
+    "<b>Renal Phosphorus Accumulation Balance:</b> Because of the concentrated mineral and phosphorus density characteristic of strained dairy, individuals managing advanced chronic kidney disease (CKD) should calibrate their portion allocations to protect renal filtration lines."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "corn",
+  "name": "Corn",
+  "category": "Vegetables & Grains",
+  "image": "/productinfo/corn.png",
+  "imageAlt": "corn",
+  "description": "Corn is a vibrant, carbohydrate-rich vegetable and cereal grain. Highly regarded for its exceptional content of protective macular carotenoids like lutein and zeaxanthin, it provides a functional balance of dietary fibers and B-vitamins to sustain physical stamina and ocular health.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "86 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "A moderate-energy starchy vegetable that provides sustained, reliable fuel for muscular work and cellular respiration."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.2 g / 6% DV",
+      "bg": "#f5722c",
+      "description": "Contains a notable amount of plant proteins for a vegetable, including zein, though it should be paired with legumes for a complete amino profile."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.2 g / 2% DV",
+      "bg": "#e4a910",
+      "description": "Naturally very low in fat, containing trace heart-healthy monounsaturated and polyunsaturated fatty acids within the grain germ."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "19.0 g / 7% DV",
+      "bg": "#15837c",
+      "description": "Primarily composed of complex starches and natural simple sugars, offering structured energy management to prevent rapid glucose spikes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 7,
+      "name": "Vitamin B1 (Thiamin)",
+      "slug": "vitamin-b1",
+      "amount": "0.15 mg / 13% DV",
+      "bg": "#1a96cd",
+      "description": "An essential coenzyme involved in carbohydrate metabolic cascades, crucial for optimizing cognitive drive and nervous system communication."
+    },
+    {
+      "id": 12,
+      "name": "Vitamin B9 (Folate)",
+      "slug": "vitamin-b9",
+      "amount": "42.0 mcg / 11% DV",
+      "bg": "#66ab63",
+      "description": "Vital for cellular division, nucleotide synthesis, and erythrocyte maturation, playing a protective role in cardiovascular tissue health."
+    },
+    {
+      "id": 31,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "37.0 mg / 9% DV",
+      "bg": "#15837c",
+      "description": "Assists in enzymatic cellular stabilization, supporting muscular relaxation, bone health, and smooth cardiac electrical performance."
+    },
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "6.8 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Provides antioxidant assistance, neutralizing surface free radicals and supporting natural immune tissue integrity."
+    },
+    {
+      "id": 44,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "2.7 g / 11% DV",
+      "bg": "#f5722c",
+      "description": "Mainly insoluble fibers that add mechanical volume to the stool matrix, accelerating intestinal transit and supporting digestive regularity."
+    },
+    {
+      "id": 59,
+      "name": "Lutein",
+      "slug": "lutein",
+      "amount": "342 mcg",
+      "bg": "#e4a910",
+      "description": "A critical antioxidant pigment that concentrates in the retinal tissues, filtering out harmful high-energy blue light and counteracting oxidative breakdown."
+    },
+    {
+      "id": 60,
+      "name": "Zeaxanthin",
+      "slug": "zeaxanthin",
+      "amount": "300 mcg",
+      "bg": "#0288d1",
+      "description": "Deposits directly into the central macula, working alongside lutein to safeguard visual sharpness and shield photoreceptor health."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Targeted Macular Defense:</b> The high density of lutein and zeaxanthin acts as natural \"internal sunglasses,\" shielding retinal cells against oxidative blue light exposure and slowing macular breakdown.",
+    "<b>Sustained Glycemic Energy:</b> Its complex starch matrix, balanced by dietary fibers, results in steady metabolic glucose release, preventing sudden insulin crashes when eaten in whole form.",
+    "<b>Enhanced Bowel Motility:</b> Rich in insoluble plant fiber, corn swells within the intestinal tract, physically sweeping the colon lining, boosting peristalsis, and preventing general sluggishness.",
+    "<b>Neuro-Metabolic Support:</b> Substantial amounts of Thiamin (B1) support cellular energy pathways, optimizing memory mechanics and structural peripheral nerve health."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>Starchy Glycemic Load Factors:</b> Corn contains significantly more carbohydrates than leafy or watery vegetables. Individuals managing Type 2 diabetes or tracking precise glycemic parameters should control serving volumes to avoid unexpected postprandial glucose shifts.",
+    "<b>Insoluble Outer Husk Toughness:</b> The clear cellulose shell wrapping each individual kernel is structurally un-digestible by human stomach acid. Improperly chewed corn can pass entirely intact, causing gas, mild cramps, or bloating in sensitive digestive tracts.",
+    "<b>Hidden Syrups & Ultra-Processed Additives:</b> While whole sweet corn is highly therapeutic, refined commercial corn offshoots—such as High-Fructose Corn Syrup (HFCS) or processed corn starch—lack all fibers and minerals, severely aggravating metabolic liver pathways.",
+    "<b>Fungal Mycotoxin Contamination:</b> If stored in poorly ventilated, high-humidity corporate grain silos, corn crops can easily develop mold strains producing aflatoxins. Always consume freshly cooked or properly sealed, verified retail products."
+  ]
+}

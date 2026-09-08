@@ -1,0 +1,108 @@
+{
+  "slug": "pigeon-pea",
+  "name": "Pigeon Pea",
+  "category": "Legumes",
+  "image": "/productinfo/pigeon-pea.png",
+  "imageAlt": "dry raw organic pigeon peas",
+  "description": "Pigeon peas are a high-performance legume valued as an elite plant protein substrate. Their dense nutritional profile, rich in complex starches, dietary fiber, and bioactive B-complex vitamins, is engineered to reinforce cardiovascular tone, facilitate efficient hematopoiesis, and regulate systemic glucose kinetics.",
+  "macroTitle": "Macro Nutrients (per 100g, raw dry seeds)",
+  "macroIntro": "A nutrient-heavy architecture featuring a robust protein payload and an expansive complex carbohydrate matrix.",
+  "microIntro": "A highly bioavailable micronutrient matrix yielding exceptional concentrations of vitamins and metabolic minerals essential for tissue synthesis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "343 kcal / 17% DV",
+      "bg": "#15837c",
+      "description": "Clean, sustained-release energy source for optimal metabolic function."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "21.7 g / 43% DV",
+      "bg": "#f5722c",
+      "description": "Robust plant-based foundation rich in essential amino acids for tissue repair."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.5 g / 2% DV",
+      "bg": "#e4a910",
+      "description": "Minimalist lipid layout comprising essential polyunsaturated fatty acids."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "62.8 g / 23% DV",
+      "bg": "#15837c",
+      "description": "Complex starch framework with structural fiber (~15g) to moderate glucose absorption."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 157,
+      "name": "Folate (Vitamin B9)",
+      "slug": "folate",
+      "amount": "456 mcg / 114% DV",
+      "bg": "#66ab63",
+      "description": "Powers DNA/RNA replication loops and ensures proper cellular synthesis."
+    },
+    {
+      "id": 148,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "367 mg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "Reinforces bone mineral matrices and drives ATP-mediated energy storage."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "183 mg / 44% DV",
+      "bg": "#f5722c",
+      "description": "Coordinates neuromuscular firing and stabilizes vascular smooth muscle."
+    },
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "1392 mg / 30% DV",
+      "bg": "#15837c",
+      "description": "Intracellular electrolyte payload essential for systemic blood pressure regulation."
+    },
+    {
+      "id": 24,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "5.2 mg / 29% DV",
+      "bg": "#66ab63",
+      "description": "Non-heme mineral layer maintaining erythrocyte production and oxygen transport."
+    },
+    {
+      "id": 36,
+      "name": "Vitamin B1 (Thiamine)",
+      "slug": "thiamine",
+      "amount": "0.64 mg / 53% DV",
+      "bg": "#1a96cd",
+      "description": "Coenzyme catalyzing pyruvate pathways for efficient carbohydrate-to-energy conversion."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Erythrocyte Production:</b> Synergistic folate and iron intake drives optimal hemoglobin synthesis.",
+    "<b>Vascular Relaxation:</b> High potassium and magnesium volumes induce vasodilation, stabilizing blood pressure.",
+    "<b>Glycemic Control:</b> High fiber/protein content ensures disciplined, slow glucose absorption.",
+    "<b>Microbiome Enrichment:</b> Prebiotic fiber suppresses stasis and nourishes colonic microflora.",
+    "<b>DNA Integrity:</b> High folate yields support tissue renewal and protect genetic code replication."
+  ],
+  "precautionsIntro": "Nutritional considerations regarding processing and digestibility:",
+  "precautions": [
+    "<b>Antinutrients:</b> Contains phytates and trypsin inhibitors; thermal processing (soaking/boiling) is mandatory to denature these.",
+    "<b>Purine Content:</b> Moderate purines may increase uric acid; restrict intake if managing gout or renal impairment.",
+    "<b>Digestive Distress:</b> Complex oligosaccharides can cause fermentation/bloating; implement slow introduction to the diet."
+  ]
+}

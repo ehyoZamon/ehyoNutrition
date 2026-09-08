@@ -1,0 +1,107 @@
+{
+  "slug": "hot-pepper",
+  "name": "Hot Pepper (Chili)",
+  "category": "Vegetables / Spices",
+  "image": "/productinfo/hot-pepper.png",
+  "imageAlt": "fresh red chili pepper",
+  "description": "The hot chili pepper represents a highly potent vegetative phytomatrix belonging to the Solanaceae family (Capsicum annuum), characterized by an dense concentration of secondary metabolites, predominantly the homovanillic acid derivative capsaicin (8-methyl-N-vanillyl-6-nonenamide) and its structurally related capsaicinoid analogues. Operating as a highly selective agonist of the Transient Receptor Potential Vanilloid 1 ($TRPV1$) ion channels, this complex bio-matrix exerts intense upstream regulatory controls over systemic thermogenesis, intracellular lipolysis, and localized nociceptive neurotransmission pathways. Furthermore, it displays robust physiological capacities for endothelial nitric oxide stimulation, intense vascular tone modulation, and broad-spectrum cellular antioxidant defense cascades.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+  "macroIntro": "The macronutrient configuration of fresh chili pepper exhibits a low absolute thermodynamic payload, which is heavily overshadowed by its profound secondary metabolic capacity to accelerate systemic energy expenditure and shift substrate oxidation kinetics.",
+  "microIntro": "A highly concentrated repository of essential water- and fat-soluble organic coenzymes, transition metal cofactors, and pungent lipophilic alkaloids that dictate profound systemic neuro-vascular alterations.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "40 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "Minimal absolute caloric density, functioning primarily as a cellular metabolic accelerator rather than a direct thermodynamic fuel substrate."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.9 g / 4% DV",
+      "bg": "#f5722c",
+      "description": "Consists of functional plant enzymes and baseline structural albumins providing a secondary nitrogenous input to the matrix."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.4 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A minor lipid fraction, primarily acting as a solubilizing hydrophobic vehicle for the dense distribution of endogenous capsaicinoids."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "8.8 g / 3% DV",
+      "bg": "#15837c",
+      "description": "Represented by low-molecular mono- and oligosaccharides interlinked with functional, non-digestible structural plant polyglucans."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 109,
+      "name": "Capsaicin (Capsaicinoids)",
+      "slug": "compounds",
+      "amount": "High Bioactivity",
+      "bg": "#15837c",
+      "description": "A potent lipophilic alkaloid compound that drives direct nociceptor desensitization via substance P depletion and upregulates mitochondrial uncoupling protein 1 ($UCP1$)."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "143.7 mg / 160% DV",
+      "bg": "#f5722c",
+      "description": "An exceptionally dense water-soluble antioxidant essential for leukocyte respiratory bursts, enzymatic proline hydroxylation, and complex collagen biosynthesis."
+    },
+    {
+      "id": 20,
+      "name": "Vitamin A (as Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "952 mcg RAE / 106% DV",
+      "bg": "#66ab63",
+      "description": "A vital fat-soluble isoprenoid precursor critical for maintaining epithelial tissue specialization, rod cell rhodopsin cycles, and mucosal boundary defenses."
+    },
+    {
+      "id": 25,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.51 mg / 30% DV",
+      "bg": "#e4a910",
+      "description": "A critical enzymatic cofactor for glycogen phosphorylase, transamination pathways, and downstream central monoamine neurotransmitter assembly."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "322 mg / 7% DV",
+      "bg": "#1a96cd",
+      "description": "A primary monovalent intracellular cation driving transmembrane electrical potentials, vascular smooth muscle relaxation, and osmotic equilibrium."
+    },
+    {
+      "id": 34,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.0 mg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "An essential transition metal cofactor crucial for structural heme coordination within hemoglobin, myoglobin, and mitochondrial cytochrome chains."
+    }
+  ],
+  "healthBenefits": [
+    "<b>TRPV1-Mediated Thermogenesis and Lipolytic Acceleration:</b> Capsaicin selectively docks with $TRPV1$ receptors, stimulating sympathetic catecholamine release to upregulate mitochondrial uncoupling protein 1 ($UCP1$) expression in brown adipose tissue, actively driving metabolic thermogenesis and substrate fat oxidation.",
+    "<b>Vascular Endothelial Protection and Nitric Oxide Release:</b> The synergistic combination of dense ascorbic acid and active capsaicinoids stimulates endothelial nitric oxide synthase ($eNOS$), inducing profound vasodilation, improving microcirculatory kinetics, and protecting low-density lipoproteins (LDL) from atherogenic peroxide damage.",
+    "<b>Nociceptive Desensitization and Analgesic Cascades:</b> Chronic or targeted exposure to the alkaloid fraction induces initial localized depolarization followed by a prolonged refractory period due to the exhaustion of substance P reserves in Type C afferent nerve fibers, yielding potent systemic analgesic effects.",
+    "<b>Mucosal Secretory Stimulation and Cytoprotection:</b> In healthy tissues, micro-doses of capsaicin interact with sensory nerve endings to trigger a localized release of protective neuropeptides, increasing blood flow, alkaline mucus secretion, and non-specific defense barriers within the gastric wall."
+  ],
+  "precautionsIntro": "Owing to the extreme physiological reactivity of its pungent alkaloid compounds, raw or concentrated hot pepper demands strict therapeutic and handling constraints:",
+  "precautions": [
+    "<b>Gastrointestinal Epithelial Hyperemia and Irritation:</b> Capsaicinoids induce aggressive neurogenic inflammation and local tissue hyperemia across vulnerable mucosal surfaces, making them strictly contraindicated in active GERD, peptic ulcerations, acute gastritis, and severe hemorrhoidal disease.",
+    "<b>Exocrine Chemical Dermal Burning:</b> Direct physical exposure to lipophilic capsaicin triggers intense chemical activation of cutaneous pain fibers without real tissue damage; stringent topical barriers (gloves) are mandatory during processing to prevent accidental ocular or mucosal transfers.",
+    "<b>Cytochrome P450 and Pharmacokinetic Alterations:</b> High intakes of active capsaicin can alter the hepatic cytochrome P450 enzyme systems and modify intestinal mucosal permeability, potentially disrupting the absorption, half-life, and bioavailability of concurrent prescription medications."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "chicken-liver",
+  "name": "Chicken Liver",
+  "category": "Meat and Poultry",
+  "image": "/productinfo/chicken-liver.png",
+  "imageAlt": "fresh raw whole chicken livers on a marble cutting board with a sprig of rosemary",
+  "description": "Chicken liver is an exceptionally nutrient-dense organ meat, functioning as a premier biological reservoir for essential vitamins and highly bioavailable trace minerals. It features a radically concentrated micronutrient profile dominated by heme iron, preformed Vitamin A (retinol), and the complete family of B-complex vitamins—especially cobalamin (B12) and folate (B9). This metabolic powerhouse drives immediate cellular energy synthesis, supports efficient hematopoiesis, and fortifies hepatic detoxification pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, raw uncooked liver)",
+  "macroIntro": "Chicken liver delivers a highly bioavailable, lean macronutrient architecture dominated by premium structural animal proteins and an exceptionally low carbohydrate footprint.",
+  "microIntro": "The cellular matrix of chicken liver holds an unparalleled micronutrient payload, yielding elite concentrations of hematopoiectic vitamins, organic heme iron, and structural selenium.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~119 kcal",
+      "bg": "#15837c",
+      "description": "A low-caloric, high-nutrient-density energy profile that provides efficient metabolic fuel without excessive lipid or carbohydrate burdens."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.9 grams",
+      "bg": "#f5722c",
+      "description": "A complete animal protein structure holding a perfect balance of all essential amino acids, driving rapid cellular repair, enzyme synthesis, and muscle maintenance."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.8 grams",
+      "bg": "#e4a910",
+      "description": "A moderate, balanced lipid profile consisting of saturated, monounsaturated, and essential polyunsaturated fatty acids required for hormone synthesis."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.7 grams",
+      "bg": "#1a96cd",
+      "description": "An ultra-minimal footprint, composed entirely of residual animal glycogen stored within the hepatic tissue structures."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "16.6 mcg / 692% DV",
+      "bg": "#15837c",
+      "description": "An astronomical cobalamin payload mandatory for driving erythrocyte maturation, preserving myelin sheath nerve integrity, and maintaining DNA stability."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Retinol)",
+      "amount": "3290 mcg / 366% DV",
+      "bg": "#f5722c",
+      "description": "A massive pool of highly bioavailable, preformed Vitamin A critical for modulating photoreceptor dark-adaptation metrics and maintaining mucosal epithelial linings."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "9.0 mg / 50% DV",
+      "bg": "#66ab63",
+      "description": "An elite cache of highly bioavailable heme iron, directly incorporated into hemoglobin synthesis loops to optimize systemic oxygen transport metrics."
+    },
+    {
+      "id": "vitamin-b9",
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "588 mcg / 147% DV",
+      "bg": "#1a96cd",
+      "description": "An exceptional coenzyme source required for rapid nucleic acid synthesis, single-carbon amino acid methylation, and prevention of megaloblastic anemia."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "54.6 mcg / 99% DV",
+      "bg": "#e4a910",
+      "description": "A vital trace mineral cofactor for glutathione peroxidase enzymes, playing an indispensable role in thyroid hormone metabolism and antioxidant security."
+    },
+    {
+      "id": 54,
+      "slug": "riboflavin",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "1.7 mg / 131% DV",
+      "bg": "#15837c",
+      "description": "Essential for mitochondrial energy production and the activation of other B-vitamins."
+    },
+    {
+      "id": 55,
+      "slug": "pantothenic-acid",
+      "name": "Vitamin B5 (Pantothenic Acid)",
+      "amount": "7.3 mg / 146% DV",
+      "bg": "#f5722c",
+      "description": "Crucial for coenzyme A synthesis, facilitating lipid and carbohydrate metabolism."
+    },
+    {
+      "id": 56,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.9 mg / 53% DV",
+      "bg": "#1a96cd",
+      "description": "Supports neurotransmitter synthesis, immune function, and hemoglobin regulation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Hematopoiesis Acceleration:</b> The heavy synergy of <b>heme iron, B12, and folate</b> drives immediate red blood cell production, rapidly reversing iron-deficiency anemia states.",
+    "<b>Neuro-Cognitive Energy Boost:</b> Elite concentrations of the <b>B-vitamin complex</b> optimize cellular energy pathways within mitochondria, dispelling chronic fatigue and brain fog.",
+    "<b>Retinal and Dermal Regeneration:</b> Massive reserves of preformed <b>retinol (Vitamin A)</b> preserve nighttime visual acuity and orchestrate rapid cellular turnover across epithelial tissues.",
+    "<b>Thyroid and Antioxidant Shielding:</b> Exceptional volumes of <b>selenium</b> power the conversion of thyroid hormones while neutralizing systemic cellular oxidative stress cascades.",
+    "<b>Endogenous Detoxification Support:</b> A rich matrix of sulfur-containing amino acids and B-vitamins reinforces Phase I and Phase II hepatic clearance pathways within the human liver."
+  ],
+  "precautionsIntro": "Hypervitaminosis A Retinol Hazards, Endogenous Cholesterol Density, and Purine Mediated Uric Acid Dynamics: Structural dietary pacing ensures metabolic equilibrium.",
+  "precautions": [
+    "<b>Retinol Mediated Teratogenic and Toxicity Risks:</b> Due to the extreme concentrations of preformed <b>Vitamin A</b>, excessive consumption can precipitate chronic hypervitaminosis A. Pregnant individuals must carefully monitor portions to mitigate teratogenic developmental risks.",
+    "<b>Purine Induced Gout Flare-Ups:</b> Organ meats naturally hold dense cellular matrices rich in <b>purines</b>. Metabolic degradation of these structures elevates plasma uric acid levels, which is strictly contraindicated during acute gouty arthritis.",
+    "<b>Endogenous Cholesterol Densities:</b> Chicken liver contains significant built-in cholesterol matrices (~560mg per 100g). While dietary cholesterol has varying impacts on individual lipid profiles, hyper-responders with disrupted sterol homeostasis should regulate intake frequencies."
+  ]
+}

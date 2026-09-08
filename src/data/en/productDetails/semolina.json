@@ -1,0 +1,124 @@
+{
+  "slug": "semolina-porridge",
+  "name": "Semolina Porridge",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/semolina.png",
+  "imageAlt": "warm semolina porridge in a ceramic bowl, garnished with a small pat of melting butter",
+  "description": "Semolina porridge (mannaya kasha) is a finely textured, easily assimilable carbohydrate matrix derived from the purified endosperm of durum or common wheat (Triticum aestivum). Stripped of the protective outer bran and germ layers, this milled grain yields a high-starch, low-fiber composition that serves as an immediate source of metabolic fuel. Due to its minimal structural complexity, it requires negligible gastrointestinal mechanical breakdown, making it an exceptionally low-residue, soothing substrate for the human digestive tract.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked with water, unsalted)",
+  "macroIntro": "Cooked semolina porridge presents an easily digestible, hydration-linked carbohydrate structure with low dietary fiber and minimal native fat.",
+  "microIntro": "The milled endosperm matrix contains basic water-soluble B-vitamins and trace cellular minerals, though at a lower density than whole-grain structures.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~60 kcal",
+      "bg": "#15837c",
+      "description": "A light energetic density when prepared with water, providing rapid cellular energy availability without taxing digestive capacity."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.4 grams",
+      "bg": "#f5722c",
+      "description": "Contains basic structural plant peptides, primarily gluten-forming proteins (gliadin and glutenin), yielding moderate systemic amino acid utility."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "Virtually non-existent in its native state, containing only trace hydrophobic lipid membranes from the inner endosperm cells."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "12.2 grams",
+      "bg": "#1a96cd",
+      "description": "Composed primarily of gelatinized plant starches that undergo rapid enzymatic hydrolysis into simple glucose units within the upper GI tract."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "carbohydrate-matrix",
+      "slug": "carbohydrate-matrix",
+      "name": "Gelatinized Starches",
+      "amount": "Highly Bioavailable",
+      "bg": "#15837c",
+      "description": "Easily accessible polysaccharides that fragment rapidly under salivary and pancreatic amylase, providing swift glycogen replenishment."
+    },
+    {
+      "id": "vitamin-b1",
+      "slug": "vitamin-b1",
+      "name": "Vitamin B1 (Thiamine)",
+      "amount": "0.04 mg / 3% DV",
+      "bg": "#f5722c",
+      "description": "An essential coenzyme cofactor required for the oxidative decarboxylation of pyruvate and downstream cellular glucose metabolism loops."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "22.0 mg / 2% DV",
+      "bg": "#66ab63",
+      "description": "An intracellular anion substrate vital for maintaining structural bone matrices and assisting in the synthesis of cellular ATP bonds."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "4.5 mcg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace element incorporated into selenoproteins, aiding basic endogenous thyroid hormone metabolism and antioxidant responses."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "28 mg / 1% DV",
+      "bg": "#e4a910",
+      "description": "A minor intracellular mineral pool assisting in basic homeostatic osmotic fluid regulation across local cellular walls."
+    },
+    {
+      "id": 75,
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "0.5 mg / 3% DV",
+      "bg": "#15837c",
+      "description": "Supports oxygen transport in the blood and essential cellular respiration."
+    },
+    {
+      "id": 76,
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "0.6 mg / 4% DV",
+      "bg": "#f5722c",
+      "description": "Important for energy production and supporting skin, nerve, and digestive health."
+    },
+    {
+      "id": 77,
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "12 mcg / 3% DV",
+      "bg": "#66ab63",
+      "description": "Vital for DNA synthesis, cell division, and healthy red blood cell production."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Glycogen Recovery:</b> The high-surface-area milled starches are split swiftly by amylase enzymes, ensuring an immediate, easily accessible supply of cellular glucose.",
+    "<b>Low-Residue Gastrointestinal Relief:</b> Lacking coarse outer fibers, this porridge minimizes mechanical friction, making it ideal for soothing inflamed gastric or intestinal mucosa.",
+    "<b>Minimal Postprandial Digestive Strain:</b> The lack of complex plant proteins and dense fibers allows the stomach to clear the bolus quickly, preserving systemic energy during acute recovery.",
+    "<b>Hypoallergenic Post-Surgery Nutrition:</b> Serves as an excellent transitional, non-irritating dietary matrix following major surgical interventions or severe digestive illness.",
+    "<b>Efficient Nutrient Carrier Matrix:</b> The uniform, gelatinized starch web acts as a perfect baseline vehicle for absorbing healthy added lipids, honey, or botanical microelements."
+  ],
+  "precautionsIntro": "High Glycemic Load Mechanics, Absolute Gluten Content Contraindications, and Phytic Acid Driven Mineral Chelation: Strategic dietary alignment optimizes metabolic safety.",
+  "precautions": [
+    "<b>Absolute Gluten Content Hazard:</b> Semolina is refined directly from wheat endosperm and consists of dense concentrations of <b>gluten</b> proteins. It is strictly contraindicated for individuals diagnosed with celiac disease, non-celiac gluten sensitivity, or wheat allergies, as it triggers severe autoimmune enteropathy.",
+    "<b>Rapid Blood Glucose Surges:</b> Devoid of a protective bran fiber matrix, semolina porridge displays a relatively high <b>glycemic index</b>. Its rapid breakdown can induce sharp spikes in postprandial blood glucose and insulin levels, requiring cautious portion control in individuals managing type 2 diabetes or insulin resistance.",
+    "<b>Phytic Acid Mineral Binding:</b> Unfortified wheat semolina retains native <b>phytic acid (phytates)</b>. When consumed continuously in large amounts without mineral-dense accompaniments, these antinutrients chelate dietary iron, zinc, and calcium within the intestinal tract, slightly hindering their overall absorption."
+  ]
+}

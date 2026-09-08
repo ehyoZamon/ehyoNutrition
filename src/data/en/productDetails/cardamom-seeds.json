@@ -1,0 +1,124 @@
+{
+  "slug": "cardamom-seeds",
+  "name": "Cardamom Pods",
+  "category": "Spices and Herbs",
+  "image": "/productinfo/cardamom-seeds.png",
+  "imageAlt": "whole green cardamom pods and loose black seeds on a rustic surface",
+  "description": "Cardamom, derived from the seeds of Elettaria cardamomum, is a highly prized aromatic spice known as the 'Queen of Spices'. Renowned for its complex sweet, herbal, and citrus-snapped flavor profile, it functions as a premium gastrointestinal carminative and metabolic catalyst, driven by an exceptional density of volatile terpenoid compounds and bioactive phytosterols.",
+  "macroTitle": "Macro Nutrients (per 100g, whole seeds)",
+  "macroIntro": "Utilized in precise, small therapeutic quantities, cardamom seeds house a balanced, dense structural matrix featuring valuable complex carbohydrates and essential plant lipids.",
+  "microIntro": "Cardamom contains a powerful, mineral-heavy micronutrient framework, rich in manganese, iron, and specific volatile essential oil fractions that stabilize physiological oxidative pathways.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~311 kcal",
+      "bg": "#15837c",
+      "description": "A stable, low-glycemic metabolic energy yield distributed across complex botanical fiber walls and internal lipid storage structures."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "10.8 grams",
+      "bg": "#f5722c",
+      "description": "Supplies fundamental plant amino acids that support enzymatic manufacturing paths and internal tissue repair operations."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "6.7 grams",
+      "bg": "#e4a910",
+      "description": "Composed primarily of mono- and polyunsaturated fatty acids that securely capsule the spice’s volatile therapeutic terpenes."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "68.5 grams",
+      "bg": "#1a96cd",
+      "description": "Predominantly structured as complex carbohydrates, anchored heavily by a massive prebiotic dietary fiber network (~28.0g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "terpinyl-acetate",
+      "slug": "terpinyl-acetate",
+      "name": "Alpha-Terpinyl Acetate & Cineole",
+      "amount": "Bioactive Essential Oils",
+      "bg": "#15837c",
+      "description": "The primary volatile aromatic compounds responsible for cardamom’s antispasmodic action, effectively relaxing smooth intestinal tissue lines."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "28.0 mg / 1217% DV",
+      "bg": "#f5722c",
+      "description": "An astronomical concentration of an essential cofactor needed for the super-antioxidant enzyme SOD, bone synthesis, and macro metabolism."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "14.0 mg / 78% DV",
+      "bg": "#66ab63",
+      "description": "A dense concentration of plant iron, assisting directly in optimal blood hemoglobin formation and cellular oxygen distribution paths."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "229 mg / 57% DV",
+      "bg": "#1a96cd",
+      "description": "A vital intracellular electrolyte that supports neuromuscular relaxation, vascular elasticity, and uniform cardiac muscle cycles."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "1119 mg / 24% DV",
+      "bg": "#e4a910",
+      "description": "A powerful systemic mineral that actively flushes excess sodium, optimizing extracellular fluid volume and vascular resting tension."
+    },
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "383 mg / 30% DV",
+      "bg": "#8c6bb1",
+      "description": "A vital structural mineral for bone density, also essential for nerve signal transmission and muscle contraction."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "178 mg / 14% DV",
+      "bg": "#9e9e9e",
+      "description": "Works synergistically with calcium to strengthen bone tissue and plays a key role in cellular energy production (ATP synthesis)."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6",
+      "amount": "0.23 mg / 14% DV",
+      "bg": "#d81b60",
+      "description": "Supports amino acid and neurotransmitter metabolism, promoting cognitive health and immune system function."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Advanced Gastrointestinal Carminative Action:</b> Active **cineole and terpinyl acetate** fractions quickly relieve smooth muscle spasms in the gut, systematically mitigating bloating, cramps, and trapped gas.",
+    "<b>Manganese-Driven Antioxidant Defense:</b> An extraordinary level of **manganese** serves as the precise spark plug for endogenous superoxide dismutase (SOD), shielding cells from heavy oxidative damage.",
+    "<b>Natural Oral Pathogen Suppression:</b> Volatile components exert immediate antimicrobial properties against common oral bacteria, neutralizing halitosis and reinforcing basic periodontal health.",
+    "<b>Fluid Diuretic and Vascular Optimization:</b> A dense **potassium** profile combined with natural active compounds acts as a gentle diuretic, reducing fluid retention and stabilizing blood pressure targets.",
+    "<b>Bronchial Smooth Muscle Relaxation:</b> Traditional and laboratory insights show that cardamom vapors assist in dilating pulmonary airways, improving overall oxygen uptake and ease of respiration."
+  ],
+  "precautionsIntro": "Concentrated Terpene Irritations, Gallbladder Muscle Activation, and Mucosal Sensitivity: High therapeutic intakes require calculated tracking.",
+  "precautions": [
+    "<b>Gallstone Cholagogue Triggers:</b> Because cardamom active compounds strongly encourage bile secretion and gallbladder contractions, individuals navigating established gallstone pathologies may experience localized biliary colic.",
+    "<b>Gastroesophageal Reflux Aggravation:</b> The highly concentrated aromatic essential oils can relax the lower esophageal sphincter, potentially intensifying acid reflux or heartburn in individuals with severe gastritis.",
+    "<b>Potential Contact and Mucosal Allergies:</b> Raw, ultra-concentrated cardamom oils or powders can provoke localized contact dermatitis or hypersensitive mucosal flushing in highly prone allergic individuals."
+  ]
+}

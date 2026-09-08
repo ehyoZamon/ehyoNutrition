@@ -1,0 +1,99 @@
+{
+  "slug": "olives",
+  "name": "Olives",
+  "category": "Vegetables / Superfood",
+  "image": "/productinfo/olives.png",
+  "imageAlt": "olives in a bowl",
+  "description": "Olives represent the harvested and enzymatically cured drupe fruits of Olea europaea, functioning as a specialized lipid-dominant functional superfood embedded within a complex hydrophilic-lipophilic matrix. Structurally, the flesh of the drupe contains a highly stable emulsion of long-chain monounsaturated triacylglycerols combined with a highly specialized profile of secoiridoid bitter glycosides, notably oleuropein, and its downstream hydrolytic metabolites such as hydroxytyrosol. Curing and fermentation processes actively modulate this matrix, reducing raw astringency while preserving lipid-soluble vitamins and active amphiphilic compounds. Operating as a cornerstone of cardiovascular protection, this complex biological matrix downregulates systemic endothelial adhesion molecules, directly intercepts lipid peroxidation cascades, and assists in modulating peripheral metabolic inflammatory pathways.",
+  "macroTitle": "Macronutrients (per 100g)",
+  "macroIntro": "The macronutrient profile of whole olives is characterized by a low-moisture, high-density lipid pool consisting primarily of cis-monounsaturated fatty acids, balanced by a minimal non-glycemic structural carbohydrate fraction.",
+  "microIntro": "A specialized micronutrient matrix featuring high levels of lipophilic antioxidant vitamins, unique plant secoiridoids, and concentrated extracellular mineral electrolytes derived from the curing environment.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "145 kcal / 7% DV",
+      "bg": "#15837c",
+      "description": "A moderate delivery of metabolic energy driven by the slow beta-oxidation of monounsaturated fatty acids within cellular mitochondria."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "15.3 g / 20% DV",
+      "bg": "#e4a910",
+      "description": "Predominantly composed of oleic acid, a stable omega-9 monounsaturated fatty acid that integrates directly into cellular lipid bilayers."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.8 g / 1% DV",
+      "bg": "#15837c",
+      "description": "A small carbohydrate pool consisting almost entirely of insoluble structural hemicellulose and pectin fibers with zero glycemic impact."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.0 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Minimal vegetable amino acid assemblies primarily acting as structural cell-wall proteins within the fruit parenchyma."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 25,
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "slug": "vitamins",
+      "amount": "3.8 mg / 25% DV",
+      "bg": "#15837c",
+      "description": "The primary lipid-soluble antioxidant vitamin that partitions into cell membranes to break free-radical chain reactions."
+    },
+    {
+      "id": 131,
+      "name": "Olive Polyphenols (Oleuropein)",
+      "slug": "antioxidants",
+      "amount": "High Concentration",
+      "bg": "#f5722c",
+      "description": "Specific amphiphilic secoiridoids and phenolic esters providing robust vascular protection and driving free-radical scavenging."
+    },
+    {
+      "id": 30,
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "1556 mg / 68% DV",
+      "bg": "#66ab63",
+      "description": "A major extracellular mineral cation accumulated during the brining process, central to osmotic regulation."
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.3 mg / 18% DV",
+      "bg": "#e4a910",
+      "description": "An essential trace element necessary for supporting regular red blood cell synthesis and mitochondrial respiratory enzymes."
+    },
+    {
+      "id": 35,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.25 mg / 28% DV",
+      "bg": "#1a96cd",
+      "description": "A mandatory catalytic cofactor for superoxide dismutase, serving a vital role in systemic iron utilization and collagen cross-linking."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Oleic Acid-Mediated Low-Density Lipoprotein Regulation:</b> High densities of cis-monounsaturated oleic acid displace saturated fatty acids in circulating lipoproteins, optimizing the structural stability of low-density lipoprotein particles and mitigating their susceptibility to oxidative modifications.",
+    "<b>Secoiridoid Inhibition of Endothelial Adhesion Molecules:</b> Native oleuropein and hydroxytyrosol suppress the expression of vascular cell adhesion molecule-1 and intercellular adhesion molecule-1, effectively reducing the initial adhesion of circulating leucocytes to the vascular endothelium.",
+    "<b>Alpha-Tocopherol Membrane Stabilization and Radical Neutralization:</b> Natural alpha-tocopherol locates directly inside the hydrophobic core of cell membranes, donating a hydrogen atom to lipid peroxyl radicals to halt the destructive chain propagation of lipid peroxidation.",
+    "<b>Eicosanoid Pathway Downregulation and Anti-Inflammatory Signaling:</b> Active olive polyphenols competitively inhibit the enzymatic activity of cyclooxygenase-2 and lipoxygenase, leading to a marked decrease in the synthesis of pro-inflammatory PGE2 prostaglandins."
+  ],
+  "precautionsIntro": "Due to the biochemical transformations and high mineral additions required during industrial and traditional curing, olive ingestion requires management under certain clinical matrices:",
+  "precautions": [
+    "<b>Extracellular Sodium Saturation and Arterial Hypertension:</b> The extensive brining process infuses the fruit matrix with elevated concentrations of sodium chloride, which can induce systemic fluid retention, increase blood volume, and elevate arterial pressure in sodium-sensitive individuals.",
+    "<b>Satiety Disruption via Elevated Thermodynamic Fluid Volatility:</b> The combination of high lipid concentration and processing-induced salt density delivers elevated caloric values per portion, requiring strict volumetric control to avoid silent positive energy balances.",
+    "<b>Fermentation Additives and Histamine Clearance Capacity:</b> Natural lactic acid fermentation steps can result in the accumulation of biogenic amines, which may cause transient vasodilation or mild gastrointestinal discomfort in persons with low diamine oxidase clearance."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "kefir",
+  "name": "Kefir",
+  "category": "Fermented Dairy Products",
+  "image": "/productinfo/kefir.png",
+  "imageAlt": "glass of fresh kefir",
+  "description": "Kefir is a highly potent, enzymatically active fermented probiotic fluid matrix synthesized through the cooperative metabolic activity of lactic acid bacteria and yeasts embedded within a kefiran exopolysaccharide scaffold. It represents a complex, resilient biological symbiosis capable of surviving gastric acidity to colonize and modulate the gut-associated lymphoid tissue (GALT). This matrix systematically optimizes immunoglobulins production, reinforces epithelial tight junctions, and delivers easily absorbable phosphopeptides essential for systemic mineral homeostasis.",
+  "macroTitle": "Macro Nutrients (per 100g, 2.5% fat)",
+  "macroIntro": "The macronutrient profile of 2.5% fat kefir delivers an optimized thermodynamic balance, featuring partially hydrolyzed proteins, finely emulsified lipid fractions, and a reduced disaccharide load that facilitates smooth metabolic integration.",
+  "microIntro": "As an active postbiotic and probiotic repository, kefir serves as a living biochemical vehicle rich in bioavailable alkaline-earth metals, essential corrinoids, and metabolic bioproducts that optimize the gastrointestinal luminal environment.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "50 kcal / 3% DV",
+      "bg": "#15837c",
+      "description": "A well-balanced metabolic energy footprint that supports cellular maintenance pathways without stressing insulinogenic cascades or hepatic lipid storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.0 g / 6% DV",
+      "bg": "#f5722c",
+      "description": "Predominantly composed of partially predigested whey proteins and finely denatured casein micelles, yielding a high concentrations of bioavailable essential amino acids."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.5 g / 3% DV",
+      "bg": "#e4a910",
+      "description": "Naturally homogenized and emulsified short- and medium-chain fatty acids, functioning as immediate energy substrates and critical vehicles for lipophilic nutrient transport."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.0 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Consists of residual lactose alongside glucose and galactose fragments, significantly cleared by microbial beta-galactosidase during the primary fermentation phase."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 99,
+      "name": "Probiotic Cultures",
+      "slug": "probiotics",
+      "amount": "High Concentration",
+      "bg": "#15837c",
+      "description": "A complex ecosystem of over 30 distinct strains of Lactobacillus, Bifidobacterium, and therapeutic yeasts, providing high survivability against bile and gastric juice."
+    },
+    {
+      "id": 32,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "120 mg / 12% DV",
+      "bg": "#f5722c",
+      "description": "Highly soluble and bioavailable mineral ions paired with phosphopeptides, maximizing osteoblast-mediated bone mineralization and proper skeletal remodeling."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin B12 (Cobalamin)",
+      "slug": "vitamin-b12",
+      "amount": "0.4 mcg / 17% DV",
+      "bg": "#66ab63",
+      "description": "An essential organometallic cofactor critical for DNA replication, supporting myelin sheath synthesis in neurons and preventing megaloblastic anemia cascades."
+    },
+    {
+      "id": 34,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "95 mg / 14% DV",
+      "bg": "#e4a910",
+      "description": "A structural macroelement required for phosphorylation cascades, nucleoside triphosphate synthesis (ATP), and maintenance of the bone mineral matrix."
+    },
+    {
+      "id": 25,
+      "name": "Riboflavin (Vitamin B2)",
+      "slug": "vitamin-b2",
+      "amount": "0.15 mg / 12% DV",
+      "bg": "#1a96cd",
+      "description": "A fundamental component of FMN and FAD coenzymes, driving mitochondrial electron transport chain dynamics, cellular respiration, and ocular pigment protection."
+    },
+    {
+      "id": 100,
+      "name": "Organic Acids (Lactic / Acetic)",
+      "slug": "acids",
+      "amount": "Active Profile",
+      "bg": "#1a96cd",
+      "description": "Short-chain carboxylic acids that drop intra-luminal pH, actively inhibiting opportunistic enteric pathogens while enhancing overall mineral solubility."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Microbiome Diversification and Restructuring:</b> Probiotic species and the unique exopolysaccharide kefiran competitively exclude pathobionts from the intestinal mucosa, synthesizing bacteriocins and shifting the microbial balance toward a healthy symbiotic state.",
+    "<b>Systemic Immune Modulation via GALT:</b> Active cellular cell wall fractions (peptidoglycans) interact directly with dendritic cells and Toll-like receptors in the gut, upregulating secretory IgA production and regulating balanced pro- and anti-inflammatory cytokine signaling.",
+    "<b>Enhanced Digestion Kinetics and Motility:</b> Endogenous lactic acid and digestive enzymes trigger pancreatic secretions and stimulate optimal gastric peristalsis, accelerating upper tract digestion while alleviating downstream chronic constipation phenotypes.",
+    "<b>Metabolic Homeostasis and Lipid Regulation:</b> Chronic intake modulates short-chain fatty acid production in the colon, downregulating hepatic fatty acid synthase enzymes and supporting healthy lipid transport and insulin-sensitizing pathways."
+  ],
+  "precautionsIntro": "As a live, highly bioactive fermented food, kefir demands careful clinical screening regarding individual enzymatic capacities and acute gastrointestinal pathologies.",
+  "precautions": [
+    "<b>Residual Lactose and Hypersensitivity:</b> Although microbial fermentation dramatically depletes disaccharide levels, individuals presenting with profound genetic lactase deficiency or acute caseinate allergies may still undergo significant osmotic fluid shifts and abdominal distress.",
+    "<b>Pro-inflammatory Hyperacidic Response:</b> The low pH and high carboxylic acid content can trigger nociceptors in hyperacidic gastritis, acute peptic ulceration, or erosive esophagitis, exacerbating pyrosis and localized mucosal inflammation.",
+    "<b>Endogenous Ethanol Accumulation:</b> The yeast driven dual fermentation pathway inherently synthesizes micro-fractions of ethanol (ranging from 0.05% to 0.5%). While biochemically minor, it warrants careful titration in pediatric populations, pregnancy, or absolute clinical sobriety regimens.",
+    "<b>Storage-Dependent Kinetic Bifurcation:</b> The physiological actions of kefir shift significantly based on its maturation stage: early-phase (24-hour) kefir retains unfermented sugars and organic elements that act as an osmotic laxative, whereas late-phase (72-hour) accumulation of lactic acid and tannin-like interactions induces an astringent, anti-diarrheal effect."
+  ]
+}

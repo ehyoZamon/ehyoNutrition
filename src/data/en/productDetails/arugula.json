@@ -1,0 +1,124 @@
+{
+  "slug": "arugula",
+  "name": "Arugula",
+  "category": "Vegetables",
+  "image": "/productinfo/arugula.png",
+  "imageAlt": "fresh vibrant green rucola leaves with distinct serrated edges gathered in a clean crisp bunch",
+  "description": "Arugula (Eruca vesicaria), also known as rocket, is an aromatic cruciferous leafy green featuring a pungent, peppery phytochemical matrix engineered for profound cardiovascular protection, hepatic detoxification, and cellular defensive scaling. The principal therapeutic blueprint of arugula lies in its high density of glucosinolates—principally glucoerucin—which enzymatically hydrolyze into active, chemoprotective isothiocyanates (erucin and sulforaphane) alongside a massive native concentration of inorganic nitrates. Operating within human metabolic systems, these bioactive compounds prompt smooth vascular endothelial relaxation, optimize phase II hepatic conjugation loops, and neutralize circulating intracellular free radicals.",
+  "macroTitle": "Macro Nutrients (per 100g, raw fresh leaves)",
+  "macroIntro": "Arugula presents an ultra-light, highly hydrating macro architecture that delivers premium bioactive compounds with zero metabolic or glycemic strain.",
+  "microIntro": "The peppery, tender leaves isolate an exceptional pool of cardiovascular-active inorganic nitrates, structural bone-building vitamins, and potent antioxidant enzymes.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~25 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally lean metabolic footprint that supplies cellular hydration and catalytic elements without increasing adipose glycogen storage."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.58 grams",
+      "bg": "#f5722c",
+      "description": "Delivers an impressive plant-peptide and amino acid yield for a leafy green, supporting baseline cellular structural restoration."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.66 grams",
+      "bg": "#e4a910",
+      "description": "A minor lipid index composed of basic structural plant membranes, incorporating essential polyunsaturated fatty acids like alpha-linolenic acid."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.65 grams",
+      "bg": "#1a96cd",
+      "description": "Driven by light organic carbohydrate structures bound within a delicate, digestion-cleansing plant fiber matrix (~1.6g) to sustain a flat glucose response."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-k1",
+      "slug": "vitamin-k1",
+      "name": "Vitamin K1 (Phylloquinone)",
+      "amount": "108.6 mcg / 90% DV",
+      "bg": "#15837c",
+      "description": "An abundant fat-soluble vitamin critical for driving the carboxylation of osteocalcin, maximizing bone mineral density, and regulating normal coagulation."
+    },
+    {
+      "id": "nitrates",
+      "slug": "nitrates",
+      "name": "Inorganic Nitrates",
+      "amount": "Highly Concentrated",
+      "bg": "#f5722c",
+      "description": "Precursors to nitric oxide ($NO$) that induce widespread vasodilation, drop peripheral vascular resistance, and upgrade muscular oxygen efficiency."
+    },
+    {
+      "id": "isothiocyanates",
+      "slug": "isothiocyanates",
+      "name": "Isothiocyanates (Erucin)",
+      "amount": "Bioactive Amount",
+      "bg": "#66ab63",
+      "description": "Pungent sulfur-containing compounds that upregulate cellular phase II detox enzymes, neutralising toxic metabolites and suppressing inflammatory signaling."
+    },
+    {
+      "id": "folate",
+      "slug": "folate",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "97 mcg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "An essential metabolic cofactor required for accelerating cellular DNA synthesis, managing methylation cycles, and supporting healthy red blood cell scaling."
+    },
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "160 mg / 12% DV",
+      "bg": "#e4a910",
+      "description": "A highly bioavailable plant-derived structural mineral required for reinforcing the skeletal framework and ensuring smooth neuromuscular transmission."
+    },
+    {
+      "id": 105,
+      "slug": "vitamin-c",
+      "name": "Vitamin C",
+      "amount": "15 mg / 17% DV",
+      "bg": "#15837c",
+      "description": "Essential antioxidant for collagen synthesis, immune function, and iron absorption."
+    },
+    {
+      "id": 106,
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "237 mcg / 26% DV",
+      "bg": "#f5722c",
+      "description": "Supports retinal health, epithelial integrity, and immune cell differentiation."
+    },
+    {
+      "id": 107,
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "47 mg / 11% DV",
+      "bg": "#66ab63",
+      "description": "Cofactor for over 300 enzymatic reactions, crucial for muscle relaxation and nervous system health."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Endothelial Nitric Oxide Vasodilation:</b> Dense native pools of dietary <b>nitrates</b> efficiently convert to nitric oxide, reducing vascular smooth muscle tone and lowering systemic blood pressure profiles.",
+    "<b>Skeletal Matrix Consolidation:</b> Outstanding parameters of <b>Vitamin K1</b> work alongside highly bioavailable plant calcium to direct optimal bone mineralization and maintain structural framework integrity.",
+    "<b>Hepatic Detoxification Activation:</b> Active <b>isothiocyanates</b> directly stimulate Nrf2 cellular pathways, accelerating the breakdown and safe clearance of environmental xenobiotics.",
+    "<b>Metabolic Satiety and Glycemic Flatline:</b> Possessing a <b>92% water density</b> alongside targeted fiber, it offers instant cellular hydration and gastric bulk while preserving absolute metabolic lightness.",
+    "<b>Ocular Cellular Protection:</b> Native carotenoids (lutein and zeaxanthin) selectively accumulate within the retinal macula, safeguarding vision pathways against high-energy blue-light oxidation."
+  ],
+  "precautionsIntro": "Anticoagulant Medication Interferences, Uric Acid Accumulation Risks, and Cruciferous Goitrogenic Dynamics: Strategic clinical awareness ensures safe culinary integration.",
+  "precautions": [
+    "<b>Critical Warfarin/Anticoagulant Interaction:</b> Due to its exceptionally high concentration of <b>Vitamin K1</b>, regular or sudden large intakes of arugula can interfere with vitamin K antagonist medications like <b>Warfarin</b>, destabilizing blood clotting parameters (INR values) and risking thrombosis.",
+    "<b>Gastrointestinal Mucosal Irritation:</b> The distinctive peppery bite of arugula stems from volatile <b>isothiocyanates and mustard oils</b>. Individuals experiencing acute gastritis, active peptic ulcers, or severe hyperacidity may experience localized burning pain and digestive distress upon eating raw portions.",
+    "<b>Oxalate and Purine Concentration:</b> Arugula contains moderate amounts of plant <b>oxalates</b>. In individuals with compromised renal pathways or a genetic predisposition to hyperoxaluria, excessive consumption can contribute to the formation of calcium oxalate calculi within the urinary tract."
+  ]
+}

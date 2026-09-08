@@ -195,29 +195,24 @@ const FavoritesClient = () => {
           </section>
         )}
       </div>
-
-      <div className={styles["navigation"]}>
-        <Link prefetch={false} className={styles["nav-link"]} href="/main">
-          <Image src="/main/home.svg" alt="home" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/products">
-          <Image src="/main/products.svg" alt="products" width={48} height={48} />
-        </Link>
-        <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
-          <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-        </Link>
-        <Link prefetch={false}  className={styles["nav-link"]} href="/vitamins">
-          <Image
-            src="/main/antioxidant.svg"
-            alt="vitamins"
-            width={48}
-            height={48}
-          />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
-          <Image src="/heart-filled.svg" alt="favorites" width={48} height={48} />
-        </Link>
-      </div>
+        
+        <div className={styles["navigation"]}>
+          <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
+            <Image src="/main/products.svg" alt="products" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+            <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+          </Link>
+          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+            <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+            <Image src="/main/heart-green.svg" alt="heart" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/settings">
+            <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+          </Link>
+        </div>
     </div>
   );
 };

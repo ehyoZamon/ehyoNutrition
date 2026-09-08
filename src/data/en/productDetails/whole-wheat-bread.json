@@ -1,0 +1,108 @@
+{
+  "slug": "whole-wheat-bread",
+  "name": "Whole Wheat Bread",
+  "category": "Bakery Products",
+  "image": "/productinfo/whole-wheat-bread.png",
+  "imageAlt": "slice of whole wheat bread",
+  "description": "Whole wheat bread constitutes a complex, structurally intact baked carbohydrate matrix manufactured from unrefined caryopsis flour that preserves all anatomical fractions of the grain: the fiber-rich pericarp (bran), the micronutrient-dense embryonic axis (germ), and the starchy endosperm storage core. It delivers a sustained biochemical payload of linear amylose polymer fractions, non-digestible structural polysaccharides, and an extensive suite of organometallic complexes. This synergistic system ensures a highly metered delivery of metabolic energy substrates while directly supporting gastrointestinal health and tissue homeostasis.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient profile of whole wheat bread is optimized for extended thermodynamic stability, providing high satiety indices by regulating plasma insulin excursions and carbohydrate oxidation kinetics.",
+  "microIntro": "Retaining the native aleurone and germ layers, this whole-grain matrix provides concentrated enzymatic cofactors, group B vitamins, and divalent minerals vital for cellular energy transduction and neural signaling.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "250 kcal / 13% DV",
+      "bg": "#15837c",
+      "description": "A dense thermodynamic yield derived from complex polysaccharides, facilitating prolonged muscular and cognitive work efficiency."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "12.0 g / 24% DV",
+      "bg": "#f5722c",
+      "description": "Comprises storage prolamins and glutelins (the gluten complex) providing a supportive matrix of essential amino acids for tissue maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.5 g / 4% DV",
+      "bg": "#e4a910",
+      "description": "A minor lipid fraction concentrated within the germ, rich in polyunsaturated fatty acids that guard cell membrane structural fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "45.0 g / 16% DV",
+      "bg": "#15837c",
+      "description": "Dominated by slow-release polymeric starches tightly bound within a fibrous network, regulating peripheral glucose uptake parameters."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "7.0 g / 25% DV",
+      "bg": "#15837c",
+      "description": "High density of insoluble cellulose, hemicellulose, and soluble beta-glucans necessary to regulate mechanical chyme transport and gut microbial composition."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "80 mg / 20% DV",
+      "bg": "#f5722c",
+      "description": "An essential alkaline earth metal cofactor for hundreds of cellular enzyme systems, managing intracellular ATP synthesis and neuromodulation."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.3 mg / 18% DV",
+      "bg": "#66ab63",
+      "description": "Acts as the key precursor cofactor (PLP) driving transamination reactions in protein synthesis, neurotransmitter synthesis, and glycogenolysis."
+    },
+    {
+      "id": 33,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.5 mg / 19% DV",
+      "bg": "#e4a910",
+      "description": "An essential transition metal integral to the prosthetic groups of hemoglobin and cytochromes, serving as a pillar for systemic oxygen transport."
+    },
+    {
+      "id": 26,
+      "name": "Niacin (Vitamin B3)",
+      "slug": "vitamin-b3",
+      "amount": "4.0 mg / 25% DV",
+      "bg": "#1a96cd",
+      "description": "The foundational building block for NAD/NADP nucleotides, driving mitochondrial respiratory chain electronics and maintaining vascular tissue health."
+    },
+    {
+      "id": 34,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.0 mg / 18% DV",
+      "bg": "#1a96cd",
+      "description": "A catalytic and structural zinc-finger motif metal cofactor, deeply involved in nucleic acid transcription, immune cascades, and peptide repair."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Index Regulation and Insulin Economy:</b> The presence of slow-digesting amylose and dense cell-wall fibers restricts salivary and pancreatic amylase access, flattening postprandial glucose waves.",
+    "<b>Intestinal Kinetic and Microbiome Proliferation:</b> Non-digestible plant fibers increase stool volume, mechanics, and transition speed while serving as prime fermentation substrates for short-chain fatty acid (SCFA) generation.",
+    "<b>Cardiovascular Protection and Vascular Health:</b> High whole-grain delivery introduces alkylresorcinols and lignans that assist in regulating low-density lipoprotein (LDL) oxidation and reducing long-term atherosclerotic risk.",
+    "<b>Satiety Axis Optimization and Caloric Control:</b> Hydrophilic carbohydrate fibers expand within the stomach cavity, stimulating vagal mechanoreceptors to promote prolonged satiety signaling via peptide YY and leptin loops."
+  ],
+  "precautionsIntro": "Even given its status as a foundational nutrient source, the specific botanical and biochemical architecture of whole wheat bread demands clinical caution under several physiological states.",
+  "precautions": [
+    "<b>Autoimmune Gluten-Sensitive Enteropathy:</b> For patients diagnosed with celiac disease or non-celiac gluten hypersensitivity, the alpha-gliadin peptides trigger severe T-cell mediated destruction of intestinal villi.",
+    "<b>Phytic Acid Chelating anti-nutrients:</b> High concentrations of myo-inositol hexakisphosphate (phytic acid) within the bran fraction can form insoluble complexes with zinc, iron, and calcium, reducing their intestinal absorption.",
+    "<b>Mechanical Mucosal Irritation:</b> The sharp, rigid lignified structures of intact grain fibers can provoke direct mechanical irritation of delicate mucosal linings during acute flares of gastritis, IBS, or diverticulitis.",
+    "<b>Xenobiotic and Pesticide Bioaccumulation:</b> Because outer pericarp tissues are exposed to environmental treatments during growth, poor-quality grains can concentrate organophosphate or glyphosate residues within the final bran fraction."
+  ]
+}

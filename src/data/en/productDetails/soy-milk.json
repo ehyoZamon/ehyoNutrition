@@ -1,0 +1,124 @@
+{
+  "slug": "soy-milk",
+  "name": "Soy Milk",
+  "category": "Dairy",
+  "image": "/productinfo/soy-milk.png",
+  "imageAlt": "smooth opaque creamy off-white soy milk being poured into a clean glass capturing its fluid and uniform texture",
+  "description": "Soy milk is a nutrient-dense, plant-based aqueous emulsion produced by soaking, grinding, boiling, and filtering whole soybeans (Glycine max). This processing extracts high-quality globulin proteins (primarily glycinin and beta-conglycinin) and emulsified lipids into a stable fluid matrix, making it the premier structurally complete plant alternative to bovine milk. Soy milk naturally contains an exceptional array of essential amino acids, protective polyunsaturated fatty acids, and unique plant-derived isoflavones (genistein and daidzein). Operating within human metabolic pathways, these compounds assist in regulating circulating blood lipid profiles, suppressing lipid peroxidation, and providing gentle, competitive modulation of cellular estrogen receptors.",
+  "macroTitle": "Macro Nutrients (per 100g, unsweetened plain profile)",
+  "macroIntro": "Soy milk delivers a balanced, easily digestible fluid macro framework characterized by high complete plant peptides, zero cholesterol, and low-glycemic carbohydrates.",
+  "microIntro": "The clean legume emulsion serves as a highly bioavailable reservoir for essential B-complex vitamins, cellular trace elements, and protective plant isoflavones.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~33 kcal",
+      "bg": "#15837c",
+      "description": "Supplies a lean, low-density metabolic energy profile, making it highly effective for calorie-restricted dietary strategies and weight management."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.80 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding source of complete plant protein containing all nine essential amino acids, directly supporting tissue repair and cellular enzyme architecture."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.80 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by beneficial polyunsaturated and monounsaturated lipids, including essential linoleic acid, with absolutely zero inflammatory trans fats or animal cholesterol."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.60 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of low-glycemic, slowly absorbed complex sugars and prebiotic fibers that provide steady metabolic fuel without triggering rapid insulin spikes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "isoflavones",
+      "slug": "isoflavones",
+      "name": "Soy Isoflavones",
+      "amount": "11 mg",
+      "bg": "#15837c",
+      "description": "Specialized phytoestrogens (genistein and daidzein) that carry structurally unique antioxidant properties and safely modulate human hormone receptor sites."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.17 mg / 7% DV",
+      "bg": "#f5722c",
+      "description": "An essential trace mineral cofactor necessary for activating antioxidant superoxide dismutase enzymes and supporting deep bone matrix formation."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.12 mg / 13% DV",
+      "bg": "#66ab63",
+      "description": "A vital metabolic mineral that works in synthesis with iron to build mature red blood cells and maintain optimal vascular elasticity."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.07 mg / 5% DV",
+      "bg": "#1a96cd",
+      "description": "A structural water-soluble vitamin required for regulating mitochondrial cellular respiration loops and managing systemic energy production."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "118 mg / 3% DV",
+      "bg": "#e4a910",
+      "description": "An important intracellular electrolyte that helps control osmotic fluid balance, supports neural signal transmission, and regulates resting vascular tone."
+    },
+    {
+      "id": 117,
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "120 mg / 9% DV",
+      "bg": "#15837c",
+      "description": "Crucial for bone health, muscle function, and nerve transmission."
+    },
+    {
+      "id": 118,
+      "slug": "vitamin-d",
+      "name": "Vitamin D",
+      "amount": "1 mcg / 5% DV",
+      "bg": "#f5722c",
+      "description": "Essential for calcium absorption, bone strength, and immune regulation."
+    },
+    {
+      "id": 119,
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "0.4 mcg / 17% DV",
+      "bg": "#66ab63",
+      "description": "Necessary for healthy blood cell formation and neurological function."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Complete Peptide Architecture Delivery:</b> Soy milk stands as the premier plant fluid yielding all <b>essential amino acids</b>, enabling efficient structural muscle repair without the presence of bovine allergens.",
+    "<b>Cardiovascular Lipid Profile Protection:</b> Rich parameters of polyunsaturated fats combined with <b>zero cholesterol</b> actively lower circulating low-density lipoprotein ($LDL$) cholesterol fractions in the blood.",
+    "<b>Competitive Hormonal Modulation:</b> High-quality <b>soy isoflavones</b> act as gentle adaptogenic phytoestrogens, helping mitigate acute menopausal hot flashes and regulating hormone-sensitive tissues.",
+    "<b>Absolute Intestinal Lactose Freedom:</b> Being entirely derived from legumes, soy milk is <b>100% lactose-free</b>, providing a highly reliable nutritional solution that eliminates gas and bloating for hypolactasia patients.",
+    "<b>Vascular and Endothelial Defense:</b> Native antioxidant polyphenols suppress the oxidative stress loops of vascular lipids, preventing modern atherogenic damage along deep arterial walls."
+  ],
+  "precautionsIntro": "Phytic Acid Antinutrient Chelating, True Legume Soy Allergies, and Iodine Uptake Thyroid Limitations: Mindful dietary integration optimizes long-term endocrine health.",
+  "precautions": [
+    "<b>Phytic Acid Mineral Binding:</b> Unfortified soy milk contains noticeable baselines of <b>phytic acid</b>. This plant antinutrient can bind to divalent minerals like calcium, zinc, and iron within the digestive tract, slightly reducing their total bioavailable absorption fields.",
+    "<b>Severe Immunological Soy Allergies:</b> Soybeans contain highly reactive storage proteins (such as Gly m 4). Individuals diagnosed with a confirmed <b>soy allergy</b> can experience rapid systemic immune responses, ranging from hives and oral itching to severe anaphylactic constraints.",
+    "<b>Goitrogenic Thyroid Interferences:</b> Massive, unmonitored consumption of concentrated soy compounds may interfere with <b>iodine absorption</b> and thyroid hormone synthesis. Individuals dealing with untreated hypothyroidism or severe iodine deficiency should balance their daily intake limits."
+  ]
+}

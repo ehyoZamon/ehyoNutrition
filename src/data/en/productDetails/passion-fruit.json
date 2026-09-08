@@ -1,0 +1,124 @@
+{
+  "slug": "passion-fruit",
+  "name": "Passion Fruit",
+  "category": "Fruits and Berries",
+  "image": "/productinfo/passion-fruit.png",
+  "imageAlt": "halved purple passion fruit revealing vibrant yellow gelatinous pulp and crunchy black seeds",
+  "description": "Passion fruit (Passiflora edulis) is a highly concentrated, bioactively dense tropical matrix recognized for its potent fluid-balancing and nervous-system-soothing properties. The core therapeutic value of passion fruit resides within its complex polyphenol payload, specifically rich in piceatannol and passiflorine, working alongside an exceptional concentration of L-ascorbic acid and dietary fibers. Operating within cellular networks, these bioactive components optimize cellular insulin sensitivity, scavenge deep free radicals, and deliver potent sedative and vasoprotective effects throughout vascular loops.",
+  "macroTitle": "Macro Nutrients (per 100g, raw edible flesh with seeds)",
+  "macroIntro": "Passion fruit flesh features a unique, nutrient-dense macro structure balancing a high-hydration yield with an exceptionally large volume of complex structural dietary fibers.",
+  "microIntro": "The gelatinous pulpy vacuoles and crunchy seeds contain an elite reservoir of cardioprotective potassium, tissue-building iron, and active cell-protecting carotenoids.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~97 kcal",
+      "bg": "#15837c",
+      "description": "A moderate, highly functional caloric framework driven by energy-yielding natural simple hexoses paired with dense structural fiber loops."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.2 grams",
+      "bg": "#f5722c",
+      "description": "Displays a surprisingly high plant-peptide yield for a fruit, providing necessary amino acid fractions locked mostly within the crunchy seed walls."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.7 grams",
+      "bg": "#e4a910",
+      "description": "A minor, clean lipid profile consisting of essential polyunsaturated fatty acids stored within the internal core of the seeds."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "23.4 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of natural fruit sugars balanced perfectly by an elite dietary fiber matrix (~10.4g), significantly blunting immediate glycemic spikes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "piceatannol",
+      "slug": "piceatannol",
+      "name": "Piceatannol",
+      "amount": "Highly Concentrated",
+      "bg": "#15837c",
+      "description": "A powerful, premium stilbene polyphenol that upregulates sirtuin pathways, enhances metabolic insulin sensitivity, and protects cardiovascular cells from oxidative stress."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "amount": "30.0 mg / 33% DV",
+      "bg": "#f5722c",
+      "description": "An essential water-soluble antioxidant catalyst driving systemic collagen synthesis, optimizing immune cell motility, and boosting non-heme iron uptake."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "348 mg / 7% DV",
+      "bg": "#66ab63",
+      "description": "An important intracellular electrolyte required for stabilizing osmotic cellular pressure, regulating cardiac rhythms, and managing smooth vascular relaxation."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "64 mcg / 7% DV",
+      "bg": "#1a96cd",
+      "description": "A significant provitamin A carotenoid pool crucial for preserving photoreceptor health, accelerating skin cell repair, and shielding mucosal linings."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "1.6 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "A valuable non-heme iron reservoir acting as a core structural component for hemoglobin synthesis and driving mitochondrial respiration processes."
+    },
+    {
+      "id": 78,
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "29 mg / 7% DV",
+      "bg": "#15837c",
+      "description": "Supports muscle relaxation, nerve signaling, and energy production."
+    },
+    {
+      "id": 79,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.1 mg / 6% DV",
+      "bg": "#f5722c",
+      "description": "Critical for brain health, neurotransmitter synthesis, and protein metabolism."
+    },
+    {
+      "id": 80,
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "68 mg / 5% DV",
+      "bg": "#66ab63",
+      "description": "Essential for bone mineralization, cell membrane integrity, and energy transfer."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Metabolic Insulin Sensitization:</b> High natural levels of the polyphenol <b>piceatannol</b> optimize glucose disposal mechanisms and upgrade active cellular insulin receptor responses.",
+    "<b>Gastrointestinal Peristalsis Enhancement:</b> The massive <b>10.4g fiber</b> payload clears sluggish metabolic debris, provides prebiotic support for intestinal flora, and addresses chronic constipation loops.",
+    "<b>Central Nervous System Relaxation:</b> Native alkaloid fractions like <b>passiflorine</b> act on central neurochemical receptors, gently lowering acute anxiety and optimizing deep sleep architecture.",
+    "<b>Vascular Endothelial Protection:</b> The synergistic action of Vitamin C and active carotenoids suppresses lipid peroxidation, reinforcing arterial wall integrity against circulatory stress.",
+    "<b>Immune Cascade Mobilization:</b> Water-soluble ascorbates provide immediate protective shielding for leukocytes, maximizing active phagocytosis cycles against external pathogens."
+  ],
+  "precautionsIntro": "Severe Latex-Fruit Cross-Allergy Risks, Cyanogenic Glycoside Toxicities, and Acute Intestinal Overloads: Informed consumption ensures systemic safety.",
+  "precautions": [
+    "<b>Latex-Fruit Cross-Allergenicity Risk:</b> Passion fruit contains specific chitinase and pathogenesis-related plant proteins that display high structural homology with natural rubber latex antigens. Individuals suffering from <b>latex allergies</b> face elevated risks of severe cross-reactive hypersensitivity, including acute urticaria and anaphylaxis.",
+    "<b>Cyanogenic Glycoside Toxicity in Unripe Fruit:</b> The hard rind and the pulp of immature, green passion fruit contain small amounts of toxic <b>cyanogenic glycosides</b> (such as passiblandin). If consumed raw in large quantities prior to full ripening, enzyme activation can release hydrogen cyanide, leading to acute headache, nausea, and dizziness.",
+    "<b>Mechanical Gastrointestinal Fiber Shock:</b> Because passion fruit is packed with exceptionally dense, insoluble seeds and high total fiber concentrations, unmetered consumption can sharply overload a sensitive gastrointestinal tract. This can cause acute bloating, abdominal cramps, or worsen symptoms of irritable bowel syndrome (IBS)."
+  ]
+}

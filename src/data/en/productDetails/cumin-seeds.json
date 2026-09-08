@@ -1,0 +1,100 @@
+{
+  "slug": "cumin-seeds",
+  "name": "Cumin Seeds",
+  "category": "Spices and Herbs",
+  "image": "/productinfo/cumin-seeds.png",
+  "imageAlt": "whole organic cumin seeds on a dark textured background",
+  "description": "Cumin (Zira) is an ancient aromatic spice derived from the seeds of Cuminum cyminum, renowned for its distinct earthy, warm, and slightly bitter flavor profile. Highly valued in both culinary arts and traditional medicine, it serves as a powerful metabolic stimulant and digestive aid, largely driven by its potent volatile essential oils and bioactive polyphenols.",
+  "macroTitle": "Macro Nutrients (per 100g, whole seeds)",
+  "macroIntro": "While used in small therapeutic amounts, cumin seeds possess a balanced macronutrient composition rich in plant fats, dietary fiber, and essential amino acids.",
+  "microIntro": "Cumin boasts an exceptional micronutrient dense matrix, loading high amounts of bioavailable iron, magnesium, and active phenolic antioxidants that optimize cellular respiration.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "375 kcal / 19% DV",
+      "bg": "#15837c",
+      "description": "A moderate energy density derived from the seed's internal nutrient stores, including healthy essential fatty acids and complex structural carbohydrates."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.8 g / 36% DV",
+      "bg": "#f5722c",
+      "description": "Contains an impressive plant-based amino acid profile that assists in cellular repair paths and metabolic enzyme synthesis."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "22.3 g / 29% DV",
+      "bg": "#e4a910",
+      "description": "Composed primarily of monounsaturated and polyunsaturated fatty acids, which safely house the spice's precious volatile flavor compounds."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "44.2 g / 16% DV",
+      "bg": "#1a96cd",
+      "description": "Mainly structured as complex, low-glycemic carbohydrates, with a substantial portion (~10.5g) consisting of beneficial dietary fiber."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 173,
+      "name": "Cuminaldehyde",
+      "slug": "cuminaldehyde",
+      "amount": "Bioactive Core",
+      "bg": "#15837c",
+      "description": "The primary volatile phytochemical responsible for cumin’s sharp aroma. It acts as a robust antimicrobial agent and stimulates pancreatic secretion loops."
+    },
+    {
+      "id": 174,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "66.4 mg / 369% DV",
+      "bg": "#f5722c",
+      "description": "An exceptionally high concentration of plant-based iron, critical for hemoglobin formation, optimal oxygen transport, and cellular energy pathways."
+    },
+    {
+      "id": 175,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "366 mg / 91% DV",
+      "bg": "#66ab63",
+      "description": "A vital intracellular mineral that regulates neuromuscular transmission, maintains vascular tone, and assists in glucose metabolism."
+    },
+    {
+      "id": 176,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "931 mg / 93% DV",
+      "bg": "#1a96cd",
+      "description": "Provides structural support for bone mineral density, cellular signaling transduction, and precise muscle contraction cycles."
+    },
+    {
+      "id": 177,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "4.8 mg / 44% DV",
+      "bg": "#e4a910",
+      "description": "An essential trace element required for DNA synthesis, robust immune defense cascades, and healthy endogenous antioxidant production."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Powerful Digestive Enzyme Stimulation:</b> Bioactive compounds like **cuminaldehyde** trigger salivary glands and augment the secretion of bile, proteases, and lipases, optimizing gastrointestinal transit and reducing bloating.",
+    "<b>Correction of Iron Deficiency Baselines:</b> Due to its remarkable **iron** density, integrating cumin into daily culinary practices serves as a functional dietary intervention against iron-deficiency anemia.",
+    "<b>Glycemic Regulation and Insulin Sensitivity:</b> Phytochemical analyses indicate that cumin assists in modulating fasting blood glucose levels and mitigating advanced glycation end-products (AGEs) formation.",
+    "<b>Systemic Antioxidant and Anti-inflammatory Cascades:</b> Packed with flavonoids (apigenin, luteolin), it intercepts free radicals, shielding vascular structures and cellular sheets from oxidative stress.",
+    "<b>Lipid Profile Optimization Support:</b> Regular clinical inclusion shows positive correlations with dropping circulating LDL cholesterol and triglyceride metrics while supporting favorable HDL ratios."
+  ],
+  "precautionsIntro": "Concentrated Essential Oils, Bleeding Risks, and Hypoglycemic Synergy: While safe for standard culinary use, therapeutic dosing requires strategic attention.",
+  "precautions": [
+    "<b>Potential Hypoglycemic Amplification:</b> Because cumin naturally drives blood glucose reductions, individuals navigating prescribed pharmaceutical antidiabetic interventions must monitor their metrics closely to prevent unexpected hypoglycemia.",
+    "<b>Interference with Hemostasis (Blood Clotting):</b> Laboratory models suggest cumin extracts can slow down blood coagulation. It should be discontinued at least two weeks prior to scheduled surgical interventions.",
+    "<b>Gastrointestinal Mucosal Irritation:</b> Excessive consumption of raw or highly concentrated cumin powders can trigger mild gastric reflux or localized heartburn in individuals with established gastritis or peptic ulcers."
+  ]
+}

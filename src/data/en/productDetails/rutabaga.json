@@ -1,0 +1,108 @@
+{
+  "slug": "rutabaga",
+  "name": "Rutabaga",
+  "category": "Vegetables",
+  "image": "/productinfo/rutabaga.png",
+  "imageAlt": "fresh raw rutabaga root vegetable",
+  "description": "Rutabaga (Brassica napus var. napobrassica) is a nutrient-dense cruciferous root vegetable prized for its robust fiber architecture and sulfur-based phytochemical profile. Its botanical matrix, rich in glucosinolates and essential electrolytes, is engineered to activate endogenous Phase II detoxification pathways, support cardiovascular hemodynamics, and reinforce cellular immune resilience.",
+  "macroTitle": "Macro Nutrients (per 100g, boiled)",
+  "macroIntro": "A clean, low-calorie carbohydrate framework structurally bound to complex dietary fibers, promoting stable glycemic kinetics and metabolic satiety.",
+  "microIntro": "A highly bioavailable micronutrient matrix providing foundational Vitamin C and potassium, essential for collagen synthesis and fluid homeostatic regulation.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "39 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "Low energy density providing substantial volumetric satiety with minimal metabolic loading."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.1 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Modest plant-derived protein content supporting basic amino acid replenishment."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / 0.2% DV",
+      "bg": "#e4a910",
+      "description": "Negligible lipid baseline, ideal for strictly fat-restricted dietary protocols."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "8.9 g / 3% DV",
+      "bg": "#15837c",
+      "description": "Complex starches balanced by dense structural fiber (~2.5g), ensuring gradual glucose absorption."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 27,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "25.0 mg / 28% DV",
+      "bg": "#1a96cd",
+      "description": "Powerful antioxidant cofactor driving endogenous collagen synthesis and immune cell kinetics."
+    },
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "305 mg / 7% DV",
+      "bg": "#66ab63",
+      "description": "Foundational electrolyte for fluid homeostasis and regulation of vascular smooth muscle tone."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "20 mg / 5% DV",
+      "bg": "#f5722c",
+      "description": "Supports enzymatic transfers, ATP stability, and neuromuscular relaxation mechanisms."
+    },
+    {
+      "id": 147,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "47 mg / 4% DV",
+      "bg": "#e4a910",
+      "description": "Structural mineral assisting in the maintenance of skeletal bone matrix integrity."
+    },
+    {
+      "id": 36,
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.1 mg / 6% DV",
+      "bg": "#15837c",
+      "description": "Coenzymatic nutrient facilitating neurotransmitter synthesis and baseline lipid metabolism."
+    },
+    {
+      "id": 148,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "50 mg / 4% DV",
+      "bg": "#1a96cd",
+      "description": "Works with calcium to support continuous bone mineralization and ATP synthesis cycles."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Detoxification Activation:</b> Glucosinolates upregulate Phase II hepatic enzymes, actively neutralizing cellular carcinogens.",
+    "<b>Immune Resilience:</b> Vitamin C payloads accelerate immune cell replication cascades against oxidative stress.",
+    "<b>GI Kinetic Regulation:</b> Insoluble fiber matrix prevents metabolic stasis and bolsters colonic microbiome health.",
+    "<b>Vascular Pressure Optimization:</b> Potassium yields counteract sodium loading, mitigating arterial tension and stabilizing blood pressure.",
+    "<b>Connective Tissue Repair:</b> Vitamin C synergy with trace minerals reinforces collagen matrices and vascular elasticity."
+  ],
+  "precautionsIntro": "Nutritional caution is advised for specific endocrine and metabolic conditions:",
+  "precautions": [
+    "<b>Goitrogenic Interference:</b> Raw rutabaga contains progoitrins; patients with hypothyroidism or goiter should consume only thermally processed (well-cooked) forms to denature these compounds.",
+    "<b>Sulfur-based Irritation:</b> Natural sulfur compounds may irritate inflamed gastrointestinal mucosa; limit intake if suffering from active peptic ulcers or colitis.",
+    "<b>Renal Load Considerations:</b> Concentrated potassium content requires careful volume control for individuals with advanced chronic kidney disease (CKD)."
+  ]
+}

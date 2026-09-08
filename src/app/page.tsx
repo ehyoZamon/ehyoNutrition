@@ -14,7 +14,7 @@ export default function HomePage() {
             });
 
             if (value === "true") {
-                router.replace("/main");
+                router.replace("/food-diary");
             } else {
                 router.replace("/walkthrough");
             }

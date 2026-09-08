@@ -1,0 +1,124 @@
+{
+  "slug": "coconut-milk",
+  "name": "Coconut Milk",
+  "category": "Dairy and Alternatives",
+  "image": "/productinfo/coconut-milk.png",
+  "imageAlt": "creamy organic coconut milk poured into a rustic ceramic bowl with coconut halves nearby",
+  "description": "Coconut milk is a rich, lipophilic liquid matrix extracted from the grated solid endosperm of mature Cocos nucifera fruits. Distinct from low-density coconut water, this nutrient-dense emulsion features an exceptional concentration of medium-chain triglycerides (MCTs), primarily lauric acid, rendering it an elite, rapidly deployable metabolic fuel source with inherent antimicrobial and mucosal-protective vectors.",
+  "macroTitle": "Macro Nutrients (per 100g, canned/smooth liquid)",
+  "macroIntro": "Coconut milk possesses a highly specialized macronutrient architecture, dominated by structured saturated plant lipids that bypass traditional adipocyte storage pathways.",
+  "microIntro": "Coconut milk delivers a highly functional biochemical micro-matrix, delivering therapeutic mineral fractions of manganese, iron, and cellular copper bound within a protective lipid emulsion.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~230 kcal",
+      "bg": "#15837c",
+      "description": "A high-efficiency, lipid-driven caloric payload that supplies immediate biological energy substrates to mitochondrial processing loops."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.3 grams",
+      "bg": "#f5722c",
+      "description": "Contains minor plant peptide fractions, acting primarily as a structural emulsifying agent rather than a primary nitrogen source."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "23.8 grams",
+      "bg": "#e4a910",
+      "description": "Composed primarily of medium-chain saturated fatty acids (~18g), which are rapidly absorbed and shuttled directly to the liver via the portal vein."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "5.5 grams",
+      "bg": "#1a96cd",
+      "description": "Low net impact carbohydrates, providing a mild, low-glycemic background sweetness balanced by trace structural plant fiber (~2.2g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "lauric-acid",
+      "slug": "lauric-acid",
+      "name": "Lauric Acid (MCT)",
+      "amount": "Bioactive Lipid fraction",
+      "bg": "#15837c",
+      "description": "The predominant medium-chain fatty acid in coconut fat. It metabolizes into monolaurin, a powerful compound that destabilizes lipid-coated pathogens."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.92 mg / 40% DV",
+      "bg": "#f5722c",
+      "description": "An essential trace element acting as an obligatory cofactor for structural carbohydrate metabolism and mitochondrial free radical scavenging[cite: 1]."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.26 mg / 29% DV",
+      "bg": "#66ab63",
+      "description": "A foundational biological trace mineral required for iron absorption loops, collagen matrix cross-linking, and cellular respiration kinetics[cite: 1]."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "1.6 mg / 9% DV",
+      "bg": "#1a96cd",
+      "description": "A notable botanical iron fraction that assists in cellular oxygen transportation pathways and supports general enzymatic function[cite: 1]."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "100 mg / 8% DV",
+      "bg": "#e4a910",
+      "description": "A critical structural element involved in the synthesis of cellular phospholipid bilayers and genetic nucleic acid frameworks[cite: 1]."
+    },
+    {
+      "id": 30,
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "37 mg / 9% DV",
+      "bg": "#66ab63",
+      "description": "Supports muscle and nerve function, energy production, bone health, and blood glucose regulation[cite: 1]."
+    },
+    {
+      "id": 32,
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "263 mg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "Supports heart function, muscle contraction, nerve signaling, and fluid balance[cite: 1]."
+    },
+    {
+      "id": 40,
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "6.0 mcg / 11% DV",
+      "bg": "#f5722c",
+      "description": "Supports antioxidant defense, thyroid function, immune system health, and protects cells from oxidative damage[cite: 1]."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Mitochondrial Ketogenesis Fueling:</b> Abundant <b>medium-chain triglycerides (MCTs)</b> bypass traditional chylomicron pathways, traveling directly to the liver for immediate conversion into clean ketone bodies.",
+    "<b>Immunological Membrane Disruption:</b> Systemic conversion of <b>lauric acid</b> into monolaurin actively solubilizes the protective lipophilic outer membranes of pathogenic bacteria and enveloped viruses.",
+    "<b>Gastrointestinal Mucosal Protective Insulation:</b> The natural lipid-emulsion matrices coat the gastric lining, providing a soothing structural barrier that reinforces mucosal integrity against acid-induced erosion.",
+    "<b>Satiety Leptin Optimization:</b> High-density structured plant lipids trigger localized release of cholecystokinin (CCK) and peptide YY, sustaining a prolonged state of neurological satiety.",
+    "<b>Superoxide Dismutase Enzyme Activation:</b> Sizable concentrations of bioavailable <b>manganese</b> accelerate internal defense mechanisms, mitigating chronic cellular oxidative stress."
+  ],
+  "precautionsIntro": "Elevated Lipophilic Energy Densities, Potential Guar Gum Additive Reactive Risks, and Cardiovascular Saturated Lipid Bounds: Monitored intake aligns systemic profiles.",
+  "precautions": [
+    "<b>High Caloric and Lipophilic Mass:</b> The high density of saturated fats means unrestricted consumption can shift energy balance limits, necessitating strategic macro-budgeting in metabolic weight management.",
+    "<b>Industrial Stabilizer (Guar Gum) Irritations:</b> Many commercial canned coconut milks incorporate emulsifiers like guar gum or carboxymethylcellulose. These compounds can cause dysbiosis, flatulence, and acute intestinal cramping in hyper-sensitive gastrointestinal tracts.",
+    "<b>Serum Cholesterol Modification Vulnerabilities:</b> While MCTs oxidize efficiently, excessive intake of highly concentrated coconut fats can alter lipid panels in specific individuals (hyper-responders), increasing overall ApoB and LDL-cholesterol markers."
+  ]
+}

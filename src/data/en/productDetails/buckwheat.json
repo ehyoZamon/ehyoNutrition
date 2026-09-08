@@ -1,0 +1,107 @@
+{
+  "slug": "buckwheat",
+  "name": "Buckwheat",
+  "category": "Grains / Pseudocereals",
+  "image": "/productinfo/buckwheat.png",
+  "imageAlt": "dry buckwheat groats",
+  "description": "Buckwheat represents a highly nutritious, gluten-free pseudocereal embryonic phytomatrix derived from the Polygonaceae family (Fagopyrum esculentum), distinguished by an exceptionally well-balanced nitrogenous profile of water-soluble albumin and globulin storage proteins rich in limiting amino acids (specifically lysine and arginine). Operating as an advanced low-glycemic metabolic substrate, this botanical repository delivers complex, highly branched starch polymers interlinked with structural non-digestible polyglucans alongside a specialized secondary metabolome rich in polyphenolic bioflavonoids (primarily rutin and quercetin) and rare chiral cyclitols (D-chiro-inositol). This synergistic biochemical network actively optimizes peripheral blood glucose transit, stabilizes capillary endothelial barrier functions, and acts as a safe foundational component for patients diagnosed with celiac disease or systemic metabolic impairments.",
+  "macroTitle": "Macro Nutrients (per 100g, dry product)",
+  "macroIntro": "The macronutrient architecture of dry buckwheat groats is characterized by high thermodynamic stability and exceptional nutritional balance, delivering complete vegetable protein structures wrapped within protective slow-release complex polysaccharides.",
+  "microIntro": "A prominent intracellular store of alkaline earth metal coenzymes, targeted vasoprotective bioflavonoids, and essential trace transition elements that regulate general enzymatic kinetics and mitochondrial homeostasis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "343 kcal / 17% DV",
+      "bg": "#15837c",
+      "description": "A dense, controlled release of chemical energy fueled entirely by complex low-glycemic carbohydrate matrices that yield prolonged cellular metabolic fuel."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.3 g / 27% DV",
+      "bg": "#f5722c",
+      "description": "An exceptional plant-based nitrogenous profile containing high biological value albumin and globulin complexes, naturally optimized with high concentrations of lysine."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.4 g / 4% DV",
+      "bg": "#e4a910",
+      "description": "A functional lipid fraction composed predominantly of essential unsaturated fatty acids, including oleic and linoleic acids, which support biological membrane integrity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "71.5 g / 26% DV",
+      "bg": "#15837c",
+      "description": "Consists of high-molecular weight starches that undergo slow, gradual enzymatic cleavage within the small intestine, preventing rapid postprandial surges."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "231 mg / 55% DV",
+      "bg": "#15837c",
+      "description": "An abundant intracellular alkaline earth metal cofactor driving cardiovascular smooth muscle compliance, cellular ATP utilization, and neurological signal stability."
+    },
+    {
+      "id": 112,
+      "name": "Rutin (Polyphenols)",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#f5722c",
+      "description": "A powerful polyphenolic bioflavonoid glycoside that reinforces capillary membrane thickness, attenuates erythrocyte aggregation, and scavenges dangerous free radicals."
+    },
+    {
+      "id": 34,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "2.2 mg / 12% DV",
+      "bg": "#66ab63",
+      "description": "An essential non-heme transitional coordination metal vital for direct hemoglobin synthesis, functional myoglobin binding, and cellular respiration cascades."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "10.0 g / 36% DV",
+      "bg": "#66ab63",
+      "description": "A balanced mix of soluble pectins and insoluble celluloses that optimize colonic transit times and modulate nutrient absorption dynamics."
+    },
+    {
+      "id": 36,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "1.3 mg / 57% DV",
+      "bg": "#1a96cd",
+      "description": "A fundamental trace element that serves as a structural cofactor for mitochondrial superoxide dismutase ($Mn-SOD$) and pathways regulating gluconeogenesis."
+    },
+    {
+      "id": 35,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.4 mg / 22% DV",
+      "bg": "#1a96cd",
+      "description": "A vital structural coordination ion for zinc-finger transcription factors, promoting genomic stability, protein synthesis, and active immune cascades."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rutin-Mediated Capillary Stabilization and Vasoprotection:</b> High systemic bioavailability of the glycoside rutin downregulates endothelial cell permeability, increases general micro-vascular wall resistance, inhibits lipid peroxidation loops, and improves overall peripheral venous blood flow.",
+    "<b>Insulinotropic Attenuation and D-Chiro-Inositol Kinetic Control:</b> Low-glycemic complex starches paired with natural stores of D-chiro-inositol act as secondary messengers in cellular insulin cascades, significantly optimizing peripheral glucose uptake and downregulating insulin resistance.",
+    "<b>Gluten-Free Epithelial Protection for Celiac Diets:</b> Being completely devoid of toxic alpha-gliadin protein sequences, buckwheat acts as a safe, highly digestible and nutrient-dense grain substitute that prevents autoimmune enterocyte destruction and small bowel atrophy.",
+    "<b>Myocardial and Smooth Muscle Relaxation via Magnesium Saturation:</b> The massive native pool of magnesium acts as a natural calcium channel antagonist within vascular structures, reducing peripheral arterial tension and mitigating risks associated with chronic arterial hypertension."
+  ],
+  "precautionsIntro": "Even though buckwheat ranks among the safest and lowest-allergen therapeutic matrices, specific portion rules and individual variables apply:",
+  "precautions": [
+    "<b>Rare Immunoglobulin-E Mediated Allergenic Hypersensitivity:</b> In highly sensitized individuals, specific 24 kDa storage protein fractions within the buckwheat seed can trigger acute $IgE$-mediated systemic responses, ranging from localized contact urticaria to gastrointestinal pain or anaphylaxis.",
+    "<b>Thermodynamic Portion Management in Weight Reduction:</b> Due to the high baseline caloric and carbohydrate density of the raw pseudocereal matrix, intake volume must be calculated and strictly matched to specific daily energy expenditure goals during targeted weight management protocols.",
+    "<b>High-Fiber Luminal Adaptation Adaptation Phase:</b> The high concentration of insoluble plant polyglucans can initially cause temporary gastrointestinal acceleration, mild abdominal cramping, or localized bloating in individuals transitioning rapidly from low-fiber dietary habits."
+  ]
+}

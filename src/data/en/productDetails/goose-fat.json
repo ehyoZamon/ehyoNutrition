@@ -1,0 +1,84 @@
+{
+  "slug": "goose-fat",
+  "name": "Goose Fat",
+  "category": "Fats and Oils",
+  "image": "/productinfo/goose-fat.png",
+  "imageAlt": "rendered pure traditional goose fat in a glass container",
+  "description": "Goose fat is a premium bioavailable animal lipid matrix with high thermodynamic stability. Its profile, rich in monounsaturated oleic acid (similar to olive oil), serves as an efficient metabolic fuel and a culinary transport system that enhances the systemic absorption of lipophilic micronutrients.",
+  "macroTitle": "Macro Nutrients (per 100g, rendered)",
+  "macroIntro": "A pure, high-density lipid matrix (100% fat) isolated from proteins and carbohydrates.",
+  "microIntro": "A lipophilic matrix rich in oleic acid and stabilizing tocopherols, reinforcing cellular membrane integrity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "900 kcal / 45% DV",
+      "bg": "#15837c",
+      "description": "Maximal energy density providing a sustained-release fuel resource."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "100.0 g / 128% DV",
+      "bg": "#e4a910",
+      "description": "Optimized lipid profile: ~33% sat, ~55% monounsat (oleic), ~12% polyunsat."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 164,
+      "name": "Oleic Acid (Omega-9)",
+      "slug": "oleic-acid",
+      "amount": "53.2 g",
+      "bg": "#15837c",
+      "description": "Monounsaturated fraction supporting endothelial health and membrane elasticity."
+    },
+    {
+      "id": 165,
+      "name": "Linoleic Acid (Omega-6)",
+      "slug": "linoleic-acid",
+      "amount": "10.1 g",
+      "bg": "#f5722c",
+      "description": "Polyunsaturated tract assisting in tissue regeneration."
+    },
+    {
+      "id": 166,
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "slug": "vitamin-e",
+      "amount": "2.7 mg / 18% DV",
+      "bg": "#66ab63",
+      "description": "Antioxidant protecting lipid double bonds from oxidative cleavage."
+    },
+    {
+      "id": 169,
+      "name": "Vitamin K2 (Menaquinone)",
+      "slug": "vitamin-k",
+      "amount": "Trace",
+      "bg": "#1a96cd",
+      "description": "Supports calcium distribution away from vascular tissues."
+    },
+    {
+      "id": 170,
+      "name": "Dietary Cholesterol",
+      "slug": "cholesterol",
+      "amount": "100 mg",
+      "bg": "#e4a910",
+      "description": "Sterol precursor for steroid hormones and bile acid synthesis."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Cardiovascular Support:</b> High oleic acid content aids in optimizing lipid ratios.",
+    "<b>Thermal Resilience:</b> High smoke point (~200°C) prevents toxic polymer formation during cooking.",
+    "<b>Bioavailability Vehicle:</b> Essential for the absorption of fat-soluble vitamins (A, D, E, K).",
+    "<b>Membrane Integrity:</b> Provides structural lipids for phospholipid bilayer maintenance.",
+    "<b>Ketogenic Efficiency:</b> Pure triglyceride profile drives stable ketogenesis."
+  ],
+  "precautionsIntro": "Considerations for caloric density and oxidative stability:",
+  "precautions": [
+    "<b>Caloric Loading:</b> Extremely high energy density requires portion monitoring to avoid surplus.",
+    "<b>Saturated Fat Limits:</b> Contains ~33% saturated fats; modulate intake if managing hyperlipidemia.",
+    "<b>Auto-oxidation:</b> Store in a cool, dark place to prevent the formation of aldehydes and epoxides."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "ginger",
+  "name": "Ginger",
+  "category": "Spices / Roots",
+  "image": "/productinfo/ginger.png",
+  "imageAlt": "fresh ginger root",
+  "description": "Ginger represents a highly potent, subterranean rhizomatous phytomatrix derived from the Zingiberaceae family (Zingiber officinale), characterized by a unique volatile oil architecture containing non-volatile pungent vanilloid compounds (specifically [6]-gingerol, [6]-shogaol, and zingerone) interlinked with sesquiterpene hydrocarbons (alpha-zingiberene and beta-bisabolene). Operating as an advanced clinical-grade bio-regulatory agent, this botanical repository exercises profound antiemetic control via non-competitive antagonism of peripheral $5-HT_3$ and $M_3$ muscarinic receptors, displays potent systemic anti-inflammatory suppression through targeted dual inhibition of cyclooxygenase ($COX$) and lipoxygenase ($LOX$) pathways, and accelerates gastric compliance. The dense cellular matrix serves as a highly active signaling vehicle, transferring lipophilic secondary metabolites that optimize cardiovascular endothelial tone and enhance cellular immune surveillance.",
+  "macroTitle": "Macro Nutrients (per 100g, raw root)",
+  "macroIntro": "The macronutrient configuration of fresh raw ginger rhizome displays a low absolute energy density, meaning that in standard culinary or therapeutic doses, its contribution to the total daily caloric budget is structurally minimal.",
+  "microIntro": "A specialized phytochemical storehouse rich in pungent alkylphenols, intracellular electrolytic macro-elements, and essential structural cofactors that drive systemic enzymatic homeostasis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "80 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "A minor metabolic energy footprint, primarily composed of slow-burning plant starches and trace amounts of organic soluble carbohydrates."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "17.8 g / 6% DV",
+      "bg": "#15837c",
+      "description": "Comprises complex non-sucrose storage starches closely integrated within a dense, protective framework of structural non-starch polyglucans."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.8 g / 4% DV",
+      "bg": "#f5722c",
+      "description": "Consists of minimal vegetative peptide fractions and vital protective enzymes specific to the underground rhizomatous tissue."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.7. g / 1% DV",
+      "bg": "#e4a910",
+      "description": "A very lean lipid presentation, mainly allocated to essential cuticular rhizome lipids and highly concentrated bioactive essential oils."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 113,
+      "name": "Gingerol (Bioactive Compounds)",
+      "slug": "compounds",
+      "amount": "High Bioactivity",
+      "bg": "#15837c",
+      "description": "The primary aromatic vanilloid ketone responsible for localized mucosal stimulation, strong anti-inflammatory cytokine suppression, and antiemetic efficacy."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "415 mg / 9% DV",
+      "bg": "#f5722c",
+      "description": "A crucial intracellular electrolyte that drives transmembrane electrical potentials and supports general cardiovascular fluid compliance."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "2.0 g / 7% DV",
+      "bg": "#66ab63",
+      "description": "Tough structural lignin and cellulose complexes that provide physical bulk, modulating the luminal release of active gingerols."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "43 mg / 10% DV",
+      "bg": "#1a96cd",
+      "description": "An essential divalent mineral cofactor facilitating optimal ATP-dependent neuromuscular pathways and cellular energy production loops."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "5.0 mg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "A water-soluble antioxidant vitamin that coordinates with native polyphenols to neutralize free radicals and assist immune surveillance."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Serotonergic Antagonism and Antiemetic Control:</b> Bioactive [6]-gingerols and shogaols act as direct non-competitive antagonists against enteric and central $5-HT_3$ serotonin and muscarinic receptors, blocking vagal nerve nausea signaling induced by motion, gestation, or chemotherapy.",
+    "<b>Dual COX/LOX Suppression and Myalgia Reduction:</b> The active vanilloid fractions suppress both cyclooxygenase ($COX-2$) and 5-lipoxygenase ($5-LOX$) enzymatic cascades, downregulating the synthesis of leukotrienes and pro-inflammatory prostaglandins to mitigate muscle soreness and arthritic joint pain.",
+    "<b>Prokinetic Acceleration of Gastric Emptying:</b> Ginger compounds directly stimulate antral gastric contractions and enhance local digestive enzyme secretion, safely accelerating the transit of the upper intestinal food bolus and resolving localized dyspepsia.",
+    "<b>Leukocyte Hyper-Activation and Antiseptic Warming:</b> Pungent volatile oils trigger thermal sensory receptors ($TRPV1$) to create a localized warming effect, while concurrently upregulating macrophage phagocytic index and natural killer ($NK$) cell cellular surveillance."
+  ],
+  "precautionsIntro": "Due to its intense concentration of pungent chemical agents and active anti-platelet compounds, ginger requires precise clinical tracking under specific conditions:",
+  "precautions": [
+    "<b>Exacerbation of Erosive Gastrointestinal Pathologies:</b> The direct irritant effect of high-density gingerols on the stomach lining can over-stimulate localized acid secretion, posing a clear danger of mucosal aggravation in patients with active peptic ulcer disease, acute gastritis, or esophageal reflux.",
+    "<b>Potentiation of Antiplatelet and Anticoagulant Agents:</b> Ginger derivatives inhibit thromboxane synthase and suppress platelet aggregation loops; concurrent intake with oral anticoagulants (e.g., warfarin) or antiplatelet drugs (e.g., aspirin) can abnormally extend bleeding times.",
+    "<b>Cholecystokinetic Activity in Gallstone Disease:</b> The profound choleretic and cholecystokinetic actions of ginger induce synchronized contractions of the gallbladder wall, creating an immediate risk of biliary tract obstruction or colic in patients diagnosed with large gallstones."
+  ]
+}

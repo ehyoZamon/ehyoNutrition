@@ -1,0 +1,108 @@
+{
+  "slug": "bananas",
+  "name": "Bananas",
+  "category": "Fruits",
+  "image": "/productinfo/bananas.png",
+  "imageAlt": "bananas",
+  "description": "Bananas are a premium, fast-acting biological energy source. Universally recognized for their dense concentration of vital intracellular electrolytes—specifically potassium—and natural structural sugars, they function as an exceptional asset for muscular contractility, cardiovascular rhythm management, and rapid glycogen replenishment.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient architecture of bananas is optimized for immediate cellular energy delivery, featuring a high-bioavailability carbohydrate matrix backed by minimal structural lipids and proteins.",
+  "microIntro": "Beyond quick energy, bananas carry a specialized crystalline network of essential systemic electrolytes, neuro-supportive B-vitamins, and dense prebiotic substrates.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "89 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "An incredibly efficient and clean source of metabolic energy, delivering rapid cellular fuel ideal for glycogen loading and immediate physical exertion."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.1 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Contains trace amino acid fractions that provide minor structural baseline maintenance for localized cellular enzymatic pathways."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.3 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "Virtually non-existent structural lipids, rendering the food highly digestible and ensuring a rapid gastric emptying rate for fast nutrient delivery."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "22.8 g / 8% DV",
+      "bg": "#15837c",
+      "description": "A pristine dual-action carbohydrate fuel mix of natural simple sugars (sucrose, fructose, glucose) alongside complex resistant starches."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 34,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "358 mg / 8% DV",
+      "bg": "#15837c",
+      "description": "The premier intracellular electrolyte critical for maintaining cellular fluid balance, driving the sodium-potassium pump, and regulating cardiac rhythm."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.4 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "An essential neuro-supportive coenzyme crucial for neurotransmitter synthesis (serotonin, dopamine) and red blood cell hemoglobin formulation."
+    },
+    {
+      "id": 19,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "2.6 g / 9% DV",
+      "bg": "#f5722c",
+      "description": "Rich in soluble pectin and resistant starch, structural fibers that act as elite prebiotics to optimize short-chain fatty acid production in the gut."
+    },
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "8.7 mg / 10% DV",
+      "bg": "#66ab63",
+      "description": "A core water-soluble antioxidant that actively aids in endogenous collagen cross-linking and neutralizes localized cellular oxidative stress."
+    },
+    {
+      "id": 35,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "27 mg / 6% DV",
+      "bg": "#e4a910",
+      "description": "Works synergistically with potassium to modulate vascular smooth muscle tone, prevent cramping, and support cellular ATP conversion loops."
+    },
+    {
+      "id": 41,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.3 mg / 13% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace catalyst necessary for optimal bone matrix development, fat metabolism cascades, and internal antioxidant enzyme activation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Neuromuscular and Cardiac Regulation:</b> The dense influx of bioavailable potassium preserves electrical potential differences across myocardial and skeletal cell membranes, preventing acute cramping and stabilizing heart rhythm.",
+    "<b>Rapid Glycogen Replenishment:</b> The balanced spectrum of natural simple sugars coupled with digestible carbohydrates provides an immediate metabolic spark, making it the premier structural whole food for pre- and post-exertion athletic recovery.",
+    "<b>Neurotransmitter Synthesis Boost:</b> High concentrations of Pyridoxine (B6) act as the primary metabolic catalyst for converting amino acids into serotonin and dopamine, optimizing mood regulation and central nervous system communication.",
+    "<b>Prebiotic Gastrointestinal Support:</b> Soluble fibers and structural pectins delay specific carbohydrate digestion just enough to selectively feed beneficial gut microflora, optimizing the mucosal barrier lining."
+  ],
+  "precautionsIntro": "While bananas deliver exceptional bio-energetic and electrolyte benefits, their specific carbohydrate concentration and enzyme profiles require precise lifestyle management.",
+  "precautions": [
+    "<b>Glycemic Load Dynamics:</b> As bananas ripen, their structural resistant starches rapidly convert into simple free sugars. Individuals managing advanced insulin resistance or type 2 diabetes must monitor ripening stages and portion volumes closely.",
+    "<b>Potassium Load in Renal Impairment:</b> For individuals presenting with advanced chronic kidney disease (CKD), the high potassium content can challenge compromised filtration mechanics, potentially leading to dangerous systemic hyperkalemia.",
+    "<b>Latex-Fruit Cross-Reactivity Syndrome:</b> Bananas contain specific structural proteins (chitinases) that match the allergenic epitopes found in natural rubber latex, potentially triggering immediate immune hypersensitivity cascades in sensitive individuals.",
+    "<b>Migraine-Triggering Amine Compounds:</b> Bananas accumulate measurable levels of tyramine as they age. In highly sensitive neurological profiles, tyramine can act as a vasoactive agent, potentially contributing to vascular headache cascades."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "beef-kidneys",
+  "name": "Beef Kidneys",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-kidneys.png",
+  "imageAlt": "beef kidneys",
+  "description": "Beef kidneys (Ren bovis) represent an elite, nutrient-dense glandular tissue prioritized in advanced nutritional protocols for their exceptional micronutrient density. As a critical filtration organ, they harbor a unique biological matrix enriched with high-potency cobalt-complexes (B12), selenium-dependent enzymes, and active metabolic cofactors. This tissue serves as a robust physiological catalyst for cellular detoxification pathways, intensive hematopoiesis, and the maintenance of mitochondrial energy homeostasis.",
+  "macroTitle": "Macro Nutrients (per 100g, simmered)",
+  "macroIntro": "A highly lean, protein-centric metabolic architecture that provides superior amino acid profiles while maintaining negligible caloric and lipid surplus.",
+  "microIntro": "A staggering repository of bioavailable trace elements and neuro-regulatory cofactors that exceed standard nutritional baselines by orders of magnitude.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "134 kcal / 7% DV",
+      "bg": "#15837c",
+      "description": "Energy yield facilitating basal metabolism and intensive tissue repair with high nutrient-to-calorie density."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "23.5 g / 47% DV",
+      "bg": "#f5722c",
+      "description": "Premium proteomic source with a high biological value, supplying essential amino acids for continuous cellular turnover."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.1 g / 5% DV",
+      "bg": "#e4a910",
+      "description": "Extremely restrictive lipid footprint, contributing to clean metabolic fuel when pre-processed of extraneous adipose deposits."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Zero-glycemic load, ensuring complete insulinemic stability and maintenance of glycemic equilibrium."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 25,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "24.9 mcg / 1038% DV",
+      "bg": "#1a96cd",
+      "description": "Monumental coenzyme concentration essential for erythropoiesis, nerve myelin preservation, and DNA synthesis loops."
+    },
+    {
+      "id": 37,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "141 mcg / 256% DV",
+      "bg": "#66ab63",
+      "description": "High-potency antioxidant essential for glutathione peroxidase activation and thyroid hormone metabolic regulation."
+    },
+    {
+      "id": 26,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "2.8 mg / 215% DV",
+      "bg": "#f5722c",
+      "description": "Elite mitochondrial cofactor driving ATP generation and systemic detoxification pathways."
+    },
+    {
+      "id": 32,
+      "name": "Iron (Heme)",
+      "slug": "iron",
+      "amount": "5.4 mg / 30% DV",
+      "bg": "#e4a910",
+      "description": "Highly bioavailable heme-iron source, critical for accelerated hemoglobin synthesis and oxygen-carrying capacity."
+    },
+    {
+      "id": 140,
+      "name": "Vitamin B5 (Pantothenic Acid)",
+      "slug": "vitamin-b5",
+      "amount": "3.6 mg / 72% DV",
+      "bg": "#15837c",
+      "description": "Vital for Coenzyme A synthesis, lipid oxidation, and maintaining adrenal cortex hormonal structural integrity."
+    },
+    {
+      "id": 39,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.6 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "Essential catalytic mineral governing cell division, endocrine signaling, and systemic immunological defense."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Accelerated Hematopoiesis:</b> Synergistic accumulation of heme iron and cobalamin (B12) acts as a primary metabolic driver for rapid red blood cell maturation and endurance.",
+    "<b>Endogenous Antioxidant Potentiation:</b> Elite selenium yields maximize intracellular glutathione peroxidase activity, mitigating oxidative erosion of cellular membranes.",
+    "<b>Mitochondrial Energetic Amplification:</b> B-vitamin cofactors (B2, B5) optimize the flux of the Krebs cycle, effectively mitigating metabolic lethargy.",
+    "<b>Detoxification Co-Factor Supply:</b> Unique mineral and vitamin profiles support enzymatic pathways involved in systemic heavy-metal filtration and hepatic/renal clearance."
+  ],
+  "precautionsIntro": "Due to their role as a filtration organ and extreme nutrient density, precise pre-treatment protocols are required:",
+  "precautions": [
+    "<b>Structural Pre-Processing:</b> Meticulous excision of the hilar adipose core and fibrous tubules is mandatory to eliminate pungent metabolites and optimize culinary quality.",
+    "<b>Purine-Driven Hyperuricemia:</b> As high-purine tissues, usage frequency must be limited for patients with predisposition to gout or elevated serum uric acid levels.",
+    "<b>Cholesterol Density:</b> Despite the lean triglyceride profile, significant natural cholesterol content warrants careful portion monitoring for individuals with hyper-responsive metabolic markers."
+  ]
+}

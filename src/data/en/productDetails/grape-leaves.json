@@ -1,0 +1,108 @@
+{
+  "slug": "grape-leaves",
+  "name": "Grape Leaves",
+  "category": "Vegetables",
+  "image": "/productinfo/grape-leaves.png",
+  "imageAlt": "fresh green grape leaves for cooking",
+  "description": "Grape leaves are a highly functional botanical green prized for their robust antioxidant profile and vascular benefits. Their matrix, rich in Vitamin A, K, and polyphenols, is engineered to suppress systemic inflammatory cascades, reinforce chronic venous tone, and safeguard cellular integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "A clean, hydration-dense architecture featuring a high structural payload of complex dietary fiber, ensuring optimal glycemic kinetics.",
+  "microIntro": "A spectacular, highly bioavailable micronutrient matrix yielding exceptional concentrations of fat-soluble vitamins and metabolic trace elements.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "93 kcal / 5% DV",
+      "bg": "#15837c",
+      "description": "Low energy density combined with nutrient richness for metabolic optimization."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "5.6 g / 11% DV",
+      "bg": "#f5722c",
+      "description": "High plant-based protein baseline for a leafy green, supporting cellular repair."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.1 g / 3% DV",
+      "bg": "#e4a910",
+      "description": "Minimal, clean lipid layout composed of essential polyunsaturated fatty acid fractions."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "17.3 g / 6% DV",
+      "bg": "#15837c",
+      "description": "Driven by a massive structural dietary fiber core (~11g) that moderates glucose uptake."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 143,
+      "name": "Vitamin A (Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "1376 mcg / 153% DV",
+      "bg": "#f5722c",
+      "description": "Massive carotenoid payload optimizing retinal performance and mucosal barriers."
+    },
+    {
+      "id": 142,
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "108.6 mcg / 91% DV",
+      "bg": "#66ab63",
+      "description": "Coenzyme guiding blood coagulation and osteocalcin binding for skeletal mineralization."
+    },
+    {
+      "id": 147,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "363 mg / 28% DV",
+      "bg": "#e4a910",
+      "description": "Essential source for skeletal structural density and neuromuscular signaling."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "95 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "Supports intracellular ATP production and vascular smooth muscle relaxation."
+    },
+    {
+      "id": 24,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "2.6 mg / 14% DV",
+      "bg": "#15837c",
+      "description": "Provides non-heme iron for foundational oxygen carrier pathways."
+    },
+    {
+      "id": 154,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "2.8 mg / 122% DV",
+      "bg": "#1a96cd",
+      "description": "Trace element powering SOD enzymes to neutralize mitochondrial oxidative stress."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Venous Insufficiency:</b> Stilbenes and flavonoids improve lower extremity microcirculation and capillary elasticity.",
+    "<b>Inflammatory Suppression:</b> Concentrated polyphenols reduce systemic vascular and mucosal tissue stress.",
+    "<b>GI Detoxification:</b> High structural fiber prevents metabolic stasis and supports colonic microbiota.",
+    "<b>Ocular Preservation:</b> Vitamin A carotenoids protect the macula from light-induced oxidation.",
+    "<b>Mitochondrial Shielding:</b> Manganese/Vitamin C pairing eliminates volatile free radicals."
+  ],
+  "precautionsIntro": "Nutritional considerations regarding processing and medication interactions:",
+  "precautions": [
+    "<b>Sodium Loading:</b> Commercial brined leaves are extremely high in salt; rinse thoroughly or prioritize fresh varieties to avoid hypertensive stress.",
+    "<b>Oxalate Density:</b> High oxalate content can facilitate crystal formation; restrict intake if history of calcium-oxalate kidney stones exists.",
+    "<b>Anticoagulant Interaction:</b> High Vitamin K levels can interfere with warfarin/coumadin; maintain consistent dietary intake if on medication."
+  ]
+}

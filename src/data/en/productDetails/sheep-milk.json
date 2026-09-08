@@ -1,0 +1,124 @@
+{
+  "slug": "sheep-milk",
+  "name": "Sheep Milk",
+  "category": "Dairy Products",
+  "image": "/productinfo/sheep-milk.png",
+  "imageAlt": "rich velvety sheep milk pouring into a heavy ceramic vessel against a warm neutral background",
+  "description": "Sheep milk (Ovis aries) is an exceptionally concentrated, highly bioavailable lipid-protein matrix showcasing an elite nutritional blueprint that far exceeds both bovine and caprine alternatives in total solids. The core therapeutic value of sheep milk resides in its superior structural density: it contains almost double the amount of solids, featuring a high concentration of short- and medium-chain fatty acids (MCFAs) paired with a robust whey-and-casein network that optimizes systemic amino acid delivery. Operating within human biochemical systems, these attributes maximize musculoskeletal remodeling, protect vascular walls, and deliver critical immunomodulatory factors.",
+  "macroTitle": "Macro Nutrients (per 100g, whole raw or pasteurized milk)",
+  "macroIntro": "Sheep milk delivers an extraordinarily rich, calorie-dense macro architecture characterized by elevated levels of structural proteins and premium emulsified fats.",
+  "microIntro": "The thick liquid serum concentrates a massive reservoir of bone-building calcium, intracellular magnesium, and vital fat-soluble protective vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~108 kcal",
+      "bg": "#15837c",
+      "description": "A dense, high-yield energetic profile driven by premium functional lipids and proteins, providing prolonged metabolic fuel and cellular satiety."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "6.0 grams",
+      "bg": "#f5722c",
+      "description": "An exceptional protein yield featuring high concentrations of three major casein fractions alongside easily digestible whey peptides for rapid tissue repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "7.0 grams",
+      "bg": "#e4a910",
+      "description": "A rich lipid fraction heavily concentrated with beneficial medium-chain triglycerides (MCTs) and conjugated linoleic acid (CLA) for rapid energy extraction."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "5.4 grams",
+      "bg": "#1a96cd",
+      "description": "Represented by native lactose, which provides a steady energy baseline and serves as a vital functional substrate for beneficial gut microflora."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "193 mg / 19% DV",
+      "bg": "#15837c",
+      "description": "An abundant, elite concentration of bioavailable extracellular mineral essential for accelerating bone mineralization and stabilizing neural signaling."
+    },
+    {
+      "id": "medium-chain-fatty-acids",
+      "slug": "medium-chain-fatty-acids",
+      "name": "Medium-Chain Fatty Acids (MCFAs)",
+      "amount": "Highly Concentrated",
+      "bg": "#f5722c",
+      "description": "Unique structural lipids metabolized quickly via the portal vein, minimizing pancreatic enzyme reliance while supplying immediate cellular energy."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "158 mg / 13% DV",
+      "bg": "#66ab63",
+      "description": "An essential structural mineral required for maintaining high-density hydroxyapatite bone matrices and driving cellular ATP generation."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "0.5 mg / 5% DV",
+      "bg": "#1a96cd",
+      "description": "A vital metalloenzyme cofactor that accelerates cellular repair cycles, stabilizes DNA structures, and supports active immune cell defense lines."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "0.6 mcg / 25% DV",
+      "bg": "#e4a910",
+      "description": "An essential water-soluble vitamin required for maintaining the integrity of myelin sheaths, supporting red blood cell production, and regulating homocysteine."
+    },
+    {
+      "id": 84,
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.38 mg / 29% DV",
+      "bg": "#15837c",
+      "description": "Acts as a key enzyme co-factor for mitochondrial energy production and protects against oxidative cellular damage."
+    },
+    {
+      "id": 85,
+      "slug": "vitamin-b5",
+      "name": "Vitamin B5 (Pantothenic Acid)",
+      "amount": "0.41 mg / 8% DV",
+      "bg": "#f5722c",
+      "description": "Essential for synthesizing Coenzyme A and metabolizing dietary fats, proteins, and carbohydrates."
+    },
+    {
+      "id": 86,
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "7 mcg / 2% DV",
+      "bg": "#66ab63",
+      "description": "Crucial co-factor for nucleotide synthesis, supporting rapid cell division and healthy red blood cell production."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Skeletal Density Optimization:</b> The ultra-dense matching ratios of <b>calcium</b> and phosphorus integrate flawlessly into human bone tissue, maximizing structural remodeling.",
+    "<b>Enhanced Digestibility Kinetics:</b> Despite high fat levels, the abundance of <b>MCFAs</b> and smaller fat globule diameters allows for smooth, efficient gastric clearance.",
+    "<b>Anabolic Musculoskeletal Support:</b> Packing <b>6.0g of protein</b>, it offers an unrivaled amino acid profile that accelerates muscle protein synthesis and tissue recovery.",
+    "<b>Vascular and Lipid Protection:</b> High levels of conjugated linoleic acid (CLA) actively help modulate inflammatory markers and support healthy blood lipid balances.",
+    "<b>Immune System Fortification:</b> Rich in fat-soluble vitamins and natural immunoglobulins, it upgrades cellular defense mechanisms against external physiological stressors."
+  ],
+  "precautionsIntro": "Elevated Lactose Delivery Truths, Cross-Reactive Casein Triggers, and High Caloric Load Densities: Strategic dietary alignment preserves metabolic balance.",
+  "precautions": [
+    "<b>Elevated Native Lactose Content:</b> Contrary to popular belief, sheep milk actually contains a higher concentration of <b>lactose</b> (~5.4g) than cow's milk. Individuals with verified lactase enzyme deficiencies will experience sharp gastrointestinal distress if consumed without supplemental enzymes.",
+    "<b>Severe Cross-Reactive Protein Allergy:</b> The caseins and whey proteins in sheep milk share significant structural similarities with bovine dairy proteins. Individuals diagnosed with a true, IgE-mediated <b>cow's milk allergy (CMA)</b> face extreme risks of dangerous cross-reactive anaphylactic responses.",
+    "<b>High Caloric and Lipid Density:</b> Due to its immense <b>7.0g fat profile</b>, unmetered consumption can easily exceed daily macronutrient and caloric limits. Individuals managing active hyperlipidemia, acute pancreatitis, or strict fat-restricted diets must monitor portion sizes carefully."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "strawberries",
+  "name": "Strawberries",
+  "category": "Fruits & Berries",
+  "image": "/productinfo/strawberries.png",
+  "imageAlt": "strawberries",
+  "description": "Strawberries are a highly celebrated, low-glycemic summer superfruit. Exceptionally loaded with immune-boosting Vitamin C, water-dense hydration, and protective anthocyanin antioxidants, they offer maximum nutritional density with remarkably low caloric costs.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "32 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "An exceptionally low-calorie, water-dense berry, offering sweet satisfaction with minimal metabolic impact."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.7 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "Contains nominal structural plant amino acids, typical for delicate low-density soft fruits."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.3 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "7.7 g / 3% DV",
+      "bg": "#15837c",
+      "description": "Primarily made of simple sugars balanced perfectly by dietary fibers, maintaining a highly favorable low glycemic load."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "58.8 mg / 65% DV",
+      "bg": "#1a96cd",
+      "description": "An outstanding concentration that outpaces many citrus fruits, driving robust collagen formation, wound healing, and cellular immunity."
+    },
+    {
+      "id": 38,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.39 mg / 17% DV",
+      "bg": "#66ab63",
+      "description": "An essential trace mineral acting as a cofactor for key metabolic enzymes involved in bone construction and free radical neutralization."
+    },
+    {
+      "id": 44,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "2.0 g / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Mainly composed of soluble and insoluble fractions (like pectin) that slow digestion, fueling beneficial gut microbiota and preventing glucose spikes."
+    },
+    {
+      "id": 31,
+      "name": "Folate (Vitamin B9)",
+      "slug": "vitamin-b9",
+      "amount": "24 mcg / 6% DV",
+      "bg": "#e4a910",
+      "description": "Crucial for baseline cellular division, DNA synthesis, and supporting tissue optimization during rapid physiological growth phases."
+    },
+    {
+      "id": 34,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "153 mg / 3% DV",
+      "bg": "#15837c",
+      "description": "A systemic mineral electrolyte that assists in regulating cardiovascular muscle impulses and structural cellular fluid balances."
+    },
+    {
+      "id": 75,
+      "name": "Anthocyanins (Pelargonidin)",
+      "slug": "antioxidants",
+      "amount": "High Concentration",
+      "bg": "#f5722c",
+      "description": "Potent polyphenols responsible for the vibrant red pigmentation. They directly support endothelial flexibility and shield cells from oxidative strain."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Cardiovascular System Elasticity:</b> The rich array of anthocyanins, paired with potassium, prevents heavy lipid oxidation, enhances endothelial blood vessel function, and assists in blood pressure control.",
+    "<b>Dermal Integrity & Collagen Production:</b> A single 100g serving delivers over half your daily Vitamin C requirement, directly driving the natural synthesis of dermal collagen matrices to support skin elasticity.",
+    "<b>Blood Sugar Stabilization:</b> Despite their sweetness, strawberries rank low on the glycemic index ($GI = 40$). Their unique polyphenol matrices have been shown to slow down glucose absorption in the gut.",
+    "<b>Potent Cellular Defense:</b> Ellagic acid and pelargonidin cross paths inside cellular tissue to actively downregulate inflammatory pathways and trap reactive oxidative stressors."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>Allergy & Histamine Risk Profile:</b> Strawberries are notorious for triggering food-allergic reactions, often linked to a specific protein associated with their red pigment. Symptoms can range from oral hives and itching to systemic flares.",
+    "<b>Pesticide Bioaccumulation Thresholds:</b> Due to their soft, porous skin and lack of protective outer shells, conventionally grown strawberries regularly top industrial lists for surface pesticide residues. Washing them thoroughly in running water is highly recommended.",
+    "<b>Gastrointestinal Oxalate Management:</b> Strawberries contain a moderate fraction of natural organic oxalates. If you have a clinical history of calcium-oxalate kidney architecture complications, moderate your portion sizes.",
+    "<b>High Perishability Factor:</b> These delicate berries absorb ambient humidity quickly, making them prone to rapid gray mold expansion. Keep them unwashed in a breathable container inside the fridge and clean them right before eating."
+  ]
+}

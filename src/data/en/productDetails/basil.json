@@ -1,0 +1,99 @@
+{
+  "slug": "basil",
+  "name": "Basil",
+  "category": "Greens / Herbs",
+  "image": "/productinfo/basil.png",
+  "imageAlt": "fresh green basil leaves",
+  "description": "Basil represents an intensely aromatic, biochemically complex vegetative phytomatrix belonging to the Lamiaceae family (Ocimum basilicum), characterized by a dense concentration of volatile phenylpropanoids (primarily eugenol, linalool, and estragole), lipophilic blood-coagulation cofactors, and a specialized secondary metabolome rich in polyphenolic acids (rosmarinic acid). Operating as a potent adaptogenic and cytoprotective botanical vehicle, this matrix acts as a natural selective modulator of inflammatory cascades, upregulates endogenous cellular antioxidant defense mechanisms, and exhibits direct antimicrobial properties against opportunistic luminal pathogens. Its structural configuration minimizes thermal energy delivery while supplying high-density metabolic signals that optimize digestion and support vascular endothelial compliance.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh leaves)",
+  "macroIntro": "The macronutrient allocation of fresh basil leaves reflects a highly diluted thermodynamic profile, serving primarily as a metabolic framework for specialized volatile terpenes and structural plant tissue.",
+  "microIntro": "An exceptional micro-evolutionary accumulator of lipophilic coagulation regulators, highly active essential monoterpenes, and critical transition metal elements that drive systemic enzymatic homeostasis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "23 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "A minor metabolic energy footprint, exerting zero mathematical impact on the total macronutrient thermodynamic load of prepared dishes."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.2 g / 6% DV",
+      "bg": "#f5722c",
+      "description": "Comprises baseline vegetative structural proteins, rich in defensive plant enzymes and free amino acid nitrogen complexes."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.6 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "A very lean lipid profile, mainly allocated to essential cuticular leaf waxes, volatile oils, and structural chloroplastic membranes."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "2.7 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Consists of minimal simple mono- and oligosaccharides interlinked with a functional framework of structural non-starch carbohydrates."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 23,
+      "name": "Vitamin K (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "414.8 mcg / 346% DV",
+      "bg": "#15837c",
+      "description": "An extraordinary concentration of the fat-soluble coagulation cofactor required for hepatic gamma-carboxylation of prothrombin and the maintenance of structural osteocalcin."
+    },
+    {
+      "id": 111,
+      "name": "Eugenol (Essential Oils)",
+      "slug": "essential-oils",
+      "amount": "High Bioactivity",
+      "bg": "#f5722c",
+      "description": "A volatile phenylpropanoid that exerts potent lipophilic antimicrobial, analgesic, and localized antiseptic activity across biological membranes."
+    },
+    {
+      "id": 21,
+      "name": "Vitamin A (Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "264 mcg / 29% DV",
+      "bg": "#66ab63",
+      "description": "A lipophilic provitamin carotenoid critical for maintaining rhodopsin kinetics in ocular photoreceptors and regulating epithelial differentiation pathways."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "1.6 g / 6% DV",
+      "bg": "#e4a910",
+      "description": "A matrix of insoluble hemicellulose and cellulose polymers that support basic gastrointestinal motility and mechanical transit."
+    },
+    {
+      "id": 34,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.2 mg / 18% DV",
+      "bg": "#1a96cd",
+      "description": "An essential non-heme coordination element that serves as a core structural driver for erythropoiesis, cellular oxidation, and mitochondrial electron transport."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Eugenol-Mediated Cyclooxygenase Inhibition:</b> The highly bioavailable volatile phenylpropanoid eugenol operates as a natural inhibitor of the cyclooxygenase ($COX-2$) enzyme pathway, actively downregulating the synthesis of pro-inflammatory prostaglandins and reducing inflammatory cytokine expressions.",
+    "<b>Hyper-Activation of Hepatic Coagulation Cascades:</b> Massive native phylloquinone levels provide the body with abundant substrates for the synthesis of coagulation factors II, VII, IX, and X, while simultaneously promoting optimal bone mineral density through vitamin K-dependent osteocalcin carboxylation.",
+    "<b>Adaptogenic Cortisol and Stress Modulation:</b> Specialized secondary polyphenolic metabolites help regulate the hypothalamic-pituitary-adrenal ($HPA$) axis, downregulating excessive serum cortisol spikes, mitigating oxidative neural stress, and enhancing psychological resilience.",
+    "<b>Gastrointestinal Carminative and Secretory Enhancement:</b> Volatile monoterpenes stimulate localized sensory receptors in the oral and gastric mucosa, safely upregulating the secretion of digestive enzymes, alleviating smooth muscle spasms, and minimizing colonic gas production."
+  ],
+  "precautionsIntro": "Due to its intense concentration of volatile organic oils and blood-coagulation cofactors, basil consumption must be clinically adjusted under specific conditions:",
+  "precautions": [
+    "<b>Anticoagulant Therapy Interference (Warfarin):</b> The immense native payload of Vitamin K can directly counteract 4-hydroxycoumarin vitamin K antagonists ($VKAs$), such as warfarin, disrupting targeted International Normalized Ratio ($INR$) therapeutic thresholds and creating severe thromboembolic risks.",
+    "<b>Uterine Smooth Muscle Stimulation in Gestation:</b> Concentrated basil extracts and essential oils harbor rich amounts of estragole and safrole, which can act as uterine stimulants capable of inducing unwanted smooth muscle contractions during pregnancy.",
+    "<b>Lamiaceae-Family Allergenic Hypersensitivity:</b> Sensitization to the specific sesquiterpene and phenylpropanoid components of the Lamiaceae family can precipitate acute immunoglobulin E ($IgE$)-mediated allergic responses, ranging from localized contact dermatitis to respiratory bronchospasm."
+  ]
+}

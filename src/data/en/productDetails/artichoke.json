@@ -1,0 +1,107 @@
+{
+  "slug": "artichoke",
+  "name": "Artichoke",
+  "category": "Vegetables",
+  "image": "/productinfo/artichoke.png",
+  "imageAlt": "fresh green globe artichoke",
+  "description": "Artichoke (Cynara cardunculus var. scolymus) is a nutrient-dense botanical concentrate, highly valued for its unique phytochemical profile—specifically cynarin and silymarin. Its complex matrix of inulin-type fructans and polyphenolic antioxidants is engineered to modulate hepatic detoxification, stimulate bile kinetics, and optimize the colonic microbiota ecosystem.",
+  "macroTitle": "Macro Nutrients (per 100g, boiled)",
+  "macroIntro": "A clean, low-calorie carbohydrate framework characterized by a significant prebiotic fiber yield and a near-zero lipid footprint.",
+  "microIntro": "A highly bioavailable micronutrient matrix featuring essential B-vitamins and mineral cofactors that reinforce systemic vascular stability and regenerative pathways.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "53 kcal / 3% DV",
+      "bg": "#15837c",
+      "description": "Low energy density providing high volumetric satiety with minimal metabolic loading."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.9 g / 6% DV",
+      "bg": "#f5722c",
+      "description": "Superior plant-derived protein yield, exceeding standard botanical vegetable profiles."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / 0.2% DV",
+      "bg": "#e4a910",
+      "description": "Negligible lipid baseline, supporting ultra-low-fat metabolic protocols."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "12.0 g / 4% DV",
+      "bg": "#15837c",
+      "description": "Complex structure dominated by inulin-type fibers (~6g), ensuring flat glycemic absorption curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 142,
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "14.8 mcg / 12% DV",
+      "bg": "#e4a910",
+      "description": "Regulator of protein coagulation and skeletal calcium-binding matrix integrity."
+    },
+    {
+      "id": 146,
+      "name": "Folate (Vitamin B9)",
+      "slug": "folate",
+      "amount": "68 mcg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "Essential B-vitamin driving DNA synthesis, amino acid metabolism, and erythrocyte replication."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "7.4 mg / 8% DV",
+      "bg": "#f5722c",
+      "description": "Antioxidant cofactor coordinating capillary stability and immune-modulatory cascades."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "42 mg / 11% DV",
+      "bg": "#15837c",
+      "description": "Vital mineral for enzymatic ATP generation, protein synthesis, and neuromuscular relaxation."
+    },
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "286 mg / 6% DV",
+      "bg": "#66ab63",
+      "description": "Intracellular electrolyte essential for fluid homeostasis and electrical conduction."
+    },
+    {
+      "id": 24,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.6 mg / 3% DV",
+      "bg": "#1a96cd",
+      "description": "Non-heme organic iron supporting baseline hemoglobin synthesis and tissue oxygenation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Hepatic Detoxification:</b> Cynarin and Silymarin stimulate hepatocyte regeneration and bolster glutathione-dependent detoxification pathways.",
+    "<b>Bile Kinetics:</b> Bitter compounds enhance endogenous bile secretion, optimizing lipid emulsification and cholesterol metabolic clearance.",
+    "<b>Prebiotic Colonization:</b> Inulin-type fructans bypass early digestion to selectively proliferate beneficial Bifidobacteria in the distal colon.",
+    "<b>Endothelial Protection:</b> Potent polyphenolic fractions neutralize lipid peroxidation, safeguarding vascular flexibility."
+  ],
+  "precautionsIntro": "Nutritional calibration is required for gastrointestinal and metabolic health:",
+  "precautions": [
+    "<b>FODMAP Sensitivity:</b> High inulin content may trigger severe bloating or gas in individuals with IBS or SIBO.",
+    "<b>Bile Duct Pathology:</b> Accelerated bile production can trigger biliary colic in patients with significant gallstones or bile duct obstructions.",
+    "<b>Industrial Preservation:</b> Canned or marinated artichokes often contain excessive sodium and additives; rinse thoroughly or prioritize fresh/steamed forms."
+  ]
+}

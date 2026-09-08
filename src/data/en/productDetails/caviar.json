@@ -1,0 +1,108 @@
+{
+  "slug": "caviar",
+  "name": "Caviar / Fish Roe",
+  "category": "Seafood",
+  "image": "/productinfo/caviar.png",
+  "imageAlt": "premium red and black fish roe",
+  "description": "Fish roe (caviar) is an elite, concentrated marine superfood characterized by a magnificent lipid profile and high protein density. Its botanical-like concentration of pre-formed Omega-3 fatty acids (EPA/DHA), Vitamin D, and Choline is engineered to optimize cognitive velocity, mitigate systemic inflammatory cytokines, and reinforce cellular membrane plasticity.",
+  "macroTitle": "Macro Nutrients (per 100g, sturgeon/salmon roe average)",
+  "macroIntro": "A nutrient-dense, ultra-low carbohydrate architecture featuring significant bioavailable animal protein and premium, essential fatty acid matrices.",
+  "microIntro": "A spectacular micronutrient profile presenting elite yields of lipid-soluble vitamins, B-complex groups, and rare marine trace minerals.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "250 kcal / 13% DV",
+      "bg": "#15837c",
+      "description": "Dense, functional energy derived from premium structural lipids and animal-sourced proteins."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "25.0 g / 50% DV",
+      "bg": "#f5722c",
+      "description": "Elite amino acid configuration essential for tissue repair and cellular synthesis."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "15.0 g / 19% DV",
+      "bg": "#e4a910",
+      "description": "Primary source of poly- and monounsaturated fatty acids, vital for membrane integrity."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.0 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Minimalist glycogen trace, perfectly compatible with ketogenic metabolic frameworks."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 151,
+      "name": "Omega-3 (EPA/DHA)",
+      "slug": "omega-3",
+      "amount": "6500 mg",
+      "bg": "#e4a910",
+      "description": "Marine concentration supporting neuronal myelin sheets and limiting systemic cytokine stress."
+    },
+    {
+      "id": 29,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "20.0 mcg / 833% DV",
+      "bg": "#1a96cd",
+      "description": "Phenomenal coenzymatic yield essential for DNA replication and CNS health."
+    },
+    {
+      "id": 28,
+      "name": "Vitamin D3",
+      "slug": "vitamin-d",
+      "amount": "11.8 mcg / 59% DV",
+      "bg": "#f5722c",
+      "description": "Cholecalciferol source crucial for immune cell response and skeletal calcium transport."
+    },
+    {
+      "id": 149,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "65.5 mcg / 119% DV",
+      "bg": "#15837c",
+      "description": "Potent trace cofactor activating glutathione peroxidase for antioxidant defense."
+    },
+    {
+      "id": 24,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "11.9 mg / 66% DV",
+      "bg": "#66ab63",
+      "description": "Highly bioavailable heme iron optimizing blood oxygen carrier capacity."
+    },
+    {
+      "id": 152,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "490 mg",
+      "bg": "#1a96cd",
+      "description": "Neurological precursor for acetylcholine synthesis and hepatic lipid clearance."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Neuro-Cognitive Velocity:</b> High DHA concentrations incorporate into brain membranes, enhancing neurotransmitter receptor efficiency.",
+    "<b>Systemic Anti-Inflammation:</b> Marine Omega-3s optimize eicosanoid balance, suppressing pro-inflammatory pathways.",
+    "<b>Vascular Shielding:</b> Lipid profiles enhance HDL dynamics and support endothelial nitric oxide pathways.",
+    "<b>Hematopoiesis:</b> Vitamin B12 and heme iron synergistically accelerate erythrocyte replication and oxygen transport.",
+    "<b>Hormonal Matrix:</b> Bioavailable cholesterol and Vitamin D provide structural foundations for steroid hormone synthesis."
+  ],
+  "precautionsIntro": "Nutritional management regarding sodium, purines, and food safety:",
+  "precautions": [
+    "<b>Sodium Concentration:</b> Brined roe contains high sodium; hypertensive patients and individuals with CKD must restrict intake.",
+    "<b>Purine Content:</b> Purines increase systemic uric acid; individuals with gout or uric acid-related lithiasis should avoid excessive consumption.",
+    "<b>Biological Risk:</b> Raw/unpasteurized roe carries a risk of *Listeria*; pregnant and immunocompromised individuals should prioritize pasteurized variants."
+  ]
+}

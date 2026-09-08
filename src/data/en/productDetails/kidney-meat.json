@@ -1,0 +1,108 @@
+{
+  "slug": "kidney-meat",
+  "name": "Beef Kidney",
+  "category": "Meat & Poultry",
+  "image": "/productinfo/kidney-meat.png",
+  "imageAlt": "beef kidney meat",
+  "description": "Beef kidney is an elite, ultra-dense therapeutic organ whole food. Unmatched by standard muscular cuts, it delivers a massive biological concentration of pre-formed Vitamin A, critical mitochondrial B-vitamins, and highly rare, crucial trace minerals like selenium, functioning as a premier dietary asset for internal detoxification pathways, thyroid regulation, and cellular energy synthesis.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient framework of beef kidney is structurally engineered for lean tissue preservation, delivering an exceptionally high protein density with absolute minimal lipid or carbohydrate interference.",
+  "microIntro": "Kidney meat houses a spectacular crystalline pool of hyper-bioavailable animal coenzymes and trace elements that drive foundational metabolic and endogenous antioxidant networks.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "103 kcal / 5% DV",
+      "bg": "#15837c",
+      "description": "An exceptionally low-calorie, nutrient-dense profile that yields a massive structural payoff without adding excess biological energy storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.4 g / 35% DV",
+      "bg": "#f5722c",
+      "description": "A highly complete, premium animal protein containing all essential amino acids required for rapid muscular repair, enzyme manufacturing, and tissue recovery."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "3.1 g / 4% DV",
+      "bg": "#e4a910",
+      "description": "An incredibly lean lipid profile with minimal saturated fat, providing just enough structural fat to efficiently transport its rich fat-soluble vitamin stores."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Completely free of carbohydrates or starches, ensuring an absolute zero impact on blood glucose fluctuations or insulin shifts."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 29,
+      "name": "Vitamin B12 (Cobalamin)",
+      "slug": "vitamin-b12",
+      "amount": "27.5 mcg / 1146% DV",
+      "bg": "#15837c",
+      "description": "An astronomical mega-dose of highly bioavailable cobalamin, absolutely essential for nerve sheath maintenance, red blood cell synthesis, and DNA replication."
+    },
+    {
+      "id": 45,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "141.2 mcg / 257% DV",
+      "bg": "#f5722c",
+      "description": "A massive concentration of this rare trace mineral, serving as a vital component for thyroid hormone conversion and glutathione peroxidase antioxidant defense."
+    },
+    {
+      "id": 23,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "2.8 mg / 215% DV",
+      "bg": "#66ab63",
+      "description": "A tremendous pool of riboflavin, fueling the mitochondrial electron transport chain to convert dietary fats and carbs into usable cellular ATP energy."
+    },
+    {
+      "id": 38,
+      "name": "Iron (Heme)",
+      "slug": "iron",
+      "amount": "4.6 mg / 26% DV",
+      "bg": "#e4a910",
+      "description": "Packed with highly bioavailable heme iron, which effortlessly bypasses common digestive blocks to optimize systemic oxygen delivery and hemoglobin replenishment."
+    },
+    {
+      "id": 1,
+      "name": "Vitamin A (Retinol)",
+      "slug": "vitamin-a",
+      "amount": "420 mcg / 47% DV",
+      "bg": "#1a96cd",
+      "description": "Delivers pre-formed active Vitamin A (retinol), requiring zero internal conversions to immediately defend corneal structure and modulate immune white blood cells."
+    },
+    {
+      "id": 37,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.9 mg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "An essential catalytic mineral that drives structural testosterone synthesis, skin barrier remodeling, and deep immune response signaling loops."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Mitochondrial ATP Energy Surge:</b> The staggering combination of Vitamin B12 and Riboflavin accelerates cellular respiration, clearing brain fog and maximizing biological energy pathways at a foundational level.",
+    "<b>Master Antioxidant & Thyroid Activation:</b> Extreme natural distributions of Selenium ignite the conversion of inactive T4 thyroid hormones to active T3, while fueling internal glutathione mechanisms to wipe out circulating oxidative stressors.",
+    "<b>Hyper-Efficient Red Blood Cell Synthesis:</b> Seamless coordination between high heme iron stores and massive Cobalamin (B12) pools ensures optimal erythropoiesis, correcting iron-deficiency markers and maximizing muscle oxygen transport.",
+    "<b>Lean Cellular Structure Optimization:</b> Because it functions as an ultra-lean complete protein matrix with zero carbohydrates, it triggers high protein synthesis loops while keeping global dietary lipid parameters strictly low."
+  ],
+  "precautionsIntro": "Given its extraordinary biochemical concentration and unique organ-meat attributes, kidney integration requires careful adherence to specific physiological boundary conditions.",
+  "precautions": [
+    "<b>Purine Concentration & Uric Acid Crystallization:</b> Kidney meat possesses an exceptionally high purine density. Individuals managing a clinical history of gout or hyperuricemia must limit portion frequencies to avoid sudden painful joint crystal deposits.",
+    "<b>Heavy Metal Cadmium Accumulation:</b> As a filtration organ, kidneys can store trace environmental heavy metals like cadmium over the animal's life cycle. Sourcing exclusively from young, 100% pasture-raised, grass-fed cattle is highly required to minimize this exposure risk.",
+    "<b>Suboptimal Cholesterol Density Parameters:</b> While extremely lean in total fats, beef kidney carries a substantial concentration of dietary cholesterol (approx. 400mg per 100g). If your specific genetic profile includes hyper-responder hypercholesterolemia, portion sizing must be strictly tracked.",
+    "<b>Distinct Culinary Sensory Shielding:</b> Raw kidney meat holds a unique, sharp odor due to its physiological filtering role. It requires aggressive preparatory rinsing, a prolonged soak in a mild food acid (like lemon juice or vinegar), and careful trimming to remove the inner white core before cooking."
+  ]
+}

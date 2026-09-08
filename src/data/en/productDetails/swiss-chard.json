@@ -1,0 +1,108 @@
+{
+  "slug": "swiss-chard",
+  "name": "Swiss Chard",
+  "category": "Vegetables & Greens",
+  "image": "/productinfo/swiss-chard.png",
+  "imageAlt": "swiss chard",
+  "description": "Swiss Chard is a visually stunning, highly therapeutic leafy green vegetable. Packaging an astronomical concentration of Vitamin K1 alongside unique blood-sugar-modulating polyphenols and deep mineral reserves like magnesium, it serves as an elite functional food for bone density, vascular integrity, and metabolic balance.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "19 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "An incredibly low-calorie, water-rich leafy green that delivers exceptional volume and hydration for strict metabolic management."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.8 g / 4% DV",
+      "bg": "#f5722c",
+      "description": "Provides basic plant-based amino acids that assist in structural maintenance and cellular repair cascades."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "Virtually fat-free. However, pairing it with clean dietary lipids like olive oil drastically elevates fat-soluble nutrient assimilation."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.7 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Composed mostly of complex structural plant fibers with negligible simple sugars, guaranteeing a flat glycemic response."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 5,
+      "name": "Vitamin K1 (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "830.0 mcg / 692% DV",
+      "bg": "#15837c",
+      "description": "An absolutely staggering mega-dose that acts as a vital director for bone mineralization pathways and healthy blood coagulation mechanisms."
+    },
+    {
+      "id": 73,
+      "name": "Vitamin A (Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "306 mcg / 34% DV",
+      "bg": "#66ab63",
+      "description": "Rich in provitamin A carotenoids, which convert to active retinol to support optimal night vision and preserve mucosal membrane tissue."
+    },
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "30.0 mg / 33% DV",
+      "bg": "#e4a910",
+      "description": "A strong antioxidant factor that neutralizes environmental free radicals, boosts collagen synthesis, and enhances plant-iron uptake."
+    },
+    {
+      "id": 35,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "81.0 mg / 19% DV",
+      "bg": "#1a96cd",
+      "description": "An outstanding concentration for greens, orchestrating neuromuscular relaxation, electrical cardiac tone, and steady energy production."
+    },
+    {
+      "id": 38,
+      "name": "Iron (Non-Heme)",
+      "slug": "iron",
+      "amount": "1.8 mg / 10% DV",
+      "bg": "#f5722c",
+      "description": "Provides an important plant-based pool of iron, required for hemoglobin manufacture and pristine oxygen transport efficiency."
+    },
+    {
+      "id": 92,
+      "name": "Syringic Acid & Betalains",
+      "slug": "antioxidants",
+      "amount": "High Concentration",
+      "bg": "#1a96cd",
+      "description": "Unique polyphenol and pigment compounds; syringic acid directly inhibits alpha-glucosidase, assisting in stabilizing blood glucose curves."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Unrivaled Bone Density Matrix:</b> Supplying nearly 700% of the daily value of Vitamin K1, it powerfully drives the carboxylation of osteocalcin, locking calcium securely into skeletal structures.",
+    "<b>Advanced Blood Glucose Regulation:</b> Swiss chard houses *syringic acid*, a powerful flavonoid that has been shown to inhibit alpha-glucosidase enzymes, stabilizing post-meal blood sugar curves.",
+    "<b>Neuromuscular & Cardiovascular Calm:</b> High structural reserves of magnesium work directly to lower peripheral vascular resistance, support ideal resting heart rhythms, and modulate neural excitability.",
+    "<b>Vibrant Cellular Defense:</b> The colorful stalks (especially in rainbow chard) contain potent *betalain* pigments, which exert profound anti-inflammatory and radical-scavenging protection across systemic organs."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>High Oxalate Concentrations:</b> Swiss chard contains a heavy density of natural organic oxalates. Individuals with a clinical history of calcium-oxalate kidney stone formations should regulate their intake or cook/blanch the leaves to discard soluble oxalates.",
+    "<b>Critical Anticoagulant Interactions:</b> Due to the truly massive volume of Vitamin K1—which directly coordinates the body's natural blood clotting machinery—individuals on tightly calibrated blood thinners (like Warfarin) must keep their daily intake completely stable.",
+    "<b>Sodium Concentration Metrics:</b> Compared to other leafy greens, Swiss chard naturally pulls and stores more sodium from the soil (around 213mg per 100g). While perfectly safe, those on strict medically monitored low-sodium diets should factor this into their parameters.",
+    "<b>Gastric Tract Sensitivity:</b> The dense, complex fiber matrix combined with raw oxalates can occasionally cause mild throat scratchiness or temporary abdominal bloating if eaten raw in massive quantities. Light steaming completely neutralizes this physical reaction."
+  ]
+}

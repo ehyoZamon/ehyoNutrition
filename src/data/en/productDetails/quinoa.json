@@ -1,0 +1,124 @@
+{
+  "slug": "quinoa",
+  "name": "Quinoa",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/quinoa.png",
+  "imageAlt": "uncooked organic mixed tricolor quinoa grains in a stone bowl",
+  "description": "Quinoa is a highly nutrient-dense pseudocereal derived from the seeds of Chenopodium quinoa. Originating in the Andean region, it is globally revered as an elite botanical survival and longevity food. It features a complete amino acid profile, low-glycemic complex starches, and a distinctive mineral-rich outer layer containing bioactive saponins and polyphenols.",
+  "macroTitle": "Macro Nutrients (per 100g, dry grain)",
+  "macroIntro": "Quinoa boasts an exceptional macronutrient balance, presenting a high-protein, fiber-dense alternative to traditional refined grains.",
+  "microIntro": "Quinoa possesses an outstanding micronutrient architecture, delivering deep pools of intracellular magnesium, highly bioavailable iron, and structural B-vitamins that facilitate clean metabolic signaling.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~368 kcal",
+      "bg": "#15837c",
+      "description": "A stable, low-glycemic energy yield derived from complex polysaccharides and structural embryonic plant lipids."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "14.1 grams",
+      "bg": "#f5722c",
+      "description": "A rare botanical complete protein containing all nine essential amino acids, heavily rich in lysine and isoleucine for tissue remodeling."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "6.1 grams",
+      "bg": "#e4a910",
+      "description": "Composed primarily of heart-healthy polyunsaturated linoleic and monounsaturated oleic essential fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "64.2 grams",
+      "bg": "#1a96cd",
+      "description": "Sustained-release complex carbohydrates balanced by an extensive prebiotic dietary fiber framework (~7.0g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "quercetin",
+      "slug": "quercetin",
+      "name": "Quercetin & Kaempferol",
+      "amount": "Bioactive Flavonoids",
+      "bg": "#15837c",
+      "description": "Potent plant polyphenols found in high concentrations that exert systemic anti-inflammatory and antiviral protective effects."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "197 mg / 49% DV",
+      "bg": "#66ab63",
+      "description": "An abundant intracellular mineral essential for managing neuromuscular conduction, vascular elasticity, and ATP production."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "4.6 mg / 26% DV",
+      "bg": "#f5722c",
+      "description": "A substantial plant-derived iron reserve that supports cellular oxygen transportation and optimal hemoglobin synthesis loops."
+    },
+    {
+      "id": "folate",
+      "slug": "folate",
+      "name": "Folate (Vitamin B9)",
+      "amount": "184 mcg / 46% DV",
+      "bg": "#1a96cd",
+      "description": "A critical coenzyme required for cellular replication, nucleic acid synthesis, and balancing systemic homocysteine levels."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "3.1 mg / 28% DV",
+      "bg": "#e4a910",
+      "description": "A foundational trace element acting as a catalytic structural component for immune defenses and cellular repair pathways."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "2.0 mg / 87% DV",
+      "bg": "#8c6bb1",
+      "description": "Vital for mitochondrial function and antioxidant enzyme systems (SOD)."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "457 mg / 37% DV",
+      "bg": "#9e9e9e",
+      "description": "Essential for bone formation, energy transfer (ATP), and DNA structure."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.6 mg / 67% DV",
+      "bg": "#d81b60",
+      "description": "Crucial for iron utilization, connective tissue health, and neurotransmitter function."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Complete Amino Acid Muscle Synthesis:</b> Delivering a full spectrum of **essential amino acids**, it provides superior structural building blocks to preserve and repair lean skeletal muscle tissues.",
+    "<b>Glycemic Stability and Insulin Sensitivity:</b> The combination of complex **polysaccharides** and dense fiber ensures a gradual glucose release, preventing plasma insulin spikes.",
+    "<b>Systemic Anti-Inflammatory Shielding:</b> Exceptionally high concentrations of **quercetin** and kaempferol systematically downregulate inflammatory cytokines and mitigate chronic oxidative stress.",
+    "<b>Prebiotic Microbiome Enrichment:</b> Abundant structural **dietary fiber** acts as targeted fuel for short-chain fatty acid (SCFA) production, reinforcing gut barrier integrity.",
+    "<b>Mitochondrial Cellular Energy Driving:</b> Sizable concentrations of bioavailable **magnesium and folate** accelerate metabolic methylation and internal ATP cellular energy generation."
+  ],
+  "precautionsIntro": "Saponin Gastrointestinal Irritations, Phytic Acid Mineral Chelation, and Oxalate Metrics: Proper rinsing and preparation techniques eliminate anti-nutritional factors.",
+  "precautions": [
+    "<b>Saponin-Induced Mucosal Irritation:</b> The exterior coating of quinoa contains bitter, naturally occurring soap-like saponins. Inadequate washing can trigger localized gastrointestinal irritation, nausea, or a harsh, bitter taste profile.",
+    "<b>Phytic Acid Mineral Binding:</b> High concentrations of phytic acid can chelate essential minerals like iron and zinc in the digestive tract. Utilizing soaking, sprouting, or thorough boiling methods optimizes mineral bioavailability.",
+    "<b>Oxalate Accumulation Risk:</b> Quinoa is structurally rich in natural oxalates. Individuals with a history of recurring calcium-oxalate kidney stones must monitor absolute portion sizes within their dietary protocols."
+  ]
+}

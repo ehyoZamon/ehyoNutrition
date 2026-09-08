@@ -1,0 +1,124 @@
+{
+  "slug": "garlic",
+  "name": "Garlic",
+  "category": "Vegetables",
+  "image": "/productinfo/garlic.png",
+  "imageAlt": "garlic",
+  "description": "Garlic is an aromatic plant of the onion family, renowned for its potent biologically active compounds. Due to its high content of sulfur-containing substances, such as allicin, it is not only an essential culinary spice but also a natural antiseptic with significant immunomodulatory properties.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "149 kcal / 7% DV",
+      "bg": "#15837c",
+      "description": "A source of moderate energy. The primary value of garlic lies in its phytonutrients rather than its caloric density."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "6.4 g / 13% DV",
+      "bg": "#f5722c",
+      "description": "Contains plant-based protein rich in sulfur-containing amino acids necessary for metabolism."
+    },
+    {
+      "id": 16,
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.5 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "Minimal fat content, making garlic a diet-friendly food."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "33 g / 12% DV",
+      "bg": "#15837c",
+      "description": "Consists mainly of complex carbohydrates and fiber, which support gut health."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "allicin",
+      "name": "Allicin",
+      "slug": "allicin",
+      "amount": "2.5 g",
+      "bg": "#f5722c",
+      "description": "A key sulfur-containing compound formed when garlic is crushed; it possesses antibacterial and anti-inflammatory properties."
+    },
+    {
+      "id": 10,
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "1.24 mg / 73% DV",
+      "bg": "#8e24aa",
+      "description": "Crucial for nervous system function, red blood cell synthesis, and energy metabolism."
+    },
+    {
+      "id": 38,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "1.7 mg / 74% DV",
+      "bg": "#66ab63",
+      "description": "Essential for the metabolism of proteins and carbohydrates, as well as the functioning of enzymatic defense systems in the body."
+    },
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "31.2 mg / 35% DV",
+      "bg": "#1a96cd",
+      "description": "A powerful antioxidant that supports immune function and collagen synthesis."
+    },
+    {
+      "id": 35,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "14.2 mcg / 26% DV",
+      "bg": "#009688",
+      "description": "Plays a critical role in thyroid health, DNA synthesis, and protecting cells from oxidative damage."
+    },
+    {
+      "id": 44,
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.1 g / 8% DV",
+      "bg": "#43a047",
+      "description": "Supports gastrointestinal health and acts as a prebiotic for beneficial gut bacteria."
+    },
+    {
+      "id": 21,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "181 mg / 14% DV",
+      "bg": "#ff5722",
+      "description": "Supports bone density, muscle contractions, and nerve signaling."
+    },
+    {
+      "id": 37,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.3 mg / 33% DV",
+      "bg": "#d84315",
+      "description": "Essential for vascular strength, iron absorption, and cellular energy production."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Immune System Support:</b> Regular consumption helps reduce the frequency and severity of colds by enhancing the body's defensive functions.",
+    "<b>Cardiovascular Support:</b> Helps maintain normal blood pressure levels and contributes to lowering total cholesterol.",
+    "<b>Antioxidant Protection:</b> Its rich composition of sulfur compounds neutralizes free radicals, slowing down oxidative processes in cells.",
+    "<b>Detoxification:</b> Facilitates the removal of heavy metals and supports the natural cleansing processes of the liver."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>Mucosal Irritation:</b> In its raw form, garlic can be aggressive to the stomach lining and esophagus, especially for individuals with gastritis or peptic ulcer disease.",
+    "<b>Blood Effects:</b> It has a mild blood-thinning effect; those taking anticoagulants should consult with a physician.",
+    "<b>Individual Intolerance:</b> Allergic reactions or individual sensitivity may occur, manifesting as gastrointestinal discomfort.",
+    "<b>Specific Odor:</b> Volatile sulfur compounds can cause a persistent odor on the breath and skin, which is a byproduct of allicin metabolism."
+  ]
+}

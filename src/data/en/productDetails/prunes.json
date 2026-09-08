@@ -1,0 +1,123 @@
+{
+  "slug": "prunes",
+  "name": "Prunes",
+  "category": "Dried Fruits",
+  "image": "/productinfo/prunes.png",
+  "imageAlt": "prunes",
+  "description": "Prunes represent the naturally dehydrated drupe fruits of Prunus domestica, functioning as a highly concentrated carbohydrate-mineral matrix and a recognized therapeutic agent for gastrointestinal and skeletal homeostasis. Structurally, the dehydration process condenses a unique profile of natural hexoses, bioactive sugar alcohols like sorbitol, and complex non-starch polysaccharides. This botanical architecture is enriched with osteotropic micronutrients, notably phylloquinone and bioavailable boron, alongside a robust array of antioxidant phenolic compounds such as neochlorogenic and chlorogenic acids. Operating as a metabolic modulator, this functional superfood directly stimulates large intestine motility, actively suppresses osteoclast-mediated bone resorption, and neutralizes systemic oxidative stress cascades.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient architecture is dominated by a dense, low-moisture carbohydrate matrix containing specific sugar alcohols, complemented by minimal nitrogenous and lipid fractions.",
+  "microIntro": "An exceptionally concentrated reservoir of essential osteotropic vitamins, intracellular electrolytes, and active polyphenolic antioxidants.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "240 kcal / 12% DV",
+      "bg": "#15837c",
+      "description": "Substantial thermodynamic energy density originating from the metabolic oxidation of concentrated simple carbohydrates and specific sugar alcohols."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "64.0 g / 23% DV",
+      "bg": "#e4a910",
+      "description": "A complex botanical saccharide blend featuring free D-glucose, D-fructose, and substantial quantities of the sugar alcohol D-glucitol."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.2 g / 4% DV",
+      "bg": "#f5722c",
+      "description": "Trace amounts of functional plant proteins and free amino acids embedded within the cellular matrix of the fruit pulp."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.4 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Extremely low lipid content, consisting primarily of structural membrane phospholipids and surface epicuticular waxes."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 110,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "7.1 g / 25% DV",
+      "bg": "#66ab63",
+      "description": "A synergistic network of soluble pectins and insoluble cellulose that provides mechanical bulk and serves as a primary fermentation substrate for colonic microflora."
+    },
+    {
+      "id": 136,
+      "name": "Sorbitol (D-Glucitol)",
+      "slug": "phytonutrients",
+      "amount": "14.7 g / High Activity",
+      "bg": "#1a96cd",
+      "description": "A poorly absorbed naturally occurring sugar alcohol that exerts potent osmotic pressure in the intestinal lumen, drawing water into the colon."
+    },
+    {
+      "id": 28,
+      "name": "Vitamin K (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "59.5 mcg / 50% DV",
+      "bg": "#15837c",
+      "description": "A critical fat-soluble coenzyme essential for the gamma-carboxylation of osteocalcin, driving the crystallization of calcium into the bone matrix."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "732 mg / 16% DV",
+      "bg": "#1a96cd",
+      "description": "A dominant intracellular cation vital for maintaining transmembrane resting potentials, regulating myocardial repolarization, and suppressing urinary calcium excretion."
+    },
+    {
+      "id": 35,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.28 mg / 31% DV",
+      "bg": "#f5722c",
+      "description": "An essential transition metal cofactor necessary for lysyl oxidase activity, which cross-links collagen and elastin in structural tissues."
+    },
+    {
+      "id": 34,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.3 mg / 13% DV",
+      "bg": "#e4a910",
+      "description": "A crucial trace mineral that acts as a cofactor for superoxide dismutase, directly neutralizing mitochondrial oxidative free radicals."
+    },
+    {
+      "id": 20,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.2 mg / 12% DV",
+      "bg": "#1a96cd",
+      "description": "A vital water-soluble coenzyme that drives gluconeogenesis, amino acid transamination, and the synthesis of core central nervous system transmitters."
+    },
+    {
+      "id": 33,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "41 mg / 10% DV",
+      "bg": "#66ab63",
+      "description": "A fundamental intracellular divalent cation required for regulating neurochemical stress responses, physical muscle relaxation, and enzymatic ATP utilization."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Sorbitol-Mediated Osmotic Laxation and Motility:</b> The high concentration of unabsorbed D-glucitol acts synergistically with structural fibers to increase intraluminal osmotic pressure, retaining fluid in the colon and accelerating peristaltic transit times.",
+    "<b>Osteoblast Stimulation and Bone Matrix Preservation:</b> High concentrations of phylloquinone combined with specific polyphenols downregulate osteoclast differentiation and enhance osteoblast activity, structurally fortifying trabecular bone microarchitecture.",
+    "<b>Polyphenolic Attenuation of Systemic Oxidation:</b> Dense chlorogenic and neochlorogenic acid fractions actively donate hydrogen atoms to neutralize highly reactive oxygen species, suppressing systemic inflammatory cytokines and protecting lipid cell membranes.",
+    "<b>Potassium-Driven Vascular Hyperpolarization:</b> Elevated bioavailable potassium ions activate smooth muscle cell membrane channels, promoting intracellular hyperpolarization that prompts vasodilation and a systemic down-regulation of arterial blood pressure."
+  ],
+  "precautionsIntro": "Due to the unique biochemical presence of unabsorbed sugar alcohols and the physical concentration of specific carbohydrates, clinical monitoring is advised:",
+  "precautions": [
+    "<b>Sorbitol-Induced Osmotic Diarrhea and Gastrointestinal Distress:</b> Rapid consumption of high quantities can overwhelm intestinal absorption capacity, leading to rapid fermentation by colonic bacteria and resulting in bloating, flatulence, and acute loose stools.",
+    "<b>Thermodynamic Density and Adipose Homeostasis Strain:</b> The dehydrated cellular matrix presents a highly concentrated caloric payload per unit mass, which can force a positive systemic energy balance and subsequent hepatic lipogenesis if portions are unmanaged.",
+    "<b>Trace Acrylamide and Sulfite Hypersensitivity:</b> Thermal processing can generate negligible trace levels of acrylamide, while commercial variations may utilize sulfur dioxide preservatives that can trigger severe bronchospastic reactions in asthmatic or sensitized individuals."
+  ]
+}

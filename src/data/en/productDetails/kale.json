@@ -1,0 +1,108 @@
+{
+  "slug": "kale",
+  "name": "Curly Kale",
+  "category": "Vegetables & Greens",
+  "image": "/productinfo/kale.png",
+  "imageAlt": "fresh curly kale leaves",
+  "description": "Kale is an elite, hyper-nutrient-dense brassica whole food matrix. Standing as a premier crown jewel of the leafy crucifer family, it packs a monumental distribution of coagulating Vitamin K1, massive radical-scavenging ascorbic acid, and an extraordinary concentration of macular carotenoids like *lutein*, serving as a top-tier functional resource for systemic cellular defense, vascular matrix stabilization, and advanced visual path shielding.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked without salt)",
+  "macroIntro": "The macronutrient configuration of cooked kale delivers an exceptionally lean, hyper-hydrating structural profile engineered to provide therapeutic organosulfur compounds and crisp prebiotic fibers without adding excess energy storage.",
+  "microIntro": "Kale houses a spectacular, high-potency crystalline network of fat-soluble vitamins, foundational water-soluble coenzymes, and vital trace minerals that drive master endogenous defense loops.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "43 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "An incredibly low caloric footprint, providing an immense yield of essential cellular antioxidants and vitamins per calorie without excess biological storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.5 g / 7% DV",
+      "bg": "#f5722c",
+      "description": "Provides an elevated protein-to-weight ratio for a leafy green, supplying basic plant amino acid structural fragments that assist in daily cellular maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.6 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "Extremely low in lipids, yet containing crucial trace thylakoid membrane fatty acids (including alpha-linolenic acid) that support the assimilation of its fat-soluble vitamins."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "6.1 g / 2% DV",
+      "bg": "#15837c",
+      "description": "Composed of slow-absorbing natural complex sugars tightly bundled within an advanced structural cellulose fiber matrix, generating a completely flat glycemic response."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 24,
+      "name": "Vitamin K1 (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "623.0 mcg / 519% DV",
+      "bg": "#15837c",
+      "description": "An absolute astronomical mega-dose of phylloquinone, mandatory for hepatic blood coagulation factors and the structural activation of bone-remodeling proteins."
+    },
+    {
+      "id": 12,
+      "name": "Vitamin A (Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "350 mcg RAE / 39% DV",
+      "bg": "#f5722c",
+      "description": "Packed with highly concentrated plant provitamin carotenoids, essential for maintaining mucosal tissue defense, respiratory tract health, and retinal cell integrity."
+    },
+    {
+      "id": 11,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "41.0 mg / 46% DV",
+      "bg": "#66ab63",
+      "description": "A robust pool of water-soluble ascorbic acid that fuels deep white blood cell protection, drives structural collagen cross-linking, and blocks free radicals."
+    },
+    {
+      "id": 41,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.6 mg / 26% DV",
+      "bg": "#e4a910",
+      "description": "An abundant dose of this trace element, functioning as an essential cofactor for superoxide dismutase to drive deep mitochondrial antioxidant defense."
+    },
+    {
+      "id": 17,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "4.1 g / 15% DV",
+      "bg": "#1a96cd",
+      "description": "Packed with high-quality soluble and insoluble prebiotic plant fibers that maximize metabolic satiety and optimize intestinal transit velocity."
+    },
+    {
+      "id": 97,
+      "name": "Lutein & Zeaxanthin",
+      "slug": "antioxidants",
+      "amount": "6448 mcg",
+      "bg": "#1a96cd",
+      "description": "Massive distributions of macular carotenoids that selectively deposit into the retina, absorbing high-energy blue light and suppressing oxidative stress."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Advanced Retinal and Macular Shielding:</b> Immense natural reserves of *lutein* and *zeaxanthin* cross the blood-retinal barrier to defend the macular pigment layer against phototoxic blue-light oxidation and slow long-term visual degradation.",
+    "<b>Vascular Architecture & Calcification Defense:</b> The monumental concentration of Vitamin K1 optimizes the carboxylation of matrix Gla protein and osteocalcin, actively guiding calcium into bone crystal frameworks while shielding arterial walls from hardening.",
+    "<b>Mitochondrial Phase-II Xenobiotic Clearance:</b> High baseline distributions of specialized glucosinolates are enzymatically transformed into highly reactive isothiocyanates, aggressively driving the liver's master clearing path for environmental stressors.",
+    "<b>Dermal Architecture & Free-Radical Suppression:</b> The potent dual-presence of bioavailable Vitamin C and Manganese drives efficient structural collagen formation, supporting endothelial integrity, accelerated wound healing, and deep skin cellular defense."
+  ],
+  "precautionsIntro": "Even though kale operates as an unmatched botanical asset, its extreme vitamin K concentration, competitive thyroid actions, and localized antinutrients require exact management metrics.",
+  "precautions": [
+    "<b>Coumarin-K1 Anti-Coagulation Interference:</b> Due to the monumental, mega-dose concentration of coagulating Vitamin K1, individuals undergoing pharmaceutical blood-thinning therapies (like Warfarin) must maintain a highly consistent, tracked daily intake to avoid altering medical coagulation parameters.",
+    "<b>Goitrogenic Isothiocyanate Competitive Binding:</b> Raw kale contains mild goitrogens that can theoretically compete with iodine uptake at the thyroid gland. For individuals navigating an active clinical baseline of hypothyroidism, applying thermal heat (steaming, boiling) completely deactivates this enzyme barrier.",
+    "<b>Soluble Oxalate Mineral Chelation:</b> Kale contains natural oxalates (though significantly lower than spinach), which can bind to minerals in the urinary tract, potentially contributing to crystallization in individuals with a clinical history of calcium-oxalate kidney stones.",
+    "<b>Crude Cellulose Gastric Irritation:</b> The tough, curly structural leaves of raw kale can act as an aggressive mechanical irritant to highly inflamed digestive linings, such as during acute flare-ups of gastritis or IBD. Massaging with olive oil or thorough thermal cooking is highly required."
+  ]
+}

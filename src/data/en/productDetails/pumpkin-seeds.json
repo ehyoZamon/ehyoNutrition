@@ -1,0 +1,124 @@
+{
+  "slug": "pumpkin-seeds",
+  "name": "Pumpkin Seeds",
+  "category": "Vegetables",
+  "image": "/productinfo/pumpkin-seeds.png",
+  "imageAlt": "plump whole shelled pumpkin seeds with a vibrant green hue scattered neatly showing their smooth matte texture",
+  "description": "Pumpkin seeds (Cucurbita pepo), also known as pepitas, are nutrient-dense edible kernels holding a highly concentrated lipophilic and mineral matrix optimized for deep endocrine regulation, myocardial protection, and cellular defense scaling. The core therapeutic architecture of pumpkin seeds relies on an exceptional yield of essential polyunsaturated fatty acids (primarily linoleic acid), structurally unique phytosterols, and a dense concentration of structural amino acids, notably L-arginine and L-tryptophan. Operating within human metabolic environments, these botanical compounds actively mitigate systemic vascular resistance, regulate prostatic stromal hypertrophy, and serve as critical structural building blocks for neurotransmitter synthesis.",
+  "macroTitle": "Macro Nutrients (per 100g, raw shelled kernels)",
+  "macroIntro": "Pumpkin seeds display an intensely concentrated, low-hydration macro framework exceptionally rich in structural proteins, premium botanical lipids, and protective dietary fibers.",
+  "microIntro": "The vibrant green kernels serve as an elite biological reservoir for essential intracellular minerals, heavy antioxidant complexes, and specialized plant sterols.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~559 kcal",
+      "bg": "#15837c",
+      "description": "A high-density energy profile driven by premium, lipid-dense fuel stores, supplying long-term cellular energy without inducing glycemic instability."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "30.23 grams",
+      "bg": "#f5722c",
+      "description": "An outstanding plant peptide profile rich in nitrogenous amino acids like L-arginine, directly driving muscle tissue synthesis and nitric oxide pathways."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "49.05 grams",
+      "bg": "#e4a910",
+      "description": "Dominated by essential polyunsaturated and monounsaturated fatty acids that optimize lipid fractions and serve as carriers for fat-soluble vitamins."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "10.71 grams",
+      "bg": "#1a96cd",
+      "description": "A minor carbohydrate allocation securely bound within a tough structural fiber matrix (~6.0g) that promotes gradual absorption and deep colonic health."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "592 mg / 148% DV",
+      "bg": "#15837c",
+      "description": "A massive intracellular mineral concentration that acts as a vital cofactor for over 300 enzymatic reactions, stabilizing cardiac rhythm and neuromuscular tone."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "7.81 mg / 71% DV",
+      "bg": "#f5722c",
+      "description": "An essential structural trace element required for driving DNA polymerase activity, optimizing testosterone production, and supporting immune cell scaling."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "8.82 mg / 49% DV",
+      "bg": "#66ab63",
+      "description": "A fundamental metabolic mineral critical for facilitating cellular oxygen transport, hemoglobin synthesis, and mitochondrial ATP production loops."
+    },
+    {
+      "id": "phytosterols",
+      "slug": "phytosterols",
+      "name": "Phytosterols",
+      "amount": "265 mg",
+      "bg": "#1a96cd",
+      "description": "Specialized plant sterols structurally similar to cholesterol that competitively block intestinal cholesterol absorption and modulate androgenic pathways."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "809 mg / 17% DV",
+      "bg": "#e4a910",
+      "description": "A primary intracellular electrolyte that dampens high vascular tone, assists in fluid clearance, and coordinates smooth myofibrillar contractions."
+    },
+    {
+      "id": 111,
+      "slug": "vitamin-k1",
+      "name": "Vitamin K1 (Phylloquinone)",
+      "amount": "7.3 mcg / 6% DV",
+      "bg": "#15837c",
+      "description": "Crucial for blood coagulation regulation and supporting bone mineral density."
+    },
+    {
+      "id": 112,
+      "slug": "vitamin-e",
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "amount": "2.18 mg / 15% DV",
+      "bg": "#f5722c",
+      "description": "Powerful fat-soluble antioxidant protecting cell membranes from lipid peroxidation."
+    },
+    {
+      "id": 113,
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "4.98 mg / 31% DV",
+      "bg": "#66ab63",
+      "description": "Essential for energy metabolism, DNA repair, and maintaining skin/nervous system health."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Prostatic Hypertrophy Modulation:</b> Highly specific <b>delta-7-sterols</b> competitively inhibit the binding of dihydrotestosterone ($DHT$) to prostate cells, reducing benign swelling and maintaining urinary stream mechanics.",
+    "<b>Myocardial and Vascular Regulation:</b> Exceptional parameters of <b>magnesium</b> work in synergy with L-arginine to induce vascular smooth muscle relaxation, helping lower systemic blood pressure profiles.",
+    "<b>Endocrine and Testicular Re-mineralization:</b> Dense pools of bioavailable <b>zinc</b> provide critical enzymatic foundations required for optimal spermatogenesis, free testosterone production, and immune scaling.",
+    "<b>Neurological Neurotransmitter Synthesis:</b> High structural concentrations of L-tryptophan provide the essential amino acid backbone required to synthesize serotonin and melatonin, promoting deep sleep regulation.",
+    "<b>Lipid Fraction Optimization:</b> Soluble <b>phytosterols</b> actively compete with dietary cholesterol in the jejunum, accelerating the systemic reduction of atherogenic low-density lipoproteins ($LDL$)."
+  ],
+  "precautionsIntro": "High Caloric Storage Loading, Phytic Acid Structural Antinutrients, and GI Fiber Overload Spasms: Targeted portion awareness prevents digestive and metabolic strain.",
+  "precautions": [
+    "<b>Significant Caloric Energy Density:</b> Due to their exceptionally rich <b>lipid matrix (~49g fat)</b>, pumpkin seeds carry substantial caloric weight. Consuming them in unmonitored volumes can quickly lead to chronic energy surpluses, conflicting with weight-restricted metabolic protocols.",
+    "<b>Phytic Acid Mineral Chelating:</b> Raw pumpkin seeds contain noticeable levels of <b>phytic acid</b>. This botanical antinutrient binds tightly to iron, zinc, and magnesium in the digestive tract, lowering their raw bioavailable absorption rates unless mitigated by soaking or roasting.",
+    "<b>Gastrointestinal Mucosal Overload:</b> Consuming large quantities of raw pumpkin seeds can overwhelm the digestive tract with dense <b>insoluble plant fiber and heavy fats</b>. This can cause localized gastric heaviness, painful abdominal bloating, and sudden intestinal cramping."
+  ]
+}

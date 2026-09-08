@@ -1,0 +1,124 @@
+{
+  "slug": "lupin-beans",
+  "name": "Lupin Beans",
+  "category": "Legumes",
+  "image": "/productinfo/lupin-beans.png",
+  "imageAlt": "plump yellow cooked lupin-beans in a ceramic bowl with macro details of their smooth skins",
+  "description": "Lupin beans (Lupinus) are an ancient, structurally superior legume matrix showcasing an elite nutritional blueprint. They possess an exceptional nitrogen-fixing capability that yields an unmatched ratio of plant-derived protein alongside a carbohydrate-free, high-density prebiotic fiber framework. Bioactively, lupin seeds are highly regarded for their specific alkaloid structures (when properly debittered), which modulate glucose transport channels, and their unique storage protein, gamma-conglutin, which directly interacts with systemic metabolic and insulin-signaling pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked boiled unsalted beans)",
+  "macroIntro": "Lupin beans deliver a protein-dominant, ultra-low glycemic macronutrient profile characterized by a complete absence of usable simple sugars and a heavy prebiotic fiber matrix.",
+  "microIntro": "The internal biological core of the lupin bean concentrates essential enzymatic trace minerals, housing dense cell-building magnesium payloads and structural zinc balances.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~119 kcal",
+      "bg": "#15837c",
+      "description": "A lean, highly efficient caloric density driven primarily by clean, structural amino acids rather than metabolic simple sugars."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "15.6 grams",
+      "bg": "#f5722c",
+      "description": "An elite plant-based protein content that rivals soy, featuring an excellent essential amino acid index crucial for nitrogen balance and muscle synthesis."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.9 grams",
+      "bg": "#e4a910",
+      "description": "A minimal, cardiovascular-friendly lipid fraction consisting mostly of oleic and linoleic essential unsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "9.9 grams",
+      "bg": "#1a96cd",
+      "description": "Composed almost entirely of non-digestible, non-glycemic prebiotic structural oligosaccharides and complex dietary fibers (~2.8g net carbs)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "gamma-conglutin",
+      "slug": "gamma-conglutin",
+      "name": "Gamma-Conglutin",
+      "amount": "Highly Bioactive",
+      "bg": "#15837c",
+      "description": "A unique, functional lupin globulin protein that acts as an insulin-mimetic agent, aiding glucose clearance and cellular GLUT-4 transporter recruitment."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "54.0 mg / 14% DV",
+      "bg": "#f5722c",
+      "description": "A central intracellular catalyst required for stabilizing ATP molecules, modulating nerve conduction, and relaxing vascular smooth muscle fibers."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "1.4 mg / 13% DV",
+      "bg": "#66ab63",
+      "description": "A critical metalloenzyme cofactor that accelerates cellular repair cycles, maintains DNA stability, and supports T-cell immune functionality."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "1.2 mg / 7% DV",
+      "bg": "#1a96cd",
+      "description": "Essential non-heme mineral substrate required for optimizing tissue oxygen saturation parameters and supporting mitochondrial electron transport."
+    },
+    {
+      "id": "vitamin-b9",
+      "slug": "vitamin-b9",
+      "name": "Vitamin B9 (Folate)",
+      "amount": "59.0 mcg / 15% DV",
+      "bg": "#e4a910",
+      "description": "A fundamental water-soluble coenzyme that regulates DNA methylation cycles, prevents neural tube anomalies, and controls systemic homocysteine metrics."
+    },
+    {
+      "id": 72,
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "270 mg / 6% DV",
+      "bg": "#15837c",
+      "description": "Regulates fluid balance, muscle contractions, and nerve signals."
+    },
+    {
+      "id": 73,
+      "slug": "vitamin-b1",
+      "name": "Vitamin B1 (Thiamine)",
+      "amount": "0.1 mg / 8% DV",
+      "bg": "#f5722c",
+      "description": "Essential for converting carbohydrates into energy and supporting nervous system function."
+    },
+    {
+      "id": 74,
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "140 mg / 11% DV",
+      "bg": "#66ab63",
+      "description": "Vital for energy transfer (ATP), bone mineralization, and DNA structure."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Index Regulation:</b> The specialized storage protein <b>gamma-conglutin</b> mimics insulin mechanisms, significantly reducing postprandial glucose surges.",
+    "<b>Prebiotic Microbiome Optimization:</b> High concentrations of fermentable <b>oligosaccharides</b> feed beneficial Bifidobacteria, maximizing short-chain fatty acid (SCFA) production.",
+    "<b>Satiety and Leptin Synergy:</b> The dense, concurrent delivery of <b>high protein</b> and dietary fiber triggers rapid vagal nerve stretch responses and prolonged satiety signaling.",
+    "<b>Vascular Tone Optimization:</b> High natural ratios of the amino acid <b>L-arginine</b> boost endothelial nitric oxide (NO) production, supporting optimal blood pressure management.",
+    "<b>Lipid Profile Refinement:</b> Soluble fiber matrices trap circulating bile acids within the intestinal lumen, gently assisting in the down-regulation of LDL cholesterol fractions."
+  ],
+  "precautionsIntro": "Severe Legume Cross-Allergy Hazards, Quinolizidine Alkaloid Toxicity Risks, and Purine Induced Uric Acid Accumulations: Strict preparation controls maximize culinary safety.",
+  "precautions": [
+    "<b>High Cross-Allergenicity with Peanuts:</b> Lupin beans contain specific storage proteins that display a massive structural homology with peanut allergens. Individuals with known <b>peanut allergies</b> are at an extremely high risk for life-threatening anaphylactic cross-reactions and must approach lupin with extreme caution.",
+    "<b>Quinolizidine Alkaloid Toxicity:</b> Raw 'bitter' lupin varieties possess toxic <b>quinolizidine alkaloids</b> that can induce neurological and anticholinergic poisoning (blurred vision, confusion, respiratory depression). They require an intensive, multi-day soaking and boiling washing protocol to thoroughly leach out toxins before consumption.",
+    "<b>Purine and Gastrointestinal Load:</b> Containing notable amounts of <b>purines</b>, unmetered intake can elevate blood uric acid levels, posing challenges for individuals with gout. Additionally, its dense oligosaccharide matrix can cause acute flatulence and bloating in individuals with sensitive digestive architecture."
+  ]
+}

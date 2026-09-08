@@ -1,0 +1,124 @@
+{
+  "slug": "wheat-groats",
+  "name": "Wheat Groats",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/wheat-groats.png",
+  "imageAlt": "dry raw crushed wheat groats in a rustic ceramic bowl on a dark background",
+  "description": "Wheat groats (often processed as crushed whole wheat or Arnautka) are a highly energizing carbohydrate substrate derived from the crushed kernels of hard durum wheat (Triticum durum). Retaining significant fractions of the original embryonic germ and structural bran layers, this ancient grain delivers a reliable matrix of complex starches. It acts as a sustained systemic fuel source, providing dense neurological support and robust mechanical activation of the digestive tract.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked groats)",
+  "macroIntro": "Wheat groats present a solid, starch-dense macronutrient profile heavily fortified by structural plant proteins and non-digestible cellulose fibers.",
+  "microIntro": "Crushed hard wheat yields a highly concentrated micronutrient matrix, offering rich deposits of metabolic phosphorus, muscle-stabilizing magnesium, and essential neurotropic B-vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~340 kcal",
+      "bg": "#15837c",
+      "description": "A dense, high-yield caloric reservoir that provides stable, long-lasting glycogen replenishment for demanding physical and cognitive workflows."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "11.5 grams",
+      "bg": "#f5722c",
+      "description": "An elevated plant protein structure containing crucial amino acid fractions, supporting basic tissue cellular repair and systemic nitrogen balance."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.3 grams",
+      "bg": "#e4a910",
+      "description": "A minor lipid footprint composed primarily of essential polyunsaturated fatty acids located within the preserved germ and bran particles."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "68.5 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of complex, slow-digesting starches tightly packed within a supportive network of insoluble structural plant fibers (~6.0g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "260 mg / 21% DV",
+      "bg": "#15837c",
+      "description": "An essential macro-mineral required for synthesizing cellular ATP molecules and validating structural bone density matrix parameters."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "90 mg / 23% DV",
+      "bg": "#f5722c",
+      "description": "A vital intracellular cofactor that modulates neural excitability, supports muscle relaxation kinetics, and optimizes peripheral insulin responses."
+    },
+    {
+      "id": "vitamin-b1",
+      "slug": "vitamin-b1",
+      "name": "Vitamin B1 (Thiamin)",
+      "amount": "0.30 mg / 25% DV",
+      "bg": "#66ab63",
+      "description": "A critical enzymatic coenzyme required for carbohydrate metabolism, driving clean glucose-to-ATP energy conversion pathways in the brain."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "3.1 mg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace element necessary for supporting hemoglobin synthesis, facilitating oxygen transport, and maintaining cellular respiration loops."
+    },
+    {
+      "id": "vitamin-b6",
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.25 mg / 15% DV",
+      "bg": "#e4a910",
+      "description": "An organic cofactor that coordinates structural amino acid transamination pathways and assists in systemic neurotransmitter balancing routines."
+    },
+    {
+      "id": 31,
+      "slug": "niacin",
+      "name": "Niacin (Vitamin B3)",
+      "amount": "5.2 mg / 33% DV",
+      "bg": "#15837c",
+      "description": "Essential for energy production, DNA repair, and maintaining cardiovascular health."
+    },
+    {
+      "id": 44,
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "37 mcg / 67% DV",
+      "bg": "#66ab63",
+      "description": "A powerful antioxidant that supports thyroid function and protects against oxidative stress."
+    },
+    {
+      "id": 43,
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "375 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Vital for maintaining fluid balance, nerve transmission, and healthy blood pressure levels."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Sustained Glycogen Replenishment:</b> The dense complex starch network releases glucose molecule strings gradually, preventing rapid, destabilizing plasma insulin spikes.",
+    "<b>Peristaltic Mechanical Cleanse:</b> Rich <b>insoluble cellulose fiber</b> fractions absorb localized GI fluids to expand stool bulk, promoting consistent, toxin-clearing bowel kinetics.",
+    "<b>Neuro-Metabolic Energy Support:</b> Abundant reserves of <b>Thiamin (B1)</b> accelerate the systematic conversion of ingested carbohydrates into clean, usable cellular energy substrate.",
+    "<b>Cellular Oxygenation Synthesis:</b> Healthy amounts of plant-based <b>iron</b> actively support hemoglobin synthesis, helping prevent chronic fatigue states caused by trace element deficiencies.",
+    "<b>Prebiotic Biomass Expansion:</b> Unrefined non-starchy polysaccharides serve as selective fermentation substrates for beneficial intestinal microbes, optimizing gut barrier integrity."
+  ],
+  "precautionsIntro": "Gliadin Gluten Complex Hazards, Acute Inflammatory Gastrointestinal Contrainidications, and Phytic Chelation Dynamics: Methodical meal integration preserves mucosal comfort.",
+  "precautions": [
+    "<b>Gliadin Gluten Autoimmune Triggers:</b> Wheat groats natively possess high concentrations of <b>gliadin and glutenin</b>, the primary structural proteins forming gluten. It is strictly contraindicated for individuals with celiac disease or non-celiac gluten enterprise disorders.",
+    "<b>Mechanical Mucosal Irritation:</b> Because these groats retain coarse, unpolished bran particles, introducing them during acute flare-ups of gastritis, colitis, or gastric ulcers can cause painful mechanical irritation.",
+    "<b>Phytic Acid Mineral Binding:</b> The outer layers of the crushed wheat endosperm contain phytic acid complexes that can chelate iron, calcium, and zinc. Implementing an overnight soaking cycle or prolonged boiling completely neutralizes these binding structures."
+  ]
+}

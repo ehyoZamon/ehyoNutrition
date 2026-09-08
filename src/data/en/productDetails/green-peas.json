@@ -1,0 +1,107 @@
+{
+  "slug": "green-peas",
+  "name": "Green Peas",
+  "category": "Legumes",
+  "image": "/productinfo/green-peas.png",
+  "imageAlt": "fresh green peas",
+  "description": "Green peas represent a highly nutrient-dense, structurally intricate embryonic phytomatrix belonging to the Fabaceae family (Pisum sativum), distinguished by an abundant reservoir of globular storage proteins (legumin and vicilin), complex non-digestible structural polyglucans, and an extensive array of water-soluble B-complex coenzymes. Operating as an efficient metabolic substrate, this botanical repository optimizes luminal peptide kinetics, stabilizes systemic glucose homeostasis through slow-release starch hydrolysis, and supplies essential precursors for cellular repair and myofibrillar nitrogen retention. Additionally, it features notable arrays of specialized phytonutrients, including saponins, phenolic acids, and flavanols, which provide robust antioxidant support and modulate macro-vascular compliance.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh green peas)",
+  "macroIntro": "The macronutrient configuration of fresh green peas is characterized by an elevated, highly efficient thermodynamic density relative to structural succulent vegetables, pairing premium non-animal amino acids with complex polysaccharides that guarantee extended metabolic satiety.",
+  "microIntro": "A highly concentrated tissue store of vital lipid-soluble coagulation cofactors, organic enzymatic reducing agents, and transition metal components essential for cellular respiration and nervous system stabilization.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "81 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "A robust and sustainable thermodynamic yield, derived from slow-burning complex starches that feed cellular respiration cascades without inducing rapid adipose deposition."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "5.4 g / 11% DV",
+      "bg": "#f5722c",
+      "description": "An exceptional vegetative source composed of globular protein fractions rich in essential and branched-chain amino acids, driving myofibrillar protein synthesis."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.4 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A minimal, highly functional lipid fraction consisting mainly of trace essential polyunsaturated fatty acids embedded within organelle membranes."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "14.5 g / 5% DV",
+      "bg": "#15837c",
+      "description": "Dominated by low-glycemic amylose and amylopectin polymers that undergo protracted enzymatic cleavage within the small intestine."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 23,
+      "name": "Vitamin K (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "24.8 mcg / 21% DV",
+      "bg": "#15837c",
+      "description": "An essential fat-soluble cofactor required for hepatic gamma-carboxylation of clotting factors and the structural activation of osteocalcin in bone matrices."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "40.0 mg / 44% DV",
+      "bg": "#f5722c",
+      "description": "A potent organic reducing agent that accelerates free radical scavenging, upregulates leukocyte activity, and optimizes non-heme iron absorption."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "5.7 g / 20% DV",
+      "bg": "#66ab63",
+      "description": "A robust combination of insoluble cellulose, hemicellulose, and resistant starch that increases stool volume and stimulates colonic mechanical peristalsis."
+    },
+    {
+      "id": 24,
+      "name": "Vitamin B1 (Thiamin)",
+      "slug": "vitamin-b1",
+      "amount": "0.27 mg / 23% DV",
+      "bg": "#1a96cd",
+      "description": "A crucial water-soluble coenzyme ($TPP$) mandatory for pyruvate dehydrogenase activity within the Krebs cycle and basic transketolase functions."
+    },
+    {
+      "id": 34,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.5 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "An essential coordination metal required for erythrocyte hemoglobin formation, active myoglobin binding, and mitochondrial electron transport."
+    },
+    {
+      "id": 26,
+      "name": "Folate (B9)",
+      "slug": "vitamin-b9",
+      "amount": "65 mcg / 16% DV",
+      "bg": "#1a96cd",
+      "description": "A fundamental substrate for methyl-group transfer pathways, essential for rapid DNA replication, nucleotide biosynthesis, and cell division loops."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Index Attenuation and Low-Insulinemic Satiety:</b> The synergistic architecture of slow-release amylose starches and dense non-digestible fiber structures downregulates luminal alpha-amylase degradation kinetics, preventing postprandial blood glucose spikes and modulating baseline insulin responses.",
+    "<b>Myofibrillar Nitrogen Retention and Post-Exercise Recovery:</b> High concentrations of vegetable globulins (legumin and vicilin) yield a dense pool of amino acids, which, when metabolized alongside native complex carbohydrates, accelerate glycogen replenishment and support skeletal muscle recovery.",
+    "<b>Colonic Microbiome Fortification and Peristaltic Drive:</b> Abundant insoluble fiber fragments and resistant starches bypass small intestinal digestion to provide a prime fermentable substrate for short-chain fatty acid ($SCFA$) production by the gut microbiota, lowering colonic pH and enhancing gut motility.",
+    "<b>Coenzyme-Driven Neuro-Metabolic Support:</b> Elevated concentrations of thiamin (B1) and folate (B9) maintain normal myelin sheath integrity and facilitate proper neuro-transmitter synthesis while driving vital carbohydrate-to-ATP conversion loops within the central nervous system."
+  ],
+  "precautionsIntro": "Despite its exceptional nutrient payload, the complex structural and organic profile of fresh green peas necessitates specific medical and dietary cautions:",
+  "precautions": [
+    "<b>Oligosaccharide-Induced Luminal Gas Production:</b> Green peas concentrate substantial levels of non-digestible alpha-galactosides (such as raffinose and stachyose); because the human upper GI tract lacks the alpha-galactosidase enzyme, these sugars pass into the colon intact, causing rapid bacterial fermentation, gaseous flatulence, and uncomfortable luminal distension.",
+    "<b>Purine-Mediated Uric Acid Accumulation:</b> The cellular matrix possesses a moderate concentration of purine nucleotides; during degradation, these metabolic substrates elevate systemic plasma uric acid levels, which can provoke painful crystallization cascades within the joint spaces of individuals diagnosed with acute gouty arthritis.",
+    "<b>Mechanical Irritation During Gastrointestinal Inflammation:</b> The dense, insoluble outer hulls of raw or un-pureed peas present a rough mechanical load that can cause structural irritation to hyperemic or ulcerated epithelial surfaces, making them unsuitable during acute exacerbations of gastritis, ulcerative colitis, or peptic ulcers."
+  ]
+}

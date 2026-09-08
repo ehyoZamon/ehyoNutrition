@@ -1,0 +1,124 @@
+{
+  "slug": "cranberries",
+  "name": "Cranberry",
+  "category": "Fruits and Berries",
+  "image": "/productinfo/cranberries.png",
+  "imageAlt": "fresh organic whole raw cranberries on a wet rustic wooden surface",
+  "description": "Cranberries, derived from the tart red fruits of Vaccinium macrocarpon, are highly nutrient-dense, low-glycemic berries natively adapted to bog ecosystems. Renowned for their intensely astringent and acidic flavor profile driven by organic acids, they function as an elite urological protective agent and systemic vascular optimizer, powered by a rare structural density of Type-A proanthocyanidins.",
+  "macroTitle": "Macro Nutrients (per 100g, raw berries)",
+  "macroIntro": "Raw cranberries exhibit an exceptionally lean, low-calorie macronutrient profile, minimizing simple sugars while offering a solid structure of prebiotic structural plant fibers.",
+  "microIntro": "Cranberries deliver a highly targeted biochemical micro-matrix, delivering high thresholds of ascorbic acid, manganese, and unique anti-adhesive polyphenolic compounds.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~46 kcal",
+      "bg": "#15837c",
+      "description": "A very low metabolic energy load, ensuring absolute compatibility with calorie-restricted and strictly low-glycemic dietary frameworks."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.4 grams",
+      "bg": "#f5722c",
+      "description": "Contains trace botanical amino acids, serving primarily as a functional cellular carbohydrate-dominant signaling structure."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 grams",
+      "bg": "#e4a910",
+      "description": "Virtually non-existent lipid fractions, with minor essential essential fatty acid complexes structuralized inside the microscopic seeds."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "12.2 grams",
+      "bg": "#1a96cd",
+      "description": "Composed of low-density fruit sugars, deeply balanced and buffered by a tough, insoluble prebiotic dietary fiber network (~4.6g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "type-a-pacs",
+      "slug": "type-a-pacs",
+      "name": "Type-A Proanthocyanidins",
+      "amount": "Bioactive Polyphenols",
+      "bg": "#15837c",
+      "description": "A unique, structurally rare molecular class of condensed tannins that exerts powerful anti-adhesive vectors against uropathogenic bacteria."
+    },
+    {
+      "id": "vitamin-c",
+      "slug": "vitamin-c",
+      "name": "Vitamin C (Ascorbic Acid)",
+      "amount": "13.3 mg / 15% DV",
+      "bg": "#f5722c",
+      "description": "A classic water-soluble antioxidant cofactor that stabilizes leukocyte operations and directly sparks structural collagen synthesis."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "0.36 mg / 16% DV",
+      "bg": "#66ab63",
+      "description": "An essential trace mineral cofactor required for activating mitochondrial antioxidant enzymes and supporting bone matrix mineralization."
+    },
+    {
+      "id": "quercetin",
+      "slug": "quercetin",
+      "name": "Quercetin & Myricetin",
+      "amount": "Flavonoid Matrix",
+      "bg": "#1a96cd",
+      "description": "Highly concentrated, premium plant pigments that systematically scavenge circulating free radicals and downregulate inflammatory signals."
+    },
+    {
+      "id": "salicylic-acid",
+      "slug": "salicylic-acid",
+      "name": "Salicylic & Organic Acids",
+      "amount": "Natural Organic Acids",
+      "bg": "#e4a910",
+      "description": "Includes citric, malic, and quinic acids that help modulate internal urinary tract pH and exhibit mild natural anti-inflammatory activity."
+    },
+    {
+      "id": "vitamin-k",
+      "slug": "vitamin-k",
+      "name": "Vitamin K",
+      "amount": "5.1 mcg / 4% DV",
+      "bg": "#8c6bb1",
+      "description": "Essential for blood clotting regulation and maintaining healthy bone density."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "0.06 mg / 7% DV",
+      "bg": "#9e9e9e",
+      "description": "Supports iron absorption, nerve function, and connective tissue synthesis."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "85 mg / 2% DV",
+      "bg": "#d81b60",
+      "description": "An essential electrolyte that aids in maintaining fluid balance, nerve signaling, and muscle contractions."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Anti-Adhesive Urinary Tract Protection:</b> Rare structural **Type-A proanthocyanidins** systematically prevent *E. coli* from anchoring to urothelial walls, drastically lowering the incidence of acute urinary tract infections.",
+    "<b>Gastric Epithelium Defense:</b> The potent polyphenolic matrix exerts similar anti-adhesive properties inside the stomach lining, inhibiting the structural colonization of *Helicobacter pylori*.",
+    "<b>Vascular Endothelial Stabilization:</b> Synergistic actions of natural **quercetin** and vitamin C preserve arterial wall compliance, lowering systemic LDL oxidation vectors and supporting capillary elasticity.",
+    "<b>Periodontal Bacterial Inhibition:</b> Bioactive molecules interfere with plaque accumulation pathways in the oral cavity, effectively neutralizing cariogenic bacteria and reinforcing gum profiles.",
+    "<b>Prebiotic Metabolic Balancing:</b> High ratios of non-digestible **dietary fiber** fuel short-chain fatty acid production in the lower gut, improving overall metabolic and immune baselines."
+  ],
+  "precautionsIntro": "High Oxalate Concentrations, Acidity-Induced Gastric Aggravation, and Anticoagulant Interactions: Strategic implementation maximizes system parameters safely.",
+  "precautions": [
+    "<b>Oxalate Nephrolithiasis Warnings:</b> Cranberries possess moderately elevated thresholds of organic **oxalates**. Excessive ingestion of concentrated extracts can accelerate calcium-oxalate crystallization paths within vulnerable renal filtration lines.",
+    "<b>Gastrointestinal Mucosal Irritation:</b> The profound natural density of citric and malic organic acids can actively irritate sensitive mucosal tissue lines, escalating acute symptoms of hyperacitid gastritis, acid reflux, or peptic ulcers.",
+    "<b>Coumarin Derivative Interactions:</b> High therapeutic volumes of cranberry compounds can competitively inhibit hepatic cytochrome P450 pathways, potentially multiplying the systemic activity and bleeding risks of blood-thinning medications like Warfarin."
+  ]
+}

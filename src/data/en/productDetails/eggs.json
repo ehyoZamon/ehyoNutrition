@@ -1,0 +1,184 @@
+{
+  "slug": "eggs",
+  "name": "Eggs",
+  "category": "Dairy",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "143 kcal"
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "12.6 g"
+    },
+    {
+      "id": 16,
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "9.51 g"
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.72 g"
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0 mg"
+    },
+    {
+      "id": 2,
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "2 mcg"
+    },
+    {
+      "id": 3,
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "160 mcg"
+    },
+    {
+      "id": 4,
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "1.05 mg"
+    },
+    {
+      "id": 5,
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": 6,
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": 7,
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.46 mg"
+    },
+    {
+      "id": 8,
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.08 mg"
+    },
+    {
+      "id": 9,
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "1.53 mg"
+    },
+    {
+      "id": 10,
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.17 mg"
+    },
+    {
+      "id": 12,
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "47 mcg"
+    },
+    {
+      "id": 13,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.89 mcg"
+    },
+    {
+      "id": 28,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "56 mg"
+    },
+    {
+      "id": 29,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "198 mg"
+    },
+    {
+      "id": 30,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "12 mg"
+    },
+    {
+      "id": 31,
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "142 mg"
+    },
+    {
+      "id": 32,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "138 mg"
+    },
+    {
+      "id": 35,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.75 mg"
+    },
+    {
+      "id": 36,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.29 mg"
+    },
+    {
+      "id": 37,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": 38,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.03 mg"
+    },
+    {
+      "id": 40,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "30.7 mcg"
+    },
+    {
+      "id": 43,
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "1.1 mcg"
+    },
+    {
+      "id": 50,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "294 mg"
+    },
+    {
+      "id": 55,
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "0.3 mg"
+    }
+  ]
+}

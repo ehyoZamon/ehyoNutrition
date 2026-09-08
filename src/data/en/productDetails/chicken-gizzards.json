@@ -1,0 +1,116 @@
+{
+  "slug": "chicken-gizzards",
+  "name": "Chicken Gizzards",
+  "category": "Meat and Poultry",
+  "image": "/productinfo/chicken-gizzards.png",
+  "imageAlt": "fresh raw cleaned chicken gizzards on a wooden chopping board with whole black peppercorns",
+  "description": "Chicken gizzards are a dense, highly muscular organ meat that offers an exceptionally lean, protein-dense nutritional architecture. Unlike other organ meats, gizzards function purely as mechanical digestive tissue, resulting in a low-lipid framework that behaves similarly to skeletal muscle but with significantly higher concentrations of connective tissue, zinc, selenium, and iron. This metabolic substrate provides premium essential peptides to drive structural tissue synthesis while avoiding the extreme Vitamin A concentrations found in hepatic profiles.",
+  "macroTitle": "Macro Nutrients (per 100g, raw uncooked gizzards)",
+  "macroIntro": "Chicken gizzards exhibit a remarkably lean, carbohydrate-free macronutrient matrix, combining high concentrations of structural animal proteins with minimal lipid interventions.",
+  "microIntro": "The tightly woven muscular matrix of the gizzard houses a robust trace element profile, yielding exceptional volumes of organic zinc, metabolic selenium, and tissue-building iron.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~94 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally low caloric footprint, providing highly efficient animal energy without generating an excess lipid load."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.7 grams",
+      "bg": "#f5722c",
+      "description": "A dense, complete animal protein profile rich in collagen-forming amino acids like glycine and proline, critical for structural tissue re-synthesis."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.1 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid signature dominated by a balanced mix of monounsaturated and essential polyunsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Naturally completely devoid of carbohydrate fractions or residual sugars, providing a pure protein-and-lipid substrate."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "2.7 mg / 25% DV",
+      "bg": "#15837c",
+      "description": "An abundant intracellular mineral required for coordinating T-lymphocyte maturation, stabilizing DNA replication, and optimizing testosterone synthesis loops."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "25.5 mcg / 46% DV",
+      "bg": "#f5722c",
+      "description": "A vital antioxidant trace mineral cofactor required to activate glutathione peroxidase and manage proper thyroid hormone metabolism."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "2.5 mg / 14% DV",
+      "bg": "#66ab63",
+      "description": "A highly bioavailable organic heme iron cache, easily absorbed by gut mucosal pathways to reinforce systemic hemoglobin metrics."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "3.3 mg / 21% DV",
+      "bg": "#1a96cd",
+      "description": "An essential water-soluble coenzyme precursor (NAD/NADP) critical for driving cellular mitochondrial ATP production and repairing damaged DNA strains."
+    },
+    {
+      "id": 57,
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "170 mg / 14% DV",
+      "bg": "#15837c",
+      "description": "Supports bone mineralization, energy storage (ATP), and maintenance of cell membranes."
+    },
+    {
+      "id": 58,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.2 mg / 12% DV",
+      "bg": "#f5722c",
+      "description": "Crucial for amino acid metabolism, neurotransmitter production, and cognitive development."
+    },
+    {
+      "id": 59,
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "1.2 mcg / 50% DV",
+      "bg": "#e4a910",
+      "description": "Vital for red blood cell formation, neurological function, and DNA synthesis."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Lean Muscular Recovery:</b> The high <b>17.7g protein</b> payload combined with minimal lipids delivers highly targeted amino acids to rebuild damaged myofibrillar tissue networks.",
+    "<b>Immunological Support (Zinc):</b> Robust concentrations of <b>zinc</b> catalyze enzymatic pathways responsible for generating active white blood cells to combat infectious pathogens.",
+    "<b>Connective Tissue Reinforcement:</b> Dense native collagen fragments inside the muscular walls supply the specific peptide precursors needed to fortify human joint cartilage.",
+    "<b>Mitochondrial Energy Acceleration:</b> High levels of <b>Niacin and Vitamin B12</b> optimize metabolic pathways, maximizing the extraction of energy from dietary macros.",
+    "<b>Hematopoiesis Stabilization:</b> Readily accessible <b>heme iron</b> modules work synergistically with B-vitamins to promote consistent red blood cell synthesis loops."
+  ],
+  "precautionsIntro": "Purine-Mediated Nitrogenous Waste Accumulation, Dense Structural Collagen Resistances, and Endogenous Cholesterol Profiles: Controlled culinary preparation secures metabolic comfort.",
+  "precautions": [
+    "<b>Purine Overloads and Hyperuricemia:</b> Like most dense organ meats, chicken gizzards carry a heavy cellular matrix rich in <b>purines</b>. The downstream breakdown of these compounds into uric acid can catalyze acute arthritic flare-ups in gout patients.",
+    "<b>Connective Tissue Gastrointestinal Strain:</b> The dense, tightly bound muscular fiber and collagen matrix can cause digestive delays or mechanical irritation in sensitive gastrointestinal tracts if undercooked. Extended slow-braising or pressure-cooking is mandatory to soften these tissues.",
+    "<b>Endogenous Cholesterol Content:</b> Chicken gizzards carry a notable built-in cholesterol payload (~240mg per 100g). Individuals presenting with advanced hypercholesterolemia or genetic lipid clearance defects should calibrate intake volumes accordingly."
+  ]
+}

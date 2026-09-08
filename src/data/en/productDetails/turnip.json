@@ -1,0 +1,107 @@
+{
+  "slug": "turnip",
+  "name": "Turnip",
+  "category": "Vegetables / Root Vegetables",
+  "image": "/productinfo/turnip.png",
+  "imageAlt": "fresh yellow turnip",
+  "description": "The turnip represents a highly functional, low-calorie cruciferous root phytomatrix belonging to the Brassicaceae family, distinguished by its unique complex of sulfur-containing glycosides (glucosinolates), organic hydrocolloids, and rich concentrations of water-soluble antioxidant cofactors. It functions as an active physiological modulator of hepatic phase II biotransformation pathways and metabolic tissue homeostasis. This dense botanical matrix actively assists in optimizing intracellular redox defense mechanisms, stimulating gastrointestinal secretomotor dynamics, suppressing pro-inflammatory cytokines, and buffering vascular compliance with minimal thermodynamic impact.",
+  "macroTitle": "Macro Nutrients (per 100g, raw product)",
+  "macroIntro": "The macronutrient architecture of raw turnip exhibits an exceptionally sparse energy density, pairing basic non-structural monosaccharides with insoluble structural polysaccharides to support safe postprandial glucose parameters.",
+  "microIntro": "Operating as a specialized subterranean bio-accumulator, raw turnip tissue concentrates core alkaline earth metals, volatile secondary metabolites, and essential cofactors crucial for cellular longevity cascades.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "28 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "A very low thermodynamic yield that provides volumetric gastrointestinal filling without inducing a positive energy imbalance or challenging adipose tissue storage limits."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.9 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Comprises baseline vegetable albumins and small pools of free amino acids, offering minimal substrate support for fundamental cellular repair loops."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A virtually absent lipid footprint containing only trace quantities of structural surface cuticular lipids and intracellular envelope constituents."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "6.4 g / 2% DV",
+      "bg": "#15837c",
+      "description": "Represented by low-molecular sugars integrated into a dense matrix of prebiotic polymers, ensuring an extended, flat systemic absorption curve."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 21,
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "21 mg / 23% DV",
+      "bg": "#15837c",
+      "description": "A prime water-soluble electron donor that actively eliminates free radicals, maintains cellular structural resilience, and catalyzes lysyl hydroxylase cascades."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "191 mg / 4% DV",
+      "bg": "#f5722c",
+      "description": "An essential intracellular monovalent cation that balances electrochemical membrane potentials, initiates renal natriuresis, and reduces vascular tone compliance."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "1.8 g / 6% DV",
+      "bg": "#66ab63",
+      "description": "Consists of highly hydrophilic structural hemicellulose and pectin strands that regulate mechanical chyme transit times and bind metabolic waste."
+    },
+    {
+      "id": 104,
+      "name": "Glucosinolates",
+      "slug": "compounds",
+      "amount": "High Bioactivity",
+      "bg": "#1a96cd",
+      "description": "Sulfur-linked secondary plant metabolites that undergo enzymatic cleavage into highly active isothiocyanates, exhibiting prominent cytoprotective properties."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "11 mg / 3% DV",
+      "bg": "#1a96cd",
+      "description": "An essential alkaline earth metal cofactor for hundreds of enzymes, regulating proper neuromuscular transmission and metabolic ATP complexing."
+    },
+    {
+      "id": 37,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "30 mg / 2% DV",
+      "bg": "#e4a910",
+      "description": "A crucial divalent mineral messenger driving regular intracellular signaling cascades, muscular contraction dynamics, and skeletal structure support."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Mitigation and Insulin Stability:</b> The presence of slow-absorbing non-starch polysaccharides combined with a very low glycemic index prevents sharp postprandial glucose transitions and maintains long-term insulin economy.",
+    "<b>Hepatic Biotransformation and Enzymatic Detoxification:</b> Glucosinolates inside the turnip matrix undergo myrosinase-dependent conversion into isothiocyanates and indoles, upregulating cytochrome P450 neutralization pathways and phase II glutathione conjugation.",
+    "<b>Gastrointestinal Motility and Colon Ecology:</b> Insoluble fiber elements absorb water inside the colonic lumen, expanding fecal volume to regularize peristalsis while soluble fibers act as prebiotics for short-chain fatty acid (SCFA) synthesis.",
+    "<b>Antioxidant Cascades and Vascular Protection:</b> High concentrations of L-ascorbic acid work synergistically with native polyphenols to suppress low-density lipoprotein (LDL) oxidation, preserving nitric oxide bioavailability and shielding endothelial walls from systemic stress."
+  ],
+  "precautionsIntro": "Because raw turnip contains high densities of volatile sulfur compounds and chemically active secondary metabolites, its intake should be adjusted under several pathophysiological conditions.",
+  "precautions": [
+    "<b>Mechanical and Chemical Gastrointestinal Aggravation:</b> The sharp, volatile organosulfur complexes and rough structural fibers can cause direct mechanical frustration and flatulence in hyperemic mucosa during acute gastritis, peptic ulcer flares, or active pancreatitis.",
+    "<b>Goitrogenic Endocrine Interference:</b> Turnip tissue features micro-quantities of progoitrin and thiocyanates that can competitively block the sodium-iodide symporter ($NIS$) in the thyroid gland, potentially suppressing hormone synthesis if baseline systemic iodine stores are depleted.",
+    "<b>Cruciferous Cross-Reactive Hypersensitivity:</b> Specific defense-related proteins within the Brassicaceae phytomatrix may trigger classic IgE-mediated immune sensitivity or localized oral allergy syndromes in predisposed individuals."
+  ]
+}

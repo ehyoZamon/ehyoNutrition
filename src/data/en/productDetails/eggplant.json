@@ -1,0 +1,107 @@
+{
+  "slug": "eggplant",
+  "name": "Eggplant",
+  "category": "Vegetables",
+  "image": "/productinfo/eggplant.png",
+  "imageAlt": "fresh purple eggplant",
+  "description": "The eggplant represents a highly specialized, low-calorie vegetative phytomatrix belonging to the Solanaceae family (Solanum melongena), distinguished by its complex network of esterified polyphenols, structural hydrocolloids, and dense concentrations of acylated anthocyanins, predominantly nasunin (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside). It functions as a powerful natural scavenger of reactive oxygen species, an active iron chelator, and a modulator of vascular endothelial integrity. This spongy botanical matrix optimizes lipid metabolic kinetics, delays intestinal carbohydrate transit, improves capillary resistance, and supports fluid-electrolyte balance while imposing a negligible thermodynamic load.",
+  "macroTitle": "Macro Nutrients (per 100g, raw product)",
+  "macroIntro": "The macronutrient configuration of raw eggplant is characterized by an extremely sparse energy payload, coupling an expansive aqueous phase with dense hydrophilic polysaccharides that promote satiety without systemic glycemic stress.",
+  "microIntro": "As a targeted subterranean-aerial accumulator, the eggplant epicarp and parenchyma concentrate potent secondary plant metabolites, specialized heavy metal cofactors, and organic complexes crucial for maintaining neurological and cardiovascular homeostasis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "25 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "A very low thermodynamic yield, facilitating high-volume dietary displacement while bypassing the accumulation cascades of visceral adipose tissue."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.0 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Comprises trace baseline structural vegetative globulins and free non-protein nitrogen compounds providing minimal baseline nitrogenous input."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A virtually nonexistent lipid presence, limited to microtrace amounts of functional surface waxes and intracellular membrane phospholipids."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "5.7 g / 2% DV",
+      "bg": "#15837c",
+      "description": "Represented by low-molecular simple hexoses locked tightly within an intricate network of non-digestible structural polyglucans."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 108,
+      "name": "Nasunin (Anthocyanins)",
+      "slug": "antioxidants",
+      "amount": "High Concentration",
+      "bg": "#15837c",
+      "description": "A specialized acylated delphinidin glycoside located within the purple exocarp, executing powerful lipid peroxidation checks and protecting neural membrane envelopes."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "229 mg / 5% DV",
+      "bg": "#f5722c",
+      "description": "A vital monovalent intracellular electrolyte driving myofibrillar resting potentials, counterbalancing systemic sodium overload, and easing arterial wall compliance."
+    },
+    {
+      "id": 38,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.25 mg / 11% DV",
+      "bg": "#66ab63",
+      "description": "An essential trace metal cofactor required for superoxide dismutase ($SOD2$) operations, bone mineralization pathways, and basic amino acid turnover."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "3.0 g / 11% DV",
+      "bg": "#e4a910",
+      "description": "Consists of highly hydrophilic structural cellulose and pectin polymers that delay luminal glucose absorption and complex with bile acids."
+    },
+    {
+      "id": 25,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.08 mg / 5% DV",
+      "bg": "#1a96cd",
+      "description": "A crucial water-soluble enzyme cofactor essential for transamination loops, neurotransmitter synthesis, and the regulation of plasma homocysteine."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "14 mg / 3% DV",
+      "bg": "#1a96cd",
+      "description": "A divalent alkaline earth metal ion necessary for baseline intracellular ATP complexing, neuromuscular signaling, and enzymatic balance."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Neuroprotective Membrane Stabilization and Iron Chelation:</b> The anthocyanin fraction (specifically nasunin) acts as an efficient iron chelator, binding excess free ferric ions ($Fe^{3+}$) to prevent Fenton reactions and shield neural membrane lipids from oxidative deterioration.",
+    "<b>Endothelial Fortification and Lipid Modulation:</b> Intricate combinations of dietary fiber and chlorogenic acid trap luminal micellar cholesterol, increasing fecal bile acid clearance while downregulating low-density lipoprotein (LDL) oxidation cascades.",
+    "<b>Glycemic Index Buffering and Alpha-Glucosidase Inhibition:</b> The viscous pectin matrix coupled with native polyphenols non-competitively inhibits pancreatic alpha-amylase and intestinal alpha-glucosidase, smoothing postprandial glucose transitions.",
+    "<b>Myofibrillar Relaxation and Osmotic Fluid Balance:</b> High native potassium concentrations alongside structural water accelerate mild renal natriuresis, mitigating excessive peripheral vascular tension and diminishing tissue edematous fluid accumulation."
+  ],
+  "precautionsIntro": "Due to the presence of specific nightshade alkaloids, organic acid crystals, and complex glycoproteins within its matrix, raw or improperly processed eggplant requires targeted caution:",
+  "precautions": [
+    "<b>Solanine-Mediated Glycoalkaloid Toxicity:</b> Eggplant contains steroidal glycoalkaloids, primarily solamargine and solasonine (analogous to solanine), which concentrate in overripe fruits; these can cause direct chemical disruption of gastrointestinal membranes and induce cholinergic symptoms if consumed raw or in excess.",
+    "<b>Oxalate-Induced Renal Lithogenesis:</b> The phytomatrix carries notable concentrations of oxalic acid salts; upon entry into the urinary system, these can participate in calcium oxalate crystallization, threatening individuals with active hyperoxaluria or nephrolithiasis.",
+    "<b>Solanaceae Cross-Reactive Allergenic Cascades:</b> Specific defense-related proteins and unique non-protein compounds can trigger classical IgE-mediated immune sensitivity or localized oral allergy syndrome, exhibiting cross-reactivity with tomatoes, potatoes, and tobacco."
+  ]
+}

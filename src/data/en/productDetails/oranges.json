@@ -1,0 +1,108 @@
+{
+  "slug": "oranges",
+  "name": "Oranges",
+  "category": "Fruits",
+  "image": "/productinfo/oranges.png",
+  "imageAlt": "oranges",
+  "description": "Oranges are a premier, highly refreshing citrus whole food matrix. Globally renowned for their extraordinary volume of bioavailable Vitamin C, they seamlessly combine water-soluble antioxidants with unique citrus flavanones and functional organic acids, establishing an elite dietary asset for vascular collagen synthesis, non-heme iron absorption, and deep cellular immune defense.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient blueprint of oranges delivers a highly hydrating profile consisting of simple fruit sugars structurally bound within a soluble pectin matrix for steady, clean energy release.",
+  "microIntro": "Oranges house a potent crystalline pool of radical-scavenging vitamins, essential intracellular electrolytes, and specific citrus polyphenols engineered to optimize endothelial performance.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "47 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "Provides low-density, clean biological energy driven by natural fruit sugars, ideal for refreshing cellular hydration without caloric excess."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.9 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Contains minimal botanical amino acid fractions that support fundamental metabolic enzymatic frameworks."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "Virtually fat-free, ensuring exceptionally rapid gastric clearance and immediate utilization of its hydrating micronutrient network."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "11.8 g / 4% DV",
+      "bg": "#15837c",
+      "description": "Composed of natural simple sugars (sucrose, glucose, fructose) tightly enveloped in structural soluble fibers that modulate absorption curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 2,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "53.2 mg / 59% DV",
+      "bg": "#15837c",
+      "description": "A massive concentration of the body's primary water-soluble antioxidant, driving white blood cell synthesis and neutralizing circulating free radicals."
+    },
+    {
+      "id": 31,
+      "name": "Vitamin B9 (Folate)",
+      "slug": "vitamin-b9",
+      "amount": "30 mcg / 8% DV",
+      "bg": "#f5722c",
+      "description": "An essential coenzyme tracking cellular division, DNA synthesis, and the biochemical mitigation of systemic homocysteine levels."
+    },
+    {
+      "id": 34,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "181 mg / 4% DV",
+      "bg": "#66ab63",
+      "description": "A vital intracellular electrolyte that drives fluid equilibrium, nerve transmissions, and steady cardiovascular muscle tone."
+    },
+    {
+      "id": 19,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "2.4 g / 9% DV",
+      "bg": "#e4a910",
+      "description": "Dominated by premium soluble pectin, which creates a protective, viscous gel matrix within the digestive lumen."
+    },
+    {
+      "id": 52,
+      "name": "Hesperidin & Flavanones",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#1a96cd",
+      "description": "Potent citrus-specific bioflavonoids that work in a strict synergistic loop with Vitamin C to safeguard blood vessel lining integrity."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin B1 (Thiamin)",
+      "slug": "vitamin-b1",
+      "amount": "0.09 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Acts as an indispensable coenzyme facilitating smooth carbohydrate metabolism cascades and nerve cell energy conversion."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Advanced Vascular & Endothelial Elasticity:</b> The powerful combination of Vitamin C and the bioflavonoid *hesperidin* actively upgrades systemic nitric oxide production, reducing blood pressure markers and reinforcing capillary walls.",
+    "<b>Elite Immune & Cellular Defense:</b> Massive natural ascorbic acid reserves directly fuel the migration of neutrophils and macrophages, drastically optimizing the immune cascade's response speed to external stressors.",
+    "<b>Enhanced Non-Heme Iron Bioavailability:</b> Consuming whole oranges alongside plant-based meals allows its native citric acid and Vitamin C to chemically reduce non-heme iron, unlocking hyper-efficient intestinal absorption channels.",
+    "<b>Gastrointestinal Pectin Satiety:</b> Robust distributions of soluble pectin form a structural gel layer that delays gastric emptying, promoting steady metabolic satiety and feeding short-chain fatty acid-producing gut flora."
+  ],
+  "precautionsIntro": "While oranges function as a superior natural source of antioxidant defense, their distinct organic acid concentration and enzyme interactions require careful integration parameters.",
+  "precautions": [
+    "<b>Dental Enamel Acid Demineralization:</b> Oranges carry a high concentration of citric acid, which can temporarily soften tooth enamel upon direct exposure. It is highly recommended to rinse the mouth with clean water afterward and avoid immediate aggressive brushing.",
+    "<b>Gastroesophageal Acid Reflux (GERD):</b> The highly acidic matrix of citrus fruits can act as a direct irritant to sensitive lower esophageal sphincter parameters, occasionally provoking acute heartburn or acid regurgitation in predisposed profiles.",
+    "<b>Whole Fruit vs. Liquid Juice Vectors:</b> Extracting the liquid juice completely isolates the simple sugars while stripping away the mandatory structural fiber matrix. This triggers rapid postprandial glucose and insulin shifts, making whole oranges heavily preferred.",
+    "<b>Citrus Allergenic Cross-Reactivity:</b> Though rare, specific lipid transfer proteins (LTPs) present in oranges can induce oral allergy syndrome, provoking localized tingling, itching, or swelling of the lips and throat in sensitive individuals."
+  ]
+}

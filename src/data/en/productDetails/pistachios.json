@@ -1,0 +1,76 @@
+{
+  "slug": "pistachios",
+  "name": "Pistachios",
+  "category": "Seeds & Nuts",
+  "image": "/productinfo/pistachios.png",
+  "imageAlt": "pistachios in shells and peeled",
+  "description": "Pistachios are an elite, nutrient-dense botanical seed matrix. Distinguished by their vibrant green and purple hues, they command a unique fat-soluble antioxidant profile rich in *lutein* and *zeaxanthin*. Fused with an exceptional distribution of plant-based proteins, highly bioavailable Vitamin B6, and cardioprotective monounsaturated fatty acids, they serve as a premier dietary resource for ocular macula fortification, advanced endothelial health, and efficient systemic metabolic signaling.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient configuration of raw pistachios delivers a beautifully balanced, high-density matrix of plant proteins, structural lipids, and complex carbohydrates engineered to provide sustained energy release with a low glycemic response.",
+  "microIntro": "Pistachios house a spectacular, hyper-concentrated pool of intracellular electrolytes, vital enzyme cofactors, and lipophilic carotenoids designed to protect neural tissues and maintain proper fluid dynamics.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "562 kcal / 28% DV",
+      "bg": "#15837c",
+      "description": "A dense biological energy source derived from a synergy of premium fatty acids and proteins, providing high-caliber sustained fuel for cellular respiration."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "20.2 g / 40% DV",
+      "bg": "#f5722c",
+      "description": "One of the most protein-rich varieties in the nut kingdom, delivering an impressive amino acid profile necessary for structural tissue repair."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "45.3 g / 58% DV",
+      "bg": "#e4a910",
+      "description": "A premier lipid profile dominated by heart-healthy monounsaturated oleic acid and polyunsaturated fatty acids to maintain cellular membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "27.2 g / 10% DV",
+      "bg": "#15837c",
+      "description": "Composed of slow-fusing complex carbohydrates tightly integrated within a heavy, unrefined network of structural plant fibers."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 29,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "1.7 mg / 100% DV",
+      "bg": "#1a96cd",
+      "description": "An exceptional concentration of a vital metabolic coenzyme essential for amino acid transmutation, hemoglobin production, and neural signaling harmony."
+    },
+    {
+      "id": 33,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "1025 mg / 22% DV",
+      "bg": "#66ab63",
+      "description": "A massive intracellular macrominerals deposit crucial for regulating blood pressure, neutralizing sodium dominance, and conducting neuromuscular impulses."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Advanced Ocular Matrix Defense:</b> Exceptional reserves of lipophilic *lutein* and *zeaxanthin* accumulate straight into the retinal macula, building a dense filter against phototoxic blue light strains and halting oxidative macular decay.",
+    "<b>Endothelial Flexibility & Cardioprotection:</b> The direct coordination between monounsaturated fatty acids, plant phytosterols, and amino acids assists in lowering circulating oxidized LDL, structurally reinforcing vascular lining elasticity.",
+    "<b>Satiety Signaling & Weight Modulation:</b> A heavy natural triad of complex fiber, dense plant protein, and healthy fats slows gastric emptying, promoting stable peptide YY and GLP-1 hormone release to eliminate abrupt glucose shifts.",
+    "<b>Glycemic Balance Optimization:</b> The unique carbohydrate-to-fiber architecture ensures low glycemic impact, assisting peripheral insulin receptors in efficient glucose clearance without triggering high postprandial insulin surges."
+  ],
+  "precautionsIntro": "While raw pistachios operate as a premier therapeutic dietary asset, their dense botanical chemistry and commercial processing variants require exact integration metrics.",
+  "precautions": [
+    "<b>Sodium Hyper-Accumulation Vector:</b> Many commercially available pistachios are heavily roasted and salted, which completely overrides their native potassium benefits. Individuals managing hypertension or vascular tension loops must prioritize raw, unsalted formats.",
+    "<b>Severe Tree Nut Allergenic Pathways:</b> Pistachios contain highly potent botanical storage proteins that can trigger acute, immunoglobulin E (IgE) mediated hypersensitivity cascades. Individuals with a historical tree nut allergy baseline must enforce absolute caution.",
+    "<b>High Energy Density & Portion Tracking:</b> Due to their hyper-palatable profile and heavy lipid concentration, it is exceptionally easy to overconsume them. Unchecked daily portions can quickly shift global caloric parameters toward excess fat storage.",
+    "<b>Aflatoxin Mold Proliferation:</b> Poor post-harvest drying and improper ambient storage can allow *Aspergillus* mold colonization, resulting in toxic aflatoxin accumulation. Sourcing exclusively from highly verified, quality-controlled channels is highly required."
+  ]
+}

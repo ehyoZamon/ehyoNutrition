@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Signika, Nunito, Inter } from "next/font/google";
+import { Signika, Nunito, Inter} from "next/font/google";
 import LanguageProvider from "@/components/LanguageProvider"; // Импортируем наш провайдер
 import "./globals.css";
 import DBProvider from './providers/DBProvider';

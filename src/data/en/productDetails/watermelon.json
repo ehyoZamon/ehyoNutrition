@@ -1,0 +1,108 @@
+{
+  "slug": "watermelon",
+  "name": "Watermelon",
+  "category": "Fruits and Berries",
+  "image": "/productinfo/watermelon.png",
+  "imageAlt": "fresh juicy watermelon",
+  "description": "Watermelon represents an ultra-hydrating, biologically structured botanical matrix predominantly composed of an intracellular fluid lattice enriched with specialized non-enzymatic antioxidants. It functions as a powerful natural tool for real-time fluid-electrolyte homeostasis, sequestering exceptional concentrations of *lycopene*—a lipophilic carotenoid that scavenges singlet oxygen species—and non-proteinogenic amino acids designed to regulate vascular endothelial function.",
+  "macroTitle": "Macro Nutrients (per 100g, raw pulp)",
+  "macroIntro": "The macronutrient profile of raw watermelon pulp features a minimal thermodynamic energy density combined with highly bioavailable mono- and disaccharides, ensuring rapid glycogen replenishment without delaying gastrointestinal transit.",
+  "microIntro": "The liquid matrix of watermelon serves as a natural delivery vehicle for a unique cluster of metabolic intermediates, cell-signaling compounds, and baseline electrolytes required to optimize cardiovascular hemodynamics.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "30 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "An extremely low caloric footprint paired with a high physical volume, optimizing mechanical gastric distension signaling to promote short-term satiety."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.6 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "Contains minimal nitrogenous compounds and trace plant peptides that do not significantly alter the daily systemic amino acid pool."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "Negligible lipid fractions, ensuring a clean metabolic pathway focused strictly on rapid carbohydrate and fluid utilization."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "7.6 g / 3% DV",
+      "bg": "#15837c",
+      "description": "Composed of readily absorbable simple carbohydrates (fructose, glucose, and sucrose) that deliver immediate cellular metabolic fuel."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 93,
+      "name": "Lycopene",
+      "slug": "antioxidants",
+      "amount": "4.5 mg / High Bioactivity",
+      "bg": "#15837c",
+      "description": "A powerful acyclic carotenoid antioxidant that localizes within cellular lipid bilayers, protecting systemic endothelial tissue and low-density lipoproteins from oxidative degradation."
+    },
+    {
+      "id": 94,
+      "name": "L-Citrulline",
+      "slug": "amino-acids",
+      "amount": "150 mg / High Concentration",
+      "bg": "#f5722c",
+      "description": "An alpha-amino acid that bypasses hepatic metabolism to act as a direct systemic precursor for L-arginine, driving the endothelial nitric oxide synthase (eNOS) pathway."
+    },
+    {
+      "id": 21,
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "8.1 mg / 9% DV",
+      "bg": "#66ab63",
+      "description": "An essential water-soluble electron donor that supports endogenous leukocyte activity and functions as a mandatory cofactor for prolyl hydroxylase in collagen synthesis."
+    },
+    {
+      "id": 33,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "112 mg / 2% DV",
+      "bg": "#e4a910",
+      "description": "The primary intracellular cation, vital for sustaining myofibril resting membrane potentials, electrical cardiac conduction, and renal fluid balance."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin A (as Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "569 IU / 11% DV",
+      "bg": "#1a96cd",
+      "description": "An essential fat-soluble isoprenoid precursor converted into retinal, maintaining mucosal epithelium structural integrity and rod photoreceptor function."
+    },
+    {
+      "id": 31,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "10 mg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "An essential intracellular mineral cofactor that stabilizes ATP molecules, regulates smooth muscle tone, and moderates voltage-gated calcium channels."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Nitric Oxide-Mediated Vasodilation:</b> Endogenous L-citrulline undergoes efficient renal conversion into L-arginine, boosting circulating levels of this rate-limiting substrate for endothelial nitric oxide synthase (eNOS). This increases nitric oxide (NO) production, relaxes vascular smooth muscle cells, decreases systemic vascular resistance, and optimizes blood pressure.",
+    "<b>Dermal Photo-Oxidative Defense:</b> High concentrations of bioavailable lycopene preferentially accumulate within epidermal layers. There, it acts as an effective non-enzymatic quencher of singlet oxygen molecules and lipid peroxides, mitigating ultraviolet (UV) radiation-induced photo-damage and erythema cascades.",
+    "<b>Extracellular and Intracellular Rehydration:</b> The structured water matrix of watermelon, working in harmony with core minerals like potassium, facilitates rapid osmotic restoration of depleted vascular volume, correcting mild dehydration status faster than plain hypotonic water.",
+    "<b>Attenuation of Post-Exercise Myalgia:</b> Dietary intake of L-citrulline enhances muscle perfusion and speeds up metabolic clearance of nitrogenous waste and lactic acid from exercising myofibrils, significantly reducing the severity and duration of delayed onset muscle soreness (DOMS)."
+  ],
+  "precautionsIntro": "While watermelon serves as an exceptional hydrating agent, its high concentrations of simple sugars and specific osmotic properties necessitate careful clinical consideration.",
+  "precautions": [
+    "<b>Glycemic Dynamics in Insulin Resistance:</b> Watermelon possesses a high Glycemic Index (GI ≈ 72–76) but a low Glycemic Load (GL ≈ 4–5 per 100g) due to its high water content. However, consuming large quantities can trigger acute postprandial glucose excursions, requiring strict portion controls for patients with Type 2 Diabetes or advanced insulin resistance.",
+    "<b>Aquatic Diuresis and Hypotensive Risks:</b> The combination of high fluid volume and mild renal filtration stimulation can produce a pronounced diuretic effect. This rapid shift in fluid balance requires careful monitoring in individuals managing severe Chronic Kidney Disease (CKD) or those prone to orthostatic hypotension.",
+    "<b>Exogenous Nitrate Accumulation:</b> Early-harvest or poorly regulated watermelons can hyper-accumulate synthetic nitrogenous fertilizers, resulting in elevated nitrate levels. If converted to nitrites by oral bacteria, these compounds can interfere with oxygen transport, making verifiable seasonality and sourcing critical.",
+    "<b>FODMAP-Induced Luminal Fermentation:</b> Watermelon contains significant levels of free fructose, classifying it as a high-FODMAP food. In individuals with Irritable Bowel Syndrome (IBS) or small intestinal bacterial overgrowth, unabsorbed fructose undergoes rapid bacterial fermentation, leading to osmotic shifts, flatulence, and abdominal distension."
+  ]
+}

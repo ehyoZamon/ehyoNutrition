@@ -1,0 +1,107 @@
+{
+  "slug": "turkey",
+  "name": "Turkey",
+  "category": "Meat & Poultry",
+  "image": "/productinfo/turkey.png",
+  "imageAlt": "turkey",
+  "description": "Turkey (Meleagris gallopavo) represents an elite animal-derived protein source, characterized by a highly efficient amino acid profile and a negligible lipid fraction within the muscular tissue. Structurally, the myofibrillar protein matrix consists of complete peptide chains rich in branched-chain amino acids, facilitating rapid systemic protein turnover and nitrogen retention. Biologically, its composition is notable for a superior ratio of essential minerals and B-complex vitamins, which act as critical metabolic cofactors. As a dense, fat-free protein hydro-matrix, it serves as a foundational substrate for structural tissue regeneration, hormonal synthesis, and thermogenic energy homeostasis.",
+  "macroTitle": "Macro Nutrients (per 100g, skinless breast cooked)",
+  "macroIntro": "The macronutrient architecture features a hyper-concentrated protein density with minimal interstitial lipid storage, providing a pure amino acid substrate without glycemic impact.",
+  "microIntro": "A specialized nutritional profile rich in thyroid-supporting trace elements, coenzymes for ATP production, and precursor molecules for neurological transmitters.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "135 kcal / 7% DV",
+      "bg": "#15837c",
+      "description": "High-efficiency thermodynamic energy derived primarily from the oxidation of myofibrillar proteins during gluconeogenic and metabolic processes."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "30.1 g / 60% DV",
+      "bg": "#f5722c",
+      "description": "High-biological-value protein matrix containing the complete spectrum of essential amino acids required for skeletal muscle hyperthrophy and enzymatic repair."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.7 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "Minimal lipophilic fraction consisting primarily of structural phospholipids, with negligible saturated triacylglycerols."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Entirely absent carbohydrate fraction, ensuring zero insulin-index response and maintaining stable postprandial glucose levels."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 37,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "31.0 mcg / 56% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace metal cofactor for glutathione peroxidases, critical for thyroid hormone deiodination and neutralizing intracellular oxidative stress."
+    },
+    {
+      "id": 21,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "9.8 mg / 61% DV",
+      "bg": "#f5722c",
+      "description": "A vital NAD and NADP coenzyme precursor that drives the conversion of macronutrients into functional ATP for cellular energy systems."
+    },
+    {
+      "id": 20,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.8 mg / 47% DV",
+      "bg": "#e4a910",
+      "description": "A requisite coenzyme for amino acid transamination and the synthesis of core neurotransmitters, including serotonin and gamma-aminobutyric acid."
+    },
+    {
+      "id": 36,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.1 mg / 19% DV",
+      "bg": "#15837c",
+      "description": "A critical divalent cation essential for immune system transcription factor activation and the stabilization of zinc-finger DNA binding proteins."
+    },
+    {
+      "id": 38,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "220 mg / 22% DV",
+      "bg": "#1a96cd",
+      "description": "A fundamental element of the hydroxyapatite bone lattice and the primary component of all phosphorylation-dependent cellular energy transfers."
+    },
+    {
+      "id": 138,
+      "name": "L-Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.35 g / High Density",
+      "bg": "#66ab63",
+      "description": "An essential aromatic amino acid that crosses the blood-brain barrier to serve as the direct biosynthetic precursor for serotonin and melatonin."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Myofibrillar Protein Synthesis and Satiety:</b> High-density lean protein intake triggers prolonged satiety signaling, suppresses ghrelin, and provides the nitrogenous precursors necessary for skeletal muscle maintenance.",
+    "<b>Neurotransmitter Biosynthesis and Circadian Regulation:</b> Systemic uptake of L-tryptophan facilitates the central nervous system synthesis of serotonin, mitigating stress-induced hypercortisolemia and promoting restorative sleep-wake architecture.",
+    "<b>Thyroid Hormone Activation and Protection:</b> Selenium-dependent enzymes actively prevent oxidative cellular decay within the thyroid gland, facilitating the peripheral conversion of T4 into the active T3 hormone.",
+    "<b>Thermogenic Metabolic Efficiency:</b> Protein-induced thermogenesis promotes an increased energy expenditure postprandially, assisting in adipose tissue management while maintaining lean body mass."
+  ],
+  "precautionsIntro": "While pure muscle tissue is highly bioavailable, commercial processing techniques introduce clinical contraindications:",
+  "precautions": [
+    "<b>Hyperuricemia and Purine Load:</b> Individuals with metabolic gout must account for the endogenous purine degradation to uric acid, which can exacerbate crystal deposition in synovial joints.",
+    "<b>Industrial Processing Additives:</b> Commercial deli products and pre-brined whole birds often incorporate hypersaline solutions, sodium nitrates, and phosphate stabilizers, which negatively affect vascular endothelial health.",
+    "<b>Microbial Pathogenesis (Zoonotic Risk):</b> Improper thermal processing can leave pathogenic Campylobacter or Salmonella colonies within the deep muscle tissue; strict adherence to 74 degrees Celsius internal temperature is essential."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "turkey-egg",
+  "name": "Turkey Egg",
+  "category": "Dairy & Eggs",
+  "image": "/productinfo/turkey-egg.png",
+  "imageAlt": "turkey egg",
+  "description": "Turkey eggs (Meleagris gallopavo) constitute a robust avian reproductive matrix, characterized by a high yolk-to-albumen volume and a dense nutrient payload. The biological architecture of the turkey egg provides a superior concentration of phospholipids and long-chain fatty acids compared to standard poultry options. This product serves as an elite delivery vehicle for neuro-active choline and cobalamin, facilitating rapid membrane repair and optimizing the systemic oxygen-carrying capacity through its bioavailable heme-iron content.",
+  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
+  "macroIntro": "An energy-dense lipid-protein assembly defined by a large, nutrient-rich yolk fraction supporting structural cellular integrity.",
+  "microIntro": "A potent repository of essential B-complex coenzymes, trace mineral antioxidants, and cell-membrane precursors.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "171 kcal / 9% DV",
+      "bg": "#15837c",
+      "description": "Thermodynamic fuel derived from the oxidation of high-quality fatty acids and complete protein proteolysis."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.7 g / 27% DV",
+      "bg": "#f5722c",
+      "description": "A comprehensive amino acid profile critical for myofibrillar repair, enzyme synthesis, and hormonal regulation."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "11.9 g / 15% DV",
+      "bg": "#e4a910",
+      "description": "A sophisticated lipid blend dominated by monounsaturated fats and lecithin, vital for maintaining neuronal membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.1 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Negligible glycemic substrate, ensuring a flat insulinemic profile suitable for metabolic stabilization."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 25,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "1.7 mcg / 71% DV",
+      "bg": "#1a96cd",
+      "description": "A crucial nucleotide-binding cofactor necessary for erythropoiesis and the maintenance of neural myelin integrity."
+    },
+    {
+      "id": 138,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "260 mg / 47% DV",
+      "bg": "#66ab63",
+      "description": "The primary biochemical precursor to acetylcholine, essential for synaptic signal transmission and cognitive focus."
+    },
+    {
+      "id": 37,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "34.3 mcg / 62% DV",
+      "bg": "#15837c",
+      "description": "A core catalytic component of selenoproteins, providing systemic defense against free radical-mediated cellular stress."
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.2 mg / 18% DV",
+      "bg": "#e4a910",
+      "description": "High-bioavailability iron critical for oxygen transport within the heme-complex of red blood cells."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "0.5 mg / 38% DV",
+      "bg": "#f5722c",
+      "description": "A vital coenzyme for cellular respiration and energy extraction pathways via the Krebs cycle."
+    },
+    {
+      "id": 24,
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "166 mcg / 18% DV",
+      "bg": "#1a96cd",
+      "description": "A retinoid precursor essential for photosensitivity in ocular pathways and reinforcing epithelial barrier immunity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Neuro-Cognitive Infrastructure Enhancement:</b> Synergistic action of choline and B12 fortifies neural pathways, optimizing signal processing speed and memory retention.",
+    "<b>Hematopoietic and Oxygen Dynamics:</b> Optimized iron density directly elevates erythropoiesis, correcting systemic markers of hypoxic fatigue.",
+    "<b>Cellular Lipid Membrane Repair:</b> Abundant phospholipids serve as primary substrates for the renovation of compromised cellular bilayers.",
+    "<b>Endogenous Antioxidant Up-regulation:</b> Elevated selenium concentrations optimize glutathione peroxidase activity, mitigating chronic systemic oxidative inflammation."
+  ],
+  "precautionsIntro": "Given its nutrient density, proper handling and clinical consideration are advised:",
+  "precautions": [
+    "<b>Microbiological Integrity:</b> High-protein avian eggs are susceptible to bacterial colonization; mandatory thermal inactivation to 74C is required.",
+    "<b>Lipid and Cholesterol Monitoring:</b> Elevated sterol content in the yolk necessitates quantitative assessment for individuals with cardiovascular risk profiles.",
+    "<b>Proteomic Allergenicity:</b> Individuals with IgE-mediated reactions to avian albumins must exercise caution due to high protein cross-reactivity between poultry species."
+  ]
+}

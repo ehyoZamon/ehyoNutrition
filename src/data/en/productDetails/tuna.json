@@ -1,0 +1,108 @@
+{
+  "slug": "tuna",
+  "name": "Tuna (Yellowfin or Albacore)",
+  "category": "Fish & Seafood",
+  "image": "/productinfo/tuna.png",
+  "imageAlt": "fresh tuna steak",
+  "description": "Tuna is an elite, apex marine whole food matrix. Functioning as an ultra-pure, high-density protein alternative, it delivers an extraordinary volume of complete structural amino acids, critical neuro-protective B-vitamins, and highly specialized trace elements like selenium, making it a premier dietary resource for rapid muscle synthesis, cellular respiration, and thyroid metabolic optimization.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked, dry heat)",
+  "macroIntro": "The macronutrient framework of tuna is characterized by an exceptional, near-isolated protein profile, engineered for lean muscular preservation with virtual absence of carbohydrates or baseline fats.",
+  "microIntro": "Tuna houses a dense crystalline network of mitochondrial coenzymes and marine trace catalysts critical for internal enzymatic detoxification and neurological stamina.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "130 kcal / 7% DV",
+      "bg": "#15837c",
+      "description": "A remarkably low caloric footprint that yields a massive structural payoff, maximizing lean amino acid delivery without adding excess energy storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "29.1 g / 58% DV",
+      "bg": "#f5722c",
+      "description": "An exceptionally dense, high-caliber complete protein source supplying all essential amino acids required to drive rapid skeletal muscle synthesis and cellular remodeling."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.6 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "Extremely low in total lipids, yet providing vital traces of long-chain Omega-3 polyunsaturated fatty acids (EPA and DHA) that safeguard cell membrane integrity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Completely free of carbohydrates, fibers, or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 21,
+      "name": "Vitamin B12 (Cobalamin)",
+      "slug": "vitamin-b12",
+      "amount": "2.2 mcg / 92% DV",
+      "bg": "#15837c",
+      "description": "An abundant animal-bound vitamin essential for the continuous maintenance of nerve fiber myelin sheaths, red blood cell manufacture, and DNA replication."
+    },
+    {
+      "id": 45,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "90.6 mcg / 165% DV",
+      "bg": "#f5722c",
+      "description": "A spectacular mega-dose of this trace element, forming a unique chemical complex (*selenoneine*) that drives master endogenous antioxidant systems and thyroid health."
+    },
+    {
+      "id": 19,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "18.5 mg / 116% DV",
+      "bg": "#66ab63",
+      "description": "A massive concentration crucial for mitochondrial electron transport chain efficiency, active cellular DNA repair, and vascular transport modulation."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin B6 (Pyridoxine)",
+      "slug": "vitamin-b6",
+      "amount": "0.9 mg / 53% DV",
+      "bg": "#e4a910",
+      "description": "An indispensable neuro-cofactor running continuous transamination pathways, red blood cell synthesis, and the production of mood-regulating signaling compounds."
+    },
+    {
+      "id": 34,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "278 mg / 22% DV",
+      "bg": "#1a96cd",
+      "description": "Works in a tight physiological coordination loop with calcium to support structural bone matrix density and maintain cellular ATP configurations."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "441 mg / 9% DV",
+      "bg": "#1a96cd",
+      "description": "A vital intracellular electrolyte that drives fluid equilibrium, regulates neuromuscular pathways, and supports steady baseline blood pressure levels."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Muscle Architecture Support:</b> Packing one of the highest protein-to-calorie ratios in existence, its complete amino acid pool accelerates skeletal tissue recovery and fuels rapid lean muscle building.",
+    "<b>Mitochondrial Energy & Nerve Drive:</b> Staggering concentrations of Niacin and Vitamin B12 accelerate cellular respiration, clear cognitive fatigue pathways, and optimize nervous system processing speeds.",
+    "<b>Advanced Endogenous Antioxidant Shielding:</b> The exceptional volume of Selenium feeds glutathione peroxidase mechanisms and utilizes *selenoneine* to actively bind and neutralize circulating oxidative stressors.",
+    "<b>Vascular and Fluid Balance Regulation:</b> High natural distributions of intracellular Potassium assist in excreting excess systemic sodium via the renal pathway, lowering peripheral arterial resistance and stabilizing heart rhythms."
+  ],
+  "precautionsIntro": "Given its position as an apex predator and its distinct lean structural traits, incorporating tuna into your dietary parameters demands specific management metrics.",
+  "precautions": [
+    "<b>Apex Bioaccumulation of Methylmercury:</b> As a large predatory fish, tuna can bioconcentrate measurable amounts of environmental methylmercury over its lifecycle. Tracking intake frequency and opting for smaller species (like Skipjack or Light tuna) over larger Albacore or Bluefin is required to minimize long-term neurotoxic risks.",
+    "<b>Scombrotoxin (Histamine) Food Poisoning:</b> Suboptimal temperature regulation post-catch can cause bacterial decomposition of native histidine into scombroid histamine toxins, which resist thermal cooking. Sourcing exclusively from highly verified, rapid-frozen supply chains is highly preferred.",
+    "<b>Purine Concentration Sizing:</b> Tuna carries a highly concentrated purine distribution profile. For individuals navigating a historical clinical baseline of gout or hyperuricemia, portion sizes must be monitored to prevent joint crystallization.",
+    "<b>Extreme Lipid Deficit Parameters:</b> Because tuna is almost entirely isolated protein with near-zero fat, relying on it as a sole dietary component without adding external healthy fats (like monounsaturated or omega-3 oils) can limit the absorption of fat-soluble vitamins."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "cashews",
+  "name": "Cashews",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/cashews.png",
+  "imageAlt": "raw cashew nuts",
+  "description": "Cashews (Anacardium occidentale) are premium botanical seeds highly valued in clinical nutrition for their buttery lipid profile and dense mineral topography. They deliver a bioavailable matrix of monounsaturated fatty acids, structured plant proteomes, and essential cofactors designed to optimize mitochondrial efficiency, stabilize neuromuscular conduction, and support musculoskeletal matrix integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "A dense, high-efficiency energy substrate driven by unsaturated lipids and structured proteins, facilitating sustained metabolic output.",
+  "microIntro": "An elite repository of trace elements, specifically copper and magnesium, which serve as foundational cofactors for systemic vascular and neurological health.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "553 kcal / 28% DV",
+      "bg": "#15837c",
+      "description": "Slow-burning energy yield provided by functional lipids and proteins for long-term metabolic homeostasis."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "18.2 g / 36% DV",
+      "bg": "#f5722c",
+      "description": "High-quality plant-based proteomic matrix supporting continuous cellular tissue repair and skeletal muscle maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "43.8 g / 56% DV",
+      "bg": "#e4a910",
+      "description": "Lipid profile dominated by oleic acid, promoting membrane fluidity and cardiovascular lipid profile modulation."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "30.2 g / 11% DV",
+      "bg": "#15837c",
+      "description": "Complex glycemic substrate balanced by dietary fiber, ensuring gradual insulin response and stable glucose curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 33,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "2.2 mg / 244% DV",
+      "bg": "#1a96cd",
+      "description": "Vital catalytic cofactor for collagen cross-linking, elastin synthesis, and systemic antioxidant protection."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "292 mg / 73% DV",
+      "bg": "#66ab63",
+      "description": "Intracellular mineral critical for neuromuscular conduction, blood pressure homeostasis, and mitochondrial ATP production."
+    },
+    {
+      "id": 141,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "1.7 mg / 74% DV",
+      "bg": "#e4a910",
+      "description": "Essential mineral for bone matrix scaffolding and activation of superoxide dismutase (SOD) for cellular defense."
+    },
+    {
+      "id": 38,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "593 mg / 47% DV",
+      "bg": "#1a96cd",
+      "description": "Biochemical synergist with calcium, fundamental for skeletal mineral density and cellular lipid bilayer maintenance."
+    },
+    {
+      "id": 39,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "5.8 mg / 53% DV",
+      "bg": "#15837c",
+      "description": "Catalyst for endocrine hormonal synthesis, immune cellular replication, and accelerated tissue regeneration."
+    },
+    {
+      "id": 142,
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "34.1 mcg / 28% DV",
+      "bg": "#f5722c",
+      "description": "Regulator of blood coagulation and calcium-trafficking, preventing arterial calcification by directing minerals to the skeleton."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Vascular Integrity and Resilience:</b> Superior copper concentration catalyzes elastin and collagen cross-linking, enhancing blood vessel structural elasticity.",
+    "<b>Neuromuscular Regulation:</b> Magnesium-dependent modulation of calcium channels in neural tissues attenuates stress responses and supports restorative sleep cycles.",
+    "<b>Lipid Homeostasis:</b> Oleic acid fractions assist in the stabilization of LDL/HDL ratios, fostering optimal cardiovascular risk markers.",
+    "<b>Bone Matrix Optimization:</b> Synergy between Phosphorus, Manganese, and Vitamin K facilitates efficient skeletal mineral deposition and reduces fracture vulnerability."
+  ],
+  "precautionsIntro": "Given their caloric density and biochemical inhibitors, prudent consumption is advised:",
+  "precautions": [
+    "<b>Caloric Density:</b> Extreme energy concentration necessitates intentional portion tracking to avoid undesirable energy surpluses in restricted metabolic states.",
+    "<b>Antinutrient Profile:</b> The presence of phytates and oxalates may inhibit trace mineral bioavailability; individuals with calcium-oxalate urolithiasis should exercise caution.",
+    "<b>Processing Safety:</b> Raw seeds contain anacardic acid; rigorous commercial roasting/steaming is mandatory to neutralize toxic shell residues before consumption."
+  ]
+}

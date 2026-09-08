@@ -1,0 +1,140 @@
+{
+  "slug": "beef-liver",
+  "name": "Beef Liver",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-liver.png",
+  "imageAlt": "beef liver",
+  "description": "Beef liver is widely regarded as the ultimate king of superfoods. It contains an unmatched, highly concentrated matrix of pre-formed vitamins, essential minerals, and complete proteins, making it drastically superior to standard muscle meats in nutritional value.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "175 kcal / 9% DV",
+      "bg": "#15837c",
+      "description": "Provides nutrient-dense energy with a very low caloric cost relative to its massive vitamin profile."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "27.0 g / 54% DV",
+      "bg": "#f5722c",
+      "description": "An exceptionally rich source of highly bioavailable, complete protein containing all essential amino acids for tissue synthesis."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "5.0 g / 6% DV",
+      "bg": "#e4a910",
+      "description": "Low in total lipids, featuring a balanced profile of monounsaturated, polyunsaturated, and essential saturated fatty acids."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "5.0 g / 2% DV",
+      "bg": "#15837c",
+      "description": "Sourced naturally from stored animal glycogen. It represents a rare carbohydrate presence in meat, keeping a low glycemic index."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 2,
+      "name": "Vitamin A (Retinol)",
+      "slug": "vitamin-a",
+      "amount": "9442 mcg / 1049% DV",
+      "bg": "#66ab63",
+      "description": "Pre-formed active Vitamin A (retinol) that directly fuels the visual cycle, maintains endothelial integrity, and fortifies systemic immunity."
+    },
+    {
+      "id": 13,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "70.6 mcg / 2940% DV",
+      "bg": "#f5722c",
+      "description": "An astronomical concentration essential for myelin sheath repair, DNA replication, and preventing megaloblastic anemia."
+    },
+    {
+      "id": 37,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "14.3 mg / 1580% DV",
+      "bg": "#15837c",
+      "description": "Acts as a vital biochemical catalyst for iron metabolism, collagen structure synthesis, and defense against oxidative stress."
+    },
+    {
+      "id": 29,
+      "name": "Iron (Heme)",
+      "slug": "iron",
+      "amount": "6.2 mg / 34% DV",
+      "bg": "#1a96cd",
+      "description": "Highly absorbable heme iron that binds instantly to hemoglobin, optimizing cellular oxygen transport and preventing fatigue."
+    },
+    {
+      "id": 12,
+      "name": "Fate (Vitamin B9)",
+      "slug": "vitamin-b9",
+      "amount": "260 mcg / 65% DV",
+      "bg": "#e4a910",
+      "description": "Critical for cellular division, rapid amino acid conversion, and optimizing prenatal neural tube development."
+    },
+    {
+      "id": 41,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "418 mg / 76% DV",
+      "bg": "#15837c",
+      "description": "A foundational building block for cell membrane phospholipids and the neurotransmitter acetylcholine, driving memory and cognitive focus."
+    },
+    {
+      "id": 8,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "3.4 mg / 262% DV",
+      "bg": "#e4a910",
+      "description": "Crucial for mitochondrial respiration, electron transport chains, and converting macronutrients into actual ATP energy units."
+    },
+    {
+      "id": 11,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "13.2 mg / 83% DV",
+      "bg": "#8e24aa",
+      "description": "Supports DNA repair, skin health, and plays an essential role in converting macronutrients into cellular energy."
+    },
+    {
+      "id": 33,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "4.0 mg / 36% DV",
+      "bg": "#00acc1",
+      "description": "Vital for immune response, wound healing, testosterone synthesis, and robust metabolic health."
+    },
+    {
+      "id": 35,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "32.8 mcg / 60% DV",
+      "bg": "#009688",
+      "description": "Provides powerful antioxidant defense, guarding tissues against oxidative stress and supporting thyroid hormone function."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Unrivaled Anemia Prevention:</b> The combination of high-density heme iron, copper, and vitamin B12 provides all necessary structural raw materials for efficient red blood cell production.",
+    "<b>Advanced Cognitive Architecture:</b> Tremendous concentrations of B-vitamins paired with Choline maximize neurotransmitter generation, preserving rapid brain signaling and nervous system integrity.",
+    "<b>Enhanced Metabolic Performance:</b> Acts as a powerful coenzyme powerhouse; its extreme riboflavin and pantothenic acid values catalyze the rapid breakdown of dietary elements into pure kinetic energy.",
+    "<b>Immune & Vision Optimization:</b> Provides massive doses of active, bioavailable retinol (Vitamin A) that directly strengthens cornea function, supports night vision, and reinforces white blood cell response."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>Vitamin A Toxicity (Hypervitaminosis A):</b> Because liver holds pre-formed Vitamin A, which is fat-soluble and stores in our tissues, eating it daily can cause toxicity. Limiting consumption to 1-2 times per week is highly advised.",
+    "<b>Pregnancy Safety Thresholds:</b> Expectant mothers should strictly manage liver intake. Excess pre-formed Vitamin A (retinol) carries a documented risk of causing congenital developmental defects in the fetus.",
+    "<b>Copper Accumulation Risk:</b> The extremely high copper content means frequent intake can over-accumulate in the body, which might lead to oxidative strain or complicate issues for individuals with underlying copper metabolic conditions.",
+    "<b>Purine Density & Gout Management:</b> Organ meats are naturally heavy in purine structures. These break down into uric acid, which can aggregate inside joints and trigger painful flares in individuals prone to gout."
+  ]
+}

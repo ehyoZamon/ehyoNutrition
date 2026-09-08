@@ -1,0 +1,124 @@
+{
+  "slug": "goat-milk",
+  "name": "Goat Milk",
+  "category": "Dairy Products",
+  "image": "/productinfo/goat-milk.png",
+  "imageAlt": "fresh creamy goat milk pouring into a rustic glass jar against a clean neutral background",
+  "description": "Goat milk (Capra hircus) is a highly bioavailable, structurally distinct lipid-protein fluid showcasing superior digestive kinetics compared to bovine alternatives. The core therapeutic value of goat milk resides in its unique structural design: it features a high density of short- and medium-chain fatty acids (MCFAs) that undergo rapid, direct absorption, paired with an easily broken-down protein matrix that forms a soft, highly vulnerable curd within the gastric chamber. Operating within human biochemical systems, these attributes maximize nutrient assimilation, support intestinal mucosal structures, and provide a lower systemic inflammatory load.",
+  "macroTitle": "Macro Nutrients (per 100g, whole raw or pasteurized milk)",
+  "macroIntro": "Goat milk delivers a nutrient-dense, balanced macronutrient architecture characterized by finely emulsified small-diameter fat globules and premium bioactive proteins.",
+  "microIntro": "The liquid serum matrix houses an exceptionally bioavailable pool of extracellular bone-building minerals, crucial fat-soluble immunomodulatory vitamins, and natural anti-inflammatory oligosaccharides.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~69 kcal",
+      "bg": "#15837c",
+      "description": "A robust, highly functional energetic profile derived from easily mobilized lipid structures that fuel metabolic pathing without stressing cellular fat depots."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.6 grams",
+      "bg": "#f5722c",
+      "description": "An elite plant-and-tissue builder composed of high-quality caseins and whey, yielding an exceptional essential amino acid balance for cellular repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.1 grams",
+      "bg": "#e4a910",
+      "description": "Consists of naturally homogenized, small-diameter fat globules rich in caproic, caprylic, and capric medium-chain fatty acids for rapid hepatic utilization."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.5 grams",
+      "bg": "#1a96cd",
+      "description": "Represented by native milk lactose, providing a steady carbohydrate fuel supply while acting as a gentle functional substrate for beneficial intestinal bacteria."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "134 mg / 13% DV",
+      "bg": "#15837c",
+      "description": "An abundant, highly bioavailable extracellular mineral essential for driving skeletal mineralization, optimizing muscle contractions, and stabilizing neural signaling."
+    },
+    {
+      "id": "medium-chain-fatty-acids",
+      "slug": "medium-chain-fatty-acids",
+      "name": "Medium-Chain Fatty Acids (MCFAs)",
+      "amount": "Highly Concentrated",
+      "bg": "#f5722c",
+      "description": "Unique structural lipids metabolized rapidly via the portal vein, bypassing complex pancreatic lipase pathways to deliver direct cellular energy."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "204 mg / 4% DV",
+      "bg": "#66ab63",
+      "description": "A critical intracellular electrolyte that regulates homeostatic fluid balance, maintains vascular tone, and stabilizes smooth cardiac rhythm metrics."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Retinol)",
+      "amount": "57 mcg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "Directly bioavailable preformed vitamin A synthesized by the goat's metabolism, vital for protecting ocular photoreceptors and upgrading mucosal defenses."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "111 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "A structural mineral anion required for building resilient hydroxyapatite bone matrices and driving cellular adenosine triphosphate (ATP) synthesis cycles."
+    },
+    {
+      "id": 81,
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "14 mg / 3% DV",
+      "bg": "#15837c",
+      "description": "Crucial cofactor for muscle relaxation, DNA synthesis, and enzymatic stability."
+    },
+    {
+      "id": 82,
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.14 mg / 11% DV",
+      "bg": "#f5722c",
+      "description": "Supports cellular respiration, energy metabolism, and tissue repair."
+    },
+    {
+      "id": 83,
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "0.07 mcg / 3% DV",
+      "bg": "#66ab63",
+      "description": "Vital for nerve cell maintenance, DNA production, and red blood cell formation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Accelerated Gastric Digestion:</b> The low alpha-s1-casein profile yields a soft, highly friable protein curd that digests rapidly, avoiding prolonged gastrointestinal transit strain.",
+    "<b>Skeletal Matrix Reinforcement:</b> High native <b>calcium</b> and phosphorus ratios merge seamlessly into human bone tissue, accelerating structural mineralization loops.",
+    "<b>Hepatic Energy Mobilization:</b> Abundant <b>MCFAs</b> are absorbed directly via the portal system, providing instant metabolic energy without triggering lipid storage cascades.",
+    "<b>Gastrointestinal Mucosal Support:</b> Natural milk <b>oligosaccharides</b> shield sensitive epithelial boundaries, reducing inflammatory adhesion of external pathogens.",
+    "<b>Hypoallergenic Alternative Potential:</b> Possessing a distinct molecular structure compared to bovine milk, it provides a well-tolerated option for individuals with mild dairy sensitivities."
+  ],
+  "precautionsIntro": "Lactose-Driven Intolerance Realities, Cross-Reactive Casein Allergies, and Folate Deficiency Hazards: Informed consumption safeguards system homeostasis.",
+  "precautions": [
+    "<b>True Lactose Intolerance Risk:</b> While often better tolerated than cow's milk, goat milk still contains notable amounts of <b>lactose</b> (~4.5g). Individuals with severe lactase enzyme deficiency will experience gas, bloating, and diarrhea if consumed without supplemental enzymes.",
+    "<b>Cross-Reactive Bovine Protein Allergy:</b> Goat milk features structural similarities to cow's milk proteins. Individuals diagnosed with a true, IgE-mediated <b>cow's milk allergy (CMA)</b> face high rates of cross-reactive immune signaling, which can trigger severe allergic reactions or anaphylaxis.",
+    "<b>Folate-Deficiency Risk in Infant Nutrition:</b> Unfortified goat milk is exceptionally low in <b>Vitamin B9 (folate)</b> and Vitamin B12 compared to human milk. Utilizing it as a primary or exclusive nutritional substitute for infants can rapidly induce dangerous megaloblastic anemia cycles."
+  ]
+}

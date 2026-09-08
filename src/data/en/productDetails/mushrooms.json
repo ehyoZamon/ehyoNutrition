@@ -1,0 +1,108 @@
+{
+  "slug": "mushrooms",
+  "name": "Mushrooms",
+  "category": "Mushrooms",
+  "image": "/productinfo/mushrooms.png",
+  "imageAlt": "mushrooms",
+  "description": "Mushrooms occupy a completely unique biological kingdom. Low in calories yet rich in flavor thanks to natural glutamate, they provide a powerful matrix of immunomodulating beta-glucans, unique antioxidants like selenium, and are one of the few non-animal sources of vitamin D.",
+  "macroTitle": "Macronutrients (per 100 g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "22 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "An incredibly low-calorie whole food, highly beneficial for weight management and metabolic restrictions."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.1 g / 6% DV",
+      "bg": "#f5722c",
+      "description": "Surprisingly high protein content for a plant-based source; features a balanced essential amino acid profile."
+    },
+    {
+      "id": 16,
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.3 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "Virtually fat-free, containing only trace amounts of healthy unsaturated fatty acids and absolutely no cholesterol."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.3 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Composed mainly of complex structural carbohydrates and fiber, exerting a negligible impact on systemic blood sugar levels."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 3,
+      "name": "Vitamin D (Ergocalciferol)",
+      "slug": "vitamin-d",
+      "amount": "18 IU / 4% DV",
+      "bg": "#15837c",
+      "description": "One of the exceptionally rare non-animal sources of vitamin D2, helping to improve calcium retention and bone mineralization."
+    },
+    {
+      "id": 43,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "9.3 mcg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "A potent antioxidant mineral that neutralizes free radicals, optimizes thyroid function, and supports the immune system."
+    },
+    {
+      "id": 7,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "0.4 mg / 31% DV",
+      "bg": "#e4a910",
+      "description": "An essential metabolic coenzyme playing a key role in cellular energy extraction and structural red blood cell production."
+    },
+    {
+      "id": 8,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "3.6 mg / 23% DV",
+      "bg": "#f5722c",
+      "description": "Supports healthy cellular respiration, optimizes enzyme activity, protects skin texture, and maintains foundational nervous system health."
+    },
+    {
+      "id": 37,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.3 mg / 35% DV",
+      "bg": "#66ab63",
+      "description": "A fundamental trace element necessary for hemoglobin synthesis, vascular structure assembly, and neurotransmitter production."
+    },
+    {
+      "id": 34,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "318 mg / 7% DV",
+      "bg": "#e4a910",
+      "description": "A primary intracellular electrolyte regulating natural fluid balance, nerve signaling pathways, and cardiac muscle tone."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Immune System Architecture:</b> Mushrooms contain complex polysaccharides known as beta-glucans. These molecules act as natural immunomodulators, gently binding to immune cells to optimize defense functions.",
+    "<b>Cellular Antioxidant Protection:</b> A high concentration of selenium aids in the production of glutathione peroxidase enzymes, protecting cell membranes from daily oxidative damage.",
+    "<b>Cardiovascular Support:</b> Naturally rich in potassium and completely devoid of sodium or cholesterol, mushrooms help relieve vascular tone and aid in maintaining healthy blood pressure.",
+    "<b>Satiety with Minimal Calories:</b> Their dense structural matrix provides substantial food volume and a pleasant savory 'umami' flavor, maintaining feelings of fullness at an extremely low caloric cost."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>Difficulty Digesting Chitin:</b> The cell walls of raw mushrooms consist of chitin—a rigid, tough polymer. To prevent digestive distress, cramps, or bloating, mushrooms should always be cooked to break down this matrix.",
+    "<b>Risk of Wild Mushroom Poisoning:</b> Never consume wild mushrooms unless their safety has been confirmed with absolute certainty by a professional mycologist. Toxic species can perfectly mimic edible ones and cause fatal organ damage. Commercial store-bought varieties are completely safe.",
+    "<b>Porous Heavy Metal Absorption:</b> Mushrooms act like natural sponges, easily absorbing contaminants or heavy metals from polluted surrounding soil. Always purchase mushrooms from trusted suppliers with controlled cultivation quality.",
+    "<b>Rapid Spoilage and Mold Growth:</b> Due to their high initial moisture level, fresh mushrooms spoil quickly and can accumulate toxic mold if stored improperly. Keep them in breathable paper bags in the refrigerator and discard them if they become slimy."
+  ]
+}

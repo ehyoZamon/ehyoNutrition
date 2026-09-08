@@ -1,0 +1,99 @@
+{
+  "slug": "dark-chocolate",
+  "name": "Dark Chocolate",
+  "category": "Sweets / Superfood",
+  "image": "/productinfo/chocolate.png",
+  "imageAlt": "pieces of dark chocolate",
+  "description": "Dark chocolate (specifically within the 70–85% cocoa solids range) represents a highly complex polymorphic, multi-phase lipid-carbohydrate suspension consisting of non-fat cocoa particles and crystalline sucrose embedded within a continuous hydrophobic matrix of cocoa butter (Theobroma cacao). Operating as a potent functional superfood, this matrix features a dense array of monomeric flavan-3-ols (specifically (-)-epicatechin), alongside methylxanthine alkaloid isomers and essential crystalline divalent mineral complexes. The mechanical and thermal processing of the seed mass preserves a highly reactive biochemical profile that actively upregulates endothelial nitric oxide bioavailability, downregulates systemic pro-inflammatory cytokine expression, modulates cerebral blood perfusion architectures, and exerts a stabilizing effect on cellular membrane fluidity.",
+  "macroTitle": "Macro Nutrients (per 100g, 70-85% cocoa)",
+  "macroIntro": "The macronutrient configuration of premium 70–85% dark chocolate displays an exceptionally high thermodynamic energy density, dominated by structured triacylglycerols alongside a significant non-digestible polysaccharide fiber fraction.",
+  "microIntro": "A highly concentrated dense repository of neuroactive methylxanthines, vascular-protective polyphenolic flavonoids, and crucial enzyme-activating trace elements.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "598 kcal / 30% DV",
+      "bg": "#15837c",
+      "description": "An intense concentration of metabolic energy derived from the structural beta-oxidation of long-chain fatty acids and carbohydrate cleavage."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "42.6 g / 55% DV",
+      "bg": "#e4a910",
+      "description": "Dominated by a stable ratio of saturated stearic and palmitic acids alongside monounsaturated oleic acid, forming the structured crystalline matrix."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "45.9 g / 17% DV",
+      "bg": "#15837c",
+      "description": "A split matrix composed of added functional sucrose disaccharides balanced by a large, non-glycemic structural dietary fiber pool."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "7.8 g / 16% DV",
+      "bg": "#f5722c",
+      "description": "A meaningful peptide assembly containing native seed storage proteins and hydrophobic amino acids locked within the dry cocoa solids."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 33,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "228 mg / 54% DV",
+      "bg": "#15837c",
+      "description": "A vital intracellular cation essential for stabilizing adenosine triphosphate ($ATP$) complexes and governing neuromuscular excitability."
+    },
+    {
+      "id": 127,
+      "name": "Cocoa Flavanols (Epicatechin)",
+      "slug": "polyphenols",
+      "amount": "High Concentration",
+      "bg": "#f5722c",
+      "description": "Potent monomeric and oligomeric bioflavonoids that directly cross epithelial barriers to trigger vascular endothelial signaling paths."
+    },
+    {
+      "id": 128,
+      "name": "Theobromine",
+      "slug": "methylxanthines",
+      "amount": "781 mg",
+      "bg": "#66ab63",
+      "description": "The primary purine alkaloid of the cocoa seed, functioning as a sustained, mild myocardial stimulant and smooth muscle relaxant."
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "11.9 mg / 66% DV",
+      "bg": "#e4a910",
+      "description": "An abundant plant-derived non-heme mineral element necessary for hemoglobin generation and cellular mitochondrial respiration."
+    },
+    {
+      "id": 35,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "1.8 mg / 200% DV",
+      "bg": "#1a96cd",
+      "description": "An essential catalytic cofactor for cytochrome c oxidase and superoxide dismutase, driving systemic iron mobilization."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Endothelial Nitric Oxide Synthesis and Vasodilation:</b> Active monomeric (-)-epicatechins stimulate the intracellular expression of endothelial nitric oxide synthase ($eNOS$), causing localized smooth muscle relaxation, decreasing peripheral vascular resistance, and optimizing arterial pressure.",
+    "<b>Dual-Alkaloid Myocardial Tonification and Cognitive Focus:</b> The structural combination of theobromine and trace caffeine competitively blocks adenosine receptors, inducing sustained bronchodilation, mild cardiac output enhancement, and sharp attentional focus without immediate psychomotor crash cascades.",
+    "<b>Neuro-Endocrine Signaling and Tryptophan-Mediated Mood Elevation:</b> Bioactive matrix fractions prompt the direct transcription of brain-derived neurotrophic factor ($BDNF$) while simultaneously providing essential precursor elements that stabilize central serotonin and endorphin production.",
+    "<b>Polyphenolic Protection of Low-Density Lipoproteins:</b> High concentrations of native polyphenols intercept reactive oxygen species ($ROS$) within the bloodstream, directly suppressing the oxidation kinetics of circulating low-density lipoproteins ($LDL$) to preserve vascular health."
+  ],
+  "precautionsIntro": "Due to its immense thermodynamic density, high mineral saturation, and active alkaloid concentrations, dark chocolate deployment requires structured moderation under specific clinical conditions:",
+  "precautions": [
+    "<b>Thermodynamic Density and Systemic Adipocyte Expansion:</b> The substantial lipid and carbohydrate profile provides up to 600 kcal per 100g, readily contributing to an unmonitored positive energy balance and subsequent fat storage if daily macro-limits are breached.",
+    "<b>Purine Alkaloid Load and Central Nervous System Hypersensitivity:</b> Total methylxanthine accumulation from high-percentage bars can induce minor chronotropic effects and sleep architecture latency in individuals with compromised or slow metabolic clearance rates.",
+    "<b>Oxalate Saturation and Renal Calculi Genesis:</b> The dense non-fat cocoa fraction naturally concentrates soluble oxalate compounds, which can bind free calcium ions within the urinary tract, increasing the precipitation risk of calcium oxalate nephrolithiasis."
+  ]
+}

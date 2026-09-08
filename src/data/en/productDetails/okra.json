@@ -1,0 +1,108 @@
+{
+  "slug": "okra",
+  "name": "Okra",
+  "category": "Vegetables",
+  "image": "/productinfo/okra.png",
+  "imageAlt": "fresh green okra pods",
+  "description": "Okra (Abelmoschus esculentus) is a nutrient-dense vegetable characterized by a unique mucilaginous fiber profile and a robust polyphenolic antioxidant matrix. Its botanical structure is specifically engineered to soothe gastrointestinal mucosa, optimize post-prandial glycemic kinetics, and support systemic vascular integrity through protective flavonoids like isoquercitrin.",
+  "macroTitle": "Macro Nutrients (per 100g, boiled)",
+  "macroIntro": "An ultra-low energy density blueprint featuring significant soluble mucilage content and negligible lipids, ideal for metabolic weight management.",
+  "microIntro": "A highly functional micronutrient matrix providing elite levels of Vitamin K and Vitamin C, which collectively reinforce vascular stability and skeletal mineralization.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "22 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "Exceptionally low energy density, offering high volumetric satiety with minimal metabolic load."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.9 g / 4% DV",
+      "bg": "#f5722c",
+      "description": "Functional plant-derived protein content contributing to essential amino acid baselines."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 g / 0.1% DV",
+      "bg": "#e4a910",
+      "description": "Negligible lipid content, supporting strict fat-restricted dietary protocols."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.5 g / 2% DV",
+      "bg": "#15837c",
+      "description": "Complex carbohydrate matrix anchored by viscous soluble fibers (~2.5g), promoting flat glycemic responses."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 142,
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "40.0 mcg / 33% DV",
+      "bg": "#e4a910",
+      "description": "Elite nutrient essential for blood coagulation cascades and osteocalcin-mediated calcium binding."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "16.3 mg / 18% DV",
+      "bg": "#1a96cd",
+      "description": "Antioxidant cofactor stimulating endogenous collagen synthesis and neutralizing oxidative radical stress."
+    },
+    {
+      "id": 146,
+      "name": "Folate (Vitamin B9)",
+      "slug": "folate",
+      "amount": "46 mcg / 12% DV",
+      "bg": "#15837c",
+      "description": "Coenzymatic nutrient critical for DNA biosynthesis and healthy erythropoiesis."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "36 mg / 9% DV",
+      "bg": "#f5722c",
+      "description": "Mineral catalyst driving ATP energy pathways and modulating neuromuscular signaling."
+    },
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "135 mg / 3% DV",
+      "bg": "#66ab63",
+      "description": "Foundational electrolyte regulating fluid homeostasis and vascular smooth muscle tone."
+    },
+    {
+      "id": 147,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "77 mg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "Structural mineral supporting skeletal density and neuromuscular signaling mechanisms."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Mucosal Coating:</b> Viscous mucilage proteins form a biomimetic protective shield over gastric and intestinal epithelial linings.",
+    "<b>Glycemic Kinetic Deceleration:</b> Soluble fibers sequester dietary carbohydrates, systematically slowing glucose entry into systemic circulation.",
+    "<b>Vascular Endothelial Protection:</b> Flavonoids (quercetin) mitigate lipid peroxidation, preserving arterial structural integrity.",
+    "<b>Bile & Cholesterol Regulation:</b> Mucilage matrices bind bile acids in the enterohepatic loop, facilitating cholesterol excretion.",
+    "<b>Skeletal Remodeling:</b> Synergistic Vitamin K and Calcium profiles optimize bone matrix mineralization."
+  ],
+  "precautionsIntro": "Nutritional considerations regarding digestive mechanics and medicinal interactions:",
+  "precautions": [
+    "<b>Mucilage Adaptation:</b> Dense viscous fiber may alter transit mechanics; individuals with acute digestive sensitivities or IBS should introduce okra gradually.",
+    "<b>Oxalate Profile:</b> High oxalate content necessitates caution for individuals with a history of calcium-oxalate urolithiasis (kidney stones).",
+    "<b>Pharmaceutical Interaction:</b> High consumption may reduce the bioavailability of Metformin due to binding mechanisms; monitor medication efficacy if dietary intake is high."
+  ]
+}

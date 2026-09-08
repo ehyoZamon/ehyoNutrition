@@ -1,0 +1,84 @@
+{
+  "slug": "turkey-fat",
+  "name": "Turkey Fat",
+  "category": "Fats and Oils",
+  "image": "/productinfo/turkey-fat.png",
+  "imageAlt": "rendered pure organic turkey fat in a glass jar",
+  "description": "Turkey fat is a premium bioavailable lipid substrate with a balanced fatty acid profile comparable to olive oil. Rich in monounsaturated oleic acid, it serves as an efficient metabolic fuel and culinary vehicle that enhances the absorption of fat-soluble nutrients.",
+  "macroTitle": "Macro Nutrients (per 100g, rendered)",
+  "macroIntro": "A pure, high-density lipid matrix stripped of moisture and protein for maximum metabolic efficiency.",
+  "microIntro": "A tailored lipophilic matrix providing essential fatty acids and fat-soluble vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "900 kcal / 45% DV",
+      "bg": "#15837c",
+      "description": "High-efficiency energy source composed of dense triglycerides."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "100.0 g / 128% DV",
+      "bg": "#e4a910",
+      "description": "Refined matrix: ~32% saturated, ~45% monounsaturated, ~23% polyunsaturated."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 164,
+      "name": "Oleic Acid (Omega-9)",
+      "slug": "oleic-acid",
+      "amount": "41.2 g",
+      "bg": "#15837c",
+      "description": "Monounsaturated fraction preserving membrane flexibility."
+    },
+    {
+      "id": 165,
+      "name": "Linoleic Acid (Omega-6)",
+      "slug": "linoleic-acid",
+      "amount": "20.5 g",
+      "bg": "#f5722c",
+      "description": "Essential precursor for signaling molecules."
+    },
+    {
+      "id": 166,
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "2.7 mg / 18% DV",
+      "bg": "#66ab63",
+      "description": "Fat-soluble antioxidant protecting lipid chains from oxidation."
+    },
+    {
+      "id": 167,
+      "name": "Vitamin D3",
+      "slug": "vitamin-d",
+      "amount": "Trace",
+      "bg": "#1a96cd",
+      "description": "Cholecalciferol traces supporting skeletal and immune regulation."
+    },
+    {
+      "id": 168,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "122 mg",
+      "bg": "#e4a910",
+      "description": "Structural component aiding hepatic lipid transport."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Cardiovascular Tone:</b> Oleic acid supports healthy lipid profiles.",
+    "<b>Nutrient Delivery:</b> Acts as a vehicle for bioavailability of vitamins A, D, E, K.",
+    "<b>Thermal Stability:</b> Smoke point (~190-200°C) prevents toxic thermal polymer formation.",
+    "<b>Membrane Repair:</b> Provides essential fatty acids for phospholipid bilayers.",
+    "<b>Ketogenic Fuel:</b> Carbohydrate-free payload accelerates ketone production."
+  ],
+  "precautionsIntro": "Considerations for caloric management and lipid oxidation:",
+  "precautions": [
+    "<b>Caloric Density:</b> High energy volume requires strict portion control to avoid surplus.",
+    "<b>Omega-6 Balance:</b> Significant linoleic acid content requires balancing with Omega-3 intake.",
+    "<b>Oxidation Sensitivity:</b> High PUFA content demands cool, dark storage to prevent rancidity."
+  ]
+}

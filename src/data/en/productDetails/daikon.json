@@ -1,0 +1,108 @@
+{
+  "slug": "daikon",
+  "name": "Daikon Radish",
+  "category": "Vegetables",
+  "image": "/productinfo/daikon.png",
+  "imageAlt": "fresh raw organic white daikon radish root",
+  "description": "Daikon is an elite winter root vegetable celebrated for its exceptional enzymatic profile and hepatic detox capacity. Its minimalist glycemic footprint and sulfur-rich phytochemicals—specifically isothiocyanates—streamline lipid digestion, accelerate cellular metabolism, and suppress systemic inflammation.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "An ultra-clean, water-heavy framework (94.6% hydration) with slow-release carbohydrates and minimal caloric density.",
+  "microIntro": "A broad, bioavailable matrix providing essential Vitamin C, electrolytes, and active sulfur-based compounds.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "18 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "Exceptionally low energy density for strict metabolic management."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.6 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "A minor, non-loading amino acid baseline."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "Virtually lipid-free, preventing fatty acid accumulation."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.1 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Natural starches bound in a fiber matrix (1.6g) for a flat glycemic curve."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 138,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "22.0 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "Potent antioxidant supporting collagen synthesis and leukocyte function."
+    },
+    {
+      "id": 157,
+      "name": "Folate (Vitamin B9)",
+      "slug": "folate",
+      "amount": "28 mcg / 7% DV",
+      "bg": "#66ab63",
+      "description": "Coenzyme essential for nucleic acid replication and cellular synthesis."
+    },
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "227 mg / 5% DV",
+      "bg": "#15837c",
+      "description": "Intracellular electrolyte regulating fluid balance and vascular tone."
+    },
+    {
+      "id": 160,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.1 mg / 6% DV",
+      "bg": "#e4a910",
+      "description": "Cofactor aiding iron absorption and mitochondrial energy cycles."
+    },
+    {
+      "id": 147,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "27 mg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "Structural mineral supporting intracellular communication."
+    },
+    {
+      "id": 161,
+      "name": "Isothiocyanates",
+      "slug": "isothiocyanates",
+      "amount": "Highly Bioactive",
+      "bg": "#f5722c",
+      "description": "Sulfur-rich compounds that trigger Phase II hepatic detoxification."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Enzymatic Digestion:</b> Contains diastase and amylase that catalyze the breakdown of starches and lipids.",
+    "<b>Hepatic Detox:</b> Glucosinolates convert to isothiocyanates, aiding toxin neutralization.",
+    "<b>Mucolytic Action:</b> Organic sulfur compounds decrease mucus viscosity in respiratory paths.",
+    "<b>Fluid Homeostasis:</b> High potassium-to-sodium ratio assists renal fluid clearance.",
+    "<b>Anti-inflammatory:</b> Phenolic assets inhibit pro-inflammatory cytokines."
+  ],
+  "precautionsIntro": "Considerations regarding thyroid, gastric, and intestinal health:",
+  "precautions": [
+    "<b>Thyroid Function:</b> Chronic high raw intake of goitrogenic glucosinolates may inhibit iodine uptake; monitor if hypothyroid.",
+    "<b>Gastric Sensitivity:</b> Volatile oils can irritate gastric linings in those with gastritis or peptic ulcers.",
+    "<b>FODMAP Sensitivity:</b> Sulfur compounds and complex carbs may induce fermentation/flatulence in IBS patients."
+  ]
+}

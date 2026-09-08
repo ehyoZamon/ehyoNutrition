@@ -1,0 +1,83 @@
+{
+  "slug": "green-tea",
+  "name": "Green Tea",
+  "category": "Beverages",
+  "image": "/productinfo/green_tea.png",
+  "imageAlt": "cup of green tea",
+  "description": "Green tea represents a non-fermented, minimally oxidized aqueous vegetative extract and complex phytochemical hydro-matrix derived from the fresh leaves of Camellia sinensis, preserved via rapid thermal inactivation of native polyphenol oxidase enzymes. Operating as an advanced physiological delivery vehicle, this matrix retains an exceptional pool of unpolymerized monomeric flavan-3-ols, dominated by epigallocatechin-3-gallate ($EGCG$), alongside neuroactive amino acids and highly bioavailable mineral ions. This synergistic bio-system acts as a profound cellular protectant, actively modulating intracellular signaling cascades (including $AMPK$ activation), suppressing vascular cell adhesion molecules, upregulating endothelial nitric oxide synthesis, and crossing the blood-brain barrier to stabilize neuronal signaling and protect neural layers from oxidative degradation.",
+  "macroTitle": "Macro Nutrients (per 100 ml of brewed beverage)",
+  "macroIntro": "The macronutrient profile of plain brewed green tea represents a near-vacuum energy allocation, maintaining virtually zero caloric, lipid, or peptide densities when consumed without exogenic additives.",
+  "microIntro": "A highly concentrated aqueous repository of unoxidized monomeric catechins, neuro-modulating amino acids, and vital dental-protective trace elements.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "1 kcal / 0% DV",
+      "bg": "#15837c",
+      "description": "A nominal thermodynamic value derived from negligible organic traces, exerting no practical impact on daily metabolic energy expenditure."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.2 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Minimal residual carbohydrate complexes consisting of trace soluble dietary fibers dissolved during the thermal extraction process."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 125,
+      "name": "Epigallocatechin Gallate (EGCG)",
+      "slug": "catechins",
+      "amount": "High Concentration",
+      "bg": "#15837c",
+      "description": "The predominant, unoxidized monomeric catechin that drives powerful systemic radical-scavenging protection and drives metabolic cell signaling cascades."
+    },
+    {
+      "id": 124,
+      "name": "L-Theanine",
+      "slug": "amino-acids",
+      "amount": "Bioactive Compound",
+      "bg": "#66ab63",
+      "description": "A unique non-proteinogenic amino acid that freely crosses the blood-brain barrier to stimulate alpha-frequency brainwave modulation."
+    },
+    {
+      "id": 123,
+      "name": "Caffeine (1,3,7-Trimethylxanthine)",
+      "slug": "caffeine",
+      "amount": "15-30 mg",
+      "bg": "#f5722c",
+      "description": "A purine alkaloid delivered in a lower concentration than black tea, acting as a mild competitive antagonist of central adenosine receptors."
+    },
+    {
+      "id": 39,
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "0.3 mg / 7% DV",
+      "bg": "#e4a910",
+      "description": "An essential trace mineral that integrates into the outer dental crystal matrix, forming acid-resistant fluoroapatite shields."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "1.0 mg / 1% DV",
+      "bg": "#1a96cd",
+      "description": "A water-soluble antioxidant trace preserved due to the absence of leaf fermentation, working alongside native polyphenols."
+    }
+  ],
+  "healthBenefits": [
+    "<b>EGCG-Mediated Cellular Protection and Free Radical Scavenging:</b> Monomeric catechins directly neutralize reactive oxygen species ($ROS$) and block lipid peroxidation cascades, effectively defending cellular DNA structures and cell membranes from epigenetic degradation.",
+    "<b>Metabolic Optimization and Lipid Oxidation Acceleration:</b> Native $EGCG$ inhibits catechol-O-methyltransferase ($COMT$), prolonging norepinephrine activity to stimulate downstream sympathetic pathways that enhance adipose tissue lipolysis.",
+    "<b>Synergistic Alpha-Wave Activation and Cognitive Enhancement:</b> The balanced combination of caffeine and L-theanine triggers a steady release of dopamine and $GABA$, generating heightened mental focus and clarity while eliminating jitteriness.",
+    "<b>Endothelial Integrity and Cardioprotective Nitric Oxide Stabilization:</b> Green tea polyphenols actively upregulate endothelial nitric oxide synthase ($eNOS$), reducing systemic low-density lipoprotein ($LDL$) oxidation kinetics and preserving arterial elasticity."
+  ],
+  "precautionsIntro": "Due to its reactive catechin architecture, central nervous system stimulation, and mineral-chelating properties, green tea utilization requires conscious tracking under specific clinical conditions:",
+  "precautions": [
+    "<b>Duodenal Iron Chelation and Inhibited Non-Heme Absorption:</b> Highly reactive condensed monomeric polyphenols can bind non-heme ($Fe^{3+}$) ions in the small intestine, forming insoluble clusters that limit enterocyte iron transport and exacerbate iron-deficiency anemia.",
+    "<b>Methylxanthine Sensitivity and Neuro-Endocrine Excitation:</b> Despite lower alkaloid values, highly sensitive individuals may experience competitive adenosine receptor blockade, presenting as localized tachycardia, minor anxiety, or disrupted REM sleep architectures.",
+    "<b>Concentrate-Induced Hepatotoxicity and Cellular Oxidative Stress:</b> While the liquid beverage is highly safe, consuming massive doses of green tea extracts (specifically in dietary supplements) can cause mitochondrial membrane disruption in hepatocytes, leading to severe acute liver injury."
+  ]
+}

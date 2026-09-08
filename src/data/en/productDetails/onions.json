@@ -1,0 +1,115 @@
+{
+  "slug": "onions",
+  "name": "Onions",
+  "category": "Vegetables",
+  "image": "/productinfo/onion.png",
+  "imageAlt": "onions",
+  "description": "Onions are a versatile vegetable known for their high content of phytonutrients, particularly flavonoids and sulfur compounds. Beyond adding depth of flavor to culinary dishes, they possess significant anti-inflammatory and antioxidant properties that support metabolic health.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "",
+  "microIntro": "",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "40 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "A low-calorie food rich in fiber and biologically active compounds."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.1 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Contains a small amount of plant-based protein."
+    },
+    {
+      "id": 16,
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.1 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "Contains negligible amounts of fat."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "9.3 g / 3% DV",
+      "bg": "#15837c",
+      "description": "Contains natural sugars and prebiotic dietary fibers that are beneficial for gut microflora."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 58,
+      "name": "Quercetin",
+      "slug": "quercetin",
+      "amount": "15 mg",
+      "bg": "#66ab63",
+      "description": "A potent flavonoid antioxidant that helps fight inflammation and supports heart health."
+    },
+    {
+      "id": 1,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "7.4 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Supports immune function and helps protect cells from oxidative damage."
+    },
+    {
+      "id": 44,
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.7 g / 6% DV",
+      "bg": "#43a047",
+      "description": "Provides prebiotic fibers like inulin to feed beneficial gut bacteria."
+    },
+    {
+      "id": 10,
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.12 mg / 7% DV",
+      "bg": "#8e24aa",
+      "description": "Plays an important role in metabolism and red blood cell production."
+    },
+    {
+      "id": 32,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "146 mg / 3% DV",
+      "bg": "#0288d1",
+      "description": "Helps maintain fluid balance and supports healthy blood pressure levels."
+    },
+    {
+      "id": 12,
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "19 mcg / 5% DV",
+      "bg": "#c0ca33",
+      "description": "Essential for proper cell division, DNA synthesis, and tissue growth."
+    },
+    {
+      "id": 38,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.13 mg / 6% DV",
+      "bg": "#7cb342",
+      "description": "Supports bone formation, metabolism, and enzyme function."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Heart Health:</b> Regular consumption helps improve blood circulation and maintain healthy cholesterol levels.",
+    "<b>Antioxidant Support:</b> A high concentration of quercetin helps neutralize free radicals.",
+    "<b>Microbiome Support:</b> The prebiotic fibers in onions serve as food for beneficial gut bacteria.",
+    "<b>Anti-inflammatory Effects:</b> Sulfur compounds assist in reducing inflammatory markers in the body."
+  ],
+  "precautionsIntro": "",
+  "precautions": [
+    "<b>Digestive Sensitivity:</b> In some individuals, raw onions may cause bloating or heartburn.",
+    "<b>Eye Irritation:</b> Cutting onions releases volatile substances that can irritate the eyes.",
+    "<b>Individual Intolerance:</b> Allergic reactions to components of the plant are possible."
+  ]
+}

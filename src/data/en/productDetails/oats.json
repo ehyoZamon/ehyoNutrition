@@ -1,0 +1,108 @@
+{
+  "slug": "oats",
+  "name": "Oats",
+  "category": "Cereals",
+  "image": "/productinfo/oats.png",
+  "imageAlt": "whole oat grains",
+  "description": "Oats represent a benchmark functional whole-grain matrix possessing a unique architecture of highly viscous soluble dietary fibers known as *beta-glucans*. This cereal serves as a fundamental metabolic and endocrine regulator, delivering an extended-release profile of cellular energy substrates and systematically modulating the organism's circulating lipid fractions due to its complex phytochemical and non-starch polysaccharide network.",
+  "macroTitle": "Macro Nutrients (per 100g, dry product)",
+  "macroIntro": "The macronutrient profile of raw, unprocessed oats is characterized by an optimal thermodynamic balance of slow-digesting complex carbohydrates, essential lipids, and highly bioavailable plant proteins that support long-term metabolic homeostasis.",
+  "microIntro": "Oat grains house a heavily concentrated reservoir of micronutrients and coenzymes, including unique polyphenolic alkaloids called *avenanthramides*, engineered to shield endothelial walls and suppress systemic inflammatory cascades.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "389 kcal / 19% DV",
+      "bg": "#15837c",
+      "description": "A dense source of structured metabolic energy featuring an exceptional satiety coefficient, ensuring stable, multi-hour cellular ATP synthesis."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.9 g / 34% DV",
+      "bg": "#f5722c",
+      "description": "Contains a superior plant protein fraction rich in globulins (avenalin), offering a favorable amino acid profile to support cellular repair and muscular tissue maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "6.9 g / 9% DV",
+      "bg": "#e4a910",
+      "description": "An unusually high lipid fraction for a cereal grain, predominantly composed of heart-healthy polyunsaturated and monounsaturated fatty acids that preserve cell membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "66.3 g / 24% DV",
+      "bg": "#15837c",
+      "description": "Complex, low-glycemic starches bound to an intricate fiber lattice, ensuring a strictly modulated, non-spiking glucose influx into the bloodstream."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 96,
+      "name": "Beta-Glucans",
+      "slug": "fiber",
+      "amount": "4.5 g / High Bioactivity",
+      "bg": "#15837c",
+      "description": "A specialized fermentable soluble fiber that synthesizes a high-viscosity hydrogel within the intestinal lumen, mechanically inhibiting the reabsorption of bile acids."
+    },
+    {
+      "id": 97,
+      "name": "Avenanthramides",
+      "slug": "antioxidants",
+      "amount": "Bioactive Profile",
+      "bg": "#f5722c",
+      "description": "Unique, substituted phenolic amides found almost exclusively in Avena sativa, demonstrating robust anti-atherosclerotic and antipruritic activities."
+    },
+    {
+      "id": 31,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "177 mg / 42% DV",
+      "bg": "#66ab63",
+      "description": "An essential intracellular cation required as a cofactor for over 300 enzymatic systems, heavily regulating glycolysis, neuromuscular conduction, and cardiac rhythm."
+    },
+    {
+      "id": 41,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "4.9 mg / 213% DV",
+      "bg": "#e4a910",
+      "description": "A critical trace element constituting the active core of mitochondrial superoxide dismutase (MnSOD), driving bone matrix mineralization and free-radical detoxification."
+    },
+    {
+      "id": 32,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "523 mg / 42% DV",
+      "bg": "#1a96cd",
+      "description": "Integrally involved in the macromolecular architecture of bone mineralization, nucleic acid backbones, and the phosphorylation cascades of energy metabolism."
+    },
+    {
+      "id": 34,
+      "name": "Iron (Non-Heme)",
+      "slug": "iron",
+      "amount": "4.7 mg / 26% DV",
+      "bg": "#1a96cd",
+      "description": "An indispensable trace mineral required for systemic oxygen transport via hemoglobin and the electronic transport chain complexes within the mitochondria."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Metabolic Lipid Profile Regulation:</b> Soluble beta-glucans physically entrap intestinal bile acids, forcing the hepatic upregulation of cholesterol 7 alpha-hydroxylase to convert endogenous circulating LDL cholesterol into new bile acids, systematically lowering serum total and LDL cholesterol.",
+    "<b>Attenuation of the Glycemic Arc:</b> By engineering a thick polymer matrix within the stomach and small intestine, oats delay gastric emptying rates and impede the physical diffusion of alpha-amylase to starches, guaranteeing an ultra-smooth, prolonged postprandial glucose delivery.",
+    "<b>Vascular Endothelial Protection:</b> *Avenanthramides* demonstrate potent anti-inflammatory synergy by selectively suppressing the expression of endothelial adhesion molecules (VCAM-1, ICAM-1) and inhibiting inflammatory cytokines, significantly mitigating the risk of early-stage atheroma formation.",
+    "<b>Prebiotic Microbiome Optimization:</b> The non-digestible polysaccharide fractions undergo slow, complete microbial fermentation in the colon, drastically expanding eubiotic populations of *Bifidobacterium* and accelerating the synthesis of protective Short-Chain Fatty Acids (SCFAs)."
+  ],
+  "precautionsIntro": "While whole oats represent an exceptionally safe, highly therapeutic dietary staple, specific biochemical characteristics require conscious management to optimize safety and physiological compatibility.",
+  "precautions": [
+    "<b>Gluten Cross-Contamination Vector:</b> Although pure oats natively express *avenin* (a prolamin generally tolerated by celiac patients), commercial processing typically occurs on shared equipment with wheat, barley, or rye. Individuals with diagnosed celiac disease must strictly verify 'Certified Gluten-Free' tracking protocols.",
+    "<b>Phytic Acid Mineral Chelation:</b> The presence of hexaphosphate inositol (*phytic acid*) in the outer bran layer can chemically chelate divalent minerals like iron, zinc, and calcium within the intestinal tract, forming insoluble precipitates. Prior soaking, sprouting, or long-term thermal processing is recommended to activate endogenous phytase.",
+    "<b>Transient Gastrointestinal Adaptation:</b> A rapid, unconditioned increase in whole-grain fiber intake can lead to transient intestinal lumen distension, osmotic shifts, and temporary hyper-flatulence or bloating as the gut microflora shifts to handle the heavier polysaccharide load.",
+    "<b>Industrial Processing Degradation:</b> Instant, heavily rolled, or pre-cooked oat variants often exhibit a disrupted starch matrix with an altered physical architecture. This rapid-digestion profile significantly elevates the product's glycemic index, erasing the metabolic buffering benefits of the intact grain."
+  ]
+}

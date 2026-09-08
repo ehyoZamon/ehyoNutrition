@@ -1,0 +1,99 @@
+{
+  "slug": "zucchini",
+  "name": "Zucchini",
+  "category": "Vegetables",
+  "image": "/productinfo/zucchini.png",
+  "imageAlt": "fresh green zucchini",
+  "description": "Zucchini represents an exceptionally gentle, highly hydrating vegetative phytomatrix belonging to the Cucurbitaceae family (Cucurbita pepo subsp. pepo), distinguished by an expansive aqueous phase ($~95\\%$ structural water), an easily hydrolyzable network of soluble pectin polymers, and a specific selection of non-provitamin A macular carotenoids (lutein and zeaxanthin). Operating as an optimal metabolic vehicle with negligible thermodynamic resistance, this botanical matrix promotes efficient osmotic regulation, fluid-electrolyte clearance, and cytoprotective mucosal buffering. It serves as a key clinical substrate for low-residue, non-irritating dietotherapy, maintaining vascular tone and cellular redox kinetics without placing any taxing load on the enzymatic capacities of the gastrointestinal tract.",
+  "macroTitle": "Macro Nutrients (per 100g, raw product)",
+  "macroIntro": "The macronutrient distribution of raw zucchini is defined by an incredibly low absolute energy density, suspending a delicate web of structural plant peptides and simple hexoses inside an abundant fluid matrix.",
+  "microIntro": "As a highly bio-available aerial accumulator, the zucchini matrix isolates essential monovalent electrolytes, water-soluble organic reducing agents, and localized macular pigments necessary for cardiovascular and optical protection.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "17 kcal / <1% DV",
+      "bg": "#15837c",
+      "description": "An extremely sparse metabolic energy footprint, making it ideal for volumetric dietary models and calorie-restricted therapeutic regimens."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.2 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Comprises easily digestible structural plant albumins and free non-protein nitrogen amino fractions providing baseline tissue support."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.3 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A minor lipid presence, restricted to functional cuticular waxes and basic structural phospholipids of intracellular membranes."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.1 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Consists of simple hexoses easily cleared from the lumen, loosely organized within a non-complex carbohydrate lattice."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "261 mg / 6% DV",
+      "bg": "#15837c",
+      "description": "A vital monovalent intracellular electrolyte driving the sodium-potassium pump, regulating myofibrillar resting potentials and promoting fluid balance."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "17.9 mg / 20% DV",
+      "bg": "#f5722c",
+      "description": "A key water-soluble reducing agent that neutralizes reactive oxygen species, aids leukocyte motility, and drives intracellular collagen synthesis."
+    },
+    {
+      "id": 110,
+      "name": "Lutein and Zeaxanthin",
+      "slug": "antioxidants",
+      "amount": "2125 mcg",
+      "bg": "#66ab63",
+      "description": "Oxygenated xanthophyll carotenoids that accumulate selectively within the macular lutea of the retina to filter harmful blue-wave light."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "1.0 g / 4% DV",
+      "bg": "#e4a910",
+      "description": "Dominated by smooth soluble pectins and protopectins that gently stimulate bowel transit without mechanically scraping the intestinal mucosa."
+    },
+    {
+      "id": 26,
+      "name": "Folate (B9)",
+      "slug": "vitamin-b9",
+      "amount": "24 mcg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "An essential coenzyme for one-carbon metabolism, crucial for nucleotide synthesis, cellular regeneration, and vascular endothelial maintenance."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Hypoallergenic Gastrointestinal Cytoprotection:</b> The soft, hydrocolloidal soluble pectin matrix lacks aggressive mechanical lignins, ensuring smooth gastrointestinal transit, buffering excess hydrochloric acid, and providing an optimal substrate for pediatric and post-operative nutrition.",
+    "<b>Osmotic Natriuresis and Fluid Balance:</b> High native potassium levels combined with an abundant structural water volume optimize renal filtration kinetics, accelerating the excretion of excess interstitial sodium and lowering peripheral edematous pressure.",
+    "<b>Macular Carotenoid Retinal Preservation:</b> Dense localized deposits of lutein and zeaxanthin accumulate directly in the macular layers of the eye, absorbing high-energy shortwave ultraviolet radiation and safeguarding photoreceptor membranes from phototoxic damage.",
+    "<b>Volumetric Volumic Satiety Modulation:</b> Bypassing high metabolic energy costs, the high-volume water-to-fiber ratio induces mechanical mechanoreceptor stretching in the gastric wall, triggering early vagal satiety loops without systemic carbohydrate loading."
+  ],
+  "precautionsIntro": "While zucchini displays an excellent general safety profile, specific homeostatic variations and clinical developments require directed dietary adjustments:",
+  "precautions": [
+    "<b>Electrolyte Accumulation in Advanced Nephropathies:</b> In instances of severe chronic kidney disease ($CKD$) where renal potassium clearance is compromised, the high native potassium content requires strict intake tracking to prevent hyperkalemia-driven cardiac arrhythmias.",
+    "<b>Cucurbitacin Toxicity and Gastrointestinal Spasms:</b> Occasional stress-induced mutations or cross-pollination can trigger the synthesis of bitter triterpenoid cucurbitacins; these bitter compounds serve as defensive chemical irritants capable of causing acute purgative mucosal damage and severe emesis.",
+    "<b>Oxalate-Mediated Crystallization Tendencies:</b> The peripheral tissue layers contain baseline amounts of organic oxalic acid salts, which can participate in calcium oxalate crystallization pathways in patients presenting with metabolic hyperoxaluria."
+  ]
+}

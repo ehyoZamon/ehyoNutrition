@@ -1,0 +1,84 @@
+{
+  "slug": "mutton-tallow",
+  "name": "Mutton Tallow",
+  "category": "Fats and Oils",
+  "image": "/productinfo/mutton-tallow.png",
+  "imageAlt": "rendered pure traditional mutton tallow tail fat in a jar",
+  "description": "Mutton tallow is an ultra-robust animal lipid matrix characterized by its high thermodynamic stability and dense distribution of saturated and monounsaturated fatty acids. It serves as an intense metabolic fuel and a pristine medium for delivering fat-soluble nutrients with high thermal resistance.",
+  "macroTitle": "Macro Nutrients (per 100g, rendered)",
+  "macroIntro": "A pure, hydrophobic triglyceride profile isolated from all proteins and carbohydrates.",
+  "microIntro": "A specialized lipophilic matrix delivering high ratios of stearic acid and natural CLA for structural support.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "902 kcal / 45% DV",
+      "bg": "#15837c",
+      "description": "Maximal energy density within stable lipid bonds for sustained fuel."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "100.0 g / 128% DV",
+      "bg": "#e4a910",
+      "description": "Structure: ~54% saturated, ~41% monounsaturated, ~5% polyunsaturated."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 171,
+      "name": "Stearic Acid",
+      "slug": "stearic-acid",
+      "amount": "25.0 g",
+      "bg": "#15837c",
+      "description": "Saturated chain providing signature firm texture and metabolic stability."
+    },
+    {
+      "id": 164,
+      "name": "Oleic Acid (Omega-9)",
+      "slug": "oleic-acid",
+      "amount": "36.0 g",
+      "bg": "#66ab63",
+      "description": "Monounsaturated fraction supporting endothelial and lipid homeostasis."
+    },
+    {
+      "id": 172,
+      "name": "Conjugated Linoleic Acid (CLA)",
+      "slug": "cla",
+      "amount": "Bioactive",
+      "bg": "#f5722c",
+      "description": "Ruminant trans-fatty acid isomer linked to immune and lean tissue support."
+    },
+    {
+      "id": 166,
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "slug": "vitamin-e",
+      "amount": "2.2 mg / 15% DV",
+      "bg": "#1a96cd",
+      "description": "Lipophilic antioxidant suppressing free radical propagation."
+    },
+    {
+      "id": 170,
+      "name": "Dietary Cholesterol",
+      "slug": "cholesterol",
+      "amount": "102 mg",
+      "bg": "#e4a910",
+      "description": "Sterol foundational to membrane synthesis and steroid hormone paths."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Thermodynamic Stability:</b> High smoke point (~220°C) prevents toxic degradation during cooking.",
+    "<b>CLA Delivery:</b> Provides natural CLA for metabolic and immune modulation.",
+    "<b>Nutrient Carrier:</b> Optimizes the bioavailability of fat-soluble vitamins (A, D, E, K).",
+    "<b>Barrier Support:</b> Used historically for protective sealing of skin and mucosa.",
+    "<b>Ketogenic Efficiency:</b> Ideal, non-insulinogenic fuel for beta-oxidation."
+  ],
+  "precautionsIntro": "Considerations for digestion and systemic lipid markers:",
+  "precautions": [
+    "<b>Digestive Friction:</b> High melting point (~50°C) may cause heavy gastric sensation if consumed with chilled fluids.",
+    "<b>Caloric Density:</b> Extreme energy concentration requires careful portion management.",
+    "<b>Lipid Markers:</b> High saturated fat content may affect ApoB/LDL levels in susceptible individuals."
+  ]
+}

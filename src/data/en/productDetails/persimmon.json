@@ -1,0 +1,99 @@
+{
+  "slug": "persimmon",
+  "name": "Persimmon",
+  "category": "Fruits",
+  "image": "/productinfo/persimmon.png",
+  "imageAlt": "ripe persimmon",
+  "description": "Persimmon represents a dense, structurally complex, and carotenoid-rich tropical and subtropical berry phytomatrix derived from the Ebenaceae family (Diospyros kaki), characterized by an advanced secondary metabolite system dominated by soluble condensed tannins (proanthocyanidins) and an exceptional profile of xanthophyll pigments, specifically lutein and zeaxanthin. Operating as a profound systemic tissue protectant, this cellular fruit matrix binds free monosaccharides within an intricately organized network of soluble hydrocolloidal pectins and insoluble structural hemicelluloses. This synergistic assembly exerts strong protective control over the neural layers of the retina, actively downregulates vascular endothelial inflammation via advanced free radical scavenging, stabilizes gastrointestinal mucosal permeability, and modulates cellular iron delivery pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+  "macroIntro": "The macronutrient allocation of fresh persimmon demonstrates a high-density carbohydrate profile structured within a highly hydrated cellular design, providing targeted glycemic and thermodynamic efficiency.",
+  "microIntro": "A highly concentrated physiological repository rich in lipophilic retinoid precursors, specialized polyphenolic astringents, and essential cofactors for cellular regeneration.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "70 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "A moderate, highly efficient thermodynamic fuel density derived from easily metabolized cellular hexose sugars."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "18.6 g / 7% DV",
+      "bg": "#15837c",
+      "description": "Predominantly composed of free glucose and fructose fractions, carefully enmeshed in a structural network of plant polysaccharides."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.6 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "A minor nitrogenous component, limited to essential structural structural proteins and localized plant defense enzymes."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "An absolute minimal lipid fraction, represented solely by cuticular surface waxes and structural thylakoid membrane lipids."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 21,
+      "name": "Vitamin A (Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "162 mcg / 18% DV",
+      "bg": "#15837c",
+      "description": "A potent lipophilic provitamin carotenoid required for the biochemical synthesis of rhodopsin and the structural maintenance of epithelial tissues."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "7.5 mg / 8% DV",
+      "bg": "#f5722c",
+      "description": "A water-soluble antioxidant that works alongside native polyphenols to neutralize intracellular free radicals and support tissue collagen synthesis."
+    },
+    {
+      "id": 116,
+      "name": "Condensed Tannins (Proanthocyanidins)",
+      "slug": "tannins",
+      "amount": "High Concentration",
+      "bg": "#66ab63",
+      "description": "High-molecular-weight soluble polyphenols that cause protein cross-linking on mucous membranes, offering strong astringent and local antimicrobial actions."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "3.6 g / 13% DV",
+      "bg": "#e4a910",
+      "description": "An abundant fiber complex rich in water-soluble pectins that modulate the postprandial glucose absorption profile and support gut microbiota."
+    },
+    {
+      "id": 33,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.15 mg / 1% DV",
+      "bg": "#1a96cd",
+      "description": "A microscopic trace element delivered in a non-heme format, contributing to general cellular enzyme systems and basic respiratory loops."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Macular Carotenoid Protection and Retinal Enhancement:</b> Abundant beta-carotene, lutein, and zeaxanthin cross the blood-retinal barrier to accumulate in the macula lutea, absorbing high-energy blue light, neutralizing singlet oxygen, and protecting photoreceptor cells from macular degeneration.",
+    "<b>Polyphenolic Endothelial Protection and Vascular Tone Stabilization:</b> Native flavonoids and proanthocyanidins suppress the expression of cell adhesion molecules and restrict the oxidation of low-density lipoproteins ($LDL$), reducing systemic inflammatory reactions in the vascular lining.",
+    "<b>Pectin-Mediated Glycemic Regulation and Microbiome Support:</b> High concentrations of soluble hydrocolloidal pectins dramatically increase luminal chyme viscosity, successfully slowing down the enzymatic release of free sugars and providing structural substrates for short-chain fatty acid ($SCFA$) synthesis.",
+    "<b>Mucosal Astringency and Local Antiseptic Defense:</b> Soluble condensed tannins interact with bacterial surface membranes, forming protective protein-tannate complexes that reduce mucosal hyper-permeability and suppress pathogenic intestinal microflora."
+  ],
+  "precautionsIntro": "Due to its complex concentration of reactive polyphenols, high sugar density, and specific structural physical attributes, persimmon consumption requires tracking under several conditions:",
+  "precautions": [
+    "<b>Tannin-Induced Diospyrobezoar Formation and Gastric Stasis:</b> Unripe or highly astringent fruits contain abundant soluble tannins that, when exposed to gastric hydrochloric acid, undergo rapid polymerization, cross-linking with dietary proteins and fibers to form dense, solid masses (diospyrobezoars) that can cause acute pyloric or intestinal obstruction.",
+    "<b>Postprandial Glycemic Elevations in Impaired Carbo Metabolism:</b> The elevated absolute concentrations of free glucose and fructose exhibit high bioavailability; excessive intake without tracking can induce sharp postprandial glycemic excursions in patients with type 2 diabetes mellitus.",
+    "<b>IgE-Mediated Fruit Allergic Hypersensitivity and Rashes:</b> Though rare, specific structural plant proteins within the Diospyros genus can trigger classic $IgE$-mediated immediate hypersensitivity pathways, presenting as contact urticaria, localized oral allergy syndrome, or systemic dermatological reactions."
+  ]
+}

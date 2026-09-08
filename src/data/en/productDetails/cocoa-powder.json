@@ -1,0 +1,100 @@
+{
+  "slug": "cocoa-powder",
+  "name": "Cocoa Powder",
+  "category": "Spices and Herbs",
+  "image": "/productinfo/cocoa-powder.png",
+  "imageAlt": "pure unsweetened dark cocoa powder in a ceramic bowl",
+  "description": "Cocoa powder is a highly complex, nutrient-dense matrix obtained by expression of cocoa butter from ground cacao nibs (Theobroma cacao). Globally revered as a premier longevity food, it houses a dense concentration of bitter methylxanthine alkaloids, cardioprotective flavanols, and essential minerals that synergistically drive mitochondrial cellular energy, cognitive acuity, and vascular endothelial elasticity.",
+  "macroTitle": "Macro Nutrients (per 100g, unsweetened)",
+  "macroIntro": "Pure unsweetened cocoa powder exhibits an exceptional, protein-dense, high-fiber macronutrient balance, far removed from highly processed sugar formulations.",
+  "microIntro": "Cocoa contains a supreme polyphenol and mineral micro-matrix, delivering therapeutic levels of magnesium, copper, and specialized natural stimulants that reinforce systemic neuro-vascular tone.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~228 kcal",
+      "bg": "#15837c",
+      "description": "A stable, non-glycemic caloric baseline derived from residual structured plant fats and an extensive, indigestible prebiotic fiber network."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "19.6 grams",
+      "bg": "#f5722c",
+      "description": "An impressive plant amino acid reserve that supplies essential building blocks for systemic cellular tissue repair and metabolic enzymatic paths."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "13.7 grams",
+      "bg": "#e4a910",
+      "description": "Composed of clean cocoa butter fractions containing stable stearic, palmitic, and monounsaturated oleic acids that do not elevate atherogenic lipid markers."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "57.9 grams",
+      "bg": "#1a96cd",
+      "description": "Dominated heavily by critical structural dietary fibers (~33.2g), leaving an exceptionally low net impact on blood glucose dynamics."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "theobromine",
+      "slug": "theobromine",
+      "name": "Theobromine",
+      "amount": "~2.0 g",
+      "bg": "#15837c",
+      "description": "A gentle, long-lasting methylxanthine alkaloid that stimulates cardiac output and smooth muscle relaxation without triggering central nervous system jitters."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "499 mg / 125% DV",
+      "bg": "#66ab63",
+      "description": "A maximal biological mineral payload crucial for managing neuromuscular coordination, ATP mitochondrial synthesis, and coronary relaxation cascades."
+    },
+    {
+      "id": "flavanols",
+      "slug": "flavanols",
+      "name": "Cocoa Flavanols (Epicatechin)",
+      "amount": "Bioactive Core",
+      "bg": "#f5722c",
+      "description": "Potent polyphenolic compounds that directly upscale endothelial nitric oxide production, expanding blood vessels and optimizing systemic blood flow."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "13.9 mg / 77% DV",
+      "bg": "#1a96cd",
+      "description": "Highly concentrated plant-derived iron, contributing directly to cellular oxygen transport, tissue respiration, and hemoglobin synthesis loops."
+    },
+    {
+      "id": "copper",
+      "slug": "copper",
+      "name": "Copper",
+      "amount": "3.8 mg / 422% DV",
+      "bg": "#e4a910",
+      "description": "An indispensable trace mineral required for iron metabolism, collagen cross-linking, and supporting robust endogenous antioxidant enzyme pathways."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Endothelial Nitric Oxide and Vasodilation:</b> Dense concentrations of **cocoa flavanols** act directly on blood vessel linings to increase nitric oxide bioavailability, optimizing blood pressure and reducing arterial stiffness.",
+    "<b>Sustained, Jitter-Free Cognitive Enhancement:</b> Natural **theobromine** elevates cerebral blood flow, dramatically boosting attention span and memory retention without triggering the crash linked to aggressive stimulants.",
+    "<b>Deep Prebiotic Colonization:</b> The immense structural **dietary fiber** and unabsorbed polyphenols serve as targeted fuel for beneficial gut microbiota, suppressing systemic metabolic inflammation.",
+    "<b>Mitochondrial ATP Energy Stabilization:</b> Housing an unmatched concentration of **magnesium and copper**, cocoa accelerates the electron transport chain inside cellular mitochondria, optimizing overall metabolic output.",
+    "<b>Neurotransmitter Adaptation and Mood Uplift:</b> Bioactive factors help preserve circulating anandamide and encourage mild dopamine release, cultivating a sense of calm, focused well-being."
+  ],
+  "precautionsIntro": "Cadmium Heavy-Metal Risks, Caffeine/Theobromine Thresholds, and Oxalate Metrics: Maximizing cocoa benefits requires selecting clean sources and tracking systemic sensitivity.",
+  "precautions": [
+    "<b>Heavy Metal Bioaccumulation (Cadmium and Lead):</b> Cacao plants naturally draw toxic heavy metals from specific volcanic soils. Regular use of low-grade, untested cocoa powder can cause heavy metal accumulation, demanding third-party tested, clean sourcing.",
+    "<b>Methylxanthine Overstimulation:</b> Containing both theobromine and a small fraction of caffeine, excessive consumption can manifest as sleep disruption, mild tachycardia, or gastroesophageal reflux in sensitive individuals.",
+    "<b>Renal Calcium-Oxalate Aggregation:</b> Cocoa is structurally dense in natural oxalates. Individuals navigating recurring kidney stones or specialized renal filtration protocols must carefully manage total dietary portions."
+  ]
+}

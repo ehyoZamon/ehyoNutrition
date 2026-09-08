@@ -1,0 +1,107 @@
+{
+  "slug": "peanut-butter",
+  "name": "Peanut Butter",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/peanut-butter.png",
+  "imageAlt": "peanut butter",
+  "description": "Peanut butter (Arachis hypogaea) represents an energy-dense botanical matrix, primarily composed of emulsified monounsaturated lipids, storage proteins, and complex structural carbohydrates. The biological architecture of the kernel provides a high concentration of oleic acid triglycerides and L-arginine, which facilitate optimal nitric oxide-mediated vasodilation. As a functional food matrix, it serves as a concentrated reservoir of B-complex coenzymes and lipid-soluble antioxidants, critical for stabilizing mitochondrial energy metabolism and maintaining structural integrity of cellular membranes.",
+  "macroTitle": "Macro Nutrients (per 100g, 100% pure unsweetened)",
+  "macroIntro": "A thermodynamically concentrated profile defined by a high lipophilic fraction, balanced by nitrogen-rich plant proteins and slow-release saccharide structures.",
+  "microIntro": "An essential co-factor density focusing on the regulation of enzymatic ATP-production pathways and cardiovascular lipid homeostasis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "588 kcal / 29% DV",
+      "bg": "#15837c",
+      "description": "High-density thermodynamic substrate primarily provided by the enzymatic beta-oxidation of poly- and monounsaturated fatty acids."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "25.1 g / 50% DV",
+      "bg": "#f5722c",
+      "description": "High-density plant protein sequences, exceptionally rich in the vasodilator precursor L-arginine."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "50.4 g / 65% DV",
+      "bg": "#e4a910",
+      "description": "A lipid profile dominated by heart-healthy oleic and linoleic acids, critical for maintaining plasma membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "20.0 g / 7% DV",
+      "bg": "#15837c",
+      "description": "Slow-release carbohydrate matrix characterized by complex starch structures and high structural fiber density."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 21,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "13.4 mg / 84% DV",
+      "bg": "#f5722c",
+      "description": "Essential coenzyme substrate for the NAD/NADH energy production cycle within mitochondria."
+    },
+    {
+      "id": 22,
+      "name": "Vitamin E (Tocopherol)",
+      "slug": "vitamin-e",
+      "amount": "9.0 mg / 60% DV",
+      "bg": "#66ab63",
+      "description": "Lipid-soluble antioxidant that shields cellular lipid bilayers from free radical-induced peroxidation."
+    },
+    {
+      "id": 33,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "154 mg / 39% DV",
+      "bg": "#1a96cd",
+      "description": "Key intracellular cation required for the enzymatic stabilization of ATP molecules and neural impulse regulation."
+    },
+    {
+      "id": 38,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "358 mg / 36% DV",
+      "bg": "#15837c",
+      "description": "Structural foundation for skeletal hydroxyapatite and a critical component for phosphorylation-based energy metabolism."
+    },
+    {
+      "id": 20,
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.5 mg / 29% DV",
+      "bg": "#e4a910",
+      "description": "A vital enzyme cofactor in amino acid transamination and neurotransmitter biosynthesis (serotonin)."
+    },
+    {
+      "id": 110,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "6.0 g / 24% DV",
+      "bg": "#66ab63",
+      "description": "A mechanical motility optimizer that regulates glucose absorption velocity and supports colonic microbial diversity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Metabolic Satiety and Glycemic Stabilization:</b> The nutrient-dense matrix delays gastric emptying, preventing acute postprandial glucose surges.",
+    "<b>Vascular Endothelial Support:</b> High oleic acid content improves the lipoprotein profile, while L-arginine promotes nitric oxide-mediated vascular relaxation.",
+    "<b>Mitochondrial Bioenergetic Optimization:</b> Massive concentrations of B3 and magnesium facilitate efficient electron transport chain activity.",
+    "<b>Oxidative Defense Architecture:</b> Tocopherols and polyphenols provide systemic antioxidant capacity, neutralizing reactive oxygen species associated with aging."
+  ],
+  "precautionsIntro": "Given its chemical composition and agricultural origins, clinical consideration of the following factors is required:",
+  "precautions": [
+    "<b>IgE-Mediated Allergic Responses:</b> The potent allergenicity of storage proteins presents an absolute contraindication for individuals with peanut hypersensitivity due to potential anaphylaxis.",
+    "<b>Mycotoxin (Aflatoxin) Accumulation:</b> The subterranean growth habitat allows for Aspergillus species colonization, necessitating strict quality control to exclude carcinogenic aflatoxin contaminants.",
+    "<b>Fatty Acid Imbalance:</b> The high Omega-6 to Omega-3 ratio may skew systemic inflammatory markers; thus, balance with marine-sourced Omega-3 fatty acids is biologically indicated."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "whole-grain-pasta",
+  "name": "Whole Grain Pasta",
+  "category": "Grain Products / Pasta",
+  "image": "/productinfo/whole-grain-pasta.png",
+  "imageAlt": "whole grain pasta",
+  "description": "Whole grain pasta represents a highly structured, nutrient-dense carbohydrate matrix manufactured from unrefined durum wheat semolina (Triticum durum) that fully preserves all native caryopsis fractions: the fibrous pericarp (bran), the lipid-bearing embryonic axis (germ), and the starchy endosperm core. It delivers a sustained biochemical payload of tightly packed linear amylose structures embedded within a resilient gluten network. This cohesive botanical matrix optimizes enzymatic hydrolytic clearance, systematically dampens postprandial glucose transitions, and provides a continuous stream of metabolic energy substrates alongside vital organometallic mineral complexes.",
+  "macroTitle": "Macro Nutrients (per 100g, dry product)",
+  "macroIntro": "The macronutrient configuration of whole grain pasta is architected for maximum thermodynamic and metabolic efficiency, ensuring long-term glycogen replenishment with minimal insulinotropic resistance.",
+  "microIntro": "By retaining the native aleurone layers and embryonic components, this complex matrix acts as a specialized carrier for essential divalent minerals and B-complex vitamins crucial for driving mitochondrial respiration cycles.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "350 kcal / 18% DV",
+      "bg": "#15837c",
+      "description": "A dense, high-capacity energy payload optimized for gradual systemic distribution and comprehensive replenishment of hepatic and myofibrillar glycogen stores."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "13.0 g / 26% DV",
+      "bg": "#f5722c",
+      "description": "Comprises dense storage prolamins and glutelins that form a tough protein scaffolding, providing necessary structural amino acids for cellular maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.5 g / 3% DV",
+      "bg": "#e4a910",
+      "description": "A minor, functional lipid profile derived from the grain germ, rich in polyunsaturated fatty acids and lipophilic antioxidant compounds."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "65.0 g / 24% DV",
+      "bg": "#15837c",
+      "description": "Dominated by slowly digestible polymeric starches closely integrated with structural lignins, managing a uniform peripheral glucose delivery rate."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "7.5 g / 27% DV",
+      "bg": "#15837c",
+      "description": "A high concentration of insoluble cellulose and non-starch polysaccharides essential for regulating mechanical chyme clearance and gut microbial syntax."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "110 mg / 28% DV",
+      "bg": "#f5722c",
+      "description": "An essential alkaline earth metal cofactor for hundreds of intracellular enzyme systems, regulating neuromuscular signaling and peptide synthesis cycles."
+    },
+    {
+      "id": 35,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "220 mg / 31% DV",
+      "bg": "#66ab63",
+      "description": "A vital structural mineral necessary for adenylate cyclase operations, high-energy ATP bond synthesis, and osseous hydroxyapatite mineralization."
+    },
+    {
+      "id": 33,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.2 mg / 18% DV",
+      "bg": "#e4a910",
+      "description": "An essential transition metal catalyst embedded within heme and cytochrome structures, acting as the primary carrier for systemic oxygen transport cycles."
+    },
+    {
+      "id": 26,
+      "name": "Niacin (Vitamin B3)",
+      "slug": "vitamin-b3",
+      "amount": "5.0 mg / 31% DV",
+      "bg": "#1a96cd",
+      "description": "The foundational metabolic precursor required for NAD/NADP synthesis, driving mitochondrial respiratory chain electronics and preserving vascular integrity."
+    },
+    {
+      "id": 34,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.5 mg / 23% DV",
+      "bg": "#1a96cd",
+      "description": "A structural and catalytic metal cofactor showcasing zinc-finger motifs, vital for controlling nucleic acid transcription and immune cell signal cascades."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Flattening and Insulin Preservation:</b> The structural inclusion of complex, slow-digesting starches wrapped in bran layers slows down luminal alpha-glucosidase activity, preventing rapid insulin excursions.",
+    "<b>Prebiotic Efficacy and Microbiome Proliferation:</b> Non-digestible polysaccharide fractions undergo slow anaerobic fermentation by saccharolytic gut microbes, increasing local butyrate production and fortifying the colon wall.",
+    "<b>Endothelial Protection and Atherosclerotic Risk Mitigation:</b> Replacing highly refined grains with intact whole wheat matrices suppresses circulating vascular cell adhesion molecule expression and optimizes plasma lipid fractions.",
+    "<b>Satiety Axis Modulation and Volumetric Control:</b> The slow, coordinated degradation of the protein-carbohydrate matrix expands digestive timelines, triggering sustained vagal afferent feedback via peptide YY and glucagon-like peptide-1."
+  ],
+  "precautionsIntro": "Despite its excellent profile as a complex whole food, the specific botanical and biochemical properties of whole grain pasta demand consideration under specific clinical conditions.",
+  "precautions": [
+    "<b>Autoimmune Gluten-Sensitive Enteropathy:</b> The product is strictly contraindicated for individuals diagnosed with celiac disease or non-celiac gluten hypersensitivity due to the presence of immunogenic alpha-gliadin peptides.",
+    "<b>Mechanical Mucosal Frustration:</b> The rigid, lignified structures of intact grain bran can cause localized mechanical irritation to hypersensitive or inflamed gastrointestinal lineages during acute gastritis or IBD flare-ups.",
+    "<b>Phytic Acid Mediated Mineral Chelation:</b> Unrefined wheat matrices exhibit a notable concentration of myo-inositol hexakisphosphate (phytic acid), which can bind divalent cations ($Zn^{2+}$, $Fe^{2+}$, $Ca^{2+}$) into insoluble complexes, reducing their bioavailability.",
+    "<b>Wheat-Specific Cross-Reactive Hypersensitivity:</b> Structural storage proteins within the wheat matrix can act as direct dietary antigens, initiating IgE-mediated or delayed hypersensitivity cascades in predisposed individuals."
+  ]
+}

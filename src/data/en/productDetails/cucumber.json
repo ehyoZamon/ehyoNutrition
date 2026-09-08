@@ -1,0 +1,108 @@
+{
+  "slug": "cucumber",
+  "name": "Cucumber",
+  "category": "Vegetables",
+  "image": "/productinfo/cucumber.png",
+  "imageAlt": "fresh green cucumber",
+  "description": "Cucumber represents an ultra-low-density, highly structured botanical fluid matrix encapsulated within a fibrous, nutrient-dense epidermal layer. It functions as a specialized physiological vehicle for real-time extracellular rehydration and biochemical detoxification. This complex delivers vital bone-mineralizing cofactors, bioavailable organic silicon polymers, and unique tetracyclic triterpenoid compounds (cucurbitacins) engineered to modulate systemic inflammatory pathways and reinforce cellular structural integrity.",
+  "macroTitle": "Macro Nutrients (per 100g, raw product with peel)",
+  "macroIntro": "The macronutrient configuration of raw cucumber is predominantly structured around a hyper-hydrating aqueous lattice, providing minimal caloric resistance while serving as an efficient volume-expanding agent in metabolic protocols.",
+  "microIntro": "The internal fluid and peel of cucumber function as a synergistic biological repository, concentrating vital fat- and water-soluble vitamins, foundational intracellular electrolytes, and specific metalloid compounds required for connective tissue cross-linking.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "15 kcal / 1% DV",
+      "bg": "#15837c",
+      "description": "An exceptionally low thermodynamic energy value that expands physical gastric volume, safely engaging mechanoreceptor-mediated satiety loops without systemic caloric burden."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.7 g / 1% DV",
+      "bg": "#f5722c",
+      "description": "Contains negligible nitrogenous fractions and trace structural plant proteins that exert no significant metabolic load on the systemic amino acid pool."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.1 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "Virtually non-existent lipid profiles, ensuring rapid gastric emptying and unhindered absorption of accompanying micronutrient compounds."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.6 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Composed of simple digestible sugars alongside non-digestible structural polymers (hemicellulose and cellulose) that mechanically optimize intestinal peristalsis."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 97,
+      "name": "Cucurbitacins",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#15837c",
+      "description": "Highly specialized tetracyclic triterpenoids that exhibit potent anti-proliferative, cell-signaling, and anti-inflammatory activities by downregulating pro-inflammatory transcript factors."
+    },
+    {
+      "id": 24,
+      "name": "Vitamin K (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "16.4 mcg / 14% DV",
+      "bg": "#f5722c",
+      "description": "An essential fat-soluble cofactor mandatory for the gamma-carboxylation of osteocalcin and hepatic clotting factors, crucial for bone mineralization and coagulation homeostasis."
+    },
+    {
+      "id": 33,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "147 mg / 3% DV",
+      "bg": "#66ab63",
+      "description": "The foundational intracellular cation required to maintain resting cell membrane potentials, drive the sodium-potassium pump, and stabilize cardiovascular tone."
+    },
+    {
+      "id": 38,
+      "name": "Silica (as Orthosilicic Acid)",
+      "slug": "minerals",
+      "amount": "Bioactive Profile",
+      "bg": "#e4a910",
+      "description": "An essential structural trace element that acts as a vital cross-linking agent within the glycosaminoglycan matrix, fortifying collagen fibers in skin, hair, and nails."
+    },
+    {
+      "id": 98,
+      "name": "Lignans (Pinoresinol / Lariciresinol)",
+      "slug": "antioxidants",
+      "amount": "Active Profile",
+      "bg": "#1a96cd",
+      "description": "Bioactive phytoestrogens converted by intestinal microbiota into enterolignans, offering powerful competitive receptor binding and systemic antioxidant defense."
+    },
+    {
+      "id": 21,
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "2.8 mg / 3% DV",
+      "bg": "#1a96cd",
+      "description": "A baseline water-soluble antioxidant that works as an electron donor, mitigating local oxidative damage and supporting macrophages in mucosal immunity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Extracellular Fluid and Osmotic Balancing:</b> The highly bioavailable, structured water matrix works synergistically with potassium ions to restore fluid homeostasis, stimulate renal clearance of nitrogenous metabolic wastes, and reduce peripheral edema.",
+    "<b>Connective Tissue and Macromolecular Synthesis:</b> Bioactive orthosilicic acid fractions optimize the synthesis and stabilization of collagen and elastin fibers within the dermal and osteoid matrices, significantly increasing structural elasticity and turgor.",
+    "<b>Non-Insulinogenic Glycemic Maintenance:</b> Possessing a near-zero Glycemic Load and Glycemic Index, cucumber delivers hydration and prebiotic fiber without triggering pancreatic beta-cell insulin secretion, stabilizing postprandial metabolic profiles.",
+    "<b>Systemic Anti-Inflammatory Signaling:</b> Cucurbitacins, paired with polyphenolic flavonoids, inhibit cyclooxygenase-2 (COX-2) and inducible nitric oxide synthase (iNOS) enzyme expressions, mitigating cellular oxidative stress cascades."
+  ],
+  "precautionsIntro": "Despite its exceptional safety profile, the specific phytochemical defenses and cultivation vulnerabilities of cucumbers require clinical awareness under certain conditions.",
+  "precautions": [
+    "<b>Vascular Accumulation of Exogenous Nitrates:</b> Cucurbitaceous crops exhibit a marked tendency to hyper-accumulate synthetic nitrogenous fertilizer residues within the outer peel and proximal stem sections. Peeling is recommended if sourcing cannot guarantee organic agricultural standards.",
+    "<b>Luminal Fermentation and Mechanical Distension:</b> The fibrous peel combined with specific fermentable carbohydrates can undergo accelerated gas production by dysbiotic gut flora in individuals with severe Irritable Bowel Syndrome (IBS), potentially leading to pain and bloating.",
+    "<b>Toxicity Profiles of Excessive Cucurbitacins:</b> Environmental stress during cultivation can over-stimulate the synthesis of bitter-tasting cucurbitacins. If consumed in high concentrations, these compounds can induce acute localized gastric mucosal irritation and emesis.",
+    "<b>Enzymatic Incompatibility and Gastrointestinal Distress:</b> Raw cucumber contains active ascorbate oxidase enzymes. When combined inappropriately with reactive or sensitive dairy matrices in individuals with compromised gastrointestinal tracts, it can disrupt local digestive kinetics, provoking cramping or acute osmotic shifts."
+  ]
+}

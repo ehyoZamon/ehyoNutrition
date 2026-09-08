@@ -1,0 +1,108 @@
+{
+  "slug": "barley",
+  "name": "Barley",
+  "category": "Cereals",
+  "image": "/productinfo/barley.png",
+  "imageAlt": "whole barley grains",
+  "description": "Barley represents an ancient, highly potent whole-grain matrix featuring an exceptional architecture of non-starch soluble polysaccharides, predominantly viscous *beta-glucans*, intertwined with a robust profile of trace minerals. This cereal functions as a critical metabolic and endocrine modulator, executing precise postprandial glycemic buffering and reinforcing cardiovascular endothelia through its sophisticated, multi-layered phytochemical and lignan network.",
+  "macroTitle": "Macro Nutrients (per 100g, dry grain)",
+  "macroIntro": "The macronutrient configuration of raw, unrefined barley grain is optimized for sustained thermodynamic energy distribution, rendering it a premier dietary asset for suppressing prolonged insulin excursions and stabilizing core metabolic parameters.",
+  "microIntro": "Barley grains sequester a highly concentrated cluster of key mineral cofactors and enzymatic stabilizers, working synergistically to defend chromosomal DNA against oxidative stress and optimize endogenous cellular repair pathways.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "352 kcal / 18% DV",
+      "bg": "#15837c",
+      "description": "A dense, controlled metabolic energy substrate with a prolonged absorption profile, securing exceptional satiety and multi-hour mitochondrial ATP production."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "12.5 g / 25% DV",
+      "bg": "#f5722c",
+      "description": "Supplies a complex plant protein matrix rich in hordeins, delivering fundamental amino acid precursors necessary to support cellular homeostatic maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.3 g / 3% DV",
+      "bg": "#e4a910",
+      "description": "A highly restricted lipid profile consisting primarily of essential polyunsaturated and monounsaturated fatty acids that preserve cell membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "73.5 g / 27% DV",
+      "bg": "#15837c",
+      "description": "Low-glycemic complex starches intimately integrated into an advanced dietary fiber lattice, structurally engineered to resist rapid enzymatic hydrolysis."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 96,
+      "name": "Beta-Glucans",
+      "slug": "fiber",
+      "amount": "4.8 g / High Bioactivity",
+      "bg": "#15837c",
+      "description": "A high-molecular-weight soluble fiber that forms a dense viscous polymer hydrogel in the digestive lumen, mechanically slowing glucose diffusion and lipid absorption."
+    },
+    {
+      "id": 42,
+      "name": "Selenium",
+      "slug": "antioxidants",
+      "amount": "37.7 mcg / 69% DV",
+      "bg": "#f5722c",
+      "description": "A critical trace elemento-mineral that forms the catalytic core of glutathione peroxidase (GPx), driving thyroid hormone deiodination and cellular lipid shield defense."
+    },
+    {
+      "id": 31,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "133 mg / 32% DV",
+      "bg": "#66ab63",
+      "description": "An essential intracellular cation modulating enzymatic reactions in carbohydrate breakdown, neuromuscular stabilization, and active calcium ion transport."
+    },
+    {
+      "id": 32,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "401 mg / 32% DV",
+      "bg": "#e4a910",
+      "description": "A mandatory building block required for structural bone matrix hydroxyapatite, cell membrane phospholipids, and universal cellular energy currency (ATP)."
+    },
+    {
+      "id": 24,
+      "name": "Niacin (Vitamin B3)",
+      "slug": "vitamin-b3",
+      "amount": "4.6 mg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "Acts as the fundamental precursor for NAD/NADP coenzymes, driving mitochondrial electron transport, macronutrient oxidation, and cellular DNA repair mechanisms."
+    },
+    {
+      "id": 34,
+      "name": "Iron (Non-Heme)",
+      "slug": "iron",
+      "amount": "3.6 mg / 20% DV",
+      "bg": "#1a96cd",
+      "description": "An indispensable mineral cofactor involved in systemic hemoglobin synthesis, erythrocyte oxygen transport, and mitochondrial respiratory chain functionality."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Endothelial and Cardiovascular Protection:</b> Soluble beta-glucans trap intestinal bile acids and increase their fecal excretion, which upregulates hepatic conversion of endogenous LDL cholesterol into new bile salts, reducing circulating atherogenic serum lipids.",
+    "<b>Advanced Metabolic Glycemic Buffering:</b> By constructing a thick polymer barrier within the intestinal tract, barley significantly delays gastric emptying and impedes lumen alpha-amylase activity, delivering an ultra-stable, prolonged blood glucose curve.",
+    "<b>Systemic Antioxidant Status Amplification:</b> Heavy reserves of bioavailable selenium and plant lignans (such as 7-hydroxymatairesinol) provide strong synergistic protection, neutralizing lipid peroxides and suppressing pro-inflammatory systemic biomakers.",
+    "<b>Gastrointestinal Microbiome Optimization:</b> The dual matrix of fermentable beta-glucans and insoluble cellulose increases colonic stool bulk, accelerates peristalsis, and undergoes bacterial fermentation to synthesize Short-Chain Fatty Acids (SCFAs) like butyrate."
+  ],
+  "precautionsIntro": "Despite its profound nutritional and therapeutic efficacy, barley houses specific botanical and biochemical traits that require conscious clinical management.",
+  "precautions": [
+    "<b>Mandatory Gluten Restrictions:</b> Barley natively expresses *hordein*, a highly immunoreactive storage prolamin protein. This makes the grain strictly contraindicated for individuals diagnosed with celiac disease, non-celiac gluten sensitivity, or wheat/grain allergies.",
+    "<b>Phytic Acid Anti-Nutrient Binding:</b> The presence of myo-inositol hexakisphosphate (*phytic acid*) can chelate divalent mineral ions (such as iron, zinc, and magnesium) within the GI tract, creating insoluble complexes. Prior soaking, sprouting, or sourdough fermentation is necessary to activate native phytases.",
+    "<b>Gastrointestinal Colonization Adaptation:</b> Introducing substantial volumes of whole barley into a low-fiber diet can induce sudden, heavy colonic gas production, leading to transient abdominal distension, cramping, or bloating as the gut flora shifts to process the fiber load.",
+    "<b>Industrial Scouring & Nutrient Depletion:</b> Conventional pearled barley undergo severe mechanical scouring that strips away the outer bran and germ layers. To retain the maximum therapeutic value and preserve intact fiber complexes, prioritize hulless or minimally processed black/purple barley."
+  ]
+}

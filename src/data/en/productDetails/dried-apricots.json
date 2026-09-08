@@ -1,0 +1,107 @@
+{
+  "slug": "dried-apricots",
+  "name": "Dried Apricots",
+  "category": "Fruits & Berries",
+  "image": "/productinfo/dried-apricots.png",
+  "imageAlt": "dried apricots uruk kuraga",
+  "description": "Dried apricots (Prunus armeniaca) are a nutrient-dense botanical concentrate, valued for their high electrolyte and trace mineral profile. By removing moisture, the concentration of potassium, iron, and carotenoids creates a highly functional fuel matrix that optimizes cardiovascular hemodynamics, hematopoiesis, and gastrointestinal transit.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "A dense, slow-release carbohydrate architecture characterized by significant dietary fiber content and a negligible lipid footprint.",
+  "microIntro": "A superior bioavailable micronutrient payload, specifically serving as a premier plant-based source of potassium and iron to reinforce systemic vascular and blood cell integrity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "241 kcal / 12% DV",
+      "bg": "#15837c",
+      "description": "Dense energy concentration derived from natural saccharides, facilitating efficient recovery for high-demand metabolic states."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.4 g / 7% DV",
+      "bg": "#f5722c",
+      "description": "Notable plant-derived amino acid contribution for a fruit-based substrate."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.5 g / 0.5% DV",
+      "bg": "#e4a910",
+      "description": "Virtually non-existent lipid baseline, supporting metabolic purity in macro-controlled regimens."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "62.6 g / 23% DV",
+      "bg": "#15837c",
+      "description": "Complex fructose/glucose matrix balanced by high fiber density (~7g), promoting sustained glycemic release."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 35,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "1162 mg / 25% DV",
+      "bg": "#66ab63",
+      "description": "Industry-leading intracellular electrolyte concentration vital for fluid homeostasis and lowering systemic arterial pressure."
+    },
+    {
+      "id": 143,
+      "name": "Vitamin A (Beta-Carotene)",
+      "slug": "vitamin-a",
+      "amount": "180 mcg / 20% DV",
+      "bg": "#f5722c",
+      "description": "High-potency provitamin A carotenoids essential for retinal visual cycles and epithelial cell renewal."
+    },
+    {
+      "id": 24,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "2.7 mg / 15% DV",
+      "bg": "#e4a910",
+      "description": "Bioavailable non-heme iron crucial for hemoglobin synthesis and systemic cellular oxygenation."
+    },
+    {
+      "id": 144,
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "4.3 mg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "Fat-soluble antioxidant shielding vascular membranes from oxidative lipid peroxidation."
+    },
+    {
+      "id": 145,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.3 mg / 33% DV",
+      "bg": "#15837c",
+      "description": "Catalytic cofactor essential for enzymatic iron mobilization and vascular elasticity."
+    },
+    {
+      "id": 34,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "32 mg / 8% DV",
+      "bg": "#1a96cd",
+      "description": "Supports ATP-driven energy pathways and promotes neuromuscular relaxation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Vascular Hemodynamics:</b> Exceptionally high potassium-to-sodium ratio facilitates arterial wall relaxation and blood pressure normalization.",
+    "<b>Gastrointestinal Kinetics:</b> Soluble fiber (pectin) acts as an effective prebiotic, accelerating bowel transit and inhibiting toxic stasis.",
+    "<b>Hematopoiesis:</b> Synergistic Iron and Copper profiling optimizes red blood cell production, mitigating tissue hypoxia and fatigue.",
+    "<b>Ocular & Dermal Protection:</b> Beta-Carotene and Vitamin E payloads create a robust antioxidant barrier against oxidative degradation."
+  ],
+  "precautionsIntro": "Nutritional precision is required regarding glycemic density and industrial chemical processing:",
+  "precautions": [
+    "<b>Glycemic Index (GI) Management:</b> Dehydration significantly concentrates saccharides per gram; intentional portion control is required for insulin-resistant individuals.",
+    "<b>Preservative Exposure (SO2):</b> Brightly colored commercial apricots may contain Sulfur Dioxide, a potential allergen triggering respiratory distress; naturally sun-dried (dark brown) variants are preferable.",
+    "<b>Osmotic Digestive Effects:</b> High fructose and fiber concentrations may induce transient osmotic diarrhea or bloating in individuals with sensitive gastrointestinal tracts or IBS."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "beans",
+  "name": "Beans",
+  "category": "Legumes",
+  "image": "/productinfo/beans.png",
+  "imageAlt": "various types of dry beans",
+  "description": "Beans represent a highly concentrated, non-animal proteinaceous and carbohydrate phytomatrix belonging to the Fabaceae family (Phaseolus vulgaris), characterized by an intricate network of globular storage proteins (phaseolin), low-glycemic alpha-linked glucan polymers (amylose), and a dense matrix of non-digestible structural non-starch polysaccharides. Operating as a critical regulatory therapeutic food, this botanical repository drives systematic blood glucose attenuation, optimizes peripheral insulin sensitivity through delayed upper-intestinal transit, and delivers structural building blocks for lean tissue synthesis. Furthermore, the matrix isolates high concentrations of divalent mineral cofactors and heterocyclic polyphenolic structures that possess potent radical-scavenging and vascular endothelial lining protection capacities.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked product)",
+  "macroIntro": "The macronutrient profile of cooked beans exhibits an exceptional thermodynamic and nutritional density, presenting a balanced delivery of premium plant peptides alongside slow-hydrolyzing complex polyglucans that yield extended cellular satiety.",
+  "microIntro": "A major physiological repository of fundamental metallic cofactors, water-soluble B-complex vitamins, and macro-elements required for genomic stability, red blood cell synthesis, and neuromuscular tone.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "127 kcal / 6% DV",
+      "bg": "#15837c",
+      "description": "An efficient and sustained metabolic energy output derived entirely from low-glycemic, slow-cleaving complex starches."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "8.7 g / 17% DV",
+      "bg": "#f5722c",
+      "description": "A rich plant-based nitrogenous input composed of globulin and albumin fractions, valuable for myofibrillar repair and cellular maintenance."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.5 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A negligible lipid presence, consisting mostly of essential polyunsaturated fatty acids built into the remaining cellular membranes."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "22.8 g / 8% DV",
+      "bg": "#15837c",
+      "description": "Dominated by high-molecular amylose starches that undergo gradual, non-insulinogenic enzymatic digestion in the intestinal lumen."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 34,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "2.1 mg / 12% DV",
+      "bg": "#15837c",
+      "description": "An essential transition metal necessary for red blood cell hemoglobin synthesis, functional myoglobin coordination, and cytochrome activity."
+    },
+    {
+      "id": 26,
+      "name": "Folate (B9)",
+      "slug": "vitamin-b9",
+      "amount": "130 mcg / 33% DV",
+      "bg": "#f5722c",
+      "description": "A fundamental organic coenzyme crucial for single-carbon methyl transfer cycles, direct nucleotide biosynthesis, and erythrocyte maturation."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "7.4 g / 26% DV",
+      "bg": "#66ab63",
+      "description": "A dense combination of soluble pectins and insoluble celluloses that optimize intestinal motility and bind bile acids to assist clearance."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "405 mg / 9% DV",
+      "bg": "#1a96cd",
+      "description": "A vital intracellular electrolyte that drives vascular smooth muscle hyperpolarization, promoting healthy blood pressure regulation."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "43 mg / 10% DV",
+      "bg": "#1a96cd",
+      "description": "An indispensable alkaline earth metal cofactor for over 300 enzymatic reactions, regulating ATP utilization and neuromuscular transmission."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Glycemic Instability Attenuation and Insulin Sensitivity:</b> The dense layout of structural amylose and soluble viscous fibers slows down upper-intestinal glucose absorption, reducing postprandial insulin surges and optimizing long-term peripheral receptor sensitivity.",
+    "<b>Bile Acid Sequestration and Hypocholesterolemic Effects:</b> Soluble fiber complexes create a viscous gel in the intestinal lumen that physically traps bile acids, forcing the liver to deplete systemic circulating low-density lipoprotein (LDL) cholesterol to synthesize new bile.",
+    "<b>Short-Chain Fatty Acid Generation and Microbiome Prebiosis:</b> Non-digestible oligosaccharides and resistant starches travel to the large bowel to serve as fermentable fuel for commensal microflora, accelerating the production of cytoprotective butyrate and acetate.",
+    "<b>Endothelial Compliance and Blood Pressure Modulation:</b> The substantial concentration of potassium and magnesium relaxes vascular smooth muscle architecture, downregulating peripheral resistance and relieving structural stress across the arterial wall."
+  ],
+  "precautionsIntro": "Due to the presence of intense defense proteins and complex sugars within the legume seed, beans require strict dietary preparation and clinical monitoring:",
+  "precautions": [
+    "<b>Phytohemagglutinin Lectin and Phytate Antinutritional Toxicity:</b> Raw or undercooked beans express dangerous levels of phytohemagglutinin (lectin), which binds intestinal epithelial cell linings to cause severe enterocyte disruption and malabsorption; extended soaking and boiling are required for thermal denaturation.",
+    "<b>Oligosaccharide-Induced Colonic Fermentation:</b> High native amounts of alpha-galactosides (raffinose and stachyose) cannot be broken down by human digestive enzymes, moving into the large bowel where anaerobic bacteria generate significant carbon dioxide, hydrogen, and methane gases.",
+    "<b>Purine Overload in Metabolic Hyperuricemia:</b> The cellular matrix contains a moderate amount of purine bases whose downstream catabolic pathway increases serum uric acid concentrations, creating a clear risk of needle-like crystal precipitation in patients with active gouty arthritis."
+  ]
+}

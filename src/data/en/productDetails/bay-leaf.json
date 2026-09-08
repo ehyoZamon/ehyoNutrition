@@ -1,0 +1,124 @@
+{
+  "slug": "bay-leaf",
+  "name": "Bay Leaf",
+  "category": "Spices and Herbs",
+  "image": "/productinfo/bay-leaf.png",
+  "imageAlt": "whole dried aromatic bay leaves piled together on a dark wooden background",
+  "description": "Bay leaf (Laurus nobilis) is a highly aromatic culinary and medicinal botanical matrix derived from the evergreen laurel tree. Its physiological efficacy resides within its densely concentrated volatile essential oils, heavily dominated by eucalyptol (1,8-cineole), monoterpenes, and sesquiterpenes. These active lipophilic compounds operate as potent natural antimicrobials, stimulate gastrointestinal enzymatic secretions, modulate insulin receptor sensitivity, and deliver target-specific antioxidant protective mechanics at the cellular level.",
+  "macroTitle": "Macro Nutrients (per 100g, dried whole leaves)",
+  "macroIntro": "In its dehydrated botanical form, bay leaf features a structurally dense carbohydrate profile dominated by non-soluble lignins, functional dietary fibers, and therapeutic volatile essential oils.",
+  "microIntro": "The cellular structure of dried bay leaves acts as an exceptional mineral repository, boasting elite concentrations of structural manganese, hematopoietic iron, and enzymatic zinc.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~313 kcal",
+      "bg": "#15837c",
+      "description": "A moderate caloric framework locked within dense plant cell walls, rendering it entirely negligible in standard culinary infusions or teas."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "7.6 grams",
+      "bg": "#f5722c",
+      "description": "Contains basic structural plant amino acid sequences that assist in overall botanical integrity but offer minimal direct macro value due to minimal consumption."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "8.4 grams",
+      "bg": "#e4a910",
+      "description": "A complex lipid matrix composed of hydrophobic essential volatile oils, monounsaturated fatty acids, and natural plant waxes."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "75.0 grams",
+      "bg": "#1a96cd",
+      "description": "Dominated by highly complex non-soluble plant starches and robust dietary fibers (~26.3g) that assist in slow volatile oil retention."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "eucalyptol",
+      "slug": "eucalyptol",
+      "name": "Eucalyptol (1,8-Cineole)",
+      "amount": "Highly Concentrated",
+      "bg": "#15837c",
+      "description": "The dominant volatile terpene compound driving powerful anti-inflammatory pathways, respiratory bronchodilation, and natural broad-spectrum antimicrobial defense."
+    },
+    {
+      "id": "manganese",
+      "slug": "manganese",
+      "name": "Manganese",
+      "amount": "8.2 mg / 355% DV",
+      "bg": "#f5722c",
+      "description": "An elite trace mineral volume required for driving superoxide dismutase (SOD) synthesis and optimizing internal connective tissue development loops."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "43.0 mg / 239% DV",
+      "bg": "#66ab63",
+      "description": "A massive non-heme iron reservoir acting as an essential cofactor for mitochondrial cellular respiration and systemic oxygen binding pathways."
+    },
+    {
+      "id": "vitamin-a",
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Beta-Carotene)",
+      "amount": "309 mcg / 34% DV",
+      "bg": "#1a96cd",
+      "description": "A significant provitamin A carotenoid pool essential for maintaining healthy mucosal integrity, upgrading immune response, and protecting ocular health."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "3.7 mg / 34% DV",
+      "bg": "#e4a910",
+      "description": "An essential intracellular trace mineral crucial for accelerating cell division, optimizing DNA repair cycles, and boosting active immune cell proliferation."
+    },
+    {
+      "id": 66,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "1.7 mg / 102% DV",
+      "bg": "#15837c",
+      "description": "Supports neurotransmitter production and amino acid metabolism."
+    },
+    {
+      "id": 67,
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "834 mg / 64% DV",
+      "bg": "#f5722c",
+      "description": "Critical for bone structural integrity and neuromuscular function."
+    },
+    {
+      "id": 68,
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "120 mg / 29% DV",
+      "bg": "#66ab63",
+      "description": "Vital for muscle relaxation, ATP production, and nerve signal regulation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Enzyme Activation:</b> Active volatile compounds stimulate optimal gastric acid and bile production, accelerating protein breakdown and mitigating intestinal bloating.",
+    "<b>Glycemic Response Modulation:</b> Phenolic components enhance insulin receptor activity, assisting in the stabilization of postprandial blood glucose levels.",
+    "<b>Respiratory Bronchodilation:</b> Vaporized <b>eucalyptol</b> modules act directly on the respiratory mucosa to liquify stuck mucus and relieve acute bronchial congestion.",
+    "<b>Vascular Endothelial Support:</b> Natural caffeic acid and rutin compounds strengthen capillary walls, downregulating systemic oxidative stress across cardiovascular loops.",
+    "<b>Broad-Spectrum Antimicrobial Defense:</b> The hydrophobic terpene matrix disrupts pathogenic bacterial and fungal cellular membranes, preventing gut dysbiosis."
+  ],
+  "precautionsIntro": "Mechanical Gastrointestinal Perforation Hazards, Uterine Contraction Stimulations, and Essential Oil Toxicities: Strategic botanical filtering preserves internal safety.",
+  "precautions": [
+    "<b>Mechanical Gastrointestinal Tract Trauma:</b> Whole dried bay leaves possess incredibly rigid, leathery structures with sharp edges that cannot be broken down by human digestive enzymes. If accidentally swallowed intact, they can cause physical lacerations or severe mechanical blockages in the esophagus or intestinal linings. Leaves must always be removed prior to food service.",
+    "<b>Uterine Smooth Muscle Stimulation:</b> Concentrated therapeutic doses or decoctions of bay leaf exert strong emmenagogue properties that stimulate uterine blood flow and smooth muscle contractions. High supplemental intake is strictly contraindicated during pregnancy.",
+    "<b>Volatile Essential Oil Overdosing:</b> Isolated bay leaf essential oil contains high levels of concentrated terpenes that can become neurotoxic or severely irritate gastric mucosal barriers if ingested directly. It should only be used in highly diluted, controlled applications."
+  ]
+}

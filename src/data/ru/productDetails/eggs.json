@@ -1,0 +1,183 @@
+{
+  "slug": "eggs",
+  "name": "Яйца",
+  "category": "Молочные продукты и яйца",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Калории",
+      "slug": "",
+      "amount": "143 ккал"
+    },
+    {
+      "id": 14,
+      "name": "Белки",
+      "slug": "protein",
+      "amount": "12.6 г"
+    },
+    {
+      "id": 16,
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "9.51 г"
+    },
+    {
+      "id": 15,
+      "name": "Углеводы",
+      "slug": "carbohydrates",
+      "amount": "0.72 г"
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 1,
+      "name": "Витамин C",
+      "slug": "vitamin-c",
+      "amount": "0 мг"
+    },
+    {
+      "id": 2,
+      "name": "Витамин D",
+      "slug": "vitamin-d",
+      "amount": "2 мкг"
+    },
+    {
+      "id": 3,
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "160 мкг"
+    },
+    {
+      "id": 4,
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "1.05 мг"
+    },
+    {
+      "id": 5,
+      "name": "Витамин K",
+      "slug": "vitamin-k",
+      "amount": "0.3 мкг"
+    },
+    {
+      "id": 6,
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.04 мг"
+    },
+    {
+      "id": 7,
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.46 мг"
+    },
+    {
+      "id": 8,
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.08 мг"
+    },
+    {
+      "id": 9,
+      "name": "Витамин B5",
+      "slug": "vitamin-b5",
+      "amount": "1.53 мг"
+    },
+    {
+      "id": 10,
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.17 мг"
+    },
+    {
+      "id": 12,
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "47 мкг"
+    },
+    {
+      "id": 13,
+      "name": "Витамин B12",
+      "slug": "vitamin-b12",
+      "amount": "0.89 мкг"
+    },
+    {
+      "id": 28,
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "56 мг"
+    },
+    {
+      "id": 29,
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "198 мг"
+    },
+    {
+      "id": 30,
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "12 мг"
+    },
+    {
+      "id": 31,
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "142 мг"
+    },
+    {
+      "id": 32,
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "138 мг"
+    },
+    {
+      "id": 35,
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "1.75 мг"
+    },
+    {
+      "id": 36,
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "1.29 мг"
+    },
+    {
+      "id": 37,
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.07 мг"
+    },
+    {
+      "id": 38,
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.03 мг"
+    },
+    {
+      "id": 40,
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "30.7 мкг"
+    },
+    {
+      "id": 43,
+      "name": "Фторид",
+      "slug": "fluoride",
+      "amount": "1.1 мкг"
+    },
+    {
+      "id": 50,
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "294 мг"
+    },
+    {
+      "id": 55,
+      "name": "Бетаин",
+      "slug": "betaine",
+      "amount": "0.3 мг"
+    }
+  ]
+}

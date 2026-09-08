@@ -1,0 +1,99 @@
+{
+  "slug": "tangerine",
+  "name": "Tangerine",
+  "category": "Fruits / Citrus",
+  "image": "/productinfo/tangerine.png",
+  "imageAlt": "fresh tangerines",
+  "description": "Tangerine represents a highly bioaccessible, moisture-dense citrus hesperidium phytomatrix derived from the Rutaceae family (Citrus reticulata), distinguished by an exceptional profile of specialized polymethoxyflavones (specifically nobiletin and tangeretin) along with flavanone glycosides (hesperidin) and high concentrations of the provitamin A carotenoid, beta-cryptoxanthin. Operating as an advanced lifestyle metabolic stabilizer, this cellular fruit architecture delivers free mono- and disaccharides safely enmeshed within a soluble hydrocolloidal pectin web, alongside water-soluble radical-scavenging cofactors. This integrated botanical network actively downregulates adipocyte hypertrophy, suppresses hepatic lipogenesis via activation of $AMPK$ pathways, mitigates the structural degradation of dermal collagen matrices by restricting matrix metalloproteinases, and optimizes mucosal immune surveillance cascades.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh product)",
+  "macroIntro": "The macronutrient constitution of raw tangerine pulp reflects a highly hydrated, low-density energetic framework designed for rapid cytosolic hydration and clean carbohydrate transport.",
+  "microIntro": "A potent physiological repository enriched with targeted lipophilic carotenoids, capillary-stabilizing bioflavonoids, and essential alkaline electrolytes that maintain metabolic homeostasis.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "53 kcal / 3% DV",
+      "bg": "#15837c",
+      "description": "A very low thermodynamic energy load composed predominantly of easily combustible simple hexose sugars."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "13.3 g / 5% DV",
+      "bg": "#15837c",
+      "description": "Consists of naturally occurring free sucrose, fructose, and glucose molecules, balanced by complex structural non-starch polyglucans."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.8 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "A minor nitrogenous fraction represented by basic vegetative enzymes and free systemic metabolic amino acids."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.3 g / 0% DV",
+      "bg": "#e4a910",
+      "description": "An absolute minimum lipid presence, confined to essential cellular envelope phospholipids and microscopic essential oil droplets."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 22,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "26.7 mg / 30% DV",
+      "bg": "#15837c",
+      "description": "An essential water-soluble antioxidant cofactor that directly drives leukocyte free-radical neutralization and physiological iron reduction."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "166 mg / 4% DV",
+      "bg": "#f5722c",
+      "description": "A key systemic intracellular mineral cation regulating transmembrane electrochemical potentials and osmotic volume homeostasis."
+    },
+    {
+      "id": 115,
+      "name": "Polymethoxyflavones (Flavonoids)",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#66ab63",
+      "description": "Specialized polyphenolic agents (nobiletin, hesperidin) that demonstrate profound anti-atherosclerotic, lipolytic, and neuroprotective properties."
+    },
+    {
+      "id": 10,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "1.8 g / 6% DV",
+      "bg": "#e4a910",
+      "description": "A valuable mix of high-molecular-weight soluble pectins that slow carbohydrate absorption and stimulate beneficial short-chain fatty acid ($SCFA$) synthesis."
+    },
+    {
+      "id": 21,
+      "name": "Vitamin A (Beta-Cryptoxanthin)",
+      "slug": "vitamin-a",
+      "amount": "681 IU / 14% DV",
+      "bg": "#1a96cd",
+      "description": "A highly bioavailable provitamin A xanthophyll carotenoid critical for macular pigmentation, epithelial integrity, and T-cell differentiation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Ascorbate-Mediated Leukocyte Optimization and Immune Defense:</b> Concentrated L-ascorbic acid structures rapidly accumulate inside phagocytic cells, maximizing their chemotactic migration speed, enhancing intracellular microbial killing capacity, and upregulating general systemic antibody production loops.",
+    "<b>Dermal Matrix Protection and Collagen Stabilization:</b> Vitamin C operates as a mandatory cofactor for the enzymatic hydroxylation of proline and lysine, ensuring structural triple-helix stability of new dermal collagen fibers while native bioflavonoids restrict enzymatic aging cascades.",
+    "<b>Polymethoxyflavone-Driven Lipolytic and Metabolic Stabilization:</b> The unique chemical structure of the flavones nobiletin and tangeretin optimizes lipid metabolism, lowers circulating low-density lipoprotein ($LDL$) cholesterol, and helps protect pancreatic beta-cells from oxidative stress.",
+    "<b>Pectin-Induced Luminal Viscosity and Colon Transit Regulation:</b> Soluble hydrocolloidal pectin fibers absorb water molecules inside the intestinal lumen, increasing chemical viscosity to smooth postprandial glucose transitions and support a balanced colonic microbiome."
+  ],
+  "precautionsIntro": "Even though tangerines provide broad metabolic support, their intense concentration of organic acids and active allergen profiles dictate precise portion rules:",
+  "precautions": [
+    "<b>IgE-Mediated Citrus Allergenic Hypersensitivity and Cross-Reactivity:</b> Specific lipid transfer proteins ($LTPs$) and germin-like glycoproteins within citrus tissues can trigger classic $IgE$-mediated immediate hypersensitivity, inducing localized contact urticaria, oral allergy syndrome, or systemic dermatological rashes.",
+    "<b>Erosive Aggravation of Acid-Peptic Gastrointestinal Pathologies:</b> The high native concentration of citric and malic acids can temporarily drop the upper stomach pH, stripping away protective mucous layers and causing painful burning sensations in patients with active peptic ulcers or erosive gastritis.",
+    "<b>Enzymatic Drug Interactions and Cytochrome P450 Inhibition:</b> Certain furanocoumarin derivatives present in varying amounts within tangerine cultivars can partially cross-react with intestinal $CYP3A4$ metabolic enzymes, potentially expanding the circulating bioavailability of specific prescription drugs."
+  ]
+}

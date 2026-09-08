@@ -1,0 +1,107 @@
+{
+  "slug": "beef-brain",
+  "name": "Beef Brain",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-brain.png",
+  "imageAlt": "beef brain",
+  "description": "Beef brain (Bos taurus) represents a highly specialized neurological macro-matrix. The tissue is characterized by a unique lipid-protein architecture, dominated by structural phospholipids, sphingolipids, and polyunsaturated fatty acids essential for the maintenance of cellular lipid bilayers. As an elite bioenergetic substrate, it provides an unparalleled concentration of choline and cobalamin, functioning as a primary delivery vehicle for cofactors required in synapse stabilization, genomic stability, and high-velocity neuro-cognitive signaling.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked/simmered)",
+  "macroIntro": "A lipid-centric metabolic blueprint, distinguished by an extreme density of structural phospholipids and a total absence of carbohydrate-based insulinogenic triggers.",
+  "microIntro": "A phenomenal repository of neurological co-factors and antioxidant trace elements, critical for executive cognitive function and oxidative stress mitigation.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "151 kcal / 8% DV",
+      "bg": "#15837c",
+      "description": "High-efficiency thermodynamic fuel derived from the catabolism of long-chain structural fatty acids."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "10.3 g / 21% DV",
+      "bg": "#f5722c",
+      "description": "Digestible proteomic pool providing all essential amino acids for enzymatic turnover and cellular structural synthesis."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "11.7 g / 15% DV",
+      "bg": "#e4a910",
+      "description": "Lipid fraction dominated by essential sphingolipids and phospholipids, critical for neural membrane fluidity."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Total absence of saccharide substrate, maintaining an optimal flat insulinomic profile for metabolic control."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 25,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "10.0 mcg / 417% DV",
+      "bg": "#1a96cd",
+      "description": "Crucial coenzyme for DNA synthesis and the long-term preservation of neural myelin insulation."
+    },
+    {
+      "id": 138,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "492 mg / 90% DV",
+      "bg": "#66ab63",
+      "description": "Key structural precursor for phosphatidylcholine and the neurotransmitter acetylcholine, essential for synaptic signal velocity."
+    },
+    {
+      "id": 37,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "21.8 mcg / 40% DV",
+      "bg": "#15837c",
+      "description": "Essential component of glutathione peroxidase, acting as a direct scavenger for oxidative radical species."
+    },
+    {
+      "id": 27,
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "10.7 mg / 12% DV",
+      "bg": "#f5722c",
+      "description": "A rare animal-tissue antioxidant that supports local lipid stabilization and enzymatic collagen pathway maintenance."
+    },
+    {
+      "id": 38,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "332 mg / 33% DV",
+      "bg": "#1a96cd",
+      "description": "Fundamental cation for mitochondrial ATP-storage mechanics and structural phosphate-based cellular boundaries."
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.7 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "Bioavailable heme-iron required for efficient systemic oxygen transport and mitochondrial respiratory chain activity."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Neuro-Cognitive Velocity Enhancement:</b> Massive concentrations of B12 and choline optimize synaptic architecture, accelerating memory consolidation and lowering functional cognitive lag.",
+    "<b>Cellular Membrane Structural Fluidity:</b> Intensive delivery of specialized phospholipids facilitates rapid repair and rejuvenation of damaged lipid bilayers.",
+    "<b>Mitochondrial Energetic Efficiency:</b> Harmonious interaction of B12 and phosphorus streamlines ATP synthesis, significantly bolstering neural metabolic endurance.",
+    "<b>Systemic Oxidative Defense Architecture:</b> High-density selenium and vitamin C provide localized protection against lipid peroxidation within the complex neural matrix."
+  ],
+  "precautionsIntro": "Due to the unique biological role of neural tissue, strict safety and clinical considerations are mandatory:",
+  "precautions": [
+    "<b>Dietary Cholesterol Thresholds:</b> Extreme concentrations of sterols necessitate clinical assessment for individuals with cardiovascular risk or lipid metabolism dysregulation.",
+    "<b>Prion Pathogen Vigilance:</b> Neural tissue carries the theoretical risk of bovine spongiform encephalopathy (BSE) transmission; strict adherence to sourcing from verified, healthy livestock is non-negotiable.",
+    "<b>Bioaccumulation Parameters:</b> Metabolic activity of neural tissue may sequester environmental heavy metals; utilization of young, strictly regulated grass-fed sources is mandatory."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "blackberries",
+  "name": "Blackberries",
+  "category": "Berries",
+  "image": "/productinfo/blackberries.png",
+  "imageAlt": "fresh ripe organic blackberries",
+  "description": "Blackberries represent a highly sophisticated, fibrous botanical aggregate matrix. They boast an exceptional concentration of structural non-starch polysaccharides and polyphenolic compounds, notably *cyanidin-3-glucoside* and hydrolyzable *ellagitannins*. These bio-actives interface with the intestinal epithelium to support optimal microbiome ecology, cross physiological barriers to modulate neuro-inflammatory pathways, and exert notable astringent properties within mammalian tissue systems.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient design of raw blackberries is defined by a low glycemic payload tightly bound within an aggressive, high-density matrix of insoluble and soluble dietary fibers.",
+  "microIntro": "Blackberries deliver a highly bioavailable complex of fat-soluble and water-soluble vitamin cofactors alongside active phenolic polymers engineered to sustain skeletal integrity and block oxidative cascades.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "43 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "A remarkably minimalist caloric density, creating an efficient vehicle for therapeutic phytonutrient loading without burdening metabolic energy expenditure."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.4 g / 3% DV",
+      "bg": "#f5722c",
+      "description": "Contains a notable distribution of plant-derived amino acids embedded within the berry's complex structural seed and flesh elements."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.5 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "Consists primarily of trace essential fatty acid fractions sequestered within the seed architecture, leaving peripheral lipid pathways unencumbered."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "9.6 g / 3% DV",
+      "bg": "#15837c",
+      "description": "Characterized by low-impact monosaccharides balanced by a massive 5.3-gram functional fiber network, severely blunting the systemic glycemic response."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 26,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "21 mg / 23% DV",
+      "bg": "#1a96cd",
+      "description": "Serves as a vital water-soluble electron donor, catalyzing endogenous collagen cross-linking and fortifying leukocyte immune response protocols."
+    },
+    {
+      "id": 29,
+      "name": "Vitamin K (Phylloquinone)",
+      "slug": "vitamin-k",
+      "amount": "20 mcg / 17% DV",
+      "bg": "#66ab63",
+      "description": "An essential cofactor required for the hepatic gamma-carboxylation of clotting factors and the optimal activation of osteocalcin for bone matrix mineralization."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Motility & Microbiome Support:</b> The dual presence of soluble pectin and insoluble cellulose speeds intestinal transit times, mechanical cleansing of the mucosal walls, and feeds short-chain fatty acid (SCFA) producing colonic bacteria.",
+    "<b>Neuro-Inflammatory Mitigation:</b> High-potency *anthocyanins* and polyphenols systematically damp down pro-inflammatory cytokines in microglia, maintaining synaptic signal plasticity and defending against accelerated brain aging loops.",
+    "<b>Oral Pathogen Suppression & Tissue Astringency:</b> Natural *gallotannins* display direct antimicrobial efficacy against cariogenic bacteria like *Streptococcus mutans*, while reinforcing gingival matrix tight junctions.",
+    "<b>Glycemic Regulating Dynamics:</b> The high fiber-to-sugar ratio dramatically slows gastric emptying, delaying intestinal alpha-glucosidase activity to ensure smooth, sustained energy delivery without insulin surges."
+  ],
+  "precautionsIntro": "Despite the therapeutic, high-fiber profile of raw blackberries, specific structural compounds and standard agricultural realities demand target consumption awareness.",
+  "precautions": [
+    "<b>Gastrointestinal Distress from Tannin Loads:</b> The elevated concentration of native astringent tannins can cause localized mucosal irritation, nausea, or mild cramps in individuals with highly sensitive stomach lining architecture.",
+    "<b>Oxalate and Salicylate Sensitivity Pathways:</b> Contains moderate organic plant compounds that may trigger adverse histaminic or hyper-sensitive cascades in individuals susceptible to botanical salicylates.",
+    "<b>Porous Surface Pesticide Accumulation:</b> The intricate composite drupelet architecture easily traps and retains environmental debris and chemical residues. Utilizing thorough physical washing or organic options is strongly advised.",
+    "<b>Rapid Fiber Influx Adaptation:</b> An abrupt, massive escalation in blackberry intake can overwhelm an unconditioned digestive system, culminating in temporary osmotic shifts, flatulence, or bloating."
+  ]
+}

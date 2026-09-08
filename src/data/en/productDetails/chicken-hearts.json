@@ -1,0 +1,124 @@
+{
+  "slug": "chicken-hearts",
+  "name": "Chicken Hearts",
+  "category": "Meat and Poultry",
+  "image": "/productinfo/chicken-hearts.png",
+  "imageAlt": "fresh raw whole chicken hearts on a slate board with dark peppercorns and a bay leaf",
+  "description": "Chicken hearts are a specialized, highly metabolically active organ meat that exhibits a rich, nutrient-dense muscle profile. As a purely cardiac muscle, the heart functions non-stop, housing an extraordinary density of mitochondria. This unique biological architecture yields exceptional concentrations of Coenzyme Q10 (ubiquinone), cellular energy vitamins (especially B12 and riboflavin), and critical organic minerals like heme iron and zinc, providing premium physiological support for human cardiovascular and metabolic pathways.",
+  "macroTitle": "Macro Nutrients (per 100g, raw uncooked hearts)",
+  "macroIntro": "Chicken hearts provide a protein-dense, carbohydrate-free macronutrient blueprint supported by a moderate, energy-efficient profile of healthy essential fats.",
+  "microIntro": "The heavily working mitochondrial matrix of chicken hearts creates a premier micronutrient ecosystem, delivering unmatched yields of Coenzyme Q10 and bioavailable B-complex vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~153 kcal",
+      "bg": "#15837c",
+      "description": "A moderate, balanced energetic yield driven by highly bioavailable structural proteins and efficient lipid fuel fractions."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "15.6 grams",
+      "bg": "#f5722c",
+      "description": "A complete animal protein structure rich in sulfur-containing and branched-chain amino acids, driving comprehensive cellular maintenance and tissue repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "9.3 grams",
+      "bg": "#e4a910",
+      "description": "Consists of a balanced ratio of monounsaturated and essential polyunsaturated fatty acids, crucial for supporting cellular membrane integrity."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Entirely clean of carbohydrate fractions, starch, or residual sugars, making it a highly compatible choice for metabolic ketogenic strategies."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "coenzyme-q10",
+      "slug": "coenzyme-q10",
+      "name": "Coenzyme Q10 (Ubiquinone)",
+      "amount": "Highly Concentrated",
+      "bg": "#15837c",
+      "description": "A premier fat-soluble antioxidant localized heavily inside cardiac tissue that directly facilitates mitochondrial ATP production and preserves vascular endothelial health."
+    },
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "7.3 mcg / 304% DV",
+      "bg": "#f5722c",
+      "description": "A heavy cobalamin reserve that accelerates red blood cell maturation, maintains myelin sheath structural integrity, and manages systemic homocysteine metrics."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "4.8 mg / 27% DV",
+      "bg": "#66ab63",
+      "description": "An abundant, highly absorbable form of organic heme iron that rapidly synthesizes hemoglobin to maximize tissue oxygenation parameters."
+    },
+    {
+      "id": "zinc",
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "6.6 mg / 60% DV",
+      "bg": "#1a96cd",
+      "description": "An elite zinc payload vital for activating hundreds of enzymatic reactions, stabilizing DNA strands, and stimulating T-cell immune responses."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.9 mg / 69% DV",
+      "bg": "#e4a910",
+      "description": "An essential component of flavoprotein coenzymes needed to drive fatty acid oxidation loops and cellular respiration processes within the mitochondria."
+    },
+    {
+      "id": 60,
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "23.4 mcg / 43% DV",
+      "bg": "#15837c",
+      "description": "A powerful antioxidant mineral essential for thyroid function and protecting cells from oxidative damage."
+    },
+    {
+      "id": 61,
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "5.6 mg / 35% DV",
+      "bg": "#f5722c",
+      "description": "Crucial for converting nutrients into energy and supporting skin, nerve, and digestive health."
+    },
+    {
+      "id": 62,
+      "slug": "vitamin-b5",
+      "name": "Vitamin B5 (Pantothenic Acid)",
+      "amount": "1.2 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "Involved in the production of energy, hormones, and red blood cells."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Mitochondrial ATP Fortification:</b> Elite naturally occurring reserves of <b>Coenzyme Q10</b> and <b>Riboflavin</b> dramatically optimize cellular respiration and energy production.",
+    "<b>Cardiovascular Biomarker Regulation:</b> Massive concentrations of <b>Vitamin B12</b> actively downregulate plasma homocysteine levels, assisting in the reduction of cardiovascular lesion risks.",
+    "<b>Erythrocyte Production Boost:</b> The powerful synergy of bioavailable <b>heme iron</b> and B-vitamins triggers rapid hemoglobin assembly to reverse fatigue states.",
+    "<b>Enhanced Immunological Response:</b> Exceptional titers of organic <b>zinc</b> stimulate macrophage motility and catalyze optimal lymphocyte differentiation.",
+    "<b>Myofibrillar Tissue Regeneration:</b> A full-spectrum <b>amino acid payload</b> delivers the building blocks necessary to rebuild skeletal muscle architectures and maintain functional lean mass."
+  ],
+  "precautionsIntro": "Purine-Induced Nitrogenous Waste Elevations, Built-in Lipid-Cholesterol Matrices, and Connective Elastic Realities: Structural dietary modulation secures physiological safety.",
+  "precautions": [
+    "<b>Purine Induced Hyperuricemia Risk:</b> As a metabolically dense organ meat, chicken hearts contain a high concentration of <b>purines</b>. Their biological breakdown elevates plasma uric acid, which can trigger acute inflammatory flare-ups in individuals with gout.",
+    "<b>Endogenous Cholesterol Accumulation:</b> Chicken hearts carry a notable structural cholesterol load (~242mg per 100g). While highly nutritious, individuals with diagnosed genetic dyslipidemia or disrupted sterol homeostasis should pace their portion frequencies.",
+    "<b>Elastic Structural Mechanical Density:</b> The dense, elastic nature of cardiac muscle requires thorough trimming (to remove heavy external fat caps and residual vascular tubes) and prolonged cooking to break down tough muscular fibers for sensitive digestive systems."
+  ]
+}

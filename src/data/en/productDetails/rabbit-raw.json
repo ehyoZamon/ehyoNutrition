@@ -1,0 +1,124 @@
+{
+  "slug": "rabbit-raw",
+  "name": "Rabbit Meat",
+  "category": "Meat and Eggs",
+  "image": "/productinfo/rabbit-raw.png",
+  "imageAlt": "fresh raw lean rabbit meat portions on a clean light slate surface",
+  "description": "Rabbit meat is an elite, ultra-lean white meat derived from Oryctolagus cuniculus. Globally recognized for its exceptional structural density, minimal lipid footprint, and high biological value, it stands as one of the most allergen-friendly, easily digestible mammalian proteins available. Rich in intracellular electrolytes and essential B-complex cofactors, it provides premium metabolic support for cardiovascular integrity and deep myofibrillar synthesis.",
+  "macroTitle": "Macro Nutrients (per 100g, lean raw meat)",
+  "macroIntro": "Rabbit meat exhibits a highly efficient, protein-dominant macronutrient profile, yielding an exceptionally low caloric weight alongside minimal saturated lipid levels.",
+  "microIntro": "Rabbit meat features an advanced, highly bioavailable micronutrient matrix, offering massive thresholds of intracellular potassium, metabolic phosphorus, and neural B-complex vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~136 kcal",
+      "bg": "#15837c",
+      "description": "An exceptionally light metabolic energy density for mammalian meat, maximizing functional protein delivery per calorie consumed."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "21.8 grams",
+      "bg": "#f5722c",
+      "description": "A premium concentration of highly digestible complete protein containing all essential amino acids in optimal ratios for muscle matrix repair."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "4.9 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-low total lipid structure containing minimal saturated fats and balanced ratios of heart-healthy monounsaturated and polyunsaturated fatty acids."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 grams",
+      "bg": "#1a96cd",
+      "description": "Contains absolutely zero carbohydrate matrices, generating a completely flat, non-existent response on glycemic or insulinemic curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "vitamin-b12",
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "6.5 mcg / 270% DV",
+      "bg": "#15837c",
+      "description": "An extraordinary presentation of this critical cobalt-based cofactor, driving rapid myelin sheath maintenance and red blood cell maturation cascades."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "225 mg / 18% DV",
+      "bg": "#f5722c",
+      "description": "A structural macro-mineral required for synthesizing the intracellular adenosine triphosphate (ATP) energy matrix and stabilizing bone mineralization[cite: 1]."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "343 mg / 7% DV",
+      "bg": "#66ab63",
+      "description": "An important intracellular electrolyte that acts as an osmotic pump stabilizer, maintaining proper cellular fluid balance and resting membrane potentials[cite: 1]."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "15.9 mcg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "An essential trace mineral incorporated into glutathione peroxidase enzymes, offering robust protection against systemic oxidative stress vectors[cite: 1]."
+    },
+    {
+      "id": "iron",
+      "slug": "iron",
+      "name": "Iron (Heme)",
+      "amount": "1.6 mg / 9% DV",
+      "bg": "#e4a910",
+      "description": "A highly bioavailable organic heme iron fraction that accelerates cellular oxygen transportation and supports active mitochondrial respiration[cite: 1]."
+    },
+    {
+      "id": 31,
+      "slug": "niacin",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "11.6 mg / 72% DV",
+      "bg": "#15837c",
+      "description": "Supports energy metabolism, nerve function, and DNA repair[cite: 1]."
+    },
+    {
+      "id": 33,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6 (Pyridoxine)",
+      "amount": "0.5 mg / 29% DV",
+      "bg": "#66ab63",
+      "description": "Regulates amino acid metabolism, neurotransmitter synthesis, and immune health[cite: 1]."
+    },
+    {
+      "id": 36,
+      "slug": "zinc",
+      "name": "Zinc",
+      "amount": "1.3 mg / 12% DV",
+      "bg": "#f5722c",
+      "description": "Essential for protein synthesis, wound healing, and enzymatic function[cite: 1]."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Myofibrillar Tissue Synthesis:</b> Boasting an exceptional protein bioavailability score, it maximizes cellular nitrogen retention loops while placing minimal digestive stress on the GI tract.",
+    "<b>Neuro-Metabolic Axis Optimization:</b> Astronomical thresholds of Vitamin B12 systematically support neural signaling efficiency, nerve insulation health, and cognitive stamina indices.",
+    "<b>Cardiovascular Endothelial Protection:</b> Possessing exceptionally low levels of saturated lipids and sodium, it helps maintain flexible vascular walls and mitigates plaque build-up risks.",
+    "<b>Allergen-Sensitive Protein Alternative:</b> Due to its unique structural peptide chain composition, it triggers a remarkably low incidence of immune reactivity, ideal for elimination protocols.",
+    "<b>Intracellular ATP Regeneration:</b> The rich synergy of phosphorus and B-vitamins accelerates cellular energy conversion loops, reducing markers of chronic physiological fatigue."
+  ],
+  "precautionsIntro": "Purine Nucleotide Base Load, High-Protein Malnutrition Risk (Rabbit Starvation), and Thermal Processing Guidelines: Calibrated integration ensures balanced metabolic parameters.",
+  "precautions": [
+    "<b>Purine Nucleotide Accumulation Risks:</b> Rabbit meat houses moderate concentrations of natural purines. Excess metabolic breakdown can elevate serum uric acid levels, necessitating portion control for individuals prone to gout.",
+    "<b>Lean Protein Malnutrition Limitations:</b> Due to the extreme absence of fat mass, relying exclusively on rabbit meat as a singular macro source without supplemental dietary fats can disrupt nitrogen-to-lipid metabolic balancing (known historically as rabbit starvation).",
+    "<b>Oxidative Degradation Overcooking Hazards:</b> Because of its ultra-lean tissue architecture, rapid exposure to high-temperature dry cooking can cause immediate moisture evacuation, necessitating gentle, moisture-rich culinary processing to avoid tough myofibrils."
+  ]
+}

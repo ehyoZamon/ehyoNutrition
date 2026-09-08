@@ -1,0 +1,107 @@
+{
+  "slug": "black-cumin",
+  "name": "Black Cumin",
+  "category": "Spices & Herbs",
+  "image": "/productinfo/black-cumin.png",
+  "imageAlt": "black cumin",
+  "description": "Black Cumin (Nigella sativa) represents the dried seeds of a flowering Ranunculaceae annual, functioning as a high-density botanical reservoir of bioactive phytochemicals and essential metabolic micronutrients. Its architectural composition features a robust lignocellulosic scaffold enclosing storage proteins and lipophilic volatile oils, specifically dominated by the quinone-based alkaloid thymoquinone. This seed serves as a potent functional food matrix, mediating systemic inflammatory responses, optimizing cellular glucose uptake, and providing deep immunomodulatory support through complex enzymatic interactions in the gastrointestinal and pulmonary pathways.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient profile of Nigella sativa comprises a dense, low-moisture energetic pool of structural storage proteins, polyunsaturated fatty acids, and complex insoluble carbohydrates.",
+  "microIntro": "An exceptionally concentrated assembly of trivalent metabolic cations, essential divalent minerals, and volatile lipophilic bioactive compounds.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "345 kcal / 17% DV",
+      "bg": "#15837c",
+      "description": "Thermodynamic energy density derived from the comprehensive beta-oxidation of seed lipids and partial enzymatic hydrolysis of storage globulins."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.0 g / 32% DV",
+      "bg": "#f5722c",
+      "description": "High-quality storage globulins providing a diverse amino acid profile, including essential precursors for systemic neurotransmitter synthesis."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "15.0 g / 19% DV",
+      "bg": "#e4a910",
+      "description": "Lipid fraction dominated by linoleic and oleic acids, essential for maintaining fluidity in biological lipid bilayers and systemic signaling."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "52.0 g / 19% DV",
+      "bg": "#15837c",
+      "description": "A complex carbohydrate matrix primarily composed of non-starch structural polysaccharides and trace quantities of plant-derived monosaccharides."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 110,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "40.0 g / 143% DV",
+      "bg": "#66ab63",
+      "description": "An extreme density of structural cellulose and hemicellulose that optimizes colonic mechanical motility and serves as a prebiotic microbial substrate."
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "18.5 mg / 103% DV",
+      "bg": "#f5722c",
+      "description": "An essential transition metal necessary for hemoglobin oxygen transport and cytochrome-based mitochondrial cellular respiration."
+    },
+    {
+      "id": 30,
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "1196 mg / 92% DV",
+      "bg": "#15837c",
+      "description": "A critical divalent cation supporting hydroxyapatite bone mineralization, myofibril contraction, and regulated intracellular signal transduction."
+    },
+    {
+      "id": 36,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "6.0 mg / 55% DV",
+      "bg": "#e4a910",
+      "description": "A vital cofactor for over 300 enzymes, including DNA polymerases and zinc-finger transcription factors governing immune cell proliferation."
+    },
+    {
+      "id": 33,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "265 mg / 63% DV",
+      "bg": "#1a96cd",
+      "description": "An essential intracellular electrolyte required for ATP enzymatic stabilization and the modulation of hyperexcitable neurological pathways."
+    },
+    {
+      "id": 137,
+      "name": "Thymoquinone",
+      "slug": "antioxidants",
+      "amount": "Active Bio-Compound",
+      "bg": "#66ab63",
+      "description": "The primary bioactive monoterpene quinone that exerts potent antioxidant and anti-inflammatory activity by suppressing nuclear factor-kappa B pathways."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Immune Architecture Optimization:</b> Thymoquinone directly upregulates the functional capacity of natural killer cells and macrophages, creating a systemic enhancement of the innate host defense response.",
+    "<b>Bronchial Smooth Muscle Relaxation:</b> Volatile seed components inhibit histamine release and suppress pro-inflammatory leukotrienes, acting as effective spasmolytics for the pulmonary bronchial tree.",
+    "<b>Metabolic Homeostasis and Glucose Sensitivity:</b> Nigella sativa facilitates increased insulin receptor expression and inhibits hepatic gluconeogenesis, significantly improving fasting glycemic control and lipid clearance.",
+    "<b>Gastrointestinal Mucosal Shielding:</b> The lipid fraction and active phytoconstituents create an anti-secretory effect in the stomach, directly inhibiting the growth of H. pylori and reducing lipid peroxidation in the gastric mucosa."
+  ],
+  "precautionsIntro": "Given the potent bioactivity of thymoquinone and the seed's metabolic impact, medicinal use requires strict clinical consideration:",
+  "precautions": [
+    "<b>Uterine Smooth Muscle Modulation:</b> Pharmacological doses can induce non-specific contractions, posing an unacceptable risk of instability during gestational stages.",
+    "<b>Hemostatic Cascade Interference:</b> Natural inhibitors within the oil fraction may exert an anti-platelet effect, necessitating cessation of therapy prior to invasive surgical procedures to prevent excessive hemorrhage.",
+    "<b>Synergistic Hypoglycemic Potentiation:</b> Concurrent consumption with insulin or oral antidiabetic agents can lead to sudden, unbuffered glucose drops, requiring vigilant glycaemic monitoring."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "lean-beef",
+  "name": "Lean Beef",
+  "category": "Meat & Poultry",
+  "image": "/productinfo/lean-beef.png",
+  "imageAlt": "lean beef cut",
+  "description": "Lean beef is a premier, structurally foundational animal whole food matrix. Offering an exceptionally high concentration of complete bioavailable proteins, critical mitochondrial B-vitamins, and highly absorbable trace minerals like heme iron and zinc, it serves as an elite dietary asset for skeletal muscle synthesis, neurological stamina, and cellular repair.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked, lean cuts)",
+  "macroIntro": "The macronutrient profile of lean beef delivers a highly concentrated distribution of structural amino acids designed for immediate tissue repair and muscular preservation, with minimal fat interference.",
+  "microIntro": "Lean beef houses a spectacular crystalline pool of hyper-bioavailable animal coenzymes and essential trace elements that fuel cellular replication, blood manufacture, and hormonal balance.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "174 kcal / 9% DV",
+      "bg": "#15837c",
+      "description": "Provides efficient, nutrient-dense biological energy focused heavily on tissue synthesis rather than fat storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "26.1 g / 52% DV",
+      "bg": "#f5722c",
+      "description": "An elite complete protein source containing a perfect ratio of all essential amino acids to accelerate skeletal muscle synthesis and enzymatic remodeling."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "6.8 g / 9% DV",
+      "bg": "#e4a910",
+      "description": "Low in total lipids, consisting of a balanced mix of heart-healthy monounsaturated oleic acid and necessary saturated structural fats."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Completely free of carbohydrates or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 21,
+      "name": "Vitamin B12 (Cobalamin)",
+      "slug": "vitamin-b12",
+      "amount": "2.6 mcg / 108% DV",
+      "bg": "#15837c",
+      "description": "An abundant animal-bound vitamin essential for the maintenance of neural myelin sheaths, red blood cell synthesis, and DNA replication."
+    },
+    {
+      "id": 43,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "6.2 mg / 56% DV",
+      "bg": "#f5722c",
+      "description": "A powerful concentration of highly bioavailable zinc, acting as a mandatory catalyst for testosterone manufacture, DNA synthesis, and immune defense signaling loops."
+    },
+    {
+      "id": 19,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "5.3 mg / 33% DV",
+      "bg": "#66ab63",
+      "description": "Crucial for mitochondrial energy pathways, supporting DNA repair mechanisms and running cellular nutrient transformation cascades."
+    },
+    {
+      "id": 42,
+      "name": "Iron (Heme)",
+      "slug": "iron",
+      "amount": "2.7 mg / 15% DV",
+      "bg": "#e4a910",
+      "description": "Packed with pristine animal heme iron that effortlessly crosses the intestinal lining to optimize oxygen distribution and hemoglobin replenishment."
+    },
+    {
+      "id": 34,
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "215 mg / 17% DV",
+      "bg": "#1a96cd",
+      "description": "Works in a strict physiological loop with calcium to support structural bone matrix formulation and maintain cellular ATP energy configurations."
+    },
+    {
+      "id": 99,
+      "name": "Creatine & Carnosine",
+      "slug": "creatine",
+      "amount": "High Bioactivity",
+      "bg": "#1a96cd",
+      "description": "Functional nitrogenous compounds that serve as an immediate phosphate reservoir for rapid ATP recycling during intense physical exertion."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Muscle Architecture & Synthesis:</b> The vast, complete amino acid pool combined with natural creatine reserves fuels rapid lean skeletal muscle regeneration and prevents sarcopenic tissue decline.",
+    "<b>Neuro-Axonal Signaling and Endurance:</b> High Cobalamin (B12) pools work in absolute synergy with Niacin to optimize synaptic processing speed, preserve nerve insulation, and eliminate brain cell fatigue.",
+    "<b>Hyper-Efficient Erythropoiesis:</b> High distributions of animal-bound heme iron effortlessly bypass common digestive blocks to optimize continuous hemoglobin manufacture, correcting systemic fatigue markers.",
+    "<b>Endocrine System Optimization:</b> Unparalleled natural zinc densities provide the core architectural spark for endocrine pathways, supporting optimal metabolic regulation and physical recovery loops."
+  ],
+  "precautionsIntro": "While lean beef serves as a premier resource for physical and cellular stamina, specific preparation methods and biochemical compounds require careful tracking metrics.",
+  "precautions": [
+    "<b>High-Temperature Carcinogen Synthesis:</b> Subjecting beef to extreme direct dry heat—such as open-flame grilling or charring—causes native amino acids and creatine to react, synthesizing dangerous Heterocyclic Amines (HCAs) and Polycyclic Aromatic Hydrocarbons (PAHs). Marinating or gentle cooking configurations fully mitigate this risk.",
+    "<b>Purine Concentration Sizing:</b> Lean beef carries a concentrated purine distribution profile. For individuals navigating a historical clinical baseline of gout or hyperuricemia, intake frequencies must be managed to prevent joint crystallization.",
+    "<b>Heme Iron Oxidation Balance:</b> While highly absorbable, excessive bioconcentration of heme iron can theoretically trigger internal Fenton reactions, inducing localized oxidative stress in individuals with genetic iron-overload conditions like hemochromatosis.",
+    "<b>Sourcing Vector Distinctions:</b> Conventional feedlot beef frequently contains higher omega-6 ratios and trace antibiotic vectors due to grain-heavy diets. Opting for 100% grass-fed, pasture-raised lean cuts significantly improves the structural fatty acid profile and total antioxidant count."
+  ]
+}

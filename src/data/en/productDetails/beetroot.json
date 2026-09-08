@@ -1,0 +1,108 @@
+{
+  "slug": "beetroot",
+  "name": "Beetroot",
+  "category": "Vegetables",
+  "image": "/productinfo/beetroot.png",
+  "imageAlt": "fresh red beetroot",
+  "description": "Beetroot represents a highly specialized, bioactive root taproot phytomatrix belonging to the Amaranthaceae family, distinguished by its unique biochemical co-presence of inorganic nitrogenous salts (nitrates) and tyrosine-derived betalain chromophores. It functions as a powerful natural modulator of the human vascular endothelium, accelerating the oxygen-independent synthesis of nitric oxide ($NO$) and directly regulating vascular smooth muscle tone. This complex plant architecture coordinates systemic hemodynamics, lowers the energetic threshold of mitochondrial oxidative phosphorylation, optimizes hepatic phase II xenobiotic conjugation, and systematically supports cellular fluid balance.",
+  "macroTitle": "Macro Nutrients (per 100g, raw product)",
+  "macroIntro": "The macronutrient configuration of raw beetroot displays a moderate thermodynamic density, balancing volatile low-molecular carbohydrate fractions with structural hydrocolloid fibers to minimize rapid glycemic transitions.",
+  "microIntro": "As a highly specialized subterranean bio-reservoir, beetroot concentrates unique heterocyclic plant pigments, crucial trace transition metals, and essential B-complex coenzymes required for one-carbon methylation cycles.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "43 kcal / 2% DV",
+      "bg": "#15837c",
+      "description": "A controlled caloric yield with excellent metabolic efficiency, ideal for weight management and optimization of non-insulin-dependent cellular fuel pathways."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.6 g / 3% DV",
+      "bg": "#f5722c",
+      "description": "Consists of basic structural vegetative proteins and free nitrogenous compounds, serving as minor substrate elements for baseline cell repair."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.2 g / <1% DV",
+      "bg": "#e4a910",
+      "description": "A virtually negligible lipid footprint, containing trace non-esterified fatty acids and functional surface membrane lipids."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "9.6 g / 4% DV",
+      "bg": "#15837c",
+      "description": "Comprises unrefined mono- and oligosaccharides coupled with complex prebiotic pectin strings, facilitating smooth intestinal absorption curves."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 29,
+      "name": "Folate (Vitamin B9)",
+      "slug": "vitamin-b9",
+      "amount": "109 mcg / 27% DV",
+      "bg": "#15837c",
+      "description": "An essential water-soluble coenzyme required for thymidylate synthesis, regulating regular hematopoietic stem cell differentiation and metabolic methylation pathways."
+    },
+    {
+      "id": 38,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.3 mg / 16% DV",
+      "bg": "#f5722c",
+      "description": "A critical trace metal cofactor integral to mitochondrial superoxide dismutase ($MnSOD$), actively driving bone mineralization and lipid metabolism pathways."
+    },
+    {
+      "id": 31,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "325 mg / 7% DV",
+      "bg": "#66ab63",
+      "description": "A vital monovalent intracellular cation managing myofibrillar cell resting potentials, mitigating extracellular sodium tension, and buffering vascular compliance."
+    },
+    {
+      "id": 101,
+      "name": "Betalains (Betanin)",
+      "slug": "antioxidants",
+      "amount": "High Concentration",
+      "bg": "#e4a910",
+      "description": "Nitrogen-containing heterocyclic pigments that arrest lipid peroxidation, downregulate NF-kB transcription, and alleviate severe macrovascular inflammatory strain."
+    },
+    {
+      "id": 102,
+      "name": "Dietary Nitrates ($NO_3^-$)",
+      "slug": "compounds",
+      "amount": "High Bioactivity",
+      "bg": "#1a96cd",
+      "description": "Inorganic nitrate precursors that undergo sequential salivary and gastric reduction to bioactive nitric oxide, eliciting profound smooth muscle relaxation."
+    },
+    {
+      "id": 21,
+      "name": "Vitamin C (L-Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "4.9 mg / 5% DV",
+      "bg": "#1a96cd",
+      "description": "A supplementary water-soluble reducing agent that stabilizes internal plant pigments, aids iron absorption, and maintains basic collagen cross-linking cascades."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Endothelial Nitric Oxide Synthesis and Hemodynamic Control:</b> Absorbed dietary inorganic nitrates follow the salivary-gastric-vascular route where they convert into gaseous nitric oxide ($NO$), expanding arterial lumen diameter and reducing systemic blood pressure.",
+    "<b>Hepatic Phase II Conjugation and Xenobiotic Clearance:</b> High concentrations of betalain fractions trigger the up-regulation of glutathione S-transferase (GST) enzymes, accelerating the conversion of lipid-soluble toxic compounds into easily excretable water-soluble structures.",
+    "<b>Gastrointestinal Peristalsis and Mucosal Protection:</b> Hydrophilic pectin macro-molecules build a visco-elastic gel structure within the intestinal lumen, speeding up bowel evacuation times and acting as a carbon fuel substrate for beneficial bifidobacteria.",
+    "<b>Mitochondrial Efficiency and Cellular Energetics:</b> Bioactive inorganic molecules from beetroot reduce the overall ATP cost of muscle contraction by optimizing the efficiency of the inner mitochondrial membrane respiratory complexes during physical exertion."
+  ],
+  "precautionsIntro": "Notwithstanding its clinically verified therapeutic efficacy, the high concentrations of unique biological molecules within beetroot dictate specific dietary parameters under certain medical configurations.",
+  "precautions": [
+    "<b>Oxalate-Mediated Nephrolithiasis:</b> Beetroot biomass is exceptionally rich in crystalline oxalic acid salts; individuals showcasing clinical tendencies toward calcium oxalate renal stone formation must carefully limit intake.",
+    "<b>Nitrate-Induced Systemic Hypotension:</b> Due to powerful, direct endothelial vasodilation initiated by inorganic nitrates, rapid or excessive intake of concentrated beetroot juice can precipitate dangerous blood pressure drops in clinically hypotensive individuals.",
+    "<b>Postprandial Glycemic Excursions in Diabetes:</b> Boiled or cooked variations of this root vegetable exhibit a significantly elevated glycemic index due to structural starch gelatinization, requiring precise portion monitoring in insulin-resistant populations.",
+    "<b>Benign Chromaturia (Beeturia):</b> The incomplete metabolic cleavage of betanin pigments can result in a harmless red-pink discoloration of urine and stool matrices, which represents a benign physiological event often mistaken for hematuria."
+  ]
+}

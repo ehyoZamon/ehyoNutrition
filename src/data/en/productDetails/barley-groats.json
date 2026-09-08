@@ -1,0 +1,124 @@
+{
+  "slug": "barley-groats",
+  "name": "Barley Groats (Pearled Barley)",
+  "category": "Grains and Cereals",
+  "image": "/productinfo/barley-groats.png",
+  "imageAlt": "dry raw pearled barley groats in a rustic ceramic bowl on a dark concrete background",
+  "description": "Barley groats (commonly encountered as pearled barley) are a highly nourishing, low-glycemic carbohydrate substrate derived from the polished grains of Hordeum vulgare. Though lightly abraded to remove the fibrous outer hull, it fully retains its dense internal layers of functional beta-glucan soluble fibers. Renowned for its exceptional water-binding capacity during culinary processing, it serves as a powerful metabolic and gastrointestinal shield that flattens postprandial glucose curves and optimizes vascular endothelial health.",
+  "macroTitle": "Macro Nutrients (per 100g, dry uncooked groats)",
+  "macroIntro": "Barley groats display a highly favorable, slow-burning macronutrient architecture, delivering dense complex starches alongside a major structural dietary fiber footprint.",
+  "microIntro": "Pearled barley houses an impressive, intact micronutrient matrix rich in metabolic phosphorus, nervous-system-stabilizing magnesium, and essential neurotropic B-vitamins.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~352 kcal",
+      "bg": "#15837c",
+      "description": "A robust energetic payload that yields stable, prolonged metabolic fuel due to its dense, slow-digesting complex carbohydrate structures."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "9.9 grams",
+      "bg": "#f5722c",
+      "description": "A solid source of structural plant proteins with notable levels of essential amino acids like tryptophan and lysine to support lean cellular repair loops."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "1.2 grams",
+      "bg": "#e4a910",
+      "description": "An ultra-lean lipid signature with negligible saturated fats, emphasizing heart-healthy unsaturated essential fatty acid fractions instead."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "77.7 grams",
+      "bg": "#1a96cd",
+      "description": "Composed primarily of multi-branched non-starchy complex carbohydrates and a heavy functional dietary fiber matrix (~15.6g)."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "beta-glucan",
+      "slug": "beta-glucan",
+      "name": "Beta-Glucan Soluble Fiber",
+      "amount": "High Therapeutic Load",
+      "bg": "#15837c",
+      "description": "A critical, gel-forming soluble polysaccharide that systematically increases intestinal viscosity to slow down glucose absorption and bind vascular lipids."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "221 mg / 18% DV",
+      "bg": "#f5722c",
+      "description": "An essential intracellular mineral required for synthesizing the adenosine triphosphate (ATP) energy matrix and reinforcing skeletal structures."
+    },
+    {
+      "id": "magnesium",
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "79 mg / 20% DV",
+      "bg": "#66ab63",
+      "description": "A vital neuro-muscular cofactor that dampens central nervous system hyper-reactivity and optimizes cellular insulin receptor sensitivity thresholds."
+    },
+    {
+      "id": "selenium",
+      "slug": "selenium",
+      "name": "Selenium",
+      "amount": "37.7 mcg / 68% DV",
+      "bg": "#1a96cd",
+      "description": "An essential antioxidant trace element embedded into glutathione peroxidase complexes, defending delicate cellular walls from oxidative stress cascades."
+    },
+    {
+      "id": "vitamin-b3",
+      "slug": "vitamin-b3",
+      "name": "Vitamin B3 (Niacin)",
+      "amount": "4.6 mg / 29% DV",
+      "bg": "#e4a910",
+      "description": "An important organic respiratory coenzyme factor necessary for stabilizing lipid profiles and driving mitochondrial cellular energy pathways."
+    },
+    {
+      "id": 41,
+      "slug": "vitamin-b6",
+      "name": "Vitamin B6",
+      "amount": "0.32 mg / 19% DV",
+      "bg": "#1a96cd",
+      "description": "Regulates amino acid metabolism, supports cognitive performance, and assists in hemoglobin synthesis."
+    },
+    {
+      "id": 42,
+      "slug": "iron",
+      "name": "Iron",
+      "amount": "2.5 mg / 14% DV",
+      "bg": "#f5722c",
+      "description": "Critical for oxygen transport, energy metabolism, and cellular respiration."
+    },
+    {
+      "id": 43,
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "280 mg / 6% DV",
+      "bg": "#66ab63",
+      "description": "Essential for electrolyte balance, healthy blood pressure, and optimal muscle function."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Sustained Glycemic Stabilization:</b> High concentrations of functional beta-glucans decelerate gastric emptying, establishing a smooth, completely flat postprandial glucose response.",
+    "<b>Vascular Plaque Mitigation:</b> The viscous digestive gel traps intestinal bile acids, prompting the liver to systematically pull circulating LDL cholesterol from the bloodstream for new bile synthesis.",
+    "<b>Satiety and Weight Management:</b> The expansive nature of barley fibers induces mechanical stomach distension, activating satiety signaling pathways to suppress long-term hunger spikes.",
+    "<b>Deep Prebiotic Colonization:</b> Complex non-digestible polysaccharides undergo active fermentation by beneficial colonic microbes, accelerating the production of anti-inflammatory short-chain fatty acids (SCFAs).",
+    "<b>Mucosal Soothing Properties:</b> When slowly simmered, it releases healing starches that form a viscous, protective coat over hyper-reactive or inflamed gastric mucosal linings."
+  ],
+  "precautionsIntro": "Hordein Gluten Complex Hazards, Gastrointestinal Fiber Adaptation Boundaries, and Phytic Binding Dynamics: Strategic culinary processing maximizes metabolic safety.",
+  "precautions": [
+    "<b>Hordein Gluten Autoimmune Reactions:</b> Barley grains natively synthesize hordein, a specific structural prolamin belonging to the gluten family. It is strictly contraindicated for individuals with celiac disease or gluten enterprise disorders.",
+    "<b>Gastrointestinal Bloating Sensitivities:</b> The massive influx of unrefined insoluble and soluble fibers can induce significant flatulence, cramping, or bloating in individuals unaccustomed to a high-fiber load.",
+    "<b>Phytic Acid Mineral Chelation:</b> Outer grain segments retain trace phytic acid compounds that can cross-bind dietary iron and zinc. Implementing an overnight soaking cycle before boiling totally inactivates these anti-nutritional factors."
+  ]
+}

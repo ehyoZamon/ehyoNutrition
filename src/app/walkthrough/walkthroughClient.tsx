@@ -42,7 +42,7 @@ const WalkthroughClient = () => {
 
             <Link
                 prefetch={false}
-                href="/main"
+                href="/food-diary"
                 className={styles["get-started"]}
                 onClick={handleGetStarted}
             >

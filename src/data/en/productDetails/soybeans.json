@@ -1,0 +1,108 @@
+{
+  "slug": "soybeans",
+  "name": "Soybeans (Whole, Mature)",
+  "category": "Nuts & Seeds",
+  "image": "/productinfo/soybeans.png",
+  "imageAlt": "whole mature soybeans",
+  "description": "Soybeans are an elite, uniquely balanced botanical whole food matrix. Standing as one of the few plant sources providing a complete amino acid profile, they combine high-caliber structural proteins with heart-healthy polyunsaturated lipids, vital trace catalysts, and highly active polyphenolic *isoflavones*, serving as a premier resource for lean tissue preservation, endocrine modulation, and skeletal health.",
+  "macroTitle": "Macro Nutrients (per 100g, boiled without salt)",
+  "macroIntro": "The macronutrient blueprint of cooked soybeans delivers an exceptionally dense distribution of complete proteins and structural plant lipids designed for sustained metabolic fuel and cellular repair.",
+  "microIntro": "Soybeans contain a rich, complex crystalline network of water-soluble B-vitamins, critical intracellular macrominerals, and unique botanical compounds engineered to optimize cellular replication and vascular integrity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "173 kcal / 9% DV",
+      "bg": "#15837c",
+      "description": "Provides clean, nutrient-dense biological energy focused heavily on tissue synthesis and structural lipid utilization."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.6 g / 33% DV",
+      "bg": "#f5722c",
+      "description": "A rare, complete botanical protein source housing all nine essential amino acids in an optimal ratio to drive skeletal muscle synthesis and enzymatic remodeling."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "9.0 g / 12% DV",
+      "bg": "#e4a910",
+      "description": "Low in saturated fat and dominated by essential polyunsaturated linoleic and alpha-linolenic acids, preserving smooth cellular membrane flexibility."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "9.9 g / 4% DV",
+      "bg": "#15837c",
+      "description": "Composed of slow-absorbing complex carbohydrates and low-glycemic dietary fibers, ensuring an exceptionally flat postprandial glucose signature."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 98,
+      "name": "Isoflavones (Genistein & Daidzein)",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#15837c",
+      "description": "Potent polyphenolic phytoestrogens that structurally interact with human estrogen receptors to balance systemic hormonal pathways."
+    },
+    {
+      "id": 44,
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.8 mg / 35% DV",
+      "bg": "#f5722c",
+      "description": "An abundant dose of this trace mineral, functioning as an essential cofactor for superoxide dismutase to drive deep mitochondrial antioxidant defense."
+    },
+    {
+      "id": 25,
+      "name": "Vitamin B9 (Folate)",
+      "slug": "vitamin-b9",
+      "amount": "54 mcg / 14% DV",
+      "bg": "#66ab63",
+      "description": "An essential coenzyme required for optimal cellular division, continuous DNA repair, and regulating structural vascular homeostasis."
+    },
+    {
+      "id": 32,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "86 mg / 20% DV",
+      "bg": "#e4a910",
+      "description": "A powerful macrominerals that coordinates with systemic electrolytes to promote neuromuscular relaxation and steady cellular ATP synthesis."
+    },
+    {
+      "id": 42,
+      "name": "Iron (Non-Heme)",
+      "slug": "iron",
+      "amount": "5.1 mg / 28% DV",
+      "bg": "#1a96cd",
+      "description": "A highly concentrated botanical reservoir of non-heme iron that supports continuous red blood cell manufacture and oxygen distribution."
+    },
+    {
+      "id": 17,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "6.0 g / 21% DV",
+      "bg": "#1a96cd",
+      "description": "Packed with high-quality insoluble and soluble fibers that optimize intestinal motility and nourish short-chain fatty acid-producing gut microflora."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Elite Muscle Architecture & Synthesis:</b> Delivering a complete plant-based amino acid pool, it triggers high protein synthesis loops to fuel lean skeletal muscle regeneration and cellular structural maintenance.",
+    "<b>Endocrine & Hormonal Pathway Modulation:</b> Abundant natural densities of *isoflavones* bind selectively to estrogen receptors, stabilizing hormonal fluctuations and providing a protective shield for hormone-sensitive tissues.",
+    "<b>Vascular Architecture Support:</b> The synergy of premium polyunsaturated fats and soluble fibers helps optimize circulating lipid profiles, reducing systemic plaque vectors and maintaining endothelial wall elasticity.",
+    "<b>Skeletal Matrix Maintenance:</b> Rich stores of Magnesium working alongside botanical proteins support structural bone matrix formulation, working to preserve optimal bone mineral density over time."
+  ],
+  "precautionsIntro": "While soybeans function as an unmatched botanical asset, their unique structural compounds and high biological activity demand exact preparation parameters.",
+  "precautions": [
+    "<b>Anti-Nutrient Phytic Acid & Trypsin Inhibitors:</b> Raw soybeans contain highly resilient trypsin inhibitors and phytic acid, which aggressively block protein digestion and chelate minerals like iron and zinc. Thorough cooking, boiling, or utilizing fermented formats completely deactivates these structural barriers.",
+    "<b>Gastrointestinal Oligosaccharide Fermentation:</b> Complex sugars like raffinose and stachyose pass undigested into the lower bowel, where intensive bacterial fermentation can trigger sharp bloating or gas in sensitive digestive profiles. Extended soaking and rinsing before cooking heavily limits this response.",
+    "<b>Allergenic Storage Protein Vectors:</b> Soybeans house highly stable storage proteins (such as Gly m 4, beta-conglycinin, and glycinin) that can trigger immediate IgE-mediated allergenic cascades in hypersensitive profiles, requiring strict cross-contamination monitoring.",
+    "<b>Non-Heme Iron Absorption Blocks:</b> Because the high iron density is non-heme, its absorption can easily be suppressed by native phytates. Pairing soy dishes with fresh citrus elements or other sources of Vitamin C effectively unlocks intestinal absorption channels."
+  ]
+}

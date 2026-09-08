@@ -1,0 +1,107 @@
+{
+  "slug": "beef-tongue",
+  "name": "Beef Tongue",
+  "category": "Meat & Offal",
+  "image": "/productinfo/beef-tongue.png",
+  "imageAlt": "beef tongue",
+  "description": "Beef tongue (Lingua bovis) is a highly specialized, dense muscular tissue characterized by an exceptional lipid-to-protein ratio. Its unique matrix, rich in monounsaturated oleic acids and high-density heme iron, provides a potent bioenergetic substrate. Functioning as a high-performance muscle organ, it serves as an efficient delivery vehicle for key hematopoietic cofactors and B-complex vitamins, critical for systemic mitochondrial energy production and structural cellular repair.",
+  "macroTitle": "Macro Nutrients (per 100g, cooked/simmered)",
+  "macroIntro": "A highly bioavailable, protein-dense metabolic matrix integrated with a concentrated lipid profile, providing optimized thermodynamic fuel.",
+  "microIntro": "A potent repository of critical trace elements and enzymatic cofactors that facilitate foundational endocrine and hematological stability.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "224 kcal / 11% DV",
+      "bg": "#15837c",
+      "description": "Dense energy yield derived from the synergistic catabolism of muscular proteins and functional lipid fractions."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "14.9 g / 30% DV",
+      "bg": "#f5722c",
+      "description": "Complete amino acid profile providing a superior biological value for myofibrillar synthesis and tissue restoration."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "16.1 g / 21% DV",
+      "bg": "#e4a910",
+      "description": "Functional lipid matrix rich in monounsaturated oleic acid, facilitating long-term metabolic energy substrate availability."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.0 g / 0% DV",
+      "bg": "#15837c",
+      "description": "Negligible glycemic footprint, ensuring absolute maintenance of basal insulinomic homeostasis."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 25,
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "3.1 mcg / 129% DV",
+      "bg": "#1a96cd",
+      "description": "Essential coenzyme governing erythrocyte maturation, neuro-myelination, and genomic DNA replication fidelity."
+    },
+    {
+      "id": 39,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "4.1 mg / 37% DV",
+      "bg": "#15837c",
+      "description": "Critical metallic cofactor for enzymatic cascades involved in testosterone synthesis and immune signal transduction."
+    },
+    {
+      "id": 32,
+      "name": "Iron (Heme)",
+      "slug": "iron",
+      "amount": "2.6 mg / 14% DV",
+      "bg": "#e4a910",
+      "description": "Highly bioavailable organic heme iron, optimizing hemoglobin-mediated oxygen kinetics and aerobic respiration."
+    },
+    {
+      "id": 26,
+      "name": "Vitamin B2 (Riboflavin)",
+      "slug": "vitamin-b2",
+      "amount": "0.3 mg / 23% DV",
+      "bg": "#f5722c",
+      "description": "Essential component for mitochondrial electron transport chain efficiency and cellular respiratory flux."
+    },
+    {
+      "id": 137,
+      "name": "Vitamin B3 (Niacin)",
+      "slug": "vitamin-b3",
+      "amount": "3.8 mg / 24% DV",
+      "bg": "#1a96cd",
+      "description": "Vital regulator of tissue respiration pathways and lipid metabolism homeostasis."
+    },
+    {
+      "id": 138,
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "65.0 mg / 12% DV",
+      "bg": "#66ab63",
+      "description": "Fundamental precursor for lipid bilayer structural stability and neurotransmitter-mediated signal regulation."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Advanced Hematopoietic Synergy:</b> The co-delivery of heme iron and cobalamin optimizes red blood cell synthesis, mitigating systemic metabolic hypoxia.",
+    "<b>Endocrine and Immune Modulation:</b> Significant zinc yields support the enzymatic pathways required for hormonal balance and effective immunological response.",
+    "<b>Mitochondrial Metabolic Optimization:</b> High-density B-complex vitamins facilitate the streamlined oxidation of substrates, elevating overall cellular energy endurance.",
+    "<b>Structural Protein Synthesis:</b> A complete amino acid pool provides the necessary foundational substrates for rapid muscular fiber repair and systemic cellular rejuvenation."
+  ],
+  "precautionsIntro": "Due to its high lipid-protein density and structural anatomy, adherence to specific preparation protocols is required:",
+  "precautions": [
+    "<b>Caloric and Lipid Vigilance:</b> The high lipid fraction necessitates clinical consideration for individuals managing strict cardiovascular lipid control parameters.",
+    "<b>Purine Metabolism:</b> As a high-density muscular tissue, the purine load requires moderation in patients with clinical hyperuricemia or predisposition to gout.",
+    "<b>Culinary Processing Protocols:</b> The fibrous exterior epithelia are indigestible; comprehensive thermal processing and mechanical excision (peeling) are mandatory for gastrointestinal safety."
+  ]
+}

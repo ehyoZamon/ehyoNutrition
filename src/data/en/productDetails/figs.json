@@ -1,0 +1,93 @@
+{
+  "slug": "figs",
+  "name": "Figs",
+  "category": "Fruits",
+  "image": "/productinfo/figs.png",
+  "imageAlt": "sliced fresh organic purple figs revealing vibrant seed matrix",
+  "description": "Figs (Ficus carica) are an ancient, nutrient-dense fruit celebrated for their unique sweet, honey-like profile and complex seed-rich texture. They serve as an outstanding natural gastrointestinal regulator and cellular antioxidant vehicle due to high soluble fiber and polyphenolic content.",
+  "macroTitle": "Macro Nutrients (per 100g, fresh raw)",
+  "macroIntro": "Fresh figs offer a high-moisture macronutrient profile centered on naturally occurring monosaccharides and structural plant fibers.",
+  "microIntro": "Figs provide a mineral-dominant matrix, including key cofactors for enzymatic reactions and vascular health.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "amount": "74 kcal",
+      "bg": "#15837c"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "amount": "0.8 g",
+      "bg": "#f5722c"
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "amount": "0.3 g",
+      "bg": "#e4a910"
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "amount": "19.2 g",
+      "bg": "#1a96cd"
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "amount": "232 mg",
+      "bg": "#15837c",
+      "description": "Regulates osmotic pressure and vascular tone."
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "amount": "35 mg",
+      "bg": "#f5722c",
+      "description": "Supports bone mineralization and signal transduction."
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "amount": "17 mg",
+      "bg": "#66ab63",
+      "description": "Essential cofactor for enzymatic reactions."
+    },
+    {
+      "id": 178,
+      "name": "Vitamin B6",
+      "amount": "0.11 mg / 6% DV",
+      "bg": "#1a96cd",
+      "description": "Facilitates amino acid metabolism and neurotransmitter synthesis."
+    },
+    {
+      "id": 179,
+      "name": "Copper",
+      "amount": "0.07 mg / 8% DV",
+      "bg": "#e4a910",
+      "description": "Vital for iron absorption and collagen cross-linking."
+    },
+    {
+      "id": "ficin",
+      "name": "Ficin",
+      "amount": "Bioactive Enzyme",
+      "bg": "#e4a910",
+      "description": "Proteolytic enzyme enhancing protein digestion."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Gastrointestinal Motility:</b> Soluble pectin fiber acts as a prebiotic, optimizing peristalsis.",
+    "<b>Vascular Tone:</b> High potassium-to-sodium ratio assists in blood pressure stabilization.",
+    "<b>Antioxidant Shielding:</b> Anthocyanins and lutein neutralize free radicals.",
+    "<b>Bone Remodeling:</b> Rich source of calcium and magnesium for skeletal integrity.",
+    "<b>Proteolytic Efficiency:</b> Ficin assists in the hydrolysis of dietary proteins."
+  ],
+  "precautions": [
+    "<b>Sugar Volatility:</b> Dried figs possess significantly higher caloric density.",
+    "<b>Mucosal Sensitivity:</b> High ficin activity can irritate oral tissue if consumed in excess.",
+    "<b>Oxalate Content:</b> Monitor intake if prone to calcium-oxalate kidney stones."
+  ]
+}
