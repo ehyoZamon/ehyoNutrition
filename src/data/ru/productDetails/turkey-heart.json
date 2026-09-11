@@ -1,124 +1,257 @@
 {
-  "slug": "turkey-heart",
-  "name": "Сердце индейки",
-  "category": "Мясо",
-  "image": "/productinfo/turkey-heart.png",
-  "imageAlt": "свежие сырые сердца индейки",
-  "description": "Сердце индейки — плотный мышечный субпродукт, богатый белком и уникальными биоэнергетическими коферментами (Коэнзим Q10). Оно является отличным источником легкоусвояемого гемового железа, таурина и L-карнитина. Эти компоненты поддерживают работу митохондрий, улучшают энергообмен в клетках и способствуют здоровью сердечно-сосудистой системы.",
-  "macroTitle": "Макронутриенты (на 100 г, очищенные)",
-  "macroIntro": "Сердце индейки — это высокобелковый продукт с низким содержанием жира и отсутствием углеводов.",
-  "microIntro": "Это «метаболический двигатель», насыщенный коферментами, железом и витаминами группы B.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "~128 ккал",
-      "bg": "#15837c",
-      "description": "Чистая энергия для метаболизма."
-    },
-    {
-      "id": "protein",
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "17.10 г",
-      "bg": "#f5722c",
-      "description": "Все девять незаменимых аминокислот для мышц."
-    },
-    {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "6.10 г",
-      "bg": "#e4a910",
-      "description": "Функциональные жиры для работы сердца."
-    },
-    {
-      "id": "carbs",
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "0.40 г",
-      "bg": "#1a96cd",
-      "description": "Практически отсутствуют."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "coenzyme-q10",
-      "slug": "coenzyme-q10",
-      "name": "Коэнзим Q10",
-      "amount": "Высокая концентрация",
-      "bg": "#15837c",
-      "description": "Главный антиоксидант для митохондрий."
-    },
-    {
-      "id": "vitamin-b12",
-      "slug": "vitamin-b12",
-      "name": "Витамин B12",
-      "amount": "3.8 мкг / 158% СН",
-      "bg": "#f5722c",
-      "description": "Для нервной системы и крови."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Гемовое железо",
-      "amount": "4.10 мг / 23% СН",
-      "bg": "#66ab63",
-      "description": "Биодоступное железо для транспорта кислорода."
-    },
-    {
-      "id": "zinc",
-      "slug": "zinc",
-      "name": "Цинк",
-      "amount": "2.90 мг / 26% СН",
-      "bg": "#1a96cd",
-      "description": "Для иммунитета и восстановления тканей."
-    },
-    {
-      "id": "taurine",
-      "slug": "taurine",
-      "name": "Таурин и L-карнитин",
-      "amount": "Биоактив",
-      "bg": "#e4a910",
-      "description": "Для стабильного ритма сердца и жирового обмена."
-    },
-    {
-      "id": 114,
-      "slug": "vitamin-b2",
-      "name": "Витамин B2",
-      "amount": "0.95 мг / 73% СН",
-      "bg": "#15837c",
-      "description": "Для производства клеточной энергии."
-    },
-    {
-      "id": 115,
-      "slug": "vitamin-b3",
-      "name": "Витамин B3",
-      "amount": "5.2 мг / 33% СН",
-      "bg": "#f5722c",
-      "description": "Для метаболизма и регуляции холестерина."
-    },
-    {
-      "id": 116,
-      "slug": "vitamin-b6",
-      "name": "Витамин B6",
-      "amount": "0.45 мг / 26% СН",
-      "bg": "#66ab63",
-      "description": "Для синтеза нейромедиаторов."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Энергия:</b> Коэнзим Q10 «подзаряжает» клетки.",
-    "<b>Сердце:</b> Таурин помогает ритму сердца.",
-    "<b>Кровь:</b> Железо и B12 предотвращают анемию.",
-    "<b>Нервная система:</b> Высокое содержание B12 поддерживает нейроны.",
-    "<b>Восстановление:</b> Идеальный профиль аминокислот для мышц."
-  ],
-  "precautionsIntro": "Пурины, холестерин и железо: Будьте осторожны при ограничениях.",
-  "precautions": [
-    "<b>Пурины:</b> Не рекомендовано при подагре из-за риска обострения.",
-    "<b>Холестерин:</b> Учитывайте содержание при гиперхолестеринемии.",
-    "<b>Железо:</b> При гемохроматозе ограничьте потребление."
-  ]
+"slug": "turkey-heart",
+"name": "Индюшиное сердце",
+"category": "Мясо и яйца",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "174 ккал"
+},
+{
+"id": "protein",
+"name": "Белок",
+"slug": "protein",
+"amount": "24.90 г"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "0 г"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "7.52 г"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0 г"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0 мкг"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "0.13 мг"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "16 мкг RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.24 мг"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "1.54 мг"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "7.76 мг"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.61 мг"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "8 мкг DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "13.90 мкг"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "21 мг"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "241 мг"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "28 мг"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "140 мг"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "203 мг"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "6.96 мг"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "4.60 мг"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0.82 мг"
+},
+{
+"id": "manganese",
+"name": "Марганец",
+"slug": "manganese",
+"amount": "0.12 мг"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "56.8 мкг"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "172 мг"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.05 г"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0.02 г"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "1.39 г"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "1.52 г"
+},
+{
+"id": "histidine",
+"name": "Гистидин",
+"slug": "histidine",
+"amount": "0.54 г"
+},
+{
+"id": "isoleucine",
+"name": "Изолейцин",
+"slug": "isoleucine",
+"amount": "0.71 г"
+},
+{
+"id": "leucine",
+"name": "Лейцин",
+"slug": "leucine",
+"amount": "1.78 г"
+},
+{
+"id": "lysine",
+"name": "Лизин",
+"slug": "lysine",
+"amount": "1.88 г"
+},
+{
+"id": "methionine",
+"name": "Метионин",
+"slug": "methionine",
+"amount": "0.63 г"
+},
+{
+"id": "phenylalanine",
+"name": "Фенилаланин",
+"slug": "phenylalanine",
+"amount": "0.92 г"
+},
+{
+"id": "threonine",
+"name": "Треонин",
+"slug": "threonine",
+"amount": "0.90 г"
+},
+{
+"id": "tryptophan",
+"name": "Триптофан",
+"slug": "tryptophan",
+"amount": "0.27 г"
+},
+{
+"id": "valine",
+"name": "Валин",
+"slug": "valine",
+"amount": "0.88 г"
+},
+{
+"id": "arginine",
+"name": "Аргинин",
+"slug": "arginine",
+"amount": "1.45 г"
+},
+{
+"id": "glycine",
+"name": "Глицин",
+"slug": "glycine",
+"amount": "1.34 г"
+},
+{
+"id": "tyrosine",
+"name": "Тирозин",
+"slug": "tyrosine",
+"amount": "0.79 г"
+}
+]
 }

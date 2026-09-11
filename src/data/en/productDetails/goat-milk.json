@@ -1,124 +1,281 @@
 {
-  "slug": "goat-milk",
-  "name": "Goat Milk",
-  "category": "Dairy Products",
-  "image": "/productinfo/goat-milk.png",
-  "imageAlt": "fresh creamy goat milk pouring into a rustic glass jar against a clean neutral background",
-  "description": "Goat milk (Capra hircus) is a highly bioavailable, structurally distinct lipid-protein fluid showcasing superior digestive kinetics compared to bovine alternatives. The core therapeutic value of goat milk resides in its unique structural design: it features a high density of short- and medium-chain fatty acids (MCFAs) that undergo rapid, direct absorption, paired with an easily broken-down protein matrix that forms a soft, highly vulnerable curd within the gastric chamber. Operating within human biochemical systems, these attributes maximize nutrient assimilation, support intestinal mucosal structures, and provide a lower systemic inflammatory load.",
-  "macroTitle": "Macro Nutrients (per 100g, whole raw or pasteurized milk)",
-  "macroIntro": "Goat milk delivers a nutrient-dense, balanced macronutrient architecture characterized by finely emulsified small-diameter fat globules and premium bioactive proteins.",
-  "microIntro": "The liquid serum matrix houses an exceptionally bioavailable pool of extracellular bone-building minerals, crucial fat-soluble immunomodulatory vitamins, and natural anti-inflammatory oligosaccharides.",
+  "slug": "milk-goat-fluid-with-added-vitamin-d",
+  "name": "Milk, goat, fluid, with added vitamin D",
+  "category": "Dairy and Egg Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
-      "slug": "",
-      "amount": "~69 kcal",
-      "bg": "#15837c",
-      "description": "A robust, highly functional energetic profile derived from easily mobilized lipid structures that fuel metabolic pathing without stressing cellular fat depots."
+      "slug": "calories",
+      "amount": "69 kcal"
     },
     {
       "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "3.6 grams",
-      "bg": "#f5722c",
-      "description": "An elite plant-and-tissue builder composed of high-quality caseins and whey, yielding an exceptional essential amino acid balance for cellular repair."
+      "amount": "3.56 g"
     },
     {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "4.1 grams",
-      "bg": "#e4a910",
-      "description": "Consists of naturally homogenized, small-diameter fat globules rich in caproic, caprylic, and capric medium-chain fatty acids for rapid hepatic utilization."
-    },
-    {
-      "id": "carbs",
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "4.5 grams",
-      "bg": "#1a96cd",
-      "description": "Represented by native milk lactose, providing a steady carbohydrate fuel supply while acting as a gentle functional substrate for beneficial intestinal bacteria."
+      "amount": "4.45 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "4.14 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": "calcium",
-      "slug": "calcium",
-      "name": "Calcium",
-      "amount": "134 mg / 13% DV",
-      "bg": "#15837c",
-      "description": "An abundant, highly bioavailable extracellular mineral essential for driving skeletal mineralization, optimizing muscle contractions, and stabilizing neural signaling."
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "1.3 mg"
     },
     {
-      "id": "medium-chain-fatty-acids",
-      "slug": "medium-chain-fatty-acids",
-      "name": "Medium-Chain Fatty Acids (MCFAs)",
-      "amount": "Highly Concentrated",
-      "bg": "#f5722c",
-      "description": "Unique structural lipids metabolized rapidly via the portal vein, bypassing complex pancreatic lipase pathways to deliver direct cellular energy."
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "1.3 mcg"
     },
     {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Potassium",
-      "amount": "204 mg / 4% DV",
-      "bg": "#66ab63",
-      "description": "A critical intracellular electrolyte that regulates homeostatic fluid balance, maintains vascular tone, and stabilizes smooth cardiac rhythm metrics."
-    },
-    {
-      "id": "vitamin-a",
+      "id": "3",
+      "name": "Vitamin A",
       "slug": "vitamin-a",
-      "name": "Vitamin A (Retinol)",
-      "amount": "57 mcg / 6% DV",
-      "bg": "#1a96cd",
-      "description": "Directly bioavailable preformed vitamin A synthesized by the goat's metabolism, vital for protecting ocular photoreceptors and upgrading mucosal defenses."
+      "amount": "57 mcg"
     },
     {
-      "id": "phosphorus",
-      "slug": "phosphorus",
-      "name": "Phosphorus",
-      "amount": "111 mg / 9% DV",
-      "bg": "#e4a910",
-      "description": "A structural mineral anion required for building resilient hydroxyapatite bone matrices and driving cellular adenosine triphosphate (ATP) synthesis cycles."
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.07 mg"
     },
     {
-      "id": 81,
-      "slug": "magnesium",
-      "name": "Magnesium",
-      "amount": "14 mg / 3% DV",
-      "bg": "#15837c",
-      "description": "Crucial cofactor for muscle relaxation, DNA synthesis, and enzymatic stability."
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.3 mcg"
     },
     {
-      "id": 82,
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.048 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
       "slug": "vitamin-b2",
-      "name": "Vitamin B2 (Riboflavin)",
-      "amount": "0.14 mg / 11% DV",
-      "bg": "#f5722c",
-      "description": "Supports cellular respiration, energy metabolism, and tissue repair."
+      "amount": "0.138 mg"
     },
     {
-      "id": 83,
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.277 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.31 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.046 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "1 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
       "slug": "vitamin-b12",
-      "name": "Vitamin B12 (Cobalamin)",
-      "amount": "0.07 mcg / 3% DV",
-      "bg": "#66ab63",
-      "description": "Vital for nerve cell maintenance, DNA production, and red blood cell formation."
+      "amount": "0.07 mcg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.089 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.207 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.314 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.29 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.155 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.163 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.044 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.24 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "134 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "111 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "14 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "50 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "204 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.046 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.018 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "1.4 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "16 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "7 mcg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.109 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.977 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.119 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.179 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Accelerated Gastric Digestion:</b> The low alpha-s1-casein profile yields a soft, highly friable protein curd that digests rapidly, avoiding prolonged gastrointestinal transit strain.",
-    "<b>Skeletal Matrix Reinforcement:</b> High native <b>calcium</b> and phosphorus ratios merge seamlessly into human bone tissue, accelerating structural mineralization loops.",
-    "<b>Hepatic Energy Mobilization:</b> Abundant <b>MCFAs</b> are absorbed directly via the portal system, providing instant metabolic energy without triggering lipid storage cascades.",
-    "<b>Gastrointestinal Mucosal Support:</b> Natural milk <b>oligosaccharides</b> shield sensitive epithelial boundaries, reducing inflammatory adhesion of external pathogens.",
-    "<b>Hypoallergenic Alternative Potential:</b> Possessing a distinct molecular structure compared to bovine milk, it provides a well-tolerated option for individuals with mild dairy sensitivities."
-  ],
-  "precautionsIntro": "Lactose-Driven Intolerance Realities, Cross-Reactive Casein Allergies, and Folate Deficiency Hazards: Informed consumption safeguards system homeostasis.",
-  "precautions": [
-    "<b>True Lactose Intolerance Risk:</b> While often better tolerated than cow's milk, goat milk still contains notable amounts of <b>lactose</b> (~4.5g). Individuals with severe lactase enzyme deficiency will experience gas, bloating, and diarrhea if consumed without supplemental enzymes.",
-    "<b>Cross-Reactive Bovine Protein Allergy:</b> Goat milk features structural similarities to cow's milk proteins. Individuals diagnosed with a true, IgE-mediated <b>cow's milk allergy (CMA)</b> face high rates of cross-reactive immune signaling, which can trigger severe allergic reactions or anaphylaxis.",
-    "<b>Folate-Deficiency Risk in Infant Nutrition:</b> Unfortified goat milk is exceptionally low in <b>Vitamin B9 (folate)</b> and Vitamin B12 compared to human milk. Utilizing it as a primary or exclusive nutritional substitute for infants can rapidly induce dangerous megaloblastic anemia cycles."
   ]
 }

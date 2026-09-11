@@ -1,124 +1,257 @@
 {
-  "slug": "soy-sauce",
-  "name": "Соевый соус",
-  "category": "Овощи",
-  "image": "/productinfo/soy-sauce.png",
-  "imageAlt": "темный соевый соус в керамической пиале",
-  "description": "Соевый соус — это продукт глубокой ферментации соевых бобов и пшеницы с использованием культуры Aspergillus. В процессе длительного созревания белки расщепляются до аминокислот, включая глутаминовую кислоту, что придает соусу характерный вкус «умами». Он способствует пищеварению, стимулируя секрецию ферментов, и является мощным вкусовым акцентом.",
-  "macroTitle": "Макронутриенты (на 100 г, классический соус)",
-  "macroIntro": "Соевый соус отличается отсутствием жиров, высокой концентрацией легкоусвояемых пептидов и значительным содержанием соли.",
-  "microIntro": "Это концентрат свободных аминокислот, органических кислот ферментации и необходимых минералов.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "~53 ккал",
-      "bg": "#15837c",
-      "description": "Минимальная калорийность за счет аминокислот."
-    },
-    {
-      "id": "protein",
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "8.14 г",
-      "bg": "#f5722c",
-      "description": "Предварительно расщепленные белки, готовые к усвоению."
-    },
-    {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "0.57 г",
-      "bg": "#e4a910",
-      "description": "Практически отсутствуют."
-    },
-    {
-      "id": "carbs",
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "4.93 г",
-      "bg": "#1a96cd",
-      "description": "Простые сахара, оставшиеся после брожения."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "sodium",
-      "slug": "sodium",
-      "name": "Натрий",
-      "amount": "5493 мг / 239% СН",
-      "bg": "#15837c",
-      "description": "Высокое содержание для сохранения осмотического давления."
-    },
-    {
-      "id": "glutamic-acid",
-      "slug": "glutamic-acid",
-      "name": "Глутаминовая кислота",
-      "amount": "Высокая концентрация",
-      "bg": "#f5722c",
-      "description": "Обеспечивает вкус «умами»."
-    },
-    {
-      "id": "manganese",
-      "slug": "manganese",
-      "name": "Марганец",
-      "amount": "1.01 мг / 44% СН",
-      "bg": "#66ab63",
-      "description": "Важен для метаболизма и защиты клеток."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Железо",
-      "amount": "2.38 мг / 13% СН",
-      "bg": "#1a96cd",
-      "description": "Поддерживает уровень гемоглобина."
-    },
-    {
-      "id": "vitamin-b3",
-      "slug": "vitamin-b3",
-      "name": "Витамин B3",
-      "amount": "3.94 мг / 25% СН",
-      "bg": "#e4a910",
-      "description": "Улучшает энергетический обмен."
-    },
-    {
-      "id": 120,
-      "slug": "vitamin-b6",
-      "name": "Витамин B6",
-      "amount": "0.14 мг / 8% СН",
-      "bg": "#15837c",
-      "description": "Важен для обмена аминокислот."
-    },
-    {
-      "id": 121,
-      "slug": "vitamin-b2",
-      "name": "Витамин B2",
-      "amount": "0.06 мг / 5% СН",
-      "bg": "#f5722c",
-      "description": "Участвует в производстве энергии."
-    },
-    {
-      "id": 122,
-      "slug": "magnesium",
-      "name": "Магний",
-      "amount": "36 мг / 9% СН",
-      "bg": "#66ab63",
-      "description": "Поддерживает работу мышц."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Вкус Умами:</b> Активирует рецепторы вкуса, усиливая удовольствие от еды.",
-    "<b>Пищеварение:</b> Стимулирует выработку желудочного сока.",
-    "<b>Усвоение:</b> Аминокислоты не требуют затрат энергии на переваривание.",
-    "<b>Замена соли:</b> Позволяет использовать меньше соли при готовке.",
-    "<b>Антиоксиданты:</b> Защищают ткани от окисления."
-  ],
-  "precautionsIntro": "Соль, гистамин и аллергия: Будьте осторожны с количеством.",
-  "precautions": [
-    "<b>Соль:</b> Очень высокое содержание, опасно при гипертонии.",
-    "<b>Гистамин:</b> Может вызывать головные боли у чувствительных людей.",
-    "<b>Глютен:</b> Традиционный соус содержит пшеницу (выбирайте Тамари при непереносимости)."
-  ]
+"slug": "soy-sauce-made-from-soy-tamari",
+"name": "Соевый соус",
+"category": "Бобовые и продукты из бобовых",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "60 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "10.5 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "5.57 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "0.1 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0.8 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "3.95 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Витамин B5",
+"slug": "vitamin-b5",
+"amount": "0.38 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.2 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "18 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "20 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "130 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "40 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "5586 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "212 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "2.38 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "0.43 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0 mg"
+},
+{
+"id": "manganese",
+"name": "Марганец",
+"slug": "manganese",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "0.8 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "38.4 mg"
+},
+{
+"id": "histidine",
+"name": "Гистидин",
+"slug": "histidine",
+"amount": "0.21 g"
+},
+{
+"id": "isoleucine",
+"name": "Изолейцин",
+"slug": "isoleucine",
+"amount": "0.49 g"
+},
+{
+"id": "leucine",
+"name": "Лейцин",
+"slug": "leucine",
+"amount": "0.73 g"
+},
+{
+"id": "lysine",
+"name": "Лизин",
+"slug": "lysine",
+"amount": "0.73 g"
+},
+{
+"id": "methionine",
+"name": "Метионин",
+"slug": "methionine",
+"amount": "0.17 g"
+},
+{
+"id": "phenylalanine",
+"name": "Фенилаланин",
+"slug": "phenylalanine",
+"amount": "0.53 g"
+},
+{
+"id": "threonine",
+"name": "Треонин",
+"slug": "threonine",
+"amount": "0.41 g"
+},
+{
+"id": "tryptophan",
+"name": "Триптофан",
+"slug": "tryptophan",
+"amount": "0.18 g"
+},
+{
+"id": "valine",
+"name": "Валин",
+"slug": "valine",
+"amount": "0.52 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.01 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "0.04 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "0.02 g"
+}
+]
 }

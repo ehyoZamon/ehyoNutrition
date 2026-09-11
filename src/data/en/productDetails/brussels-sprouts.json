@@ -1,108 +1,305 @@
 {
-  "slug": "brussels-sprouts",
-  "name": "Brussels Sprouts",
-  "category": "Vegetables & Greens",
-  "image": "/productinfo/brussels-sprouts.png",
-  "imageAlt": "fresh brussels sprouts",
-  "description": "Brussels sprouts are a premier, highly concentrated brassica whole food matrix. Displaying an exceptional density of sulfur-containing glucosinolates like *glucobrassicin* and *sinigrin*, alongside massive stores of ascorbic acid and phylloquinone, they serve as a top-tier functional resource for systemic cellular detoxification, advanced vascular protection, and powerful cellular shield modulation.",
-  "macroTitle": "Macro Nutrients (per 100g, boiled without salt)",
-  "macroIntro": "The macronutrient architecture of cooked brussels sprouts delivers a low-calorie, nutrient-dense profile that balances clean plant-based proteins with complex structural carbohydrates engineered for optimized metabolic control.",
-  "microIntro": "Brussels sprouts house an extraordinary, high-potency network of fat-soluble and water-soluble vitamins, heavy trace elements, and organosulfur catalysts that drive master endogenous defense loops.",
+  "slug": "brussels-sprouts-raw",
+  "name": "Brussels sprouts, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "43 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "Provides an incredibly lean caloric footprint, yielding a massive payload of therapeutic micronutrients per calorie without excess biological storage."
+      "amount": "43 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "3.4 g / 7% DV",
-      "bg": "#f5722c",
-      "description": "Contains an elevated protein-to-weight ratio for a vegetable, supplying basic amino acid structural fragments that assist in daily cellular maintenance."
+      "amount": "3.38 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, ensuring exceptionally rapid gastric transit and prompt assimilation of its foundational antioxidant and phytonutrient networks."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "9.0 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Composed of complex, slow-fusing plant polysaccharides bound within dense structural fibers, generating a completely flat glycemic response."
+      "amount": "8.95 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.30 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "3.80 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.099 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.045 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.019 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 24,
-      "name": "Vitamin K1 (Phylloquinone)",
-      "slug": "vitamin-k",
-      "amount": "140.0 mcg / 117% DV",
-      "bg": "#15837c",
-      "description": "A monumental concentration of phylloquinone, absolutely mandatory for hepatic blood coagulation factors and the structural activation of bone-remodeling proteins."
-    },
-    {
-      "id": 11,
-      "name": "Vitamin C (Ascorbic Acid)",
+      "id": "1",
+      "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "62.0 mg / 69% DV",
-      "bg": "#f5722c",
-      "description": "A spectacular pool of water-soluble ascorbic acid that fuels deep white blood cell defense, drives structural collagen cross-linking, and blocks free radicals."
+      "amount": "85 mg"
     },
     {
-      "id": 98,
-      "name": "Glucosinolates (I3C & Sulforaphane Precursors)",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#66ab63",
-      "description": "Highly active organosulfur compounds that hydrolyze into *indole-3-carbinol* and *sulforaphane* to trigger master cellular detoxification cascades."
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
     },
     {
-      "id": 25,
-      "name": "Vitamin B9 (Folate)",
-      "slug": "vitamin-b9",
-      "amount": "61 mcg / 15% DV",
-      "bg": "#e4a910",
-      "description": "An essential water-soluble coenzyme required for optimal cellular replication, continuous DNA repair, and regulating structural vascular homeostasis."
-    },
-    {
-      "id": 17,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "3.8 g / 14% DV",
-      "bg": "#1a96cd",
-      "description": "Packed with high-quality soluble and insoluble prebiotic plant fibers that maximize metabolic satiety and optimize intestinal transit velocity."
-    },
-    {
-      "id": 12,
-      "name": "Vitamin A (Beta-Carotene)",
+      "id": "3",
+      "name": "Vitamin A",
       "slug": "vitamin-a",
-      "amount": "38 mcg RAE / 4% DV",
-      "bg": "#1a96cd",
-      "description": "Provides clean plant carotenoids that the body converts as needed to safeguard retinal cell health and support mucosal immune integrity."
+      "amount": "38 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.88 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "177 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.139 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.090 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.745 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.309 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.219 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "61 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "42 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "69 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "23 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "25 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "389 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.4 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.42 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.337 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "1.6 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "3.80 g"
+    },
+    {
+      "id": "47",
+      "name": "Antioxidants",
+      "slug": "antioxidants",
+      "amount": "0 mg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "19.1 mg"
+    },
+    {
+      "id": "55",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "0.8 mg"
+    },
+    {
+      "id": "56",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "450 mcg"
+    },
+    {
+      "id": "61",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "24 mg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.076 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.132 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.152 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.154 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.032 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.098 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.120 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.037 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.155 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.203 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.030 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Hepatic Phase-II Xenobiotic Clearance:</b> High baseline distributions of specialized glucosinolates are enzymatically transformed into highly reactive isothiocyanates, aggressively driving the liver's master clearing path for environmental stressors.",
-    "<b>Vascular Architecture & Matrix Stabilization:</b> Massive concentrations of Vitamin K1 optimize the carboxylation of osteocalcin and matrix Gla protein, actively guiding calcium into bone crystal frameworks while shielding arterial walls from calcification.",
-    "<b>Profound Intestinal Fiber Fermentation:</b> Robust prebiotic soluble fibers pass completely intact into the lower bowel, serving as elite fuel for beneficial microflora to generate short-chain fatty acids that actively repair the colon lining.",
-    "<b>Advanced Dermal & Collagen Synthesis:</b> The hyper-dense presence of active Vitamin C drives efficient intracellular collagen formation, supporting endothelial integrity, accelerated wound healing loops, and deep cellular defense."
-  ],
-  "precautionsIntro": "Even though brussels sprouts operate as an unmatched botanical asset, their heavy sulfur density, thyroid competitive actions, and coagulation links demand exact management metrics.",
-  "precautions": [
-    "<b>Goitrogenic Isothiocyanate Competitive Binding:</b> Raw brussels sprouts contain mild goitrogens that can theoretically compete with iodine uptake at the thyroid gland. For individuals navigating an active clinical baseline of hypothyroidism, applying thermal heat (steaming, roasting) completely deactivates this enzyme barrier.",
-    "<b>Intestinal Oligosaccharide Fermentation:</b> Brussels sprouts contain dense structural trisaccharides like *raffinose* that resist initial stomach breakdown. When they encounter lower colon flora, rapid bacterial fermentation can provoke sharp bloating or flatulence in sensitive or inflamed digestive profiles.",
-    "<b>Coumarin-K1 Anti-Coagulation Interference:</b> Due to the monumental concentration of coagulating Vitamin K1, individuals undergoing pharmaceutical blood-thinning therapies (like Warfarin) must enforce a highly consistent, tracked daily intake to avoid altering medical coagulation parameters.",
-    "<b>Crude Cellulose Gastric Irritation:</b> The tough, tightly bundled structural cell walls of raw brussels sprouts can act as an aggressive mechanical irritant to highly inflamed digestive linings, making thorough thermal cooking or shredding highly required."
   ]
 }

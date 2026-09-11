@@ -1,108 +1,267 @@
 {
   "slug": "cheese",
   "name": "Cheese",
-  "category": "Dairy Products",
-  "image": "/productinfo/cheese.png",
-  "imageAlt": "piece of hard cheese",
-  "description": "Cheese represents a highly dense, hydrophobic protein-lipid supramolecular matrix synthesized through the targeted enzymatic coagulation of milk caseins followed by controlled microbial ripening. It serves as a hyper-concentrated biological reservoir of fully bioavailable calcium-phosphate complexes, essential immunoglobulins fragments, and lipophilic menaquinones (Vitamin K2). This sophisticated macrostructure functions as a potent physical agent for tissue regeneration, skeleton mineralization, and the regulation of systemic metabolic homeostasis.",
-  "macroTitle": "Macro Nutrients (per 100g, average values for semi-hard and hard varieties)",
-  "macroIntro": "The macronutrient configuration of aged cheese is characterized by an ultra-dense thermodynamic profile, optimizing the precise delivery of structurally modified animal proteins and functional lipids with near-zero carbohydrate resistance.",
-  "microIntro": "As a naturally aged bio-crystalline matrix, cheese selectively concentrates hydrophobic vitamins, essential transition metals, and complex mineral cofactors required for deep physiological mineralization and cellular defense pathways.",
+  "category": "Dairy",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "350-400 kcal / 18-20% DV",
-      "bg": "#15837c",
-      "description": "A high-capacity thermodynamic payload that induces prolonged, intense satiety by stimulating proximal intestinal peptide YY (PYY) and cholecystokinin secretion."
+      "amount": "371 kcal"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Protein",
       "slug": "protein",
-      "amount": "25.0-30.0 g / 50-60% DV",
-      "bg": "#f5722c",
-      "description": "An exceptionally concentrated assembly of partially hydrolyzed αs1-, αs2-, and β-caseins, yielding a continuous, complete stream of branched-chain amino acids (BCAAs)."
+      "amount": "23.24 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
+      "id": "36",
+      "name": "Fats",
       "slug": "fats",
-      "amount": "25.0-35.0 g / 32-45% DV",
-      "bg": "#e4a910",
-      "description": "A structurally complex lipid profile composed of saturated, monounsaturated, and natural trans-fatty acids (conjugated linoleic acid), critical for cellular membrane synthesis and steroidogenesis."
+      "amount": "29.68 g"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "0.0-2.0 g / 0-1% DV",
-      "bg": "#15837c",
-      "description": "Present in negligible residual fractions due to the comprehensive consumption of the primary disaccharide lattice by homofermentative lactic acid cultures during maturation."
+      "amount": "2.79 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 32,
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.5 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "292 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.26 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "2.5 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.014 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.351 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.118 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.288 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.065 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "20 mcg"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "1.26 mcg"
+    },
+    {
+      "id": "28",
       "name": "Calcium",
       "slug": "calcium",
-      "amount": "700-1000 mg / 70-100% DV",
-      "bg": "#15837c",
-      "description": "Enclosed within a highly absorbable colloidal phosphocaseinate matrix, driving maximum enterocyte transmucosal absorption to fuel osteoblast ossification cascades."
+      "amount": "674 mg"
     },
     {
-      "id": 22,
-      "name": "Vitamin A (Retinol)",
-      "slug": "vitamin-a",
-      "amount": "230-320 mcg / 25-35% DV",
-      "bg": "#f5722c",
-      "description": "A powerful lipophilic modulator that interacts directly with nuclear Retinoic Acid Receptors (RAR), reinforcing epithelial barrier defense, local mucosal immunity, and photoreceptor function."
-    },
-    {
-      "id": 27,
-      "name": "Vitamin B12 (Cobalamin)",
-      "slug": "vitamin-b12",
-      "amount": "1.2-1.8 mcg / 50-75% DV",
-      "bg": "#66ab63",
-      "description": "An essential organometallic enzyme cofactor mandatory for proper methionine synthase activity, mitigating toxic homocysteine accumulation while preserving neural myelin sheath kinetic stability."
-    },
-    {
-      "id": 34,
+      "id": "29",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": "500-700 mg / 71-100% DV",
-      "bg": "#e4a910",
-      "description": "Maintained in an ideal stoichiometric ratio with calcium ions, facilitating the ongoing crystallization of hydroxyapatite in the skeletal tissue and generating adenosine triphosphate (ATP)."
+      "amount": "451 mg"
     },
     {
-      "id": 35,
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "24 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "560 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "136 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.43 mg"
+    },
+    {
+      "id": "36",
       "name": "Zinc",
       "slug": "zinc",
-      "amount": "3.5-5.0 mg / 32-45% DV",
-      "bg": "#1a96cd",
-      "description": "A foundational catalytic and structural component for over 300 metalloenzymes, directly driving nucleic acid synthesis, T-cell clonal expansion, and structural protein integrity."
+      "amount": "2.6 mg"
     },
     {
-      "id": 24,
-      "name": "Vitamin K2 (Menaquinones MK-4 to MK-9)",
-      "slug": "vitamin-k2",
-      "amount": "40-80 mcg / 33-66% DV",
-      "bg": "#1a96cd",
-      "description": "A crucial microbial bioproduct that triggers the gamma-carboxylation of Matrix Gla Protein (MGP), directing calcium flux into bone tissue while preventing ectopic arterial calcification."
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.024 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.012 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "14.5 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "15.4 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "76 mcg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.823 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "1.137 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "2.244 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "2.124 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.565 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "1.231 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.882 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.324 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "1.472 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.874 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.437 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "1.115 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.293 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.491 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "7.401 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Macro-skeletal Ossification and Remodeling:</b> The highly concentrated synergistic triad of colloidal calcium, phosphorus, and microbial menaquinones (Vitamin K2) actively drives bone mineralization kinetics, optimizing osteoblast activity while suppressing pathological osteoclast-mediated resorption cascades.",
-    "<b>Myofibrillar Proteogenesis and Satiety Signaling:</b> The dense, slowly digestible casein network ensures a sustained, multi-hour elevation of plasma amino acid profiles, optimizing mammalian target of rapamycin complex 1 (mTORC1) activation for muscle retention while maintaining prolonged metabolic satiety.",
-    "<b>Enamel Remineralization and Biofilm Modulation:</b> Mastication of aged cheese stimulates salivary flow and releases free phosphopeptides, driving local oral cavity pH upward, suppressing acidogenic mutans streptococci, and accelerating the direct deposition of calcium ions into micro-lesions of tooth enamel.",
-    "<b>Neuroendocrine and Steroid Hormone Synthesis:</b> Bioavailable short-chain and saturated fatty acids serve as essential lipid substrates for the cellular synthesis of steroid hormones (including testosterone and cortisol) and the maintenance of sphingolipids within brain structures."
-  ],
-  "precautionsIntro": "Due to its hyper-concentrated nature and the physiological byproducts of long-term microbial ripening, cheese requires precise metabolic screening under specific clinical circumstances.",
-  "precautions": [
-    "<b>Osmotic Dysregulation via Hyper-Sodium Load:</b> The intensive sodium chloride infusion required for biochemical curd syneresis can lead to substantial fluid retention and elevated systemic vascular resistance, requiring restriction in individuals presenting with stage II chronic kidney disease or arterial hypertension.",
-    "<b>Lipid Remodeling and Atherogenic Risk:</b> The elevated concentration of long-chain saturated palmitic and myristic fatty acids may alter low-density lipoprotein (LDL) particle sizing and distribution in hyper-responder phenotypes with established severe dyslipidemia.",
-    "<b>Biogenic Amine Accumulation and Neurovascular Cephalea:</b> Proteolytic cascades during protracted aging generate significant quantities of tyramine. In individuals with compromised monoamine oxidase (MAO) enzyme kinetics, this can trigger sudden peripheral noradrenaline release, inducing severe vasoconstriction and acute headaches.",
-    "<b>Immunological Casein Sensitivity:</b> While long-term maturation efficiently minimizes disaccharide (lactose) concentrations to trace levels, the intact hydrophobic protein fractions remain highly immunogenic, serving as an absolute contraindication for individuals diagnosed with IgE-mediated dairy protein allergies."
   ]
 }

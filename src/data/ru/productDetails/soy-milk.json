@@ -1,124 +1,191 @@
 {
-  "slug": "soy-milk",
-  "name": "Соевое молоко",
-  "category": "Молочные продукты",
-  "image": "/productinfo/soy-milk.png",
-  "imageAlt": "нежное соевое молоко в стакане",
-  "description": "Соевое молоко — это растительная эмульсия, богатая высококачественным белком и полезными жирами. Оно содержит полный профиль незаменимых аминокислот, полиненасыщенные жирные кислоты и уникальные изофлавоны (генистеин и даидзеин). Соевое молоко является отличной альтернативой коровьему молоку, способствуя нормализации липидного профиля крови и гормонального баланса.",
-  "macroTitle": "Макронутриенты (на 100 г, без сахара)",
-  "macroIntro": "Соевое молоко — это легкоусвояемый напиток с высоким содержанием полноценного растительного белка, отсутствием холестерина и низким гликемическим индексом.",
-  "microIntro": "Легкая бобовая эмульсия служит источником витаминов группы B, микроэлементов и фитоэстрогенов.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "~33 ккал",
-      "bg": "#15837c",
-      "description": "Низкокалорийный продукт для контроля веса."
-    },
-    {
-      "id": "protein",
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "2.80 г",
-      "bg": "#f5722c",
-      "description": "Полноценный растительный белок для восстановления тканей."
-    },
-    {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "1.80 г",
-      "bg": "#e4a910",
-      "description": "Полезные полиненасыщенные жирные кислоты."
-    },
-    {
-      "id": "carbs",
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "1.60 г",
-      "bg": "#1a96cd",
-      "description": "Сложные углеводы для стабильного уровня сахара."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "isoflavones",
-      "slug": "isoflavones",
-      "name": "Изофлавоны",
-      "amount": "11 мг",
-      "bg": "#15837c",
-      "description": "Фитоэстрогены с антиоксидантными свойствами."
-    },
-    {
-      "id": "manganese",
-      "slug": "manganese",
-      "name": "Марганец",
-      "amount": "0.17 мг / 7% СН",
-      "bg": "#f5722c",
-      "description": "Активатор ферментов для защиты и крепости костей."
-    },
-    {
-      "id": "copper",
-      "slug": "copper",
-      "name": "Медь",
-      "amount": "0.12 мг / 13% СН",
-      "bg": "#66ab63",
-      "description": "Для кроветворения и эластичности сосудов."
-    },
-    {
-      "id": "vitamin-b2",
-      "slug": "vitamin-b2",
-      "name": "Витамин B2",
-      "amount": "0.07 мг / 5% СН",
-      "bg": "#1a96cd",
-      "description": "Участвует в производстве клеточной энергии."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Калий",
-      "amount": "118 мг / 3% СН",
-      "bg": "#e4a910",
-      "description": "Баланс жидкости и работа нервной системы."
-    },
-    {
-      "id": 117,
-      "slug": "calcium",
-      "name": "Кальций",
-      "amount": "120 мг / 9% СН",
-      "bg": "#15837c",
-      "description": "Важен для костей и мышц."
-    },
-    {
-      "id": 118,
-      "slug": "vitamin-d",
-      "name": "Витамин D",
-      "amount": "1 мкг / 5% СН",
-      "bg": "#f5722c",
-      "description": "Для усвоения кальция и иммунитета."
-    },
-    {
-      "id": 119,
-      "slug": "vitamin-b12",
-      "name": "Витамин B12",
-      "amount": "0.4 мкг / 17% СН",
-      "bg": "#66ab63",
-      "description": "Для здоровья крови и нервов."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Белок:</b> Содержит все незаменимые аминокислоты.",
-    "<b>Сердце:</b> Отсутствие холестерина и полезные жиры.",
-    "<b>Гормоны:</b> Изофлавоны мягко поддерживают баланс.",
-    "<b>Лактоза:</b> Полностью отсутствует, идеально для аллергиков.",
-    "<b>Сосуды:</b> Антиоксиданты защищают стенки артерий."
-  ],
-  "precautionsIntro": "Фитиновая кислота, аллергия и щитовидная железа: Умеренность важна.",
-  "precautions": [
-    "<b>Фитиновая кислота:</b> Может снижать всасывание минералов.",
-    "<b>Аллергия:</b> Возможна индивидуальная реакция на соевый белок.",
-    "<b>Щитовидная железа:</b> При избыточном потреблении может влиять на йод."
-  ]
+"slug": "soy-milk-unsweetened",
+"name": "Соевое молоко",
+"category": "Бобовые и продукты из бобовых",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "38 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "3.55 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "1.29 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "2.12 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0.7 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "58 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "0.16 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "3 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.063 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.084 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "0.236 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.055 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "20 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0.39 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "101 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "69 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "22 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "34 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "158 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "0.54 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "0.31 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0.108 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "1.9 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "23.6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.166 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "0.989 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "0.41 g"
+}
+]
 }

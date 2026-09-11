@@ -1,107 +1,279 @@
 {
-  "slug": "quail-egg",
+  "slug": "egg-quail-whole-fresh-raw",
   "name": "Quail Egg",
-  "category": "Dairy & Eggs",
-  "image": "/productinfo/quail-egg.png",
-  "imageAlt": "quail egg",
-  "description": "Quail eggs (Coturnix coturnix) represent a nutrient-dense avian reproductive cell matrix, exhibiting a superior micronutrient-to-caloric ratio compared to Gallus gallus domesticus eggs. The structure consists of a highly emulsified yolk fraction rich in phospholipids and lecithin, enclosed by a viscous albumin matrix containing potent antimicrobial proteins. This food serves as an elite biological reservoir for neuro-cellular precursors and hematopoiesis-stimulating factors, facilitating optimized metabolic homeostasis and immunological resilience through refined biochemical signaling.",
-  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
-  "macroIntro": "An ultra-dense protein and lipid architecture characterized by a lack of glycemic substrate and extreme bioavailability.",
-  "microIntro": "A highly concentrated repository of B-complex vitamins, bioavailable iron, and neuroprotective phospholipids.",
+  "category": "Dairy and Egg Products",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "158 kcal / 8% DV",
-      "bg": "#15837c",
-      "description": "Clean thermodynamic energy derived from long-chain lipid oxidation and complete amino acid proteolysis."
+      "amount": "158 kcal"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Protein",
       "slug": "protein",
-      "amount": "13.1 g / 26% DV",
-      "bg": "#f5722c",
-      "description": "A complete profile of essential amino acids required for rapid cellular repair and myofibrillar protein synthesis."
+      "amount": "13.05 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "11.1 g / 14% DV",
-      "bg": "#e4a910",
-      "description": "Lipid fraction rich in phospholipids, including lecithin, essential for neuronal signal transduction and plasma membrane integrity."
-    },
-    {
-      "id": 15,
+      "id": "15",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "0.4 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Negligible carbohydrate content, ensuring absolute blood glucose stability and zero insulinemic response."
+      "amount": "0.41 g"
+    },
+    {
+      "id": "16",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "11.09 g"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 138,
-      "name": "Choline",
-      "slug": "choline",
-      "amount": "263 mg / 48% DV",
-      "bg": "#66ab63",
-      "description": "A fundamental precursor for acetylcholine, the primary neurotransmitter involved in cognitive function and memory consolidation."
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0.3 mg"
     },
     {
-      "id": 25,
-      "name": "Vitamin B12",
-      "slug": "vitamin-b12",
-      "amount": "1.6 mcg / 66% DV",
-      "bg": "#1a96cd",
-      "description": "Vital for neural myelin sheath maintenance and erythropoiesis, preventing cellular energy decline."
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "1.4 mcg"
     },
     {
-      "id": 22,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "vitamin-b2",
-      "amount": "0.8 mg / 61% DV",
-      "bg": "#f5722c",
-      "description": "Crucial coenzyme involved in electron transport chains for ATP production and maintenance of ocular health."
-    },
-    {
-      "id": 32,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "3.7 mg / 21% DV",
-      "bg": "#e4a910",
-      "description": "High-bioavailability iron critical for oxygen transport within the heme-protein complex of erythrocytes."
-    },
-    {
-      "id": 24,
+      "id": "3",
       "name": "Vitamin A",
       "slug": "vitamin-a",
-      "amount": "156 mcg / 17% DV",
-      "bg": "#15837c",
-      "description": "Essential retinol precursor for ocular photosensitivity and systemic immune cell proliferation."
+      "amount": "156 mcg"
     },
     {
-      "id": 37,
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "1.08 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.79 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.15 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "1.761 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.15 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "66 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "1.58 mcg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.315 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.816 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.146 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.881 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.421 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.737 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.641 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.209 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.94 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.044 g"
+    },
+    {
+      "id": "27",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "64 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "226 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "13 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "141 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "132 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.65 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.47 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.062 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.038 mg"
+    },
+    {
+      "id": "40",
       "name": "Selenium",
       "slug": "selenium",
-      "amount": "32.0 mcg / 58% DV",
-      "bg": "#1a96cd",
-      "description": "Key mineral cofactor for glutathione peroxidase, protecting thyroid and cellular lipids from oxidative stress."
+      "amount": "32 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "263.4 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "11 mcg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.94 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "3.851 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.835 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.434 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.543 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Neuro-Cognitive Architecture Enhancement:</b> Synergistic action of choline and phospholipids boosts synaptic signal processing and long-term memory maintenance.",
-    "<b>Hematopoiesis and Oxygen Dynamics:</b> Optimized iron and B12 density directly elevates red blood cell maturation, effectively correcting systemic hypoxic fatigue.",
-    "<b>Immunomodulatory Histamine Regulation:</b> Bioactive ovomucoid proteins inhibit inflammatory cascades, providing potential clinical support in managing allergic response phenotypes.",
-    "<b>Structural Tissue Regeneration:</b> High-quality amino acid matrices provide immediate substrates for the repair of damaged tissue and accelerating metabolic recovery post-exertion."
-  ],
-  "precautionsIntro": "While biologically superior, industrial and home-based consumption requires adherence to specific protocols:",
-  "precautions": [
-    "<b>Microbiological Risk (Salmonella):</b> Pathogenic contamination remains a systemic risk regardless of avian species; mandatory thermal inactivation at 74C is required.",
-    "<b>Hyper-responsive Lipid Profiles:</b> The elevated cholesterol density in the yolk fraction requires quantitative monitoring by individuals with established cardiovascular hyper-reactivity.",
-    "<b>Proteomic Cross-reactivity:</b> Individuals with IgE-mediated sensitivities to standard egg albumins may demonstrate cross-reactivity with the homologous proteins found in quail eggs."
   ]
 }

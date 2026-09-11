@@ -1,108 +1,263 @@
 {
-  "slug": "dill",
-  "name": "Dill",
-  "category": "Greens / Aromatic Herbs",
-  "image": "/productinfo/dill.png",
-  "imageAlt": "fresh bunch of green dill",
-  "description": "Dill represents a highly active, non-accumulative vegetative phytomatrix belonging to the Apiaceae family, characterized by a concentrated profile of monoterpene-rich essential volatiles and structural polyelectrolytes. It acts as a potent exogenous smooth muscle relaxant and carminative agent, driven by unique liquid hydrocarbon fractions. This distinct botanical matrix systematically enhances intracellular radical scavenging cascades via high-density electron donors, modifies enteric microbiome adhesion kinetics, and upregulates the expression of endogenous hepatic detoxifying enzymes.",
-  "macroTitle": "Macro Nutrients (per 100g, fresh greens)",
-  "macroIntro": "The macronutrient configuration of fresh dill displays a minimal thermodynamic footprint, exhibiting an optimized ratio of nitrogenous plant proteins and non-starch structural fibers with negligible metabolic resistance.",
-  "microIntro": "As a highly specialized photosynthetic bio-reservoir, dill greens concentrate volatile secondary metabolites, vital transition metals, and essential mineral cofactors necessary for preserving vascular tone and immune homeostasis.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "43 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "A very low energy payload that enables unrestricted volumetric dietary integration without triggering adipocyte hypertrophy or postprandial glycemic volatility."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "3.5 g / 7% DV",
-      "bg": "#f5722c",
-      "description": "Composed of structurally diverse plant polypeptides and free amino acids, offering an efficient amino-acid enrichment for basic metabolic repair cycles."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "1.1 g / 2% DV",
-      "bg": "#e4a910",
-      "description": "A minor lipid profile, primarily comprising functional monoterpene fractions, polyunsaturated fatty acids, and essential surface membrane lipids."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "7.0 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Represented by a complex polysaccharide framework interwoven with insoluble fiber matrices, ensuring a slow, controlled carbohydrate release curve."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 21,
-      "name": "Vitamin C (L-Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "85 mg / 94% DV",
-      "bg": "#15837c",
-      "description": "An outstanding water-soluble reducing agent that drives leukocyte tracking, accelerates dermal extracellular matrix cross-linking, and provides direct cellular free-radical neutralization."
-    },
-    {
-      "id": 22,
-      "name": "Vitamin A (as Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "7700 IU / 154% DV",
-      "bg": "#f5722c",
-      "description": "A highly concentrated lipophilic provitamin essential for target nuclear gene transcription, secretory epithelial differentiation, and retinal opsin regeneration cycles."
-    },
-    {
-      "id": 32,
-      "name": "Calcium",
-      "slug": "calcium",
-      "amount": "208 mg / 21% DV",
-      "bg": "#66ab63",
-      "description": "An abundant mineral macroelement involved in cross-membrane depolarization cascades, osteoblast-mediated skeleton fortification, and the structural execution of myofibrillar contraction."
-    },
-    {
-      "id": 33,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "6.6 mg / 37% DV",
-      "bg": "#e4a910",
-      "description": "A critical transition metal payload serving as the central coordination complex in non-heme metalloproteins, supporting regular erythrocyte hemoglobin synthesis and systemic oxygen delivery."
-    },
-    {
-      "id": 38,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "1.3 mg / 55% DV",
-      "bg": "#1a96cd",
-      "description": "A mandatory catalytic cofactor for mitochondrial manganese superoxide dismutase (MnSOD), serving as a primary line of defense against reactive oxygen species (ROS) in active tissues."
-    },
-    {
-      "id": 105,
-      "name": "Carvone and Limonene",
-      "slug": "compounds",
-      "amount": "High Bioactivity",
-      "bg": "#1a96cd",
-      "description": "Dominant volatile monoterpenes that systematically interfere with fungal and bacterial cell membrane integrity while modifying visceral calcium-channel kinetics."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Visceral Antispasmodic and Carminative Modulation:</b> Volatile monoterpenes (d-carvone and limonene) competitively inhibit voltage-gated calcium channels in intestinal smooth muscle, alleviating painful visceral spasms, accelerating gas dissolution, and resolving functional flatulence.",
-    "<b>Phytochemical Antimicrobial Screening:</b> Active essential oil vapors disrupt the hydrophobic lipid bilayer of pathogenic enteric microbes, selectively suppressing species like Escherichia coli while preserving the microecology of symbiotic saccharolytic strains.",
-    "<b>Mitochondrial Protection and Radical Defense:</b> The dense integration of L-ascorbic acid, manganese, and beta-carotene acts as an multi-layered redox buffer, neutralizing hydroxyl and superoxide radicals to prevent cellular DNA mutations.",
-    "<b>Vascular Endothelial Homeostasis:</b> Dill-derived vicenin and kaempferol flavonoids trigger endothelial nitric oxide synthase (eNOS) pathways, optimizing arterial compliance, reducing vascular wall adhesion markers, and assisting in blood pressure stabilization."
-  ],
-  "precautionsIntro": "Despite its excellent culinary safety profile, the pharmacological and biochemical density of dill warrants clinical screening under certain medical or physiological parameters.",
-  "precautions": [
-    "<b>Furanocoumarin-Induced Cutaneous Photosensitivity:</b> Concentrated consumption of dill distillates or large therapeutic volumes introduces linear furanocoumarins, which intercalate into epidermal DNA, potentially precipitating UV-induced photodermatitis or erythema upon solar exposure.",
-    "<b>Hypotensive Vasomotor Deregulations:</b> Due to its continuous, active systemic calcium-channel blocking properties and smooth muscle relaxation, excess volume intake can induce peripheral vasodilation, resulting in lightheadedness or orthostatic hypotension in predisposed individual profiles.",
-    "<b>Apiaceae Family Cross-Reactive Allergenicity:</b> Specific structural proteins within dill can act as direct airborne or dietary antigens, inducing IgE-mediated cross-sensitization (Oral Allergy Syndrome) in patients displaying established clinical hypersensitivity to celery, carrot, or coriander.",
-    "<b>Uterine Smooth Muscle Activation:</b> Pharmacological or concentrated supplemental extractions of dill seeds and greens are contraindicated during gestation, as high doses of volatile apiol and carvone complexes can modulate myometrial contractility and alter uterine tone."
-  ]
+"slug": "dill-weed-fresh",
+"name": "Dill weed, fresh",
+"category": "Spices and Herbs",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "43 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "3.46 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "7.02 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "1.12 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "2.1 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "85 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "386 mcg RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.058 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.296 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "1.57 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.397 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.185 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "150 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "208 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "66 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "55 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "61 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "738 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "6.59 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.91 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.146 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "1.264 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.071 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.195 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.159 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.246 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.011 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.065 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.068 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.014 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.154 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.142 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.169 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.096 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.013 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.082 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.798 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "5 mg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "3930 mcg"
+}
+]
 }

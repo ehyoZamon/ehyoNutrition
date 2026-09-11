@@ -1,108 +1,275 @@
 {
-  "slug": "caviar",
-  "name": "Caviar / Fish Roe",
-  "category": "Seafood",
-  "image": "/productinfo/caviar.png",
-  "imageAlt": "premium red and black fish roe",
-  "description": "Fish roe (caviar) is an elite, concentrated marine superfood characterized by a magnificent lipid profile and high protein density. Its botanical-like concentration of pre-formed Omega-3 fatty acids (EPA/DHA), Vitamin D, and Choline is engineered to optimize cognitive velocity, mitigate systemic inflammatory cytokines, and reinforce cellular membrane plasticity.",
-  "macroTitle": "Macro Nutrients (per 100g, sturgeon/salmon roe average)",
-  "macroIntro": "A nutrient-dense, ultra-low carbohydrate architecture featuring significant bioavailable animal protein and premium, essential fatty acid matrices.",
-  "microIntro": "A spectacular micronutrient profile presenting elite yields of lipid-soluble vitamins, B-complex groups, and rare marine trace minerals.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "250 kcal / 13% DV",
-      "bg": "#15837c",
-      "description": "Dense, functional energy derived from premium structural lipids and animal-sourced proteins."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "25.0 g / 50% DV",
-      "bg": "#f5722c",
-      "description": "Elite amino acid configuration essential for tissue repair and cellular synthesis."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "15.0 g / 19% DV",
-      "bg": "#e4a910",
-      "description": "Primary source of poly- and monounsaturated fatty acids, vital for membrane integrity."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "4.0 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Minimalist glycogen trace, perfectly compatible with ketogenic metabolic frameworks."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 151,
-      "name": "Omega-3 (EPA/DHA)",
-      "slug": "omega-3",
-      "amount": "6500 mg",
-      "bg": "#e4a910",
-      "description": "Marine concentration supporting neuronal myelin sheets and limiting systemic cytokine stress."
-    },
-    {
-      "id": 29,
-      "name": "Vitamin B12",
-      "slug": "vitamin-b12",
-      "amount": "20.0 mcg / 833% DV",
-      "bg": "#1a96cd",
-      "description": "Phenomenal coenzymatic yield essential for DNA replication and CNS health."
-    },
-    {
-      "id": 28,
-      "name": "Vitamin D3",
-      "slug": "vitamin-d",
-      "amount": "11.8 mcg / 59% DV",
-      "bg": "#f5722c",
-      "description": "Cholecalciferol source crucial for immune cell response and skeletal calcium transport."
-    },
-    {
-      "id": 149,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "65.5 mcg / 119% DV",
-      "bg": "#15837c",
-      "description": "Potent trace cofactor activating glutathione peroxidase for antioxidant defense."
-    },
-    {
-      "id": 24,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "11.9 mg / 66% DV",
-      "bg": "#66ab63",
-      "description": "Highly bioavailable heme iron optimizing blood oxygen carrier capacity."
-    },
-    {
-      "id": 152,
-      "name": "Choline",
-      "slug": "choline",
-      "amount": "490 mg",
-      "bg": "#1a96cd",
-      "description": "Neurological precursor for acetylcholine synthesis and hepatic lipid clearance."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Neuro-Cognitive Velocity:</b> High DHA concentrations incorporate into brain membranes, enhancing neurotransmitter receptor efficiency.",
-    "<b>Systemic Anti-Inflammation:</b> Marine Omega-3s optimize eicosanoid balance, suppressing pro-inflammatory pathways.",
-    "<b>Vascular Shielding:</b> Lipid profiles enhance HDL dynamics and support endothelial nitric oxide pathways.",
-    "<b>Hematopoiesis:</b> Vitamin B12 and heme iron synergistically accelerate erythrocyte replication and oxygen transport.",
-    "<b>Hormonal Matrix:</b> Bioavailable cholesterol and Vitamin D provide structural foundations for steroid hormone synthesis."
-  ],
-  "precautionsIntro": "Nutritional management regarding sodium, purines, and food safety:",
-  "precautions": [
-    "<b>Sodium Concentration:</b> Brined roe contains high sodium; hypertensive patients and individuals with CKD must restrict intake.",
-    "<b>Purine Content:</b> Purines increase systemic uric acid; individuals with gout or uric acid-related lithiasis should avoid excessive consumption.",
-    "<b>Biological Risk:</b> Raw/unpasteurized roe carries a risk of *Listeria*; pregnant and immunocompromised individuals should prioritize pasteurized variants."
-  ]
+"slug": "caviar",
+"name": "Caviar",
+"category": "Fish and seafood",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "264 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "24.6 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "4 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "17.9 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "2.9 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "271 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "1.89 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0.6 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.19 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.62 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.12 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "3.5 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.32 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "50 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "20 mcg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.65 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "1.0 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "2.1 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "1.8 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.65 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "1.1 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "1.3 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.32 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "1.3 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.02 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "6.5 g"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "275 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "356 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "300 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1500 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "181 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "11.88 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.95 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.11 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.05 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "65.5 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "490.9 mg"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.74 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.97 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "1.6 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.08 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "3.2 g"
+}
+]
 }

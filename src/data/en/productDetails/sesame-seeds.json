@@ -1,124 +1,293 @@
 {
-  "slug": "sesame-seeds",
-  "name": "Sesame Seeds",
-  "category": "Nuts and Seeds",
-  "image": "/productinfo/sesame-seeds.png",
-  "imageAlt": "dry raw whole white and black sesame seeds cascading from a small rustic wooden bowl",
-  "description": "Sesame seeds (Sesamum indicum) are an exceptionally dense, lipid-stable bioactive matrix renowned as one of the oldest cultivated oilseeds. Packed within their protective outer hulls is a highly sophisticated phytochemical landscape dominated by unique lignans—specifically sesamin and sesamolin. These specialized antioxidant compounds work synergistically with lipophilic tocopherols to provide phenomenal hepatic shield support, aggressively lower vascular lipid peroxidation, and regulate critical systemic inflammatory cascades.",
-  "macroTitle": "Macro Nutrients (per 100g, whole dried seeds)",
-  "macroIntro": "Sesame seeds feature an extremely concentrated, energy-dense macronutrient footprint driven by high-quality unsaturated fatty acids and premium structural plant proteins.",
-  "microIntro": "The cellular architecture of the sesame seed yields an extraordinary micronutrient reservoir, boasting elite concentrations of structural calcium, metabolic copper, and potent lipid-soluble lignans.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~573 kcal",
-      "bg": "#15837c",
-      "description": "A dense, highly efficient metabolic payload that yields sustained cellular energy and supports fat-soluble nutrient delivery vectors."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "17.7 grams",
-      "bg": "#f5722c",
-      "description": "A robust source of plant peptides containing an excellent amino acid balance, particularly rich in methionine and cysteine to support structural tissue repair."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "49.7 grams",
-      "bg": "#e4a910",
-      "description": "Dominated by heart-healthy monounsaturated and polyunsaturated fatty acids (oleic and linoleic), which dynamically optimize circulating lipid markers."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "23.4 grams",
-      "bg": "#1a96cd",
-      "description": "Mainly composed of non-starchy complex carbohydrates and a heavy structural dietary fiber matrix (~11.8g) that assists intestinal motility."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "calcium",
-      "slug": "calcium",
-      "name": "Calcium",
-      "amount": "975 mg / 98% DV",
-      "bg": "#15837c",
-      "description": "An astronomical macro-mineral payload (especially in unhulled seeds) vital for validating skeletal bone matrix densities and managing neuromuscular triggers."
-    },
-    {
-      "id": "sesamin-lignans",
-      "slug": "sesamin-lignans",
-      "name": "Sesamin & Sesamolin Lignans",
-      "amount": "Highly Concentrated",
-      "bg": "#f5722c",
-      "description": "Unique, powerful phytoestrogens that inhibit hepatic cholesterol synthesis, boost fatty acid oxidation, and scavenge circulating reactive oxygen species."
-    },
-    {
-      "id": "copper",
-      "slug": "copper",
-      "name": "Copper",
-      "amount": "4.1 mg / 453% DV",
-      "bg": "#66ab63",
-      "description": "An exceptional trace element concentration required for activating superoxide dismutase enzymes, cross-linking collagen, and driving iron absorption loops."
-    },
-    {
-      "id": "magnesium",
-      "slug": "magnesium",
-      "name": "Magnesium",
-      "amount": "351 mg / 88% DV",
-      "bg": "#1a96cd",
-      "description": "A deep intracellular mineral reserve that coordinates smooth vascular muscle relaxation, stabilizes blood pressure, and optimizes insulin receptor kinetics."
-    },
-    {
-      "id": "zinc",
-      "slug": "zinc",
-      "name": "Zinc",
-      "amount": "7.8 mg / 71% DV",
-      "bg": "#e4a910",
-      "description": "A critical structural component for over 300 metabolic enzymes, deeply involved in T-lymphocyte maturation and DNA replication stability."
-    },
-    {
-      "id": 51,
-      "slug": "iron",
-      "name": "Iron",
-      "amount": "14.6 mg / 81% DV",
-      "bg": "#15837c",
-      "description": "Crucial for hemoglobin production and oxygen transport throughout the body[cite: 1]."
-    },
-    {
-      "id": 52,
-      "slug": "manganese",
-      "name": "Manganese",
-      "amount": "2.5 mg / 107% DV",
-      "bg": "#66ab63",
-      "description": "Supports bone formation, metabolism, and serves as an antioxidant cofactor[cite: 1]."
-    },
-    {
-      "id": 53,
-      "slug": "vitamin-b1",
-      "name": "Vitamin B1 (Thiamin)",
-      "amount": "0.79 mg / 66% DV",
-      "bg": "#1a96cd",
-      "description": "Necessary for converting nutrients into energy and proper neurological function[cite: 1]."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Skeletal Density Fortification:</b> The massive, bioavailable <b>calcium and phosphorus</b> matrix structurally reinforces bone mineral networks, combating early osteopenic progressions.",
-    "<b>Hepatic Cholesterol Modulation:</b> Specialized <b>sesamin lignans</b> systematically interfere with intestinal cholesterol absorption and suppress hepatic HMG-CoA reductase pathways.",
-    "<b>Antioxidant Vascular Defense:</b> Synergistic interaction between vitamin E isomers and sesamolin aggressively halts lipid peroxidation, protecting endothelial walls from plaque accumulation.",
-    "<b>Systemic Inflammation Attenuation:</b> High concentrations of <b>copper and zinc</b> downregulate pro-inflammatory cytokine expression cascades, providing targeted support for arthritic joint tissues.",
-    "<b>Metabolic Glucose Regulation:</b> Dense structural <b>magnesium</b> optimizes peripheral cellular sensitivity thresholds to insulin, stabilizing long-term plasma glucose responses."
-  ],
-  "precautionsIntro": "Sesame Oleosin Allergenic Hazards, High Lipophilic Energy Footprints, and Oxalate/Phytate Chelation Dynamics: Controlled dietary application ensures tissue safety.",
-  "precautions": [
-    "<b>Severe Oleosin Allergenic Triggers:</b> Sesame seeds contain specific structural storage proteins (<b>oleosins and globulins</b>). It is a recognized major allergen capable of triggering severe IgE-mediated hypersensitivity reactions, including systemic anaphylaxis.",
-    "<b>Oxalate and Phytic Mineral Binding:</b> The outer hull of the raw seed houses significant phytic acid and oxalate matrices that can bind dietary calcium and zinc. Utilizing light roasting, soaking, or mechanical crushing completely enhances mineral bioavailability.",
-    "<b>Caloric Density Management:</b> Due to the exceptionally high lipid concentration (~50% fat composition), unmanaged consumption can lead to unintended caloric surpluses. Portions should be structurally calibrated in metabolic diet plans."
-  ]
+"slug": "sesame-seeds-whole-dried",
+"name": "Sesame seeds",
+"category": "Nut and Seed Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "573 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "17.7 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "23.4 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "49.7 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "11.8 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.25 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.79 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.25 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "4.51 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.05 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.79 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "97 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "975 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "629 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "351 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "11 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "468 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "14.6 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "7.8 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "4.1 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "2.5 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "34.4 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "25.6 mg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "5 mcg"
+},
+{
+"id": "lycopene",
+"name": "Lycopene",
+"slug": "lycopene",
+"amount": "0 mcg"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "714 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.52 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.76 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "1.4 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.57 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.59 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.94 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.74 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.39 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.99 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "2.6 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "1.2 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.74 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.38 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "21.4 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "18.5 g"
+}
+]
 }

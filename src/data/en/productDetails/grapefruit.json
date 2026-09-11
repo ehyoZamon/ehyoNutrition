@@ -1,108 +1,197 @@
 {
-  "slug": "grapefruit",
-  "name": "Grapefruit",
-  "category": "Fruits & Berries",
-  "image": "/productinfo/grapefruit.png",
-  "imageAlt": "fresh juicy ruby red grapefruit",
-  "description": "Grapefruit (Citrus × paradisi) is a highly functional citrus fruit valued for its sharp bitter-sweet profile and potent metabolic activity. Its botanical matrix—rich in Vitamin C, pectin, and specialized furanocoumarins—is engineered to modulate insulin sensitivity, drive antioxidant defense, and optimize cardiovascular endothelial tone.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "A clean, hydration-dense carbohydrate framework with a non-existent lipid profile, maximizing cellular fluid delivery.",
-  "microIntro": "A bioavailable micronutrient payload serving as a premier source of Vitamin C and bioactive organic compounds to reinforce immune kinetics and tissue matrix maintenance.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "42 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "Low energy density providing high volumetric satiety for weight management."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.8 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Minimalist plant protein content characteristic of moisture-rich citrus."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0.1% DV",
-      "bg": "#e4a910",
-      "description": "Negligible lipid baseline, supporting metabolic purity."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "10.7 g / 4% DV",
-      "bg": "#15837c",
-      "description": "Natural saccharides balanced by a functional dietary fiber matrix (~1.6g) for steady energy release."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 27,
-      "name": "Vitamin C",
-      "slug": "vitamin-c",
-      "amount": "31.2 mg / 35% DV",
-      "bg": "#1a96cd",
-      "description": "Antioxidant shield accelerating endogenous collagen synthesis and neutralizing free-radical stress."
-    },
-    {
-      "id": 143,
-      "name": "Vitamin A (Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "58 mcg / 6% DV",
-      "bg": "#f5722c",
-      "description": "Elite carotenoid essential for retinal cell protection and epithelial health."
-    },
-    {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "135 mg / 3% DV",
-      "bg": "#66ab63",
-      "description": "Intracellular electrolyte regulating fluid homeostasis and vascular smooth muscle tone."
-    },
-    {
-      "id": 146,
-      "name": "Folate (Vitamin B9)",
-      "slug": "folate",
-      "amount": "13 mcg / 3% DV",
-      "bg": "#15837c",
-      "description": "B-vitamin supporting DNA replication and baseline amino acid conversions."
-    },
-    {
-      "id": 34,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "9 mg / 2% DV",
-      "bg": "#1a96cd",
-      "description": "Supports cellular energy pathways and neuromuscular stability."
-    },
-    {
-      "id": 147,
-      "name": "Calcium",
-      "slug": "calcium",
-      "amount": "12 mg / 1% DV",
-      "bg": "#e4a910",
-      "description": "Minor mineral contribution for structural matrix signaling."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Immune Kinetics:</b> High Vitamin C yields optimize white blood cell function and systemic defense barriers.",
-    "<b>Insulin Sensitivity:</b> Naringenin-rich profiles modulate cellular glucose uptake and stability.",
-    "<b>Vascular Integrity:</b> Pectin and potassium synergy promotes cholesterol clearance and endothelial health.",
-    "<b>Radical Neutralization:</b> Rich lycopene/flavonoid synergy protects cellular structures from oxidative degradation.",
-    "<b>Metabolic Speed:</b> High water-to-fiber ratio accelerates systemic detoxification and hydration."
-  ],
-  "precautionsIntro": "Pharmacological and gastrointestinal considerations regarding active compounds:",
-  "precautions": [
-    "<b>CYP3A4 Inhibition:</b> Furanocoumarins block intestinal enzymes responsible for drug metabolism (statins, calcium-channel blockers); check with a physician regarding medication compatibility.",
-    "<b>Mucosal Irritation:</b> Citric and malic acids may aggravate gastric reflux or active ulcers; caution advised for sensitive individuals.",
-    "<b>Enamel Erosion:</b> Low pH levels can temporarily demineralize dental enamel; rinse oral cavity with water after consumption."
-  ]
+"slug": "grapefruit-raw",
+"name": "Grapefruit",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "42 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.77 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "10.66 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.14 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "1.6 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "31.2 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "58 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.13 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.2 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.05 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "13 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "22 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "18 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "9 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "135 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.08 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.07 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.03 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "7.7 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.04 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.02 g"
+},
+{
+"id": "lycopene",
+"name": "Lycopene",
+"slug": "lycopene",
+"amount": "1419 mcg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "686 mcg"
+}
+]
 }

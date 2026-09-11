@@ -1,108 +1,239 @@
 {
   "slug": "lean-beef",
   "name": "Lean Beef",
-  "category": "Meat & Poultry",
-  "image": "/productinfo/lean-beef.png",
-  "imageAlt": "lean beef cut",
-  "description": "Lean beef is a premier, structurally foundational animal whole food matrix. Offering an exceptionally high concentration of complete bioavailable proteins, critical mitochondrial B-vitamins, and highly absorbable trace minerals like heme iron and zinc, it serves as an elite dietary asset for skeletal muscle synthesis, neurological stamina, and cellular repair.",
-  "macroTitle": "Macro Nutrients (per 100g, cooked, lean cuts)",
-  "macroIntro": "The macronutrient profile of lean beef delivers a highly concentrated distribution of structural amino acids designed for immediate tissue repair and muscular preservation, with minimal fat interference.",
-  "microIntro": "Lean beef houses a spectacular crystalline pool of hyper-bioavailable animal coenzymes and essential trace elements that fuel cellular replication, blood manufacture, and hormonal balance.",
+  "category": "Beef Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "174 kcal / 9% DV",
-      "bg": "#15837c",
-      "description": "Provides efficient, nutrient-dense biological energy focused heavily on tissue synthesis rather than fat storage."
+      "amount": "291 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "26.1 g / 52% DV",
-      "bg": "#f5722c",
-      "description": "An elite complete protein source containing a perfect ratio of all essential amino acids to accelerate skeletal muscle synthesis and enzymatic remodeling."
+      "amount": "17.3 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "6.8 g / 9% DV",
-      "bg": "#e4a910",
-      "description": "Low in total lipids, consisting of a balanced mix of heart-healthy monounsaturated oleic acid and necessary saturated structural fats."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Completely free of carbohydrates or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
+      "amount": "0 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "24 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 21,
-      "name": "Vitamin B12 (Cobalamin)",
-      "slug": "vitamin-b12",
-      "amount": "2.6 mcg / 108% DV",
-      "bg": "#15837c",
-      "description": "An abundant animal-bound vitamin essential for the maintenance of neural myelin sheaths, red blood cell synthesis, and DNA replication."
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.08 mg"
     },
     {
-      "id": 43,
-      "name": "Zinc",
-      "slug": "zinc",
-      "amount": "6.2 mg / 56% DV",
-      "bg": "#f5722c",
-      "description": "A powerful concentration of highly bioavailable zinc, acting as a mandatory catalyst for testosterone manufacture, DNA synthesis, and immune defense signaling loops."
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.16 mg"
     },
     {
-      "id": 19,
-      "name": "Vitamin B3 (Niacin)",
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
       "slug": "vitamin-b3",
-      "amount": "5.3 mg / 33% DV",
-      "bg": "#66ab63",
-      "description": "Crucial for mitochondrial energy pathways, supporting DNA repair mechanisms and running cellular nutrient transformation cascades."
+      "amount": "3.54 mg"
     },
     {
-      "id": 42,
-      "name": "Iron (Heme)",
-      "slug": "iron",
-      "amount": "2.7 mg / 15% DV",
-      "bg": "#e4a910",
-      "description": "Packed with pristine animal heme iron that effortlessly crosses the intestinal lining to optimize oxygen distribution and hemoglobin replenishment."
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.32 mg"
     },
     {
-      "id": 34,
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.33 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "7 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "2.67 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.58 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.77 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.38 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.44 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.43 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.67 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.75 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.2 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.84 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.24 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "8 mg"
+    },
+    {
+      "id": "phosphorus",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": "215 mg / 17% DV",
-      "bg": "#1a96cd",
-      "description": "Works in a strict physiological loop with calcium to support structural bone matrix formulation and maintain cellular ATP energy configurations."
+      "amount": "154 mg"
     },
     {
-      "id": 99,
-      "name": "Creatine & Carnosine",
-      "slug": "creatine",
-      "amount": "High Bioactivity",
-      "bg": "#1a96cd",
-      "description": "Functional nitrogenous compounds that serve as an immediate phosphate reservoir for rapid ATP recycling during intense physical exertion."
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "17 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "59 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "267 mg"
+    },
+    {
+      "id": "fluoride",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "22.4 mcg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.83 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "3.57 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.01 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "18.1 mcg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.62 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "9.12 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "1.12 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "1.06 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.57 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Elite Muscle Architecture & Synthesis:</b> The vast, complete amino acid pool combined with natural creatine reserves fuels rapid lean skeletal muscle regeneration and prevents sarcopenic tissue decline.",
-    "<b>Neuro-Axonal Signaling and Endurance:</b> High Cobalamin (B12) pools work in absolute synergy with Niacin to optimize synaptic processing speed, preserve nerve insulation, and eliminate brain cell fatigue.",
-    "<b>Hyper-Efficient Erythropoiesis:</b> High distributions of animal-bound heme iron effortlessly bypass common digestive blocks to optimize continuous hemoglobin manufacture, correcting systemic fatigue markers.",
-    "<b>Endocrine System Optimization:</b> Unparalleled natural zinc densities provide the core architectural spark for endocrine pathways, supporting optimal metabolic regulation and physical recovery loops."
-  ],
-  "precautionsIntro": "While lean beef serves as a premier resource for physical and cellular stamina, specific preparation methods and biochemical compounds require careful tracking metrics.",
-  "precautions": [
-    "<b>High-Temperature Carcinogen Synthesis:</b> Subjecting beef to extreme direct dry heat—such as open-flame grilling or charring—causes native amino acids and creatine to react, synthesizing dangerous Heterocyclic Amines (HCAs) and Polycyclic Aromatic Hydrocarbons (PAHs). Marinating or gentle cooking configurations fully mitigate this risk.",
-    "<b>Purine Concentration Sizing:</b> Lean beef carries a concentrated purine distribution profile. For individuals navigating a historical clinical baseline of gout or hyperuricemia, intake frequencies must be managed to prevent joint crystallization.",
-    "<b>Heme Iron Oxidation Balance:</b> While highly absorbable, excessive bioconcentration of heme iron can theoretically trigger internal Fenton reactions, inducing localized oxidative stress in individuals with genetic iron-overload conditions like hemochromatosis.",
-    "<b>Sourcing Vector Distinctions:</b> Conventional feedlot beef frequently contains higher omega-6 ratios and trace antibiotic vectors due to grain-heavy diets. Opting for 100% grass-fed, pasture-raised lean cuts significantly improves the structural fatty acid profile and total antioxidant count."
   ]
 }

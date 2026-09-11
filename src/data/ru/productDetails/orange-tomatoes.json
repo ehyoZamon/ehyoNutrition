@@ -1,124 +1,245 @@
 {
-  "slug": "orange-tomatoes",
-  "name": "Оранжевый томат",
-  "category": "Овощи",
-  "image": "/productinfo/orange-tomatoes.png",
-  "imageAlt": "яркие мясистые оранжевые помидоры с гладкой кожицей и сочной мякотью",
-  "description": "Оранжевый томат — специализированная генетическая вариация семейства пасленовых с превосходной матрицей каротиноидов для защиты глаз и антиоксидантной поддержки. Главная ценность — высокая концентрация тетра-цис-ликопина, изомера с отличной биодоступностью, который помогает нейтрализовать радикалы и поддерживать здоровье сетчатки.",
-  "macroTitle": "Макронутриенты (на 100 г, свежая мякоть)",
-  "macroIntro": "Оранжевые томаты имеют легкую, богатую минералами структуру и низкий гликемический индекс.",
-  "microIntro": "Золотистая мякоть содержит биодоступный ликопин, катализаторы коллагена и минеральные соли.",
+  "slug": "tomatoes-orange-raw",
+  "name": "Помидоры, оранжевые, сырые",
+  "category": "Овощи и овощные продукты",
+  "macroTitle": "Макронутриенты (на 100 г)",
   "macroNutrients": [
     {
       "id": "calories",
-      "name": "Калорийность",
+      "name": "Калории",
       "slug": "",
-      "amount": "~18 ккал",
-      "bg": "#15837c",
-      "description": "Минимальная энергетическая ценность для быстрого обмена."
+      "amount": "16 ккал"
     },
     {
       "id": "protein",
       "name": "Белки",
       "slug": "protein",
-      "amount": "0.88 г",
-      "bg": "#f5722c",
-      "description": "Стандартный для пасленовых набор аминокислот."
+      "amount": "1.16 г"
     },
     {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "0.20 г",
-      "bg": "#e4a910",
-      "description": "Минимальное количество липидов."
-    },
-    {
-      "id": "carbs",
+      "id": "carbohydrates",
       "name": "Углеводы",
       "slug": "carbohydrates",
-      "amount": "3.89 г",
-      "bg": "#1a96cd",
-      "description": "Натуральные сахара и клетчатка (~1.2 г) для стабильного уровня глюкозы."
+      "amount": "3.18 г"
+    },
+    {
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "0.19 г"
+    },
+    {
+      "id": "fiber",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "0.9 г"
     }
   ],
+  "microTitle": "Витамины и минералы (на 100 г)",
   "microNutrients": [
     {
-      "id": "tetra-cis-lycopene",
-      "slug": "tetra-cis-lycopene",
-      "name": "Тетра-цис-ликопин",
-      "amount": "Высокая биодоступность",
-      "bg": "#15837c",
-      "description": "Изомер ликопина, легко усваиваемый без термообработки."
-    },
-    {
       "id": "vitamin-c",
+      "name": "Витамин C",
       "slug": "vitamin-c",
-      "name": "Витамин C (Аскорбиновая к-та)",
-      "amount": "13.7 мг / 15% СН",
-      "bg": "#f5722c",
-      "description": "Антиоксидант для иммунитета и синтеза коллагена."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Калий",
-      "amount": "237 мг / 5% СН",
-      "bg": "#66ab63",
-      "description": "Минерал для работы насоса клеток и снижения давления."
+      "amount": "16 мг"
     },
     {
       "id": "vitamin-a",
+      "name": "Витамин A",
       "slug": "vitamin-a",
-      "name": "Витамин A (Бета-каротин)",
-      "amount": "42 мкг / 5% СН",
-      "bg": "#1a96cd",
-      "description": "Важен для ночного зрения и защиты слизистых."
+      "amount": "75 мкг RAE"
     },
     {
-      "id": "folate",
-      "slug": "folate",
-      "name": "Витамин B9 (Фолат)",
-      "amount": "15 мкг / 4% СН",
-      "bg": "#e4a910",
-      "description": "Кофактор для ремонта ДНК и синтеза аминокислот."
+      "id": "vitamin-b1",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.046 мг"
     },
     {
-      "id": 96,
+      "id": "vitamin-b2",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.034 мг"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.593 мг"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Витамин B5",
+      "slug": "vitamin-b5",
+      "amount": "0.186 мг"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Витамин B6",
       "slug": "vitamin-b6",
-      "name": "Витамин B6 (Пиридоксин)",
-      "amount": "0.08 мг / 5% СН",
-      "bg": "#15837c",
-      "description": "Поддерживает нервную систему и иммунитет."
+      "amount": "0.06 мг"
     },
     {
-      "id": 97,
-      "slug": "copper",
+      "id": "vitamin-b9",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "29 мкг DFE"
+    },
+    {
+      "id": "calcium",
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "5 мг"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "29 мг"
+    },
+    {
+      "id": "magnesium",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "8 мг"
+    },
+    {
+      "id": "sodium",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "42 мг"
+    },
+    {
+      "id": "potassium",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "212 мг"
+    },
+    {
+      "id": "iron",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "0.47 мг"
+    },
+    {
+      "id": "zinc",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.14 мг"
+    },
+    {
+      "id": "copper",
       "name": "Медь",
-      "amount": "0.06 мг / 7% СН",
-      "bg": "#f5722c",
-      "description": "Необходима для производства энергии и транспорта железа."
+      "slug": "copper",
+      "amount": "0.062 мг"
     },
     {
-      "id": 98,
-      "slug": "vitamin-e",
-      "name": "Витамин E (Токоферол)",
-      "amount": "0.38 мг / 3% СН",
-      "bg": "#66ab63",
-      "description": "Защищает мембраны клеток от окисления."
+      "id": "manganese",
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.088 мг"
+    },
+    {
+      "id": "selenium",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "0.4 мкг"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.003 г"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.073 г"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.028 г"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Фитостеролы",
+      "slug": "phytosterols",
+      "amount": "4 мг"
+    },
+    {
+      "id": "histidine",
+      "name": "Гистидин",
+      "slug": "histidine",
+      "amount": "0.018 г"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Изолейцин",
+      "slug": "isoleucine",
+      "amount": "0.027 г"
+    },
+    {
+      "id": "leucine",
+      "name": "Лейцин",
+      "slug": "leucine",
+      "amount": "0.042 г"
+    },
+    {
+      "id": "lysine",
+      "name": "Лизин",
+      "slug": "lysine",
+      "amount": "0.042 г"
+    },
+    {
+      "id": "methionine",
+      "name": "Метионин",
+      "slug": "methionine",
+      "amount": "0.01 г"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Фенилаланин",
+      "slug": "phenylalanine",
+      "amount": "0.03 г"
+    },
+    {
+      "id": "threonine",
+      "name": "Треонин",
+      "slug": "threonine",
+      "amount": "0.029 г"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Триптофан",
+      "slug": "tryptophan",
+      "amount": "0.008 г"
+    },
+    {
+      "id": "valine",
+      "name": "Валин",
+      "slug": "valine",
+      "amount": "0.03 г"
+    },
+    {
+      "id": "arginine",
+      "name": "Аргинин",
+      "slug": "arginine",
+      "amount": "0.029 г"
+    },
+    {
+      "id": "glycine",
+      "name": "Глицин",
+      "slug": "glycine",
+      "amount": "0.029 г"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Тирозин",
+      "slug": "tyrosine",
+      "amount": "0.02 г"
     }
-  ],
-  "healthBenefits": [
-    "<b>Биодоступные антиоксиданты:</b> Ликопин усваивается без нагревания.",
-    "<b>Защита глаз:</b> Каротиноиды поддерживают здоровье сетчатки.",
-    "<b>Баланс жидкости:</b> Калий снижает риск отеков.",
-    "<b>Иммунитет:</b> Витамин С укрепляет защитные силы.",
-    "<b>Вес:</b> Высокое содержание воды помогает контролю аппетита."
-  ],
-  "precautionsIntro": "Соланин, кислотность и гистамин: Учитывайте индивидуальные реакции.",
-  "precautions": [
-    "<b>Соланин:</b> Может провоцировать воспаления при аутоиммунных заболеваниях.",
-    "<b>Кислотность:</b> Яблочная и лимонная кислоты раздражают желудок при гастрите.",
-    "<b>Гистамин:</b> Томаты могут вызывать аллергические реакции у чувствительных людей."
   ]
 }

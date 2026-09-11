@@ -1,99 +1,189 @@
 {
-  "slug": "sour-cream",
-  "name": "Sour Cream",
-  "category": "Dairy Products",
-  "image": "/productinfo/sour-cream.png",
-  "imageAlt": "sour cream in a bowl",
-  "description": "Sour cream represents an advanced, high-density colloidal emulsion and fermented dairy phytomatrix derived from Bovine milk fat fractions, structurally generated through controlled homofermentative inoculation with specific lactic acid bacteria (primarily Lactococcus lactis subsp. lactis and cremoris). Operating as a potent physiological lipid vehicle, this matrix delivers a rich array of medium- and short-chain triacylglycerols bound alongside fat-soluble retinoid isomers and macroelements. The enzymatic conversion of native lactose into $L$-lactate during fermentation alters the structural conformation of micellar casein, transforming it into highly digestible acid-coagulated protein envelopes. This synergistic bio-system optimizes the cellular absorption of fat-soluble vitamins, introduces protective probiotic cohorts to the distal gut, and maintains transmembrane ion transport dynamics.",
-  "macroTitle": "Macro Nutrients (per 100g, 20% fat content)",
-  "macroIntro": "The macronutrient allocation of 20% sour cream reflects a concentrated lipid-dominant energy system designed for optimal cellular membrane synthesis and high thermodynamic efficiency.",
-  "microIntro": "A specialized physiological repository rich in bioavailable alkaline-earth elements, fat-soluble lipophilic vitamins, and active bacterial cultures that regulate gut microecology.",
+  "slug": "sour-cream-light",
+  "name": "Sour cream, light",
+  "category": "Dairy",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "206 kcal / 10% DV",
-      "bg": "#15837c",
-      "description": "A dense thermodynamic energy load driven primarily by the oxidative breakdown of concentrated lipid chains."
+      "amount": "136 kcal"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "20.0 g / 26% DV",
-      "bg": "#e4a910",
-      "description": "Dominated by saturated fatty acid fractions, alongside mono- and polyunsaturated lipids, which function as mandatory structural structural substrates for cellular envelopes."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "3.2 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Mainly comprised of residual unfermented lactose and free galactose disaccharide units within the aqueous whey phase."
-    },
-    {
-      "id": 14,
+      "id": "14",
       "name": "Protein",
       "slug": "protein",
-      "amount": "2.5 g / 5% DV",
-      "bg": "#f5722c",
-      "description": "High-biological-value protein consisting of partially hydrolyzed micellar caseins and water-soluble whey albumins."
+      "amount": "3.5 g"
+    },
+    {
+      "id": "36",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "10.6 g"
+    },
+    {
+      "id": "15",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "7.1 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 32,
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0.9 mg"
+    },
+    {
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.2 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "90 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.5 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.12 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.02 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "11 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.42 mcg"
+    },
+    {
+      "id": "28",
       "name": "Calcium",
       "slug": "calcium",
-      "amount": "80 mg / 8% DV",
-      "bg": "#15837c",
-      "description": "A critical structural mineral cation vital for skeletal hydroxyapatite mineralization and neuromuscular stimulus transmission."
+      "amount": "141 mg"
     },
     {
-      "id": 21,
-      "name": "Vitamin A (Retinol)",
-      "slug": "vitamin-a",
-      "amount": "180 mcg / 20% DV",
-      "bg": "#f5722c",
-      "description": "A fat-soluble lipophilic vitamin essential for rod-cell rhodopsin regeneration and the regulation of epithelial tissue differentiation."
-    },
-    {
-      "id": 117,
-      "name": "Lactic Acid Bacteria (Probiotics)",
-      "slug": "probiotics",
-      "amount": "High Concentration",
-      "bg": "#66ab63",
-      "description": "Live homofermentative cultures ($\ngeq 10^7$ CFU/g) that colonize intestinal mucosal sites, strengthening barrier integrity and excluding pathogens."
-    },
-    {
-      "id": 34,
+      "id": "29",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": "60 mg / 9% DV",
-      "bg": "#e4a910",
-      "description": "An essential element that works closely with calcium to format bone minerals and drive cellular adenosine triphosphate ($ATP$) synthesis."
+      "amount": "71 mg"
     },
     {
-      "id": 24,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "riboflavin",
-      "amount": "0.12 mg / 9% DV",
-      "bg": "#1a96cd",
-      "description": "A vital component of cellular respiration enzymes ($FMN$ and $FAD$) that direct mitochondrial energy extraction pathways."
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "10 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "83 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "212 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.016 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "3.1 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "19.2 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "21 mcg"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.16 g"
+    },
+    {
+      "id": "27",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.24 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "2.66 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Probiotic Colonization and Mucosal Barrier Reinforcement:</b> Live Lactococcus strains generate lactic acid within the intestinal lumen, dropping local pH to suppress pathogenic microflora while actively upregulating the synthesis of protective tight-junction proteins.",
-    "<b>Lipid-Mediated Chylomicron Assembly and Vitamin Absorption:</b> The highly bioavailable milk fat matrix stimulates standard biliary secretions, creating optimal mixed micelle formations that exponentially enhance the absorption of lipophilic vitamins from co-ingested vegetables.",
-    "<b>Phospho-Calcic Synergy for Skeletal Hydroxyapatite Deposition:</b> Naturally balanced ratios of calcium and phosphorus are absorbed across the enterocyte brush border, traveling to bone matrices to optimize osteoblast remodeling and maintain systemic bone mineral density.",
-    "<b>Acid-Coagulated Casein Digestion and Proteolytic Efficiency:</b> Microscopic curd precipitation driven by microbial lactic acid bypasses early gastric coagulation stages, accelerating pepsin cleavage and lowering postprandial energy expenditures during protein breakdown."
-  ],
-  "precautionsIntro": "Owing to its elevated saturation kinetics, lipid density, and raw dairy origins, sour cream deployment requires conscious monitoring across several clinical states:",
-  "precautions": [
-    "<b>Saturated Fat Accumulation and Atherogenic Profiles:</b> The prominent concentrations of long-chain saturated fatty acids can increase circulating low-density lipoprotein ($LDL$) cholesterol levels if consumed excessively, demanding restriction in advanced cardiovascular pathologies.",
-    "<b>Lactase Deficiency and Intestinal Osmotic Stress:</b> While fermentation significantly minimizes lactose content, lingering disaccharide concentrations can trigger bloating, flatulence, and osmotic diarrhea in individuals with profound primary or secondary lactase enzyme deficiency.",
-    "<b>Caloric Density Acceleration in Weight Management:</b> The high absolute thermodynamic values linked to 20% lipid structures can inadvertently disrupt negative energy balances; non-monitored ingestion poses challenges during therapeutic body weight reduction protocols."
   ]
 }

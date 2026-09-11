@@ -1,99 +1,275 @@
 {
-  "slug": "dates",
-  "name": "Dates",
-  "category": "Dried Fruits / Superfood",
-  "image": "/productinfo/dates.png",
-  "imageAlt": "dried date palm fruits",
-  "description": "Dried dates represent the naturally dehydrated drupe fruits of Phoenix dactylifera, functioning as a dense carbohydrate-mineral hydro-matrix and an advanced cellular energy substrate. Structurally, the fibrous pericarp packages a highly concentrated, low-moisture pool of inverted monosaccharide enantiomers, seamlessly integrated within a resilient structural scaffold of non-starch polysaccharides and insoluble lignins. This botanical architecture retains a sophisticated profile of bound phenolic compounds, including hydrophilic ferulic and coumaric acids, alongside essential cellular electrolyte ions. Operating as a fast-acting metabolic fuel and cytoprotective superfood, its specific osmotic properties and soluble fibers slow down upper luminal irritation while driving immediate systemic glycogen synthesis and optimizing vascular smooth muscle homeostasis.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient architecture of dried dates consists of a hyper-concentrated carbohydrate matrix dominated by instantly bioavailable simple hexoses, balanced by a minimal nitrogenous protein fraction.",
-  "microIntro": "A highly concentrated mineral and organic assembly exceptionally rich in intracellular fluid regulators, enzymatic cofactors, and protective plant polyphenols.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "277 kcal / 14% DV",
-      "bg": "#15837c",
-      "description": "High thermodynamic energy density originating from the immediate conversion of simple hexose monosaccharides into cellular adenosine triphosphate."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "75.0 g / 27% DV",
-      "bg": "#e4a910",
-      "description": "A dense monosaccharide blend composed of free D-fructose and D-glucose, providing rapid substrate availability for cellular glycolysis."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.8 g / 4% DV",
-      "bg": "#f5722c",
-      "description": "Minimal vegetable protein fractions consisting of non-essential amino acids embedded within the cellular walls of the pulp."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.15 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Trace lipophilic compounds mostly comprising structural surface cuticular waxes and membrane phospholipids."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "696 mg / 15% DV",
-      "bg": "#15837c",
-      "description": "A major intracellular cation critical for maintaining transmembrane resting potential, regulating blood volume, and driving myocardial polarization."
-    },
-    {
-      "id": 135,
-      "name": "Polyphenols (Flavonoids)",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#f5722c",
-      "description": "Hydrophilic phenolic acids and proanthocyanidins that neutralize free radicals and suppress vascular endothelial lipid peroxidation cascades."
-    },
-    {
-      "id": 110,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "6.7 g / 24% DV",
-      "bg": "#15837c",
-      "description": "A sophisticated network of beta-glucans, pectins, and insoluble cellulose that regulates bowel transit and feeds beneficial colonic microbiota."
-    },
-    {
-      "id": 35,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "0.36 mg / 40% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace mineral cofactor required for cytochrome c oxidase function, iron assimilation, and cross-linking of dermal collagen fibers."
-    },
-    {
-      "id": 20,
-      "name": "Vitamin B6 (Pyridoxine)",
-      "slug": "vitamin-b6",
-      "amount": "0.25 mg / 15% DV",
-      "bg": "#1a96cd",
-      "description": "A vital water-soluble coenzyme that drives gluconeogenesis, amino acid transamination, and the synthesis of core neurotransmitters."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Immediate Dual-Channel Glycolytic Flux and Energy Replenishment:</b> The natural 1 to 1 balance of free D-glucose and D-fructose enables simultaneous transport via SGLT1 and GLUT5 intestinal enterocyte proteins, maximizing the velocity of hepatic glycogen synthesis.",
-    "<b>Peristaltic Optimization via Insoluble Polysaccharide Matrix:</b> High densities of non-digestible structural cellulose and lignins exert mechanical volumetric pressure along the colonic mucosal lining, accelerating transit dynamics to prevent chronic constipation.",
-    "<b>Potassium-Mediated Vascular Hyperpolarization and Pressure Regulation:</b> Elevated bioavailable potassium ions activate smooth muscle cell membrane channels, prompting intracellular hyperpolarization that causes vasodilation and a systemic down-regulation of arterial blood pressure.",
-    "<b>Phenolic Attenuation of Mucosal Inflammatory Transcription:</b> Native soluble polyphenols and tannins interact directly with free inflammatory radicals, directly intercepting oxidative stress cascades within the luminal epithelial layers."
-  ],
-  "precautionsIntro": "Owing to the hyper-concentrated nature of its monosaccharide substrate and specific structural surface adhesive properties, date consumption requires targeted clinical management:",
-  "precautions": [
-    "<b>Substantial Caloric Payload and Adipose Homeostasis Strain:</b> The elevated carbohydrate density per individual unit can rapidly generate a positive energy balance if volume is unmonitored, redirecting extra hexoses into hepatic triglyceride synthesis.",
-    "<b>Accelerated Postprandial Glucose Influx and Insulin Demand:</b> Exhibiting a moderate-to-high glycemic index, the rapid dissolution of its simple sugar pool induces swift elevations in blood glucose, requiring precise pancreatic beta-cell insulin response management in diabetic patients.",
-    "<b>Surface Cuticular Adhesion and Exogenous Microflora Accumulation:</b> The sticky, fructose-saturated outer epicarp acts as an active adhesive matrix for environmental dust, fungal spores, and bacterial contaminants, demanding thorough fluid decontamination prior to oral ingestion."
-  ]
+"slug": "dates-medjool",
+"name": "Dates",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "277 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.81 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "74.97 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.15 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "6.7 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "7 mcg RAE"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "2.7 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.05 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "1.61 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.805 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.249 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "15 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "64 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "62 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "54 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "696 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.9 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.44 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.362 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.296 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "89 mcg"
+},
+{
+"id": "lycopene",
+"name": "Lycopene",
+"slug": "lycopene",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "9.9 mg"
+},
+{
+"id": "betaine",
+"name": "Betaine",
+"slug": "betaine",
+"amount": "0.4 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.029 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.045 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.082 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.054 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.017 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.048 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.042 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.007 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.066 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.06 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.09 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.016 g"
+}
+]
 }

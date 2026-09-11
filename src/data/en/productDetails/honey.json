@@ -1,91 +1,191 @@
 {
-  "slug": "honey",
-  "name": "Honey",
-  "category": "Sweets / Superfood",
-  "image": "/productinfo/honey.png",
-  "imageAlt": "jar of natural honey",
-  "description": "Natural honey represents a highly concentrated, supersaturated aqueous-carbohydrate matrix and a dynamic biochemical bio-fluid produced by Apis mellifera through the complex enzymatic inversion of floral nectar. Structurally, it is an amorphous, high-density solution predominantly composed of monosaccharide enantiomers, stabilized within a low water-activity ecosystem where water content is less than or equal to 18 percent. This superfood features an advanced array of organic acids, active bee-derived enzymes, volatile aromatic monoterpenes, and complex plant-derived polyphenols. Operating as a potent natural antiseptic and thermodynamic energy substrate, its specific osmotic pressure and hydrogen peroxide-generating pathways exert pronounced inhibitory effects on pathogenic cellular envelopes, accelerate dermal tissue regeneration, and optimize systemic antioxidant plasma capacity.",
-  "macroTitle": "Macronutrients (per 100g)",
-  "macroIntro": "The macronutrient configuration of natural honey represents a dense pool of readily bioavailable hexose monosaccharides, requiring virtually zero preliminary luminal digestion for systemic absorption.",
-  "microIntro": "A highly specialized biological complex containing specific insect-derived enzymes, floral phenolic compounds, and vital trace element cofactors.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "304 kcal / 15% DV",
-      "bg": "#15837c",
-      "description": "High energy density originating from rapid cellular glycolysis and immediate metabolic conversion into adenosine triphosphate."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "82.4 g / 31% DV",
-      "bg": "#e4a910",
-      "description": "A supersaturated blend dominated by free D-fructose and D-glucose, along with minor functional oligosaccharide fractions."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.3 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Trace structural peptide units primarily representing active salivary enzymes secreted by honeybees during nectar processing."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 129,
-      "name": "Phenolic Compounds (Flavonoids)",
-      "slug": "antioxidants",
-      "amount": "Moderate Concentration",
-      "bg": "#f5722c",
-      "description": "Plant-derived polyphenols such as pinocembrin, chrysin, and quercetin that scavenge reactive oxygen species and downregulate pro-inflammatory cascades."
-    },
-    {
-      "id": 130,
-      "name": "Active Secretory Enzymes",
-      "slug": "enzymes",
-      "amount": "High Activity",
-      "bg": "#15837c",
-      "description": "A complex catalytic pool including glucose oxidase, invertase, and diastase, driving continuous biochemical preservation."
-    },
-    {
-      "id": 23,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "0.5 mg / 1% DV",
-      "bg": "#66ab63",
-      "description": "A water-soluble antioxidant vitamin that acts synergistically with native phenols to protect cellular structures from oxidative stress."
-    },
-    {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "52 mg / 1% DV",
-      "bg": "#1a96cd",
-      "description": "An essential intracellular cation contributing to the systemic balance of electrolytes and supporting vascular smooth muscle cells."
-    },
-    {
-      "id": 36,
-      "name": "Zinc",
-      "slug": "zinc",
-      "amount": "0.2 mg / 2% DV",
-      "bg": "#e4a910",
-      "description": "A critical trace mineral cofactor required for stabilizing catalytic protein domains and maintaining structural immune responses."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Enzymatic Hydrogen Peroxide Generation and Antibacterial Action:</b> Upon minor aqueous dilution, native glucose oxidase catalyzes the conversion of D-glucose into gluconic acid and hydrogen peroxide, generating a persistent, non-toxic antiseptic environment that degrades bacterial cell walls.",
-    "<b>Rapid Glycogen Resynthesis and ATP Replenishment:</b> The specific 1 to 1.2 ratio of free glucose to fructose allows for dual-channel intestinal absorption via SGLT1 and GLUT5 transporters, providing rapid, non-taxing hepatic glycogen restoration during prolonged physical exertion.",
-    "<b>Phenolic Modulation of Inflammatory Transcripts:</b> Active honey bioflavonoids suppress the nuclear translocation of nuclear factor-kappa B, directly downregulating the transcription of inducible nitric oxide synthase and cyclooxygenase-2.",
-    "<b>Peripheral Sensory Nerve Desensitization and Antitussive Effect:</b> The high-viscosity carbohydrate matrix forms a soothing protective film over laryngeal mucosal receptors, reducing afferent vagal nerve signaling to effectively mitigate acute cough reflexes."
-  ],
-  "precautionsIntro": "Owing to its high glycemic response, potential allergen accumulation, and natural bacterial spore persistence, honey integration requires strict clinical boundaries:",
-  "precautions": [
-    "<b>IgE-Mediated Polypeptide and Pollen Allergen Hypersensitivity:</b> Trace residual proteins, bee venom constituents, and cross-contaminating environmental pollens can trigger rapid immunoglobulin E-mediated hypersensitivity reactions in atopic individuals.",
-    "<b>Rapid Monosaccharide Influx and Pancreatic Beta-Cell Strain:</b> Exhibiting a high-to-moderate glycemic index typically ranging between 55 and 70, its rapid duodenal absorption induces sudden spikes in blood glucose, demanding substantial immediate insulin secretion from the pancreas.",
-    "<b>Spore Survival of Clostridium botulinum in Infant GI Tracts:</b> Natural honey can harbour dormant endospores of Clostridium botulinum. Due to the immature, non-competitive intestinal microflora and low gastric acidity of infants under 12 months of age, these spores can germinate, producing deadly neurotoxins."
-  ]
+"slug": "honey",
+"name": "Honey",
+"category": "Prepared Foods",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "304 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.3 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "82.4 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0.2 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0.5 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.038 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.121 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.024 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "2 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "6 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "4 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "2 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "4 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "52 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.42 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.22 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.036 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.8 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "2.2 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0 g"
+}
+]
 }

@@ -1,108 +1,185 @@
 {
-  "slug": "soybean-oil",
-  "name": "Soybean Oil",
-  "category": "Oils & Fats",
-  "image": "/productinfo/soybean-oil.png",
-  "imageAlt": "soybean oil",
-  "description": "Soybean oil is a highly popular, nutrient-dense botanical lipid extract. Exceptional for delivering an immense concentration of Vitamin K1 alongside a versatile profile of polyunsaturated fatty acids, it acts as an efficient medium for culinary applications and fat-soluble nutrient delivery.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "884 kcal / 44% DV",
-      "bg": "#15837c",
-      "description": "An immensely concentrated source of metabolic energy. Composed entirely of lipids, it requires careful portion management within your daily goals."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0 g / 0% DV",
-      "bg": "#f5722c",
-      "description": "Contains absolutely zero proteins or soy allergens (in highly refined versions) due to advanced extraction and purification procedures."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "100 g / 128% DV",
-      "bg": "#e4a910",
-      "description": "A 100% pure lipid matrix, loaded with polyunsaturated and monounsaturated fatty acids that act as premium cellular structural supports."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Completely devoid of sugars, starches, or dietary fibers, yielding a definitive zero glycemic response."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 5,
-      "name": "Vitamin K1 (Phylloquinone)",
-      "slug": "vitamin-k",
-      "amount": "183.9 mcg / 153% DV",
-      "bg": "#15837c",
-      "description": "An extraordinary mega-dose of this fat-soluble factor, absolutely essential for healthy blood coagulation mechanics and bone mineral retention."
-    },
-    {
-      "id": 2,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "8.1 mg / 54% DV",
-      "bg": "#1a96cd",
-      "description": "A potent fat-soluble antioxidant that actively targets and neutralizes free radicals, safeguarding lipid membranes from oxidation."
-    },
-    {
-      "id": 81,
-      "name": "Omega-6 (Linoleic Acid)",
-      "slug": "linolenic-acid",
-      "amount": "50.9 g",
-      "bg": "#f5722c",
-      "description": "An essential polyunsaturated fatty acid that serves as a core structural element for building fluid, responsive cellular membranes."
-    },
-    {
-      "id": 80,
-      "name": "Omega-3 (Alpha-Linolenic Acid)",
-      "slug": "alpha-linolenic-acid",
-      "amount": "6.8 g",
-      "bg": "#66ab63",
-      "description": "A notable plant-based omega-3 fluid factor that assists in modulating systemic inflammatory pathways throughout vascular tissues."
-    },
-    {
-      "id": 82,
-      "name": "Omega-9 (Oleic Acid)",
-      "slug": "oleic-acid",
-      "amount": "22.6 g",
-      "bg": "#e4a910",
-      "description": "A monounsaturated fatty acid that provides excellent chemical stability and structural resistance to thermal oxidation during food processing."
-    },
-    {
-      "id": 78,
-      "name": "Phytosterols",
-      "slug": "phytosterols",
-      "amount": "470 mg",
-      "bg": "#1a96cd",
-      "description": "Plant sterols that actively block low-density lipoprotein (LDL) cholesterol reception channels inside the gut, helping balance systemic profiles."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Elite Bone Mineralization:</b> Boasting over 150% of the daily value of Vitamin K1, it strongly activates osteocalcin proteins, helping anchor calcium directly into the structural bone matrix.",
-    "<b>Vascular Wall Protection:</b> The rich distribution of plant phytosterols actively competes with dietary cholesterol in the gut, working to regulate low-density lipoprotein (LDL) assimilation.",
-    "<b>Cellular Membrane Fluidity:</b> Packed with essential linoleic acid (Omega-6), it offers structural lipids required to build and maintain flexible, responsive cell wall parameters.",
-    "<b>Enhanced Vitamin Bioavailability:</b> Functions as a highly effective fat transport vehicle, dramatically increasing the biological absorption of fat-soluble vitamins from companion foods."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>High Omega-6 to Omega-3 Balance:</b> Soybean oil is heavily weighted toward Omega-6 fats. Over-consumption without integrating clean Omega-3 sources (like wild-caught fish or flax) can skew tissue biomarkers toward a pro-inflammatory state.",
-    "<b>Blood Thinner (Anticoagulant) Interaction:</b> Because of the immense, dense concentration of Vitamin K1—which physically orchestrates blood clotting mechanisms—individuals taking prescription blood thinners (like Warfarin) must maintain highly consistent intake levels.",
-    "<b>Extreme Caloric Density:</b> Composed entirely of pure fats, a single tablespoon contains roughly 120 calories. Generous, unmeasured pouring can easily disrupt calibrated weight-management parameters.",
-    "<b>High-Heat Oxidation Limits:</b> While refined soybean oil has a relatively high smoke point, its high content of polyunsaturated links makes it susceptible to chemical breakdown if kept at extreme temperatures for too long, potentially creating toxic free-radical aldehydes."
-  ]
+"slug": "soybean-oil",
+"name": "Soybean oil",
+"category": "Legumes and Legume Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "900 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "100 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "12.2 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "184 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "0 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "0 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.05 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.01 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "0.2 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "6.62 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "50.9 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "21.4 g"
+}
+]
 }

@@ -1,108 +1,179 @@
 {
-  "slug": "wheat",
-  "name": "Wheat (Whole Grain)",
-  "category": "Cereals and Grains",
-  "image": "/productinfo/wheat.png",
-  "imageAlt": "organic whole grain wheat",
-  "description": "Whole grain wheat is a fundamental, high-energy agricultural staple serving as a primary carbohydrate substrate for cellular metabolic fuel. By preserving the bran and germ, it provides a dense matrix of complex carbohydrates, dietary fiber, B-complex vitamins, and essential minerals crucial for bioenergetics and gastrointestinal motility.",
-  "macroTitle": "Macro Nutrients (per 100g, raw whole grain)",
-  "macroIntro": "A dense framework of complex carbohydrates coupled with significant plant-derived protein and minimal lipid fractions.",
-  "microIntro": "A broad spectrum of micronutrients providing coenzymatic B-vitamins for the nervous system and essential metal-enzymatic minerals for cellular repair.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "340 kcal / 17% DV",
-      "bg": "#15837c",
-      "description": "High-efficiency energy base supporting muscular and cognitive output via gradual starch breakdown."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "13.2 g / 26% DV",
-      "bg": "#f5722c",
-      "description": "Significant plant protein (gluten fractions: gliadin/glutenin) essential for amino acid balance."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "2.5 g / 3% DV",
-      "bg": "#e4a910",
-      "description": "Clean lipid layer localized in the germ, rich in healthy fatty acids and Vitamin E isomers."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "72.0 g / 26% DV",
-      "bg": "#15837c",
-      "description": "Complex carbohydrate network supported by high dietary fiber (~12.2g), ensuring stable glycemic response."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 36,
-      "name": "Vitamin B1 (Thiamine)",
-      "slug": "vitamin-b1",
-      "amount": "0.42 mg / 35% DV",
-      "bg": "#1a96cd",
-      "description": "Coenzyme for pyruvate decarboxylation and ATP-energy conversion."
-    },
-    {
-      "id": 154,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "3.9 mg / 170% DV",
-      "bg": "#15837c",
-      "description": "Activates key metalloenzymes and supports bone matrix density."
-    },
-    {
-      "id": 148,
-      "name": "Phosphorus",
-      "slug": "phosphorus",
-      "amount": "288 mg / 23% DV",
-      "bg": "#1a96cd",
-      "description": "Structural mineral for phospholipid membrane synthesis and cellular energy storage."
-    },
-    {
-      "id": 34,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "126 mg / 30% DV",
-      "bg": "#f5722c",
-      "description": "Regulates neuromuscular conduction and enzymatic glucose breakdown."
-    },
-    {
-      "id": 24,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "3.9 mg / 22% DV",
-      "bg": "#66ab63",
-      "description": "Non-heme mineral assisting hemoglobin pool maintenance and tissue respiration."
-    },
-    {
-      "id": 156,
-      "name": "Zinc",
-      "slug": "zinc",
-      "amount": "2.6 mg / 24% DV",
-      "bg": "#e4a910",
-      "description": "Immune-modulating cofactor for DNA polymerase and tissue regeneration."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Glycogen Repletion:</b> Complex starches maintain muscle and liver glycogen without triggering insulin spikes.",
-    "<b>Peristaltic Stimulation:</b> High insoluble fiber content mechanically clears the GI tract and optimizes bowel movements.",
-    "<b>Mitochondrial Support:</b> B-vitamins catalyze Krebs cycle reactions for efficient cellular energy production.",
-    "<b>Microbiota Prebiotic:</b> Arabinoxylans nourish beneficial bifidobacteria and strengthen the intestinal barrier.",
-    "<b>Antioxidant Defense:</b> Phenolic compounds, such as ferulic acid, neutralize free radicals and protect membrane integrity."
-  ],
-  "precautionsIntro": "Nutritional considerations regarding gluten, mineral absorption, and refinement:",
-  "precautions": [
-    "<b>Celiac/Gluten Sensitivity:</b> Contains gluten (gliadin/glutenin), which triggers severe autoimmune damage in Celiac patients; strictly avoid if intolerant.",
-    "<b>Phytic Acid Chelating:</b> Phytic acid can inhibit iron/zinc absorption; utilize soaking, sprouting, or sourdough fermentation to neutralize.",
-    "<b>Refinement Dangers:</b> Modern white flour removes the bran and germ, leaving only pure starch, which elevates metabolic disease risks."
-  ]
+"slug": "wheat-flour-whole-grain-soft-wheat",
+"name": "Wheat flour",
+"category": "Cereal Grains and Pasta",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "332 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "9.61 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "74.5 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "1.95 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "13.1 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.53 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "1.9 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.297 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.188 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "5.347 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "1.011 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.191 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "28 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "33 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "323 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "117 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "3 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "394 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "3.71 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "2.96 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.475 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "3.4 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "12.7 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "31.2 mg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "5 mcg"
+}
+]
 }

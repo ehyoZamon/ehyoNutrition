@@ -1,124 +1,191 @@
 {
-  "slug": "pine-nuts",
-  "name": "Pine Nuts",
-  "category": "Nuts and Seeds",
-  "image": "/productinfo/pine-nuts.png",
-  "imageAlt": "shelled golden organic pine nuts in a wooden scoop",
-  "description": "Pine nuts are the highly nutrient-dense, lipid-rich seeds derived from specific cones of the genus Pinus (primarily Pinus sibirica and Pinus pinea). Celebrated for their rich, buttery flavor and delicate texture, they represent an elite metabolic fuel source. They feature a unique concentration of pinolenic acid, highly bioavailable plant proteins, and an exceptional neuro-protective mineral framework.",
-  "macroTitle": "Macro Nutrients (per 100g, raw kernels)",
-  "macroIntro": "Pine nuts deliver a concentrated, high-density macronutrient matrix built around premium polyunsaturated essential lipids, structured plant proteins, and low-glycemic complex carbohydrates.",
-  "microIntro": "Pine nuts possess a stellar biochemical micro-matrix, packed with therapeutic levels of manganese, zinc, vitamin E isomers, and specialized fatty acids that regulate metabolic signaling pathways.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~673 kcal",
-      "bg": "#15837c",
-      "description": "A high-density, clean metabolic energy payload derived almost entirely from structured, non-atherogenic plant lipids."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "13.7 grams",
-      "bg": "#f5722c",
-      "description": "An exceptionally bioavailable plant protein fraction, heavily rich in arginine, a critical precursor for endothelial nitric oxide production."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "68.4 grams",
-      "bg": "#e4a910",
-      "description": "Composed primarily of essential polyunsaturated and monounsaturated fatty acids, highlighted by the rare, anti-inflammatory pinolenic acid."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "13.1 grams",
-      "bg": "#1a96cd",
-      "description": "Low net impact carbohydrates closely bound within a structural prebiotic matrix of dietary plant fiber (~3.7g)."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "pinolenic-acid",
-      "slug": "pinolenic-acid",
-      "name": "Pinolenic Acid",
-      "amount": "Bioactive Lipid",
-      "bg": "#15837c",
-      "description": "A unique triple-unsaturated fatty acid exclusive to pine nuts that triggers the release of satiety peptides (CCK and GLP-1) in the gut."
-    },
-    {
-      "id": "manganese",
-      "slug": "manganese",
-      "name": "Manganese",
-      "amount": "8.8 mg / 383% DV",
-      "bg": "#f5722c",
-      "description": "An exceptional mineral concentration serving as an obligatory cofactor for mitochondrial superoxide dismutase (SOD) and structural bone synthesis."
-    },
-    {
-      "id": "vitamin-e",
-      "slug": "vitamin-e",
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "amount": "9.3 mg / 62% DV",
-      "bg": "#66ab63",
-      "description": "A powerful fat-soluble antioxidant that embeds within cellular lipid bilayers, protecting cell membranes from lipid peroxidation loops."
-    },
-    {
-      "id": "zinc",
-      "slug": "zinc",
-      "name": "Zinc",
-      "amount": "6.4 mg / 58% DV",
-      "bg": "#1a96cd",
-      "description": "A fundamental intracellular trace mineral required for T-cell maturation, DNA replication cascades, and optimal endocrine function."
-    },
-    {
-      "id": "magnesium",
-      "slug": "magnesium",
-      "name": "Magnesium",
-      "amount": "251 mg / 63% DV",
-      "bg": "#e4a910",
-      "description": "A crucial biological mineral that facilitates rapid ATP synthesis, dampens neuro-muscular hyper-excitability, and regulates vascular tone."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Iron",
-      "amount": "5.5 mg / 31% DV",
-      "bg": "#8c6bb1",
-      "description": "Essential for oxygen transport in the blood and cellular energy metabolism."
-    },
-    {
-      "id": "phosphorus",
-      "slug": "phosphorus",
-      "name": "Phosphorus",
-      "amount": "575 mg / 46% DV",
-      "bg": "#9e9e9e",
-      "description": "Vital for bone health, tooth formation, and energy production (ATP)."
-    },
-    {
-      "id": "vitamin-k",
-      "slug": "vitamin-k",
-      "name": "Vitamin K",
-      "amount": "53.9 mcg / 45% DV",
-      "bg": "#d81b60",
-      "description": "Crucial for blood coagulation and calcium regulation within bone tissue."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Satiety Peptide Activation & Appetite Regulation:</b> Natural **pinolenic acid** stimulates endocrine cells in the duodenum to secrete cholecystokinin (CCK), effectively muting systemic hunger signaling cascades.",
-    "<b>Endothelial Function & Vasodilation Support:</b> Massive relative concentrations of the amino acid **L-arginine** upscale nitric oxide pathways, expanding vascular paths and balancing blood pressure targets.",
-    "<b>Deep Membrane Lipophilic Shielding:</b> The synergy of natural **vitamin E** and copper neutralizes circulating free radicals, preserving vascular endothelial and neural sheet integrity.",
-    "<b>Mitochondrial SOD Enzyme Stimulation:</b> Astronomical thresholds of organic **manganese** optimize cellular energy cycles, accelerating defense paths against metabolic oxidative stress.",
-    "<b>Neuro-Endocrine Stabilization:</b> Sizable concentrations of bioavailable **magnesium and zinc** optimize central nervous system signaling pathways, aiding stress adaptation and deep sleep architectural loops."
-  ],
-  "precautionsIntro": "Pine Mouth Dysgeusia Phenomenon, High Lipid Energy Density, and Rapid Oxidation Parameters: Safe utilization involves tracking oxidation states and absolute portion volumes.",
-  "precautions": [
-    "<b>Pine Mouth Syndrome (Metallogeusia):</b> Consuming certain non-food species (such as Pinus armandii) can trigger a benign but disruptive gustatory disturbance characterized by a bitter, metallic taste appearing 1-3 days post-ingestion and lasting up to two weeks.",
-    "<b>Extreme Lipid Energy Density:</b> Due to the high structural oil concentration, unrestricted intake can rapidly shift metabolic caloric balances, requiring strict boundary management in weight-sensitive protocols.",
-    "<b>Rapid Oxidative Rancidity Realities:</b> The high fraction of delicate polyunsaturated fatty acids causes raw kernels to oxidize quickly when exposed to heat, light, or air, creating inflammatory lipid peroxides unless stored in cold vacuum settings."
-  ]
+"slug": "pine-nuts",
+"name": "Pine nuts",
+"category": "Nut and Seed Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "673 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "13.7 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "13.1 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "68.4 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "3.7 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "1 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "1 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "9 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "53.9 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "4 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "34 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "16 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "575 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "251 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "597 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "6 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "6 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "1 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.7 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "56 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.16 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "33.1 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "17.9 g"
+}
+]
 }

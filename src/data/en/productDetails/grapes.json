@@ -1,75 +1,197 @@
 {
-  "slug": "grapes",
-  "name": "Grapes",
-  "category": "Fruits",
-  "image": "/productinfo/grapes.png",
-  "imageAlt": "fresh juicy whole grapes with skin intact",
-  "description": "Grapes represent an advanced, highly specialized botanical berry matrix. They hold an exceptional distribution of fast-acting monosaccharides nested inside a dense, protective outer cuticle rich in stilbenoids—most notably monomeric *resveratrol*—alongside complex proanthocyanidins and anthocyanins in darker cultivars. Operating at the intersection of metabolic cellular energy and vascular biology, these molecules activate sirtuin pathways, enhance endothelial nitric oxide synthesis, and shield delicate cardiovascular structures from chronic free-radical decay.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient profile of raw grapes delivers a rapidly bioavailable cellular energy substrate structured to optimize physical and cognitive recovery while minimizing metabolic fatigue.",
-  "microIntro": "Grapes harbor a highly functional distribution of water-soluble radical scavengers and non-flavonoid polyphenols engineered to sustain cellular longevity and modulate systemic vascular tone.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "69 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "A moderately dense carbohydrate energy volume balanced by high cellular hydration, ideal for immediate ATP (cellular energy) regeneration."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.7 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Contains nominal plant-specific structural protein configurations that carry a negligible daily amino acid load."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually non-existent lipid fractions within the pulp, ensuring no interference with rapid carbohydrate absorption dynamics."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "18.1 g / 7% DV",
-      "bg": "#15837c",
-      "description": "Dominated by a 1:1 natural ratio of glucose and fructose, paired with 0.9 grams of structural fiber to provide rapid yet clean glycemic refueling."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 26,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "3.2 mg / 4% DV",
-      "bg": "#1a96cd",
-      "description": "Provides localized antioxidant protection, working in synergy with skin polyphenols to neutralize environmental free radicals."
-    },
-    {
-      "id": 94,
-      "name": "Resveratrol & Polyphenols",
-      "slug": "resveratrol",
-      "amount": "High Concentration",
-      "bg": "#66ab63",
-      "description": "A premier bioactive phytoalexin concentrated in the skin that upregulates anti-aging genes and directly defends endothelial tissue."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Sirtuin Pathway & Longevity Activation:</b> Native *resveratrol* mimics the biochemical effects of caloric restriction by directly activating SIRT1 genes, stimulating mitochondrial biogenesis and accelerating cellular repair protocols.",
-    "<b>Endothelial Relaxation & Microcirculation:</b> Complex grape polyphenols downregulate endothelin-1 (a vasoconstrictor) while boosting endothelial nitric oxide production, expanding blood vessels to improve overall perfusion and systemic pressure dynamics.",
-    "<b>Lipid Peroxidation & Plaque Mitigation:</b> Dense anthocyanin and flavonoid clusters intercept circulating free radicals, heavily reducing the oxidative modification of LDL cholesterol molecules to protect arterial walls.",
-    "<b>Organic Acid Digestive Mobilization:</b> Natural reserves of tartaric and malic acids lower luminal pH within the stomach, optimizing protein cleavage, stimulating gastric motility, and improving digestive enzyme flow."
-  ],
-  "precautionsIntro": "While raw grapes represent an outstanding asset for physical performance and vascular protection, their specific carbohydrate structure and agricultural traits require strategic management.",
-  "precautions": [
-    "<b>Postprandial Glycemic Excursions:</b> The high concentration of free monosaccharides (glucose and fructose) combined with low structural fiber can induce sharp blood glucose spikes. Individuals navigating type 2 diabetes or advanced insulin resistance must tightly regulate serving volumes.",
-    "<b>Cuticular Agricultural Accumulation:</b> Grapes possess a high surface-to-volume ratio and a waxy outer cuticle that aggressively traps chemical pesticide residues and anti-fungal treatments. Intensive mechanical washing, ozone treatment, or selecting certified organic varieties is highly recommended.",
-    "<b>Fructose Malabsorption & Fermentation:</b> Due to the high aggregate fructose load, individuals with sensitive digestive ecosystems or fructose malabsorption baselines may experience rapid colonic gas fermentation, driving bloating, cramps, or Osmotic diarrhea."
-  ]
+"slug": "grapes-raw",
+"name": "Grapes",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "83 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.9 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "19.4 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.2 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0.9 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "3.2 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "3 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.19 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "14.6 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.069 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.07 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.188 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.086 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "2 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "10 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "24 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "8 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "5 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "224 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.18 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.04 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.071 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "5.6 mg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "39 mcg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.011 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.037 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.007 g"
+}
+]
 }

@@ -1,84 +1,185 @@
 {
-  "slug": "coffee",
-  "name": "Coffee (Black)",
-  "category": "Beverages",
-  "image": "/productinfo/coffee.png",
-  "imageAlt": "cup of black coffee",
-  "description": "Black coffee represents an advanced aqueous vegetative extract and a highly complex, non-caloric phytochemical hydro-matrix derived from the thermally processed and roasted seeds of Coffea arabica or Coffea canephora. Structurally optimized during controlled pyrolysis, native green bean precursors undergo complex Maillard transformations and degradation, formatting a rich array of complex hydroxycinnamic acid derivatives, volatile melanoidins, and active purine alkaloids. Operating as a potent central nervous system stimulant, this clean infusion acts as a high-velocity physiological vehicle that seamlessly delivers a concentrated assembly of 1,3,7-trimethylxanthine and chlorogenic acid isomers ($CGA$). This bio-system actively crosses the blood-brain barrier to competitively block central adenosine pathways, upregulates systemic catecholamine release, enhances endothelial vascular responsiveness, and provides pronounced systemic radical-scavenging protection.",
-  "macroTitle": "Macro Nutrients (per 100 ml of brewed beverage)",
-  "macroIntro": "The macronutrient allocation of plain brewed black coffee represents a near-vacuum energy profile, maintaining virtually zero caloric, lipid, or peptide densities when consumed without exogenic additives.",
-  "microIntro": "A highly specialized aqueous repository of complex chlorogenic acid isomers, bio-stimulating methylxanthines, and key cellular-active mineral electrolytes.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "2 kcal / 0% DV",
-      "bg": "#15837c",
-      "description": "A nominal thermodynamic value derived from negligible organic traces, exerting no practical impact on daily metabolic energy expenditure."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Minimal residual carbohydrate complexes consisting of trace soluble dietary fibers and free monosaccharide units dissolved during hot water extraction."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 126,
-      "name": "Chlorogenic Acid (CGA)",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#15837c",
-      "description": "The predominant hydroxycinnamic acid polyphenol that drives robust systemic antioxidant defense and downregulates hepatic glucose-6-phosphatase activity."
-    },
-    {
-      "id": 123,
-      "name": "Caffeine (1,3,7-Trimethylxanthine)",
-      "slug": "caffeine",
-      "amount": "40-80 mg",
-      "bg": "#f5722c",
-      "description": "A highly bioavailable purine alkaloid that rapidly initiates competitive antagonism of central $A_1$ and $A_{2A}$ adenosine receptors."
-    },
-    {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "92 mg / 2% DV",
-      "bg": "#66ab63",
-      "description": "A vital intracellular mineral cation necessary for generating transmembrane action potentials and regulating myocardial electrical stability."
-    },
-    {
-      "id": 33,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "8 mg / 2% DV",
-      "bg": "#e4a910",
-      "description": "An essential element that coordinates with adenosine triphosphate ($ATP$) and modulates peripheral cellular insulin receptor sensitivity."
-    },
-    {
-      "id": 24,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "riboflavin",
-      "amount": "0.08 mg / 6% DV",
-      "bg": "#1a96cd",
-      "description": "A water-soluble coenzyme precursor generated and released during roasting, assisting mitochondrial electron transport chains."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Adenosine Blockade and Neurotransmitter Cascade Acceleration:</b> Active 1,3,7-trimethylxanthine targets central nervous system synapses, preventing the binding of accumulation-dependent adenosine to upregulate the downstream release of dopamine, norepinephrine, and acetylcholine.",
-    "<b>Lipolytic Substrate Mobilization and Glycogen Sparing:</b> Caffeine elevates intracellular cyclic adenosine monophosphate ($cAMP$) via phosphodiesterase inhibition, stimulating hormone-sensitive lipase to increase circulating free fatty acids for skeletal muscle oxidation.",
-    "<b>Chlorogenic Acid-Mediated Hepatic Glucose Downregulation:</b> Native $CGA$ isomers competitively inhibit glucose-6-phosphatase within hepatocyte networks, reducing accelerated gluconeogenesis and glycogenolysis, which subsequently optimizes postprandial insulin sensitivity.",
-    "<b>Melanoidin and Polyphenolic Radical Scavenging:</b> The synergistic combination of chlorogenic acids and high-molecular-weight roasting melanoidins neutralizes aggressive hydroxyl and peroxyl radicals, preventing downstream lipid bilayer peroxidation."
-  ],
-  "precautionsIntro": "Because of its rapid neuro-endocrine activation, alkaloid saturation kinetics, and secretagogue properties, black coffee deployment requires targeted management across specific clinical matrices:",
-  "precautions": [
-    "<b>Competitive Adenosine Inhibition and Sleep Architecture Degradation:</b> Due to its systemic half-life, afternoon consumption stalls the homeostatic accumulation of adenosine, delaying melatonin synthesis, prolonging sleep latency, and suppressing slow-wave delta sleep.",
-    "<b>Sympathomimetic Overstimulation and Myocardial Tachycardia:</b> In individuals exhibiting slow caffeine metabolism (variants of the $CYP1A2$ enzyme), elevated alkaloid levels induce persistent beta-1 adrenergic receptor stimulation, leading to elevated peripheral vascular resistance and acute blood pressure spikes.",
-    "<b>Parietal Cell Stimulation and Proton Pump Acceleration:</b> Bioactive coffee constituents trigger rapid gastrin release and acetylcholine signaling, markedly accelerating parietal cell hydrochloric acid ($HCl$) production, which can degrade compromised gastric mucosal layers.",
-    "<b>Duodenal Mineral Chelation and Accelerated Urinary Excretion:</b> Highly reactive chlorogenic structures and tannins can chelate dietary non-heme iron ($Fe^{3+}$) within the intestinal lumen, while the systemic alkaloid load induces a minor transient hypercalciuric effect."
-  ]
+"slug": "coffee-brewed",
+"name": "Coffee, brewed",
+"category": "Beverages",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "1 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.12 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.02 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.01 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0.1 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.014 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.076 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.191 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.001 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "2 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "2 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "3 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "3 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "49 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.01 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.02 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.002 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "2.6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.001 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0 g"
+}
+]
 }

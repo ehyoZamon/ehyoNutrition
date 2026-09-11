@@ -1,108 +1,191 @@
 {
-  "slug": "peanuts",
-  "name": "Peanuts",
-  "category": "Nuts & Seeds",
-  "image": "/productinfo/peanuts.png",
-  "imageAlt": "peanuts",
-  "description": "Peanuts are a potent, high-protein legume that functions nutritionally as an elite oilseed. Packing an exceptional abundance of structural plant proteins, heart-healthy monounsaturated lipids, and critical cellular cofactors like resveratrol and biotin, they serve as a top-tier functional whole food for metabolic stamina, tissue repair, and vascular health.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient blueprint of peanuts provides a high-caliber distribution of amino acids and dense lipids, engineered for sustained energy delivery and lean muscular preservation.",
-  "microIntro": "Peanuts contain a dense crystalline network of B-complex vitamins, antioxidant polyphenols, and foundational trace minerals critical for enzyme activation and genetic repair.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "567 kcal / 28% DV",
-      "bg": "#15837c",
-      "description": "A robust, highly concentrated biological energy matrix driven by premium plant fats and structural proteins, sustaining prolonged metabolic workflows."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "25.8 g / 52% DV",
-      "bg": "#f5722c",
-      "description": "An exceptionally high protein distribution for a botanical seed, offering rich pools of arginine and essential building blocks for deep cellular tissue repair."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "49.2 g / 63% DV",
-      "bg": "#e4a910",
-      "description": "Dominated by oleic acid (monounsaturated) and linoleic acid, providing structural lipids that preserve cellular membrane flexibility and drive fat-soluble absorption."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "16.1 g / 6% DV",
-      "bg": "#15837c",
-      "description": "Composed primarily of low-glycemic complex carbohydrates bundled within structural fibers, producing a remarkably flat postprandial glucose signature."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 25,
-      "name": "Vitamin B3 (Niacin)",
-      "slug": "vitamin-b3",
-      "amount": "12.1 mg / 75% DV",
-      "bg": "#15837c",
-      "description": "A massive concentration crucial for cellular DNA repair, optimal mitochondrial respiration, and the modulation of systemic lipid transport pathways."
-    },
-    {
-      "id": 30,
-      "name": "Vitamin B7 (Biotin)",
-      "slug": "vitamin-b7",
-      "amount": "17.5 mcg / 58% DV",
-      "bg": "#f5722c",
-      "description": "A primary metabolic coenzyme that aggressively coordinates fatty acid synthesis, gluconeogenesis, and cellular keratin structures."
-    },
-    {
-      "id": 40,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "1.1 mg / 122% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace catalyst necessary for optimal iron absorption, structural collagen cross-linking, and pristine neural signaling pathways."
-    },
-    {
-      "id": 35,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "168 mg / 40% DV",
-      "bg": "#e4a910",
-      "description": "Acts as a key coordinator in over 300 biochemical reactions, regulating neuromuscular relaxation, electrical cardiac tone, and smooth ATP assembly."
-    },
-    {
-      "id": 3,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "8.3 mg / 55% DV",
-      "bg": "#1a96cd",
-      "description": "A powerful fat-soluble shield that anchors into cellular lipid bilayers, halting the free-radical oxidation of circulating low-density lipoproteins."
-    },
-    {
-      "id": 50,
-      "name": "Resveratrol & Polyphenols",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#1a96cd",
-      "description": "Potent non-flavonoid polyphenols identical to those found in red grapes, known to stimulate sirtuin pathways and defend vascular wall elasticity."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Elite Endothelial & Vascular Protection:</b> High natural distributions of Niacin and the antioxidant *resveratrol* work in synergy to lower systemic inflammatory markers, enhancing localized nitric oxide synthesis for optimal blood vessel dilation.",
-    "<b>Robust Amino Acid Muscle Support:</b> Packing more protein than traditional tree nuts, its massive complete amino acid pool supports skeletal tissue regeneration, making it a premier resource for post-exertion muscular preservation.",
-    "<b>Mitochondrial Metabolic Synthesis:</b> The extensive concentration of Biotin and Niacin serves as the foundational catalytic spark for cellular fat and carbohydrate oxidation, optimizing daily energy conversion states.",
-    "<b>Glycemic and Satiety Regulation:</b> The rich interplay of rigid structural fibers, plant-bound proteins, and healthy monounsaturated fats delays gastric emptying, promoting long-term satiety and preventing sharp insulin responses."
-  ],
-  "precautionsIntro": "Despite their exceptional functional profile, peanuts possess high-reactivity allergen vectors and storage sensitivities that demand strict dietary management parameters.",
-  "precautions": [
-    "<b>Severe IgE-Mediated Allergenic Vectors:</b> Peanuts house highly stable storage proteins (like Ara h 1, 2, and 3) that can trigger immediate, life-threatening anaphylactic immune cascades in hypersensitive profiles. Cross-contamination parameters must be strictly managed.",
-    "<b>Fungal Aflatoxin Vulnerability:</b> Because peanuts mature underground, poor industrial harvesting or humid storage conditions can rapidly cultivate *Aspergillus flavus* molds. These produce dangerous aflatoxins, requiring careful sourcing of verified, crisp retail batches.",
-    "<b>Anti-Nutrient Phytic Acid Chelation:</b> Raw peanuts carry significant stores of phytic acid, which binds tightly to essential minerals like iron and zinc within the digestive tract. Opting for dry-roasted variants significantly reduces this binding load.",
-    "<b>Omega-6 to Omega-3 Structural Imbalances:</b> The lipid architecture of peanuts is heavily weighted toward Omega-6 polyunsaturated fatty acids. Excessive consumption without incorporating clean Omega-3 sources (like fish or flax) can skew systemic inflammatory balance metrics."
-  ]
+"slug": "peanuts",
+"name": "Peanuts",
+"category": "Nut and Seed Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "587 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "24.35 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "21.26 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "49.66 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "8.4 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "4.93 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.2 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "14.36 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.47 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "97 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "58 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "363 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "178 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "410 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "634 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "1.58 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "2.77 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.43 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "9.3 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "64.6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.03 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "9.7 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "25.4 g"
+}
+]
 }

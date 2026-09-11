@@ -1,108 +1,275 @@
 {
-  "slug": "salmon",
-  "name": "Wild Salmon",
-  "category": "Fish & Seafood",
-  "image": "/productinfo/salmon.png",
-  "imageAlt": "wild salmon",
-  "description": "Wild salmon is a premier, marine-derived therapeutic whole food matrix. Globally renowned for its unparalleled concentration of anti-inflammatory Omega-3 fatty acids (EPA and DHA), high-biological-value protein, and the legendary carotenoid antioxidant *astaxanthin*, it serves as an elite functional resource for neuro-vascular integrity, cellular recovery, and metabolic architecture.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient profile of wild salmon provides an optimized distribution of complete structural proteins and clean marine lipids, engineered for sustained energy delivery and deep muscle preservation.",
-  "microIntro": "Salmon contains an exceptional network of fat-soluble vitamins, mitochondrial coenzymes, and vital trace minerals that drive endogenous antioxidant networks and optimize thyroid conversion pathways.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "182 kcal / 9% DV",
-      "bg": "#15837c",
-      "description": "Provides moderate, clean biological energy derived from a pristine balance of structural amino acids and healthy anti-inflammatory fats."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "22.3 g / 45% DV",
-      "bg": "#f5722c",
-      "description": "An elite complete protein source containing all essential amino acids required for rapid muscular synthesis, tissue remodeling, and enzymatic manufacturing."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "10.4 g / 13% DV",
-      "bg": "#e4a910",
-      "description": "Dominated by highly fluid monounsaturated fats and essential polyunsaturated Omega-3 fatty acids that optimize vascular linings and brain cell structures."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Completely free of carbohydrates, fibers, or starches, ensuring an absolute zero impact on blood glucose curves or insulin shifts."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 50,
-      "name": "Omega-3 (EPA/DHA)",
-      "slug": "epa-dha",
-      "amount": "2018 mg",
-      "bg": "#15837c",
-      "description": "A monumental dose of pre-formed Eicosapentaenoic and Docosahexaenoic acids, which structurally integrate into cellular lipid bilayers to lower systemic inflammation."
-    },
-    {
-      "id": 29,
-      "name": "Vitamin B12 (Cobalamin)",
-      "slug": "vitamin-b12",
-      "amount": "3.2 mcg / 133% DV",
-      "bg": "#f5722c",
-      "description": "An abundant animal-bound vitamin critical for maintaining the nerve myelin sheath, optimizing red blood cell production, and preventing cognitive fatigue."
-    },
-    {
-      "id": 10,
-      "name": "Vitamin D3 (Cholecalciferol)",
-      "slug": "vitamin-d",
-      "amount": "11.1 mcg / 56% DV",
-      "bg": "#66ab63",
-      "description": "A rare natural food source of active Cholecalciferol, functioning as a master hormone to lock calcium securely into bones and modulate white blood cell paths."
-    },
-    {
-      "id": 45,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "36.5 mcg / 66% DV",
-      "bg": "#e4a910",
-      "description": "An essential trace mineral cofactor required for glutathione peroxidase activation, defending blood vessel walls and converting thyroid hormones."
-    },
-    {
-      "id": 101,
-      "name": "Astaxanthin",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#1a96cd",
-      "description": "A powerful marine carotenoid responsible for salmon's deep pink hue. It spans the entire cell membrane to aggressively scavenge free radicals."
-    },
-    {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "490 mg / 10% DV",
-      "bg": "#1a96cd",
-      "description": "A vital intracellular electrolyte that drives the sodium-potassium pump, lowering peripheral vascular tension and stabilizing electrical resting heart rates."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Neuro-Vascular & Endothelial Protection:</b> Staggering concentrations of EPA and DHA actively lower circulating triglycerides, reduce overall arterial plaque accumulation markers, and preserve pristine endothelial lining flexibility.",
-    "<b>Advanced Neuro-Axonal Endurance:</b> High Docosahexaenoic acid (DHA) reserves combine with massive Cobalamin (B12) pools to support structural gray matter architecture, optimize synaptic signaling speeds, and protect cognitive clarity.",
-    "<b>Systemic Anti-Inflammatory Cascade:</b> The unique pairing of long-chain Omega-3s with *astaxanthin* powerfully suppresses inflammatory cytokines, mitigating joint stiffness and protecting dermal cells from oxidative UV breakdown.",
-    "<b>Skeletal Framework & Muscle Architecture:</b> Natural Vitamin D3 facilitates hyper-efficient intestinal calcium absorption, working in perfect synergy with salmon's elite amino acid profile to lock minerals into bones and fuel lean muscular tissue repair."
-  ],
-  "precautionsIntro": "Even though wild salmon is an unmatched functional resource, certain environmental marine elements and unique lipid structures require careful management metrics.",
-  "precautions": [
-    "<b>Marine Environmental Mercury Tracking:</b> While wild salmon ranks exceptionally low in heavy metal bioconcentration compared to apex predators (like tuna or swordfish), regular screening of sourcing vectors is wise to ensure absolute systemic purity.",
-    "<b>Purine Concentration Parameters:</b> Salmon contains moderate to high levels of natural purines. If you navigate a clinical history of gout or hyperuricemia, daily serving frequencies must be carefully balanced to prevent uric acid crystallization in joint structures.",
-    "<b>Wild vs. Industrial Farmed Profiles:</b> Conventionally farmed salmon is frequently raised in crowded net-pens, resulting in drastically lower Omega-3 to Omega-6 ratios, potential exposure to synthetic antibiotics, and artificial dye treatments. Wild-caught or high-grade organic options are heavily preferred.",
-    "<b>Parasitic Nematode Risks in Raw Formats:</b> Consuming raw or undercooked salmon (such as in sashimi or ceviche) carries a distinct risk of containing live marine parasites like *Anisakis*. Ensuring the fish has undergone explicit blast-freezing treatments completely neutralizes this biological hazard."
-  ]
+"slug": "Salmon",
+"name": "Salmon",
+"category": "Fish and Seafood",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "208 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "20.40 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "13.40 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "3.90 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "11.00 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "58 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "3.55 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0.50 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.21 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "8.67 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "1.55 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.64 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "26 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "3.23 mcg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.55 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.97 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "1.62 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "1.87 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.63 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.84 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.86 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.21 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "1.11 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.15 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "1.96 g"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "9 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "240 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "27 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "59 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "363 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.34 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.36 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.04 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.01 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "24 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "78.50 mg"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.96 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.76 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "1.22 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.90 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "2.72 g"
+}
+]
 }

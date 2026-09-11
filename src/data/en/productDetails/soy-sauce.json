@@ -1,124 +1,257 @@
 {
-  "slug": "soy-sauce",
-  "name": "Soy Sauce",
-  "category": "Vegetables",
-  "image": "/productinfo/soy-sauce.png",
-  "imageAlt": "deep translucent dark amber soy sauce pooling elegantly in a small minimalist ceramic dipping bowl",
-  "description": "Soy sauce is a deeply fermented liquid condiment traditionally produced by fermenting a combined matrix of soybeans (Glycine max), cracked roasted wheat, water, and sodium chloride using specialized fungal cultures (Aspergillus oryzae or Aspergillus sojae). Over a prolonged aging window lasting months to years, complex microbial proteolysis splits dense plant globulin proteins into a dense array of free organic amino acids—most notably glutamic acid—while yeasts convert sugars into short-chain organic acids and complex aromatic esters. Operating within human culinary physiology, this highly concentrated dark amber extract acts as a profound gustatory stimulator, maximizing the expression of the savory (umami) receptor network and accelerating digestive proteolytic enzyme secretions.",
-  "macroTitle": "Macro Nutrients (per 100g, traditionally brewed profile)",
-  "macroIntro": "Soy sauce presents an intensely low-lipid fluid macro framework strictly dominated by hydrolyzed plant peptides and a high, concentrated mineral-saline baseline.",
-  "microIntro": "The dark aged condiment concentrates an exceptional volume of free amino acids, active organic fermentation acids, and a substantial, clinically significant sodium payload.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~53 kcal",
-      "bg": "#15837c",
-      "description": "A minor metabolic energy profile driven entirely by free amino acid fractions and residual fermentation sugars, presenting zero threat to fat storage metrics."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "8.14 grams",
-      "bg": "#f5722c",
-      "description": "Composed almost entirely of highly bioaccessible free amino acids and small peptides pre-digested by fungal proteases, making them instantly ready for intestinal assimilation."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.57 grams",
-      "bg": "#e4a910",
-      "description": "Practically non-existent lipid values, as vegetable soybean fats are systematically broken down or separated during the extensive fermentation and pressing cycles."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "4.93 grams",
-      "bg": "#1a96cd",
-      "description": "Derived primarily from the enzymatic breakdown of wheat starches, consisting of simple sugars that are largely consumed by active yeasts to form complex flavor compounds."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "sodium",
-      "slug": "sodium",
-      "name": "Sodium",
-      "amount": "5493 mg / 239% DV",
-      "bg": "#15837c",
-      "description": "An exceptionally high concentration of essential extracellular electrolyte used as a natural preservative, deeply impacting systemic osmotic fluid pressure structures."
-    },
-    {
-      "id": "glutamic-acid",
-      "slug": "glutamic-acid",
-      "name": "Free Glutamic Acid",
-      "amount": "Highly Concentrated",
-      "bg": "#f5722c",
-      "description": "A naturally occurring non-essential amino acid that directly binds to peripheral T1R1/T1R3 tongue receptors, generating the rich organoleptic umami response."
-    },
-    {
-      "id": "manganese",
-      "slug": "manganese",
-      "name": "Manganese",
-      "amount": "1.01 mg / 44% DV",
-      "bg": "#66ab63",
-      "description": "An active structural trace mineral cofactor that helps drive internal protein metabolism, connective tissue repair, and free radical defense mechanisms."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Iron",
-      "amount": "2.38 mg / 13% DV",
-      "bg": "#1a96cd",
-      "description": "A helpful baseline of metabolic trace mineral that assists in baseline hemoglobin maintenance and supports mitochondrial electron transport chains."
-    },
-    {
-      "id": "vitamin-b3",
-      "slug": "vitamin-b3",
-      "name": "Vitamin B3 (Niacin)",
-      "amount": "3.94 mg / 25% DV",
-      "bg": "#e4a910",
-      "description": "A crucial water-soluble cofactor synthesized during grain fermentation that optimizes metabolic cellular respiration and protects mucosal tissue integrity."
-    },
-    {
-      "id": 120,
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.14 mg / 8% DV",
-      "bg": "#15837c",
-      "description": "Supports neurotransmitter production and amino acid metabolic pathways."
-    },
-    {
-      "id": 121,
-      "slug": "vitamin-b2",
-      "name": "Vitamin B2 (Riboflavin)",
-      "amount": "0.06 mg / 5% DV",
-      "bg": "#f5722c",
-      "description": "Vital cofactor for energy release and maintaining systemic redox balance."
-    },
-    {
-      "id": 122,
-      "slug": "magnesium",
-      "name": "Magnesium",
-      "amount": "36 mg / 9% DV",
-      "bg": "#66ab63",
-      "description": "Supports over 300 enzymatic reactions, including energy production and muscle relaxation."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Profound Umami Receptor Activation:</b> Concentrated payloads of natural <b>free glutamic acid</b> engage savory taste receptors, instantly maximizing meal palatability and stimulating immediate salivary flow.",
-    "<b>Gastric and Digestive Secretion Induction:</b> The specific combination of organic fermentation acids and peptides signals the stomach to increase hydrochloric acid and pepsin output, improving overall digestive efficiency.",
-    "<b>Bioaccessible Plant Peptide Assimilation:</b> Prolonged microbial aging pre-digests dense legume proteins, supplying the jejunum with <b>instantly absorbable amino acids</b> requiring zero digestive energy expenditure.",
-    "<b>Salt-Reduction Culinary Utility:</b> Due to its highly concentrated, deeply savory taste profile, a minimal splash of soy sauce can replace much larger quantities of standard table salt, lowering net sodium usage.",
-    "<b>Antioxidant Fermentation Compounds:</b> Unique dark melanoidin compounds generated during the aging process exhibit noticeable free-radical scavenging capabilities, shielding gastrointestinal tissues from local oxidation."
-  ],
-  "precautionsIntro": "Severe Sodium Fluid Volume Strains, True Gluten/Soy Immunological Flares, and Biogenic Amine/Histamine Sensitivities: Conscious portioning protects cardiovascular and vascular tone.",
-  "precautions": [
-    "<b>Extreme Sodium and Fluid Volume Load:</b> Carrying an immense <b>~5493mg of sodium per 100g</b>, soy sauce demands strict portion control. Excessive use can cause rapid extracellular fluid retention, inducing sudden blood pressure elevations and placing acute stress on compromised renal or cardiac architectures.",
-    "<b>Biogenic Amine and Histamine Reactivity:</b> The lengthy natural fermentation process generates noticeable volumes of <b>histamine and tyramine</b>. Individuals suffering from Histamine Intolerance ($HIT$) or those taking monoamine oxidase inhibitors ($MAOIs$) may experience rapid headaches, flushing, or gastrointestinal distress.",
-    "<b>Latent Gluten and Soy Allergenic Risks:</b> Traditionally brewed varieties contain both <b>soybeans and wheat structural proteins</b>. While fermentation alters many peptide chains, individuals diagnosed with severe celiac disease, wheat allergies, or true soy hypersensitivity must exercise extreme caution or choose specialized gluten-free alternatives (such as Tamari)."
-  ]
+"slug": "soy-sauce-made-from-soy-tamari",
+"name": "Soy sauce",
+"category": "Legumes and Legume Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "60 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "10.5 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "5.57 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.1 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0.8 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "3.95 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.38 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.2 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "18 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "20 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "130 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "40 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "5586 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "212 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "2.38 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.43 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.8 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "38.4 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.21 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.49 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.73 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.73 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.17 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.53 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.41 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.18 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.52 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.01 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.04 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.02 g"
+}
+]
 }

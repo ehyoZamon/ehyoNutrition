@@ -1,0 +1,209 @@
+{
+"slug": "goat-meat",
+"name": "Козлятина",
+"category": "Мясо и яйца",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "109 kcal"
+},
+{
+"id": "protein",
+"name": "Белок",
+"slug": "protein",
+"amount": "20.60 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "2.31 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.11 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.49 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "3.75 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "5 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "1.13 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "13 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "180 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "385 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "82 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "2.83 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "4 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0.26 mg"
+},
+{
+"id": "manganese",
+"name": "Марганец",
+"slug": "manganese",
+"amount": "0.04 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "8.8 mcg"
+},
+{
+"id": "histidine",
+"name": "Гистидин",
+"slug": "histidine",
+"amount": "0.43 g"
+},
+{
+"id": "isoleucine",
+"name": "Изолейцин",
+"slug": "isoleucine",
+"amount": "1.04 g"
+},
+{
+"id": "leucine",
+"name": "Лейцин",
+"slug": "leucine",
+"amount": "1.72 g"
+},
+{
+"id": "lysine",
+"name": "Лизин",
+"slug": "lysine",
+"amount": "1.53 g"
+},
+{
+"id": "methionine",
+"name": "Метионин",
+"slug": "methionine",
+"amount": "0.55 g"
+},
+{
+"id": "phenylalanine",
+"name": "Фенилаланин",
+"slug": "phenylalanine",
+"amount": "0.71 g"
+},
+{
+"id": "threonine",
+"name": "Треонин",
+"slug": "threonine",
+"amount": "0.98 g"
+},
+{
+"id": "tryptophan",
+"name": "Триптофан",
+"slug": "tryptophan",
+"amount": "0.31 g"
+},
+{
+"id": "valine",
+"name": "Валин",
+"slug": "valine",
+"amount": "1.10 g"
+},
+{
+"id": "arginine",
+"name": "Аргинин",
+"slug": "arginine",
+"amount": "1.51 g"
+},
+{
+"id": "tyrosine",
+"name": "Тирозин",
+"slug": "tyrosine",
+"amount": "0.63 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.02 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Жирные кислоты Омега-6",
+"slug": "omega-6-fatty-acids",
+"amount": "0.10 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Жирные кислоты Омега-9",
+"slug": "omega-9-fatty-acids",
+"amount": "0.94 g"
+}
+]
+}

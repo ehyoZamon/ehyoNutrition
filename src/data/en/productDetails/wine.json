@@ -1,108 +1,209 @@
 {
-  "slug": "wine",
-  "name": "Wine (Dry)",
-  "category": "Beverages",
-  "image": "/productinfo/wine.png",
-  "imageAlt": "a glass of premium dry red wine",
-  "description": "Dry wine is a fermented botanical beverage characterized by a rich profile of bioactive polyphenols and metabolic signaling molecules. Its efficacy is rooted in the synergistic action of resveratrol, proanthocyanidins, and catechins, which are engineered to mitigate oxidative cascades, support vascular endothelial elasticity, and modulate longevity-associated sirtuin enzymes (SIRT1).",
-  "macroTitle": "Macro Nutrients (per 100g, average)",
-  "macroIntro": "A low-density carbohydrate and hydration framework derived from clean fermentation, providing a minor energy baseline through natural ethanol.",
-  "microIntro": "An organic profile featuring rare trace elements and bioavailable polyphenols that interact directly with cellular survival and antioxidant pathways.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "85 kcal / 4% DV",
-      "bg": "#15837c",
-      "description": "Energy derived from ethanol oxidation and minimal residual grape sugars."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.1 g / 0.2% DV",
-      "bg": "#f5722c",
-      "description": "Negligible amino acid profile, typical of highly clarified fermented botanical extracts."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Entirely lipid-free, maintaining systemic metabolic clarity."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "2.6 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Minimal unfermented saccharides providing an exceptionally flat glucose response."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 153,
-      "name": "Resveratrol",
-      "slug": "resveratrol",
-      "amount": "Active Trace",
-      "bg": "#e4a910",
-      "description": "Botanical compound stimulating SIRT1 longevity pathways and cellular defense."
-    },
-    {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "127 mg / 3% DV",
-      "bg": "#66ab63",
-      "description": "Intracellular electrolyte byproduct supporting systemic fluid equilibrium."
-    },
-    {
-      "id": 24,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "0.5 mg / 3% DV",
-      "bg": "#1a96cd",
-      "description": "Trace mineral contribution to baseline hemoglobin synthesis support."
-    },
-    {
-      "id": 34,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "12 mg / 3% DV",
-      "bg": "#f5722c",
-      "description": "Supports vascular smooth muscle relaxation and enzymatic metabolic stability."
-    },
-    {
-      "id": 154,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.1 mg / 5% DV",
-      "bg": "#15837c",
-      "description": "Cofactor essential for the activation of cellular antioxidant enzyme complexes."
-    },
-    {
-      "id": 148,
-      "name": "Phosphorus",
-      "slug": "phosphorus",
-      "amount": "23 mg / 2% DV",
-      "bg": "#1a96cd",
-      "description": "Minor mineral contribution facilitating structural energy transfers."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Vascular Endothelial Support:</b> Proanthocyanidins stimulate nitric oxide synthesis, enhancing blood flow kinetics.",
-    "<b>Longevity Stimulation:</b> Resveratrol acts on sirtuin systems, mimicking markers of caloric restriction for cellular repair.",
-    "<b>Antioxidant Clearance:</b> Polyphenol synergy neutralizes free radicals, preventing LDL oxidative degradation.",
-    "<b>Lipid Optimization:</b> Moderate intake may elevate HDL levels, supporting favorable cardiovascular lipid ratios.",
-    "<b>Microbiome Selectivity:</b> Natural tannins exert mild antimicrobial effects, assisting in gut microbiota balance."
-  ],
-  "precautionsIntro": "Toxicological considerations regarding ethanol, addiction, and allergenic compounds:",
-  "precautions": [
-    "<b>Hepatic Acetaldehyde Burden:</b> Ethanol metabolism produces acetaldehyde, a cytotoxic byproduct that stresses liver function and raises oncogenic risk.",
-    "<b>Addiction Dynamics:</b> Ethanol alters neurotransmitter balances (GABA/dopamine); total avoidance is recommended for those with hereditary dependency risks.",
-    "<b>Allergenic Triggers:</b> Naturally occurring histamines and sulfites may induce acute headaches or respiratory distress in sensitive populations."
-  ]
+"slug": "alcoholic-beverage-wine-table-all",
+"name": "Table Wine",
+"category": "Beverages",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "83 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.07 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "2.72 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.005 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.023 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.166 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.037 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.054 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "1 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "8 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "20 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "11 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "5 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "99 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.37 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.13 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.007 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.124 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.2 mcg"
+},
+{
+"id": "fluoride",
+"name": "Fluoride",
+"slug": "fluoride",
+"amount": "153 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "5 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0 g"
+}
+]
 }

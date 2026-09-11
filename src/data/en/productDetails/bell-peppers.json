@@ -1,140 +1,257 @@
 {
-  "slug": "bell-peppers",
-  "name": "Bell Peppers",
-  "category": "Vegetables",
-  "image": "/productinfo/bell-peppers.png",
-  "imageAlt": "bell peppers",
-  "description": "Bell peppers are a remarkably crisp, refreshing, and nutrient-dense vegetable. Containing an unparalleled mega-dose of Vitamin C alongside a rich array of protective carotenoid antioxidants, they serve as an elite whole food for optimizing immune defense, skin elasticity, and vision.",
+  "slug": "peppers-hungarian-raw",
+  "name": "Peppers, raw",
+  "category": "Vegetables and Vegetable Products",
   "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "31 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "Very low in calories and highly hydrating, making it an excellent volume food for blood sugar control and weight management."
+      "amount": "29 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.0 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Contains minor plant-based amino acids, serving as structural support within the vegetable's crisp cellular matrix."
+      "amount": "0.8 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free. However, pairing bell peppers with healthy dietary lipids (like olive oil) drastically boosts fat-soluble carotenoid absorption."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "6.0 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Composed of natural simple sugars (glucose, fructose) wrapped in structured dietary fibers, ensuring a negligible glycemic response."
+      "amount": "6.7 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.41 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "127.7 mg / 142% DV",
-      "bg": "#1a96cd",
-      "description": "An astronomical concentration that effortlessly beats citrus fruits, driving powerful collagen synthesis, tissue repair, and immune performance."
+      "amount": "92.9 mg"
     },
     {
-      "id": 2,
-      "name": "Vitamin A (Beta-Carotene)",
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
       "slug": "vitamin-a",
-      "amount": "157 mcg / 17% DV",
-      "bg": "#66ab63",
-      "description": "Rich in provitamin A carotenoids, which the body converts to active retinol to preserve night vision and maintain healthy mucosal barriers."
+      "amount": "41 mcg"
     },
     {
-      "id": 10,
-      "name": "Vitamin B6 (Pyridoxine)",
-      "slug": "vitamin-b6",
-      "amount": "0.29 mg / 17% DV",
-      "bg": "#f5722c",
-      "description": "Acts as a vital metabolic coenzyme required for the proper synthesis of red blood cells and neuro-signaling transmitters."
-    },
-    {
-      "id": 5,
+      "id": "4",
       "name": "Vitamin E",
       "slug": "vitamin-e",
-      "amount": "1.6 mg / 11% DV",
-      "bg": "#15837c",
-      "description": "A fat-soluble antioxidant that works in synergy with Vitamin C to protect cells from oxidative stress and support skin health."
+      "amount": "0.48 mg"
     },
     {
-      "id": 12,
-      "name": "Folate (Vitamin B9)",
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "9.9 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.079 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.055 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "1.092 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.205 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.517 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
       "slug": "vitamin-b9",
-      "amount": "46 mcg / 12% DV",
-      "bg": "#c0ca33",
-      "description": "Supports red blood cell formation, tissue growth, and cellular division throughout the body."
+      "amount": "53 mcg DFE"
     },
     {
-      "id": 32,
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "12 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "29 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "16 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "1 mg"
+    },
+    {
+      "id": "32",
       "name": "Potassium",
       "slug": "potassium",
-      "amount": "211 mg / 5% DV",
-      "bg": "#15837c",
-      "description": "An essential systemic electrolyte that coordinates electrical cardiac pulses, fluid pump mechanics, and balanced blood pressure levels."
+      "amount": "202 mg"
     },
     {
-      "id": 44,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.1 g / 8% DV",
-      "bg": "#1a96cd",
-      "description": "Provides crisp structural fibers that optimize transit time in the digestive tract and feed beneficial gut microbiomes."
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.46 mg"
     },
     {
-      "id": 59,
-      "name": "Lutein",
-      "slug": "lutein",
-      "amount": "440 mcg",
-      "bg": "#00acc1",
-      "description": "A powerful eye-protective carotenoid that filters harmful blue wavelengths and maintains long-term macular health."
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.3 mg"
     },
     {
-      "id": 60,
-      "name": "Zeaxanthin",
-      "slug": "zeaxanthin",
-      "amount": "11 mcg",
-      "bg": "#0288d1",
-      "description": "Concentrates directly in the central retina, working alongside lutein to protect cells against light-induced oxidative stress."
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.115 mg"
     },
     {
-      "id": "capsanthin",
-      "name": "Capsanthin",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#e4a910",
-      "description": "A powerful, unique antioxidant responsible for the bright red hue; it scavenges free radicals and assists in protecting cellular health."
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.204 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "7.7 mg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.016 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.026 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.042 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.036 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.025 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.034 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.24 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Unrivaled Immune System Defense:</b> Delivering over 140% of your daily Vitamin C in just 100g, bell peppers rapidly stimulate white blood cell production and bolster host defense mechanisms.",
-    "<b>Advanced Ocular Protection:</b> Loaded with lutein, zeaxanthin, and beta-carotene, frequent intake helps shield the retina from high-energy light damage and counteracts age-related visual degeneration.",
-    "<b>Dermal Integrity & Anti-Aging:</b> The heavy synthesis of Vitamin C works in perfect synergy with Vitamin E to maximize natural collagen assembly, improving vascular tone and skin elasticity.",
-    "<b>Enhanced Iron Bioavailability:</b> The incredible concentration of ascorbic acid transforms non-heme iron from companion plant-based foods into highly soluble, easily absorbable forms inside the gut."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Nightshade Sensitive Profile:</b> As prominent members of the nightshade family, bell peppers house trace alkaloids. While safe for the vast majority, individuals with specific autoimmune conditions or joint sensitivities may choose to track their tolerance.",
-    "<b>Gastrointestinal Skin & Seed Irritation:</b> The structural outer skin and internal seeds contain dense fibers that can sometimes be tough to process for sensitive stomachs, occasionally causing mild bloating or reflux unless peeled or cooked.",
-    "<b>Pesticide Surface Retention:</b> Because of their broad surface area and thin skins, conventionally farmed bell peppers can hold higher pesticide residues. Washing thoroughly or choosing organic options is beneficial.",
-    "<b>Cross-Reactive Pollen Allergies:</b> Individuals with specific seasonal allergies (such as birch or mugwort pollen) might experience mild cross-reactive oral allergy syndrome, presenting as itching in the mouth or throat."
   ]
 }

@@ -1,124 +1,245 @@
 {
-  "slug": "orange-tomatoes",
-  "name": "Orange Tomato",
-  "category": "Vegetables",
-  "image": "/productinfo/orange-tomatoes.png",
-  "imageAlt": "vibrant plump orange tomatoes with smooth glossy skin and juicy golden-orange internal flesh containing delicate seeds",
-  "description": "The orange tomato (Solanum lycopersicum) is a specialized genetic variation of the nightshade family, featuring a bioactively superior carotenoid matrix optimized for structural ocular defense and clean cellular antioxidant delivery. Unlike standard red variants, the core therapeutic value of orange tomatoes lies in their concentration of tetra-cis-lycopene (pro-lycopene), a highly bioavailable geometric isomer that requires minimal metabolic conversion. Operating within human biochemical systems, these advanced pigments neutralize lipid peroxides, protect hepatic pathways, and stabilize the delicate macular pigment layer of the retina.",
-  "macroTitle": "Macro Nutrients (per 100g, raw edible flesh)",
-  "macroIntro": "Orange tomatoes present an ultra-light, mineral-dense macro architecture that delivers essential fluid transport inside a low-glycemic structural matrix.",
-  "microIntro": "The brilliant golden-orange gel packs a premium reservoir of highly bioavailable cis-lycopene, structural tissue-building collagen catalysts, and vascular-soothing mineral salts.",
+  "slug": "tomatoes-orange-raw",
+  "name": "Tomatoes, orange, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "~18 kcal",
-      "bg": "#15837c",
-      "description": "An exceptionally lean energetic footprint driven by minimal organic sugars, allowing for immediate metabolic conversion without glycogen stress."
+      "amount": "16 kcal"
     },
     {
       "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "0.88 grams",
-      "bg": "#f5722c",
-      "description": "Provides small structural amino acid fractions, demonstrating a standard, minimal plant-peptide baseline typical of high-hydration nightshades."
+      "amount": "1.16 g"
     },
     {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.20 grams",
-      "bg": "#e4a910",
-      "description": "A virtually negligible fat content consisting of basic plant lipid membranes, though incorporating healthy fats maximizes carotenoid absorption pathways."
-    },
-    {
-      "id": "carbs",
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "3.89 grams",
-      "bg": "#1a96cd",
-      "description": "Composed of light, natural hexose sugars balanced by structural plant fibers (~1.2g) that preserve an exceptionally flat blood glucose curve."
+      "amount": "3.18 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.19 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0.9 g"
     }
   ],
+  "microTitle": "Vitamins & Minerals (per 100g)",
   "microNutrients": [
     {
-      "id": "tetra-cis-lycopene",
-      "slug": "tetra-cis-lycopene",
-      "name": "Tetra-cis-lycopene (Pro-lycopene)",
-      "amount": "Highly Bioavailable",
-      "bg": "#15837c",
-      "description": "An elite geometric isomer of lycopene that bypasses structural heating requirements, absorbing efficiently into human plasma to lock down cellular oxidative stress."
-    },
-    {
       "id": "vitamin-c",
+      "name": "Vitamin C",
       "slug": "vitamin-c",
-      "name": "Vitamin C (L-Ascorbic Acid)",
-      "amount": "13.7 mg / 15% DV",
-      "bg": "#f5722c",
-      "description": "A vital water-soluble antioxidant catalyst that stimulates white blood cell mobilization, drives collagen assembly, and stabilizes vascular walls."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Potassium",
-      "amount": "237 mg / 5% DV",
-      "bg": "#66ab63",
-      "description": "An essential intracellular mineral electrolyte that effectively drives the sodium-potassium pump, reducing systemic vascular resistance and edema."
+      "amount": "16 mg"
     },
     {
       "id": "vitamin-a",
+      "name": "Vitamin A",
       "slug": "vitamin-a",
-      "name": "Vitamin A (Beta-Carotene)",
-      "amount": "42 mcg / 5% DV",
-      "bg": "#1a96cd",
-      "description": "A potent fat-soluble provitamin carotenoid critical for upgrading low-light vision pathways and sustaining mucosal cell shield barriers."
+      "amount": "75 mcg RAE"
     },
     {
-      "id": "folate",
-      "slug": "folate",
-      "name": "Vitamin B9 (Folate)",
-      "amount": "15 mcg / 4% DV",
-      "bg": "#e4a910",
-      "description": "An essential metabolic cofactor required for accelerating cellular DNA repair, managing amino acid synthesis, and supporting active erythropoiesis."
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.046 mg"
     },
     {
-      "id": 96,
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.034 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.593 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.186 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.08 mg / 5% DV",
-      "bg": "#15837c",
-      "description": "Supports neurotransmitter production, immune function, and hemoglobin synthesis."
+      "amount": "0.06 mg"
     },
     {
-      "id": 97,
-      "slug": "copper",
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "29 mcg DFE"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "5 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "29 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "8 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "42 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "212 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.47 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.14 mg"
+    },
+    {
+      "id": "copper",
       "name": "Copper",
-      "amount": "0.06 mg / 7% DV",
-      "bg": "#f5722c",
-      "description": "A critical metalloenzyme cofactor involved in energy production and iron transport."
+      "slug": "copper",
+      "amount": "0.062 mg"
     },
     {
-      "id": 98,
-      "slug": "vitamin-e",
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "amount": "0.38 mg / 3% DV",
-      "bg": "#66ab63",
-      "description": "A primary fat-soluble antioxidant protecting cellular membrane integrity from free radicals."
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.088 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.4 mcg"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.003 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.073 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.028 g"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "4 mg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.018 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.027 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.042 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.042 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.029 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.008 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.029 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.029 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.02 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Superior Bioavailable Antioxidant Defense:</b> The presence of <b>tetra-cis-lycopene</b> ensures maximum antioxidant absorption without cooking, actively shielding deep cellular lipids from systemic damage.",
-    "<b>Retinal and Macular Protection:</b> High levels of targeted <b>carotenoids</b> migrate into ocular tissues, protecting the delicate macula from oxidative breakdown and blue-light stress.",
-    "<b>Vascular Fluid Equilibrium:</b> A rich native payload of <b>potassium</b> balances extracellular fluids, smoothly reducing peripheral vascular tension and supporting cardiac rhythm.",
-    "<b>Immune and Collagen Synthesis:</b> Active L-ascorbic acid builds structural vascular elasticity while boosting cellular defense mechanisms against external pathogens.",
-    "<b>Metabolic Satiety and Weight Control:</b> Possessing a <b>94% water index</b> alongside gentle fiber, it provides cellular hydration and gastric volume while keeping caloric intake minimal."
-  ],
-  "precautionsIntro": "Solanine-Driven Inflammatory Loops, Organic Acid Reflux Triggers, and Histamine-Releasing Overloads: Precise clinical awareness ensures safe digestive processing.",
-  "precautions": [
-    "<b>Alkaloid Joint and Gastric Irritation (Solanine):</b> As prominent members of the nightshade family, orange tomatoes contain trace levels of steroidal glycoalkaloids like <b>solanine and tomatine</b>. In individuals with preexisting autoimmune conditions or chronic joint inflammation, these compounds can trigger systemic inflammatory loops.",
-    "<b>Organic Acid Gastroesophageal Reflux:</b> Orange tomatoes concentrate notable amounts of natural <b>malic and citric acids</b>. Individuals suffering from acute gastritis, active peptic ulcer disease, or GERD will experience painful mucosal burning and acid regurgitation upon ingestion.",
-    "<b>Endogenous Histamine Release Activation:</b> Tomatoes act as potent <b>histamine liberators</b> within the human gastrointestinal tract. Individuals diagnosed with histamine intolerance or mast cell activation syndrome (MCAS) may experience rapid systemic flares, including skin hives, abdominal cramps, or nasal congestion."
   ]
 }

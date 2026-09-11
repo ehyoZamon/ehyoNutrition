@@ -1,108 +1,191 @@
 {
-  "slug": "macadamia-nuts",
-  "name": "Macadamia Nuts",
-  "category": "Nuts & Seeds",
-  "image": "/productinfo/macadamia-nuts.png",
-  "imageAlt": "macadamia nuts",
-  "description": "Macadamia nuts are an ultra-premium, decadent structural whole food. Possessing the highest lipid concentration among common tree nuts, they are uniquely dominated by heart-healthy monounsaturated palmitoleic and oleic acids, making them an elite fuel source for cellular membrane integrity, cognitive performance, and deep metabolic satiety.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient configuration of macadamia nuts is characterized by a massive, clean lipid profile that serves as an incredibly efficient, slow-burning source of metabolic energy.",
-  "microIntro": "Beyond their healthy fats, macadamia nuts house a potent crystalline matrix of essential trace minerals, neuro-supportive B-vitamins, and dense antioxidant coenzymes.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "718 kcal / 36% DV",
-      "bg": "#15837c",
-      "description": "An exceptionally dense biological energy source, offering premium, highly concentrated clean lipid fuel for sustained cellular respiration."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "7.9 g / 16% DV",
-      "bg": "#f5722c",
-      "description": "Provides essential amino acid fractions supporting basic cellular tissue repair, enzymatic structural stability, and structural signaling pathways."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "75.8 g / 97% DV",
-      "bg": "#e4a910",
-      "description": "An unmatched, rich lipid matrix composed almost entirely of premium monounsaturated fatty acids that optimize vascular and neurological health."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "13.8 g / 5% DV",
-      "bg": "#15837c",
-      "description": "Mainly consisting of complex starches tightly bundled with dietary fibers, yielding an absolute minimal impact on blood glucose fluctuations."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 41,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "4.1 mg / 178% DV",
-      "bg": "#e4a910",
-      "description": "A staggering mega-dose of this trace element, acting as a mandatory cofactor for superoxide dismutase to drive systemic antioxidant cellular protection."
-    },
-    {
-      "id": 23,
-      "name": "Vitamin B1 (Thiamin)",
-      "slug": "vitamin-b1",
-      "amount": "1.2 mg / 100% DV",
-      "bg": "#1a96cd",
-      "description": "An indispensable coenzyme tracking carbohydrate and fat metabolic cascades, fueling central nervous system signaling and cognitive performance."
-    },
-    {
-      "id": 40,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "0.8 mg / 84% DV",
-      "bg": "#66ab63",
-      "description": "A major catalytic mineral necessary for structural collagen integration, non-heme iron absorption, and seamless neural communication channels."
-    },
-    {
-      "id": 19,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "8.6 g / 31% DV",
-      "bg": "#f5722c",
-      "description": "A robust structural fiber profile that slows digestive transit rates, stabilizing satiety markers and nourishing beneficial gut microorganisms."
-    },
-    {
-      "id": 35,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "130 mg / 31% DV",
-      "bg": "#15837c",
-      "description": "Assists in stabilizing resting vascular architecture, regulating smooth muscle tone, and driving efficient ATP energy synthesis loops."
-    },
-    {
-      "id": 38,
-      "name": "Iron (Non-Heme)",
-      "slug": "iron",
-      "amount": "3.7 mg / 21% DV",
-      "bg": "#1a96cd",
-      "description": "An excellent botanical reservoir of iron, supporting hemoglobin manufacture and upgrading systemic oxygen distribution channels."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Elite Cardiovascular Optimization:</b> Packed with monounsaturated fats—specifically *palmitoleic acid*, a rare Omega-7—macadamias actively lower systemic LDL cholesterol markers while defending the flexible, smooth lining of vascular walls.",
-    "<b>Neuro-Protective Metabolic Fuel:</b> The exceptional pairing of Thiamin (B1) and high-quality monounsaturated lipids optimizes cognitive processing speed, preserves structural myelin sheath architectures, and mitigates brain cell fatigue.",
-    "<b>Profound Insulin Sensitivity:</b> Its unique ultra-low carbohydrate profile combined with structural fiber prevents insulin spikes entirely, promoting a highly stable state of metabolic energy and suppressing sugar cravings.",
-    "<b>Superoxide Dismutase Activation:</b> The massive concentration of Manganese empowers internal antioxidant enzymes to hunt down circulating free radicals, shielding cells from permanent oxidative stress."
-  ],
-  "precautionsIntro": "While macadamia nuts offer elite structural and metabolic benefits, their distinct lipid density and unique chemical profile require careful integration parameters.",
-  "precautions": [
-    "<b>Extreme Energy Caloric Density:</b> Holding the highest fat percentage of any common nut, macadamias pack a massive caloric load per serving. Strict portion monitoring is highly required if your current parameters target aggressive fat loss.",
-    "<b>Omega-6 to Monounsaturated Ratios:</b> While incredibly low in inflammatory polyunsaturated fats compared to walnuts, heavy consumption can still alter balanced dietary lipid ratios if clean Omega-3 sources are absent from your lifestyle.",
-    "<b>Industrial Processing and Excess Sodium:</b> Commercially distributed macadamias are frequently roasted in low-grade seed oils and heavily dusted with sodium, which can fully reverse their natural cardiovascular benefits. Dry-roasted or raw un-salted variants are highly preferred.",
-    "<b>Severe Canine Toxicity:</b> Macadamia nuts house an un-identified systemic toxin unique to canines. Even minimal accidental ingestion can cause acute neurological weakness, vomiting, tremors, and hind-limb paralysis in household dogs."
-  ]
+"slug": "macadamia-nuts",
+"name": "Macadamia nuts",
+"category": "Nut and Seed Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "716 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "7.8 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "12.8 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "76.1 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "8 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0.7 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.57 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.71 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "2 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "10 mcg"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "70 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "198 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "118 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "353 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "363 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "2.65 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "1 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "1 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "11.7 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "45 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.20 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "1.3 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "44.4 g"
+}
+]
 }

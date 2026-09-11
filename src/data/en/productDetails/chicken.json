@@ -1,108 +1,287 @@
 {
-  "slug": "chicken",
-  "name": "Chicken Breast (Boneless, Skinless)",
-  "category": "Meat & Poultry",
-  "image": "/productinfo/chicken.png",
-  "imageAlt": "chicken breast cut",
-  "description": "Chicken breast is a premier, hyper-pure animal whole food matrix. Serving as the gold standard for clean, isolated protein delivery, it provides an exceptional concentration of complete structural amino acids, critical metabolic B-vitamins, and highly specialized intracellular compounds like anserine, making it an elite dietary asset for rapid muscle architecture remodeling and lean metabolic optimization.",
-  "macroTitle": "Macro Nutrients (per 100g, cooked, roasted)",
-  "macroIntro": "The macronutrient configuration of skinless chicken breast delivers an extraordinarily clean, near-isolated protein profile engineered for immediate tissue repair with zero carbohydrate interference and absolute minimal baseline lipids.",
-  "microIntro": "Chicken breast houses a potent crystalline pool of water-soluble mitochondrial coenzymes and vital cellular minerals designed to optimize continuous energy conversion and maintain vascular tone.",
+  "slug": "chicken-raw",
+  "name": "Chicken, meat and skin, raw",
+  "category": "Poultry Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "165 kcal / 8% DV",
-      "bg": "#15837c",
-      "description": "A low-density caloric footprint focused entirely on structural synthesis rather than biological energy storage, making it ideal for clean body composition mastery."
+      "amount": "215 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "31.0 g / 62% DV",
-      "bg": "#f5722c",
-      "description": "An exceptionally dense, high-caliber complete protein source containing a perfect ratio of all essential amino acids to accelerate skeletal muscle synthesis and cellular remodeling."
+      "amount": "18.6 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "3.6 g / 5% DV",
-      "bg": "#e4a910",
-      "description": "An incredibly lean lipid profile with minimal saturated fat, providing just enough essential structural lipids to maintain healthy cellular membrane frameworks."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Completely free of carbohydrates, fibers, or starches, ensuring an absolute zero impact on postprandial glucose fluctuations or insulin shifts."
+      "amount": "0 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "15.1 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 19,
-      "name": "Vitamin B3 (Niacin)",
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "1.6 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.2 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "41 mcg"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "1.5 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.06 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.12 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
       "slug": "vitamin-b3",
-      "amount": "13.7 mg / 86% DV",
-      "bg": "#15837c",
-      "description": "A massive concentration of niacin, absolutely essential for fueling the mitochondrial electron transport chain and driving efficient cellular ATP energy conversion."
+      "amount": "6.8 mg"
     },
     {
-      "id": 22,
-      "name": "Vitamin B6 (Pyridoxine)",
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.91 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": "0.6 mg / 35% DV",
-      "bg": "#f5722c",
-      "description": "An indispensable coenzyme running continuous amino acid transamination pathways, degrading glycogen stores, and synthesizing essential neurotransmitters."
+      "amount": "0.35 mg"
     },
     {
-      "id": 45,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "27.6 mcg / 50% DV",
-      "bg": "#66ab63",
-      "description": "A robust pool of this trace antioxidant mineral, actively driving glutathione peroxidase activity to scavenge free radicals and support thyroid hormone conversion."
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "6 mcg DFE"
     },
     {
-      "id": 34,
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.31 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.54 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.92 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.35 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.51 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.49 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.72 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.77 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.21 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.9 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.14 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "11 mg"
+    },
+    {
+      "id": "phosphorus",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": "228 mg / 18% DV",
-      "bg": "#e4a910",
-      "description": "Works in a tight physiological coordination loop with calcium to build structural bone matrix density and stabilize energetic ATP configurations."
+      "amount": "147 mg"
     },
     {
-      "id": 43,
-      "name": "Zinc",
-      "slug": "zinc",
-      "amount": "1.0 mg / 9% DV",
-      "bg": "#1a96cd",
-      "description": "An essential catalytic mineral that assists in cellular replication, structural protein translation loops, and deep immune response signaling."
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "20 mg"
     },
     {
-      "id": 31,
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "70 mg"
+    },
+    {
+      "id": "potassium",
       "name": "Potassium",
       "slug": "potassium",
-      "amount": "256 mg / 5% DV",
-      "bg": "#1a96cd",
-      "description": "A vital intracellular electrolyte that coordinates electrical neuromuscular transmissions and supports steady, healthy baseline fluid equilibrium."
+      "amount": "189 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.9 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.31 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.02 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "14.4 mcg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "2.88 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "5.17 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "1.17 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "1.22 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.6 g"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "59.7 mg"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "7.8 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "0 mcg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Elite Skeletal Muscle Architecture:</b> Packing an unparalleled complete amino acid density per calorie, it triggers rapid protein synthesis pathways, accelerating lean tissue recovery and preventing sarcopenic muscle decline.",
-    "<b>Mitochondrial ATP Energy Drive:</b> Staggering baseline concentrations of Niacin (B3) and Vitamin B6 maximize the breakdown of macro-nutrients into usable cellular fuel, effectively eliminating systemic metabolic fatigue.",
-    "<b>Endogenous Free-Radical Shielding:</b> High natural distributions of Selenium ignite master internal antioxidant mechanisms, reducing overall vascular oxidative stress markers and protecting cellular lipid layers.",
-    "<b>Skeletal Framework Stabilization:</b> Abundant phosphorus stores work in harmony with the dense amino acid matrix to promote structural bone remodeling, supporting long-term skeletal density."
-  ],
-  "precautionsIntro": "While chicken breast functions as an unmatched clean protein powerhouse, its specific culinary preparation vectors and sourcing parameters require targeted tracking metrics.",
-  "precautions": [
-    "<b>High-Temperature Mutagen Synthesis:</b> Subjecting chicken meat to extreme, direct dry heat—such as open-flame grilling, pan-searing, or charring—causes native amino acids and creatine to react, synthesizing dangerous Heterocyclic Amines (HCAs). Utilizing gentle cooking methods or acid-based marinades fully mitigates this risk.",
-    "<b>Pathogenic Bacterial Cross-Contamination:</b> Raw poultry can harbor highly resilient pathogens like *Salmonella* and *Campylobacter*. Maintaining strict kitchen sanitation, ensuring raw juices do not contact other foods, and cooking the meat to a verified internal temperature of 74°C (165°F) is mandatory to neutralize acute biological hazards.",
-    "<b>Industrial Sourcing & Fatty Acid Variance:</b> Conventionally raised industrial chicken frequently exhibits higher omega-6 to omega-3 ratios and may contain trace antibiotic vectors due to crowded grain-fed operations. Opting for organic, free-range, or pasture-raised chicken significantly improves total nutrient quality.",
-    "<b>Extreme Lipid Deficit Limitations:</b> Because skinless chicken breast is an almost entirely isolated protein vector with near-zero fat, relying heavily on it as a singular, long-term dietary component without pairing it with healthy external lipids can limit the efficient absorption of essential fat-soluble vitamins."
   ]
 }

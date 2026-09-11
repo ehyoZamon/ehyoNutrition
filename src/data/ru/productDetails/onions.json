@@ -1,115 +1,305 @@
 {
-  "slug": "onions",
-  "name": "Репчатый лук",
-  "category": "Овощи",
-  "image": "/productinfo/onion.png",
-  "imageAlt": "репчатый лук",
-  "description": "Репчатый лук — универсальный овощ, известный высоким содержанием фитонутриентов, особенно флавоноидов и соединений серы. Помимо придания глубины вкуса кулинарным блюдам, он обладает выраженными противовоспалительными и антиоксидантными свойствами, поддерживающими здоровье обмена веществ.",
+  "slug": "onions-raw",
+  "name": "Лук, сырой",
+  "category": "Овощи и овощные продукты",
   "macroTitle": "Макронутриенты (на 100 г)",
-  "macroIntro": "",
-  "microIntro": "",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Калории",
       "slug": "",
-      "amount": "40 ккал / 2% СН",
-      "bg": "#15837c",
-      "description": "Низкокалорийный продукт, богатый клетчаткой и биологически активными соединениями."
+      "amount": "40 ккал"
     },
     {
-      "id": 14,
-      "name": "Белки",
+      "id": "protein",
+      "name": "Белок",
       "slug": "protein",
-      "amount": "1.1 г / 2% СН",
-      "bg": "#f5722c",
-      "description": "Содержит небольшое количество растительного белка."
+      "amount": "1.10 г"
     },
     {
-      "id": 16,
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "0.1 г / 0% СН",
-      "bg": "#e4a910",
-      "description": "Содержит ничтожно малое количество жиров."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Углеводы",
       "slug": "carbohydrates",
-      "amount": "9.3 г / 3% СН",
-      "bg": "#15837c",
-      "description": "Содержит природные сахара и пребиотические пищевые волокна, полезные для микрофлоры кишечника."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 58,
-      "name": "Кверцетин",
-      "slug": "quercetin",
-      "amount": "15 мг",
-      "bg": "#66ab63",
-      "description": "Мощный флавоноидный антиоксидант, который помогает бороться с воспалениями и поддерживает здоровье сердца."
+      "amount": "9.34 г"
     },
     {
-      "id": 1,
-      "name": "Витамин C",
-      "slug": "vitamin-c",
-      "amount": "7.4 мг / 8% СН",
-      "bg": "#1a96cd",
-      "description": "Поддерживает иммунную функцию и помогает защитить клетки от окислительного повреждения."
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "0.10 г"
     },
     {
-      "id": 44,
+      "id": "fiber",
       "name": "Клетчатка",
       "slug": "fiber",
-      "amount": "1.7 г / 6% СН",
-      "bg": "#43a047",
-      "description": "Обеспечивает организм пребиотическими волокнами, такими как инулин, для питания полезных бактерий."
-    },
-    {
-      "id": 10,
-      "name": "Витамин B6",
-      "slug": "vitamin-b6",
-      "amount": "0.12 мг / 7% СН",
-      "bg": "#8e24aa",
-      "description": "Играет важную роль в обмене веществ и выработке эритроцитов."
-    },
-    {
-      "id": 32,
-      "name": "Калий",
-      "slug": "potassium",
-      "amount": "146 мг / 3% СН",
-      "bg": "#0288d1",
-      "description": "Помогает поддерживать водно-солевой баланс и здоровый уровень артериального давления."
-    },
-    {
-      "id": 12,
-      "name": "Витамин B9",
-      "slug": "vitamin-b9",
-      "amount": "19 мкг / 5% СН",
-      "bg": "#c0ca33",
-      "description": "Необходим для правильного деления клеток, синтеза ДНК и роста тканей."
-    },
-    {
-      "id": 38,
-      "name": "Марганец",
-      "slug": "manganese",
-      "amount": "0.13 мг / 6% СН",
-      "bg": "#7cb342",
-      "description": "Поддерживает формирование костей, обмен веществ и функцию ферментов."
+      "amount": "1.70 г"
     }
   ],
-  "healthBenefits": [
-    "<b>Здоровье сердца:</b> Регулярное употребление помогает улучшить кровообращение и поддерживать здоровый уровень холестерина.",
-    "<b>Антиоксидантная поддержка:</b> Высокая концентрация кверцетина помогает нейтрализовать свободные радикалы.",
-    "<b>Поддержка микробиома:</b> Пребиотические волокна в луке служат пищей для полезных кишечных бактерий.",
-    "<b>Противовоспалительный эффект:</b> Соединения серы помогают снизить маркеры воспаления в организме."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Чувствительность пищеварения:</b> У некоторых людей сырой лук может вызывать вздутие живота или изжогу.",
-    "<b>Раздражение глаз:</b> Нарезка лука высвобождает летучие вещества, которые могут раздражать слизистую оболочку глаз.",
-    "<b>Индивидуальная непереносимость:</b> Возможны allergic реакции на компоненты растения."
+  "microTitle": "Микронутриенты (на 100 г)",
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "name": "Витамин C",
+      "slug": "vitamin-c",
+      "amount": "7.40 мг"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Витамин D",
+      "slug": "vitamin-d",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0.02 мг"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Витамин K",
+      "slug": "vitamin-k",
+      "amount": "0.40 мкг"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.046 мг"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.027 мг"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.116 мг"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Витамин B5",
+      "slug": "vitamin-b5",
+      "amount": "0.123 мг"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.120 мг"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "19 мкг DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Витамин B12",
+      "slug": "vitamin-b12",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "histidine",
+      "name": "Гистидин",
+      "slug": "histidine",
+      "amount": "0.014 г"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Изолейцин",
+      "slug": "isoleucine",
+      "amount": "0.014 г"
+    },
+    {
+      "id": "leucine",
+      "name": "Лейцин",
+      "slug": "leucine",
+      "amount": "0.025 г"
+    },
+    {
+      "id": "lysine",
+      "name": "Лизин",
+      "slug": "lysine",
+      "amount": "0.039 г"
+    },
+    {
+      "id": "methionine",
+      "name": "Метионин",
+      "slug": "methionine",
+      "amount": "0.004 г"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Фенилаланин",
+      "slug": "phenylalanine",
+      "amount": "0.025 г"
+    },
+    {
+      "id": "threonine",
+      "name": "Треонин",
+      "slug": "threonine",
+      "amount": "0.021 г"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Триптофан",
+      "slug": "tryptophan",
+      "amount": "0.010 г"
+    },
+    {
+      "id": "valine",
+      "name": "Валин",
+      "slug": "valine",
+      "amount": "0.021 г"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.004 г"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA и DHA",
+      "slug": "epa-dha",
+      "amount": "0 г"
+    },
+    {
+      "id": "calcium",
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "23 мг"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "29 мг"
+    },
+    {
+      "id": "magnesium",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "10 мг"
+    },
+    {
+      "id": "sodium",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "4 мг"
+    },
+    {
+      "id": "potassium",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "146 мг"
+    },
+    {
+      "id": "chloride",
+      "name": "Хлорид",
+      "slug": "chloride",
+      "amount": "0 мг"
+    },
+    {
+      "id": "iron",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "0.21 мг"
+    },
+    {
+      "id": "zinc",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.17 мг"
+    },
+    {
+      "id": "copper",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.04 мг"
+    },
+    {
+      "id": "manganese",
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.13 мг"
+    },
+    {
+      "id": "selenium",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "0.50 мкг"
+    },
+    {
+      "id": "fluoride",
+      "name": "Фтор",
+      "slug": "fluoride",
+      "amount": "1.10 мкг"
+    },
+    {
+      "id": "choline",
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "6.10 мг"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Бета-каротин",
+      "slug": "beta-carotene",
+      "amount": "1 мкг"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Фитостеролы",
+      "slug": "phytosterols",
+      "amount": "15 мг"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.013 г"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.013 г"
+    },
+    {
+      "id": "arginine",
+      "name": "Аргинин",
+      "slug": "arginine",
+      "amount": "0.104 г"
+    },
+    {
+      "id": "glycine",
+      "name": "Глицин",
+      "slug": "glycine",
+      "amount": "0.030 г"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Тирозин",
+      "slug": "tyrosine",
+      "amount": "0.012 г"
+    },
+    {
+      "id": "betaine",
+      "name": "Бетаин",
+      "slug": "betaine",
+      "amount": "0.10 мг"
+    }
   ]
 }

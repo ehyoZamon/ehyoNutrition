@@ -1,108 +1,203 @@
 {
-  "slug": "lemon",
-  "name": "Lemon",
-  "category": "Citrus",
-  "image": "/productinfo/lemon.png",
-  "imageAlt": "fresh yellow lemon",
-  "description": "Lemon is an intensely acidic, non-climacteric botanical matrix belonging to the Rutaceae family, characterized by an ultra-concentrated profile of exogenous L-ascorbic acid and carboxylic acids. It serves as a specialized phytochemical delivery system rich in low-molecular-weight polymethoxyflavonoids and monoterpenes. This distinct biochemical complex acts as a powerful electron donor to mitigate intracellular oxidative stress, regulates the systemic acid-base equilibrium via alkaline metabolic residues, and modifies the enzymatic kinetics of the gastrointestinal tract.",
-  "macroTitle": "Macro Nutrients (per 100g, pulp)",
-  "macroIntro": "The macronutrient infrastructure of lemon pulp presents a negligible energy density, featuring a highly diluted carbohydrate matrix balanced with structural dietary fibers and near-zero lipid or protein involvement.",
-  "microIntro": "As a highly specialized post-harvest biochemical reservoir, lemon pulp concentrates water-soluble antioxidants, critical alkali metal ions, and volatile terpenes that act synergistically to modulate cellular signaling and renal excretion profiles.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "29 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "An extremely low thermodynamic footprint that allows for broad metabolic integration without contributing to adipose tissue storage or altering insulin homeostasis."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.1 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Composed of trace fractions of structural plant proteins, yielding a negligible amino acid payload."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually absent lipid profile, containing only minor structural membrane phospholipids."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "9.3 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Consists primarily of non-starch polysaccharides (pectin) alongside monosaccharide fragments, tightly bound within a high-acidity carboxylic matrix."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 21,
-      "name": "Vitamin C (L-Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "53 mg / 59% DV",
-      "bg": "#15837c",
-      "description": "An essential reducing agent required for the hydroxylation of proline and lysine residues during procollagen synthesis, while actively scavenging free radicals."
-    },
-    {
-      "id": 101,
-      "name": "Citric Acid",
-      "slug": "acids",
-      "amount": "5.0-6.0 g",
-      "bg": "#f5722c",
-      "description": "A fundamental tricarboxylic acid that drives salivary and gastric juice secretion kinetics, actively contributing to systemic alkalization after metabolic conversion."
-    },
-    {
-      "id": 102,
-      "name": "Flavonoids (Hesperidin & Eriocitrin)",
-      "slug": "antioxidants",
-      "amount": "Active Profile",
-      "bg": "#66ab63",
-      "description": "Specific citrus-derived glycosides that suppress the nuclear factor kappa B (NF-κB) pathway, decreasing endothelial cell permeability and capillary fragility."
-    },
-    {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "138 mg / 3% DV",
-      "bg": "#e4a910",
-      "description": "The primary intracellular cation, essential for maintaining transmembrane resting potential, counteracting sodium-induced hypervolemia, and regulating vascular tone."
-    },
-    {
-      "id": 29,
-      "name": "Folate (Vitamin B9)",
-      "slug": "vitamin-b9",
-      "amount": "11 mcg / 3% DV",
-      "bg": "#1a96cd",
-      "description": "A critical coenzyme for one-carbon transfer reactions, driving purine and pyrimidine nucleotide synthesis required for rapid hematopoietic cell replication."
-    },
-    {
-      "id": 103,
-      "name": "D-Limonene",
-      "slug": "compounds",
-      "amount": "High Bioactivity",
-      "bg": "#1a96cd",
-      "description": "A functional cyclic monoterpene that induces Phase II detoxification enzymes (such as glutathione S-transferase) and exhibits notable anti-inflammatory activities."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Immune Cell Priming and Antioxidant Defense:</b> High intracellular saturation with L-ascorbic acid enhances neutrophil chemotaxis and phagocytic activity, while systematically regenerating endogenous alpha-tocopherol (Vitamin E) to prevent lipid peroxidation cascades.",
-    "<b>Endothelial Protection and Microvascular Integrity:</b> The synergistic combination of eriocitrin and potassium optimizes nitric oxide bioavailability in blood vessels, suppressing the transcription of vascular cell adhesion molecules and improving systemic microcirculation.",
-    "<b>Renal Nephrolithiasis Prophylaxis:</b> Absorbed citric acid undergoes hepatic oxidation to form bicarbonate ions, elevating urinary pH and total citrate excretion, which competitively inhibits the crystallization and precipitation of calcium oxalate stones.",
-    "<b>Digestive Fluid Dynamics and Glycemic Control:</b> The low pH of the organic matrix activates oral gustatory receptors, upregulating the secretion of hydrochloric acid and pepsin. Simultaneously, soluble pectin fibers delay gastric emptying, flattening postprandial glucose curves."
-  ],
-  "precautionsIntro": "Due to its intensive carboxylic acid concentration and low pH value, the clinical incorporation of lemon demands strict screening under specific physiological conditions.",
-  "precautions": [
-    "<b>Gastroesophageal Reflux and Mucosal Irritation:</b> The direct introductory low pH shifts gastric luminal acidity, which can relax the lower esophageal sphincter (LES) and trigger immediate nociceptive pain receptors in patients with erosive esophagitis or GERD.",
-    "<b>Enamel Demineralization and Surface Erosion:</b> Prolonged contact with unbuffered lemon juice initiates the dissolution of hydroxyapatite crystals on the outer tooth surface. To prevent loss of enamel hardness, it is recommended to utilize a straw and rinse thoroughly with alkaline water without immediate brushing.",
-    "<b>Exacerbation of Peptic Ulcerative Lesions:</b> The high concentration of citric acid acts as a local chemical irritant on exposed submucosal layers, making it strictly contraindicated during the acute phases of gastric or duodenal ulcers due to the risk of inducing localized bleeding.",
-    "<b>Immunological Cross-Reactivity and Hypersensitivity:</b> Citrus proteins and specialized volatile compounds can act as direct allergens or haptenic triggers, inducing IgE-mediated cutaneous eruptions, contact dermatitis, or localized oral allergy syndrome (OAS) in susceptible individuals."
-  ]
+"slug": "lemon-raw",
+"name": "Lemonw",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "29 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.1 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "9.32 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.3 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "2.8 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "53 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "1 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.1 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.08 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "11 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "26 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "16 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "8 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "138 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.6 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.06 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.04 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.4 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "5.1 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.09 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.01 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "3 mcg"
+},
+{
+"id": "lycopene",
+"name": "Lycopene",
+"slug": "lycopene",
+"amount": "0 mcg"
+}
+]
 }

@@ -1,108 +1,293 @@
 {
-  "slug": "okra",
-  "name": "Okra",
-  "category": "Vegetables",
-  "image": "/productinfo/okra.png",
-  "imageAlt": "fresh green okra pods",
-  "description": "Okra (Abelmoschus esculentus) is a nutrient-dense vegetable characterized by a unique mucilaginous fiber profile and a robust polyphenolic antioxidant matrix. Its botanical structure is specifically engineered to soothe gastrointestinal mucosa, optimize post-prandial glycemic kinetics, and support systemic vascular integrity through protective flavonoids like isoquercitrin.",
-  "macroTitle": "Macro Nutrients (per 100g, boiled)",
-  "macroIntro": "An ultra-low energy density blueprint featuring significant soluble mucilage content and negligible lipids, ideal for metabolic weight management.",
-  "microIntro": "A highly functional micronutrient matrix providing elite levels of Vitamin K and Vitamin C, which collectively reinforce vascular stability and skeletal mineralization.",
+  "slug": "okra-raw",
+  "name": "Okra, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "22 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "Exceptionally low energy density, offering high volumetric satiety with minimal metabolic load."
+      "amount": "33 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.9 g / 4% DV",
-      "bg": "#f5722c",
-      "description": "Functional plant-derived protein content contributing to essential amino acid baselines."
+      "amount": "1.93 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0.1% DV",
-      "bg": "#e4a910",
-      "description": "Negligible lipid content, supporting strict fat-restricted dietary protocols."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "4.5 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Complex carbohydrate matrix anchored by viscous soluble fibers (~2.5g), promoting flat glycemic responses."
+      "amount": "7.45 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.19 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "3.20 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 142,
-      "name": "Vitamin K",
-      "slug": "vitamin-k",
-      "amount": "40.0 mcg / 33% DV",
-      "bg": "#e4a910",
-      "description": "Elite nutrient essential for blood coagulation cascades and osteocalcin-mediated calcium binding."
-    },
-    {
-      "id": 27,
+      "id": "vitamin-c",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "16.3 mg / 18% DV",
-      "bg": "#1a96cd",
-      "description": "Antioxidant cofactor stimulating endogenous collagen synthesis and neutralizing oxidative radical stress."
+      "amount": "23 mg"
     },
     {
-      "id": 146,
-      "name": "Folate (Vitamin B9)",
-      "slug": "folate",
-      "amount": "46 mcg / 12% DV",
-      "bg": "#15837c",
-      "description": "Coenzymatic nutrient critical for DNA biosynthesis and healthy erythropoiesis."
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
     },
     {
-      "id": 34,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "36 mg / 9% DV",
-      "bg": "#f5722c",
-      "description": "Mineral catalyst driving ATP energy pathways and modulating neuromuscular signaling."
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "36 mcg RAE"
     },
     {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "135 mg / 3% DV",
-      "bg": "#66ab63",
-      "description": "Foundational electrolyte regulating fluid homeostasis and vascular smooth muscle tone."
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.27 mg"
     },
     {
-      "id": 147,
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "31.3 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.20 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.06 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "1 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.24 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.21 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "60 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.09 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.00 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0.00 g"
+    },
+    {
+      "id": "calcium",
       "name": "Calcium",
       "slug": "calcium",
-      "amount": "77 mg / 6% DV",
-      "bg": "#1a96cd",
-      "description": "Structural mineral supporting skeletal density and neuromuscular signaling mechanisms."
+      "amount": "82 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "61 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "57 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "7 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "299 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.62 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.58 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.11 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.79 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.7 mcg"
+    },
+    {
+      "id": "lutein",
+      "name": "Lutein",
+      "slug": "lutein",
+      "amount": "280 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "12.3 mg"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "24 mg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.09 g"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "416 mcg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Gastrointestinal Mucosal Coating:</b> Viscous mucilage proteins form a biomimetic protective shield over gastric and intestinal epithelial linings.",
-    "<b>Glycemic Kinetic Deceleration:</b> Soluble fibers sequester dietary carbohydrates, systematically slowing glucose entry into systemic circulation.",
-    "<b>Vascular Endothelial Protection:</b> Flavonoids (quercetin) mitigate lipid peroxidation, preserving arterial structural integrity.",
-    "<b>Bile & Cholesterol Regulation:</b> Mucilage matrices bind bile acids in the enterohepatic loop, facilitating cholesterol excretion.",
-    "<b>Skeletal Remodeling:</b> Synergistic Vitamin K and Calcium profiles optimize bone matrix mineralization."
-  ],
-  "precautionsIntro": "Nutritional considerations regarding digestive mechanics and medicinal interactions:",
-  "precautions": [
-    "<b>Mucilage Adaptation:</b> Dense viscous fiber may alter transit mechanics; individuals with acute digestive sensitivities or IBS should introduce okra gradually.",
-    "<b>Oxalate Profile:</b> High oxalate content necessitates caution for individuals with a history of calcium-oxalate urolithiasis (kidney stones).",
-    "<b>Pharmaceutical Interaction:</b> High consumption may reduce the bioavailability of Metformin due to binding mechanisms; monitor medication efficacy if dietary intake is high."
   ]
 }

@@ -1,124 +1,179 @@
 {
-  "slug": "nectarine",
-  "name": "Nectarine",
-  "category": "Fruits and Berries",
-  "image": "/productinfo/nectarine.png",
-  "imageAlt": "whole and sliced ripe glossy nectarines with vibrant yellow-red skin and juicy golden flesh surrounding a textured stone pit",
-  "description": "The nectarine (Prunus persica var. nucipersica) is a distinct, smooth-skinned cultivar of the peach family, presenting a bioactively dense cellular matrix optimized for vascular defense, mucosal repair, and extracellular hydration. The primary therapeutic architecture of the nectarine relies on its unique profile of organic acids (mainly malic and citric), a robust pool of provitamin A carotenoids, and systemic antioxidants like chlorogenic acid. Operating within human physiological pathways, these elements scavenge active free radicals, stabilize endothelial integrity, and promote optimal gastrointestinal transit fluid dynamics.",
-  "macroTitle": "Macro Nutrients (per 100g, raw edible flesh)",
-  "macroIntro": "Nectarines feature a high-hydration, low-density macro profile that provides clean carbohydrate energy bound within a protective structural fiber net.",
-  "microIntro": "The brilliant golden pulp stores a premium concentration of vision-protecting carotenoids, dynamic fluid-balancing potassium, and highly reactive organic cell-protecting acids.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~44 kcal",
-      "bg": "#15837c",
-      "description": "A light, metabolic-friendly caloric profile driven by natural fruit monosaccharides, supplying clean cellular energy without overloading glycogen stores."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.06 grams",
-      "bg": "#f5722c",
-      "description": "Provides basic amino acid building blocks, reflecting a standard, minimal plant-peptide yield typical of stone fruits."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.32 grams",
-      "bg": "#e4a910",
-      "description": "A virtually negligible, clean lipid profile consisting of baseline structural plant lipids, keeping metabolic pathways light."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "10.55 grams",
-      "bg": "#1a96cd",
-      "description": "Composed of natural fruit hexoses balanced by a soluble-insoluble fiber matrix (~1.7g) that ensures a stable, moderate glycemic response."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Potassium",
-      "amount": "201 mg / 4% DV",
-      "bg": "#15837c",
-      "description": "A critical extracellular fluid regulator that maintains proper osmotic balance, dampens high vascular tension, and supports smooth cardiac cell rhythms."
-    },
-    {
-      "id": "vitamin-a",
-      "slug": "vitamin-a",
-      "name": "Vitamin A (Beta-Carotene)",
-      "amount": "17 mcg / 2% DV",
-      "bg": "#f5722c",
-      "description": "An essential provitamin A carotenoid pool vital for upgrading night vision pathways, driving skin cell repair, and shielding mucosal linings."
-    },
-    {
-      "id": "vitamin-c",
-      "slug": "vitamin-c",
-      "name": "Vitamin C (L-Ascorbic Acid)",
-      "amount": "5.4 mg / 6% DV",
-      "bg": "#66ab63",
-      "description": "A fundamental water-soluble antioxidant that actively drives collagen assembly, optimizes vascular wall strength, and boosts non-heme iron absorption."
-    },
-    {
-      "id": "niacin",
-      "slug": "niacin",
-      "name": "Vitamin B3 (Niacin)",
-      "amount": "1.12 mg / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A core coenzyme component (NAD/NADP) that optimizes cellular energy conversion, protects skin cell barrier integrity, and assists peripheral nervous pathways."
-    },
-    {
-      "id": "chlorogenic-acid",
-      "slug": "chlorogenic-acid",
-      "name": "Chlorogenic Acid",
-      "amount": "Bioactive Amount",
-      "bg": "#e4a910",
-      "description": "A powerful polyphenolic compound known for modulating hepatic glucose release, dampening systemic inflammatory markers, and guarding LDL cholesterol from oxidation."
-    },
-    {
-      "id": 90,
-      "slug": "copper",
-      "name": "Copper",
-      "amount": "0.08 mg / 9% DV",
-      "bg": "#15837c",
-      "description": "Supports iron absorption, connective tissue formation, and energy production."
-    },
-    {
-      "id": 91,
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.03 mg / 2% DV",
-      "bg": "#f5722c",
-      "description": "Critical for protein metabolism, neurotransmitter synthesis, and brain health."
-    },
-    {
-      "id": 92,
-      "slug": "vitamin-e",
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "amount": "0.77 mg / 5% DV",
-      "bg": "#66ab63",
-      "description": "A potent lipid-soluble antioxidant that protects cell membranes and skin from oxidative stress."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Vascular Endothelial Stabilization:</b> The synergism of <b>potassium</b> and native organic acids preserves smooth blood vessel flexibility, managing overall circulatory flow dynamics.",
-    "<b>Epithelial Matrix Repair:</b> High provitamin A <b>carotenoids</b> and Vitamin C accelerate the regeneration of skin dermal layers and preserve the protective barrier of mucous membranes.",
-    "<b>Intestinal Moisture Balance:</b> Natural soluble pectins and insoluble plant structural sheets optimize fecal bulk, sweeping out metabolic wastes and supporting gut peristalsis.",
-    "<b>Hepatic Antioxidant Shielding:</b> <b>Chlorogenic acid</b> actively suppresses cellular lipid peroxidation, locking down deep cellular structures against oxidative damage.",
-    "<b>Cellular Hydration Delivery:</b> Possessing an <b>87% water index</b>, it infuses immediate intracellular fluids and vital trace minerals, cooling overall metabolic thermal states."
-  ],
-  "precautionsIntro": "Oral Allergy Syndrome Risk Profiles, High Amygdalin Seed Toxicity, and Rapid Fructose Fermentation Loops: Strategic consumer awareness guarantees physical safety.",
-  "precautions": [
-    "<b>Oral Allergy Syndrome (OAS) Cross-Reactivity:</b> Nectarines house specific thermolabile proteins (such as Pru p 3) that cross-react heavily with <b>birch pollen</b> allergens. Sensitive individuals may experience localized itching, swelling of the lips, tongue, or throat immediately upon eating raw fruit.",
-    "<b>Lethal Amygdalin Glycosides inside the Pit:</b> The hard, inner woody stone pit of the nectarine encloses a seed high in <b>amygdalin</b>. If the pit is broken and the inner kernel is cracked, chewed, and swallowed in notable quantities, beta-glucosidase enzymes release toxic hydrogen cyanide, risking severe cellular respiratory paralysis.",
-    "<b>FODMAP-Driven Gastrointestinal Distress:</b> Nectarines are dense in <b>fructose and sorbitol</b> (sugar alcohols). Individuals with altered absorption capacities or irritable bowel syndrome (IBS) will face aggressive bacterial fermentation loops in the large intestine, inducing painful bloating, gas, and osmotic spasms."
-  ]
+"slug": "nectarine-raw",
+"name": "Nectarine",
+"category": "Peaches and nectarines",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "43 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.06 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "9.18 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.28 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "1.5 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "2.9 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "21 mcg RAE"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.61 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "2 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "1.12 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "6 mcg"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "2 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "26 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "9 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "13 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "131 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.3 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.21 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.08 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "6.2 mg"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "199 mcg"
+}
+]
 }

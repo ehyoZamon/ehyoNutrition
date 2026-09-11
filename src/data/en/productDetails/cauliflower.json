@@ -1,108 +1,263 @@
 {
-  "slug": "cauliflower",
-  "name": "Cauliflower",
-  "category": "Vegetables",
-  "image": "/productinfo/cauliflower.png",
-  "imageAlt": "fresh head of cauliflower",
-  "description": "Cauliflower represents a highly functional, therapeutically dense brassica vegetable matrix. It is botanically and biochemically distinguished by an exceptional concentration of unique sulfur-containing secondary metabolites—principally glucosinolates—and a highly bioavailable network of enzymatic cofactors. This matrix works systematically to upregulate hepatic biotransformation pathways, stabilize neuroendocrine signaling, and orchestrate strict cellular homeostasis and cell cycle regulation.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "The macronutrient architecture of raw cauliflower exhibits an exceptionally low thermodynamic and caloric density coupled with a highly organized non-starch polysaccharide framework, establishing it as a premier tool for metabolic dietary restructuring.",
-  "microIntro": "The cellular structure of cauliflower functions as an intricate biochemical warehouse, sequestering critical water-soluble vitamins, cellular signaling elements, and organosulfur complexes engineered to suppress systemic oxidative stress cascades.",
+  "slug": "cauliflower-raw",
+  "name": "Cauliflower, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "25 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "A minimal metabolic footprint that allows extensive dietary volume integration without the risk of cellular lipid accumulation or energetic over-saturation."
+      "amount": "25 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.9 g / 4% DV",
-      "bg": "#f5722c",
-      "description": "Provides specialized plant amino acid fractions that contribute to systemic peptide synthesis and baseline tissue homeostatic turnover."
+      "amount": "1.92 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually non-existent lipid fractions, supporting ultra-low fat dietary interventions and maintaining the clean profile of the matrix."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "5.0 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Composed of low-glycemic simple sugars bound tightly to a complex fiber network, preventing rapid intestinal absorption and downstream insulin spikes."
+      "amount": "4.97 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.28 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.00 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 91,
-      "name": "Glucosinolates",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#15837c",
-      "description": "Sulfur-rich glycosides that act as molecular precursors; upon cellular disruption, they hydrolyze into highly reactive isothiocyanates with powerful antimutagenic properties."
-    },
-    {
-      "id": 21,
-      "name": "Vitamin C (L-Ascorbic Acid)",
+      "id": "vitamin-c",
+      "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "48 mg / 53% DV",
-      "bg": "#f5722c",
-      "description": "A powerful water-soluble reducing agent that scavenges free radicals, maintains collagen matrix cross-linking, and protects endothelial structures."
+      "amount": "48.20 mg"
     },
     {
-      "id": 23,
-      "name": "Vitamin K (Phylloquinone)",
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.08 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
       "slug": "vitamin-k",
-      "amount": "16 mcg / 13% DV",
-      "bg": "#66ab63",
-      "description": "An essential fat-soluble cofactor required for the gamma-carboxylation of osteocalcin and critical hepatic clotting proteins, regulating bone mineralization and hemostasis."
+      "amount": "15.50 mcg"
     },
     {
-      "id": 28,
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.06 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.51 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.67 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.18 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "57 mcg DFE"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.11 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.22 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.13 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "22 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "44 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "15 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "30 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "299 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.42 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.27 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.15 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.60 mcg"
+    },
+    {
+      "id": "fluoride",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "1 mcg"
+    },
+    {
+      "id": "choline",
       "name": "Choline",
       "slug": "choline",
-      "amount": "44 mg / 8% DV",
-      "bg": "#e4a910",
-      "description": "A fundamental precursor for cellular membrane structural phospholipids (phosphatidylcholine) and the major central neurotransmitter acetylcholine."
+      "amount": "44.30 mg"
     },
     {
-      "id": 92,
-      "name": "Sulforaphane",
-      "slug": "antioxidants",
-      "amount": "Enzymatic Derivative",
-      "bg": "#1a96cd",
-      "description": "An isothiocyanate derived from glucoraphanin; it serves as a potent indirect antioxidant by triggering the nuclear translocation of the Nrf2 transcription factor."
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "18 mg"
     },
     {
-      "id": 95,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.0 g / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A functional mixture of cellulose and hemicellulose that optimizes intestinal transit times and sustains mucosal enterocyte integrity."
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.09 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.05 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Hepatic Phase II Detoxification Upregulation:</b> Enzymatic breakdown products like sulforaphane and indole-3-carbinol cross the cellular membrane to activate the Antioxidant Response Element (ARE), systematically upregulating Phase II xenobiotic-metabolizing enzymes (e.g., glutathione S-transferases), which effectively neutralizes electrophilic carcinogens and environmental toxins.",
-    "<b>Glycemic and Insulin Response Stabilization:</b> The low-glycemic, fiber-dense carbohydrate profile slows carbohydrate breakdown and delays glucose absorption across the intestinal epithelium, suppressing immediate insulin excursions and supporting peripheral insulin sensitivity.",
-    "<b>Vascular Endothelial Protection:</b> Phytochemicals in cauliflower significantly downregulate pro-inflammatory nuclear factor kappa B (NF-κB) signaling cascades within vascular cells, working in tandem with phylloquinone to maintain vessel elasticity and mitigate early-stage atheroma development.",
-    "<b>Neurotransmission and Cognitive Support:</b> Endogenous choline reserves supply the raw metabolic substrates required for the continuous synthesis of acetylcholine, helping to preserve the structural integrity of neural networks, support lipid transport, and optimize cognitive processing."
-  ],
-  "precautionsIntro": "Due to its high concentration of organosulfur molecules and specific botanical compounds, cauliflower requires careful dietary management under certain physiological conditions.",
-  "precautions": [
-    "<b>Goitrogenic Interference in Hypothyroidism:</b> Raw cauliflower houses native glucosinolates that can hydrolyze into thiocyanate ions, which can competitively inhibit iodine uptake at the thyroidal sodium-iodide symporter (NIS). Individuals with compromised thyroid function or severe iodine deficiency should prioritize thermal processing, which denatures the volatile myrosinase enzyme.",
-    "<b>Intestinal Lumen Osmotic Flatulence:</b> The presence of complex non-starch polysaccharides alongside the trisaccharide *raffinose* resists human enzymatic cleavage. Upon reaching the large intestine, these substrates undergo rapid microbial fermentation, potentially inducing transient gas production, bloating, or abdominal distension in sensitive gastrointestinal profiles.",
-    "<b>Purine-Driven Uric Acid Accumulation:</b> Cauliflower exhibits a moderate concentration of endogenous purine bases. Patients diagnosed with acute gouty arthritis or severe hyperuricemia should monitor portion sizes to avoid triggering renal transport limitations or urate crystal precipitation.",
-    "<b>Thermal Volatility of Micronutrients:</b> Prolonged hydro-thermal processing (such as deep boiling) triggers severe leaching of water-soluble ascorbic acid and deactivates the heat-sensitive myrosinase enzyme required for sulforaphane synthesis. To maximize therapeutic value, utilize gentle steaming or rapid stir-frying techniques."
   ]
 }

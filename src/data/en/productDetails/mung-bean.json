@@ -1,99 +1,287 @@
 {
-  "slug": "mung-bean",
-  "name": "Mung Bean",
-  "category": "Legumes",
-  "image": "/productinfo/mung-bean.png",
-  "imageAlt": "dry mung beans",
-  "description": "Mung beans represent the prepared edible seeds of Vigna radiata, serving as an advanced nutrient-dense legume superfood characterized by a highly digestible protein-starch hydro-matrix. Structurally, the cotyledon tissue packages an optimal ratio of globulin and albumin storage proteins alongside structured, slowly digestible amylose polymers and complex non-starch polysaccharides. The unique genetic profile of this legume exhibits a significantly lower concentration of gas-producing alpha-galactoside oligosaccharides compared to other members of the Fabaceae family. This structural advantage is paired with a potent polyphenolic profile dominated by the flavone C-glycosides vitexin and isovitexin. Operating as a clean metabolic substrate, this functional food downregulates systemic postprandial glycemic excursions, promotes microvascular endothelial stability, and provides robust intracellular radical-scavenging activity.",
-  "macroTitle": "Macro Nutrients (per 100g, cooked product)",
-  "macroIntro": "The macronutrient architecture of cooked mung beans offers a highly bioavailable assembly of plant peptides linked with slowly hydrolyzable complex starches, ensuring extended satiety dynamics.",
-  "microIntro": "A specialized micronutrient matrix abundant in critical single-carbon donors, structural enzyme activators, and highly functional embryonic seed polyphenols.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "105 kcal / 5% DV",
-      "bg": "#15837c",
-      "description": "A stable release of thermodynamic energy derived primarily from the orderly enzymatic cleavage of complex plant carbohydrates."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "7.0 g / 14% DV",
-      "bg": "#f5722c",
-      "description": "A rich vegetable amino acid profile with high lysine content, essential for systemic tissue repair and structural protein synthesis."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.4 g / 1% DV",
-      "bg": "#e4a910",
-      "description": "A nominal lipid fraction containing trace essential polyunsaturated fatty acids embedded within the cell walls."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "19.2 g / 7% DV",
-      "bg": "#15837c",
-      "description": "Dominated by slowly digestible amylose starches and resistant starches that prevent sharp elevations in blood glucose."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 38,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.3 mg / 15% DV",
-      "bg": "#15837c",
-      "description": "An essential catalytic cofactor for mitochondrial superoxide dismutase and enzymes governing gluconeogenesis."
-    },
-    {
-      "id": 22,
-      "name": "Folate (Vitamin B9)",
-      "slug": "folate",
-      "amount": "159 mcg / 40% DV",
-      "bg": "#f5722c",
-      "description": "A critical coenzyme required for single-carbon transfer pathways, supporting nucleic acid synthesis and red blood cell maturation."
-    },
-    {
-      "id": 110,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "7.6 g / 27% DV",
-      "bg": "#66ab63",
-      "description": "A functional matrix of soluble pectins and insoluble cellulose that optimizes intestinal transit and drives short-chain fatty acid production."
-    },
-    {
-      "id": 33,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "48 mg / 12% DV",
-      "bg": "#e4a910",
-      "description": "A crucial intracellular divalent cation required for stabilizing metabolic enzymes and maintaining nerve signal transduction."
-    },
-    {
-      "id": 132,
-      "name": "Vitexin and Isovitexin",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#1a96cd",
-      "description": "Dominant seed-coat flavone C-glycosides that exert powerful anti-inflammatory effects and direct free-radical neutralization."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Reduced Alpha-Galactoside Load and Gastrointestinal Comfort:</b> The naturally low baseline of raffinose and stachyose oligosaccharides in Vigna radiata limits excessive substrate availability for colonic bacterial fermentation, minimizing luminal gas evolution and abdominal distension.",
-    "<b>Amylose-Driven Postprandial Glucose Stabilization:</b> The high amylose-to-amylopectin ratio coupled with intact resistant starches slows down pancreatic alpha-amylase degradation kinetics, delivering a smooth, low-velocity glucose influx into the portal vein.",
-    "<b>Vitexin-Mediated Inhibition of Advanced Glycation End-Products:</b> Native flavone C-glycosides interact directly with free amino groups to inhibit the structural cross-linking of proteins, preventing the formation of advanced glycation end-products.",
-    "<b>Bile Acid Sequestration and Serum Cholesterol Management:</b> The active soluble dietary fiber matrix forms a viscous intestinal gel that binds endogenic bile acids, forcing their fecal evacuation and accelerating the hepatic conversion of circulating cholesterol into new bile units."
-  ],
-  "precautionsIntro": "Even though Vigna radiata presents a highly optimized digestibility profile, its physiological deployment requires structured attention under specific clinical states:",
-  "precautions": [
-    "<b>Phytic Acid Chelating Effects on Divalent Cations:</b> Raw and improperly hydrated seeds contain phytic acid structures that can chelate free minerals like zinc and iron in the upper digestive tract, requiring adequate thermal processing or sprouting.",
-    "<b>Protease Inhibitor Persistence in Incomplete Thermal Processing:</b> Minor residual concentrations of Kunitz-type trypsin inhibitors can survive insufficient boiling, partially interfering with luminal protein degradation and causing mild digestive delay.",
-    "<b>Mechanical Volumetric Pressure During Acute Gastrointestinal Inflammation:</b> The substantial structural fiber mass can exert undesirable mechanical friction against hypersensitive mucosal layers during active phases of ulcerative colitis or gastritis."
-  ]
+"slug": "mung-beans",
+"name": "Mung beans",
+"category": "Legumes and Legume Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "347 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "23.86 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "62.62 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "1.15 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "16.3 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "4.8 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "6 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.51 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "9 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.621 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.233 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "2.251 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "1.91 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.382 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "624.9 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "132 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "367 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "189 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "15 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "1246 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "6.74 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "2.68 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.941 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "1.035 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "8.2 mcg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.695 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "1.008 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "1.847 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "1.664 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.286 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "1.443 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.782 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.26 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "1.237 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "1.672 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.954 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.714 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.027 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.357 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.161 g"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "97.9 mg"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "23 mg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "68 mcg"
+}
+]
 }

@@ -1,99 +1,269 @@
 {
-  "slug": "green-onion",
-  "name": "Green Onion",
-  "category": "Greens / Vegetables",
-  "image": "/productinfo/green-onion.png",
-  "imageAlt": "fresh bunch of green onions",
-  "description": "Green onion represents an exceptionally potent, biologically active vegetative matrix belonging to the Amaryllidaceae family (Allium fistulosum or Allium cepa), distinguished by its rich integration of organosulfur compounds (allyl sulfides), dense flavonol clusters (primarily quercetin), and critical enzymatic cofactors. It functions as an active modulator of systemic immune responses, endothelial integrity, and cellular redox kinetics. This cohesive botanical architecture exhibits pronounced antimicrobial, secretomotor, and vascular-protective actions, suppressing pathogenic proliferation, accelerating hepatic xenobiotic detoxification, and maintaining vascular homeostasis with minimal metabolic investment.",
-  "macroTitle": "Macro Nutrients (per 100g, fresh product)",
-  "macroIntro": "The macronutrient profile of fresh green onion features a low-density thermodynamic structure where a dense aqueous phase is interlaced with complex structural unrefined carbohydrates and functional proteins, optimizing gastrointestinal transit and physiological tone.",
-  "microIntro": "As an advanced botanical bio-accumulator, the green onion matrix concentrates high-tier fat-soluble vitamins, potent water-soluble radical scavengers, and specific volatile phytoncides required for continuous vascular and immunological defense.",
+  "slug": "onions-young-green-tops-only",
+  "name": "Onions, young green, tops only",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "31 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "A minor metabolic energy footprint, facilitating calorie-restricted, nutrient-dense programmatic dietary designs without lipid accumulation risks."
+      "amount": "27 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.8 g / 4% DV",
-      "bg": "#f5722c",
-      "description": "Comprises essential structural plant peptide sequences and active free amino acids involved in localized cellular maintenance and vegetative enzyme systems."
+      "amount": "0.97 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "A negligible lipid presence consisting strictly of functional cuticular plant sterols and structural organelle membrane phospholipids."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "7.3 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Composed of low-molecular simple mono- and oligosaccharides integrated within a dense, non-starch structural carbohydrate lattice."
+      "amount": "5.74 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.47 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.80 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 23,
-      "name": "Vitamin K (Phylloquinone)",
-      "slug": "vitamin-k",
-      "amount": "207 mcg / 173% DV",
-      "bg": "#15837c",
-      "description": "A critical fat-soluble post-translational cofactor necessary for hepatic gamma-glutamyl carboxylase activity, regulating blood coagulation loops and osteocalcin synthesis."
-    },
-    {
-      "id": 20,
-      "name": "Vitamin C (Ascorbic Acid)",
+      "id": "vitamin-c",
+      "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "18.8 mg / 21% DV",
-      "bg": "#f5722c",
-      "description": "A major water-soluble biological reducing agent, driving intracellular collagen synthesis, leukocyte functional motility, and deep cellular antioxidant protection."
+      "amount": "13.4 mg"
     },
     {
-      "id": 26,
-      "name": "Folate (B9)",
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "200 mcg"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.21 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "156.3 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.03 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.026 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.33 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.138 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.088 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
       "slug": "vitamin-b9",
-      "amount": "64 mcg / 16% DV",
-      "bg": "#66ab63",
-      "description": "An essential coenzyme driving one-carbon transfer pathways, critical for nucleic acid synthesis, erythrocyte maturation within bone marrow, and vascular endothelial protection."
+      "amount": "30 mcg DFE"
     },
     {
-      "id": 107,
-      "name": "Quercetin",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#e4a910",
-      "description": "A powerful bioactive flavonol that strengthens capillary walls, modulates inflammatory eicosanoid pathways, and actively stabilizes cell membranes."
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.022 g"
     },
     {
-      "id": 10,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.6 g / 9% DV",
-      "bg": "#1a96cd",
-      "description": "Consists of hydrophilic structural cellulose, hemicellulose, and pectin complexes that stimulate intestinal mechanoreceptors and promote prebiotic gut colonization."
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.048 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.048 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.065 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.011 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.035 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.033 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.020 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.031 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.004 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "52 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "25 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "16 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "15 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "159 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.51 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.20 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.031 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.15 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.5 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "4.3 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "2400 mcg"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "18 mg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.070 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.027 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.183 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.057 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.034 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Phytoncide-Mediated Antimicrobial Defense:</b> Volatile organosulfur complexes, including allicin precursors and diallyl disulfide, chemically disrupt pathogenic cellular membranes, executing direct antibacterial, antiviral, and antifungal actions within mucous pathways.",
-    "<b>Endothelial Fortification and Vasoprotection:</b> The synergistic interaction of dense quercetin fractions with phylloquinone blocks lipid peroxidation cascades, stabilizes endothelial nitrous oxide pathways, lowers capillary fragility, and balances homeostatic clotting cycles.",
-    "<b>Free-Radical Quenching and Cellular Redox Buffering:</b> High total polyphenol concentrations along with L-ascorbic acid serve as rapid electron donors, neutralizing highly reactive oxygen species (ROS) and preventing structural cellular damage.",
-    "<b>Secretomotor and Enzymatic Gastrointestinal Activation:</b> Native aromatic glycosides mechanically and chemically stimulate gustatory and gastric mucosal receptors, upregulating the absolute secretion of hydrochloric acid, pepsin, and pancreatic enzymes."
-  ],
-  "precautionsIntro": "Due to the intense concentration of volatile organosulfur compounds and significant phylloquinone activity, green onion demands strict targeted modulation across specific physiological and pathological states:",
-  "precautions": [
-    "<b>Mucosal Irritation in Acute Gastrointestinal Pathologies:</b> Raw organosulfur compounds exert a strong irritating effect on mucosal tissues, capable of triggering hypersecretion and pain cascades during acute phases of gastritis, peptic ulcer disease, or pancreatitis.",
-    "<b>Anticoagulant Therapy Interference (Hypercoagulation Risks):</b> The exceptional concentration of Vitamin K ($207\\text{ mcg}$) directly induces the synthesis of clotting factors, which can neutralize the therapeutic effects of vitamin K antagonists like warfarin, requiring strict dietary control.",
-    "<b>IgE-Mediated and Delayed Hypersensitivity Cascades:</b> Specific low-molecular sulfur compounds and plant proteins can act as potent haptens or direct allergens, triggering localized contact dermatitis, systemic urticaria, or specific respiratory spasms in sensitive individuals."
   ]
 }

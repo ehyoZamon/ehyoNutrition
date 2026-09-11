@@ -1,108 +1,281 @@
 {
-  "slug": "strawberries",
-  "name": "Strawberries",
-  "category": "Fruits & Berries",
-  "image": "/productinfo/strawberries.png",
-  "imageAlt": "strawberries",
-  "description": "Strawberries are a highly celebrated, low-glycemic summer superfruit. Exceptionally loaded with immune-boosting Vitamin C, water-dense hydration, and protective anthocyanin antioxidants, they offer maximum nutritional density with remarkably low caloric costs.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "32 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "An exceptionally low-calorie, water-dense berry, offering sweet satisfaction with minimal metabolic impact."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.7 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Contains nominal structural plant amino acids, typical for delicate low-density soft fruits."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, making it an elite whole food ingredient for clean, low-lipid snacking profiles."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "7.7 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Primarily made of simple sugars balanced perfectly by dietary fibers, maintaining a highly favorable low glycemic load."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 1,
-      "name": "Vitamin C",
-      "slug": "vitamin-c",
-      "amount": "58.8 mg / 65% DV",
-      "bg": "#1a96cd",
-      "description": "An outstanding concentration that outpaces many citrus fruits, driving robust collagen formation, wound healing, and cellular immunity."
-    },
-    {
-      "id": 38,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.39 mg / 17% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace mineral acting as a cofactor for key metabolic enzymes involved in bone construction and free radical neutralization."
-    },
-    {
-      "id": 44,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.0 g / 8% DV",
-      "bg": "#1a96cd",
-      "description": "Mainly composed of soluble and insoluble fractions (like pectin) that slow digestion, fueling beneficial gut microbiota and preventing glucose spikes."
-    },
-    {
-      "id": 31,
-      "name": "Folate (Vitamin B9)",
-      "slug": "vitamin-b9",
-      "amount": "24 mcg / 6% DV",
-      "bg": "#e4a910",
-      "description": "Crucial for baseline cellular division, DNA synthesis, and supporting tissue optimization during rapid physiological growth phases."
-    },
-    {
-      "id": 34,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "153 mg / 3% DV",
-      "bg": "#15837c",
-      "description": "A systemic mineral electrolyte that assists in regulating cardiovascular muscle impulses and structural cellular fluid balances."
-    },
-    {
-      "id": 75,
-      "name": "Anthocyanins (Pelargonidin)",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#f5722c",
-      "description": "Potent polyphenols responsible for the vibrant red pigmentation. They directly support endothelial flexibility and shield cells from oxidative strain."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Cardiovascular System Elasticity:</b> The rich array of anthocyanins, paired with potassium, prevents heavy lipid oxidation, enhances endothelial blood vessel function, and assists in blood pressure control.",
-    "<b>Dermal Integrity & Collagen Production:</b> A single 100g serving delivers over half your daily Vitamin C requirement, directly driving the natural synthesis of dermal collagen matrices to support skin elasticity.",
-    "<b>Blood Sugar Stabilization:</b> Despite their sweetness, strawberries rank low on the glycemic index ($GI = 40$). Their unique polyphenol matrices have been shown to slow down glucose absorption in the gut.",
-    "<b>Potent Cellular Defense:</b> Ellagic acid and pelargonidin cross paths inside cellular tissue to actively downregulate inflammatory pathways and trap reactive oxidative stressors."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Allergy & Histamine Risk Profile:</b> Strawberries are notorious for triggering food-allergic reactions, often linked to a specific protein associated with their red pigment. Symptoms can range from oral hives and itching to systemic flares.",
-    "<b>Pesticide Bioaccumulation Thresholds:</b> Due to their soft, porous skin and lack of protective outer shells, conventionally grown strawberries regularly top industrial lists for surface pesticide residues. Washing them thoroughly in running water is highly recommended.",
-    "<b>Gastrointestinal Oxalate Management:</b> Strawberries contain a moderate fraction of natural organic oxalates. If you have a clinical history of calcium-oxalate kidney architecture complications, moderate your portion sizes.",
-    "<b>High Perishability Factor:</b> These delicate berries absorb ambient humidity quickly, making them prone to rapid gray mold expansion. Keep them unwashed in a breathable container inside the fridge and clean them right before eating."
-  ]
+"slug": "strawberries-raw",
+"name": "Strawberries",
+"category": "Fruits and Berries",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "32 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.67 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "7.68 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.30 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "2.00 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "58.80 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "1 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.29 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "2.20 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.39 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.13 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.05 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "24 mcg DFE"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.01 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.02 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.03 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.03 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.00 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.02 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.02 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.01 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.02 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.07 g"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "16 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "24 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "13 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "153 mg"
+},
+{
+"id": "fluoride",
+"name": "Fluoride",
+"slug": "fluoride",
+"amount": "4.40 mcg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.41 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.14 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.05 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.39 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.40 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "5.70 mg"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.03 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.02 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.03 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.09 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.04 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "7 mcg"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "12 mg"
+},
+{
+"id": "betaine",
+"name": "Betaine",
+"slug": "betaine",
+"amount": "0.20 mg"
+}
+]
 }

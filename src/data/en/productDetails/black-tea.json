@@ -1,83 +1,143 @@
 {
-  "slug": "black-tea",
-  "name": "Black Tea",
-  "category": "Beverages",
-  "image": "/productinfo/black-tea.png",
-  "imageAlt": "cup of black tea",
-  "description": "Black tea represents an advanced water-soluble vegetative extract and a highly complex phytochemical hydro-matrix derived from the fully oxidized leaves of Camellia sinensis. Structurally formatted during extensive solid-state enzymatic fermentation, native catechins undergo polyphenol oxidase conversion into high-molecular-weight polymeric fractions, specifically dimeric theaflavins and highly complex, macrocyclic thearubigins. Operating as a clean, non-caloric physiological delivery vehicle, this aqueous infusion integrates a potent synergistic assembly of methylxanthine alkaloid isomers (primarily 1,3,7-trimethylxanthine) alongside specialized non-proteinogenic amino acids and key trace minerals. This bioactive formulation actively modulates central nervous system neurotransmitter kinetics, downregulates endothelial leukocyte adhesion molecules, enhances vascular nitric oxide production, and provides powerful scavenging protection against systemic reactive oxygen species.",
-  "macroTitle": "Macro Nutrients (per 100 ml of brewed beverage)",
-  "macroIntro": "The macronutrient configuration of plain brewed black tea represents a near-vacuum energy profile, maintaining virtually zero caloric, lipid, or peptide densities when consumed without supplementary exogenic additives.",
-  "microIntro": "A highly specialized aqueous repository of complex oxidized polyphenols, bio-stimulating methylxanthines, neuroactive amino acids, and vital dental-protective trace elements.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "1 kcal / 0% DV",
-      "bg": "#15837c",
-      "description": "A nominal thermodynamic value derived from negligible organic traces, exerting no practical impact on daily metabolic energy expenditure."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.2 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Minimal residual carbohydrate complexes consisting of trace soluble dietary fibers dissolved during the thermal extraction process."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 122,
-      "name": "Theaflavins & Thearubigins",
-      "slug": "polyphenols",
-      "amount": "High Concentration",
-      "bg": "#15837c",
-      "description": "Unique, highly oxidized polymeric flavonoids responsible for the characteristic amber pigmentation and systemic radical-scavenging protection."
-    },
-    {
-      "id": 123,
-      "name": "Caffeine (1,3,7-Trimethylxanthine)",
-      "slug": "caffeine",
-      "amount": "20-50 mg",
-      "bg": "#f5722c",
-      "description": "A potent purine alkaloid that acts as a competitive antagonist of central adenosine receptors, elevating mental alertness and focus."
-    },
-    {
-      "id": 124,
-      "name": "L-Theanine",
-      "slug": "amino-acids",
-      "amount": "Bioactive Compound",
-      "bg": "#66ab63",
-      "description": "A unique non-proteinogenic amino acid that freely crosses the blood-brain barrier to stimulate alpha-frequency brainwave modulation."
-    },
-    {
-      "id": 39,
-      "name": "Fluoride",
-      "slug": "fluoride",
-      "amount": "0.2 mg / 5% DV",
-      "bg": "#e4a910",
-      "description": "An essential trace mineral that integrates into the outer dental crystal matrix, forming acid-resistant fluoroapatite shields."
-    },
-    {
-      "id": 36,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.22 mg / 10% DV",
-      "bg": "#1a96cd",
-      "description": "A crucial elemental cofactor for mitochondrial superoxide dismutase ($Mn-SOD$), guarding cellular structures against oxidative damage."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Endothelial Protection and Nitric Oxide Upregulation:</b> Polymeric theaflavins actively stimulate endothelial nitric oxide synthase ($eNOS$) transcription, prompting immediate blood vessel relaxation and protecting coronary networks from early atherogenic plaque development.",
-    "<b>Synergistic Nootropic Action and Cognitive Stabilization:</b> The structural combination of caffeine and L-theanine prevents the abrupt vasoconstriction typical of isolated caffeine ingestion, balancing neurotransmitter release to promote prolonged cognitive acuity without induced psychomotor agitation.",
-    "<b>Enamel Mineralization and Cariogenic Bacteria Inhibition:</b> Free bioavailable fluoride ions insert into hydroxyapatite grids on tooth surfaces, while native tea tannins suppress the carbohydrate metabolism of Streptococcus mutans, dramatically reducing dental caries development.",
-    "<b>Mitochondrial Antioxidant Support and Superoxide Dismutase Activation:</b> Abundant manganese concentrations act directly as structural cofactors to power intramitochondrial defense enzymes, neutralizing toxic metabolic free radicals before they inflict genomic or membrane degradation."
-  ],
-  "precautionsIntro": "Owing to its elevated tannin concentrations, active alkaloid profile, and mineral-chelating properties, unmoderated black tea utilization requires targeted consideration in specific clinical contexts:",
-  "precautions": [
-    "<b>Non-Heme Iron Chelation and Ferritin Depletion:</b> Highly reactive condensed tannins can form insoluble coordination complexes with non-heme ($Fe^{3+}$) ions within the proximal duodenum, severely blocking iron transport across enterocytes and worsening iron-deficiency anemia.",
-    "<b>Adenosine Receptor Blockade and Sleep Architecture Disruption:</b> Late-afternoon consumption of active 1,3,7-trimethylxanthine fragments delays the physiological accumulation of adenosine, extending sleep onset latency and reducing the duration of deep slow-wave sleep phases.",
-    "<b>Gastric Mucosal Irritation and Parietal Cell Stimulation:</b> Concentrated tea polyphenols can accelerate the secretion of gastric hydrochloric acid while simultaneously precipitating protective surface mucus proteins, potentially causing localized epigenetic discomfort in patients with active peptic ulcers."
-  ]
+"slug": "beverages-tea-black",
+"name": "Black tea",
+"category": "Beverages",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "0 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.002 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.008 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.001 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "3 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "1 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "2 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "14 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.05 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.01 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.01 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.155 mg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "0.2 mg"
+}
+]
 }

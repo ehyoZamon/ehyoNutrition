@@ -1,107 +1,167 @@
 {
-  "slug": "quince",
-  "name": "Quince",
-  "category": "Fruits & Berries",
-  "image": "/productinfo/quince.png",
-  "imageAlt": "fresh golden quince fruit",
-  "description": "Quince (Cydonia oblonga) is a structurally dense pome fruit characterized by a high pectin content and a robust polyphenolic antioxidant profile. Its unique botanical matrix—rich in organic acids and soluble fibers—is engineered to optimize gastrointestinal mucosal integrity, vascular elasticity, and systemic immune kinetics.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "A clean, low-calorie carbohydrate framework providing high volumetric satiety with a near-zero lipid footprint, suitable for glycemic management.",
-  "microIntro": "A functional micronutrient payload featuring Vitamin C and essential trace minerals that reinforce tissue structural integrity and metabolic defense mechanisms.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "57 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "Low energy density providing high satiety with minimal metabolic overhead."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.4 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Minimalist plant-derived protein content characteristic of crisp pome fruits."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0.1% DV",
-      "bg": "#e4a910",
-      "description": "Negligible lipid baseline, supporting ultra-low-fat nutritional frameworks."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "15.3 g / 6% DV",
-      "bg": "#15837c",
-      "description": "Complex carbohydrates balanced by dense dietary fiber (~2g), promoting gradual glycemic response."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 27,
-      "name": "Vitamin C",
-      "slug": "vitamin-c",
-      "amount": "15.0 mg / 17% DV",
-      "bg": "#1a96cd",
-      "description": "Antioxidant cofactor essential for endogenous collagen synthesis and immune cell defense."
-    },
-    {
-      "id": 145,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "0.13 mg / 14% DV",
-      "bg": "#15837c",
-      "description": "Trace mineral catalyst required for optimal iron utilization and maintenance of vascular tissue elasticity."
-    },
-    {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "197 mg / 4% DV",
-      "bg": "#66ab63",
-      "description": "Foundational electrolyte for coordinating cellular fluid balance and regulating smooth muscle tone."
-    },
-    {
-      "id": 24,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "0.7 mg / 4% DV",
-      "bg": "#e4a910",
-      "description": "Provides non-heme iron to support baseline hemoglobin production and tissue oxygenation."
-    },
-    {
-      "id": 36,
-      "name": "Vitamin B6",
-      "slug": "vitamin-b6",
-      "amount": "0.04 mg / 3% DV",
-      "bg": "#f5722c",
-      "description": "Contributes to enzymatic amino acid catabolism and nervous system signaling."
-    },
-    {
-      "id": 34,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "8 mg / 2% DV",
-      "bg": "#1a96cd",
-      "description": "Supports ATP stability and enzymatic transfers essential for neuromuscular relaxation."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Mucosal Gastroprotection:</b> High concentrations of soluble pectin form a protective bio-gel over gastric linings, mitigating low-grade inflammation.",
-    "<b>Astringent Antioxidant Defense:</b> Polyphenolic tannins (catechins) actively precipitate and neutralize toxic metabolites, shielding the intestinal epithelium.",
-    "<b>Vascular Elasticity:</b> Synergistic Vitamin C and Copper profiles promote robust collagen cross-linking within capillary walls.",
-    "<b>Hepatic Modulation:</b> Organic acids and polyphenols assist in lipid metabolism, reducing oxidative stress within hepatic transport pathways."
-  ],
-  "precautionsIntro": "Structural preparation and toxicity considerations regarding botanical processing:",
-  "precautions": [
-    "<b>Astringency & Digestion:</b> High tannin content may irritate hyper-sensitive digestive tracts or cause oral mucosa dryness; thermal processing (poaching) is recommended.",
-    "<b>Seed Toxicity:</b> Quince seeds contain amygdalin (cyanogenic glycoside); the core must be removed entirely prior to consumption.",
-    "<b>Culinary Glycemic Load:</b> Commercial preserves (jams, pastes) are typically formulated with high sugar concentrations; monitor serving sizes to avoid glycemic spikes."
-  ]
+"slug": "quinces-raw",
+"name": "Quinces",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "57 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.4 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "15.3 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.1 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "1.9 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "15 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "2 mcg RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.2 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.081 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "3 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "11 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "17 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "8 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "4 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "197 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.7 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.04 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.13 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.6 mcg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.049 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.036 g"
+}
+]
 }

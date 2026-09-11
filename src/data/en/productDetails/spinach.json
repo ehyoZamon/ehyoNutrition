@@ -1,116 +1,286 @@
 {
-  "slug": "spinach",
-  "name": "Spinach",
-  "category": "Vegetables & Greens",
-  "image": "/productinfo/spinach.png",
-  "imageAlt": "spinach",
-  "description": "Spinach is a legendary, deep-green leafy vegetable packing an unparalleled micro-nutrient density. Delivering an astronomical concentration of Vitamin K1, protective ocular carotenoids, and vital folate, it serves as a top-tier therapeutic whole food for cellular resilience, vascular strength, and vision performance.",
+  "slug": "spinach-raw",
+  "name": "Spinach, raw",
+  "category": "Vegetables and Vegetable Products",
   "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "23 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "Extremely low in calories and exceptionally hydrating, making it an ideal volume food for pristine metabolic control."
+      "amount": "23 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "2.9 g / 6% DV",
-      "bg": "#f5722c",
-      "description": "Contains a remarkably high amino acid efficiency for a leafy green, providing structural support for cellular repair."
+      "amount": "2.86 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.4 g / 1% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, though pairing spinach with healthy dietary lipids dramatically enhances the absorption of its fat-soluble vitamins."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "3.6 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Composed primarily of structured, non-digestible complex fibers, ensuring a near-zero impact on circulating glucose levels."
+      "amount": "3.63 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.39 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.2 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 5,
-      "name": "Vitamin K1 (Phylloquinone)",
-      "slug": "vitamin-k",
-      "amount": "482.9 mcg / 402% DV",
-      "bg": "#15837c",
-      "description": "An astronomical mega-dose that serves as a core coordinator for healthy blood coagulation pathways and structural bone mineral binding."
-    },
-    {
-      "id": 26,
-      "name": "Vitamin A (Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "469 mcg / 52% DV",
-      "bg": "#66ab63",
-      "description": "Packed with provitamin A carotenoids, which convert to active retinol to drive cellular night vision mechanics and preserve mucosal immunity."
-    },
-    {
-      "id": 31,
-      "name": "Vitamin B9 (Folate)",
-      "slug": "vitamin-b9",
-      "amount": "194.0 mcg / 49% DV",
-      "bg": "#f5722c",
-      "description": "An essential coenzyme critical for proper DNA repair, deep cellular replication cascades, and optimal cardiovascular tissue health."
-    },
-    {
-      "id": 37,
-      "name": "Iron (Non-Heme)",
-      "slug": "iron",
-      "amount": "2.7 mg / 15% DV",
-      "bg": "#e4a910",
-      "description": "An impressive botanical distribution of iron, necessary for hemoglobin synthesis and optimizing daily oxygen transportation channels."
-    },
-    {
-      "id": 59,
-      "name": "Lutein",
-      "slug": "lutein",
-      "amount": "11598 mcg",
-      "bg": "#1a96cd",
-      "description": "A colossal density of eye-protective pigment that physically accumulates in the retina, blocking intense blue light and preserving long-term vision."
-    },
-    {
-      "id": 60,
-      "name": "Zeaxanthin",
-      "slug": "zeaxanthin",
-      "amount": "600 mcg",
-      "bg": "#0288d1",
-      "description": "Works in synergetic combination with lutein inside the macular retina, absorbing high-energy wavelengths to sustain sharp visual resolution."
-    },
-    {
-      "id": 1,
+      "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "28.1 mg / 31% DV",
-      "bg": "#1a96cd",
-      "description": "Provides key antioxidant support, neutralizing surface free radicals and assisting in the intestinal absorption of plant-bound iron."
+      "amount": "28.1 mg"
+    },
+    {
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "469 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "2.03 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "482.9 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.078 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.189 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.724 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.065 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.195 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "194 mcg DFE"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.15 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.22 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.17 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.13 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.12 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.16 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.14 g"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "99 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "49 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "79 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "79 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "558 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "2.71 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.53 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.897 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "1 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.2 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "19.3 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "5626 mcg"
+    },
+    {
+      "id": "62",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "9 mg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.16 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.13 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.11 g"
+    },
+    {
+      "id": "55",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "102.6 mg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Unrivaled Retinal Protection:</b> Boasting an exceptional concentration of lutein and zeaxanthin, it accumulates directly inside the macula, creating a powerful shield against oxidative blue-light degradation.",
-    "<b>Elite Vascular Coagulation & Bone Health:</b> Supplying over 400% of your daily Vitamin K1 in just 100g, it aggressively drives osteocalcin activation, ensuring calcium integrates perfectly into the structural bone matrix.",
-    "<b>Oxidative Stress Suppression:</b> An abundant array of flavonoids and alpha-lipoic acid helps lower systemic inflammatory markers and actively preserves cellular membrane structures.",
-    "<b>Enhanced Oxygen Dynamics:</b> Natural folate paired with non-heme iron supports red blood cell division, combatting physical fatigue and driving cellular energetic pathways."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>High Oxalic Acid Matrix:</b> Spinach contains heavy concentrations of oxalates, which can structurally bind to minerals like calcium. Individuals with a history of calcium-oxalate kidney stones should monitor intake or cook spinach to greatly reduce soluble oxalate loads.",
-    "<b>Prescription Blood Thinner Interactions:</b> Due to the extreme, dense volume of Vitamin K1—which dictates natural blood clotting cascades—individuals taking highly calibrated anticoagulants (like Warfarin) must keep their daily leafy green intake completely consistent.",
-    "<b>Non-Heme Iron Absorption Blocks:</b> The iron present in raw spinach is plant-bound (non-heme) and tightly anchored by polyphenols. Pairing spinach with ascorbic acid (Vitamin C from lemon or bell peppers) or cooking it helps unlock its full bio-availability.",
-    "<b>Nitrate Bioaccumulation Dynamics:</b> Like many leafy greens grown in conventional environments, spinach leaves can absorb large amounts of soil nitrates. Sourcing clean options and consuming fresh leaves prevents unwanted conversion to nitrites during poor storage."
   ]
 }

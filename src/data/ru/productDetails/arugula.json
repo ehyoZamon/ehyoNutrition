@@ -1,124 +1,197 @@
 {
-  "slug": "arugula",
-  "name": "Рукола",
-  "category": "Овощи",
-  "image": "/productinfo/arugula.png",
-  "imageAlt": "свежие ярко-зеленые листья руколы",
-  "description": "Рукола (Eruca vesicaria) — ароматная крестоцветная зелень с острым горчичным вкусом. Она богата глюкозинолатами, которые превращаются в изотиоцианаты (сульфорафан), и неорганическими нитратами. Рукола способствует расслаблению сосудов, поддерживает детоксикацию печени и нейтрализует свободные радикалы.",
-  "macroTitle": "Макронутриенты (на 100 г, свежие листья)",
-  "macroIntro": "Рукола имеет низкую калорийность, высокую гидратацию и богата биоактивными веществами.",
-  "microIntro": "Листья являются источником нитратов для сосудов, витаминов для костей и ферментов-антиоксидантов.",
+  "slug": "arugula-raw",
+  "name": "Руккола, сырая",
+  "category": "Овощи и овощные продукты",
+  "macroTitle": "Макронутриенты (на 100 г)",
   "macroNutrients": [
     {
       "id": "calories",
-      "name": "Калорийность",
+      "name": "Калории",
       "slug": "",
-      "amount": "~25 ккал",
-      "bg": "#15837c",
-      "description": "Минимальная калорийность без нагрузки на гликемию."
+      "amount": "25 ккал"
     },
     {
       "id": "protein",
       "name": "Белки",
       "slug": "protein",
-      "amount": "2.58 г",
-      "bg": "#f5722c",
-      "description": "Высокое для зелени содержание аминокислот."
+      "amount": "2.58 г"
     },
     {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "0.66 г",
-      "bg": "#e4a910",
-      "description": "Незначительное количество липидов и полезных омега-кислот."
-    },
-    {
-      "id": "carbs",
+      "id": "carbohydrates",
       "name": "Углеводы",
       "slug": "carbohydrates",
-      "amount": "3.65 г",
-      "bg": "#1a96cd",
-      "description": "Натуральные углеводы с клетчаткой (~1.6 г) для стабильности сахара."
+      "amount": "3.65 г"
+    },
+    {
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "0.66 г"
+    },
+    {
+      "id": "fiber",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "1.60 г"
     }
   ],
+  "microTitle": "Витамины и минералы (на 100 г)",
   "microNutrients": [
     {
-      "id": "vitamin-k1",
-      "slug": "vitamin-k1",
-      "name": "Витамин K1",
-      "amount": "108.6 мкг / 90% СН",
-      "bg": "#15837c",
-      "description": "Важен для прочности костей и свертывания крови."
+      "id": "vitamin-c",
+      "name": "Витамин C",
+      "slug": "vitamin-c",
+      "amount": "15 мг"
     },
     {
-      "id": "nitrates",
-      "slug": "nitrates",
-      "name": "Нитраты",
-      "amount": "Высокая концентрация",
-      "bg": "#f5722c",
-      "description": "Прекурсоры оксида азота, улучшающие кровоток."
+      "id": "vitamin-a",
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "119 мкг RAE"
     },
     {
-      "id": "isothiocyanates",
-      "slug": "isothiocyanates",
-      "name": "Изотиоцианаты",
-      "amount": "Биоактивное кол-во",
-      "bg": "#66ab63",
-      "description": "Соединения для активации детоксикации печени."
+      "id": "vitamin-e",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0.43 мг"
     },
     {
-      "id": "folate",
-      "slug": "folate",
-      "name": "Витамин B9 (Фолат)",
-      "amount": "97 мкг / 24% СН",
-      "bg": "#1a96cd",
-      "description": "Необходим для синтеза ДНК и обновления клеток."
+      "id": "vitamin-k",
+      "name": "Витамин K",
+      "slug": "vitamin-k",
+      "amount": "109 мкг"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.04 мг"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.09 мг"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.30 мг"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Витамин B5",
+      "slug": "vitamin-b5",
+      "amount": "0.44 мг"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.07 мг"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "97 мкг DFE"
     },
     {
       "id": "calcium",
-      "slug": "calcium",
       "name": "Кальций",
-      "amount": "160 мг / 12% СН",
-      "bg": "#e4a910",
-      "description": "Структурный элемент для скелета и нервной передачи."
+      "slug": "calcium",
+      "amount": "160 мг"
     },
     {
-      "id": 105,
-      "slug": "vitamin-c",
-      "name": "Витамин C",
-      "amount": "15 мг / 17% СН",
-      "bg": "#15837c",
-      "description": "Поддерживает иммунитет и синтез коллагена."
+      "id": "phosphorus",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "52 мг"
     },
     {
-      "id": 106,
-      "slug": "vitamin-a",
-      "name": "Витамин A",
-      "amount": "237 мкг / 26% СН",
-      "bg": "#f5722c",
-      "description": "Важен для зрения и здоровья кожи."
-    },
-    {
-      "id": 107,
-      "slug": "magnesium",
+      "id": "magnesium",
       "name": "Магний",
-      "amount": "47 мг / 11% СН",
-      "bg": "#66ab63",
-      "description": "Участвует в работе мышц и нервной системы."
+      "slug": "magnesium",
+      "amount": "47 мг"
+    },
+    {
+      "id": "sodium",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "27 мг"
+    },
+    {
+      "id": "potassium",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "369 мг"
+    },
+    {
+      "id": "iron",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "1.46 мг"
+    },
+    {
+      "id": "zinc",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.47 мг"
+    },
+    {
+      "id": "copper",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.08 мг"
+    },
+    {
+      "id": "manganese",
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.32 мг"
+    },
+    {
+      "id": "selenium",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "0.3 мкг"
+    },
+    {
+      "id": "choline",
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "15.3 мг"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.17 г"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.13 г"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.05 г"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Бета-каротин",
+      "slug": "beta-carotene",
+      "amount": "1420 мкг"
+    },
+    {
+      "id": "betaine",
+      "name": "Бетаин",
+      "slug": "betaine",
+      "amount": "0.10 мг"
     }
-  ],
-  "healthBenefits": [
-    "<b>Здоровье сосудов:</b> Нитраты улучшают кровообращение и снижают давление.",
-    "<b>Прочность костей:</b> Витамин K1 и кальций укрепляют скелет.",
-    "<b>Детоксикация:</b> Активные вещества ускоряют очищение печени.",
-    "<b>Метаболизм:</b> Низкая калорийность и объем порции помогают контролировать аппетит.",
-    "<b>Зрение:</b> Лютеин и зеаксантин защищают сетчатку от света."
-  ],
-  "precautionsIntro": "Взаимодействие с лекарствами, желудок и камни в почках: Будьте информированы.",
-  "precautions": [
-    "<b>Лекарства:</b> Высокий уровень витамина K1 может влиять на действие Варфарина.",
-    "<b>ЖКТ:</b> Горчичные масла могут раздражать слизистую при гастрите.",
-    "<b>Почки:</b> Оксалаты могут способствовать камнеобразованию у предрасположенных лиц."
   ]
 }

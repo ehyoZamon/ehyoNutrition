@@ -1,107 +1,245 @@
 {
-  "slug": "acorn-squash",
-  "name": "Acorn Squash",
-  "category": "Vegetables",
-  "image": "/productinfo/acorn-squash.png",
-  "imageAlt": "fresh acorn squash",
-  "description": "Acorn squash (Cucurbita pepo var. turbinata) is a structurally dense winter vegetable characterized by a high-fiber starch matrix and an elite electrolyte profile. It provides a robust botanical repository of B-vitamins, Vitamin C, and essential trace minerals, which synergistically optimize gastrointestinal kinetic pathways, maintain arterial vascular tone, and drive mitochondrial ATP production.",
-  "macroTitle": "Macro Nutrients (per 100g, baked)",
-  "macroIntro": "A low-density carbohydrate architecture distinguished by a significant dietary fiber payload and an effectively non-existent lipid profile.",
-  "microIntro": "A potent bioavailable micronutrient matrix featuring superior potassium levels, which reinforce cardiac rhythm and systemic fluid homeostasis.",
+  "slug": "squash-winter-acorn-raw",
+  "name": "Squash, winter, acorn, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "56 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "Low energy density providing high volumetric satiety with minimal metabolic loading."
+      "amount": "40 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.1 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Foundational plant-based protein content typical of high-fiber winter squash varieties."
+      "amount": "0.80 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0.1% DV",
-      "bg": "#e4a910",
-      "description": "Negligible lipid content, ideal for maintaining strict macro-nutrient control in fat-restricted protocols."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "14.6 g / 5% DV",
-      "bg": "#15837c",
-      "description": "Robust complex starch matrix balanced by high-yield fiber (~4g), promoting sustained glucose release curves."
+      "amount": "10.40 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.50 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "437 mg / 9% DV",
-      "bg": "#66ab63",
-      "description": "Elite intracellular electrolyte concentration critical for regulating systemic fluid pressures and vascular tone."
-    },
-    {
-      "id": 27,
+      "id": "vitamin-c",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "11.0 mg / 12% DV",
-      "bg": "#1a96cd",
-      "description": "Antioxidant cofactor required for endogenous collagen synthesis and neutralization of oxidative free-radical stress."
+      "amount": "11.00 mg"
     },
     {
-      "id": 34,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "32 mg / 8% DV",
-      "bg": "#15837c",
-      "description": "Functional mineral supporting enzyme-driven energy pathways and preservation of skeletal mineral density."
-    },
-    {
-      "id": 36,
-      "name": "Vitamin B6",
-      "slug": "vitamin-b6",
-      "amount": "0.2 mg / 12% DV",
-      "bg": "#f5722c",
-      "description": "Coenzymatic regulator of amino acid catabolism, erythropoiesis, and neurotransmitter signaling."
-    },
-    {
-      "id": 141,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.2 mg / 9% DV",
-      "bg": "#e4a910",
-      "description": "Trace catalyst essential for bone mineral matrix formatting and mitochondrial defense systems."
-    },
-    {
-      "id": 143,
+      "id": "vitamin-a",
       "name": "Vitamin A",
       "slug": "vitamin-a",
-      "amount": "18 mcg / 2% DV",
-      "bg": "#1a96cd",
-      "description": "Provides alpha and beta-carotenoid pigments supporting mucous membrane integrity and visual adaptation."
+      "amount": "18.00 mcg RAE"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.14 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.01 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.70 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.40 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.15 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "17.00 mcg DFE"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "33.00 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "36.00 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "32.00 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "3.00 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "347.00 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.70 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.17 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.50 mcg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "220.00 mcg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.03 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Gastrointestinal Kinematics:</b> High-volume soluble and insoluble fiber optimizes bowel transit mechanics and stabilizes gut microbiome diversity.",
-    "<b>Vascular Architecture Support:</b> Superior Potassium/Magnesium synergy attenuates arterial wall tension and assists in blood pressure management.",
-    "<b>Mitochondrial Metabolism:</b> Robust B6 and trace mineral profiles facilitate efficient carbohydrate-to-ATP conversion without glycemic volatility.",
-    "<b>Systemic Antioxidant Shield:</b> Vitamin C and polyphenolic compounds protect vascular endothelial barriers from oxidative lipid peroxidation."
-  ],
-  "precautionsIntro": "Nutritional calibration is advised based on individual metabolic and renal requirements:",
-  "precautions": [
-    "<b>Glycemic Density:</b> Higher starch concentration relative to other squashes requires portion monitoring in strict ketogenic or low-carb frameworks.",
-    "<b>Renal Clearance:</b> Patients with chronic kidney disease (CKD) or those on potassium-sparing medication must moderate intake due to high potassium levels.",
-    "<b>Fiber Adaptation:</b> High fiber concentrations may induce transient gastrointestinal discomfort in individuals with low-fiber baseline diets or IBS."
   ]
 }

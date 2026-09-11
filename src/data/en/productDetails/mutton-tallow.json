@@ -1,84 +1,173 @@
 {
-  "slug": "mutton-tallow",
-  "name": "Mutton Tallow",
-  "category": "Fats and Oils",
-  "image": "/productinfo/mutton-tallow.png",
-  "imageAlt": "rendered pure traditional mutton tallow tail fat in a jar",
-  "description": "Mutton tallow is an ultra-robust animal lipid matrix characterized by its high thermodynamic stability and dense distribution of saturated and monounsaturated fatty acids. It serves as an intense metabolic fuel and a pristine medium for delivering fat-soluble nutrients with high thermal resistance.",
-  "macroTitle": "Macro Nutrients (per 100g, rendered)",
-  "macroIntro": "A pure, hydrophobic triglyceride profile isolated from all proteins and carbohydrates.",
-  "microIntro": "A specialized lipophilic matrix delivering high ratios of stearic acid and natural CLA for structural support.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "902 kcal / 45% DV",
-      "bg": "#15837c",
-      "description": "Maximal energy density within stable lipid bonds for sustained fuel."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "100.0 g / 128% DV",
-      "bg": "#e4a910",
-      "description": "Structure: ~54% saturated, ~41% monounsaturated, ~5% polyunsaturated."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 171,
-      "name": "Stearic Acid",
-      "slug": "stearic-acid",
-      "amount": "25.0 g",
-      "bg": "#15837c",
-      "description": "Saturated chain providing signature firm texture and metabolic stability."
-    },
-    {
-      "id": 164,
-      "name": "Oleic Acid (Omega-9)",
-      "slug": "oleic-acid",
-      "amount": "36.0 g",
-      "bg": "#66ab63",
-      "description": "Monounsaturated fraction supporting endothelial and lipid homeostasis."
-    },
-    {
-      "id": 172,
-      "name": "Conjugated Linoleic Acid (CLA)",
-      "slug": "cla",
-      "amount": "Bioactive",
-      "bg": "#f5722c",
-      "description": "Ruminant trans-fatty acid isomer linked to immune and lean tissue support."
-    },
-    {
-      "id": 166,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "2.2 mg / 15% DV",
-      "bg": "#1a96cd",
-      "description": "Lipophilic antioxidant suppressing free radical propagation."
-    },
-    {
-      "id": 170,
-      "name": "Dietary Cholesterol",
-      "slug": "cholesterol",
-      "amount": "102 mg",
-      "bg": "#e4a910",
-      "description": "Sterol foundational to membrane synthesis and steroid hormone paths."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Thermodynamic Stability:</b> High smoke point (~220°C) prevents toxic degradation during cooking.",
-    "<b>CLA Delivery:</b> Provides natural CLA for metabolic and immune modulation.",
-    "<b>Nutrient Carrier:</b> Optimizes the bioavailability of fat-soluble vitamins (A, D, E, K).",
-    "<b>Barrier Support:</b> Used historically for protective sealing of skin and mucosa.",
-    "<b>Ketogenic Efficiency:</b> Ideal, non-insulinogenic fuel for beta-oxidation."
-  ],
-  "precautionsIntro": "Considerations for digestion and systemic lipid markers:",
-  "precautions": [
-    "<b>Digestive Friction:</b> High melting point (~50°C) may cause heavy gastric sensation if consumed with chilled fluids.",
-    "<b>Caloric Density:</b> Extreme energy concentration requires careful portion management.",
-    "<b>Lipid Markers:</b> High saturated fat content may affect ApoB/LDL levels in susceptible individuals."
-  ]
+"slug": "lamb-subcutaneous-fat-raw",
+"name": "Mutton fat",
+"category": "Lamb, Veal, and Game Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "703 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "3.87 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0.55 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "76.16 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "44 mcg RAE"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0.10 mcg"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "1.18 mg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.09 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "1.06 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0.41 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "3 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "45 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "5 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "28 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "93 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.47 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.46 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.02 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "1.3 mcg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.64 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "1.62 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "21.03 g"
+}
+]
 }

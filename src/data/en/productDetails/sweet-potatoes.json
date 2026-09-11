@@ -1,108 +1,299 @@
 {
-  "slug": "sweet-potatoes",
-  "name": "Sweet Potatoes (with Skin)",
-  "category": "Vegetables",
-  "image": "/productinfo/sweet-potatoes.png",
-  "imageAlt": "sweet potatoes",
-  "description": "Sweet potatoes are a premier, nutrient-dense tuberous whole food. Distinct from white potatoes, they possess a staggering concentration of provitamin A carotenoids, unique root storage proteins, and a highly stable complex carbohydrate matrix that delivers exceptional antioxidant protection, dermal resilience, and sustainable metabolic fuel.",
+  "slug": "sweet-potato-raw-unprepared",
+  "name": "Sweet potato, raw, unprepared",
+  "category": "Vegetables and Vegetable Products",
   "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient configuration of sweet potatoes consists of slow-burning complex carbohydrates intertwined with unique plant mucilages, creating a highly efficient vehicle for steady glucose release.",
-  "microIntro": "Sweet potatoes house a massive crystalline pool of fat-soluble carotenoids, cell-protecting water-soluble vitamins, and vital extracellular minerals that optimize systemic metabolic pathways.",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "86 kcal / 4% DV",
-      "bg": "#15837c",
-      "description": "Provides clean, sustained biological energy with an exceptionally high nutritional density per calorie, ideal for long-term metabolic stability."
+      "amount": "86 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.6 g / 3% DV",
-      "bg": "#f5722c",
-      "description": "Contains unique functional proteins like *sporamins*, which account for over 80% of its total protein and exhibit significant internal antioxidant properties."
+      "amount": "1.57 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, allowing for swift gastric transit while creating an optimal base to pair with healthy external lipids for maximum nutrient absorption."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "20.1 g / 7% DV",
-      "bg": "#15837c",
-      "description": "Composed of a sophisticated matrix of complex starches, natural maltose fractions, and soluble fibers that prevent aggressive postprandial glucose shifts."
+      "amount": "20.1 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "3 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.001 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.013 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.001 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 1,
-      "name": "Beta-Carotene (Vitamin A)",
-      "slug": "vitamin-a",
-      "amount": "8509 mcg / 94% DV",
-      "bg": "#f5722c",
-      "description": "An astronomical dose of provitamin A carotenoids that the liver converts into retinol as required to preserve corneal architecture and optimize immune response loops."
-    },
-    {
-      "id": 34,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "337 mg / 7% DV",
-      "bg": "#15837c",
-      "description": "An essential systemic electrolyte that coordinates electrical heart signaling, fluid balance, and healthy baseline blood pressure levels."
-    },
-    {
-      "id": 27,
-      "name": "Vitamin B6 (Pyridoxine)",
-      "slug": "vitamin-b6",
-      "amount": "0.21 mg / 12% DV",
-      "bg": "#e4a910",
-      "description": "Crucial for running continuous transamination pathways, degrading cellular glycogen stores, and lowering circulating homocysteine markers."
-    },
-    {
-      "id": 2,
+      "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "2.4 mg / 3% DV",
-      "bg": "#1a96cd",
-      "description": "Works in a strict synergistic loop with native carotenoids to shield cellular lipid layers from oxidative decline and promote structural collagen synthesis."
+      "amount": "2.4 mg"
     },
     {
-      "id": 41,
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "709 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.26 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "1.8 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.078 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.061 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.557 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.8 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.209 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "11 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "30 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "47 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "25 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "55 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "337 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.61 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.151 mg"
+    },
+    {
+      "id": "38",
       "name": "Manganese",
       "slug": "manganese",
-      "amount": "0.26 mg / 11% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace mineral cofactor necessary for bone matrix formulation, carbohydrate processing, and triggering internal antioxidant enzymes."
+      "amount": "0.258 mg"
     },
     {
-      "id": 19,
-      "name": "Dietary Fiber",
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.6 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
       "slug": "fiber",
-      "amount": "3.0 g / 11% DV",
-      "bg": "#1a96cd",
-      "description": "A robust fiber profile featuring soluble pectin fibers that coat the intestinal lumen, significantly slowing down sugar assimilation into the bloodstream."
+      "amount": "3 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "12.3 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "8510 mcg"
+    },
+    {
+      "id": "61",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "12 mg"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.055 g"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.031 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.055 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.092 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.066 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.029 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.089 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.083 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.031 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.034 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.086 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.063 g"
+    },
+    {
+      "id": "56",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "0 mcg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Advanced Ocular & Dermal Architecture:</b> The immense concentration of bioavailable Beta-Carotene actively protects retinal cells from light-induced oxidative stress while strengthening the skin’s internal cellular matrix against UV damage.",
-    "<b>Sustainable Glycemic Regulation:</b> Despite their natural sweetness, sweet potatoes possess a medium-to-low glycemic index when boiled. Their high soluble fiber matrix slows gastric emptying, keeping postprandial glucose and insulin shifts flat.",
-    "<b>Endogenous Antioxidant Support:</b> The unique root storage proteins (*sporamins*) function as potent free-radical scavengers, actively reducing oxidative stress markers throughout the vascular and digestive tracts.",
-    "<b>Gastrointestinal Mucosal Integrity:</b> Soluble fibers and complex plant mucilages provide a physical soothing layer along the stomach and intestinal lining, while nourishing beneficial short-chain fatty acid-producing gut microbes."
-  ],
-  "precautionsIntro": "While sweet potatoes serve as an elite functional whole food, their specific mineral density and organic compound profiles require targeted tracking under certain physiological conditions.",
-  "precautions": [
-    "<b>Kidney Stone Oxalate Management:</b> Sweet potatoes are naturally rich in oxalates. If you have a recurring clinical history of calcium-oxalate kidney stones, heavy intake can increase urinary crystallization risk, requiring balanced consumption parameters.",
-    "<b>Carotenodermia Skin Pigmentation:</b> Consuming massive quantities of sweet potatoes over prolonged periods can lead to an accumulation of beta-carotene in the stratum corneum, causing a harmless, reversible yellowish-orange tinting of the skin.",
-    "<b>Culinary Preparation Glycemic Shifts:</b> While boiling sweet potatoes maintains a low glycemic index, baking or roasting them for extended periods breaks down complex starches into simple sugars, significantly raising their glycemic impact.",
-    "<b>Renal Potassium Clearance Parameters:</b> Because of their substantial intracellular potassium content, individuals navigating advanced chronic kidney disease (CKD) must monitor portion allocations to avoid hyperkalemia complications."
   ]
 }

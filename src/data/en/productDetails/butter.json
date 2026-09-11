@@ -1,99 +1,285 @@
 {
-  "slug": "butter",
-  "name": "Butter",
-  "category": "Dairy Products / Fats",
-  "image": "/productinfo/butter.png",
-  "imageAlt": "piece of butter",
-  "description": "Butter represents a highly concentrated water-in-oil colloidal lipid phytomatrix obtained through mechanical phase inversion and churning of pasteurized Bovine cream. Operating as an advanced physiological transport vehicle for fat-soluble lipophilic compounds, this matrix features a unique architecture dominated by short- and medium-chain triacylglycerols (including butyric and caproic acids), alongside ruminant-derived conjugated linoleic acid ($CLA$) isomers and menaquinones. The physical conversion clusters hydrophobic milk fat globules into a continuous crystalline lipid phase, trapping microscopic aqueous droplets containing residual casein and lactose traces. This complex bio-matrix acts as an immediate systemic thermodynamic fuel source, supports intestinal mucosal integrity through the localized delivery of butyrate, optimizes the systemic absorption profile of exogenous carotenoids, and stabilizes vascular mineral homeostasis.",
-  "macroTitle": "Macro Nutrients (per 100g, classic butter 82.5% fat)",
-  "macroIntro": "The macronutrient configuration of traditional 82.5% butter represents a maximum-density hydrophobic energy system, optimized for cellular structure formation and high-efficiency thermodynamic output.",
-  "microIntro": "A highly specialized physiological repository of fat-soluble vitamins and bioactive ruminant fatty acids critical for bone mineralization and metabolic signaling.",
+  "slug": "butter-without-salt",
+  "name": "Butter, without salt",
+  "category": "Dairy and Egg Products",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "748 kcal / 37% DV",
-      "bg": "#15837c",
-      "description": "An exceptional concentration of thermodynamic energy, generated via the highly efficient oxidative cleavage of long- and short-chain fatty acids."
+      "amount": "717 kcal"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "82.5 g / 106% DV",
-      "bg": "#e4a910",
-      "description": "Composed of a highly complex arrangement of saturated (approx. 51g), monounsaturated, and polyunsaturated fatty acids that serve as foundational membrane building blocks."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.8 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Minimal residual carbohydrate traces, confined to unseparated lactose disaccharides dissolved in the trapped moisture droplets."
-    },
-    {
-      "id": 14,
+      "id": "14",
       "name": "Protein",
       "slug": "protein",
-      "amount": "0.6 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "An absolute minor nitrogenous remainder, consisting of trace milk proteins (casein and whey fractions) clinging to the lipid envelopes."
+      "amount": "0.85 g"
+    },
+    {
+      "id": "15",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "16",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "81.11 g"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 21,
-      "name": "Vitamin A (Retinol)",
-      "slug": "vitamin-a",
-      "amount": "684 mcg / 76% DV",
-      "bg": "#15837c",
-      "description": "A highly bioavailable fat-soluble retinol ester vital for the biochemical cycles of vision and the structural differentiation of epithelial tissues."
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0 mg"
     },
     {
-      "id": 118,
-      "name": "Conjugated Linoleic Acid (CLA)",
-      "slug": "fatty-acids",
-      "amount": "Bioactive Compound",
-      "bg": "#f5722c",
-      "description": "A specialized ruminant-derived polyunsaturated fatty acid that modulates PPAR-alpha pathways, supporting skeletal muscle metabolic activity."
-    },
-    {
-      "id": 28,
-      "name": "Vitamin K2 (Menaquinone)",
-      "slug": "vitamin-k2",
-      "amount": "Significant Content",
-      "bg": "#66ab63",
-      "description": "An essential fat-soluble cofactor required for the gamma-carboxylation of osteocalcin, directing free calcium ions into the bone matrix."
-    },
-    {
-      "id": 23,
-      "name": "Vitamin D (Cholecalciferol)",
+      "id": "2",
+      "name": "Vitamin D",
       "slug": "vitamin-d",
-      "amount": "1.2 mcg / 6% DV",
-      "bg": "#e4a910",
-      "description": "A critical lipophilic secosteroid hormone precursor that upregulates intestinal calcium transporter proteins to stabilize serum calcium levels."
+      "amount": "0 mcg"
     },
     {
-      "id": 25,
-      "name": "Vitamin E (Alpha-Tocopherol)",
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "684 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
       "slug": "vitamin-e",
-      "amount": "2.3 mg / 15% DV",
-      "bg": "#1a96cd",
-      "description": "A key biological antioxidant embedded within lipid structures, shielding cell membrane fatty acids from destructive free-radical peroxidation cascades."
+      "amount": "2.32 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "7 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.005 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.042 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.11 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.003 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "3 mcg"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.17 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "24 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "24 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "2 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "11 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "24 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.02 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.09 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.016 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.004 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "1 mcg"
+    },
+    {
+      "id": "43",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "2.8 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "18.8 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "158 mcg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "2.17 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "20.4 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.031 g"
+    },
+    {
+      "id": "69",
+      "name": "Cysteine",
+      "slug": "cysteine",
+      "amount": "0.008 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.018 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.041 g"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.023 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.051 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.083 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.067 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.021 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.041 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.038 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.012 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.057 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.315 g"
+    },
+    {
+      "id": "27",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Retinol-Mediated Photoreception and Mucosal Maintenance:</b> Pre-formed active retinol structures rapidly convert to retinaldehyde within the ocular rod cells, preserving optimal dark adaptation responses while maintaining protective epithelial barrier functions across mucous membranes.",
-    "<b>Menaquinone-Driven Calcium Redirection and Vascular Protection:</b> Native vitamin K2 activates matrix Gla protein ($MGP$), which actively binds and inhibits calcium deposition within the arterial walls, preventing ectopic vascular calcification while accelerating mineral transport to bone sites.",
-    "<b>Butyrate-Induced Colonocyte Nutrition and Inflammatory Mitigation:</b> Short-chain butyric acid fractions released during initial lipase digestion act as a direct, preferred thermodynamic energy substrate for the intestinal epithelial lining, strengthening tight junctions and suppressing mucosal cytokine activation.",
-    "<b>Grass-Fed CLA Metabolic Regulation and Peroxisome Activation:</b> Natural сопряженная линолевая кислота ($CLA$) isomers stimulate specific intracellular receptors that upregulate brown adipose tissue thermogenesis and help optimize global skeletal muscle insulin sensitivity."
-  ],
-  "precautionsIntro": "Because of its intense concentration of long-chain saturated fatty acids and extreme thermodynamic values, butter consumption requires precise regulation in specific physiological conditions:",
-  "precautions": [
-    "<b>Saturated Triacylglycerol Abundance and Atherogenic Acceleration:</b> The dominant concentration of palmitic and myristic saturated fatty acids can elevate circulating low-density lipoprotein ($LDL$) cholesterol pools, requiring restriction in individuals with advanced atherosclerotic or dyslipidemic diseases.",
-    "<b>Thermodynamic Surplus and Adipocyte Hypertrophy:</b> The maximum energy density of this lipid matrix easily drives a positive systemic calorie balance if unmonitored, potentially accelerating hepatic steatosis and adipose tissue storage during weight management protocols.",
-    "<b>Casein and Lactose Trace Reactivity in Allergic Hypersensitivity:</b> Despite comprising mostly fat, unclarified traditional butter retains trace amounts of native milk solids; this can trigger allergic responses in highly sensitive bovine protein-allergic individuals or severe lactose-intolerant patients."
   ]
 }

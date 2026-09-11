@@ -1,108 +1,251 @@
 {
-  "slug": "mushrooms",
-  "name": "Mushrooms",
-  "category": "Mushrooms",
-  "image": "/productinfo/mushrooms.png",
-  "imageAlt": "mushrooms",
-  "description": "Mushrooms occupy a completely unique biological kingdom. Low in calories yet rich in flavor thanks to natural glutamate, they provide a powerful matrix of immunomodulating beta-glucans, unique antioxidants like selenium, and are one of the few non-animal sources of vitamin D.",
-  "macroTitle": "Macronutrients (per 100 g)",
-  "macroIntro": "",
-  "microIntro": "",
+  "slug": "mushrooms-white-raw",
+  "name": "Mushrooms, white, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "22 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "An incredibly low-calorie whole food, highly beneficial for weight management and metabolic restrictions."
+      "amount": "22 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "3.1 g / 6% DV",
-      "bg": "#f5722c",
-      "description": "Surprisingly high protein content for a plant-based source; features a balanced essential amino acid profile."
+      "amount": "3.09 g"
     },
     {
-      "id": 16,
-      "name": "Fats",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, containing only trace amounts of healthy unsaturated fatty acids and absolutely no cholesterol."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "3.3 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Composed mainly of complex structural carbohydrates and fiber, exerting a negligible impact on systemic blood sugar levels."
+      "amount": "3.26 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.34 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 3,
-      "name": "Vitamin D (Ergocalciferol)",
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "2.1 mg"
+    },
+    {
+      "id": "2",
+      "name": "Vitamin D",
       "slug": "vitamin-d",
-      "amount": "18 IU / 4% DV",
-      "bg": "#15837c",
-      "description": "One of the exceptionally rare non-animal sources of vitamin D2, helping to improve calcium retention and bone mineralization."
+      "amount": "0.2 mcg"
     },
     {
-      "id": 43,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "9.3 mcg / 17% DV",
-      "bg": "#1a96cd",
-      "description": "A potent antioxidant mineral that neutralizes free radicals, optimizes thyroid function, and supports the immune system."
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.01 mg"
     },
     {
-      "id": 7,
-      "name": "Vitamin B2 (Riboflavin)",
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.08 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
       "slug": "vitamin-b2",
-      "amount": "0.4 mg / 31% DV",
-      "bg": "#e4a910",
-      "description": "An essential metabolic coenzyme playing a key role in cellular energy extraction and structural red blood cell production."
+      "amount": "0.4 mg"
     },
     {
-      "id": 8,
-      "name": "Vitamin B3 (Niacin)",
+      "id": "8",
+      "name": "Vitamin B3",
       "slug": "vitamin-b3",
-      "amount": "3.6 mg / 23% DV",
-      "bg": "#f5722c",
-      "description": "Supports healthy cellular respiration, optimizes enzyme activity, protects skin texture, and maintains foundational nervous system health."
+      "amount": "3.61 mg"
     },
     {
-      "id": 37,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "0.3 mg / 35% DV",
-      "bg": "#66ab63",
-      "description": "A fundamental trace element necessary for hemoglobin synthesis, vascular structure assembly, and neurotransmitter production."
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "1.5 mg"
     },
     {
-      "id": 34,
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.1 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "17 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.04 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "3 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "86 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "9 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "5 mg"
+    },
+    {
+      "id": "32",
       "name": "Potassium",
       "slug": "potassium",
-      "amount": "318 mg / 7% DV",
-      "bg": "#e4a910",
-      "description": "A primary intracellular electrolyte regulating natural fluid balance, nerve signaling pathways, and cardiac muscle tone."
+      "amount": "318 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.5 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.52 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.32 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "9.3 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "17.3 mg"
+    },
+    {
+      "id": "55",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "9.4 mg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.16 g"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.12 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.11 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.09 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.11 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.23 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.09 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.04 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Immune System Architecture:</b> Mushrooms contain complex polysaccharides known as beta-glucans. These molecules act as natural immunomodulators, gently binding to immune cells to optimize defense functions.",
-    "<b>Cellular Antioxidant Protection:</b> A high concentration of selenium aids in the production of glutathione peroxidase enzymes, protecting cell membranes from daily oxidative damage.",
-    "<b>Cardiovascular Support:</b> Naturally rich in potassium and completely devoid of sodium or cholesterol, mushrooms help relieve vascular tone and aid in maintaining healthy blood pressure.",
-    "<b>Satiety with Minimal Calories:</b> Their dense structural matrix provides substantial food volume and a pleasant savory 'umami' flavor, maintaining feelings of fullness at an extremely low caloric cost."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Difficulty Digesting Chitin:</b> The cell walls of raw mushrooms consist of chitin—a rigid, tough polymer. To prevent digestive distress, cramps, or bloating, mushrooms should always be cooked to break down this matrix.",
-    "<b>Risk of Wild Mushroom Poisoning:</b> Never consume wild mushrooms unless their safety has been confirmed with absolute certainty by a professional mycologist. Toxic species can perfectly mimic edible ones and cause fatal organ damage. Commercial store-bought varieties are completely safe.",
-    "<b>Porous Heavy Metal Absorption:</b> Mushrooms act like natural sponges, easily absorbing contaminants or heavy metals from polluted surrounding soil. Always purchase mushrooms from trusted suppliers with controlled cultivation quality.",
-    "<b>Rapid Spoilage and Mold Growth:</b> Due to their high initial moisture level, fresh mushrooms spoil quickly and can accumulate toxic mold if stored improperly. Keep them in breathable paper bags in the refrigerator and discard them if they become slimy."
   ]
 }

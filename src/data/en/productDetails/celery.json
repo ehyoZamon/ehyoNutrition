@@ -1,108 +1,281 @@
 {
-  "slug": "celery",
-  "name": "Celery",
-  "category": "Vegetables",
-  "image": "/productinfo/celery.png",
-  "imageAlt": "green celery stalks",
-  "description": "Celery represents a highly functional, hydro-dense vegetative phytomatrix belonging to the Apiaceae family, distinguished by its sparse thermodynamic profile combined with specialized secondary metabolites, including flavones (apigenin, luteolin) and unique benzofuran derivatives (phthalides). It operates as an active natural regulator of systemic hemodynamics and extracellular fluid volume, exhibiting pronounced anti-inflammatory, secretomotor, and vascular smooth muscle-relaxing effects. This cohesive botanical structure optimizes endothelial nitric oxide pathways, accelerates tissue edematous fluid clearance via renal tubular modulation, and preserves cellular membrane integrity with minimal metabolic load.",
-  "macroTitle": "Macro Nutrients (per 100g, fresh stalk)",
-  "macroIntro": "The macronutrient configuration of fresh celery stalks features an exceptionally low caloric distribution, pairing a dominant aqueous phase with unrefined structural polysaccharides to optimize gut volume metrics without glycemic distress.",
-  "microIntro": "As a specialized succulent bio-accumulator, the fresh celery matrix concentrates critical fat-soluble vitamins, monovalent mineral electrolytes, and bio-active volatile compounds essential for cardioprotective and systemic cell signaling cascades.",
+  "slug": "celery-raw",
+  "name": "Celery, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "16 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "An exceptionally sparse energy payload that facilitates volumetric dietary expansion, allowing high satiety feedback without adding cumulative weight-gaining lipids or sugars."
+      "amount": "14 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "0.7 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Comprises trace structural vegetative peptide complexes and free non-protein nitrogen structures, providing negligible substrate values for systemic nitrogen pools."
+      "amount": "0.69 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "A virtually absent lipid footprint, consisting only of minor functional cuticular plant waxes and surface cell membrane phospholipids."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "3.0 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Represented by low-molecular simple sugars locked within a rigid lattice of non-starch carbohydrates, inducing a neutral postprandial insulinotropic response."
+      "amount": "2.97 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.17 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.60 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 23,
-      "name": "Vitamin K (Phylloquinone)",
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "3.10 mg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "22 mcg"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.27 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
       "slug": "vitamin-k",
-      "amount": "29.3 mcg / 24% DV",
-      "bg": "#15837c",
-      "description": "An essential fat-soluble enzyme cofactor critical for gamma-glutamyl carboxylase operations, steering standard blood coagulation loops and osteocalcin bone mineralization."
+      "amount": "29.30 mcg"
     },
     {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "260 mg / 6% DV",
-      "bg": "#f5722c",
-      "description": "A vital monovalent intracellular electrolyte driving proper myofibrillar cell resting potentials, mitigating excessive sodium tension, and safeguarding vascular tone compliance."
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.02 mg"
     },
     {
-      "id": 105,
-      "name": "Apigenin",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#66ab63",
-      "description": "A specialized bioactive flavone that actively downregulates pro-inflammatory cytokines, binds free radicals, and limits cellular oxidative damage markers."
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.06 mg"
     },
     {
-      "id": 106,
-      "name": "Phthalides (3-n-Butylphthalide)",
-      "slug": "compounds",
-      "amount": "Unique Compounds",
-      "bg": "#e4a910",
-      "description": "Unique volatile compounds that modulate calcium ion channels in vascular smooth muscle walls, leading to lumen expansion and reduced peripheral tension."
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.32 mg"
     },
     {
-      "id": 10,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "1.6 g / 6% DV",
-      "bg": "#1a96cd",
-      "description": "Consists of highly hydrophilic structural cellulose and lignin matrices that mechanically guide intestinal chyme clearance and support local microbiota."
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.25 mg"
     },
     {
-      "id": 30,
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "36 mcg DFE"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.00 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "40 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "24 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "11 mg"
+    },
+    {
+      "id": "sodium",
       "name": "Sodium",
       "slug": "sodium",
-      "amount": "80 mg / 3% DV",
-      "bg": "#1a96cd",
-      "description": "An essential extracellular cation natively balanced within the stalk juice, working in tandem with potassium to regulate osmotic pressure and neural transmission."
+      "amount": "80 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "260 mg"
+    },
+    {
+      "id": "fluoride",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "4 mcg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.20 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.10 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.40 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "6.10 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "270 mcg"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "6 mg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "0.10 mg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Vascular Smooth Muscle Relaxation and Hemodynamic Buffering:</b> Active phthalides (primarily 3-n-butylphthalide) lower tyrosine hydroxylase action, blocking catecholamine-induced vasoconstriction to effectively dilate arterial lumen and lower systemic blood pressure.",
-    "<b>Osmotic Fluid Regulation and Aquaporin Optimization:</b> The combination of native monovalent ions ($K^+$ and $Na^+$) coupled with volatile terpenoids stimulates renal cortical filtration, driving sodium-linked diuresis and reducing interstitial edematous swelling.",
-    "<b>Suppression of Systemic Inflammatory Cascades:</b> Bioactive flavones (apigenin and luteolin) downregulate the expression of inducible nitric oxide synthase (iNOS) and cyclooxygenase-2 (COX-2), arresting intracellular pro-inflammatory signaling pathways.",
-    "<b>Gastrointestinal Hydro-Volumetric Motility:</b> The high water content (approx. 95%) bound with insoluble hemicellulose strings expands luminal chyme volume, maximizing mechanical peristaltic triggers and lubricating mucosal transitions."
-  ],
-  "precautionsIntro": "Notwithstanding its exceptional profile as a low-calorie metabolic enhancer, the presence of specific powerful allergens and uterine stimulants in celery demands precision under certain clinical conditions.",
-  "precautions": [
-    "<b>Severe Cross-Reactive IgE Hypersensitivity:</b> Celery contains highly heat-stable allergen proteins (such as Api g 1) capable of triggering intense IgE-mediated immune cascades, potentially culminating in anaphylactic shock, frequently crossing with mugwort and birch pollens.",
-    "<b>Uterine Smooth Muscle Stimulation in Pregnancy:</b> Concentrated celery derivatives, particularly essential oils and seed fractions, carry notable concentrations of apiol, an aromatic compound known to induce uterine smooth muscle contractions and pelvic hyperemia, creating risks during gestation.",
-    "<b>Dermal Phototoxicity and Psoralen Exposure:</b> Celery matrices harbor linear furanocoumarins (psoralens) that can bind to epithelial DNA; upon exposure to ultraviolet radiation, they may trigger localized photodermatitis or hyperpigmentation.",
-    "<b>Renal Solute Overload in Acute Pathologies:</b> The elevated native sodium content alongside active diuretic essential oils mandates controlled intake in patients suffering from advanced stages of chronic kidney disease (CKD) to prevent electrolyte imbalances."
   ]
 }

@@ -1,115 +1,305 @@
 {
-  "slug": "onions",
-  "name": "Onions",
-  "category": "Vegetables",
-  "image": "/productinfo/onion.png",
-  "imageAlt": "onions",
-  "description": "Onions are a versatile vegetable known for their high content of phytonutrients, particularly flavonoids and sulfur compounds. Beyond adding depth of flavor to culinary dishes, they possess significant anti-inflammatory and antioxidant properties that support metabolic health.",
+  "slug": "onions-raw",
+  "name": "Onions, raw",
+  "category": "Vegetables and Vegetable Products",
   "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "40 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "A low-calorie food rich in fiber and biologically active compounds."
+      "amount": "40 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.1 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Contains a small amount of plant-based protein."
+      "amount": "1.10 g"
     },
     {
-      "id": 16,
-      "name": "Fats",
-      "slug": "fats",
-      "amount": "0.1 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Contains negligible amounts of fat."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "9.3 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Contains natural sugars and prebiotic dietary fibers that are beneficial for gut microflora."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 58,
-      "name": "Quercetin",
-      "slug": "quercetin",
-      "amount": "15 mg",
-      "bg": "#66ab63",
-      "description": "A potent flavonoid antioxidant that helps fight inflammation and supports heart health."
+      "amount": "9.34 g"
     },
     {
-      "id": 1,
-      "name": "Vitamin C",
-      "slug": "vitamin-c",
-      "amount": "7.4 mg / 8% DV",
-      "bg": "#1a96cd",
-      "description": "Supports immune function and helps protect cells from oxidative damage."
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.10 g"
     },
     {
-      "id": 44,
+      "id": "fiber",
       "name": "Fiber",
       "slug": "fiber",
-      "amount": "1.7 g / 6% DV",
-      "bg": "#43a047",
-      "description": "Provides prebiotic fibers like inulin to feed beneficial gut bacteria."
-    },
-    {
-      "id": 10,
-      "name": "Vitamin B6",
-      "slug": "vitamin-b6",
-      "amount": "0.12 mg / 7% DV",
-      "bg": "#8e24aa",
-      "description": "Plays an important role in metabolism and red blood cell production."
-    },
-    {
-      "id": 32,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "146 mg / 3% DV",
-      "bg": "#0288d1",
-      "description": "Helps maintain fluid balance and supports healthy blood pressure levels."
-    },
-    {
-      "id": 12,
-      "name": "Vitamin B9",
-      "slug": "vitamin-b9",
-      "amount": "19 mcg / 5% DV",
-      "bg": "#c0ca33",
-      "description": "Essential for proper cell division, DNA synthesis, and tissue growth."
-    },
-    {
-      "id": 38,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.13 mg / 6% DV",
-      "bg": "#7cb342",
-      "description": "Supports bone formation, metabolism, and enzyme function."
+      "amount": "1.70 g"
     }
   ],
-  "healthBenefits": [
-    "<b>Heart Health:</b> Regular consumption helps improve blood circulation and maintain healthy cholesterol levels.",
-    "<b>Antioxidant Support:</b> A high concentration of quercetin helps neutralize free radicals.",
-    "<b>Microbiome Support:</b> The prebiotic fibers in onions serve as food for beneficial gut bacteria.",
-    "<b>Anti-inflammatory Effects:</b> Sulfur compounds assist in reducing inflammatory markers in the body."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Digestive Sensitivity:</b> In some individuals, raw onions may cause bloating or heartburn.",
-    "<b>Eye Irritation:</b> Cutting onions releases volatile substances that can irritate the eyes.",
-    "<b>Individual Intolerance:</b> Allergic reactions to components of the plant are possible."
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "7.40 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.02 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.40 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.046 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.027 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.116 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.123 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.120 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "19 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.014 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.014 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.025 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.039 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.004 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.025 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.021 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.010 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.021 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.004 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "23 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "29 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "10 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "4 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "146 mg"
+    },
+    {
+      "id": "chloride",
+      "name": "Chloride",
+      "slug": "chloride",
+      "amount": "0 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.21 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.17 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.50 mcg"
+    },
+    {
+      "id": "fluoride",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "1.10 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "6.10 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "1 mcg"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "15 mg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.013 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.013 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.104 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.030 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.012 g"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "0.10 mg"
+    }
   ]
 }

@@ -1,108 +1,173 @@
 {
-  "slug": "acerola-cherries",
-  "name": "Acerola Cherries (Barbados Cherries)",
-  "category": "Fruits & Berries",
-  "image": "/productinfo/acerola-cherries.png",
-  "imageAlt": "fresh ripe acerola cherries",
-  "description": "Acerola cherries are an elite, hyper-potent botanical whole food matrix. Native to tropical regions of the Western Hemisphere, this fruit commands one of the highest recorded natural distributions of Vitamin C (Ascorbic Acid) in the plant kingdom—surpassing oranges by up to 50 to 100 times. Bound within a dense crystalline web of functional bioflavonoids like *rutin* and *anthocyanins*, it serves as a premier dietary resource for deep vascular reinforcement, intense dermal collagen cross-linking, and rapid free-radical neutralization.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "The macronutrient configuration of raw acerola cherries delivers an exceptionally lean, hyper-hydrating carbohydrate framework engineered to export massive payloads of water-soluble antioxidants with near-zero glycemic impact.",
-  "microIntro": "Acerola cherries house a spectacular, high-potency network of metabolic B-vitamins, essential intracellular macrominerals, and unique polyphenolic compounds designed to supercharge endogenous defense loops.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "32 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "An incredibly low caloric footprint that yields an immense payload of therapeutic micronutrients per calorie, preventing excess energy storage."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.4 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Contains trace botanical amino acid fragments assisting in basic cellular maintenance within the plant matrix."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually lipid-free, keeping global dietary fat parameters strictly low while encouraging rapid absorption of its primary water-soluble antioxidants."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "7.7 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Composed of low-density, slow-fusing natural fruit sugars tightly bundled within unrefined structural plant fibers."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 26,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "1677 mg / 1863% DV",
-      "bg": "#15837c",
-      "description": "A breathtaking natural mega-dose of ascorbic acid per 100g, delivering unparalleled radical-scavenging power compared to standard grocery cultivars."
-    },
-    {
-      "id": 93,
-      "name": "Bioflavonoids (Rutin & Quercetin)",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#f5722c",
-      "description": "Active polyphenols that work in tight synergy with Vitamin C, drastically augmenting its stability, absorption rate, and vascular integrity mechanics."
-    },
-    {
-      "id": 12,
-      "name": "Vitamin A (Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "38 mcg RAE / 4% DV",
-      "bg": "#66ab63",
-      "description": "Provides clean plant carotenoids essential for safeguarding retinal cell health and supporting mucosal immune barriers."
-    },
-    {
-      "id": 33,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "146 mg / 3% DV",
-      "bg": "#e4a910",
-      "description": "A valuable intracellular electrolyte assisting in baseline fluid equilibrium and supporting steady neuromuscular pathways."
-    },
-    {
-      "id": 43,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "1.1 g / 4% DV",
-      "bg": "#1a96cd",
-      "description": "Provides clean pectin fractions that modulate glucose assimilation and optimize intestinal transit velocity."
-    },
-    {
-      "id": 30,
-      "name": "Vitamin B5 (Pantothenic Acid)",
-      "slug": "vitamin-b5",
-      "amount": "0.3 mg / 6% DV",
-      "bg": "#1a96cd",
-      "description": "An essential coenzyme factor driving optimal fatty acid metabolism cascades and assisting in cellular energy conversion."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Monumental Ascorbate Free-Radical Eradication:</b> The staggering natural density of Vitamin C works in direct coordination with native *rutin* to halt advanced systemic oxidative stress loops, preventing free-radical decay across delicate tissues.",
-    "<b>Elite Collagen Matrix Optimization:</b> Unparalleled concentrations of natural Ascorbic Acid drive high-caliber intracellular proline and lysine hydroxylation, fueling intense structural cross-linking to support skin elasticity and endothelial walls.",
-    "<b>Hyper-Efficient Immune Shielding:</b> Massive antioxidant clusters rapidly build up white blood cell reserves, maximizing natural killer cell mobility and accelerating the neutralization of environmental biological stressors.",
-    "<b>Vascular Capillary Wall Defense:</b> Highly active baseline stores of specialized bioflavonoids structurally reinforce blood vessel linings, lowering capillary fragility and optimizing peripheral blood distribution lines."
-  ],
-  "precautionsIntro": "While the acerola cherry functions as an unmatched botanical asset, its record-shattering vitamin concentration and highly active organic profile demand exact integration metrics.",
-  "precautions": [
-    "<b>Acute Gastric Ascorbate Clearance:</b> Due to the monumental, unprecedented concentration of Vitamin C, consuming large quantities of acerola cherries can rapidly overwhelm bowel absorption limits, triggering temporary osmotic diarrhea, abdominal cramps, or loose stool.",
-    "<b>Extreme Sensitivity to Thermal Oxidation:</b> The fragile water-soluble ascorbic acid matrix is highly prone to swift thermal destruction when exposed to cooking heat, pasteurization, or direct sunlight. Utilizing freeze-dried, unheated powder formats or raw fruit is required to preserve potency.",
-    "<b>Soluble Oxalate Accumulation Balance:</b> Acerola cherries carry a highly active organic acid profile containing natural oxalates. For individuals navigating a historical clinical baseline of calcium-oxalate kidney stones, intake volume must be managed to protect urinary filtration paths.",
-    "<b>Rapid Post-Harvest Degradation:</b> Because of the delicate, thin-skinned nature of the fruit, its raw structural integrity decays rapidly within 3-5 days post-harvest. Sourcing exclusively from highly verified, rapid freeze-dried supply chains or immediate local harvest is highly required."
-  ]
+"slug": "acerola-west-indian-cherry-raw",
+"name": "Acerola cherries",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "32 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.4 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "7.69 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.3 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "1.1 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "1680 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "38 mcg RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.4 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.309 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.009 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "14 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "12 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "11 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "18 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "7 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "146 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.2 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.1 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.086 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.6 mcg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.044 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.046 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.081 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+}
+]
 }

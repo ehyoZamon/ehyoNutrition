@@ -1,84 +1,197 @@
 {
-  "slug": "beef-fat",
-  "name": "Говяжий жир (Топленый)",
-  "category": "Жиры и масла",
-  "image": "/productinfo/beef-fat.png",
-  "imageAlt": "rendered pure traditional beef tallow block in a jar",
-  "description": "Говяжий жир — это высокостабильная липидная матрица, богатая насыщенными и мононенасыщенными жирными кислотами. Благодаря устойчивости к высоким температурам, он служит отличным источником энергии и обеспечивает организм КЛК (CLA) и жирорастворимыми витаминами.",
-  "macroTitle": "Макронутриенты (на 100 г, вытопленный)",
-  "macroIntro": "Чистая, водонепроницаемая липидная структура без белков и углеводов.",
-  "microIntro": "Липофильная матрица, содержащая специфические жирные кислоты и антиоксиданты для поддержки метаболизма.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "902 ккал / 45% СН",
-      "bg": "#15837c",
-      "description": "Максимальная плотность энергии для негликемического питания."
-    },
-    {
-      "id": 16,
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "100.0 г / 128% СН",
-      "bg": "#e4a910",
-      "description": "Профиль: ~50% насыщ., ~45% мононенасыщ., ~5% полиненасыщ."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 171,
-      "name": "Стеариновая кислота",
-      "slug": "stearic-acid",
-      "amount": "19.0 г",
-      "bg": "#15837c",
-      "description": "Насыщенная кислота, нейтральная к рецепторам холестерина в печени."
-    },
-    {
-      "id": 164,
-      "name": "Олеиновая кислота (Омега-9)",
-      "slug": "oleic-acid",
-      "amount": "40.0 г",
-      "bg": "#66ab63",
-      "description": "Мононенасыщенная кислота, поддерживающая гибкость сосудов."
-    },
-    {
-      "id": 172,
-      "name": "Конъюгированная линолевая кислота (КЛК)",
-      "slug": "cla",
-      "amount": "Биоактив.",
-      "bg": "#f5722c",
-      "description": "Изомер, связанный с сохранением мышечной массы и модуляцией иммунитета."
-    },
-    {
-      "id": 166,
-      "name": "Витамин E (Альфа-токоферол)",
-      "slug": "vitamin-e",
-      "amount": "2.7 мг / 18% СН",
-      "bg": "#1a96cd",
-      "description": "Антиоксидант для защиты клеточных мембран."
-    },
-    {
-      "id": 170,
-      "name": "Пищевой холестерин",
-      "slug": "cholesterol",
-      "amount": "109 мг",
-      "bg": "#e4a910",
-      "description": "Стерол для синтеза гормонов и витамина D."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Термостабильность:</b> Высокая точка дымления (~210°C) предотвращает образование токсинов.",
-    "<b>Источник КЛК (CLA):</b> Поддерживает метаболизм и помогает сохранению мышц.",
-    "<b>Транспорт витаминов:</b> Улучшает усвоение витаминов A, D, E, K.",
-    "<b>Целостность мембран:</b> Поставляет необходимый матрикс жирных кислот для клеток.",
-    "<b>Кето-поддержка:</b> Идеальное топливо для стабильного кетогенеза."
-  ],
-  "precautionsIntro": "Особенности калорийности и качества сырья:",
-  "precautions": [
-    "<b>Энергетический избыток:</b> Высокая калорийность требует контроля порций.",
-    "<b>Маркеры липидов:</b> При склонности к гиперлипидемии дозируйте потребление.",
-    "<b>Качество сырья:</b> Выбирайте жир травяного откорма (grass-fed) для снижения накопления токсинов."
-  ]
+"slug": "fat-beef-tallow",
+"name": "Говяжий топлёный жир",
+"category": "Жиры и масла",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "902 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "100 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0.7 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "2.7 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Витамин B5",
+"slug": "vitamin-b5",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "0 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "0 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "0 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "0 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "0.2 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "79.8 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.6 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "3.1 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "36 g"
+}
+]
 }

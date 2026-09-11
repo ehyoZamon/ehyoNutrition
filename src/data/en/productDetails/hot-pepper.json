@@ -1,107 +1,263 @@
 {
-  "slug": "hot-pepper",
-  "name": "Hot Pepper (Chili)",
-  "category": "Vegetables / Spices",
-  "image": "/productinfo/hot-pepper.png",
-  "imageAlt": "fresh red chili pepper",
-  "description": "The hot chili pepper represents a highly potent vegetative phytomatrix belonging to the Solanaceae family (Capsicum annuum), characterized by an dense concentration of secondary metabolites, predominantly the homovanillic acid derivative capsaicin (8-methyl-N-vanillyl-6-nonenamide) and its structurally related capsaicinoid analogues. Operating as a highly selective agonist of the Transient Receptor Potential Vanilloid 1 ($TRPV1$) ion channels, this complex bio-matrix exerts intense upstream regulatory controls over systemic thermogenesis, intracellular lipolysis, and localized nociceptive neurotransmission pathways. Furthermore, it displays robust physiological capacities for endothelial nitric oxide stimulation, intense vascular tone modulation, and broad-spectrum cellular antioxidant defense cascades.",
-  "macroTitle": "Macro Nutrients (per 100g, fresh product)",
-  "macroIntro": "The macronutrient configuration of fresh chili pepper exhibits a low absolute thermodynamic payload, which is heavily overshadowed by its profound secondary metabolic capacity to accelerate systemic energy expenditure and shift substrate oxidation kinetics.",
-  "microIntro": "A highly concentrated repository of essential water- and fat-soluble organic coenzymes, transition metal cofactors, and pungent lipophilic alkaloids that dictate profound systemic neuro-vascular alterations.",
+  "slug": "peppers-hot-chili-red-raw",
+  "name": "Peppers, hot chili, red, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "40 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "Minimal absolute caloric density, functioning primarily as a cellular metabolic accelerator rather than a direct thermodynamic fuel substrate."
+      "amount": "40 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.9 g / 4% DV",
-      "bg": "#f5722c",
-      "description": "Consists of functional plant enzymes and baseline structural albumins providing a secondary nitrogenous input to the matrix."
+      "amount": "1.87 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.4 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "A minor lipid fraction, primarily acting as a solubilizing hydrophobic vehicle for the dense distribution of endogenous capsaicinoids."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "8.8 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Represented by low-molecular mono- and oligosaccharides interlinked with functional, non-digestible structural plant polyglucans."
+      "amount": "8.81 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.44 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.50 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 109,
-      "name": "Capsaicin (Capsaicinoids)",
-      "slug": "compounds",
-      "amount": "High Bioactivity",
-      "bg": "#15837c",
-      "description": "A potent lipophilic alkaloid compound that drives direct nociceptor desensitization via substance P depletion and upregulates mitochondrial uncoupling protein 1 ($UCP1$)."
-    },
-    {
-      "id": 22,
-      "name": "Vitamin C (Ascorbic Acid)",
+      "id": "vitamin-c",
+      "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "143.7 mg / 160% DV",
-      "bg": "#f5722c",
-      "description": "An exceptionally dense water-soluble antioxidant essential for leukocyte respiratory bursts, enzymatic proline hydroxylation, and complex collagen biosynthesis."
+      "amount": "144 mg"
     },
     {
-      "id": 20,
-      "name": "Vitamin A (as Beta-Carotene)",
+      "id": "vitamin-a",
+      "name": "Vitamin A",
       "slug": "vitamin-a",
-      "amount": "952 mcg RAE / 106% DV",
-      "bg": "#66ab63",
-      "description": "A vital fat-soluble isoprenoid precursor critical for maintaining epithelial tissue specialization, rod cell rhodopsin cycles, and mucosal boundary defenses."
+      "amount": "48 mcg"
     },
     {
-      "id": 25,
-      "name": "Vitamin B6 (Pyridoxine)",
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.69 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "14 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.09 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "1.24 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.20 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": "0.51 mg / 30% DV",
-      "bg": "#e4a910",
-      "description": "A critical enzymatic cofactor for glycogen phosphorylase, transamination pathways, and downstream central monoamine neurotransmitter assembly."
+      "amount": "0.51 mg"
     },
     {
-      "id": 31,
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "23 mcg DFE"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.09 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.08 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "14 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "43 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "23 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "9 mg"
+    },
+    {
+      "id": "potassium",
       "name": "Potassium",
       "slug": "potassium",
-      "amount": "322 mg / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A primary monovalent intracellular cation driving transmembrane electrical potentials, vascular smooth muscle relaxation, and osmotic equilibrium."
+      "amount": "322 mg"
     },
     {
-      "id": 34,
+      "id": "iron",
       "name": "Iron",
       "slug": "iron",
-      "amount": "1.0 mg / 6% DV",
-      "bg": "#1a96cd",
-      "description": "An essential transition metal cofactor crucial for structural heme coordination within hemoglobin, myoglobin, and mitochondrial cytochrome chains."
+      "amount": "1.03 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.26 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.19 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.50 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "10.90 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "534 mcg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.23 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.07 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.04 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>TRPV1-Mediated Thermogenesis and Lipolytic Acceleration:</b> Capsaicin selectively docks with $TRPV1$ receptors, stimulating sympathetic catecholamine release to upregulate mitochondrial uncoupling protein 1 ($UCP1$) expression in brown adipose tissue, actively driving metabolic thermogenesis and substrate fat oxidation.",
-    "<b>Vascular Endothelial Protection and Nitric Oxide Release:</b> The synergistic combination of dense ascorbic acid and active capsaicinoids stimulates endothelial nitric oxide synthase ($eNOS$), inducing profound vasodilation, improving microcirculatory kinetics, and protecting low-density lipoproteins (LDL) from atherogenic peroxide damage.",
-    "<b>Nociceptive Desensitization and Analgesic Cascades:</b> Chronic or targeted exposure to the alkaloid fraction induces initial localized depolarization followed by a prolonged refractory period due to the exhaustion of substance P reserves in Type C afferent nerve fibers, yielding potent systemic analgesic effects.",
-    "<b>Mucosal Secretory Stimulation and Cytoprotection:</b> In healthy tissues, micro-doses of capsaicin interact with sensory nerve endings to trigger a localized release of protective neuropeptides, increasing blood flow, alkaline mucus secretion, and non-specific defense barriers within the gastric wall."
-  ],
-  "precautionsIntro": "Owing to the extreme physiological reactivity of its pungent alkaloid compounds, raw or concentrated hot pepper demands strict therapeutic and handling constraints:",
-  "precautions": [
-    "<b>Gastrointestinal Epithelial Hyperemia and Irritation:</b> Capsaicinoids induce aggressive neurogenic inflammation and local tissue hyperemia across vulnerable mucosal surfaces, making them strictly contraindicated in active GERD, peptic ulcerations, acute gastritis, and severe hemorrhoidal disease.",
-    "<b>Exocrine Chemical Dermal Burning:</b> Direct physical exposure to lipophilic capsaicin triggers intense chemical activation of cutaneous pain fibers without real tissue damage; stringent topical barriers (gloves) are mandatory during processing to prevent accidental ocular or mucosal transfers.",
-    "<b>Cytochrome P450 and Pharmacokinetic Alterations:</b> High intakes of active capsaicin can alter the hepatic cytochrome P450 enzyme systems and modify intestinal mucosal permeability, potentially disrupting the absorption, half-life, and bioavailability of concurrent prescription medications."
   ]
 }

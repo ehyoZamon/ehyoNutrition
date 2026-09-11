@@ -1,124 +1,185 @@
 {
-  "slug": "kumquat",
-  "name": "Kumquat",
-  "category": "Fruits and Berries",
-  "image": "/productinfo/kumquat.png",
-  "imageAlt": "fresh whole and halved bright orange kumquat fruits on a branch with green leaves",
-  "description": "The kumquat is a unique, small citrus fruit from the genus Citrus (formerly Fortunella) eaten entirely whole, including its sweet, oil-rich epicarp (peel) and tart endosperm (pulp). The rind houses an extraordinary concentration of lipophilic essential oils, primarily limonene, while the internal flesh delivers dense pools of organic acids. Together, they create a highly bioavailable antioxidant matrix that enhances immune defense pathways, modulates lipid profiles, and safeguards cellular membranes from oxidative degradation.",
-  "macroTitle": "Macro Nutrients (per 100g, fresh raw fruit)",
-  "macroIntro": "Kumquats possess a hydration-dense, low-caloric macronutrient architecture that features a prominent, unrefined dietary fiber payload located within the edible rind structures.",
-  "microIntro": "Eating the skin provides a concentrated biochemical micro-matrix, delivering exceptional volumes of ascorbic acid, structural potassium, and bio-active monoterpenes.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~71 kcal",
-      "bg": "#15837c",
-      "description": "A very low, weight-conscious energetic footprint driven by natural, slow-absorbing simple carbohydrate fractions and structural fibers."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.9 grams",
-      "bg": "#f5722c",
-      "description": "A modest plant protein presence, offering trace essential amino acid fractions typical for small citrus botanical structures."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.9 grams",
-      "bg": "#e4a910",
-      "description": "An ultra-lean lipid signature located primarily within the volatile essential oils and seed fractions of the fruit matrix."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "15.9 grams",
-      "bg": "#1a96cd",
-      "description": "Consists of naturally occurring fruit sugars tempered by an impressively large structural dietary fiber framework (~6.5g)."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "vitamin-c",
-      "slug": "vitamin-c",
-      "name": "Vitamin C (Ascorbic Acid)",
-      "amount": "43.9 mg / 49% DV",
-      "bg": "#15837c",
-      "description": "A potent water-soluble antioxidant that rapidly drives leukocyte activation, stimulates collagen synthesis, and scavenges circulating free radicals."
-    },
-    {
-      "id": "limonene",
-      "slug": "limonene",
-      "name": "Limonene & Monoterpenes",
-      "amount": "High Essential Oil Density",
-      "bg": "#f5722c",
-      "description": "Volatile phytochemicals concentrated in the rind that possess strong anti-inflammatory, gastroprotective, and phase-II detoxification enzyme-inducing properties."
-    },
-    {
-      "id": "vitamin-a",
-      "slug": "vitamin-a",
-      "name": "Vitamin A (Beta-Carotene)",
-      "amount": "290 IU / 6% DV",
-      "bg": "#66ab63",
-      "description": "A key fat-soluble carotenoid precursor that preserves retinal photoreceptor integrity and modulates mucosal epithelial tissue regeneration loops."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Potassium",
-      "amount": "186 mg / 4% DV",
-      "bg": "#1a96cd",
-      "description": "An essential intracellular electrolyte required for modulating systemic fluid balance, vascular compliance, and myocardial electrical conductance."
-    },
-    {
-      "id": "calcium",
-      "slug": "calcium",
-      "name": "Calcium",
-      "amount": "62 mg / 5% DV",
-      "bg": "#e4a910",
-      "description": "An uncharacteristically high mineral yield for a citrus fruit, extracted directly from the dense cellular walls of the sweet edible peel."
-    },
-    {
-      "id": 48,
-      "slug": "fiber",
-      "name": "Dietary Fiber (Total)",
-      "amount": "6.5 g / 23% DV",
-      "bg": "#15837c",
-      "description": "Supports digestive health and stabilizes blood glucose absorption rates."
-    },
-    {
-      "id": 49,
-      "slug": "riboflavin",
-      "name": "Riboflavin (B2)",
-      "amount": "0.08 mg / 6% DV",
-      "bg": "#f5722c",
-      "description": "Assists in cellular energy production and the maintenance of mucous membranes."
-    },
-    {
-      "id": 50,
-      "slug": "vitamin-e",
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "amount": "0.15 mg / 1% DV",
-      "bg": "#66ab63",
-      "description": "Provides antioxidant protection to lipid-rich cellular membranes and dermal layers."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Enhanced Immunological Defense:</b> High titers of <b>Vitamin C</b> synergize with skin flavonoids to accelerate macrophage proliferation and shield respiratory tissues from viral replication.",
-    "<b>Gastrointestinal Peristalsis Regulation:</b> Consuming the whole fruit with its dense <b>6.5g of fiber</b> mechanically triggers healthy intestinal contractions and supports regular bowel evacuation.",
-    "<b>Vascular and Endothelial Shielding:</b> Active <b>monoterpenes (limonene)</b> in the rind lower oxidative stress within blood vessels, aiding in the prevention of early atherogenic plaque formation.",
-    "<b>Ocular Photoreceptor Support:</b> Significant reserves of <b>Beta-Carotene</b> preserve dark-adaptation vision metrics and defend delicate retinal cells from high-energy blue light frequencies.",
-    "<b>Cellular Stress Mitigation:</b> A dense combination of polymethoxyflavones and organic acids systematically neutralizes lipid peroxidation cascades across systemic cellular membranes."
-  ],
-  "precautionsIntro": "Citrus Allergenic Protein Re-activities, Essential Oil Induced Mucosal Hyperemia, and Organic Acid Dental Erosion Dynamics: Structured ingestion protects tissue integrity.",
-  "precautions": [
-    "<b>Citrus Allergenic Cross-Reactivity:</b> Kumquats contain specialized lipid transfer proteins and citrus allergens. Individuals with confirmed hypersensitivities to oranges or grapefruits must exercise strict caution.",
-    "<b>Mucosal and Dermatological Irritation:</b> The concentrated volatile <b>essential oils</b> in the raw peel can trigger localized contact dermatitis around the lips or induce chemical hyper-reactivity in hyper-acidic or ulcerated gastric linings.",
-    "<b>Enamel Acid Demineralization:</b> The high concentration of citric and malic acid inside the pulp can temporarily soften tooth enamel. Rinsing the oral cavity with pure water immediately after consumption completely neutralizes this effect."
-  ]
+"slug": "kumquats-raw",
+"name": "Kumquats",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "71 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.88 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "15.9 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.86 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "6.5 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "43.9 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "15 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.09 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.43 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.21 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "17 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "62 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "19 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "20 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "10 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "186 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.86 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.17 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.10 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.14 mg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "8.4 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.05 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.12 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.14 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "not reported"
+}
+]
 }

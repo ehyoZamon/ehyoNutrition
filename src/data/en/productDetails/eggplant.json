@@ -1,107 +1,269 @@
 {
-  "slug": "eggplant",
-  "name": "Eggplant",
-  "category": "Vegetables",
-  "image": "/productinfo/eggplant.png",
-  "imageAlt": "fresh purple eggplant",
-  "description": "The eggplant represents a highly specialized, low-calorie vegetative phytomatrix belonging to the Solanaceae family (Solanum melongena), distinguished by its complex network of esterified polyphenols, structural hydrocolloids, and dense concentrations of acylated anthocyanins, predominantly nasunin (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside). It functions as a powerful natural scavenger of reactive oxygen species, an active iron chelator, and a modulator of vascular endothelial integrity. This spongy botanical matrix optimizes lipid metabolic kinetics, delays intestinal carbohydrate transit, improves capillary resistance, and supports fluid-electrolyte balance while imposing a negligible thermodynamic load.",
-  "macroTitle": "Macro Nutrients (per 100g, raw product)",
-  "macroIntro": "The macronutrient configuration of raw eggplant is characterized by an extremely sparse energy payload, coupling an expansive aqueous phase with dense hydrophilic polysaccharides that promote satiety without systemic glycemic stress.",
-  "microIntro": "As a targeted subterranean-aerial accumulator, the eggplant epicarp and parenchyma concentrate potent secondary plant metabolites, specialized heavy metal cofactors, and organic complexes crucial for maintaining neurological and cardiovascular homeostasis.",
+  "slug": "eggplant-raw",
+  "name": "Eggplant, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "25 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "A very low thermodynamic yield, facilitating high-volume dietary displacement while bypassing the accumulation cascades of visceral adipose tissue."
+      "amount": "25 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.0 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Comprises trace baseline structural vegetative globulins and free non-protein nitrogen compounds providing minimal baseline nitrogenous input."
+      "amount": "0.98 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "A virtually nonexistent lipid presence, limited to microtrace amounts of functional surface waxes and intracellular membrane phospholipids."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "5.7 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Represented by low-molecular simple hexoses locked tightly within an intricate network of non-digestible structural polyglucans."
+      "amount": "5.88 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.18 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "3.00 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 108,
-      "name": "Nasunin (Anthocyanins)",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#15837c",
-      "description": "A specialized acylated delphinidin glycoside located within the purple exocarp, executing powerful lipid peroxidation checks and protecting neural membrane envelopes."
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "2.20 mg"
     },
     {
-      "id": 31,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "229 mg / 5% DV",
-      "bg": "#f5722c",
-      "description": "A vital monovalent intracellular electrolyte driving myofibrillar resting potentials, counterbalancing systemic sodium overload, and easing arterial wall compliance."
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "1 mcg"
     },
     {
-      "id": 38,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.25 mg / 11% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace metal cofactor required for superoxide dismutase ($SOD2$) operations, bone mineralization pathways, and basic amino acid turnover."
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.30 mg"
     },
     {
-      "id": 10,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "3.0 g / 11% DV",
-      "bg": "#e4a910",
-      "description": "Consists of highly hydrophilic structural cellulose and pectin polymers that delay luminal glucose absorption and complex with bile acids."
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "3.50 mcg"
     },
     {
-      "id": 25,
-      "name": "Vitamin B6 (Pyridoxine)",
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.65 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.28 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": "0.08 mg / 5% DV",
-      "bg": "#1a96cd",
-      "description": "A crucial water-soluble enzyme cofactor essential for transamination loops, neurotransmitter synthesis, and the regulation of plasma homocysteine."
+      "amount": "0.08 mg"
     },
     {
-      "id": 32,
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "22 mcg DFE"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "9 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "24 mg"
+    },
+    {
+      "id": "magnesium",
       "name": "Magnesium",
       "slug": "magnesium",
-      "amount": "14 mg / 3% DV",
-      "bg": "#1a96cd",
-      "description": "A divalent alkaline earth metal ion necessary for baseline intracellular ATP complexing, neuromuscular signaling, and enzymatic balance."
+      "amount": "14 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "2 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "229 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.23 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.16 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.08 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.23 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.30 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "6.90 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "14 mcg"
+    },
+    {
+      "id": "phytosterols",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "7 mg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.03 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Neuroprotective Membrane Stabilization and Iron Chelation:</b> The anthocyanin fraction (specifically nasunin) acts as an efficient iron chelator, binding excess free ferric ions ($Fe^{3+}$) to prevent Fenton reactions and shield neural membrane lipids from oxidative deterioration.",
-    "<b>Endothelial Fortification and Lipid Modulation:</b> Intricate combinations of dietary fiber and chlorogenic acid trap luminal micellar cholesterol, increasing fecal bile acid clearance while downregulating low-density lipoprotein (LDL) oxidation cascades.",
-    "<b>Glycemic Index Buffering and Alpha-Glucosidase Inhibition:</b> The viscous pectin matrix coupled with native polyphenols non-competitively inhibits pancreatic alpha-amylase and intestinal alpha-glucosidase, smoothing postprandial glucose transitions.",
-    "<b>Myofibrillar Relaxation and Osmotic Fluid Balance:</b> High native potassium concentrations alongside structural water accelerate mild renal natriuresis, mitigating excessive peripheral vascular tension and diminishing tissue edematous fluid accumulation."
-  ],
-  "precautionsIntro": "Due to the presence of specific nightshade alkaloids, organic acid crystals, and complex glycoproteins within its matrix, raw or improperly processed eggplant requires targeted caution:",
-  "precautions": [
-    "<b>Solanine-Mediated Glycoalkaloid Toxicity:</b> Eggplant contains steroidal glycoalkaloids, primarily solamargine and solasonine (analogous to solanine), which concentrate in overripe fruits; these can cause direct chemical disruption of gastrointestinal membranes and induce cholinergic symptoms if consumed raw or in excess.",
-    "<b>Oxalate-Induced Renal Lithogenesis:</b> The phytomatrix carries notable concentrations of oxalic acid salts; upon entry into the urinary system, these can participate in calcium oxalate crystallization, threatening individuals with active hyperoxaluria or nephrolithiasis.",
-    "<b>Solanaceae Cross-Reactive Allergenic Cascades:</b> Specific defense-related proteins and unique non-protein compounds can trigger classical IgE-mediated immune sensitivity or localized oral allergy syndrome, exhibiting cross-reactivity with tomatoes, potatoes, and tobacco."
   ]
 }

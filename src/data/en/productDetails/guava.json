@@ -1,108 +1,203 @@
 {
-  "slug": "guava",
-  "name": "Guava",
-  "category": "Fruits and Berries",
-  "image": "/productinfo/guava.png",
-  "imageAlt": "fresh ripe organic pink guava sliced in half",
-  "description": "Guava is an elite tropical botanical fruit renowned for its industry-leading Vitamin C concentration and metabolic optimization potential. With a disciplined glycemic footprint, it delivers high soluble fiber and active carotenoids engineered to support immune defense, endothelial vascular tone, and insulin sensitivity.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "A water-dense architecture featuring complex structural carbohydrates and a high dietary fiber baseline.",
-  "microIntro": "A highly bioavailable matrix providing astronomical levels of Vitamin C alongside essential carotenoids and minerals.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "68 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "Low energy density optimized by a massive structural fiber network."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "2.6 g / 5% DV",
-      "bg": "#f5722c",
-      "description": "Superior plant-based protein level compared to most fresh fruits."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "1.0 g / 1% DV",
-      "bg": "#e4a910",
-      "description": "Minimal lipids with traces of essential fatty acids."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "14.3 g / 5% DV",
-      "bg": "#15837c",
-      "description": "High fiber (5.4g) content that moderates fructose absorption and insulin response."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 138,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "228.3 mg / 254% DV",
-      "bg": "#1a96cd",
-      "description": "Potent antioxidant driving collagen synthesis and immune cell function."
-    },
-    {
-      "id": 143,
-      "name": "Vitamin A (Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "624 IU / 7% DV",
-      "bg": "#66ab63",
-      "description": "Precursor supporting retinal health and mucosal barrier reinforcement."
-    },
-    {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "417 mg / 9% DV",
-      "bg": "#15837c",
-      "description": "Electrolyte suppressing sodium retention to stabilize vascular pressure."
-    },
-    {
-      "id": 157,
-      "name": "Folate (Vitamin B9)",
-      "slug": "folate",
-      "amount": "49 mcg / 12% DV",
-      "bg": "#66ab63",
-      "description": "Coenzyme for nucleic acid synthesis and cellular replication."
-    },
-    {
-      "id": 159,
-      "name": "Lycopene",
-      "slug": "lycopene",
-      "amount": "5204 mcg",
-      "bg": "#f5722c",
-      "description": "Pigment providing advanced protection against oxidative cellular cascades."
-    },
-    {
-      "id": 160,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "0.2 mg / 11% DV",
-      "bg": "#e4a910",
-      "description": "Trace mineral aiding iron absorption and mitochondrial energy cycles."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Immune Amplification:</b> High Vitamin C promotes leukocyte activity and neutralizes free radicals.",
-    "<b>Glycemic Control:</b> Soluble pectin slows carbohydrate breakdown, keeping glucose levels steady.",
-    "<b>GI Motility:</b> High fiber content prevents transit stasis and supports mucosal health.",
-    "<b>Cardiovascular Support:</b> Potassium and polyphenols improve arterial elasticity.",
-    "<b>Cellular Shielding:</b> Lycopene and beta-carotene prevent lipid peroxidation."
-  ],
-  "precautionsIntro": "Nutritional considerations regarding digestive and renal health:",
-  "precautions": [
-    "<b>Fiber Loading:</b> Sudden high intake may cause bloating; increase volume gradually.",
-    "<b>Oxalate Concentration:</b> Moderate oxalates require portion management in those prone to kidney stones.",
-    "<b>Mechanical Irritation:</b> Hard central seeds may irritate intestinal walls in sensitive individuals or those with diverticulitis."
-  ]
+"slug": "guava-raw",
+"name": "Guava",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "68 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "2.55 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "14.3 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.95 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "5.4 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "228 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "31 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.73 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "2.6 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.067 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "1.08 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.11 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "49 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "18 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "40 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "22 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "417 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.26 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.23 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.23 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.6 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "7.6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.112 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.288 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.082 g"
+},
+{
+"id": "lycopene",
+"name": "Lycopene",
+"slug": "lycopene",
+"amount": "5204 mcg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "374 mcg"
+}
+]
 }

@@ -1,108 +1,239 @@
 {
-  "slug": "shiitake",
-  "name": "Shiitake Mushrooms",
-  "category": "Vegetables & Greens",
-  "image": "/productinfo/shiitake.png",
-  "imageAlt": "shiitake mushrooms",
-  "description": "Shiitake mushrooms are an elite, medicinal fungi whole food matrix. Highly revered for their unique chemical profile, they pack specialized beta-glucans like *lentinan*, copper catalysts, and structural compounds like *eritadenine*, establishing an unparalleled dietary asset for profound immune system modulation, cholesterol pathway management, and cellular defense.",
-  "macroTitle": "Macro Nutrients (per 100g, cooked without salt)",
-  "macroIntro": "The macronutrient architecture of shiitake mushrooms yields an exceptionally low-calorie, hydrating structural framework designed to deliver therapeutic bio-compounds without excess energy storage.",
-  "microIntro": "Shiitake mushrooms house a complex crystalline matrix of copper, selenium, and water-soluble B-complex vitamins, along with unique fungal sterols that drive critical systemic metabolic loops.",
+  "slug": "mushrooms-shiitake-raw",
+  "name": "Mushrooms, shiitake, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "56 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "Extremely low in caloric volume, serving as a highly nutrient-dense functional food that supports clean metabolic weight management."
+      "amount": "34 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.6 g / 3% DV",
-      "bg": "#f5722c",
-      "description": "Contains unique fungal amino acid fractions, offering non-animal structural blocks that support basic cellular enzymatic maintenance."
+      "amount": "2.24 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, ensuring incredibly rapid gastric clearance and immediate assimilation of its primary medicinal polysaccharides."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "14.4 g / 5% DV",
-      "bg": "#15837c",
-      "description": "Composed of complex, non-glycemic structural starches tightly bundled with potent medicinal soluble fibers like chitin and beta-glucans."
+      "amount": "6.79 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.49 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.5 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.16 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 40,
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.4 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.015 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.217 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "3.88 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "1.5 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.293 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "13 mcg DFE"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "2 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "112 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "20 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "9 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "304 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.41 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.03 mg"
+    },
+    {
+      "id": "37",
       "name": "Copper",
       "slug": "copper",
-      "amount": "0.9 mg / 100% DV",
-      "bg": "#15837c",
-      "description": "A spectacular dose of this trace catalyst, absolutely required for cross-linking structural collagen, iron mobilization, and clean neural transmission lines."
+      "amount": "0.142 mg"
     },
     {
-      "id": 21,
-      "name": "Vitamin B5 (Pantothenic Acid)",
-      "slug": "vitamin-b5",
-      "amount": "3.6 mg / 72% DV",
-      "bg": "#f5722c",
-      "description": "A massive concentration of this water-soluble vitamin, serving as a foundational building block for Coenzyme A to run fatty acid and energy metabolism."
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.23 mg"
     },
     {
-      "id": 45,
+      "id": "40",
       "name": "Selenium",
       "slug": "selenium",
-      "amount": "24.8 mcg / 45% DV",
-      "bg": "#66ab63",
-      "description": "A robust pool of this trace antioxidant, actively driving glutathione peroxidase mechanics to hunt circulating free radicals and support thyroid function."
+      "amount": "5.7 mcg"
     },
     {
-      "id": 18,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "vitamin-b2",
-      "amount": "0.17 mg / 13% DV",
-      "bg": "#e4a910",
-      "description": "An essential coenzyme driving mitochondrial respiration and electron transport chain efficiency to convert nutrients into usable ATP."
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.056 g"
     },
     {
-      "id": 17,
-      "name": "Dietary Fiber (Beta-Glucans)",
-      "slug": "fiber",
-      "amount": "3.0 g / 11% DV",
-      "bg": "#1a96cd",
-      "description": "Rich in specialized mushroom soluble fibers that slow gastric transit, regulate cholesterol uptake, and serve as potent prebiotic fuel."
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.111 g"
     },
     {
-      "id": 10,
-      "name": "Vitamin D (D2)",
-      "slug": "vitamin-d",
-      "amount": "0.4 mcg / 2% DV",
-      "bg": "#1a96cd",
-      "description": "Contains natural Ergosterol, a fungal pre-vitamin that transforms into Vitamin D2 upon ultraviolet light exposure, supporting skeletal bone framework density."
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.189 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.134 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.033 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.111 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.134 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.011 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.145 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.156 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.145 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.078 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Advanced Macrophage & Immune Activation:</b> The specialized polysaccharide *lentinan* interacts directly with immune cell receptors, aggressively stimulating natural killer (NK) cells, T-lymphocytes, and macrophage responses against pathogenetic stressors.",
-    "<b>Hepatic Cholesterol Pathway Regulation:</b> The presence of *eritadenine* and unique beta-glucans blocks the liver's internal mechanisms for synthesizing excess cholesterol, significantly reducing circulating blood cholesterol vectors.",
-    "<b>Mitochondrial Coenzyme Synthesis:</b> High natural levels of Pantothenic Acid (B5) fuel the production of neurotransmitters and optimize adrenal pathway operations, protecting the body from chronic systemic stress fatigue.",
-    "<b>Vascular Integrity & Elastin Support:</b> Providing a complete daily allowance of catalytic Copper per 100g, shiitake mushrooms drive efficient iron integration and structural blood vessel wall cross-linking to prevent arterial structural weakness."
-  ],
-  "precautionsIntro": "Even though shiitake mushrooms operate as an elite medicinal asset, their unique fungal defense chemistry and processing vectors dictate strict culinary management parameters.",
-  "precautions": [
-    "<b>Raw Shiitake Dermatitis Inductions:</b> Raw or severely undercooked shiitake mushrooms contain the intact polysaccharide *lentinan*, which can trigger an acute, highly uncomfortable toxic skin reaction known as shiitake dermatitis. Ensuring thorough, high-temperature thermal cooking completely deactivates this compound.",
-    "<b>Purine Accumulation Metrics:</b> Shiitake mushrooms carry a concentrated purine distribution profile. For individuals navigating a historical clinical baseline of gout or hyperuricemia, intake frequencies must be managed to prevent joint crystallization.",
-    "<b>Gastrointestinal Fungal Chitin Sensitivity:</b> The cell walls of shiitake are structured from tough *chitin*, which can be difficult to break down for highly sensitive digestive tracts, occasionally triggering localized bloating or stomach cramping if not cooked meticulously.",
-    "<b>Heavy Metal Bio-Accumulation Trait:</b> Because mushrooms actively absorb chemical compounds from their growing substrate, suboptimally sourced wild shiitake can contain elevated traces of lead or arsenic. Choosing highly verified, clean substrate-cultivated or high-grade organic options ensures absolute purity."
   ]
 }

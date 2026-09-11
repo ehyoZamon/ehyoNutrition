@@ -243,15 +243,6 @@
     "link": "/productinfo/oranges"
   },
   {
-    "id": 28,
-    "name": "Почки",
-    "category": "Мясо",
-    "calories": 99,
-    "image": "/products/kidney.png",
-    "favorite": false,
-    "link": "/productinfo/kidney-meat"
-  },
-  {
     "id": 29,
     "name": "Моллюски",
     "category": "Морепродукты",
@@ -289,12 +280,12 @@
   },
   {
     "id": 33,
-    "name": "Бурый рис",
+    "name": "Рис",
     "category": "Крупы и злаки",
     "calories": 111,
     "image": "/products/brown-rice.png",
     "favorite": false,
-    "link": "/productinfo/brown-rice"
+    "link": "/productinfo/rice"
   },
   {
     "id": 34,
@@ -1546,15 +1537,6 @@
     "image": "/products/sheep-milk.png",
     "favorite": false,
     "link": "/productinfo/sheep-milk"
-  },
-  {
-    "id": 174,
-    "name": "Коровье молоко",
-    "category": "Яйца и молочные продукты",
-    "calories": 61,
-    "image": "/products/cow-milk.png",
-    "favorite": false,
-    "link": "/productinfo/cow-milk"
   },
   {
     "id": 175,

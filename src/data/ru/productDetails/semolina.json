@@ -1,124 +1,215 @@
 {
-  "slug": "semolina-porridge",
-  "name": "Манная каша",
-  "category": "Зерновые и крупы",
-  "image": "/productinfo/semolina.png",
-  "imageAlt": "теплая манная каша в керамической миске, украшенная кусочком тающего сливочного масла",
-  "description": "Манная каша — это мелкотекстурированная, легко усвояемая углеводная матрица, полученная из очищенного эндосперма пшеницы (Triticum aestivum). Лишенная отрубей и зародышей, эта крупа является источником быстрого метаболического топлива. Благодаря минимальной сложности структуры, она требует незначительных усилий для переваривания, что делает ее щадящим продуктом для ЖКТ.",
-  "macroTitle": "Макронутриенты (на 100 г, вареная на воде, без соли)",
-  "macroIntro": "Манная каша представляет собой легкоусвояемую углеводную структуру с низким содержанием клетчатки.",
-  "microIntro": "Эндосперм содержит витамины группы B и минералы, хотя их концентрация ниже, чем в цельнозерновых продуктах.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "~60 ккал",
-      "bg": "#15837c",
-      "description": "Легкая энергетическая плотность, дающая быструю доступную энергию."
-    },
-    {
-      "id": "protein",
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "1.4 г",
-      "bg": "#f5722c",
-      "description": "Содержит растительные пептиды, включая глютен (глиадин и глютенин)."
-    },
-    {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "0.1 г",
-      "bg": "#e4a910",
-      "description": "Практически отсутствуют, лишь следы липидов."
-    },
-    {
-      "id": "carbs",
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "12.2 г",
-      "bg": "#1a96cd",
-      "description": "Желатинизированные крахмалы, быстро расщепляющиеся до глюкозы."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "carbohydrate-matrix",
-      "slug": "carbohydrate-matrix",
-      "name": "Крахмалы",
-      "amount": "Высокая доступность",
-      "bg": "#15837c",
-      "description": "Полисахариды, обеспечивающие быстрое восполнение гликогена."
-    },
-    {
-      "id": "vitamin-b1",
-      "slug": "vitamin-b1",
-      "name": "Витамин B1 (Тиамин)",
-      "amount": "0.04 мг / 3% СН",
-      "bg": "#f5722c",
-      "description": "Кофактор для метаболизма глюкозы."
-    },
-    {
-      "id": "phosphorus",
-      "slug": "phosphorus",
-      "name": "Фосфор",
-      "amount": "22.0 мг / 2% СН",
-      "bg": "#66ab63",
-      "description": "Важен для костей и синтеза АТФ."
-    },
-    {
-      "id": "selenium",
-      "slug": "selenium",
-      "name": "Селен",
-      "amount": "4.5 мкг / 8% СН",
-      "bg": "#1a96cd",
-      "description": "Антиоксидант, поддерживающий работу щитовидной железы."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Калий",
-      "amount": "28 мг / 1% СН",
-      "bg": "#e4a910",
-      "description": "Минерал для осмотического регулирования."
-    },
-    {
-      "id": 75,
-      "slug": "iron",
-      "name": "Железо",
-      "amount": "0.5 мг / 3% СН",
-      "bg": "#15837c",
-      "description": "Участвует в транспорте кислорода."
-    },
-    {
-      "id": 76,
-      "slug": "vitamin-b3",
-      "name": "Витамин B3 (Ниацин)",
-      "amount": "0.6 мг / 4% СН",
-      "bg": "#f5722c",
-      "description": "Важен для выработки энергии и здоровья кожи."
-    },
-    {
-      "id": 77,
-      "slug": "vitamin-b9",
-      "name": "Витамин B9 (Фолат)",
-      "amount": "12 мкг / 3% СН",
-      "bg": "#66ab63",
-      "description": "Необходим для синтеза ДНК и кроветворения."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Быстрая энергия:</b> Крахмалы быстро расщепляются до глюкозы.",
-    "<b>Щадящее воздействие:</b> Отсутствие грубой клетчатки минимизирует трение в ЖКТ.",
-    "<b>Минимальная нагрузка:</b> Легко очищает желудок, сохраняя силы организма.",
-    "<b>Послеоперационное питание:</b> Отличный гипоаллергенный продукт для восстановления.",
-    "<b>База для других веществ:</b> Удобно сочетать с полезными жирами, медом или микроэлементами."
-  ],
-  "precautionsIntro": "Глютен, высокий ГИ и фитиновая кислота: Разумное планирование рациона гарантирует пользу.",
-  "precautions": [
-    "<b>Глютен:</b> Манка содержит глютен, что делает ее опасной для людей с целиакией.",
-    "<b>Гликемический индекс:</b> Высокий ГИ может вызвать скачок сахара — стоит ограничивать порции при диабете.",
-    "<b>Фитиновая кислота:</b> Может препятствовать усвоению железа и кальция при постоянном употреблении."
-  ]
+"slug": "semolina-unenriched",
+"name": "Манная крупа",
+"category": "Зерновые и макаронные изделия",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "360 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "12.68 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "72.83 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "1.05 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "3.9 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.28 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.08 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "3.31 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Витамин B5",
+"slug": "vitamin-b5",
+"amount": "0.58 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.1 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "72 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "17 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "136 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "47 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "186 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "1.23 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "1.05 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0.19 mg"
+},
+{
+"id": "manganese",
+"name": "Марганец",
+"slug": "manganese",
+"amount": "0.62 mg"
+},
+{
+"id": "lysine",
+"name": "Лизин",
+"slug": "lysine",
+"amount": "0.24 g"
+},
+{
+"id": "leucine",
+"name": "Лейцин",
+"slug": "leucine",
+"amount": "0.87 g"
+},
+{
+"id": "isoleucine",
+"name": "Изолейцин",
+"slug": "isoleucine",
+"amount": "0.49 g"
+},
+{
+"id": "valine",
+"name": "Валин",
+"slug": "valine",
+"amount": "0.54 g"
+},
+{
+"id": "threonine",
+"name": "Треонин",
+"slug": "threonine",
+"amount": "0.34 g"
+},
+{
+"id": "methionine",
+"name": "Метионин",
+"slug": "methionine",
+"amount": "0.2 g"
+},
+{
+"id": "phenylalanine",
+"name": "Фенилаланин",
+"slug": "phenylalanine",
+"amount": "0.62 g"
+},
+{
+"id": "tryptophan",
+"name": "Триптофан",
+"slug": "tryptophan",
+"amount": "0.16 g"
+},
+{
+"id": "histidine",
+"name": "Гистидин",
+"slug": "histidine",
+"amount": "0.26 g"
+},
+{
+"id": "arginine",
+"name": "Аргинин",
+"slug": "arginine",
+"amount": "0.47 g"
+}
+]
 }

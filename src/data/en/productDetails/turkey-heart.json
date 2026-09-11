@@ -1,124 +1,257 @@
 {
-  "slug": "turkey-heart",
-  "name": "Turkey Heart",
-  "category": "Meat",
-  "image": "/productinfo/turkey-heart.png",
-  "imageAlt": "fresh raw whole lean turkey hearts showing their dense muscular texture and smooth deep red surface organized cleanly",
-  "description": "Turkey heart is a highly specialized, dense, and lean lean-muscle organ meat presenting an exceptional structural protein and bioenergetic coenzyme matrix optimized for deep mitochondrial restoration, cellular oxygenation, and neurological support. Structurally distinct from skeletal muscle tissue, the cardiac muscle architecture of the turkey yields an extraordinary concentration of Coenzyme Q10 (ubiquinone), bioavailable organic iron, and fundamental intracellular sulfur amino acids, notably taurine and L-carnitine. Operating within human metabolic environments, these specific biomolecules stabilize mitochondrial respiration loops, accelerate fatty acid translocation across myocardial cell membranes, and mitigate chronic vascular oxidative stress.",
-  "macroTitle": "Macro Nutrients (per 100g, raw trimmed turkey hearts)",
-  "macroIntro": "Turkey hearts display a highly bioavailable, dense structural macro framework exceptionally rich in complete animal proteins and efficient, clean-burning structural lipids.",
-  "microIntro": "This metabolic organ serves as an elite, concentrated cellular reservoir for vital mitochondrial enzymes, oxygen-binding minerals, and blood-building B-complex vitamins.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~128 kcal",
-      "bg": "#15837c",
-      "description": "Supplies a highly efficient, clean metabolic energy profile driven entirely by pure amino acids and premium, non-storage essential structural lipids."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "17.10 grams",
-      "bg": "#f5722c",
-      "description": "A dense source of highly bioavailable, complete animal peptides delivering all nine essential amino acids needed for muscle remodeling and enzyme synthesis."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "6.10 grams",
-      "bg": "#e4a910",
-      "description": "Consists largely of cellular lipid membranes and functional monounsaturated fatty acids that act as the primary fuel source for constant cardiac activity."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.40 grams",
-      "bg": "#1a96cd",
-      "description": "Contains practically zero carbohydrate or sugar elements, ensuring an entirely flat glycemic index ideal for strict ketogenic or metabolic therapeutic protocols."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "coenzyme-q10",
-      "slug": "coenzyme-q10",
-      "name": "Coenzyme Q10 (Ubiquinone)",
-      "amount": "Highly Concentrated",
-      "bg": "#15837c",
-      "description": "An elite mitochondrial antioxidant critical for driving the electron transport chain, generating cellular ATP, and shielding the myocardium from free radical damage."
-    },
-    {
-      "id": "vitamin-b12",
-      "slug": "vitamin-b12",
-      "name": "Vitamin B12 (Cobalamin)",
-      "amount": "3.8 mcg / 158% DV",
-      "bg": "#f5722c",
-      "description": "A massive concentration of this vital cofactor required for regulating myelin sheath integrity, maintaining neural pathways, and preventing megaloblastic anemia."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Heme Iron",
-      "amount": "4.10 mg / 23% DV",
-      "bg": "#66ab63",
-      "description": "An exceptionally bioavailable organic heme iron structure that is easily absorbed by the human jejunum to optimize cellular oxygen transport and hemoglobin production."
-    },
-    {
-      "id": "zinc",
-      "slug": "zinc",
-      "name": "Zinc",
-      "amount": "2.90 mg / 26% DV",
-      "bg": "#1a96cd",
-      "description": "An essential trace mineral vital for reinforcing DNA transcription, driving cellular repair mechanisms, and supporting immune cell replication cycles."
-    },
-    {
-      "id": "taurine",
-      "slug": "taurine",
-      "name": "Taurine & L-Carnitine",
-      "amount": "Bioactive Payload",
-      "bg": "#e4a910",
-      "description": "Specialized amino compounds that modulate intracellular calcium homeostatic balance, stabilize cardiac rhythm, and facilitate long-chain fatty acid oxidation."
-    },
-    {
-      "id": 114,
-      "slug": "vitamin-b2",
-      "name": "Vitamin B2 (Riboflavin)",
-      "amount": "0.95 mg / 73% DV",
-      "bg": "#15837c",
-      "description": "Essential for energy production, cellular respiration, and antioxidant system function."
-    },
-    {
-      "id": 115,
-      "slug": "vitamin-b3",
-      "name": "Vitamin B3 (Niacin)",
-      "amount": "5.2 mg / 33% DV",
-      "bg": "#f5722c",
-      "description": "Crucial for metabolic energy pathways, DNA repair, and hormone synthesis."
-    },
-    {
-      "id": 116,
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.45 mg / 26% DV",
-      "bg": "#66ab63",
-      "description": "Supports neurotransmitter production, amino acid metabolism, and immune health."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Mitochondrial ATP Energy Augmentation:</b> High native concentrations of <b>Coenzyme Q10</b> directly optimize the electron transport chain, boosting cellular energy synthesis across deep organ systems.",
-    "<b>Myocardial and Cardiovascular Support:</b> Active complexes of <b>taurine</b> and L-carnitine help regulate intracellular calcium flux, stabilizing cardiac rhythms and improving myocardial pumping efficiency.",
-    "<b>Hematological Oxygen Optimization:</b> Dense parameters of highly bioavailable <b>heme iron</b> work in perfect alignment with Vitamin B12 to drive erythrocyte maturation and maximize systemic oxygen delivery.",
-    "<b>Neural Sheath and Cognitive Protection:</b> Massive yields of <b>Vitamin B12</b> actively preserve myelin sheath integrity, preventing neurological degradation and supporting focus mechanics.",
-    "<b>Lean Structural Tissue Repair:</b> The complete, dense animal amino acid profile supplies premium blocks for muscle tissue synthesis without adding unnecessary adipose or metabolic strain."
-  ],
-  "precautionsIntro": "Purine-Driven Uric Acid Spikes, High Saturated Cholesterol Metrics, and Heavy Mineral Overload: Focused dietary monitoring ensures safe integration.",
-  "precautions": [
-    "<b>Elevated Purine Matrix and Gout Risks:</b> Turkey hearts store a concentrated concentration of <b>purines</b>. In individuals with impaired renal clearance pathways or active gout, consuming large or frequent portions can cause rapid uric acid accumulation, triggering severe arthritic joint flares.",
-    "<b>Endogenous Cholesterol Accumulation:</b> As an intensely metabolic organ tissue, turkey hearts contain higher baselines of <b>dietary cholesterol</b>. Individuals carrying genetic dyslipidemias (such as Familial Hypercholesterolemia) should carefully budget portions to match lipid targets.",
-    "<b>Excessive Structural Iron Accumulation:</b> The high density and bioavailable nature of <b>heme iron</b> can present metabolic complications for individuals suffering from genetic hemochromatosis, potentially contributing to systemic iron overload states if consumed excessively."
-  ]
+"slug": "turkey heart",
+"name": "Turkey heart",
+"category": "Meat and eggs",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "174 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "24.90 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "7.52 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.13 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "16 mcg RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.24 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "1.54 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "7.76 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.61 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "8 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "13.90 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "21 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "241 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "28 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "140 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "203 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "6.96 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "4.60 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.82 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.12 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "56.8 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "172 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.05 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0.02 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "1.39 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "1.52 g"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.54 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.71 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "1.78 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "1.88 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.63 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.92 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.90 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.27 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.88 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "1.45 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "1.34 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.79 g"
+}
+]
 }

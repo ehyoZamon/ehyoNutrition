@@ -1,84 +1,191 @@
 {
-  "slug": "turkey-fat",
-  "name": "Индейковый жир",
-  "category": "Жиры и масла",
-  "image": "/productinfo/turkey-fat.png",
-  "imageAlt": "rendered pure organic turkey fat in a glass jar",
-  "description": "Индейковый жир — это качественный биодоступный липидный субстрат с профилем жирных кислот, близким к оливковому маслу. Богат мононенасыщенной олеиновой кислотой, он служит эффективным источником метаболической энергии и помогает усвоению жирорастворимых нутриентов.",
-  "macroTitle": "Макронутриенты (на 100 г, вытопленный)",
-  "macroIntro": "Чистая липидная матрица высокой плотности без влаги и белков.",
-  "microIntro": "Липофильная матрица, обеспечивающая эссенциальные жирные кислоты и витамины.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "900 ккал / 45% СН",
-      "bg": "#15837c",
-      "description": "Высокоэффективный источник энергии из плотных триглицеридов."
-    },
-    {
-      "id": 16,
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "100.0 г / 128% СН",
-      "bg": "#e4a910",
-      "description": "Состав: ~32% насыщ., ~45% мононенасыщ., ~23% полиненасыщ."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 164,
-      "name": "Олеиновая кислота (Омега-9)",
-      "slug": "oleic-acid",
-      "amount": "41.2 г",
-      "bg": "#15837c",
-      "description": "Мононенасыщенная кислота для гибкости мембран."
-    },
-    {
-      "id": 165,
-      "name": "Линолевая кислота (Омега-6)",
-      "slug": "linoleic-acid",
-      "amount": "20.5 г",
-      "bg": "#f5722c",
-      "description": "Прекурсор для биологических сигнальных молекул."
-    },
-    {
-      "id": 166,
-      "name": "Витамин E",
-      "slug": "vitamin-e",
-      "amount": "2.7 мг / 18% СН",
-      "bg": "#66ab63",
-      "description": "Антиоксидант, защищающий липиды от прогоркания."
-    },
-    {
-      "id": 167,
-      "name": "Витамин D3",
-      "slug": "vitamin-d",
-      "amount": "Следы",
-      "bg": "#1a96cd",
-      "description": "Холекальциферол для поддержки скелета и иммунитета."
-    },
-    {
-      "id": 168,
-      "name": "Холин",
-      "slug": "choline",
-      "amount": "122 мг",
-      "bg": "#e4a910",
-      "description": "Компонент для эффективного транспорта липидов из печени."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Здоровье сосудов:</b> Олеиновая кислота поддерживает оптимальный липидный профиль.",
-    "<b>Усвоение витаминов:</b> Повышает биодоступность витаминов A, D, E, K.",
-    "<b>Термическая стабильность:</b> Высокая точка дымления предотвращает образование токсичных полимеров.",
-    "<b>Восстановление мембран:</b> Источник жирных кислот для фосфолипидного слоя клеток.",
-    "<b>Кето-энергия:</b> Чистый источник энергии для кетогенной адаптации."
-  ],
-  "precautionsIntro": "Особенности калорийности и риски окисления:",
-  "precautions": [
-    "<b>Калорийность:</b> Высокая плотность энергии требует контроля порций для избежания профицита.",
-    "<b>Баланс Омега-6:</b> Высокое содержание линолевой кислоты требует компенсации источниками Омега-3.",
-    "<b>Окисление:</b> Требует хранения в прохладном, темном месте для предотвращения прогоркания."
-  ]
+"slug": "fat-turkey",
+"name": "Жир индейки",
+"category": "Жиры и масла",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "900 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "99.8 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "4.8 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "2.9 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "0 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "0 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "0 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "0 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "0.2 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "122.4 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "1.4 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "21.2 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "35.9 g"
+}
+]
 }

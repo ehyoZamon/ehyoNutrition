@@ -1,107 +1,279 @@
 {
-  "slug": "duck-egg",
-  "name": "Duck Egg",
-  "category": "Dairy & Eggs",
-  "image": "/productinfo/duck-egg.png",
-  "imageAlt": "duck egg",
-  "description": "Duck eggs (Anas platyrhynchos) represent a lipid-dense avian reproductive macro-matrix characterized by an elevated yolk-to-albumen mass ratio. This specific cellular architecture yields a highly concentrated pool of long-chain polyunsaturated fatty acids, crucial phosphoproteins, and lipophilic vitamins. The structural integrity of the large yolk contains substantial quantities of cobalamin and choline, serving as highly bioavailable precursors for phospholipid bilayer stabilization, axonal myelination, and accelerated neuro-cognitive signal transduction.",
-  "macroTitle": "Macro Nutrients (per 100g, raw whole eggs)",
-  "macroIntro": "A high-density lipid-protein assembly defined by a significant phospholipid yolk fraction, coupled with structurally complete, highly digestible animal proteins.",
-  "microIntro": "A concentrated repository of lipophilic vitamins, neuroprotective amine compounds, and trace mineral cofactors crucial for genetic stability and hematopoiesis.",
+  "slug": "egg-duck-whole-fresh-raw",
+  "name": "Duck egg",
+  "category": "Dairy and Egg Products",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "185 kcal / 9% DV",
-      "bg": "#15837c",
-      "description": "Energy provided via oxidative cleavage of long-chain fatty acids and cellular amino acid catabolism."
+      "amount": "185 kcal"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Protein",
       "slug": "protein",
-      "amount": "12.8 g / 26% DV",
-      "bg": "#f5722c",
-      "description": "Complete structural proteomic template rich in essential amino acid blocks for systemic enzyme formulation and tissue repair."
+      "amount": "12.81 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "13.8 g / 18% DV",
-      "bg": "#e4a910",
-      "description": "Emulsified lipid fraction containing mono- and polyunsaturated fatty acids alongside critical membrane-forming phospholipids."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "15",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "1.4 g / 1% DV",
-      "bg": "#15837c",
-      "description": "Minimal glycemic substrate resulting in negligible postprandial insulin surges."
+      "amount": "1.45 g"
+    },
+    {
+      "id": "16",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "13.77 g"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 25,
-      "name": "Vitamin B12",
-      "slug": "vitamin-b12",
-      "amount": "5.4 mcg / 225% DV",
-      "bg": "#1a96cd",
-      "description": "Essential nucleotide cofactor governing the synthesis of deoxyribonucleic acid and preventing erythrocyte maturation arrest."
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0 mg"
     },
     {
-      "id": 138,
-      "name": "Choline",
-      "slug": "choline",
-      "amount": "263 mg / 48% DV",
-      "bg": "#66ab63",
-      "description": "Critical structural component of phosphatidylcholine and the immediate biochemical precursor to the neurotransmitter acetylcholine."
-    },
-    {
-      "id": 37,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "36.4 mcg / 66% DV",
-      "bg": "#15837c",
-      "description": "Trace elemental constituent of selenoproteins, acting as an essential antioxidant within thyroid and vascular tissues."
-    },
-    {
-      "id": 24,
-      "name": "Vitamin A",
-      "slug": "vitamin-a",
-      "amount": "269 mcg / 30% DV",
-      "bg": "#e4a910",
-      "description": "Retinol equivalent that orchestrates photoreceptor signaling cascades and maintains mucosal epithelial integrity."
-    },
-    {
-      "id": 32,
-      "name": "Iron",
-      "slug": "iron",
-      "amount": "3.8 mg / 21% DV",
-      "bg": "#f5722c",
-      "description": "Highly bioavailable inorganic heme-iron immediately ready for incorporation into cellular coordination complexes like hemoglobin."
-    },
-    {
-      "id": 26,
+      "id": "2",
       "name": "Vitamin D",
       "slug": "vitamin-d",
-      "amount": "1.7 mcg / 9% DV",
-      "bg": "#1a96cd",
-      "description": "Secosteroid hormone precursor vital for modulating calcium homeostatic kinetics and regular leukocyte differentiation."
+      "amount": "1.7 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "194 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "1.34 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.4 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.156 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.404 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.2 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "1.862 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.25 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "80 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "5.4 mcg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.32 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.598 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.097 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.951 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.576 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.84 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.736 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.26 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.885 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.102 g"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "64 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "220 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "17 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "146 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "222 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.85 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.41 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.062 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.038 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "36.4 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "263.4 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "14 mcg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.558 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "6.084 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.765 g"
+    },
+    {
+      "id": "69",
+      "name": "Cysteine",
+      "slug": "cysteine",
+      "amount": "0.285 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.422 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.613 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Neuro-Cognitive Signaling and Myelin Maintenance:</b> The elevated concentration of cobalamin and choline optimizes synaptic architecture, accelerates impulse propagation, and prevents neurodegenerative decay.",
-    "<b>Enhanced Erythropoiesis and Oxygen Transport:</b> The synergistic action of mega-doses of Vitamin B12 and highly bioavailable heme-iron drives rapid hemoglobin synthesis, mitigating tissue hypoxia.",
-    "<b>Cellular Membrane Rejuvenation:</b> Intact delivery of dense phospholipids and essential fatty acids allows immediate incorporation into damaged cellular lipid bilayers, enhancing structural fluidity.",
-    "<b>Systemic Antioxidant Cascade Induction:</b> Concentrated trace minerals and fat-soluble vitamins upregulate endogenous free-radical neutralizing systems, defending against premature cellular senescence."
-  ],
-  "precautionsIntro": "Due to specific waterfowl habitats and distinct proteomic profiles, the culinary application of duck eggs requires strict microbiological and metabolic protocols:",
-  "precautions": [
-    "<b>Microbiological Pathogen Vulnerability:</b> Increased susceptibility to horizontal and vertical Salmonella colonization requires mandatory thermal processing to achieve complete structural protein coagulation and microbial inactivation.",
-    "<b>Lipid Profile and Cholesterol Considerations:</b> High density of dietary sterols requires quantitative calculation for individuals presenting hyper-responsive cardiovascular lipid phenotypes.",
-    "<b>Proteomic Cross-Reactivity Variance:</b> Divergent chemical structures within the avian albumen matrix can trigger novel or cross-reactive IgE-mediated hypersensitivity responses distinct from traditional chicken egg allergies."
   ]
 }

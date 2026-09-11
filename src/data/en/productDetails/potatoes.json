@@ -1,108 +1,172 @@
 {
-  "slug": "potatoes",
-  "name": "Potatoes (with Skin)",
-  "category": "Vegetables",
-  "image": "/productinfo/potatoes.png",
-  "imageAlt": "potatoes",
-  "description": "Potatoes are a premier, highly versatile complex carbohydrate whole food. Boasting a massive intracellular potassium profile, an abundant yield of tissue-building Vitamin B6, and high-quality resistant starch structures, they provide long-lasting metabolic satiety, advanced muscular fuel, and robust vascular support.",
+  "slug": "potatoes-raw-skin",
+  "name": "Potatoes, raw, skin",
+  "category": "Vegetables and Vegetable Products",
   "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient framework of potatoes is dominated by clean, complex polysaccharides, serving as an exceptional energy vehicle for muscle refueling and daily cognitive workloads.",
-  "microIntro": "Potatoes deliver an extensive micronutrient array, packing vital water-soluble coenzymes and critical cardiovascular minerals that are highly concentrated within and directly beneath the skin.",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "77 kcal / 4% DV",
-      "bg": "#15837c",
-      "description": "Provides clean, moderate metabolic energy, offering an exceptionally high satiety index compared to other staple starch sources."
+      "amount": "58 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "2.0 g / 4% DV",
-      "bg": "#f5722c",
-      "description": "Contains high-quality plant proteins, rich in lysine and essential amino acids that boast a surprisingly high biological value for a root vegetable."
+      "amount": "2.57 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, making it an excellent base food for keeping total dietary lipid parameters low while maximizing carbohydrate refueling."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "17.5 g / 6% DV",
-      "bg": "#15837c",
-      "description": "Composed primarily of complex amylose and amylopectin starches alongside prebiotic fibers, engineered for sustainable glucose delivery."
+      "amount": "12.4 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.1 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.5 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 34,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "421 mg / 9% DV",
-      "bg": "#15837c",
-      "description": "A powerful intracellular electrolyte density that aggressively supports renal sodium clearance, vascular relaxation, and proper muscle contractions."
-    },
-    {
-      "id": 27,
-      "name": "Vitamin B6 (Pyridoxine)",
-      "slug": "vitamin-b6",
-      "amount": "0.30 mg / 18% DV",
-      "bg": "#f5722c",
-      "description": "An indispensable enzymatic cofactor that drives cellular glycogen breakdown, red blood cell synthesis, and nervous system signaling."
-    },
-    {
-      "id": 1,
+      "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "19.7 mg / 22% DV",
-      "bg": "#1a96cd",
-      "description": "A surprising wealth of this water-soluble antioxidant that shields internal cellular structures from oxidative decay and supports collagen synthesis."
+      "amount": "11.4 mg"
     },
     {
-      "id": 38,
-      "name": "Iron (Non-Heme)",
-      "slug": "iron",
-      "amount": "0.8 mg / 4% DV",
-      "bg": "#e4a910",
-      "description": "Provides non-heme iron stores, which work alongside the potato's native Vitamin C to achieve optimal absorption rates in the gut."
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
     },
     {
-      "id": 19,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.2 g / 8% DV",
-      "bg": "#66ab63",
-      "description": "Delivers a robust blend of insoluble cellulose and soluble pectin fibers that promote structural digestive transit and gut lining stability."
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.02 mg"
     },
     {
-      "id": 35,
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "1.03 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.24 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "17 mcg DFE"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "30 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "38 mg"
+    },
+    {
+      "id": "30",
       "name": "Magnesium",
       "slug": "magnesium",
-      "amount": "23 mg / 6% DV",
-      "bg": "#1a96cd",
-      "description": "Coordinates with potassium to maintain healthy neuromuscular relaxation, vascular tone, and cellular ATP energy configurations."
+      "amount": "23 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "10 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "413 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "3.24 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.35 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.42 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.6 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.5 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.01 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Elite Athletic Refueling & Satiety:</b> The rich complex starch architecture efficiently restocks depleted skeletal muscle glycogen stores, while its physical mass expands within the gastric cavity to suppress appetite pathways.",
-    "<b>Advanced Arterial Elasticity Support:</b> Massive natural potassium concentrations help decrease peripheral vascular resistance, enabling smooth blood flow and mitigating high blood pressure markers.",
-    "<b>Prebiotic Short-Chain Fatty Acid Generation:</b> When potatoes are cooked and then allowed to cool, they undergo retrogradation, forming *resistant starch*. This passes undigested into the colon, heavily feeding beneficial gut bacteria and generating protective butyrate.",
-    "<b>Neurological Amino Acid Balancing:</b> High bio-availability of Vitamin B6 assists in running continuous transamination pathways, unlocking balanced serotonin and dopamine production for stable mood profiles."
-  ],
-  "precautionsIntro": "Even though potatoes serve as a premier structural carbohydrate, their glycemic properties and unique botanical defensive compounds require specific culinary management.",
-  "precautions": [
-    "<b>Glycemic Index & Culinary Preparation:</b> Boiled or baked potatoes possess a high glycemic index that can cause rapid insulin responses if consumed plain. Pairing potatoes with clean dietary fibers, proteins, or healthy fats drastically flattens the blood glucose curve.",
-    "<b>Toxic Solanine Alkaloid Development:</b> When potatoes are exposed to prolonged light, they develop chlorophyll (turning green) and accumulate dangerous glycoalkaloids like *solanine*. Green patches or bitter sprouts must be deeply excised to prevent acute gastrointestinal or neurological toxicity.",
-    "<b>Thermal Acrylamide Synthesis:</b> Subjecting potatoes to ultra-high dry heat configurations—such as deep frying or heavy roasting at temperatures greater than 120°C—causes native sugars and the amino acid asparagine to react, synthesizing acrylamide. Boiling or steaming completely avoids this risk.",
-    "<b>Renal Potassium Filtration Management:</b> Due to the exceptionally high intracellular potassium density, individuals navigating advanced chronic kidney disease (CKD) must monitor portions or implement leaching (soaking chopped potatoes in water) to avoid hyperkalemia."
   ]
 }

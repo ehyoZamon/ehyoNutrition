@@ -1,124 +1,269 @@
 {
-  "slug": "turmeric",
-  "name": "Turmeric",
-  "category": "Spices and Herbs",
-  "image": "/productinfo/turmeric.png",
-  "imageAlt": "whole raw turmeric rhizomes with a small rustic bowl filled with vibrant orange-yellow turmeric powder",
-  "description": "Turmeric (Curcuma longa) is a highly revered rhizomatous perennial plant functioning as a premier bioactive botanical matrix. The physiological power of turmeric is concentrated within its unique polyphenolic molecular landscape, which is heavily dominated by curcuminoid compounds—most notably curcumin. This specialized lipophilic pigment operates at the deepest cellular levels, directly modulating major inflammatory transcription factors, neutralizing aggressive free radicals, and stimulating endogenous hepatic antioxidant enzyme synthesis.",
-  "macroTitle": "Macro Nutrients (per 100g, ground dried rhizome)",
-  "macroIntro": "As a concentrated botanical spice, dried turmeric possesses a complex carbohydrate structure heavily woven with therapeutic dietary fiber and protective volatile essential oils.",
-  "microIntro": "The cellular matrix of ground turmeric acts as a dense structural reservoir for metabolic trace elements, boasting high concentrations of neurological manganese and hematopoietic iron.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~312 kcal",
-      "bg": "#15837c",
-      "description": "A moderate caloric density derived from structural plant compounds, though negligible in standard culinary or supplemental serving sizes."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "9.7 grams",
-      "bg": "#f5722c",
-      "description": "Contains basic structural plant peptides, serving minor metabolic utility due to the limited absolute quantities consumed."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "3.3 grams",
-      "bg": "#e4a910",
-      "description": "A small lipid fraction containing functional volatile essential oils (turmerones), which are critical for increasing the solubility of native curcuminoids."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "67.1 grams",
-      "bg": "#1a96cd",
-      "description": "Composed of complex plant starches and a dense non-soluble dietary fiber matrix (~22.7g) that aids gastrointestinal microbial biomes."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "curcuminoids",
-      "slug": "curcuminoids",
-      "name": "Curcuminoids (Curcumin)",
-      "amount": "Highly Concentrated",
-      "bg": "#15837c",
-      "description": "The primary lipophilic polyphenolic complex that suppresses NF-kB activation cascades, protects endothelial linings, and downregulates inflammatory signaling."
-    },
-    {
-      "id": "manganese",
-      "slug": "manganese",
-      "name": "Manganese",
-      "amount": "19.8 mg / 861% DV",
-      "bg": "#f5722c",
-      "description": "An astronomical trace element concentration vital for activating superoxide dismutase (SOD) defense systems and driving bone matrix synthesis."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Iron",
-      "amount": "55.0 mg / 306% DV",
-      "bg": "#66ab63",
-      "description": "A massive non-heme mineral payload, acting as a crucial building block for systemic cellular oxygenation pathways and enzymatic reactions."
-    },
-    {
-      "id": "vitamin-b6",
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.9 mg / 53% DV",
-      "bg": "#1a96cd",
-      "description": "An essential water-soluble coenzyme needed to modulate central nervous system neurotransmitter synthesis and maintain regular amino acid metabolism."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Potassium",
-      "amount": "2080 mg / 44% DV",
-      "bg": "#e4a910",
-      "description": "A dense intracellular electrolyte pool required for managing vascular osmotic pressures, stabilizing nerve conductivity, and supporting cardiac rhythm."
-    },
-    {
-      "id": 63,
-      "slug": "copper",
-      "name": "Copper",
-      "amount": "0.6 mg / 67% DV",
-      "bg": "#15837c",
-      "description": "Supports iron absorption, collagen synthesis, and protects the cardiovascular system."
-    },
-    {
-      "id": 64,
-      "slug": "vitamin-c",
-      "name": "Vitamin C",
-      "amount": "25.9 mg / 29% DV",
-      "bg": "#f5722c",
-      "description": "Enhances antioxidant status and supports immune function and collagen production."
-    },
-    {
-      "id": 65,
-      "slug": "magnesium",
-      "name": "Magnesium",
-      "amount": "193 mg / 46% DV",
-      "bg": "#66ab63",
-      "description": "Vital for muscle and nerve function, blood sugar regulation, and bone health."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Systemic Anti-Inflammatory Blockade:</b> Active <b>curcumin</b> downregulates pro-inflammatory enzyme cascades (COX-2 and iNOS) by effectively preventing the nuclear translocation of NF-kB.",
-    "<b>Endogenous Antioxidant Cascade:</b> Turmeric compounds directly neutralize free radicals while upregulating the body’s own production of glutathione, catalase, and superoxide dismutase.",
-    "<b>Neuroprotective Neurogenesis Support:</b> Bioactive molecules elevate Brain-Derived Neurotrophic Factor (BDNF) levels, helping delay degenerative cognitive decline and supporting synaptic plasticity.",
-    "<b>Endothelial Function Enhancement:</b> Curcumin significantly optimizes vascular endothelial nitric oxide delivery, improving systemic blood pressure dynamics and vessel elasticity.",
-    "<b>Articular Cartilage Comfort:</b> The robust anti-inflammatory matrix dampens articular cytokine pathways, providing clinically relevant pain reduction across arthritic joints."
-  ],
-  "precautionsIntro": "Low Curcumin Bioavailability Profiles, Anticoagulant Drug Interaction Risks, and Oxalate Mediated Renal Realities: Calibrated intake profiles optimize therapeutic safety.",
-  "precautions": [
-    "<b>Ultra-Low Native Bioavailability:</b> Curcumin naturally presents extremely low intestinal absorption and rapid hepatic clearing. To bypass this barrier, it must be co-ingested with lipid vectors or <b>piperine (black pepper extract)</b>, which blocks glucuronidation and increases bioavailability by up to 2000%.",
-    "<b>Anticoagulant and Bleeding Hazards:</b> Turmeric possesses natural antiplatelet modulatory properties. Consuming high therapeutic doses alongside prescription blood thinners (e.g., warfarin, aspirin) may dangerously amplify bleeding risks and disrupt coagulation cycles.",
-    "<b>High Oxalate Concentrations:</b> Commercial ground turmeric contains notable levels of soluble <b>oxalates</b>. Individuals displaying a high metabolic predisposition to forming calcium oxalate renal calculi (kidney stones) should severely limit high-dose supplementation."
-  ]
+"slug": "turmeric-ground",
+"name": "Turmeric, ground",
+"category": "Spices and Herbs",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "312 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "9.68 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "67.14 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "3.25 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "22.7 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0.7 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "4.43 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "13.4 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.058 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "1.35 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.542 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.107 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "20 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "168 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "299 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "208 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "27 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "2080 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "55 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "4.5 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "1.3 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "19.8 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "6.2 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "49.2 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.15 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.47 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.81 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.38 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.14 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.53 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.33 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.17 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.66 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.54 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.47 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.32 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.67 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.13 g"
+}
+]
 }

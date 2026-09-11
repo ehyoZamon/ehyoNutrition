@@ -1,99 +1,279 @@
 {
-  "slug": "condensed-milk",
-  "name": "Condensed Milk",
-  "category": "Dairy Products",
-  "image": "/productinfo/condensed-milk.png",
-  "imageAlt": "condensed milk",
-  "description": "Condensed milk is a hyper-concentrated dairy matrix generated through the controlled vacuum evaporation of bovine milk, followed by the addition of high-purity sucrose. This functional food architecture creates a shelf-stable system that preserves critical dairy minerals (calcium, phosphorus) and high-quality milk proteins (casein, whey) within a dense, easily absorbable energy medium. While providing rapid glycemic substrates, it serves as a viable dense-calorie source for individuals requiring immediate metabolic fueling or those with specific nutritional deficits.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "A high-density energy pool defined by a disaccharide-rich carbohydrate matrix, balanced by emulsified milk lipids and structural proteins.",
-  "microIntro": "A refined concentrate of dairy-derived divalent cations and essential B-complex vitamins supporting neurological and skeletal integrity.",
+  "slug": "milk-canned-condensed-sweetened",
+  "name": "Milk, canned, condensed, sweetened",
+  "category": "Dairy and Egg Products",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "321 kcal / 16% DV",
-      "bg": "#15837c",
-      "description": "Thermodynamic density primarily provided by the synergistic combustion of exogenous sucrose and lipid oxidation."
+      "amount": "321 kcal"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Protein",
       "slug": "protein",
-      "amount": "7.9 g / 16% DV",
-      "bg": "#f5722c",
-      "description": "Consists of high-bioavailability caseins and whey proteins containing the full spectrum of essential amino acids."
+      "amount": "7.91 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "8.7 g / 11% DV",
-      "bg": "#e4a910",
-      "description": "Native milk lipids providing essential saturated fatty acids and facilitating the absorption of lipophilic micronutrients."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "15",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "54.4 g / 20% DV",
-      "bg": "#15837c",
-      "description": "Hyper-concentrated carbohydrate matrix predominantly comprised of sucrose and lactose, resulting in rapid blood glucose kinetics."
+      "amount": "54.4 g"
+    },
+    {
+      "id": "16",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "8.7 g"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
   "microNutrients": [
     {
-      "id": 30,
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "2.6 mg"
+    },
+    {
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.2 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "74 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.16 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.6 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.09 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.416 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.21 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.75 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.051 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "11 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.44 mcg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.214 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.479 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.775 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.627 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.198 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.382 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.357 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.112 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.529 g"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.121 g"
+    },
+    {
+      "id": "27",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "28",
       "name": "Calcium",
       "slug": "calcium",
-      "amount": "284 mg / 28% DV",
-      "bg": "#15837c",
-      "description": "A high-availability divalent cation essential for hydroxyapatite-based skeletal mineralization and signal transduction."
+      "amount": "284 mg"
     },
     {
-      "id": 38,
+      "id": "29",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": "253 mg / 25% DV",
-      "bg": "#1a96cd",
-      "description": "Synergistically coupled with calcium to maintain bone matrix density and facilitate high-energy phosphate bond synthesis (ATP)."
+      "amount": "253 mg"
     },
     {
-      "id": 31,
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "26 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "127 mg"
+    },
+    {
+      "id": "32",
       "name": "Potassium",
       "slug": "potassium",
-      "amount": "371 mg / 8% DV",
-      "bg": "#e4a910",
-      "description": "A major intracellular electrolyte maintaining fluid osmotic balance and neuromuscular contraction efficacy."
+      "amount": "371 mg"
     },
     {
-      "id": 25,
-      "name": "Vitamin B12 (Cobalamin)",
-      "slug": "vitamin-b12",
-      "amount": "0.5 mcg / 21% DV",
-      "bg": "#66ab63",
-      "description": "Crucial cofactor for myelination of nerve fibers and the synthesis of deoxyribonucleic acid."
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.19 mg"
     },
     {
-      "id": 22,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "vitamin-b2",
-      "amount": "0.4 mg / 31% DV",
-      "bg": "#f5722c",
-      "description": "Essential coenzyme in the respiratory chain, facilitating electron transport during cellular energy production."
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.94 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.015 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.006 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "14.8 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "89.1 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "14 mcg"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.216 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "2.188 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.286 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.167 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.382 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Rapid Glycogen Resynthesis:</b> The high concentration of simple sugars provides an immediate substrate for replenishing hepatic and muscular glycogen stores following strenuous exertion.",
-    "<b>Skeletal Matrix Maintenance:</b> The bioavailability of milk-derived calcium and phosphorus provides a direct stimulus for ongoing osteoblast activity.",
-    "<b>Caloric Density for Anabolic Support:</b> Acts as an efficient nutritional supplement for individuals exhibiting high metabolic rates or suboptimal body mass index requirements.",
-    "<b>Hemopoietic and Neurological Support:</b> Supplies natural cobalamin and riboflavin, which stabilize erythrocyte production and optimize neural impulse transmission."
-  ],
-  "precautionsIntro": "Due to the extreme concentration of refined carbohydrates, regular consumption poses significant metabolic risks:",
-  "precautions": [
-    "<b>Insulinemic and Glycemic Dysregulation:</b> The high sugar content induces rapid insulin spikes, making this contraindicated for individuals with type 2 diabetes or insulin sensitivity disorders.",
-    "<b>Lactose-Intolerant Phenotypes:</b> The concentration process retains high levels of lactose, which, in lactase-deficient individuals, precipitates osmotic gastrointestinal disturbances (bloating, dysbiosis).",
-    "<b>Cariogenic Potential:</b> The viscous, sugar-rich matrix promotes oral bacterial adhesion, significantly accelerating tooth enamel demineralization and dental caries."
   ]
 }

@@ -1,123 +1,239 @@
 {
-  "slug": "carrot",
-  "name": "Carrot",
-  "category": "Vegetables",
-  "image": "/productinfo/carrots.png",
-  "imageAlt": "carrots",
-  "description": "Carrots (Daucus carota) are vibrant, biennial root vegetables cultivated globally for their crisp texture and nutrient density. Traditionally associated with a deep orange hue, they also grow in heritage varieties of purple, yellow, red, and white. From a botanical perspective, carrots belong to the Apiaceae (parsley) family, sharing lineage with celery, parsnips, and fennel. While the sweet, taproot is the most commonly consumed part, the feathery green tops are also edible and rich in minerals. Carrots owe their signature orange color to highly concentrated carotenoid pigments, which serve as crucial precursors for essential vitamins in human metabolism.",
-  "macroTitle": "Macro Nutrients (per 100g raw)",
-  "macroIntro": "Carrots are a low-calorie, high-moisture crop composed of approximately 88% water. They provide clean energy primarily through complex carbohydrates, with a negligible fat profile.",
-  "microIntro": "Carrots are a premier dietary source of provitamin A and contain an array of synergistic micronutrients that support cellular integrity.",
+  "slug": "carrots-raw",
+  "name": "Carrots, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "41 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "Provides low-glycemic basal energy to fuel daily metabolic processes."
+      "amount": "41 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "0.9 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Minimal; contains trace structural amino acids necessary for plant protein structures."
+      "amount": "0.93 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Negligible; mostly composed of essential polyunsaturated fatty acids."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "9.6 g / 3% DV",
-      "bg": "#15837c",
-      "description": "Split between naturally occurring simple sugars (sucrose, glucose) and structural complex carbohydrates."
+      "amount": "9.58 g"
     },
     {
-      "id": 44,
-      "name": "Dietary Fiber",
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.24 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
       "slug": "fiber",
-      "amount": "2.8 g / 10% DV",
-      "bg": "#f5722c",
-      "description": "Rich in soluble pectin and insoluble cellulose that optimize digestion and support gut microbiota."
+      "amount": "2.8 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 3,
-      "name": "Vitamin A",
-      "slug": "vitamin-a",
-      "amount": "835 mcg / 104% DV",
-      "bg": "#66ab63",
-      "description": "Packed with beta-carotene and alpha-carotene, which the liver converts into retinol for advanced vision and night sight protection."
-    },
-    {
-      "id": 5,
-      "name": "Vitamin K1",
-      "slug": "vitamin-k",
-      "amount": "13.2 mcg / 11% DV",
-      "bg": "#15837c",
-      "description": "Essential for synthesizing blood-coagulation proteins and supporting structural bone mineralization."
-    },
-    {
-      "id": 10,
-      "name": "Vitamin B6",
-      "slug": "vitamin-b6",
-      "amount": "0.14 mg / 9% DV",
-      "bg": "#f5722c",
-      "description": "Serves as a vital coenzyme in cellular amino acid metabolism, energy release, and neurotransmitter production."
-    },
-    {
-      "id": 32,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "320 mg / 7% DV",
-      "bg": "#e4a910",
-      "description": "An essential intracellular electrolyte that regulates fluid balance, nerve signaling, and systemic blood pressure."
-    },
-    {
-      "id": 1,
+      "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "5.9 mg / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A water-soluble antioxidant that strengthens endothelial defenses, drives collagen synthesis, and boosts immunity."
+      "amount": "5.9 mg"
     },
     {
-      "id": 48,
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "835 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.66 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "13.2 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.066 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.058 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.983 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.27 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.138 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "19 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "33 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "35 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "12 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "69 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "320 mg"
+    },
+    {
+      "id": "33",
+      "name": "Chloride",
+      "slug": "chloride",
+      "amount": "0 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.24 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.045 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.143 mg"
+    },
+    {
+      "id": "39",
+      "name": "Iodine",
+      "slug": "iodine",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.1 mcg"
+    },
+    {
+      "id": "43",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "3.2 mcg"
+    },
+    {
+      "id": "48",
       "name": "Lutein",
       "slug": "lutein",
-      "amount": "138 mcg",
-      "bg": "#1a96cd",
-      "description": "A crucial carotenoid antioxidant that concentrates in the macula, filtering harmful blue light and protecting visual cells from oxidative stress."
+      "amount": "256 mcg"
     },
     {
-      "id": 49,
-      "name": "Zeaxanthin",
-      "slug": "zeaxanthin",
-      "amount": "118 mcg",
-      "bg": "#0288d1",
-      "description": "An eye-protective carotenoid that works synergistically with lutein to maintain sharp vision and shield photoreceptors from light damage."
+      "id": "56",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "1 mcg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "8285 mcg"
+    },
+    {
+      "id": "55",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "0.4 mg"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.1 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.011 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "8.8 mg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Advanced Vision Protection:</b> The high concentration of beta-carotene is utilized by the retina to synthesize rhodopsin, a biological pigment necessary for low-light and night vision. Additionally, carrots contain lutein, an antioxidant that accumulates in the macular region of the eye, filtering out harmful blue light wavelengths and mitigating the risk of age-related macular degeneration (AMD).",
-    "<b>Cardiovascular & Glycemic Regulation:</b> The soluble fiber profile in carrots consists heavily of pectin, which binds bile acids in the intestinal lumen, prompting the liver to draw cholesterol from the bloodstream to synthesize more bile—effectively lowering circulating LDL cholesterol. Despite their sweet taste, carrots have a low glycemic index (GI ~16 to 32 depending on raw vs. cooked states), preventing rapid blood glucose spikes.",
-    "<b>Digestive Tract Optimization:</b> The insoluble fibers (cellulose and hemicellulose) add bulk to fecal matter and stimulate peristalsis, preventing constipation. Furthermore, these fibers act as prebiotics, feeding beneficial short-chain fatty acid (SCFA)-producing bacteria in the large intestine, which fortifies the gut barrier function.",
-    "<b>Endothelial and Immune Defense:</b> Carotenoids and vitamin C act as potent free-radical scavengers, dampening systemic oxidative stress and protecting vascular endothelial cell walls. Vitamin A also regulates the differentiation and activation of T-cells and B-lymphocytes, reinforcing the body's primary immune response against pathogens."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Carotenemia:</b> Excessive, chronic consumption of carrots can lead to carotenemia—a benign clinical condition where excess beta-carotene accumulates in the stratum corneum, causing a distinct yellowish-orange discoloration of the skin (most visible on the palms and soles). It is completely reversible by reducing intake.",
-    "<b>Pesticide Residuals & Soil Hygiene:</b> Because carrots are subterranean taproots, they directly absorb chemicals present in the soil. Thorough scrubbing or peeling is highly recommended for conventional carrots to eliminate pesticide residues and pathogens like Listeria or Toxoplasma gondii.",
-    "<b>Oral Allergy Syndrome (OAS):</b> Individuals allergic to birch pollen or mugwort may experience cross-reactivity when eating raw carrots due to structural similarities in plant proteins. Symptoms include localized itching or swelling of the lips, mouth, and throat. Cooking the carrots denatures these proteins, typically eliminating the reaction."
   ]
 }

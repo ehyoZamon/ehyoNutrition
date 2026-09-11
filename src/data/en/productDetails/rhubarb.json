@@ -1,124 +1,221 @@
 {
-  "slug": "rhubarb",
-  "name": "Rhubarb",
-  "category": "Vegetables",
-  "image": "/productinfo/rhubarb.png",
-  "imageAlt": "crisp vibrant ruby-red and pink rhubarb stalks cut into clean pieces highlighting their textured fibrous interior",
-  "description": "Rhubarb (Rheum rhabarbarum) is a distinct perennial herbaceous plant cultivated for its tart, fleshy stalks, presenting a highly specialized, astringent organic matrix optimized for deep vascular defense, bone matrix regulation, and targeted gastrointestinal clearance. The core therapeutic value of rhubarb relies on its dense concentrations of polymeric anthraquinones (such as emodin and rhein), rich pools of soluble and insoluble structural fibers, and highly reactive organic acids (principally malic acid). Operating within human biochemical environments, these compounds stimulate natural colonic smooth muscle motility, promote tissue matrix repair, and deliver potent free radical scavenging capabilities.",
-  "macroTitle": "Macro Nutrients (per 100g, raw edible stalks)",
-  "macroIntro": "Rhubarb features an exceptionally hypocaloric, ultra-hydrating macronutrient framework that delivers vital structural elements with minimal glycemic strain.",
-  "microIntro": "The crisp, highly fibrous stalks isolate a powerful reservoir of skeletal-supporting vitamin matrices, mineral salts, and targeted organic laxative compounds.",
+  "slug": "rhubarb-raw",
+  "name": "Rhubarb, raw",
+  "category": "Fruits and Fruit Juices",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "~21 kcal",
-      "bg": "#15837c",
-      "description": "An extremely low, metabolic-friendly caloric profile driven primarily by structural plant fibers, preventing any postprandial insulin surges."
+      "amount": "21 kcal"
     },
     {
       "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "0.90 grams",
-      "bg": "#f5722c",
-      "description": "Provides minor structural amino acid fragments, reflecting a standard, minimal plant-peptide baseline typical of high-hydration stalks."
+      "amount": "0.90 g"
     },
     {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.20 grams",
-      "bg": "#e4a910",
-      "description": "A virtually non-existent lipid profile consisting of basic structural plant membranes, preserving absolute metabolic lightness."
-    },
-    {
-      "id": "carbs",
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "4.54 grams",
-      "bg": "#1a96cd",
-      "description": "Composed of natural fruit hexoses safely bound within a dense, tough dietary fiber matrix (~1.8g) that supports optimal metabolic regulation."
+      "amount": "4.54 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.20 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.80 g"
     }
   ],
+  "microTitle": "Vitamins & Minerals (per 100g)",
   "microNutrients": [
     {
-      "id": "vitamin-k1",
-      "slug": "vitamin-k1",
-      "name": "Vitamin K1 (Phylloquinone)",
-      "amount": "29.3 mcg / 24% DV",
-      "bg": "#15837c",
-      "description": "An abundant fat-soluble vitamin vital for driving the carboxylation of osteocalcin, accelerating bone mineralization, and directing normal blood coagulation pathways."
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "8 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 IU"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "5 mcg RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.27 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "29.3 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.020 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.030 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.300 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.085 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.024 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "7 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
     },
     {
       "id": "calcium",
-      "slug": "calcium",
       "name": "Calcium",
-      "amount": "86 mg / 7% DV",
-      "bg": "#f5722c",
-      "description": "A prominent extracellular structural mineral required for supporting bone frameworks, though partially bound by native antinutrients."
+      "slug": "calcium",
+      "amount": "86 mg"
     },
     {
-      "id": "vitamin-c",
-      "slug": "vitamin-c",
-      "name": "Vitamin C (L-Ascorbic Acid)",
-      "amount": "8 mg / 9% DV",
-      "bg": "#66ab63",
-      "description": "A fundamental water-soluble antioxidant that actively drives collagen assembly, neutralizes free radicals, and strengthens micro-vascular walls."
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "14 mg"
     },
     {
-      "id": "anthraquinones",
-      "slug": "anthraquinones",
-      "name": "Anthraquinones (Emodin/Rhein)",
-      "amount": "Bioactive Amount",
-      "bg": "#1a96cd",
-      "description": "Specialized polyphenolic compounds that modulate gut transit times, display natural anti-inflammatory pathways, and stimulate bile secretion."
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "12 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "4 mg"
     },
     {
       "id": "potassium",
-      "slug": "potassium",
       "name": "Potassium",
-      "amount": "288 mg / 6% DV",
-      "bg": "#e4a910",
-      "description": "A major intracellular electrolyte that maintains osmotic balance, assists in dampening high vascular tone, and stabilizes heart muscle rhythms."
+      "slug": "potassium",
+      "amount": "288 mg"
     },
     {
-      "id": 99,
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.02 mg / 1% DV",
-      "bg": "#15837c",
-      "description": "Essential for amino acid metabolism, red blood cell synthesis, and cognitive health."
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.22 mg"
     },
     {
-      "id": 100,
-      "slug": "manganese",
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.10 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.021 mg"
+    },
+    {
+      "id": "manganese",
       "name": "Manganese",
-      "amount": "0.20 mg / 9% DV",
-      "bg": "#f5722c",
-      "description": "Crucial cofactor for antioxidant enzymes and bone formation processes."
+      "slug": "manganese",
+      "amount": "0.196 mg"
     },
     {
-      "id": 101,
-      "slug": "vitamin-a",
-      "name": "Vitamin A (Beta-Carotene)",
-      "amount": "12 mcg / 1% DV",
-      "bg": "#66ab63",
-      "description": "Supports immune function, vision health, and epithelial tissue regeneration."
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "1.1 mcg"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "lutein",
+      "name": "Lutein",
+      "slug": "lutein",
+      "amount": "0.17 mg"
+    },
+    {
+      "id": "zeaxanthin",
+      "name": "Zeaxanthin",
+      "slug": "zeaxanthin",
+      "amount": "0.17 mg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "6.1 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "61 mcg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Skeletal Matrix Mineralization:</b> High native concentrations of <b>Vitamin K1</b> work synergistically with calcium to increase bone mineral density and guide optimal skeletal modeling.",
-    "<b>Gastrointestinal Motility Regulation:</b> Active <b>anthraquinones</b> gently stimulate the mucosal lining of the colon, accelerating fluid secretion and easing functional constipation.",
-    "<b>Vascular Endothelial Support:</b> The rich combination of <b>potassium</b> and organic acids promotes smooth vascular flexibility, assisting overall circulatory flow dynamics.",
-    "<b>Deep Cellular Antioxidant Shielding:</b> Concentrated polyphenols and L-ascorbic acid scavenge circulating free radicals, protecting endothelial structures from oxidative breakdown.",
-    "<b>Metabolic Cleansing and Satiety:</b> Possessing a dense <b>93% water index</b> alongside tough structural fibers, it provides gastric bulk and cellular hydration while keeping caloric input minimal."
-  ],
-  "precautionsIntro": "High Oxalate Nephrotoxicity Risks, Anthraquinone-Driven Electrolyte Depletion, and Strict Blade Exclusion: Advanced dietary boundaries preserve renal harmony.",
-  "precautions": [
-    "<b>Severe Renal Risk from Oxalic Acid:</b> Rhubarb stalks concentrate notable amounts of soluble <b>oxalic acid</b>. In the human urinary tract, free oxalates readily bind with calcium to form jagged calcium oxalate crystals, heavily escalating the risk of nephrolithiasis (kidney stones) and damaging renal parenchyma.",
-    "<b>Extreme Toxicity of Rhubarb Leaf Blades:</b> While the stalks are edible, the green leaf blades are <b>strictly toxic</b> due to lethal concentrations of both oxalic acid and corrosive anthraquinone glycosides. Swallowing leaves triggers severe gastric corrosion, vomiting, acute hypocalcemia, and potential kidney failure.",
-    "<b>Laxative Dependence and Electrolyte Depletion:</b> Chronic, excessive consumption of raw rhubarb or its extracts can overstimulate the colon due to its <b>anthraquinone</b> payload. This risks a loss of natural intestinal smooth muscle tone, chronic diarrhea, and hazardous depletion of systemic potassium ions."
   ]
 }

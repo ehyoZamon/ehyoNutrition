@@ -1,108 +1,299 @@
 {
-  "slug": "bananas",
-  "name": "Bananas",
-  "category": "Fruits",
-  "image": "/productinfo/bananas.png",
-  "imageAlt": "bananas",
-  "description": "Bananas are a premium, fast-acting biological energy source. Universally recognized for their dense concentration of vital intracellular electrolytes—specifically potassium—and natural structural sugars, they function as an exceptional asset for muscular contractility, cardiovascular rhythm management, and rapid glycogen replenishment.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient architecture of bananas is optimized for immediate cellular energy delivery, featuring a high-bioavailability carbohydrate matrix backed by minimal structural lipids and proteins.",
-  "microIntro": "Beyond quick energy, bananas carry a specialized crystalline network of essential systemic electrolytes, neuro-supportive B-vitamins, and dense prebiotic substrates.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "89 kcal / 4% DV",
-      "bg": "#15837c",
-      "description": "An incredibly efficient and clean source of metabolic energy, delivering rapid cellular fuel ideal for glycogen loading and immediate physical exertion."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.1 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Contains trace amino acid fractions that provide minor structural baseline maintenance for localized cellular enzymatic pathways."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / <1% DV",
-      "bg": "#e4a910",
-      "description": "Virtually non-existent structural lipids, rendering the food highly digestible and ensuring a rapid gastric emptying rate for fast nutrient delivery."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "22.8 g / 8% DV",
-      "bg": "#15837c",
-      "description": "A pristine dual-action carbohydrate fuel mix of natural simple sugars (sucrose, fructose, glucose) alongside complex resistant starches."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 34,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "358 mg / 8% DV",
-      "bg": "#15837c",
-      "description": "The premier intracellular electrolyte critical for maintaining cellular fluid balance, driving the sodium-potassium pump, and regulating cardiac rhythm."
-    },
-    {
-      "id": 27,
-      "name": "Vitamin B6 (Pyridoxine)",
-      "slug": "vitamin-b6",
-      "amount": "0.4 mg / 24% DV",
-      "bg": "#1a96cd",
-      "description": "An essential neuro-supportive coenzyme crucial for neurotransmitter synthesis (serotonin, dopamine) and red blood cell hemoglobin formulation."
-    },
-    {
-      "id": 19,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.6 g / 9% DV",
-      "bg": "#f5722c",
-      "description": "Rich in soluble pectin and resistant starch, structural fibers that act as elite prebiotics to optimize short-chain fatty acid production in the gut."
-    },
-    {
-      "id": 1,
-      "name": "Vitamin C",
-      "slug": "vitamin-c",
-      "amount": "8.7 mg / 10% DV",
-      "bg": "#66ab63",
-      "description": "A core water-soluble antioxidant that actively aids in endogenous collagen cross-linking and neutralizes localized cellular oxidative stress."
-    },
-    {
-      "id": 35,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "27 mg / 6% DV",
-      "bg": "#e4a910",
-      "description": "Works synergistically with potassium to modulate vascular smooth muscle tone, prevent cramping, and support cellular ATP conversion loops."
-    },
-    {
-      "id": 41,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.3 mg / 13% DV",
-      "bg": "#1a96cd",
-      "description": "An essential trace catalyst necessary for optimal bone matrix development, fat metabolism cascades, and internal antioxidant enzyme activation."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Elite Neuromuscular and Cardiac Regulation:</b> The dense influx of bioavailable potassium preserves electrical potential differences across myocardial and skeletal cell membranes, preventing acute cramping and stabilizing heart rhythm.",
-    "<b>Rapid Glycogen Replenishment:</b> The balanced spectrum of natural simple sugars coupled with digestible carbohydrates provides an immediate metabolic spark, making it the premier structural whole food for pre- and post-exertion athletic recovery.",
-    "<b>Neurotransmitter Synthesis Boost:</b> High concentrations of Pyridoxine (B6) act as the primary metabolic catalyst for converting amino acids into serotonin and dopamine, optimizing mood regulation and central nervous system communication.",
-    "<b>Prebiotic Gastrointestinal Support:</b> Soluble fibers and structural pectins delay specific carbohydrate digestion just enough to selectively feed beneficial gut microflora, optimizing the mucosal barrier lining."
-  ],
-  "precautionsIntro": "While bananas deliver exceptional bio-energetic and electrolyte benefits, their specific carbohydrate concentration and enzyme profiles require precise lifestyle management.",
-  "precautions": [
-    "<b>Glycemic Load Dynamics:</b> As bananas ripen, their structural resistant starches rapidly convert into simple free sugars. Individuals managing advanced insulin resistance or type 2 diabetes must monitor ripening stages and portion volumes closely.",
-    "<b>Potassium Load in Renal Impairment:</b> For individuals presenting with advanced chronic kidney disease (CKD), the high potassium content can challenge compromised filtration mechanics, potentially leading to dangerous systemic hyperkalemia.",
-    "<b>Latex-Fruit Cross-Reactivity Syndrome:</b> Bananas contain specific structural proteins (chitinases) that match the allergenic epitopes found in natural rubber latex, potentially triggering immediate immune hypersensitivity cascades in sensitive individuals.",
-    "<b>Migraine-Triggering Amine Compounds:</b> Bananas accumulate measurable levels of tyramine as they age. In highly sensitive neurological profiles, tyramine can act as a vasoactive agent, potentially contributing to vascular headache cascades."
-  ]
+"slug": "bananas-raw",
+"name": "Bananas",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "89 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.09 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "22.84 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.33 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "2.60 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "8.70 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "3 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.10 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0.50 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.031 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.073 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.665 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.334 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.367 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "20 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.077 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.028 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.068 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.050 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.008 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.049 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.028 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.009 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.047 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.027 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "5 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "22 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "27 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "358 mg"
+},
+{
+"id": "fluoride",
+"name": "Fluoride",
+"slug": "fluoride",
+"amount": "2.2 mcg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.26 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.15 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.078 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.27 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "9.8 mg"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.049 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.038 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.009 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.046 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.022 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "26 mcg"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "16 mg"
+},
+{
+"id": "betaine",
+"name": "Betaine",
+"slug": "betaine",
+"amount": "0.10 mg"
+}
+]
 }

@@ -1,76 +1,215 @@
 {
-  "slug": "raspberries",
-  "name": "Raspberries",
-  "category": "Berries",
-  "image": "/productinfo/raspberries.png",
-  "imageAlt": "fresh ripe red raspberries",
-  "description": "Raspberries represent a highly aromatic, elite botanical aggregate matrix. They possess a spectacular concentration of structural polyphenolic polymers, dominated by hydrolyzable *ellagitannins*, *ellagic acid*, and specific anthocyanins. Interlocking with a heavy, complex matrix of non-starch polysaccharides, these bio-actives modulate systemic inflammatory cascades, accelerate metabolic lipid processing, and protect cellular mitochondrial structures from advanced free-radical decay.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "The macronutrient configuration of raw raspberries delivers an exceptionally lean, fiber-dense architecture designed to support stable metabolic glucose clearance and encourage digestive efficiency.",
-  "microIntro": "Raspberries house a highly concentrated cluster of crucial enzyme cofactors and water-soluble antioxidants tailored to fuel endogenous defense networks and sustain skeletal matrix integrity.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "52 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "A very low biological energy density that yields an immense yield of therapeutic micronutrients per calorie, preventing unintended energy storage."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.2 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Provides clean plant-derived amino acid fragments essential for baseline structural maintenance within the cellular walls of the fruit."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.7 g / 1% DV",
-      "bg": "#e4a910",
-      "description": "Contains minimal lipid fractions, localized primarily within the seed architecture as essential polyunsaturated fatty acids."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "11.9 g / 4% DV",
-      "bg": "#15837c",
-      "description": "Dominated by a massive 6.5-gram functional dietary fiber network, leaving net glycemic impact incredibly low while slowing intestinal sugar transit."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 26,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "26.2 mg / 29% DV",
-      "bg": "#1a96cd",
-      "description": "A powerful water-soluble antioxidant that actively drives dermal collagen cross-linking and maximizes leukocyte mobility against environmental biological stressors."
-    },
-    {
-      "id": 37,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.7 mg / 30% DV",
-      "bg": "#66ab63",
-      "description": "An exceptional dose of a critical metalloenzyme cofactor required for superoxide dismutase (SOD) synthesis, bone mineralization, and amino acid metabolism."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Advanced Ellagic Anti-Inflammatory Cascade:</b> High concentrations of *ellagitannins* break down into free *ellagic acid*, suppressing pro-inflammatory pathways and defending tissues from systemic oxidative stress loops.",
-    "<b>Glycemic Index Blunting & Insulin Efficacy:</b> The robust ratio of unrefined fiber to natural sugars slows gastric emptying and blocks alpha-glucosidase enzymes, preventing sudden postprandial glucose shifts.",
-    "<b>Cardiovascular Endothelial Reinforcement:</b> Active anthocyanin clusters stimulate nitric oxide path activation, encouraging healthy vasodilation, lowering peripheral tension, and reducing LDL cholesterol oxidation vectors.",
-    "<b>Metabolic Optimization Dynamics:</b> Unique aromatic ketone structures interact with adiponectin pathways, supporting efficient fatty acid breakdown and metabolic energy balance."
-  ],
-  "precautionsIntro": "While raw raspberries represent an exceptional and highly protective whole-food asset, their unique organic acid profiles and structural traits require specific dietary alignment.",
-  "precautions": [
-    "<b>Acute Botanical Salicylate Sensitivity:</b> Raspberries carry a high concentration of natural salicylates. Individuals navigating historical chemical sensitivities may experience mild histaminic skin flushing, hives, or respiratory irritation.",
-    "<b>Organic Acid Mucosal Irritation:</b> The volatile citric and malic acid profiles can cause temporary localized discomfort, burning, or acid reflux in individuals managing active gastritis or peptic ulcer baselines.",
-    "<b>Intricate Hollow Pesticide Catchment:</b> The physical aggregate nature of the hollow drupelet dome can trap and shield environmental agricultural residues. Rigid ultrasonic rinsing or utilizing organic sourcing is strongly required.",
-    "<b>Sudden Fiber Influx Shifts:</b> Consuming large quantities can introduce a rapid volume of insoluble cellulose and seeds, occasionally accelerating intestinal motility and causing temporary cramping or loose stool."
-  ]
+"slug": "raspberries-raw",
+"name": "Raspberries",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "52 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.20 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "11.94 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.65 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "6.50 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "26.2 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "2 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.87 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "7.8 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.032 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.038 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.598 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.329 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.055 mg"
+},
+{
+"id": "vitamin-b7",
+"name": "Vitamin B7",
+"slug": "vitamin-b7",
+"amount": "3.22 mcg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "21 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "25 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "29 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "22 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "151 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.69 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.42 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.09 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.67 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.2 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "12.3 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.126 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.249 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.059 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "12 mcg"
+}
+]
 }

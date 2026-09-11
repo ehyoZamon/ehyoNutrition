@@ -1,84 +1,173 @@
 {
-  "slug": "goose-fat",
-  "name": "Goose Fat",
-  "category": "Fats and Oils",
-  "image": "/productinfo/goose-fat.png",
-  "imageAlt": "rendered pure traditional goose fat in a glass container",
-  "description": "Goose fat is a premium bioavailable animal lipid matrix with high thermodynamic stability. Its profile, rich in monounsaturated oleic acid (similar to olive oil), serves as an efficient metabolic fuel and a culinary transport system that enhances the systemic absorption of lipophilic micronutrients.",
-  "macroTitle": "Macro Nutrients (per 100g, rendered)",
-  "macroIntro": "A pure, high-density lipid matrix (100% fat) isolated from proteins and carbohydrates.",
-  "microIntro": "A lipophilic matrix rich in oleic acid and stabilizing tocopherols, reinforcing cellular membrane integrity.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "900 kcal / 45% DV",
-      "bg": "#15837c",
-      "description": "Maximal energy density providing a sustained-release fuel resource."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "100.0 g / 128% DV",
-      "bg": "#e4a910",
-      "description": "Optimized lipid profile: ~33% sat, ~55% monounsat (oleic), ~12% polyunsat."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 164,
-      "name": "Oleic Acid (Omega-9)",
-      "slug": "oleic-acid",
-      "amount": "53.2 g",
-      "bg": "#15837c",
-      "description": "Monounsaturated fraction supporting endothelial health and membrane elasticity."
-    },
-    {
-      "id": 165,
-      "name": "Linoleic Acid (Omega-6)",
-      "slug": "linoleic-acid",
-      "amount": "10.1 g",
-      "bg": "#f5722c",
-      "description": "Polyunsaturated tract assisting in tissue regeneration."
-    },
-    {
-      "id": 166,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "2.7 mg / 18% DV",
-      "bg": "#66ab63",
-      "description": "Antioxidant protecting lipid double bonds from oxidative cleavage."
-    },
-    {
-      "id": 169,
-      "name": "Vitamin K2 (Menaquinone)",
-      "slug": "vitamin-k",
-      "amount": "Trace",
-      "bg": "#1a96cd",
-      "description": "Supports calcium distribution away from vascular tissues."
-    },
-    {
-      "id": 170,
-      "name": "Dietary Cholesterol",
-      "slug": "cholesterol",
-      "amount": "100 mg",
-      "bg": "#e4a910",
-      "description": "Sterol precursor for steroid hormones and bile acid synthesis."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Cardiovascular Support:</b> High oleic acid content aids in optimizing lipid ratios.",
-    "<b>Thermal Resilience:</b> High smoke point (~200°C) prevents toxic polymer formation during cooking.",
-    "<b>Bioavailability Vehicle:</b> Essential for the absorption of fat-soluble vitamins (A, D, E, K).",
-    "<b>Membrane Integrity:</b> Provides structural lipids for phospholipid bilayer maintenance.",
-    "<b>Ketogenic Efficiency:</b> Pure triglyceride profile drives stable ketogenesis."
-  ],
-  "precautionsIntro": "Considerations for caloric density and oxidative stability:",
-  "precautions": [
-    "<b>Caloric Loading:</b> Extremely high energy density requires portion monitoring to avoid surplus.",
-    "<b>Saturated Fat Limits:</b> Contains ~33% saturated fats; modulate intake if managing hyperlipidemia.",
-    "<b>Auto-oxidation:</b> Store in a cool, dark place to prevent the formation of aldehydes and epoxides."
-  ]
+"slug": "fat-goose",
+"name": "Fat, goose",
+"category": "Fats and Oils",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "900 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "99.8 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "2.7 mg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "0 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "0 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.2 mcg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.5 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "9.8 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "53.5 g"
+}
+]
 }

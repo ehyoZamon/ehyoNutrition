@@ -1,99 +1,293 @@
 {
-  "slug": "pineapple",
-  "name": "Pineapple",
-  "category": "Fruits",
-  "image": "/productinfo/pineapple.png",
-  "imageAlt": "fresh pineapple",
-  "description": "Pineapple represents a biochemically active, moisture-dense tropical syncarpous phytomatrix derived from the Bromeliaceae family (Ananas comosus), distinguished by its concentration of bromelain—a specialized multienzyme complex of sulfhydryl proteolytic fractions that facilitate systemic peptide bond cleavage and modulate tissue remodeling cascades. Operating as a highly bioavailable metabolic vehicle, this crystalline fruit pulp delivers a dense payload of low-molecular-weight mono- and disaccharides interlinked with essential transition metals and water-soluble radical-scavenging cofactors. This synergistic botanical assembly accelerates gastric emptying through targeted breakdown of complex dietary proteins, selectively downregulates pro-inflammatory kinin pathways, and optimizes the structural integrity of extracellular connective tissue frameworks.",
-  "macroTitle": "Macro Nutrients (per 100g, raw product)",
-  "macroIntro": "The macronutrient allocation of raw pineapple pulp reflects a hydrated, carbohydrate-dominant thermodynamic framework, engineered to deliver rapid, clean cellular energy substrates.",
-  "microIntro": "A highly active physiological depository containing therapeutic proteolytic endopeptidases, essential antioxidant coenzymes, and transition elements that drive structural connective tissue homeostasis.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "50 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "A moderate, well-tolerated thermodynamic value derived almost exclusively from easily oxidizable simple cellular sugars."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "13.1 g / 5% DV",
-      "bg": "#15837c",
-      "description": "Comprises rapidly absorbed free monosaccharides (fructose and glucose) along with sucrose, delivering immediate postprandial metabolic fuel."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.5 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "A minimal nitrogenous fraction, primarily localized within highly specialized structural endopeptidases and defensive plant peptides."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "A virtually non-existent lipid component, limited to essential structural chloroplast membranes and cuticular wax residues."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 114,
-      "name": "Bromelain (Proteolytic Enzymes)",
-      "slug": "enzymes",
-      "amount": "High Bioactivity",
-      "bg": "#15837c",
-      "description": "A complex mixture of thiol endopeptidases capable of breaking down dense dietary proteins into highly absorbable amino acids and peptides."
-    },
-    {
-      "id": 22,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "47.8 mg / 53% DV",
-      "bg": "#f5722c",
-      "description": "A powerful water-soluble antioxidant that acts as an obligate electron donor for prolyl hydroxylase, driving systemic collagen synthesis."
-    },
-    {
-      "id": 36,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.9 mg / 40% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace cofactor for glycosyltransferases and superoxide dismutase ($Mn-SOD$), fundamentally required for optimal bone mineral matrix formulation."
-    },
-    {
-      "id": 10,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "1.4 g / 5% DV",
-      "bg": "#e4a910",
-      "description": "A supportive network of soluble pectin polymers and insoluble cellulose that helps modulate mucosal glucose absorption kinetics."
-    },
-    {
-      "id": 25,
-      "name": "Vitamin B1 (Thiamine)",
-      "slug": "thiamine",
-      "amount": "0.08 mg / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A critical enzymatic coenzyme ($TPP$) required for the oxidative decarboxylation of branched-chain amino acids and carbohydrate energy pathways."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Bromelain-Enhanced Protein Catabolism and Digestion:</b> Active sulfhydryl endopeptidases hydrolyze complex, heavy dietary protein structures across a wide pH range within the gastrointestinal lumen, significantly reducing digestive distress, mitigating postprandial bloating, and optimizing systemic amino acid assimilation.",
-    "<b>Fibrinolytic Modification of Post-Traumatic Inflammatory Edema:</b> Systemically absorbed bromelain alters endothelial cell adhesion molecule expressions, activates plasminogen conversion to plasmin, and degrades localized fibrin deposits, rapidly reducing localized tissue swelling and microvascular congestion after physical trauma or surgical procedures.",
-    "<b>Synergistic Ascorbate Immunoprotection and Cellular Defense:</b> A dense concentration of native L-ascorbic acid safeguards intracellular components from oxidative degradation, promotes neutrophil chemotaxis, enhances phagocytic performance, and upregulates the synthesis of critical antiviral interferons.",
-    "<b>Manganese-Dependent Osteoblast and Collagen Homeostasis:</b> Abundant manganese atoms accelerate the synthesis of mucopolysaccharides in cartilage matrices and collaborate with vitamin C to maximize the cross-linking of structural triple-helix collagen fibers, ensuring micro-structural bone density."
-  ],
-  "precautionsIntro": "Due to its intense enzymatic potency, elevated organic acid load, and distinct systemic biochemical actions, pineapple consumption should be carefully regulated under the following physiological conditions:",
-  "precautions": [
-    "<b>Corrosive Aggravation of Acid-Peptic Gastrointestinal Pathologies:</b> The combination of a low native pH (~3.5–4.0) via citric/malic acids and active proteolysis can rapidly dissolve protective mucus barriers and irritate vulnerable mucosal structures in patients with active peptic ulcers, erosive gastritis, or severe gastroesophageal reflux disease ($GERD$).",
-    "<b>Latex-Fruit Cross-Allergic Hypersensitivity Syndrome:</b> Individuals sensitized to natural rubber latex can manifest immediate cross-reactive, IgE-mediated allergic hypersensitivity when exposed to class I chitinases and structural patatin-like protein motifs present within pineapple tissues, with outcomes spanning localized contact urticaria to systemic anaphylaxis.",
-    "<b>Pharmacokinetic Extension of Anticoagulant and Antiplatelet Drugs:</b> Systemic concentrations of bromelain can reduce blood platelet aggregation rates and prolong prothrombin times; concurrent therapeutic deployment alongside standard anticoagulants (e.g., warfarin, rivaroxaban) or antiplatelet compounds requires strict clinical oversight due to elevated microvascular bleeding risks."
-  ]
+"slug": "pineapple-raw-all-varieties",
+"name": "Pineapple",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "50 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.54 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "13.12 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.12 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "1.4 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "47.8 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "3 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.02 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0.7 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.08 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.5 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.21 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.11 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "18 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "13 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "8 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "12 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "109 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.29 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.12 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.11 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.93 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "5.5 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.01 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.02 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.02 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.03 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.01 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.02 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.02 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.01 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.02 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.02 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "0.02 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.02 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.02 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.02 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.01 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "35 mcg"
+},
+{
+"id": "lycopene",
+"name": "Lycopene",
+"slug": "lycopene",
+"amount": "0 mcg"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "6 mg"
+}
+]
 }

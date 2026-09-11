@@ -1,108 +1,203 @@
 {
-  "slug": "guava",
-  "name": "Гуава",
-  "category": "Фрукты и ягоды",
-  "image": "/productinfo/guava.png",
-  "imageAlt": "fresh ripe organic pink guava sliced in half",
-  "description": "Гуава — это функциональный тропический фрукт, известный рекордной концентрацией витамина С и метаболическими преимуществами. Благодаря высокому содержанию клетчатки и антиоксидантов, она эффективно поддерживает иммунитет, сосудистый тонус и чувствительность к инсулину.",
-  "macroTitle": "Макронутриенты (на 100 г, сырые)",
-  "macroIntro": "Водонасыщенная архитектура со сложными углеводами и высоким уровнем диетической клетчатки.",
-  "microIntro": "Биодоступная матрица, обеспечивающая астрономический уровень витамина С, каротиноидов и минералов.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "68 ккал / 3% СН",
-      "bg": "#15837c",
-      "description": "Низкая плотность энергии с упором на регуляторные свойства волокон."
-    },
-    {
-      "id": 14,
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "2.6 г / 5% СН",
-      "bg": "#f5722c",
-      "description": "Высокий для фруктов показатель растительного белка."
-    },
-    {
-      "id": 16,
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "1.0 г / 1% СН",
-      "bg": "#e4a910",
-      "description": "Минимальное содержание липидов со следами эссенциальных кислот."
-    },
-    {
-      "id": 15,
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "14.3 г / 5% СН",
-      "bg": "#15837c",
-      "description": "Содержит 5.4 г клетчатки, замедляющей всасывание фруктозы."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 138,
-      "name": "Витамин C (Аскорбиновая кислота)",
-      "slug": "vitamin-c",
-      "amount": "228.3 мг / 254% СН",
-      "bg": "#1a96cd",
-      "description": "Мощный антиоксидант для синтеза коллагена и работы иммунитета."
-    },
-    {
-      "id": 143,
-      "name": "Витамин A (Бета-каротин)",
-      "slug": "vitamin-a",
-      "amount": "624 МЕ / 7% СН",
-      "bg": "#66ab63",
-      "description": "Прекурсор, поддерживающий зрение и защиту эпителия."
-    },
-    {
-      "id": 35,
-      "name": "Калий",
-      "slug": "potassium",
-      "amount": "417 мг / 9% СН",
-      "bg": "#15837c",
-      "description": "Электролит, снижающий задержку натрия и поддерживающий сосуды."
-    },
-    {
-      "id": 157,
-      "name": "Фолаты (Витамин B9)",
-      "slug": "folate",
-      "amount": "49 мкг / 12% СН",
-      "bg": "#66ab63",
-      "description": "Кофермент для синтеза нуклеиновых кислот и деления клеток."
-    },
-    {
-      "id": 159,
-      "name": "Ликопин",
-      "slug": "lycopene",
-      "amount": "5204 мкг",
-      "bg": "#f5722c",
-      "description": "Пигмент, защищающий мембраны от окислительного стресса."
-    },
-    {
-      "id": 160,
-      "name": "Медь",
-      "slug": "copper",
-      "amount": "0.2 мг / 11% СН",
-      "bg": "#e4a910",
-      "description": "Микроэлемент, участвующий в усвоении железа и энергообмене."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Иммунный отклик:</b> Витамин С ускоряет активность лейкоцитов.",
-    "<b>Контроль гликемии:</b> Пектин замедляет переваривание, стабилизируя сахар.",
-    "<b>Моторика ЖКТ:</b> Клетчатка предотвращает застойные явления в кишечнике.",
-    "<b>Кардиоподдержка:</b> Калий и полифенолы повышают эластичность артерий.",
-    "<b>Защита клеток:</b> Ликопин и бета-каротин препятствуют перекисному окислению."
-  ],
-  "precautionsIntro": "Рекомендации по пищеварению и почечным рискам:",
-  "precautions": [
-    "<b>Нагрузка клетчаткой:</b> Резкий ввод в рацион может вызвать вздутие; увеличивайте порции постепенно.",
-    "<b>Оксалаты:</b> При склонности к камням в почках следует ограничивать потребление.",
-    "<b>Механическое раздражение:</b> Твердые семена могут быть противопоказаны при дивертикулите."
-  ]
+"slug": "guava-raw",
+"name": "Гуава",
+"category": "Фрукты и фруктовые соки",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "68 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "2.55 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "14.3 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "0.95 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "5.4 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "228 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "31 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "0.73 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "2.6 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.067 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.04 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "1.08 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.11 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "49 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "18 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "40 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "22 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "417 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "0.26 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "0.23 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0.23 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "0.6 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "7.6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.112 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Жирные кислоты Омега-6",
+"slug": "omega-6-fatty-acids",
+"amount": "0.288 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Жирные кислоты Омега-9",
+"slug": "omega-9-fatty-acids",
+"amount": "0.082 g"
+},
+{
+"id": "lycopene",
+"name": "Ликопин",
+"slug": "lycopene",
+"amount": "5204 mcg"
+},
+{
+"id": "beta-carotene",
+"name": "Бета-каротин",
+"slug": "beta-carotene",
+"amount": "374 mcg"
+}
+]
 }

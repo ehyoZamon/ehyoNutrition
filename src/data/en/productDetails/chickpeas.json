@@ -1,108 +1,179 @@
 {
-  "slug": "chickpeas",
-  "name": "Chickpeas (Garbanzo Beans)",
-  "category": "Vegetables & Greens",
-  "image": "/productinfo/chickpeas.png",
-  "imageAlt": "chickpeas",
-  "description": "Chickpeas are an exceptional, nutrient-dense legume whole food matrix. Packing a powerful combination of plant-based structural proteins, slow-burning complex carbohydrates, and an extraordinary abundance of prebiotic soluble fiber, they serve as a premier functional resource for sustained metabolic energy, glycemic stabilization, and gastrointestinal biome optimization.",
-  "macroTitle": "Macro Nutrients (per 100g, boiled without salt)",
-  "macroIntro": "The macronutrient framework of cooked chickpeas offers a highly balanced distribution of plant-bound amino acids and clean, complex polysaccharides designed for prolonged energy release and muscle preservation.",
-  "microIntro": "Chickpeas deliver an extensive network of water-soluble coenzymes, essential systemic macrominerals, and crucial trace elements engineered to support cellular replication and cardiovascular health.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "164 kcal / 8% DV",
-      "bg": "#15837c",
-      "description": "Provides clean, moderate biological energy paired with an exceptionally high volume-to-calorie ratio, making it ideal for maintaining steady satiety."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "8.9 g / 18% DV",
-      "bg": "#f5722c",
-      "description": "A robust source of plant-based protein rich in essential amino acids like lysine and arginine, supporting basic lean tissue maintenance and metabolic synthesis."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "2.6 g / 3% DV",
-      "bg": "#e4a910",
-      "description": "Low in total lipids, consisting primarily of healthy polyunsaturated and monounsaturated fatty acids that preserve cellular membrane flexibility."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "27.4 g / 10% DV",
-      "bg": "#15837c",
-      "description": "Composed of complex amylose starches and dense prebiotic fibers that absorb gradually, completely preventing rapid blood glucose spikes."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 25,
-      "name": "Vitamin B9 (Folate)",
-      "slug": "vitamin-b9",
-      "amount": "172 mcg / 43% DV",
-      "bg": "#15837c",
-      "description": "A massive natural concentration of folate, absolutely essential for cellular division, proper DNA replication, and regulating vascular tissue equilibrium."
-    },
-    {
-      "id": 44,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "1.0 mg / 43% DV",
-      "bg": "#e4a910",
-      "description": "A powerful dose of this trace element, functioning as a mandatory catalyst for internal antioxidant defense networks and bone matrix formulation."
-    },
-    {
-      "id": 17,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "7.6 g / 27% DV",
-      "bg": "#f5722c",
-      "description": "Packed with high-quality soluble fiber, notably *raffinose*, which expands inside the digestive tract to slow glucose uptake and feed beneficial gut microbes."
-    },
-    {
-      "id": 40,
-      "name": "Copper",
-      "slug": "copper",
-      "amount": "0.35 mg / 39% DV",
-      "bg": "#66ab63",
-      "description": "An essential catalytic mineral required for structural collagen cross-linking, iron mobilization, and optimal neural communication loops."
-    },
-    {
-      "id": 38,
-      "name": "Iron (Non-Heme)",
-      "slug": "iron",
-      "amount": "2.9 mg / 16% DV",
-      "bg": "#1a96cd",
-      "description": "A valuable botanical reservoir of iron that helps optimize red blood cell assembly and maximize continuous systemic oxygen transport."
-    },
-    {
-      "id": 32,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "48 mg / 11% DV",
-      "bg": "#1a96cd",
-      "description": "Coordinates with systemic electrolytes to modulate smooth neuromuscular relaxation, resting vascular tone, and ATP energy synthesis loops."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Elite Glycemic & Insulin Management:</b> The intricate configuration of dense plant proteins and unique soluble fibers heavily delays starch digestion, resulting in an exceptionally flat postprandial blood glucose curve.",
-    "<b>Advanced Microbiome Optimization:</b> The rich presence of the prebiotic fiber *raffinose* passes undigested into the colon, where beneficial bacteria ferment it into short-chain fatty acids (like butyrate) to reinforce gut lining integrity.",
-    "<b>Cardiovascular Wall Support:</b> High natural levels of Folate work directly with soluble fibers to clear circulating homocysteine markers, protecting arterial walls from oxidation while supporting healthy lipid profiles.",
-    "<b>DNA Replication & Tissue Recovery:</b> Delivering almost half of your daily Folate per 100g, chickpeas drive efficient cellular synthesis and tissue regeneration loops, making them highly beneficial for metabolic recovery."
-  ],
-  "precautionsIntro": "Even though chickpeas function as an elite botanical powerhouse, their dense fiber types and plant defense compounds require specific management parameters.",
-  "precautions": [
-    "<b>Gastrointestinal Fermentation & Gas:</b> The complex oligosaccharides (like raffinose) in chickpeas are highly prone to bacterial fermentation in the lower intestine. For sensitive digestive systems, this can cause sharp bloating or temporary lower abdominal gas. Sprouting, thorough boiling, or soaking deeply mitigates this response.",
-    "<b>Anti-Nutrient Phytic Acid Chelation:</b> Raw or improperly cooked chickpeas carry notable stores of phytic acid, which binds to minerals like iron, zinc, and calcium in the gut. Utilizing an extended soaking phase (12-24 hours) with a splash of apple cider vinegar before boiling dismantles this barrier.",
-    "<b>Non-Heme Iron Absorption Blocks:</b> Because the iron in chickpeas is non-heme, its absorption can easily be suppressed by native phytates. Pairing chickpeas with fresh citrus elements or other sources of Vitamin C dramatically unlocks intestinal absorption channels.",
-    "<b>Potassium Filtration Sizing:</b> While beneficial for standard profiles, the moderate-to-high intracellular potassium and phosphorus levels in large servings mean individuals navigating severe chronic kidney disease (CKD) should calibrate their portion allocations carefully."
-  ]
+"slug": "chickpeas",
+"name": "Chickpeas",
+"category": "Legumes and Legume Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "390.35 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "15.2255 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "47.175 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "16.4835 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "13.135 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "1.1 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "1 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "1.56 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "10.3 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.1 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.46 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.12 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "152 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "85.1 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "156 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "45 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "410.7 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "499.5 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "4.995 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "1.42 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.33 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "3.4 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "39.8 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "Not reported"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+}
+]
 }

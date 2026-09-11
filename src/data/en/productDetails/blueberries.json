@@ -1,76 +1,197 @@
 {
-  "slug": "blueberries",
-  "name": "Blueberries",
-  "category": "Berries",
-  "image": "/productinfo/blueberries.png",
-  "imageAlt": "fresh ripe blueberries",
-  "description": "Blueberries are a premium, physiologically active botanical berry matrix. Celebrated for their low-calorie profile, they hold an exceptional concentration of water-soluble polyphenols, specifically *anthocyanins* like malvidin and delphinidin. Bound within an unrefined whole-food crystalline matrix, these compounds cross the blood-brain barrier to drive neuroprotective signaling, neutralize advanced systemic oxidative stress loops, and actively reinforce peripheral vascular elasticity.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient configuration of raw blueberries provides an exceptionally light, hyper-hydrating framework designed to export massive payloads of active organic compounds with minimal glycemic impact.",
-  "microIntro": "Blueberries house a sophisticated, highly bioavailable cluster of natural protective pigments, vital organic acids, and enzymatic cofactors tailored to shield DNA structures from oxidative decay.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "57 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "An incredibly low caloric density that allows for optimal consumption volume while delivering a massive ratio of therapeutic micronutrients per calorie."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.7 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Contains trace, easily assimilable botanical amino acid fragments essential for basic maintenance within the structural plant tissue."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.3 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually lipid-free, keeping global dietary fat parameters strictly unburdened while favoring the immediate absorption of water-soluble molecules."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "14.5 g / 5% DV",
-      "bg": "#15837c",
-      "description": "Composed of low-glycemic, slow-fusing natural fruit sugars tightly bundled within an unrefined, highly functional pectin fiber network."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 26,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "9.7 mg / 11% DV",
-      "bg": "#1a96cd",
-      "description": "Provides steady plant-derived ascorbic acid that acts in synergy with native flavonoids to reinforce dermal collagen matrices and support immune cell motility."
-    },
-    {
-      "id": 93,
-      "name": "Anthocyanins (Polyphenols)",
-      "slug": "antioxidants",
-      "amount": "High Concentration",
-      "bg": "#66ab63",
-      "description": "Powerful, intensely active lipophilic and hydrophilic pigments that give the berry its signature deep blue hue and drive unmatched radical-scavenging dynamics."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Advanced Neuroprotection & Cognitive Drive:</b> Highly mobile *anthocyanins* effectively breach the blood-brain barrier, accumulating in the hippocampus to stimulate optimal neuroplasticity, enhance spatial memory, and delay age-related cognitive decline.",
-    "<b>Systemic Free-Radical Eradication:</b> The high baseline density of natural polyphenols works continuously to intercept reactive oxygen species (ROS), protecting delicate cellular membranes and DNA strands from advanced oxidative mutations.",
-    "<b>Vascular Integrity & Endothelial Support:</b> Active plant compounds stimulate endothelial nitric oxide synthase (eNOS), inducing smooth vasodilation, lowering peripheral arterial pressure, and reducing oxidized LDL accumulation.",
-    "<b>Metabolic Insulin Sensitivity Enhancement:</b> Unique biochemical pathways within the berry's organic structure assist skeletal muscle receptors in clean glucose clearing, preventing aggressive postprandial insulin spikes."
-  ],
-  "precautionsIntro": "While raw blueberries represent an exceptionally safe and highly therapeutic dietary asset, their chemical concentration and cultivation traits require deliberate consumption parameters.",
-  "precautions": [
-    "<b>Potential Tree/Berry Allergenic Pathways:</b> Though clinically rare, sensitive individuals may experience immunoglobulin E (IgE) mediated hypersensitivity cascades or oral allergy syndrome driven by botanical salicylate compounds.",
-    "<b>Carbohydrate Monitoring in Advanced Diabetes:</b> While the glycemic index remains low, the baseline fruit sugar volume must still be calculated into the global daily carbohydrate allowance for individuals managing strict metabolic disorders.",
-    "<b>Pesticide Residue Accumulation Vector:</b> Due to the fragile, porous nature of the berry's outer skin, conventional crops frequently retain surface agricultural chemical residues. Prioritizing organic sourcing or thorough ultrasonic washing is highly required.",
-    "<b>Gastrointestinal Hyper-Motility:</b> Consuming extreme volumes of raw blueberries can introduce an abrupt influx of natural fruit acids and insoluble fiber fractions, occasionally triggering temporary osmotic diarrhea or abdominal bloating."
-  ]
+"slug": "blueberries-raw",
+"name": "Blueberries",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "57 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.74 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "14.49 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.33 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "2.4 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "9.7 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "3 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.57 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "19.3 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.037 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.041 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.418 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.052 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "6 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "6 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "12 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "6 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "77 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.28 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.16 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.057 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.336 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.06 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.09 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.05 g"
+}
+]
 }

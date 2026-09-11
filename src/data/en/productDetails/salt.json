@@ -1,83 +1,185 @@
 {
-  "slug": "salt",
-  "name": "Salt",
-  "category": "Spices / Minerals",
-  "image": "/productinfo/salt.png",
-  "imageAlt": "crystals of table salt",
-  "description": "Table salt is a refined crystalline ionic compound predominantly comprised of sodium chloride molecules, functioning as the primary chemical regulator of extracellular fluid volume and systemic osmotic pressure. Structurally, it forms a rigid cubic lattice where sodium cations and chloride anions are held by strong electrostatic bonds, dissolving instantly in aqueous media into free hydrated ions. Operating as the foundational electrolyte substrate of the human organism, its component ions drive the generation of transmembrane resting potentials, fuel secondary active transport mechanisms across cellular envelopes, and supply the mandatory substrate for gastric acid synthesis.",
-  "macroTitle": "Macronutrients (per 100g)",
-  "macroIntro": "As a pure inorganic mineral crystal, table salt contains zero organic macronutrient matrices, lipids, or energetic calorie structures.",
-  "microIntro": "A concentrated elemental mineral pool supplying critical extracellular osmotic ions and mandatory physiological halogens.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "0 kcal",
-      "bg": "#15837c",
-      "description": "Contains zero organic carbon chains and yields no chemical energy upon ingestion."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0 g",
-      "bg": "#e4a910",
-      "description": "Completely devoid of fatty acid structures or lipophilic lipid fractions."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0 g",
-      "bg": "#15837c",
-      "description": "Contains no mono-, oligo-, or polysaccharide components."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0 g",
-      "bg": "#f5722c",
-      "description": "Devoid of peptide bonds, amino acid sequences, or organic structural proteins."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 30,
-      "name": "Sodium",
-      "slug": "sodium",
-      "amount": "38758 mg / 1685% DV",
-      "bg": "#15837c",
-      "description": "The dominant extracellular mineral cation responsible for homeostatic fluid volume maintenance and the propagation of action potentials."
-    },
-    {
-      "id": 133,
-      "name": "Chloride",
-      "slug": "chloride",
-      "amount": "59798 mg / 2599% DV",
-      "bg": "#e4a910",
-      "description": "The main extracellular inorganic anion essential for maintaining electrical neutrality and generating gastric hydrochloric acid."
-    },
-    {
-      "id": 39,
-      "name": "Iodine (Fortified)",
-      "slug": "iodine",
-      "amount": "2500 mcg / 1666% DV",
-      "bg": "#66ab63",
-      "description": "An essential trace halogen required for the cellular synthesis of thyroid hormones thyroxine and triiodothyronine."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Extracellular Fluid and Osmotic Pressure Regulation:</b> Free sodium ions actively maintain the homeostatic volume of extracellular fluid compartments via the sodium-potassium pump, regulating blood volume and preventing intracellular dehydration.",
-    "<b>Action Potential Generation and Neuromuscular Transduction:</b> The rapid influx of extracellular sodium ions through voltage-gated channels depolarizes cellular membranes, initiating nerve impulse transmission and muscle fiber contraction cycles.",
-    "<b>Gastric Hydrochloric Acid Production and Digestion:</b> Chloride anions are actively extracted by parietal cells of the gastric mucosa to synthesize hydrochloric acid, maintaining optimal luminal acidity for pepsin activation and protein denaturation.",
-    "<b>Sodium-Dependent Nutrient Cotransport Activation:</b> The extracellular electrochemical sodium gradient drives secondary active transport, enabling the specific intestinal absorption of glucose via SGLT1 and various amino acids."
-  ],
-  "precautionsIntro": "Due to the profound impact of sodium chloride on vascular hemodynamics and renal filtration pressure, its intake requires strict clinical monitoring:",
-  "precautions": [
-    "<b>Endothelial Shear Stress and Arterial Hypertension:</b> Chronic excess sodium expands extracellular fluid volume and increases peripheral vascular resistance, inducing arterial wall remodeling and raising blood pressure in sodium-sensitive individuals.",
-    "<b>Renal Glomerular Hyperfiltration and Hypercalciuria:</b> Elevated circulating sodium loads raise hydrostatic pressure within renal glomeruli, accelerating long-term filtration decline while simultaneously increasing urinary calcium excretion.",
-    "<b>Intercellular Fluid Accumulation and Peripheral Edema:</b> Excessive interstitial sodium retention shifts the osmotic gradient, drawing water out of capillaries into surrounding tissues and presenting as localized or systemic tissue edema."
-  ]
+"slug": "salt-table",
+"name": "Salt, table",
+"category": "Spices and Herbs",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "0 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "24 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "1 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "38758 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "8 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.33 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.1 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.03 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.1 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.1 mcg"
+},
+{
+"id": "fluoride",
+"name": "Fluoride",
+"slug": "fluoride",
+"amount": "2 mcg"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "0 mg"
+}
+]
 }

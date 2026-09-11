@@ -1,124 +1,251 @@
 {
-  "slug": "mutton",
-  "name": "Mutton / Lamb",
-  "category": "Meat and Eggs",
-  "image": "/productinfo/mutton.png",
-  "imageAlt": "fresh raw lean mutton loin cutlet on a dark slate background",
-  "description": "Mutton and lamb represent highly bioavailable, nutrient-dense red meat derived from Ovis aries. Globally recognized for its robust, distinct flavor profile driven by specific branched-chain fatty acids, it serves as an exceptional structural protein foundation. It is uniquely rich in foundational standard minerals, hematinic elements, and active metabolic cofactors that optimize muscular development and neurological longevity.",
-  "macroTitle": "Macro Nutrients (per 100g, lean choice cut)",
-  "macroIntro": "Lean mutton presents a premium, zero-carbohydrate, protein-dominant macronutrient profile, housing high-quality complete amino acids along with structured energy-dense animal lipids.",
-  "microIntro": "Mutton possesses an elite, highly bioavailable micronutrient matrix, yielding massive thresholds of heme iron, intracellular zinc, and cellular energy-driving B-complex vitamins.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~224 kcal",
-      "bg": "#15837c",
-      "description": "An excellent metabolic energy payload distributed symmetrically across dense complete proteins and structural saturated and monounsaturated lipids."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "25.6 grams",
-      "bg": "#f5722c",
-      "description": "A top-tier source of complete protein containing all nine essential amino acids in optimal ratios for muscle protein synthesis and tissue remodeling paths."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "13.5 grams",
-      "bg": "#e4a910",
-      "description": "Composed of oleic, stearic, and palmitic acids, alongside beneficial conjugated linoleic acid (CLA), acting as a clean substrate for cellular walls."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.0 grams",
-      "bg": "#1a96cd",
-      "description": "Contains absolutely zero carbohydrates or plant fiber fibers, ensuring a non-existent glycemic index impact on plasma glucose dynamics."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "vitamin-b12",
-      "slug": "vitamin-b12",
-      "name": "Vitamin B12 (Cobalamin)",
-      "amount": "2.6 mcg / 108% DV",
-      "bg": "#15837c",
-      "description": "An essential cobalt-centered cofactor required for myelin sheath maintenance, neural signaling propagation, and erythropoiesis cascades."
-    },
-    {
-      "id": "zinc",
-      "slug": "zinc",
-      "name": "Zinc",
-      "amount": "4.8 mg / 44% DV",
-      "bg": "#f5722c",
-      "description": "An exceptionally bioavailable intracellular trace mineral that acts as a structural anchor for DNA synthesis, testosterone production, and immune cascades."
-    },
-    {
-      "id": "heme-iron",
-      "slug": "heme-iron",
-      "name": "Heme Iron",
-      "amount": "1.9 mg / 11% DV",
-      "bg": "#66ab63",
-      "description": "An organic form of iron possessing high bioavailability paths, avoiding competitive absorption blockers to maximize red blood cell hemoglobin saturation."
-    },
-    {
-      "id": "creatine",
-      "slug": "creatine",
-      "name": "Creatine & Carnosine",
-      "amount": "Bioactive Matrix",
-      "bg": "#1a96cd",
-      "description": "Functional nitrogenous organic compounds that accelerate rapid mitochondrial ATP regeneration and act as skeletal muscle intracellular pH buffers."
-    },
-    {
-      "id": "selenium",
-      "slug": "selenium",
-      "name": "Selenium",
-      "amount": "22.0 mcg / 40% DV",
-      "bg": "#e4a910",
-      "description": "A primary component of selenoproteins, critical for driving iodothyronine deiodinase enzymes during active thyroid hormone configuration loops."
-    },
-    {
-      "id": "niacin",
-      "slug": "niacin",
-      "name": "Niacin (Vitamin B3)",
-      "amount": "6.5 mg / 40% DV",
-      "bg": "#8c6bb1",
-      "description": "A pivotal coenzyme in NAD/NADP pathways, essential for cellular energy metabolism, DNA repair, and systemic lipid profile optimization."
-    },
-    {
-      "id": "vitamin-b6",
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6 (Pyridoxine)",
-      "amount": "0.2 mg / 12% DV",
-      "bg": "#d81b60",
-      "description": "A vital facilitator for protein catabolism and amino acid processing, directly supporting neurological transmitter synthesis and cognitive health."
-    },
-    {
-      "id": "phosphorus",
-      "slug": "phosphorus",
-      "name": "Phosphorus",
-      "amount": "200 mg / 16% DV",
-      "bg": "#9e9e9e",
-      "description": "A cornerstone mineral for skeletal structural integrity, intracellular energy transport via ATP, and efficient acid-base homeostasis."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Superior Skeletal Muscle Synthesis:</b> Housing a complete **essential amino acid** array along with natural **creatine**, it accelerates nitrogen retention paths and preserves lean muscle mass metrics.",
-    "<b>Highly Efficient Hematinic Support:</b> The direct presentation of organic **heme iron** coupled with high levels of **vitamin B12** optimizes red blood cell maturation, effectively resolving anemic baselines.",
-    "<b>Immune Cascade and T-Cell Reinforcement:</b> Exceptional, highly absorbable **zinc** profiles drive cellular replication loops, supporting optimal immune system defense paths.",
-    "<b>Thyroid and Metabolic Regulation:</b> Sizable concentrations of organic **selenium** directly fuel thyroid hormone conversion, preserving a robust systemic basal metabolic rate.",
-    "<b>Conjugated Linoleic Acid Anti-Inflammatory Vectors:</b> Natural levels of CLA present in pasture-raised mutton show positive correlations with localized anti-inflammatory modulation and favorable body composition pathways."
-  ],
-  "precautionsIntro": "Purine Nucleotide Concentrations, Saturated Lipid Boundaries, and Myoglobin Thermal Modifications: Calculated preparation and portioning maximize long-term cardiovascular parameters.",
-  "precautions": [
-    "<b>Hyperuricemia and Gout Vulnerabilities:</b> Mutton houses noticeability elevated concentrations of natural **purines**. Metabolic breakdown yields uric acid, which can trigger painful crystal aggregation inside joint spaces if clear clearing limits are exceeded.",
-    "<b>Saturated Lipid Accumulation Profiles:</b> Certain marbling selections possess highly concentrated saturated fat matrices. Individuals navigating established atherogenic profiles, elevated LDL-C, or coronary complications must select lean cuts to manage vascular markers.",
-    "<b>Advanced Glycation End-Product (AGE) Hazards:</b> Subjecting mutton to extreme thermal processing methods like aggressive charring, open flame roasting, or deep frying creates carcinogenic heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs)."
-  ]
+"slug": "mutton",
+"name": "Mutton",
+"category": "Meat and Eggs",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "234 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "33.43 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0.08 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "11.09 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micronutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.8 mg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.3 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "6.52 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.897 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.377 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "4.44 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "10 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "272 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "31 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "135 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "409 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "4.76 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "5.93 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.062 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.033 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "38 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "101 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.975 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "1.588 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "2.764 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "2.999 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.918 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "1.399 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "1.403 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.257 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "1.678 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "2.178 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "1.651 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "1.162 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.172 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.396 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "4.149 g"
+}
+]
 }

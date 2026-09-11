@@ -1,108 +1,173 @@
 {
-  "slug": "black-beans",
-  "name": "Black Beans (Black Turtle Beans)",
-  "category": "Vegetables & Greens",
-  "image": "/productinfo/black-beans.png",
-  "imageAlt": "black beans",
-  "description": "Black beans are an elite, nutrient-dense legume whole food matrix. Characterized by their deep, dark seed coats, they house an extraordinary concentration of polyphenolic *anthocyanins*, highly structured complex carbohydrates, and potent prebiotic fibers, making them a premier functional asset for intensive antioxidant defense, glycemic control, and colon microbiome optimization.",
-  "macroTitle": "Macro Nutrients (per 100g, boiled without salt)",
-  "macroIntro": "The macronutrient structure of cooked black beans delivers an exceptional distribution of clean, slow-fusing polysaccharides and complete plant-based amino acids engineered for sustained metabolic energy and tissue repair.",
-  "microIntro": "Black beans contain a powerful crystalline matrix of essential water-soluble B-vitamins, neurological minerals, and heavy trace elements that stimulate vital cellular replication and cardiovascular defense.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "132 kcal / 7% DV",
-      "bg": "#15837c",
-      "description": "Provides efficient, moderate biological energy paired with an exceptionally high satiety matrix, ideal for maintaining steady metabolic homeostasis."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "8.9 g / 18% DV",
-      "bg": "#f5722c",
-      "description": "A powerful source of plant protein, rich in lysine, essential for supporting lean muscle recovery, enzyme synthesis, and structural cellular remodeling."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.5 g / 1% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, keeping overall dietary lipid parameters low while promoting rapid gastric clearance into the lower digestive tract."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "23.7 g / 9% DV",
-      "bg": "#15837c",
-      "description": "Composed exclusively of slow-burning amylose starches and indigestible fiber matrices that break down gradually, preventing aggressive postprandial insulin shifts."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 25,
-      "name": "Vitamin B9 (Folate)",
-      "slug": "vitamin-b9",
-      "amount": "149 mcg / 37% DV",
-      "bg": "#15837c",
-      "description": "A monumental concentration of natural folate, serving as a mandatory coenzyme for cell division, deep DNA replication, and continuous tissue regeneration cycles."
-    },
-    {
-      "id": 98,
-      "name": "Anthocyanins & Flavonoids",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#f5722c",
-      "description": "Potent polyphenolic antioxidants concentrated entirely within the dark seed coat, acting as aggressive free-radical scavengers throughout the vascular network."
-    },
-    {
-      "id": 17,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "8.7 g / 31% DV",
-      "bg": "#66ab63",
-      "description": "An astronomical fiber profile containing dense soluble and insoluble structures that maximize metabolic satiety and regulate intestinal transit velocity."
-    },
-    {
-      "id": 32,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "70 mg / 17% DV",
-      "bg": "#e4a910",
-      "description": "A critical macromineral that actively coordinates with systemic electrolytes, modulating neuromuscular relaxation and optimizing cellular ATP configurations."
-    },
-    {
-      "id": 44,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.4 mg / 17% DV",
-      "bg": "#1a96cd",
-      "description": "An essential trace mineral catalyst, critical for driving mitochondrial superoxide dismutase cascades and strengthening the structural bone matrix."
-    },
-    {
-      "id": 42,
-      "name": "Iron (Non-Heme)",
-      "slug": "iron",
-      "amount": "2.1 mg / 12% DV",
-      "bg": "#1a96cd",
-      "description": "A valuable botanical reservoir of non-heme iron, working to support continuous red blood cell assembly and optimize tissue oxygen transport paths."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Elite Postprandial Glucose Regulation:</b> The complex combination of high-density plant proteins and heavy dietary fiber significantly delays starch digestion, keeping the blood glucose and insulin response curves exceptionally flat.",
-    "<b>Advanced Vascular Antioxidant Protection:</b> Massive concentrations of dark *anthocyanins* cross into the bloodstream, inhibiting lipid peroxidation and actively shielding delicate endothelial walls from structural oxidative decay.",
-    "<b>Deep Colon Microbiome Optimization:</b> Highly structured prebiotic soluble fibers pass intact into the large intestine, where beneficial flora ferment them into short-chain fatty acids like butyrate to actively repair the intestinal mucosa.",
-    "<b>DNA Replication & Cardiovascular Support:</b> High natural distributions of folate work directly with systemic minerals, regulating circulating homocysteine levels and preserving long-term arterial wall elasticity."
-  ],
-  "precautionsIntro": "While black beans function as an elite botanical powerhouse, their dense structural fibers and native defensive chemistry demand exact management parameters.",
-  "precautions": [
-    "<b>Gastrointestinal Oligosaccharide Fermentation:</b> Black beans contain high concentrations of complex sugars like raffinose and stachyose. In sensitive digestive tracts, intensive fermentation in the lower bowel can trigger sharp bloating or gas. Extended soaking (12–24 hours) and thorough rinsing before boiling heavily mitigate this response.",
-    "<b>Anti-Nutrient Chelation (Phytic Acid):</b> Raw or undercooked black beans contain significant stores of phytic acid, which can bind to minerals like iron and zinc in the gut. Thorough high-temperature boiling completely deactivates these chemical barriers to optimize mineral bioavailability.",
-    "<b>Non-Heme Iron Absorption Blocks:</b> Because the high iron density is strictly non-heme, its absorption can easily be suppressed by native plant phytates. Pairing black beans with fresh citrus elements or other rich sources of Vitamin C dramatically unlocks intestinal absorption channels.",
-    "<b>Renal Potassium & Phosphorus Monitoring:</b> Due to the heavy density of intracellular minerals, individuals navigating advanced chronic kidney disease (CKD) must carefully track portion sizing to prevent overloading renal filtration pathways."
-  ]
+"slug": "black-beans",
+"name": "Black Beans",
+"category": "Legumes and Legume Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "166.52 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "7.5716 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "20.24 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "6.4492 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "7.452 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "2.04 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "9.6 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.22 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.05 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.45 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "132 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "25 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "130 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "65 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "199.64 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "303.6 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "1.8032 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "1.04 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.19 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "1.1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "30.3 mg"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+}
+]
 }

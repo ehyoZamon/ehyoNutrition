@@ -1,108 +1,191 @@
 {
-  "slug": "wheat-germ-oil",
-  "name": "Wheat Germ Oil",
-  "category": "Fats & Oils",
-  "image": "/productinfo/wheat-germ-oil.png",
-  "imageAlt": "wheat germ oil pouring",
-  "description": "Wheat germ oil is an elite, unrefined botanical lipid whole food matrix. Extracted from the nutrient-dense inner core of the wheat kernel, it commands the highest concentration of natural Vitamin E (*alpha-tocopherol*) in the entire plant kingdom, alongside a specialized distribution of long-chain fatty alcohols like *policosanol*, serving as an unparalleled dietary asset for deep cellular membrane protection, vascular defense, and mitochondrial optimization.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient framework of unrefined wheat germ oil delivers an ultra-dense, pure lipid profile heavily concentrated with essential polyunsaturated fatty acids engineered for cellular membrane structural preservation and endocrine raw material production.",
-  "microIntro": "Wheat germ oil houses a spectacular, hyper-concentrated pool of lipophilic antioxidants and bioactive plant sterols designed to neutralize systemic lipid peroxidation loops and preserve vascular tone.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "884 kcal / 44% DV",
-      "bg": "#15837c",
-      "description": "An exceptionally dense biological energy source composed entirely of pure structural lipids, providing high-caliber fat fuel for cellular respiration."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#f5722c",
-      "description": "Completely free of proteins or amino acid fractions, isolating its therapeutic utility entirely within the body's lipid-soluble pathways."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "100.0 g / 128% DV",
-      "bg": "#e4a910",
-      "description": "A premier lipid matrix dominated by essential polyunsaturated linoleic acid (Omega-6) and monounsaturated oleic acid to keep cell membranes fluid."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Contains absolute zero carbohydrates, starches, or sugars, ensuring zero impact on postprandial glucose fluctuations or insulin shifts."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 25,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "149.4 mg / 996% DV",
-      "bg": "#15837c",
-      "description": "An astronomical mega-dose of natural d-alpha-tocopherol per 100g, yielding the most potent fat-soluble free-radical scavenger available to halt oxidation."
-    },
-    {
-      "id": 91,
-      "name": "Octacosanol & Policosanols",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#f5722c",
-      "description": "Unique, very long-chain primary aliphatic alcohols that optimize cellular oxygen utilization and assist in physical stamina pathways."
-    },
-    {
-      "id": 24,
-      "name": "Vitamin K",
-      "slug": "vitamin-k",
-      "amount": "24.7 mcg / 21% DV",
-      "bg": "#66ab63",
-      "description": "A valuable distribution of fat-soluble vitamin K that supports the liver's synthesis of coagulation factors and structural tissue maintenance."
-    },
-    {
-      "id": 61,
-      "name": "Omega-6 (Linoleic Acid)",
-      "slug": "epa-dha",
-      "amount": "54.8 g",
-      "bg": "#e4a910",
-      "description": "An abundant pool of essential polyunsaturated fatty acids, crucial for cellular barrier architecture and eicosanoid balancing."
-    },
-    {
-      "id": 63,
-      "name": "Omega-9 (Oleic Acid)",
-      "slug": "epa-dha",
-      "amount": "16.6 g",
-      "bg": "#1a96cd",
-      "description": "A robust concentration of heart-healthy monounsaturated fatty acids that safeguard arterial lining flexibility and systemic lipid transport."
-    },
-    {
-      "id": 98,
-      "name": "Plant Phytosterols",
-      "slug": "antioxidants",
-      "amount": "553 mg",
-      "bg": "#1a96cd",
-      "description": "Bioactive plant sterols that structurally mimic cholesterol in the gut, competing for absorption to modulate circulating lipid levels."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Monumental Lipid Membrane Shielding:</b> Unparalleled natural reserves of Vitamin E halt the chain reaction of lipid peroxidation, defending delicate cellular double-bonds, neurological myelin sheaths, and erythrocytes from oxidative breakdown.",
-    "<b>Advanced Endothelial & Vascular Defense:</b> The direct coordination between mega-dose Alpha-Tocopherol and natural *phytosterols* blocks the oxidation of circulating LDL particles, preserving arterial elasticity and preventing plaque accumulation loops.",
-    "<b>Cellular Oxygen Efficiency Optimization:</b> Highly active baseline stores of *octacosanol* improve the body's internal oxygen utilization efficiency during intense exertion, helping to upgrade muscular endurance and glycogen storage profiles.",
-    "<b>Dermal Architecture & Matrix Repair:</b> Delivering an exceptional concentration of lipophilic antioxidants straight to skin tissues, it drives rapid cellular remodeling, stabilizes elastin frameworks, and accelerates dermal barrier recovery."
-  ],
-  "precautionsIntro": "While unrefined wheat germ oil operates as a premier therapeutic asset, its delicate lipid bonds and specific botanical origins demand exact processing and tracking metrics.",
-  "precautions": [
-    "<b>Extreme Sensitivity to Thermal Oxidation:</b> Due to the high density of delicate polyunsaturated fatty acids, wheat germ oil has a critically low smoke point and is completely ruined by high-temperature frying or baking, which rapidly mutates its clean lipids into toxic peroxides. Use exclusively cold as a finishing oil.",
-    "<b>Rapid Atmospheric Degradation (Rancidity):</b> Exposure to air, light, or ambient heat accelerates internal oxidative degradation, quickly turning the oil rancid and depleting its Vitamin E pool. Storing it in tightly sealed, dark amber glass bottles entirely within a refrigerated environment is mandatory.",
-    "<b>Gluten-Protein Cross-Contamination Vectors:</b> While pure, highly refined oils consist strictly of isolated lipids, unrefined cold-pressed wheat germ oil can carry microscopic residual trace fractions of gluten proteins. Individuals navigating a verified clinical history of Celiac disease or extreme wheat hypersensitivity must enforce strict caution.",
-    "<b>Concentrated Omega-6 Sizing Balance:</b> Because wheat germ oil possesses a heavily skewed Omega-6 to Omega-3 ratio, relying on massive unmonitored daily doses without balancing overall dietary intake with anti-inflammatory marine Omega-3 fatty acids can alter systemic eicosanoid harmony."
-  ]
+"slug": "wheat-germ-oil",
+"name": "Wheat germ oil",
+"category": "Cereal Grains and Pasta",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "884 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "100 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "149 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "24.7 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "0 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "0 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "0.2 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "7.5 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "53.3 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "15.1 g"
+}
+]
 }

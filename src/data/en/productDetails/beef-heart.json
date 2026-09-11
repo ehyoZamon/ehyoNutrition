@@ -1,107 +1,245 @@
 {
-  "slug": "beef-heart",
-  "name": "Beef Heart",
-  "category": "Meat & Offal",
-  "image": "/productinfo/beef-heart.png",
-  "imageAlt": "beef heart meat",
-  "description": "Beef heart (Cor bovis) is a highly specialized, dense myogenic organ characterized by an intense metabolic profile. As a constantly active contractile tissue, it constitutes a unique biological matrix enriched with endogenous Coenzyme Q10 (ubiquinone), collagenous protein scaffolds, and a dense repository of hematopoietic cofactors. This organ serves as an elite bioenergetic substrate designed to optimize mitochondrial respiratory efficiency and sustain cardiovascular structural integrity.",
-  "macroTitle": "Macro Nutrients (per 100g, trimmed raw muscle)",
-  "macroIntro": "A highly efficient, protein-centric metabolic blueprint, delivering high-density anabolic substrates without glycemic disturbance.",
-  "microIntro": "A magnificent repository of bioavailable cardiometabolic enzymes and neuro-regulatory cofactors that reinforce foundational energy production.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "112 kcal / 6% DV",
-      "bg": "#15837c",
-      "description": "Energy yield derived from the catabolism of structural proteins and high-function monounsaturated fatty acids."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "17.7 g / 35% DV",
-      "bg": "#f5722c",
-      "description": "High-quality proteomic pool rich in collagen-precursor amino acids (glycine, proline), vital for connective tissue homeostasis."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "3.9 g / 5% DV",
-      "bg": "#e4a910",
-      "description": "Optimized, lean lipid matrix primarily composed of functional monounsaturated and polyunsaturated fatty acid fractions."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Zero glycemic substrate, ensuring total insulinemic stability and metabolic equilibrium."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 25,
-      "name": "Vitamin B12",
-      "slug": "vitamin-b12",
-      "amount": "8.5 mcg / 354% DV",
-      "bg": "#1a96cd",
-      "description": "Monumental coenzyme yield essential for erythropoiesis, myelin sheath stability, and genomic integrity."
-    },
-    {
-      "id": 139,
-      "name": "Coenzyme Q10 (CoQ10)",
-      "slug": "coenzyme-q10",
-      "amount": "3.4 mg",
-      "bg": "#66ab63",
-      "description": "Premier mitochondrial cofactor mediating ATP generation and protecting myocardial lipids from oxidative damage."
-    },
-    {
-      "id": 32,
-      "name": "Iron (Heme)",
-      "slug": "iron",
-      "amount": "4.3 mg / 24% DV",
-      "bg": "#e4a910",
-      "description": "Highly bioavailable heme-iron catalyst optimizing hemoglobin synthesis and systemic oxygen transport."
-    },
-    {
-      "id": 38,
-      "name": "Phosphorus",
-      "slug": "phosphorus",
-      "amount": "212 mg / 21% DV",
-      "bg": "#1a96cd",
-      "description": "Structural mineral working in synergy with calcium for mitochondrial phosphate-transfer energy mechanics."
-    },
-    {
-      "id": 39,
-      "name": "Zinc",
-      "slug": "zinc",
-      "amount": "1.7 mg / 15% DV",
-      "bg": "#15837c",
-      "description": "Catalytic trace mineral required for protein translation accuracy, immunological defense, and endocrine regulation."
-    },
-    {
-      "id": 26,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "vitamin-b2",
-      "amount": "0.9 mg / 69% DV",
-      "bg": "#f5722c",
-      "description": "Essential coenzyme for mitochondrial lipid and carbohydrate oxidative pathways, driving ATP synthesis."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Mitochondrial ATP Optimization:</b> Synergistic action of CoQ10 and Riboflavin streamlines cellular respiration, enhancing physical stamina and reducing metabolic fatigue.",
-    "<b>Hematological and Oxygen Efficiency:</b> High-density heme iron and B12 facilitate rapid erythropoiesis, correcting indicators of systemic tissue hypoxia.",
-    "<b>Cardiovascular Lipid Protection:</b> Endogenous ubiquinone (CoQ10) provides critical defense against free-radical peroxidation of myocardial vascular lipid structures.",
-    "<b>Connective Tissue Reinforcement:</b> Collagen-precursor amino acids assist in the structural stabilization of vascular boundaries and articular connective architectures."
-  ],
-  "precautionsIntro": "Due to dense myogenic microstructure and high biological activity, specific preparatory protocols are advised:",
-  "precautions": [
-    "<b>Lipid Management:</b> External saturated fat deposits must be mechanically excised to ensure the metabolic efficiency of the lean muscle matrix.",
-    "<b>Purine Content:</b> As a high-density muscular tissue, purine concentrations necessitate moderate intake for patients with hyperuricemia or gout susceptibility.",
-    "<b>Proteolytic Preparation:</b> The dense collagenous structure requires precise thermal processing (slow-braising) or mechanical thinning to facilitate optimal proteolysis and gastrointestinal digestion."
-  ]
+"slug": "beef-heart",
+"name": "Beef heart",
+"category": "Beef Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "112 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "17.72 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0.14 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "3.94 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micronutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "2 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.22 mg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.24 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.91 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "7.53 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "1.79 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.28 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "3 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "8.55 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "7 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "212 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "21 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "98 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "287 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "4.31 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "1.70 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.40 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.04 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "21.8 mcg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.58 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.77 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "1.38 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "1.44 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.43 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.67 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.75 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.20 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.84 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "1.12 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "1.06 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.57 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.02 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.40 g"
+}
+]
 }

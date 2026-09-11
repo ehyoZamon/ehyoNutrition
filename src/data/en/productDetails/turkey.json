@@ -1,107 +1,287 @@
 {
-  "slug": "turkey",
-  "name": "Turkey",
-  "category": "Meat & Poultry",
-  "image": "/productinfo/turkey.png",
-  "imageAlt": "turkey",
-  "description": "Turkey (Meleagris gallopavo) represents an elite animal-derived protein source, characterized by a highly efficient amino acid profile and a negligible lipid fraction within the muscular tissue. Structurally, the myofibrillar protein matrix consists of complete peptide chains rich in branched-chain amino acids, facilitating rapid systemic protein turnover and nitrogen retention. Biologically, its composition is notable for a superior ratio of essential minerals and B-complex vitamins, which act as critical metabolic cofactors. As a dense, fat-free protein hydro-matrix, it serves as a foundational substrate for structural tissue regeneration, hormonal synthesis, and thermogenic energy homeostasis.",
-  "macroTitle": "Macro Nutrients (per 100g, skinless breast cooked)",
-  "macroIntro": "The macronutrient architecture features a hyper-concentrated protein density with minimal interstitial lipid storage, providing a pure amino acid substrate without glycemic impact.",
-  "microIntro": "A specialized nutritional profile rich in thyroid-supporting trace elements, coenzymes for ATP production, and precursor molecules for neurological transmitters.",
+  "slug": "turkey-whole-raw",
+  "name": "Turkey, whole raw",
+  "category": "Poultry Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "135 kcal / 7% DV",
-      "bg": "#15837c",
-      "description": "High-efficiency thermodynamic energy derived primarily from the oxidation of myofibrillar proteins during gluconeogenic and metabolic processes."
+      "amount": "124 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "30.1 g / 60% DV",
-      "bg": "#f5722c",
-      "description": "High-biological-value protein matrix containing the complete spectrum of essential amino acids required for skeletal muscle hyperthrophy and enzymatic repair."
+      "amount": "18.18 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.7 g / 1% DV",
-      "bg": "#e4a910",
-      "description": "Minimal lipophilic fraction consisting primarily of structural phospholipids, with negligible saturated triacylglycerols."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Entirely absent carbohydrate fraction, ensuring zero insulin-index response and maintaining stable postprandial glucose levels."
+      "amount": "0.07 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "5.09 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 37,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "31.0 mcg / 56% DV",
-      "bg": "#1a96cd",
-      "description": "An essential trace metal cofactor for glutathione peroxidases, critical for thyroid hormone deiodination and neutralizing intracellular oxidative stress."
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0 mg"
     },
     {
-      "id": 21,
-      "name": "Vitamin B3 (Niacin)",
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.8 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "3939 mcg RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.25 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.149 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "1.393 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
       "slug": "vitamin-b3",
-      "amount": "9.8 mg / 61% DV",
-      "bg": "#f5722c",
-      "description": "A vital NAD and NADP coenzyme precursor that drives the conversion of macronutrients into functional ATP for cellular energy systems."
+      "amount": "8.694 mg"
     },
     {
-      "id": 20,
-      "name": "Vitamin B6 (Pyridoxine)",
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "3.889 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": "0.8 mg / 47% DV",
-      "bg": "#e4a910",
-      "description": "A requisite coenzyme for amino acid transamination and the synthesis of core neurotransmitters, including serotonin and gamma-aminobutyric acid."
+      "amount": "0.654 mg"
     },
     {
-      "id": 36,
-      "name": "Zinc",
-      "slug": "zinc",
-      "amount": "2.1 mg / 19% DV",
-      "bg": "#15837c",
-      "description": "A critical divalent cation essential for immune system transcription factor activation and the stabilization of zinc-finger DNA binding proteins."
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "331 mcg DFE"
     },
     {
-      "id": 38,
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "13.06 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.399 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.52 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.313 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.381 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.462 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.674 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.662 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.199 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.644 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.042 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "18 mg"
+    },
+    {
+      "id": "phosphorus",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": "220 mg / 22% DV",
-      "bg": "#1a96cd",
-      "description": "A fundamental element of the hydroxyapatite bone lattice and the primary component of all phosphorylation-dependent cellular energy transfers."
+      "amount": "223 mg"
     },
     {
-      "id": 138,
-      "name": "L-Tryptophan",
-      "slug": "tryptophan",
-      "amount": "0.35 g / High Density",
-      "bg": "#66ab63",
-      "description": "An essential aromatic amino acid that crosses the blood-brain barrier to serve as the direct biosynthetic precursor for serotonin and melatonin."
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "22 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "136 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "198 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "5.92 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "3.23 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.577 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.19 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "49.3 mcg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "1.033 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.919 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "1.069 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.988 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.579 g"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "160 mg"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "2.7 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "0 mcg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Myofibrillar Protein Synthesis and Satiety:</b> High-density lean protein intake triggers prolonged satiety signaling, suppresses ghrelin, and provides the nitrogenous precursors necessary for skeletal muscle maintenance.",
-    "<b>Neurotransmitter Biosynthesis and Circadian Regulation:</b> Systemic uptake of L-tryptophan facilitates the central nervous system synthesis of serotonin, mitigating stress-induced hypercortisolemia and promoting restorative sleep-wake architecture.",
-    "<b>Thyroid Hormone Activation and Protection:</b> Selenium-dependent enzymes actively prevent oxidative cellular decay within the thyroid gland, facilitating the peripheral conversion of T4 into the active T3 hormone.",
-    "<b>Thermogenic Metabolic Efficiency:</b> Protein-induced thermogenesis promotes an increased energy expenditure postprandially, assisting in adipose tissue management while maintaining lean body mass."
-  ],
-  "precautionsIntro": "While pure muscle tissue is highly bioavailable, commercial processing techniques introduce clinical contraindications:",
-  "precautions": [
-    "<b>Hyperuricemia and Purine Load:</b> Individuals with metabolic gout must account for the endogenous purine degradation to uric acid, which can exacerbate crystal deposition in synovial joints.",
-    "<b>Industrial Processing Additives:</b> Commercial deli products and pre-brined whole birds often incorporate hypersaline solutions, sodium nitrates, and phosphate stabilizers, which negatively affect vascular endothelial health.",
-    "<b>Microbial Pathogenesis (Zoonotic Risk):</b> Improper thermal processing can leave pathogenic Campylobacter or Salmonella colonies within the deep muscle tissue; strict adherence to 74 degrees Celsius internal temperature is essential."
   ]
 }

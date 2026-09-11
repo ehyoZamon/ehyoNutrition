@@ -1,124 +1,191 @@
 {
-  "slug": "watercress",
-  "name": "Watercress",
-  "category": "Fruits and Vegetables",
-  "image": "/productinfo/watercress.png",
-  "imageAlt": "fresh raw green watercress sprigs with drops of water in a rustic bowl",
-  "description": "Watercress is an elite, hyper-nutrient-dense aquatic cruciferous vegetable derived from Nasturtium officinale. Renowned globally for sitting at the absolute apex of nutrient density scales, it features an extraordinary concentration of organosulfur compounds, specifically glucosinolates. It delivers a sharp, peppery flavor profile driven by isothiocyanates, serving as a powerful biological catalyst for phase II hepatic detoxification and cellular defense networks.",
-  "macroTitle": "Macro Nutrients (per 100g, fresh raw greens)",
-  "macroIntro": "Watercress possesses a virtually non-existent macronutrient footprint, offering an ultra-low caloric density that acts primarily as a structural vehicle for dense micronutrient delivery.",
-  "microIntro": "Watercress features a spectacular, highly bioavailable micronutrient matrix, yielding massive concentrations of bone-stabilizing Vitamin K1, antioxidant carotenoids, and protective cellular compounds.",
+  "slug": "watercress-raw",
+  "name": "Watercress, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "~11 kcal",
-      "bg": "#15837c",
-      "description": "An exceptionally low caloric load, rendering it one of the most nutrient-dense botanical substances per calorie on Earth."
+      "amount": "11 kcal"
     },
     {
       "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "2.3 grams",
-      "bg": "#f5722c",
-      "description": "Surprisingly elevated complete amino acid fractions for a structural water-based leafy green, supporting trace cellular maintenance pathways."
+      "amount": "2.3 g"
     },
     {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 grams",
-      "bg": "#e4a910",
-      "description": "A completely negligible lipid profile, perfectly accommodating strict fat-restricted dietary protocols and cardiovascular management systems."
-    },
-    {
-      "id": "carbs",
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "1.3 grams",
-      "bg": "#1a96cd",
-      "description": "Extremely low net carbs balanced by structural plant fiber (~0.5g), ensuring absolutely zero impact on peripheral glycemic dynamics."
+      "amount": "1.29 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.1 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0.5 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": "vitamin-k",
-      "slug": "vitamin-k",
-      "name": "Vitamin K1 (Phylloquinone)",
-      "amount": "250 mcg / 208% DV",
-      "bg": "#15837c",
-      "description": "An astronomical threshold of phylloquinone, required for activating hepatic blood-clotting factors and driving bone osteocalcin mineralization loops."
-    },
-    {
-      "id": "peitc",
-      "slug": "peitc",
-      "name": "Phenethyl Isothiocyanate (PEITC)",
-      "amount": "High Bioactive Load",
-      "bg": "#f5722c",
-      "description": "A unique, highly potent organosulfur breakdown compound that directly triggers cellular phase II detox enzymes and protects DNA matrices from oxidative damage."
-    },
-    {
       "id": "vitamin-c",
-      "slug": "vitamin-c",
       "name": "Vitamin C",
-      "amount": "43 mg / 48% DV",
-      "bg": "#66ab63",
-      "description": "A robust concentration of organic ascorbic acid that accelerates collagen synthesis, neutralizes free radicals, and strengthens immune responses."
+      "slug": "vitamin-c",
+      "amount": "43 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
     },
     {
       "id": "vitamin-a",
+      "name": "Vitamin A",
       "slug": "vitamin-a",
-      "name": "Vitamin A (Beta-Carotene)",
-      "amount": "160 mcg RAE / 18% DV",
-      "bg": "#1a96cd",
-      "description": "Abundant pro-vitamin carotenoids that accumulate in the retina to maintain optimal visual acuity and preserve epithelial cell integrity."
+      "amount": "160 mcg RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "1 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "250 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.09 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.12 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.2 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.129 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "9 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
     },
     {
       "id": "calcium",
-      "slug": "calcium",
       "name": "Calcium",
-      "amount": "120 mg / 9% DV",
-      "bg": "#e4a910",
-      "description": "A highly bioavailable botanical calcium fraction that works in synergy with Vitamin K to optimize skeletal infrastructure dynamics."
+      "slug": "calcium",
+      "amount": "120 mg"
     },
     {
-      "id": 33,
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6",
-      "amount": "0.13 mg / 8% DV",
-      "bg": "#f5722c",
-      "description": "Facilitates amino acid metabolism, red blood cell production, and neurotransmitter synthesis."
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "60 mg"
     },
     {
-      "id": 39,
-      "slug": "riboflavin",
-      "name": "Riboflavin (B2)",
-      "amount": "0.12 mg / 9% DV",
-      "bg": "#66ab63",
-      "description": "Crucial for cellular energy production, antioxidant function, and fat metabolism."
-    },
-    {
-      "id": 30,
-      "slug": "magnesium",
+      "id": "magnesium",
       "name": "Magnesium",
-      "amount": "21 mg / 5% DV",
-      "bg": "#1a96cd",
-      "description": "Supports muscle/nerve function, bone integrity, and energy production."
+      "slug": "magnesium",
+      "amount": "21 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "41 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "330 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.2 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.11 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.08 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.9 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "9 mg"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.033 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.007 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.008 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Elite Cellular Detoxification Signaling:</b> Abundant <b>PEITC</b> and glucosinolates actively upregulate phase II liver enzymes, accelerating the neutralisation and clearance of environmental toxins.",
-    "<b>Skeletal Matrix Mineralization:</b> Piercing concentrations of <b>Vitamin K1</b> guide calcium directly into the bone matrix structure, optimizing bone density parameters and preventing vascular calcification.",
-    "<b>Vascular Endothelial Protection:</b> Natural dietary nitrates and active antioxidants reduce arterial stiffness, maximizing nitric oxide paths to support optimal blood pressure bounds.",
-    "<b>Retinal Macular Shielding:</b> Wealthy structural reservoirs of <b>lutein and zeaxanthin</b> filter harmful high-energy blue wavelengths, protecting ocular cells from oxidative degradation.",
-    "<b>Systemic Oxidative Stress Mitigation:</b> The high concentration of <b>Vitamin C</b> works synergistically with cruciferous phenols to clear free radicals and reduce systemic markers of inflammation."
-  ],
-  "precautionsIntro": "High Vitamin K Blood Interaction Potentials, Iodine Uptake Glucosinolate Competitions, and Wild Sourcing Parasitic Hazards: Strategic integration maximizes cellular security.",
-  "precautions": [
-    "<b>Anticoagulant Medication Interferences:</b> Due to the exceptionally high concentration of <b>Vitamin K1</b>, sudden spikes in consumption can mechanically counteract the efficacy of blood thinners like warfarin.",
-    "<b>Thyroid Goitrogenic Interruptions:</b> Like all cruciferous vegetables, raw watercress contains trace compounds that can theoretically compete with iodine uptake.",
-    "<b>Wild Sourcing Pathogen Hazards:</b> Foraging wild watercress from slow-moving water near livestock runs introduces severe risks of Fasciola hepatica (sheep liver fluke) contamination."
   ]
 }

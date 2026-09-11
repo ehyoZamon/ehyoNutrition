@@ -1,75 +1,191 @@
 {
-  "slug": "pomegranate",
-  "name": "Pomegranate",
-  "category": "Fruits",
-  "image": "/productinfo/pomegranate.png",
-  "imageAlt": "fresh ripe pomegranate with arils exposed",
-  "description": "Pomegranate represents an elite, highly active therapeutic botanical matrix. It is globally characterized by its juicy seed envelopes (arils) which contain an unparalleled concentration of high-molecular-weight hydrolyzable tannins, spearheaded by *punicalagins*, alongside complex anthocyanins and unique *punicic acid* within the seed embryo. Operating as a potent biological modifier, these compounds drive robust endothelial nitric oxide synthesis, halt systemic lipid peroxidation cascades, and undergo precise microflora conversion into highly anti-inflammatory, senolytic *urolithins*.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient configuration of fresh pomegranate arils delivers a robust, moisture-rich energy architecture where dense simple sugars are biochemically stabilized by complex non-starch structural fibers.",
-  "microIntro": "Pomegranates hold a unique, highly specialized array of water-soluble enzyme cofactors and high-potency polyphenolic compounds engineered to neutralize severe systemic tissue-level oxidative stress loops.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "83 kcal / 4% DV",
-      "bg": "#15837c",
-      "description": "A moderate, nutrient-dense caloric volume balanced by an abundance of bioactive secondary metabolites, preventing unregulated fat storage."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "1.7 g / 3% DV",
-      "bg": "#f5722c",
-      "description": "Provides clean plant-derived nitrogenous blocks, localized within the seed embryo and membrane matrix fractions."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "1.2 g / 2% DV",
-      "bg": "#e4a910",
-      "description": "Primarily composed of polyunsaturated fatty acids within the hard seed nucleus, notably dominated by the rare, anti-inflammatory conjugated *punicic acid*."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "18.7 g / 7% DV",
-      "bg": "#15837c",
-      "description": "Consists of natural fructose and glucose paired with a 4.0-gram structural dietary fiber framework that modulates the rate of intestinal glucose clearing."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 26,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "10.2 mg / 11% DV",
-      "bg": "#1a96cd",
-      "description": "Acts as an essential water-soluble antioxidant cofactor, working in lockstep with native flavonoids to reinforce vascular collagen synthesis and protect cells from premature aging."
-    },
-    {
-      "id": 93,
-      "name": "Polyphenols (Punicalagins)",
-      "slug": "polyphenols",
-      "amount": "High Concentration",
-      "bg": "#66ab63",
-      "description": "Massive, water-soluble ellagitannin polymers unique to this fruit that demonstrate exceptional free-radical scavenging dynamics and reverse endothelial damage."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Cardiovascular Endothelial Fortification:</b> High-potency *punicalagins* directly upregulate endothelial nitric oxide synthase (eNOS), inducing optimal smooth muscle vasodilation, lowering systemic blood pressure, and arresting atherosclerotic plaque formation.",
-    "<b>Microbiome Urolithin Synthesis:</b> Upon ingestion, gut microbes metabolize pomegranate ellagitannins into *Urolithin A*, a powerful metabolite that enters systemic circulation to drive cellular mitophagy, clearing damaged mitochondria to counter aging.",
-    "<b>Systemic Anti-Inflammatory Cascade:</b> Active botanical compounds downregulate the expression of nuclear factor kappa B (NF-κB) and inhibit cyclooxygenase-2 (COX-2) enzymes, dramatically suppressing systemic inflammatory signaling.",
-    "<b>Lipid Peroxidation Blockade:</b> The dense hydrophilic and lipophilic antioxidant matrix shields circulating LDL particles from oxidative conversion, preserving arterial wall elasticity and preventing macrophage foam-cell accumulation."
-  ],
-  "precautionsIntro": "Due to the potent pharmacological activity of pomegranate's primary secondary metabolites and its high organic acid density, certain consumption parameters must be strictly managed.",
-  "precautions": [
-    "<b>Cytochrome P450 Enzyme Interaction:</b> Pomegranate compounds can act as mild inhibitors of hepatic cytochrome P450 enzymes (specifically CYP3A4 and CYP2C9). This can unsafely amplify or alter the serum levels of blood thinners, statins, and antihypertensive drugs.",
-    "<b>Organic Acid Mucosal Hypersensitivity:</b> The rich concentration of concentrated citric and malic acids can trigger severe localized irritation, epigastric burning, or acid reflux in individuals with erosive gastritis, active peptic ulcers, or GERD.",
-    "<b>Enamel Demineralization Risk:</b> The elevated acidity combined with intense natural pigment arrays can chemically demineralize thin tooth enamel and drive external staining if the teeth are not rinsed with clean water immediately after exposure."
-  ]
+"slug": "pomegranate-raw",
+"name": "Pomegranate",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "83 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.67 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "18.7 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "1.17 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "4 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "10.2 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.6 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "16.4 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.067 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.053 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.293 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.075 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "38 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "10 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "36 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "12 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "3 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "236 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.3 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.35 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.158 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.5 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "7.6 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.079 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.077 g"
+}
+]
 }

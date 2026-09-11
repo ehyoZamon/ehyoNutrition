@@ -1,108 +1,293 @@
 {
-  "slug": "almonds",
-  "name": "Almonds",
-  "category": "Nuts & Seeds",
-  "image": "/productinfo/almonds.png",
-  "imageAlt": "almonds",
-  "description": "Almonds are a premier, nutrient-dense structural whole food. Renowned for their extraordinary concentration of fat-soluble Vitamin E, heart-healthy monounsaturated lipids, and essential macrominerals like magnesium, they function as an exceptional dietary asset for vascular elasticity and cellular defense.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "579 kcal / 29% DV",
-      "bg": "#15837c",
-      "description": "A dense biological energy source, heavily packed with highly stable structural lipids and premium plant proteins for long-lasting metabolic fuel."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "21.2 g / 42% DV",
-      "bg": "#f5722c",
-      "description": "Rich in plant-based essential amino acids, offering the fundamental structural blocks required for tissue regeneration and muscular preservation."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "49.9 g / 64% DV",
-      "bg": "#e4a910",
-      "description": "Dominated by heart-healthy monounsaturated oleic acid, which serves as a highly efficient transport vehicle for fat-soluble vitamins."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "21.6 g / 8% DV",
-      "bg": "#15837c",
-      "description": "Consists largely of slow-burning complex starches tightly bundled with a massive structural fiber matrix, resulting in a minimal glycemic impact."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 3,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "25.6 mg / 171% DV",
-      "bg": "#1a96cd",
-      "description": "A massive mega-dose of the body's premier fat-soluble antioxidant, aggressively shielding low-density lipoproteins and cell walls from oxidative degradation."
-    },
-    {
-      "id": 35,
-      "name": "Magnesium",
-      "slug": "magnesium",
-      "amount": "270 mg / 64% DV",
-      "bg": "#15837c",
-      "description": "A vital macrominerals that regulates over 300 enzymatic pathways, driving smooth muscle relaxation, vascular calm, and steady ATP production."
-    },
-    {
-      "id": 19,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "12.5 g / 45% DV",
-      "bg": "#f5722c",
-      "description": "An incredibly robust structural fiber content that significantly delays gastric emptying, optimizes intestinal motility, and feeds beneficial gut flora."
-    },
-    {
-      "id": 41,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "2.3 mg / 100% DV",
-      "bg": "#e4a910",
-      "description": "An essential trace element functioning as a primary coenzyme for superoxide dismutase, a master internal antioxidant defense network."
-    },
-    {
-      "id": 24,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "vitamin-b2",
-      "amount": "1.1 mg / 85% DV",
-      "bg": "#66ab63",
-      "description": "Crucial for mitochondrial respiration, serving as a foundational coenzyme in electron transport chain mechanics to unlock cellular energy."
-    },
-    {
-      "id": 36,
-      "name": "Calcium",
-      "slug": "calcium",
-      "amount": "269 mg / 21% DV",
-      "bg": "#1a96cd",
-      "description": "The highest calcium concentration among common tree nuts, providing valuable non-dairy support for skeletal framework maintenance."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Advanced Vascular Elasticity:</b> The massive concentration of natural Vitamin E works synergistically with monounsaturated fats to halt the oxidation of LDL cholesterol, preserving arterial flexibility and blood vessel lining integrity.",
-    "<b>Glycemic and Insulin Stabilization:</b> The profound structural matrix of dense fibers, plant proteins, and clean fats slows down carbohydrate absorption curves, keeping postprandial glucose and insulin shifts exceptionally flat.",
-    "<b>Mitochondrial Energy Drive:</b> High natural levels of Riboflavin (B2) and Manganese directly feed core cellular metabolic pathways, optimizing daily energy conversion and neutral antioxidant defenses.",
-    "<b>Neuromuscular Tone Optimization:</b> Abundant bioavailable magnesium acts as a natural physiological calcium-channel blocker, relieving systemic vascular tension and promoting smooth neuromuscular calm."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>High Energy Caloric Density:</b> Because of their heavy, rich lipid profile, almonds accumulate high calorie volumes quickly. Managing explicit serving boundaries (approx. 30g) is critical if your parameters include strict fat-loss goals.",
-    "<b>Phytic Acid Mineral Binding:</b> Almond skins contain measurable amounts of phytic acid, an anti-nutrient that can structurally chelate minerals like iron, zinc, and calcium. Soaking or blanching almonds significantly dismantles this barrier, optimizing bio-availability.",
-    "<b>Tree Nut Allergenic Profiles:</b> Almonds contain potent storage proteins that can trigger serious immune-mediated IgE allergic responses. Individuals with diagnosed tree nut sensitivities must strictly avoid exposure to prevent systemic distress.",
-    "<b>Fungal Aflatoxin Risks:</b> If tree nuts are subjected to suboptimal, humid industrial storage conditions, they can readily develop Aspergillus mold strains that produce dangerous aflatoxins. Always source highly verified, crisp retail options."
-  ]
+"slug": "nuts-almonds",
+"name": "Nuts, almonds",
+"category": "Nut and Seed Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "579 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "21.15 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "21.55 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "49.93 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "12.5 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "25.63 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.205 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "1.14 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "3.62 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "0.471 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.137 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "44 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.539 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.751 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "1.47 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.568 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.157 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "1.13 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.601 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.211 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.855 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.003 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "269 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "481 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "270 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "1 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "733 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "3.71 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "3.12 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "1.03 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "2.18 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "4.1 mcg"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "12.5 g"
+},
+{
+"id": "lutein",
+"name": "Lutein",
+"slug": "lutein",
+"amount": "1 mcg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "1 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "52.1 mg"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "12.32 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "31.29 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "2.46 g"
+},
+{
+"id": "glycine",
+"name": "Glycine",
+"slug": "glycine",
+"amount": "1.43 g"
+},
+{
+"id": "tyrosine",
+"name": "Tyrosine",
+"slug": "tyrosine",
+"amount": "0.45 g"
+}
+]
 }

@@ -1,75 +1,179 @@
 {
-  "slug": "apples",
-  "name": "Apples",
-  "category": "Fruits",
-  "image": "/productinfo/apples.png",
-  "imageAlt": "fresh crisp red and green apples",
-  "description": "Apples represent a highly advanced, biochemically diverse botanical pome matrix. They hold an exceptional distribution of structural soluble non-starch polysaccharides, spearheaded by high-molecular-weight *pectin*, alongside a dense profile of polyphenolic flavonoids, particularly *quercetin-3-galactoside* and *phloridzin*. Intact within their raw crystalline cellular walls, these compounds orchestrate optimal gastrointestinal microbiome eubiosis, blunt systemic endothelial inflammatory cascades, and actively assist in regulating peripheral glucose absorption dynamics.",
-  "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "The macronutrient architecture of raw apples delivers a lightweight, highly hydrating whole-food framework engineered to provide a controlled release of simple monosaccharides anchored within a functional fiber network.",
-  "microIntro": "Apples house a stable, structurally integrated array of water-soluble antioxidant vitamins and critical extracellular electrolytes designed to support systemic osmotic equilibrium and mitigate tissue-level oxidative damage.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "52 kcal / 3% DV",
-      "bg": "#15837c",
-      "description": "A very low biological energy density that yields an immense volume of hydrating cellular fluid and therapeutic phytonutrients, making it an optimal metabolic snack."
-    },
-    {
-      "id": 14,
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "0.3 g / 1% DV",
-      "bg": "#f5722c",
-      "description": "Contains trace botanical amino acid configurations structuralized within the plant cell wall complex, presenting negligible nitrogenous impact."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually non-existent lipid levels, ensuring peripheral circulating lipid pathways remain unburdened while supporting raw hydration."
-    },
-    {
-      "id": 15,
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "13.8 g / 5% DV",
-      "bg": "#15837c",
-      "description": "Composed of natural fructose and glucose balanced by a significant 2.4-gram unrefined dietary fiber complex that modulates intestinal transit speeds."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 26,
-      "name": "Vitamin C (Ascorbic Acid)",
-      "slug": "vitamin-c",
-      "amount": "4.6 mg / 5% DV",
-      "bg": "#1a96cd",
-      "description": "Provides plant-derived ascorbic acid concentrated near the skin matrix, working in synergy with native polyphenols to intercept unstable free radicals."
-    },
-    {
-      "id": 33,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "107 mg / 2% DV",
-      "bg": "#66ab63",
-      "description": "An essential intracellular mineral that aids in maintaining cellular osmotic pressure, conducting neural impulses, and regulating myocardial rhythm dynamics."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Microbiome Eubiosis & Mucosal Integrity:</b> High-molecular-weight *pectin* operates as a premier prebiotic substrate, selectively feeding short-chain fatty acid (SCFA) producing gut microbes like *Bifidobacterium*, reinforcing the intestinal barrier.",
-    "<b>Cardiovascular Endothelial Fortification:</b> Active *quercetin* and epicatachin polymers downregulate inflammatory biomarkers, inhibit the lipid peroxidation of circulating LDL cholesterol, and sustain proper vascular compliance.",
-    "<b>Satiety Peptide Activation & Weight Control:</b> The structural combination of heavy cellular hydration and dense soluble fiber delays gastric emptying, mechanistically stretching the stomach wall to trigger long-lasting leptin and peptide YY satiety signaling.",
-    "<b>Postprandial Glycemic Regulation:</b> Native *phloridzin* specifically inhibits sodium-glucose cotransporters (SGLT1) in the small intestine, dampening glucose absorption rates and stabilizing global insulin curves."
-  ],
-  "precautionsIntro": "While raw whole apples operate as an exceptionally accessible and therapeutic dietary baseline, specific agricultural treatment methods and botanical traits necessitate deliberate consumption protocols.",
-  "precautions": [
-    "<b>Agricultural Chemical and Wax Accumulation:</b> Conventional apples frequently retain a high surface concentration of synthetic pesticide residues and protective petroleum-based waxes within their porous cuticular layer. Thorough mechanical scrubbing, alkaline soaking, or organic sourcing is heavily required.",
-    "<b>Cyanogenic Amygdalin Reserves in Seeds:</b> Apple endocarps (seeds) house *amygdalin*, a cyanogenic glycoside that liberates highly toxic hydrogen cyanide upon enzymatic hydrolysis during mastication. While accidental ingestion of trace seeds is managed by hepatic rhodanase detoxification, intentional crushing and overconsumption must be strictly avoided.",
-    "<b>Organic Acid Mucosal Hyper-Reactivity:</b> The native concentration of volatile malic and citric acids can cause mechanical enamel demineralization or localized epigastric burning in individuals with hypersensitive gastric architectures, active GERD, or erosive gastritis."
-  ]
+"slug": "apple-raw",
+"name": "Apples",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "61 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0.17 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "14.8 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.15 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "2.1 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "4.6 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "3 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.18 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "2.2 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.01 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.07 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.09 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.03 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "5 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "9 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "5 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "104 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.03 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.02 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.03 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "3.4 mg"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "27 mcg"
+}
+]
 }

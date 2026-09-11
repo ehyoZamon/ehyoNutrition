@@ -1,124 +1,251 @@
 {
-  "slug": "chicory",
-  "name": "Chicory",
-  "category": "Grains and Cereals",
-  "image": "/productinfo/chicory.png",
-  "imageAlt": "soluble chicory powder in a rustic ceramic cup with roasted chicory roots nearby",
-  "description": "Chicory is a highly functional, caffeine-free beverage substrate processed from the roasted roots of Cichorium intybus. Globally revered as an elite botanical prebiotic source and metabolic stabilizer, it features an extraordinary concentration of soluble inulin fiber. It delivers a rich, deeply bitter, coffee-like flavor profile driven by sesquiterpene lactones and polyphenols, serving as a powerful modulator of glucose homeostasis and gastrointestinal integrity.",
-  "macroTitle": "Macro Nutrients (per 100g, dry soluble powder)",
-  "macroIntro": "Soluble chicory powder exhibits a carbohydrate-dominant macronutrient profile heavily structuralized by non-digestible prebiotic fibers rather than simple metabolic sugars.",
-  "microIntro": "Chicory delivers a distinct biochemical micro-matrix, offering robust reserves of metabolic potassium, structural trace minerals, and unique bitter glycosides that catalyze digestive secretions.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "~295 kcal",
-      "bg": "#15837c",
-      "description": "Derived primarily from soluble carbohydrate matrices and prebiotic fibers that exhibit a highly attenuated, low-glycemic metabolic impact."
-    },
-    {
-      "id": "protein",
-      "name": "Protein",
-      "slug": "protein",
-      "amount": "3.8 grams",
-      "bg": "#f5722c",
-      "description": "Contains minor plant peptide fractions, acting as a small background organic asset rather than a primary nitrogen source."
-    },
-    {
-      "id": "fat",
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.2 grams",
-      "bg": "#e4a910",
-      "description": "A virtually non-existent lipid profile, ensuring absolute integration into ultra-low-fat dietary protocols and vascular management frameworks."
-    },
-    {
-      "id": "carbs",
-      "name": "Carbohydrates",
-      "slug": "carbohydrates",
-      "amount": "64.0 grams",
-      "bg": "#1a96cd",
-      "description": "Composed predominantly of soluble inulin (~30g to 50g), a fructan-type polysaccharide that completely resists upper-tract enzymatic digestion."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "inulin-fiber",
-      "slug": "inulin-fiber",
-      "name": "Inulin (Prebiotic)",
-      "amount": "High Functional Density",
-      "bg": "#15837c",
-      "description": "A premier soluble storage polysaccharide that travels entirely intact to the colon, acting as an elite selective substrate for bifidobacteria."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Potassium",
-      "amount": "290 mg / 6% DV",
-      "bg": "#66ab63",
-      "description": "An essential intracellular cation required for regulating osmotic equilibrium, stabilizing arterial pressures, and balancing vascular fluids[cite: 1]."
-    },
-    {
-      "id": "sesquiterpene-lactones",
-      "slug": "sesquiterpene-lactones",
-      "name": "Sesquiterpene Lactones",
-      "amount": "Bitter Glycosides",
-      "bg": "#f5722c",
-      "description": "Bioactive bitter elements (lactucin and lactucopicrin) that structurally spark gustatory receptors to boost bile synthesis and gastrointestinal enzyme flow."
-    },
-    {
-      "id": "manganese",
-      "slug": "manganese",
-      "name": "Manganese",
-      "amount": "0.23 mg / 10% DV",
-      "bg": "#1a96cd",
-      "description": "An important trace mineral cofactor needed for activating mitochondrial defense systems and coordinating internal carbohydrate signaling pathways[cite: 1]."
-    },
-    {
-      "id": "polyphenols",
-      "slug": "polyphenols",
-      "name": "Chlorogenic & Chicoric Acids",
-      "amount": "Antioxidant Phenols",
-      "bg": "#e4a910",
-      "description": "Potent plant-derived antioxidants that neutralize free radicals, reduce cellular inflammation, and enhance peripheral insulin sensitivity."
-    },
-    {
-      "id": 34,
-      "slug": "iron",
-      "name": "Iron",
-      "amount": "0.8 mg / 4% DV",
-      "bg": "#f5722c",
-      "description": "Supports cellular oxygen transport and energy metabolism[cite: 1]."
-    },
-    {
-      "id": 35,
-      "slug": "phosphorus",
-      "name": "Phosphorus",
-      "amount": "47 mg / 4% DV",
-      "bg": "#66ab63",
-      "description": "Essential for bone mineralization, energy transfer (ATP), and cellular structure[cite: 1]."
-    },
-    {
-      "id": 37,
-      "slug": "vitamin-b6",
-      "name": "Vitamin B6",
-      "amount": "0.2 mg / 12% DV",
-      "bg": "#1a96cd",
-      "description": "Facilitates amino acid metabolism, neurotransmitter synthesis, and nervous system health[cite: 1]."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Deep Bifidogenic Microbiome Fueling:</b> The immense structural density of soluble inulin serves as targeted food for beneficial gut microbes, multiplying short-chain fatty acid (SCFA) production.",
-    "<b>Glycemic Flattening and Insulin Efficiency:</b> Inulin slows down gastrointestinal carbohydrate absorption loops, preventing sharp plasma glucose spikes and stabilizing insulin curves.",
-    "<b>Caffeine-Free Nervous System Stabilization:</b> Delivering a robust, coffee-like sensory profile without any xanthine alkaloids, it avoids stimulating the adrenal axis or triggering tachycardic episodes.",
-    "<b>Hepatic Bile and Digestive Sparking:</b> Natural sesquiterpene lactones stimulate the vagus nerve, optimizing bile secretion profiles and accelerating upper GI motility vectors.",
-    "<b>Vascular Tone and Fluid Flushing:</b> The synergy of metabolic potassium and active polyphenols aids in clearing excess sodium loads, relieving structural pressure within the endothelial network."
-  ],
-  "precautionsIntro": "Inulin-Induced Bifidogenic Fermentation Distress, Asteraceae Botanical Allergenic Risks, and Cholelithiasis Translocation Warnings: Strategic dosage integration avoids metabolic discomfort.",
-  "precautions": [
-    "<b>Inulin-Driven Fermentation Flatulence:</b> Rapidly introducing high doses of soluble inulin can trigger intense microbial fermentation in hyper-sensitive or dysbiotic digestive systems, causing acute bloating, painful cramps, and flatulence.",
-    "<b>Asteraceae Cross-Reactive Allergies:</b> Chicory belongs to the Asteraceae (Compositae) plant family. Individuals with known hyper-sensitivities to ragweed, marigolds, or daisies may experience structural allergic responses or contact dermatitis.",
-    "<b>Cholelithiasis Bile Translocation Risks:</b> Because chicory compounds possess potent choleretic and cholagogue activities that accelerate bile ejection, individuals with large active gallstones must exercise caution to prevent mechanical bile duct obstructions."
-  ]
+"slug": "chicory-greens-raw",
+"name": "Chicory greens",
+"category": "Vegetables and Vegetable Products",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "23 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "1.7 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "4.7 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "0.3 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "4 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "24 mg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "286 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "2.26 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "298 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.06 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.10 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0.50 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "1.16 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.10 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "110 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "100 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "47 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "30 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "45 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "420 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.90 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0.42 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.29 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "0.43 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0.30 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "12.8 mg"
+},
+{
+"id": "histidine",
+"name": "Histidine",
+"slug": "histidine",
+"amount": "0.03 g"
+},
+{
+"id": "isoleucine",
+"name": "Isoleucine",
+"slug": "isoleucine",
+"amount": "0.10 g"
+},
+{
+"id": "leucine",
+"name": "Leucine",
+"slug": "leucine",
+"amount": "0.07 g"
+},
+{
+"id": "lysine",
+"name": "Lysine",
+"slug": "lysine",
+"amount": "0.07 g"
+},
+{
+"id": "methionine",
+"name": "Methionine",
+"slug": "methionine",
+"amount": "0.01 g"
+},
+{
+"id": "phenylalanine",
+"name": "Phenylalanine",
+"slug": "phenylalanine",
+"amount": "0.04 g"
+},
+{
+"id": "threonine",
+"name": "Threonine",
+"slug": "threonine",
+"amount": "0.05 g"
+},
+{
+"id": "tryptophan",
+"name": "Tryptophan",
+"slug": "tryptophan",
+"amount": "0.03 g"
+},
+{
+"id": "valine",
+"name": "Valine",
+"slug": "valine",
+"amount": "0.08 g"
+},
+{
+"id": "arginine",
+"name": "Arginine",
+"slug": "arginine",
+"amount": "0.12 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.02 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.11 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "0.01 g"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "3430 mcg"
+}
+]
 }

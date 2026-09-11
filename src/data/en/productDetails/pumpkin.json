@@ -1,116 +1,269 @@
 {
-  "slug": "pumpkin",
-  "name": "Pumpkin",
-  "category": "Vegetables",
-  "image": "/productinfo/pumpkin.png",
-  "imageAlt": "pumpkin",
-  "description": "Pumpkin is a highly nutritious, low-calorie autumn staple. Loaded with vibrant carotenoid antioxidants, skin-loving vitamins, and hydrating minerals, this versatile whole food provides exceptional structural benefits for systemic immunity and vision preservation.",
+  "slug": "pumpkin-raw",
+  "name": "Pumpkin, raw",
+  "category": "Vegetables and Vegetable Products",
   "macroTitle": "Macro Nutrients (per 100g)",
-  "macroIntro": "",
-  "microIntro": "",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "26 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "An incredibly low-calorie and water-dense food, perfect for volume eating and weight management."
+      "amount": "26 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.0 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Minimal protein content; provides trace non-essential amino acids standard in cucurbitaceous plants."
+      "amount": "1 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, making it an excellent base for heart-healthy and low-fat dietary regimes."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "6.5 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Composed of complex carbohydrates and natural sugars, yielding a low glycemic load that keeps insulin spikes minimal."
+      "amount": "6.5 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.1 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0.5 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 26,
-      "name": "Vitamin A (Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "426 mcg / 53% DV",
-      "bg": "#66ab63",
-      "description": "Abundant in pro-vitamin A carotenoids (giving it the orange hue), which the body converts into retinol to shield eye health and enhance cellular repair."
-    },
-    {
-      "id": 34,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "340 mg / 7% DV",
-      "bg": "#e4a910",
-      "description": "A vital systemic electrolyte that aids in smooth muscle contraction, healthy vascular tone, and balancing intra-cellular fluid levels."
-    },
-    {
-      "id": 44,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "0.5 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Though modest in raw flesh, its soluble fibers break down into gentle fuel for gut microbes and smooth out intestinal transit."
-    },
-    {
-      "id": 1,
+      "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "9.0 mg / 10% DV",
-      "bg": "#1a96cd",
-      "description": "An essential water-soluble antioxidant that promotes white blood cell synthesis, skin elasticity, and optimal iron absorption."
+      "amount": "9 mg"
     },
     {
-      "id": 59,
-      "name": "Lutein",
-      "slug": "lutein",
-      "amount": "1350 mcg",
-      "bg": "#15837c",
-      "description": "Powerful plant pigment that deposits directly in the macular retina, filtering high-energy blue light and mitigating oxidative cell degeneration."
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "426 mcg"
     },
     {
-      "id": 60,
-      "name": "Zeaxanthin",
-      "slug": "zeaxanthin",
-      "amount": "150 mcg",
-      "bg": "#0288d1",
-      "description": "Works in synergetic combination with lutein inside the eye tissue, absorbing scattering wavelengths to sustain sharp visual resolution."
-    },
-    {
-      "id": 2,
+      "id": "4",
       "name": "Vitamin E",
       "slug": "vitamin-e",
-      "amount": "1.06 mg / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A fat-soluble antioxidant that collaborates with Vitamin C to safeguard cell membranes from environmental oxidative stressors."
+      "amount": "1.06 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "1.1 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.11 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.6 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.06 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "16 mcg DFE"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "21 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "44 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "12 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "1 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "340 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.8 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.32 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "8.2 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "3100 mcg"
+    },
+    {
+      "id": "62",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "12 mg"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.04 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Ocular & Vision Protection:</b> The rich combo of beta-carotene, lutein, and zeaxanthin builds a natural defense shield in the retina, reducing risks of long-term age-related macular degradation and cataracts.",
-    "<b>Immune Defense Reinforcement:</b> High doses of Vitamin A, paired with Vitamin C, optimize cellular mucosal barriers and accelerate white blood cell proliferation against external pathogens.",
-    "<b>Cardiovascular Smoothness:</b> The healthy presence of potassium and low sodium coordinates blood vessel relaxation, allowing for balanced fluid dynamics and blood pressure management.",
-    "<b>Metabolic Weight Management:</b> Being roughly 90% water, it provides a high-volume food structure that fills the stomach and promotes prolonged satiety with very minimal baseline calories."
-  ],
-  "precautionsIntro": "",
-  "precautions": [
-    "<b>Commercial Dynamic Overload:</b> While pure pumpkin is highly metabolic, seasonal commercial items (like pumpkin pies or sweetened purees) are heavily packed with processed sugars, fats, and chemical binders.",
-    "<b>Mild Diuretic Influence:</b> Due to its high water and potassium metrics, pumpkin acts as a mild natural diuretic. Individuals taking specific metabolic medications (like lithium) should monitor structural intake values.",
-    "<b>Carotenemia Profile:</b> Consuming massive quantities of pumpkin over a prolonged period can store extra beta-carotene under the skin, temporarily turning the palms and soles of the feet a slight yellow-orange hue (harmless and reversible).",
-    "<b>Gastrointestinal Adaptation:</b> For individuals with highly sensitive digestive tracts or during flare-ups of chronic gut issues, large portions of cooked squash may occasionally trigger mild bloating due to its complex carbohydrate fibers."
   ]
 }

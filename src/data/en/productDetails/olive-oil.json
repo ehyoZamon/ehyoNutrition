@@ -1,83 +1,191 @@
 {
-  "slug": "olive-oil",
-  "name": "Olive Oil",
-  "category": "Plant-based Fats",
-  "image": "/productinfo/olive-oil.png",
-  "imageAlt": "bottle of olive oil",
-  "description": "Olive oil (specifically Extra Virgin grade) represents a non-refined, mechanically extracted liquid hydrophobic matrix obtained exclusively from the pericarp of the Olea europaea fruit. Functioning as the cornerstone of classical cardioprotective nutrition, this premium lipid system is structurally dominated by cis-monounsaturated oleic acid triacylglycerols, seamlessly bound alongside a highly reactive minor fraction of secondary plant metabolites. These metabolites include specific secoiridoid polyphenols (oleuropein and oleocanthal), triterpenes (squalene), and lipophilic tocopherols. This sophisticated chemical assembly acts as a profound regulator of vascular endothelial integrity, actively downregulates systemic pro-inflammatory signaling pathways by directly inhibiting cyclooxygenase ($COX$) enzymes, shields low-density lipoproteins from oxygen-radical damage, and modulates cellular lipid-raft configurations.",
-  "macroTitle": "Macro Nutrients (per 100g, classic oil)",
-  "macroIntro": "The macronutrient profile of Extra Virgin olive oil represents an absolute, 100% pure hydrophobic lipid concentration, presenting an exceptionally high thermodynamic fuel density devoid of protein or carbohydrate structures.",
-  "microIntro": "A highly concentrated bioactive reservoir containing specialized amphiphilic phenolic compounds, lipophilic alpha-tocopherols, and key structurally active plant sterols.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Calories",
-      "slug": "",
-      "amount": "884 kcal / 44% DV",
-      "bg": "#15837c",
-      "description": "A maximum thermodynamic energy load derived entirely from the efficient beta-oxidation of long-chain fatty acid molecules."
-    },
-    {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "100.0 g / 128% DV",
-      "bg": "#e4a910",
-      "description": "An absolute lipid matrix composed of a highly stable ratio of monounsaturated, polyunsaturated, and balanced saturated fatty acid chains."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 25,
-      "name": "Vitamin E (Alpha-Tocopherol)",
-      "slug": "vitamin-e",
-      "amount": "14.4 mg / 96% DV",
-      "bg": "#66ab63",
-      "description": "A powerful chain-breaking lipophilic antioxidant that lodges within cellular membranes to abort lipid peroxidation cascades."
-    },
-    {
-      "id": 119,
-      "name": "Secoiridoid Polyphenols (Oleocanthal & Oleuropein)",
-      "slug": "polyphenols",
-      "amount": "High Concentration",
-      "bg": "#f5722c",
-      "description": "Advanced amphiphilic compounds responsible for the sensory pungency and the potent, direct pharmaceutical-grade anti-inflammatory actions."
-    },
-    {
-      "id": 120,
-      "name": "Oleic Acid (Omega-9 MUFA)",
-      "slug": "oleic-acid",
-      "amount": "73.0 g",
-      "bg": "#15837c",
-      "description": "The predominant monounsaturated fatty acid that replaces saturated fats in cellular bilayers, enhancing membrane fluidity."
-    },
-    {
-      "id": 121,
-      "name": "Phytosterols (Beta-Sitosercol)",
-      "slug": "phytosterols",
-      "amount": "221 mg",
-      "bg": "#e4a910",
-      "description": "Structural plant sterols that competitively inhibit dietary and biliary cholesterol absorption at the enterocyte brush border."
-    },
-    {
-      "id": 27,
-      "name": "Vitamin K1 (Phylloquinone)",
-      "slug": "vitamin-k1",
-      "amount": "60.2 mcg / 50% DV",
-      "bg": "#1a96cd",
-      "description": "A lipophilic micronutrient essential for hepatic synthesis of prothrombin and basic blood coagulation cascade proteins."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Endothelial Protection and Anti-Atherogenic Lipoprotein Stabilization:</b> The abundant oleic acid and polyphenolic fractions minimize low-density lipoprotein ($LDL$) oxidation susceptibility, maintaining regular vascular nitric oxide ($NO$) bioavailability and preserving capillary wall flexibility.",
-    "<b>Oleocanthal-Induced Inflammatory Cascade Suppression:</b> Active native oleocanthal mimics the biochemical mechanism of non-steroidal anti-inflammatory agents, initiating dose-dependent inhibition of cyclooxygenase-1 ($COX-1$) and cyclooxygenase-2 ($COX-2$) enzymes.",
-    "<b>Phytosterol-Mediated Competitive Cholesterol Reduction:</b> Plant-derived beta-sitoserols displace cholesterol molecules within mixed intestinal micelles, successfully restricting their transmucosal transport and optimizing the circulating lipid profile.",
-    "<b>Tocopherol-Driven Membrane Preservation Against Peroxidation:</b> High levels of bioavailable alpha-tocopherol neutralize reactive oxygen species ($ROS$) within cellular bilayers, protecting vulnerable mitochondrial membranes from structural degradation."
-  ],
-  "precautionsIntro": "Despite its status as a premium health fat, the high thermodynamic output and delicate structural chemistry of raw olive oil require targeted awareness under specific circumstances:",
-  "precautions": [
-    "<b>Thermodynamic Density and Adipose Tissue Expansion:</b> The absolute energy concentration of 884 kcal per 100g can swiftly generate an unintended systemic caloric surplus, demanding precise micro-dosing during weight management regimens.",
-    "<b>Thermal Degradation and Volatile Pyrolysis Products:</b> Unrefined Extra Virgin oils possess a relatively sensitive smoke point; high-heat cooking induces thermal polymerization, destroying native antioxidants and generating cytotoxic aldehydes.",
-    "<b>Photo-Oxidative Degradation and Peroxide Generation:</b> Prolonged exposure to ambient ultraviolet light and thermal shifts initiates auto-oxidation of unsaturated chains; storage in transparent vessels converts beneficial lipids into rancid, pro-inflammatory peroxides."
-  ]
+"slug": "olive-oil",
+"name": "Olive oil",
+"category": "Fruits and Fruit Juices",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "900 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "100 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "20.88 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "26 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "0 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Vitamin B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "1 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "0 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "2 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "1 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0.56 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "0 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "0 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "0.3 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.76 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "8.71 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "67.47 g"
+}
+]
 }

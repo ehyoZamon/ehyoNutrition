@@ -1,107 +1,257 @@
 {
-  "slug": "butternut-squash",
-  "name": "Butternut Squash",
-  "category": "Vegetables",
-  "image": "/productinfo/butternut-squash.png",
-  "imageAlt": "fresh butternut squash",
-  "description": "Butternut squash (Cucurbita moschata) is a highly nutrient-dense winter vegetable, prized for its complex starch matrix and concentrated carotenoid profile. It serves as an essential botanical source of provitamin A, bioactive antioxidants, and regulatory electrolytes, which collectively support retinal integrity, mitochondrial efficiency, and systemic immunological defense.",
-  "macroTitle": "Macro Nutrients (per 100g, baked)",
-  "macroIntro": "A clean, low-lipid carbohydrate blueprint characterized by high-volume satiety and negligible caloric impact.",
-  "microIntro": "A profound bioavailable matrix of carotenoids and electrolytes that facilitate cellular detoxification and vascular stabilization.",
+  "slug": "squash-winter-butternut-raw",
+  "name": "Squash, winter, butternut, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "40 kcal / 2% DV",
-      "bg": "#15837c",
-      "description": "Low energy density providing high satiety without eliciting significant glycemic or caloric surplus."
+      "amount": "45 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "0.9 g / 2% DV",
-      "bg": "#f5722c",
-      "description": "Minimalist plant-based protein content consistent with starchy winter botanical profiles."
+      "amount": "1.00 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0.1% DV",
-      "bg": "#e4a910",
-      "description": "Negligible lipid profile, optimizing this vegetable for ultra-low-fat metabolic protocols."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "10.5 g / 4% DV",
-      "bg": "#15837c",
-      "description": "Complex starch matrix balanced by soluble/insoluble fiber (~2g), ensuring gradual insulinemic response."
+      "amount": "11.69 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.00 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 143,
-      "name": "Vitamin A (Beta-Carotene)",
-      "slug": "vitamin-a",
-      "amount": "532 mcg / 59% DV",
-      "bg": "#f5722c",
-      "description": "High-potency carotenoid precursor for retinal visual cycles and dermatological cell differentiation."
-    },
-    {
-      "id": 27,
+      "id": "vitamin-c",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "15.1 mg / 17% DV",
-      "bg": "#1a96cd",
-      "description": "Essential antioxidant cofactor accelerating collagen synthesis and immune-modulatory pathways."
+      "amount": "21.00 mg"
     },
     {
-      "id": 35,
-      "name": "Potassium",
-      "slug": "potassium",
-      "amount": "362 mg / 8% DV",
-      "bg": "#66ab63",
-      "description": "Intracellular electrolyte vital for vascular fluid homeostasis and neuromuscular electrical conduction."
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "532 mcg RAE"
     },
     {
-      "id": 141,
-      "name": "Manganese",
-      "slug": "manganese",
-      "amount": "0.2 mg / 9% DV",
-      "bg": "#e4a910",
-      "description": "Trace catalyst for cartilaginous matrix formation and superoxide dismutase (SOD) activity."
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "1.44 mg"
     },
     {
-      "id": 36,
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "1.10 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.10 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.02 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "1.20 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.40 mg"
+    },
+    {
+      "id": "vitamin-b6",
       "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": "0.1 mg / 6% DV",
-      "bg": "#15837c",
-      "description": "Mandatory cofactor for amino acid metabolism, hematopoiesis, and neurotransmitter signal modulation."
+      "amount": "0.15 mg"
     },
     {
-      "id": 34,
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "27.00 mcg DFE"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "48.00 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "33.00 mg"
+    },
+    {
+      "id": "magnesium",
       "name": "Magnesium",
       "slug": "magnesium",
-      "amount": "22 mg / 5% DV",
-      "bg": "#1a96cd",
-      "description": "Supports foundational enzymatic transfers, muscular relaxation, and bone mineral retention."
+      "amount": "34.00 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "4.00 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "352.00 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.70 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.15 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.20 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.50 mcg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "4226 mcg"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.06 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.03 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Ocular Protection:</b> Synergistic carotenoid yields (Beta-Carotene, Lutein) mitigate oxidative blue-light damage to retinal tissues.",
-    "<b>Glycemic Stability:</b> High complex fiber content delays gastric emptying, promoting stable glucose kinetics.",
-    "<b>Vascular Support:</b> Potassium-rich profile assists in arterial tension reduction and systemic blood pressure management.",
-    "<b>Dermal Barrier Integrity:</b> Provitamin A promotes accelerated mucous membrane repair and efficient epidermal cell turnover."
-  ],
-  "precautionsIntro": "Nutritional precision is required for specialized metabolic conditions:",
-  "precautions": [
-    "<b>Thermal Degradation:</b> High-heat, prolonged roasting increases the glycemic index via starch-to-sugar conversion; steam-cooking is preferred for insulin-resistant individuals.",
-    "<b>Electrolyte Load:</b> Patients with chronic kidney disease (CKD) or those on potassium-sparing agents must calibrate intake to avoid hyperkalemia.",
-    "<b>Gastrointestinal Tolerance:</b> High fiber density may cause transient flatulence in individuals with sensitive digestive architecture or IBS."
   ]
 }

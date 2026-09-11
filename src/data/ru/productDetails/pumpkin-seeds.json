@@ -1,124 +1,191 @@
 {
-  "slug": "pumpkin-seeds",
-  "name": "Тыквенные семечки",
-  "category": "Овощи",
-  "image": "/productinfo/pumpkin-seeds.png",
-  "imageAlt": "очищенные тыквенные семечки ярко-зеленого цвета",
-  "description": "Тыквенные семечки (пепитас) — продукт, богатый полезными жирами, белками и минералами. Они оптимизируют эндокринную функцию, поддерживают работу сердца и защищают клетки. Семена являются отличным источником L-аргинина, L-триптофана и фитостеролов, которые помогают регулировать уровень холестерина и поддерживать гормональное здоровье.",
-  "macroTitle": "Макронутриенты (на 100 г, очищенные семена)",
-  "macroIntro": "Семечки отличаются высокой энергетической плотностью, большим содержанием белка и полезных липидов.",
-  "microIntro": "Ядра являются биологическим резервуаром магния, цинка, железа и фитостеролов.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "~559 ккал",
-      "bg": "#15837c",
-      "description": "Высокая концентрация энергии за счет качественных жиров."
-    },
-    {
-      "id": "protein",
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "30.23 г",
-      "bg": "#f5722c",
-      "description": "Богатый аминокислотный состав, включая L-аргинин."
-    },
-    {
-      "id": "fat",
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "49.05 г",
-      "bg": "#e4a910",
-      "description": "Полиненасыщенные и мононенасыщенные жирные кислоты."
-    },
-    {
-      "id": "carbs",
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "10.71 г",
-      "bg": "#1a96cd",
-      "description": "Клетчатка (~6 г) обеспечивает долгое насыщение."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": "magnesium",
-      "slug": "magnesium",
-      "name": "Магний",
-      "amount": "592 мг / 148% СН",
-      "bg": "#15837c",
-      "description": "Критически важен для работы сердца и нервной системы."
-    },
-    {
-      "id": "zinc",
-      "slug": "zinc",
-      "name": "Цинк",
-      "amount": "7.81 мг / 71% СН",
-      "bg": "#f5722c",
-      "description": "Поддерживает иммунитет и мужское здоровье."
-    },
-    {
-      "id": "iron",
-      "slug": "iron",
-      "name": "Железо",
-      "amount": "8.82 мг / 49% СН",
-      "bg": "#66ab63",
-      "description": "Необходимо для переноса кислорода в организме."
-    },
-    {
-      "id": "phytosterols",
-      "slug": "phytosterols",
-      "name": "Фитостеролы",
-      "amount": "265 мг",
-      "bg": "#1a96cd",
-      "description": "Снижают уровень холестерина."
-    },
-    {
-      "id": "potassium",
-      "slug": "potassium",
-      "name": "Калий",
-      "amount": "809 мг / 17% СН",
-      "bg": "#e4a910",
-      "description": "Поддерживает водно-солевой баланс."
-    },
-    {
-      "id": 111,
-      "slug": "vitamin-k1",
-      "name": "Витамин K1",
-      "amount": "7.3 мкг / 6% СН",
-      "bg": "#15837c",
-      "description": "Важен для свертывания крови и костей."
-    },
-    {
-      "id": 112,
-      "slug": "vitamin-e",
-      "name": "Витамин E",
-      "amount": "2.18 мг / 15% СН",
-      "bg": "#f5722c",
-      "description": "Антиоксидант для защиты клеток."
-    },
-    {
-      "id": 113,
-      "slug": "vitamin-b3",
-      "name": "Витамин B3 (Ниацин)",
-      "amount": "4.98 мг / 31% СН",
-      "bg": "#66ab63",
-      "description": "Важен для метаболизма и энергии."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Гормональное здоровье:</b> Фитостеролы поддерживают работу простаты.",
-    "<b>Работа сердца:</b> Магний расслабляет сосуды.",
-    "<b>Иммунитет и тестостерон:</b> Цинк необходим для защитных сил организма.",
-    "<b>Сон:</b> Триптофан улучшает качество отдыха.",
-    "<b>Холестерин:</b> Фитостеролы препятствуют его всасыванию."
-  ],
-  "precautionsIntro": "Калорийность, фитиновая кислота и ЖКТ: Умеренность — залог пользы.",
-  "precautions": [
-    "<b>Калорийность:</b> Высокая жирность требует контроля порций.",
-    "<b>Фитиновая кислота:</b> Может снижать всасывание минералов (помогает замачивание).",
-    "<b>ЖКТ:</b> Избыток клетчатки может вызвать дискомфорт в кишечнике."
-  ]
+"slug": "pumpkin-seeds",
+"name": "Тыквенные семечки",
+"category": "Орехи и семена",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "574 kcal"
+},
+{
+"id": "protein",
+"name": "Белки",
+"slug": "protein",
+"amount": "29.84 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "14.71 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "49.05 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "6.5 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "1.8 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "0.56 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "4.5 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.07 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.15 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "4.43 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.1 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "57 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "0 mcg"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "52 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "1174 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "550 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "18 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "788 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "8.07 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "7.64 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "1.28 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "9.4 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "63 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.111 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "19.6 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "15.6 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "0 g"
+}
+]
 }

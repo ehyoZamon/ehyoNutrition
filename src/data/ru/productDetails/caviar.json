@@ -1,108 +1,275 @@
 {
-  "slug": "caviar",
-  "name": "Икра / Икра рыб",
-  "category": "Морепродукты",
-  "image": "/productinfo/caviar.png",
-  "imageAlt": "premium red and black fish roe",
-  "description": "Икра рыб — это элитный концентрат морских нутриентов, отличающийся великолепным липидным профилем и высокой плотностью белка. Содержание пре-синтезированных жирных кислот Омега-3 (ЭПК/ДГК), витамина D и холина разработано для оптимизации когнитивной скорости, купирования системных воспалительных цитокинов и усиления пластичности клеточных мембран.",
-  "macroTitle": "Макронутриенты (среднее значение для икры осетровых/лососевых, на 100 г)",
-  "macroIntro": "Нутритивно-плотная, низкоуглеводная архитектура, характеризующаяся выдающейся плотностью биодоступного животного белка и жизненно важных жирных кислот.",
-  "microIntro": "Спектральный профиль микронутриентов, представляющий элитные дозы жирорастворимых витаминов, группы B и редких морских микроэлементов.",
-  "macroNutrients": [
-    {
-      "id": "calories",
-      "name": "Калорийность",
-      "slug": "",
-      "amount": "250 ккал / 13% СН",
-      "bg": "#15837c",
-      "description": "Плотная, функциональная энергия из высококачественных структурных липидов и животных белков."
-    },
-    {
-      "id": 14,
-      "name": "Белки",
-      "slug": "protein",
-      "amount": "25.0 г / 50% СН",
-      "bg": "#f5722c",
-      "description": "Элитная аминокислотная конфигурация, необходимая для восстановления тканей и синтеза клеток."
-    },
-    {
-      "id": 16,
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "15.0 г / 19% СН",
-      "bg": "#e4a910",
-      "description": "Источник поли- и мононенасыщенных жирных кислот, жизненно важных для мембран."
-    },
-    {
-      "id": 15,
-      "name": "Углеводы",
-      "slug": "carbohydrates",
-      "amount": "4.0 г / 1% СН",
-      "bg": "#15837c",
-      "description": "Минимальный гликогеновый след, идеально подходит для кетогенных метаболических протоколов."
-    }
-  ],
-  "microNutrients": [
-    {
-      "id": 151,
-      "name": "Омега-3 (ЭПК/ДГК)",
-      "slug": "omega-3",
-      "amount": "6500 мг",
-      "bg": "#e4a910",
-      "description": "Морская концентрация, поддерживающая миелиновые оболочки нейронов и снижающая цитокиновый стресс."
-    },
-    {
-      "id": 29,
-      "name": "Витамин B12",
-      "slug": "vitamin-b12",
-      "amount": "20.0 мкг / 833% СН",
-      "bg": "#1a96cd",
-      "description": "Феноменальный коэнзимный вклад, критически важный для синтеза ДНК и здоровья ЦНС."
-    },
-    {
-      "id": 28,
-      "name": "Витамин D3",
-      "slug": "vitamin-d",
-      "amount": "11.8 мкг / 59% СН",
-      "bg": "#f5722c",
-      "description": "Холекальциферол, необходимый для иммунного ответа и транспорта кальция в костях."
-    },
-    {
-      "id": 149,
-      "name": "Селен",
-      "slug": "selenium",
-      "amount": "65.5 мкг / 119% СН",
-      "bg": "#15837c",
-      "description": "Мощный кофактор активации глутатионпероксидазы для антиоксидантной защиты."
-    },
-    {
-      "id": 24,
-      "name": "Железо",
-      "slug": "iron",
-      "amount": "11.9 мг / 66% СН",
-      "bg": "#66ab63",
-      "description": "Биодоступное гемовое железо для оптимизации переноса кислорода в крови."
-    },
-    {
-      "id": 152,
-      "name": "Холин",
-      "slug": "choline",
-      "amount": "490 мг",
-      "bg": "#1a96cd",
-      "description": "Неврологический предшественник синтеза ацетилхолина и очистки печени от липидов."
-    }
-  ],
-  "healthBenefits": [
-    "<b>Когнитивная скорость:</b> Высокая концентрация ДГК улучшает рецепторную эффективность нейронов.",
-    "<b>Противовоспалительный эффект:</b> Морские Омега-3 оптимизируют баланс эйкозаноидов, подавляя воспаление.",
-    "<b>Защита сосудов:</b> Липидный профиль улучшает динамику ЛПВП и эндотелиальную функцию.",
-    "<b>Гемопоэз:</b> Витамин B12 и гемовое железо ускоряют репликацию эритроцитов и оксигенацию.",
-    "<b>Гормональный фон:</b> Холестерин и витамин D служат основой для синтеза стероидных гормонов."
-  ],
-  "precautionsIntro": "Рекомендации по потреблению с учетом натрия, пуринов и безопасности:",
-  "precautions": [
-    "<b>Концентрация натрия:</b> Соленая икра опасна при гипертонии и ХБП; контролируйте порции.",
-    "<b>Пуриновый профиль:</b> Пурины повышают уровень мочевой кислоты; при подагре или камнях избегайте избытка.",
-    "<b>Биологическая безопасность:</b> Сырая икра может содержать *Listeria*; беременным и иммунокомпрометированным лицам рекомендованы пастеризованные варианты."
-  ]
+"slug": "caviar",
+"name": "Икра",
+"category": "Рыба и морепродукты",
+"macroTitle": "Макронутриенты (на 100 г)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Калории",
+"slug": "",
+"amount": "264 kcal"
+},
+{
+"id": "protein",
+"name": "Белок",
+"slug": "protein",
+"amount": "24.6 g"
+},
+{
+"id": "carbohydrates",
+"name": "Углеводы",
+"slug": "carbohydrates",
+"amount": "4 g"
+},
+{
+"id": "fats",
+"name": "Жиры",
+"slug": "fats",
+"amount": "17.9 g"
+},
+{
+"id": "fiber",
+"name": "Клетчатка",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Микронутриенты (на 100 г)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Витамин C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Витамин D",
+"slug": "vitamin-d",
+"amount": "2.9 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Витамин A",
+"slug": "vitamin-a",
+"amount": "271 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Витамин E",
+"slug": "vitamin-e",
+"amount": "1.89 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Витамин K",
+"slug": "vitamin-k",
+"amount": "0.6 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Витамин B1",
+"slug": "vitamin-b1",
+"amount": "0.19 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Витамин B2",
+"slug": "vitamin-b2",
+"amount": "0.62 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Витамин B3",
+"slug": "vitamin-b3",
+"amount": "0.12 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Витамин B5",
+"slug": "vitamin-b5",
+"amount": "3.5 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Витамин B6",
+"slug": "vitamin-b6",
+"amount": "0.32 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Витамин B9",
+"slug": "vitamin-b9",
+"amount": "50 mcg DFE"
+},
+{
+"id": "vitamin-b12",
+"name": "Витамин B12",
+"slug": "vitamin-b12",
+"amount": "20 mcg"
+},
+{
+"id": "histidine",
+"name": "Гистидин",
+"slug": "histidine",
+"amount": "0.65 g"
+},
+{
+"id": "isoleucine",
+"name": "Изолейцин",
+"slug": "isoleucine",
+"amount": "1.0 g"
+},
+{
+"id": "leucine",
+"name": "Лейцин",
+"slug": "leucine",
+"amount": "2.1 g"
+},
+{
+"id": "lysine",
+"name": "Лизин",
+"slug": "lysine",
+"amount": "1.8 g"
+},
+{
+"id": "methionine",
+"name": "Метионин",
+"slug": "methionine",
+"amount": "0.65 g"
+},
+{
+"id": "phenylalanine",
+"name": "Фенилаланин",
+"slug": "phenylalanine",
+"amount": "1.1 g"
+},
+{
+"id": "threonine",
+"name": "Треонин",
+"slug": "threonine",
+"amount": "1.3 g"
+},
+{
+"id": "tryptophan",
+"name": "Триптофан",
+"slug": "tryptophan",
+"amount": "0.32 g"
+},
+{
+"id": "valine",
+"name": "Валин",
+"slug": "valine",
+"amount": "1.3 g"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Альфа-линоленовая кислота",
+"slug": "alpha-linolenic-acid",
+"amount": "0.02 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA и DHA",
+"slug": "epa-dha",
+"amount": "6.5 g"
+},
+{
+"id": "calcium",
+"name": "Кальций",
+"slug": "calcium",
+"amount": "275 mg"
+},
+{
+"id": "phosphorus",
+"name": "Фосфор",
+"slug": "phosphorus",
+"amount": "356 mg"
+},
+{
+"id": "magnesium",
+"name": "Магний",
+"slug": "magnesium",
+"amount": "300 mg"
+},
+{
+"id": "sodium",
+"name": "Натрий",
+"slug": "sodium",
+"amount": "1500 mg"
+},
+{
+"id": "potassium",
+"name": "Калий",
+"slug": "potassium",
+"amount": "181 mg"
+},
+{
+"id": "iron",
+"name": "Железо",
+"slug": "iron",
+"amount": "11.88 mg"
+},
+{
+"id": "zinc",
+"name": "Цинк",
+"slug": "zinc",
+"amount": "0.95 mg"
+},
+{
+"id": "copper",
+"name": "Медь",
+"slug": "copper",
+"amount": "0.11 mg"
+},
+{
+"id": "manganese",
+"name": "Марганец",
+"slug": "manganese",
+"amount": "0.05 mg"
+},
+{
+"id": "selenium",
+"name": "Селен",
+"slug": "selenium",
+"amount": "65.5 mcg"
+},
+{
+"id": "choline",
+"name": "Холин",
+"slug": "choline",
+"amount": "490.9 mg"
+},
+{
+"id": "glycine",
+"name": "Глицин",
+"slug": "glycine",
+"amount": "0.74 g"
+},
+{
+"id": "tyrosine",
+"name": "Тирозин",
+"slug": "tyrosine",
+"amount": "0.97 g"
+},
+{
+"id": "arginine",
+"name": "Аргинин",
+"slug": "arginine",
+"amount": "1.6 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Омега-6 жирные кислоты",
+"slug": "omega-6-fatty-acids",
+"amount": "0.08 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Омега-9 жирные кислоты",
+"slug": "omega-9-fatty-acids",
+"amount": "3.2 g"
+}
+]
 }

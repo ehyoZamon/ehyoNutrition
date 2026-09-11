@@ -1,108 +1,197 @@
 {
   "slug": "daikon",
   "name": "Дайкон",
-  "category": "Овощи",
-  "image": "/productinfo/daikon.png",
-  "imageAlt": "fresh raw organic white daikon radish root",
-  "description": "Дайкон — зимний корнеплод, ценимый за исключительный ферментативный профиль и детокс-свойства печени. Благодаря низкому гликемическому индексу и содержанию изотиоцианатов, он ускоряет расщепление жиров, клеточный метаболизм и подавляет хроническое воспаление.",
-  "macroTitle": "Макронутриенты (на 100 г, сырой)",
-  "macroIntro": "Чистая, водонасыщенная структура (94.6% воды) со сложными углеводами и минимальной калорийностью.",
-  "microIntro": "Богатая матрица нутриентов, включающая витамин С, электролиты и активные серосодержащие соединения.",
+  "category": "Овощи и овощные продукты",
+  "macroTitle": "Макронутриенты (на 100 г)",
   "macroNutrients": [
     {
       "id": "calories",
-      "name": "Калорийность",
+      "name": "Калории",
       "slug": "",
-      "amount": "18 ккал / 1% СН",
-      "bg": "#15837c",
-      "description": "Крайне низкая плотность энергии для строгого метаболического контроля."
+      "amount": "16 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Белки",
       "slug": "protein",
-      "amount": "0.6 г / 1% СН",
-      "bg": "#f5722c",
-      "description": "Минимальная база аминокислот."
+      "amount": "0.68 g"
     },
     {
-      "id": 16,
-      "name": "Жиры",
-      "slug": "fats",
-      "amount": "0.1 г / <1% СН",
-      "bg": "#e4a910",
-      "description": "Практически полное отсутствие липидов."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Углеводы",
       "slug": "carbohydrates",
-      "amount": "4.1 г / 1% СН",
-      "bg": "#15837c",
-      "description": "Натуральные крахмалы и клетчатка (1.6 г) для поддержания уровня сахара."
+      "amount": "3.40 g"
+    },
+    {
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "0.10 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "1.60 g"
     }
   ],
+  "microTitle": "Микронутриенты (на 100 г)",
   "microNutrients": [
     {
-      "id": 138,
+      "id": "vitamin-c",
       "name": "Витамин C",
       "slug": "vitamin-c",
-      "amount": "22.0 мг / 24% СН",
-      "bg": "#1a96cd",
-      "description": "Антиоксидант, поддерживающий синтез коллагена и иммунитет."
+      "amount": "14.8 mg"
     },
     {
-      "id": 157,
-      "name": "Фолаты (Витамин B9)",
-      "slug": "folate",
-      "amount": "28 мкг / 7% СН",
-      "bg": "#66ab63",
-      "description": "Кофермент, необходимый для синтеза нуклеиновых кислот."
+      "id": "vitamin-d",
+      "name": "Витамин D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
     },
     {
-      "id": 35,
-      "name": "Калий",
-      "slug": "potassium",
-      "amount": "227 мг / 5% СН",
-      "bg": "#15837c",
-      "description": "Электролит, регулирующий водный баланс и тонус сосудов."
+      "id": "vitamin-a",
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "0 mcg RAE"
     },
     {
-      "id": 160,
-      "name": "Медь",
-      "slug": "copper",
-      "amount": "0.1 мг / 6% СН",
-      "bg": "#e4a910",
-      "description": "Микроэлемент, участвующий в энергообмене клеток."
+      "id": "vitamin-e",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0 mg"
     },
     {
-      "id": 147,
+      "id": "vitamin-k",
+      "name": "Витамин K",
+      "slug": "vitamin-k",
+      "amount": "1.3 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.012 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.039 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.254 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.071 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "25 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Витамин B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "calcium",
       "name": "Кальций",
       "slug": "calcium",
-      "amount": "27 мг / 2% СН",
-      "bg": "#1a96cd",
-      "description": "Минерал для поддержки внутриклеточных коммуникаций."
+      "amount": "25 mg"
     },
     {
-      "id": 161,
-      "name": "Изотиоцианаты",
-      "slug": "isothiocyanates",
-      "amount": "Высокая активность",
-      "bg": "#f5722c",
-      "description": "Серосодержащие соединения, активирующие детокс печени."
+      "id": "phosphorus",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "20 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "10 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "39 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "233 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "0.34 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.28 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "0.6 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "6.5 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Бета-каротин",
+      "slug": "beta-carotene",
+      "amount": "4 mcg"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.031 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA и DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.017 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.017 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Ферментация:</b> Диастаза и амилаза помогают расщеплению крахмалов.",
-    "<b>Детокс печени:</b> Изотиоцианаты нейтрализуют метаболические отходы.",
-    "<b>Муколитическое действие:</b> Уменьшает вязкость слизи в дыхательных путях.",
-    "<b>Гомеостаз жидкости:</b> Калий способствует выведению лишней жидкости.",
-    "<b>Противовоспалительный эффект:</b> Фенолы ингибируют цитокины воспаления."
-  ],
-  "precautionsIntro": "Особенности влияния на щитовидную железу и ЖКТ:",
-  "precautions": [
-    "<b>Функция щитовидной железы:</b> Чрезмерное употребление сырого дайкона может снижать усвоение йода.",
-    "<b>Чувствительность ЖКТ:</b> Эфирные масла могут раздражать слизистую при гастрите или язве.",
-    "<b>Ферментация:</b> У лиц с СРК серосодержащие соединения могут вызывать повышенное газообразование."
   ]
 }

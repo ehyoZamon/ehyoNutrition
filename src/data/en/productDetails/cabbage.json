@@ -1,108 +1,305 @@
 {
-  "slug": "cabbage",
-  "name": "Green Cabbage",
-  "category": "Vegetables & Greens",
-  "image": "/productinfo/cabbage.png",
-  "imageAlt": "fresh green cabbage head",
-  "description": "Green cabbage is an elite, sulfur-rich brassica whole food matrix. Packed with highly specialized glucosinolates that convert into *sulforaphane*, unique anti-ulcer *glutamine* fractions, and a heavy distribution of coagulating Vitamin K1, it serves as a premier functional asset for deep hepatic phase-II detoxification, gastrointestinal mucosal repair, and vascular defense.",
-  "macroTitle": "Macro Nutrients (per 100g, raw)",
-  "macroIntro": "The macronutrient framework of raw cabbage yields an exceptionally low-calorie, hyper-hydrating structural profile designed to deliver therapeutic sulfur compounds and crisp insoluble fibers without adding excess energy storage.",
-  "microIntro": "Cabbage houses a potent network of water-soluble antioxidant coenzymes, bone-remodeling catalysts, and specialized organosulfur compounds that drive master cellular defense networks.",
+  "slug": "cabbage-raw",
+  "name": "Cabbage, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "25 kcal / 1% DV",
-      "bg": "#15837c",
-      "description": "An exceptionally low caloric footprint, providing an immense yield of essential cellular antioxidants per calorie without excess biological storage."
+      "amount": "25 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "1.3 g / 3% DV",
-      "bg": "#f5722c",
-      "description": "Provides basic plant-based amino acid fractions, rich in L-glutamine, which serves as the primary structural fuel for intestinal lining cells."
+      "amount": "1.28 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "0.1 g / 0% DV",
-      "bg": "#e4a910",
-      "description": "Virtually fat-free, enabling rapid gastric clearance and immediate assimilation of its primary water-soluble vitamins and active phytonutrients."
-    },
-    {
-      "id": 15,
+      "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "5.8 g / 2% DV",
-      "bg": "#15837c",
-      "description": "Composed of slow-absorbing natural complex sugars tightly bundled with tough, low-glycemic structural cellulose fibers."
+      "amount": "5.8 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.1 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.5 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.017 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.017 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Micro Nutrients (per 100g)",
   "microNutrients": [
     {
-      "id": 24,
-      "name": "Vitamin K1 (Phylloquinone)",
-      "slug": "vitamin-k",
-      "amount": "76.0 mcg / 63% DV",
-      "bg": "#15837c",
-      "description": "A dense concentration of phylloquinone, absolutely required by the liver for synthesizing blood coagulation factors and activating bone-mineralization proteins."
-    },
-    {
-      "id": 11,
-      "name": "Vitamin C (Ascorbic Acid)",
+      "id": "1",
+      "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": "36.6 mg / 41% DV",
-      "bg": "#f5722c",
-      "description": "A robust pool of water-soluble ascorbic acid that drives deep white blood cell protection, collagen synthesis, and systemic free-radical scavenging."
+      "amount": "36.6 mg"
     },
     {
-      "id": 98,
-      "name": "Glucosinolates (Sulforaphane Precursors)",
-      "slug": "antioxidants",
-      "amount": "High Bioactivity",
-      "bg": "#66ab63",
-      "description": "Sulfur-based compounds that, when enzymatically broken down, trigger the body's most potent internal cellular defense and detoxification pathways."
+      "id": "2",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
     },
     {
-      "id": 25,
-      "name": "Vitamin B9 (Folate)",
-      "slug": "vitamin-b9",
-      "amount": "43 mcg / 11% DV",
-      "bg": "#e4a910",
-      "description": "An essential coenzyme driving optimal DNA replication, amino acid metabolism, and supporting proper tissue growth loops."
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "5 mcg"
     },
     {
-      "id": 17,
-      "name": "Dietary Fiber",
-      "slug": "fiber",
-      "amount": "2.5 g / 9% DV",
-      "bg": "#1a96cd",
-      "description": "Packed with high-quality insoluble cellulose that adds physical bulk to the stool, optimizing peristalsis and sweeping the digestive tract."
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.15 mg"
     },
     {
-      "id": 22,
-      "name": "Vitamin B6 (Pyridoxine)",
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "76 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.061 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.04 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.234 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.212 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": "0.1 mg / 7% DV",
-      "bg": "#1a96cd",
-      "description": "A vital metabolic cofactor that assists in continuous transamination pathways and supports steady cellular energy conversion."
+      "amount": "0.124 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "43 mcg DFE"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "40 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "26 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "12 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "18 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "170 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.47 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.18 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.019 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.16 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": "43",
+      "name": "Fluoride",
+      "slug": "fluoride",
+      "amount": "1 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "2.5 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "10.7 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "42 mcg"
+    },
+    {
+      "id": "61",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "11 mg"
+    },
+    {
+      "id": "56",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.022 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.041 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.044 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.012 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.032 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.035 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.011 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.042 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.075 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.019 g"
     }
-  ],
-  "healthBenefits": [
-    "<b>Hepatic Phase-II Detoxification Blast:</b> Chewing or cutting cabbage activates the enzyme *myrosinase*, converting native glucosinolates into *isothiocyanates* that dramatically accelerate the liver's neutralization of environmental chemical stressors.",
-    "<b>Gastrointestinal Mucosal Core Repair:</b> Concentrated baseline stores of the amino acid L-glutamine work in perfect coordination with unique organic juices to rapidly fuel enterocyte replication, shielding and sealing the stomach lining.",
-    "<b>Vascular Coagulation & Bone Calibration:</b> Abundant distributions of Vitamin K1 optimize baseline blood-clotting cascades while structurally helping direct free-floating calcium out of arterial walls and into the skeletal matrix.",
-    "<b>Intestinal Clearance & Peristalsis Mastery:</b> The rigid insoluble cellulose network passes completely intact into the lower bowel, accelerating waste elimination, preventing gastric stasis, and physically polishing the intestinal lumen."
-  ],
-  "precautionsIntro": "Even though cabbage operates as an elite botanical asset, its unique sulfur density, thyroid-modulating compounds, and mechanical fibers require explicit dietary tracking parameters.",
-  "precautions": [
-    "<b>Goitrogenic Progoitrin Competitive Binding:</b> Raw cabbage contains mild goitrogens that can theoretically interfere with systemic iodine uptake by the thyroid gland. For individuals navigating an active baseline of hypothyroidism, applying thermal heat (cooking, steaming) completely deactivates these compounds.",
-    "<b>Intestinal Fermentation & Oligosaccharide Gas:</b> Cabbage houses complex trisaccharides like *raffinose* that resist initial stomach breakdown. When they reach the lower colon, intensive bacterial fermentation can provoke sharp bloating or flatulence in sensitive or inflamed digestive profiles.",
-    "<b>Coumarin-K1 Anti-Coagulation Interference:</b> Due to the high concentration of coagulating Vitamin K1, individuals undergoing pharmaceutical blood-thinning therapies (like Warfarin) must maintain a highly consistent, tracked intake level to prevent altering medical coagulation targets.",
-    "<b>Crude Cellulose Gastric Irritation:</b> The tough structural cell walls of raw cabbage can act as an aggressive mechanical irritant to highly inflamed digestive linings, such as during acute flare-ups of gastritis or IBD, making cooked or fermented formats heavily preferred."
   ]
 }

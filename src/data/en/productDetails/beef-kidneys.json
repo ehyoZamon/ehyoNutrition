@@ -1,107 +1,209 @@
 {
-  "slug": "beef-kidneys",
-  "name": "Beef Kidneys",
-  "category": "Meat & Offal",
-  "image": "/productinfo/beef-kidneys.png",
-  "imageAlt": "beef kidneys",
-  "description": "Beef kidneys (Ren bovis) represent an elite, nutrient-dense glandular tissue prioritized in advanced nutritional protocols for their exceptional micronutrient density. As a critical filtration organ, they harbor a unique biological matrix enriched with high-potency cobalt-complexes (B12), selenium-dependent enzymes, and active metabolic cofactors. This tissue serves as a robust physiological catalyst for cellular detoxification pathways, intensive hematopoiesis, and the maintenance of mitochondrial energy homeostasis.",
-  "macroTitle": "Macro Nutrients (per 100g, simmered)",
-  "macroIntro": "A highly lean, protein-centric metabolic architecture that provides superior amino acid profiles while maintaining negligible caloric and lipid surplus.",
-  "microIntro": "A staggering repository of bioavailable trace elements and neuro-regulatory cofactors that exceed standard nutritional baselines by orders of magnitude.",
+  "slug": "beef-variety-meats-and-by-products-kidneys-raw",
+  "name": "Beef, kidneys, raw",
+  "category": "Beef Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
   "macroNutrients": [
     {
       "id": "calories",
       "name": "Calories",
       "slug": "",
-      "amount": "134 kcal / 7% DV",
-      "bg": "#15837c",
-      "description": "Energy yield facilitating basal metabolism and intensive tissue repair with high nutrient-to-calorie density."
+      "amount": "99 kcal"
     },
     {
-      "id": 14,
+      "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "23.5 g / 47% DV",
-      "bg": "#f5722c",
-      "description": "Premium proteomic source with a high biological value, supplying essential amino acids for continuous cellular turnover."
+      "amount": "17.40 g"
     },
     {
-      "id": 16,
-      "name": "Total Fat",
-      "slug": "fats",
-      "amount": "4.1 g / 5% DV",
-      "bg": "#e4a910",
-      "description": "Extremely restrictive lipid footprint, contributing to clean metabolic fuel when pre-processed of extraneous adipose deposits."
-    },
-    {
-      "id": 15,
-      "name": "Total Carbohydrates",
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "0.0 g / 0% DV",
-      "bg": "#15837c",
-      "description": "Zero-glycemic load, ensuring complete insulinemic stability and maintenance of glycemic equilibrium."
+      "amount": "0.29 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "3.09 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
     }
   ],
+  "microTitle": "Vitamins & Minerals (per 100g)",
   "microNutrients": [
     {
-      "id": 25,
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "9.4 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "1.1 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "419 mcg RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.22 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.357 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "2.84 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "8.03 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "3.97 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.665 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "98 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
       "name": "Vitamin B12",
       "slug": "vitamin-b12",
-      "amount": "24.9 mcg / 1038% DV",
-      "bg": "#1a96cd",
-      "description": "Monumental coenzyme concentration essential for erythropoiesis, nerve myelin preservation, and DNA synthesis loops."
+      "amount": "27.5 mcg"
     },
     {
-      "id": 37,
-      "name": "Selenium",
-      "slug": "selenium",
-      "amount": "141 mcg / 256% DV",
-      "bg": "#66ab63",
-      "description": "High-potency antioxidant essential for glutathione peroxidase activation and thyroid hormone metabolic regulation."
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "13 mg"
     },
     {
-      "id": 26,
-      "name": "Vitamin B2 (Riboflavin)",
-      "slug": "vitamin-b2",
-      "amount": "2.8 mg / 215% DV",
-      "bg": "#f5722c",
-      "description": "Elite mitochondrial cofactor driving ATP generation and systemic detoxification pathways."
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "257 mg"
     },
     {
-      "id": 32,
-      "name": "Iron (Heme)",
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "17 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "182 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "262 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
       "slug": "iron",
-      "amount": "5.4 mg / 30% DV",
-      "bg": "#e4a910",
-      "description": "Highly bioavailable heme-iron source, critical for accelerated hemoglobin synthesis and oxygen-carrying capacity."
+      "amount": "4.6 mg"
     },
     {
-      "id": 140,
-      "name": "Vitamin B5 (Pantothenic Acid)",
-      "slug": "vitamin-b5",
-      "amount": "3.6 mg / 72% DV",
-      "bg": "#15837c",
-      "description": "Vital for Coenzyme A synthesis, lipid oxidation, and maintaining adrenal cortex hormonal structural integrity."
-    },
-    {
-      "id": 39,
+      "id": "zinc",
       "name": "Zinc",
       "slug": "zinc",
-      "amount": "2.6 mg / 24% DV",
-      "bg": "#1a96cd",
-      "description": "Essential catalytic mineral governing cell division, endocrine signaling, and systemic immunological defense."
+      "amount": "1.92 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.426 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.142 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "141 mcg"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.007 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.292 g"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.535 g"
+    },
+    {
+      "id": "lycopene",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "20 mcg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "0 mcg"
     }
-  ],
-  "healthBenefits": [
-    "<b>Accelerated Hematopoiesis:</b> Synergistic accumulation of heme iron and cobalamin (B12) acts as a primary metabolic driver for rapid red blood cell maturation and endurance.",
-    "<b>Endogenous Antioxidant Potentiation:</b> Elite selenium yields maximize intracellular glutathione peroxidase activity, mitigating oxidative erosion of cellular membranes.",
-    "<b>Mitochondrial Energetic Amplification:</b> B-vitamin cofactors (B2, B5) optimize the flux of the Krebs cycle, effectively mitigating metabolic lethargy.",
-    "<b>Detoxification Co-Factor Supply:</b> Unique mineral and vitamin profiles support enzymatic pathways involved in systemic heavy-metal filtration and hepatic/renal clearance."
-  ],
-  "precautionsIntro": "Due to their role as a filtration organ and extreme nutrient density, precise pre-treatment protocols are required:",
-  "precautions": [
-    "<b>Structural Pre-Processing:</b> Meticulous excision of the hilar adipose core and fibrous tubules is mandatory to eliminate pungent metabolites and optimize culinary quality.",
-    "<b>Purine-Driven Hyperuricemia:</b> As high-purine tissues, usage frequency must be limited for patients with predisposition to gout or elevated serum uric acid levels.",
-    "<b>Cholesterol Density:</b> Despite the lean triglyceride profile, significant natural cholesterol content warrants careful portion monitoring for individuals with hyper-responsive metabolic markers."
   ]
 }
