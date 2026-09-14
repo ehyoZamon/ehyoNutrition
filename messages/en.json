@@ -159,5 +159,21 @@
     "manganese": "Manganese",
     "chloride": "Chloride",
     "selenium": "Selenium"
+  },
+  "Settings":{
+    "male": "male",
+    "female": "female",
+    "title": "Settings",
+    "systemLanguage": "System Language:"
+  },
+  "OnboardingInfo": {
+    "nameQuestion": "What’s your name?",
+    "namePlaceholder": "Enter your name",
+    "next": "Next",
+    "male": "male",
+    "female": "female",
+    "genderQuestion": "What's your gender?",
+    "birthdateQuestion": "Enter your birthdate",
+    "birthdatePlaceholder": "DD/MM/YYYY"
   }
 }

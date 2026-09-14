@@ -159,5 +159,22 @@
     "manganese": "Марганец",
     "chloride": "Хлорид",
     "selenium": "Селен"
+  },
+  "Settings":{
+    "male": "мужчина",
+    "female": "женщина",
+    "settings": "Настройки",
+    "systemLanguage": "Язык системы:",
+    "title": "Настройки"
+  },
+  "OnboardingInfo":{
+    "next": "Далее",
+    "nameQuestion": "Как вас зовут?",
+    "namePlaceholder": "Введите ваше имя",
+    "male": "мужчина",
+    "female": "женщина",
+    "genderQuestion": "Какой у вас пол?",
+    "birthdateQuestion": "Введите вашу дату рождения",
+    "birthdatePlaceholder": "ДД/ММ/ГГГГ"
   }
 }

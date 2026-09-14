@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useLocale } from 'next-intl';
-import styles from '../app/main/main.module.css'; // Укажи правильный путь к своим стилям
+import styles from '../app/settings/settings.module.css'; // Укажи правильный путь к своим стилям
 
 export function LanguageSwitcher() {
   const [mounted, setMounted] = useState(false);
