@@ -22,8 +22,7 @@ import styles from "./foodDiary.module.css";
 import DailyValueModule from "@/components/daily-value/dailyValueModule";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
-import { computeDailyValueData } from "@/lib/dailyValue";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { computeDailyValueData, emptyDailyValueData } from "@/lib/dailyValue";
 
 import {
   addDiaryEntry,
@@ -32,11 +31,13 @@ import {
   getDatesWithEntriesInRange,
 } from "@/lib/diary";
 import { parseServingInfo, formatAmountLabel } from "@/lib/servingInfo";
+import { loadProductDetail } from "@/lib/productDetail";
+import { getUserProfile, UserProfile } from "@/lib/userProfile";
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
-import productDetailsRu from "@/data/ru/productDetails.json";
-import productDetailsEn from "@/data/en/productDetails.json";
+// productDetails is now one file per product slug (see lib/productDetail.ts)
+// instead of a single productDetails.json — loaded on demand below.
 
 // ---- Types ----
 type DayTone = "green" | "coral" | "muted";
@@ -76,17 +77,40 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     return map;
   }, [locale]);
 
-  const productDetailsData = useMemo(() => {
-    return locale === "ru" ? productDetailsRu : productDetailsEn;
-  }, [locale]);
+  // Personal info (birth date + gender) needed to resolve which DRI
+  // bracket applies — loaded once, from the same storage onboarding writes to.
+  const [profile, setProfile] = useState<UserProfile | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    getUserProfile().then((p) => {
+      if (!cancelled) setProfile(p);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
-  const dailyValueData = useMemo(() => {
-    return computeDailyValueData(
+  // computeDailyValueData is now async (it loads per-product nutrient files
+  // and the user's personal DRI), so its result lives in state instead of a
+  // synchronous useMemo.
+  const [dailyValueData, setDailyValueData] = useState(emptyDailyValueData());
+
+  useEffect(() => {
+    let cancelled = false;
+
+    computeDailyValueData(
       entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
       productMap,
-      productDetailsData
-    );
-  }, [entryList, productMap, productDetailsData]);
+      locale === "ru" ? "ru" : "en",
+      profile
+    ).then((data) => {
+      if (!cancelled) setDailyValueData(data);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [entryList, productMap, locale, profile]);
 
   // ---- Сетка недель ----
   const weeks = useMemo(() => {
@@ -112,38 +136,41 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     async (date: Date) => {
       const dateStr = format(date, "yyyy-MM-dd");
       const rows = await getDiaryEntriesByDate(dateStr);
+      const productLocale = locale === "ru" ? "ru" : "en";
 
-      const mapped: FoodEntry[] = rows.map((row) => {
-        const product = productMap.get(row.product_id);
+      const mapped: FoodEntry[] = await Promise.all(
+        rows.map(async (row) => {
+          const product = productMap.get(row.product_id);
 
-        if (!product) {
+          if (!product) {
+            return {
+              id: row.id,
+              productId: row.product_id,
+              emoji: "/nothing-found.svg",
+              label: "Unknown product",
+              amount: `${row.amount}g`,
+              grams: row.amount,
+            };
+          }
+
+          const slug = product.link.substring(product.link.lastIndexOf("/") + 1);
+          const detail = await loadProductDetail(productLocale, slug);
+          const servingInfo = parseServingInfo(detail?.macroTitle);
+
           return {
             id: row.id,
             productId: row.product_id,
-            emoji: "/nothing-found.svg",
-            label: "Unknown product",
-            amount: `${row.amount}g`,
+            emoji: product.image,
+            label: product.name,
+            amount: formatAmountLabel(row.amount, servingInfo),
             grams: row.amount,
           };
-        }
-
-        const slug = product.link.substring(product.link.lastIndexOf("/") + 1);
-        const detail = (productDetailsData as any)[slug];
-        const servingInfo = parseServingInfo(detail?.macroTitle);
-
-        return {
-          id: row.id,
-          productId: row.product_id,
-          emoji: product.image,
-          label: product.name,
-          amount: formatAmountLabel(row.amount, servingInfo),
-          grams: row.amount,
-        };
-      });
+        })
+      );
 
       setEntryList(mapped);
     },
-    [productMap, productDetailsData]
+    [productMap, locale]
   );
 
   // ---- Загрузка "покрашенных" дат для текущей сетки календаря ----
@@ -329,7 +356,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
           </button>
         )}
 
-        {dailyValueData && <DailyValueModule {...dailyValueData} />}
+        <DailyValueModule {...dailyValueData} />
       </div>
 
       <AddFoodSheet

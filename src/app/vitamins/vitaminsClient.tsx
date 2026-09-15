@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from "next-intl";
 
 import styles from "./vitamins.module.css";
 import { loadFavorites, toggleVitaminFavorite } from "@/lib/favorites";
+import VitaminDetailSheet from "@/components/VitaminDetailSheet/VitaminDetailSheet";
 
 // Типизация структуры объекта витамина
 type VitaminItem = {
@@ -46,6 +47,10 @@ const ORGANS: { key: string; en: string; ru: string; icon: string }[] = [
   { key: "metabolism", en: "Metabolism & energy", ru: "Метаболизм и энергия", icon: "⚡" },
 ];
 
+// Slug из ссылки вида "/vitamininfo/vitamin-c" -> "vitamin-c".
+// Именно под такими ключами хранятся данные в vitaminDRI.json.
+const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
+
 const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   const t = useTranslations("Vitamins"); // Используем пространство имен из локализации интерфейса
   const locale = useLocale(); // Опознаем текущий язык ('ru' или 'en')
@@ -59,6 +64,9 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   const [selectedOrgan, setSelectedOrgan] = useState<string | null>(null);
   const [showFilter, setShowFilter] = useState(false);
   const [vitamins, setVitamins] = useState<VitaminItem[]>(currentData);
+
+  // slug of the vitamin whose DRI sheet is currently open, if any
+  const [openedSlug, setOpenedSlug] = useState<string | null>(null);
 
   // Синхронизируем состояние витаминов, если язык изменился на лету
   useEffect(() => {
@@ -109,6 +117,10 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
     setSelectedOrgan(null);
     setShowFilter(false);
   };
+
+  const openedVitamin = openedSlug
+    ? vitamins.find((v) => getSlug(v.link) === openedSlug)
+    : null;
 
   return (
     <div className={styles["main-layout"]}>
@@ -173,10 +185,17 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
       <div className={styles["content"]}>
         {filteredVitamins.map((vitamin) => (
           <div className={styles["vitamin"]} key={vitamin.id}>
-            <Link
-              href={vitamin.link}
-              prefetch={false}
+            <div
               className={styles["vitamin-img-container"]}
+              role="button"
+              tabIndex={0}
+              onClick={() => setOpenedSlug(getSlug(vitamin.link))}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setOpenedSlug(getSlug(vitamin.link));
+                }
+              }}
             >
               <Image
                 src="/vitamins/molecule.svg"
@@ -186,12 +205,19 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
                 className={styles["molecule"]}
               />
               <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
-            </Link>
+            </div>
 
-            <Link
-              href={vitamin.link}
+            <div
               className={styles["vitamin-details"]}
-              prefetch={false}
+              role="button"
+              tabIndex={0}
+              onClick={() => setOpenedSlug(getSlug(vitamin.link))}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setOpenedSlug(getSlug(vitamin.link));
+                }
+              }}
             >
               <div className={styles["vitamin-name"]}>
                 {vitamin.name}
@@ -203,7 +229,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
               <div className={styles["vitamin-benefit"]}>
                 {t("benefit")}: {vitamin.benefit}
               </div>
-            </Link>
+            </div>
 
             <div
               className={styles["put-to-favorite"]}
@@ -255,6 +281,15 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
           </Link>
         </div>
       </div>
+
+      {/* 🧾 Вкладка с дозировками (DRI) */}
+      {openedVitamin && (
+        <VitaminDetailSheet
+          slug={getSlug(openedVitamin.link)}
+          basicInfo={{ name: openedVitamin.name, image: openedVitamin.image }}
+          onClose={() => setOpenedSlug(null)}
+        />
+      )}
     </div>
   );
 };

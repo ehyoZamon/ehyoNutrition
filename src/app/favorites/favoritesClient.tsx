@@ -14,9 +14,17 @@ import vitaminsEn from "@/data/en/vitamins.json";
 import vitaminsRu from "@/data/ru/vitamins.json";
 
 import { loadFavorites, toggleProductFavorite, toggleVitaminFavorite } from "@/lib/favorites";
+import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailSheet";
+import VitaminDetailSheet from "@/components/VitaminDetailSheet/VitaminDetailSheet";
 
 type ProductItem = (typeof productsEn)[number];
 type VitaminItem = (typeof vitaminsEn)[number];
+
+// Slug из ссылки вида "/productinfo/apple" или "/vitamininfo/vitamin-c"
+// -> "apple" / "vitamin-c". Тем же способом, что и в productsClient /
+// vitaminsClient, — под эти ключи заведены productDetails/*.json и
+// vitaminDRI.json.
+const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
 
 const FavoritesClient = () => {
   const t = useTranslations("Favorites");
@@ -26,6 +34,10 @@ const FavoritesClient = () => {
   const [favoriteProductIds, setFavoriteProductIds] = useState<number[]>([]);
   const [favoriteVitaminIds, setFavoriteVitaminIds] = useState<number[]>([]);
   const [isReady, setIsReady] = useState(false);
+
+  // slug of the product/vitamin whose detail sheet is currently open, if any
+  const [openedProductSlug, setOpenedProductSlug] = useState<string | null>(null);
+  const [openedVitaminSlug, setOpenedVitaminSlug] = useState<string | null>(null);
 
   // Определяем, какой набор данных использовать на основе локали
   const currentProductsData = (locale === "ru" ? productsRu : productsEn) as ProductItem[];
@@ -80,6 +92,14 @@ const FavoritesClient = () => {
   const isEmpty =
     isReady && favoriteProducts.length === 0 && favoriteVitamins.length === 0;
 
+  const openedProduct = openedProductSlug
+    ? favoriteProducts.find((p) => getSlug(p.link) === openedProductSlug)
+    : null;
+
+  const openedVitamin = openedVitaminSlug
+    ? favoriteVitamins.find((v) => getSlug(v.link) === openedVitaminSlug)
+    : null;
+
   return (
     <div className={styles["main-layout"]}>
       <header className={styles["header"]}>
@@ -106,10 +126,17 @@ const FavoritesClient = () => {
             <h2 className={styles["section-title"]}>{t("productsSection")}</h2>
             {favoriteProducts.map((product) => (
               <div className={styles["product"]} key={`product-${product.id}`}>
-                <Link
-                  prefetch={false}
-                  href={product.link}
+                <div
                   className={styles["product-img-container"]}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setOpenedProductSlug(getSlug(product.link))}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setOpenedProductSlug(getSlug(product.link));
+                    }
+                  }}
                 >
                   <Image
                     src={product.image}
@@ -117,9 +144,20 @@ const FavoritesClient = () => {
                     width={48}
                     height={48}
                   />
-                </Link>
+                </div>
 
-                <Link prefetch={false} href={product.link} className={styles["product-details"]}>
+                <div
+                  className={styles["product-details"]}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setOpenedProductSlug(getSlug(product.link))}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setOpenedProductSlug(getSlug(product.link));
+                    }
+                  }}
+                >
                   <div className={styles["product-name"]}>{product.name}</div>
                   <div className={styles["product-category"]}>
                     {product.category}
@@ -127,7 +165,7 @@ const FavoritesClient = () => {
                   <div className={styles["product-calories"]}>
                     {t("calories")}: {product.calories}
                   </div>
-                </Link>
+                </div>
 
                 <button
                   type="button"
@@ -152,10 +190,17 @@ const FavoritesClient = () => {
             <h2 className={styles["section-title"]}>{t("vitaminsSection")}</h2>
             {favoriteVitamins.map((vitamin) => (
               <div className={styles["vitamin"]} key={`vitamin-${vitamin.id}`}>
-                <Link
-                  prefetch={false}
-                  href={vitamin.link}
+                <div
                   className={styles["vitamin-img-container"]}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setOpenedVitaminSlug(getSlug(vitamin.link))}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setOpenedVitaminSlug(getSlug(vitamin.link));
+                    }
+                  }}
                 >
                   <Image
                     src="/vitamins/molecule.svg"
@@ -165,9 +210,20 @@ const FavoritesClient = () => {
                     className={styles["molecule"]}
                   />
                   <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
-                </Link>
+                </div>
 
-                <Link prefetch={false} href={vitamin.link} className={styles["vitamin-details"]}>
+                <div
+                  className={styles["vitamin-details"]}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setOpenedVitaminSlug(getSlug(vitamin.link))}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setOpenedVitaminSlug(getSlug(vitamin.link));
+                    }
+                  }}
+                >
                   <div className={styles["vitamin-name"]}>{vitamin.name}</div>
                   <div className={styles["vitamin-daily-value"]}>
                     {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
@@ -175,7 +231,7 @@ const FavoritesClient = () => {
                   <div className={styles["vitamin-benefit"]}>
                     {t("benefit")}: {vitamin.benefit}
                   </div>
-                </Link>
+                </div>
 
                 <button
                   type="button"
@@ -213,6 +269,26 @@ const FavoritesClient = () => {
             <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
           </Link>
         </div>
+
+      {/* 🧾 Вкладка с составом продукта */}
+      {openedProduct && (
+        <ProductDetailSheet
+          slug={getSlug(openedProduct.link)}
+          locale={locale}
+          basicInfo={{ name: openedProduct.name, image: openedProduct.image }}
+          fullInfoHref={openedProduct.link}
+          onClose={() => setOpenedProductSlug(null)}
+        />
+      )}
+
+      {/* 🧾 Вкладка с дозировками (DRI) */}
+      {openedVitamin && (
+        <VitaminDetailSheet
+          slug={getSlug(openedVitamin.link)}
+          basicInfo={{ name: openedVitamin.name, image: openedVitamin.image }}
+          onClose={() => setOpenedVitaminSlug(null)}
+        />
+      )}
     </div>
   );
 };

@@ -68,7 +68,15 @@
   "Products": {
     "searchPlaceholder": "Search products, fruits, vegetables...",
     "calories": "Calories",
-    "nothingFound": "Nothing found"
+    "nothingFound": "Nothing found",
+    "close": "Close",
+    "units": {
+      "mg": "mg",
+      "mcg": "mcg",
+      "g": "g",
+      "kg": "kg",
+      "kcal": "ккал"
+    }
   },
   "ProductInfo": {
     "clickToLearnMore": "(Click to learn more)",
@@ -82,7 +90,34 @@
     "searchPlaceholder": "Search vitamins, fat, minerals...",
     "dailyValue": "Daily value",
     "benefit": "Benefit",
-    "nothingFound": "Nothing found"
+    "nothingFound": "Nothing found",
+    "dri":{
+      "units": {
+        "mg": "mg",
+        "mcg": "mcg",
+        "g": "g",
+        "kg": "kg"
+      },
+      "close": "Close",
+      "title": "DRI (Dietary Reference Intakes)",
+      "ages":{
+        "infants0to6": "Infants (0-6 months)",
+        "infants7to12": "Infants (0-12 months)",
+        "young1to3": "Young (1-3 years)",
+        "preschool4to8": "Preschool (4-8 years)",
+        "schoolAge9to13": "School-age (9-13 years)",
+        "teens14to18": "Teens (14-18 years)",
+        "adults19to30": "Adults (19-30 years)",
+        "middleAged31to50": "Middle-aged (31-50 years)",
+        "olderAdults51to70": "Older adults (51-70 years)",
+        "elderly71plus": "Elderly (71+ years)"
+      },
+      "groups":{
+        "woman": "Female",
+        "man": "Male",
+        "children": "Children"
+      }
+    }
   },
   "VitaminInfo": {
     "keyFunctions": "Key Functions",

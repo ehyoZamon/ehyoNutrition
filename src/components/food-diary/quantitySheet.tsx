@@ -7,8 +7,9 @@ import { useLocale, useTranslations} from "next-intl";
 import styles from "./quantitySheet.module.css";
 import { DiaryProduct } from "./addFoodSheet";
 
-import productDetailsRu from "@/data/ru/productDetails.json";
-import productDetailsEn from "@/data/en/productDetails.json";
+// productDetails is now one file per product slug (see lib/productDetail.ts)
+// instead of a single productDetails.json — loaded on demand below.
+import { loadProductDetail, ProductDetail } from "@/lib/productDetail";
 // components/food-diary/QuantitySheet.tsx
 import { parseServingInfo, ServingInfo } from "@/lib/servingInfo";
 
@@ -25,12 +26,26 @@ const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) =>
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
 
-  const productDetailsData = useMemo(() => {
-    return locale === "ru" ? productDetailsRu : productDetailsEn;
-  }, [locale]);
-
   const slug = product ? product.link.substring(product.link.lastIndexOf("/") + 1) : "";
-  const detail = product ? (productDetailsData as any)[slug] : null;
+
+  const [detail, setDetail] = useState<ProductDetail | null>(null);
+
+  // Fetch this one product's detail file whenever the sheet opens for a
+  // (possibly new) product — per-slug files are cached in lib/productDetail,
+  // so re-opening a product already seen this session resolves instantly.
+  useEffect(() => {
+    if (!open || !slug) {
+      setDetail(null);
+      return;
+    }
+    let cancelled = false;
+    loadProductDetail(locale === "ru" ? "ru" : "en", slug).then((d) => {
+      if (!cancelled) setDetail(d);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [open, slug, locale]);
 
   const servingInfo = useMemo(() => parseServingInfo(detail?.macroTitle), [detail]);
 
@@ -41,7 +56,7 @@ const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) =>
       setQuantity(servingInfo.baseAmount);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open, product?.id]);
+  }, [open, product?.id, servingInfo.baseAmount]);
 
   if (!open || !product) return null;
 

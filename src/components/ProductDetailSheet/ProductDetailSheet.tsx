@@ -48,11 +48,38 @@ async function loadProductDetail(locale: string, slug: string): Promise<ProductD
   return (mod.default ?? mod) as ProductDetail;
 }
 
+// Unit abbreviations that show up inside nutrient amounts (e.g. "16 g",
+// "230 mg"). \b-bounded so "mg" inside "mg/kg" is matched on its own and a
+// bare "g" never matches the "g" inside "mg"/"kg". Same set/approach as
+// VitaminDetailSheet's localizeDRIValue — kept local to this file rather
+// than a shared util, on purpose.
+const UNIT_KEYS = ["mg", "mcg", "kg", "g", "kcal"] as const;
+
+const localizeUnits = (
+  raw: string,
+  translateUnit: (unit: (typeof UNIT_KEYS)[number]) => string
+): string => {
+  let result = raw;
+  for (const unit of UNIT_KEYS) {
+    const translated = translateUnit(unit);
+    result = result.replace(new RegExp(`\\b${unit}\\b`, "g"), () => translated);
+  }
+  return result;
+};
+
 const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: Props) => {
   const t = useTranslations("Products");
   const [detail, setDetail] = useState<ProductDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [visible, setVisible] = useState(false);
+
+  const translateUnit = (unit: (typeof UNIT_KEYS)[number]) => {
+    try {
+      return t(`units.${unit}`);
+    } catch {
+      return unit;
+    }
+  };
 
   // Load only this product's file when the sheet opens.
   useEffect(() => {
@@ -135,7 +162,9 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
               {macroCalories && (
                 <div className={styles.macroCol}>
                   <span className={styles.macroLabel}>{macroCalories.name}</span>
-                  <span className={styles.macroValue}>{parseAmount(macroCalories.amount).value}</span>
+                  <span className={styles.macroValue}>
+                    {localizeUnits(parseAmount(macroCalories.amount).value, translateUnit)}
+                  </span>
                 </div>
               )}
               {macro.slice(0, 3).map((n) => {
@@ -143,16 +172,12 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
                 return (
                   <div className={styles.macroCol} key={n.id}>
                     <span className={styles.macroLabel}>{n.name}</span>
-                    <span className={styles.macroValue}>{value}</span>
+                    <span className={styles.macroValue}>{localizeUnits(value, translateUnit)}</span>
                   </div>
                 );
               })}
             </div>
           )}
-
-          <div className={styles.listHeader}>
-            <span>Daily value</span>
-          </div>
 
           {loading && !detail && (
             <div className={styles.loadingRows}>
@@ -170,7 +195,7 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
                   <span className={styles.rowName}>
                     {n.name} 
                   </span>
-                  <span className={styles.rowValue}>{value}</span>
+                  <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
                 </div>
               );
             })}
@@ -182,7 +207,7 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
 
         <div className={styles.closeButtonWrap}>
           <button type="button" className={styles.closeButton} onClick={handleClose}>
-            Close
+            {t("close")}
           </button>
         </div>
       </div>

@@ -1,162 +1,184 @@
 // lib/dailyValue.ts
+//
+// Turns "which products + how many grams the user logged today" into the
+// percentages DailyValueModule renders.
+//
+// Old behaviour: productDetails.json carried a pre-computed %DV per
+// nutrient, fixed for a generic 2,000-kcal adult — computeDailyValueData
+// just summed those percents.
+//
+// New behaviour: productDetails/<slug>.json instead carries the *absolute*
+// amount of each nutrient per 100g (see almonds.json), and the recommended
+// amount now comes from vitaminDRI.json, which is personalized by the
+// user's age + gender (see lib/nutritionDRI.ts). So this file now:
+//   1. loads the product detail for every distinct product logged today,
+//   2. sums each nutrient's consumed amount (scaled by grams/100) in mg,
+//   3. divides by that nutrient's recommended mg for the user's DRI bracket.
+//
+// Because step 1 is now an async import per product, this function is async
+// — callers (foodDiaryClient.tsx) hold the result in state instead of a
+// synchronous useMemo.
 
-export type DailyValueData = {
-  vitaminsOverallPercent: number;
-  vitaminPercents: Record<string, number>;
-  caloriesPercent: number;
-  macrosOverallPercent: number;
-  macroPercents: Record<string, number>;
-  mineralsOverallPercent: number;
-  mineralPercents: Record<string, number>;
+import {
+  DailyValueModuleProps,
+  MACRO_ITEMS,
+  MINERAL_ITEMS,
+  PercentMap,
+  VITAMIN_PRIMARY,
+  VITAMIN_SECONDARY,
+} from "@/components/daily-value/dailyValueModule";
+import {
+  ASSUMED_DAILY_CALORIES,
+  getRecommendedMg,
+  loadVitaminDRI,
+  parseAmountToMg,
+  resolveDRIContext,
+  SimpleUserProfile,
+} from "@/lib/nutritionDRI";
+import { loadProductDetails, ProductDetail } from "@/lib/productDetail";
+
+export type DiaryEntryInput = { productId: number; grams: number };
+
+// Only the fields computeDailyValueData actually needs from a DiaryProduct.
+export type ProductLinkLookup = { link: string };
+
+// Bridges the *short* keys dailyValueModule.tsx renders with (used for CSS/
+// i18n, e.g. "carbs") to the canonical slugs shared by vitaminDRI.json and
+// productDetails' nutrient ids (e.g. "carbohydrates"). Every other module key
+// (vitamin-*, all minerals) is already identical to its slug, so only macros
+// need an explicit table.
+const MACRO_KEY_TO_SLUG: Record<string, string> = {
+  fat: "fats",
+  fiber: "fiber",
+  protein: "protein",
+  carbs: "carbohydrates",
 };
 
-const VITAMIN_KEYS = ["a", "c", "d", "k", "e", "b1", "b2", "b3", "b5", "b6", "b7", "b9", "b12"];
-const MACRO_KEYS = ["fat", "fiber", "protein", "carbs"];
-const MINERAL_KEYS = ["sodium", "potassium", "calcium", "iron", "magnesium", "phosphorus", "zinc", "copper"];
-
-type Category = "vitamin" | "macro" | "mineral";
-
-// Карта соответствий slug'ов из productDetails.json -> канонические ключи.
-// Если в реальных данных встретятся другие варианты написания — дополнить здесь.
-const NUTRIENT_SLUG_MAP: Record<string, { category: Category; key: string }> = {
-  "vitamin-a": { category: "vitamin", key: "a" },
-  "vitamin-c": { category: "vitamin", key: "c" },
-  "vitamin-d": { category: "vitamin", key: "d" },
-  "vitamin-k": { category: "vitamin", key: "k" },
-  "vitamin-e": { category: "vitamin", key: "e" },
-  "vitamin-b1": { category: "vitamin", key: "b1" },
-  "thiamin": { category: "vitamin", key: "b1" },
-  "vitamin-b2": { category: "vitamin", key: "b2" },
-  "riboflavin": { category: "vitamin", key: "b2" },
-  "vitamin-b3": { category: "vitamin", key: "b3" },
-  "niacin": { category: "vitamin", key: "b3" },
-  "vitamin-b5": { category: "vitamin", key: "b5" },
-  "pantothenic-acid": { category: "vitamin", key: "b5" },
-  "vitamin-b6": { category: "vitamin", key: "b6" },
-  "vitamin-b7": { category: "vitamin", key: "b7" },
-  "biotin": { category: "vitamin", key: "b7" },
-  "vitamin-b9": { category: "vitamin", key: "b9" },
-  "folate": { category: "vitamin", key: "b9" },
-  "folic-acid": { category: "vitamin", key: "b9" },
-  "vitamin-b12": { category: "vitamin", key: "b12" },
-
-  "fats": { category: "macro", key: "fat" },
-  "fat": { category: "macro", key: "fat" },
-  "fiber": { category: "macro", key: "fiber" },
-  "dietary-fiber": { category: "macro", key: "fiber" },
-  "protein": { category: "macro", key: "protein" },
-  "carbohydrates": { category: "macro", key: "carbs" },
-  "carbs": { category: "macro", key: "carbs" },
-
-  "sodium": { category: "mineral", key: "sodium" },
-  "potassium": { category: "mineral", key: "potassium" },
-  "calcium": { category: "mineral", key: "calcium" },
-  "iron": { category: "mineral", key: "iron" },
-  "magnesium": { category: "mineral", key: "magnesium" },
-  "phosphorus": { category: "mineral", key: "phosphorus" },
-  "zinc": { category: "mineral", key: "zinc" },
-  "copper": { category: "mineral", key: "copper" },
-  "chloride": { category: "mineral", key: "chloride" },
-  "manganese": { category: "mineral", key: "manganese" },
-  "selenium": { category: "mineral", key: "selenium" },
-};
-
-function extractDVPercent(amount: string | undefined): number | null {
-  if (!amount) return null;
-  const match = amount.match(/([\d.]+)\s*%\s*(?:DV|СН)/i);
-  return match ? parseFloat(match[1]) : null;
+function slugForKey(sectionKey: string): string {
+  return MACRO_KEY_TO_SLUG[sectionKey] ?? sectionKey;
 }
 
-// Базовый вес порции, для которой в JSON указаны %DV, в граммах.
-// Для "per 100g" -> 100. Для "per 2 pieces / 100g" -> тоже 100
-// (суммарный вес базовой порции, вне зависимости от того, что она в штуках).
-function getBaseGrams(macroTitle: string | undefined): number {
-  const title = macroTitle || "";
-
-  const match = title.match(/(?:per|на)\s+([\d.]+)\s*(g|г|ml|мл)/i);
-  if (match) return parseFloat(match[1]);
-
-  return 100; // фолбэк
+function productSlugFromLink(link: string): string {
+  return link.substring(link.lastIndexOf("/") + 1);
 }
 
+/** Returns an empty (all-zero) dashboard — used while data is still loading. */
+export function emptyDailyValueData(): DailyValueModuleProps {
+  return {
+    vitaminsOverallPercent: 0,
+    vitaminPercents: {},
+    caloriesPercent: 0,
+    macrosOverallPercent: 0,
+    macroPercents: {},
+    mineralsOverallPercent: 0,
+    mineralPercents: {},
+  };
+}
 
-type DiaryEntryInput = {
-  productId: number;
-  grams: number;
-};
-
-type ProductLike = {
-  id: number;
-  link: string;
-};
-
-export function computeDailyValueData(
+export async function computeDailyValueData(
   entries: DiaryEntryInput[],
-  productMap: Map<number, ProductLike>,
-  productDetailsData: Record<string, any>
-): DailyValueData {
-  const vitaminSums: Record<string, number> = Object.fromEntries(VITAMIN_KEYS.map((k) => [k, 0]));
-  const macroSums: Record<string, number> = Object.fromEntries(MACRO_KEYS.map((k) => [k, 0]));
-  const mineralSums: Record<string, number> = Object.fromEntries(MINERAL_KEYS.map((k) => [k, 0]));
-  let caloriesSum = 0;
+  productMap: Map<number, ProductLinkLookup>,
+  locale: "en" | "ru",
+  profile: SimpleUserProfile | null
+): Promise<DailyValueModuleProps> {
+  if (entries.length === 0) return emptyDailyValueData();
+
+  const ctx = resolveDRIContext(profile);
+
+  const slugByProductId = new Map<number, string>();
+  entries.forEach((entry) => {
+    const product = productMap.get(entry.productId);
+    if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
+  });
+
+  const [driData, detailsBySlug] = await Promise.all([
+    loadVitaminDRI(),
+    loadProductDetails(locale, slugByProductId.values()),
+  ]);
+
+  const detailsByProductId = new Map<number, ProductDetail | null>();
+  slugByProductId.forEach((slug, productId) => {
+    detailsByProductId.set(productId, detailsBySlug.get(slug) ?? null);
+  });
+
+  // consumed amount per nutrient id, in mg, across every logged entry today
+  const consumedMgById = new Map<string, number>();
+  let consumedCalories = 0;
 
   for (const entry of entries) {
-    const product = productMap.get(entry.productId);
-    if (!product) continue;
-
-    const slug = product.link.substring(product.link.lastIndexOf("/") + 1);
-    const detail = productDetailsData[slug];
+    const detail = detailsByProductId.get(entry.productId);
     if (!detail) continue;
 
-    const baseGrams = getBaseGrams(detail.macroTitle);
-    const scale = baseGrams > 0 ? entry.grams / baseGrams : 0;
+    const factor = entry.grams / 100;
 
-    const nutrients = [...(detail.macroNutrients || []), ...(detail.microNutrients || [])];
+    const caloriesRaw = detail.macroNutrients.find((n) => n.id === "calories")?.amount;
+    if (caloriesRaw) {
+      const kcal = parseFloat(caloriesRaw.replace(/[^\d.]/g, ""));
+      if (!Number.isNaN(kcal)) consumedCalories += kcal * factor;
+    }
 
-    for (const n of nutrients) {
-      const dv = extractDVPercent(n.amount);
-      if (dv === null) continue;
-
-      // Калории — особый случай: id === "calories", slug пустой
-      if (n.id === "calories") {
-        caloriesSum += dv * scale;
-        continue;
-      }
-
-      const nutrientSlug = n.slug || n.id;
-      const mapping = NUTRIENT_SLUG_MAP[nutrientSlug];
-      if (!mapping) continue;
-
-      const scaled = dv * scale;
-      if (mapping.category === "vitamin") vitaminSums[mapping.key] += scaled;
-      else if (mapping.category === "macro") macroSums[mapping.key] += scaled;
-      else if (mapping.category === "mineral") mineralSums[mapping.key] += scaled;
+    for (const nutrient of [...detail.macroNutrients, ...detail.microNutrients]) {
+      if (nutrient.id === "calories") continue;
+      // `slug` (not `id`, which is a plain numeric row id like 14, 28, ...)
+      // is what matches vitaminDRI.json's keys, e.g. "protein", "vitamin-a".
+      if (!nutrient.slug) continue;
+      const mg = parseAmountToMg(nutrient.amount);
+      if (mg === null) continue;
+      consumedMgById.set(nutrient.slug, (consumedMgById.get(nutrient.slug) ?? 0) + mg * factor);
     }
   }
 
-  const round = (n: number) => Math.round(n * 10) / 10;
-  const clamp = (n: number) => Math.max(0, Math.min(100, n));
+  const percentForSlug = (slug: string): number | null => {
+    const recommendedMg = getRecommendedMg(driData, slug, ctx, ASSUMED_DAILY_CALORIES);
+    if (recommendedMg === null || recommendedMg <= 0) return null;
+    const consumedMg = consumedMgById.get(slug) ?? 0;
+    return (consumedMg / recommendedMg) * 100;
+  };
 
-  const vitaminPercents = Object.fromEntries(
-    VITAMIN_KEYS.map((k) => [k, round(clamp(vitaminSums[k]))])
-  );
-  const macroPercents = Object.fromEntries(
-    MACRO_KEYS.map((k) => [k, round(clamp(macroSums[k]))])
-  );
-  const mineralPercents = Object.fromEntries(
-    MINERAL_KEYS.map((k) => [k, round(clamp(mineralSums[k]))])
-  );
+  // Builds a PercentMap for a section (keyed by dailyValueModule's short
+  // "key", e.g. "a" or "carbs") plus its "overall" percent — the average of
+  // every item that has a defined DRI. Items with no DRI data render as 0%
+  // individually but don't drag the section average down.
+  const buildSection = (
+    items: readonly { key: string; slug: string }[]
+  ): { map: PercentMap; overall: number } => {
+    const map: PercentMap = {};
+    const defined: number[] = [];
 
-  const average = (values: number[]) =>
-    values.length ? values.reduce((a, b) => a + b, 0) / values.length : 0;
+    items.forEach(({ key, slug }) => {
+      const pct = percentForSlug(slug);
+      map[key] = pct ?? 0;
+      if (pct !== null) defined.push(pct);
+    });
+
+    const overall = defined.length
+      ? defined.reduce((sum, pct) => sum + pct, 0) / defined.length
+      : 0;
+
+    return { map, overall };
+  };
+
+  const vitaminItems = [...VITAMIN_PRIMARY, ...VITAMIN_SECONDARY].map((v) => ({
+    key: v.key,
+    slug: `vitamin-${v.key}`,
+  }));
+  const { map: vitaminPercents, overall: vitaminsOverallPercent } = buildSection(vitaminItems);
+
+  const macroItems = MACRO_ITEMS.map((m) => ({ key: m.key, slug: slugForKey(m.key) }));
+  const { map: macroPercents, overall: macrosOverallPercent } = buildSection(macroItems);
+
+  const mineralItems = MINERAL_ITEMS.map((m) => ({ key: m.key, slug: m.key }));
+  const { map: mineralPercents, overall: mineralsOverallPercent } = buildSection(mineralItems);
+
+  const caloriesPercent = (consumedCalories / ASSUMED_DAILY_CALORIES) * 100;
 
   return {
-    vitaminsOverallPercent: round(average(Object.values(vitaminPercents))),
+    vitaminsOverallPercent,
     vitaminPercents,
-    caloriesPercent: round(clamp(caloriesSum)),
-    macrosOverallPercent: round(average(Object.values(macroPercents))),
+    caloriesPercent,
+    macrosOverallPercent,
     macroPercents,
-    mineralsOverallPercent: round(average(Object.values(mineralPercents))),
+    mineralsOverallPercent,
     mineralPercents,
   };
 }
