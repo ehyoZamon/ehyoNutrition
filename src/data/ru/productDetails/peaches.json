@@ -1,203 +1,203 @@
 {
-"slug": "peach-raw",
-"name": "Персик",
-"category": "Персики и нектарины",
-"macroTitle": "Макронутриенты (на 100 г)",
-"macroNutrients": [
-{
-"id": "calories",
-"name": "Калории",
-"slug": "",
-"amount": "46 kcal"
-},
-{
-"id": "protein",
-"name": "Белок",
-"slug": "protein",
-"amount": "0.91 g"
-},
-{
-"id": "carbohydrates",
-"name": "Углеводы",
-"slug": "carbohydrates",
-"amount": "10.1 g"
-},
-{
-"id": "fats",
-"name": "Жиры",
-"slug": "fats",
-"amount": "0.27 g"
-},
-{
-"id": "fiber",
-"name": "Клетчатка",
-"slug": "fiber",
-"amount": "1.5 g"
-}
-],
-"microTitle": "Микронутриенты (на 100 г)",
-"microNutrients": [
-{
-"id": "vitamin-c",
-"name": "Витамин C",
-"slug": "vitamin-c",
-"amount": "4.1 mg"
-},
-{
-"id": "vitamin-d",
-"name": "Витамин D",
-"slug": "vitamin-d",
-"amount": "0 mcg"
-},
-{
-"id": "vitamin-a",
-"name": "Витамин A",
-"slug": "vitamin-a",
-"amount": "24 mcg RAE"
-},
-{
-"id": "vitamin-e",
-"name": "Витамин E",
-"slug": "vitamin-e",
-"amount": "0.73 mg"
-},
-{
-"id": "vitamin-k",
-"name": "Витамин K",
-"slug": "vitamin-k",
-"amount": "3 mcg"
-},
-{
-"id": "vitamin-b1",
-"name": "Витамин B1",
-"slug": "vitamin-b1",
-"amount": "0.024 mg"
-},
-{
-"id": "vitamin-b2",
-"name": "Витамин B2",
-"slug": "vitamin-b2",
-"amount": "0.031 mg"
-},
-{
-"id": "vitamin-b3",
-"name": "Витамин B3",
-"slug": "vitamin-b3",
-"amount": "0.806 mg"
-},
-{
-"id": "vitamin-b6",
-"name": "Витамин B6",
-"slug": "vitamin-b6",
-"amount": "0.025 mg"
-},
-{
-"id": "vitamin-b9",
-"name": "Витамин B9",
-"slug": "vitamin-b9",
-"amount": "6 mcg DFE"
-},
-{
-"id": "vitamin-b12",
-"name": "Витамин B12",
-"slug": "vitamin-b12",
-"amount": "0 mcg"
-},
-{
-"id": "calcium",
-"name": "Кальций",
-"slug": "calcium",
-"amount": "4 mg"
-},
-{
-"id": "phosphorus",
-"name": "Фосфор",
-"slug": "phosphorus",
-"amount": "22 mg"
-},
-{
-"id": "magnesium",
-"name": "Магний",
-"slug": "magnesium",
-"amount": "8 mg"
-},
-{
-"id": "sodium",
-"name": "Натрий",
-"slug": "sodium",
-"amount": "13 mg"
-},
-{
-"id": "potassium",
-"name": "Калий",
-"slug": "potassium",
-"amount": "122 mg"
-},
-{
-"id": "iron",
-"name": "Железо",
-"slug": "iron",
-"amount": "0.34 mg"
-},
-{
-"id": "zinc",
-"name": "Цинк",
-"slug": "zinc",
-"amount": "0.23 mg"
-},
-{
-"id": "copper",
-"name": "Медь",
-"slug": "copper",
-"amount": "0.078 mg"
-},
-{
-"id": "selenium",
-"name": "Селен",
-"slug": "selenium",
-"amount": "2.1 mcg"
-},
-{
-"id": "choline",
-"name": "Холин",
-"slug": "choline",
-"amount": "6.1 mg"
-},
-{
-"id": "alpha-linolenic-acid",
-"name": "Альфа-линоленовая кислота",
-"slug": "alpha-linolenic-acid",
-"amount": "0.002 g"
-},
-{
-"id": "epa-dha",
-"name": "EPA и DHA",
-"slug": "epa-dha",
-"amount": "0 g"
-},
-{
-"id": "omega-6-fatty-acids",
-"name": "Омега-6 жирные кислоты",
-"slug": "omega-6-fatty-acids",
-"amount": "0.084 g"
-},
-{
-"id": "omega-9-fatty-acids",
-"name": "Омега-9 жирные кислоты",
-"slug": "omega-9-fatty-acids",
-"amount": "0.065 g"
-},
-{
-"id": "beta-carotene",
-"name": "Бета-каротин",
-"slug": "beta-carotene",
-"amount": "224 mcg"
-},
-{
-"id": "lycopene",
-"name": "Ликопин",
-"slug": "lycopene",
-"amount": "0 mcg"
-}
-]
+  "slug": "peach-raw",
+  "name": "Персик",
+  "category": "Персики и нектарины",
+  "macroTitle": "Макронутриенты (на 100 г)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Калории",
+      "slug": "",
+      "amount": "46 ккал"
+    },
+    {
+      "id": "protein",
+      "name": "Белок",
+      "slug": "protein",
+      "amount": "0.91 г"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Углеводы",
+      "slug": "carbohydrates",
+      "amount": "10.1 г"
+    },
+    {
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "0.27 г"
+    },
+    {
+      "id": "fiber",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "1.5 г"
+    }
+  ],
+  "microTitle": "Микронутриенты (на 100 г)",
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "name": "Витамин C",
+      "slug": "vitamin-c",
+      "amount": "4.1 мг"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Витамин D",
+      "slug": "vitamin-d",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "24 мкг RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0.73 мг"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Витамин K",
+      "slug": "vitamin-k",
+      "amount": "3 мкг"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.024 мг"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.031 мг"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.806 мг"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.025 мг"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "6 мкг DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Витамин B12",
+      "slug": "vitamin-b12",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "calcium",
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "4 мг"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "22 мг"
+    },
+    {
+      "id": "magnesium",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "8 мг"
+    },
+    {
+      "id": "sodium",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "13 мг"
+    },
+    {
+      "id": "potassium",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "122 мг"
+    },
+    {
+      "id": "iron",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "0.34 мг"
+    },
+    {
+      "id": "zinc",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.23 мг"
+    },
+    {
+      "id": "copper",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.078 мг"
+    },
+    {
+      "id": "selenium",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "2.1 мкг"
+    },
+    {
+      "id": "choline",
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "6.1 мг"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.002 г"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA и DHA",
+      "slug": "epa-dha",
+      "amount": "0 г"
+    },
+    {
+      "id": "omega-6-fatty-acids",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.084 г"
+    },
+    {
+      "id": "omega-9-fatty-acids",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.065 г"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Бета-каротин",
+      "slug": "beta-carotene",
+      "amount": "224 мкг"
+    },
+    {
+      "id": "lycopene",
+      "name": "Ликопин",
+      "slug": "lycopene",
+      "amount": "0 мкг"
+    }
+  ]
 }

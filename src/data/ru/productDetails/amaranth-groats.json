@@ -1,137 +1,137 @@
 {
-"slug": "amaranth-grain-cooked",
-"name": "Амарант, приготовленный",
-"category": "Зерновые и макаронные изделия",
-"macroTitle": "Макронутриенты (на 100 г)",
-"macroNutrients": [
-{
-"id": "calories",
-"name": "Калории",
-"slug": "",
-"amount": "102 kcal"
-},
-{
-"id": "protein",
-"name": "Белки",
-"slug": "protein",
-"amount": "3.8 g"
-},
-{
-"id": "carbohydrates",
-"name": "Углеводы",
-"slug": "carbohydrates",
-"amount": "18.69 g"
-},
-{
-"id": "fats",
-"name": "Жиры",
-"slug": "fats",
-"amount": "1.58 g"
-},
-{
-"id": "fiber",
-"name": "Клетчатка",
-"slug": "fiber",
-"amount": "2.1 g"
-}
-],
-"microTitle": "Микронутриенты (на 100 г)",
-"microNutrients": [
-{
-"id": "vitamin-e",
-"name": "Витамин E",
-"slug": "vitamin-e",
-"amount": "0.19 mg"
-},
-{
-"id": "vitamin-b1",
-"name": "Витамин B1",
-"slug": "vitamin-b1",
-"amount": "0.015 mg"
-},
-{
-"id": "vitamin-b2",
-"name": "Витамин B2",
-"slug": "vitamin-b2",
-"amount": "0.022 mg"
-},
-{
-"id": "vitamin-b3",
-"name": "Витамин B3",
-"slug": "vitamin-b3",
-"amount": "0.235 mg"
-},
-{
-"id": "vitamin-b6",
-"name": "Витамин B6",
-"slug": "vitamin-b6",
-"amount": "0.113 mg"
-},
-{
-"id": "vitamin-b9",
-"name": "Витамин B9",
-"slug": "vitamin-b9",
-"amount": "22 mcg DFE"
-},
-{
-"id": "calcium",
-"name": "Кальций",
-"slug": "calcium",
-"amount": "47 mg"
-},
-{
-"id": "phosphorus",
-"name": "Фосфор",
-"slug": "phosphorus",
-"amount": "148 mg"
-},
-{
-"id": "magnesium",
-"name": "Магний",
-"slug": "magnesium",
-"amount": "65 mg"
-},
-{
-"id": "sodium",
-"name": "Натрий",
-"slug": "sodium",
-"amount": "6 mg"
-},
-{
-"id": "potassium",
-"name": "Калий",
-"slug": "potassium",
-"amount": "135 mg"
-},
-{
-"id": "iron",
-"name": "Железо",
-"slug": "iron",
-"amount": "2.1 mg"
-},
-{
-"id": "zinc",
-"name": "Цинк",
-"slug": "zinc",
-"amount": "0.86 mg"
-},
-{
-"id": "copper",
-"name": "Медь",
-"slug": "copper",
-"amount": "0.149 mg"
-},
-{
-"id": "manganese",
-"name": "Марганец",
-"slug": "manganese",
-"amount": "0.854 mg"
-},
-{
-"id": "selenium",
-"name": "Селен",
-"slug": "selenium",
-"amount": "5.5 mcg"
-}
-]
+  "slug": "amaranth-grain-cooked",
+  "name": "Амарант, приготовленный",
+  "category": "Зерновые и макаронные изделия",
+  "macroTitle": "Макронутриенты (на 100 г)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Калории",
+      "slug": "",
+      "amount": "102 ккал"
+    },
+    {
+      "id": "protein",
+      "name": "Белки",
+      "slug": "protein",
+      "amount": "3.8 г"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Углеводы",
+      "slug": "carbohydrates",
+      "amount": "18.69 г"
+    },
+    {
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "1.58 г"
+    },
+    {
+      "id": "fiber",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "2.1 г"
+    }
+  ],
+  "microTitle": "Микронутриенты (на 100 г)",
+  "microNutrients": [
+    {
+      "id": "vitamin-e",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0.19 мг"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.015 мг"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.022 мг"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.235 мг"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.113 мг"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "22 мкг DFE"
+    },
+    {
+      "id": "calcium",
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "47 мг"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "148 мг"
+    },
+    {
+      "id": "magnesium",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "65 мг"
+    },
+    {
+      "id": "sodium",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "6 мг"
+    },
+    {
+      "id": "potassium",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "135 мг"
+    },
+    {
+      "id": "iron",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "2.1 мг"
+    },
+    {
+      "id": "zinc",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.86 мг"
+    },
+    {
+      "id": "copper",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.149 мг"
+    },
+    {
+      "id": "manganese",
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.854 мг"
+    },
+    {
+      "id": "selenium",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "5.5 мкг"
+    }
+  ]
 }

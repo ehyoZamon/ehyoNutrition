@@ -78,7 +78,6 @@ export function emptyDailyValueData(): DailyValueModuleProps {
 export async function computeDailyValueData(
   entries: DiaryEntryInput[],
   productMap: Map<number, ProductLinkLookup>,
-  locale: "en" | "ru",
   profile: SimpleUserProfile | null
 ): Promise<DailyValueModuleProps> {
   if (entries.length === 0) return emptyDailyValueData();
@@ -91,9 +90,17 @@ export async function computeDailyValueData(
     if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
   });
 
+  // Nutrient math is always done against the EN productDetails files.
+  // The RU files translate everything for display — including, in some of
+  // them, the unit strings themselves ("г"/"мг"/"мкг"/"ккал" instead of
+  // "g"/"mg"/"mcg"/"kcal") — and parseAmountToMg only recognizes Latin unit
+  // letters. Rather than teach the parser every language's units (fragile,
+  // and would need to grow with every new locale), we compute strictly from
+  // the one locale that's guaranteed stable and only localize what's shown
+  // to the user, not what's calculated.
   const [driData, detailsBySlug] = await Promise.all([
     loadVitaminDRI(),
-    loadProductDetails(locale, slugByProductId.values()),
+    loadProductDetails("en", slugByProductId.values()),
   ]);
 
   const detailsByProductId = new Map<number, ProductDetail | null>();
@@ -147,8 +154,14 @@ export async function computeDailyValueData(
 
     items.forEach(({ key, slug }) => {
       const pct = percentForSlug(slug);
+      // The per-item map keeps the *raw* percent (so a ring can honestly
+      // show "281%" for something like vitamin A in liver), but the section
+      // "overall" is an average of each item capped at 100 — one nutrient
+      // wildly exceeding its target shouldn't inflate the whole section
+      // above 100%. Overall reaches 100% only once every tracked nutrient
+      // in the section has individually reached its own 100%.
       map[key] = pct ?? 0;
-      if (pct !== null) defined.push(pct);
+      if (pct !== null) defined.push(Math.min(pct, 100));
     });
 
     const overall = defined.length

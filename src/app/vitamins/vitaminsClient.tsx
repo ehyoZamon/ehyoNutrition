@@ -29,24 +29,6 @@ type Props = {
   vitaminsRu: VitaminItem[];
 };
 
-// Список органов/систем организма для фильтра.
-// Ключи (key) должны совпадать со значениями поля "organs" в vitamins.json
-const ORGANS: { key: string; en: string; ru: string; icon: string }[] = [
-  { key: "eyes", en: "Eyes", ru: "Глаза", icon: "👁️" },
-  { key: "brain", en: "Brain & nervous system", ru: "Мозг и нервная система", icon: "🧠" },
-  { key: "heart", en: "Heart & circulation", ru: "Сердце и кровообращение", icon: "❤️" },
-  { key: "blood", en: "Blood", ru: "Кровь", icon: "🩸" },
-  { key: "bones", en: "Bones & teeth", ru: "Кости и зубы", icon: "🦴" },
-  { key: "joints", en: "Joints & cartilage", ru: "Суставы и хрящи", icon: "🦵" },
-  { key: "muscles", en: "Muscles", ru: "Мышцы", icon: "💪" },
-  { key: "skin", en: "Skin, hair & nails", ru: "Кожа, волосы, ногти", icon: "✨" },
-  { key: "immune", en: "Immune system", ru: "Иммунитет", icon: "🛡️" },
-  { key: "digestion", en: "Digestion & gut", ru: "Пищеварение", icon: "🍽️" },
-  { key: "liver", en: "Liver", ru: "Печень", icon: "🫘" },
-  { key: "thyroid", en: "Thyroid", ru: "Щитовидная железа", icon: "🦋" },
-  { key: "metabolism", en: "Metabolism & energy", ru: "Метаболизм и энергия", icon: "⚡" },
-];
-
 // Slug из ссылки вида "/vitamininfo/vitamin-c" -> "vitamin-c".
 // Именно под такими ключами хранятся данные в vitaminDRI.json.
 const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
@@ -61,8 +43,6 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   }, [locale, vitaminsEn, vitaminsRu]);
 
   const [search, setSearch] = useState("");
-  const [selectedOrgan, setSelectedOrgan] = useState<string | null>(null);
-  const [showFilter, setShowFilter] = useState(false);
   const [vitamins, setVitamins] = useState<VitaminItem[]>(currentData);
 
   // slug of the vitamin whose DRI sheet is currently open, if any
@@ -89,34 +69,16 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
     );
   };
 
-  /*
-    SEARCH + ORGAN FILTER
-  */
   const filteredVitamins = useMemo(() => {
-    return vitamins.filter((vitamin) => {
-      const query = search.toLowerCase();
+    const query = search.toLowerCase();
 
-      const matchesSearch =
+    return vitamins.filter(
+      (vitamin) =>
         vitamin.name.toLowerCase().includes(query) ||
         vitamin.category.toLowerCase().includes(query) ||
-        vitamin.benefit.toLowerCase().includes(query);
-
-      const matchesOrgan =
-        !selectedOrgan || (vitamin.organs ?? []).includes(selectedOrgan);
-
-      return matchesSearch && matchesOrgan;
-    });
-  }, [vitamins, search, selectedOrgan]);
-
-  const toggleOrgan = (organKey: string) => {
-    setSelectedOrgan((current) => (current === organKey ? null : organKey));
-    setShowFilter(false);
-  };
-
-  const resetOrgan = () => {
-    setSelectedOrgan(null);
-    setShowFilter(false);
-  };
+        vitamin.benefit.toLowerCase().includes(query)
+    );
+  }, [vitamins, search]);
 
   const openedVitamin = openedSlug
     ? vitamins.find((v) => getSlug(v.link) === openedSlug)
@@ -125,161 +87,125 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   return (
     <div className={styles["main-layout"]}>
       <div className={styles["search-container"]}>
-        <Image
-          src="/search.svg"
-          alt="search-icon"
-          width={16}
-          height={16}
-          className={styles["search-icon"]}
-        />
+        <div className={styles["search-bar"]}>
+          <Image
+            src="/search.svg"
+            alt="search-icon"
+            width={16}
+            height={16}
+            className={styles["search-icon"]}
+          />
 
-        <input
-          type="text"
-          placeholder={t("searchPlaceholder")} // Переводной плейсхолдер: например, "Поиск витаминов, минералов..."
-          className={styles["search-input"]}
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-
-        <Image
-          src="/filter.svg"
-          alt="filter"
-          width={20}
-          height={20}
-          className={`${styles["filter-icon"]} ${
-            selectedOrgan ? styles["filter-icon-active"] : ""
-          }`}
-          onClick={() => setShowFilter((prev) => !prev)}
-        />
+          <input
+            type="text"
+            placeholder={t("searchPlaceholder")} // Переводной плейсхолдер: например, "Поиск витаминов, минералов..."
+            className={styles["search-input"]}
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
       </div>
 
-      {showFilter && (
-        <div className={styles["organ-filter-bar"]}>
-          <div className={styles["organ-filter"]}>
-            {ORGANS.map((organ) => (
-              <button
-                key={organ.key}
-                type="button"
-                className={`${styles["organ-chip"]} ${
-                  selectedOrgan === organ.key ? styles["organ-chip-active"] : ""
-                }`}
-                onClick={() => toggleOrgan(organ.key)}
+      <div className={styles["content-container"]}>
+        <div className={styles["content"]}>
+          {filteredVitamins.map((vitamin) => (
+            <div className={styles["vitamin"]} key={vitamin.id}>
+              <div
+                className={styles["vitamin-img-container"]}
+                role="button"
+                tabIndex={0}
+                onClick={() => setOpenedSlug(getSlug(vitamin.link))}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    setOpenedSlug(getSlug(vitamin.link));
+                  }
+                }}
               >
-                {locale === "ru" ? organ.ru : organ.en}
-              </button>
-            ))}
-          </div>
+                <Image
+                  src="/vitamins/molecule.svg"
+                  alt="molecule"
+                  width={42}
+                  height={42}
+                  className={styles["molecule"]}
+                />
+                <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
+              </div>
 
-          {selectedOrgan && (
-            <button
-              type="button"
-              className={styles["filter-reset"]}
-              onClick={resetOrgan}
-            >
-              {locale === "ru" ? "Сбросить" : "Reset"}
-            </button>
+              <div
+                className={styles["vitamin-details"]}
+                role="button"
+                tabIndex={0}
+                onClick={() => setOpenedSlug(getSlug(vitamin.link))}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    setOpenedSlug(getSlug(vitamin.link));
+                  }
+                }}
+              >
+                <div className={styles["vitamin-name"]}>
+                  {vitamin.name}
+                </div>
+
+                <div className={styles["vitamin-daily-value"]}>
+                  {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
+                </div>
+                <div className={styles["vitamin-benefit"]}>
+                  {t("benefit")}: {vitamin.benefit}
+                </div>
+              </div>
+
+              <div
+                className={styles["put-to-favorite"]}
+                onClick={() => toggleFavorite(vitamin.id)}
+              >
+                <Image
+                  src={
+                    vitamin.favorite
+                      ? "/vitamins/heart-filled.svg"
+                      : "/vitamins/heart.svg"
+                  }
+                  alt="favorite"
+                  width={24}
+                  height={24}
+                />
+              </div>
+            </div>
+          ))}
+
+          {filteredVitamins.length === 0 && (
+            <div className={styles["empty-state"]}>
+              <Image
+                src="/nothing-found.svg"
+                alt="nothing-found"
+                width={48}
+                height={48}
+              />
+              {t("nothingFound")}
+            </div>
           )}
         </div>
-      )}
-
-      <div className={styles["content"]}>
-        {filteredVitamins.map((vitamin) => (
-          <div className={styles["vitamin"]} key={vitamin.id}>
-            <div
-              className={styles["vitamin-img-container"]}
-              role="button"
-              tabIndex={0}
-              onClick={() => setOpenedSlug(getSlug(vitamin.link))}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  e.preventDefault();
-                  setOpenedSlug(getSlug(vitamin.link));
-                }
-              }}
-            >
-              <Image
-                src="/vitamins/molecule.svg"
-                alt="molecule"
-                width={42}
-                height={42}
-                className={styles["molecule"]}
-              />
-              <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
-            </div>
-
-            <div
-              className={styles["vitamin-details"]}
-              role="button"
-              tabIndex={0}
-              onClick={() => setOpenedSlug(getSlug(vitamin.link))}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  e.preventDefault();
-                  setOpenedSlug(getSlug(vitamin.link));
-                }
-              }}
-            >
-              <div className={styles["vitamin-name"]}>
-                {vitamin.name}
-              </div>
-
-              <div className={styles["vitamin-daily-value"]}>
-                {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
-              </div>
-              <div className={styles["vitamin-benefit"]}>
-                {t("benefit")}: {vitamin.benefit}
-              </div>
-            </div>
-
-            <div
-              className={styles["put-to-favorite"]}
-              onClick={() => toggleFavorite(vitamin.id)}
-            >
-              <Image
-                src={
-                  vitamin.favorite
-                    ? "/vitamins/heart-filled.svg"
-                    : "/vitamins/heart.svg"
-                }
-                alt="favorite"
-                width={24}
-                height={24}
-              />
-            </div>
-          </div>
-        ))}
-
-        {filteredVitamins.length === 0 && (
-          <div className={styles["empty-state"]}>
-            <Image
-              src="/nothing-found.svg"
-              alt="nothing-found"
-              width={48}
-              height={48}
-            />
-            {t("nothingFound")}
-          </div>
-        )}
       </div>
 
-      <div className={styles["navigation"]}>
-        <div className={styles["navigation"]}>
-          <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
-            <Image src="/main/products.svg" alt="products" width={48} height={48} />
-          </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
-            <Image src="/main/antioxidant-green.svg" alt="antioxidant" width={48} height={48} />
-          </Link>
-          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
-            <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-          </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
-            <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-          </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/settings">
-            <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-          </Link>
-        </div>
+      <div className={styles["navigation-container"]}>
+          <div className={styles["navigation"]}>
+            <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
+              <Image src="/main/products.svg" alt="products" width={48} height={48} />
+            </Link>
+            <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+              <Image src="/main/antioxidant-green.svg" alt="antioxidant" width={48} height={48} />
+            </Link>
+            <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+              <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
+            </Link>
+            <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+              <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
+            </Link>
+            <Link prefetch={false} className={styles["nav-link"]} href="/settings">
+              <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+            </Link>
+          </div>
       </div>
 
       {/* 🧾 Вкладка с дозировками (DRI) */}

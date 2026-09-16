@@ -12,50 +12,12 @@ import {
   FAVORITE_CATEGORY_FILTERS,
   isFavoriteCategory,
 } from "@/lib/productCategories";
-import { ORGANS, OrganKey } from "@/data/organs";
-import { scoreProductForOrgan } from "@/lib/organNutrients";
 import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailSheet";
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
-// NOTE: these are the lightweight indexes produced by
-// scripts/split-product-details.mjs — NOT the old full productDetails.json.
-// They only carry {id, slug, name, amount} per nutrient, which is all the
-// list/filter/sort UI needs. Full per-product data (description, health
-// benefits, etc.) is loaded on demand, one file at a time, by
-// ProductDetailSheet when a product is opened.
-import productDetailsIndexRu from "@/data/ru/productDetailsIndex.json";
-import productDetailsIndexEn from "@/data/en/productDetailsIndex.json";
-
-const normalizeAmount = (amount: string): number => {
-  const value = parseFloat(amount);
-  if (isNaN(value)) return 0;
-  if (amount.includes("mg")) return value * 1000;
-  return value;
-};
 
 const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
-
-const generateNutrientsList = (detailsIndex: any) => {
-  const map = new Map<string, string>();
-  const values = Object.values(detailsIndex);
-
-  for (let i = 0; i < values.length; i++) {
-    const details = values[i] as any;
-    const nutrients = [
-      ...(details.macroNutrients || []),
-      ...(details.microNutrients || []),
-    ];
-    for (let j = 0; j < nutrients.length; j++) {
-      const n = nutrients[j];
-      const key = n.slug || n.id;
-      if (!map.has(key)) {
-        map.set(key, n.name);
-      }
-    }
-  }
-  return Array.from(map.entries()).map(([value, label]) => ({ value, label }));
-};
 
 const ProductsClient = () => {
   const t = useTranslations("Products");
@@ -66,10 +28,6 @@ const ProductsClient = () => {
   const activeCategory = isFavoriteCategory(categoryParam) ? categoryParam : null;
 
   const [search, setSearch] = useState("");
-  const [selectedNutrient, setSelectedNutrient] = useState<string | null>(null);
-  const [selectedOrgan, setSelectedOrgan] = useState<OrganKey | null>(null);
-  const [showFilter, setShowFilter] = useState(false);
-
   const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
 
   // slug of the product whose detail sheet is currently open, if any
@@ -82,66 +40,22 @@ const ProductsClient = () => {
     }
   }, []);
 
-  const { currentProductsData, productDetailsIndex } = useMemo(() => {
-    return locale === "ru"
-      ? { currentProductsData: productsRu, productDetailsIndex: productDetailsIndexRu }
-      : { currentProductsData: productsEn, productDetailsIndex: productDetailsIndexEn };
+  const currentProductsData = useMemo(() => {
+    return locale === "ru" ? productsRu : productsEn;
   }, [locale]);
 
-  const nutrientsList = useMemo(() => {
-    return generateNutrientsList(productDetailsIndex);
-  }, [productDetailsIndex]);
-
-  const productsWithDetails = useMemo(() => {
-    return currentProductsData.map((product) => {
-      const slug = getSlug(product.link);
-      const details = productDetailsIndex[slug as keyof typeof productDetailsIndex] as any;
-
-      if (!details) {
-        return { ...product, slug, nutrientsMap: {} };
-      }
-
-      const nutrients = [
-        ...(details.macroNutrients || []),
-        ...(details.microNutrients || []),
-      ];
-
-      const nutrientsMap: Record<string, { name: string; amount: string; numericAmount: number }> = {};
-      for (let i = 0; i < nutrients.length; i++) {
-        const n = nutrients[i];
-        const key = n.slug || n.id;
-        nutrientsMap[key] = {
-          name: n.name,
-          amount: n.amount,
-          numericAmount: normalizeAmount(n.amount),
-        };
-      }
-
-      return {
-        ...product,
-        slug,
-        nutrientsMap,
-      };
-    });
-  }, [currentProductsData, productDetailsIndex]);
+  const productsWithSlug = useMemo(() => {
+    return currentProductsData.map((product) => ({
+      ...product,
+      slug: getSlug(product.link),
+    }));
+  }, [currentProductsData]);
 
   const toggleFavorite = (id: number) => {
     const store = toggleProductFavorite(id);
     if (store?.products) {
       setFavoriteIds(store.products);
     }
-  };
-
-  const handleOrganClick = (key: OrganKey) => {
-    setSelectedOrgan((prev) => (prev === key ? null : key));
-    setSelectedNutrient(null);
-    setShowFilter(false);
-  };
-
-  const handleNutrientChange = (value: string) => {
-    setSelectedNutrient(value || null);
-    setSelectedOrgan(null);
-    setShowFilter(false);
   };
 
   const groupedProducts = useMemo(() => {
@@ -152,7 +66,7 @@ const ProductsClient = () => {
 
     const query = search.trim().toLowerCase();
 
-    let filtered = productsWithDetails.map((p) => ({
+    let filtered = productsWithSlug.map((p) => ({
       ...p,
       favorite: favoriteIds.includes(p.id),
     }));
@@ -169,32 +83,6 @@ const ProductsClient = () => {
       );
     }
 
-    // 🫀 Фильтр по органу: считаем очки полезности и сортируем по убыванию
-    if (selectedOrgan) {
-      const scored = filtered
-        .map((p) => {
-          const { score, topNutrient } = scoreProductForOrgan(p.nutrientsMap as any, selectedOrgan);
-          return { ...p, organScore: score, organTopNutrient: topNutrient };
-        })
-        .filter((p) => p.organScore > 0)
-        .sort((a, b) => b.organScore - a.organScore);
-
-      const organInfo = ORGANS.find((o) => o.key === selectedOrgan)!;
-      const groupTitle = `${locale === "ru" ? organInfo.ru : organInfo.en}`;
-
-      return scored.length ? { [groupTitle]: scored } : {};
-    }
-
-    if (selectedNutrient) {
-      filtered = filtered
-        .filter((p) => p.nutrientsMap[selectedNutrient])
-        .sort(
-          (a, b) =>
-            b.nutrientsMap[selectedNutrient].numericAmount -
-            a.nutrientsMap[selectedNutrient].numericAmount
-        );
-    }
-
     const groups: Record<string, typeof filtered> = {};
     for (let i = 0; i < filtered.length; i++) {
       const product = filtered[i];
@@ -205,171 +93,114 @@ const ProductsClient = () => {
     }
 
     return groups;
-  }, [productsWithDetails, search, selectedNutrient, selectedOrgan, activeCategory, locale, favoriteIds]);
+  }, [productsWithSlug, search, activeCategory, locale, favoriteIds]);
 
   const categories = useMemo(() => Object.keys(groupedProducts), [groupedProducts]);
 
   const openedProduct = openedSlug
-    ? productsWithDetails.find((p) => p.slug === openedSlug)
+    ? productsWithSlug.find((p) => p.slug === openedSlug)
     : null;
 
   return (
     <div className={styles["main-layout"]}>
       {/* 🔍 Поиск */}
       <div className={styles["search-container"]}>
-        <Image src="/search.svg" alt="search-icon" width={16} height={16} className={styles["search-icon"]} />
-        <input
-          type="text"
-          placeholder={t("searchPlaceholder")}
-          className={styles["search-input"]}
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <Image
-          src="/filter.svg"
-          alt="filter"
-          width={20}
-          height={20}
-          className={styles["filter-icon"]}
-          onClick={() => setShowFilter((prev) => !prev)}
-        />
+        <div className={styles["search-bar"]}>
+          <Image src="/search.svg" alt="search-icon" width={16} height={16} className={styles["search-icon"]} />
+          <input
+            type="text"
+            placeholder={t("searchPlaceholder")}
+            className={styles["search-input"]}
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
       </div>
 
-      {/* 🫀 Фильтр по органам */}
-      {showFilter && (
-      <div className={styles["organs-scroll"]}>
-      {ORGANS.map((organ) => (
-        <button
-          key={organ.key}
-          type="button"
-          className={`${styles["organ-chip"]} ${
-            selectedOrgan === organ.key ? styles["organ-chip-active"] : ""
-          }`}
-          onClick={() => handleOrganClick(organ.key)}
-        >
-          <span className={styles["organ-label"]}>
-            {locale === "ru" ? organ.ru : organ.en}
-          </span>
-        </button>
-      ))}
-    </div>)}
-
-      {/* 🔽 Фильтр по нутриенту */}
-      {showFilter && (
-        <div className={styles["filter-bar"]}>
-          <select
-            className={styles["filter-select"]}
-            value={selectedNutrient || ""}
-            onChange={(e) => handleNutrientChange(e.target.value)}
-          >
-            <option value="">All nutrients</option>
-            {nutrientsList.map((n) => (
-              <option key={n.value} value={n.value}>
-                {n.label}
-              </option>
-            ))}
-          </select>
-
-          {selectedNutrient && (
-            <button
-              className={styles["filter-reset"]}
-              onClick={() => {
-                setSelectedNutrient(null);
-                setShowFilter(false);
-              }}
-            >
-              Reset
-            </button>
-          )}
-        </div>
-      )}
-
       {/* 📦 Контент */}
-      <div className={styles["content"]}>
-        {categories.length > 0 ? (
-          categories.map((category) => (
-            <div key={category} className={styles["category-group"]}>
-              <h3 className={styles["category-title"]}>{category}</h3>
+      <div className={styles["content-container"]}>
+        <div className={styles["content"]}>
+          {categories.length > 0 ? (
+            categories.map((category) => (
+              <div key={category} className={styles["category-group"]}>
+                <h3 className={styles["category-title"]}>{category}</h3>
 
-              {groupedProducts[category].map((product: any) => (
-                <div className={styles["product"]} key={product.id}>
-                  <div
-                    className={styles["product-img-container"]}
-                    role="button"
-                    tabIndex={0}
-                    onClick={() => setOpenedSlug(product.slug)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter" || e.key === " ") {
-                        e.preventDefault();
-                        setOpenedSlug(product.slug);
-                      }
-                    }}
-                  >
-                    <Image src={product.image} alt={product.name} width={48} height={48} />
-                  </div>
+                {groupedProducts[category].map((product: any) => (
+                  <div className={styles["product"]} key={product.id}>
+                    <div
+                      className={styles["product-img-container"]}
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => setOpenedSlug(product.slug)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          setOpenedSlug(product.slug);
+                        }
+                      }}
+                    >
+                      <Image src={product.image} alt={product.name} width={40} height={40} />
+                    </div>
 
-                  <div
-                    className={styles["product-details"]}
-                    role="button"
-                    tabIndex={0}
-                    onClick={() => setOpenedSlug(product.slug)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter" || e.key === " ") {
-                        e.preventDefault();
-                        setOpenedSlug(product.slug);
-                      }
-                    }}
-                  >
-                    <div className={styles["product-name"]}>{product.name}</div>
-                    <div className={styles["product-category"]}>{product.category}</div>
-                    <div className={styles["product-calories"]}>
-                      {selectedOrgan && product.organTopNutrient
-                        ? `${product.organTopNutrient.name}: ${product.organTopNutrient.amount}`
-                        : selectedNutrient
-                        ? `${product.nutrientsMap[selectedNutrient]?.name}: ${
-                            product.nutrientsMap[selectedNutrient]?.amount || "-"
-                          }`
-                        : `${t("calories")}: ${product.calories}`}
+                    <div
+                      className={styles["product-details"]}
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => setOpenedSlug(product.slug)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          setOpenedSlug(product.slug);
+                        }
+                      }}
+                    >
+                      <div className={styles["product-name"]}>{product.name}</div>
+                      <div className={styles["product-category"]}>{product.category}</div>
+                      <div className={styles["product-calories"]}>
+                        {t("calories")}: {product.calories}
+                      </div>
+                    </div>
+
+                    <div className={styles["put-to-favorite"]} onClick={() => toggleFavorite(product.id)}>
+                      <Image
+                        src={product.favorite ? "/heart-filled.svg" : "/heart.svg"}
+                        alt="favorite"
+                        width={27}
+                        height={27}
+                      />
                     </div>
                   </div>
-
-                  <div className={styles["put-to-favorite"]} onClick={() => toggleFavorite(product.id)}>
-                    <Image
-                      src={product.favorite ? "/heart-filled.svg" : "/heart.svg"}
-                      alt="favorite"
-                      width={27}
-                      height={27}
-                    />
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
+            ))
+          ) : (
+            <div className={styles["empty-state"]}>
+              <Image src="/nothing-found.svg" alt="nothing-found" width={40} height={40} />
+              {t("nothingFound")}
             </div>
-          ))
-        ) : (
-          <div className={styles["empty-state"]}>
-            <Image src="/nothing-found.svg" alt="nothing-found" width={48} height={48} />
-            {t("nothingFound")}
-          </div>
-        )}
+          )}
+        </div>
       </div>
 
       {/* 🔽 Навигация */}
-      <div className={styles["navigation"]}>
-        <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
-          <Image src="/main/products-green.svg" alt="products" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
-          <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
-        </Link>
-        <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
-          <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
-          <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/settings">
-          <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-        </Link>
+      <div className={styles["navigation-container"]}>
+        <div className={styles["navigation"]}>
+          <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
+            <Image src="/main/products-green.svg" alt="products" width={40} height={40} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+            <Image src="/main/antioxidant.svg" alt="antioxidant" width={40} height={40} />
+          </Link>
+          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+            <Image src="/main/food-diary.svg" alt="food-diary" width={40} height={40} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+            <Image src="/main/heart.svg" alt="heart" width={40} height={40} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/settings">
+            <Image src="/main/settings.svg" alt="heart" width={40} height={40} />
+          </Link>
+        </div>
       </div>
 
       {/* 🧾 Вкладка с составом продукта */}

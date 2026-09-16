@@ -23,6 +23,7 @@ import DailyValueModule from "@/components/daily-value/dailyValueModule";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
 import { computeDailyValueData, emptyDailyValueData } from "@/lib/dailyValue";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 import {
   addDiaryEntry,
@@ -101,7 +102,6 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     computeDailyValueData(
       entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
       productMap,
-      locale === "ru" ? "ru" : "en",
       profile
     ).then((data) => {
       if (!cancelled) setDailyValueData(data);
@@ -110,7 +110,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     return () => {
       cancelled = true;
     };
-  }, [entryList, productMap, locale, profile]);
+  }, [entryList, productMap, profile]);
 
   // ---- Сетка недель ----
   const weeks = useMemo(() => {
@@ -257,106 +257,111 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   const t = useTranslations("FoodDiary");
   return (
     <div className={styles["main-layout"]}>
-      <h1 className={styles["page-title"]}>{t("title")}</h1>
-      <div className={styles["content"]}>
+      <div className={styles["header"]}>
+        <h1 className={styles["page-title"]}>{t("title")}</h1>
+      </div>
+      
+      <div className={styles["content-container"]}>
+        <div className={styles["content"]}>
 
-        {/* Calendar */}
-        <div className={styles["calendar"]}>
-          <div className={styles["calendar-header"]}>
-            <span className={styles["calendar-month-label"]}>
-              {format(viewMonth, "LLLL yyyy", { locale: dateFnsLocale })}
-            </span>
-            <div className={styles["calendar-nav"]}>
-              <button type="button" aria-label="Previous month" className={styles["calendar-nav-btn"]} onClick={goPrevMonth}>
-                <Image src="/food-diary/chevron-left.svg" alt="" width={20} height={20} />
-              </button>
-              <button type="button" aria-label="Next month" className={styles["calendar-nav-btn"]} onClick={goNextMonth}>
-                <Image src="/food-diary/chevron-right.svg" alt="" width={20} height={20} />
-              </button>
-            </div>
-          </div>
-
-          <div className={styles["calendar-weekdays"]}>
-            {WEEKDAYS.map((wd) => (
-              <span key={wd} className={styles["calendar-weekday"]}>{t(`weekdays.${wd}`)}</span>
-            ))}
-          </div>
-
-          <div className={styles["calendar-grid"]}>
-            {weeks.map((week, i) => (
-              <div key={i} className={styles["calendar-row"]}>
-                {week.map((date) => {
-                  const inMonth = isSameMonth(date, viewMonth);
-                  const todayFlag = isToday(date);
-                  const selected = isSameDay(date, selectedDate);
-                  const tone = getDayTone(date);
-
-                  return (
-                    <button
-                      type="button"
-                      key={date.toISOString()}
-                      onClick={() => handleSelectDate(date)}
-                      disabled={!inMonth}
-                      aria-current={selected ? "date" : undefined}
-                      className={[
-                        styles["calendar-day"],
-                        !inMonth ? styles["calendar-day--outside"] : "",
-                        todayFlag ? styles["calendar-day--today"] : "",
-                        selected && !todayFlag ? styles["calendar-day--selected"] : "",
-                        styles[`calendar-day--${tone}`],
-                      ].join(" ")}
-                    >
-                      {format(date, "d")}
-                    </button>
-                  );
-                })}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Today's / selected day intake */}
-        <h2 className={styles["intake-title"]}>
-          {isToday(selectedDate) ? t("todaysIntake") : `${t("intake")} — ${format(selectedDate, "d MMM")}`}
-        </h2>
-
-        <div className={styles["intake-list"]}>
-          {entryList.map((entry) => (
-            <div key={entry.id} className={styles["intake-item"]}>
-              <div className={styles["intake-item-left"]}>
-                <Image src={entry.emoji} alt="" width={32} height={32} />
-                <span className={styles["intake-label"]}>
-                  {entry.label} - {entry.amount}
-                </span>
-              </div>
-              {isToday(selectedDate) && (
-                <button
-                  type="button"
-                  aria-label={`Remove ${entry.label}`}
-                  className={styles["intake-remove-btn"]}
-                  onClick={() => removeEntry(entry.id)}
-                >
-                  <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
+          {/* Calendar */}
+          <div className={styles["calendar"]}>
+            <div className={styles["calendar-header"]}>
+              <span className={styles["calendar-month-label"]}>
+                {format(viewMonth, "LLLL yyyy", { locale: dateFnsLocale })}
+              </span>
+              <div className={styles["calendar-nav"]}>
+                <button type="button" aria-label="Previous month" className={styles["calendar-nav-btn"]} onClick={goPrevMonth}>
+                  <Image src="/food-diary/chevron-left.svg" alt="" width={20} height={20} />
                 </button>
-              )}
+                <button type="button" aria-label="Next month" className={styles["calendar-nav-btn"]} onClick={goNextMonth}>
+                  <Image src="/food-diary/chevron-right.svg" alt="" width={20} height={20} />
+                </button>
+              </div>
             </div>
-          ))}
-          {entryList.length === 0 && (
-            <p className={styles["intake-empty"]}>{t("noEntries")}</p>
+
+            <div className={styles["calendar-weekdays"]}>
+              {WEEKDAYS.map((wd) => (
+                <span key={wd} className={styles["calendar-weekday"]}>{t(`weekdays.${wd}`)}</span>
+              ))}
+            </div>
+
+            <div className={styles["calendar-grid"]}>
+              {weeks.map((week, i) => (
+                <div key={i} className={styles["calendar-row"]}>
+                  {week.map((date) => {
+                    const inMonth = isSameMonth(date, viewMonth);
+                    const todayFlag = isToday(date);
+                    const selected = isSameDay(date, selectedDate);
+                    const tone = getDayTone(date);
+
+                    return (
+                      <button
+                        type="button"
+                        key={date.toISOString()}
+                        onClick={() => handleSelectDate(date)}
+                        disabled={!inMonth}
+                        aria-current={selected ? "date" : undefined}
+                        className={[
+                          styles["calendar-day"],
+                          !inMonth ? styles["calendar-day--outside"] : "",
+                          todayFlag ? styles["calendar-day--today"] : "",
+                          selected && !todayFlag ? styles["calendar-day--selected"] : "",
+                          styles[`calendar-day--${tone}`],
+                        ].join(" ")}
+                      >
+                        {format(date, "d")}
+                      </button>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Today's / selected day intake */}
+          <h2 className={styles["intake-title"]}>
+            {isToday(selectedDate) ? t("todaysIntake") : `${t("intake")} — ${format(selectedDate, "d MMM")}`}
+          </h2>
+
+          <div className={styles["intake-list"]}>
+            {entryList.map((entry) => (
+              <div key={entry.id} className={styles["intake-item"]}>
+                <div className={styles["intake-item-left"]}>
+                  <Image src={entry.emoji} alt="" width={32} height={32} />
+                  <span className={styles["intake-label"]}>
+                    {entry.label} - {entry.amount}
+                  </span>
+                </div>
+                {isToday(selectedDate) && (
+                  <button
+                    type="button"
+                    aria-label={`Remove ${entry.label}`}
+                    className={styles["intake-remove-btn"]}
+                    onClick={() => removeEntry(entry.id)}
+                  >
+                    <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
+                  </button>
+                )}
+              </div>
+            ))}
+            {entryList.length === 0 && (
+              <p className={styles["intake-empty"]}>{t("noEntries")}</p>
+            )}
+          </div>
+
+          {isToday(selectedDate) && (
+            <button
+              type="button"
+              className={styles["add-button"]}
+              onClick={() => setIsAddSheetOpen(true)}
+            >
+              {t("addFoodButton")}
+            </button>
           )}
+
+          <DailyValueModule {...dailyValueData} />
         </div>
-
-        {isToday(selectedDate) && (
-          <button
-            type="button"
-            className={styles["add-button"]}
-            onClick={() => setIsAddSheetOpen(true)}
-          >
-            {t("addFoodButton")}
-          </button>
-        )}
-
-        <DailyValueModule {...dailyValueData} />
       </div>
 
       <AddFoodSheet
@@ -372,22 +377,24 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         onAdd={handleQuantityAdd}
       />
 
-      <div className={styles["navigation"]}>
-        <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
-          <Image src="/main/products.svg" alt="products" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
-          <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
-        </Link>
-        <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
-          <Image src="/main/food-diary-green.svg" alt="food-diary" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
-          <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/settings">
-          <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-        </Link>
+      <div className={styles["navigation-container"]}>
+        <div className={styles["navigation"]}>
+          <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
+            <Image src="/main/products.svg" alt="products" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+            <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+          </Link>
+          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+            <Image src="/main/food-diary-green.svg" alt="food-diary" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+            <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/settings">
+            <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+          </Link>
+        </div>
       </div>
     </div>
   );

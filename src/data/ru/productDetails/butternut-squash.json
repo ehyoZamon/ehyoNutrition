@@ -8,31 +8,31 @@
       "id": "calories",
       "name": "Калории",
       "slug": "",
-      "amount": "45 kcal"
+      "amount": "45 ккал"
     },
     {
       "id": "protein",
       "name": "Белок",
       "slug": "protein",
-      "amount": "1.00 g"
+      "amount": "1.00 г"
     },
     {
       "id": "carbohydrates",
       "name": "Углеводы",
       "slug": "carbohydrates",
-      "amount": "11.69 g"
+      "amount": "11.69 г"
     },
     {
       "id": "fats",
       "name": "Жиры",
       "slug": "fats",
-      "amount": "0.10 g"
+      "amount": "0.10 г"
     },
     {
       "id": "fiber",
       "name": "Клетчатка",
       "slug": "fiber",
-      "amount": "2.00 g"
+      "amount": "2.00 г"
     }
   ],
   "microTitle": "Микронутриенты (на 100 г)",
@@ -41,217 +41,217 @@
       "id": "vitamin-c",
       "name": "Витамин C",
       "slug": "vitamin-c",
-      "amount": "21.00 mg"
+      "amount": "21.00 мг"
     },
     {
       "id": "vitamin-a",
       "name": "Витамин A",
       "slug": "vitamin-a",
-      "amount": "532 mcg RAE"
+      "amount": "532 мкг RAE"
     },
     {
       "id": "vitamin-e",
       "name": "Витамин E",
       "slug": "vitamin-e",
-      "amount": "1.44 mg"
+      "amount": "1.44 мг"
     },
     {
       "id": "vitamin-k",
       "name": "Витамин K",
       "slug": "vitamin-k",
-      "amount": "1.10 mcg"
+      "amount": "1.10 мкг"
     },
     {
       "id": "vitamin-b1",
       "name": "Витамин B1",
       "slug": "vitamin-b1",
-      "amount": "0.10 mg"
+      "amount": "0.10 мг"
     },
     {
       "id": "vitamin-b2",
       "name": "Витамин B2",
       "slug": "vitamin-b2",
-      "amount": "0.02 mg"
+      "amount": "0.02 мг"
     },
     {
       "id": "vitamin-b3",
       "name": "Витамин B3",
       "slug": "vitamin-b3",
-      "amount": "1.20 mg"
+      "amount": "1.20 мг"
     },
     {
       "id": "vitamin-b5",
       "name": "Витамин B5",
       "slug": "vitamin-b5",
-      "amount": "0.40 mg"
+      "amount": "0.40 мг"
     },
     {
       "id": "vitamin-b6",
       "name": "Витамин B6",
       "slug": "vitamin-b6",
-      "amount": "0.15 mg"
+      "amount": "0.15 мг"
     },
     {
       "id": "vitamin-b9",
       "name": "Витамин B9",
       "slug": "vitamin-b9",
-      "amount": "27.00 mcg DFE"
+      "amount": "27.00 мкг DFE"
     },
     {
       "id": "histidine",
       "name": "Гистидин",
       "slug": "histidine",
-      "amount": "0.02 g"
+      "amount": "0.02 г"
     },
     {
       "id": "isoleucine",
       "name": "Изолейцин",
       "slug": "isoleucine",
-      "amount": "0.04 g"
+      "amount": "0.04 г"
     },
     {
       "id": "leucine",
       "name": "Лейцин",
       "slug": "leucine",
-      "amount": "0.06 g"
+      "amount": "0.06 г"
     },
     {
       "id": "lysine",
       "name": "Лизин",
       "slug": "lysine",
-      "amount": "0.04 g"
+      "amount": "0.04 г"
     },
     {
       "id": "methionine",
       "name": "Метионин",
       "slug": "methionine",
-      "amount": "0.01 g"
+      "amount": "0.01 г"
     },
     {
       "id": "phenylalanine",
       "name": "Фенилаланин",
       "slug": "phenylalanine",
-      "amount": "0.04 g"
+      "amount": "0.04 г"
     },
     {
       "id": "threonine",
       "name": "Треонин",
       "slug": "threonine",
-      "amount": "0.03 g"
+      "amount": "0.03 г"
     },
     {
       "id": "tryptophan",
       "name": "Триптофан",
       "slug": "tryptophan",
-      "amount": "0.01 g"
+      "amount": "0.01 г"
     },
     {
       "id": "valine",
       "name": "Валин",
       "slug": "valine",
-      "amount": "0.04 g"
+      "amount": "0.04 г"
     },
     {
       "id": "alpha-linolenic-acid",
       "name": "Альфа-линоленовая кислота",
       "slug": "alpha-linolenic-acid",
-      "amount": "0.03 g"
+      "amount": "0.03 г"
     },
     {
       "id": "calcium",
       "name": "Кальций",
       "slug": "calcium",
-      "amount": "48.00 mg"
+      "amount": "48.00 мг"
     },
     {
       "id": "phosphorus",
       "name": "Фосфор",
       "slug": "phosphorus",
-      "amount": "33.00 mg"
+      "amount": "33.00 мг"
     },
     {
       "id": "magnesium",
       "name": "Магний",
       "slug": "magnesium",
-      "amount": "34.00 mg"
+      "amount": "34.00 мг"
     },
     {
       "id": "sodium",
       "name": "Натрий",
       "slug": "sodium",
-      "amount": "4.00 mg"
+      "amount": "4.00 мг"
     },
     {
       "id": "potassium",
       "name": "Калий",
       "slug": "potassium",
-      "amount": "352.00 mg"
+      "amount": "352.00 мг"
     },
     {
       "id": "iron",
       "name": "Железо",
       "slug": "iron",
-      "amount": "0.70 mg"
+      "amount": "0.70 мг"
     },
     {
       "id": "zinc",
       "name": "Цинк",
       "slug": "zinc",
-      "amount": "0.15 mg"
+      "amount": "0.15 мг"
     },
     {
       "id": "copper",
       "name": "Медь",
       "slug": "copper",
-      "amount": "0.07 mg"
+      "amount": "0.07 мг"
     },
     {
       "id": "manganese",
       "name": "Марганец",
       "slug": "manganese",
-      "amount": "0.20 mg"
+      "amount": "0.20 мг"
     },
     {
       "id": "selenium",
       "name": "Селен",
       "slug": "selenium",
-      "amount": "0.50 mcg"
+      "amount": "0.50 мкг"
     },
     {
       "id": "beta-carotene",
       "name": "Бета-каротин",
       "slug": "beta-carotene",
-      "amount": "4226 mcg"
+      "amount": "4226 мкг"
     },
     {
       "id": "omega-6-fatty-acids",
       "name": "Жирные кислоты Омега-6",
       "slug": "omega-6-fatty-acids",
-      "amount": "0.02 g"
+      "amount": "0.02 г"
     },
     {
       "id": "omega-9-fatty-acids",
       "name": "Жирные кислоты Омега-9",
       "slug": "omega-9-fatty-acids",
-      "amount": "0.01 g"
+      "amount": "0.01 г"
     },
     {
       "id": "arginine",
       "name": "Аргинин",
       "slug": "arginine",
-      "amount": "0.06 g"
+      "amount": "0.06 г"
     },
     {
       "id": "glycine",
       "name": "Глицин",
       "slug": "glycine",
-      "amount": "0.04 g"
+      "amount": "0.04 г"
     },
     {
       "id": "tyrosine",
       "name": "Тирозин",
       "slug": "tyrosine",
-      "amount": "0.03 g"
+      "amount": "0.03 г"
     }
   ]
 }

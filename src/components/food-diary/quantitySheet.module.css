@@ -21,6 +21,7 @@
   padding: 40px 24px 32px;
   gap: 24px;
   animation: slideUp 0.25s ease-out;
+  padding-bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
 }
 
 @keyframes slideUp {

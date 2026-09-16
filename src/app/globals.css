@@ -25,6 +25,28 @@
   --third-family: var(--font-nunito), sans-serif;
 }
 
+/* глобальный CSS (app/globals.css) */
+.system-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: rgba(254, 254, 254, 0.8);
+  backdrop-filter: blur(10px); /* "стеклянный" эффект — контент, скроллящийся под баром, будет размыт */
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  pointer-events: none; /* тапы проходят сквозь бар к контенту под ним */
+}
+
+.system-bar--top {
+  top: 0;
+  height: env(safe-area-inset-top);
+}
+
+.system-bar--bottom {
+  bottom: 0;
+  height: env(safe-area-inset-bottom);
+}
+
 html, body {
   touch-action: manipulation;
 }

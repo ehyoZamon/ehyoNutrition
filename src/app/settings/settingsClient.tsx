@@ -115,89 +115,96 @@ const SettingsClient = () => {
 
   return (
     <div className={styles["main-layout"]}>
-      <h1 className={styles["page-title"]}>{t("title")}</h1>
-
-      <div className={styles["content"]}>
-        {/* Avatar */}
-        <div className={styles["avatar-wrapper"]}>
-          <div className={styles["avatar-circle"]}>
-            <svg
-              width="56"
-              height="56"
-              viewBox="0 0 56 56"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="28" cy="20" r="10" fill="#c9c5bd" />
-              <path d="M8 50c0-12 9-18 20-18s20 6 20 18" fill="#c9c5bd" />
-            </svg>
+      <div className={styles["header"]}>
+        <h1 className={styles["page-title"]}>{t("title")}</h1>
+      </div>
+      
+      <div className={styles["content-container"]}>
+        <div className={styles["content"]}>
+          {/* Avatar */}
+          <div className={styles["avatar-wrapper"]}>
+            <div className={styles["avatar-circle"]}>
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="28" cy="20" r="10" fill="#c9c5bd" />
+                <path d="M8 50c0-12 9-18 20-18s20 6 20 18" fill="#c9c5bd" />
+              </svg>
+            </div>
           </div>
-        </div>
+          
 
-        {/* Name */}
-        <input
-          type="text"
-          className={styles["field-input"]}
-          value={profile.name}
-          onChange={(e) => handleNameChange(e.target.value)}
-          onBlur={handleNameBlur}
-        />
+          {/* Name */}
+          <input
+            type="text"
+            className={styles["field-input"]}
+            value={profile.name}
+            onChange={(e) => handleNameChange(e.target.value)}
+            onBlur={handleNameBlur}
+          />
 
-        {/* Gender + Birth date */}
-        <div className={styles["field-row"]}>
-          <div className={styles["field-box"]}>
-            <select
-              className={styles["field-select"]}
-              value={profile.gender}
-              onChange={(e) => handleGenderChange(e.target.value as Gender)}
-            >
-              <option value="male">{t("male")}</option>
-              <option value="female">{t("female")}</option>
-            </select>
+          {/* Gender + Birth date */}
+          <div className={styles["field-row"]}>
+            <div className={styles["field-box"]}>
+              <select
+                className={styles["field-select"]}
+                value={profile.gender}
+                onChange={(e) => handleGenderChange(e.target.value as Gender)}
+              >
+                <option value="male">{t("male")}</option>
+                <option value="female">{t("female")}</option>
+              </select>
+            </div>
+
+            <div className={styles["field-box"]}>
+              <input
+                type="text"
+                inputMode="numeric"
+                className={styles["field-date-text-input"]}
+                placeholder="ДД.ММ.ГГГГ"
+                value={birthDateDisplay}
+                onChange={(e) => handleBirthDateChange(e.target.value)}
+              />
+            </div>
           </div>
 
-          <div className={styles["field-box"]}>
-            <input
-              type="text"
-              inputMode="numeric"
-              className={styles["field-date-text-input"]}
-              placeholder="ДД.ММ.ГГГГ"
-              value={birthDateDisplay}
-              onChange={(e) => handleBirthDateChange(e.target.value)}
-            />
+          {/* System language */}
+          <div className={styles["language-row"]}>
+            <span className={styles["language-label"]}>
+              {t("systemLanguage")}
+            </span>
+            <LanguageSwitcher />
           </div>
-        </div>
-
-        {/* System language */}
-        <div className={styles["language-row"]}>
-          <span className={styles["language-label"]}>
-            {t("systemLanguage")}
-          </span>
-          <LanguageSwitcher />
         </div>
       </div>
 
-      <div className={styles["navigation"]}>
-        <Link prefetch={false} className={styles["nav-link"]} href="/products">
-          <Image src="/main/products.svg" alt="products" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
-          <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/food-diary">
-          <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-        </Link>
-        <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
-          <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-        </Link>
-        <Link
-          className={styles["nav-link"]}
-          href="/settings"
-          aria-current="page"
-          prefetch={false}
-        >
-          <Image src="/main/settings-green.svg" alt="settings" width={48} height={48} />
-        </Link>
+      <div className={styles["navigation-container"]}>
+        <div className={styles["navigation"]}>
+          <Link prefetch={false} className={styles["nav-link"]} href="/products">
+            <Image src="/main/products.svg" alt="products" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+            <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/food-diary">
+            <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
+          </Link>
+          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+            <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
+          </Link>
+          <Link
+            className={styles["nav-link"]}
+            href="/settings"
+            aria-current="page"
+            prefetch={false}
+          >
+            <Image src="/main/settings-green.svg" alt="settings" width={48} height={48} />
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -118,13 +118,7 @@ const OnboardingInfoClient = () => {
 
       <div className={styles["step-content"]}>
         {/* NB: путь к иллюстрации — заглушка, подставь реальный ассет */}
-        <Image
-          src={`/onboarding/step-${step}.png`}
-          alt=""
-          width={600}
-          height={400 }
-          className={styles.illustration}
-        />
+        
 
         {step === 1 && (
           <>
@@ -190,34 +184,44 @@ const OnboardingInfoClient = () => {
             />
           </>
         )}
-      </div>
 
-      <div className={styles["footer-row"]}>
-        {step > 1 && (
+        <div className={styles["footer-row"]}>
+          {step > 1 && (
+            <button
+              type="button"
+              aria-label={t("back")}
+              className={styles["back-button"]}
+              onClick={handleBack}
+            >
+              <Image
+                src="/onboarding/arrow-left.svg"
+                alt=""
+                width={20}
+                height={20}
+              />
+            </button>
+          )}
+
           <button
             type="button"
-            aria-label={t("back")}
-            className={styles["back-button"]}
-            onClick={handleBack}
+            className={styles["next-button"]}
+            onClick={handleNext}
+            disabled={!canGoNext || saving}
           >
-            <Image
-              src="/onboarding/arrow-left.svg"
-              alt=""
-              width={20}
-              height={20}
-            />
+            {t("next")}
           </button>
-        )}
+        </div>
 
-        <button
-          type="button"
-          className={styles["next-button"]}
-          onClick={handleNext}
-          disabled={!canGoNext || saving}
-        >
-          {t("next")}
-        </button>
+        <Image
+          src={`/onboarding/step-${step}.png`}
+          alt=""
+          width={600}
+          height={400 }
+          className={styles.illustration}
+        />
       </div>
+
+      
     </div>
   );
 };

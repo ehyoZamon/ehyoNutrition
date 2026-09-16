@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./dailyValue.module.css";
 import {useTranslations} from "next-intl";
 
@@ -68,27 +68,95 @@ export type DailyValueModuleProps = {
 };
 
 /* ============================================================
-   Color logic
+   Color logic — a continuous red -> orange -> green gradient
+   driven by the actual percent, instead of 3 hard thresholds.
+   0% = --dv-coral, 50% = --dv-orange, 100%+ = --dv-green, with
+   everything in between linearly blended. Reads the real colors
+   from CSS custom properties (so it always matches the design
+   system / theme) with hardcoded fallbacks for SSR, where
+   getComputedStyle isn't available.
    ============================================================ */
 
-function ringColor(percent: number): string {
-  if (percent >= 70) return "var(--dv-green)";
-  if (percent >= 50) return "var(--dv-orange)";
-  return "var(--dv-coral)";
+type RGB = [number, number, number];
+
+const FALLBACK_STOPS: { coral: RGB; orange: RGB; green: RGB } = {
+  coral: [255, 107, 107],
+  orange: [255, 169, 77],
+  green: [81, 207, 102],
+};
+
+function parseColorToRgb(raw: string): RGB | null {
+  const value = raw.trim();
+  if (!value) return null;
+
+  const hexMatch = value.match(/^#?([a-f\d]{3}|[a-f\d]{6})$/i);
+  if (hexMatch) {
+    let hex = hexMatch[1];
+    if (hex.length === 3) hex = hex.split("").map((c) => c + c).join("");
+    const num = parseInt(hex, 16);
+    return [(num >> 16) & 255, (num >> 8) & 255, num & 255];
+  }
+
+  const rgbMatch = value.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/i);
+  if (rgbMatch) {
+    return [Number(rgbMatch[1]), Number(rgbMatch[2]), Number(rgbMatch[3])];
+  }
+
+  return null;
+}
+
+function mixRgb(a: RGB, b: RGB, t: number): string {
+  const r = Math.round(a[0] + (b[0] - a[0]) * t);
+  const g = Math.round(a[1] + (b[1] - a[1]) * t);
+  const bl = Math.round(a[2] + (b[2] - a[2]) * t);
+  return `rgb(${r}, ${g}, ${bl})`;
+}
+
+/**
+ * Reads --dv-coral / --dv-orange / --dv-green from the document once on
+ * mount (client-only), falling back to fixed hex values until then / on the
+ * server, so this never breaks SSR.
+ */
+function useGradientStops() {
+  const [stops, setStops] = useState(FALLBACK_STOPS);
+
+  useEffect(() => {
+    const computed = getComputedStyle(document.documentElement);
+    const coral = parseColorToRgb(computed.getPropertyValue("--dv-coral")) ?? FALLBACK_STOPS.coral;
+    const orange = parseColorToRgb(computed.getPropertyValue("--dv-orange")) ?? FALLBACK_STOPS.orange;
+    const green = parseColorToRgb(computed.getPropertyValue("--dv-green")) ?? FALLBACK_STOPS.green;
+    setStops({ coral, orange, green });
+  }, []);
+
+  return stops;
+}
+
+function gradientColor(percent: number, stops: typeof FALLBACK_STOPS): string {
+  const clamped = Math.min(100, Math.max(0, percent));
+  if (clamped <= 50) {
+    return mixRgb(stops.coral, stops.orange, clamped / 50);
+  }
+  return mixRgb(stops.orange, stops.green, (clamped - 50) / 50);
 }
 
 /* ============================================================
    Primitives
    ============================================================ */
 
-function CircleRing({percent,label,size,}: {percent: number; label: string; size: number | "sm" | "lg" | "glg";}) {
+function CircleRing({percent,label,size,stops,}: {percent: number; label: string; size: number | "sm" | "lg" | "glg"; stops: typeof FALLBACK_STOPS;}) {
   const dimension = typeof size === "number" ? size : size === "lg" ? 56 : 46;
   const stroke = typeof size === "number" ? size * 0.09 : size === "lg" ? 5 : 4;
   const radius = (dimension - stroke) / 2;
   const circumference = 2 * Math.PI * radius;
+  // The arc itself can never physically exceed a full circle, so it's
+  // clamped — but the label text shows the real percent (e.g. "281%" for
+  // vitamin A in liver) so nothing gets hidden, only the drawing.
   const clamped = Math.min(100, Math.max(0, percent));
   const offset = circumference * (1 - clamped / 100);
-  const color = ringColor(clamped);
+  const color = gradientColor(percent, stops);
+  // Soft ceiling purely so an extreme outlier (a mega-dose supplement, say)
+  // can't blow out the ring's layout with a 5-digit number.
+  const displayPercent = Math.min(999, Math.max(0, Math.round(percent)));
 
   return (
     <div className={styles["ring"]}>
@@ -129,15 +197,16 @@ function CircleRing({percent,label,size,}: {percent: number; label: string; size
           dominantBaseline="middle"
           className={size === "lg" ? styles["ring-percent-lg"] : styles["ring-percent-sm"]}
         >
-          {Math.round(clamped)}%
+          {displayPercent}%
         </text>
       </svg>
     </div>
   );
 }
 
-function LinearBar({ percent, color }: { percent: number; color: string }) {
+function LinearBar({ percent, stops }: { percent: number; stops: typeof FALLBACK_STOPS }) {
   const clamped = Math.min(100, Math.max(0, percent));
+  const color = gradientColor(percent, stops);
   return (
     <div className={styles["linear-track"]}>
       <div
@@ -148,26 +217,31 @@ function LinearBar({ percent, color }: { percent: number; color: string }) {
   );
 }
 
-function VerticalBar({ percent, label }: { percent: number; label: string }) {
+function VerticalBar({ percent, label, stops }: { percent: number; label: string; stops: typeof FALLBACK_STOPS }) {
   const clamped = Math.min(100, Math.max(0, percent));
   const maxHeight = 130; // px, matches the track height in CSS
   const fillHeight = clamped === 0 ? 0 : Math.max(6, (clamped / 100) * maxHeight);
+  const color = gradientColor(percent, stops);
 
   return (
     <div className={styles["vbar"]}>
       <span className={styles["vbar-label"]}>{label}</span>
       <div className={styles["vbar-track"]} style={{ height: maxHeight }}>
-        <div className={styles["vbar-fill"]} style={{ height: fillHeight }} />
+        <div className={styles["vbar-fill"]} style={{ height: fillHeight, backgroundColor: color }} />
       </div>
     </div>
   );
 }
 
 function SectionHeader({ title, percent }: { title: string; percent: number }) {
+  // Overall section percent is already capped per-nutrient before averaging
+  // (see computeDailyValueData), so this should never exceed 100 — clamped
+  // here too purely as a display safety net.
+  const clamped = Math.min(100, Math.max(0, percent));
   return (
     <div className={styles["section-header"]}>
       <h2 className={styles["section-title"]}>{title}</h2>
-      <span className={styles["section-percent"]}>{Math.round(percent)}%</span>
+      <span className={styles["section-percent"]}>{Math.round(clamped)}%</span>
     </div>
   );
 }
@@ -188,6 +262,7 @@ export default function DailyValueModule({
   mineralPercents = {},
 }: DailyValueModuleProps) {
   const t = useTranslations("FoodDiary");
+  const stops = useGradientStops();
   return (
     <div className={styles["dashboard"]}>
       <h1 className={styles["dashboard-title"]}>{t("dailyValue")}</h1>
@@ -195,7 +270,7 @@ export default function DailyValueModule({
       {/* Vitamins */}
       <section className={styles["section"]}>
         <SectionHeader title={t("vitaminsSection")} percent={vitaminsOverallPercent} />
-        <LinearBar percent={vitaminsOverallPercent} color="var(--dv-orange)" />
+        <LinearBar percent={vitaminsOverallPercent} stops={stops} />
 
         <div className={styles["ring-row-lg"]}>
           {VITAMIN_PRIMARY.map((v) => (
@@ -204,6 +279,7 @@ export default function DailyValueModule({
               label={v.label}
               percent={vitaminPercents[v.key] ?? 0}
               size="lg"
+              stops={stops}
             />
           ))}
         </div>
@@ -215,6 +291,7 @@ export default function DailyValueModule({
               label={v.label}
               percent={vitaminPercents[v.key] ?? 0}
               size="sm"
+              stops={stops}
             />
           ))}
         </div>
@@ -223,13 +300,13 @@ export default function DailyValueModule({
       {/* Calories */}
       <section className={styles["section"]}>
         <SectionHeader title={t("calories")} percent={caloriesPercent} />
-        <LinearBar percent={caloriesPercent} color="var(--dv-green)" />
+        <LinearBar percent={caloriesPercent} stops={stops} />
       </section>
 
       {/* Macronutrients */}
       <section className={`${styles["section"]} ${styles["macronutrients-section"]}`}>
         <SectionHeader title={t("macronutrientsSection")} percent={macrosOverallPercent} />
-        <LinearBar percent={macrosOverallPercent} color="var(--dv-coral)" />
+        <LinearBar percent={macrosOverallPercent} stops={stops} />
 
         <div className={styles["ring-row-lg"]}>
           {MACRO_ITEMS.map((m) => (
@@ -238,6 +315,7 @@ export default function DailyValueModule({
               label={t(m.key)}
               percent={macroPercents[m.key] ?? 0}
               size={64}
+              stops={stops}
             />
           ))}
         </div>
@@ -246,11 +324,11 @@ export default function DailyValueModule({
       {/* Minerals */}
       <section className={styles["section"]}>
         <SectionHeader title={t("mineralsSection")} percent={mineralsOverallPercent} />
-        <LinearBar percent={mineralsOverallPercent} color="var(--dv-coral)" />
+        <LinearBar percent={mineralsOverallPercent} stops={stops} />
 
         <div className={styles["vbar-row"]}>
           {MINERAL_ITEMS.map((m) => (
-            <VerticalBar key={m.key} label={t(m.key)} percent={mineralPercents[m.key] ?? 0} />
+            <VerticalBar key={m.key} label={t(m.key)} percent={mineralPercents[m.key] ?? 0} stops={stops} />
           ))}
         </div>
       </section>

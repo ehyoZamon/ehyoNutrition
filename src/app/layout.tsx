@@ -3,6 +3,9 @@ import { Signika, Nunito, Inter} from "next/font/google";
 import LanguageProvider from "@/components/LanguageProvider"; // Импортируем наш провайдер
 import "./globals.css";
 import DBProvider from './providers/DBProvider';
+import NativeInit from "@/components/NativeInit";
+import SystemBarOverlays from "@/components/SystemBarOverlays";
+
 
 const signika = Signika({
   subsets: ["latin"],
@@ -28,7 +31,7 @@ export const metadata: Metadata = {
   keywords: ["nutrition app", "ehyo", "nutritions", "healthy food"],
   authors: [{ name: "Ehyo Team" }],
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1, user-scalable=no",
+  viewport: "width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no",
   other: {
     copyright: "© 2026 Ehyo",
   },
@@ -63,7 +66,8 @@ export default function RootLayout({
         <meta name="color-scheme" content="light dark" />
       </head>
       <body>
-        
+        <NativeInit />
+        <SystemBarOverlays />
         {/* Оборачиваем все дочерние страницы в мультиязычный контекст */}
         <DBProvider>
           <LanguageProvider>

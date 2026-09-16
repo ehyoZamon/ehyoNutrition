@@ -102,173 +102,179 @@ const FavoritesClient = () => {
 
   return (
     <div className={styles["main-layout"]}>
-      <header className={styles["header"]}>
-        <h1 className={styles["title"]}>{t("title")}</h1>
-        <p className={styles["subtitle"]}>{t("subtitle")}</p>
-      </header>
+      <div className={styles["header-container"]}>
+        <header className={styles["header"]}>
+          <h1 className={styles["title"]}>{t("title")}</h1>
+          <p className={styles["subtitle"]}>{t("subtitle")}</p>
+        </header>
+      </div>
 
-      <div className={styles["content"]}>
-        {isEmpty && (
-          <div className={styles["empty-state"]}>
-            <Image
-              src="/nothing-found.svg"
-              alt="no favorites"
-              width={48}
-              height={48}
-            />
-            <span>{t("emptyTitle")}</span>
-            <span className={styles["empty-hint"]}>{t("emptyHint")}</span>
-          </div>
-        )}
+      <div className={styles["content-container"]}>
+        <div className={styles["content"]}>
+          {isEmpty && (
+            <div className={styles["empty-state"]}>
+              <Image
+                src="/nothing-found.svg"
+                alt="no favorites"
+                width={40}
+                height={40}
+              />
+              <span>{t("emptyTitle")}</span>
+              <span className={styles["empty-hint"]}>{t("emptyHint")}</span>
+            </div>
+          )}
 
-        {!isEmpty && favoriteProducts.length > 0 && (
-          <section className={styles["section"]}>
-            <h2 className={styles["section-title"]}>{t("productsSection")}</h2>
-            {favoriteProducts.map((product) => (
-              <div className={styles["product"]} key={`product-${product.id}`}>
-                <div
-                  className={styles["product-img-container"]}
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => setOpenedProductSlug(getSlug(product.link))}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault();
-                      setOpenedProductSlug(getSlug(product.link));
-                    }
-                  }}
-                >
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    width={48}
-                    height={48}
-                  />
-                </div>
-
-                <div
-                  className={styles["product-details"]}
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => setOpenedProductSlug(getSlug(product.link))}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault();
-                      setOpenedProductSlug(getSlug(product.link));
-                    }
-                  }}
-                >
-                  <div className={styles["product-name"]}>{product.name}</div>
-                  <div className={styles["product-category"]}>
-                    {product.category}
+          {!isEmpty && favoriteProducts.length > 0 && (
+            <section className={styles["section"]}>
+              <h2 className={styles["section-title"]}>{t("productsSection")}</h2>
+              {favoriteProducts.map((product) => (
+                <div className={styles["product"]} key={`product-${product.id}`}>
+                  <div
+                    className={styles["product-img-container"]}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setOpenedProductSlug(getSlug(product.link))}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        setOpenedProductSlug(getSlug(product.link));
+                      }
+                    }}
+                  >
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={40}
+                      height={40}
+                    />
                   </div>
-                  <div className={styles["product-calories"]}>
-                    {t("calories")}: {product.calories}
+
+                  <div
+                    className={styles["product-details"]}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setOpenedProductSlug(getSlug(product.link))}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        setOpenedProductSlug(getSlug(product.link));
+                      }
+                    }}
+                  >
+                    <div className={styles["product-name"]}>{product.name}</div>
+                    <div className={styles["product-category"]}>
+                      {product.category}
+                    </div>
+                    <div className={styles["product-calories"]}>
+                      {t("calories")}: {product.calories}
+                    </div>
                   </div>
+
+                  <button
+                    type="button"
+                    className={styles["put-to-favorite"]}
+                    onClick={() => handleToggleProduct(product.id)}
+                    aria-label={`Remove ${product.name} from favorites`}
+                  >
+                    <Image
+                      src="/heart-filled.svg"
+                      alt=""
+                      width={27}
+                      height={27}
+                    />
+                  </button>
                 </div>
+              ))}
+            </section>
+          )}
 
-                <button
-                  type="button"
-                  className={styles["put-to-favorite"]}
-                  onClick={() => handleToggleProduct(product.id)}
-                  aria-label={`Remove ${product.name} from favorites`}
-                >
-                  <Image
-                    src="/heart-filled.svg"
-                    alt=""
-                    width={27}
-                    height={27}
-                  />
-                </button>
-              </div>
-            ))}
-          </section>
-        )}
-
-        {!isEmpty && favoriteVitamins.length > 0 && (
-          <section className={styles["section"]}>
-            <h2 className={styles["section-title"]}>{t("vitaminsSection")}</h2>
-            {favoriteVitamins.map((vitamin) => (
-              <div className={styles["vitamin"]} key={`vitamin-${vitamin.id}`}>
-                <div
-                  className={styles["vitamin-img-container"]}
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => setOpenedVitaminSlug(getSlug(vitamin.link))}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault();
-                      setOpenedVitaminSlug(getSlug(vitamin.link));
-                    }
-                  }}
-                >
-                  <Image
-                    src="/vitamins/molecule.svg"
-                    alt=""
-                    width={42}
-                    height={42}
-                    className={styles["molecule"]}
-                  />
-                  <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
-                </div>
-
-                <div
-                  className={styles["vitamin-details"]}
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => setOpenedVitaminSlug(getSlug(vitamin.link))}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault();
-                      setOpenedVitaminSlug(getSlug(vitamin.link));
-                    }
-                  }}
-                >
-                  <div className={styles["vitamin-name"]}>{vitamin.name}</div>
-                  <div className={styles["vitamin-daily-value"]}>
-                    {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
+          {!isEmpty && favoriteVitamins.length > 0 && (
+            <section className={styles["section"]}>
+              <h2 className={styles["section-title"]}>{t("vitaminsSection")}</h2>
+              {favoriteVitamins.map((vitamin) => (
+                <div className={styles["vitamin"]} key={`vitamin-${vitamin.id}`}>
+                  <div
+                    className={styles["vitamin-img-container"]}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setOpenedVitaminSlug(getSlug(vitamin.link))}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        setOpenedVitaminSlug(getSlug(vitamin.link));
+                      }
+                    }}
+                  >
+                    <Image
+                      src="/vitamins/molecule.svg"
+                      alt=""
+                      width={42}
+                      height={42}
+                      className={styles["molecule"]}
+                    />
+                    <span dangerouslySetInnerHTML={{ __html: vitamin.image }} />
                   </div>
-                  <div className={styles["vitamin-benefit"]}>
-                    {t("benefit")}: {vitamin.benefit}
-                  </div>
-                </div>
 
-                <button
-                  type="button"
-                  className={styles["put-to-favorite"]}
-                  onClick={() => handleToggleVitamin(vitamin.id)}
-                  aria-label={`Remove ${vitamin.name} from favorites`}
-                >
-                  <Image
-                    src="/vitamins/heart-filled.svg"
-                    alt=""
-                    width={24}
-                    height={24}
-                  />
-                </button>
-              </div>
-            ))}
-          </section>
-        )}
+                  <div
+                    className={styles["vitamin-details"]}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setOpenedVitaminSlug(getSlug(vitamin.link))}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        setOpenedVitaminSlug(getSlug(vitamin.link));
+                      }
+                    }}
+                  >
+                    <div className={styles["vitamin-name"]}>{vitamin.name}</div>
+                    <div className={styles["vitamin-daily-value"]}>
+                      {t("dailyValue")}: {vitamin.dailyValue} {vitamin.unit}
+                    </div>
+                    <div className={styles["vitamin-benefit"]}>
+                      {t("benefit")}: {vitamin.benefit}
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    className={styles["put-to-favorite"]}
+                    onClick={() => handleToggleVitamin(vitamin.id)}
+                    aria-label={`Remove ${vitamin.name} from favorites`}
+                  >
+                    <Image
+                      src="/vitamins/heart-filled.svg"
+                      alt=""
+                      width={24}
+                      height={24}
+                    />
+                  </button>
+                </div>
+              ))}
+            </section>
+          )}
+        </div>
       </div>
         
+      <div className={styles['navigation-container']}>
         <div className={styles["navigation"]}>
           <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
-            <Image src="/main/products.svg" alt="products" width={48} height={48} />
+            <Image src="/main/products.svg" alt="products" width={40} height={40} />
           </Link>
           <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
-            <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+            <Image src="/main/antioxidant.svg" alt="antioxidant" width={40} height={40} />
           </Link>
           <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
-            <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
+            <Image src="/main/food-diary.svg" alt="food-diary" width={40} height={40} />
           </Link>
           <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
-            <Image src="/main/heart-green.svg" alt="heart" width={48} height={48} />
+            <Image src="/main/heart-green.svg" alt="heart" width={40} height={40} />
           </Link>
           <Link prefetch={false} className={styles["nav-link"]} href="/settings">
-            <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+            <Image src="/main/settings.svg" alt="heart" width={40} height={40} />
           </Link>
         </div>
+      </div>
 
       {/* 🧾 Вкладка с составом продукта */}
       {openedProduct && (
