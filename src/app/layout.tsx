@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Ehyo",
     images: [
       {
-        url: "/images/m-logo-400.png",
+        url: "/android-chrome-192x192.png",
         alt: "Ehyo Logo",
       },
     ],
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    apple: "/images/apple-touch-icon.png",
+    apple: "/apple-touch-icon.png",
   },
 };
 

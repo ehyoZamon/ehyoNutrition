@@ -20,6 +20,7 @@
   transform: translateY(100%);
   transition: transform 0.25s ease-out;
   overflow: hidden;
+  padding-bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
 }
 
 .sheetVisible {

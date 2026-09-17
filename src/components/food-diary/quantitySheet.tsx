@@ -22,6 +22,41 @@ type QuantitySheetProps = {
   onAdd: (product: DiaryProduct, amountLabel: string, grams: number) => void;
 };
 
+// Tracks how much of the viewport's bottom is currently covered by the
+// on-screen keyboard, using visualViewport — this works regardless of
+// whether the native side resizes the WebView (adjustResize) or not
+// (adjustPan / edge-to-edge setups where resize is intentionally left
+// alone), because visualViewport tracks the actually-visible area either
+// way, not the layout viewport.
+function useKeyboardInset(enabled: boolean): number {
+  const [inset, setInset] = useState(0);
+
+  useEffect(() => {
+    const vv = window.visualViewport;
+    if (!enabled || !vv) {
+      setInset(0);
+      return;
+    }
+
+    const handleChange = () => {
+      const covered = window.innerHeight - vv.height - vv.offsetTop;
+      setInset(covered > 0 ? covered : 0);
+    };
+
+    handleChange();
+    vv.addEventListener("resize", handleChange);
+    vv.addEventListener("scroll", handleChange);
+
+    return () => {
+      vv.removeEventListener("resize", handleChange);
+      vv.removeEventListener("scroll", handleChange);
+      setInset(0);
+    };
+  }, [enabled]);
+
+  return inset;
+}
+
 const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
@@ -29,6 +64,8 @@ const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) =>
   const slug = product ? product.link.substring(product.link.lastIndexOf("/") + 1) : "";
 
   const [detail, setDetail] = useState<ProductDetail | null>(null);
+
+  const keyboardInset = useKeyboardInset(open);
 
   // Fetch this one product's detail file whenever the sheet opens for a
   // (possibly new) product — per-slug files are cached in lib/productDetail,
@@ -86,7 +123,11 @@ const QuantitySheet = ({ open, product, onClose, onAdd }: QuantitySheetProps) =>
 
   return (
     <div className={styles["overlay"]} onClick={onClose}>
-      <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
+      <div
+        className={styles["sheet"]}
+        onClick={(e) => e.stopPropagation()}
+        style={{ transform: keyboardInset ? `translateY(-${keyboardInset}px)` : undefined }}
+      >
         <div className={styles["image-wrap"]}>
           <div className={styles["image-circle"]}>
             <Image src={product.image} alt={product.name} width={96} height={96} />

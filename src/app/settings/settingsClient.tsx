@@ -184,23 +184,22 @@ const SettingsClient = () => {
 
       <div className={styles["navigation-container"]}>
         <div className={styles["navigation"]}>
-          <Link prefetch={false} className={styles["nav-link"]} href="/products">
+          <Link className={styles["nav-link"]} href="/products">
             <Image src="/main/products.svg" alt="products" width={48} height={48} />
           </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+          <Link className={styles["nav-link"]} href="/vitamins">
             <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
           </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/food-diary">
+          <Link className={styles["nav-link"]} href="/food-diary">
             <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
           </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+          <Link className={styles["nav-link"]} href="/favorites">
             <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
           </Link>
           <Link
             className={styles["nav-link"]}
             href="/settings"
             aria-current="page"
-            prefetch={false}
           >
             <Image src="/main/settings-green.svg" alt="settings" width={48} height={48} />
           </Link>

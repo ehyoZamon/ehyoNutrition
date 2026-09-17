@@ -185,19 +185,19 @@ const ProductsClient = () => {
       {/* 🔽 Навигация */}
       <div className={styles["navigation-container"]}>
         <div className={styles["navigation"]}>
-          <Link className={styles["nav-link"]} href="/products" aria-current="page" prefetch={false}>
+          <Link className={styles["nav-link"]} href="/products" aria-current="page" >
             <Image src="/main/products-green.svg" alt="products" width={40} height={40} />
           </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/vitamins">
+          <Link  className={styles["nav-link"]} href="/vitamins">
             <Image src="/main/antioxidant.svg" alt="antioxidant" width={40} height={40} />
           </Link>
-          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" prefetch={false}>
+          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" >
             <Image src="/main/food-diary.svg" alt="food-diary" width={40} height={40} />
           </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/favorites">
+          <Link  className={styles["nav-link"]} href="/favorites">
             <Image src="/main/heart.svg" alt="heart" width={40} height={40} />
           </Link>
-          <Link prefetch={false} className={styles["nav-link"]} href="/settings">
+          <Link  className={styles["nav-link"]} href="/settings">
             <Image src="/main/settings.svg" alt="heart" width={40} height={40} />
           </Link>
         </div>
