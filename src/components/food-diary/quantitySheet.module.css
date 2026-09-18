@@ -13,13 +13,14 @@
 .sheet {
   width: 100%;
   max-width: 352px;
+  max-height: 88vh;
   background: #fff;
   border-radius: 32px 32px 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 24px 32px;
-  gap: 24px;
+  gap: 16px;
   animation: slideUp 0.25s ease-out;
   padding-bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
   transition: transform 0.2s ease-out;
@@ -86,11 +87,134 @@
   color: #999;
 }
 
+/* Scrollable area for the macro band + Daily value section, so a long
+   nutrient list never pushes the Cancel/Add buttons off screen. */
+.details-scroll {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.macro-band {
+  display: flex;
+  justify-content: space-between;
+  background: #fdecd9;
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.macro-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.macro-label {
+  font-family: var(--font-family);
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #ed7f5f;
+  opacity: 0.85;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.macro-value {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #ed7f5f;
+}
+
+.dv-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  color: #444;
+  text-align: right;
+}
+
+.dv-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.dv-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 4px;
+}
+
+.dv-section-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 17px;
+  color: #444;
+}
+
+.dv-section-percent {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 15px;
+  color: #444;
+}
+
+.dv-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+.dv-row-name {
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: #555;
+}
+
+.dv-row-amount {
+  font-size: 14px;
+  color: #999;
+}
+
+.dv-row-percent {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  color: #444;
+  white-space: nowrap;
+}
+
+.dv-show-more {
+  background: none;
+  border: none;
+  padding: 4px 0;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #999;
+  text-align: left;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
 .actions {
   width: 100%;
   display: flex;
   flex-direction: row;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 .cancel-btn,

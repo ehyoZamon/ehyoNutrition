@@ -40,6 +40,17 @@ export async function addDiaryEntry(productId: number, amount: number, date: str
   await persistWeb();
 }
 
+// Обновляет количество (amount) уже существующей записи по id — используется
+// окном редактирования (QuantitySheet в режиме "edit"). Дата записи не
+// меняется, поэтому diary_dates трогать не нужно.
+export async function updateDiaryEntry(id: number, amount: number, date: string) {
+  const db = getDB();
+  if (!db) throw new Error("DB не инициализирована");
+
+  await db.run(`UPDATE diary SET amount = ? WHERE id = ? AND date = ?`, [amount, id, date]);
+  await persistWeb();
+}
+
 export async function deleteDiaryEntry(id: number, date: string) {
   const db = getDB();
   if (!db) throw new Error("DB не инициализирована");

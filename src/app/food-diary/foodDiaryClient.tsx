@@ -22,15 +22,18 @@ import styles from "./foodDiary.module.css";
 import DailyValueModule from "@/components/daily-value/dailyValueModule";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
+import DeleteConfirmSheet from "@/components/food-diary/deleteConfirmSheet";
 import { computeDailyValueData, emptyDailyValueData } from "@/lib/dailyValue";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 import {
   addDiaryEntry,
   deleteDiaryEntry,
+  updateDiaryEntry,
   getDiaryEntriesByDate,
   getDatesWithEntriesInRange,
 } from "@/lib/diary";
+
 import { parseServingInfo, formatAmountLabel } from "@/lib/servingInfo";
 import { loadProductDetail } from "@/lib/productDetail";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
@@ -69,6 +72,15 @@ const FoodDiaryClient = () => {
   const [isAddSheetOpen, setIsAddSheetOpen] = useState(false);
   const [isQuantitySheetOpen, setIsQuantitySheetOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<DiaryProduct | null>(null);
+
+  // Редактирование уже добавленной записи (клик по элементу intake-list)
+  const [isEditSheetOpen, setIsEditSheetOpen] = useState(false);
+  const [editingEntry, setEditingEntry] = useState<FoodEntry | null>(null);
+
+  // Подтверждение удаления записи (клик по иконке корзины)
+  const [isDeleteConfirmOpen, setIsDeleteConfirmOpen] = useState(false);
+  const [deletingEntry, setDeletingEntry] = useState<FoodEntry | null>(null);
+
 const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Локализованные данные продуктов ----
   const productMap = useMemo(() => {
@@ -210,7 +222,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
   const goPrevMonth = () => setViewMonth((m) => subMonths(m, 1));
   const goNextMonth = () => setViewMonth((m) => addMonths(m, 1));
-  
+
   const removeEntry = async (id: number) => {
     if (!isToday(selectedDate)) return; // страховка: удаление доступно только для сегодняшнего дня
 
@@ -223,6 +235,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       console.error("Не удалось удалить запись:", e);
     }
   };
+
   const handleSelectProduct = (product: DiaryProduct) => {
     setSelectedProduct(product);
     setIsAddSheetOpen(false);
@@ -252,6 +265,53 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   const handleQuantityClose = () => {
     setIsQuantitySheetOpen(false);
     setSelectedProduct(null);
+  };
+
+  // ---- Редактирование существующей записи ----
+  const handleEntryClick = (entry: FoodEntry) => {
+    if (!isToday(selectedDate)) return; // редактирование доступно только для сегодняшнего дня
+    if (!productMap.has(entry.productId)) return; // неизвестный продукт нечем редактировать
+    setEditingEntry(entry);
+    setIsEditSheetOpen(true);
+  };
+
+  const handleEditClose = () => {
+    setIsEditSheetOpen(false);
+    setEditingEntry(null);
+  };
+
+  const handleEditSave = async (_product: DiaryProduct, _amountLabel: string, grams: number) => {
+    if (!editingEntry) return;
+    const dateStr = format(selectedDate, "yyyy-MM-dd");
+
+    try {
+      await updateDiaryEntry(editingEntry.id, grams, dateStr);
+      await loadEntriesForDate(selectedDate);
+      await loadDatesWithEntries();
+    } catch (e) {
+      console.error("Не удалось обновить запись:", e);
+    } finally {
+      setIsEditSheetOpen(false);
+      setEditingEntry(null);
+    }
+  };
+
+  // ---- Подтверждение удаления записи ----
+  const handleTrashClick = (entry: FoodEntry) => {
+    setDeletingEntry(entry);
+    setIsDeleteConfirmOpen(true);
+  };
+
+  const handleDeleteClose = () => {
+    setIsDeleteConfirmOpen(false);
+    setDeletingEntry(null);
+  };
+
+  const handleDeleteConfirm = async () => {
+    if (!deletingEntry) return;
+    await removeEntry(deletingEntry.id);
+    setIsDeleteConfirmOpen(false);
+    setDeletingEntry(null);
   };
 
   const t = useTranslations("FoodDiary");
@@ -326,7 +386,13 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
           <div className={styles["intake-list"]}>
             {entryList.map((entry) => (
-              <div key={entry.id} className={styles["intake-item"]}>
+              <div
+                key={entry.id}
+                className={styles["intake-item"]}
+                onClick={() => handleEntryClick(entry)}
+                role={isToday(selectedDate) ? "button" : undefined}
+                style={isToday(selectedDate) ? { cursor: "pointer" } : undefined}
+              >
                 <div className={styles["intake-item-left"]}>
                   <Image src={entry.emoji} alt="" width={32} height={32} />
                   <span className={styles["intake-label"]}>
@@ -338,7 +404,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                     type="button"
                     aria-label={`Remove ${entry.label}`}
                     className={styles["intake-remove-btn"]}
-                    onClick={() => removeEntry(entry.id)}
+                    onClick={(e) => {
+                      e.stopPropagation(); // не открывать окно редактирования при клике по корзине
+                      handleTrashClick(entry);
+                    }}
                   >
                     <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
                   </button>
@@ -375,6 +444,34 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         product={selectedProduct}
         onClose={handleQuantityClose}
         onAdd={handleQuantityAdd}
+        userProfile={profile}
+      />
+
+      {/* Редактирование количества уже добавленной записи */}
+      <QuantitySheet
+        open={isEditSheetOpen}
+        product={editingEntry ? productMap.get(editingEntry.productId) ?? null : null}
+        mode="edit"
+        initialGrams={editingEntry?.grams}
+        onClose={handleEditClose}
+        onAdd={handleEditSave}
+        userProfile={profile}
+      />
+
+      {/* Подтверждение удаления записи */}
+      <DeleteConfirmSheet
+        open={isDeleteConfirmOpen}
+        entry={
+          deletingEntry
+            ? {
+                emoji: deletingEntry.emoji,
+                label: deletingEntry.label,
+                amount: deletingEntry.amount,
+              }
+            : null
+        }
+        onClose={handleDeleteClose}
+        onConfirm={handleDeleteConfirm}
       />
 
       <div className={styles["navigation-container"]}>

@@ -193,7 +193,14 @@
     "copper": "Медь",
     "manganese": "Марганец",
     "chloride": "Хлорид",
-    "selenium": "Селен"
+    "selenium": "Селен",
+    "saveBtn": "Сохранить",
+    "submitBtn": "Подтвердить",
+    "deleteTitle": "Удалить из списка",
+    "showLess": "Показать меньше",
+    "showMore": "Показать больше",
+    "vitamins": "Витамины",
+    "minerals": "Минералы"
   },
   "Settings":{
     "male": "мужчина",

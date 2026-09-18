@@ -193,7 +193,14 @@
     "copper": "Copper",
     "manganese": "Manganese",
     "chloride": "Chloride",
-    "selenium": "Selenium"
+    "selenium": "Selenium",
+    "saveBtn": "Save",
+    "submitBtn": "Submit",
+    "deleteTitle": "DELETE from daily intake",
+    "showLess": "Show Less",
+    "showMore": "Show More",
+    "vitamins": "Vitamins",
+    "minerals": "Minerals"
   },
   "Settings":{
     "male": "male",
