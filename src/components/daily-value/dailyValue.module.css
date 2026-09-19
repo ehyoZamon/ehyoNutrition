@@ -103,9 +103,19 @@
   fill: #696969;
 }
 
-.ring-percent-lg {
+.ring-percent-lg,
+.ring-percent-glg {
   font-size: 11px;
   fill: #9a9a9a;
+}
+
+
+
+.ring-percent-glge{
+  font-size: 12px;
+  fill: #696969;
+  font-weight: bold;
+  font-family: var(--second-family);
 }
 
 .ring-label-sm {

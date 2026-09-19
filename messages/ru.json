@@ -200,7 +200,11 @@
     "showLess": "Показать меньше",
     "showMore": "Показать больше",
     "vitamins": "Витамины",
-    "minerals": "Минералы"
+    "minerals": "Минералы",
+    "vitaminSingular": "Витамин",
+    "dvSuffix": "СН",
+    "noContribution": "Сегодня нет продуктов, содержащих этот нутриент",
+    "loading": "Загружается"
   },
   "Settings":{
     "male": "мужчина",

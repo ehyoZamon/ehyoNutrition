@@ -19,11 +19,18 @@ import {
 } from "date-fns";
 import { ru, enUS } from "date-fns/locale";
 import styles from "./foodDiary.module.css";
-import DailyValueModule from "@/components/daily-value/dailyValueModule";
+import DailyValueModule, { NutrientClickInfo } from "@/components/daily-value/dailyValueModule";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
 import DeleteConfirmSheet from "@/components/food-diary/deleteConfirmSheet";
-import { computeDailyValueData, emptyDailyValueData } from "@/lib/dailyValue";
+import NutrientDetailSheet, { NutrientDetailInfo } from "@/components/food-diary/nutrientDetailSheet";
+import {
+  computeDailyValueData,
+  computeNutrientBreakdown,
+  emptyDailyValueData,
+  NutrientBreakdownRow,
+  slugForNutrientKey,
+} from "@/lib/dailyValue";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 import {
@@ -60,6 +67,19 @@ const WEEKDAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
 
 const FoodDiaryClient = () => {
   const locale = useLocale();
+  const t = useTranslations("FoodDiary");
+
+  // Same graceful-fallback pattern already used in QuantitySheet — lets
+  // the nutrient-detail sheet's title text ship before messages/*.json
+  // gets the new "vitaminSingular" key.
+  const tt = (key: string, fallback: string) => {
+    try {
+      const value = t(key);
+      return value === key ? fallback : value;
+    } catch {
+      return fallback;
+    }
+  };
 
   const today = useMemo(() => new Date(), []);
   const todayStr = useMemo(() => format(today, "yyyy-MM-dd"), [today]);
@@ -80,6 +100,13 @@ const FoodDiaryClient = () => {
   // Подтверждение удаления записи (клик по иконке корзины)
   const [isDeleteConfirmOpen, setIsDeleteConfirmOpen] = useState(false);
   const [deletingEntry, setDeletingEntry] = useState<FoodEntry | null>(null);
+
+  // Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule)
+  const [isNutrientSheetOpen, setIsNutrientSheetOpen] = useState(false);
+  const [nutrientInfo, setNutrientInfo] = useState<NutrientDetailInfo | null>(null);
+  const [nutrientPercent, setNutrientPercent] = useState(0);
+  const [nutrientRows, setNutrientRows] = useState<NutrientBreakdownRow[]>([]);
+  const [nutrientLoading, setNutrientLoading] = useState(false);
 
 const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Локализованные данные продуктов ----
@@ -314,7 +341,50 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setDeletingEntry(null);
   };
 
-  const t = useTranslations("FoodDiary");
+  // ---- Разбивка нутриента по продуктам ----
+  // Открывает сразу (с процентом, уже известным дашборду, чтобы кольцо не
+  // "мигало" пустым), затем догружает точную разбивку по каждому продукту.
+  const handleNutrientClick = async ({ section, key, label, percent }: NutrientClickInfo) => {
+    const title = section === "vitamin" ? `${tt("vitaminSingular", "Vitamin")} ${label}` : label;
+
+    setNutrientInfo({ section, ringLabel: label, title });
+    setNutrientPercent(percent);
+    setNutrientRows([]);
+    setIsNutrientSheetOpen(true);
+    setNutrientLoading(true);
+
+    const slug = slugForNutrientKey(section, key);
+
+    try {
+      // Кольцо в шите должно показывать ровно тот же %, что уже нарисован в
+      // DailyValueModule (пришёл выше как `percent`, из dailyValueData) —
+      // поэтому здесь его не трогаем. computeNutrientBreakdown считает
+      // "overall" по своей собственной формуле (сумма мг / рекомендуемая
+      // норма), которая может на доли процента разойтись с тем, что
+      // усредняет buildSection в computeDailyValueData — а нам нужна
+      // визуальная идентичность, а не отдельный источник правды. Из
+      // разбивки используем только список продуктов.
+      const { rows } = await computeNutrientBreakdown(
+        slug,
+        entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
+        productMap,
+        profile,
+        locale === "ru" ? "ru" : "en"
+      );
+      setNutrientRows(rows);
+    } catch (e) {
+      console.error("Не удалось посчитать разбивку нутриента:", e);
+    } finally {
+      setNutrientLoading(false);
+    }
+  };
+
+  const handleNutrientClose = () => {
+    setIsNutrientSheetOpen(false);
+    setNutrientInfo(null);
+    setNutrientRows([]);
+  };
+
   return (
     <div className={styles["main-layout"]}>
       <div className={styles["header"]}>
@@ -429,7 +499,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             </button>
           )}
 
-          <DailyValueModule {...dailyValueData} />
+          <DailyValueModule {...dailyValueData} onNutrientClick={handleNutrientClick} />
         </div>
       </div>
 
@@ -472,6 +542,16 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         }
         onClose={handleDeleteClose}
         onConfirm={handleDeleteConfirm}
+      />
+
+      {/* Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule) */}
+      <NutrientDetailSheet
+        open={isNutrientSheetOpen}
+        onClose={handleNutrientClose}
+        info={nutrientInfo}
+        percent={nutrientPercent}
+        rows={nutrientRows}
+        loading={nutrientLoading}
       />
 
       <div className={styles["navigation-container"]}>

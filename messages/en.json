@@ -200,7 +200,11 @@
     "showLess": "Show Less",
     "showMore": "Show More",
     "vitamins": "Vitamins",
-    "minerals": "Minerals"
+    "minerals": "Minerals",
+    "vitaminSingular": "Vitamin",
+    "dvSuffix": "DV",
+    "noContribution": "No foods logged today contain this nutrient",
+    "loading": "Loading"
   },
   "Settings":{
     "male": "male",

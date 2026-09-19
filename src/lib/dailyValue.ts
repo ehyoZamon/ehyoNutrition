@@ -36,6 +36,7 @@ import {
   SimpleUserProfile,
 } from "@/lib/nutritionDRI";
 import { loadProductDetails, ProductDetail } from "@/lib/productDetail";
+import { parseAmount } from "@/lib/nutrientFormat";
 
 export type DiaryEntryInput = { productId: number; grams: number };
 
@@ -194,4 +195,153 @@ export async function computeDailyValueData(
     mineralsOverallPercent,
     mineralPercents,
   };
+}
+
+/* ============================================================
+   Per-nutrient breakdown by product — powers the sheet opened by
+   tapping a ring/bar in DailyValueModule ("which foods gave me
+   this %").
+   ============================================================ */
+
+// Same shape computeDailyValueData/computeNutrientBreakdown need to resolve
+// a product's slug from its link, plus the two extra display fields
+// (name, image) the breakdown list renders. DiaryProduct already satisfies
+// this shape structurally — no explicit cast needed at call sites.
+export type ProductDisplayLookup = ProductLinkLookup & { name: string; image: string };
+
+export type NutrientBreakdownRow = {
+  productId: number;
+  name: string;
+  image: string;
+  amountLabel: string; // localized, scaled amount string, e.g. "2 g"
+  grams: number;
+  percent: number; // % of this nutrient's personal DRI contributed by this entry
+};
+
+export type NutrientBreakdownResult = {
+  overallPercent: number;
+  rows: NutrientBreakdownRow[];
+};
+
+// Inverse of what buildSection() does above — maps a (section, key) pair
+// from DailyValueModule (e.g. "vitamin"+"a", "macro"+"carbs", "mineral"+
+// "sodium") back to the canonical slug used by vitaminDRI.json /
+// productDetails. Exported so foodDiaryClient can resolve which nutrient to
+// break down when a ring/bar is clicked.
+export function slugForNutrientKey(
+  section: "vitamin" | "macro" | "mineral",
+  key: string
+): string {
+  if (section === "vitamin") return `vitamin-${key}`;
+  if (section === "macro") return slugForKey(key);
+  return key;
+}
+
+// Scales a per-100g amount string (e.g. "8 mg", "1.2g") by `factor` and
+// keeps the original unit. Mirrors the identical helper in
+// components/food-diary/quantitySheet.tsx (kept local here too, rather than
+// pulled into a shared module, to avoid a cross-cutting refactor of that
+// component while adding this feature).
+function scaleAmountString(value: string, factor: number): string {
+  const match = value.trim().match(/^(-?[\d.]+)\s*(.*)$/);
+  if (!match) return value;
+
+  const num = parseFloat(match[1]);
+  if (Number.isNaN(num)) return value;
+
+  const unit = match[2].trim();
+  const scaled = num * factor;
+  const rounded = Math.round(scaled * 10) / 10;
+  const numStr = Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
+
+  return unit ? `${numStr} ${unit}` : numStr;
+}
+
+/**
+ * For one nutrient slug (e.g. "vitamin-a", "sodium", "carbohydrates"),
+ * breaks down every diary entry's contribution to that nutrient today: how
+ * much of it each logged product supplied, and what % of the user's
+ * personal DRI that amount represents.
+ *
+ * Math (mg consumed, %DV) is computed from the EN productDetails files —
+ * same reasoning as computeDailyValueData. Display amounts are re-read from
+ * the locale's own file purely for the localized unit string, then scaled
+ * by the same grams/100 factor.
+ */
+export async function computeNutrientBreakdown(
+  nutrientSlug: string,
+  entries: DiaryEntryInput[],
+  productMap: Map<number, ProductDisplayLookup>,
+  profile: SimpleUserProfile | null,
+  locale: "en" | "ru"
+): Promise<NutrientBreakdownResult> {
+  if (entries.length === 0) return { overallPercent: 0, rows: [] };
+
+  const ctx = resolveDRIContext(profile);
+
+  const slugByProductId = new Map<number, string>();
+  entries.forEach((entry) => {
+    const product = productMap.get(entry.productId);
+    if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
+  });
+
+  const [driData, enDetails, localizedDetails] = await Promise.all([
+    loadVitaminDRI(),
+    loadProductDetails("en", slugByProductId.values()),
+    loadProductDetails(locale, slugByProductId.values()),
+  ]);
+
+  const recommendedMg = getRecommendedMg(driData, nutrientSlug, ctx, ASSUMED_DAILY_CALORIES);
+
+  let totalMg = 0;
+  const rows: NutrientBreakdownRow[] = [];
+
+  for (const entry of entries) {
+    const product = productMap.get(entry.productId);
+    const slug = slugByProductId.get(entry.productId);
+    if (!product || !slug) continue;
+
+    const enDetail = enDetails.get(slug);
+    if (!enDetail) continue;
+
+    const nutrient = [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
+      (n) => n.slug === nutrientSlug
+    );
+    if (!nutrient) continue;
+
+    const mgPer100 = parseAmountToMg(nutrient.amount);
+    if (mgPer100 === null) continue;
+
+    const factor = entry.grams / 100;
+    const consumedMg = mgPer100 * factor;
+    if (consumedMg <= 0) continue;
+
+    totalMg += consumedMg;
+    const percent = recommendedMg && recommendedMg > 0 ? (consumedMg / recommendedMg) * 100 : 0;
+
+    const localizedDetail = localizedDetails.get(slug) ?? enDetail;
+    const localizedNutrient =
+      [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
+        (n) => n.slug === nutrientSlug
+      ) ?? nutrient;
+    const amountLabel = scaleAmountString(parseAmount(localizedNutrient.amount).value, factor);
+
+    rows.push({
+      productId: entry.productId,
+      name: product.name,
+      image: product.image,
+      amountLabel,
+      grams: entry.grams,
+      percent: Math.round(percent),
+    });
+  }
+
+  // Biggest contributor first — matches how the "which foods gave me this
+  // %" sheet is meant to be read.
+  rows.sort((a, b) => b.percent - a.percent);
+
+  const overallPercent =
+    recommendedMg && recommendedMg > 0 ? Math.min(100, (totalMg / recommendedMg) * 100) : 0;
+
+  return { overallPercent, rows };
 }

@@ -57,6 +57,21 @@ export const MINERAL_ITEMS = [
 
 export type PercentMap = Record<string, number>;
 
+// Emitted when the user taps a ring (vitamin/macro) or bar (mineral).
+// `key` is the module's own short key (e.g. "a", "carbs", "sodium");
+// pair it with `section` and lib/dailyValue.ts's slugForNutrientKey() to
+// resolve the canonical nutrient slug for a breakdown lookup. `label` is
+// already-localized display text (the letter/word rendered inside the
+// ring/next to the bar), so callers can build a sheet title without a
+// second translation lookup. `percent` is the value already on screen,
+// handy for an instant first paint before a fresh breakdown loads.
+export type NutrientClickInfo = {
+  section: "vitamin" | "macro" | "mineral";
+  key: string;
+  label: string;
+  percent: number;
+};
+
 export type DailyValueModuleProps = {
   vitaminsOverallPercent?: number;
   vitaminPercents?: PercentMap; // keyed by VITAMIN_PRIMARY/SECONDARY .key
@@ -65,6 +80,7 @@ export type DailyValueModuleProps = {
   macroPercents?: PercentMap; // keyed by MACRO_ITEMS .key
   mineralsOverallPercent?: number;
   mineralPercents?: PercentMap; // keyed by MINERAL_ITEMS .key
+  onNutrientClick?: (info: NutrientClickInfo) => void;
 };
 
 /* ============================================================
@@ -115,9 +131,11 @@ function mixRgb(a: RGB, b: RGB, t: number): string {
 /**
  * Reads --dv-coral / --dv-orange / --dv-green from the document once on
  * mount (client-only), falling back to fixed hex values until then / on the
- * server, so this never breaks SSR.
+ * server, so this never breaks SSR. Exported so other components (e.g. the
+ * nutrient-detail sheet) can render a ring with the exact same gradient
+ * without duplicating this logic.
  */
-function useGradientStops() {
+export function useGradientStops() {
   const [stops, setStops] = useState(FALLBACK_STOPS);
 
   useEffect(() => {
@@ -143,11 +161,27 @@ function gradientColor(percent: number, stops: typeof FALLBACK_STOPS): string {
    Primitives
    ============================================================ */
 
-function CircleRing({percent,label,size,stops,}: {percent: number; label: string; size: number | "sm" | "lg" | "glg"; stops: typeof FALLBACK_STOPS;}) {
+// Exported so the nutrient-detail sheet (opened when one of these is
+// clicked) can render the same ring, at a larger size, as its header —
+// instead of re-implementing the SVG.
+export function CircleRing({
+  percent,
+  label,
+  size,
+  stops,
+  onClick,
+}: {
+  percent: number;
+  label: string;
+  size: number | "sm" | "lg" | "glg" | "glge";
+  stops: typeof FALLBACK_STOPS;
+  onClick?: () => void;
+}) {
   const dimension = typeof size === "number" ? size : size === "lg" ? 56 : 46;
   const stroke = typeof size === "number" ? size * 0.09 : size === "lg" ? 5 : 4;
   const radius = (dimension - stroke) / 2;
   const circumference = 2 * Math.PI * radius;
+  const sizeKey=size;
   // The arc itself can never physically exceed a full circle, so it's
   // clamped — but the label text shows the real percent (e.g. "281%" for
   // vitamin A in liver) so nothing gets hidden, only the drawing.
@@ -158,8 +192,22 @@ function CircleRing({percent,label,size,stops,}: {percent: number; label: string
   // can't blow out the ring's layout with a 5-digit number.
   const displayPercent = Math.min(999, Math.max(0, Math.round(percent)));
 
+  
   return (
-    <div className={styles["ring"]}>
+    <div
+      className={styles["ring"]}
+      onClick={onClick}
+      role={onClick ? "button" : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={
+        onClick
+          ? (e) => {
+              if (e.key === "Enter" || e.key === " ") onClick();
+            }
+          : undefined
+      }
+      style={onClick ? { cursor: "pointer" } : undefined}
+    >
       <svg width={dimension} height={dimension} viewBox={`0 0 ${dimension} ${dimension}`}>
         <circle
           cx={dimension / 2}
@@ -192,10 +240,10 @@ function CircleRing({percent,label,size,stops,}: {percent: number; label: string
         </text>
         <text
           x="50%"
-          y={size === "lg" ? "68%" : "70%"}
+          y={sizeKey === "glge" ? "55%" : size === "lg" ? "68%" : "70%"}
           textAnchor="middle"
           dominantBaseline="middle"
-          className={size === "lg" ? styles["ring-percent-lg"] : styles["ring-percent-sm"]}
+          className={styles[`ring-percent-${sizeKey}`] ?? styles["ring-percent-sm"]}
         >
           {displayPercent}%
         </text>
@@ -217,14 +265,37 @@ function LinearBar({ percent, stops }: { percent: number; stops: typeof FALLBACK
   );
 }
 
-function VerticalBar({ percent, label, stops }: { percent: number; label: string; stops: typeof FALLBACK_STOPS }) {
+function VerticalBar({
+  percent,
+  label,
+  stops,
+  onClick,
+}: {
+  percent: number;
+  label: string;
+  stops: typeof FALLBACK_STOPS;
+  onClick?: () => void;
+}) {
   const clamped = Math.min(100, Math.max(0, percent));
   const maxHeight = 130; // px, matches the track height in CSS
   const fillHeight = clamped === 0 ? 0 : Math.max(6, (clamped / 100) * maxHeight);
   const color = gradientColor(percent, stops);
 
   return (
-    <div className={styles["vbar"]}>
+    <div
+      className={styles["vbar"]}
+      onClick={onClick}
+      role={onClick ? "button" : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={
+        onClick
+          ? (e) => {
+              if (e.key === "Enter" || e.key === " ") onClick();
+            }
+          : undefined
+      }
+      style={onClick ? { cursor: "pointer" } : undefined}
+    >
       <span className={styles["vbar-label"]}>{label}</span>
       <div className={styles["vbar-track"]} style={{ height: maxHeight }}>
         <div className={styles["vbar-fill"]} style={{ height: fillHeight, backgroundColor: color }} />
@@ -260,6 +331,7 @@ export default function DailyValueModule({
   macroPercents = {},
   mineralsOverallPercent = 0,
   mineralPercents = {},
+  onNutrientClick,
 }: DailyValueModuleProps) {
   const t = useTranslations("FoodDiary");
   const stops = useGradientStops();
@@ -273,27 +345,43 @@ export default function DailyValueModule({
         <LinearBar percent={vitaminsOverallPercent} stops={stops} />
 
         <div className={styles["ring-row-lg"]}>
-          {VITAMIN_PRIMARY.map((v) => (
-            <CircleRing
-              key={v.key}
-              label={v.label}
-              percent={vitaminPercents[v.key] ?? 0}
-              size="lg"
-              stops={stops}
-            />
-          ))}
+          {VITAMIN_PRIMARY.map((v) => {
+            const percent = vitaminPercents[v.key] ?? 0;
+            return (
+              <CircleRing
+                key={v.key}
+                label={v.label}
+                percent={percent}
+                size="lg"
+                stops={stops}
+                onClick={
+                  onNutrientClick
+                    ? () => onNutrientClick({ section: "vitamin", key: v.key, label: v.label, percent })
+                    : undefined
+                }
+              />
+            );
+          })}
         </div>
 
         <div className={styles["ring-row-sm"]}>
-          {VITAMIN_SECONDARY.map((v) => (
-            <CircleRing
-              key={v.key}
-              label={v.label}
-              percent={vitaminPercents[v.key] ?? 0}
-              size="sm"
-              stops={stops}
-            />
-          ))}
+          {VITAMIN_SECONDARY.map((v) => {
+            const percent = vitaminPercents[v.key] ?? 0;
+            return (
+              <CircleRing
+                key={v.key}
+                label={v.label}
+                percent={percent}
+                size="sm"
+                stops={stops}
+                onClick={
+                  onNutrientClick
+                    ? () => onNutrientClick({ section: "vitamin", key: v.key, label: v.label, percent })
+                    : undefined
+                }
+              />
+            );
+          })}
         </div>
       </section>
 
@@ -309,15 +397,24 @@ export default function DailyValueModule({
         <LinearBar percent={macrosOverallPercent} stops={stops} />
 
         <div className={styles["ring-row-lg"]}>
-          {MACRO_ITEMS.map((m) => (
-            <CircleRing
-              key={m.key}
-              label={t(m.key)}
-              percent={macroPercents[m.key] ?? 0}
-              size={64}
-              stops={stops}
-            />
-          ))}
+          {MACRO_ITEMS.map((m) => {
+            const percent = macroPercents[m.key] ?? 0;
+            const label = t(m.key);
+            return (
+              <CircleRing
+                key={m.key}
+                label={label}
+                percent={percent}
+                size={64}
+                stops={stops}
+                onClick={
+                  onNutrientClick
+                    ? () => onNutrientClick({ section: "macro", key: m.key, label, percent })
+                    : undefined
+                }
+              />
+            );
+          })}
         </div>
       </section>
 
@@ -327,9 +424,23 @@ export default function DailyValueModule({
         <LinearBar percent={mineralsOverallPercent} stops={stops} />
 
         <div className={styles["vbar-row"]}>
-          {MINERAL_ITEMS.map((m) => (
-            <VerticalBar key={m.key} label={t(m.key)} percent={mineralPercents[m.key] ?? 0} stops={stops} />
-          ))}
+          {MINERAL_ITEMS.map((m) => {
+            const percent = mineralPercents[m.key] ?? 0;
+            const label = t(m.key);
+            return (
+              <VerticalBar
+                key={m.key}
+                label={label}
+                percent={percent}
+                stops={stops}
+                onClick={
+                  onNutrientClick
+                    ? () => onNutrientClick({ section: "mineral", key: m.key, label, percent })
+                    : undefined
+                }
+              />
+            );
+          })}
         </div>
       </section>
     </div>
