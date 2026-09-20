@@ -205,7 +205,10 @@
     "dvSuffix": "DV",
     "noContribution": "No foods logged today contain this nutrient",
     "loading": "Loading",
-    "dailyNorm": "Daily amount"
+    "dailyNorm": "Daily amount",
+    "per100g": "/ 100g",
+    "noTopProducts":"No data available",
+    "topProductsTitle": "Food rich in this" 
   },
   "Settings":{
     "male": "male",

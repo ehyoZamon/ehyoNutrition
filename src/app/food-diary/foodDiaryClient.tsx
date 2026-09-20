@@ -28,8 +28,10 @@ import {
   computeDailyValueData,
   computeNutrientBreakdown,
   emptyDailyValueData,
+  getTopProductsForNutrient,
   NutrientBreakdownRow,
   slugForNutrientKey,
+  TopProductForNutrient,
 } from "@/lib/dailyValue";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
@@ -108,6 +110,8 @@ const FoodDiaryClient = () => {
   const [nutrientRows, setNutrientRows] = useState<NutrientBreakdownRow[]>([]);
   const [nutrientLoading, setNutrientLoading] = useState(false);
   const [nutrientRecommendedLabel, setNutrientRecommendedLabel] = useState<string | null>(null);
+  const [topProducts, setTopProducts] = useState<TopProductForNutrient[]>([]);
+  const [topProductsLoading, setTopProductsLoading] = useState(false);
 
 const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Локализованные данные продуктов ----
@@ -352,10 +356,13 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientPercent(percent);
     setNutrientRows([]);
     setNutrientRecommendedLabel(null);
+    setTopProducts([]);
     setIsNutrientSheetOpen(true);
     setNutrientLoading(true);
+    setTopProductsLoading(true);
 
     const slug = slugForNutrientKey(section, key);
+    const loc = locale === "ru" ? "ru" : "en";
 
     try {
       // Кольцо в шите должно показывать ровно тот же %, что уже нарисован в
@@ -372,7 +379,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
         productMap,
         profile,
-        locale === "ru" ? "ru" : "en"
+        loc
       );
       setNutrientRows(rows);
       setNutrientRecommendedLabel(recommendedLabel);
@@ -381,6 +388,19 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     } finally {
       setNutrientLoading(false);
     }
+
+    // Отдельно от разбивки за сегодня — топ продуктов по всему каталогу,
+    // не зависит от того, что уже съедено сегодня, поэтому грузится и
+    // ошибается независимо (одно не должно блокировать другое).
+    try {
+      const catalog = Array.from(productMap.values());
+      const top = await getTopProductsForNutrient(slug, catalog, loc, 5);
+      setTopProducts(top);
+    } catch (e) {
+      console.error("Не удалось посчитать топ продуктов по нутриенту:", e);
+    } finally {
+      setTopProductsLoading(false);
+    }
   };
 
   const handleNutrientClose = () => {
@@ -388,6 +408,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientInfo(null);
     setNutrientRows([]);
     setNutrientRecommendedLabel(null);
+    setTopProducts([]);
   };
 
   return (
@@ -558,6 +579,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         rows={nutrientRows}
         loading={nutrientLoading}
         recommendedLabel={nutrientRecommendedLabel}
+        topProducts={topProducts}
+        topProductsLoading={topProductsLoading}
       />
 
       <div className={styles["navigation-container"]}>

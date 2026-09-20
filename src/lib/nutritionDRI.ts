@@ -121,11 +121,21 @@ const PERCENT_OF_CALORIES_RE =
  * so callers can exclude them rather than silently treat them as zero.
  */
 export function parseAmountToMg(
-  raw: string | undefined | null,
+  raw: string | number | undefined | null,
   assumedDailyCalories: number = ASSUMED_DAILY_CALORIES
 ): number | null {
-  if (!raw) return null;
-  const trimmed = raw.trim();
+  if (raw === undefined || raw === null) return null;
+
+  // Most amounts in vitaminDRI.json / productDetails are authored as
+  // "<number> <unit>" strings, but some product files have this field as a
+  // bare number (an authoring inconsistency, not a real unit-less amount —
+  // there's no way to tell mg from mcg from a number alone). Coercing to a
+  // string here means AMOUNT_RE below simply fails to find a unit and
+  // returns null (treated the same as "no usable data"), instead of every
+  // caller that scans many products at once (e.g.
+  // computeTopProductsForNutrient) crashing on the first bad entry.
+  const raw_str = typeof raw === "string" ? raw : String(raw);
+  const trimmed = raw_str.trim();
   if (!trimmed || trimmed === "—" || trimmed === "-") return null;
 
   // AMDR ranges, e.g. fats' "20-35% of calories" — resolved against the

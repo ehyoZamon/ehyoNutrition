@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import styles from "./nutrientDetailSheet.module.css";
 import { CircleRing, useGradientStops } from "@/components/daily-value/dailyValueModule";
-import { NutrientBreakdownRow } from "@/lib/dailyValue";
+import { NutrientBreakdownRow, TopProductForNutrient } from "@/lib/dailyValue";
 
 export type NutrientDetailInfo = {
   section: "vitamin" | "macro" | "mineral";
@@ -33,6 +33,18 @@ type NutrientDetailSheetProps = {
    * exists for this nutrient/age bracket.
    */
   recommendedLabel?: string | null;
+  /**
+   * Top products from the whole catalog ranked by how much of this
+   * nutrient they carry per 100g (independent of what's logged today) —
+   * powers the "Foods rich in this nutrient" section below the breakdown.
+   */
+  topProducts?: TopProductForNutrient[];
+  /**
+   * True while getTopProductsForNutrient() is still resolving. Kept
+   * separate from `loading` because the two lists load independently and
+   * one can finish before the other.
+   */
+  topProductsLoading?: boolean;
 };
 
 const NutrientDetailSheet = ({
@@ -43,6 +55,8 @@ const NutrientDetailSheet = ({
   rows,
   loading,
   recommendedLabel,
+  topProducts = [],
+  topProductsLoading,
 }: NutrientDetailSheetProps) => {
   const t = useTranslations("FoodDiary");
   const stops = useGradientStops();
@@ -96,6 +110,31 @@ const NutrientDetailSheet = ({
                 </div>
                 <span className={styles["row-value"]}>
                   {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
+                </span>
+              </div>
+            ))}
+
+          <div className={styles["divider"]} />
+
+          <h3 className={styles["section-title"]}>
+            {tt("topProductsTitle", "Foods rich in this nutrient")}
+          </h3>
+
+          {topProductsLoading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
+
+          {!topProductsLoading && topProducts.length === 0 && (
+            <p className={styles["empty"]}>{tt("noTopProducts", "No data available")}</p>
+          )}
+
+          {!topProductsLoading &&
+            topProducts.map((product) => (
+              <div className={styles["row"]} key={product.productId}>
+                <div className={styles["row-left"]}>
+                  <Image src={product.image} alt={product.name} width={32} height={32} />
+                  <span className={styles["row-name"]}>{product.name}</span>
+                </div>
+                <span className={styles["row-value"]}>
+                  {product.amountLabel} {tt("per100g", "/ 100g")}
                 </span>
               </div>
             ))}

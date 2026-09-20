@@ -66,6 +66,33 @@ function productSlugFromLink(link: string): string {
   return link.substring(link.lastIndexOf("/") + 1);
 }
 
+// Development aid: parseAmountToMg now tolerates a non-string `amount`
+// (coerces + gives up gracefully) instead of crashing, but the underlying
+// productDetails file is still wrong and should get fixed. This logs
+// exactly which file + nutrient to go look at, the first time each
+// (locale, slug, nutrientSlug) combination is seen — searching the console
+// for "[dailyValue:bad-amount]" finds every offender in one pass.
+const warnedAmountKeys = new Set<string>();
+
+function warnIfMalformedAmount(
+  locale: "en" | "ru",
+  slug: string,
+  nutrientSlug: string,
+  amount: unknown
+): void {
+  if (typeof amount === "string") return;
+
+  const key = `${locale}:${slug}:${nutrientSlug}`;
+  if (warnedAmountKeys.has(key)) return;
+  warnedAmountKeys.add(key);
+
+  console.warn(
+    `[dailyValue:bad-amount] data/${locale}/productDetails/${slug}.json — ` +
+      `nutrient "${nutrientSlug}" has a non-string "amount" (expected e.g. "12 mg"):`,
+    amount
+  );
+}
+
 /** Returns an empty (all-zero) dashboard — used while data is still loading. */
 export function emptyDailyValueData(): DailyValueModuleProps {
   return {
@@ -120,11 +147,13 @@ export async function computeDailyValueData(
     const detail = detailsByProductId.get(entry.productId);
     if (!detail) continue;
 
+    const productSlug = slugByProductId.get(entry.productId) ?? "unknown";
     const factor = entry.grams / 100;
 
     const caloriesRaw = detail.macroNutrients.find((n) => n.id === "calories")?.amount;
-    if (caloriesRaw) {
-      const kcal = parseFloat(caloriesRaw.replace(/[^\d.]/g, ""));
+    if (caloriesRaw !== undefined) {
+      warnIfMalformedAmount("en", productSlug, "calories", caloriesRaw);
+      const kcal = parseFloat(String(caloriesRaw).replace(/[^\d.]/g, ""));
       if (!Number.isNaN(kcal)) consumedCalories += kcal * factor;
     }
 
@@ -133,6 +162,7 @@ export async function computeDailyValueData(
       // `slug` (not `id`, which is a plain numeric row id like 14, 28, ...)
       // is what matches vitaminDRI.json's keys, e.g. "protein", "vitamin-a".
       if (!nutrient.slug) continue;
+      warnIfMalformedAmount("en", productSlug, nutrient.slug, nutrient.amount);
       const mg = parseAmountToMg(nutrient.amount);
       if (mg === null) continue;
       consumedMgById.set(nutrient.slug, (consumedMgById.get(nutrient.slug) ?? 0) + mg * factor);
@@ -335,6 +365,7 @@ export async function computeNutrientBreakdown(
     );
     if (!nutrient) continue;
 
+    warnIfMalformedAmount("en", slug, nutrientSlug, nutrient.amount);
     const mgPer100 = parseAmountToMg(nutrient.amount);
     if (mgPer100 === null) continue;
 
@@ -350,7 +381,14 @@ export async function computeNutrientBreakdown(
       [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
         (n) => n.slug === nutrientSlug
       ) ?? nutrient;
-    const amountLabel = scaleAmountString(parseAmount(localizedNutrient.amount).value, factor);
+
+    let amountLabel = "";
+    try {
+      warnIfMalformedAmount(locale, slug, nutrientSlug, localizedNutrient.amount);
+      amountLabel = scaleAmountString(parseAmount(localizedNutrient.amount).value, factor);
+    } catch (err) {
+      console.warn(`computeNutrientBreakdown: bad display amount for "${product.name}"`, err);
+    }
 
     rows.push({
       productId: entry.productId,
@@ -376,4 +414,130 @@ export async function computeNutrientBreakdown(
     driGroup: ctx.group,
     driAgeLabel: ctx.ageLabel,
   };
+}
+
+/* ============================================================
+   Top products for a nutrient — powers the "Foods rich in this
+   nutrient" section of NutrientDetailSheet. Unlike
+   computeNutrientBreakdown (which only looks at what the user
+   logged today), this ranks the *entire* product catalog by how
+   much of the nutrient each one carries per 100g, independent of
+   the diary.
+   ============================================================ */
+
+// The minimal shape of a catalog product (as productsRu/productsEn already
+// hand it to foodDiaryClient's `productMap`) that this needs: enough to
+// resolve a slug (via `link`) and to display a result row.
+export type ProductCatalogEntry = ProductDisplayLookup & { id: number };
+
+export type TopProductForNutrient = {
+  productId: number;
+  name: string;
+  image: string;
+  link: string;
+  amountLabel: string; // localized amount per 100g, e.g. "12 mg"
+};
+
+// Ranking the whole catalog means loading every product's detail file, which
+// is wasted work to redo on every click of the same ring — cached per
+// (locale, nutrient slug) for the life of the page. The catalog itself
+// (`allProducts`) is static per locale, so it's never part of the cache key.
+const topProductsCache = new Map<string, Promise<TopProductForNutrient[]>>();
+
+export async function getTopProductsForNutrient(
+  nutrientSlug: string,
+  allProducts: ProductCatalogEntry[],
+  locale: "en" | "ru",
+  limit: number = 5
+): Promise<TopProductForNutrient[]> {
+  const cacheKey = `${locale}:${nutrientSlug}`;
+  const cached = topProductsCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = computeTopProductsForNutrient(nutrientSlug, allProducts, locale, limit).catch(
+    (err) => {
+      // A transient/partial failure (one bad file, a network blip) should
+      // be retried on the next click, not remembered as "this nutrient has
+      // no top products" for the rest of the session.
+      topProductsCache.delete(cacheKey);
+      throw err;
+    }
+  );
+
+  topProductsCache.set(cacheKey, promise);
+  return promise;
+}
+
+async function computeTopProductsForNutrient(
+  nutrientSlug: string,
+  allProducts: ProductCatalogEntry[],
+  locale: "en" | "ru",
+  limit: number
+): Promise<TopProductForNutrient[]> {
+  if (allProducts.length === 0) return [];
+
+  const slugs = allProducts.map((p) => productSlugFromLink(p.link));
+
+  // Same split as everywhere else in this file: ranking math always runs
+  // on the EN files (stable units), the locale's own files are only
+  // consulted for the display string.
+  const [enDetails, localizedDetails] = await Promise.all([
+    loadProductDetails("en", slugs),
+    loadProductDetails(locale, slugs),
+  ]);
+
+  const scored: { product: ProductCatalogEntry; slug: string; mgPer100: number }[] = [];
+
+  for (const product of allProducts) {
+    try {
+      const slug = productSlugFromLink(product.link);
+      const enDetail = enDetails.get(slug);
+      if (!enDetail) continue;
+
+      const nutrient = [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
+        (n) => n.slug === nutrientSlug
+      );
+      if (!nutrient) continue;
+
+      warnIfMalformedAmount("en", slug, nutrientSlug, nutrient.amount);
+      const mgPer100 = parseAmountToMg(nutrient.amount);
+      if (mgPer100 === null || mgPer100 <= 0) continue;
+
+      scored.push({ product, slug, mgPer100 });
+    } catch (err) {
+      // One product with unexpectedly-shaped data (e.g. a malformed
+      // `amount` field) shouldn't wipe out the ranking for every other
+      // product — skip it and keep going.
+      console.warn(`getTopProductsForNutrient: skipping "${product.name}"`, err);
+    }
+  }
+
+  scored.sort((a, b) => b.mgPer100 - a.mgPer100);
+
+  return scored.slice(0, limit).map(({ product, slug }) => {
+    const localizedDetail = localizedDetails.get(slug);
+    const localizedNutrient = localizedDetail
+      ? [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
+          (n) => n.slug === nutrientSlug
+        )
+      : undefined;
+
+    let amountLabel = "";
+    try {
+      if (localizedNutrient) {
+        warnIfMalformedAmount(locale, slug, nutrientSlug, localizedNutrient.amount);
+        amountLabel = parseAmount(localizedNutrient.amount).value;
+      }
+    } catch (err) {
+      console.warn(`getTopProductsForNutrient: bad display amount for "${product.name}"`, err);
+    }
+
+    return {
+      productId: product.id,
+      name: product.name,
+      image: product.image,
+      link: product.link,
+      amountLabel,
+    };
+  });
 }
