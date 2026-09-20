@@ -39,7 +39,7 @@ export const ASSUMED_DAILY_CALORIES = 2000;
 /* 1. Age / gender -> DRI group + age-bracket label                    */
 /* ------------------------------------------------------------------ */
 
-type AgeBracket = { group: DRIGroupKey; ageLabel: string };
+export type AgeBracket = { group: DRIGroupKey; ageLabel: string };
 
 const CHILD_AGE_LABEL_BY_MONTHS: { maxMonths: number; label: string }[] = [
   { maxMonths: 6, label: "Infants (0-6 months)" },
@@ -174,6 +174,48 @@ export function getRecommendedMg(
   const raw = entry.DRI?.[ctx.group]?.[ctx.ageLabel];
   if (!raw) return null;
   return parseAmountToMg(raw, assumedDailyCalories);
+}
+
+/**
+ * Returns the recommended-amount string exactly as stored in
+ * vitaminDRI.json (e.g. "900 mcg", "20-35% of calories") for a given
+ * nutrient slug + DRI context. Unlike getRecommendedMg, this keeps the
+ * original unit instead of converting to mg — it's meant for *display*
+ * (e.g. "your daily norm is 900 mcg" in NutrientDetailSheet), not for math.
+ */
+export function getRecommendedAmountRaw(
+  driData: DRIData,
+  slug: string,
+  ctx: AgeBracket
+): string | null {
+  const entry = driData[slug];
+  if (!entry) return null;
+  return entry.DRI?.[ctx.group]?.[ctx.ageLabel] ?? null;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2b. Amount string -> localized display string (unit translation)    */
+/* ------------------------------------------------------------------ */
+
+// Mirrors the unit vocabulary productDetails' RU files already use for the
+// same kind of values ("г"/"мг"/"мкг"/"ккал" — see the comment in
+// dailyValue.ts about why the *math* always runs on the EN files instead).
+// This is purely cosmetic: it turns a DRI amount that's always stored in
+// English ("900 mcg", "20-35% of calories") into the matching RU-facing
+// string so it can be shown to the user without touching the underlying
+// vitaminDRI.json data.
+const UNIT_LABEL_BY_LOCALE: Record<string, Record<string, string>> = {
+  ru: { mcg: "мкг", mg: "мг", g: "г", kg: "кг", kcal: "ккал" },
+};
+
+export function localizeAmountString(raw: string, locale: "en" | "ru"): string {
+  if (locale === "en") return raw;
+  const unitMap = UNIT_LABEL_BY_LOCALE[locale];
+  if (!unitMap) return raw;
+
+  return raw
+    .replace(/\b(mcg|mg|kg|g|kcal)\b/gi, (unit) => unitMap[unit.toLowerCase()] ?? unit)
+    .replace(/%\s*of calories/i, "% от калорий");
 }
 
 /* ------------------------------------------------------------------ */

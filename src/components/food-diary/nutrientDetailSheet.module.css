@@ -51,6 +51,15 @@
   text-align: center;
 }
 
+.daily-norm {
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 600;
+  color: #91c788;
+  margin: -4px 0 4px;
+  text-align: center;
+}
+
 .list {
   width: 100%;
   flex: 1;

@@ -107,6 +107,7 @@ const FoodDiaryClient = () => {
   const [nutrientPercent, setNutrientPercent] = useState(0);
   const [nutrientRows, setNutrientRows] = useState<NutrientBreakdownRow[]>([]);
   const [nutrientLoading, setNutrientLoading] = useState(false);
+  const [nutrientRecommendedLabel, setNutrientRecommendedLabel] = useState<string | null>(null);
 
 const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Локализованные данные продуктов ----
@@ -350,6 +351,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientInfo({ section, ringLabel: label, title });
     setNutrientPercent(percent);
     setNutrientRows([]);
+    setNutrientRecommendedLabel(null);
     setIsNutrientSheetOpen(true);
     setNutrientLoading(true);
 
@@ -363,8 +365,9 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       // норма), которая может на доли процента разойтись с тем, что
       // усредняет buildSection в computeDailyValueData — а нам нужна
       // визуальная идентичность, а не отдельный источник правды. Из
-      // разбивки используем только список продуктов.
-      const { rows } = await computeNutrientBreakdown(
+      // разбивки используем список продуктов и персональную суточную норму
+      // (recommendedLabel), которую дашборд не считает вообще.
+      const { rows, recommendedLabel } = await computeNutrientBreakdown(
         slug,
         entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
         productMap,
@@ -372,6 +375,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         locale === "ru" ? "ru" : "en"
       );
       setNutrientRows(rows);
+      setNutrientRecommendedLabel(recommendedLabel);
     } catch (e) {
       console.error("Не удалось посчитать разбивку нутриента:", e);
     } finally {
@@ -383,6 +387,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setIsNutrientSheetOpen(false);
     setNutrientInfo(null);
     setNutrientRows([]);
+    setNutrientRecommendedLabel(null);
   };
 
   return (
@@ -552,6 +557,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         percent={nutrientPercent}
         rows={nutrientRows}
         loading={nutrientLoading}
+        recommendedLabel={nutrientRecommendedLabel}
       />
 
       <div className={styles["navigation-container"]}>

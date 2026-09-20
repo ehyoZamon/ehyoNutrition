@@ -204,7 +204,8 @@
     "vitaminSingular": "Витамин",
     "dvSuffix": "СН",
     "noContribution": "Сегодня нет продуктов, содержащих этот нутриент",
-    "loading": "Загружается"
+    "loading": "Загружается",
+    "dailyNorm": "Ваша суточная норма"
   },
   "Settings":{
     "male": "мужчина",

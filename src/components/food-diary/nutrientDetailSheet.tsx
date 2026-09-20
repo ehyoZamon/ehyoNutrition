@@ -26,9 +26,24 @@ type NutrientDetailSheetProps = {
    * once the per-product breakdown finishes loading.
    */
   loading?: boolean;
+  /**
+   * The user's personal daily norm for this nutrient (from vitaminDRI.json,
+   * resolved for their age + gender), already localized for display, e.g.
+   * "900 mcg" / "900 мкг". Null while still loading or when no DRI data
+   * exists for this nutrient/age bracket.
+   */
+  recommendedLabel?: string | null;
 };
 
-const NutrientDetailSheet = ({ open, onClose, info, percent, rows, loading }: NutrientDetailSheetProps) => {
+const NutrientDetailSheet = ({
+  open,
+  onClose,
+  info,
+  percent,
+  rows,
+  loading,
+  recommendedLabel,
+}: NutrientDetailSheetProps) => {
   const t = useTranslations("FoodDiary");
   const stops = useGradientStops();
 
@@ -54,6 +69,12 @@ const NutrientDetailSheet = ({ open, onClose, info, percent, rows, loading }: Nu
         </div>
 
         <h2 className={styles["title"]}>{info.title}</h2>
+
+        {!loading && recommendedLabel && (
+          <p className={styles["daily-norm"]}>
+            {tt("dailyNorm", "Your daily value")}: {recommendedLabel}
+          </p>
+        )}
 
         <div className={styles["list"]}>
           {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}

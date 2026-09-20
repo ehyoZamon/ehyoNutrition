@@ -29,8 +29,11 @@ import {
 } from "@/components/daily-value/dailyValueModule";
 import {
   ASSUMED_DAILY_CALORIES,
+  DRIGroupKey,
+  getRecommendedAmountRaw,
   getRecommendedMg,
   loadVitaminDRI,
+  localizeAmountString,
   parseAmountToMg,
   resolveDRIContext,
   SimpleUserProfile,
@@ -221,6 +224,14 @@ export type NutrientBreakdownRow = {
 export type NutrientBreakdownResult = {
   overallPercent: number;
   rows: NutrientBreakdownRow[];
+  // The user's personal daily norm for this nutrient, already localized for
+  // display (e.g. "900 mcg", "900 мкг"). Null when vitaminDRI.json has no
+  // entry for this slug/DRI-context combination.
+  recommendedLabel: string | null;
+  // Which DRI row recommendedLabel came from — lets the UI say *why* this
+  // is the number (e.g. "Adults (19-30 years)", "Female").
+  driGroup: DRIGroupKey;
+  driAgeLabel: string;
 };
 
 // Inverse of what buildSection() does above — maps a (section, key) pair
@@ -275,9 +286,25 @@ export async function computeNutrientBreakdown(
   profile: SimpleUserProfile | null,
   locale: "en" | "ru"
 ): Promise<NutrientBreakdownResult> {
-  if (entries.length === 0) return { overallPercent: 0, rows: [] };
-
   const ctx = resolveDRIContext(profile);
+
+  // Loaded (and the personal daily norm resolved) unconditionally, even
+  // with zero entries today — the user's daily norm doesn't depend on
+  // whether they've logged anything yet, so the sheet can show "your norm
+  // is X" alongside "no foods logged yet contribute to this nutrient".
+  const driData = await loadVitaminDRI();
+  const recommendedRaw = getRecommendedAmountRaw(driData, nutrientSlug, ctx);
+  const recommendedLabel = recommendedRaw ? localizeAmountString(recommendedRaw, locale) : null;
+
+  if (entries.length === 0) {
+    return {
+      overallPercent: 0,
+      rows: [],
+      recommendedLabel,
+      driGroup: ctx.group,
+      driAgeLabel: ctx.ageLabel,
+    };
+  }
 
   const slugByProductId = new Map<number, string>();
   entries.forEach((entry) => {
@@ -285,8 +312,7 @@ export async function computeNutrientBreakdown(
     if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
   });
 
-  const [driData, enDetails, localizedDetails] = await Promise.all([
-    loadVitaminDRI(),
+  const [enDetails, localizedDetails] = await Promise.all([
     loadProductDetails("en", slugByProductId.values()),
     loadProductDetails(locale, slugByProductId.values()),
   ]);
@@ -343,5 +369,11 @@ export async function computeNutrientBreakdown(
   const overallPercent =
     recommendedMg && recommendedMg > 0 ? Math.min(100, (totalMg / recommendedMg) * 100) : 0;
 
-  return { overallPercent, rows };
+  return {
+    overallPercent,
+    rows,
+    recommendedLabel,
+    driGroup: ctx.group,
+    driAgeLabel: ctx.ageLabel,
+  };
 }

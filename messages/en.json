@@ -204,7 +204,8 @@
     "vitaminSingular": "Vitamin",
     "dvSuffix": "DV",
     "noContribution": "No foods logged today contain this nutrient",
-    "loading": "Loading"
+    "loading": "Loading",
+    "dailyNorm": "Daily amount"
   },
   "Settings":{
     "male": "male",
