@@ -57,6 +57,12 @@ export const MINERAL_ITEMS = [
 
 export type PercentMap = Record<string, number>;
 
+// Keyed the same way as PercentMap (VITAMIN_PRIMARY/SECONDARY, MACRO_ITEMS,
+// MINERAL_ITEMS .key) — true when today's consumed amount for that nutrient
+// is above its upper limit (UL), so the ring/bar can flag an overdose
+// instead of just showing "100%+" in green like a healthy excess.
+export type OverLimitMap = Record<string, boolean>;
+
 // Emitted when the user taps a ring (vitamin/macro) or bar (mineral).
 // `key` is the module's own short key (e.g. "a", "carbs", "sodium");
 // pair it with `section` and lib/dailyValue.ts's slugForNutrientKey() to
@@ -75,11 +81,14 @@ export type NutrientClickInfo = {
 export type DailyValueModuleProps = {
   vitaminsOverallPercent?: number;
   vitaminPercents?: PercentMap; // keyed by VITAMIN_PRIMARY/SECONDARY .key
+  vitaminOverLimit?: OverLimitMap; // keyed the same way — true = above UL today
   caloriesPercent?: number;
   macrosOverallPercent?: number;
   macroPercents?: PercentMap; // keyed by MACRO_ITEMS .key
+  macroOverLimit?: OverLimitMap;
   mineralsOverallPercent?: number;
   mineralPercents?: PercentMap; // keyed by MINERAL_ITEMS .key
+  mineralOverLimit?: OverLimitMap;
   onNutrientClick?: (info: NutrientClickInfo) => void;
 };
 
@@ -95,10 +104,14 @@ export type DailyValueModuleProps = {
 
 type RGB = [number, number, number];
 
-const FALLBACK_STOPS: { coral: RGB; orange: RGB; green: RGB } = {
+const FALLBACK_STOPS: { coral: RGB; orange: RGB; green: RGB; danger: RGB } = {
   coral: [255, 107, 107],
   orange: [255, 169, 77],
   green: [81, 207, 102],
+  // Distinct from `coral` (which just means "low intake") — this flags an
+  // actual overdose (consumed > UL), so it needs to read as a different,
+  // more urgent signal even though both are "red-ish".
+  danger: [217, 33, 33],
 };
 
 function parseColorToRgb(raw: string): RGB | null {
@@ -128,6 +141,10 @@ function mixRgb(a: RGB, b: RGB, t: number): string {
   return `rgb(${r}, ${g}, ${bl})`;
 }
 
+function rgbString(rgb: RGB): string {
+  return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
+}
+
 /**
  * Reads --dv-coral / --dv-orange / --dv-green from the document once on
  * mount (client-only), falling back to fixed hex values until then / on the
@@ -143,7 +160,8 @@ export function useGradientStops() {
     const coral = parseColorToRgb(computed.getPropertyValue("--dv-coral")) ?? FALLBACK_STOPS.coral;
     const orange = parseColorToRgb(computed.getPropertyValue("--dv-orange")) ?? FALLBACK_STOPS.orange;
     const green = parseColorToRgb(computed.getPropertyValue("--dv-green")) ?? FALLBACK_STOPS.green;
-    setStops({ coral, orange, green });
+    const danger = parseColorToRgb(computed.getPropertyValue("--dv-danger")) ?? FALLBACK_STOPS.danger;
+    setStops({ coral, orange, green, danger });
   }, []);
 
   return stops;
@@ -169,12 +187,21 @@ export function CircleRing({
   label,
   size,
   stops,
+  overLimit,
   onClick,
 }: {
   percent: number;
   label: string;
   size: number | "sm" | "lg" | "glg" | "glge";
   stops: typeof FALLBACK_STOPS;
+  /**
+   * True when today's consumed amount for this nutrient is above its
+   * upper limit (UL) — an overdose, not just "over 100% of the target".
+   * Overrides the normal green/orange/coral gradient with a fixed danger
+   * color and adds a small "!" badge, so it reads as a distinct warning
+   * rather than a healthy excess.
+   */
+  overLimit?: boolean;
   onClick?: () => void;
 }) {
   const dimension = typeof size === "number" ? size : size === "lg" ? 56 : 46;
@@ -187,10 +214,11 @@ export function CircleRing({
   // vitamin A in liver) so nothing gets hidden, only the drawing.
   const clamped = Math.min(100, Math.max(0, percent));
   const offset = circumference * (1 - clamped / 100);
-  const color = gradientColor(percent, stops);
+  const color = overLimit ? rgbString(stops.danger) : gradientColor(percent, stops);
   // Soft ceiling purely so an extreme outlier (a mega-dose supplement, say)
   // can't blow out the ring's layout with a 5-digit number.
   const displayPercent = Math.min(999, Math.max(0, Math.round(percent)));
+  const badgeSize = Math.max(12, Math.round(dimension * 0.28));
 
   
   return (
@@ -206,7 +234,7 @@ export function CircleRing({
             }
           : undefined
       }
-      style={onClick ? { cursor: "pointer" } : undefined}
+      style={{ position: "relative", ...(onClick ? { cursor: "pointer" } : {}) }}
     >
       <svg width={dimension} height={dimension} viewBox={`0 0 ${dimension} ${dimension}`}>
         <circle
@@ -248,6 +276,29 @@ export function CircleRing({
           {displayPercent}%
         </text>
       </svg>
+      {overLimit && (
+        <span
+          aria-label="Above upper limit"
+          title="Above upper limit"
+          style={{
+            position: "absolute",
+            top: -2,
+            right: -2,
+            width: badgeSize,
+            height: badgeSize,
+            borderRadius: "50%",
+            background: rgbString(stops.danger),
+            color: "#fff",
+            fontSize: Math.max(9, Math.round(badgeSize * 0.7)),
+            fontWeight: 700,
+            lineHeight: `${badgeSize}px`,
+            textAlign: "center",
+            boxShadow: "0 0 0 2px var(--dv-track, #fff)",
+          }}
+        >
+          !
+        </span>
+      )}
     </div>
   );
 }
@@ -269,17 +320,19 @@ function VerticalBar({
   percent,
   label,
   stops,
+  overLimit,
   onClick,
 }: {
   percent: number;
   label: string;
   stops: typeof FALLBACK_STOPS;
+  overLimit?: boolean;
   onClick?: () => void;
 }) {
   const clamped = Math.min(100, Math.max(0, percent));
   const maxHeight = 130; // px, matches the track height in CSS
   const fillHeight = clamped === 0 ? 0 : Math.max(6, (clamped / 100) * maxHeight);
-  const color = gradientColor(percent, stops);
+  const color = overLimit ? rgbString(stops.danger) : gradientColor(percent, stops);
 
   return (
     <div
@@ -296,7 +349,18 @@ function VerticalBar({
       }
       style={onClick ? { cursor: "pointer" } : undefined}
     >
-      <span className={styles["vbar-label"]}>{label}</span>
+      <span className={styles["vbar-label"]}>
+        {label}
+        {overLimit && (
+          <span
+            aria-label="Above upper limit"
+            title="Above upper limit"
+            style={{ color: rgbString(stops.danger), fontWeight: 700, marginLeft: 3 }}
+          >
+            !
+          </span>
+        )}
+      </span>
       <div className={styles["vbar-track"]} style={{ height: maxHeight }}>
         <div className={styles["vbar-fill"]} style={{ height: fillHeight, backgroundColor: color }} />
       </div>
@@ -326,11 +390,14 @@ function SectionHeader({ title, percent }: { title: string; percent: number }) {
 export default function DailyValueModule({
   vitaminsOverallPercent = 0,
   vitaminPercents = {},
+  vitaminOverLimit = {},
   caloriesPercent = 0,
   macrosOverallPercent = 0,
   macroPercents = {},
+  macroOverLimit = {},
   mineralsOverallPercent = 0,
   mineralPercents = {},
+  mineralOverLimit = {},
   onNutrientClick,
 }: DailyValueModuleProps) {
   const t = useTranslations("FoodDiary");
@@ -354,6 +421,7 @@ export default function DailyValueModule({
                 percent={percent}
                 size="lg"
                 stops={stops}
+                overLimit={vitaminOverLimit[v.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "vitamin", key: v.key, label: v.label, percent })
@@ -374,6 +442,7 @@ export default function DailyValueModule({
                 percent={percent}
                 size="sm"
                 stops={stops}
+                overLimit={vitaminOverLimit[v.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "vitamin", key: v.key, label: v.label, percent })
@@ -407,6 +476,7 @@ export default function DailyValueModule({
                 percent={percent}
                 size={64}
                 stops={stops}
+                overLimit={macroOverLimit[m.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "macro", key: m.key, label, percent })
@@ -433,6 +503,7 @@ export default function DailyValueModule({
                 label={label}
                 percent={percent}
                 stops={stops}
+                overLimit={mineralOverLimit[m.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "mineral", key: m.key, label, percent })

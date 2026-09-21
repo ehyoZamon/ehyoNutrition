@@ -23,6 +23,7 @@ import {
   DailyValueModuleProps,
   MACRO_ITEMS,
   MINERAL_ITEMS,
+  OverLimitMap,
   PercentMap,
   VITAMIN_PRIMARY,
   VITAMIN_SECONDARY,
@@ -30,8 +31,11 @@ import {
 import {
   ASSUMED_DAILY_CALORIES,
   DRIGroupKey,
+  formatMgAsUnitOf,
   getRecommendedAmountRaw,
   getRecommendedMg,
+  getULAmountRaw,
+  getULMg,
   loadVitaminDRI,
   localizeAmountString,
   parseAmountToMg,
@@ -98,11 +102,14 @@ export function emptyDailyValueData(): DailyValueModuleProps {
   return {
     vitaminsOverallPercent: 0,
     vitaminPercents: {},
+    vitaminOverLimit: {},
     caloriesPercent: 0,
     macrosOverallPercent: 0,
     macroPercents: {},
+    macroOverLimit: {},
     mineralsOverallPercent: 0,
     mineralPercents: {},
+    mineralOverLimit: {},
   };
 }
 
@@ -179,11 +186,16 @@ export async function computeDailyValueData(
   // Builds a PercentMap for a section (keyed by dailyValueModule's short
   // "key", e.g. "a" or "carbs") plus its "overall" percent — the average of
   // every item that has a defined DRI. Items with no DRI data render as 0%
-  // individually but don't drag the section average down.
+  // individually but don't drag the section average down. Also flags, per
+  // item, whether today's consumed amount is above that nutrient's upper
+  // limit (UL) — independent of the %-of-RDA number, since a nutrient can
+  // sit at "281% of RDA" (fine, RDA is just a target) while still being
+  // under its UL, or vice versa for a nutrient with a low RDA/UL ratio.
   const buildSection = (
     items: readonly { key: string; slug: string }[]
-  ): { map: PercentMap; overall: number } => {
+  ): { map: PercentMap; overall: number; overLimit: OverLimitMap } => {
     const map: PercentMap = {};
+    const overLimit: OverLimitMap = {};
     const defined: number[] = [];
 
     items.forEach(({ key, slug }) => {
@@ -196,37 +208,58 @@ export async function computeDailyValueData(
       // in the section has individually reached its own 100%.
       map[key] = pct ?? 0;
       if (pct !== null) defined.push(Math.min(pct, 100));
+
+      const ulMg = getULMg(driData, slug, ctx, ASSUMED_DAILY_CALORIES);
+      if (ulMg !== null && ulMg > 0) {
+        const consumedMg = consumedMgById.get(slug) ?? 0;
+        overLimit[key] = consumedMg > ulMg;
+      }
     });
 
     const overall = defined.length
       ? defined.reduce((sum, pct) => sum + pct, 0) / defined.length
       : 0;
 
-    return { map, overall };
+    return { map, overall, overLimit };
   };
 
   const vitaminItems = [...VITAMIN_PRIMARY, ...VITAMIN_SECONDARY].map((v) => ({
     key: v.key,
     slug: `vitamin-${v.key}`,
   }));
-  const { map: vitaminPercents, overall: vitaminsOverallPercent } = buildSection(vitaminItems);
+  const {
+    map: vitaminPercents,
+    overall: vitaminsOverallPercent,
+    overLimit: vitaminOverLimit,
+  } = buildSection(vitaminItems);
 
   const macroItems = MACRO_ITEMS.map((m) => ({ key: m.key, slug: slugForKey(m.key) }));
-  const { map: macroPercents, overall: macrosOverallPercent } = buildSection(macroItems);
+  const {
+    map: macroPercents,
+    overall: macrosOverallPercent,
+    overLimit: macroOverLimit,
+  } = buildSection(macroItems);
 
   const mineralItems = MINERAL_ITEMS.map((m) => ({ key: m.key, slug: m.key }));
-  const { map: mineralPercents, overall: mineralsOverallPercent } = buildSection(mineralItems);
+  const {
+    map: mineralPercents,
+    overall: mineralsOverallPercent,
+    overLimit: mineralOverLimit,
+  } = buildSection(mineralItems);
 
   const caloriesPercent = (consumedCalories / ASSUMED_DAILY_CALORIES) * 100;
 
   return {
     vitaminsOverallPercent,
     vitaminPercents,
+    vitaminOverLimit,
     caloriesPercent,
     macrosOverallPercent,
     macroPercents,
+    macroOverLimit,
     mineralsOverallPercent,
     mineralPercents,
+    mineralOverLimit,
   };
 }
 
@@ -258,6 +291,24 @@ export type NutrientBreakdownResult = {
   // display (e.g. "900 mcg", "900 мкг"). Null when vitaminDRI.json has no
   // entry for this slug/DRI-context combination.
   recommendedLabel: string | null;
+  // The upper limit (UL) for this nutrient/DRI context, localized the same
+  // way as recommendedLabel. Null when vitaminDRI.json has no UL for this
+  // row ("-") or no entry at all.
+  ulLabel: string | null;
+  // Today's total intake of this nutrient as a % of its UL (e.g. 133 means
+  // 33% over the safe upper limit). Null when there's no UL to compare
+  // against. Distinct from `overallPercent`, which is % of the RDA/AI
+  // target, not the UL — a nutrient can be well past 100% of its RDA
+  // while still being under its UL.
+  ulPercent: number | null;
+  // Today's total intake of this nutrient, localized and in the same unit
+  // as ulLabel (e.g. "5 mg" next to a "3 mg" limit) — so a warning can say
+  // "limit 3 mg, consumed 5 mg" without mixing units. Null when there's no
+  // UL to express it against, or nothing consumed yet.
+  consumedLabel: string | null;
+  // True once today's intake has actually crossed the UL — the signal the
+  // UI uses to show the overdose warning.
+  isOverLimit: boolean;
   // Which DRI row recommendedLabel came from — lets the UI say *why* this
   // is the number (e.g. "Adults (19-30 years)", "Female").
   driGroup: DRIGroupKey;
@@ -325,12 +376,18 @@ export async function computeNutrientBreakdown(
   const driData = await loadVitaminDRI();
   const recommendedRaw = getRecommendedAmountRaw(driData, nutrientSlug, ctx);
   const recommendedLabel = recommendedRaw ? localizeAmountString(recommendedRaw, locale) : null;
+  const ulRaw = getULAmountRaw(driData, nutrientSlug, ctx);
+  const ulLabel = ulRaw ? localizeAmountString(ulRaw, locale) : null;
 
   if (entries.length === 0) {
     return {
       overallPercent: 0,
       rows: [],
       recommendedLabel,
+      ulLabel,
+      ulPercent: null,
+      consumedLabel: null,
+      isOverLimit: false,
       driGroup: ctx.group,
       driAgeLabel: ctx.ageLabel,
     };
@@ -348,6 +405,7 @@ export async function computeNutrientBreakdown(
   ]);
 
   const recommendedMg = getRecommendedMg(driData, nutrientSlug, ctx, ASSUMED_DAILY_CALORIES);
+  const ulMg = getULMg(driData, nutrientSlug, ctx, ASSUMED_DAILY_CALORIES);
 
   let totalMg = 0;
   const rows: NutrientBreakdownRow[] = [];
@@ -407,10 +465,22 @@ export async function computeNutrientBreakdown(
   const overallPercent =
     recommendedMg && recommendedMg > 0 ? Math.min(100, (totalMg / recommendedMg) * 100) : 0;
 
+  const ulPercent = ulMg && ulMg > 0 ? (totalMg / ulMg) * 100 : null;
+  const isOverLimit = ulPercent !== null && totalMg > (ulMg as number);
+  // Expressed in the same unit as ulLabel (not always mg) so the two read
+  // naturally together, e.g. "limit 3 mg, consumed 5 mg" instead of mixing
+  // whatever unit vitaminDRI.json happens to store the limit in.
+  const consumedLabel =
+    ulRaw && totalMg > 0 ? localizeAmountString(formatMgAsUnitOf(totalMg, ulRaw), locale) : null;
+
   return {
     overallPercent,
     rows,
     recommendedLabel,
+    ulLabel,
+    ulPercent,
+    consumedLabel,
+    isOverLimit,
     driGroup: ctx.group,
     driAgeLabel: ctx.ageLabel,
   };
@@ -448,7 +518,7 @@ export async function getTopProductsForNutrient(
   nutrientSlug: string,
   allProducts: ProductCatalogEntry[],
   locale: "en" | "ru",
-  limit: number = 5
+  limit: number = 10
 ): Promise<TopProductForNutrient[]> {
   const cacheKey = `${locale}:${nutrientSlug}`;
   const cached = topProductsCache.get(cacheKey);

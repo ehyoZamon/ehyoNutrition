@@ -208,7 +208,9 @@
     "dailyNorm": "Daily amount",
     "per100g": "/ 100g",
     "noTopProducts":"No data available",
-    "topProductsTitle": "Food rich in this" 
+    "topProductsTitle": "Food rich in this",
+    "overLimitWarning": "Upper Limit {ulLabel}, consumed {consumedLabel} — upper limit exceeded {percent}% over the safe maximum",
+    "overUpperLimitSuffix": "over the safe maximum"
   },
   "Settings":{
     "male": "male",

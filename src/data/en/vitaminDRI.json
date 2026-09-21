@@ -1,115 +1,347 @@
 {
   "vitamin-a": {
-    "slug": "vitamin-a",
-    "title": "Vitamin A (Retinol)",
-    "category": "Nutrients/vitamins",
-    "DRI": {
-      "Children": {
-        "Infants (0-6 months)": "0.40 mg",
-        "Infants (7-12 months)": "0.50 mg",
-        "Young (1-3 years)": "0.30 mg",
-        "Preschool (4-8 years)": "0.40 mg",
-        "School-age (9-13 years)": "0.60 mg"
+  "slug": "vitamin-a",
+  "title": "Vitamin A (Retinol)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": {
+        "AI": "0.40 mg",
+        "UL": "0.60 mg"
       },
-      "Male": {
-        "Teens (14-18 years)": "0.90 mg",
-        "Adults (19-30 years)": "0.90 mg",
-        "Middle-aged (31-50 years)": "0.90 mg",
-        "Older Adults (51-70 years)": "0.90 mg",
-        "The Elderly (71+ years)": "0.90 mg"
+      "Infants (7-12 months)": {
+        "AI": "0.50 mg",
+        "UL": "0.60 mg"
       },
-      "Female": {
-        "Teens (14-18 years)": "0.70 mg",
-        "Adults (19-30 years)": "0.70 mg",
-        "Middle-aged (31-50 years)": "0.70 mg",
-        "Older Adults (51-70 years)": "0.70 mg",
-        "The Elderly (71+ years)": "0.70 mg"
+      "Young (1-3 years)": {
+        "EAR": "0.21 mg",
+        "RDA": "0.30 mg",
+        "UL": "0.60 mg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "0.275 mg",
+        "RDA": "0.40 mg",
+        "UL": "0.90 mg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "0.445 mg",
+        "RDA": "0.60 mg",
+        "UL": "1.70 mg"
+      }
+    },
+    "Male": {
+      "Teens (14-18 years)": {
+        "EAR": "0.63 mg",
+        "RDA": "0.90 mg",
+        "UL": "2.80 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "0.625 mg",
+        "RDA": "0.90 mg",
+        "UL": "3.00 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "0.625 mg",
+        "RDA": "0.90 mg",
+        "UL": "3.00 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "0.625 mg",
+        "RDA": "0.90 mg",
+        "UL": "3.00 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "0.625 mg",
+        "RDA": "0.90 mg",
+        "UL": "3.00 mg"
+      }
+    },
+    "Female": {
+      "Teens (14-18 years)": {
+        "EAR": "0.485 mg",
+        "RDA": "0.70 mg",
+        "UL": "2.80 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "0.50 mg",
+        "RDA": "0.70 mg",
+        "UL": "3.00 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "0.50 mg",
+        "RDA": "0.70 mg",
+        "UL": "3.00 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "0.50 mg",
+        "RDA": "0.70 mg",
+        "UL": "3.00 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "0.50 mg",
+        "RDA": "0.70 mg",
+        "UL": "3.00 mg"
       }
     }
+  }
   },
   "vitamin-b1": {
-    "slug": "vitamin-b1",
-    "title": "Vitamin B1 (Thiamine)",
-    "category": "Nutrients/vitamins",
-    "DRI": {
-      "Children": {
-        "Infants (0-6 months)": "0.2 mg",
-        "Infants (7-12 months)": "0.3 mg",
-        "Young (1-3 years)": "0.5 mg",
-        "Preschool (4-8 years)": "0.6 mg",
-        "School-age (9-13 years)": "0.9 mg"
+  "slug": "vitamin-b1",
+  "title": "Vitamin B1 (Thiamine)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": {
+        "AI": "0.2 mg",
+        "UL": "-"
       },
-      "Male": {
-        "Teens (14-18 years)": "1.2 mg",
-        "Adults (19-30 years)": "1.2 mg",
-        "Middle-aged (31-50 years)": "1.2 mg",
-        "Older Adults (51-70 years)": "1.2 mg",
-        "The Elderly (71+ years)": "1.2 mg"
+      "Infants (7-12 months)": {
+        "AI": "0.3 mg",
+        "UL": "-"
       },
-      "Female": {
-        "Teens (14-18 years)": "1.0 mg",
-        "Adults (19-30 years)": "1.1 mg",
-        "Middle-aged (31-50 years)": "1.1 mg",
-        "Older Adults (51-70 years)": "1.1 mg",
-        "The Elderly (71+ years)": "1.1 mg"
+      "Young (1-3 years)": {
+        "EAR": "0.4 mg",
+        "RDA": "0.5 mg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "0.5 mg",
+        "RDA": "0.6 mg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "0.7 mg",
+        "RDA": "0.9 mg",
+        "UL": "-"
+      }
+    },
+    "Male": {
+      "Teens (14-18 years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.2 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.2 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.2 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.2 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.2 mg",
+        "UL": "-"
+      }
+    },
+    "Female": {
+      "Teens (14-18 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.0 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
       }
     }
+  }
   },
   "vitamin-b12": {
-    "slug": "vitamin-b12",
-    "title": "Vitamin B12 (Cobalamin)",
-    "category": "Nutrients/vitamins",
-    "DRI": {
-      "Children": {
-        "Infants (0-6 months)": "0.4 mcg",
-        "Infants (7-12 months)": "0.5 mcg",
-        "Young (1-3 years)": "0.9 mcg",
-        "Preschool (4-8 years)": "1.2 mcg",
-        "School-age (9-13 years)": "1.8 mcg"
+  "slug": "vitamin-b12",
+  "title": "Vitamin B12 (Cobalamin)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": {
+        "AI": "0.4 mcg",
+        "UL": "-"
       },
-      "Male": {
-        "Teens (14-18 years)": "2.4 mcg",
-        "Adults (19-30 years)": "2.4 mcg",
-        "Middle-aged (31-50 years)": "2.4 mcg",
-        "Older Adults (51-70 years)": "2.4 mcg",
-        "The Elderly (71+ years)": "2.4 mcg"
+      "Infants (7-12 months)": {
+        "AI": "0.5 mcg",
+        "UL": "-"
       },
-      "Female": {
-        "Teens (14-18 years)": "2.4 mcg",
-        "Adults (19-30 years)": "2.4 mcg",
-        "Middle-aged (31-50 years)": "2.4 mcg",
-        "Older Adults (51-70 years)": "2.4 mcg",
-        "The Elderly (71+ years)": "2.4 mcg"
+      "Young (1-3 years)": {
+        "EAR": "0.7 mcg",
+        "RDA": "0.9 mcg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "1.0 mcg",
+        "RDA": "1.2 mcg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "1.5 mcg",
+        "RDA": "1.8 mcg",
+        "UL": "-"
+      }
+    },
+    "Male": {
+      "Teens (14-18 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      }
+    },
+    "Female": {
+      "Teens (14-18 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "2.0 mcg",
+        "RDA": "2.4 mcg",
+        "UL": "-"
       }
     }
+  }
   },
   "vitamin-b2": {
-    "slug": "vitamin-b2",
-    "title": "Vitamin B2 (Riboflavin)",
-    "category": "Nutrients/vitamins",
-    "DRI": {
-      "Children": {
-        "Infants (0-6 months)": "0.3 mg",
-        "Infants (7-12 months)": "0.4 mg",
-        "Young (1-3 years)": "0.5 mg",
-        "Preschool (4-8 years)": "0.6 mg",
-        "School-age (9-13 years)": "0.9 mg"
+  "slug": "vitamin-b2",
+  "title": "Vitamin B2 (Riboflavin)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": {
+        "AI": "0.3 mg",
+        "UL": "-"
       },
-      "Male": {
-        "Teens (14-18 years)": "1.3 mg",
-        "Adults (19-30 years)": "1.3 mg",
-        "Middle-aged (31-50 years)": "1.3 mg",
-        "Older Adults (51-70 years)": "1.3 mg",
-        "The Elderly (71+ years)": "1.3 mg"
+      "Infants (7-12 months)": {
+        "AI": "0.4 mg",
+        "UL": "-"
       },
-      "Female": {
-        "Teens (14-18 years)": "1.0 mg",
-        "Adults (19-30 years)": "1.1 mg",
-        "Middle-aged (31-50 years)": "1.1 mg",
-        "Older Adults (51-70 years)": "1.1 mg",
-        "The Elderly (71+ years)": "1.1 mg"
+      "Young (1-3 years)": {
+        "EAR": "0.4 mg",
+        "RDA": "0.5 mg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "0.5 mg",
+        "RDA": "0.6 mg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "0.8 mg",
+        "RDA": "0.9 mg",
+        "UL": "-"
+      }
+    },
+    "Male": {
+      "Teens (14-18 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "-"
+      }
+    },
+    "Female": {
+      "Teens (14-18 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.0 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.1 mg",
+        "UL": "-"
       }
     }
+  }
   },
   "vitamin-b3": {
   "slug": "vitamin-b3",
@@ -117,55 +349,158 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "2 mg",
-      "Infants (7-12 months)": "4 mg",
-      "Young (1-3 years)": "6 mg",
-      "Preschool (4-8 years)": "8 mg",
-      "School-age (9-13 years)": "12 mg"
+      "Infants (0-6 months)": {
+        "AI": "2 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "4 mg NE",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "5 mg NE",
+        "RDA": "6 mg NE",
+        "UL": "10 mg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "6 mg NE",
+        "RDA": "8 mg NE",
+        "UL": "15 mg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "9 mg NE",
+        "RDA": "12 mg NE",
+        "UL": "20 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "16 mg",
-      "Adults (19-30 years)": "16 mg",
-      "Middle-aged (31-50 years)": "16 mg",
-      "Older Adults (51-70 years)": "16 mg",
-      "The Elderly (71+ years)": "16 mg"
+      "Teens (14-18 years)": {
+        "EAR": "12 mg NE",
+        "RDA": "16 mg NE",
+        "UL": "30 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "12 mg NE",
+        "RDA": "16 mg NE",
+        "UL": "35 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "12 mg NE",
+        "RDA": "16 mg NE",
+        "UL": "35 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "12 mg NE",
+        "RDA": "16 mg NE",
+        "UL": "35 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "12 mg NE",
+        "RDA": "16 mg NE",
+        "UL": "35 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "14 mg",
-      "Adults (19-30 years)": "14 mg",
-      "Middle-aged (31-50 years)": "14 mg",
-      "Older Adults (51-70 years)": "14 mg",
-      "The Elderly (71+ years)": "14 mg"
+      "Teens (14-18 years)": {
+        "EAR": "11 mg NE",
+        "RDA": "14 mg NE",
+        "UL": "30 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "11 mg NE",
+        "RDA": "14 mg NE",
+        "UL": "35 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "11 mg NE",
+        "RDA": "14 mg NE",
+        "UL": "35 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "11 mg NE",
+        "RDA": "14 mg NE",
+        "UL": "35 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "11 mg NE",
+        "RDA": "14 mg NE",
+        "UL": "35 mg"
+      }
     }
   }
   },
   "vitamin-b5": {
-    "slug": "vitamin-b5",
-    "title": "Vitamin B5 (Pantothenic Acid)",
-    "category": "Nutrients/vitamins",
-    "DRI": {
-      "Children": {
-        "Infants (0-6 months)": "1.7 mg",
-        "Infants (7-12 months)": "1.8 mg",
-        "Young (1-3 years)": "2 mg",
-        "Preschool (4-8 years)": "3 mg",
-        "School-age (9-13 years)": "4 mg"
+  "slug": "vitamin-b5",
+  "title": "Vitamin B5 (Pantothenic Acid)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": {
+        "AI": "1.7 mg",
+        "UL": "-"
       },
-      "Male": {
-        "Teens (14-18 years)": "5 mg",
-        "Adults (19-30 years)": "5 mg",
-        "Middle-aged (31-50 years)": "5 mg",
-        "Older Adults (51-70 years)": "5 mg",
-        "The Elderly (71+ years)": "5 mg"
+      "Infants (7-12 months)": {
+        "AI": "1.8 mg",
+        "UL": "-"
       },
-      "Female": {
-        "Teens (14-18 years)": "5 mg",
-        "Adults (19-30 years)": "5 mg",
-        "Middle-aged (31-50 years)": "5 mg",
-        "Older Adults (51-70 years)": "5 mg",
-        "The Elderly (71+ years)": "5 mg"
+      "Young (1-3 years)": {
+        "AI": "2 mg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "3 mg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "4 mg",
+        "UL": "-"
+      }
+    },
+    "Male": {
+      "Teens (14-18 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      }
+    },
+    "Female": {
+      "Teens (14-18 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "5 mg",
+        "UL": "-"
       }
     }
+  }
   },
   "vitamin-b6": {
   "slug": "vitamin-b6",
@@ -173,53 +508,156 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "0.1 mg",
-      "Infants (7-12 months)": "0.3 mg",
-      "Young (1-3 years)": "0.5 mg",
-      "Preschool (4-8 years)": "0.6 mg",
-      "School-age (9-13 years)": "1.0 mg"
+      "Infants (0-6 months)": {
+        "AI": "0.1 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "0.3 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "0.4 mg",
+        "RDA": "0.5 mg",
+        "UL": "30 mg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "0.5 mg",
+        "RDA": "0.6 mg",
+        "UL": "40 mg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "0.8 mg",
+        "RDA": "1.0 mg",
+        "UL": "60 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "1.3 mg",
-      "Adults (19-30 years)": "1.3 mg",
-      "Middle-aged (31-50 years)": "1.3 mg",
-      "Older Adults (51-70 years)": "1.7 mg",
-      "The Elderly (71+ years)": "1.7 mg"
+      "Teens (14-18 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "80 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "100 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "1.1 mg",
+        "RDA": "1.3 mg",
+        "UL": "100 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "1.4 mg",
+        "RDA": "1.7 mg",
+        "UL": "100 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "1.4 mg",
+        "RDA": "1.7 mg",
+        "UL": "100 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "1.2 mg",
-      "Adults (19-30 years)": "1.3 mg",
-      "Middle-aged (31-50 years)": "1.3 mg",
-      "Older Adults (51-70 years)": "1.5 mg",
-      "The Elderly (71+ years)": "1.5 mg"
+      "Teens (14-18 years)": {
+        "EAR": "0.9 mg",
+        "RDA": "1.2 mg",
+        "UL": "80 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.3 mg",
+        "UL": "100 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "1.0 mg",
+        "RDA": "1.3 mg",
+        "UL": "100 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "1.3 mg",
+        "RDA": "1.5 mg",
+        "UL": "100 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "1.3 mg",
+        "RDA": "1.5 mg",
+        "UL": "100 mg"
+      }
     }
   }
   },
-  "vitamin-b7": { 
+  "vitamin-b7": {
   "slug": "vitamin-b7",
   "title": "Vitamin B7 (Biotin)",
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "5 mcg",
-      "Infants (7-12 months)": "6 mcg",
-      "Young (1-3 years)": "8 mcg",
-      "Preschool (4-8 years)": "12 mcg",
-      "School-age (9-13 years)": "20 mcg"
+      "Infants (0-6 months)": {
+        "AI": "5 mcg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "6 mcg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "8 mcg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "12 mcg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "20 mcg",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "25 mcg",
-      "Adults (19-30 years)": "30 mcg",
-      "Middle-aged (31-50 years)": "30 mcg",
-      "Older Adults (51-70 years)": "30 mcg",
-      "The Elderly (71+ years)": "30 mcg"
+      "Teens (14-18 years)": {
+        "AI": "25 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "25 mcg",
-      "Adults (19-30 years)": "30 mcg",
-      "Middle-aged (31-50 years)": "30 mcg",
-      "Older Adults (51-70 years)": "30 mcg",
-      "The Elderly (71+ years)": "30 mcg"
+      "Teens (14-18 years)": {
+        "AI": "25 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      }
     }
   }
   },
@@ -229,25 +667,83 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "65 mcg",
-      "Infants (7-12 months)": "80 mcg",
-      "Young (1-3 years)": "150 mcg",
-      "Preschool (4-8 years)": "200 mcg",
-      "School-age (9-13 years)": "300 mcg"
+      "Infants (0-6 months)": {
+        "AI": "65 mcg DFE",
+        "UL": "Not possible to establish"
+      },
+      "Infants (7-12 months)": {
+        "AI": "80 mcg DFE",
+        "UL": "Not possible to establish"
+      },
+      "Young (1-3 years)": {
+        "EAR": "120 mcg DFE",
+        "RDA": "150 mcg DFE",
+        "UL": "300 mcg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "160 mcg DFE",
+        "RDA": "200 mcg DFE",
+        "UL": "400 mcg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "250 mcg DFE",
+        "RDA": "300 mcg DFE",
+        "UL": "600 mcg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "400 mcg",
-      "Adults (19-30 years)": "400 mcg",
-      "Middle-aged (31-50 years)": "400 mcg",
-      "Older Adults (51-70 years)": "400 mcg",
-      "The Elderly (71+ years)": "400 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "330 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "800 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "400 mcg",
-      "Adults (19-30 years)": "400 mcg",
-      "Middle-aged (31-50 years)": "400 mcg",
-      "Older Adults (51-70 years)": "400 mcg",
-      "The Elderly (71+ years)": "400 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "330 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "800 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "320 mcg DFE",
+        "RDA": "400 mcg DFE",
+        "UL": "1000 mcg"
+      }
     }
   }
   },
@@ -257,25 +753,83 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "40 mg",
-      "Infants (7-12 months)": "50 mg",
-      "Young (1-3 years)": "15 mg",
-      "Preschool (4-8 years)": "25 mg",
-      "School-age (9-13 years)": "45 mg"
+      "Infants (0-6 months)": {
+        "AI": "40 mg",
+        "UL": "Not possible to establish"
+      },
+      "Infants (7-12 months)": {
+        "AI": "50 mg",
+        "UL": "Not possible to establish"
+      },
+      "Young (1-3 years)": {
+        "EAR": "13 mg",
+        "RDA": "15 mg",
+        "UL": "400 mg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "22 mg",
+        "RDA": "25 mg",
+        "UL": "650 mg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "39 mg",
+        "RDA": "45 mg",
+        "UL": "1200 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "75 mg",
-      "Adults (19-30 years)": "90 mg",
-      "Middle-aged (31-50 years)": "90 mg",
-      "Older Adults (51-70 years)": "90 mg",
-      "The Elderly (71+ years)": "90 mg"
+      "Teens (14-18 years)": {
+        "EAR": "63 mg",
+        "RDA": "75 mg",
+        "UL": "1800 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "75 mg",
+        "RDA": "90 mg",
+        "UL": "2000 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "75 mg",
+        "RDA": "90 mg",
+        "UL": "2000 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "75 mg",
+        "RDA": "90 mg",
+        "UL": "2000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "75 mg",
+        "RDA": "90 mg",
+        "UL": "2000 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "65 mg",
-      "Adults (19-30 years)": "75 mg",
-      "Middle-aged (31-50 years)": "75 mg",
-      "Older Adults (51-70 years)": "75 mg",
-      "The Elderly (71+ years)": "75 mg"
+      "Teens (14-18 years)": {
+        "EAR": "56 mg",
+        "RDA": "65 mg",
+        "UL": "1800 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "60 mg",
+        "RDA": "75 mg",
+        "UL": "2000 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "60 mg",
+        "RDA": "75 mg",
+        "UL": "2000 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "60 mg",
+        "RDA": "75 mg",
+        "UL": "2000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "60 mg",
+        "RDA": "75 mg",
+        "UL": "2000 mg"
+      }
     }
   }
   },
@@ -285,25 +839,83 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "10 mcg",
-      "Infants (7-12 months)": "15 mcg",
-      "Young (1-3 years)": "15 mcg",
-      "Preschool (4-8 years)": "15 mcg",
-      "School-age (9-13 years)": "15 mcg"
+      "Infants (0-6 months)": {
+        "AI": "10 mcg",
+        "UL": "25 mcg"
+      },
+      "Infants (7-12 months)": {
+        "AI": "10 mcg",
+        "UL": "38 mcg"
+      },
+      "Young (1-3 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "63 mcg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "75 mcg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "15 mcg",
-      "Adults (19-30 years)": "15 mcg",
-      "Middle-aged (31-50 years)": "15 mcg",
-      "Older Adults (51-70 years)": "15 mcg",
-      "The Elderly (71+ years)": "20 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "10 mcg",
+        "RDA": "20 mcg",
+        "UL": "100 mcg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "15 mcg",
-      "Adults (19-30 years)": "15 mcg",
-      "Middle-aged (31-50 years)": "15 mcg",
-      "Older Adults (51-70 years)": "15 mcg",
-      "The Elderly (71+ years)": "20 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "10 mcg",
+        "RDA": "15 mcg",
+        "UL": "100 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "10 mcg",
+        "RDA": "20 mcg",
+        "UL": "100 mcg"
+      }
     }
   }
   },
@@ -313,25 +925,70 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "4 mg",
-      "Infants (7-12 months)": "5 mg",
-      "Young (1-3 years)": "6 mg",
-      "Preschool (4-8 years)": "7 mg",
-      "School-age (9-13 years)": "11 mg"
+      "Infants (0-6 months)": {
+        "AI": "4 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "5 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "RDA": "6 mg",
+        "UL": "200 mg"
+      },
+      "Preschool (4-8 years)": {
+        "RDA": "7 mg",
+        "UL": "300 mg"
+      },
+      "School-age (9-13 years)": {
+        "RDA": "11 mg",
+        "UL": "600 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "15 mg",
-      "Adults (19-30 years)": "15 mg",
-      "Middle-aged (31-50 years)": "15 mg",
-      "Older Adults (51-70 years)": "15 mg",
-      "The Elderly (71+ years)": "15 mg"
+      "Teens (14-18 years)": {
+        "RDA": "15 mg",
+        "UL": "800 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "15 mg",
-      "Adults (19-30 years)": "15 mg",
-      "Middle-aged (31-50 years)": "15 mg",
-      "Older Adults (51-70 years)": "15 mg",
-      "The Elderly (71+ years)": "15 mg"
+      "Teens (14-18 years)": {
+        "RDA": "15 mg",
+        "UL": "800 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "15 mg",
+        "UL": "1000 mg"
+      }
     }
   }
   },
@@ -341,25 +998,70 @@
   "category": "Nutrients/vitamins",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "2 mcg",
-      "Infants (7-12 months)": "2.5 mcg",
-      "Young (1-3 years)": "30 mcg",
-      "Preschool (4-8 years)": "55 mcg",
-      "School-age (9-13 years)": "60 mcg"
+      "Infants (0-6 months)": {
+        "AI": "2 mcg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "2.5 mcg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "55 mcg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "60 mcg",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "75 mcg",
-      "Adults (19-30 years)": "120 mcg",
-      "Middle-aged (31-50 years)": "120 mcg",
-      "Older Adults (51-70 years)": "120 mcg",
-      "The Elderly (71+ years)": "120 mcg"
+      "Teens (14-18 years)": {
+        "AI": "75 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "120 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "120 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "120 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "120 mcg",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "75 mcg",
-      "Adults (19-30 years)": "90 mcg",
-      "Middle-aged (31-50 years)": "90 mcg",
-      "Older Adults (51-70 years)": "90 mcg",
-      "The Elderly (71+ years)": "90 mcg"
+      "Teens (14-18 years)": {
+        "AI": "75 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "90 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "90 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "90 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "90 mcg",
+        "UL": "-"
+      }
     }
   }
   },
@@ -369,25 +1071,70 @@
   "category": "Nutrients/macronutrients",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "9 g",
-      "Infants (7-12 months)": "11 g",
-      "Young (1-3 years)": "13 g",
-      "Preschool (4-8 years)": "19 g",
-      "School-age (9-13 years)": "34 g"
+      "Infants (0-6 months)": {
+        "AI": "9.1 g",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "11 g",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "RDA": "13 g",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "RDA": "19 g",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "RDA": "34 g",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "52 g",
-      "Adults (19-30 years)": "56 g",
-      "Middle-aged (31-50 years)": "56 g",
-      "Older Adults (51-70 years)": "56 g",
-      "The Elderly (71+ years)": "56 g"
+      "Teens (14-18 years)": {
+        "RDA": "52 g",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "56 g",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "56 g",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "56 g",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "56 g",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "46 g",
-      "Adults (19-30 years)": "46 g",
-      "Middle-aged (31-50 years)": "46 g",
-      "Older Adults (51-70 years)": "46 g",
-      "The Elderly (71+ years)": "46 g"
+      "Teens (14-18 years)": {
+        "RDA": "46 g",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "46 g",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "46 g",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "46 g",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "46 g",
+        "UL": "-"
+      }
     }
   }
   },
@@ -397,55 +1144,158 @@
   "category": "Nutrients/macronutrients",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "60 g",
-      "Infants (7-12 months)": "95 g",
-      "Young (1-3 years)": "130 g",
-      "Preschool (4-8 years)": "130 g",
-      "School-age (9-13 years)": "130 g"
+      "Infants (0-6 months)": {
+        "AI": "60 g",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "95 g",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "130 g",
-      "Adults (19-30 years)": "130 g",
-      "Middle-aged (31-50 years)": "130 g",
-      "Older Adults (51-70 years)": "130 g",
-      "The Elderly (71+ years)": "130 g"
+      "Teens (14-18 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "130 g",
-      "Adults (19-30 years)": "130 g",
-      "Middle-aged (31-50 years)": "130 g",
-      "Older Adults (51-70 years)": "130 g",
-      "The Elderly (71+ years)": "130 g"
+      "Teens (14-18 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "100 g",
+        "RDA": "130 g",
+        "UL": "-"
+      }
     }
   }
   },
   "fats": {
-    "slug": "fats",
-    "title": "Fats",
-    "category": "Nutrients/macronutrients",
-    "DRI": {
-      "Children": {
-        "Infants (0-6 months)": "31 g",
-        "Infants (7-12 months)": "30 g",
-        "Young (1-3 years)": "30-40% of calories",
-        "Preschool (4-8 years)": "25-35% of calories",
-        "School-age (9-13 years)": "25-35% of calories"
+  "slug": "fats",
+  "title": "Fats",
+  "category": "Nutrients/macronutrients",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": {
+        "AI": "31 g",
+        "UL": "-"
       },
-      "Male": {
-        "Teens (14-18 years)": "25-35% of calories",
-        "Adults (19-30 years)": "20-35% of calories",
-        "Middle-aged (31-50 years)": "20-35% of calories",
-        "Older Adults (51-70 years)": "20-35% of calories",
-        "The Elderly (71+ years)": "20-35% of calories"
+      "Infants (7-12 months)": {
+        "AI": "30 g",
+        "UL": "-"
       },
-      "Female": {
-        "Teens (14-18 years)": "25-35% of calories",
-        "Adults (19-30 years)": "20-35% of calories",
-        "Middle-aged (31-50 years)": "20-35% of calories",
-        "Older Adults (51-70 years)": "20-35% of calories",
-        "The Elderly (71+ years)": "20-35% of calories"
+      "Young (1-3 years)": {
+        "AMDR": "30-40% of calories",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AMDR": "25-35% of calories",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AMDR": "25-35% of calories",
+        "UL": "-"
+      }
+    },
+    "Male": {
+      "Teens (14-18 years)": {
+        "AMDR": "25-35% of calories",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      }
+    },
+    "Female": {
+      "Teens (14-18 years)": {
+        "AMDR": "25-35% of calories",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AMDR": "20-35% of calories",
+        "UL": "-"
       }
     }
+  }
   },
   "histidine": {
   "slug": "histidine",
@@ -453,25 +1303,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "22 mg/kg",
-      "Young (1-3 years)": "22 mg/kg",
-      "Preschool (4-8 years)": "15 mg/kg",
-      "School-age (9-13 years)": "15 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "36 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "22 mg/kg/day",
+        "RDA": "32 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "21 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "13 mg/kg/day",
+        "RDA": "16 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "12-13 mg/kg/day",
+        "RDA": "15-17 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "12 mg/kg",
-      "Adults (19-30 years)": "10 mg/kg",
-      "Middle-aged (31-50 years)": "10 mg/kg",
-      "Older Adults (51-70 years)": "10 mg/kg",
-      "The Elderly (71+ years)": "10 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "12 mg/kg/day",
+        "RDA": "15 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "12 mg/kg",
-      "Adults (19-30 years)": "10 mg/kg",
-      "Middle-aged (31-50 years)": "10 mg/kg",
-      "Older Adults (51-70 years)": "10 mg/kg",
-      "The Elderly (71+ years)": "10 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "12 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "11 mg/kg/day",
+        "RDA": "14 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -481,25 +1390,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "36 mg/kg",
-      "Young (1-3 years)": "31 mg/kg",
-      "Preschool (4-8 years)": "28 mg/kg",
-      "School-age (9-13 years)": "28 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "88 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "43 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "22 mg/kg/day",
+        "RDA": "28 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "18 mg/kg/day",
+        "RDA": "22 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "18 mg/kg/day",
+        "RDA": "22 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "19 mg/kg",
-      "Adults (19-30 years)": "19 mg/kg",
-      "Middle-aged (31-50 years)": "19 mg/kg",
-      "Older Adults (51-70 years)": "19 mg/kg",
-      "The Elderly (71+ years)": "19 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "17 mg/kg/day",
+        "RDA": "21 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "19 mg/kg",
-      "Adults (19-30 years)": "19 mg/kg",
-      "Middle-aged (31-50 years)": "19 mg/kg",
-      "Older Adults (51-70 years)": "19 mg/kg",
-      "The Elderly (71+ years)": "19 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -509,25 +1477,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "73 mg/kg",
-      "Young (1-3 years)": "44 mg/kg",
-      "Preschool (4-8 years)": "42 mg/kg",
-      "School-age (9-13 years)": "42 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "156 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "65 mg/kg/day",
+        "RDA": "93 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "48 mg/kg/day",
+        "RDA": "63 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "40 mg/kg/day",
+        "RDA": "49 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "38-40 mg/kg/day",
+        "RDA": "47-49 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "38 mg/kg",
-      "Adults (19-30 years)": "42 mg/kg",
-      "Middle-aged (31-50 years)": "42 mg/kg",
-      "Older Adults (51-70 years)": "42 mg/kg",
-      "The Elderly (71+ years)": "42 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "38 mg/kg/day",
+        "RDA": "47 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "38 mg/kg",
-      "Adults (19-30 years)": "42 mg/kg",
-      "Middle-aged (31-50 years)": "42 mg/kg",
-      "Older Adults (51-70 years)": "42 mg/kg",
-      "The Elderly (71+ years)": "42 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "35 mg/kg/day",
+        "RDA": "44 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "42 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -537,25 +1564,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "68 mg/kg",
-      "Young (1-3 years)": "43 mg/kg",
-      "Preschool (4-8 years)": "38 mg/kg",
-      "School-age (9-13 years)": "38 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "119 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "55 mg/kg/day",
+        "RDA": "66 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "36 mg/kg/day",
+        "RDA": "44 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "31 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "30-31 mg/kg/day",
+        "RDA": "37-38 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "38 mg/kg",
-      "Adults (19-30 years)": "38 mg/kg",
-      "Middle-aged (31-50 years)": "38 mg/kg",
-      "Older Adults (51-70 years)": "38 mg/kg",
-      "The Elderly (71+ years)": "38 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "38 mg/kg",
-      "Adults (19-30 years)": "38 mg/kg",
-      "Middle-aged (31-50 years)": "38 mg/kg",
-      "Older Adults (51-70 years)": "38 mg/kg",
-      "The Elderly (71+ years)": "38 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -565,25 +1651,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "23 mg/kg",
-      "Young (1-3 years)": "17 mg/kg",
-      "Preschool (4-8 years)": "19 mg/kg",
-      "School-age (9-13 years)": "19 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "59 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "30 mg/kg/day",
+        "RDA": "43 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "22 mg/kg/day",
+        "RDA": "28 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "18 mg/kg/day",
+        "RDA": "22 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "17-18 mg/kg/day",
+        "RDA": "21-22 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "19 mg/kg",
-      "Adults (19-30 years)": "16 mg/kg",
-      "Middle-aged (31-50 years)": "16 mg/kg",
-      "Older Adults (51-70 years)": "16 mg/kg",
-      "The Elderly (71+ years)": "16 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "17 mg/kg/day",
+        "RDA": "21 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "19 mg/kg",
-      "Adults (19-30 years)": "16 mg/kg",
-      "Middle-aged (31-50 years)": "16 mg/kg",
-      "Older Adults (51-70 years)": "16 mg/kg",
-      "The Elderly (71+ years)": "16 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -593,25 +1738,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "135 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "58 mg/kg/day",
+        "RDA": "84 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "41 mg/kg/day",
+        "RDA": "54 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "33 mg/kg/day",
+        "RDA": "41 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "31-33 mg/kg/day",
+        "RDA": "38-41 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "9.1 mg/kg",
-      "Middle-aged (31-50 years)": "9.1 mg/kg",
-      "Older Adults (51-70 years)": "9.1 mg/kg",
-      "The Elderly (71+ years)": "9.1 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "31 mg/kg/day",
+        "RDA": "38 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "9.1 mg/kg",
-      "Middle-aged (31-50 years)": "9.1 mg/kg",
-      "Older Adults (51-70 years)": "9.1 mg/kg",
-      "The Elderly (71+ years)": "9.1 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "28 mg/kg/day",
+        "RDA": "35 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "27 mg/kg/day",
+        "RDA": "33 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -621,25 +1825,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "31 mg/kg",
-      "Young (1-3 years)": "20 mg/kg",
-      "Preschool (4-8 years)": "20 mg/kg",
-      "School-age (9-13 years)": "20 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "73 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "34 mg/kg/day",
+        "RDA": "49 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "24 mg/kg/day",
+        "RDA": "32 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "18-19 mg/kg/day",
+        "RDA": "22-24 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "20 mg/kg",
-      "Adults (19-30 years)": "20 mg/kg",
-      "Middle-aged (31-50 years)": "20 mg/kg",
-      "Older Adults (51-70 years)": "20 mg/kg",
-      "The Elderly (71+ years)": "20 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "18 mg/kg/day",
+        "RDA": "22 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "20 mg/kg",
-      "Adults (19-30 years)": "20 mg/kg",
-      "Middle-aged (31-50 years)": "20 mg/kg",
-      "Older Adults (51-70 years)": "20 mg/kg",
-      "The Elderly (71+ years)": "20 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "17 mg/kg/day",
+        "RDA": "21 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "16 mg/kg/day",
+        "RDA": "20 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -649,25 +1912,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "4 mg/kg",
-      "Young (1-3 years)": "6 mg/kg",
-      "Preschool (4-8 years)": "6 mg/kg",
-      "School-age (9-13 years)": "5 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "28 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "9 mg/kg/day",
+        "RDA": "13 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "6 mg/kg/day",
+        "RDA": "8 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "5 mg/kg/day",
+        "RDA": "6 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "5 mg/kg/day",
+        "RDA": "6 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "5 mg/kg",
-      "Adults (19-30 years)": "4 mg/kg",
-      "Middle-aged (31-50 years)": "4 mg/kg",
-      "Older Adults (51-70 years)": "4 mg/kg",
-      "The Elderly (71+ years)": "4 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "5 mg/kg/day",
+        "RDA": "6 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "5 mg/kg",
-      "Adults (19-30 years)": "4 mg/kg",
-      "Middle-aged (31-50 years)": "4 mg/kg",
-      "Older Adults (51-70 years)": "4 mg/kg",
-      "The Elderly (71+ years)": "4 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "4 mg/kg/day",
+        "RDA": "5 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -677,25 +1999,84 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "39 mg/kg",
-      "Young (1-3 years)": "26 mg/kg",
-      "Preschool (4-8 years)": "25 mg/kg",
-      "School-age (9-13 years)": "25 mg/kg"
+      "Infants (0-6 months)": {
+        "AI": "87 mg/kg/day",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "39 mg/kg/day",
+        "RDA": "58 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "28 mg/kg/day",
+        "RDA": "37 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "23 mg/kg/day",
+        "RDA": "28 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "22-23 mg/kg/day",
+        "RDA": "27-28 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "24 mg/kg",
-      "Adults (19-30 years)": "24 mg/kg",
-      "Middle-aged (31-50 years)": "24 mg/kg",
-      "Older Adults (51-70 years)": "24 mg/kg",
-      "The Elderly (71+ years)": "24 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "22 mg/kg/day",
+        "RDA": "27 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "24 mg/kg",
-      "Adults (19-30 years)": "24 mg/kg",
-      "Middle-aged (31-50 years)": "24 mg/kg",
-      "Older Adults (51-70 years)": "24 mg/kg",
-      "The Elderly (71+ years)": "24 mg/kg"
+      "Teens (14-18 years)": {
+        "EAR": "20 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "19 mg/kg/day",
+        "RDA": "24 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -705,25 +2086,70 @@
   "category": "Nutrients/fats",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "0.5 g",
-      "Infants (7-12 months)": "0.5 g",
-      "Young (1-3 years)": "0.7 g",
-      "Preschool (4-8 years)": "0.9 g",
-      "School-age (9-13 years)": "1.0 g"
+      "Infants (0-6 months)": {
+        "AI": "0.5 g",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "0.5 g",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "0.7 g",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "0.9 g",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "1.0-1.2 g",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "1.6 g",
-      "Adults (19-30 years)": "1.6 g",
-      "Middle-aged (31-50 years)": "1.6 g",
-      "Older Adults (51-70 years)": "1.6 g",
-      "The Elderly (71+ years)": "1.6 g"
+      "Teens (14-18 years)": {
+        "AI": "1.6 g",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "1.6 g",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "1.6 g",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "1.6 g",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "1.6 g",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "1.1 g",
-      "Adults (19-30 years)": "1.1 g",
-      "Middle-aged (31-50 years)": "1.1 g",
-      "Older Adults (51-70 years)": "1.1 g",
-      "The Elderly (71+ years)": "1.1 g"
+      "Teens (14-18 years)": {
+        "AI": "1.1 g",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "1.1 g",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "1.1 g",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "1.1 g",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "1.1 g",
+        "UL": "-"
+      }
     }
   }
   },
@@ -733,25 +2159,55 @@
   "category": "Nutrients/fats",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "UL": "-"
+      }
     }
   }
   },
@@ -761,25 +2217,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "200 mg",
-      "Infants (7-12 months)": "260 mg",
-      "Young (1-3 years)": "700 mg",
-      "Preschool (4-8 years)": "1,000 mg",
-      "School-age (9-13 years)": "1,300 mg"
+      "Infants (0-6 months)": {
+        "AI": "200 mg",
+        "UL": "1,000 mg"
+      },
+      "Infants (7-12 months)": {
+        "AI": "260 mg",
+        "UL": "1,500 mg"
+      },
+      "Young (1-3 years)": {
+        "RDA": "700 mg",
+        "UL": "2,500 mg"
+      },
+      "Preschool (4-8 years)": {
+        "RDA": "1,000 mg",
+        "UL": "2,500 mg"
+      },
+      "School-age (9-13 years)": {
+        "RDA": "1,300 mg",
+        "UL": "3,000 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "1,300 mg",
-      "Adults (19-30 years)": "1,000 mg",
-      "Middle-aged (31-50 years)": "1,000 mg",
-      "Older Adults (51-70 years)": "1,000 mg",
-      "The Elderly (71+ years)": "1,200 mg"
+      "Teens (14-18 years)": {
+        "RDA": "1,300 mg",
+        "UL": "3,000 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "1,000 mg",
+        "UL": "2,500 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "1,000 mg",
+        "UL": "2,500 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "1,000 mg",
+        "UL": "2,000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "1,200 mg",
+        "UL": "2,000 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "1,300 mg",
-      "Adults (19-30 years)": "1,000 mg",
-      "Middle-aged (31-50 years)": "1,000 mg",
-      "Older Adults (51-70 years)": "1,200 mg",
-      "The Elderly (71+ years)": "1,200 mg"
+      "Teens (14-18 years)": {
+        "RDA": "1,300 mg",
+        "UL": "3,000 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "1,000 mg",
+        "UL": "2,500 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "1,000 mg",
+        "UL": "2,500 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "1,200 mg",
+        "UL": "2,000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "1,200 mg",
+        "UL": "2,000 mg"
+      }
     }
   }
   },
@@ -789,25 +2290,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "100 mg",
-      "Infants (7-12 months)": "275 mg",
-      "Young (1-3 years)": "460 mg",
-      "Preschool (4-8 years)": "500 mg",
-      "School-age (9-13 years)": "1,250 mg"
+      "Infants (0-6 months)": {
+        "AI": "100 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "275 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "RDA": "460 mg",
+        "UL": "3,000 mg"
+      },
+      "Preschool (4-8 years)": {
+        "RDA": "500 mg",
+        "UL": "3,000 mg"
+      },
+      "School-age (9-13 years)": {
+        "RDA": "1,250 mg",
+        "UL": "4,000 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "1,250 mg",
-      "Adults (19-30 years)": "700 mg",
-      "Middle-aged (31-50 years)": "700 mg",
-      "Older Adults (51-70 years)": "700 mg",
-      "The Elderly (71+ years)": "700 mg"
+      "Teens (14-18 years)": {
+        "RDA": "1,250 mg",
+        "UL": "4,000 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "700 mg",
+        "UL": "4,000 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "700 mg",
+        "UL": "4,000 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "700 mg",
+        "UL": "4,000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "700 mg",
+        "UL": "3,000 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "1,250 mg",
-      "Adults (19-30 years)": "700 mg",
-      "Middle-aged (31-50 years)": "700 mg",
-      "Older Adults (51-70 years)": "700 mg",
-      "The Elderly (71+ years)": "700 mg"
+      "Teens (14-18 years)": {
+        "RDA": "1,250 mg",
+        "UL": "4,000 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "700 mg",
+        "UL": "4,000 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "700 mg",
+        "UL": "4,000 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "700 mg",
+        "UL": "4,000 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "700 mg",
+        "UL": "3,000 mg"
+      }
     }
   }
   },
@@ -817,25 +2363,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "30 mg",
-      "Infants (7-12 months)": "75 mg",
-      "Young (1-3 years)": "80 mg",
-      "Preschool (4-8 years)": "130 mg",
-      "School-age (9-13 years)": "240 mg"
+      "Infants (0-6 months)": {
+        "AI": "30 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "75 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "RDA": "80 mg",
+        "UL": "65 mg"
+      },
+      "Preschool (4-8 years)": {
+        "RDA": "130 mg",
+        "UL": "110 mg"
+      },
+      "School-age (9-13 years)": {
+        "RDA": "240 mg",
+        "UL": "350 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "410 mg",
-      "Adults (19-30 years)": "400 mg",
-      "Middle-aged (31-50 years)": "420 mg",
-      "Older Adults (51-70 years)": "420 mg",
-      "The Elderly (71+ years)": "420 mg"
+      "Teens (14-18 years)": {
+        "RDA": "410 mg",
+        "UL": "350 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "400 mg",
+        "UL": "350 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "420 mg",
+        "UL": "350 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "420 mg",
+        "UL": "350 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "420 mg",
+        "UL": "350 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "360 mg",
-      "Adults (19-30 years)": "310 mg",
-      "Middle-aged (31-50 years)": "320 mg",
-      "Older Adults (51-70 years)": "320 mg",
-      "The Elderly (71+ years)": "320 mg"
+      "Teens (14-18 years)": {
+        "RDA": "360 mg",
+        "UL": "350 mg"
+      },
+      "Adults (19-30 years)": {
+        "RDA": "310 mg",
+        "UL": "350 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "RDA": "320 mg",
+        "UL": "350 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "RDA": "320 mg",
+        "UL": "350 mg"
+      },
+      "The Elderly (71+ years)": {
+        "RDA": "320 mg",
+        "UL": "350 mg"
+      }
     }
   }
   },
@@ -845,25 +2436,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "110 mg",
-      "Infants (7-12 months)": "370 mg",
-      "Young (1-3 years)": "1,200 mg",
-      "Preschool (4-8 years)": "1,500 mg",
-      "School-age (9-13 years)": "1,800 mg"
+      "Infants (0-6 months)": {
+        "AI": "110 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "370 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "800 mg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "1,000 mg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "1,200 mg",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "2,300 mg",
-      "Adults (19-30 years)": "2,300 mg",
-      "Middle-aged (31-50 years)": "2,300 mg",
-      "Older Adults (51-70 years)": "2,300 mg",
-      "The Elderly (71+ years)": "2,300 mg"
+      "Teens (14-18 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "2,300 mg",
-      "Adults (19-30 years)": "2,300 mg",
-      "Middle-aged (31-50 years)": "2,300 mg",
-      "Older Adults (51-70 years)": "2,300 mg",
-      "The Elderly (71+ years)": "2,300 mg"
+      "Teens (14-18 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "1,500 mg",
+        "UL": "-"
+      }
     }
   }
   },
@@ -873,25 +2509,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "400 mg",
-      "Infants (7-12 months)": "860 mg",
-      "Young (1-3 years)": "2,000 mg",
-      "Preschool (4-8 years)": "2,300 mg",
-      "School-age (9-13 years)": "2,500 mg"
+      "Infants (0-6 months)": {
+        "AI": "400 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "860 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "2,000 mg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "2,300 mg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "2,300-2,500 mg",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "3,000 mg",
-      "Adults (19-30 years)": "3,400 mg",
-      "Middle-aged (31-50 years)": "3,400 mg",
-      "Older Adults (51-70 years)": "3,400 mg",
-      "The Elderly (71+ years)": "3,400 mg"
+      "Teens (14-18 years)": {
+        "AI": "3,000 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "3,400 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "3,400 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "3,400 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "3,400 mg",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "2,300 mg",
-      "Adults (19-30 years)": "2,600 mg",
-      "Middle-aged (31-50 years)": "2,600 mg",
-      "Older Adults (51-70 years)": "2,600 mg",
-      "The Elderly (71+ years)": "2,600 mg"
+      "Teens (14-18 years)": {
+        "AI": "2,300 mg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "2,600 mg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "2,600 mg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "2,600 mg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "2,600 mg",
+        "UL": "-"
+      }
     }
   }
   },
@@ -901,25 +2582,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "180 mg",
-      "Infants (7-12 months)": "570 mg",
-      "Young (1-3 years)": "1,500 mg",
-      "Preschool (4-8 years)": "1,900 mg",
-      "School-age (9-13 years)": "2,300 mg"
+      "Infants (0-6 months)": {
+        "AI": "180 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "570 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "1,500 mg",
+        "UL": "2,300 mg"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "1,900 mg",
+        "UL": "2,900 mg"
+      },
+      "School-age (9-13 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,400 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "2,300 mg",
-      "Adults (19-30 years)": "2,300 mg",
-      "Middle-aged (31-50 years)": "2,300 mg",
-      "Older Adults (51-70 years)": "2,300 mg",
-      "The Elderly (71+ years)": "2,000 mg"
+      "Teens (14-18 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "2,300 mg",
-      "Adults (19-30 years)": "2,300 mg",
-      "Middle-aged (31-50 years)": "2,300 mg",
-      "Older Adults (51-70 years)": "2,300 mg",
-      "The Elderly (71+ years)": "2,000 mg"
+      "Teens (14-18 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "2,300 mg",
+        "UL": "3,600 mg"
+      }
     }
   }
   },
@@ -929,25 +2655,100 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -957,25 +2758,84 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "0.27 mg",
-      "Infants (7-12 months)": "11 mg",
-      "Young (1-3 years)": "7 mg",
-      "Preschool (4-8 years)": "10 mg",
-      "School-age (9-13 years)": "8 mg"
+      "Infants (0-6 months)": {
+        "AI": "0.27 mg",
+        "UL": "40 mg"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "6.9 mg",
+        "RDA": "11 mg",
+        "UL": "40 mg"
+      },
+      "Young (1-3 years)": {
+        "EAR": "3.0 mg",
+        "RDA": "7 mg",
+        "UL": "40 mg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "4.1 mg",
+        "RDA": "10 mg",
+        "UL": "40 mg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "5.8-5.9 mg",
+        "RDA": "8 mg",
+        "UL": "40 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "11 mg",
-      "Adults (19-30 years)": "8 mg",
-      "Middle-aged (31-50 years)": "8 mg",
-      "Older Adults (51-70 years)": "8 mg",
-      "The Elderly (71+ years)": "8 mg"
+      "Teens (14-18 years)": {
+        "EAR": "7.7 mg",
+        "RDA": "11 mg",
+        "UL": "45 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "6.0 mg",
+        "RDA": "8 mg",
+        "UL": "45 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "6.0 mg",
+        "RDA": "8 mg",
+        "UL": "45 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "6.0 mg",
+        "RDA": "8 mg",
+        "UL": "45 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "6.0 mg",
+        "RDA": "8 mg",
+        "UL": "45 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "15 mg",
-      "Adults (19-30 years)": "18 mg",
-      "Middle-aged (31-50 years)": "18 mg",
-      "Older Adults (51-70 years)": "8 mg",
-      "The Elderly (71+ years)": "8 mg"
+      "Teens (14-18 years)": {
+        "EAR": "7.9 mg",
+        "RDA": "15 mg",
+        "UL": "45 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "8.1 mg",
+        "RDA": "18 mg",
+        "UL": "45 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "8.1 mg",
+        "RDA": "18 mg",
+        "UL": "45 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "5.0 mg",
+        "RDA": "8 mg",
+        "UL": "45 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "5.0 mg",
+        "RDA": "8 mg",
+        "UL": "45 mg"
+      }
     }
   }
   },
@@ -985,25 +2845,84 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "2 mg",
-      "Infants (7-12 months)": "3 mg",
-      "Young (1-3 years)": "3 mg",
-      "Preschool (4-8 years)": "5 mg",
-      "School-age (9-13 years)": "8 mg"
+      "Infants (0-6 months)": {
+        "AI": "2 mg",
+        "UL": "4 mg"
+      },
+      "Infants (7-12 months)": {
+        "EAR": "2.5 mg",
+        "RDA": "3 mg",
+        "UL": "5 mg"
+      },
+      "Young (1-3 years)": {
+        "EAR": "2.5 mg",
+        "RDA": "3 mg",
+        "UL": "7 mg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "4.0 mg",
+        "RDA": "5 mg",
+        "UL": "12 mg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "7.0 mg",
+        "RDA": "8 mg",
+        "UL": "23 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "11 mg",
-      "Adults (19-30 years)": "11 mg",
-      "Middle-aged (31-50 years)": "11 mg",
-      "Older Adults (51-70 years)": "11 mg",
-      "The Elderly (71+ years)": "11 mg"
+      "Teens (14-18 years)": {
+        "EAR": "8.5 mg",
+        "RDA": "11 mg",
+        "UL": "34 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "9.4 mg",
+        "RDA": "11 mg",
+        "UL": "40 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "9.4 mg",
+        "RDA": "11 mg",
+        "UL": "40 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "9.4 mg",
+        "RDA": "11 mg",
+        "UL": "40 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "9.4 mg",
+        "RDA": "11 mg",
+        "UL": "40 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "9 mg",
-      "Adults (19-30 years)": "8 mg",
-      "Middle-aged (31-50 years)": "8 mg",
-      "Older Adults (51-70 years)": "8 mg",
-      "The Elderly (71+ years)": "8 mg"
+      "Teens (14-18 years)": {
+        "EAR": "7.3 mg",
+        "RDA": "9 mg",
+        "UL": "34 mg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "6.8 mg",
+        "RDA": "8 mg",
+        "UL": "40 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "6.8 mg",
+        "RDA": "8 mg",
+        "UL": "40 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "6.8 mg",
+        "RDA": "8 mg",
+        "UL": "40 mg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "6.8 mg",
+        "RDA": "8 mg",
+        "UL": "40 mg"
+      }
     }
   }
   },
@@ -1013,25 +2932,83 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "200 mcg",
-      "Infants (7-12 months)": "220 mcg",
-      "Young (1-3 years)": "340 mcg",
-      "Preschool (4-8 years)": "440 mcg",
-      "School-age (9-13 years)": "700 mcg"
+      "Infants (0-6 months)": {
+        "AI": "200 mcg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "220 mcg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "260 mcg",
+        "RDA": "340 mcg",
+        "UL": "1,000 mcg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "340 mcg",
+        "RDA": "440 mcg",
+        "UL": "3,000 mcg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "540 mcg",
+        "RDA": "700 mcg",
+        "UL": "5,000 mcg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "890 mcg",
-      "Adults (19-30 years)": "900 mcg",
-      "Middle-aged (31-50 years)": "900 mcg",
-      "Older Adults (51-70 years)": "900 mcg",
-      "The Elderly (71+ years)": "900 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "685 mcg",
+        "RDA": "890 mcg",
+        "UL": "8,000 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "890 mcg",
-      "Adults (19-30 years)": "900 mcg",
-      "Middle-aged (31-50 years)": "900 mcg",
-      "Older Adults (51-70 years)": "900 mcg",
-      "The Elderly (71+ years)": "900 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "685 mcg",
+        "RDA": "890 mcg",
+        "UL": "8,000 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "700 mcg",
+        "RDA": "900 mcg",
+        "UL": "10,000 mcg"
+      }
     }
   }
   },
@@ -1041,25 +3018,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "0.003 mg",
-      "Infants (7-12 months)": "0.6 mg",
-      "Young (1-3 years)": "1.2 mg",
-      "Preschool (4-8 years)": "1.5 mg",
-      "School-age (9-13 years)": "1.9 mg"
+      "Infants (0-6 months)": {
+        "AI": "0.003 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "0.6 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "1.2 mg",
+        "UL": "2 mg"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "1.5 mg",
+        "UL": "3 mg"
+      },
+      "School-age (9-13 years)": {
+        "AI": "1.6-1.9 mg",
+        "UL": "6 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "2.2 mg",
-      "Adults (19-30 years)": "2.3 mg",
-      "Middle-aged (31-50 years)": "2.3 mg",
-      "Older Adults (51-70 years)": "2.3 mg",
-      "The Elderly (71+ years)": "2.3 mg"
+      "Teens (14-18 years)": {
+        "AI": "2.2 mg",
+        "UL": "9 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "2.3 mg",
+        "UL": "11 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "2.3 mg",
+        "UL": "11 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "2.3 mg",
+        "UL": "11 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "2.3 mg",
+        "UL": "11 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "1.6 mg",
-      "Adults (19-30 years)": "1.8 mg",
-      "Middle-aged (31-50 years)": "1.8 mg",
-      "Older Adults (51-70 years)": "1.8 mg",
-      "The Elderly (71+ years)": "1.8 mg"
+      "Teens (14-18 years)": {
+        "AI": "1.6 mg",
+        "UL": "9 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "1.8 mg",
+        "UL": "11 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "1.8 mg",
+        "UL": "11 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "1.8 mg",
+        "UL": "11 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "1.8 mg",
+        "UL": "11 mg"
+      }
     }
   }
   },
@@ -1069,25 +3091,83 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "110 mcg",
-      "Infants (7-12 months)": "130 mcg",
-      "Young (1-3 years)": "90 mcg",
-      "Preschool (4-8 years)": "90 mcg",
-      "School-age (9-13 years)": "120 mcg"
+      "Infants (0-6 months)": {
+        "AI": "110 mcg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "130 mcg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "65 mcg",
+        "RDA": "90 mcg",
+        "UL": "200 mcg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "65 mcg",
+        "RDA": "90 mcg",
+        "UL": "300 mcg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "73 mcg",
+        "RDA": "120 mcg",
+        "UL": "600 mcg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "150 mcg",
-      "Adults (19-30 years)": "150 mcg",
-      "Middle-aged (31-50 years)": "150 mcg",
-      "Older Adults (51-70 years)": "150 mcg",
-      "The Elderly (71+ years)": "150 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "900 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "150 mcg",
-      "Adults (19-30 years)": "150 mcg",
-      "Middle-aged (31-50 years)": "150 mcg",
-      "Older Adults (51-70 years)": "150 mcg",
-      "The Elderly (71+ years)": "150 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "900 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "95 mcg",
+        "RDA": "150 mcg",
+        "UL": "1,100 mcg"
+      }
     }
   }
   },
@@ -1097,25 +3177,83 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "15 mcg",
-      "Infants (7-12 months)": "20 mcg",
-      "Young (1-3 years)": "20 mcg",
-      "Preschool (4-8 years)": "30 mcg",
-      "School-age (9-13 years)": "40 mcg"
+      "Infants (0-6 months)": {
+        "AI": "15 mcg",
+        "UL": "45 mcg"
+      },
+      "Infants (7-12 months)": {
+        "AI": "20 mcg",
+        "UL": "60 mcg"
+      },
+      "Young (1-3 years)": {
+        "EAR": "17 mcg",
+        "RDA": "20 mcg",
+        "UL": "90 mcg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "23 mcg",
+        "RDA": "30 mcg",
+        "UL": "150 mcg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "35 mcg",
+        "RDA": "40 mcg",
+        "UL": "280 mcg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "55 mcg",
-      "Adults (19-30 years)": "55 mcg",
-      "Middle-aged (31-50 years)": "55 mcg",
-      "Older Adults (51-70 years)": "55 mcg",
-      "The Elderly (71+ years)": "55 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "55 mcg",
-      "Adults (19-30 years)": "55 mcg",
-      "Middle-aged (31-50 years)": "55 mcg",
-      "Older Adults (51-70 years)": "55 mcg",
-      "The Elderly (71+ years)": "55 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "45 mcg",
+        "RDA": "55 mcg",
+        "UL": "400 mcg"
+      }
     }
   }
   },
@@ -1125,25 +3263,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "0.2 mcg",
-      "Infants (7-12 months)": "5.5 mcg",
-      "Young (1-3 years)": "11 mcg",
-      "Preschool (4-8 years)": "15 mcg",
-      "School-age (9-13 years)": "25 mcg"
+      "Infants (0-6 months)": {
+        "AI": "0.2 mcg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "5.5 mcg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "11 mcg",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "15 mcg",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "21-25 mcg",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "35 mcg",
-      "Adults (19-30 years)": "35 mcg",
-      "Middle-aged (31-50 years)": "35 mcg",
-      "Older Adults (51-70 years)": "30 mcg",
-      "The Elderly (71+ years)": "30 mcg"
+      "Teens (14-18 years)": {
+        "AI": "35 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "35 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "35 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "30 mcg",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "24 mcg",
-      "Adults (19-30 years)": "25 mcg",
-      "Middle-aged (31-50 years)": "25 mcg",
-      "Older Adults (51-70 years)": "20 mcg",
-      "The Elderly (71+ years)": "20 mcg"
+      "Teens (14-18 years)": {
+        "AI": "24 mcg",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "25 mcg",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "25 mcg",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "20 mcg",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "20 mcg",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1153,25 +3336,83 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "2 mcg",
-      "Infants (7-12 months)": "3 mcg",
-      "Young (1-3 years)": "17 mcg",
-      "Preschool (4-8 years)": "22 mcg",
-      "School-age (9-13 years)": "34 mcg"
+      "Infants (0-6 months)": {
+        "AI": "2 mcg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "3 mcg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "EAR": "13 mcg",
+        "RDA": "17 mcg",
+        "UL": "300 mcg"
+      },
+      "Preschool (4-8 years)": {
+        "EAR": "17 mcg",
+        "RDA": "22 mcg",
+        "UL": "600 mcg"
+      },
+      "School-age (9-13 years)": {
+        "EAR": "26 mcg",
+        "RDA": "34 mcg",
+        "UL": "1,100 mcg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "43 mcg",
-      "Adults (19-30 years)": "45 mcg",
-      "Middle-aged (31-50 years)": "45 mcg",
-      "Older Adults (51-70 years)": "45 mcg",
-      "The Elderly (71+ years)": "45 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "33 mcg",
+        "RDA": "43 mcg",
+        "UL": "1,700 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "43 mcg",
-      "Adults (19-30 years)": "45 mcg",
-      "Middle-aged (31-50 years)": "45 mcg",
-      "Older Adults (51-70 years)": "45 mcg",
-      "The Elderly (71+ years)": "45 mcg"
+      "Teens (14-18 years)": {
+        "EAR": "33 mcg",
+        "RDA": "43 mcg",
+        "UL": "1,700 mcg"
+      },
+      "Adults (19-30 years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      },
+      "Middle-aged (31-50 years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      },
+      "Older Adults (51-70 years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      },
+      "The Elderly (71+ years)": {
+        "EAR": "34 mcg",
+        "RDA": "45 mcg",
+        "UL": "2,000 mcg"
+      }
     }
   }
   },
@@ -1181,25 +3422,70 @@
   "category": "Nutrients/minerals",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "0.01 mg",
-      "Infants (7-12 months)": "0.5 mg",
-      "Young (1-3 years)": "0.7 mg",
-      "Preschool (4-8 years)": "1.0 mg",
-      "School-age (9-13 years)": "2.0 mg"
+      "Infants (0-6 months)": {
+        "AI": "0.01 mg",
+        "UL": "0.7 mg"
+      },
+      "Infants (7-12 months)": {
+        "AI": "0.5 mg",
+        "UL": "0.9 mg"
+      },
+      "Young (1-3 years)": {
+        "AI": "0.7 mg",
+        "UL": "1.3 mg"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "1.0 mg",
+        "UL": "2.2 mg"
+      },
+      "School-age (9-13 years)": {
+        "AI": "2.0 mg",
+        "UL": "10 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "3.0 mg",
-      "Adults (19-30 years)": "4.0 mg",
-      "Middle-aged (31-50 years)": "4.0 mg",
-      "Older Adults (51-70 years)": "4.0 mg",
-      "The Elderly (71+ years)": "4.0 mg"
+      "Teens (14-18 years)": {
+        "AI": "3.0 mg",
+        "UL": "10 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "4.0 mg",
+        "UL": "10 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "4.0 mg",
+        "UL": "10 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "4.0 mg",
+        "UL": "10 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "4.0 mg",
+        "UL": "10 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "3.0 mg",
-      "Adults (19-30 years)": "3.0 mg",
-      "Middle-aged (31-50 years)": "3.0 mg",
-      "Older Adults (51-70 years)": "3.0 mg",
-      "The Elderly (71+ years)": "3.0 mg"
+      "Teens (14-18 years)": {
+        "AI": "3.0 mg",
+        "UL": "10 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "3.0 mg",
+        "UL": "10 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "3.0 mg",
+        "UL": "10 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "3.0 mg",
+        "UL": "10 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "3.0 mg",
+        "UL": "10 mg"
+      }
     }
   }
   },
@@ -1209,25 +3495,55 @@
   "category": "Nutrients/macronutrients",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "19 g",
-      "Preschool (4-8 years)": "25 g",
-      "School-age (9-13 years)": "31 g"
+      "Infants (0-6 months)": {
+        "AI": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "19 g"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "25 g"
+      },
+      "School-age (9-13 years)": {
+        "AI": "26-31 g"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "38 g",
-      "Adults (19-30 years)": "38 g",
-      "Middle-aged (31-50 years)": "38 g",
-      "Older Adults (51-70 years)": "30 g",
-      "The Elderly (71+ years)": "30 g"
+      "Teens (14-18 years)": {
+        "AI": "38 g"
+      },
+      "Adults (19-30 years)": {
+        "AI": "38 g"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "38 g"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "30 g"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "30 g"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "26 g",
-      "Adults (19-30 years)": "25 g",
-      "Middle-aged (31-50 years)": "25 g",
-      "Older Adults (51-70 years)": "21 g",
-      "The Elderly (71+ years)": "21 g"
+      "Teens (14-18 years)": {
+        "AI": "26 g"
+      },
+      "Adults (19-30 years)": {
+        "AI": "25 g"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "25 g"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "21 g"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "21 g"
+      }
     }
   }
   },
@@ -1237,25 +3553,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1265,25 +3656,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1293,25 +3759,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1321,25 +3862,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1349,25 +3965,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1377,25 +4068,70 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "125 mg",
-      "Infants (7-12 months)": "150 mg",
-      "Young (1-3 years)": "200 mg",
-      "Preschool (4-8 years)": "250 mg",
-      "School-age (9-13 years)": "375 mg"
+      "Infants (0-6 months)": {
+        "AI": "125 mg",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "150 mg",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "200 mg",
+        "UL": "1,000 mg"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "250 mg",
+        "UL": "1,000 mg"
+      },
+      "School-age (9-13 years)": {
+        "AI": "375 mg",
+        "UL": "2,000 mg"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "550 mg",
-      "Adults (19-30 years)": "550 mg",
-      "Middle-aged (31-50 years)": "550 mg",
-      "Older Adults (51-70 years)": "550 mg",
-      "The Elderly (71+ years)": "550 mg"
+      "Teens (14-18 years)": {
+        "AI": "550 mg",
+        "UL": "3,000 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "550 mg",
+        "UL": "3,500 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "550 mg",
+        "UL": "3,500 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "550 mg",
+        "UL": "3,500 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "550 mg",
+        "UL": "3,500 mg"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "400 mg",
-      "Adults (19-30 years)": "425 mg",
-      "Middle-aged (31-50 years)": "425 mg",
-      "Older Adults (51-70 years)": "425 mg",
-      "The Elderly (71+ years)": "425 mg"
+      "Teens (14-18 years)": {
+        "AI": "400 mg",
+        "UL": "3,000 mg"
+      },
+      "Adults (19-30 years)": {
+        "AI": "425 mg",
+        "UL": "3,500 mg"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "425 mg",
+        "UL": "3,500 mg"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "425 mg",
+        "UL": "3,500 mg"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "425 mg",
+        "UL": "3,500 mg"
+      }
     }
   }
   },
@@ -1405,25 +4141,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1433,25 +4244,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1461,25 +4347,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1489,25 +4450,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1517,25 +4553,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1545,25 +4656,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1573,25 +4759,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1601,25 +4862,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1629,25 +4965,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1657,25 +5068,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1685,25 +5171,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1713,25 +5274,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1741,25 +5377,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1769,25 +5480,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1797,25 +5583,100 @@
   "category": "Nutrients/other",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1825,25 +5686,100 @@
   "category": "Nutrients/fats",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "4.4 g",
-      "Infants (7-12 months)": "4.6 g",
-      "Young (1-3 years)": "7 g",
-      "Preschool (4-8 years)": "10 g",
-      "School-age (9-13 years)": "12 g"
+      "Infants (0-6 months)": {
+        "AI": "4.4 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "4.6 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "7 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "10 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "10-12 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "16 g",
-      "Adults (19-30 years)": "17 g",
-      "Middle-aged (31-50 years)": "17 g",
-      "Older Adults (51-70 years)": "14 g",
-      "The Elderly (71+ years)": "14 g"
+      "Teens (14-18 years)": {
+        "AI": "16 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "17 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "17 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "14 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "14 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "11 g",
-      "Adults (19-30 years)": "12 g",
-      "Middle-aged (31-50 years)": "12 g",
-      "Older Adults (51-70 years)": "11 g",
-      "The Elderly (71+ years)": "11 g"
+      "Teens (14-18 years)": {
+        "AI": "11 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "12 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "12 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "11 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "11 g",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1853,25 +5789,100 @@
   "category": "Nutrients/fats",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1881,25 +5892,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1907,27 +5993,103 @@
   "slug": "cysteine",
   "title": "Cysteine",
   "category": "Nutrients/amino-acids",
+  "DRIReference": "Methionine + Cysteine",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "30 mg/kg/day",
+        "RDA": "43 mg/kg/day",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "22 mg/kg/day",
+        "RDA": "28 mg/kg/day",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "18 mg/kg/day",
+        "RDA": "22 mg/kg/day",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "17-18 mg/kg/day",
+        "RDA": "21-22 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "17 mg/kg/day",
+        "RDA": "21 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "16 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "15 mg/kg/day",
+        "RDA": "19 mg/kg/day",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1937,25 +6099,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1965,25 +6202,100 @@
   "category": "Nutrients/amino-acids",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   },
@@ -1991,27 +6303,103 @@
   "slug": "tyrosine",
   "title": "Tyrosine",
   "category": "Nutrients/amino-acids",
+  "DRIReference": "Phenylalanine + Tyrosine",
   "DRI": {
     "Children": {
-      "Infants (0-6 months)": "—",
-      "Infants (7-12 months)": "—",
-      "Young (1-3 years)": "—",
-      "Preschool (4-8 years)": "—",
-      "School-age (9-13 years)": "—"
+      "Infants (0-6 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Infants (7-12 months)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Young (1-3 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Preschool (4-8 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "School-age (9-13 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Male": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     },
     "Female": {
-      "Teens (14-18 years)": "—",
-      "Adults (19-30 years)": "—",
-      "Middle-aged (31-50 years)": "—",
-      "Older Adults (51-70 years)": "—",
-      "The Elderly (71+ years)": "—"
+      "Teens (14-18 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Adults (19-30 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Middle-aged (31-50 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "Older Adults (51-70 years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      },
+      "The Elderly (71+ years)": {
+        "AI": "-",
+        "EAR": "-",
+        "RDA": "-",
+        "UL": "-"
+      }
     }
   }
   }

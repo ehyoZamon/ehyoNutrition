@@ -144,3 +144,8 @@
 .close-btn:active {
   transform: scale(0.98);
 }
+
+.warning{
+  padding-top: 0;
+  margin-top: 0;
+}

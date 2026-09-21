@@ -110,6 +110,10 @@ const FoodDiaryClient = () => {
   const [nutrientRows, setNutrientRows] = useState<NutrientBreakdownRow[]>([]);
   const [nutrientLoading, setNutrientLoading] = useState(false);
   const [nutrientRecommendedLabel, setNutrientRecommendedLabel] = useState<string | null>(null);
+  const [nutrientUlLabel, setNutrientUlLabel] = useState<string | null>(null);
+  const [nutrientUlPercent, setNutrientUlPercent] = useState<number | null>(null);
+  const [nutrientConsumedLabel, setNutrientConsumedLabel] = useState<string | null>(null);
+  const [nutrientIsOverLimit, setNutrientIsOverLimit] = useState(false);
   const [topProducts, setTopProducts] = useState<TopProductForNutrient[]>([]);
   const [topProductsLoading, setTopProductsLoading] = useState(false);
 
@@ -356,6 +360,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientPercent(percent);
     setNutrientRows([]);
     setNutrientRecommendedLabel(null);
+    setNutrientUlLabel(null);
+    setNutrientUlPercent(null);
+    setNutrientConsumedLabel(null);
+    setNutrientIsOverLimit(false);
     setTopProducts([]);
     setIsNutrientSheetOpen(true);
     setNutrientLoading(true);
@@ -374,15 +382,20 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       // визуальная идентичность, а не отдельный источник правды. Из
       // разбивки используем список продуктов и персональную суточную норму
       // (recommendedLabel), которую дашборд не считает вообще.
-      const { rows, recommendedLabel } = await computeNutrientBreakdown(
-        slug,
-        entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
-        productMap,
-        profile,
-        loc
-      );
+      const { rows, recommendedLabel, ulLabel, ulPercent, consumedLabel, isOverLimit } =
+        await computeNutrientBreakdown(
+          slug,
+          entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
+          productMap,
+          profile,
+          loc
+        );
       setNutrientRows(rows);
       setNutrientRecommendedLabel(recommendedLabel);
+      setNutrientUlLabel(ulLabel);
+      setNutrientUlPercent(ulPercent);
+      setNutrientConsumedLabel(consumedLabel);
+      setNutrientIsOverLimit(isOverLimit);
     } catch (e) {
       console.error("Не удалось посчитать разбивку нутриента:", e);
     } finally {
@@ -394,7 +407,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     // ошибается независимо (одно не должно блокировать другое).
     try {
       const catalog = Array.from(productMap.values());
-      const top = await getTopProductsForNutrient(slug, catalog, loc, 5);
+      const top = await getTopProductsForNutrient(slug, catalog, loc, 10);
       setTopProducts(top);
     } catch (e) {
       console.error("Не удалось посчитать топ продуктов по нутриенту:", e);
@@ -408,6 +421,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientInfo(null);
     setNutrientRows([]);
     setNutrientRecommendedLabel(null);
+    setNutrientUlLabel(null);
+    setNutrientUlPercent(null);
+    setNutrientConsumedLabel(null);
+    setNutrientIsOverLimit(false);
     setTopProducts([]);
   };
 
@@ -579,6 +596,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         rows={nutrientRows}
         loading={nutrientLoading}
         recommendedLabel={nutrientRecommendedLabel}
+        ulLabel={nutrientUlLabel}
+        ulPercent={nutrientUlPercent}
+        consumedLabel={nutrientConsumedLabel}
+        isOverLimit={nutrientIsOverLimit}
         topProducts={topProducts}
         topProductsLoading={topProductsLoading}
       />

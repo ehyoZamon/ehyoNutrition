@@ -208,7 +208,9 @@
     "dailyNorm": "Ваша суточная норма",
     "per100g": "/ 100г",
     "noTopProducts": "Данных пока нет",
-    "topProductsTitle": "Богатые источники"
+    "topProductsTitle": "Богатые источники",
+    "overLimitWarning": "Максимум {ulLabel}, употреблено {consumedLabel} — превышена верхняя граница нормы на {percent}%",
+    "overUpperLimitSuffix": "выше допустимого максимума"
   },
   "Settings":{
     "male": "мужчина",

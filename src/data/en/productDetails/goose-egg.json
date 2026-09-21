@@ -8,36 +8,31 @@
       "id": "calories",
       "name": "Calories",
       "slug": "calories",
-      "amount": 185,
-      "unit": "kcal"
+      "amount": "185 kcal"
     },
     {
       "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": 13.9,
-      "unit": "g"
+      "amount": "13.9 g"
     },
     {
       "id": "carbohydrates",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": 1.35,
-      "unit": "g"
+      "amount": "1.35 g"
     },
     {
       "id": "fats",
       "name": "Fats",
       "slug": "fats",
-      "amount": 13.3,
-      "unit": "g"
+      "amount": "13.3 g"
     },
     {
       "id": "fiber",
       "name": "Fiber",
       "slug": "fiber",
-      "amount": 0,
-      "unit": "g"
+      "amount": "0 g"
     }
   ],
   "microTitle": "Micro Nutrients (per 100g)",
@@ -46,288 +41,247 @@
       "id": "1",
       "name": "Vitamin C",
       "slug": "vitamin-c",
-      "amount": 0,
-      "unit": "mg"
+      "amount": "0 mg"
     },
     {
       "id": "2",
       "name": "Vitamin D",
       "slug": "vitamin-d",
-      "amount": 1.7,
-      "unit": "mcg"
+      "amount": "1.7 mcg"
     },
     {
       "id": "3",
       "name": "Vitamin A",
       "slug": "vitamin-a",
-      "amount": 187,
-      "unit": "mcg"
+      "amount": "187 mcg"
     },
     {
       "id": "4",
       "name": "Vitamin E",
       "slug": "vitamin-e",
-      "amount": 1.29,
-      "unit": "mg"
+      "amount": "1.29 mg"
     },
     {
       "id": "5",
       "name": "Vitamin K",
       "slug": "vitamin-k",
-      "amount": 0.4,
-      "unit": "mcg"
+      "amount": "0.4 mcg"
     },
     {
       "id": "6",
       "name": "Vitamin B1",
       "slug": "vitamin-b1",
-      "amount": 0.147,
-      "unit": "mg"
+      "amount": "0.147 mg"
     },
     {
       "id": "7",
       "name": "Vitamin B2",
       "slug": "vitamin-b2",
-      "amount": 0.382,
-      "unit": "mg"
+      "amount": "0.382 mg"
     },
     {
       "id": "8",
       "name": "Vitamin B3",
       "slug": "vitamin-b3",
-      "amount": 0.189,
-      "unit": "mg"
+      "amount": "0.189 mg"
     },
     {
       "id": "9",
       "name": "Vitamin B5",
       "slug": "vitamin-b5",
-      "amount": 1.76,
-      "unit": "mg"
+      "amount": "1.76 mg"
     },
     {
       "id": "10",
       "name": "Vitamin B6",
       "slug": "vitamin-b6",
-      "amount": 0.236,
-      "unit": "mg"
+      "amount": "0.236 mg"
     },
     {
       "id": "12",
       "name": "Vitamin B9",
       "slug": "vitamin-b9",
-      "amount": 76,
-      "unit": "mcg DFE"
+      "amount": "76 mcg DFE"
     },
     {
       "id": "13",
       "name": "Vitamin B12",
       "slug": "vitamin-b12",
-      "amount": 5.1,
-      "unit": "mcg"
+      "amount": "5.1 mcg"
     },
     {
       "id": "17",
       "name": "Histidine",
       "slug": "histidine",
-      "amount": 0.346,
-      "unit": "g"
+      "amount": "0.346 g"
     },
     {
       "id": "18",
       "name": "Isoleucine",
       "slug": "isoleucine",
-      "amount": 0.647,
-      "unit": "g"
+      "amount": "0.647 g"
     },
     {
       "id": "19",
       "name": "Leucine",
       "slug": "leucine",
-      "amount": 1.19,
-      "unit": "g"
+      "amount": "1.19 g"
     },
     {
       "id": "20",
       "name": "Lysine",
       "slug": "lysine",
-      "amount": 1.03,
-      "unit": "g"
+      "amount": "1.03 g"
     },
     {
       "id": "21",
       "name": "Methionine",
       "slug": "methionine",
-      "amount": 0.624,
-      "unit": "g"
+      "amount": "0.624 g"
     },
     {
       "id": "22",
       "name": "Phenylalanine",
       "slug": "phenylalanine",
-      "amount": 0.91,
-      "unit": "g"
+      "amount": "0.91 g"
     },
     {
       "id": "23",
       "name": "Threonine",
       "slug": "threonine",
-      "amount": 0.797,
-      "unit": "g"
+      "amount": "0.797 g"
     },
     {
       "id": "24",
       "name": "Tryptophan",
       "slug": "tryptophan",
-      "amount": 0.282,
-      "unit": "g"
+      "amount": "0.282 g"
     },
     {
       "id": "25",
       "name": "Valine",
       "slug": "valine",
-      "amount": 0.958,
-      "unit": "g"
+      "amount": "0.958 g"
     },
     {
       "id": "26",
       "name": "Alpha-Linolenic Acid",
       "slug": "alpha-linolenic-acid",
-      "amount": 0.554,
-      "unit": "g"
+      "amount": "0.554 g"
     },
     {
       "id": "27",
       "name": "EPA & DHA",
       "slug": "epa-dha",
-      "amount": 0,
-      "unit": "g"
+      "amount": "0 g"
     },
     {
       "id": "28",
       "name": "Calcium",
       "slug": "calcium",
-      "amount": 60,
-      "unit": "mg"
+      "amount": "60 mg"
     },
     {
       "id": "29",
       "name": "Phosphorus",
       "slug": "phosphorus",
-      "amount": 208,
-      "unit": "mg"
+      "amount": "208 mg"
     },
     {
       "id": "30",
       "name": "Magnesium",
       "slug": "magnesium",
-      "amount": 16,
-      "unit": "mg"
+      "amount": "16 mg"
     },
     {
       "id": "31",
       "name": "Sodium",
       "slug": "sodium",
-      "amount": 138,
-      "unit": "mg"
+      "amount": "138 mg"
     },
     {
       "id": "32",
       "name": "Potassium",
       "slug": "potassium",
-      "amount": 210,
-      "unit": "mg"
+      "amount": "210 mg"
     },
     {
       "id": "35",
       "name": "Iron",
       "slug": "iron",
-      "amount": 3.64,
-      "unit": "mg"
+      "amount": "3.64 mg"
     },
     {
       "id": "36",
       "name": "Zinc",
       "slug": "zinc",
-      "amount": 1.33,
-      "unit": "mg"
+      "amount": "1.33 mg"
     },
     {
       "id": "37",
       "name": "Copper",
       "slug": "copper",
-      "amount": 0.062,
-      "unit": "mg"
+      "amount": "0.062 mg"
     },
     {
       "id": "38",
       "name": "Manganese",
       "slug": "manganese",
-      "amount": 0.038,
-      "unit": "mg"
+      "amount": "0.038 mg"
     },
     {
       "id": "40",
       "name": "Selenium",
       "slug": "selenium",
-      "amount": 36.9,
-      "unit": "mcg"
+      "amount": "36.9 mcg"
     },
     {
       "id": "44",
       "name": "Fiber",
       "slug": "fiber",
-      "amount": 0,
-      "unit": "g"
+      "amount": "0 g"
     },
     {
       "id": "50",
       "name": "Choline",
       "slug": "choline",
-      "amount": 263,
-      "unit": "mg"
+      "amount": "263 mg"
     },
     {
       "id": "57",
       "name": "Beta-carotene",
       "slug": "beta-carotene",
-      "amount": 13,
-      "unit": "mcg"
+      "amount": "13 mcg"
     },
     {
       "id": "66",
       "name": "Omega-6 fatty acids",
       "slug": "omega-6-fatty-acids",
-      "amount": 0.68,
-      "unit": "g"
+      "amount": "0.68 g"
     },
     {
       "id": "67",
       "name": "Omega-9 fatty acids",
       "slug": "omega-9-fatty-acids",
-      "amount": 5.35,
-      "unit": "g"
+      "amount": "5.35 g"
     },
     {
       "id": "68",
       "name": "Arginine",
       "slug": "arginine",
-      "amount": 0.828,
-      "unit": "g"
+      "amount": "0.828 g"
     },
     {
       "id": "71",
       "name": "Glycine",
       "slug": "glycine",
-      "amount": 0.457,
-      "unit": "g"
+      "amount": "0.457 g"
     },
     {
       "id": "72",
       "name": "Tyrosine",
       "slug": "tyrosine",
-      "amount": 0.664,
-      "unit": "g"
+      "amount": "0.664 g"
     }
   ]
 }

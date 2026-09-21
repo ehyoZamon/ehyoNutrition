@@ -34,6 +34,28 @@ type NutrientDetailSheetProps = {
    */
   recommendedLabel?: string | null;
   /**
+   * The upper limit (UL) for this nutrient/age bracket, already localized
+   * for display. Null while still loading or when vitaminDRI.json has no
+   * UL data for this nutrient/age bracket.
+   */
+  ulLabel?: string | null;
+  /**
+   * Today's total intake as a % of the UL (e.g. 133 = 33% over the limit).
+   * Null when there's no UL to compare against.
+   */
+  ulPercent?: number | null;
+  /**
+   * Today's total intake of this nutrient, localized and in the same unit
+   * as ulLabel (e.g. "5 mg" next to a "3 mg" limit). Null when there's no
+   * UL to express it against, or nothing logged yet.
+   */
+  consumedLabel?: string | null;
+  /**
+   * True once today's intake has actually crossed the UL — drives the
+   * overdose warning shown below the daily norm and the ring's color.
+   */
+  isOverLimit?: boolean;
+  /**
    * Top products from the whole catalog ranked by how much of this
    * nutrient they carry per 100g (independent of what's logged today) —
    * powers the "Foods rich in this nutrient" section below the breakdown.
@@ -55,6 +77,10 @@ const NutrientDetailSheet = ({
   rows,
   loading,
   recommendedLabel,
+  ulLabel,
+  ulPercent,
+  consumedLabel,
+  isOverLimit,
   topProducts = [],
   topProductsLoading,
 }: NutrientDetailSheetProps) => {
@@ -63,13 +89,21 @@ const NutrientDetailSheet = ({
 
   // Same graceful-fallback pattern QuantitySheet uses for its own
   // not-yet-translated keys, so this ships before messages/*.json is
-  // updated with the new FoodDiary keys this sheet needs.
-  const tt = (key: string, fallback: string) => {
+  // updated with the new FoodDiary keys this sheet needs. `values` lets a
+  // key carry an interpolated number (e.g. "{percent}") instead of gluing
+  // two separately-translated fragments around it — word order and number
+  // agreement differ per language, so the whole sentence has to be one
+  // translatable unit.
+  const tt = (key: string, fallback: string, values?: Record<string, string | number>) => {
     try {
-      const value = t(key);
+      const value = t(key, values as never);
       return value === key ? fallback : value;
     } catch {
-      return fallback;
+      if (!values) return fallback;
+      return Object.entries(values).reduce(
+        (acc, [k, v]) => acc.replaceAll(`{${k}}`, String(v)),
+        fallback
+      );
     }
   };
 
@@ -79,7 +113,13 @@ const NutrientDetailSheet = ({
     <div className={styles["overlay"]} onClick={onClose}>
       <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
         <div className={styles["ring-wrap"]}>
-          <CircleRing  percent={percent} label={""} size={"glge"} stops={stops} />
+          <CircleRing
+            percent={percent}
+            label={""}
+            size={"glge"}
+            stops={stops}
+            overLimit={!!isOverLimit}
+          />
         </div>
 
         <h2 className={styles["title"]}>{info.title}</h2>
@@ -87,6 +127,25 @@ const NutrientDetailSheet = ({
         {!loading && recommendedLabel && (
           <p className={styles["daily-norm"]}>
             {tt("dailyNorm", "Your daily value")}: {recommendedLabel}
+            {ulLabel && ` - ${ulLabel}`}
+          </p>
+        )}
+
+        {!loading && isOverLimit && ulPercent !== null && ulPercent !== undefined && (
+          <p
+            className={styles["warning"]}
+            style={{ color: "rgb(217, 33, 33)", fontWeight: 600 }}
+          >
+            ⚠{" "}
+            {tt(
+              "overLimitWarning",
+              "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
+              {
+                ulLabel: ulLabel ?? "",
+                consumedLabel: consumedLabel ?? "",
+                percent: Math.round(ulPercent - 100),
+              }
+            )}
           </p>
         )}
 
