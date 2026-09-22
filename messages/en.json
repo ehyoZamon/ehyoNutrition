@@ -203,14 +203,15 @@
     "minerals": "Minerals",
     "vitaminSingular": "Vitamin",
     "dvSuffix": "DV",
-    "noContribution": "No foods logged today contain this nutrient",
+    "noContribution": "No foods logged contain this nutrient",
     "loading": "Loading",
     "dailyNorm": "Daily amount",
     "per100g": "/ 100g",
     "noTopProducts":"No data available",
     "topProductsTitle": "Food rich in this",
     "overLimitWarning": "Upper Limit {ulLabel}, consumed {consumedLabel} — upper limit exceeded {percent}% over the safe maximum",
-    "overUpperLimitSuffix": "over the safe maximum"
+    "overUpperLimitSuffix": "over the safe maximum",
+    "consumption": "Consumed"
   },
   "Settings":{
     "male": "male",

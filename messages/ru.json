@@ -203,14 +203,15 @@
     "minerals": "Минералы",
     "vitaminSingular": "Витамин",
     "dvSuffix": "СН",
-    "noContribution": "Сегодня не было добавлено продуктов, содержащих этот нутриент",
+    "noContribution": "Не было добавлено продуктов, содержащих этот нутриент",
     "loading": "Загружается",
     "dailyNorm": "Ваша суточная норма",
     "per100g": "/ 100г",
     "noTopProducts": "Данных пока нет",
     "topProductsTitle": "Богатые источники",
     "overLimitWarning": "Максимум {ulLabel}, употреблено {consumedLabel} — превышена верхняя граница нормы на {percent}%",
-    "overUpperLimitSuffix": "выше допустимого максимума"
+    "overUpperLimitSuffix": "выше допустимого максимума",
+    "consumption": "Употреблено"
   },
   "Settings":{
     "male": "мужчина",

@@ -163,52 +163,60 @@ const NutrientDetailSheet = ({
 
         <h2 className={styles["title"]}>{info.title}</h2>
 
-        {!loading && recommendedLabel && (
-          <p className={styles["daily-norm"]}>
-            {tt("dailyNorm", "Your daily value")}: {recommendedLabel}
-            {ulLabel && ` - ${ulLabel}`}
-          </p>
-        )}
-
-        {/* Shown whenever this nutrient has a UL and a configured note,
-            regardless of whether today's intake is currently over it — the
-            nuance (e.g. "this limit is about supplements, not food") is
-            useful context before it becomes relevant, not just after. */}
-        {!loading && ulLabel && ulNote && <p className={styles["ul-note"]}>{ulNote}</p>}
-
-        {!loading && severity !== "none" && ulPercent !== null && ulPercent !== undefined && (
-          <p
-            className={styles["warning"]}
-            style={
-              severity === "danger"
-                ? { color: "rgb(217, 33, 33)", fontWeight: 600 }
-                : { color: "#F59E0B", fontWeight: 600 }
-            }
-          >
-            {severity === "danger" ? "⚠" : <span className={styles['info-circle']}>ℹ</span>}{" "}
-            {severity === "danger"
-              ? tt(
-                  "overLimitWarning",
-                  "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
-                  {
-                    ulLabel: ulLabel ?? "",
-                    consumedLabel: consumedLabel ?? "",
-                    percent: Math.round(ulPercent - 100),
-                  }
-                )
-              : tt(
-                  "overLimitWarning",
-                  "{percent}% over the supplement limit {ulLabel} — from whole food, not considered a risk",
-                  {
-                    ulLabel: ulLabel ?? "",
-                    consumedLabel: consumedLabel ?? "",
-                    percent: Math.round(ulPercent - 100),
-                  }
-                )}
-          </p>
-        )}
+       
 
         <div className={styles["list"]}>
+           {!loading && recommendedLabel && (
+              <p className={styles["daily-norm"]}>
+                {tt("dailyNorm", "Your daily value")}: {recommendedLabel}
+                {ulLabel && ` - ${ulLabel}`}
+              </p>
+            )}
+
+            {/* Shown whenever this nutrient has a UL and a configured note,
+                regardless of whether today's intake is currently over it — the
+                nuance (e.g. "this limit is about supplements, not food") is
+                useful context before it becomes relevant, not just after. */}
+            {!loading && ulLabel && ulNote && <p className={styles["ul-note"]}>{ulNote}</p>}
+
+            {!loading && severity !== "none" && ulPercent !== null && ulPercent !== undefined && (
+              <p
+                className={styles["warning"]}
+                style={
+                  severity === "danger"
+                    ? { color: "rgb(217, 33, 33)", fontWeight: 600 }
+                    : { color: "#F59E0B", fontWeight: 600 }
+                }
+              >
+                {severity === "danger" ? "⚠" : <span className={styles['info-circle']}>ℹ</span>}{" "}
+                {severity === "danger"
+                  ? tt(
+                      "overLimitWarning",
+                      "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
+                      {
+                        ulLabel: ulLabel ?? "",
+                        consumedLabel: consumedLabel ?? "",
+                        percent: Math.round(ulPercent - 100),
+                      }
+                    )
+                  : tt(
+                      "overLimitWarning",
+                      "{percent}% over the supplement limit {ulLabel} — from whole food, not considered a risk",
+                      {
+                        ulLabel: ulLabel ?? "",
+                        consumedLabel: consumedLabel ?? "",
+                        percent: Math.round(ulPercent - 100),
+                      }
+                    )}
+              </p>
+            )}
+            
+          <div className={styles["divider"]} />
+
+          <h3 className={styles["section-title"]}>
+            {tt("consumption", "Consumption")}
+          </h3>
+
           {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
 
           {!loading && rows.length === 0 && (
