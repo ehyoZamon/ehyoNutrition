@@ -1,17 +1,35 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import styles from "./VitaminDetailSheet.module.css";
 
 type DRIGroupKey = "Children" | "Male" | "Female";
 
+// vitaminDRI.json was migrated from one flat string per age bracket (e.g.
+// "1.2 mg") to a small object of DRI reference types per age bracket — this
+// mirrors what lib/dailyValue.ts already needs to compute %UL for the food
+// diary (getULMg reads .UL the same way). AMDR only appears on macros
+// (protein/carbs/fats) and is a %-of-calories range, not an absolute amount.
+type DRIValueKey = "AI" | "EAR" | "RDA" | "AMDR" | "UL";
+type DRIValues = Partial<Record<DRIValueKey, string>>;
+
 type DRIEntry = {
   slug: string;
   title: string;
   category: string;
-  DRI: Partial<Record<DRIGroupKey, Record<string, string>>>;
+  DRI: Partial<Record<DRIGroupKey, Record<string, DRIValues>>>;
+  // Whether this nutrient's UL applies to total intake from any source
+  // ("total") or was set specifically for synthetic/supplemental/fortified
+  // intake ("supplement_only") — see the ulMode comment in
+  // lib/dailyValue.ts. Most entries have neither field; only the ~16
+  // nutrients with an actual nuance worth explaining do.
+  ulMode?: "total" | "supplement_only";
+  // Short, user-facing explanation of the nuance above, already split by
+  // locale (unlike the rest of this file, which is locale-neutral amounts —
+  // this one field is meant to be read directly, so it can't be).
+  ulNote?: { en?: string; ru?: string };
 };
 
 type Props = {
@@ -72,14 +90,50 @@ const localizeDRIValue = (
   return result;
 };
 
+// vitaminDRI.json uses these two strings interchangeably for "no UL defined
+// for this age bracket" — neither is a real limit, so a row with either
+// value shows no UL line at all rather than rendering "UL: -" or "UL: Not
+// possible to establish".
+const UL_PLACEHOLDER_VALUES = new Set(["-", "Not possible to establish"]);
+
+function isRealUL(ul: string | undefined): ul is string {
+  return !!ul && !UL_PLACEHOLDER_VALUES.has(ul);
+}
+
+// RDA is the number people actually target day-to-day. AI is the fallback
+// used for age brackets (mostly infants) where there isn't enough evidence
+// to set an RDA. AMDR (macros only) is a %-of-calories range rather than an
+// absolute amount. EAR is intentionally never shown here — it's the average
+// requirement that covers half a population, a technical intermediate value
+// used to derive the RDA, not a number anyone should personally target.
+function primaryDRIValue(values: DRIValues): string | null {
+  return values.RDA ?? values.AI ?? values.AMDR ?? null;
+}
+
 const VitaminDetailSheet = ({ slug, basicInfo, onClose }: Props) => {
   const t = useTranslations("Vitamins.dri");
+  const locale = useLocale();
+  // vitaminDRI.json's ulNote is a plain {en, ru} object, not a
+  // messages/*.json key — resolved directly against the active locale here,
+  // same fallback order as lib/dailyValue.ts's getULNote.
+  const noteLocale: "en" | "ru" = locale === "ru" ? "ru" : "en";
 
   const translateUnit = (unit: (typeof UNIT_KEYS)[number]) => {
     try {
       return t(`units.${unit}`);
     } catch {
       return unit;
+    }
+  };
+
+  // Same graceful-fallback pattern as translateUnit — lets the new "UL"
+  // label ship before messages/*.json has a Vitamins.dri.ulLabel key.
+  const tSafe = (key: string, fallback: string) => {
+    try {
+      const value = t(key);
+      return value === key ? fallback : value;
+    } catch {
+      return fallback;
     }
   };
   const [entry, setEntry] = useState<DRIEntry | null>(null);
@@ -159,6 +213,26 @@ const VitaminDetailSheet = ({ slug, basicInfo, onClose }: Props) => {
 
             <div className={styles.sectionHeader}>{t("title")}</div>
 
+            {/* Shown whenever this nutrient has a configured UL nuance,
+                regardless of which age group the person falls into — the
+                context (e.g. "this limit is about supplements, not food")
+                is useful before it becomes relevant, not just after. */}
+            {!loading && entry?.ulNote && (
+              <p
+                style={{
+                  fontFamily: "var(--font-family)",
+                  fontSize: 12,
+                  color: "#9a9a9a",
+                  textAlign: "center",
+                  lineHeight: 1.35,
+                  margin: "-4px 0 4px",
+                  padding: "0 8px",
+                }}
+              >
+                {entry.ulNote[noteLocale] ?? entry.ulNote.en ?? entry.ulNote.ru}
+              </p>
+            )}
+
             {loading && !entry && (
               <div className={styles.loadingRows}>
                 {[...Array(6)].map((_, i) => (
@@ -177,15 +251,29 @@ const VitaminDetailSheet = ({ slug, basicInfo, onClose }: Props) => {
                 <div className={styles.group} key={key}>
                   <h3 className={styles.groupTitle}>{t(`groups.${labelId}`)}</h3>
                   <div className={styles.list}>
-                    {Object.entries(ages).map(([ageLabel, value]) => {
+                    {Object.entries(ages).map(([ageLabel, values]) => {
                       const ageId = AGE_LABEL_IDS[ageLabel];
+                      const main = primaryDRIValue(values);
+                      const ul = values.UL;
                       return (
                         <div className={styles.row} key={ageLabel}>
                           <span className={styles.rowName}>
                             {ageId ? t(`ages.${ageId}`) : ageLabel}
                           </span>
                           <span className={styles.rowValue}>
-                            {localizeDRIValue(value, translateUnit)}
+                            {main ? localizeDRIValue(main, translateUnit) : "—"}
+                            {isRealUL(ul) && (
+                              <span
+                                style={{
+                                  display: "block",
+                                  fontSize: 11,
+                                  fontWeight: 400,
+                                  opacity: 0.65,
+                                }}
+                              >
+                                {tSafe("ulLabel", "UL")} {localizeDRIValue(ul, translateUnit)}
+                              </span>
+                            )}
                           </span>
                         </div>
                       );
