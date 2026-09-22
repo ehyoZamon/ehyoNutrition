@@ -1,5 +1,5 @@
 {
-"slug": "beans",
+"slug": "",
 "name": "Beans",
 "category": "Legumes and Legume Products",
 "macroTitle": "Macro Nutrients (per 100g)",
@@ -96,6 +96,12 @@
 "name": "Vitamin B9",
 "slug": "vitamin-b9",
 "amount": "147 mcg DFE"
+},
+{
+  "id": 11,
+  "name": "Vitamin B7",
+  "slug": "vitamin-b7",
+  "amount": "9.5 mcg"
 },
 {
 "id": "vitamin-b12",
