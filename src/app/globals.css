@@ -21,7 +21,7 @@
 }
 
 :root {
-  --font-family: var(--font-signika), sans-serif;
+  --font-family: var(--font-inter), sans-serif;
   --second-family: var(--font-inter), sans-serif;
   --third-family: var(--font-nunito), sans-serif;
 }
