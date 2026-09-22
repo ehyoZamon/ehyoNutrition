@@ -113,7 +113,13 @@ const FoodDiaryClient = () => {
   const [nutrientUlLabel, setNutrientUlLabel] = useState<string | null>(null);
   const [nutrientUlPercent, setNutrientUlPercent] = useState<number | null>(null);
   const [nutrientConsumedLabel, setNutrientConsumedLabel] = useState<string | null>(null);
-  const [nutrientIsOverLimit, setNutrientIsOverLimit] = useState(false);
+  // Replaces a plain isOverLimit boolean: "danger" is a real, any-source UL
+  // risk; "info" is an over-UL flag for a nutrient whose limit applies to
+  // supplements specifically (folate, niacin, ...) — see the ulMode comment
+  // in lib/dailyValue.ts. nutrientUlNote is the short explanation shown
+  // alongside it, resolved to the active locale by computeNutrientBreakdown.
+  const [nutrientUlSeverity, setNutrientUlSeverity] = useState<"none" | "info" | "danger">("none");
+  const [nutrientUlNote, setNutrientUlNote] = useState<string | null>(null);
   const [topProducts, setTopProducts] = useState<TopProductForNutrient[]>([]);
   const [topProductsLoading, setTopProductsLoading] = useState(false);
 
@@ -363,7 +369,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientUlLabel(null);
     setNutrientUlPercent(null);
     setNutrientConsumedLabel(null);
-    setNutrientIsOverLimit(false);
+    setNutrientUlSeverity("none");
+    setNutrientUlNote(null);
     setTopProducts([]);
     setIsNutrientSheetOpen(true);
     setNutrientLoading(true);
@@ -382,7 +389,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       // визуальная идентичность, а не отдельный источник правды. Из
       // разбивки используем список продуктов и персональную суточную норму
       // (recommendedLabel), которую дашборд не считает вообще.
-      const { rows, recommendedLabel, ulLabel, ulPercent, consumedLabel, isOverLimit } =
+      const { rows, recommendedLabel, ulLabel, ulPercent, consumedLabel, ulSeverity, ulNote } =
         await computeNutrientBreakdown(
           slug,
           entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
@@ -395,7 +402,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       setNutrientUlLabel(ulLabel);
       setNutrientUlPercent(ulPercent);
       setNutrientConsumedLabel(consumedLabel);
-      setNutrientIsOverLimit(isOverLimit);
+      setNutrientUlSeverity(ulSeverity);
+      setNutrientUlNote(ulNote);
     } catch (e) {
       console.error("Не удалось посчитать разбивку нутриента:", e);
     } finally {
@@ -424,7 +432,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientUlLabel(null);
     setNutrientUlPercent(null);
     setNutrientConsumedLabel(null);
-    setNutrientIsOverLimit(false);
+    setNutrientUlSeverity("none");
+    setNutrientUlNote(null);
     setTopProducts([]);
   };
 
@@ -599,7 +608,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         ulLabel={nutrientUlLabel}
         ulPercent={nutrientUlPercent}
         consumedLabel={nutrientConsumedLabel}
-        isOverLimit={nutrientIsOverLimit}
+        ulSeverity={nutrientUlSeverity}
+        ulNote={nutrientUlNote}
         topProducts={topProducts}
         topProductsLoading={topProductsLoading}
       />

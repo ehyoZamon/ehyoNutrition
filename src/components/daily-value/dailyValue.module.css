@@ -2,6 +2,15 @@
   --dv-green: #7bc47f;
   --dv-orange: #f0a93a;
   --dv-coral: #ff7a5c;
+  /* Real, any-source UL overdose (see lib/ulRules.ts). Was already read by
+     dailyValueModule.tsx via getComputedStyle but never defined here, so it
+     silently fell back to the hardcoded value in FALLBACK_STOPS — defining
+     it explicitly makes it themeable like the other dv- colors. */
+  --dv-danger: #d92121;
+  /* "Over the upper limit, but only a supplement-only limit crossed from
+     whole food" — see lib/ulRules.ts. Calm blue so it reads as "worth a
+     look" rather than the --dv-danger red "real overdose" signal. */
+  --dv-info: #4a90d9;
   --dv-track: #eef0f2;
   --dv-mineral-fill: #f2537b;
   --dv-mineral-track: #dfe3e8;

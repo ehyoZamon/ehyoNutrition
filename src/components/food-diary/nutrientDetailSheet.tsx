@@ -53,8 +53,38 @@ type NutrientDetailSheetProps = {
   /**
    * True once today's intake has actually crossed the UL — drives the
    * overdose warning shown below the daily norm and the ring's color.
+   * Kept for backwards compatibility with callers that haven't been
+   * updated yet; when `ulSeverity` is also passed, it takes priority (see
+   * `ulSeverity` below for why the two can disagree).
    */
   isOverLimit?: boolean;
+  /**
+   * Whether this nutrient's UL applies to total intake from any source
+   * ("total") or was set specifically for synthetic/supplemental/fortified
+   * intake ("supplement_only") — see vitaminDRI.json's per-entry ulMode.
+   * Not used directly for rendering (ulSeverity already encodes the
+   * distinction that matters here); kept on the props for callers/analytics
+   * that want the raw classification.
+   */
+  ulMode?: "total" | "supplement_only";
+  /**
+   * "none" — not over the UL. "danger" — over the UL and it's a real,
+   * total-intake risk: shown as the red "⚠" warning, same as `isOverLimit`
+   * always meant. "info" — over the UL, but only from whole-food sources of
+   * a nutrient whose UL was written for supplements (folate, niacin,
+   * vitamin E, calcium, iron, magnesium); shown as a calmer blue "ℹ" note
+   * instead of an alarm. Falls back to `isOverLimit ? "danger" : "none"`
+   * when omitted, so older callers keep working unchanged.
+   */
+  ulSeverity?: "none" | "info" | "danger";
+  /**
+   * Short, user-facing explanation of the nuance above (from
+   * vitaminDRI.json's ulNote, already resolved to the active locale). Shown
+   * under the daily norm whenever this nutrient has a UL, whether or not
+   * today's intake is currently over it — so the context is there before it
+   * becomes relevant. Null when there's no UL or no note configured for it.
+   */
+  ulNote?: string | null;
   /**
    * Top products from the whole catalog ranked by how much of this
    * nutrient they carry per 100g (independent of what's logged today) —
@@ -81,11 +111,19 @@ const NutrientDetailSheet = ({
   ulPercent,
   consumedLabel,
   isOverLimit,
+  ulSeverity,
+  ulNote,
   topProducts = [],
   topProductsLoading,
 }: NutrientDetailSheetProps) => {
   const t = useTranslations("FoodDiary");
   const stops = useGradientStops();
+
+  // Prefer the richer ulSeverity when the caller passes it; older callers
+  // that only pass isOverLimit still get the same "danger" behavior they
+  // always had.
+  const severity: "none" | "info" | "danger" =
+    ulSeverity ?? (isOverLimit ? "danger" : "none");
 
   // Same graceful-fallback pattern QuantitySheet uses for its own
   // not-yet-translated keys, so this ships before messages/*.json is
@@ -118,7 +156,8 @@ const NutrientDetailSheet = ({
             label={""}
             size={"glge"}
             stops={stops}
-            overLimit={!!isOverLimit}
+            overLimit={severity === "danger"}
+            overLimitInfo={severity === "info"}
           />
         </div>
 
@@ -131,21 +170,41 @@ const NutrientDetailSheet = ({
           </p>
         )}
 
-        {!loading && isOverLimit && ulPercent !== null && ulPercent !== undefined && (
+        {/* Shown whenever this nutrient has a UL and a configured note,
+            regardless of whether today's intake is currently over it — the
+            nuance (e.g. "this limit is about supplements, not food") is
+            useful context before it becomes relevant, not just after. */}
+        {!loading && ulLabel && ulNote && <p className={styles["ul-note"]}>{ulNote}</p>}
+
+        {!loading && severity !== "none" && ulPercent !== null && ulPercent !== undefined && (
           <p
             className={styles["warning"]}
-            style={{ color: "rgb(217, 33, 33)", fontWeight: 600 }}
+            style={
+              severity === "danger"
+                ? { color: "rgb(217, 33, 33)", fontWeight: 600 }
+                : { color: "#F59E0B", fontWeight: 600 }
+            }
           >
-            ⚠{" "}
-            {tt(
-              "overLimitWarning",
-              "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
-              {
-                ulLabel: ulLabel ?? "",
-                consumedLabel: consumedLabel ?? "",
-                percent: Math.round(ulPercent - 100),
-              }
-            )}
+            {severity === "danger" ? "⚠" : <span className={styles['info-circle']}>ℹ</span>}{" "}
+            {severity === "danger"
+              ? tt(
+                  "overLimitWarning",
+                  "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
+                  {
+                    ulLabel: ulLabel ?? "",
+                    consumedLabel: consumedLabel ?? "",
+                    percent: Math.round(ulPercent - 100),
+                  }
+                )
+              : tt(
+                  "overLimitWarning",
+                  "{percent}% over the supplement limit {ulLabel} — from whole food, not considered a risk",
+                  {
+                    ulLabel: ulLabel ?? "",
+                    consumedLabel: consumedLabel ?? "",
+                    percent: Math.round(ulPercent - 100),
+                  }
+                )}
           </p>
         )}
 

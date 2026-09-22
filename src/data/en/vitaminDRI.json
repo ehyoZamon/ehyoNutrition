@@ -3,6 +3,11 @@
   "slug": "vitamin-a",
   "title": "Vitamin A (Retinol)",
   "category": "Nutrients/vitamins",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Applies to preformed vitamin A (retinol) from animal foods and supplements. Beta-carotene from plants isn't included in this risk and isn't toxic in excess.",
+    "ru": "Относится к готовому витамину A (ретинолу) из животной пищи и добавок. Бета-каротин из растений сюда не входит и не токсичен в больших количествах."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -347,6 +352,11 @@
   "slug": "vitamin-b3",
   "title": "Vitamin B3 (Niacin)",
   "category": "Nutrients/vitamins",
+  "ulMode": "supplement_only",
+  "ulNote": {
+    "en": "Flushing and liver-strain risk are tied to synthetic niacin in supplements — niacin naturally occurring in food doesn't cause them.",
+    "ru": "Риск прилива крови и нагрузки на печень связан с синтетическим ниацином в добавках — ниацин из обычной пищи такого эффекта не вызывает."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -506,6 +516,11 @@
   "slug": "vitamin-b6",
   "title": "Vitamin B6 (Pyridoxine)",
   "category": "Nutrients/vitamins",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Long-term high intake (almost always from supplements) can cause nerve damage, usually reversible after stopping.",
+    "ru": "Длительный приём высоких доз (почти всегда из добавок) может вызвать повреждение нервов, обычно обратимое после отмены."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -665,6 +680,11 @@
   "slug": "vitamin-b9",
   "title": "Vitamin B9 (Folate)",
   "category": "Nutrients/vitamins",
+  "ulMode": "supplement_only",
+  "ulNote": {
+    "en": "Applies to synthetic folic acid (supplements, fortified food) — natural food folate carries no known upper-limit risk.",
+    "ru": "Лимит относится к синтетической фолиевой кислоте (добавки, обогащённые продукты) — природный фолат из пищи не создаёт известного риска при превышении."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -751,6 +771,11 @@
   "slug": "vitamin-c",
   "title": "Vitamin C (Ascorbic Acid)",
   "category": "Nutrients/vitamins",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Water-soluble and generally self-limiting (mainly GI upset). From food alone this limit is essentially never reached.",
+    "ru": "Водорастворимый витамин, избыток обычно вызывает лишь расстройство ЖКТ. Из одной еды превысить этот лимит практически невозможно."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -837,6 +862,11 @@
   "slug": "vitamin-d",
   "title": "Vitamin D (Calciferol)",
   "category": "Nutrients/vitamins",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Fat-soluble and accumulates in the body. Real toxicity cases are almost always from supplements, not food or sun exposure.",
+    "ru": "Жирорастворимый витамин, накапливается в организме. Реальные случаи токсичности почти всегда связаны с добавками, а не с едой или солнцем."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -923,6 +953,11 @@
   "slug": "vitamin-e",
   "title": "Vitamin E (Alpha-Tocopherol)",
   "category": "Nutrients/vitamins",
+  "ulMode": "supplement_only",
+  "ulNote": {
+    "en": "Applies to supplemental alpha-tocopherol. Reaching it from whole foods alone is very unlikely.",
+    "ru": "Лимит относится к добавочному альфа-токоферолу. Достичь его только за счёт обычной еды практически невозможно."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2215,6 +2250,11 @@
   "slug": "calcium",
   "title": "Calcium",
   "category": "Nutrients/minerals",
+  "ulMode": "supplement_only",
+  "ulNote": {
+    "en": "Kidney-stone and related risks are mainly linked to calcium supplements, not to calcium from food.",
+    "ru": "Риск камней в почках и подобные эффекты связаны в основном с добавками кальция, а не с кальцием из пищи."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2288,6 +2328,11 @@
   "slug": "phosphorus",
   "title": "Phosphorus",
   "category": "Nutrients/minerals",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Mainly a concern with kidney disease or heavy intake of phosphate food additives; hard to reach from whole foods alone.",
+    "ru": "В основном актуально при заболеваниях почек или большом количестве фосфатных пищевых добавок; из обычной еды достичь лимита сложно."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2361,6 +2406,11 @@
   "slug": "magnesium",
   "title": "Magnesium",
   "category": "Nutrients/minerals",
+  "ulMode": "supplement_only",
+  "ulNote": {
+    "en": "Applies to non-food (supplemental) magnesium — excess from food is simply excreted by healthy kidneys.",
+    "ru": "Лимит относится к добавочному (не пищевому) магнию — избыток из еды просто выводится здоровыми почками."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2580,6 +2630,11 @@
   "slug": "chloride",
   "title": "Chloride",
   "category": "Nutrients/minerals",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Rarely a practical concern on its own — usually discussed together with sodium/salt intake.",
+    "ru": "Редко рассматривается как самостоятельная проблема — обычно обсуждается вместе с натрием/солью."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2756,6 +2811,11 @@
   "slug": "iron",
   "title": "Iron",
   "category": "Nutrients/minerals",
+  "ulMode": "supplement_only",
+  "ulNote": {
+    "en": "Healthy adults' iron absorption from food self-regulates; overdose risk is almost always from supplements. Exception: hereditary hemochromatosis, where food iron matters too.",
+    "ru": "У здоровых людей усвоение железа из пищи саморегулируется; риск передозировки почти всегда связан с добавками. Исключение — наследственный гемохроматоз, при котором важно и железо из еды."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2843,6 +2903,11 @@
   "slug": "zinc",
   "title": "Zinc",
   "category": "Nutrients/minerals",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Long-term excess (usually from supplements) can cause copper deficiency; hard to reach from food alone.",
+    "ru": "Длительный избыток (обычно из добавок) может вызвать дефицит меди; из одной еды достичь лимита сложно."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2930,6 +2995,11 @@
   "slug": "copper",
   "title": "Copper",
   "category": "Nutrients/minerals",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Excess is toxic to the liver. Risk is mostly from supplements or a rare genetic condition (Wilson's disease).",
+    "ru": "Избыток токсичен для печени. Риск в основном связан с добавками или редким генетическим заболеванием (болезнь Вильсона)."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -3016,6 +3086,11 @@
   "slug": "manganese",
   "title": "Manganese",
   "category": "Nutrients/minerals",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Toxicity risk rises mainly with impaired liver function or IV feeding; low risk from ordinary oral food intake.",
+    "ru": "Риск токсичности растёт в основном при нарушении работы печени или при внутривенном питании; при обычном приёме с едой риск низкий."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -3175,6 +3250,11 @@
   "slug": "selenium",
   "title": "Selenium",
   "category": "Nutrients/minerals",
+  "ulMode": "total",
+  "ulNote": {
+    "en": "Unlike most nutrients here, food alone CAN exceed this limit (Brazil nuts are extremely concentrated) — selenosis is a real food-sourced risk.",
+    "ru": "В отличие от большинства нутриентов здесь, избыток возможен и из обычной еды (например, бразильские орехи очень концентрированы) — селеноз — реальный риск от пищи."
+  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {

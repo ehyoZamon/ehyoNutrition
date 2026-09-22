@@ -81,14 +81,22 @@ export type NutrientClickInfo = {
 export type DailyValueModuleProps = {
   vitaminsOverallPercent?: number;
   vitaminPercents?: PercentMap; // keyed by VITAMIN_PRIMARY/SECONDARY .key
-  vitaminOverLimit?: OverLimitMap; // keyed the same way — true = above UL today
+  vitaminOverLimit?: OverLimitMap; // keyed the same way — true = above UL today, real risk
+  // Same keying as vitaminOverLimit, but for nutrients whose UL applies to
+  // synthetic/supplemental intake specifically (see vitaminDRI.json's per-entry ulMode) — e.g.
+  // folate/B9, niacin/B3. True here means "above UL today, but from
+  // whole-food sources only, which isn't the risk the limit describes" —
+  // rendered as a softer info badge instead of the danger one.
+  vitaminOverLimitInfo?: OverLimitMap;
   caloriesPercent?: number;
   macrosOverallPercent?: number;
   macroPercents?: PercentMap; // keyed by MACRO_ITEMS .key
   macroOverLimit?: OverLimitMap;
+  macroOverLimitInfo?: OverLimitMap;
   mineralsOverallPercent?: number;
   mineralPercents?: PercentMap; // keyed by MINERAL_ITEMS .key
   mineralOverLimit?: OverLimitMap;
+  mineralOverLimitInfo?: OverLimitMap;
   onNutrientClick?: (info: NutrientClickInfo) => void;
 };
 
@@ -104,7 +112,7 @@ export type DailyValueModuleProps = {
 
 type RGB = [number, number, number];
 
-const FALLBACK_STOPS: { coral: RGB; orange: RGB; green: RGB; danger: RGB } = {
+const FALLBACK_STOPS: { coral: RGB; orange: RGB; green: RGB; danger: RGB; info: RGB } = {
   coral: [255, 107, 107],
   orange: [255, 169, 77],
   green: [81, 207, 102],
@@ -112,6 +120,10 @@ const FALLBACK_STOPS: { coral: RGB; orange: RGB; green: RGB; danger: RGB } = {
   // actual overdose (consumed > UL), so it needs to read as a different,
   // more urgent signal even though both are "red-ish".
   danger: [217, 33, 33],
+  // Used for "over UL, but only a supplement-only limit crossed from whole
+  // food" (see vitaminDRI.json's per-entry ulMode) — worth noticing, not worth alarming over,
+  // so it's a calm blue rather than red/orange.
+  info: [74, 144, 217],
 };
 
 function parseColorToRgb(raw: string): RGB | null {
@@ -161,7 +173,8 @@ export function useGradientStops() {
     const orange = parseColorToRgb(computed.getPropertyValue("--dv-orange")) ?? FALLBACK_STOPS.orange;
     const green = parseColorToRgb(computed.getPropertyValue("--dv-green")) ?? FALLBACK_STOPS.green;
     const danger = parseColorToRgb(computed.getPropertyValue("--dv-danger")) ?? FALLBACK_STOPS.danger;
-    setStops({ coral, orange, green, danger });
+    const info = parseColorToRgb(computed.getPropertyValue("--dv-info")) ?? FALLBACK_STOPS.info;
+    setStops({ coral, orange, green, danger, info });
   }, []);
 
   return stops;
@@ -188,6 +201,7 @@ export function CircleRing({
   size,
   stops,
   overLimit,
+  overLimitInfo,
   onClick,
 }: {
   percent: number;
@@ -196,12 +210,22 @@ export function CircleRing({
   stops: typeof FALLBACK_STOPS;
   /**
    * True when today's consumed amount for this nutrient is above its
-   * upper limit (UL) — an overdose, not just "over 100% of the target".
+   * upper limit (UL) AND that UL is a real, any-source risk (see
+   * vitaminDRI.json's per-entry ulMode) — an overdose, not just "over 100% of the target".
    * Overrides the normal green/orange/coral gradient with a fixed danger
    * color and adds a small "!" badge, so it reads as a distinct warning
-   * rather than a healthy excess.
+   * rather than a healthy excess. Takes priority over `overLimitInfo` if
+   * both are somehow true.
    */
   overLimit?: boolean;
+  /**
+   * True when today's consumed amount is above the UL, but that UL applies
+   * to synthetic/supplemental intake specifically (folate, niacin, vitamin
+   * E, calcium, iron, magnesium — see vitaminDRI.json's per-entry ulMode) and every gram
+   * logged today came from whole food. Renders a calmer "i" badge instead
+   * of the danger one — worth a look, not an alarm.
+   */
+  overLimitInfo?: boolean;
   onClick?: () => void;
 }) {
   const dimension = typeof size === "number" ? size : size === "lg" ? 56 : 46;
@@ -214,6 +238,8 @@ export function CircleRing({
   // vitamin A in liver) so nothing gets hidden, only the drawing.
   const clamped = Math.min(100, Math.max(0, percent));
   const offset = circumference * (1 - clamped / 100);
+  // Info-only crossings keep the normal healthy-excess gradient for the
+  // ring fill itself (it's not a real overdose) — only the badge changes.
   const color = overLimit ? rgbString(stops.danger) : gradientColor(percent, stops);
   // Soft ceiling purely so an extreme outlier (a mega-dose supplement, say)
   // can't blow out the ring's layout with a 5-digit number.
@@ -299,6 +325,30 @@ export function CircleRing({
           !
         </span>
       )}
+      {!overLimit && overLimitInfo && (
+        <span
+          aria-label="Above upper limit for supplements — not a concern from whole food"
+          title="Above the supplement upper limit — from whole food alone, this isn't considered risky. Tap for details."
+          style={{
+            position: "absolute",
+            top: -2,
+            right: -2,
+            width: badgeSize,
+            height: badgeSize,
+            borderRadius: "50%",
+            background: rgbString(stops.info),
+            color: "#fff",
+            fontSize: Math.max(9, Math.round(badgeSize * 0.7)),
+            fontWeight: 700,
+            fontStyle: "italic",
+            lineHeight: `${badgeSize}px`,
+            textAlign: "center",
+            boxShadow: "0 0 0 2px var(--dv-track, #fff)",
+          }}
+        >
+          i
+        </span>
+      )}
     </div>
   );
 }
@@ -321,18 +371,24 @@ function VerticalBar({
   label,
   stops,
   overLimit,
+  overLimitInfo,
   onClick,
 }: {
   percent: number;
   label: string;
   stops: typeof FALLBACK_STOPS;
+  // Real, any-source UL risk — see CircleRing's overLimit doc.
   overLimit?: boolean;
+  // Over a supplement-only UL, from whole food alone — see CircleRing's
+  // overLimitInfo doc.
+  overLimitInfo?: boolean;
   onClick?: () => void;
 }) {
   const clamped = Math.min(100, Math.max(0, percent));
   const maxHeight = 130; // px, matches the track height in CSS
   const fillHeight = clamped === 0 ? 0 : Math.max(6, (clamped / 100) * maxHeight);
   const color = overLimit ? rgbString(stops.danger) : gradientColor(percent, stops);
+  const showInfoBadge = !overLimit && overLimitInfo;
 
   return (
     <div
@@ -358,6 +414,15 @@ function VerticalBar({
             style={{ color: rgbString(stops.danger), fontWeight: 700, marginLeft: 3 }}
           >
             !
+          </span>
+        )}
+        {showInfoBadge && (
+          <span
+            aria-label="Above upper limit for supplements — not a concern from whole food"
+            title="Above the supplement upper limit — from whole food alone, this isn't considered risky. Tap for details."
+            style={{ color: rgbString(stops.info), fontWeight: 700, fontStyle: "italic", marginLeft: 3 }}
+          >
+            i
           </span>
         )}
       </span>
@@ -391,13 +456,16 @@ export default function DailyValueModule({
   vitaminsOverallPercent = 0,
   vitaminPercents = {},
   vitaminOverLimit = {},
+  vitaminOverLimitInfo = {},
   caloriesPercent = 0,
   macrosOverallPercent = 0,
   macroPercents = {},
   macroOverLimit = {},
+  macroOverLimitInfo = {},
   mineralsOverallPercent = 0,
   mineralPercents = {},
   mineralOverLimit = {},
+  mineralOverLimitInfo = {},
   onNutrientClick,
 }: DailyValueModuleProps) {
   const t = useTranslations("FoodDiary");
@@ -422,6 +490,7 @@ export default function DailyValueModule({
                 size="lg"
                 stops={stops}
                 overLimit={vitaminOverLimit[v.key] ?? false}
+                overLimitInfo={vitaminOverLimitInfo[v.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "vitamin", key: v.key, label: v.label, percent })
@@ -443,6 +512,7 @@ export default function DailyValueModule({
                 size="sm"
                 stops={stops}
                 overLimit={vitaminOverLimit[v.key] ?? false}
+                overLimitInfo={vitaminOverLimitInfo[v.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "vitamin", key: v.key, label: v.label, percent })
@@ -477,6 +547,7 @@ export default function DailyValueModule({
                 size={64}
                 stops={stops}
                 overLimit={macroOverLimit[m.key] ?? false}
+                overLimitInfo={macroOverLimitInfo[m.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "macro", key: m.key, label, percent })
@@ -504,6 +575,7 @@ export default function DailyValueModule({
                 percent={percent}
                 stops={stops}
                 overLimit={mineralOverLimit[m.key] ?? false}
+                overLimitInfo={mineralOverLimitInfo[m.key] ?? false}
                 onClick={
                   onNutrientClick
                     ? () => onNutrientClick({ section: "mineral", key: m.key, label, percent })

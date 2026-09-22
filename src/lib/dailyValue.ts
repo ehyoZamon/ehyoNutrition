@@ -45,6 +45,56 @@ import {
 import { loadProductDetails, ProductDetail } from "@/lib/productDetail";
 import { parseAmount } from "@/lib/nutrientFormat";
 
+// --- UL mode/note now live directly on vitaminDRI.json ------------------
+//
+// Not every nutrient's Tolerable Upper Intake Level (UL) means the same
+// thing when it's crossed. For some, exceeding the UL is a real risk no
+// matter where the nutrient came from ("total" — vitamin A/retinol,
+// vitamin D, selenium, copper, manganese, ...). For others, the UL was set
+// specifically for synthetic/fortified/supplemental intake
+// ("supplement_only" — folate/B9, niacin/B3, vitamin E, calcium, iron,
+// magnesium): natural whole-food sources of the same nutrient don't carry
+// the same risk, because the body either regulates absorption or the
+// toxicity mechanism only applies to the synthetic form.
+//
+// Rather than a parallel lookup module, each vitaminDRI.json entry that
+// needs this carries it inline, next to its own "category"/"title" (see
+// e.g. "vitamin-b9" or "calcium") — one nutrient, one file, one source of
+// truth. ulNote is a {en, ru} object (it's shown to the user, unlike the
+// rest of vitaminDRI.json's fields, which are locale-neutral amounts). A
+// slug with no ulMode/ulNote (most of them) simply defaults to "total",
+// i.e. today's original, stricter behavior.
+//
+// IMPORTANT — current limitation: the product catalog today is 100% whole
+// foods (no supplement/fortified items, no per-product sourceType field),
+// so this does NOT yet filter which grams count toward a "supplement_only"
+// nutrient's UL — that requires productDetail entries to carry a
+// sourceType, which they don't yet. What it DOES do today is downgrade the
+// *severity* of an over-UL flag for "supplement_only" nutrients from a hard
+// "danger" warning to a softer "info" one, since a whole-food-only diary
+// crossing that UL isn't the medically-risky scenario the limit describes.
+//
+// TODO(next step, needs data): once productDetail/<slug>.json entries gain
+// a sourceType per nutrient row, computeDailyValueData can sum
+// "supplement_only" nutrients using only non-whole_food entries before
+// comparing to the UL — at that point ulMode becomes load-bearing for the
+// number itself, not just for display severity.
+type ULMode = "total" | "supplement_only";
+
+function getULMode(driData: unknown, slug: string): ULMode {
+  const entry = (driData as Record<string, { ulMode?: string } | undefined>)[slug];
+  return entry?.ulMode === "supplement_only" ? "supplement_only" : "total";
+}
+
+function getULNote(driData: unknown, slug: string, locale: "en" | "ru"): string | null {
+  const entry = (driData as Record<string, { ulNote?: { en?: string; ru?: string } } | undefined>)[
+    slug
+  ];
+  // Falls back EN -> whichever exists, so a note added for only one locale
+  // (e.g. mid-translation) still shows something instead of nothing.
+  return entry?.ulNote?.[locale] ?? entry?.ulNote?.en ?? entry?.ulNote?.ru ?? null;
+}
+
 export type DiaryEntryInput = { productId: number; grams: number };
 
 // Only the fields computeDailyValueData actually needs from a DiaryProduct.
@@ -103,13 +153,16 @@ export function emptyDailyValueData(): DailyValueModuleProps {
     vitaminsOverallPercent: 0,
     vitaminPercents: {},
     vitaminOverLimit: {},
+    vitaminOverLimitInfo: {},
     caloriesPercent: 0,
     macrosOverallPercent: 0,
     macroPercents: {},
     macroOverLimit: {},
+    macroOverLimitInfo: {},
     mineralsOverallPercent: 0,
     mineralPercents: {},
     mineralOverLimit: {},
+    mineralOverLimitInfo: {},
   };
 }
 
@@ -191,11 +244,22 @@ export async function computeDailyValueData(
   // limit (UL) — independent of the %-of-RDA number, since a nutrient can
   // sit at "281% of RDA" (fine, RDA is just a target) while still being
   // under its UL, or vice versa for a nutrient with a low RDA/UL ratio.
+  //
+  // Crossing the UL isn't flagged with the same severity for every
+  // nutrient: per vitaminDRI.json's per-entry ulMode, some ULs apply to total intake from any
+  // source (mode "total" — a real, danger-level flag), while others were
+  // set for synthetic/supplemental intake specifically (mode
+  // "supplement_only" — folate/B9, niacin/B3, vitamin E, calcium, iron,
+  // magnesium). Since the catalog today is whole-food only, a
+  // "supplement_only" nutrient crossing its UL isn't the risk scenario the
+  // limit describes, so it's routed to the softer `overLimitInfo` map
+  // instead of `overLimit`.
   const buildSection = (
     items: readonly { key: string; slug: string }[]
-  ): { map: PercentMap; overall: number; overLimit: OverLimitMap } => {
+  ): { map: PercentMap; overall: number; overLimit: OverLimitMap; overLimitInfo: OverLimitMap } => {
     const map: PercentMap = {};
     const overLimit: OverLimitMap = {};
+    const overLimitInfo: OverLimitMap = {};
     const defined: number[] = [];
 
     items.forEach(({ key, slug }) => {
@@ -212,7 +276,12 @@ export async function computeDailyValueData(
       const ulMg = getULMg(driData, slug, ctx, ASSUMED_DAILY_CALORIES);
       if (ulMg !== null && ulMg > 0) {
         const consumedMg = consumedMgById.get(slug) ?? 0;
-        overLimit[key] = consumedMg > ulMg;
+        const isOver = consumedMg > ulMg;
+        if (getULMode(driData, slug) === "total") {
+          overLimit[key] = isOver;
+        } else {
+          overLimitInfo[key] = isOver;
+        }
       }
     });
 
@@ -220,7 +289,7 @@ export async function computeDailyValueData(
       ? defined.reduce((sum, pct) => sum + pct, 0) / defined.length
       : 0;
 
-    return { map, overall, overLimit };
+    return { map, overall, overLimit, overLimitInfo };
   };
 
   const vitaminItems = [...VITAMIN_PRIMARY, ...VITAMIN_SECONDARY].map((v) => ({
@@ -231,6 +300,7 @@ export async function computeDailyValueData(
     map: vitaminPercents,
     overall: vitaminsOverallPercent,
     overLimit: vitaminOverLimit,
+    overLimitInfo: vitaminOverLimitInfo,
   } = buildSection(vitaminItems);
 
   const macroItems = MACRO_ITEMS.map((m) => ({ key: m.key, slug: slugForKey(m.key) }));
@@ -238,6 +308,7 @@ export async function computeDailyValueData(
     map: macroPercents,
     overall: macrosOverallPercent,
     overLimit: macroOverLimit,
+    overLimitInfo: macroOverLimitInfo,
   } = buildSection(macroItems);
 
   const mineralItems = MINERAL_ITEMS.map((m) => ({ key: m.key, slug: m.key }));
@@ -245,6 +316,7 @@ export async function computeDailyValueData(
     map: mineralPercents,
     overall: mineralsOverallPercent,
     overLimit: mineralOverLimit,
+    overLimitInfo: mineralOverLimitInfo,
   } = buildSection(mineralItems);
 
   const caloriesPercent = (consumedCalories / ASSUMED_DAILY_CALORIES) * 100;
@@ -253,13 +325,16 @@ export async function computeDailyValueData(
     vitaminsOverallPercent,
     vitaminPercents,
     vitaminOverLimit,
+    vitaminOverLimitInfo,
     caloriesPercent,
     macrosOverallPercent,
     macroPercents,
     macroOverLimit,
+    macroOverLimitInfo,
     mineralsOverallPercent,
     mineralPercents,
     mineralOverLimit,
+    mineralOverLimitInfo,
   };
 }
 
@@ -307,8 +382,23 @@ export type NutrientBreakdownResult = {
   // UL to express it against, or nothing consumed yet.
   consumedLabel: string | null;
   // True once today's intake has actually crossed the UL — the signal the
-  // UI uses to show the overdose warning.
+  // UI uses to show the overdose warning. Kept for backwards compatibility;
+  // prefer `ulSeverity` for deciding how loud that warning should be.
   isOverLimit: boolean;
+  // Whether this nutrient's UL applies to total intake from any source
+  // ("total") or was set specifically for synthetic/supplemental/fortified
+  // intake ("supplement_only") — see vitaminDRI.json's per-entry ulMode/ulNote fields. Always "total" when
+  // there's no UL to speak of (ulLabel is null).
+  ulMode: "total" | "supplement_only";
+  // "none" — not over the UL. "danger" — over the UL and it's a real,
+  // total-intake risk (ulMode "total"). "info" — over the UL, but only from
+  // whole-food sources of a nutrient whose UL was written for supplements
+  // (ulMode "supplement_only"); worth a note, not an alarm.
+  ulSeverity: "none" | "info" | "danger";
+  // Short, user-facing explanation of the nuance above — null when there's
+  // no UL or no rule configured for this nutrient. Meant for a tooltip/line
+  // under the UL warning in the detail sheet.
+  ulNote: string | null;
   // Which DRI row recommendedLabel came from — lets the UI say *why* this
   // is the number (e.g. "Adults (19-30 years)", "Female").
   driGroup: DRIGroupKey;
@@ -379,6 +469,9 @@ export async function computeNutrientBreakdown(
   const ulRaw = getULAmountRaw(driData, nutrientSlug, ctx);
   const ulLabel = ulRaw ? localizeAmountString(ulRaw, locale) : null;
 
+  const ulMode = getULMode(driData, nutrientSlug);
+  const ulNote = ulLabel ? getULNote(driData, nutrientSlug, locale) : null;
+
   if (entries.length === 0) {
     return {
       overallPercent: 0,
@@ -388,6 +481,9 @@ export async function computeNutrientBreakdown(
       ulPercent: null,
       consumedLabel: null,
       isOverLimit: false,
+      ulMode,
+      ulSeverity: "none",
+      ulNote,
       driGroup: ctx.group,
       driAgeLabel: ctx.ageLabel,
     };
@@ -467,6 +563,15 @@ export async function computeNutrientBreakdown(
 
   const ulPercent = ulMg && ulMg > 0 ? (totalMg / ulMg) * 100 : null;
   const isOverLimit = ulPercent !== null && totalMg > (ulMg as number);
+  // See the ulMode comment near getULMode() above: "total"-mode nutrients over
+  // their UL are a real (any-source) risk — "danger". "supplement_only"
+  // nutrients over their UL, sourced only from whole foods (today's only
+  // catalog contents), aren't the risk the limit was written for — "info".
+  const ulSeverity: "none" | "info" | "danger" = !isOverLimit
+    ? "none"
+    : ulMode === "total"
+      ? "danger"
+      : "info";
   // Expressed in the same unit as ulLabel (not always mg) so the two read
   // naturally together, e.g. "limit 3 mg, consumed 5 mg" instead of mixing
   // whatever unit vitaminDRI.json happens to store the limit in.
@@ -481,6 +586,9 @@ export async function computeNutrientBreakdown(
     ulPercent,
     consumedLabel,
     isOverLimit,
+    ulMode,
+    ulSeverity,
+    ulNote,
     driGroup: ctx.group,
     driAgeLabel: ctx.ageLabel,
   };
