@@ -13,11 +13,11 @@ const signika = Signika({
   variable: "--font-signika", 
 });
 
-const nunito = Nunito({
+/*const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
   variable: "--font-nunito", 
-});
+});*/
 
 const inter = Inter({
   subsets: ["latin"],
@@ -61,7 +61,7 @@ export default function RootLayout({
 }) {
   return (
     // Тег <html> изначально получает дефолтный язык en, но LanguageProvider обновит его динамически
-    <html lang="en" className={`${signika.variable} ${nunito.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${signika.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light dark" />
       </head>

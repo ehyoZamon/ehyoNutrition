@@ -28,6 +28,7 @@ const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
 
 const FavoritesClient = () => {
   const t = useTranslations("Favorites");
+  const navBar=useTranslations("navBar");
   const locale = useLocale();
   const pathname = usePathname();
 
@@ -256,22 +257,37 @@ const FavoritesClient = () => {
         </div>
       </div>
         
-      <div className={styles['navigation-container']}>
+      <div className={styles["navigation-container"]}>
         <div className={styles["navigation"]}>
           <Link className={styles["nav-link"]} href="/products" aria-current="page" >
-            <Image src="/main/products.svg" alt="products" width={40} height={40} />
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/products.svg" alt="products" width={48} height={48} />
+            </div>
+            {navBar("foods")}
           </Link>
           <Link  className={styles["nav-link"]} href="/vitamins">
-            <Image src="/main/antioxidant.svg" alt="antioxidant" width={40} height={40} />
+            <div className={styles["nav-bar"]}>
+                <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+            </div>
+            {navBar("nutrients")}
           </Link>
-          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" >
-            <Image src="/main/food-diary.svg" alt="food-diary" width={40} height={40} />
+          <Link  href="/food-diary" className={styles["nav-link"]} aria-current="page" >
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
+            </div>
+            {navBar("foodDiary")}
           </Link>
-          <Link  className={styles["nav-link"]} href="/favorites">
-            <Image src="/main/heart-green.svg" alt="heart" width={40} height={40} />
+          <Link  className={`${styles["nav-link"]} ${styles["selected"]}`} href="/favorites">
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/heart-green.svg" alt="heart" width={48} height={48} />
+            </div>
+            {navBar("favourites")}
           </Link>
           <Link  className={styles["nav-link"]} href="/settings">
-            <Image src="/main/settings.svg" alt="heart" width={40} height={40} />
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+            </div>
+            {navBar("settings")}
           </Link>
         </div>
       </div>

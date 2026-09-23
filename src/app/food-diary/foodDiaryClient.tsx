@@ -55,6 +55,12 @@ import productsEn from "@/data/en/products.json";
 // ---- Types ----
 type DayTone = "green" | "coral" | "muted";
 
+// "uncategorized" is never chosen by the user directly — it's only the
+// fallback stored on an entry auto-added between 22:00–04:59 while on
+// the "All" tab. It has no tab of its own but still shows up under "All".
+type MealType = "breakfast" | "lunch" | "dinner" | "snacks" | "uncategorized";
+type MealFilter = "all" | MealType;
+
 type FoodEntry = {
   id: number; // id строки в diary
   productId: number;
@@ -62,14 +68,49 @@ type FoodEntry = {
   label: string;
   amount: string;
   grams: number;
+  meal: MealType;
+  calories: number; // kcal for this entry's amount (product.calories is per 100g)
 };
 
 const WEEKDAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
+
+// Tabs shown above the intake list, in display order. "all" has no
+// time-based auto-assignment target of its own — see resolveMealForAdd.
+const MEAL_TABS: { key: MealFilter; icon: string }[] = [
+  { key: "all", icon: "/food-diary/meal.svg" },
+  { key: "breakfast", icon: "/food-diary/breakfast.svg" },
+  { key: "lunch", icon: "/food-diary/lunch.svg" },
+  { key: "dinner", icon: "/food-diary/dinner.svg" },
+  { key: "snacks", icon: "/food-diary/snacks.svg" },
+];
+
+const MEAL_FALLBACK_LABELS: Record<MealFilter, string> = {
+  all: "All",
+  breakfast: "Breakfast",
+  lunch: "Lunch",
+  dinner: "Dinner",
+  snacks: "Snacks",
+  uncategorized: "Uncategorized",
+};
+
+// Time-of-day → meal, used only when a product is added while the "All"
+// tab is active (so the app has to guess which meal it belongs to):
+//   05:00–10:59 breakfast · 11:00–15:59 lunch · 16:00–21:59 dinner
+//   snacks is never picked by time, only by the user selecting that tab
+//   22:00–04:59 (or anything outside the windows above) → uncategorized
+const resolveMealByTime = (date: Date): Exclude<MealType, "snacks"> => {
+  const hour = date.getHours();
+  if (hour >= 5 && hour < 11) return "breakfast";
+  if (hour >= 11 && hour < 16) return "lunch";
+  if (hour >= 16 && hour < 22) return "dinner";
+  return "uncategorized";
+};
 
 
 const FoodDiaryClient = () => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
+  const navBar = useTranslations("navBar");
 
   // Same graceful-fallback pattern already used in QuantitySheet — lets
   // the nutrient-detail sheet's title text ship before messages/*.json
@@ -88,6 +129,8 @@ const FoodDiaryClient = () => {
 
   const [viewMonth, setViewMonth] = useState(() => startOfMonth(today));
   const [selectedDate, setSelectedDate] = useState(() => today);
+  const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [selectedMeal, setSelectedMeal] = useState<MealFilter>("all");
   const [entryList, setEntryList] = useState<FoodEntry[]>([]);
   const [datesWithEntries, setDatesWithEntries] = useState<Set<string>>(new Set());
 
@@ -204,12 +247,18 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
               label: "Unknown product",
               amount: `${row.amount}g`,
               grams: row.amount,
+              meal: (row.meal as MealType) || "uncategorized",
+              calories: 0,
             };
           }
 
           const slug = product.link.substring(product.link.lastIndexOf("/") + 1);
           const detail = await loadProductDetail(productLocale, slug);
           const servingInfo = parseServingInfo(detail?.macroTitle);
+
+          // product.calories — energy per 100g (same baseline shown in
+          // AddFoodSheet's product list), scaled to the grams actually eaten.
+          const kcal = Math.round((product.calories * row.amount) / 100);
 
           return {
             id: row.id,
@@ -218,6 +267,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             label: product.name,
             amount: formatAmountLabel(row.amount, servingInfo),
             grams: row.amount,
+            meal: (row.meal as MealType) || "uncategorized",
+            calories: kcal,
           };
         })
       );
@@ -260,6 +311,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     if (!isSameMonth(date, viewMonth)) {
       setViewMonth(startOfMonth(date));
     }
+    setIsCalendarOpen(false);
   };
 
   const goPrevMonth = () => setViewMonth((m) => subMonths(m, 1));
@@ -284,11 +336,19 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setIsQuantitySheetOpen(true);
   };
 
+  // Пользователь стоит на конкретной вкладке (Breakfast/Lunch/Dinner/Snacks)
+  // — продукт уходит именно туда. На вкладке "All" категория определяется
+  // временем добавления (см. resolveMealByTime); "snacks" по времени никогда
+  // не выбирается — только явным выбором вкладки пользователем.
+  const resolveMealForAdd = (): MealType =>
+    selectedMeal === "all" ? resolveMealByTime(new Date()) : selectedMeal;
+
   const handleQuantityAdd = async (product: DiaryProduct, _amountLabel: string, grams: number) => {
     const dateStr = format(new Date(), "yyyy-MM-dd"); // всегда текущий день
+    const meal = resolveMealForAdd();
 
     try {
-      await addDiaryEntry(product.id, grams, dateStr);
+      await addDiaryEntry(product.id, grams, dateStr, meal);
 
       // Перезагружаем список только если пользователь смотрит на сегодня —
       // иначе новая запись не должна визуально появиться на просматриваемой дате.
@@ -355,6 +415,25 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setIsDeleteConfirmOpen(false);
     setDeletingEntry(null);
   };
+
+  // ---- Список записей, видимых под выбранной вкладкой (All/Breakfast/...) ----
+  // "Daily value" ниже всегда считается по entryList целиком (весь день),
+  // фильтр влияет только на то, что показано в списке intake-list.
+  const visibleEntries = useMemo(
+    () => (selectedMeal === "all" ? entryList : entryList.filter((e) => e.meal === selectedMeal)),
+    [entryList, selectedMeal]
+  );
+
+  const mealLabel = (key: MealFilter) => tt(`meals.${key}`, MEAL_FALLBACK_LABELS[key]);
+
+  const addButtonLabel =
+    selectedMeal === "all"
+      ? t("addFoodButton")
+      : `${tt("addToMealPrefix", "Add to")} ${mealLabel(selectedMeal)}`;
+
+  const entriesCountLabel = `${visibleEntries.length} ${
+    visibleEntries.length === 1 ? tt("entrySingular", "entry") : tt("entriesPlural", "entries")
+  }`;
 
   // ---- Разбивка нутриента по продуктам ----
   // Открывает сразу (с процентом, уже известным дашборду, чтобы кольцо не
@@ -440,74 +519,133 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   return (
     <div className={styles["main-layout"]}>
       <div className={styles["header"]}>
-        <h1 className={styles["page-title"]}>{t("title")}</h1>
-      </div>
-      
-      <div className={styles["content-container"]}>
-        <div className={styles["content"]}>
+        <div className={styles["header-row"]}>
+          <h1 className={styles["page-title"]}>{t("title")}</h1>
+          <button
+            type="button"
+            className={styles["header-date-btn"]}
+            aria-expanded={isCalendarOpen}
+            onClick={() => setIsCalendarOpen((v) => !v)}
+          >
+            <span className={styles["header-date-text"]}>
+              {format(selectedDate, "d, MMM yyyy", { locale: dateFnsLocale })}
+            </span>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <rect x="3" y="5" width="18" height="16" rx="3" stroke="currentColor" strokeWidth="1.8" />
+              <path d="M3 9.5H21" stroke="currentColor" strokeWidth="1.8" />
+              <path d="M8 3V6.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+              <path d="M16 3V6.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+            </svg>
+          </button>
+        </div>
 
-          {/* Calendar */}
-          <div className={styles["calendar"]}>
-            <div className={styles["calendar-header"]}>
-              <span className={styles["calendar-month-label"]}>
-                {format(viewMonth, "LLLL yyyy", { locale: dateFnsLocale })}
-              </span>
-              <div className={styles["calendar-nav"]}>
-                <button type="button" aria-label="Previous month" className={styles["calendar-nav-btn"]} onClick={goPrevMonth}>
-                  <Image src="/food-diary/chevron-left.svg" alt="" width={20} height={20} />
-                </button>
-                <button type="button" aria-label="Next month" className={styles["calendar-nav-btn"]} onClick={goNextMonth}>
-                  <Image src="/food-diary/chevron-right.svg" alt="" width={20} height={20} />
-                </button>
+        {/* Collapsible calendar panel — opens when the date button is clicked, closes on Close/date pick */}
+        {isCalendarOpen && (
+          <div className={styles["calendar-overlay"]}>
+            <div className={styles["calendar"]}>
+              <div className={styles["calendar-header"]}>
+                <span className={styles["calendar-month-label"]}>
+                  {format(viewMonth, "LLLL yyyy", { locale: dateFnsLocale })}
+                </span>
+                <div className={styles["calendar-nav"]}>
+                  <button type="button" aria-label="Previous month" className={styles["calendar-nav-btn"]} onClick={goPrevMonth}>
+                    <Image src="/food-diary/chevron-left.svg" alt="" width={20} height={20} />
+                  </button>
+                  <button type="button" aria-label="Next month" className={styles["calendar-nav-btn"]} onClick={goNextMonth}>
+                    <Image src="/food-diary/chevron-right.svg" alt="" width={20} height={20} />
+                  </button>
+                </div>
+              </div>
+
+              <div className={styles["calendar-weekdays"]}>
+                {WEEKDAYS.map((wd) => (
+                  <span key={wd} className={styles["calendar-weekday"]}>{t(`weekdays.${wd}`)}</span>
+                ))}
+              </div>
+
+              <div className={styles["calendar-grid"]}>
+                {weeks.map((week, i) => (
+                  <div key={i} className={styles["calendar-row"]}>
+                    {week.map((date) => {
+                      const inMonth = isSameMonth(date, viewMonth);
+                      const todayFlag = isToday(date);
+                      const selected = isSameDay(date, selectedDate);
+                      const tone = getDayTone(date);
+
+                      return (
+                        <button
+                          type="button"
+                          key={date.toISOString()}
+                          onClick={() => handleSelectDate(date)}
+                          disabled={!inMonth}
+                          aria-current={selected ? "date" : undefined}
+                          className={[
+                            styles["calendar-day"],
+                            !inMonth ? styles["calendar-day--outside"] : "",
+                            todayFlag ? styles["calendar-day--today"] : "",
+                            selected && !todayFlag ? styles["calendar-day--selected"] : "",
+                            styles[`calendar-day--${tone}`],
+                          ].join(" ")}
+                        >
+                          {format(date, "d")}
+                        </button>
+                      );
+                    })}
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className={styles["calendar-weekdays"]}>
-              {WEEKDAYS.map((wd) => (
-                <span key={wd} className={styles["calendar-weekday"]}>{t(`weekdays.${wd}`)}</span>
-              ))}
-            </div>
-
-            <div className={styles["calendar-grid"]}>
-              {weeks.map((week, i) => (
-                <div key={i} className={styles["calendar-row"]}>
-                  {week.map((date) => {
-                    const inMonth = isSameMonth(date, viewMonth);
-                    const todayFlag = isToday(date);
-                    const selected = isSameDay(date, selectedDate);
-                    const tone = getDayTone(date);
-
-                    return (
-                      <button
-                        type="button"
-                        key={date.toISOString()}
-                        onClick={() => handleSelectDate(date)}
-                        disabled={!inMonth}
-                        aria-current={selected ? "date" : undefined}
-                        className={[
-                          styles["calendar-day"],
-                          !inMonth ? styles["calendar-day--outside"] : "",
-                          todayFlag ? styles["calendar-day--today"] : "",
-                          selected && !todayFlag ? styles["calendar-day--selected"] : "",
-                          styles[`calendar-day--${tone}`],
-                        ].join(" ")}
-                      >
-                        {format(date, "d")}
-                      </button>
-                    );
-                  })}
-                </div>
-              ))}
-            </div>
+            <button
+              type="button"
+              className={styles["calendar-close-btn"]}
+              onClick={() => setIsCalendarOpen(false)}
+            >
+              {tt("close", "Close")}
+            </button>
           </div>
+        )}
+      </div>
+
+      <div className={styles["content-container"]}>
+        <div className={styles["content"]}>
 
           {/* Today's / selected day intake */}
-          <h2 className={styles["intake-title"]}>
-            {isToday(selectedDate) ? t("todaysIntake") : `${t("intake")} — ${format(selectedDate, "d MMM")}`}
-          </h2>
+          <div className={styles["intake-title"]}>
+            <h2>{isToday(selectedDate) ? t("todaysIntake") : t("intake")}</h2>            
+            <p className={styles["intake-count"]}>{entriesCountLabel}</p>
+          </div>
+          
+
+          
 
           <div className={styles["intake-list"]}>
-            {entryList.map((entry) => (
+            {/* Meal tabs: All / Breakfast / Lunch / Dinner / Snacks */}
+            <div className={styles["meal-tabs"]}>
+              {MEAL_TABS.map(({ key, icon }) => (
+                <button
+                  type="button"
+                  key={key}
+                  className={[
+                    styles["meal-tab"],
+                    selectedMeal === key ? styles["meal-tab--selected"] : "",
+                  ].join(" ")}
+                  aria-pressed={selectedMeal === key}
+                  onClick={() => setSelectedMeal(key)}
+                >
+                  <Image src={icon} alt="" width={50} height={50} className={styles["meal-tab-icon"]} />
+                  <span className={styles["meal-tab-label"]}>{mealLabel(key)}</span>
+                </button>
+              ))}
+            </div>
+            {visibleEntries.map((entry) => (
               <div
                 key={entry.id}
                 className={styles["intake-item"]}
@@ -517,9 +655,12 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
               >
                 <div className={styles["intake-item-left"]}>
                   <Image src={entry.emoji} alt="" width={32} height={32} />
-                  <span className={styles["intake-label"]}>
-                    {entry.label} - {entry.amount}
-                  </span>
+                  <div className={styles["intake-label"]}>
+                    <span className={styles["intake-name"]}>{entry.label}</span>{" "}
+                    <span className={styles["intake-amount"]}>
+                      {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
+                    </span>
+                  </div>
                 </div>
                 {isToday(selectedDate) && (
                   <button
@@ -536,20 +677,21 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                 )}
               </div>
             ))}
-            {entryList.length === 0 && (
+            {visibleEntries.length === 0 && (
               <p className={styles["intake-empty"]}>{t("noEntries")}</p>
             )}
-          </div>
+            
+            {isToday(selectedDate) && (
+              <button
+                type="button"
+                className={styles["add-button"]}
+                onClick={() => setIsAddSheetOpen(true)}
+              >
+                {addButtonLabel}
+              </button>
+            )}
 
-          {isToday(selectedDate) && (
-            <button
-              type="button"
-              className={styles["add-button"]}
-              onClick={() => setIsAddSheetOpen(true)}
-            >
-              {t("addFoodButton")}
-            </button>
-          )}
+          </div>
 
           <DailyValueModule {...dailyValueData} onNutrientClick={handleNutrientClick} />
         </div>
@@ -617,19 +759,34 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       <div className={styles["navigation-container"]}>
         <div className={styles["navigation"]}>
           <Link className={styles["nav-link"]} href="/products" aria-current="page" >
-            <Image src="/main/products.svg" alt="products" width={48} height={48} />
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/products.svg" alt="products" width={48} height={48} />
+            </div>
+            {navBar("foods")}
           </Link>
           <Link  className={styles["nav-link"]} href="/vitamins">
-            <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+            <div className={styles["nav-bar"]}>
+                <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
+            </div>
+            {navBar("nutrients")}
           </Link>
-          <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" >
-            <Image src="/main/food-diary-green.svg" alt="food-diary" width={48} height={48} />
+          <Link className={`${styles["nav-link"]} ${styles["selected"]}`} href="/food-diary" aria-current="page" >
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/food-diary-green.svg" alt="food-diary" width={48} height={48} />
+            </div>
+            {navBar("foodDiary")}
           </Link>
           <Link  className={styles["nav-link"]} href="/favorites">
-            <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
+            </div>
+            {navBar("favourites")}
           </Link>
           <Link  className={styles["nav-link"]} href="/settings">
-            <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+            <div className={styles["nav-bar"]}>
+              <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
+            </div>
+            {navBar("settings")}
           </Link>
         </div>
       </div>

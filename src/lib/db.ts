@@ -17,12 +17,36 @@ const SCHEMA = `
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     product_id INTEGER NOT NULL,
     amount REAL NOT NULL,
-    date TEXT NOT NULL
+    date TEXT NOT NULL,
+    meal TEXT NOT NULL DEFAULT 'uncategorized'
   );
 
   CREATE INDEX IF NOT EXISTS idx_diary_date ON diary(date);
   CREATE INDEX IF NOT EXISTS idx_diary_product_id ON diary(product_id);
 `;
+
+// Для установок, где таблица diary уже существовала до появления колонки
+// meal (миграция "на лету"): CREATE TABLE IF NOT EXISTS не добавит колонку
+// в уже созданную таблицу, поэтому проверяем и дополняем схему вручную.
+// Индекс по meal тоже создаётся здесь, а не в SCHEMA — SCHEMA выполняется
+// одним batch-ом ДО этой миграции, и на старой БД (diary уже есть, но без
+// колонки meal) CREATE INDEX ... ON diary(meal) там упал бы с "no such
+// column: meal", поскольку CREATE TABLE IF NOT EXISTS в этом случае — no-op.
+async function ensureDiaryMealColumn(database: SQLiteDBConnection) {
+  const info = await database.query(`PRAGMA table_info(diary)`);
+  const columns = (info.values ?? []) as { name: string }[];
+  const hasMeal = columns.some((c) => c.name === "meal");
+
+  if (!hasMeal) {
+    await database.execute(
+      `ALTER TABLE diary ADD COLUMN meal TEXT NOT NULL DEFAULT 'uncategorized'`
+    );
+  }
+
+  // Колонка теперь точно есть (либо была изначально, либо только что
+  // добавлена) — индекс безопасно (пере)создать в любом случае.
+  await database.execute(`CREATE INDEX IF NOT EXISTS idx_diary_meal ON diary(meal)`);
+}
 
 // Открывает (или переиспользует) соединение 'app_db', устойчиво
 // к ситуации, когда нативное соединение уже существует после
@@ -69,6 +93,7 @@ async function _initDB() {
 
   db = await openConnection();
   await db.execute(SCHEMA);
+  await ensureDiaryMealColumn(db);
 
   if (platform === 'web') {
     await sqlite.saveToStore('app_db');

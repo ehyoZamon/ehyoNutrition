@@ -35,7 +35,7 @@
     border-radius: 20px;
 }
 
-.navigation a{
+.navigation .nav-bar{
   width: 50px;
   height: 50px;
   padding: 9px;
@@ -52,6 +52,17 @@
 .nav-link{
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #999;
+    font-family: var(--second-family);
+}
+
+.nav-link.selected{
+  color: #7bc47f;
 }
 
 .header{
@@ -62,6 +73,84 @@
   position: relative;
   width: 100%;
   max-width: 320px;
+}
+
+.header-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header-date-btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #696969;
+  background: none;
+}
+
+.header-date-btn:active{
+  transform: scale(0.98);
+}
+
+.header-date-text{
+  font-family: var(--second-family);
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+/* Dropdown calendar panel — appears below the header when opened,
+   overlaying the content underneath it. */
+.calendar-overlay{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 320px;
+  z-index: 15;
+  background: #FFFCF8;
+  padding: 20px 16px calc(16px + env(safe-area-inset-bottom, 0px));
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  animation: calendar-overlay-in 0.18s ease-out;
+}
+
+@keyframes calendar-overlay-in{
+  from{
+    opacity: 0;
+    transform: translate(-50%, -10px);
+  }
+  to{
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.calendar-close-btn{
+  margin-top: 16px;
+  width: 100%;
+  min-height: 48px;
+  border: none;
+  border-radius: 24px;
+  background: #ff7a5c;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.calendar-close-btn:active{
+  transform: scale(0.99);
 }
 
 .main-layout .content-container{
@@ -213,9 +302,82 @@
   outline-offset: 1px;
 }
 
+/* Meal tabs: All / Breakfast / Lunch / Dinner / Snacks */
+
+.meal-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.meal-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 14px;
+  color: #999;
+}
+
+.meal-tab:active {
+  transform: scale(0.97);
+}
+
+.meal-tab-icon {
+  font-size: 20px;
+  line-height: 1;
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) saturate(100%) invert(44%) sepia(0%) saturate(0%) hue-rotate(178deg) brightness(94%) contrast(88%);
+}
+
+.meal-tab--selected  .meal-tab-icon{
+  filter: brightness(0) saturate(100%) invert(80%) sepia(13%) saturate(1632%) hue-rotate(74deg) brightness(93%) contrast(89%);
+}
+
+
+.meal-tab-label {
+  font-family: var(--second-family);
+  font-size: 11px;
+  white-space: nowrap;
+  width: 100%;
+  background: #FBF3E7;
+  padding: 5px 0px;
+  font-weight: 600;
+}
+
+.meal-tab:first-child .meal-tab-label{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.meal-tab:last-child .meal-tab-label{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.meal-tab--selected {
+  color: #7bc47f;
+}
+
+.meal-tab--selected .meal-tab-label {
+  font-weight: 700;
+}
+
 /* Today's Intake section */
 
-.intake-title {
+.intake-title h2{
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 20px;
@@ -228,25 +390,38 @@
   max-width: 320px;
 }
 
+.intake-title p{
+  margin: 0;
+  padding: 0;
+  color:#91c788;
+  text-align: center;
+  font-weight: 600;
+}
+
 .intake-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   width: 100%;
   max-width: 320px;
   padding: 10px;
 }
 
 .intake-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #eee;
 }
 
 .intake-item-left {
   display: flex;
   align-items: center;
   gap: 14px;
+  width: 100%;
+  flex-directioN: row;
+  margin-right: 50px;
 }
 
 .intake-emoji {
@@ -255,9 +430,20 @@
 }
 
 .intake-label {
-  font-size: 18px;
+  font-size: 14px;
   color: #696969;
   font-family: var(--font-family);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.intake-amount{
+  font-size: 12px;
 }
 
 .intake-remove-btn {
@@ -267,7 +453,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .intake-remove-btn:hover {
@@ -283,9 +469,8 @@
 }
 
 .add-button {
-  border-radius: 24px;
-  max-width: 320px;
-  min-height: 60px;
+  border-radius: 20px;
+  min-height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,11 +479,12 @@
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  padding: 20px;
+  padding: 10px 20px;
   width: 100%;
   border: 0;
-  width: 80%;
+  width: 100%;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .add-button:active {
@@ -334,4 +520,3 @@
     display: none;
   }
 }
-

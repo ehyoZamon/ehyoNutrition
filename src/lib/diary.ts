@@ -6,6 +6,7 @@ export type DiaryEntryRow = {
   product_id: number;
   amount: number;
   date: string;
+  meal: string;
 };
 
 async function ensureDiaryDate(date: string) {
@@ -28,14 +29,19 @@ async function cleanupDiaryDateIfEmpty(date: string) {
   }
 }
 
-export async function addDiaryEntry(productId: number, amount: number, date: string) {
+export async function addDiaryEntry(
+  productId: number,
+  amount: number,
+  date: string,
+  meal: string = "uncategorized"
+) {
   const db = getDB();
   if (!db) throw new Error("DB не инициализирована");
 
   await ensureDiaryDate(date);
   await db.run(
-    `INSERT INTO diary (product_id, amount, date) VALUES (?, ?, ?)`,
-    [productId, amount, date]
+    `INSERT INTO diary (product_id, amount, date, meal) VALUES (?, ?, ?, ?)`,
+    [productId, amount, date, meal]
   );
   await persistWeb();
 }

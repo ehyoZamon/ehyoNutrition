@@ -2407,10 +2407,6 @@
   "title": "Magnesium",
   "category": "Nutrients/minerals",
   "ulMode": "supplement_only",
-  "ulNote": {
-    "en": "Applies to non-food (supplemental) magnesium — excess from food is simply excreted by healthy kidneys.",
-    "ru": "Лимит относится к добавочному (не пищевому) магнию — избыток из еды просто выводится здоровыми почками."
-  },
   "DRI": {
     "Children": {
       "Infants (0-6 months)": {
@@ -2423,59 +2419,59 @@
       },
       "Young (1-3 years)": {
         "RDA": "80 mg",
-        "UL": "65 mg"
+        "UL": "-"
       },
       "Preschool (4-8 years)": {
         "RDA": "130 mg",
-        "UL": "110 mg"
+        "UL": "-"
       },
       "School-age (9-13 years)": {
         "RDA": "240 mg",
-        "UL": "350 mg"
+        "UL": "-"
       }
     },
     "Male": {
       "Teens (14-18 years)": {
         "RDA": "410 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "Adults (19-30 years)": {
         "RDA": "400 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "Middle-aged (31-50 years)": {
         "RDA": "420 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "Older Adults (51-70 years)": {
         "RDA": "420 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "The Elderly (71+ years)": {
         "RDA": "420 mg",
-        "UL": "350 mg"
+        "UL": "-"
       }
     },
     "Female": {
       "Teens (14-18 years)": {
         "RDA": "360 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "Adults (19-30 years)": {
         "RDA": "310 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "Middle-aged (31-50 years)": {
         "RDA": "320 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "Older Adults (51-70 years)": {
         "RDA": "320 mg",
-        "UL": "350 mg"
+        "UL": "-"
       },
       "The Elderly (71+ years)": {
         "RDA": "320 mg",
-        "UL": "350 mg"
+        "UL": "-"
       }
     }
   }

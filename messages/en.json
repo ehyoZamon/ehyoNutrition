@@ -1,69 +1,10 @@
 {
-  "Main": {
-    "hello": "Hello!",
-    "subtitle": "Find, track and eat healthy food.",
-    "articleLabel": "Article",
-    "articleTitle": "The pros and cons of fast food.",
-    "readNow": "Read Now",
-    "exploreVitamins": "Explore Vitamins",
-    "chooseFavorites": "Choose Your Favorites",
-    "fruits": "Fruits",
-    "vegetables": "Vegetables",
-    "snack": "Snack",
-
-    "nutritionStatistics": "Nutrition Statistics",
-    "bodyWater": "Human body is water",
-    "adultBones": "Bones in adult body",
-    "bodyMuscles": "Muscles in body",
-    "brainEnergy": "Energy used by brain",
-
-    "dailyRecommendations": "Daily Recommendations",
-    "water": "Water",
-    "protein": "Protein",
-    "fiber": "Fiber",
-
-    "commonDeficiencies": "Most Common Deficiencies",
-
-    "healthyPlate": "Healthy Plate Formula",
-    "plateVegetables": "Vegetables",
-    "plateProtein": "Protein",
-    "plateCarbohydrates": "Carbohydrates",
-
-    "didYouKnow": "Did You Know?",
-
-    "fact1": "The brain consumes about 20% of the body's daily energy.",
-    "fact2": "Magnesium participates in more than 300 biochemical reactions.",
-    "fact3": "Vitamin D is the only vitamin your body can produce from sunlight.",
-    "fact4": "About 60% of an adult human body consists of water.",
-    "fact5": "One serving of beef liver can provide more than 1000% of daily Vitamin B12.",
-
-    "healthyHabits": "Healthy Habits",
-
-    "habit1": "Drink water instead of sugary drinks.",
-    "habit2": "Eat vegetables with every main meal.",
-    "habit3": "Add at least one fruit to your daily diet.",
-    "habit4": "Include protein in breakfast.",
-    "habit5": "Walk at least 30 minutes daily.",
-    "habit6": "Choose whole grains more often.",
-    "habit7": "Eat fish at least twice a week.",
-
-    "topSources": "Top Nutrient Sources",
-
-    "vitaminCSources": "Kakadu Plum, Acerola Cherry, Guava, Bell Pepper, Kiwi",
-    "ironSources": "Beef Liver, Clams, Lentils, Spinach, Tofu",
-    "magnesiumSources": "Pumpkin Seeds, Almonds, Spinach, Black Beans, Dark Chocolate",
-    
-    "measurementUnits": "Guide to Measurement Units",
-    "unitMcgTitle": "mcg (µg) — Microgram",
-    "unitMcgDesc": "One millionth of a gram (1/1000 mg). Used for microelements that the body requires in microscopic doses but possess colossal biological activity. For instance, the daily value of vital Vitamin D3 (20 mcg) is visually smaller than a single grain of sand, and Vitamin B12 status is measured precisely in mcg.",
-    "unitMgTitle": "mg — Milligram",
-    "unitMgDesc": "One thousandth of a gram. This is the baseline measure for most vitamins and minerals. To help you visualize: a standard vitamin C tablet is typically 50-100 mg. Milligrams measure your daily requirements for Iron, Zinc, as well as macrominerals like Calcium and Magnesium (which are needed in larger amounts — around 400-1000 mg).",
-    "unitGTitle": "g — Gram",
-    "unitGDesc": "The primary unit of weight. Grams are used exclusively for macronutrients (Proteins, Fats, Carbohydrates) and dietary fiber. The total weight of food items in the app is also displayed in grams. Remember that 1 gram of fat provides 9 kcal, while 1 gram of protein or carbs provides 4 kcal.",
-    "unitDvTitle": "% DV — Percent of Daily Value",
-    "unitDvDesc": "The ultimate guide for reading nutritional data. It shows what percentage of the average adult's daily requirement is supplied by one serving. Apply the golden rule: if a nutrient is ≤ 5% DV, the food is low in it; if it is ≥ 20% DV (like the 22% in the example above), it is considered an excellent, high-potency source.",
-    "unitMeTitle": "IU (ME) — International Unit",
-    "unitMeDesc": "Measures biological activity rather than physical weight. Different forms of a vitamin have different weights, but IU standardizes their potency. Most commonly used for Vitamins D, A, and E. For example, 400 IU of Vitamin D3 is exactly equal to 10 mcg."
+  "navBar": {
+    "foods": "Foods",
+    "nutrients": "Nutrients", 
+    "foodDiary": "Diary",
+    "favourites": "Favourites",
+    "settings": "Profile"
   },
   "Products": {
     "searchPlaceholder": "Search products, fruits, vegetables...",
@@ -156,7 +97,7 @@
   },
   "FoodDiary":{
     "title": "Diary",
-    "noEntries": "No entries for this day.",
+    "noEntries": "No entries",
     "addFood": "Add to Daily Intake", 
     "todaysIntake": "Today's Intake",
     "intake": "Intake",
@@ -170,6 +111,14 @@
       "Sa": "Sa",
       "Su": "Su"
     },
+    "meals": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snacks": "Snacks",
+      "all": "All"
+    },
+    "addToMealPrefix": "Add to ",
     "searchPlaceholder": "Search products, fruits, vegetables...",
     "nothingFound": "Nothing found",
     "closeBtn": "Close",
@@ -212,7 +161,11 @@
     "topProductsTitle": "Food rich in this",
     "overLimitWarning": "Upper Limit {ulLabel}, consumed {consumedLabel} — upper limit exceeded {percent}% over the safe maximum",
     "overUpperLimitSuffix": "over the safe maximum",
-    "consumption": "Consumed"
+    "consumption": "Consumed",
+    "close": "Close",
+    "kcalUnit": "kcal",
+    "entriesPlural": "entries",
+    "entrySingular": "entry"
   },
   "Settings":{
     "male": "male",

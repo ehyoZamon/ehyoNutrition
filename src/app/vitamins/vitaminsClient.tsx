@@ -35,6 +35,7 @@ const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
 
 const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
   const t = useTranslations("Vitamins"); // Используем пространство имен из локализации интерфейса
+  const navBar=useTranslations("navBar");
   const locale = useLocale(); // Опознаем текущий язык ('ru' или 'en')
 
   // Автоматически подбираем базовый массив данных на основе выбранного языка
@@ -189,23 +190,38 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
       </div>
 
       <div className={styles["navigation-container"]}>
-          <div className={styles["navigation"]}>
-            <Link className={styles["nav-link"]} href="/products" aria-current="page" >
+        <div className={styles["navigation"]}>
+          <Link className={styles["nav-link"]} href="/products" aria-current="page" >
+            <div className={styles["nav-bar"]}>
               <Image src="/main/products.svg" alt="products" width={48} height={48} />
-            </Link>
-            <Link className={styles["nav-link"]} href="/vitamins">
-              <Image src="/main/antioxidant-green.svg" alt="antioxidant" width={48} height={48} />
-            </Link>
-            <Link className={styles["nav-link"]} href="/food-diary" aria-current="page" >
+            </div>
+            {navBar("foods")}
+          </Link>
+          <Link className={`${styles["nav-link"]} ${styles["selected"]}`} href="/vitamins">
+            <div className={styles["nav-bar"]}>
+                <Image src="/main/antioxidant-green.svg" alt="antioxidant" width={48} height={48} />
+            </div>
+            {navBar("nutrients")}
+          </Link>
+          <Link  className={styles["nav-link"]} href="/food-diary" aria-current="page" >
+            <div className={styles["nav-bar"]}>
               <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-            </Link>
-            <Link className={styles["nav-link"]} href="/favorites">
+            </div>
+            {navBar("foodDiary")}
+          </Link>
+          <Link  className={styles["nav-link"]} href="/favorites">
+            <div className={styles["nav-bar"]}>
               <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-            </Link>
-            <Link className={styles["nav-link"]} href="/settings">
+            </div>
+            {navBar("favourites")}
+          </Link>
+          <Link  className={styles["nav-link"]} href="/settings">
+            <div className={styles["nav-bar"]}>
               <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-            </Link>
-          </div>
+            </div>
+            {navBar("settings")}
+          </Link>
+        </div>
       </div>
 
       {/* 🧾 Вкладка с дозировками (DRI) */}
