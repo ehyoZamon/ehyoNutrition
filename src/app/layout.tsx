@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   keywords: ["nutrition app", "ehyo", "nutritions", "healthy food"],
   authors: [{ name: "Ehyo Team" }],
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no",
+  viewport: "width=375, initial-scale=1, viewport-fit=cover",
   other: {
     copyright: "© 2026 Ehyo",
   },

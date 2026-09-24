@@ -15,7 +15,7 @@
   --dv-mineral-fill: #f2537b;
   --dv-mineral-track: #dfe3e8;
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
@@ -35,7 +35,7 @@
 
 .section{
     width: 100%;
-    max-width: 320px;
+    max-width: clamp(300px, 90vw, 500px);;
     overflow: hidden;
     margin-bottoM: 20px;
 }
@@ -182,3 +182,4 @@
 .macronutrients-section .ring-label-lg{
   font-size: 14px;
 }
+

@@ -30,7 +30,7 @@
   z-index: 10;
   position: relative;
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
 }
 
 .main-layout .content-container{
@@ -41,7 +41,7 @@
     position: fixed;
     top: 0;
     height: 100vh;
-    max-width: 320px;
+    max-width: clamp(300px, 90vw, 500px);;
     z-index: 1;
     padding-top: 92px;
     padding-bottom: 112px;
@@ -174,7 +174,7 @@
 
 .navigation-container{
     width: 100%;
-    max-width: 320px;
+    max-width: clamp(300px, 90vw, 500px);;
     padding-bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
     z-index: 10;
     position: relative;    

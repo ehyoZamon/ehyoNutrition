@@ -419,10 +419,21 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Список записей, видимых под выбранной вкладкой (All/Breakfast/...) ----
   // "Daily value" ниже всегда считается по entryList целиком (весь день),
   // фильтр влияет только на то, что показано в списке intake-list.
+
+  
   const visibleEntries = useMemo(
     () => (selectedMeal === "all" ? entryList : entryList.filter((e) => e.meal === selectedMeal)),
     [entryList, selectedMeal]
   );
+
+  const allEntries=useMemo(
+    ()=>(entryList),[entryList,selectedMeal]
+  );
+
+  const entriesCountLabel = `${allEntries.length} ${
+    allEntries.length === 1 ? tt("entrySingular", "entry") : tt("entriesPlural", "entries")
+  }`;
+  
 
   const mealLabel = (key: MealFilter) => tt(`meals.${key}`, MEAL_FALLBACK_LABELS[key]);
 
@@ -431,9 +442,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       ? t("addFoodButton")
       : `${tt("addToMealPrefix", "Add to")} ${mealLabel(selectedMeal)}`;
 
-  const entriesCountLabel = `${visibleEntries.length} ${
-    visibleEntries.length === 1 ? tt("entrySingular", "entry") : tt("entriesPlural", "entries")
-  }`;
+  
 
   // ---- Разбивка нутриента по продуктам ----
   // Открывает сразу (с процентом, уже известным дашборду, чтобы кольцо не

@@ -12,7 +12,7 @@
 
 .sheet {
   width: 100%;
-  max-width: 352px;
+  max-width: clamp(300px, 100vw, 500px);;
   background: #fff;
   border-radius: 32px 32px 0 0;
   display: flex;
@@ -109,3 +109,4 @@
 .submit-btn:active {
   transform: scale(0.98);
 }
+

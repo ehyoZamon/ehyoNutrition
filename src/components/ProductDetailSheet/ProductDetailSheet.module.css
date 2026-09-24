@@ -46,7 +46,7 @@
    (.product, .category-group, .search-container, etc.) */
 .container {
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -208,7 +208,7 @@
 
 .closeButtonWrap {
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
   margin: 0 auto;
   padding: 0 24px;
   flex-shrink: 0;
@@ -232,3 +232,4 @@
 .closeButton:active {
   background: #e97e67;
 }
+

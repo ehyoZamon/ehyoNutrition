@@ -13,7 +13,7 @@
 
 .navigation-container{
     width: 100%;
-    max-width: 320px;
+    max-width: clamp(300px, 90vw, 500px);;
     padding-bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
     z-index: 10;
     position: relative;    
@@ -72,7 +72,7 @@
   z-index: 10;
   position: relative;
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
 }
 
 .header-row{
@@ -115,7 +115,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
   z-index: 15;
   background: #FFFCF8;
   padding: 20px 16px calc(16px + env(safe-area-inset-bottom, 0px));
@@ -161,7 +161,7 @@
     position: fixed;
     top: 0;
     height: 100vh;
-    max-width: 320px;
+    max-width: clamp(300px, 90vw, 500px);;
     z-index: 1;
     padding-top: 92px;
     padding-bottom: 112px;
@@ -192,7 +192,7 @@
 .calendar {
   width: 100%;
   font-family: var(--font-family);
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
   margin-top: 10px;
 }
 
@@ -310,7 +310,7 @@
   align-items: stretch;
   justify-content: space-between;
   width: 100%;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
   border-radius: 20px;
   margin-bottom: 10px;
 }
@@ -387,7 +387,7 @@
   color: #696969;
   margin: 0;
   padding: 0;
-  max-width: 320px;
+  max-width: clamp(300px, 90vw, 500px);;
 }
 
 .intake-title p{
@@ -402,8 +402,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 320px;
-  padding: 10px;
 }
 
 .intake-item {
@@ -413,15 +411,16 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #eee;
+  width: 100%;
+  overflow: hidden;
 }
 
 .intake-item-left {
   display: flex;
   align-items: center;
   gap: 14px;
-  width: 100%;
-  flex-directioN: row;
-  margin-right: 50px;
+  flex-direction: row;
+  flex: 1;
 }
 
 .intake-emoji {
@@ -438,8 +437,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  width: 100%;
-  flex-shrink: 0;
+  width:100%;
 }
 
 .intake-amount{
@@ -454,6 +452,7 @@
   align-items: center;
   justify-content: center;
   opacity: 1;
+  flex-shrink: 0;
 }
 
 .intake-remove-btn:hover {
