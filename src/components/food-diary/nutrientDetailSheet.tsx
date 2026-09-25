@@ -215,6 +215,9 @@ const NutrientDetailSheet = ({
 
           <h3 className={styles["section-title"]}>
             {tt("consumption", "Consumption")}
+            {!loading && consumedLabel && (
+              <span className={styles["consumed-total"]}>{consumedLabel}</span>
+            )}
           </h3>
 
           {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}

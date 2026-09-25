@@ -218,6 +218,7 @@
 }
 
 .cancel-btn,
+.plan-btn,
 .add-btn {
   flex: 1;
   min-height: 56px;
@@ -246,3 +247,10 @@
   transform: scale(0.98);
 }
 
+.plan-btn {
+  background: #9a9a9a;
+}
+
+.plan-btn:active {
+  transform: scale(0.98);
+}

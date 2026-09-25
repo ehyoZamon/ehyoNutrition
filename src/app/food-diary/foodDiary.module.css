@@ -312,7 +312,6 @@
   width: 100%;
   max-width: clamp(300px, 90vw, 500px);;
   border-radius: 20px;
-  margin-bottom: 10px;
 }
 
 .meal-tab {
@@ -444,6 +443,85 @@
   font-size: 12px;
 }
 
+/* Wraps intake-name + the optional meal-type line below it (shown only
+   when the "All" tab is selected), so the amount on the right still
+   aligns to the row via intake-label's space-between. */
+.intake-name-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.intake-meal {
+  font-size: 11px;
+  color: #999;
+  font-family: var(--second-family);
+}
+
+/* Row that holds the meal-type text and/or the "from your daily plan"
+   badge under the food name — either or both can be present. */
+.intake-meal-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.intake-plan-tag {
+  font-family: var(--second-family);
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  background: #7bc47f;
+  padding: 2px 8px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+/* "Consumed" / "Daily Plan" section headers above the intake list */
+.intake-section-label {
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  color: #696969;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+
+/* Wraps the trash button + (for planned rows) the checkbox button, so
+   both sit together on the right edge of the row. */
+.intake-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.intake-check-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  border: 2px solid #91c788;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: #91c788;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.intake-check-btn:active {
+  transform: scale(0.95);
+}
+
 .intake-remove-btn {
   background: none;
   border: none;
@@ -488,6 +566,94 @@
 
 .add-button:active {
   transform: scale(0.99);
+}
+
+/* "Have you consumed this planned meal?" confirmation, opened from the
+   checkbox on a Daily Plan row. */
+.plan-confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1150;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.plan-confirm-sheet {
+  width: 100%;
+  max-width: clamp(300px, 100vw, 500px);
+  background: #fff;
+  border-radius: 32px 32px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  animation: plan-confirm-slide-up 0.25s ease-out;
+  padding-bottom: max(40px, calc(env(safe-area-inset-bottom) + 40px));
+}
+
+@keyframes plan-confirm-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.plan-confirm-product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 600;
+  color: #696969;
+  text-align: center;
+}
+
+.plan-confirm-title {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  text-align: center;
+  margin: 0;
+}
+
+.plan-confirm-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.plan-confirm-no,
+.plan-confirm-yes {
+  flex: 1;
+  min-height: 52px;
+  border-radius: 24px;
+  border: 0;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.plan-confirm-no {
+  background: #ff8a70;
+}
+
+.plan-confirm-yes {
+  background: #91c788;
+}
+
+.plan-confirm-no:active,
+.plan-confirm-yes:active {
+  transform: scale(0.98);
 }
 
 

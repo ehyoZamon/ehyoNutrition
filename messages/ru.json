@@ -165,7 +165,14 @@
     "close": "Закрыть",
     "kcalUnit": "ккал",
     "entriesPlural": "записей",
-    "entrySingular": "запись"
+    "entrySingular": "запись",
+    "consumedSectionTitle": "Употреблено",
+    "planBtn": "В план",
+    "dailyPlanTitle": "Дневной план",
+    "no": "Нет",
+    "yes": "Да",
+    "confirmPlannedMealTitle": "Вы поели эту запланированную еду?",
+    "fromYourDailyPlan": "план ✓"
   },
   "Settings":{
     "male": "мужчина",

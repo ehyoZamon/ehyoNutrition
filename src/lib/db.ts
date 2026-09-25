@@ -18,7 +18,9 @@ const SCHEMA = `
     product_id INTEGER NOT NULL,
     amount REAL NOT NULL,
     date TEXT NOT NULL,
-    meal TEXT NOT NULL DEFAULT 'uncategorized'
+    meal TEXT NOT NULL DEFAULT 'uncategorized',
+    status TEXT NOT NULL DEFAULT 'consumed',
+    from_plan INTEGER NOT NULL DEFAULT 0
   );
 
   CREATE INDEX IF NOT EXISTS idx_diary_date ON diary(date);
@@ -43,9 +45,33 @@ async function ensureDiaryMealColumn(database: SQLiteDBConnection) {
     );
   }
 
-  // Колонка теперь точно есть (либо была изначально, либо только что
+  // Индекс теперь точно есть (либо была изначально, либо только что
   // добавлена) — индекс безопасно (пере)создать в любом случае.
   await database.execute(`CREATE INDEX IF NOT EXISTS idx_diary_meal ON diary(meal)`);
+}
+
+// Та же миграция "на лету", что и выше, но для колонок status/from_plan —
+// нужны для планирования приёма пищи (Daily Plan): status различает
+// 'consumed' (уже съедено, как раньше) и 'planned' (запланировано, ещё не
+// съедено и не учитывается в подсчёте суточной нормы); from_plan=1
+// отмечает запись, которая была подтверждена из плана (для бейджа "from
+// your daily plan" в списке Consumed).
+async function ensureDiaryPlanColumns(database: SQLiteDBConnection) {
+  const info = await database.query(`PRAGMA table_info(diary)`);
+  const columns = (info.values ?? []) as { name: string }[];
+
+  if (!columns.some((c) => c.name === "status")) {
+    await database.execute(
+      `ALTER TABLE diary ADD COLUMN status TEXT NOT NULL DEFAULT 'consumed'`
+    );
+  }
+  if (!columns.some((c) => c.name === "from_plan")) {
+    await database.execute(
+      `ALTER TABLE diary ADD COLUMN from_plan INTEGER NOT NULL DEFAULT 0`
+    );
+  }
+
+  await database.execute(`CREATE INDEX IF NOT EXISTS idx_diary_status ON diary(status)`);
 }
 
 // Открывает (или переиспользует) соединение 'app_db', устойчиво
@@ -94,6 +120,7 @@ async function _initDB() {
   db = await openConnection();
   await db.execute(SCHEMA);
   await ensureDiaryMealColumn(db);
+  await ensureDiaryPlanColumns(db);
 
   if (platform === 'web') {
     await sqlite.saveToStore('app_db');

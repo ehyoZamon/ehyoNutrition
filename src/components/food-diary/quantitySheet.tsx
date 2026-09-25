@@ -55,7 +55,12 @@ type QuantitySheetProps = {
   open: boolean;
   product: DiaryProduct | null;
   onClose: () => void;
-  onAdd: (product: DiaryProduct, amountLabel: string, grams: number) => void;
+  onAdd: (
+    product: DiaryProduct,
+    amountLabel: string,
+    grams: number,
+    status?: "consumed" | "planned"
+  ) => void;
   /**
    * "add" (default) — сумма по умолчанию берётся из base serving продукта,
    * кнопка подтверждения подписана как "Add".
@@ -291,13 +296,13 @@ const QuantitySheet = ({
       ? `${servingInfo.unit} (${gramsTotal} g)`
       : servingInfo.unit;
 
-  const handleAdd = () => {
+  const handleAdd = (status: "consumed" | "planned" = "consumed") => {
     const amountLabel =
       servingInfo.mode === "count"
         ? `${quantity} ${servingInfo.unit} (${gramsTotal} g)`
         : `${quantity}${servingInfo.unit}`;
 
-    onAdd(product, amountLabel, gramsTotal);
+    onAdd(product, amountLabel, gramsTotal, status);
   };
 
   const actionLabel = isEdit ? t("saveBtn") : t("addBtn");
@@ -404,7 +409,16 @@ const QuantitySheet = ({
           <button type="button" className={styles["cancel-btn"]} onClick={onClose}>
             {t("cancelBtn")}
           </button>
-          <button type="button" className={styles["add-btn"]} onClick={handleAdd}>
+          {!isEdit && (
+            <button
+              type="button"
+              className={styles["plan-btn"]}
+              onClick={() => handleAdd("planned")}
+            >
+              {tt("planBtn", "Plan")}
+            </button>
+          )}
+          <button type="button" className={styles["add-btn"]} onClick={() => handleAdd("consumed")}>
             {actionLabel}
           </button>
         </div>

@@ -89,6 +89,13 @@ export type DailyValueModuleProps = {
   // rendered as a softer info badge instead of the danger one.
   vitaminOverLimitInfo?: OverLimitMap;
   caloriesPercent?: number;
+  // Raw kcal consumed today. When provided, the Calories section header
+  // shows this amount instead of caloriesPercent's "%" value (the bar
+  // fill itself still uses caloriesPercent).
+  caloriesAmount?: number;
+  // Optional daily kcal goal — when given alongside caloriesAmount, the
+  // header shows "amount / goal" instead of just "amount".
+  caloriesGoal?: number;
   macrosOverallPercent?: number;
   macroPercents?: PercentMap; // keyed by MACRO_ITEMS .key
   macroOverLimit?: OverLimitMap;
@@ -433,7 +440,18 @@ function VerticalBar({
   );
 }
 
-function SectionHeader({ title, percent }: { title: string; percent: number }) {
+function SectionHeader({
+  title,
+  percent,
+  valueLabel,
+}: {
+  title: string;
+  percent: number;
+  // When provided, rendered instead of the rounded percent — e.g. the raw
+  // calorie count for the Calories section, where showing "1850" (or
+  // "1850 / 2200") is more useful than "84%".
+  valueLabel?: string;
+}) {
   // Overall section percent is already capped per-nutrient before averaging
   // (see computeDailyValueData), so this should never exceed 100 — clamped
   // here too purely as a display safety net.
@@ -441,7 +459,7 @@ function SectionHeader({ title, percent }: { title: string; percent: number }) {
   return (
     <div className={styles["section-header"]}>
       <h2 className={styles["section-title"]}>{title}</h2>
-      <span className={styles["section-percent"]}>{Math.round(clamped)}%</span>
+      <span className={styles["section-percent"]}>{valueLabel ?? `${Math.round(clamped)}%`}</span>
     </div>
   );
 }
@@ -458,6 +476,8 @@ export default function DailyValueModule({
   vitaminOverLimit = {},
   vitaminOverLimitInfo = {},
   caloriesPercent = 0,
+  caloriesAmount,
+  caloriesGoal,
   macrosOverallPercent = 0,
   macroPercents = {},
   macroOverLimit = {},
@@ -526,7 +546,17 @@ export default function DailyValueModule({
 
       {/* Calories */}
       <section className={styles["section"]}>
-        <SectionHeader title={t("calories")} percent={caloriesPercent} />
+        <SectionHeader
+          title={t("calories")}
+          percent={caloriesPercent}
+          valueLabel={
+            caloriesAmount != null
+              ? caloriesGoal != null
+                ? `${Math.round(caloriesAmount)} / ${Math.round(caloriesGoal)}`
+                : `${Math.round(caloriesAmount)}`
+              : undefined
+          }
+        />
         <LinearBar percent={caloriesPercent} stops={stops} />
       </section>
 

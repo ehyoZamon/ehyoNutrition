@@ -7,6 +7,8 @@ export type DiaryEntryRow = {
   amount: number;
   date: string;
   meal: string;
+  status: string; // 'consumed' | 'planned'
+  from_plan: number; // 0/1 — was this 'consumed' row confirmed from a plan?
 };
 
 async function ensureDiaryDate(date: string) {
@@ -33,15 +35,16 @@ export async function addDiaryEntry(
   productId: number,
   amount: number,
   date: string,
-  meal: string = "uncategorized"
+  meal: string = "uncategorized",
+  status: "consumed" | "planned" = "consumed"
 ) {
   const db = getDB();
   if (!db) throw new Error("DB не инициализирована");
 
   await ensureDiaryDate(date);
   await db.run(
-    `INSERT INTO diary (product_id, amount, date, meal) VALUES (?, ?, ?, ?)`,
-    [productId, amount, date, meal]
+    `INSERT INTO diary (product_id, amount, date, meal, status) VALUES (?, ?, ?, ?, ?)`,
+    [productId, amount, date, meal, status]
   );
   await persistWeb();
 }
@@ -54,6 +57,22 @@ export async function updateDiaryEntry(id: number, amount: number, date: string)
   if (!db) throw new Error("DB не инициализирована");
 
   await db.run(`UPDATE diary SET amount = ? WHERE id = ? AND date = ?`, [amount, id, date]);
+  await persistWeb();
+}
+
+// Подтверждает запланированный приём пищи ("Have you consumed this planned
+// meal?" → "Yes"): переводит запись из 'planned' в 'consumed' и помечает
+// from_plan=1, чтобы список "Consumed" мог показать бейдж "from your daily
+// plan" рядом с типом приёма пищи. Дата не меняется — запись остаётся там,
+// где была запланирована.
+export async function confirmPlannedEntry(id: number, date: string) {
+  const db = getDB();
+  if (!db) throw new Error("DB не инициализирована");
+
+  await db.run(
+    `UPDATE diary SET status = 'consumed', from_plan = 1 WHERE id = ? AND date = ?`,
+    [id, date]
+  );
   await persistWeb();
 }
 

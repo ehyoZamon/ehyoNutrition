@@ -155,6 +155,8 @@ export function emptyDailyValueData(): DailyValueModuleProps {
     vitaminOverLimit: {},
     vitaminOverLimitInfo: {},
     caloriesPercent: 0,
+    caloriesAmount: 0,
+    caloriesGoal: ASSUMED_DAILY_CALORIES,
     macrosOverallPercent: 0,
     macroPercents: {},
     macroOverLimit: {},
@@ -327,6 +329,11 @@ export async function computeDailyValueData(
     vitaminOverLimit,
     vitaminOverLimitInfo,
     caloriesPercent,
+    // Raw amount + goal, so DailyValueModule's Calories header can show
+    // "1850 / 2200" instead of "84%" — see dailyValueModule.tsx's
+    // SectionHeader valueLabel.
+    caloriesAmount: Math.round(consumedCalories),
+    caloriesGoal: ASSUMED_DAILY_CALORIES,
     macrosOverallPercent,
     macroPercents,
     macroOverLimit,
@@ -572,11 +579,26 @@ export async function computeNutrientBreakdown(
     : ulMode === "total"
       ? "danger"
       : "info";
-  // Expressed in the same unit as ulLabel (not always mg) so the two read
-  // naturally together, e.g. "limit 3 mg, consumed 5 mg" instead of mixing
-  // whatever unit vitaminDRI.json happens to store the limit in.
+  // Expressed in the same unit as ulLabel when there's a UL to match it
+  // against (e.g. "limit 3 mg, consumed 5 mg"); otherwise falls back to the
+  // recommended-amount's unit. A handful of nutrient/DRI-context
+  // combinations have neither (no UL and no RDA/AI/AMDR row for this
+  // user's age bracket) — rather than show nothing, pick a sensible unit
+  // from the raw mg total itself so "Consumption" always has a real number
+  // next to it whenever something was actually logged.
+  const inferredUnit = totalMg < 1 ? "mcg" : totalMg >= 1000 ? "g" : "mg";
+  // A "%"-based AMDR string (e.g. fat's "20-35% of calories") carries no
+  // real mg/g/mcg unit to borrow — formatMgAsUnitOf would otherwise read
+  // its trailing word ("calories") as if it were one and mislabel the
+  // total. Only trust ulRaw/recommendedRaw as a unit source when they're
+  // an actual amount, not a percentage range.
+  const isRealUnitAmount = (raw: string | null): raw is string => !!raw && !raw.includes("%");
+  const totalUnitRaw =
+    (isRealUnitAmount(ulRaw) ? ulRaw : null) ??
+    (isRealUnitAmount(recommendedRaw) ? recommendedRaw : null) ??
+    `0 ${inferredUnit}`;
   const consumedLabel =
-    ulRaw && totalMg > 0 ? localizeAmountString(formatMgAsUnitOf(totalMg, ulRaw), locale) : null;
+    totalMg > 0 ? localizeAmountString(formatMgAsUnitOf(totalMg, totalUnitRaw), locale) : null;
 
   return {
     overallPercent,

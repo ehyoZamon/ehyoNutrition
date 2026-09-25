@@ -39,6 +39,7 @@ import {
   addDiaryEntry,
   deleteDiaryEntry,
   updateDiaryEntry,
+  confirmPlannedEntry,
   getDiaryEntriesByDate,
   getDatesWithEntriesInRange,
 } from "@/lib/diary";
@@ -70,6 +71,14 @@ type FoodEntry = {
   grams: number;
   meal: MealType;
   calories: number; // kcal for this entry's amount (product.calories is per 100g)
+  // 'consumed' — обычная съеденная запись (учитывается в суточной норме).
+  // 'planned' — запланированный приём пищи (лежит в "Daily Plan", в
+  // суточную норму не считается, пока не подтверждён).
+  status: "consumed" | "planned";
+  // true, если эта 'consumed' запись появилась через подтверждение плана
+  // ("Have you consumed this planned meal?" → Yes) — включает бейдж
+  // "from your daily plan" в списке Consumed.
+  fromPlan: boolean;
 };
 
 const WEEKDAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
@@ -146,6 +155,11 @@ const FoodDiaryClient = () => {
   const [isDeleteConfirmOpen, setIsDeleteConfirmOpen] = useState(false);
   const [deletingEntry, setDeletingEntry] = useState<FoodEntry | null>(null);
 
+  // Подтверждение запланированного приёма пищи ("Have you consumed this
+  // planned meal?" — появляется по клику на чекбокс у записи в Daily Plan)
+  const [isPlanConfirmOpen, setIsPlanConfirmOpen] = useState(false);
+  const [confirmingPlanEntry, setConfirmingPlanEntry] = useState<FoodEntry | null>(null);
+
   // Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule)
   const [isNutrientSheetOpen, setIsNutrientSheetOpen] = useState(false);
   const [nutrientInfo, setNutrientInfo] = useState<NutrientDetailInfo | null>(null);
@@ -197,7 +211,9 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     let cancelled = false;
 
     computeDailyValueData(
-      entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
+      entryList
+        .filter((e) => e.status === "consumed")
+        .map((e) => ({ productId: e.productId, grams: e.grams })),
       productMap,
       profile
     ).then((data) => {
@@ -249,6 +265,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
               grams: row.amount,
               meal: (row.meal as MealType) || "uncategorized",
               calories: 0,
+              status: (row.status as "consumed" | "planned") || "consumed",
+              fromPlan: !!row.from_plan,
             };
           }
 
@@ -269,6 +287,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             grams: row.amount,
             meal: (row.meal as MealType) || "uncategorized",
             calories: kcal,
+            status: (row.status as "consumed" | "planned") || "consumed",
+            fromPlan: !!row.from_plan,
           };
         })
       );
@@ -343,12 +363,17 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   const resolveMealForAdd = (): MealType =>
     selectedMeal === "all" ? resolveMealByTime(new Date()) : selectedMeal;
 
-  const handleQuantityAdd = async (product: DiaryProduct, _amountLabel: string, grams: number) => {
+  const handleQuantityAdd = async (
+    product: DiaryProduct,
+    _amountLabel: string,
+    grams: number,
+    status: "consumed" | "planned" = "consumed"
+  ) => {
     const dateStr = format(new Date(), "yyyy-MM-dd"); // всегда текущий день
     const meal = resolveMealForAdd();
 
     try {
-      await addDiaryEntry(product.id, grams, dateStr, meal);
+      await addDiaryEntry(product.id, grams, dateStr, meal, status);
 
       // Перезагружаем список только если пользователь смотрит на сегодня —
       // иначе новая запись не должна визуально появиться на просматриваемой дате.
@@ -416,22 +441,65 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setDeletingEntry(null);
   };
 
+  // ---- Подтверждение запланированного приёма пищи ----
+  // Клик по чекбоксу у записи в Daily Plan — не сразу переводит запись в
+  // Consumed, а сперва спрашивает "Have you consumed this planned meal?".
+  const handlePlanCheckClick = (entry: FoodEntry) => {
+    setConfirmingPlanEntry(entry);
+    setIsPlanConfirmOpen(true);
+  };
+
+  const handlePlanConfirmNo = () => {
+    setIsPlanConfirmOpen(false);
+    setConfirmingPlanEntry(null);
+  };
+
+  const handlePlanConfirmYes = async () => {
+    if (!confirmingPlanEntry) return;
+    const dateStr = format(selectedDate, "yyyy-MM-dd");
+
+    try {
+      await confirmPlannedEntry(confirmingPlanEntry.id, dateStr);
+      await loadEntriesForDate(selectedDate);
+      await loadDatesWithEntries();
+    } catch (e) {
+      console.error("Не удалось подтвердить план:", e);
+    } finally {
+      setIsPlanConfirmOpen(false);
+      setConfirmingPlanEntry(null);
+    }
+  };
+
   // ---- Список записей, видимых под выбранной вкладкой (All/Breakfast/...) ----
   // "Daily value" ниже всегда считается по entryList целиком (весь день),
   // фильтр влияет только на то, что показано в списке intake-list.
 
   
-  const visibleEntries = useMemo(
-    () => (selectedMeal === "all" ? entryList : entryList.filter((e) => e.meal === selectedMeal)),
+  const visibleConsumed = useMemo(
+    () =>
+      entryList.filter(
+        (e) => e.status === "consumed" && (selectedMeal === "all" || e.meal === selectedMeal)
+      ),
     [entryList, selectedMeal]
   );
 
-  const allEntries=useMemo(
-    ()=>(entryList),[entryList,selectedMeal]
+  const visiblePlanned = useMemo(
+    () =>
+      entryList.filter(
+        (e) => e.status === "planned" && (selectedMeal === "all" || e.meal === selectedMeal)
+      ),
+    [entryList, selectedMeal]
   );
 
-  const entriesCountLabel = `${allEntries.length} ${
-    allEntries.length === 1 ? tt("entrySingular", "entry") : tt("entriesPlural", "entries")
+  // "N entries" в шапке считает только съеденное — запланированное ещё не
+  // является "приёмом пищи" в прямом смысле.
+  const allConsumedEntries = useMemo(
+    () => entryList.filter((e) => e.status === "consumed"),
+    [entryList]
+  );
+
+  const entriesCountLabel = `${allConsumedEntries.length} ${
+    allConsumedEntries.length === 1 ? tt("entrySingular", "entry") : tt("entriesPlural", "entries")
   }`;
   
 
@@ -654,7 +722,12 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                 </button>
               ))}
             </div>
-            {visibleEntries.map((entry) => (
+            {visibleConsumed.length > 0 && (
+              <p className={styles["intake-section-label"]}>
+                {tt("consumedSectionTitle", "Consumed")}
+              </p>
+            )}
+            {visibleConsumed.map((entry) => (
               <div
                 key={entry.id}
                 className={styles["intake-item"]}
@@ -665,28 +738,101 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                 <div className={styles["intake-item-left"]}>
                   <Image src={entry.emoji} alt="" width={32} height={32} />
                   <div className={styles["intake-label"]}>
-                    <span className={styles["intake-name"]}>{entry.label}</span>{" "}
+                    <div className={styles["intake-name-wrap"]}>
+                      <span className={styles["intake-name"]}>{entry.label}</span>
+                      {(selectedMeal === "all" || entry.fromPlan) && (
+                        <span className={styles["intake-meal-row"]}>
+                          {selectedMeal === "all" && (
+                            <span className={styles["intake-meal"]}>{mealLabel(entry.meal)}</span>
+                          )}
+                          {entry.fromPlan && (
+                            <span className={styles["intake-plan-tag"]}>
+                              {tt("fromYourDailyPlan", "from your daily plan")}
+                            </span>
+                          )}
+                        </span>
+                      )}
+                    </div>
                     <span className={styles["intake-amount"]}>
                       {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
                     </span>
                   </div>
                 </div>
                 {isToday(selectedDate) && (
-                  <button
-                    type="button"
-                    aria-label={`Remove ${entry.label}`}
-                    className={styles["intake-remove-btn"]}
-                    onClick={(e) => {
-                      e.stopPropagation(); // не открывать окно редактирования при клике по корзине
-                      handleTrashClick(entry);
-                    }}
-                  >
-                    <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
-                  </button>
+                  <div className={styles["intake-actions"]}>
+                    <button
+                      type="button"
+                      aria-label={`Remove ${entry.label}`}
+                      className={styles["intake-remove-btn"]}
+                      onClick={(e) => {
+                        e.stopPropagation(); // не открывать окно редактирования при клике по корзине
+                        handleTrashClick(entry);
+                      }}
+                    >
+                      <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
+                    </button>
+                  </div>
                 )}
               </div>
             ))}
-            {visibleEntries.length === 0 && (
+
+            {visiblePlanned.length > 0 && (
+              <p className={styles["intake-section-label"]}>
+                {tt("dailyPlanTitle", "Daily Plan")}
+              </p>
+            )}
+            {visiblePlanned.map((entry) => (
+              <div
+                key={entry.id}
+                className={styles["intake-item"]}
+                onClick={() => handleEntryClick(entry)}
+                role={isToday(selectedDate) ? "button" : undefined}
+                style={isToday(selectedDate) ? { cursor: "pointer" } : undefined}
+              >
+                <div className={styles["intake-item-left"]}>
+                  <Image src={entry.emoji} alt="" width={32} height={32} />
+                  <div className={styles["intake-label"]}>
+                    <div className={styles["intake-name-wrap"]}>
+                      <span className={styles["intake-name"]}>{entry.label}</span>
+                      {selectedMeal === "all" && (
+                        <span className={styles["intake-meal"]}>{mealLabel(entry.meal)}</span>
+                      )}
+                    </div>
+                    <span className={styles["intake-amount"]}>
+                      {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
+                    </span>
+                  </div>
+                </div>
+                {isToday(selectedDate) && (
+                  <div className={styles["intake-actions"]}>
+                    <button
+                      type="button"
+                      aria-label={`Remove ${entry.label}`}
+                      className={styles["intake-remove-btn"]}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleTrashClick(entry);
+                      }}
+                    >
+                      <Image src="/food-diary/trash.svg" alt="" width={22} height={22} />
+                    </button>
+                    <button
+                      type="button"
+                      aria-label={`Mark ${entry.label} as consumed`}
+                      className={styles["intake-check-btn"]}
+                      onClick={(e) => {
+                        e.stopPropagation(); // открыть подтверждение, а не окно редактирования
+                        handlePlanCheckClick(entry);
+                      }}
+                    >
+                      ✓
+                    </button>
+                  </div>
+                )}
+              </div>
+            ))}
+
+            {visibleConsumed.length === 0 && visiblePlanned.length === 0 && (
               <p className={styles["intake-empty"]}>{t("noEntries")}</p>
             )}
             
@@ -747,6 +893,35 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         onConfirm={handleDeleteConfirm}
       />
 
+      {/* Подтверждение запланированного приёма пищи (чекбокс в Daily Plan) */}
+      {isPlanConfirmOpen && confirmingPlanEntry && (
+        <div className={styles["plan-confirm-overlay"]} onClick={handlePlanConfirmNo}>
+          <div className={styles["plan-confirm-sheet"]} onClick={(e) => e.stopPropagation()}>
+            <div className={styles["plan-confirm-product"]}>
+              <Image src={confirmingPlanEntry.emoji} alt="" width={40} height={40} />
+              <span>
+                {confirmingPlanEntry.label} - {confirmingPlanEntry.amount}
+              </span>
+            </div>
+            <p className={styles["plan-confirm-title"]}>
+              {tt("confirmPlannedMealTitle", "Have you consumed this planned meal?")}
+            </p>
+            <div className={styles["plan-confirm-actions"]}>
+              <button type="button" className={styles["plan-confirm-no"]} onClick={handlePlanConfirmNo}>
+                {tt("no", "No")}
+              </button>
+              <button
+                type="button"
+                className={styles["plan-confirm-yes"]}
+                onClick={handlePlanConfirmYes}
+              >
+                {tt("yes", "Yes")}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule) */}
       <NutrientDetailSheet
         open={isNutrientSheetOpen}
@@ -800,6 +975,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         </div>
       </div>
     </div>
+    
   );
 };
 

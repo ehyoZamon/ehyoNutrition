@@ -165,7 +165,14 @@
     "close": "Close",
     "kcalUnit": "kcal",
     "entriesPlural": "entries",
-    "entrySingular": "entry"
+    "entrySingular": "entry",
+    "consumedSectionTitle": "Consumed",
+    "planBtn": "Plan",
+    "dailyPlanTitle": "Daily Plan",
+    "no": "No",
+    "yes": "Yes",
+    "confirmPlannedMealTitle": "Have you consumed this planed food?",
+    "fromYourDailyPlan": "plan ✓"
   },
   "Settings":{
     "male": "male",
