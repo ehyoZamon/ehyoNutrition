@@ -18,6 +18,14 @@ type NutrientDetailSheetProps = {
   onClose: () => void;
   info: NutrientDetailInfo | null;
   percent: number;
+  /**
+   * Additional %DV (delta, not absolute) that would be reached if today's
+   * *planned* (not-yet-eaten) meals contributing this nutrient were also
+   * consumed — same meaning as DailyValueModule's plannedVitaminPercents/
+   * etc. Drawn on the big ring the same way: a translucent arc extension
+   * plus a "+xy%" badge. 0/omitted draws nothing extra.
+   */
+  plannedPercent?: number;
   rows: NutrientBreakdownRow[];
   /**
    * True while computeNutrientBreakdown() is still resolving for the
@@ -104,6 +112,7 @@ const NutrientDetailSheet = ({
   onClose,
   info,
   percent,
+  plannedPercent = 0,
   rows,
   loading,
   recommendedLabel,
@@ -153,6 +162,7 @@ const NutrientDetailSheet = ({
         <div className={styles["ring-wrap"]}>
           <CircleRing
             percent={percent}
+            plannedPercent={plannedPercent}
             label={""}
             size={"glge"}
             stops={stops}

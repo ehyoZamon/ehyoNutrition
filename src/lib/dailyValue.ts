@@ -147,6 +147,45 @@ function warnIfMalformedAmount(
   );
 }
 
+// Shared by computeDailyValueData for both the actually-eaten entries and
+// the planned-but-not-yet-eaten ones — same math either way (sum every
+// nutrient's mg, and calories, scaled by grams/100), just fed a different
+// entry list so the two totals stay separate.
+function accumulateNutrients(
+  entries: DiaryEntryInput[],
+  detailsByProductId: Map<number, ProductDetail | null>,
+  slugByProductId: Map<number, string>
+): { mgById: Map<string, number>; calories: number } {
+  const mgById = new Map<string, number>();
+  let calories = 0;
+
+  for (const entry of entries) {
+    const detail = detailsByProductId.get(entry.productId);
+    if (!detail) continue;
+
+    const productSlug = slugByProductId.get(entry.productId) ?? "unknown";
+    const factor = entry.grams / 100;
+
+    const caloriesRaw = detail.macroNutrients.find((n) => n.id === "calories")?.amount;
+    if (caloriesRaw !== undefined) {
+      warnIfMalformedAmount("en", productSlug, "calories", caloriesRaw);
+      const kcal = parseFloat(String(caloriesRaw).replace(/[^\d.]/g, ""));
+      if (!Number.isNaN(kcal)) calories += kcal * factor;
+    }
+
+    for (const nutrient of [...detail.macroNutrients, ...detail.microNutrients]) {
+      if (nutrient.id === "calories") continue;
+      if (!nutrient.slug) continue;
+      warnIfMalformedAmount("en", productSlug, nutrient.slug, nutrient.amount);
+      const mg = parseAmountToMg(nutrient.amount);
+      if (mg === null) continue;
+      mgById.set(nutrient.slug, (mgById.get(nutrient.slug) ?? 0) + mg * factor);
+    }
+  }
+
+  return { mgById, calories };
+}
+
 /** Returns an empty (all-zero) dashboard — used while data is still loading. */
 export function emptyDailyValueData(): DailyValueModuleProps {
   return {
@@ -154,31 +193,44 @@ export function emptyDailyValueData(): DailyValueModuleProps {
     vitaminPercents: {},
     vitaminOverLimit: {},
     vitaminOverLimitInfo: {},
+    vitaminsOverallPlannedPercent: 0,
+    plannedVitaminPercents: {},
     caloriesPercent: 0,
     caloriesAmount: 0,
     caloriesGoal: ASSUMED_DAILY_CALORIES,
+    caloriesPlannedPercent: 0,
+    caloriesPlannedAmount: 0,
     macrosOverallPercent: 0,
     macroPercents: {},
     macroOverLimit: {},
     macroOverLimitInfo: {},
+    macrosOverallPlannedPercent: 0,
+    plannedMacroPercents: {},
     mineralsOverallPercent: 0,
     mineralPercents: {},
     mineralOverLimit: {},
     mineralOverLimitInfo: {},
+    mineralsOverallPlannedPercent: 0,
+    plannedMineralPercents: {},
   };
 }
 
 export async function computeDailyValueData(
   entries: DiaryEntryInput[],
   productMap: Map<number, ProductLinkLookup>,
-  profile: SimpleUserProfile | null
+  profile: SimpleUserProfile | null,
+  // Today's *planned* (not-yet-eaten) entries — never counted toward the
+  // percentages/amounts themselves (those stay "actually eaten today"),
+  // only toward the *Planned* fields below, which say how much closer to
+  // each target the user would get if they also ate everything planned.
+  plannedEntries: DiaryEntryInput[] = []
 ): Promise<DailyValueModuleProps> {
-  if (entries.length === 0) return emptyDailyValueData();
+  if (entries.length === 0 && plannedEntries.length === 0) return emptyDailyValueData();
 
   const ctx = resolveDRIContext(profile);
 
   const slugByProductId = new Map<number, string>();
-  entries.forEach((entry) => {
+  [...entries, ...plannedEntries].forEach((entry) => {
     const product = productMap.get(entry.productId);
     if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
   });
@@ -202,40 +254,34 @@ export async function computeDailyValueData(
   });
 
   // consumed amount per nutrient id, in mg, across every logged entry today
-  const consumedMgById = new Map<string, number>();
-  let consumedCalories = 0;
-
-  for (const entry of entries) {
-    const detail = detailsByProductId.get(entry.productId);
-    if (!detail) continue;
-
-    const productSlug = slugByProductId.get(entry.productId) ?? "unknown";
-    const factor = entry.grams / 100;
-
-    const caloriesRaw = detail.macroNutrients.find((n) => n.id === "calories")?.amount;
-    if (caloriesRaw !== undefined) {
-      warnIfMalformedAmount("en", productSlug, "calories", caloriesRaw);
-      const kcal = parseFloat(String(caloriesRaw).replace(/[^\d.]/g, ""));
-      if (!Number.isNaN(kcal)) consumedCalories += kcal * factor;
-    }
-
-    for (const nutrient of [...detail.macroNutrients, ...detail.microNutrients]) {
-      if (nutrient.id === "calories") continue;
-      // `slug` (not `id`, which is a plain numeric row id like 14, 28, ...)
-      // is what matches vitaminDRI.json's keys, e.g. "protein", "vitamin-a".
-      if (!nutrient.slug) continue;
-      warnIfMalformedAmount("en", productSlug, nutrient.slug, nutrient.amount);
-      const mg = parseAmountToMg(nutrient.amount);
-      if (mg === null) continue;
-      consumedMgById.set(nutrient.slug, (consumedMgById.get(nutrient.slug) ?? 0) + mg * factor);
-    }
-  }
+  // — plus the same for planned-but-not-yet-eaten entries, kept separate.
+  const { mgById: consumedMgById, calories: consumedCalories } = accumulateNutrients(
+    entries,
+    detailsByProductId,
+    slugByProductId
+  );
+  const { mgById: plannedMgById, calories: plannedCalories } = accumulateNutrients(
+    plannedEntries,
+    detailsByProductId,
+    slugByProductId
+  );
 
   const percentForSlug = (slug: string): number | null => {
     const recommendedMg = getRecommendedMg(driData, slug, ctx, ASSUMED_DAILY_CALORIES);
     if (recommendedMg === null || recommendedMg <= 0) return null;
     const consumedMg = consumedMgById.get(slug) ?? 0;
     return (consumedMg / recommendedMg) * 100;
+  };
+
+  // Same as percentForSlug, but as if today's planned meals had also been
+  // eaten (consumed + planned mg) — used only to derive the "planned"
+  // delta below, never shown on its own.
+  const projectedPercentForSlug = (slug: string): number | null => {
+    const recommendedMg = getRecommendedMg(driData, slug, ctx, ASSUMED_DAILY_CALORIES);
+    if (recommendedMg === null || recommendedMg <= 0) return null;
+    const consumedMg = consumedMgById.get(slug) ?? 0;
+    const plannedMg = plannedMgById.get(slug) ?? 0;
+    return ((consumedMg + plannedMg) / recommendedMg) * 100;
   };
 
   // Builds a PercentMap for a section (keyed by dailyValueModule's short
@@ -258,14 +304,24 @@ export async function computeDailyValueData(
   // instead of `overLimit`.
   const buildSection = (
     items: readonly { key: string; slug: string }[]
-  ): { map: PercentMap; overall: number; overLimit: OverLimitMap; overLimitInfo: OverLimitMap } => {
+  ): {
+    map: PercentMap;
+    overall: number;
+    plannedMap: PercentMap;
+    plannedOverall: number;
+    overLimit: OverLimitMap;
+    overLimitInfo: OverLimitMap;
+  } => {
     const map: PercentMap = {};
+    const plannedMap: PercentMap = {};
     const overLimit: OverLimitMap = {};
     const overLimitInfo: OverLimitMap = {};
     const defined: number[] = [];
+    const definedProjected: number[] = [];
 
     items.forEach(({ key, slug }) => {
       const pct = percentForSlug(slug);
+      const projectedPct = projectedPercentForSlug(slug);
       // The per-item map keeps the *raw* percent (so a ring can honestly
       // show "281%" for something like vitamin A in liver), but the section
       // "overall" is an average of each item capped at 100 — one nutrient
@@ -274,6 +330,15 @@ export async function computeDailyValueData(
       // in the section has individually reached its own 100%.
       map[key] = pct ?? 0;
       if (pct !== null) defined.push(Math.min(pct, 100));
+      if (projectedPct !== null) definedProjected.push(Math.min(projectedPct, 100));
+
+      // How much MORE of this one nutrient's target planned-but-not-yet-
+      // eaten meals would cover — the "+xy%" badge on its ring/bar. Capped
+      // the same way as `map`'s overall average, and never negative (a
+      // plan only adds, it can't undo what's already eaten).
+      const cappedPct = Math.min(pct ?? 0, 100);
+      const cappedProjected = Math.min(projectedPct ?? pct ?? 0, 100);
+      plannedMap[key] = Math.max(0, cappedProjected - cappedPct);
 
       const ulMg = getULMg(driData, slug, ctx, ASSUMED_DAILY_CALORIES);
       if (ulMg !== null && ulMg > 0) {
@@ -290,8 +355,12 @@ export async function computeDailyValueData(
     const overall = defined.length
       ? defined.reduce((sum, pct) => sum + pct, 0) / defined.length
       : 0;
+    const projectedOverall = definedProjected.length
+      ? definedProjected.reduce((sum, pct) => sum + pct, 0) / definedProjected.length
+      : 0;
+    const plannedOverall = Math.max(0, projectedOverall - overall);
 
-    return { map, overall, overLimit, overLimitInfo };
+    return { map, overall, plannedMap, plannedOverall, overLimit, overLimitInfo };
   };
 
   const vitaminItems = [...VITAMIN_PRIMARY, ...VITAMIN_SECONDARY].map((v) => ({
@@ -301,6 +370,8 @@ export async function computeDailyValueData(
   const {
     map: vitaminPercents,
     overall: vitaminsOverallPercent,
+    plannedMap: plannedVitaminPercents,
+    plannedOverall: vitaminsOverallPlannedPercent,
     overLimit: vitaminOverLimit,
     overLimitInfo: vitaminOverLimitInfo,
   } = buildSection(vitaminItems);
@@ -309,6 +380,8 @@ export async function computeDailyValueData(
   const {
     map: macroPercents,
     overall: macrosOverallPercent,
+    plannedMap: plannedMacroPercents,
+    plannedOverall: macrosOverallPlannedPercent,
     overLimit: macroOverLimit,
     overLimitInfo: macroOverLimitInfo,
   } = buildSection(macroItems);
@@ -317,31 +390,47 @@ export async function computeDailyValueData(
   const {
     map: mineralPercents,
     overall: mineralsOverallPercent,
+    plannedMap: plannedMineralPercents,
+    plannedOverall: mineralsOverallPlannedPercent,
     overLimit: mineralOverLimit,
     overLimitInfo: mineralOverLimitInfo,
   } = buildSection(mineralItems);
 
   const caloriesPercent = (consumedCalories / ASSUMED_DAILY_CALORIES) * 100;
+  const caloriesProjectedPercent =
+    ((consumedCalories + plannedCalories) / ASSUMED_DAILY_CALORIES) * 100;
+  const caloriesPlannedPercent = Math.max(
+    0,
+    Math.min(100, caloriesProjectedPercent) - Math.min(100, caloriesPercent)
+  );
 
   return {
     vitaminsOverallPercent,
     vitaminPercents,
     vitaminOverLimit,
     vitaminOverLimitInfo,
+    vitaminsOverallPlannedPercent,
+    plannedVitaminPercents,
     caloriesPercent,
     // Raw amount + goal, so DailyValueModule's Calories header can show
     // "1850 / 2200" instead of "84%" — see dailyValueModule.tsx's
     // SectionHeader valueLabel.
     caloriesAmount: Math.round(consumedCalories),
     caloriesGoal: ASSUMED_DAILY_CALORIES,
+    caloriesPlannedPercent,
+    caloriesPlannedAmount: Math.round(plannedCalories),
     macrosOverallPercent,
     macroPercents,
     macroOverLimit,
     macroOverLimitInfo,
+    macrosOverallPlannedPercent,
+    plannedMacroPercents,
     mineralsOverallPercent,
     mineralPercents,
     mineralOverLimit,
     mineralOverLimitInfo,
+    mineralsOverallPlannedPercent,
+    plannedMineralPercents,
   };
 }
 
@@ -406,6 +495,12 @@ export type NutrientBreakdownResult = {
   // no UL or no rule configured for this nutrient. Meant for a tooltip/line
   // under the UL warning in the detail sheet.
   ulNote: string | null;
+  // Additional %DV (delta, not absolute) that would be reached if today's
+  // *planned* (not-yet-eaten) meals contributing this nutrient were also
+  // consumed. 0 when nothing is planned, or when there's no recommended
+  // amount to compute a %DV against. Mirrors buildSection()'s planned delta
+  // in computeDailyValueData, just scoped to one nutrient.
+  plannedPercent: number;
   // Which DRI row recommendedLabel came from — lets the UI say *why* this
   // is the number (e.g. "Adults (19-30 years)", "Female").
   driGroup: DRIGroupKey;
@@ -462,7 +557,12 @@ export async function computeNutrientBreakdown(
   entries: DiaryEntryInput[],
   productMap: Map<number, ProductDisplayLookup>,
   profile: SimpleUserProfile | null,
-  locale: "en" | "ru"
+  locale: "en" | "ru",
+  // Today's *planned* (not-yet-eaten) entries for this same nutrient —
+  // used only to compute `plannedPercent` below; never contributes to
+  // `rows`, `totalMg`, `overallPercent`, or the UL check, since none of
+  // that should reflect food that hasn't actually been eaten yet.
+  plannedEntries: DiaryEntryInput[] = []
 ): Promise<NutrientBreakdownResult> {
   const ctx = resolveDRIContext(profile);
 
@@ -479,7 +579,7 @@ export async function computeNutrientBreakdown(
   const ulMode = getULMode(driData, nutrientSlug);
   const ulNote = ulLabel ? getULNote(driData, nutrientSlug, locale) : null;
 
-  if (entries.length === 0) {
+  if (entries.length === 0 && plannedEntries.length === 0) {
     return {
       overallPercent: 0,
       rows: [],
@@ -491,13 +591,14 @@ export async function computeNutrientBreakdown(
       ulMode,
       ulSeverity: "none",
       ulNote,
+      plannedPercent: 0,
       driGroup: ctx.group,
       driAgeLabel: ctx.ageLabel,
     };
   }
 
   const slugByProductId = new Map<number, string>();
-  entries.forEach((entry) => {
+  [...entries, ...plannedEntries].forEach((entry) => {
     const product = productMap.get(entry.productId);
     if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
   });
@@ -565,8 +666,37 @@ export async function computeNutrientBreakdown(
   // %" sheet is meant to be read.
   rows.sort((a, b) => b.percent - a.percent);
 
+  // Same mg-summation as the loop above, but over plannedEntries — only
+  // ever used for the plannedPercent delta below, never for rows/totalMg/
+  // the UL check (planned food hasn't been eaten yet).
+  let plannedTotalMg = 0;
+  for (const entry of plannedEntries) {
+    const slug = slugByProductId.get(entry.productId);
+    if (!slug) continue;
+
+    const enDetail = enDetails.get(slug);
+    if (!enDetail) continue;
+
+    const nutrient = [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
+      (n) => n.slug === nutrientSlug
+    );
+    if (!nutrient) continue;
+
+    const mgPer100 = parseAmountToMg(nutrient.amount);
+    if (mgPer100 === null) continue;
+
+    const mg = mgPer100 * (entry.grams / 100);
+    if (mg > 0) plannedTotalMg += mg;
+  }
+
   const overallPercent =
     recommendedMg && recommendedMg > 0 ? Math.min(100, (totalMg / recommendedMg) * 100) : 0;
+
+  const projectedPercent =
+    recommendedMg && recommendedMg > 0
+      ? Math.min(100, ((totalMg + plannedTotalMg) / recommendedMg) * 100)
+      : 0;
+  const plannedPercent = Math.max(0, projectedPercent - overallPercent);
 
   const ulPercent = ulMg && ulMg > 0 ? (totalMg / ulMg) * 100 : null;
   const isOverLimit = ulPercent !== null && totalMg > (ulMg as number);
@@ -611,6 +741,7 @@ export async function computeNutrientBreakdown(
     ulMode,
     ulSeverity,
     ulNote,
+    plannedPercent,
     driGroup: ctx.group,
     driAgeLabel: ctx.ageLabel,
   };

@@ -33,6 +33,49 @@
     color: #696969;
 }
 
+/* "+xy% — planned meal, not yet eaten" legend, shown once at the top of
+   the dashboard when at least one section has a planned-food projection. */
+.planned-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 6px;
+}
+
+.planned-legend-badge {
+  background: rgba(140, 140, 140, 0.85);
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.planned-legend-text {
+  font-family: var(--font-family);
+  font-size: 13px;
+  color: #9a9a9a;
+}
+
+/* "+xy%" pill at the bottom of a ring — how much more of this nutrient's
+   target would be covered if today's planned meals were also eaten. */
+.planned-badge {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(140, 140, 140, 0.85);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 7px;
+  white-space: nowrap;
+  line-height: 1.3;
+}
+
 .section{
     width: 100%;
     max-width: clamp(300px, 90vw, 500px);;
@@ -98,6 +141,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 12px 4px;
+  padding-bottom: 15px;
 }
 
 .ring {
@@ -182,4 +226,3 @@
 .macronutrients-section .ring-label-lg{
   font-size: 14px;
 }
-

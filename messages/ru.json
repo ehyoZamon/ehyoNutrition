@@ -172,7 +172,8 @@
     "no": "Нет",
     "yes": "Да",
     "confirmPlannedMealTitle": "Вы поели эту запланированную еду?",
-    "fromYourDailyPlan": "план ✓"
+    "fromYourDailyPlan": "план ✓",
+    "plannedLegend": "- если запланированная еда будет съедена"
   },
   "Settings":{
     "male": "мужчина",

@@ -88,6 +88,14 @@ export type DailyValueModuleProps = {
   // whole-food sources only, which isn't the risk the limit describes" —
   // rendered as a softer info badge instead of the danger one.
   vitaminOverLimitInfo?: OverLimitMap;
+  // Additional %DV (delta, not absolute) each vitamin would reach if
+  // today's *planned* (not-yet-eaten) meals were also consumed — keyed the
+  // same way as vitaminPercents. Rendered as a translucent extension of the
+  // ring's arc plus a small "+xy%" badge. 0/missing keys draw nothing extra.
+  plannedVitaminPercents?: PercentMap;
+  // Same delta, averaged across the section — extends the Vitamins linear
+  // bar the same way the rings extend.
+  vitaminsOverallPlannedPercent?: number;
   caloriesPercent?: number;
   // Raw kcal consumed today. When provided, the Calories section header
   // shows this amount instead of caloriesPercent's "%" value (the bar
@@ -96,14 +104,22 @@ export type DailyValueModuleProps = {
   // Optional daily kcal goal — when given alongside caloriesAmount, the
   // header shows "amount / goal" instead of just "amount".
   caloriesGoal?: number;
+  // Delta %/kcal from today's planned meals — same idea as
+  // vitaminsOverallPlannedPercent, for the Calories bar.
+  caloriesPlannedPercent?: number;
+  caloriesPlannedAmount?: number;
   macrosOverallPercent?: number;
   macroPercents?: PercentMap; // keyed by MACRO_ITEMS .key
   macroOverLimit?: OverLimitMap;
   macroOverLimitInfo?: OverLimitMap;
+  plannedMacroPercents?: PercentMap;
+  macrosOverallPlannedPercent?: number;
   mineralsOverallPercent?: number;
   mineralPercents?: PercentMap; // keyed by MINERAL_ITEMS .key
   mineralOverLimit?: OverLimitMap;
   mineralOverLimitInfo?: OverLimitMap;
+  plannedMineralPercents?: PercentMap;
+  mineralsOverallPlannedPercent?: number;
   onNutrientClick?: (info: NutrientClickInfo) => void;
 };
 
@@ -204,6 +220,7 @@ function gradientColor(percent: number, stops: typeof FALLBACK_STOPS): string {
 // instead of re-implementing the SVG.
 export function CircleRing({
   percent,
+  plannedPercent = 0,
   label,
   size,
   stops,
@@ -212,6 +229,15 @@ export function CircleRing({
   onClick,
 }: {
   percent: number;
+  /**
+   * Additional %DV (delta, not absolute) that would be reached if today's
+   * *planned* (not-yet-eaten) meals for this nutrient were also consumed.
+   * Drawn as a translucent (opacity 0.5) extension of the ring's arc from
+   * `percent` up to `percent + plannedPercent` (capped at a full circle),
+   * plus a small "+xy%" pill at the bottom of the ring. 0/omitted draws
+   * nothing extra — existing callers are unaffected.
+   */
+  plannedPercent?: number;
   label: string;
   size: number | "sm" | "lg" | "glg" | "glge";
   stops: typeof FALLBACK_STOPS;
@@ -245,6 +271,12 @@ export function CircleRing({
   // vitamin A in liver) so nothing gets hidden, only the drawing.
   const clamped = Math.min(100, Math.max(0, percent));
   const offset = circumference * (1 - clamped / 100);
+  // How far the translucent "if you also eat what's planned" arc reaches —
+  // same clamp-at-a-full-circle logic, just measured from the projected
+  // (consumed + planned) total instead of consumed alone.
+  const projectedClamped = Math.min(100, Math.max(clamped, clamped + plannedPercent));
+  const projectedOffset = circumference * (1 - projectedClamped / 100);
+  const showPlanned = plannedPercent > 0.5;
   // Info-only crossings keep the normal healthy-excess gradient for the
   // ring fill itself (it's not a real overdose) — only the badge changes.
   const color = overLimit ? rgbString(stops.danger) : gradientColor(percent, stops);
@@ -252,6 +284,7 @@ export function CircleRing({
   // can't blow out the ring's layout with a 5-digit number.
   const displayPercent = Math.min(999, Math.max(0, Math.round(percent)));
   const badgeSize = Math.max(12, Math.round(dimension * 0.28));
+  const plannedBadgeFontSize = Math.max(8, Math.round(dimension * 0.16));
 
   
   return (
@@ -278,6 +311,21 @@ export function CircleRing({
           stroke="var(--dv-track)"
           strokeWidth={stroke}
         />
+        {showPlanned && (
+          <circle
+            cx={dimension / 2}
+            cy={dimension / 2}
+            r={radius}
+            fill="none"
+            stroke={color}
+            strokeWidth={stroke}
+            strokeLinecap="round"
+            strokeDasharray={circumference}
+            strokeDashoffset={projectedOffset}
+            opacity={0.5}
+            transform={`rotate(-90 ${dimension / 2} ${dimension / 2})`}
+          />
+        )}
         <circle
           cx={dimension / 2}
           cy={dimension / 2}
@@ -356,18 +404,52 @@ export function CircleRing({
           i
         </span>
       )}
+      {showPlanned && (
+        <span
+          className={styles["planned-badge"]}
+          aria-label={`+${Math.round(plannedPercent)}% if planned meals are eaten`}
+          title="Additional %DV if today's planned meals are also eaten"
+          style={{ fontSize: plannedBadgeFontSize }}
+        >
+          +{Math.round(plannedPercent)}%
+        </span>
+      )}
     </div>
   );
 }
 
-function LinearBar({ percent, stops }: { percent: number; stops: typeof FALLBACK_STOPS }) {
+function LinearBar({
+  percent,
+  plannedPercent = 0,
+  stops,
+}: {
+  percent: number;
+  // Delta — see CircleRing's plannedPercent doc. Drawn as a translucent
+  // extension of the fill, from `percent` out to `percent + plannedPercent`.
+  plannedPercent?: number;
+  stops: typeof FALLBACK_STOPS;
+}) {
   const clamped = Math.min(100, Math.max(0, percent));
+  const projectedClamped = Math.min(100, Math.max(clamped, clamped + plannedPercent));
   const color = gradientColor(percent, stops);
+  const showPlanned = plannedPercent > 0.5;
   return (
-    <div className={styles["linear-track"]}>
+    <div className={styles["linear-track"]} style={{ position: "relative" }}>
+      {showPlanned && (
+        <div
+          className={styles["linear-fill"]}
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: `${projectedClamped}%`,
+            backgroundColor: color,
+            opacity: 0.5,
+          }}
+        />
+      )}
       <div
         className={styles["linear-fill"]}
-        style={{ width: `${clamped}%`, backgroundColor: color }}
+        style={{ position: "absolute", inset: 0, width: `${clamped}%`, backgroundColor: color }}
       />
     </div>
   );
@@ -375,6 +457,7 @@ function LinearBar({ percent, stops }: { percent: number; stops: typeof FALLBACK
 
 function VerticalBar({
   percent,
+  plannedPercent = 0,
   label,
   stops,
   overLimit,
@@ -382,6 +465,10 @@ function VerticalBar({
   onClick,
 }: {
   percent: number;
+  // Delta — see CircleRing's plannedPercent doc. Drawn as a translucent
+  // extension of the bar's fill height, from `percent` out to
+  // `percent + plannedPercent`.
+  plannedPercent?: number;
   label: string;
   stops: typeof FALLBACK_STOPS;
   // Real, any-source UL risk — see CircleRing's overLimit doc.
@@ -394,6 +481,10 @@ function VerticalBar({
   const clamped = Math.min(100, Math.max(0, percent));
   const maxHeight = 130; // px, matches the track height in CSS
   const fillHeight = clamped === 0 ? 0 : Math.max(6, (clamped / 100) * maxHeight);
+  const projectedClamped = Math.min(100, Math.max(clamped, clamped + plannedPercent));
+  const projectedFillHeight =
+    projectedClamped === 0 ? 0 : Math.max(6, (projectedClamped / 100) * maxHeight);
+  const showPlanned = plannedPercent > 0.5;
   const color = overLimit ? rgbString(stops.danger) : gradientColor(percent, stops);
   const showInfoBadge = !overLimit && overLimitInfo;
 
@@ -433,7 +524,21 @@ function VerticalBar({
           </span>
         )}
       </span>
-      <div className={styles["vbar-track"]} style={{ height: maxHeight }}>
+      <div className={styles["vbar-track"]} style={{ height: maxHeight, position: "relative" }}>
+        {showPlanned && (
+          <div
+            className={styles["vbar-fill"]}
+            style={{
+              position: "absolute",
+              bottom: 0,
+              left: 0,
+              right: 0,
+              height: projectedFillHeight,
+              backgroundColor: color,
+              opacity: 0.5,
+            }}
+          />
+        )}
         <div className={styles["vbar-fill"]} style={{ height: fillHeight, backgroundColor: color }} />
       </div>
     </div>
@@ -475,29 +580,69 @@ export default function DailyValueModule({
   vitaminPercents = {},
   vitaminOverLimit = {},
   vitaminOverLimitInfo = {},
+  plannedVitaminPercents = {},
+  vitaminsOverallPlannedPercent = 0,
   caloriesPercent = 0,
   caloriesAmount,
   caloriesGoal,
+  caloriesPlannedPercent = 0,
   macrosOverallPercent = 0,
   macroPercents = {},
   macroOverLimit = {},
   macroOverLimitInfo = {},
+  plannedMacroPercents = {},
+  macrosOverallPlannedPercent = 0,
   mineralsOverallPercent = 0,
   mineralPercents = {},
   mineralOverLimit = {},
   mineralOverLimitInfo = {},
+  plannedMineralPercents = {},
+  mineralsOverallPlannedPercent = 0,
   onNutrientClick,
 }: DailyValueModuleProps) {
   const t = useTranslations("FoodDiary");
   const stops = useGradientStops();
+
+  // Same graceful-fallback pattern used elsewhere (QuantitySheet,
+  // NutrientDetailSheet) for keys that may not exist in messages/*.json yet.
+  const tt = (key: string, fallback: string) => {
+    try {
+      const value = t(key);
+      return value === key ? fallback : value;
+    } catch {
+      return fallback;
+    }
+  };
+
+  // Whether to show the "+xy% = planned meal" legend at all — only worth
+  // showing when at least one section actually has something planned today.
+  const hasAnyPlanned =
+    vitaminsOverallPlannedPercent > 0.5 ||
+    macrosOverallPlannedPercent > 0.5 ||
+    mineralsOverallPlannedPercent > 0.5 ||
+    caloriesPlannedPercent > 0.5;
+
   return (
     <div className={styles["dashboard"]}>
       <h1 className={styles["dashboard-title"]}>{t("dailyValue")}</h1>
 
+      {hasAnyPlanned && (
+        <div className={styles["planned-legend"]}>
+          <span className={styles["planned-legend-badge"]}>+xy%</span>
+          <span className={styles["planned-legend-text"]}>
+            {tt("plannedLegend", "— planned meal, not yet eaten")}
+          </span>
+        </div>
+      )}
+
       {/* Vitamins */}
       <section className={styles["section"]}>
         <SectionHeader title={t("vitaminsSection")} percent={vitaminsOverallPercent} />
-        <LinearBar percent={vitaminsOverallPercent} stops={stops} />
+        <LinearBar
+          percent={vitaminsOverallPercent}
+          plannedPercent={vitaminsOverallPlannedPercent}
+          stops={stops}
+        />
 
         <div className={styles["ring-row-lg"]}>
           {VITAMIN_PRIMARY.map((v) => {
@@ -507,6 +652,7 @@ export default function DailyValueModule({
                 key={v.key}
                 label={v.label}
                 percent={percent}
+                plannedPercent={plannedVitaminPercents[v.key] ?? 0}
                 size="lg"
                 stops={stops}
                 overLimit={vitaminOverLimit[v.key] ?? false}
@@ -529,6 +675,7 @@ export default function DailyValueModule({
                 key={v.key}
                 label={v.label}
                 percent={percent}
+                plannedPercent={plannedVitaminPercents[v.key] ?? 0}
                 size="sm"
                 stops={stops}
                 overLimit={vitaminOverLimit[v.key] ?? false}
@@ -557,13 +704,17 @@ export default function DailyValueModule({
               : undefined
           }
         />
-        <LinearBar percent={caloriesPercent} stops={stops} />
+        <LinearBar percent={caloriesPercent} plannedPercent={caloriesPlannedPercent} stops={stops} />
       </section>
 
       {/* Macronutrients */}
       <section className={`${styles["section"]} ${styles["macronutrients-section"]}`}>
         <SectionHeader title={t("macronutrientsSection")} percent={macrosOverallPercent} />
-        <LinearBar percent={macrosOverallPercent} stops={stops} />
+        <LinearBar
+          percent={macrosOverallPercent}
+          plannedPercent={macrosOverallPlannedPercent}
+          stops={stops}
+        />
 
         <div className={styles["ring-row-lg"]}>
           {MACRO_ITEMS.map((m) => {
@@ -574,6 +725,7 @@ export default function DailyValueModule({
                 key={m.key}
                 label={label}
                 percent={percent}
+                plannedPercent={plannedMacroPercents[m.key] ?? 0}
                 size={64}
                 stops={stops}
                 overLimit={macroOverLimit[m.key] ?? false}
@@ -592,7 +744,11 @@ export default function DailyValueModule({
       {/* Minerals */}
       <section className={styles["section"]}>
         <SectionHeader title={t("mineralsSection")} percent={mineralsOverallPercent} />
-        <LinearBar percent={mineralsOverallPercent} stops={stops} />
+        <LinearBar
+          percent={mineralsOverallPercent}
+          plannedPercent={mineralsOverallPlannedPercent}
+          stops={stops}
+        />
 
         <div className={styles["vbar-row"]}>
           {MINERAL_ITEMS.map((m) => {
@@ -603,6 +759,7 @@ export default function DailyValueModule({
                 key={m.key}
                 label={label}
                 percent={percent}
+                plannedPercent={plannedMineralPercents[m.key] ?? 0}
                 stops={stops}
                 overLimit={mineralOverLimit[m.key] ?? false}
                 overLimitInfo={mineralOverLimitInfo[m.key] ?? false}

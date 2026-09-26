@@ -164,6 +164,10 @@ const FoodDiaryClient = () => {
   const [isNutrientSheetOpen, setIsNutrientSheetOpen] = useState(false);
   const [nutrientInfo, setNutrientInfo] = useState<NutrientDetailInfo | null>(null);
   const [nutrientPercent, setNutrientPercent] = useState(0);
+  // Additional %DV the clicked nutrient would reach if today's planned
+  // (not-yet-eaten) meals were also consumed — see computeNutrientBreakdown's
+  // plannedPercent doc in lib/dailyValue.ts.
+  const [nutrientPlannedPercent, setNutrientPlannedPercent] = useState(0);
   const [nutrientRows, setNutrientRows] = useState<NutrientBreakdownRow[]>([]);
   const [nutrientLoading, setNutrientLoading] = useState(false);
   const [nutrientRecommendedLabel, setNutrientRecommendedLabel] = useState<string | null>(null);
@@ -215,7 +219,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         .filter((e) => e.status === "consumed")
         .map((e) => ({ productId: e.productId, grams: e.grams })),
       productMap,
-      profile
+      profile,
+      entryList
+        .filter((e) => e.status === "planned")
+        .map((e) => ({ productId: e.productId, grams: e.grams }))
     ).then((data) => {
       if (!cancelled) setDailyValueData(data);
     });
@@ -520,6 +527,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
     setNutrientInfo({ section, ringLabel: label, title });
     setNutrientPercent(percent);
+    setNutrientPlannedPercent(0);
     setNutrientRows([]);
     setNutrientRecommendedLabel(null);
     setNutrientUlLabel(null);
@@ -545,13 +553,18 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       // визуальная идентичность, а не отдельный источник правды. Из
       // разбивки используем список продуктов и персональную суточную норму
       // (recommendedLabel), которую дашборд не считает вообще.
-      const { rows, recommendedLabel, ulLabel, ulPercent, consumedLabel, ulSeverity, ulNote } =
+      const { rows, recommendedLabel, ulLabel, ulPercent, consumedLabel, ulSeverity, ulNote, plannedPercent } =
         await computeNutrientBreakdown(
           slug,
-          entryList.map((e) => ({ productId: e.productId, grams: e.grams })),
+          entryList
+            .filter((e) => e.status === "consumed")
+            .map((e) => ({ productId: e.productId, grams: e.grams })),
           productMap,
           profile,
-          loc
+          loc,
+          entryList
+            .filter((e) => e.status === "planned")
+            .map((e) => ({ productId: e.productId, grams: e.grams }))
         );
       setNutrientRows(rows);
       setNutrientRecommendedLabel(recommendedLabel);
@@ -560,6 +573,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       setNutrientConsumedLabel(consumedLabel);
       setNutrientUlSeverity(ulSeverity);
       setNutrientUlNote(ulNote);
+      setNutrientPlannedPercent(plannedPercent);
     } catch (e) {
       console.error("Не удалось посчитать разбивку нутриента:", e);
     } finally {
@@ -590,6 +604,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientConsumedLabel(null);
     setNutrientUlSeverity("none");
     setNutrientUlNote(null);
+    setNutrientPlannedPercent(0);
     setTopProducts([]);
   };
 
@@ -928,6 +943,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         onClose={handleNutrientClose}
         info={nutrientInfo}
         percent={nutrientPercent}
+        plannedPercent={nutrientPlannedPercent}
         rows={nutrientRows}
         loading={nutrientLoading}
         recommendedLabel={nutrientRecommendedLabel}
