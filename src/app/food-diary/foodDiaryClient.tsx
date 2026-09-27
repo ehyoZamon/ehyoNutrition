@@ -169,6 +169,9 @@ const FoodDiaryClient = () => {
   // plannedPercent doc in lib/dailyValue.ts.
   const [nutrientPlannedPercent, setNutrientPlannedPercent] = useState(0);
   const [nutrientRows, setNutrientRows] = useState<NutrientBreakdownRow[]>([]);
+  // Same shape, for today's planned (not-yet-eaten) meals — powers the
+  // "Daily Plan" list under Consumption in the sheet.
+  const [nutrientPlannedRows, setNutrientPlannedRows] = useState<NutrientBreakdownRow[]>([]);
   const [nutrientLoading, setNutrientLoading] = useState(false);
   const [nutrientRecommendedLabel, setNutrientRecommendedLabel] = useState<string | null>(null);
   const [nutrientUlLabel, setNutrientUlLabel] = useState<string | null>(null);
@@ -529,6 +532,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientPercent(percent);
     setNutrientPlannedPercent(0);
     setNutrientRows([]);
+    setNutrientPlannedRows([]);
     setNutrientRecommendedLabel(null);
     setNutrientUlLabel(null);
     setNutrientUlPercent(null);
@@ -553,8 +557,17 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       // визуальная идентичность, а не отдельный источник правды. Из
       // разбивки используем список продуктов и персональную суточную норму
       // (recommendedLabel), которую дашборд не считает вообще.
-      const { rows, recommendedLabel, ulLabel, ulPercent, consumedLabel, ulSeverity, ulNote, plannedPercent } =
-        await computeNutrientBreakdown(
+      const {
+        rows,
+        plannedRows,
+        recommendedLabel,
+        ulLabel,
+        ulPercent,
+        consumedLabel,
+        ulSeverity,
+        ulNote,
+        plannedPercent,
+      } = await computeNutrientBreakdown(
           slug,
           entryList
             .filter((e) => e.status === "consumed")
@@ -567,6 +580,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             .map((e) => ({ productId: e.productId, grams: e.grams }))
         );
       setNutrientRows(rows);
+      setNutrientPlannedRows(plannedRows);
       setNutrientRecommendedLabel(recommendedLabel);
       setNutrientUlLabel(ulLabel);
       setNutrientUlPercent(ulPercent);
@@ -598,6 +612,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setIsNutrientSheetOpen(false);
     setNutrientInfo(null);
     setNutrientRows([]);
+    setNutrientPlannedRows([]);
     setNutrientRecommendedLabel(null);
     setNutrientUlLabel(null);
     setNutrientUlPercent(null);
@@ -945,6 +960,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         percent={nutrientPercent}
         plannedPercent={nutrientPlannedPercent}
         rows={nutrientRows}
+        plannedRows={nutrientPlannedRows}
         loading={nutrientLoading}
         recommendedLabel={nutrientRecommendedLabel}
         ulLabel={nutrientUlLabel}

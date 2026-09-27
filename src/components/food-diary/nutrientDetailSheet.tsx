@@ -28,6 +28,13 @@ type NutrientDetailSheetProps = {
   plannedPercent?: number;
   rows: NutrientBreakdownRow[];
   /**
+   * Today's planned (not-yet-eaten) meals contributing this nutrient — same
+   * shape as `rows`, rendered as its own "Daily Plan" section right below
+   * Consumption. Defaults to an empty array (nothing planned / older
+   * callers that don't pass it).
+   */
+  plannedRows?: NutrientBreakdownRow[];
+  /**
    * True while computeNutrientBreakdown() is still resolving for the
    * current nutrient. The sheet opens immediately on click (with the
    * percent already known from the dashboard) and the row list fills in
@@ -114,6 +121,7 @@ const NutrientDetailSheet = ({
   percent,
   plannedPercent = 0,
   rows,
+  plannedRows = [],
   loading,
   recommendedLabel,
   ulLabel,
@@ -241,6 +249,35 @@ const NutrientDetailSheet = ({
           {!loading &&
             rows.map((row) => (
               <div className={styles["row"]} key={`${row.productId}-${row.grams}`}>
+                <div className={styles["row-left"]}>
+                  <Image src={row.image} alt={row.name} width={32} height={32} />
+                  <span className={styles["row-name"]}>
+                    {row.name} ({row.grams}g)
+                  </span>
+                </div>
+                <span className={styles["row-value"]}>
+                  {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
+                </span>
+              </div>
+            ))}
+
+          <div className={styles["divider"]} />
+
+          <h3 className={styles["section-title"]}>
+            {tt("dailyPlanTitle", "Daily Plan")}
+          </h3>
+
+          {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
+
+          {!loading && plannedRows.length === 0 && (
+            <p className={styles["empty"]}>
+              {tt("noPlannedContribution", "Nothing planned yet that contributes to this nutrient")}
+            </p>
+          )}
+
+          {!loading &&
+            plannedRows.map((row) => (
+              <div className={styles["row"]} key={`planned-${row.productId}-${row.grams}`}>
                 <div className={styles["row-left"]}>
                   <Image src={row.image} alt={row.name} width={32} height={32} />
                   <span className={styles["row-name"]}>

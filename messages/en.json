@@ -173,7 +173,8 @@
     "yes": "Yes",
     "confirmPlannedMealTitle": "Have you consumed this planed food?",
     "fromYourDailyPlan": "plan ✓",
-    "plannedLegend": "- if the planned food is eaten"
+    "plannedLegend": "- if the planned food is eaten",
+    "noPlannedContribution": "No foods planned contain this nutrient"
   },
   "Settings":{
     "male": "male",

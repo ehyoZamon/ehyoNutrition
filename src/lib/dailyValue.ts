@@ -458,6 +458,11 @@ export type NutrientBreakdownRow = {
 export type NutrientBreakdownResult = {
   overallPercent: number;
   rows: NutrientBreakdownRow[];
+  // Same shape as `rows`, but for today's *planned* (not-yet-eaten) meals
+  // contributing this nutrient — powers the "Daily Plan" list under
+  // Consumption in the detail sheet. Each row's `percent` is that single
+  // entry's own %DV contribution (not cumulative with `rows`).
+  plannedRows: NutrientBreakdownRow[];
   // The user's personal daily norm for this nutrient, already localized for
   // display (e.g. "900 mcg", "900 мкг"). Null when vitaminDRI.json has no
   // entry for this slug/DRI-context combination.
@@ -583,6 +588,7 @@ export async function computeNutrientBreakdown(
     return {
       overallPercent: 0,
       rows: [],
+      plannedRows: [],
       recommendedLabel,
       ulLabel,
       ulPercent: null,
@@ -666,13 +672,18 @@ export async function computeNutrientBreakdown(
   // %" sheet is meant to be read.
   rows.sort((a, b) => b.percent - a.percent);
 
-  // Same mg-summation as the loop above, but over plannedEntries — only
-  // ever used for the plannedPercent delta below, never for rows/totalMg/
-  // the UL check (planned food hasn't been eaten yet).
+  // Same per-entry math as the loop above (mg, %DV, localized display
+  // amount), but over plannedEntries and built into their own row list —
+  // powers the "Daily Plan" section under Consumption in the detail sheet.
+  // Each row's percent is that single planned entry's own contribution,
+  // same convention as `rows`; plannedTotalMg (below) still feeds the
+  // separate plannedPercent delta.
   let plannedTotalMg = 0;
+  const plannedRows: NutrientBreakdownRow[] = [];
   for (const entry of plannedEntries) {
+    const product = productMap.get(entry.productId);
     const slug = slugByProductId.get(entry.productId);
-    if (!slug) continue;
+    if (!product || !slug) continue;
 
     const enDetail = enDetails.get(slug);
     if (!enDetail) continue;
@@ -685,9 +696,36 @@ export async function computeNutrientBreakdown(
     const mgPer100 = parseAmountToMg(nutrient.amount);
     if (mgPer100 === null) continue;
 
-    const mg = mgPer100 * (entry.grams / 100);
-    if (mg > 0) plannedTotalMg += mg;
+    const factor = entry.grams / 100;
+    const mg = mgPer100 * factor;
+    if (mg <= 0) continue;
+
+    plannedTotalMg += mg;
+    const percent = recommendedMg && recommendedMg > 0 ? (mg / recommendedMg) * 100 : 0;
+
+    const localizedDetail = localizedDetails.get(slug) ?? enDetail;
+    const localizedNutrient =
+      [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
+        (n) => n.slug === nutrientSlug
+      ) ?? nutrient;
+
+    let amountLabel = "";
+    try {
+      amountLabel = scaleAmountString(parseAmount(localizedNutrient.amount).value, factor);
+    } catch (err) {
+      console.warn(`computeNutrientBreakdown: bad planned display amount for "${product.name}"`, err);
+    }
+
+    plannedRows.push({
+      productId: entry.productId,
+      name: product.name,
+      image: product.image,
+      amountLabel,
+      grams: entry.grams,
+      percent: Math.round(percent),
+    });
   }
+  plannedRows.sort((a, b) => b.percent - a.percent);
 
   const overallPercent =
     recommendedMg && recommendedMg > 0 ? Math.min(100, (totalMg / recommendedMg) * 100) : 0;
@@ -733,6 +771,7 @@ export async function computeNutrientBreakdown(
   return {
     overallPercent,
     rows,
+    plannedRows,
     recommendedLabel,
     ulLabel,
     ulPercent,
