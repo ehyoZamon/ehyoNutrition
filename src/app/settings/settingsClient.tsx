@@ -11,6 +11,10 @@ import {
   Gender,
   UserProfile,
   getUserProfile,
+  isValidHeight,
+  isValidWeight,
+  sanitizeHeightInput,
+  sanitizeWeightInput,
   saveUserProfile,
 } from "@/lib/userProfile";
 
@@ -65,6 +69,8 @@ const SettingsClient = () => {
 
   const [profile, setProfile] = useState<UserProfile>(DEFAULT_PROFILE);
   const [birthDateDisplay, setBirthDateDisplay] = useState("");
+  const [weightDisplay, setWeightDisplay] = useState("");
+  const [heightDisplay, setHeightDisplay] = useState("");
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -75,6 +81,8 @@ const SettingsClient = () => {
         if (stored.birthDate) {
           setBirthDateDisplay(isoToDisplay(stored.birthDate));
         }
+        if (stored.weightKg != null) setWeightDisplay(String(stored.weightKg));
+        if (stored.heightCm != null) setHeightDisplay(String(stored.heightCm));
       }
       setLoaded(true);
     };
@@ -111,6 +119,33 @@ const SettingsClient = () => {
       const next = { ...profile, birthDate: iso };
       setProfile(next);
       if (loaded) persist(next);
+    }
+  };
+
+  // Вес/рост сохраняем при потере фокуса: пока пользователь печатает,
+  // промежуточные значения ("7", "15") не валидны и не должны писаться в профиль.
+  // Если на blur значение невалидно — возвращаем последнее сохранённое.
+  const handleWeightBlur = () => {
+    const value = Number(weightDisplay);
+    if (isValidWeight(value)) {
+      const next = { ...profile, weightKg: value };
+      setProfile(next);
+      setWeightDisplay(String(value));
+      if (loaded) persist(next);
+    } else {
+      setWeightDisplay(profile.weightKg != null ? String(profile.weightKg) : "");
+    }
+  };
+
+  const handleHeightBlur = () => {
+    const value = Number(heightDisplay);
+    if (isValidHeight(value)) {
+      const next = { ...profile, heightCm: value };
+      setProfile(next);
+      setHeightDisplay(String(value));
+      if (loaded) persist(next);
+    } else {
+      setHeightDisplay(profile.heightCm != null ? String(profile.heightCm) : "");
     }
   };
 
@@ -170,6 +205,37 @@ const SettingsClient = () => {
                 value={birthDateDisplay}
                 onChange={(e) => handleBirthDateChange(e.target.value)}
               />
+            </div>
+          </div>
+
+          {/* Weight + Height */}
+          <div className={styles["field-row"]}>
+            <div className={styles["field-box"]}>
+              <input
+                type="text"
+                inputMode="decimal"
+                className={styles["field-date-text-input"]}
+                placeholder={t("weightPlaceholder")}
+                aria-label={t("weightPlaceholder")}
+                value={weightDisplay}
+                onChange={(e) => setWeightDisplay(sanitizeWeightInput(e.target.value))}
+                onBlur={handleWeightBlur}
+              />
+              {weightDisplay && <span className={styles["field-unit"]}>{t("kg")}</span>}
+            </div>
+
+            <div className={styles["field-box"]}>
+              <input
+                type="text"
+                inputMode="numeric"
+                className={styles["field-date-text-input"]}
+                placeholder={t("heightPlaceholder")}
+                aria-label={t("heightPlaceholder")}
+                value={heightDisplay}
+                onChange={(e) => setHeightDisplay(sanitizeHeightInput(e.target.value))}
+                onBlur={handleHeightBlur}
+              />
+              {heightDisplay && <span className={styles["field-unit"]}>{t("cm")}</span>}
             </div>
           </div>
 

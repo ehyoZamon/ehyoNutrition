@@ -174,14 +174,25 @@
     "confirmPlannedMealTitle": "Вы поели эту запланированную еду?",
     "fromYourDailyPlan": "план ✓",
     "plannedLegend": "- если запланированная еда будет съедена",
-    "noPlannedContribution": "Не было запланировано еды, содержащих этот нутриент"
+    "noPlannedContribution": "Не было запланировано еды, содержащих этот нутриент",
+    "waterTitle": "Потребление воды", 
+    "waterMl": "мл", 
+    "waterL": "л",
+    "waterAddGlass": "Добавить стакан воды", 
+    "waterRemoveGlass": "Убрать стакан воды",
+    "waterCustomLabel": "Свой объём, мл",
+    "waterAddCustom": "Добавить"
   },
   "Settings":{
     "male": "мужчина",
     "female": "женщина",
     "settings": "Настройки",
     "systemLanguage": "Язык системы:",
-    "title": "Настройки"
+    "title": "Настройки",
+    "weightPlaceholder": "Вес", 
+    "heightPlaceholder": "Рост", 
+    "kg": "кг", 
+    "cm": "см"
   },
   "OnboardingInfo":{
     "next": "Далее",
@@ -191,6 +202,12 @@
     "female": "женщина",
     "genderQuestion": "Какой у вас пол?",
     "birthdateQuestion": "Введите вашу дату рождения",
-    "birthdatePlaceholder": "ДД/ММ/ГГГГ"
+    "birthdatePlaceholder": "ДД/ММ/ГГГГ",
+    "weightQuestion": "Каков ваш вес?", 
+    "weightPlaceholder": "70",
+    "heightQuestion": "Каков ваш рост?", 
+    "heightPlaceholder": "175",
+    "kg": "кг",
+    "cm": "см"
   }
 }

@@ -1,0 +1,156 @@
+.water {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.water-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #696969;
+  margin: 0;
+  padding: 0;
+}
+
+.water-card {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 12px;
+  background: #fffaf3;
+  border-radius: 24px;
+}
+
+.glasses {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  /* grid-template-columns задаётся из компонента — так стаканы делятся по рядам поровну */
+  justify-content: center;
+  align-items: center;
+  gap: 8px 6px; /* 6px по горизонтали = GLASS_GAP_X в waterModule.tsx */
+}
+
+.glass {
+  width: 34px; /* = GLASS_WIDTH в waterModule.tsx */
+  flex-shrink: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.glass:disabled {
+  cursor: default;
+}
+
+.glass:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.glass svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ring {
+  flex-shrink: 0;
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.ring-label {
+  font-family: var(--second-family);
+  font-size: 11px;
+  font-weight: 600;
+  color: #999;
+  white-space: nowrap;
+}
+
+/* Быстрые кнопки и поле для своего объёма под карточкой */
+.quick-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.chip {
+  height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 18px;
+  background: #eaf7fd;
+  color: #4a9fcb;
+  font-family: var(--second-family);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.chip:active {
+  transform: scale(0.97);
+}
+
+.custom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 36px;
+  border-radius: 18px;
+  background: #eaf7fd;
+  overflow: hidden;
+}
+
+.custom-input {
+  width: 64px;
+  height: 100%;
+  padding: 0 0 0 14px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  color: #4a9fcb;
+  font-family: var(--second-family);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.custom-input::placeholder {
+  color: #9fcfe6;
+}
+
+.custom-add {
+  width: 36px;
+  height: 100%;
+  border: 0;
+  background: #8bd3fb;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.custom-add:disabled {
+  opacity: 0.45;
+  cursor: default;
+}

@@ -25,6 +25,11 @@ const SCHEMA = `
 
   CREATE INDEX IF NOT EXISTS idx_diary_date ON diary(date);
   CREATE INDEX IF NOT EXISTS idx_diary_product_id ON diary(product_id);
+
+  CREATE TABLE IF NOT EXISTS water_log (
+    date TEXT PRIMARY KEY,
+    amount_ml INTEGER NOT NULL DEFAULT 0
+  );
 `;
 
 // Для установок, где таблица diary уже существовала до появления колонки

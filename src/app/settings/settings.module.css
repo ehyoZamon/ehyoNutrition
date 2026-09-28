@@ -273,3 +273,15 @@
     display: none;
   }
 }
+
+/* Единица измерения справа в поле веса/роста */
+.field-unit {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--second-family);
+  font-size: 14px;
+  color: #999;
+  pointer-events: none;
+}

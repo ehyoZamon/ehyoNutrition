@@ -174,13 +174,24 @@
     "confirmPlannedMealTitle": "Have you consumed this planed food?",
     "fromYourDailyPlan": "plan ✓",
     "plannedLegend": "- if the planned food is eaten",
-    "noPlannedContribution": "No foods planned contain this nutrient"
+    "noPlannedContribution": "No foods planned contain this nutrient",
+    "waterTitle": "Water Consumption", 
+    "waterMl": "ml", 
+    "waterL": "L",
+    "waterAddGlass": "Add glass of water", 
+    "waterRemoveGlass": "Remove glass of watery",
+    "waterCustomLabel": "Personal volume, ml",
+    "waterAddCustom": "Add"
   },
   "Settings":{
     "male": "male",
     "female": "female",
     "title": "Settings",
-    "systemLanguage": "System Language:"
+    "systemLanguage": "System Language:",
+    "weightPlaceholder": "Weight", 
+    "heightPlaceholder": "Height", 
+    "kg": "kg", 
+    "cm": "sm"
   },
   "OnboardingInfo": {
     "nameQuestion": "What’s your name?",
@@ -190,6 +201,12 @@
     "female": "female",
     "genderQuestion": "What's your gender?",
     "birthdateQuestion": "Enter your birthdate",
-    "birthdatePlaceholder": "DD/MM/YYYY"
+    "birthdatePlaceholder": "DD/MM/YYYY",
+    "weightQuestion": "What's your weight?", 
+    "weightPlaceholder": "70",
+    "heightQuestion": "What's your height?", 
+    "heightPlaceholder": "175",
+    "kg": "kg",
+    "cm": "cm"
   }
 }

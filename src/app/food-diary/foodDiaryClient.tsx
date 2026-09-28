@@ -47,6 +47,13 @@ import {
 import { parseServingInfo, formatAmountLabel } from "@/lib/servingInfo";
 import { loadProductDetail } from "@/lib/productDetail";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
+import WaterModule from "@/components/food-diary/waterModule";
+import {
+  WATER_MAX_ML,
+  calcWaterGoalMl,
+  getWaterByDate,
+  setWaterByDate,
+} from "@/lib/water";
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
@@ -234,6 +241,40 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       cancelled = true;
     };
   }, [entryList, productMap, profile]);
+
+  // ---- Вода ----
+  // Норма считается из веса и пола в профиле; сам объём хранится по дням
+  // в таблице water_log (см. lib/water.ts).
+  const [waterMl, setWaterMl] = useState(0);
+  const waterGoalMl = useMemo(() => calcWaterGoalMl(profile), [profile]);
+
+  useEffect(() => {
+    let cancelled = false;
+    getWaterByDate(format(selectedDate, "yyyy-MM-dd"))
+      .then((ml) => {
+        if (!cancelled) setWaterMl(ml);
+      })
+      .catch((e) => console.error("Не удалось загрузить воду:", e));
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedDate]);
+
+  const changeWater = async (deltaMl: number) => {
+    if (!isToday(selectedDate)) return; // вода редактируется только за сегодня
+
+    const next = Math.min(WATER_MAX_ML, Math.max(0, waterMl + deltaMl));
+    if (next === waterMl) return;
+
+    const previous = waterMl;
+    setWaterMl(next);
+    try {
+      await setWaterByDate(format(selectedDate, "yyyy-MM-dd"), next);
+    } catch (e) {
+      console.error("Не удалось сохранить воду:", e);
+      setWaterMl(previous);
+    }
+  };
 
   // ---- Сетка недель ----
   const weeks = useMemo(() => {
@@ -877,6 +918,13 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             )}
 
           </div>
+
+          <WaterModule
+            amountMl={waterMl}
+            goalMl={waterGoalMl}
+            editable={isToday(selectedDate)}
+            onChange={changeWater}
+          />
 
           <DailyValueModule {...dailyValueData} onNutrientClick={handleNutrientClick} />
         </div>
