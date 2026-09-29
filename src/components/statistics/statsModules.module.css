@@ -1,9 +1,7 @@
 .card {
   width: 100%;
   background: #fff;
-  border: 1px solid #eee;
   border-radius: 20px;
-  padding: 16px 12px 12px;
   box-sizing: border-box;
 }
 
@@ -11,7 +9,7 @@
   margin: 0 0 12px 4px;
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 110%;
   color: #696969;
 }
@@ -215,4 +213,181 @@
   height: 100%;
   border-radius: 3px;
   background: #91c788;
+}
+
+/* ---- Vitamins / Minerals (NutrientSection) ---- */
+/* Добавить в конец statsModules.module.css */
+
+/* Цвета уровня: --bar — заливка, --track — фон полосы */
+.level--high {
+  --bar: #91c788;
+  --track: #eef6ec;
+}
+
+.level--mid {
+  --bar: #f9a63b;
+  --track: #fdf0dc;
+}
+
+.level--low {
+  --bar: #ff7a5c;
+  --track: #ffe6e0;
+}
+
+.nutrient-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 128px;
+  column-gap: 12px;
+  align-items: start;
+}
+
+.nutrient-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 4px;
+  min-width: 0;
+}
+
+.nutrient-top .nutrient-list {
+  padding-right: 0;
+}
+
+.nutrient-top + .nutrient-list {
+  margin-top: 12px;
+}
+
+.nutrient-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nutrient-head {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--second-family);
+  font-size: 13px;
+  color: #696969;
+}
+
+.nutrient-name {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nutrient-percent {
+  min-width: 36px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.nutrient-delta {
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.delta--up {
+  color: #7bc47f;
+}
+
+.delta--down {
+  color: #e5534b;
+}
+
+.nutrient-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--track);
+  overflow: hidden;
+}
+
+.nutrient-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--bar);
+  transition: width 0.4s ease;
+}
+
+/* ---- half-donut gauge ---- */
+
+.gauge-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+.gauge {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gauge-track,
+.gauge-fill {
+  fill: none;
+  stroke-width: 16;
+  stroke-linecap: butt;
+}
+
+.gauge-track {
+  stroke: #ececec;
+}
+
+.gauge-fill {
+  stroke: var(--bar);
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.gauge-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  fill: #696969;
+}
+
+.trend {
+  font-family: var(--second-family);
+  font-size: 11px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.trend--flat {
+  color: #999;
+}
+
+/* ---- footer ---- */
+
+.nutrient-toggle {
+  display: block;
+  margin: 12px auto 0;
+  padding: 6px 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: var(--second-family);
+  font-size: 13px;
+  color: #7bc47f;
+}
+
+.nutrient-hint {
+  margin: 14px 4px 0;
+  font-family: var(--second-family);
+  font-size: 13px;
+  line-height: 140%;
+  color: #696969;
+}
+
+.nutrient-caption {
+  margin: 6px 4px 0;
+  font-family: var(--second-family);
+  font-size: 11px;
+  color: #999;
 }

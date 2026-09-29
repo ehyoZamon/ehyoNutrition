@@ -14,9 +14,17 @@ import CaloriesChart from "@/components/statistics/caloriesChart";
 import MealsBreakdown, { MealSlice } from "@/components/statistics/mealsBreakdown";
 import WaterChart from "@/components/statistics/waterChart";
 import TopProducts, { TopProductItem } from "@/components/statistics/topProducts";
+import NutrientSection, { NutrientRow } from "@/components/statistics/nutrientSection";
 
 import { getDiaryEntriesByDate, getDatesWithEntriesInRange } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
+import { getTopProductsForNutrient, ProductCatalogEntry } from "@/lib/dailyValue";
+import {
+  computeMicronutrientStats,
+  MicronutrientStats,
+  NutrientGroup,
+  NutrientStat,
+} from "@/lib/micronutrientStats";
 import { calcWaterGoalMl, getWaterByDate } from "@/lib/water";
 import {
   DayStat,
@@ -42,6 +50,9 @@ const MEAL_COLORS: Record<MealKey, string> = {
 
 const TOP_PRODUCTS_LIMIT = 5;
 
+// Нутриенты ниже этого % попадают в "Needs attention"
+const ATTENTION_THRESHOLD = 50;
+
 type LoadedStats = {
   days: DayStat[];
   mealKcal: Record<MealKey, number>;
@@ -50,6 +61,8 @@ type LoadedStats = {
 
 const StatisticsClient = () => {
   const t = useTranslations("Statistics");
+  // Тот же namespace, что использует dailyValueModule (названия минералов и секций)
+  const tFood = useTranslations("FoodDiary");
   const locale = useLocale();
   const { diaryVersion } = useAddFood();
 
@@ -57,6 +70,12 @@ const StatisticsClient = () => {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [stats, setStats] = useState<LoadedStats | null>(null);
   const [loading, setLoading] = useState(true);
+  const [profileLoaded, setProfileLoaded] = useState(false);
+  const [micro, setMicro] = useState<MicronutrientStats | null>(null);
+  const [foodHints, setFoodHints] = useState<Record<NutrientGroup, string[]>>({
+    vitamins: [],
+    minerals: [],
+  });
 
   const dateLocale = locale === "ru" ? ru : enUS;
 
@@ -68,7 +87,8 @@ const StatisticsClient = () => {
   useEffect(() => {
     getUserProfile()
       .then(setProfile)
-      .catch((e) => console.error("Не удалось загрузить профиль:", e));
+      .catch((e) => console.error("Не удалось загрузить профиль:", e))
+      .finally(() => setProfileLoaded(true));
   }, []);
 
   // ---- Загрузка данных за период (страница владеет данными, модули только рисуют) ----
@@ -161,6 +181,60 @@ const StatisticsClient = () => {
     };
   }, [range, productMap, dateLocale, diaryVersion]);
 
+  // ---- Витамины и минералы ----
+  // Стартует после основной загрузки (stats): SQLite-соединение одно,
+  // параллельные запросы в WebView лучше не смешивать.
+  useEffect(() => {
+    if (!stats || stats.days.length !== range || !profileLoaded) return;
+    let cancelled = false;
+
+    computeMicronutrientStats({ range, profile, productMap })
+      .then((r) => {
+        if (!cancelled) setMicro(r);
+      })
+      .catch((e) => console.error("Не удалось посчитать витамины/минералы:", e));
+
+    return () => {
+      cancelled = true;
+    };
+  }, [stats, range, profile, profileLoaded, productMap]);
+
+  // Подсказки "Try ..." для самых слабых нутриентов
+  useEffect(() => {
+    if (!micro) return;
+    let cancelled = false;
+    const catalog = Array.from(productMap.values()) as unknown as ProductCatalogEntry[];
+    const loc = locale === "ru" ? "ru" : "en";
+
+    const hintsFor = async (items: NutrientStat[]): Promise<string[]> => {
+      const weak = items
+        .filter((i) => i.percent < ATTENTION_THRESHOLD)
+        .sort((a, b) => a.percent - b.percent)
+        .slice(0, 3);
+      const lists = await Promise.all(
+        weak.map((w) => getTopProductsForNutrient(w.slug, catalog, loc, 3))
+      );
+      const names: string[] = [];
+      for (let i = 0; i < 3; i++) {
+        for (const list of lists) {
+          const name = list[i]?.name;
+          if (name && !names.includes(name) && names.length < 3) names.push(name);
+        }
+      }
+      return names;
+    };
+
+    Promise.all([hintsFor(micro.vitamins.items), hintsFor(micro.minerals.items)])
+      .then(([vitamins, minerals]) => {
+        if (!cancelled) setFoodHints({ vitamins, minerals });
+      })
+      .catch((e) => console.warn("Подсказки по продуктам недоступны:", e));
+
+    return () => {
+      cancelled = true;
+    };
+  }, [micro, productMap, locale]);
+
   // ---- Производные значения для модулей ----
   const waterGoalMl = useMemo(() => {
     const goal = calcWaterGoalMl(profile);
@@ -236,6 +310,54 @@ const StatisticsClient = () => {
       })
     : [];
 
+  // Витамины: "Vitamin"/"Витамин" + буква из dailyValueModule ("A", "B12").
+  // Минералы: tFood(key), ровно как в dailyValueModule (t(m.key)).
+  const nutrientLabel = (item: NutrientStat, group: NutrientGroup) => {
+    if (group === "vitamins") return `${t("vitaminPrefix")} ${item.label}`;
+    try {
+      const value = tFood(item.key);
+      return value === item.key ? item.title : value;
+    } catch {
+      return item.title;
+    }
+  };
+
+  const renderNutrients = (group: NutrientGroup, title: string) => {
+    if (!micro) return null;
+    const g = micro[group];
+    if (g.items.length === 0) return null;
+
+    const weak = g.items
+      .filter((i) => i.percent < ATTENTION_THRESHOLD)
+      .sort((a, b) => a.percent - b.percent)
+      .slice(0, 3);
+    const foods = foodHints[group];
+
+    const rows: NutrientRow[] = g.items.map((i) => ({
+      key: i.key,
+      label: nutrientLabel(i, group),
+      percent: i.percent,
+      delta: i.delta,
+    }));
+
+    return (
+      <NutrientSection
+        title={title}
+        overallPercent={g.overall}
+        overallDelta={g.overallDelta}
+        trendLabel={t("vsPrevious", { days: range })}
+        rows={rows}
+        caption={t("basedOnDays", { logged: micro.loggedDays, total: micro.totalDays })}
+        hintLabel={t("needsAttention")}
+        hintNames={weak.map((i) => nutrientLabel(i, group))}
+        hintTip={foods.length ? t("tryFoods", { foods: foods.join(", ") }) : null}
+        allGoodLabel={t("allOnTrack")}
+        showAllLabel={t("showAll")}
+        showLessLabel={t("showLess")}
+      />
+    );
+  };
+
   return (
     <div className={styles["main-layout"]}>
       <div className={styles["header"]}>
@@ -294,6 +416,13 @@ const StatisticsClient = () => {
                   totalKcal={Math.round(mealTotal)}
                   slices={mealSlices}
                 />
+              )}
+
+              {micro && micro.loggedDays > 0 && (
+                <>
+                  {renderNutrients("vitamins", tFood("vitaminsSection"))}
+                  {renderNutrients("minerals", tFood("mineralsSection"))}
+                </>
               )}
 
               <WaterChart

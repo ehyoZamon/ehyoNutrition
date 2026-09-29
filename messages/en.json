@@ -219,7 +219,17 @@
     "topTitle": "Top products",
     "kcalUnit": "kcal",
     "mlUnit": "ml",
-    "gramsUnit": "g"
+    "gramsUnit": "g",
+    "vitaminsTitle": "Vitamins",
+    "mineralsTitle": "Minerals",
+    "vsPrevious": "vs previous {days} days",
+    "needsAttention": "Needs attention:",
+    "tryFoods": "Try {foods}…",
+    "allOnTrack": "All nutrients are on track",
+    "showAll": "Show all",
+    "showLess": "Show less",
+    "basedOnDays": "Based on {logged} of {total} days with entries",
+    "vitaminPrefix": "Vitamin"
   },
   "OnboardingInfo": {
     "nameQuestion": "What’s your name?",

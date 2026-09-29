@@ -220,7 +220,17 @@
     "topTitle": "Топ продуктов",
     "kcalUnit": "ккал",
     "mlUnit": "мл",
-    "gramsUnit": "г"
+    "gramsUnit": "г",
+    "vitaminsTitle": "Витамины",
+    "mineralsTitle": "Минералы",
+    "vsPrevious": "к предыдущим {days} дням",
+    "needsAttention": "Обратите внимание:",
+    "tryFoods": "Попробуйте: {foods}…",
+    "allOnTrack": "Все нутриенты в норме",
+    "showAll": "Показать все",
+    "showLess": "Свернуть",
+    "basedOnDays": "По {logged} из {total} дней с записями",
+    "vitaminPrefix": "Витамин"
   },
   "OnboardingInfo":{
     "next": "Далее",

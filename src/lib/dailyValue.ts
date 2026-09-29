@@ -116,7 +116,7 @@ function slugForKey(sectionKey: string): string {
   return MACRO_KEY_TO_SLUG[sectionKey] ?? sectionKey;
 }
 
-function productSlugFromLink(link: string): string {
+export function productSlugFromLink(link: string): string {
   return link.substring(link.lastIndexOf("/") + 1);
 }
 
@@ -151,7 +151,7 @@ function warnIfMalformedAmount(
 // the planned-but-not-yet-eaten ones — same math either way (sum every
 // nutrient's mg, and calories, scaled by grams/100), just fed a different
 // entry list so the two totals stay separate.
-function accumulateNutrients(
+export function accumulateNutrients(
   entries: DiaryEntryInput[],
   detailsByProductId: Map<number, ProductDetail | null>,
   slugByProductId: Map<number, string>
