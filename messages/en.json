@@ -4,7 +4,9 @@
     "nutrients": "Nutrients", 
     "foodDiary": "Diary",
     "favourites": "Favourites",
-    "settings": "Profile"
+    "settings": "Profile",
+    "statistics": "Statistics",
+    "add": ""
   },
   "Products": {
     "searchPlaceholder": "Search products, fruits, vegetables...",
@@ -192,6 +194,32 @@
     "heightPlaceholder": "Height", 
     "kg": "kg", 
     "cm": "sm"
+  },
+  "Statistics": {
+    "title": "Statistics",
+    "period7": "7 days",
+    "period30": "30 days",
+    "loading": "Loading…",
+    "emptyTitle": "No data yet",
+    "emptyHint": "Add meals to the diary to see your statistics",
+    "avgCalories": "Avg. calories per day",
+    "loggedDays": "Days logged",
+    "avgWater": "Avg. water per day",
+    "waterGoalDays": "Water goal reached",
+    "caloriesTitle": "Calories",
+    "reference": "Estimate",
+    "mealsTitle": "By meals",
+    "meal_breakfast": "Breakfast",
+    "meal_lunch": "Lunch",
+    "meal_dinner": "Dinner",
+    "meal_snacks": "Snacks",
+    "meal_uncategorized": "Other",
+    "waterTitle": "Water",
+    "goal": "Goal",
+    "topTitle": "Top products",
+    "kcalUnit": "kcal",
+    "mlUnit": "ml",
+    "gramsUnit": "g"
   },
   "OnboardingInfo": {
     "nameQuestion": "What’s your name?",

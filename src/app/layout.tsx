@@ -5,7 +5,7 @@ import "./globals.css";
 import DBProvider from './providers/DBProvider';
 import NativeInit from "@/components/NativeInit";
 import SystemBarOverlays from "@/components/SystemBarOverlays";
-
+import AddFoodProvider from "@/components/food-diary/addFoodProvider";
 
 const signika = Signika({
   subsets: ["latin"],
@@ -71,7 +71,9 @@ export default function RootLayout({
         {/* Оборачиваем все дочерние страницы в мультиязычный контекст */}
         <DBProvider>
           <LanguageProvider>
-            {children}
+            <AddFoodProvider>
+              {children}
+            </AddFoodProvider>
           </LanguageProvider>
         </DBProvider>
       </body>

@@ -106,6 +106,8 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
         <button type="button" className={styles["close-btn"]} onClick={onClose}>
           {t("closeBtn")}
         </button>
+        <div className={styles["bottom-shade"]}>
+        </div>
       </div>
     </div>
   );

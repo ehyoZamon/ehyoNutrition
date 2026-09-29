@@ -4,7 +4,9 @@
     "nutrients": "Нутриенты", 
     "foodDiary": "Дневник",
     "favourites": "Любимые",
-    "settings": "Профиль"
+    "settings": "Профиль",
+    "statistics": "Статистика",
+    "add": ""
   },
   "Products": {
     "searchPlaceholder": "Поиск продуктов, фруктов, овощей...",
@@ -193,6 +195,32 @@
     "heightPlaceholder": "Рост", 
     "kg": "кг", 
     "cm": "см"
+  },
+  "Statistics": {
+    "title": "Статистика",
+    "period7": "7 дней",
+    "period30": "30 дней",
+    "loading": "Загрузка…",
+    "emptyTitle": "Пока нет данных",
+    "emptyHint": "Добавьте приёмы пищи в дневник, чтобы увидеть статистику",
+    "avgCalories": "Калории в день (средн.)",
+    "loggedDays": "Дней с записями",
+    "avgWater": "Вода в день (средн.)",
+    "waterGoalDays": "Норма воды выполнена",
+    "caloriesTitle": "Калории",
+    "reference": "Ориентир",
+    "mealsTitle": "По приёмам пищи",
+    "meal_breakfast": "Завтрак",
+    "meal_lunch": "Обед",
+    "meal_dinner": "Ужин",
+    "meal_snacks": "Перекусы",
+    "meal_uncategorized": "Другое",
+    "waterTitle": "Вода",
+    "goal": "Норма",
+    "topTitle": "Топ продуктов",
+    "kcalUnit": "ккал",
+    "mlUnit": "мл",
+    "gramsUnit": "г"
   },
   "OnboardingInfo":{
     "next": "Далее",

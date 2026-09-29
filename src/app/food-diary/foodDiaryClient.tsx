@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, useCallback } from "react";
+import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
@@ -20,7 +20,7 @@ import {
 import { ru, enUS } from "date-fns/locale";
 import styles from "./foodDiary.module.css";
 import DailyValueModule, { NutrientClickInfo } from "@/components/daily-value/dailyValueModule";
-import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
+import { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
 import DeleteConfirmSheet from "@/components/food-diary/deleteConfirmSheet";
 import NutrientDetailSheet, { NutrientDetailInfo } from "@/components/food-diary/nutrientDetailSheet";
@@ -34,9 +34,11 @@ import {
   TopProductForNutrient,
 } from "@/lib/dailyValue";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useAddFood, type MealType, type MealFilter } from "@/components/food-diary/addFoodProvider";
+
+import BottomNav from "@/components/bottomNav/BottomNav";
 
 import {
-  addDiaryEntry,
   deleteDiaryEntry,
   updateDiaryEntry,
   confirmPlannedEntry,
@@ -63,12 +65,6 @@ import productsEn from "@/data/en/products.json";
 // ---- Types ----
 type DayTone = "green" | "coral" | "muted";
 
-// "uncategorized" is never chosen by the user directly — it's only the
-// fallback stored on an entry auto-added between 22:00–04:59 while on
-// the "All" tab. It has no tab of its own but still shows up under "All".
-type MealType = "breakfast" | "lunch" | "dinner" | "snacks" | "uncategorized";
-type MealFilter = "all" | MealType;
-
 type FoodEntry = {
   id: number; // id строки в diary
   productId: number;
@@ -91,7 +87,7 @@ type FoodEntry = {
 const WEEKDAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
 
 // Tabs shown above the intake list, in display order. "all" has no
-// time-based auto-assignment target of its own — see resolveMealForAdd.
+// time-based auto-assignment target of its own — see resolveMealByTime in addFoodProvider.
 const MEAL_TABS: { key: MealFilter; icon: string }[] = [
   { key: "all", icon: "/food-diary/meal.svg" },
   { key: "breakfast", icon: "/food-diary/breakfast.svg" },
@@ -107,19 +103,6 @@ const MEAL_FALLBACK_LABELS: Record<MealFilter, string> = {
   dinner: "Dinner",
   snacks: "Snacks",
   uncategorized: "Uncategorized",
-};
-
-// Time-of-day → meal, used only when a product is added while the "All"
-// tab is active (so the app has to guess which meal it belongs to):
-//   05:00–10:59 breakfast · 11:00–15:59 lunch · 16:00–21:59 dinner
-//   snacks is never picked by time, only by the user selecting that tab
-//   22:00–04:59 (or anything outside the windows above) → uncategorized
-const resolveMealByTime = (date: Date): Exclude<MealType, "snacks"> => {
-  const hour = date.getHours();
-  if (hour >= 5 && hour < 11) return "breakfast";
-  if (hour >= 11 && hour < 16) return "lunch";
-  if (hour >= 16 && hour < 22) return "dinner";
-  return "uncategorized";
 };
 
 
@@ -150,9 +133,9 @@ const FoodDiaryClient = () => {
   const [entryList, setEntryList] = useState<FoodEntry[]>([]);
   const [datesWithEntries, setDatesWithEntries] = useState<Set<string>>(new Set());
 
-  const [isAddSheetOpen, setIsAddSheetOpen] = useState(false);
-  const [isQuantitySheetOpen, setIsQuantitySheetOpen] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState<DiaryProduct | null>(null);
+  // Добавление продукта (AddFoodSheet + QuantitySheet) живёт в AddFoodProvider
+  // и общее для всех страниц с нижним меню.
+  const { openAddFood, setPreferredMeal, diaryVersion } = useAddFood();
 
   // Редактирование уже добавленной записи (клик по элементу intake-list)
   const [isEditSheetOpen, setIsEditSheetOpen] = useState(false);
@@ -401,49 +384,26 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     }
   };
 
-  const handleSelectProduct = (product: DiaryProduct) => {
-    setSelectedProduct(product);
-    setIsAddSheetOpen(false);
-    setIsQuantitySheetOpen(true);
-  };
+  // Сообщаем провайдеру выбранную вкладку: на конкретной вкладке
+  // (Breakfast/Lunch/Dinner/Snacks) продукт уходит именно туда, на "All" —
+  // категория определяется по времени (см. resolveMealByTime в провайдере).
+  useEffect(() => {
+    setPreferredMeal(selectedMeal);
+    return () => setPreferredMeal("all");
+  }, [selectedMeal, setPreferredMeal]);
 
-  // Пользователь стоит на конкретной вкладке (Breakfast/Lunch/Dinner/Snacks)
-  // — продукт уходит именно туда. На вкладке "All" категория определяется
-  // временем добавления (см. resolveMealByTime); "snacks" по времени никогда
-  // не выбирается — только явным выбором вкладки пользователем.
-  const resolveMealForAdd = (): MealType =>
-    selectedMeal === "all" ? resolveMealByTime(new Date()) : selectedMeal;
+  // Запись могли добавить через кнопку "Add" в нижнем меню — перезагружаем список.
+  const handledDiaryVersion = useRef(diaryVersion);
+  useEffect(() => {
+    if (handledDiaryVersion.current === diaryVersion) return;
+    handledDiaryVersion.current = diaryVersion;
 
-  const handleQuantityAdd = async (
-    product: DiaryProduct,
-    _amountLabel: string,
-    grams: number,
-    status: "consumed" | "planned" = "consumed"
-  ) => {
-    const dateStr = format(new Date(), "yyyy-MM-dd"); // всегда текущий день
-    const meal = resolveMealForAdd();
-
-    try {
-      await addDiaryEntry(product.id, grams, dateStr, meal, status);
-
-      // Перезагружаем список только если пользователь смотрит на сегодня —
-      // иначе новая запись не должна визуально появиться на просматриваемой дате.
-      if (isToday(selectedDate)) {
-        await loadEntriesForDate(selectedDate);
-      }
-      await loadDatesWithEntries();
-    } catch (e) {
-      console.error("Не удалось добавить запись:", e);
-    } finally {
-      setIsQuantitySheetOpen(false);
-      setSelectedProduct(null);
+    // Новая запись всегда на сегодня — на другой дате список не трогаем.
+    if (isToday(selectedDate)) {
+      loadEntriesForDate(selectedDate);
     }
-  };
-
-  const handleQuantityClose = () => {
-    setIsQuantitySheetOpen(false);
-    setSelectedProduct(null);
-  };
+    loadDatesWithEntries();
+  }, [diaryVersion, selectedDate, loadEntriesForDate, loadDatesWithEntries]);
 
   // ---- Редактирование существующей записи ----
   const handleEntryClick = (entry: FoodEntry) => {
@@ -911,7 +871,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
               <button
                 type="button"
                 className={styles["add-button"]}
-                onClick={() => setIsAddSheetOpen(true)}
+                onClick={openAddFood}
               >
                 {addButtonLabel}
               </button>
@@ -929,20 +889,6 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
           <DailyValueModule {...dailyValueData} onNutrientClick={handleNutrientClick} />
         </div>
       </div>
-
-      <AddFoodSheet
-        open={isAddSheetOpen}
-        onClose={() => setIsAddSheetOpen(false)}
-        onSelectProduct={handleSelectProduct}
-      />
-
-      <QuantitySheet
-        open={isQuantitySheetOpen}
-        product={selectedProduct}
-        onClose={handleQuantityClose}
-        onAdd={handleQuantityAdd}
-        userProfile={profile}
-      />
 
       {/* Редактирование количества уже добавленной записи */}
       <QuantitySheet
@@ -1000,6 +946,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         </div>
       )}
 
+      <BottomNav/>
       {/* Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule) */}
       <NutrientDetailSheet
         open={isNutrientSheetOpen}
@@ -1020,40 +967,6 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         topProductsLoading={topProductsLoading}
       />
 
-      <div className={styles["navigation-container"]}>
-        <div className={styles["navigation"]}>
-          <Link className={styles["nav-link"]} href="/products" aria-current="page" >
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/products.svg" alt="products" width={48} height={48} />
-            </div>
-            {navBar("foods")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/vitamins">
-            <div className={styles["nav-bar"]}>
-                <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
-            </div>
-            {navBar("nutrients")}
-          </Link>
-          <Link className={`${styles["nav-link"]} ${styles["selected"]}`} href="/food-diary" aria-current="page" >
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/food-diary-green.svg" alt="food-diary" width={48} height={48} />
-            </div>
-            {navBar("foodDiary")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/favorites">
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-            </div>
-            {navBar("favourites")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/settings">
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-            </div>
-            {navBar("settings")}
-          </Link>
-        </div>
-      </div>
     </div>
     
   );

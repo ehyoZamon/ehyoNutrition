@@ -9,6 +9,8 @@ import styles from "./vitamins.module.css";
 import { loadFavorites, toggleVitaminFavorite } from "@/lib/favorites";
 import VitaminDetailSheet from "@/components/VitaminDetailSheet/VitaminDetailSheet";
 
+import BottomNav from "@/components/bottomNav/BottomNav";
+
 // Типизация структуры объекта витамина
 type VitaminItem = {
   id: number;
@@ -189,40 +191,7 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
         </div>
       </div>
 
-      <div className={styles["navigation-container"]}>
-        <div className={styles["navigation"]}>
-          <Link className={styles["nav-link"]} href="/products" aria-current="page" >
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/products.svg" alt="products" width={48} height={48} />
-            </div>
-            {navBar("foods")}
-          </Link>
-          <Link className={`${styles["nav-link"]} ${styles["selected"]}`} href="/vitamins">
-            <div className={styles["nav-bar"]}>
-                <Image src="/main/antioxidant-green.svg" alt="antioxidant" width={48} height={48} />
-            </div>
-            {navBar("nutrients")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/food-diary" aria-current="page" >
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-            </div>
-            {navBar("foodDiary")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/favorites">
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-            </div>
-            {navBar("favourites")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/settings">
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-            </div>
-            {navBar("settings")}
-          </Link>
-        </div>
-      </div>
+      <BottomNav/>
 
       {/* 🧾 Вкладка с дозировками (DRI) */}
       {openedVitamin && (

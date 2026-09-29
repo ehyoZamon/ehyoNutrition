@@ -16,6 +16,8 @@ import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailShe
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
+import BottomNav from "@/components/bottomNav/BottomNav";
+
 
 const getSlug = (link: string) => link.substring(link.lastIndexOf("/") + 1);
 
@@ -183,40 +185,7 @@ const ProductsClient = () => {
         </div>
       </div>
 
-      <div className={styles["navigation-container"]}>
-        <div className={styles["navigation"]}>
-          <Link className={`${styles["nav-link"]} ${styles["selected"]}`}  href="/products" aria-current="page" >
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/products-green.svg" alt="products" width={48} height={48} />
-            </div>
-            {navBar("foods")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/vitamins">
-            <div className={styles["nav-bar"]}>
-                <Image src="/main/antioxidant.svg" alt="antioxidant" width={48} height={48} />
-            </div>
-            {navBar("nutrients")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/food-diary" aria-current="page" >
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/food-diary.svg" alt="food-diary" width={48} height={48} />
-            </div>
-            {navBar("foodDiary")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/favorites">
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/heart.svg" alt="heart" width={48} height={48} />
-            </div>
-            {navBar("favourites")}
-          </Link>
-          <Link  className={styles["nav-link"]} href="/settings">
-            <div className={styles["nav-bar"]}>
-              <Image src="/main/settings.svg" alt="heart" width={48} height={48} />
-            </div>
-            {navBar("settings")}
-          </Link>
-        </div>
-      </div>
+      <BottomNav/>
 
       {/* 🧾 Вкладка с составом продукта */}
       {openedProduct && (
