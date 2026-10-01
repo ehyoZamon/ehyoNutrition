@@ -1,23 +1,25 @@
 // components/food-diary/AddFoodSheet.tsx
 "use client";
 
-import { useMemo, useState } from "react";
+import {
+  memo,
+  useDeferredValue,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import styles from "./addFoodSheet.module.css";
+import {
+  loadProductsIndex,
+  searchProducts,
+  type CatalogProduct,
+  type ProductIndex,
+} from "@/lib/productsIndex";
 
-import productsRu from "@/data/ru/products.json";
-import productsEn from "@/data/en/products.json";
-
-
-export type DiaryProduct = {
-  id: number;
-  name: string;
-  category: string;
-  calories: number;
-  image: string;
-  link: string;
-};
+export type DiaryProduct = CatalogProduct;
 
 type AddFoodSheetProps = {
   open: boolean;
@@ -25,31 +27,132 @@ type AddFoodSheetProps = {
   onSelectProduct: (product: DiaryProduct) => void;
 };
 
+/** Сколько продуктов дорисовываем за один раз при прокрутке. */
+const PAGE_SIZE = 100;
+
+// ---------------------------------------------------------------------------
+// Строка списка (memo: при подгрузке следующих 100 уже показанные не перерисовываются)
+// ---------------------------------------------------------------------------
+const ProductRow = memo(function ProductRow({
+  product,
+  onSelect,
+}: {
+  product: DiaryProduct;
+  onSelect: (product: DiaryProduct) => void;
+}) {
+  return (
+    <div className={styles["item"]}>
+      <div className={styles["item-img-container"]}>
+        <Image src={product.image} alt={product.name} width={48} height={48} />
+      </div>
+
+      <div className={styles["item-details"]}>
+        <div className={styles["item-name"]}>{product.name}</div>
+        <div className={styles["item-category"]}>{product.category}</div>
+        <div className={styles["item-calories"]}>Calories: {product.calories}</div>
+      </div>
+
+      <button
+        type="button"
+        className={styles["add-btn"]}
+        aria-label={`Add ${product.name}`}
+        onClick={() => onSelect(product)}
+      >
+        +
+      </button>
+    </div>
+  );
+});
+
+// ---------------------------------------------------------------------------
+// Компонент
+// ---------------------------------------------------------------------------
 const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => {
   const locale = useLocale();
-  const [search, setSearch] = useState("");
-
-  const productsData = useMemo(() => {
-    return (locale === "ru" ? productsRu : productsEn) as DiaryProduct[];
-  }, [locale]);
-
-  const filteredProducts = useMemo(() => {
-    const query = search.trim().toLowerCase();
-    if (!query) return productsData;
-
-    return productsData.filter(
-      (product) =>
-        product.name.toLowerCase().includes(query) ||
-        product.category.toLowerCase().includes(query)
-    );
-  }, [productsData, search]);
-
-  // Сбрасываем поиск при каждом открытии, чтобы не тащить старый запрос
   const t = useTranslations("FoodDiary");
-  
+
+  const [search, setSearch] = useState("");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [loaded, setLoaded] = useState<{ locale: string; index: ProductIndex } | null>(null);
+
+  const listRef = useRef<HTMLDivElement>(null);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  // Индекс нужен только для текущей локали; если локаль сменилась — старый не используем.
+  const index = loaded?.locale === locale ? loaded.index : null;
+
+  // Загрузка: в фоне через 1.5 с после старта приложения (чтобы первое открытие
+  // шторки было мгновенным), а если шторку открыли раньше — сразу.
+  useEffect(() => {
+    let cancelled = false;
+    const run = () => {
+      loadProductsIndex(locale)
+        .then((idx) => {
+          if (cancelled) return;
+          setLoaded((prev) => (prev?.index === idx ? prev : { locale, index: idx }));
+        })
+        .catch((e) => console.error("Не удалось загрузить продукты:", e));
+    };
+
+    if (open) {
+      run();
+      return () => {
+        cancelled = true;
+      };
+    }
+    const id = setTimeout(run, 1500);
+    return () => {
+      cancelled = true;
+      clearTimeout(id);
+    };
+  }, [locale, open]);
+
+  // Сбрасываем поиск при закрытии, чтобы не тащить старый запрос в следующее открытие
+  useEffect(() => {
+    if (!open) {
+      setSearch("");
+      setVisibleCount(PAGE_SIZE);
+    }
+  }, [open]);
+
+  // useDeferredValue: ввод в поле остаётся отзывчивым, тяжёлая фильтрация идёт с низким приоритетом
+  const deferredSearch = useDeferredValue(search);
+
+  const filteredProducts = useMemo(
+    () => (index ? searchProducts(index, deferredSearch) : []),
+    [index, deferredSearch]
+  );
+
+  // Новый запрос -> снова первые 100 и прокрутка наверх
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+    listRef.current?.scrollTo({ top: 0 });
+  }, [deferredSearch]);
+
+  const visibleProducts = useMemo(
+    () => filteredProducts.slice(0, visibleCount),
+    [filteredProducts, visibleCount]
+  );
+  const hasMore = visibleCount < filteredProducts.length;
+
+  // Lazy loading: когда маркер в конце списка подходит к экрану — показываем ещё 100
+  useEffect(() => {
+    const root = listRef.current;
+    const el = sentinelRef.current;
+    if (!open || !root || !el) return;
+
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) setVisibleCount((c) => c + PAGE_SIZE);
+      },
+      { root, rootMargin: "300px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [open, hasMore, visibleCount]);
+
   if (!open) return null;
 
-  
   return (
     <div className={styles["overlay"]} onClick={onClose}>
       <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
@@ -71,30 +174,18 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
           />
         </div>
 
-        <div className={styles["list"]}>
-          {filteredProducts.length > 0 ? (
-            filteredProducts.map((product) => (
-              <div className={styles["item"]} key={product.id}>
-                <div className={styles["item-img-container"]}>
-                  <Image src={product.image} alt={product.name} width={48} height={48} />
-                </div>
-
-                <div className={styles["item-details"]}>
-                  <div className={styles["item-name"]}>{product.name}</div>
-                  <div className={styles["item-category"]}>{product.category}</div>
-                  <div className={styles["item-calories"]}>Calories: {product.calories}</div>
-                </div>
-
-                <button
-                  type="button"
-                  className={styles["add-btn"]}
-                  aria-label={`Add ${product.name}`}
-                  onClick={() => onSelectProduct(product)}
-                >
-                  +
-                </button>
-              </div>
-            ))
+        <div className={styles["list"]} ref={listRef}>
+          {!index ? (
+            <div className={styles["loader"]}>
+              <div className={styles["spinner"]} />
+            </div>
+          ) : filteredProducts.length > 0 ? (
+            <>
+              {visibleProducts.map((product) => (
+                <ProductRow key={product.id} product={product} onSelect={onSelectProduct} />
+              ))}
+              {hasMore && <div ref={sentinelRef} className={styles["sentinel"]} />}
+            </>
           ) : (
             <div className={styles["empty-state"]}>
               <Image src="/nothing-found.svg" alt="nothing-found" width={48} height={48} />
@@ -106,8 +197,7 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
         <button type="button" className={styles["close-btn"]} onClick={onClose}>
           {t("closeBtn")}
         </button>
-        <div className={styles["bottom-shade"]}>
-        </div>
+        <div className={styles["bottom-shade"]}></div>
       </div>
     </div>
   );

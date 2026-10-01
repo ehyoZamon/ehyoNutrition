@@ -185,3 +185,31 @@
   color: #777;
   gap: 8px;
 }
+
+/* --- lazy loading / loading state --- */
+.loader {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 3px solid #eee;
+  border-top-color: #91c788;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Невидимый маркер в конце списка: когда он приближается к экрану, подгружаем следующие 100 */
+.sentinel {
+  height: 1px;
+  flex-shrink: 0;
+}

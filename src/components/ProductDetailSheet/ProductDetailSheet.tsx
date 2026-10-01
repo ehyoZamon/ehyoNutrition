@@ -36,16 +36,27 @@ type Props = {
   onClose: () => void;
 };
 
-// One dynamic import per (locale, slug) — webpack code-splits every file
-// under data/<locale>/productDetails/ into its own chunk, so this only
-// ever fetches the ONE file for the product that was clicked, not the
-// whole productDetails.json.
-async function loadProductDetail(locale: string, slug: string): Promise<ProductDetail> {
-  const mod =
-    locale === "ru"
-      ? await import(`@/data/ru/productDetails/${slug}.json`)
-      : await import(`@/data/en/productDetails/${slug}.json`);
-  return (mod.default ?? mod) as ProductDetail;
+// Файлы лежат в public/data/<locale>/productDetails/<slug>.json и читаются через
+// fetch во время работы приложения. Раньше здесь был import(`@/data/.../${slug}.json`):
+// с переменной в пути webpack включает в сборку ВСЕ файлы папки (~5500 × 2 локали),
+// отсюда и взрывной рост времени компиляции. fetch webpack вообще не видит.
+// Промисы кешируются: повторное открытие того же продукта не ходит за файлом снова.
+const detailCache = new Map<string, Promise<ProductDetail>>();
+
+function loadProductDetail(locale: string, slug: string): Promise<ProductDetail> {
+  const lang = locale === "ru" ? "ru" : "en";
+  const key = `${lang}/${slug}`;
+  let cached = detailCache.get(key);
+  if (!cached) {
+    cached = fetch(`/data/${lang}/productDetails/${encodeURIComponent(slug)}.json`).then((res) => {
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${key}`);
+      return res.json() as Promise<ProductDetail>;
+    });
+    // при ошибке не кешируем, чтобы можно было повторить
+    cached.catch(() => detailCache.delete(key));
+    detailCache.set(key, cached);
+  }
+  return cached;
 }
 
 // Unit abbreviations that show up inside nutrient amounts (e.g. "16 g",
