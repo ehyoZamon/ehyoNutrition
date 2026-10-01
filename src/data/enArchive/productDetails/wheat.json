@@ -1,0 +1,179 @@
+{
+"slug": "wheat-flour-whole-grain-soft-wheat",
+"name": "Wheat flour",
+"category": "Cereal Grains and Pasta",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "332 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "9.61 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "74.5 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "1.95 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "13.1 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "0 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "0 mcg RAE"
+},
+{
+"id": "vitamin-e",
+"name": "Vitamin E",
+"slug": "vitamin-e",
+"amount": "0.53 mg"
+},
+{
+"id": "vitamin-k",
+"name": "Vitamin K",
+"slug": "vitamin-k",
+"amount": "1.9 mcg"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.297 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.188 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "5.347 mg"
+},
+{
+"id": "vitamin-b5",
+"name": "Vitamin B5",
+"slug": "vitamin-b5",
+"amount": "1.011 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "0.191 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "28 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "33 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "323 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "117 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "3 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "394 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "3.71 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "2.96 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.475 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "3.4 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "12.7 mcg"
+},
+{
+"id": "choline",
+"name": "Choline",
+"slug": "choline",
+"amount": "31.2 mg"
+},
+{
+"id": "beta-carotene",
+"name": "Beta-carotene",
+"slug": "beta-carotene",
+"amount": "5 mcg"
+}
+]
+}

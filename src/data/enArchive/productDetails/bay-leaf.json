@@ -1,0 +1,173 @@
+{
+"slug": "bay-leaf",
+"name": "Bay leaf",
+"category": "Spices and Herbs",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "313 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "7.61 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "74.97 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "8.36 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "26.3 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-c",
+"name": "Vitamin C",
+"slug": "vitamin-c",
+"amount": "46.5 mg"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "0 mcg"
+},
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "309 mcg RAE"
+},
+{
+"id": "vitamin-b1",
+"name": "Vitamin B1",
+"slug": "vitamin-b1",
+"amount": "0.009 mg"
+},
+{
+"id": "vitamin-b2",
+"name": "Vitamin B2",
+"slug": "vitamin-b2",
+"amount": "0.42 mg"
+},
+{
+"id": "vitamin-b3",
+"name": "Vitamin B3",
+"slug": "vitamin-b3",
+"amount": "2 mg"
+},
+{
+"id": "vitamin-b6",
+"name": "Vitamin B6",
+"slug": "vitamin-b6",
+"amount": "1.74 mg"
+},
+{
+"id": "vitamin-b9",
+"name": "Vitamin B9",
+"slug": "vitamin-b9",
+"amount": "180 mcg DFE"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "834 mg"
+},
+{
+"id": "phosphorus",
+"name": "Phosphorus",
+"slug": "phosphorus",
+"amount": "113 mg"
+},
+{
+"id": "magnesium",
+"name": "Magnesium",
+"slug": "magnesium",
+"amount": "120 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "23 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "529 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "43 mg"
+},
+{
+"id": "zinc",
+"name": "Zinc",
+"slug": "zinc",
+"amount": "3.7 mg"
+},
+{
+"id": "copper",
+"name": "Copper",
+"slug": "copper",
+"amount": "0.42 mg"
+},
+{
+"id": "manganese",
+"name": "Manganese",
+"slug": "manganese",
+"amount": "8.17 mg"
+},
+{
+"id": "selenium",
+"name": "Selenium",
+"slug": "selenium",
+"amount": "2.8 mcg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "1.05 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "1.24 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "1.5 g"
+},
+{
+"id": "phytosterols",
+"name": "Phytosterols",
+"slug": "phytosterols",
+"amount": "0 mg"
+}
+]
+}

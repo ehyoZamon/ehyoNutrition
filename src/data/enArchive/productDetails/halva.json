@@ -1,0 +1,91 @@
+{
+  "slug": "halva",
+  "name": "Halva",
+  "category": "Sweets / Superfood",
+  "image": "/productinfo/halva.png",
+  "imageAlt": "a piece of sunflower halva",
+  "description": "Sunflower halva represents a highly dense, composite multi-phase confectionary matrix consisting of a finely ground paste of roasted Helianthus annuus seeds, known as protein-lipid tahini, structurally suspended within an amorphous, aerated caramel mass. Structurally, it features a microscopically thin network of pulled sugar-caramel threads that entrap liquid lipid droplets rich in polyunsaturated and monunsaturated fatty acids, alongside intact oilseed globulin proteins. This structural synthesis preserves the unique embryonic botanical compounds of the seed, including antioxidant chlorogenic acids, alpha-tocopherol isomers, and structural phytosterols. Operating as an exceptionally concentrated thermodynamic fuel and metabolic substrate, this functional food provides instant chemical energy while optimizing cell membrane stability and downregulating oxidative cell lipid damage.",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroIntro": "The macronutrient configuration of sunflower halva presents a hyper-caloric, low-moisture energetic pool pairing high-velocity simple sugars with dense, lipophilic plant-derived triacylglycerols.",
+  "microIntro": "A highly concentrated organic mineral assembly rich in lipophilic cellular protective factors, essential divalent metabolic cations, and active plant sterols.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "523 kcal / 26% DV",
+      "bg": "#15837c",
+      "description": "An intense delivery of thermodynamic metabolic energy sourced from concurrent carbohydrate glycolysis and fat beta-oxidation."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "32.1 g / 41% DV",
+      "bg": "#e4a910",
+      "description": "Abundant in linoleic and oleic acids, which maintain high fluid dynamics and protect internal organ vascular structures."
+    },
+    {
+      "id": 15,
+      "name": "Total Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "47.4 g / 17% DV",
+      "bg": "#15837c",
+      "description": "A dual-action pool combining crystalline simple disaccharides from the caramel base with complex non-starch storage carbohydrates."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "11.6 g / 23% DV",
+      "bg": "#f5722c",
+      "description": "Valuable seed-derived storage globulins (helianthinin) rich in essential branched-chain and sulfur-containing amino acids."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 25,
+      "name": "Vitamin E (Alpha-Tocopherol)",
+      "slug": "vitamins",
+      "amount": "31.2 mg / 208% DV",
+      "bg": "#15837c",
+      "description": "An exceptional concentration of a lipophilic antioxidant vitamin that directly breaks free-radical propagation in fat-rich matrices."
+    },
+    {
+      "id": 33,
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "163 mg / 39% DV",
+      "bg": "#f5722c",
+      "description": "A crucial intracellular divalent cation required for regulating neurochemical stress responses and enzymatic ATP utilization."
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "4.5 mg / 25% DV",
+      "bg": "#66ab63",
+      "description": "An essential structural micronutrient that supports hemoglobin synthesis and internal mitochondrial cellular respiration."
+    },
+    {
+      "id": 134,
+      "name": "Phytosterols",
+      "slug": "antioxidants",
+      "amount": "322 mg / High Activity",
+      "bg": "#1a96cd",
+      "description": "Plant-derived structural sterols, notably beta-sitosterol, that competitively block cholesterol transporters in the intestinal lumen."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Rapid Dual-Phase Glycogen and ATP Restoration:</b> The high concentration of simple sucrose molecules provides an immediate surge of portal blood glucose, while the dense lipid fraction serves as a long-term thermodynamic substrate for skeletal muscle tissue.",
+    "<b>Tocopherol Interception of Lipid Peroxidation:</b> Exceptional baseline alpha-tocopherol values allow this nutrient to partition into systemic low-density lipoprotein coatings, donating phenolic hydrogen atoms to actively terminate destructive lipid peroxyl radical cascades.",
+    "<b>Magnesium-Gated Regulation of NMDA Receptor Complexes:</b> High levels of bioavailable magnesium ions block open N-methyl-D-aspartate channels in neurological path junctions, reducing neuronal hyperexcitability and smoothing systemic stress responses.",
+    "<b>Phytosterol-Driven Intestinal Cholesterol Displacement:</b> Plant sterols share structural structural homologies with cholesterol, allowing them to displace dietary cholesterol from mixed biliary micelles, which significantly suppresses its systemic absorption."
+  ],
+  "precautionsIntro": "Owing to the extreme concentration of simple crystalline carbohydrates and high-density plant triacylglycerols, metabolic deployment of halva requires specific boundaries:",
+  "precautions": [
+    "<b>Substantial Thermodynamic Density and Adipose Accumulation Risk:</b> The elevated energy payload per small unit mass can overtax regular metabolic requirements, converting unoxidized substrates into endogenous triglycerides stored in white adipose tissue.",
+    "<b>Abrupt Postprandial Glycemic Index Trajectory:</b> The rapidly dissolvable caramel mass induces a sharp, rapid elevation of blood glucose, forcing acute pancreatic beta-cell strain and high insulin secretion spikes.",
+    "<b>Storage Protein-Induced IgE Hypersensitivity Cascades:</b> Core seed storage globulins can act as robust antigens, stimulating immunoglobulin E-mediated responses that can cause rapid immune reactions in susceptible individuals."
+  ]
+}

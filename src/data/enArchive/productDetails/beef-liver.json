@@ -1,0 +1,269 @@
+{
+  "slug": "beef-variety-meats-and-by-products-liver-raw",
+  "name": "Beef, liver, raw",
+  "category": "Beef Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "135 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "20.36 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.89 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "3.63 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
+    }
+  ],
+  "microTitle": "Vitamins & Minerals (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "1.3 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "1.2 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "4968 mcg RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.38 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "3.1 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.189 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "2.755 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "13.175 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "7.173 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "1.083 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "290 mcg DFE"
+    },
+    {
+      "id": 11,
+      "name": "Vitamin B7",
+      "slug": "vitamin-b7",
+      "amount": "30.8 mcg"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "59.3 mcg"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "5 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "387 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "18 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "69 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "313 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "4.9 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "4 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "9.755 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.31 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "39.7 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "333.3 mg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "232 mcg"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "4.4 mg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.629 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.967 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.91 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.607 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.543 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "1.084 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.869 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.263 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "1.26 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "1.241 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "1.164 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.807 g"
+    }
+  ]
+}

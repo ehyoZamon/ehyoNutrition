@@ -1,0 +1,269 @@
+{
+  "slug": "pumpkin-raw",
+  "name": "Pumpkin, raw",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "26 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "6.5 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.1 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0.5 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "9 mg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "426 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "1.06 mg"
+    },
+    {
+      "id": "5",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "1.1 mcg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.05 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.11 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.6 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.3 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.06 mg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "16 mcg DFE"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "21 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "44 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "12 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "1 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "340 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.8 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.32 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.13 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0.3 mcg"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "8.2 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "3100 mcg"
+    },
+    {
+      "id": "62",
+      "name": "Phytosterols",
+      "slug": "phytosterols",
+      "amount": "12 mg"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "68",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "71",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "72",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "17",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "18",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "19",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "20",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.05 g"
+    },
+    {
+      "id": "21",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "22",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "23",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.03 g"
+    },
+    {
+      "id": "24",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.01 g"
+    },
+    {
+      "id": "25",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.04 g"
+    }
+  ]
+}

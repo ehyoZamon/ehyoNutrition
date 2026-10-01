@@ -1,0 +1,101 @@
+{
+"slug": "fish-oil-cod-liver",
+"name": "Fish oil, cod liver",
+"category": "Fats and Oils",
+"macroTitle": "Macro Nutrients (per 100g)",
+"macroNutrients": [
+{
+"id": "calories",
+"name": "Calories",
+"slug": "",
+"amount": "902 kcal"
+},
+{
+"id": "protein",
+"name": "Protein",
+"slug": "protein",
+"amount": "0 g"
+},
+{
+"id": "carbohydrates",
+"name": "Carbohydrates",
+"slug": "carbohydrates",
+"amount": "0 g"
+},
+{
+"id": "fats",
+"name": "Fats",
+"slug": "fats",
+"amount": "100 g"
+},
+{
+"id": "fiber",
+"name": "Fiber",
+"slug": "fiber",
+"amount": "0 g"
+}
+],
+"microTitle": "Micro Nutrients (per 100g)",
+"microNutrients": [
+{
+"id": "vitamin-a",
+"name": "Vitamin A",
+"slug": "vitamin-a",
+"amount": "30000 mcg RAE"
+},
+{
+"id": "vitamin-d",
+"name": "Vitamin D",
+"slug": "vitamin-d",
+"amount": "250 mcg"
+},
+{
+"id": "calcium",
+"name": "Calcium",
+"slug": "calcium",
+"amount": "0 mg"
+},
+{
+"id": "iron",
+"name": "Iron",
+"slug": "iron",
+"amount": "0 mg"
+},
+{
+"id": "sodium",
+"name": "Sodium",
+"slug": "sodium",
+"amount": "0 mg"
+},
+{
+"id": "potassium",
+"name": "Potassium",
+"slug": "potassium",
+"amount": "0 mg"
+},
+{
+"id": "alpha-linolenic-acid",
+"name": "Alpha-Linolenic Acid",
+"slug": "alpha-linolenic-acid",
+"amount": "0.935 g"
+},
+{
+"id": "epa-dha",
+"name": "EPA & DHA",
+"slug": "epa-dha",
+"amount": "17.866 g"
+},
+{
+"id": "omega-6-fatty-acids",
+"name": "Omega-6 fatty acids",
+"slug": "omega-6-fatty-acids",
+"amount": "0.935 g"
+},
+{
+"id": "omega-9-fatty-acids",
+"name": "Omega-9 fatty acids",
+"slug": "omega-9-fatty-acids",
+"amount": "20.653 g"
+}
+]
+}

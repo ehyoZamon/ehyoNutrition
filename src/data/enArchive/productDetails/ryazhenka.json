@@ -1,0 +1,124 @@
+{
+  "slug": "ryazhenka",
+  "name": "Ryazhenka (Baked Fermented Milk)",
+  "category": "Dairy",
+  "image": "/productinfo/ryazhenka.png",
+  "imageAlt": "creamy smooth pale caramel-colored fermented milk poured into a glass demonstrating its thick velvety texture",
+  "description": "Ryazhenka is a traditional Slavic fermented milk product produced by the prolonged thermal processing (baking) of milk at elevated temperatures (~75-90°C) followed by lactic acid fermentation using thermophilic lactic cultures (Streptococcus thermophilus). The long heating process induces extensive Maillard reactions and sugar caramelization, binding amino acids with lactose to yield unique melanoidin pigments that give ryazhenka its distinct pale-caramel hue and smooth, nutty flavor matrix. This processing modifies the protein structure, rendering the casein matrices highly digestible, while delivering a robust payload of bioavailable calcium, short-chain fatty acids, and beneficial gut-soothing metabolites.",
+  "macroTitle": "Macro Nutrients (per 100g, standard 2.5% fat profile)",
+  "macroIntro": "Ryazhenka delivers a balanced, easily assimilable liquid macronutrient architecture rich in partially hydrolyzed peptides, protective milk fats, and natural dairy sugars.",
+  "microIntro": "The distinct caramel-toned emulsion acts as a highly bioavailable reservoir for bone-reinforcing minerals, metabolic B-complex vitamins, and natural lactic acid cultures.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "~54 kcal",
+      "bg": "#15837c",
+      "description": "Provides clean, sustained metabolic energy driven by a balanced combination of dairy fats and proteins, without causing rapid glycemic spikes."
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "2.90 grams",
+      "bg": "#f5722c",
+      "description": "Consists of thermally modified caseins and whey proteins that are partially broken down, allowing for rapid, easy absorption with minimal digestive expenditure."
+    },
+    {
+      "id": "fat",
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "2.50 grams",
+      "bg": "#e4a910",
+      "description": "Composed of easily emulsified, short- and medium-chain fatty acids that support cellular membranes and act as direct vehicles for fat-soluble vitamins."
+    },
+    {
+      "id": "carbs",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.10 grams",
+      "bg": "#1a96cd",
+      "description": "Represented by lactose, a portion of which has been metabolized by lactic bacteria into beneficial lactic acid, significantly reducing individual digestive workload."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "slug": "calcium",
+      "name": "Calcium",
+      "amount": "124 mg / 10% DV",
+      "bg": "#15837c",
+      "description": "An abundant, highly bioavailable structural mineral stabilized by lactic acid, optimized for direct integration into the skeletal matrix and dental enamel."
+    },
+    {
+      "id": "phosphorus",
+      "slug": "phosphorus",
+      "name": "Phosphorus",
+      "amount": "92 mg / 13% DV",
+      "bg": "#f5722c",
+      "description": "An essential intracellular mineral that works in a strict biochemical synergy with calcium to rebuild bone tissue and facilitate cellular energy transfer (ATP)."
+    },
+    {
+      "id": "vitamin-b2",
+      "slug": "vitamin-b2",
+      "name": "Vitamin B2 (Riboflavin)",
+      "amount": "0.13 mg / 10% DV",
+      "bg": "#66ab63",
+      "description": "A key metabolic cofactor necessary for optimizing cellular respiration, managing energy production loops, and preserving skin and mucosal integrity."
+    },
+    {
+      "id": "lactic-acid",
+      "slug": "lactic-acid",
+      "name": "Lactic Acid",
+      "amount": "Bioactive Amount",
+      "bg": "#1a96cd",
+      "description": "A natural organic acid produced during fermentation that suppresses opportunistic intestinal microflora, lowers gut pH, and enhances total mineral absorption."
+    },
+    {
+      "id": "potassium",
+      "slug": "potassium",
+      "name": "Potassium",
+      "amount": "146 mg / 3% DV",
+      "bg": "#e4a910",
+      "description": "A primary intracellular mineral electrolyte that assists in regulating osmotic fluid balance, stabilizing heart rhythms, and mitigating cellular fluid retention."
+    },
+    {
+      "id": 108,
+      "slug": "vitamin-b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "amount": "0.4 mcg / 17% DV",
+      "bg": "#15837c",
+      "description": "Vital for red blood cell formation, neurological health, and DNA synthesis."
+    },
+    {
+      "id": 109,
+      "slug": "vitamin-a",
+      "name": "Vitamin A (Retinol)",
+      "amount": "20 mcg / 2% DV",
+      "bg": "#f5722c",
+      "description": "Essential for immune function, vision, and cell growth."
+    },
+    {
+      "id": 110,
+      "slug": "magnesium",
+      "name": "Magnesium",
+      "amount": "12 mg / 3% DV",
+      "bg": "#66ab63",
+      "description": "Supports muscle function, protein synthesis, and nervous system health."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Accelerated Peptide Assimilation:</b> The prolonged baking process structurally alters tough <b>casein complexes</b>, allowing human digestive enzymes to quickly break down and absorb amino acids without gastric heaviness.",
+    "<b>Gastrointestinal Microbiome Support:</b> Active fermentation yields abundant <b>lactic acid</b>, which shifts intestinal pH downward, effectively inhibiting pathogenic bacteria and encouraging indigenous beneficial bifidobacteria.",
+    "<b>Skeletal Density and Mineralization:</b> Outstanding parameters of highly bioavailable <b>calcium</b> and phosphorus work together to support structural bone density, tooth enamel integrity, and skeletal remodeling.",
+    "<b>Gastric Mucosal Comfort:</b> Unlike raw milk, ryazhenka provides a smooth, low-acid, velvety texture that coats the gastrointestinal lining, offering gentle nutrition without aggravating delicate stomach walls.",
+    "<b>Enhanced Nutrient Translocation:</b> The natural presence of lactic acid serves as a chemical catalyst that drastically boosts the intestinal absorption rate of native calcium, iron, and vitamin D."
+  ],
+  "precautionsIntro": "Lactose-Driven Gas Complexes, Hidden Milk Protein Anaphylaxis, and Advanced Caloric Density Control: Focused dietary boundaries optimize safe metabolic intake.",
+  "precautions": [
+    "<b>Residual Lactose Intolerance Flares:</b> While fermentation significantly lowers the dairy sugar matrix, ryazhenka still stores notable amounts of <b>lactose</b>. Individuals diagnosed with severe hypolactasia will experience abdominal bloating, flatulence, and watery diarrhea upon consuming large portions.",
+    "<b>Immune Reactivity to Milk Casein:</b> Thermal baking alters protein shape but does not eliminate <b>cow's milk protein</b> allergens. Individuals with a confirmed casein or whey allergy can trigger systemic immune responses, including hives, swelling, or intestinal inflammation.",
+    "<b>Acute Gastric Hyperacidity Issues:</b> Though ryazhenka is much milder than standard kefir, it is still a fermented beverage rich in <b>lactic acid</b>. Individuals dealing with active peptic ulcers, acute erosive gastritis, or severe acid reflux may experience localized mucosal burning."
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "yogurt-greek",
+  "name": "Greek Yogurt",
+  "category": "Dairy",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "97 kcal"
+    },
+    {
+      "id": "14",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "9 g"
+    },
+    {
+      "id": "36",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "5 g"
+    },
+    {
+      "id": "15",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "3.98 g"
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "1",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0 mg"
+    },
+    {
+      "id": "3",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "2 mcg"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.01 mg"
+    },
+    {
+      "id": "6",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.023 mg"
+    },
+    {
+      "id": "7",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.278 mg"
+    },
+    {
+      "id": "8",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "0.208 mg"
+    },
+    {
+      "id": "9",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.331 mg"
+    },
+    {
+      "id": "10",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.063 mg"
+    },
+    {
+      "id": 11,
+      "name": "Vitamin B7",
+      "slug": "vitamin-b7",
+      "amount": "0.85 mcg"
+    },
+    {
+      "id": "12",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "5 mcg"
+    },
+    {
+      "id": "13",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.75 mcg"
+    },
+    {
+      "id": "28",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "100 mg"
+    },
+    {
+      "id": "29",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "135 mg"
+    },
+    {
+      "id": "30",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "11 mg"
+    },
+    {
+      "id": "31",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "35 mg"
+    },
+    {
+      "id": "32",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "141 mg"
+    },
+    {
+      "id": "35",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0 mg"
+    },
+    {
+      "id": "36",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.52 mg"
+    },
+    {
+      "id": "37",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.017 mg"
+    },
+    {
+      "id": "38",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.009 mg"
+    },
+    {
+      "id": "40",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "9.7 mcg"
+    },
+    {
+      "id": "44",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "0 g"
+    },
+    {
+      "id": "50",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "15.1 mg"
+    },
+    {
+      "id": "57",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "7 mcg"
+    },
+    {
+      "id": "26",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.023 g"
+    },
+    {
+      "id": "27",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0.004 g"
+    },
+    {
+      "id": "66",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.209 g"
+    },
+    {
+      "id": "67",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.993 g"
+    }
+  ]
+}

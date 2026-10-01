@@ -1,0 +1,209 @@
+{
+  "slug": "popcorn-ready-to-eat-flavored-light",
+  "name": "Popcorn, ready-to-eat, flavored, light",
+  "category": "Popcorn",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "435 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "11.3 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "67.8 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "14.8 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "12.6 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "0 mg"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "9 mcg RAE"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "2.72 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "1.3 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.091 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.072 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "2.01 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.137 mg"
+    },
+    {
+      "id": "vitamin-b9",
+      "name": "Vitamin B9",
+      "slug": "vitamin-b9",
+      "amount": "27 mcg DFE"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.16 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "7 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "312 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "125 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "766 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "287 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "2.78 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.68 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.228 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "lutein",
+      "name": "Lutein",
+      "slug": "lutein",
+      "amount": "1260 mcg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "78 mcg"
+    },
+    {
+      "id": "lycopene",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "18.5 mg"
+    },
+    {
+      "id": "omega-6",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6",
+      "amount": "7.63 g"
+    },
+    {
+      "id": "omega-9",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9",
+      "amount": "3.77 g"
+    }
+  ]
+}

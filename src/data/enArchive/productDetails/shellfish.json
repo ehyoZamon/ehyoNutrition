@@ -1,0 +1,108 @@
+{
+  "slug": "shellfish",
+  "name": "Mixed Shellfish (Oysters & Mussels)",
+  "category": "Fish and Seafood",
+  "image": "/productinfo/shellfish.png",
+  "imageAlt": "mixed shellfish",
+  "description": "Shellfish represent a premier functional whole-food matrix of marine origin. Possessing a monumental density of highly bioavailable zinc, rare trace minerals, and essential neuro-supportive vitamin B12, they serve as a top-tier dietary resource for deep immune optimization, endocrine system regulation, and advanced cognitive performance.",
+  "macroTitle": "Macronutrients (per 100 g)",
+  "macroIntro": "The macronutrient architecture of shellfish provides an exceptionally lean, calorie-controlled distribution of top-quality structural proteins combined with modest, valuable reserves of glycogen and anti-inflammatory marine lipids.",
+  "microIntro": "Shellfish contain an unprecedented network of minerals and water-soluble vitamins, including massive pools of animal-bound trace elements that trigger key enzymatic cascades.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "79 kcal / 4% DV",
+      "bg": "#15837c",
+      "description": "An exceptionally low caloric footprint that yields a massive return of essential micronutrients per calorie without excess biological energy storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "11.2 g / 22% DV",
+      "bg": "#f5722c",
+      "description": "Complete marine protein supplying all essential amino acids required for rapid muscle structural synthesis and cell membrane rebuilding."
+    },
+    {
+      "id": 16,
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "1.8 g / 2% DV",
+      "bg": "#e4a910",
+      "description": "Extremely low total lipid content, yet rich in vital Omega-3 polyunsaturated fatty acids (EPA and DHA) that protect vascular and neurological tissues."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "4.1 g / 1% DV",
+      "bg": "#15837c",
+      "description": "Uniquely contains a small amount of natural animal glycogen bound within delicate muscle tissue, creating a minimal and stable glycemic impact."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 37,
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "16.6 mg / 151% DV",
+      "bg": "#15837c",
+      "description": "A colossal concentration of highly bioavailable zinc, serving as an indispensable catalyst for testosterone production, DNA synthesis, and white blood cell replication."
+    },
+    {
+      "id": 29,
+      "name": "Vitamin B12 (Cobalamin)",
+      "slug": "vitamin-b12",
+      "amount": "12.0 mcg / 500% DV",
+      "bg": "#f5722c",
+      "description": "An astronomical dose of cobalamin required for preserving nerve fiber myelin sheaths, optimizing red blood cell production, and arresting brain cell fatigue."
+    },
+    {
+      "id": 45,
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "49.6 mcg / 90% DV",
+      "bg": "#66ab63",
+      "description": "An abundant trace element pool that triggers glutathione peroxidase activity to scavenge circulating free radicals and support active thyroid hormone conversion."
+    },
+    {
+      "id": 40,
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "1.7 mg / 189% DV",
+      "bg": "#e4a910",
+      "description": "A powerful catalytic mineral required to operate in strict balance with zinc to facilitate non-heme iron absorption and maintain collagen structural integrity."
+    },
+    {
+      "id": 38,
+      "name": "Iron (Heme)",
+      "slug": "iron",
+      "amount": "5.2 mg / 29% DV",
+      "bg": "#1a96cd",
+      "description": "Packed with pure marine heme iron that readily crosses the intestinal mucosa to maximize oxygen transport and resolve systemic fatigue markers."
+    },
+    {
+      "id": 50,
+      "name": "Omega-3 (EPA/DHA)",
+      "slug": "epa-dha",
+      "amount": "450 mg",
+      "bg": "#1a96cd",
+      "description": "Essential long-chain marine lipids that attenuate systemic inflammation markers and structurally integrate into cardiovascular cell membranes."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Endocrine System & Testosterone Optimization:</b> The unprecedented density of bioavailable zinc acts as a prime architectural stimulus for natural hormone production pathways, optimizing reproductive function and cellular recovery cycles.",
+    "<b>Neuro-Axonal Signaling Velocity:</b> Outstanding concentrations of vitamin B12 combined with essential Omega-3 marine fatty acids preserve structural nerve insulation, optimizing long-term cognitive stamina and mental clarity.",
+    "<b>Mitochondrial Hematopoiesis:</b> Harmonious physiological coordination between highly bioavailable marine heme iron and deep cobalamin (B12) pools accelerates healthy red blood cell generation, ensuring optimal tissue oxygenation.",
+    "<b>Glutathione Defense Activation:</b> Abundant foundational selenium reserves activate internal antioxidant defense mechanisms, reducing overall lipid peroxidation in vessels and protecting liver tissue structures."
+  ],
+  "precautionsIntro": "Due to their high biochemical density, marine filtration mechanisms, and allergenic properties, integrating shellfish requires clear dietary management parameters.",
+  "precautions": [
+    "<b>Severe IgE-Mediated Allergy to Tropomyosin:</b> Shellfish contain highly stable muscle proteins such as *tropomyosin*, which can trigger immediate, life-threatening anaphylactic immune cascades. Individuals with diagnosed sensitivity must maintain strict zero-contact parameters.",
+    "<b>Heavy Metal and Microplastic Accumulation:</b> Because shellfish function as filter feeders, they can accumulate marine contaminants, cadmium, or microplastics from the surrounding aquatic environment. Sourcing products from strictly monitored, clean, cold marine regions is highly recommended.",
+    "<b>Risk of Bacteria and Marine Biotoxins:</b> Raw or undercooked shellfish may harbor dangerous pathogens such as *Vibrio vulnificus* or algal biotoxins that resist heat treatment. Shellfish must be fully cooked to a safe internal temperature to neutralize potential acute gastrointestinal toxicity.",
+    "<b>Zinc and Copper Enzymatic Balance Parameters:</b> While the massive zinc content offers profound therapeutic benefits, excessive and continuous daily consumption of zinc-rich shellfish could theoretically disrupt long-term copper absorption pathways, necessitating a balanced consumption cycle."
+  ]
+}

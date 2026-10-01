@@ -1,0 +1,368 @@
+[
+  {
+    "id": 1,
+    "name": "food/beverages",
+    "slug": "beverages",
+    "image": "/products/beverages.png"
+  },
+  {
+    "id": 2,
+    "name": "food/eggs and dairy",
+    "slug": "eggs-and-dairy",
+    "image": "/products/eggs-and-dairy.png"
+  },
+  {
+    "id": 3,
+    "name": "food/fruits",
+    "slug": "fruits",
+    "image": "/products/fruits.png"
+  },
+  {
+    "id": 4,
+    "name": "food/grains and cereals",
+    "slug": "grains-and-cereals",
+    "image": "/products/grains-and-cereals.png"
+  },
+  {
+    "id": 5,
+    "name": "food/herbs and spices",
+    "slug": "herbs-and-spices",
+    "image": "/products/herbs-and-spices.png"
+  },
+  {
+    "id": 6,
+    "name": "food/legumes",
+    "slug": "legumes",
+    "image": "/products/legumes.png"
+  },
+  {
+    "id": 7,
+    "name": "food/meat",
+    "slug": "meat",
+    "image": "/products/meat.png"
+  },
+  {
+    "id": 8,
+    "name": "food/nuts and seeds",
+    "slug": "nuts-and-seeds",
+    "image": "/products/nuts-and-seeds.png"
+  },
+  {
+    "id": 9,
+    "name": "food/oils and fats",
+    "slug": "oils-and-fats",
+    "image": "/products/oils-and-fats.png"
+  },
+  {
+    "id": 10,
+    "name": "food/seafood",
+    "slug": "seafood",
+    "image": "/products/seafood.png"
+  },
+  {
+    "id": 11,
+    "name": "food/seeds and nuts",
+    "slug": "seeds-and-nuts",
+    "image": "/products/seeds-and-nuts.png"
+  },
+  {
+    "id": 12,
+    "name": "food/snacks and sweets",
+    "slug": "snacks-and-sweets",
+    "image": "/products/snacks-and-sweets.png"
+  },
+  {
+    "id": 13,
+    "name": "food/vegetables",
+    "slug": "vegetables",
+    "image": "/products/vegetables.png"
+  },
+  {
+    "id": 14,
+    "name": "Baby food: mixtures",
+    "slug": "baby-food-mixtures",
+    "image": "/products/baby-food-mixtures.png"
+  },
+  {
+    "id": 15,
+    "name": "Formula, prepared from powder",
+    "slug": "formula-prepared-from-powder",
+    "image": "/products/formula-prepared-from-powder.png"
+  },
+  {
+    "id": 16,
+    "name": "Formula, ready-to-feed",
+    "slug": "formula-ready-to-feed",
+    "image": "/products/formula-ready-to-feed.png"
+  },
+  {
+    "id": 17,
+    "name": "Not included in a food category",
+    "slug": "not-included-in-a-food-category",
+    "image": "/products/not-included-in-a-food-category.png"
+  },
+  {
+    "id": 18,
+    "name": "Pudding",
+    "slug": "pudding",
+    "image": "/products/pudding.png"
+  },
+  {
+    "id": 19,
+    "name": "Pizza",
+    "slug": "pizza",
+    "image": "/products/pizza.png"
+  },
+  {
+    "id": 20,
+    "name": "Frankfurters",
+    "slug": "frankfurters",
+    "image": "/products/frankfurters.png"
+  },
+  {
+    "id": 21,
+    "name": "Sausages",
+    "slug": "sausages",
+    "image": "/products/sausages.png"
+  },
+  {
+    "id": 22,
+    "name": "Burritos and tacos",
+    "slug": "burritos-and-tacos",
+    "image": "/products/burritos-and-tacos.png"
+  },
+  {
+    "id": 23,
+    "name": "Burgers",
+    "slug": "burgers",
+    "image": "/products/burgers.png"
+  },
+  {
+    "id": 24,
+    "name": "Frankfurter sanwiches",
+    "slug": "frankfurter-sanwiches",
+    "image": "/products/frankfurter-sanwiches.png"
+  },
+  {
+    "id": 25,
+    "name": "Soups, broth based",
+    "slug": "soups-broth-based",
+    "image": "/products/soups-broth-based.png"
+  },
+  {
+    "id": 26,
+    "name": "Ramen and Asian broth-based soups",
+    "slug": "ramen-and-asian-broth-based-soups",
+    "image": "/products/ramen-and-asian-broth-based-soups.png"
+  },
+  {
+    "id": 27,
+    "name": "Yeast breads",
+    "slug": "yeast-breads",
+    "image": "/products/yeast-breads.png"
+  },
+  {
+    "id": 28,
+    "name": "Rolls and buns",
+    "slug": "rolls-and-buns",
+    "image": "/products/rolls-and-buns.png"
+  },
+  {
+    "id": 29,
+    "name": "Bagels and English muffins",
+    "slug": "bagels-and-english-muffins",
+    "image": "/products/bagels-and-english-muffins.png"
+  },
+  {
+    "id": 30,
+    "name": "Crackers, excludes saltines",
+    "slug": "crackers-excludes-saltines",
+    "image": "/products/crackers-excludes-saltines.png"
+  },
+  {
+    "id": 31,
+    "name": "Biscuits, muffins, quick breads",
+    "slug": "biscuits-muffins-quick-breads",
+    "image": "/products/biscuits-muffins-quick-breads.png"
+  },
+  {
+    "id": 32,
+    "name": "Tortillas",
+    "slug": "tortillas",
+    "image": "/products/tortillas.png"
+  },
+  {
+    "id": 33,
+    "name": "Pancakes, waffles, French toast",
+    "slug": "pancakes-waffles-french-toast",
+    "image": "/products/pancakes-waffles-french-toast.png"
+  },
+  {
+    "id": 34,
+    "name": "Nutrition bars",
+    "slug": "nutrition-bars",
+    "image": "/products/nutrition-bars.png"
+  },
+  {
+    "id": 35,
+    "name": "Saltine crackers",
+    "slug": "saltine-crackers",
+    "image": "/products/saltine-crackers.png"
+  },
+  {
+    "id": 36,
+    "name": "Popcorn",
+    "slug": "popcorn",
+    "image": "/products/popcorn.png"
+  },
+  {
+    "id": 37,
+    "name": "Oatmeal",
+    "slug": "oatmeal",
+    "image": "/products/oatmeal.png"
+  },
+  {
+    "id": 38,
+    "name": "Other Mexican mixed dishes",
+    "slug": "other-mexican-mixed-dishes",
+    "image": "/products/other-mexican-mixed-dishes.png"
+  },
+  {
+    "id": 39,
+    "name": "Nachos",
+    "slug": "nachos",
+    "image": "/products/nachos.png"
+  },
+  {
+    "id": 40,
+    "name": "Jams, syrups, toppings",
+    "slug": "jams-syrups-toppings",
+    "image": "/products/jams-syrups-toppings.png"
+  },
+  {
+    "id": 41,
+    "name": "Grapes",
+    "slug": "grapes",
+    "image": "/products/grapes.png"
+  },
+  {
+    "id": 42,
+    "name": "Mango and papaya",
+    "slug": "mango-and-papaya",
+    "image": "/products/mango-and-papaya.png"
+  },
+  {
+    "id": 43,
+    "name": "Peaches and nectarines",
+    "slug": "peaches-and-nectarines",
+    "image": "/products/peaches-and-nectarines.png"
+  },
+  {
+    "id": 44,
+    "name": "Pears",
+    "slug": "pears",
+    "image": "/products/pears.png"
+  },
+  {
+    "id": 45,
+    "name": "food/pineapple",
+    "slug": "pineapple",
+    "image": "/products/pineapple.png"
+  },
+  {
+    "id": 46,
+    "name": "food/strawberries",
+    "slug": "strawberries",
+    "image": "/products/strawberries.png"
+  },
+  {
+    "id": 47,
+    "name": "food/gelatins ices sorbets",
+    "slug": "gelatins-ices-sorbets",
+    "image": "/products/gelatins-ices-sorbets.png"
+  },
+  {
+    "id": 48,
+    "name": "food/broccoli",
+    "slug": "broccoli",
+    "image": "/products/broccoli.png"
+  },
+  {
+    "id": 49,
+    "name": "food/spinach",
+    "slug": "spinach",
+    "image": "/products/spinach.png"
+  },
+  {
+    "id": 50,
+    "name": "food/carrots",
+    "slug": "carrots",
+    "image": "/products/carrots.png"
+  },
+  {
+    "id": 51,
+    "name": "food/cabbage",
+    "slug": "cabbage",
+    "image": "/products/cabbage.png"
+  },
+  {
+    "id": 52,
+    "name": "food/corn",
+    "slug": "corn",
+    "image": "/products/corn.png"
+  },
+  {
+    "id": 53,
+    "name": "food/onions",
+    "slug": "onions",
+    "image": "/products/onions.png"
+  },
+  {
+    "id": 54,
+    "name": "food/margarine",
+    "slug": "margarine",
+    "image": "/products/margarine.png"
+  },
+  {
+    "id": 55,
+    "name": "food/mayonnaise",
+    "slug": "mayonnaise",
+    "image": "/products/mayonnaise.png"
+  },
+  {
+    "id": 56,
+    "name": "food/sugars and honey",
+    "slug": "sugars-and-honey",
+    "image": "/products/sugars-and-honey.png"
+  },
+  {
+    "id": 57,
+    "name": "food/sugar substitutes",
+    "slug": "sugar-substitutes",
+    "image": "/products/sugar-substitutes.png"
+  },
+  {
+    "id": 58,
+    "name": "food/beer",
+    "slug": "beer",
+    "image": "/products/beer.png"
+  },
+  {
+    "id": 59,
+    "name": "food/liquor and cocktails",
+    "slug": "liquor-and-cocktails",
+    "image": "/products/liquor-and-cocktails.png"
+  },
+  {
+    "id": 60,
+    "name": "food/wine",
+    "slug": "wine",
+    "image": "/products/wine.png"
+  },
+  {
+    "id": 61,
+    "name": "food/protein and nutritional powders",
+    "slug": "protein-and-nutritional-powders",
+    "image": "/products/protein-and-nutritional-powders.png"
+  }
+]

@@ -1,0 +1,2018 @@
+{
+  "vitamin-a": {
+    "slug": "vitamin-a",
+    "title": "Vitamin A (Retinol)",
+    "category": "Nutrients/vitamins",
+    "DRI": {
+      "Children": {
+        "Infants (0-6 months)": "0.40 mg",
+        "Infants (7-12 months)": "0.50 mg",
+        "Young (1-3 years)": "0.30 mg",
+        "Preschool (4-8 years)": "0.40 mg",
+        "School-age (9-13 years)": "0.60 mg"
+      },
+      "Male": {
+        "Teens (14-18 years)": "0.90 mg",
+        "Adults (19-30 years)": "0.90 mg",
+        "Middle-aged (31-50 years)": "0.90 mg",
+        "Older Adults (51-70 years)": "0.90 mg",
+        "The Elderly (71+ years)": "0.90 mg"
+      },
+      "Female": {
+        "Teens (14-18 years)": "0.70 mg",
+        "Adults (19-30 years)": "0.70 mg",
+        "Middle-aged (31-50 years)": "0.70 mg",
+        "Older Adults (51-70 years)": "0.70 mg",
+        "The Elderly (71+ years)": "0.70 mg"
+      }
+    }
+  },
+  "vitamin-b1": {
+    "slug": "vitamin-b1",
+    "title": "Vitamin B1 (Thiamine)",
+    "category": "Nutrients/vitamins",
+    "DRI": {
+      "Children": {
+        "Infants (0-6 months)": "0.2 mg",
+        "Infants (7-12 months)": "0.3 mg",
+        "Young (1-3 years)": "0.5 mg",
+        "Preschool (4-8 years)": "0.6 mg",
+        "School-age (9-13 years)": "0.9 mg"
+      },
+      "Male": {
+        "Teens (14-18 years)": "1.2 mg",
+        "Adults (19-30 years)": "1.2 mg",
+        "Middle-aged (31-50 years)": "1.2 mg",
+        "Older Adults (51-70 years)": "1.2 mg",
+        "The Elderly (71+ years)": "1.2 mg"
+      },
+      "Female": {
+        "Teens (14-18 years)": "1.0 mg",
+        "Adults (19-30 years)": "1.1 mg",
+        "Middle-aged (31-50 years)": "1.1 mg",
+        "Older Adults (51-70 years)": "1.1 mg",
+        "The Elderly (71+ years)": "1.1 mg"
+      }
+    }
+  },
+  "vitamin-b12": {
+    "slug": "vitamin-b12",
+    "title": "Vitamin B12 (Cobalamin)",
+    "category": "Nutrients/vitamins",
+    "DRI": {
+      "Children": {
+        "Infants (0-6 months)": "0.4 mcg",
+        "Infants (7-12 months)": "0.5 mcg",
+        "Young (1-3 years)": "0.9 mcg",
+        "Preschool (4-8 years)": "1.2 mcg",
+        "School-age (9-13 years)": "1.8 mcg"
+      },
+      "Male": {
+        "Teens (14-18 years)": "2.4 mcg",
+        "Adults (19-30 years)": "2.4 mcg",
+        "Middle-aged (31-50 years)": "2.4 mcg",
+        "Older Adults (51-70 years)": "2.4 mcg",
+        "The Elderly (71+ years)": "2.4 mcg"
+      },
+      "Female": {
+        "Teens (14-18 years)": "2.4 mcg",
+        "Adults (19-30 years)": "2.4 mcg",
+        "Middle-aged (31-50 years)": "2.4 mcg",
+        "Older Adults (51-70 years)": "2.4 mcg",
+        "The Elderly (71+ years)": "2.4 mcg"
+      }
+    }
+  },
+  "vitamin-b2": {
+    "slug": "vitamin-b2",
+    "title": "Vitamin B2 (Riboflavin)",
+    "category": "Nutrients/vitamins",
+    "DRI": {
+      "Children": {
+        "Infants (0-6 months)": "0.3 mg",
+        "Infants (7-12 months)": "0.4 mg",
+        "Young (1-3 years)": "0.5 mg",
+        "Preschool (4-8 years)": "0.6 mg",
+        "School-age (9-13 years)": "0.9 mg"
+      },
+      "Male": {
+        "Teens (14-18 years)": "1.3 mg",
+        "Adults (19-30 years)": "1.3 mg",
+        "Middle-aged (31-50 years)": "1.3 mg",
+        "Older Adults (51-70 years)": "1.3 mg",
+        "The Elderly (71+ years)": "1.3 mg"
+      },
+      "Female": {
+        "Teens (14-18 years)": "1.0 mg",
+        "Adults (19-30 years)": "1.1 mg",
+        "Middle-aged (31-50 years)": "1.1 mg",
+        "Older Adults (51-70 years)": "1.1 mg",
+        "The Elderly (71+ years)": "1.1 mg"
+      }
+    }
+  },
+  "vitamin-b3": {
+  "slug": "vitamin-b3",
+  "title": "Vitamin B3 (Niacin)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "2 mg",
+      "Infants (7-12 months)": "4 mg",
+      "Young (1-3 years)": "6 mg",
+      "Preschool (4-8 years)": "8 mg",
+      "School-age (9-13 years)": "12 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "16 mg",
+      "Adults (19-30 years)": "16 mg",
+      "Middle-aged (31-50 years)": "16 mg",
+      "Older Adults (51-70 years)": "16 mg",
+      "The Elderly (71+ years)": "16 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "14 mg",
+      "Adults (19-30 years)": "14 mg",
+      "Middle-aged (31-50 years)": "14 mg",
+      "Older Adults (51-70 years)": "14 mg",
+      "The Elderly (71+ years)": "14 mg"
+    }
+  }
+  },
+  "vitamin-b5": {
+    "slug": "vitamin-b5",
+    "title": "Vitamin B5 (Pantothenic Acid)",
+    "category": "Nutrients/vitamins",
+    "DRI": {
+      "Children": {
+        "Infants (0-6 months)": "1.7 mg",
+        "Infants (7-12 months)": "1.8 mg",
+        "Young (1-3 years)": "2 mg",
+        "Preschool (4-8 years)": "3 mg",
+        "School-age (9-13 years)": "4 mg"
+      },
+      "Male": {
+        "Teens (14-18 years)": "5 mg",
+        "Adults (19-30 years)": "5 mg",
+        "Middle-aged (31-50 years)": "5 mg",
+        "Older Adults (51-70 years)": "5 mg",
+        "The Elderly (71+ years)": "5 mg"
+      },
+      "Female": {
+        "Teens (14-18 years)": "5 mg",
+        "Adults (19-30 years)": "5 mg",
+        "Middle-aged (31-50 years)": "5 mg",
+        "Older Adults (51-70 years)": "5 mg",
+        "The Elderly (71+ years)": "5 mg"
+      }
+    }
+  },
+  "vitamin-b6": {
+  "slug": "vitamin-b6",
+  "title": "Vitamin B6 (Pyridoxine)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "0.1 mg",
+      "Infants (7-12 months)": "0.3 mg",
+      "Young (1-3 years)": "0.5 mg",
+      "Preschool (4-8 years)": "0.6 mg",
+      "School-age (9-13 years)": "1.0 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "1.3 mg",
+      "Adults (19-30 years)": "1.3 mg",
+      "Middle-aged (31-50 years)": "1.3 mg",
+      "Older Adults (51-70 years)": "1.7 mg",
+      "The Elderly (71+ years)": "1.7 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "1.2 mg",
+      "Adults (19-30 years)": "1.3 mg",
+      "Middle-aged (31-50 years)": "1.3 mg",
+      "Older Adults (51-70 years)": "1.5 mg",
+      "The Elderly (71+ years)": "1.5 mg"
+    }
+  }
+  },
+  "vitamin-b7": { 
+  "slug": "vitamin-b7",
+  "title": "Vitamin B7 (Biotin)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "5 mcg",
+      "Infants (7-12 months)": "6 mcg",
+      "Young (1-3 years)": "8 mcg",
+      "Preschool (4-8 years)": "12 mcg",
+      "School-age (9-13 years)": "20 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "25 mcg",
+      "Adults (19-30 years)": "30 mcg",
+      "Middle-aged (31-50 years)": "30 mcg",
+      "Older Adults (51-70 years)": "30 mcg",
+      "The Elderly (71+ years)": "30 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "25 mcg",
+      "Adults (19-30 years)": "30 mcg",
+      "Middle-aged (31-50 years)": "30 mcg",
+      "Older Adults (51-70 years)": "30 mcg",
+      "The Elderly (71+ years)": "30 mcg"
+    }
+  }
+  },
+  "vitamin-b9": {
+  "slug": "vitamin-b9",
+  "title": "Vitamin B9 (Folate)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "65 mcg",
+      "Infants (7-12 months)": "80 mcg",
+      "Young (1-3 years)": "150 mcg",
+      "Preschool (4-8 years)": "200 mcg",
+      "School-age (9-13 years)": "300 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "400 mcg",
+      "Adults (19-30 years)": "400 mcg",
+      "Middle-aged (31-50 years)": "400 mcg",
+      "Older Adults (51-70 years)": "400 mcg",
+      "The Elderly (71+ years)": "400 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "400 mcg",
+      "Adults (19-30 years)": "400 mcg",
+      "Middle-aged (31-50 years)": "400 mcg",
+      "Older Adults (51-70 years)": "400 mcg",
+      "The Elderly (71+ years)": "400 mcg"
+    }
+  }
+  },
+  "vitamin-c": {
+  "slug": "vitamin-c",
+  "title": "Vitamin C (Ascorbic Acid)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "40 mg",
+      "Infants (7-12 months)": "50 mg",
+      "Young (1-3 years)": "15 mg",
+      "Preschool (4-8 years)": "25 mg",
+      "School-age (9-13 years)": "45 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "75 mg",
+      "Adults (19-30 years)": "90 mg",
+      "Middle-aged (31-50 years)": "90 mg",
+      "Older Adults (51-70 years)": "90 mg",
+      "The Elderly (71+ years)": "90 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "65 mg",
+      "Adults (19-30 years)": "75 mg",
+      "Middle-aged (31-50 years)": "75 mg",
+      "Older Adults (51-70 years)": "75 mg",
+      "The Elderly (71+ years)": "75 mg"
+    }
+  }
+  },
+  "vitamin-d": {
+  "slug": "vitamin-d",
+  "title": "Vitamin D (Calciferol)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "10 mcg",
+      "Infants (7-12 months)": "15 mcg",
+      "Young (1-3 years)": "15 mcg",
+      "Preschool (4-8 years)": "15 mcg",
+      "School-age (9-13 years)": "15 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "15 mcg",
+      "Adults (19-30 years)": "15 mcg",
+      "Middle-aged (31-50 years)": "15 mcg",
+      "Older Adults (51-70 years)": "15 mcg",
+      "The Elderly (71+ years)": "20 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "15 mcg",
+      "Adults (19-30 years)": "15 mcg",
+      "Middle-aged (31-50 years)": "15 mcg",
+      "Older Adults (51-70 years)": "15 mcg",
+      "The Elderly (71+ years)": "20 mcg"
+    }
+  }
+  },
+  "vitamin-e": {
+  "slug": "vitamin-e",
+  "title": "Vitamin E (Alpha-Tocopherol)",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "4 mg",
+      "Infants (7-12 months)": "5 mg",
+      "Young (1-3 years)": "6 mg",
+      "Preschool (4-8 years)": "7 mg",
+      "School-age (9-13 years)": "11 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "15 mg",
+      "Adults (19-30 years)": "15 mg",
+      "Middle-aged (31-50 years)": "15 mg",
+      "Older Adults (51-70 years)": "15 mg",
+      "The Elderly (71+ years)": "15 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "15 mg",
+      "Adults (19-30 years)": "15 mg",
+      "Middle-aged (31-50 years)": "15 mg",
+      "Older Adults (51-70 years)": "15 mg",
+      "The Elderly (71+ years)": "15 mg"
+    }
+  }
+  },
+  "vitamin-k": {
+  "slug": "vitamin-k",
+  "title": "Vitamin K",
+  "category": "Nutrients/vitamins",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "2 mcg",
+      "Infants (7-12 months)": "2.5 mcg",
+      "Young (1-3 years)": "30 mcg",
+      "Preschool (4-8 years)": "55 mcg",
+      "School-age (9-13 years)": "60 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "75 mcg",
+      "Adults (19-30 years)": "120 mcg",
+      "Middle-aged (31-50 years)": "120 mcg",
+      "Older Adults (51-70 years)": "120 mcg",
+      "The Elderly (71+ years)": "120 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "75 mcg",
+      "Adults (19-30 years)": "90 mcg",
+      "Middle-aged (31-50 years)": "90 mcg",
+      "Older Adults (51-70 years)": "90 mcg",
+      "The Elderly (71+ years)": "90 mcg"
+    }
+  }
+  },
+  "protein": {
+  "slug": "protein",
+  "title": "Protein",
+  "category": "Nutrients/macronutrients",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "9 g",
+      "Infants (7-12 months)": "11 g",
+      "Young (1-3 years)": "13 g",
+      "Preschool (4-8 years)": "19 g",
+      "School-age (9-13 years)": "34 g"
+    },
+    "Male": {
+      "Teens (14-18 years)": "52 g",
+      "Adults (19-30 years)": "56 g",
+      "Middle-aged (31-50 years)": "56 g",
+      "Older Adults (51-70 years)": "56 g",
+      "The Elderly (71+ years)": "56 g"
+    },
+    "Female": {
+      "Teens (14-18 years)": "46 g",
+      "Adults (19-30 years)": "46 g",
+      "Middle-aged (31-50 years)": "46 g",
+      "Older Adults (51-70 years)": "46 g",
+      "The Elderly (71+ years)": "46 g"
+    }
+  }
+  },
+  "carbohydrates": {
+  "slug": "carbohydrates",
+  "title": "Carbohydrates",
+  "category": "Nutrients/macronutrients",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "60 g",
+      "Infants (7-12 months)": "95 g",
+      "Young (1-3 years)": "130 g",
+      "Preschool (4-8 years)": "130 g",
+      "School-age (9-13 years)": "130 g"
+    },
+    "Male": {
+      "Teens (14-18 years)": "130 g",
+      "Adults (19-30 years)": "130 g",
+      "Middle-aged (31-50 years)": "130 g",
+      "Older Adults (51-70 years)": "130 g",
+      "The Elderly (71+ years)": "130 g"
+    },
+    "Female": {
+      "Teens (14-18 years)": "130 g",
+      "Adults (19-30 years)": "130 g",
+      "Middle-aged (31-50 years)": "130 g",
+      "Older Adults (51-70 years)": "130 g",
+      "The Elderly (71+ years)": "130 g"
+    }
+  }
+  },
+  "fats": {
+    "slug": "fats",
+    "title": "Fats",
+    "category": "Nutrients/macronutrients",
+    "DRI": {
+      "Children": {
+        "Infants (0-6 months)": "31 g",
+        "Infants (7-12 months)": "30 g",
+        "Young (1-3 years)": "30-40% of calories",
+        "Preschool (4-8 years)": "25-35% of calories",
+        "School-age (9-13 years)": "25-35% of calories"
+      },
+      "Male": {
+        "Teens (14-18 years)": "25-35% of calories",
+        "Adults (19-30 years)": "20-35% of calories",
+        "Middle-aged (31-50 years)": "20-35% of calories",
+        "Older Adults (51-70 years)": "20-35% of calories",
+        "The Elderly (71+ years)": "20-35% of calories"
+      },
+      "Female": {
+        "Teens (14-18 years)": "25-35% of calories",
+        "Adults (19-30 years)": "20-35% of calories",
+        "Middle-aged (31-50 years)": "20-35% of calories",
+        "Older Adults (51-70 years)": "20-35% of calories",
+        "The Elderly (71+ years)": "20-35% of calories"
+      }
+    }
+  },
+  "histidine": {
+  "slug": "histidine",
+  "title": "Histidine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "22 mg/kg",
+      "Young (1-3 years)": "22 mg/kg",
+      "Preschool (4-8 years)": "15 mg/kg",
+      "School-age (9-13 years)": "15 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "12 mg/kg",
+      "Adults (19-30 years)": "10 mg/kg",
+      "Middle-aged (31-50 years)": "10 mg/kg",
+      "Older Adults (51-70 years)": "10 mg/kg",
+      "The Elderly (71+ years)": "10 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "12 mg/kg",
+      "Adults (19-30 years)": "10 mg/kg",
+      "Middle-aged (31-50 years)": "10 mg/kg",
+      "Older Adults (51-70 years)": "10 mg/kg",
+      "The Elderly (71+ years)": "10 mg/kg"
+    }
+  }
+  },
+  "isoleucine": {
+  "slug": "isoleucine",
+  "title": "Isoleucine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "36 mg/kg",
+      "Young (1-3 years)": "31 mg/kg",
+      "Preschool (4-8 years)": "28 mg/kg",
+      "School-age (9-13 years)": "28 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "19 mg/kg",
+      "Adults (19-30 years)": "19 mg/kg",
+      "Middle-aged (31-50 years)": "19 mg/kg",
+      "Older Adults (51-70 years)": "19 mg/kg",
+      "The Elderly (71+ years)": "19 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "19 mg/kg",
+      "Adults (19-30 years)": "19 mg/kg",
+      "Middle-aged (31-50 years)": "19 mg/kg",
+      "Older Adults (51-70 years)": "19 mg/kg",
+      "The Elderly (71+ years)": "19 mg/kg"
+    }
+  }
+  },
+  "leucine": {
+  "slug": "leucine",
+  "title": "Leucine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "73 mg/kg",
+      "Young (1-3 years)": "44 mg/kg",
+      "Preschool (4-8 years)": "42 mg/kg",
+      "School-age (9-13 years)": "42 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "38 mg/kg",
+      "Adults (19-30 years)": "42 mg/kg",
+      "Middle-aged (31-50 years)": "42 mg/kg",
+      "Older Adults (51-70 years)": "42 mg/kg",
+      "The Elderly (71+ years)": "42 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "38 mg/kg",
+      "Adults (19-30 years)": "42 mg/kg",
+      "Middle-aged (31-50 years)": "42 mg/kg",
+      "Older Adults (51-70 years)": "42 mg/kg",
+      "The Elderly (71+ years)": "42 mg/kg"
+    }
+  }
+  },
+  "lysine": {
+  "slug": "lysine",
+  "title": "Lysine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "68 mg/kg",
+      "Young (1-3 years)": "43 mg/kg",
+      "Preschool (4-8 years)": "38 mg/kg",
+      "School-age (9-13 years)": "38 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "38 mg/kg",
+      "Adults (19-30 years)": "38 mg/kg",
+      "Middle-aged (31-50 years)": "38 mg/kg",
+      "Older Adults (51-70 years)": "38 mg/kg",
+      "The Elderly (71+ years)": "38 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "38 mg/kg",
+      "Adults (19-30 years)": "38 mg/kg",
+      "Middle-aged (31-50 years)": "38 mg/kg",
+      "Older Adults (51-70 years)": "38 mg/kg",
+      "The Elderly (71+ years)": "38 mg/kg"
+    }
+  }
+  },
+  "methionine": {
+  "slug": "methionine",
+  "title": "Methionine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "23 mg/kg",
+      "Young (1-3 years)": "17 mg/kg",
+      "Preschool (4-8 years)": "19 mg/kg",
+      "School-age (9-13 years)": "19 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "19 mg/kg",
+      "Adults (19-30 years)": "16 mg/kg",
+      "Middle-aged (31-50 years)": "16 mg/kg",
+      "Older Adults (51-70 years)": "16 mg/kg",
+      "The Elderly (71+ years)": "16 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "19 mg/kg",
+      "Adults (19-30 years)": "16 mg/kg",
+      "Middle-aged (31-50 years)": "16 mg/kg",
+      "Older Adults (51-70 years)": "16 mg/kg",
+      "The Elderly (71+ years)": "16 mg/kg"
+    }
+  }
+  },
+  "phenylalanine": {
+  "slug": "phenylalanine",
+  "title": "Phenylalanine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "9.1 mg/kg",
+      "Middle-aged (31-50 years)": "9.1 mg/kg",
+      "Older Adults (51-70 years)": "9.1 mg/kg",
+      "The Elderly (71+ years)": "9.1 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "9.1 mg/kg",
+      "Middle-aged (31-50 years)": "9.1 mg/kg",
+      "Older Adults (51-70 years)": "9.1 mg/kg",
+      "The Elderly (71+ years)": "9.1 mg/kg"
+    }
+  }
+  },
+  "threonine": {
+  "slug": "threonine",
+  "title": "Threonine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "31 mg/kg",
+      "Young (1-3 years)": "20 mg/kg",
+      "Preschool (4-8 years)": "20 mg/kg",
+      "School-age (9-13 years)": "20 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "20 mg/kg",
+      "Adults (19-30 years)": "20 mg/kg",
+      "Middle-aged (31-50 years)": "20 mg/kg",
+      "Older Adults (51-70 years)": "20 mg/kg",
+      "The Elderly (71+ years)": "20 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "20 mg/kg",
+      "Adults (19-30 years)": "20 mg/kg",
+      "Middle-aged (31-50 years)": "20 mg/kg",
+      "Older Adults (51-70 years)": "20 mg/kg",
+      "The Elderly (71+ years)": "20 mg/kg"
+    }
+  }
+  },
+  "tryptophan": {
+  "slug": "tryptophan",
+  "title": "Tryptophan",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "4 mg/kg",
+      "Young (1-3 years)": "6 mg/kg",
+      "Preschool (4-8 years)": "6 mg/kg",
+      "School-age (9-13 years)": "5 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "5 mg/kg",
+      "Adults (19-30 years)": "4 mg/kg",
+      "Middle-aged (31-50 years)": "4 mg/kg",
+      "Older Adults (51-70 years)": "4 mg/kg",
+      "The Elderly (71+ years)": "4 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "5 mg/kg",
+      "Adults (19-30 years)": "4 mg/kg",
+      "Middle-aged (31-50 years)": "4 mg/kg",
+      "Older Adults (51-70 years)": "4 mg/kg",
+      "The Elderly (71+ years)": "4 mg/kg"
+    }
+  }
+  },
+  "valine": {
+  "slug": "valine",
+  "title": "Valine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "39 mg/kg",
+      "Young (1-3 years)": "26 mg/kg",
+      "Preschool (4-8 years)": "25 mg/kg",
+      "School-age (9-13 years)": "25 mg/kg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "24 mg/kg",
+      "Adults (19-30 years)": "24 mg/kg",
+      "Middle-aged (31-50 years)": "24 mg/kg",
+      "Older Adults (51-70 years)": "24 mg/kg",
+      "The Elderly (71+ years)": "24 mg/kg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "24 mg/kg",
+      "Adults (19-30 years)": "24 mg/kg",
+      "Middle-aged (31-50 years)": "24 mg/kg",
+      "Older Adults (51-70 years)": "24 mg/kg",
+      "The Elderly (71+ years)": "24 mg/kg"
+    }
+  }
+  },
+  "alpha-linolenic-acid": {
+  "slug": "alpha-linolenic-acid",
+  "title": "Alpha-Linolenic Acid (ALA)",
+  "category": "Nutrients/fats",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "0.5 g",
+      "Infants (7-12 months)": "0.5 g",
+      "Young (1-3 years)": "0.7 g",
+      "Preschool (4-8 years)": "0.9 g",
+      "School-age (9-13 years)": "1.0 g"
+    },
+    "Male": {
+      "Teens (14-18 years)": "1.6 g",
+      "Adults (19-30 years)": "1.6 g",
+      "Middle-aged (31-50 years)": "1.6 g",
+      "Older Adults (51-70 years)": "1.6 g",
+      "The Elderly (71+ years)": "1.6 g"
+    },
+    "Female": {
+      "Teens (14-18 years)": "1.1 g",
+      "Adults (19-30 years)": "1.1 g",
+      "Middle-aged (31-50 years)": "1.1 g",
+      "Older Adults (51-70 years)": "1.1 g",
+      "The Elderly (71+ years)": "1.1 g"
+    }
+  }
+  },
+  "epa-dha": {
+  "slug": "epa-dha",
+  "title": "EPA & DHA (Omega-3 Fatty Acids)",
+  "category": "Nutrients/fats",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "calcium": {
+  "slug": "calcium",
+  "title": "Calcium",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "200 mg",
+      "Infants (7-12 months)": "260 mg",
+      "Young (1-3 years)": "700 mg",
+      "Preschool (4-8 years)": "1,000 mg",
+      "School-age (9-13 years)": "1,300 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "1,300 mg",
+      "Adults (19-30 years)": "1,000 mg",
+      "Middle-aged (31-50 years)": "1,000 mg",
+      "Older Adults (51-70 years)": "1,000 mg",
+      "The Elderly (71+ years)": "1,200 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "1,300 mg",
+      "Adults (19-30 years)": "1,000 mg",
+      "Middle-aged (31-50 years)": "1,000 mg",
+      "Older Adults (51-70 years)": "1,200 mg",
+      "The Elderly (71+ years)": "1,200 mg"
+    }
+  }
+  },
+  "phosphorus": {
+  "slug": "phosphorus",
+  "title": "Phosphorus",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "100 mg",
+      "Infants (7-12 months)": "275 mg",
+      "Young (1-3 years)": "460 mg",
+      "Preschool (4-8 years)": "500 mg",
+      "School-age (9-13 years)": "1,250 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "1,250 mg",
+      "Adults (19-30 years)": "700 mg",
+      "Middle-aged (31-50 years)": "700 mg",
+      "Older Adults (51-70 years)": "700 mg",
+      "The Elderly (71+ years)": "700 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "1,250 mg",
+      "Adults (19-30 years)": "700 mg",
+      "Middle-aged (31-50 years)": "700 mg",
+      "Older Adults (51-70 years)": "700 mg",
+      "The Elderly (71+ years)": "700 mg"
+    }
+  }
+  },
+  "magnesium": {
+  "slug": "magnesium",
+  "title": "Magnesium",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "30 mg",
+      "Infants (7-12 months)": "75 mg",
+      "Young (1-3 years)": "80 mg",
+      "Preschool (4-8 years)": "130 mg",
+      "School-age (9-13 years)": "240 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "410 mg",
+      "Adults (19-30 years)": "400 mg",
+      "Middle-aged (31-50 years)": "420 mg",
+      "Older Adults (51-70 years)": "420 mg",
+      "The Elderly (71+ years)": "420 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "360 mg",
+      "Adults (19-30 years)": "310 mg",
+      "Middle-aged (31-50 years)": "320 mg",
+      "Older Adults (51-70 years)": "320 mg",
+      "The Elderly (71+ years)": "320 mg"
+    }
+  }
+  },
+  "sodium": {
+  "slug": "sodium",
+  "title": "Sodium",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "110 mg",
+      "Infants (7-12 months)": "370 mg",
+      "Young (1-3 years)": "1,200 mg",
+      "Preschool (4-8 years)": "1,500 mg",
+      "School-age (9-13 years)": "1,800 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "2,300 mg",
+      "Adults (19-30 years)": "2,300 mg",
+      "Middle-aged (31-50 years)": "2,300 mg",
+      "Older Adults (51-70 years)": "2,300 mg",
+      "The Elderly (71+ years)": "2,300 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "2,300 mg",
+      "Adults (19-30 years)": "2,300 mg",
+      "Middle-aged (31-50 years)": "2,300 mg",
+      "Older Adults (51-70 years)": "2,300 mg",
+      "The Elderly (71+ years)": "2,300 mg"
+    }
+  }
+  },
+  "potassium": {
+  "slug": "potassium",
+  "title": "Potassium",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "400 mg",
+      "Infants (7-12 months)": "860 mg",
+      "Young (1-3 years)": "2,000 mg",
+      "Preschool (4-8 years)": "2,300 mg",
+      "School-age (9-13 years)": "2,500 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "3,000 mg",
+      "Adults (19-30 years)": "3,400 mg",
+      "Middle-aged (31-50 years)": "3,400 mg",
+      "Older Adults (51-70 years)": "3,400 mg",
+      "The Elderly (71+ years)": "3,400 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "2,300 mg",
+      "Adults (19-30 years)": "2,600 mg",
+      "Middle-aged (31-50 years)": "2,600 mg",
+      "Older Adults (51-70 years)": "2,600 mg",
+      "The Elderly (71+ years)": "2,600 mg"
+    }
+  }
+  },
+  "chloride": {
+  "slug": "chloride",
+  "title": "Chloride",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "180 mg",
+      "Infants (7-12 months)": "570 mg",
+      "Young (1-3 years)": "1,500 mg",
+      "Preschool (4-8 years)": "1,900 mg",
+      "School-age (9-13 years)": "2,300 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "2,300 mg",
+      "Adults (19-30 years)": "2,300 mg",
+      "Middle-aged (31-50 years)": "2,300 mg",
+      "Older Adults (51-70 years)": "2,300 mg",
+      "The Elderly (71+ years)": "2,000 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "2,300 mg",
+      "Adults (19-30 years)": "2,300 mg",
+      "Middle-aged (31-50 years)": "2,300 mg",
+      "Older Adults (51-70 years)": "2,300 mg",
+      "The Elderly (71+ years)": "2,000 mg"
+    }
+  }
+  },
+  "sulfur": {
+  "slug": "sulfur",
+  "title": "Sulfur",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "iron": {
+  "slug": "iron",
+  "title": "Iron",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "0.27 mg",
+      "Infants (7-12 months)": "11 mg",
+      "Young (1-3 years)": "7 mg",
+      "Preschool (4-8 years)": "10 mg",
+      "School-age (9-13 years)": "8 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "11 mg",
+      "Adults (19-30 years)": "8 mg",
+      "Middle-aged (31-50 years)": "8 mg",
+      "Older Adults (51-70 years)": "8 mg",
+      "The Elderly (71+ years)": "8 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "15 mg",
+      "Adults (19-30 years)": "18 mg",
+      "Middle-aged (31-50 years)": "18 mg",
+      "Older Adults (51-70 years)": "8 mg",
+      "The Elderly (71+ years)": "8 mg"
+    }
+  }
+  },
+  "zinc": {
+  "slug": "zinc",
+  "title": "Zinc",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "2 mg",
+      "Infants (7-12 months)": "3 mg",
+      "Young (1-3 years)": "3 mg",
+      "Preschool (4-8 years)": "5 mg",
+      "School-age (9-13 years)": "8 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "11 mg",
+      "Adults (19-30 years)": "11 mg",
+      "Middle-aged (31-50 years)": "11 mg",
+      "Older Adults (51-70 years)": "11 mg",
+      "The Elderly (71+ years)": "11 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "9 mg",
+      "Adults (19-30 years)": "8 mg",
+      "Middle-aged (31-50 years)": "8 mg",
+      "Older Adults (51-70 years)": "8 mg",
+      "The Elderly (71+ years)": "8 mg"
+    }
+  }
+  },
+  "copper": {
+  "slug": "copper",
+  "title": "Copper",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "200 mcg",
+      "Infants (7-12 months)": "220 mcg",
+      "Young (1-3 years)": "340 mcg",
+      "Preschool (4-8 years)": "440 mcg",
+      "School-age (9-13 years)": "700 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "890 mcg",
+      "Adults (19-30 years)": "900 mcg",
+      "Middle-aged (31-50 years)": "900 mcg",
+      "Older Adults (51-70 years)": "900 mcg",
+      "The Elderly (71+ years)": "900 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "890 mcg",
+      "Adults (19-30 years)": "900 mcg",
+      "Middle-aged (31-50 years)": "900 mcg",
+      "Older Adults (51-70 years)": "900 mcg",
+      "The Elderly (71+ years)": "900 mcg"
+    }
+  }
+  },
+  "manganese": {
+  "slug": "manganese",
+  "title": "Manganese",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "0.003 mg",
+      "Infants (7-12 months)": "0.6 mg",
+      "Young (1-3 years)": "1.2 mg",
+      "Preschool (4-8 years)": "1.5 mg",
+      "School-age (9-13 years)": "1.9 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "2.2 mg",
+      "Adults (19-30 years)": "2.3 mg",
+      "Middle-aged (31-50 years)": "2.3 mg",
+      "Older Adults (51-70 years)": "2.3 mg",
+      "The Elderly (71+ years)": "2.3 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "1.6 mg",
+      "Adults (19-30 years)": "1.8 mg",
+      "Middle-aged (31-50 years)": "1.8 mg",
+      "Older Adults (51-70 years)": "1.8 mg",
+      "The Elderly (71+ years)": "1.8 mg"
+    }
+  }
+  },
+  "iodine": {
+  "slug": "iodine",
+  "title": "Iodine",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "110 mcg",
+      "Infants (7-12 months)": "130 mcg",
+      "Young (1-3 years)": "90 mcg",
+      "Preschool (4-8 years)": "90 mcg",
+      "School-age (9-13 years)": "120 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "150 mcg",
+      "Adults (19-30 years)": "150 mcg",
+      "Middle-aged (31-50 years)": "150 mcg",
+      "Older Adults (51-70 years)": "150 mcg",
+      "The Elderly (71+ years)": "150 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "150 mcg",
+      "Adults (19-30 years)": "150 mcg",
+      "Middle-aged (31-50 years)": "150 mcg",
+      "Older Adults (51-70 years)": "150 mcg",
+      "The Elderly (71+ years)": "150 mcg"
+    }
+  }
+  },
+  "selenium": {
+  "slug": "selenium",
+  "title": "Selenium",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "15 mcg",
+      "Infants (7-12 months)": "20 mcg",
+      "Young (1-3 years)": "20 mcg",
+      "Preschool (4-8 years)": "30 mcg",
+      "School-age (9-13 years)": "40 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "55 mcg",
+      "Adults (19-30 years)": "55 mcg",
+      "Middle-aged (31-50 years)": "55 mcg",
+      "Older Adults (51-70 years)": "55 mcg",
+      "The Elderly (71+ years)": "55 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "55 mcg",
+      "Adults (19-30 years)": "55 mcg",
+      "Middle-aged (31-50 years)": "55 mcg",
+      "Older Adults (51-70 years)": "55 mcg",
+      "The Elderly (71+ years)": "55 mcg"
+    }
+  }
+  },
+  "chromium": {
+  "slug": "chromium",
+  "title": "Chromium",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "0.2 mcg",
+      "Infants (7-12 months)": "5.5 mcg",
+      "Young (1-3 years)": "11 mcg",
+      "Preschool (4-8 years)": "15 mcg",
+      "School-age (9-13 years)": "25 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "35 mcg",
+      "Adults (19-30 years)": "35 mcg",
+      "Middle-aged (31-50 years)": "35 mcg",
+      "Older Adults (51-70 years)": "30 mcg",
+      "The Elderly (71+ years)": "30 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "24 mcg",
+      "Adults (19-30 years)": "25 mcg",
+      "Middle-aged (31-50 years)": "25 mcg",
+      "Older Adults (51-70 years)": "20 mcg",
+      "The Elderly (71+ years)": "20 mcg"
+    }
+  }
+  },
+  "molybdenum": {
+  "slug": "molybdenum",
+  "title": "Molybdenum",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "2 mcg",
+      "Infants (7-12 months)": "3 mcg",
+      "Young (1-3 years)": "17 mcg",
+      "Preschool (4-8 years)": "22 mcg",
+      "School-age (9-13 years)": "34 mcg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "43 mcg",
+      "Adults (19-30 years)": "45 mcg",
+      "Middle-aged (31-50 years)": "45 mcg",
+      "Older Adults (51-70 years)": "45 mcg",
+      "The Elderly (71+ years)": "45 mcg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "43 mcg",
+      "Adults (19-30 years)": "45 mcg",
+      "Middle-aged (31-50 years)": "45 mcg",
+      "Older Adults (51-70 years)": "45 mcg",
+      "The Elderly (71+ years)": "45 mcg"
+    }
+  }
+  },
+  "fluoride": {
+  "slug": "fluoride",
+  "title": "Fluoride",
+  "category": "Nutrients/minerals",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "0.01 mg",
+      "Infants (7-12 months)": "0.5 mg",
+      "Young (1-3 years)": "0.7 mg",
+      "Preschool (4-8 years)": "1.0 mg",
+      "School-age (9-13 years)": "2.0 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "3.0 mg",
+      "Adults (19-30 years)": "4.0 mg",
+      "Middle-aged (31-50 years)": "4.0 mg",
+      "Older Adults (51-70 years)": "4.0 mg",
+      "The Elderly (71+ years)": "4.0 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "3.0 mg",
+      "Adults (19-30 years)": "3.0 mg",
+      "Middle-aged (31-50 years)": "3.0 mg",
+      "Older Adults (51-70 years)": "3.0 mg",
+      "The Elderly (71+ years)": "3.0 mg"
+    }
+  }
+  },
+  "fiber": {
+  "slug": "fiber",
+  "title": "Fiber",
+  "category": "Nutrients/macronutrients",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "19 g",
+      "Preschool (4-8 years)": "25 g",
+      "School-age (9-13 years)": "31 g"
+    },
+    "Male": {
+      "Teens (14-18 years)": "38 g",
+      "Adults (19-30 years)": "38 g",
+      "Middle-aged (31-50 years)": "38 g",
+      "Older Adults (51-70 years)": "30 g",
+      "The Elderly (71+ years)": "30 g"
+    },
+    "Female": {
+      "Teens (14-18 years)": "26 g",
+      "Adults (19-30 years)": "25 g",
+      "Middle-aged (31-50 years)": "25 g",
+      "Older Adults (51-70 years)": "21 g",
+      "The Elderly (71+ years)": "21 g"
+    }
+  }
+  },
+  "creatine": {
+  "slug": "creatine",
+  "title": "Creatine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "probiotics": {
+  "slug": "probiotics",
+  "title": "Probiotics",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "antioxidants": {
+  "slug": "antioxidants",
+  "title": "Antioxidants",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "lutein": {
+  "slug": "lutein",
+  "title": "Lutein",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "zeaxanthin": {
+  "slug": "zeaxanthin",
+  "title": "Zeaxanthin",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "choline": {
+  "slug": "choline",
+  "title": "Choline",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "125 mg",
+      "Infants (7-12 months)": "150 mg",
+      "Young (1-3 years)": "200 mg",
+      "Preschool (4-8 years)": "250 mg",
+      "School-age (9-13 years)": "375 mg"
+    },
+    "Male": {
+      "Teens (14-18 years)": "550 mg",
+      "Adults (19-30 years)": "550 mg",
+      "Middle-aged (31-50 years)": "550 mg",
+      "Older Adults (51-70 years)": "550 mg",
+      "The Elderly (71+ years)": "550 mg"
+    },
+    "Female": {
+      "Teens (14-18 years)": "400 mg",
+      "Adults (19-30 years)": "425 mg",
+      "Middle-aged (31-50 years)": "425 mg",
+      "Older Adults (51-70 years)": "425 mg",
+      "The Elderly (71+ years)": "425 mg"
+    }
+  }
+  },
+  "coenzyme-q10": {
+  "slug": "coenzyme-q10",
+  "title": "Coenzyme Q10",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "l-carnitine": {
+  "slug": "l-carnitine",
+  "title": "L-Carnitine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "taurine": {
+  "slug": "taurine",
+  "title": "Taurine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "glutathione": {
+  "slug": "glutathione",
+  "title": "Glutathione",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "betaine": {
+  "slug": "betaine",
+  "title": "Betaine",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "lycopene": {
+  "slug": "lycopene",
+  "title": "Lycopene",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "beta-carotene": {
+  "slug": "beta-carotene",
+  "title": "Beta-Carotene",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "quercetin": {
+  "slug": "quercetin",
+  "title": "Quercetin",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "anthocyanins": {
+  "slug": "anthocyanins",
+  "title": "Anthocyanins",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "catechins": {
+  "slug": "catechins",
+  "title": "Catechins",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "resveratrol": {
+  "slug": "resveratrol",
+  "title": "Resveratrol",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "phytosterols": {
+  "slug": "phytosterols",
+  "title": "Phytosterols",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "glucosamine": {
+  "slug": "glucosamine",
+  "title": "Glucosamine",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "chondroitin": {
+  "slug": "chondroitin",
+  "title": "Chondroitin",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "collagen": {
+  "slug": "collagen",
+  "title": "Collagen",
+  "category": "Nutrients/other",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "omega-6": {
+  "slug": "omega-6",
+  "title": "Omega-6 Fatty Acids",
+  "category": "Nutrients/fats",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "4.4 g",
+      "Infants (7-12 months)": "4.6 g",
+      "Young (1-3 years)": "7 g",
+      "Preschool (4-8 years)": "10 g",
+      "School-age (9-13 years)": "12 g"
+    },
+    "Male": {
+      "Teens (14-18 years)": "16 g",
+      "Adults (19-30 years)": "17 g",
+      "Middle-aged (31-50 years)": "17 g",
+      "Older Adults (51-70 years)": "14 g",
+      "The Elderly (71+ years)": "14 g"
+    },
+    "Female": {
+      "Teens (14-18 years)": "11 g",
+      "Adults (19-30 years)": "12 g",
+      "Middle-aged (31-50 years)": "12 g",
+      "Older Adults (51-70 years)": "11 g",
+      "The Elderly (71+ years)": "11 g"
+    }
+  }
+  },
+  "omega-9": {
+  "slug": "omega-9",
+  "title": "Omega-9 Fatty Acids",
+  "category": "Nutrients/fats",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "arginine": {
+  "slug": "arginine",
+  "title": "Arginine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "cysteine": {
+  "slug": "cysteine",
+  "title": "Cysteine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "glutamine": {
+  "slug": "glutamine",
+  "title": "Glutamine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "glycine": {
+  "slug": "glycine",
+  "title": "Glycine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  },
+  "tyrosine": {
+  "slug": "tyrosine",
+  "title": "Tyrosine",
+  "category": "Nutrients/amino-acids",
+  "DRI": {
+    "Children": {
+      "Infants (0-6 months)": "—",
+      "Infants (7-12 months)": "—",
+      "Young (1-3 years)": "—",
+      "Preschool (4-8 years)": "—",
+      "School-age (9-13 years)": "—"
+    },
+    "Male": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    },
+    "Female": {
+      "Teens (14-18 years)": "—",
+      "Adults (19-30 years)": "—",
+      "Middle-aged (31-50 years)": "—",
+      "Older Adults (51-70 years)": "—",
+      "The Elderly (71+ years)": "—"
+    }
+  }
+  }
+}

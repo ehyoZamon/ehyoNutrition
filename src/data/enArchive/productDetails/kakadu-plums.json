@@ -1,0 +1,108 @@
+{
+  "slug": "kakadu-plums",
+  "name": "Kakadu Plums (Gubinge)",
+  "category": "Fruits & Berries",
+  "image": "/productinfo/kakadu-plums.png",
+  "imageAlt": "fresh kakadu plums on a branch",
+  "description": "Kakadu plums are an elite, hyper-potent botanical whole food matrix. Native entirely to the pristine Australian wilderness, this fruit commands the highest recorded natural concentration of Vitamin C (Ascorbic Acid) of any plant organism on Earth—up to 100 times that of traditional citrus. Fused with an advanced network of complex polyphenols like *ellagic* and *gallic* acids, it serves as an unparalleled dietary asset for deep cellular defense, collagen synthesis, and systemic free-radical eradication.",
+  "macroTitle": "Macro Nutrients (per 100g, raw)",
+  "macroIntro": "The macronutrient framework of raw Kakadu plums features an exceptionally lean, low-density carbohydrate structure optimized to deliver record-breaking concentrations of water-soluble antioxidants with absolute minimal caloric interference.",
+  "microIntro": "Kakadu plums house a staggering crystalline network of organic acids, trace protective minerals, and heavy polyphenolic catalysts designed to supercharge endogenous defense loops and protect cellular integrity.",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "59 kcal / 3% DV",
+      "bg": "#15837c",
+      "description": "A very low caloric footprint that yields an astronomical payload of therapeutic micronutrients per calorie, preventing excess energy storage."
+    },
+    {
+      "id": 14,
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.8 g / 2% DV",
+      "bg": "#f5722c",
+      "description": "Contains trace botanical amino acid fragments that support basic enzymatic tasks within the plant matrix."
+    },
+    {
+      "id": 16,
+      "name": "Total Fat",
+      "slug": "fats",
+      "amount": "0.5 g / 1% DV",
+      "bg": "#e4a910",
+      "description": "Virtually lipid-free, keeping global dietary fat parameters strictly low while maximizing the immediate absorption of water-soluble antioxidants."
+    },
+    {
+      "id": 15,
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "12.8 g / 5% DV",
+      "bg": "#15837c",
+      "description": "Composed of low-glycemic, slow-absorbing natural fruit sugars tightly complexed with unrefined structural plant fibers."
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": 26,
+      "name": "Vitamin C (Ascorbic Acid)",
+      "slug": "vitamin-c",
+      "amount": "3000 mg / 3333% DV",
+      "bg": "#15837c",
+      "description": "An absolutely legendary, unparalleled mega-dose of natural ascorbic acid per 100g, acting as the ultimate system driver for master antioxidant defense loops."
+    },
+    {
+      "id": 92,
+      "name": "Ellagic & Gallic Acids",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#f5722c",
+      "description": "Highly specialized polyphenolic compounds possessing immense anti-mutagenic properties that actively neutralize oxidative stress cascades."
+    },
+    {
+      "id": 43,
+      "name": "Dietary Fiber",
+      "slug": "fiber",
+      "amount": "7.1 g / 25% DV",
+      "bg": "#66ab63",
+      "description": "A robust fiber profile containing highly efficient soluble pectin structures that modulate glucose assimilation and optimize intestinal transit."
+    },
+    {
+      "id": 33,
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "210 mg / 4% DV",
+      "bg": "#e4a910",
+      "description": "An important intracellular electrolyte assisting in baseline blood pressure regulation and maintaining optimal fluid equilibrium."
+    },
+    {
+      "id": 31,
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.4 mg / 2% DV",
+      "bg": "#1a96cd",
+      "description": "Contains trace non-heme iron that is absorbed with absolute maximum efficiency due to the overwhelming, hyper-dense presence of native Vitamin C."
+    },
+    {
+      "id": 95,
+      "name": "Lutein",
+      "slug": "antioxidants",
+      "amount": "High Bioactivity",
+      "bg": "#1a96cd",
+      "description": "Valuable lipophilic macular carotenoids that help shield retinal tissue matrixes against phototoxic light strains."
+    }
+  ],
+  "healthBenefits": [
+    "<b>Monumental Systemic Free-Radical Eradication:</b> The breathtaking natural density of Vitamin C works in strict synergy with *ellagic acid* to halt advanced oxidative stress loops, preventing cellular damage across all bodily tissues.",
+    "<b>Elite Dermal Matrix & Collagen Architecture:</b> Astronomical concentrations of Ascorbic Acid drive high-caliber intracellular proline and lysine hydroxylation, fueling intense structural collagen cross-linking to optimize skin elasticity and vascular integrity.",
+    "<b>Hyper-Efficient Immune Shielding:</b> Massive antioxidant clusters rapidly build up white blood cell reserves, maximizing natural killer cell mobility and accelerating the neutralisation of environmental biological stressors.",
+    "<b>Gastrointestinal Mucosal Defense:</b> Potent natural concentrations of *gallic acid* suppress unfavorable microbial overgrowth in the digestive lumen while protecting the delicate mucosal enterocyte boundaries."
+  ],
+  "precautionsIntro": "While the Kakadu plum functions as an unmatched botanical asset, its record-shattering vitamin concentration and highly active organic compounds require exact integration metrics.",
+  "precautions": [
+    "<b>Acute Gastric Ascorbate Clearance:</b> Due to the monumental, unprecedented concentration of Vitamin C, consuming large quantities of raw Kakadu plums can rapidly overwhelm bowel absorption limits, triggering temporary osmotic diarrhea, abdominal cramps, or loose stool.",
+    "<b>Extreme Sensitivity to Thermal Oxidation:</b> The fragile water-soluble ascorbic acid matrix is highly prone to swift thermal destruction when exposed to cooking heat, boiling, or direct sunlight. Utilizing freeze-dried, unheated powder formats or raw fruit is required to preserve potency.",
+    "<b>Soluble Oxalate Accumulation Balance:</b> Kakadu plums carry a highly active organic acid profile containing natural oxalates. For individuals navigating a historical clinical baseline of calcium-oxalate kidney stones, intake volume must be managed to protect urinary filtration paths.",
+    "<b>Extreme Post-Harvest Degradation:</b> Because of the delicate wild nature of the fruit, its raw structural integrity decays rapidly post-harvest. Sourcing exclusively from highly verified, rapid freeze-dried supply chains or wild-harvested authentic channels is highly required."
+  ]
+}
