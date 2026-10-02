@@ -1,0 +1,7 @@
+.macro-item{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3px;
+}

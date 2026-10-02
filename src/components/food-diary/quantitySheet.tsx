@@ -13,6 +13,8 @@ import { loadProductDetail, ProductDetail } from "@/lib/productDetail";
 // components/food-diary/QuantitySheet.tsx
 import { parseServingInfo, ServingInfo } from "@/lib/servingInfo";
 import { parseAmount } from "@/lib/nutrientFormat";
+import { useNutrientName } from "@/lib/useNutrientName";
+import { useLocalizeUnits } from "@/lib/useLocalizeUnits";
 
 // Same math used for the "Today's intake" dashboard (foodDiaryClient.tsx),
 // just fed a single synthetic entry — {this product, the grams currently
@@ -129,6 +131,8 @@ const QuantitySheet = ({
 }: QuantitySheetProps) => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
+  const nutrientName = useNutrientName();
+  const localizeUnits = useLocalizeUnits();
   const isEdit = mode === "edit";
 
   // Falls back to the key itself's readable form if a translation isn't
@@ -159,13 +163,14 @@ const QuantitySheet = ({
       return;
     }
     let cancelled = false;
-    loadProductDetail(locale === "ru" ? "ru" : "en", slug).then((d) => {
+    // Детали всегда из en-папки, независимо от языка интерфейса.
+    loadProductDetail("en", slug).then((d) => {
       if (!cancelled) setDetail(d);
     });
     return () => {
       cancelled = true;
     };
-  }, [open, slug, locale]);
+  }, [open, slug]);
 
   const dailyVal=locale==="en" ? "DV": "CH";
   const servingInfo = useMemo(() => parseServingInfo(detail?.macroTitle), [detail]);
@@ -237,10 +242,13 @@ const QuantitySheet = ({
     const macros = detail.macroNutrients.filter((n) => n.slug).slice(0, 3);
     return [...(calories ? [calories] : []), ...macros].map((n) => ({
       id: n.id,
-      name: n.name,
-      amount: scaleAmountString(parseAmount(n.amount).value, factor),
+      name: nutrientName(n),
+      amount: localizeUnits(scaleAmountString(parseAmount(n.amount).value, factor)),
     }));
-  }, [detail, factor]);
+    // locale в зависимостях: nutrientName пересоздаётся на каждый рендер, поэтому
+    // перечитываем названия только при смене языка
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [detail, factor, locale]);
 
   const buildRows = (
     percents: Record<string, number> | undefined,
@@ -254,8 +262,8 @@ const QuantitySheet = ({
         if (!nutrient) return null;
         return {
           key,
-          name: nutrient.name,
-          amount: scaleAmountString(parseAmount(nutrient.amount).value, factor),
+          name: nutrientName(nutrient),
+          amount: localizeUnits(scaleAmountString(parseAmount(nutrient.amount).value, factor)),
           percent: Math.round(percent),
         };
       })
@@ -264,11 +272,11 @@ const QuantitySheet = ({
 
   const vitaminRows = useMemo(
     () => buildRows(dv.vitaminPercents ?? {}, (key) => `vitamin-${key}`),
-    [dv.vitaminPercents, detail, factor]
+    [dv.vitaminPercents, detail, factor, locale]
   );
   const mineralRows = useMemo(
     () => buildRows(dv.mineralPercents ?? {}, (key) => key),
-    [dv.mineralPercents, detail, factor]
+    [dv.mineralPercents, detail, factor, locale]
   );
 
   const [vitaminsExpanded, setVitaminsExpanded] = useState(false);
@@ -291,10 +299,11 @@ const QuantitySheet = ({
     setQuantity(isNaN(num) ? 0 : num);
   };
 
-  const unitLabel =
+  const unitLabel = localizeUnits(
     servingInfo.mode === "count"
       ? `${servingInfo.unit} (${gramsTotal} g)`
-      : servingInfo.unit;
+      : servingInfo.unit
+  );
 
   const handleAdd = (status: "consumed" | "planned" = "consumed") => {
     const amountLabel =
@@ -375,7 +384,7 @@ const QuantitySheet = ({
               {macroRows.map((row) => (
                 <div className={styles["macro-col"]} key={row.id}>
                   <span className={styles["macro-label"]}>
-                    {row.name === "Carbohydrates" ? "Carbs" : row.name}
+                    {row.name}
                   </span>
                   <span className={styles["macro-value"]}>{row.amount}</span>
                 </div>

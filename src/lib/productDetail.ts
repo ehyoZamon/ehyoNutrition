@@ -39,23 +39,31 @@ export type ProductDetail = {
 
 export type ProductLocale = "en" | "ru";
 
+/** Детали продуктов (нутриенты) ВСЕГДА читаются из английской папки —
+ *  независимо от выбранного языка интерфейса. Список продуктов (products.json)
+ *  при этом по-прежнему грузится по локали. */
+const DETAILS_LOCALE: ProductLocale = "en";
+
+// Кеш ключится только по slug: язык интерфейса на загрузку не влияет.
 const cache = new Map<string, Promise<ProductDetail | null>>();
 
 export function loadProductDetail(
-  locale: ProductLocale,
+  // Параметр оставлен для совместимости с существующими вызовами и больше
+  // НЕ влияет на то, какой файл грузится.
+  _locale: ProductLocale,
   slug: string
 ): Promise<ProductDetail | null> {
-  const key = `${locale}/${slug}`;
+  const key = slug;
   let cached = cache.get(key);
 
   if (!cached) {
-    cached = fetch(`/data/${locale}/productDetails/${encodeURIComponent(slug)}.json`)
+    cached = fetch(`/data/${DETAILS_LOCALE}/productDetails/${encodeURIComponent(slug)}.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json() as Promise<ProductDetail>;
       })
       .catch((err) => {
-        console.error(`Failed to load product detail for "${slug}" (${locale})`, err);
+        console.error(`Failed to load product detail for "${slug}"`, err);
         // не держим в кеше неудачу, чтобы следующая попытка могла сработать
         cache.delete(key);
         return null;

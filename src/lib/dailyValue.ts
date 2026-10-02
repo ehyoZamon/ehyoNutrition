@@ -609,10 +609,9 @@ export async function computeNutrientBreakdown(
     if (product) slugByProductId.set(entry.productId, productSlugFromLink(product.link));
   });
 
-  const [enDetails, localizedDetails] = await Promise.all([
-    loadProductDetails("en", slugByProductId.values()),
-    loadProductDetails(locale, slugByProductId.values()),
-  ]);
+  // Детали всегда из en-папки; единицы для отображения локализуются ниже
+  // через localizeAmountString, а не отдельным чтением ru-файла.
+  const enDetails = await loadProductDetails("en", slugByProductId.values());
 
   const recommendedMg = getRecommendedMg(driData, nutrientSlug, ctx, ASSUMED_DAILY_CALORIES);
   const ulMg = getULMg(driData, nutrientSlug, ctx, ASSUMED_DAILY_CALORIES);
@@ -644,16 +643,12 @@ export async function computeNutrientBreakdown(
     totalMg += consumedMg;
     const percent = recommendedMg && recommendedMg > 0 ? (consumedMg / recommendedMg) * 100 : 0;
 
-    const localizedDetail = localizedDetails.get(slug) ?? enDetail;
-    const localizedNutrient =
-      [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
-        (n) => n.slug === nutrientSlug
-      ) ?? nutrient;
-
     let amountLabel = "";
     try {
-      warnIfMalformedAmount(locale, slug, nutrientSlug, localizedNutrient.amount);
-      amountLabel = scaleAmountString(parseAmount(localizedNutrient.amount).value, factor);
+      amountLabel = localizeAmountString(
+        scaleAmountString(parseAmount(nutrient.amount).value, factor),
+        locale
+      );
     } catch (err) {
       console.warn(`computeNutrientBreakdown: bad display amount for "${product.name}"`, err);
     }
@@ -703,15 +698,12 @@ export async function computeNutrientBreakdown(
     plannedTotalMg += mg;
     const percent = recommendedMg && recommendedMg > 0 ? (mg / recommendedMg) * 100 : 0;
 
-    const localizedDetail = localizedDetails.get(slug) ?? enDetail;
-    const localizedNutrient =
-      [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
-        (n) => n.slug === nutrientSlug
-      ) ?? nutrient;
-
     let amountLabel = "";
     try {
-      amountLabel = scaleAmountString(parseAmount(localizedNutrient.amount).value, factor);
+      amountLabel = localizeAmountString(
+        scaleAmountString(parseAmount(nutrient.amount).value, factor),
+        locale
+      );
     } catch (err) {
       console.warn(`computeNutrientBreakdown: bad planned display amount for "${product.name}"`, err);
     }
@@ -851,10 +843,7 @@ async function computeTopProductsForNutrient(
   // Same split as everywhere else in this file: ranking math always runs
   // on the EN files (stable units), the locale's own files are only
   // consulted for the display string.
-  const [enDetails, localizedDetails] = await Promise.all([
-    loadProductDetails("en", slugs),
-    loadProductDetails(locale, slugs),
-  ]);
+  const enDetails = await loadProductDetails("en", slugs);
 
   const scored: { product: ProductCatalogEntry; slug: string; mgPer100: number }[] = [];
 
@@ -885,18 +874,17 @@ async function computeTopProductsForNutrient(
   scored.sort((a, b) => b.mgPer100 - a.mgPer100);
 
   return scored.slice(0, limit).map(({ product, slug }) => {
-    const localizedDetail = localizedDetails.get(slug);
-    const localizedNutrient = localizedDetail
-      ? [...localizedDetail.macroNutrients, ...localizedDetail.microNutrients].find(
+    const enDetail = enDetails.get(slug);
+    const nutrient = enDetail
+      ? [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
           (n) => n.slug === nutrientSlug
         )
       : undefined;
 
     let amountLabel = "";
     try {
-      if (localizedNutrient) {
-        warnIfMalformedAmount(locale, slug, nutrientSlug, localizedNutrient.amount);
-        amountLabel = parseAmount(localizedNutrient.amount).value;
+      if (nutrient) {
+        amountLabel = localizeAmountString(parseAmount(nutrient.amount).value, locale);
       }
     } catch (err) {
       console.warn(`getTopProductsForNutrient: bad display amount for "${product.name}"`, err);

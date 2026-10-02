@@ -12,7 +12,9 @@ import {
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import styles from "./addFoodSheet.module.css";
+import ProductMacros from "@/components/productMacros/ProductMacros";
 import {
+  getSlug,
   loadProductsIndex,
   searchProducts,
   type CatalogProduct,
@@ -35,21 +37,23 @@ const PAGE_SIZE = 100;
 // ---------------------------------------------------------------------------
 const ProductRow = memo(function ProductRow({
   product,
+  caloriesLabel,
   onSelect,
 }: {
   product: DiaryProduct;
+  caloriesLabel: string;
   onSelect: (product: DiaryProduct) => void;
 }) {
   return (
     <div className={styles["item"]}>
-      <div className={styles["item-img-container"]}>
-        <Image src={product.image} alt={product.name} width={48} height={48} />
-      </div>
-
       <div className={styles["item-details"]}>
         <div className={styles["item-name"]}>{product.name}</div>
-        <div className={styles["item-category"]}>{product.category}</div>
-        <div className={styles["item-calories"]}>Calories: {product.calories}</div>
+        <div className={styles["item-calories"]}>
+          <div className={styles["calories-label"]}>
+            {caloriesLabel}: <span className={styles["calories-value"]}>{product.calories}</span>
+          </div>
+          <ProductMacros slug={getSlug(product.link)} />
+        </div>
       </div>
 
       <button
@@ -70,6 +74,8 @@ const ProductRow = memo(function ProductRow({
 const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
+  // ключ "calories" в FoodDiary необязателен: без него остаётся "Calories"
+  const caloriesLabel = t.has("calories") ? t("calories") : "Calories";
 
   const [search, setSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -182,7 +188,12 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
           ) : filteredProducts.length > 0 ? (
             <>
               {visibleProducts.map((product) => (
-                <ProductRow key={product.id} product={product} onSelect={onSelectProduct} />
+                <ProductRow
+                  key={product.id}
+                  product={product}
+                  caloriesLabel={caloriesLabel}
+                  onSelect={onSelectProduct}
+                />
               ))}
               {hasMore && <div ref={sentinelRef} className={styles["sentinel"]} />}
             </>

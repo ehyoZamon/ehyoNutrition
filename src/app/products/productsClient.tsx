@@ -29,6 +29,7 @@ import {
 } from "@/lib/productsIndex";
 import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailSheet";
 import BottomNav from "@/components/bottomNav/BottomNav";
+import ProductMacros from "@/components/productMacros/ProductMacros";
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -60,16 +61,6 @@ const ProductRow = memo(function ProductRow({
   return (
     <div className={styles["product"]}>
       <div
-        className={styles["product-img-container"]}
-        role="button"
-        tabIndex={0}
-        onClick={open}
-        onKeyDown={onKeyDown}
-      >
-        <Image src={product.image} alt={product.name} width={40} height={40} />
-      </div>
-
-      <div
         className={styles["product-details"]}
         role="button"
         tabIndex={0}
@@ -77,9 +68,9 @@ const ProductRow = memo(function ProductRow({
         onKeyDown={onKeyDown}
       >
         <div className={styles["product-name"]}>{product.name}</div>
-        <div className={styles["product-category"]}>{product.category}</div>
         <div className={styles["product-calories"]}>
-          {caloriesLabel}: {product.calories}
+          <div className={styles["calories-label"]}>{caloriesLabel}: {product.calories}</div>
+          <ProductMacros slug={slug} />
         </div>
       </div>
 
@@ -272,7 +263,6 @@ const ProductsClient = () => {
       {openedProduct && (
         <ProductDetailSheet
           slug={getSlug(openedProduct.link)}
-          locale={locale}
           basicInfo={{ name: openedProduct.name, image: openedProduct.image }}
           fullInfoHref={openedProduct.link}
           onClose={() => setOpenedSlug(null)}

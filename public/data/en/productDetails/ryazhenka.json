@@ -21,7 +21,7 @@
       "id": "protein",
       "name": "Protein",
       "slug": "protein",
-      "amount": "2.90 grams",
+      "amount": "2.90 g",
       "bg": "#f5722c",
       "description": "Consists of thermally modified caseins and whey proteins that are partially broken down, allowing for rapid, easy absorption with minimal digestive expenditure."
     },
@@ -29,7 +29,7 @@
       "id": "fat",
       "name": "Total Fat",
       "slug": "fats",
-      "amount": "2.50 grams",
+      "amount": "2.50 g",
       "bg": "#e4a910",
       "description": "Composed of easily emulsified, short- and medium-chain fatty acids that support cellular membranes and act as direct vehicles for fat-soluble vitamins."
     },
@@ -37,7 +37,7 @@
       "id": "carbs",
       "name": "Carbohydrates",
       "slug": "carbohydrates",
-      "amount": "4.10 grams",
+      "amount": "4.10 g",
       "bg": "#1a96cd",
       "description": "Represented by lactose, a portion of which has been metabolized by lactic bacteria into beneficial lactic acid, significantly reducing individual digestive workload."
     }

@@ -7,57 +7,17 @@ import { useTranslations } from "next-intl";
 
 import styles from "./ProductDetailSheet.module.css";
 import { parseAmount } from "@/lib/nutrientFormat";
-
-type Nutrient = {
-  id: string | number;
-  slug: string;
-  name: string;
-  amount: string;
-  description?: string;
-};
-
-type ProductDetail = {
-  slug: string;
-  name: string;
-  category: string;
-  image: string;
-  description?: string;
-  macroNutrients: Nutrient[];
-  microNutrients: Nutrient[];
-};
+import { loadProductDetail, type ProductDetail } from "@/lib/productDetail";
+import { useNutrientName } from "@/lib/useNutrientName";
 
 type Props = {
   slug: string;
-  locale: string;
   /** Shown immediately, before the full per-product file has loaded. */
   basicInfo: { name: string; image: string };
   /** Optional — link to the full product page, if you still want one. */
   fullInfoHref?: string;
   onClose: () => void;
 };
-
-// Файлы лежат в public/data/<locale>/productDetails/<slug>.json и читаются через
-// fetch во время работы приложения. Раньше здесь был import(`@/data/.../${slug}.json`):
-// с переменной в пути webpack включает в сборку ВСЕ файлы папки (~5500 × 2 локали),
-// отсюда и взрывной рост времени компиляции. fetch webpack вообще не видит.
-// Промисы кешируются: повторное открытие того же продукта не ходит за файлом снова.
-const detailCache = new Map<string, Promise<ProductDetail>>();
-
-function loadProductDetail(locale: string, slug: string): Promise<ProductDetail> {
-  const lang = locale === "ru" ? "ru" : "en";
-  const key = `${lang}/${slug}`;
-  let cached = detailCache.get(key);
-  if (!cached) {
-    cached = fetch(`/data/${lang}/productDetails/${encodeURIComponent(slug)}.json`).then((res) => {
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${key}`);
-      return res.json() as Promise<ProductDetail>;
-    });
-    // при ошибке не кешируем, чтобы можно было повторить
-    cached.catch(() => detailCache.delete(key));
-    detailCache.set(key, cached);
-  }
-  return cached;
-}
 
 // Unit abbreviations that show up inside nutrient amounts (e.g. "16 g",
 // "230 mg"). \b-bounded so "mg" inside "mg/kg" is matched on its own and a
@@ -78,8 +38,9 @@ const localizeUnits = (
   return result;
 };
 
-const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: Props) => {
+const ProductDetailSheet = ({ slug, basicInfo, fullInfoHref, onClose }: Props) => {
   const t = useTranslations("Products");
+  const nutrientName = useNutrientName();
   const [detail, setDetail] = useState<ProductDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [visible, setVisible] = useState(false);
@@ -98,21 +59,17 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
     setDetail(null);
     setLoading(true);
 
-    loadProductDetail(locale, slug)
-      .then((data) => {
-        if (!cancelled) setDetail(data);
-      })
-      .catch((err) => {
-        console.error(`Failed to load product detail for "${slug}"`, err);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
+    // Детали всегда из en-папки (см. lib/productDetail.ts); при ошибке придёт null.
+    loadProductDetail("en", slug).then((data) => {
+      if (cancelled) return;
+      setDetail(data);
+      setLoading(false);
+    });
 
     return () => {
       cancelled = true;
     };
-  }, [locale, slug]);
+  }, [slug]);
 
   // Slide-up animation + body scroll lock + Escape to close.
   useEffect(() => {
@@ -149,7 +106,7 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
-        aria-label={detail?.name ?? basicInfo.name}
+        aria-label={basicInfo.name}
       >
         <div className={styles.grabber} />
 
@@ -159,20 +116,21 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
             <div className={styles.avatarCircle}>
               <Image
                 src={basicInfo.image}
-                alt={detail?.name ?? basicInfo.name}
+                alt={basicInfo.name}
                 width={64}
                 height={64}
               />
             </div>
           </div>
 
-          <h2 className={styles.title}>{detail?.name ?? basicInfo.name}</h2>
+          {/* Заголовок — локализованное имя из products.json, а не английское из detail */}
+          <h2 className={styles.title}>{basicInfo.name}</h2>
 
           {(macroCalories || macro.length > 0) && (
             <div className={styles.macroBand}>
               {macroCalories && (
                 <div className={styles.macroCol}>
-                  <span className={styles.macroLabel}>{macroCalories.name}</span>
+                  <span className={styles.macroLabel}>{nutrientName(macroCalories)}</span>
                   <span className={styles.macroValue}>
                     {localizeUnits(parseAmount(macroCalories.amount).value, translateUnit)}
                   </span>
@@ -182,7 +140,7 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
                 const { value } = parseAmount(n.amount);
                 return (
                   <div className={styles.macroCol} key={n.id}>
-                    <span className={styles.macroLabel}>{n.name}</span>
+                    <span className={styles.macroLabel}>{nutrientName(n)}</span>
                     <span className={styles.macroValue}>{localizeUnits(value, translateUnit)}</span>
                   </div>
                 );
@@ -204,7 +162,7 @@ const ProductDetailSheet = ({ slug, locale, basicInfo, fullInfoHref, onClose }: 
               return (
                 <div className={styles.row} key={`${n.id}-${n.slug}`}>
                   <span className={styles.rowName}>
-                    {n.name} 
+                    {nutrientName(n)}
                   </span>
                   <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
                 </div>
