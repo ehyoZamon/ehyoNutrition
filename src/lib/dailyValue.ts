@@ -810,7 +810,7 @@ export async function getTopProductsForNutrient(
   nutrientSlug: string,
   allProducts: ProductCatalogEntry[],
   locale: "en" | "ru",
-  limit: number = 10
+  limit: number = 20
 ): Promise<TopProductForNutrient[]> {
   const cacheKey = `${locale}:${nutrientSlug}`;
   const cached = topProductsCache.get(cacheKey);
@@ -829,6 +829,24 @@ export async function getTopProductsForNutrient(
   topProductsCache.set(cacheKey, promise);
   return promise;
 }
+type TopIndexEntry = { slug: string; amount: string };
+
+let topIndexPromise: Promise<Record<string, TopIndexEntry[]>> | null = null;
+
+function loadTopProductsIndex(): Promise<Record<string, TopIndexEntry[]>> {
+  if (!topIndexPromise) {
+    topIndexPromise = fetch("/data/topProducts.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .catch((err) => {
+        topIndexPromise = null; // дать шанс повторить
+        throw err;
+      });
+  }
+  return topIndexPromise;
+}
 
 async function computeTopProductsForNutrient(
   nutrientSlug: string,
@@ -838,64 +856,30 @@ async function computeTopProductsForNutrient(
 ): Promise<TopProductForNutrient[]> {
   if (allProducts.length === 0) return [];
 
-  const slugs = allProducts.map((p) => productSlugFromLink(p.link));
+  const index = await loadTopProductsIndex();
+  const entries = index[nutrientSlug] ?? [];
+  const bySlug = new Map(allProducts.map((p) => [productSlugFromLink(p.link), p]));
 
-  // Same split as everywhere else in this file: ranking math always runs
-  // on the EN files (stable units), the locale's own files are only
-  // consulted for the display string.
-  const enDetails = await loadProductDetails("en", slugs);
-
-  const scored: { product: ProductCatalogEntry; slug: string; mgPer100: number }[] = [];
-
-  for (const product of allProducts) {
-    try {
-      const slug = productSlugFromLink(product.link);
-      const enDetail = enDetails.get(slug);
-      if (!enDetail) continue;
-
-      const nutrient = [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
-        (n) => n.slug === nutrientSlug
-      );
-      if (!nutrient) continue;
-
-      warnIfMalformedAmount("en", slug, nutrientSlug, nutrient.amount);
-      const mgPer100 = parseAmountToMg(nutrient.amount);
-      if (mgPer100 === null || mgPer100 <= 0) continue;
-
-      scored.push({ product, slug, mgPer100 });
-    } catch (err) {
-      // One product with unexpectedly-shaped data (e.g. a malformed
-      // `amount` field) shouldn't wipe out the ranking for every other
-      // product — skip it and keep going.
-      console.warn(`getTopProductsForNutrient: skipping "${product.name}"`, err);
-    }
-  }
-
-  scored.sort((a, b) => b.mgPer100 - a.mgPer100);
-
-  return scored.slice(0, limit).map(({ product, slug }) => {
-    const enDetail = enDetails.get(slug);
-    const nutrient = enDetail
-      ? [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
-          (n) => n.slug === nutrientSlug
-        )
-      : undefined;
+  const result: TopProductForNutrient[] = [];
+  for (const { slug, amount } of entries) {
+    const product = bySlug.get(slug);
+    if (!product) continue;
 
     let amountLabel = "";
     try {
-      if (nutrient) {
-        amountLabel = localizeAmountString(parseAmount(nutrient.amount).value, locale);
-      }
+      amountLabel = localizeAmountString(amount, locale);
     } catch (err) {
       console.warn(`getTopProductsForNutrient: bad display amount for "${product.name}"`, err);
     }
 
-    return {
+    result.push({
       productId: product.id,
       name: product.name,
       image: product.image,
       link: product.link,
       amountLabel,
-    };
-  });
+    });
+    if (result.length >= limit) break;
+  }
+  return result;
 }

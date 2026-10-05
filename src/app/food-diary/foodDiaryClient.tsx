@@ -771,6 +771,9 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                   <div className={styles["intake-label"]}>
                     <div className={styles["intake-name-wrap"]}>
                       <span className={styles["intake-name"]}>{entry.label}</span>
+                      
+                    </div>
+                    <div className={styles["intake-params"]}>
                       {(selectedMeal === "all" || entry.fromPlan) && (
                         <span className={styles["intake-meal-row"]}>
                           {selectedMeal === "all" && (
@@ -783,10 +786,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                           )}
                         </span>
                       )}
+                      <span className={styles["intake-amount"]}>
+                        {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
+                      </span>
                     </div>
-                    <span className={styles["intake-amount"]}>
-                      {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
-                    </span>
                   </div>
                 </div>
                 {isToday(selectedDate) && (

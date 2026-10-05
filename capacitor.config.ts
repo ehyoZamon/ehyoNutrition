@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ehyonutrition.app',
+  appId: 'com.ehyonutridiary.app', //com.ehyonutrition.app
   appName: 'NutriDiary',
   webDir: 'out',
   android: {

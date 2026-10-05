@@ -35,7 +35,7 @@ export default function LanguageProvider({ children }: { children: React.ReactNo
         } catch (e) {
           if (typeof window !== 'undefined') {
             const browserLang = navigator.language.split('-')[0];
-            const targetLang = browserLang === 'ru' ? 'ru' : 'en';
+            const targetLang = browserLang == 'ru' ? 'ru' : 'en';
             setLocale(targetLang);
             localStorage.setItem('app_locale', targetLang);
             document.documentElement.lang = targetLang;

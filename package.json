@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build:top-products": "node scripts/build-top-products.mjs",
+    "prebuild": "npm run build:top-products",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -13,7 +15,7 @@
     "@capacitor/android": "^8.3.4",
     "@capacitor/cli": "^7.6.5",
     "@capacitor/core": "^8.3.4",
-    "@capacitor/device": "^8.0.2",
+    "@capacitor/device": "^8.0.3",
     "@capacitor/preferences": "^8.0.1",
     "@capacitor/status-bar": "^8.0.3",
     "@capawesome/capacitor-android-edge-to-edge-support": "^8.0.8",
