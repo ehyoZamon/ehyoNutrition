@@ -4042,6 +4042,7 @@
   "Strawberries, canned": "Клубника, консервированный",
   "Strawberries, frozen": "Клубника, замороженная",
   "Ambrosia": "Амброзия",
+  "Fruit salad, fresh or raw, without citrus fruits, without dressing": "Фруктовый салат, свежий или сырой, без цитрусовых, без заправки",
   "Fruit salad, fresh or raw, including citrus fruits, no dressing": "Фруктовый салат, свежий или сырой, включая цитрусовые, без заправки",
   "Fruit cocktail, canned, NFS": "Фруктовый коктейль, консервированный, NFS",
   "Fruit cocktail, canned, in syrup": "Фруктовый коктейль, консервированный, в сиропе",
@@ -4906,6 +4907,7 @@
   "Fruit and vegetable smoothie, no dairy": "Фруктовый и овощной коктейль, без молочных продуктов",
   "Vegetable smoothie": "Овощной коктейль",
   "Table fat, NFS": "Столовый жир, NFS",
+  "Сливочное масло, NFS": "Масло, NFS",
   "Butter, stick": "Сливочное масло, в брикете",
   "Butter, tub": "Сливочное масло, в упаковке",
   "Butter, light": "Масло, лёгкий",
@@ -5560,7 +5562,5 @@
   "Vegetables as ingredient in soups": "Овощи как ингредиент супов",
   "Vegetables as ingredient in stews": "Овощи как ингредиент рагу",
   "Sauce as ingredient in hamburgers": "Соус как ингредиент гамбургеров",
-  "Industrial oil as ingredient in food": "Промышленное растительное масло как ингредиент пищевого продукта",
-  "Fruit salad, fresh or raw, excluding citrus fruits, no dressing": "Фруктовый салат, свежий или сырой, за исключением цитрусовых, без перевязки",
-  "Butter, NFS": "Масло, NFS"
+  "Industrial oil as ingredient in food": "Промышленное растительное масло как ингредиент пищевого продукта"
 }
