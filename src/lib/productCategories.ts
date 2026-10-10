@@ -15,7 +15,8 @@ export const FAVORITE_CATEGORY_FILTERS: Record<
   snack: {
     en: [
       "food/seeds and nuts",
-      "food/grains",
+      "food/nuts and seeds",
+      "food/grains and cereals",
       "food/legumes",
       "food/eggs and dairy",
     ],

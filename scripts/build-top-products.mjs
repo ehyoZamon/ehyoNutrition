@@ -12,7 +12,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const DETAILS_DIR = path.join(ROOT, "public", "data", "en", "productDetails");
-const OUT_FILE = path.join(ROOT, "public", "data", "topProducts.json");
+const OUT_FILE = path.join(ROOT, "public", "data", "topProductsGenScript.json");
 const TOP_N = 20;
 
 // Всё приводим к мг, чтобы ранжировать нутриенты в разных единицах одинаково.

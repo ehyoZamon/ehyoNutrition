@@ -20,6 +20,7 @@ import {
   type CatalogProduct,
   type ProductIndex,
 } from "@/lib/productsIndex";
+import { getRecentSlugs } from "@/lib/recentProducts";
 
 export type DiaryProduct = CatalogProduct;
 
@@ -80,6 +81,11 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
   const [search, setSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [loaded, setLoaded] = useState<{ locale: string; index: ProductIndex } | null>(null);
+  const [recentSlugs, setRecentSlugs] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (open) setRecentSlugs(getRecentSlugs());
+  }, [open]);
 
   const listRef = useRef<HTMLDivElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -124,10 +130,24 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
   // useDeferredValue: ввод в поле остаётся отзывчивым, тяжёлая фильтрация идёт с низким приоритетом
   const deferredSearch = useDeferredValue(search);
 
-  const filteredProducts = useMemo(
-    () => (index ? searchProducts(index, deferredSearch) : []),
-    [index, deferredSearch]
-  );
+  const filteredProducts = useMemo(() => {
+    if (!index) return [];
+    const found = searchProducts(index, deferredSearch);
+
+    // Недавние — наверх только когда поле поиска пустое
+    if (deferredSearch.trim() !== "" || recentSlugs.length === 0) return found;
+
+    const recent: DiaryProduct[] = [];
+    const seen = new Set<DiaryProduct>();
+    for (const slug of recentSlugs) {
+      const p = index.bySlug.get(slug);
+      if (p && !seen.has(p)) {
+        seen.add(p);
+        recent.push(p);
+      }
+    }
+    return recent.concat(found.filter((p) => !seen.has(p)));
+  }, [index, deferredSearch, recentSlugs]);
 
   // Новый запрос -> снова первые 100 и прокрутка наверх
   useEffect(() => {

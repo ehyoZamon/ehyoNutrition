@@ -7,6 +7,36 @@ export type ServingInfo = {
   gramsPerUnit?: number;
 };
 
+// Локализованные подписи единиц. Реальные значения приходят из
+// messages/*.json (FoodDiary.gramUnit / mlUnit / pieceUnit) через
+// useServingUnitLabels(); DEFAULT_UNIT_LABELS — английский fallback.
+export type UnitLabels = {
+  g: string;
+  ml: string;
+  pieces: string;
+};
+
+export const DEFAULT_UNIT_LABELS: UnitLabels = {
+  g: "g",
+  ml: "ml",
+  pieces: "pieces",
+};
+
+// Приводит любую "сырую" единицу (g / г / ml / мл / pieces / pcs / шт) к
+// подписи активного языка. Неизвестные единицы возвращаются как есть.
+export function localizeServingUnit(
+  unit: string,
+  labels: UnitLabels = DEFAULT_UNIT_LABELS
+): string {
+  const u = unit.trim().toLowerCase().replace(/\.$/, "");
+  if (u === "g" || u === "г") return labels.g;
+  if (u === "ml" || u === "мл") return labels.ml;
+  if (u === "piece" || u === "pieces" || u === "pc" || u === "pcs" || u === "шт") {
+    return labels.pieces;
+  }
+  return unit;
+}
+
 // Пытаемся вытащить единицу измерения из macroTitle, например:
 // "Macro Nutrients (per 100g)" -> вес, 100 г
 // "Macro Nutrients (per 2 pieces / 100g)" -> штуки, 2 шт = 100г (50г/шт)
@@ -43,12 +73,18 @@ export function parseServingInfo(macroTitle: string | undefined): ServingInfo {
   return { mode: "weight", unit: "g", baseAmount: 100 };
 }
 
-
 // Обратное преобразование: граммы из БД -> человекочитаемая строка
-export function formatAmountLabel(grams: number, servingInfo: ServingInfo): string {
+// на языке интерфейса (единицы берутся из `labels`, а не из macroTitle).
+export function formatAmountLabel(
+  grams: number,
+  servingInfo: ServingInfo,
+  labels: UnitLabels = DEFAULT_UNIT_LABELS
+): string {
+  const unit = localizeServingUnit(servingInfo.unit, labels);
+
   if (servingInfo.mode === "count" && servingInfo.gramsPerUnit) {
     const count = +(grams / servingInfo.gramsPerUnit).toFixed(2);
-    return `${count} ${servingInfo.unit} (${Math.round(grams)} g)`;
+    return `${count} ${unit} (${Math.round(grams)} ${labels.g})`;
   }
-  return `${grams}${servingInfo.unit}`;
+  return `${grams} ${unit}`;
 }

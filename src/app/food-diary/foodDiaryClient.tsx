@@ -47,6 +47,7 @@ import {
 } from "@/lib/diary";
 
 import { parseServingInfo, formatAmountLabel } from "@/lib/servingInfo";
+import { useServingUnitLabels } from "@/lib/useServingUnitLabels";
 import { loadProductDetail } from "@/lib/productDetail";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
 import WaterModule from "@/components/food-diary/waterModule";
@@ -110,6 +111,8 @@ const FoodDiaryClient = () => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
   const navBar = useTranslations("navBar");
+  // Локализованные единицы (г / мл / шт) для подписей количества в intake-list
+  const unitLabels = useServingUnitLabels();
 
   // Same graceful-fallback pattern already used in QuantitySheet — lets
   // the nutrient-detail sheet's title text ship before messages/*.json
@@ -295,7 +298,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
               productId: row.product_id,
               emoji: "/nothing-found.svg",
               label: "Unknown product",
-              amount: `${row.amount}g`,
+              amount: `${row.amount} ${unitLabels.g}`,
               grams: row.amount,
               meal: (row.meal as MealType) || "uncategorized",
               calories: 0,
@@ -317,7 +320,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             productId: row.product_id,
             emoji: product.image,
             label: product.name,
-            amount: formatAmountLabel(row.amount, servingInfo),
+            amount: formatAmountLabel(row.amount, servingInfo, unitLabels),
             grams: row.amount,
             meal: (row.meal as MealType) || "uncategorized",
             calories: kcal,
@@ -329,7 +332,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
       setEntryList(mapped);
     },
-    [productMap, locale]
+    [productMap, locale, unitLabels]
   );
 
   // ---- Загрузка "покрашенных" дат для текущей сетки календаря ----
@@ -825,16 +828,29 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
               >
                 <div className={styles["intake-item-left"]}>
                   <Image src={entry.emoji} alt="" width={32} height={32} />
+                  
                   <div className={styles["intake-label"]}>
                     <div className={styles["intake-name-wrap"]}>
                       <span className={styles["intake-name"]}>{entry.label}</span>
-                      {selectedMeal === "all" && (
-                        <span className={styles["intake-meal"]}>{mealLabel(entry.meal)}</span>
-                      )}
+                      
                     </div>
-                    <span className={styles["intake-amount"]}>
-                      {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
-                    </span>
+                    <div className={styles["intake-params"]}>
+                      {(selectedMeal === "all" || entry.fromPlan) && (
+                        <span className={styles["intake-meal-row"]}>
+                          {selectedMeal === "all" && (
+                            <span className={styles["intake-meal"]}>{mealLabel(entry.meal)}</span>
+                          )}
+                          {entry.fromPlan && (
+                            <span className={styles["intake-plan-tag"]}>
+                              {tt("fromYourDailyPlan", "from your daily plan")}
+                            </span>
+                          )}
+                        </span>
+                      )}
+                      <span className={styles["intake-amount"]}>
+                        {entry.amount}/{entry.calories}{tt("kcalUnit", "kcal")}
+                      </span>
+                    </div>
                   </div>
                 </div>
                 {isToday(selectedDate) && (

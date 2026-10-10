@@ -11,10 +11,12 @@ import { DiaryProduct } from "./addFoodSheet";
 // instead of a single productDetails.json — loaded on demand below.
 import { loadProductDetail, ProductDetail } from "@/lib/productDetail";
 // components/food-diary/QuantitySheet.tsx
-import { parseServingInfo, ServingInfo } from "@/lib/servingInfo";
+import { parseServingInfo, ServingInfo, localizeServingUnit } from "@/lib/servingInfo";
+import { useServingUnitLabels } from "@/lib/useServingUnitLabels";
 import { parseAmount } from "@/lib/nutrientFormat";
 import { useNutrientName } from "@/lib/useNutrientName";
 import { useLocalizeUnits } from "@/lib/useLocalizeUnits";
+import { markProductUsed } from "@/lib/recentProducts";
 
 // Same math used for the "Today's intake" dashboard (foodDiaryClient.tsx),
 // just fed a single synthetic entry — {this product, the grams currently
@@ -133,6 +135,7 @@ const QuantitySheet = ({
   const t = useTranslations("FoodDiary");
   const nutrientName = useNutrientName();
   const localizeUnits = useLocalizeUnits();
+  const unitLabels = useServingUnitLabels();
   const isEdit = mode === "edit";
 
   // Falls back to the key itself's readable form if a translation isn't
@@ -299,21 +302,22 @@ const QuantitySheet = ({
     setQuantity(isNaN(num) ? 0 : num);
   };
 
-  const unitLabel = localizeUnits(
+  const localizedUnit = localizeServingUnit(servingInfo.unit, unitLabels);
+  const unitLabel =
     servingInfo.mode === "count"
-      ? `${servingInfo.unit} (${gramsTotal} g)`
-      : servingInfo.unit
-  );
+      ? `${localizedUnit} (${gramsTotal} ${unitLabels.g})`
+      : localizedUnit;
 
   const handleAdd = (status: "consumed" | "planned" = "consumed") => {
     const amountLabel =
       servingInfo.mode === "count"
-        ? `${quantity} ${servingInfo.unit} (${gramsTotal} g)`
-        : `${quantity}${servingInfo.unit}`;
+        ? `${quantity} ${localizedUnit} (${gramsTotal} ${unitLabels.g})`
+        : `${quantity} ${localizedUnit}`;
+
+    if (!isEdit) markProductUsed(slug); // при редактировании записи порядок не меняем
 
     onAdd(product, amountLabel, gramsTotal, status);
   };
-
   const actionLabel = isEdit ? t("saveBtn") : t("addBtn");
 
   const renderDVSection = (

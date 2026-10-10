@@ -30,6 +30,7 @@ import {
 import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailSheet";
 import BottomNav from "@/components/bottomNav/BottomNav";
 import ProductMacros from "@/components/productMacros/ProductMacros";
+import { useCategoryName } from "@/lib/categoryName";
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -88,6 +89,7 @@ const ProductRow = memo(function ProductRow({
 
 const ProductsClient = () => {
   const t = useTranslations("Products");
+  const categoryName = useCategoryName();
   const locale = useLocale();
   const searchParams = useSearchParams();
 
@@ -232,7 +234,7 @@ const ProductsClient = () => {
             <>
               {visibleGroups.map(([category, items]) => (
                 <div key={category} className={styles["category-group"]}>
-                  <h3 className={styles["category-title"]}>{category}</h3>
+                  <h3 className={styles["category-title"]}>{categoryName(category)}</h3>
 
                   {items.map((product) => (
                     <ProductRow
