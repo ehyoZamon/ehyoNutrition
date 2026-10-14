@@ -1,0 +1,15 @@
+.stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  vertical-align: -1px;
+  white-space: nowrap; /* звёзды не разрываются на две строки */
+}
+
+.star-filled {
+  color: #f2b632;
+}
+
+.star-empty {
+  color: #e2e2e2;
+}

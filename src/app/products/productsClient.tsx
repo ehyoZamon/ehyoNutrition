@@ -31,6 +31,7 @@ import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailShe
 import BottomNav from "@/components/bottomNav/BottomNav";
 import ProductMacros from "@/components/productMacros/ProductMacros";
 import { useCategoryName } from "@/lib/categoryName";
+import NutritionStars from "@/components/nutritionStars/NutritionStars";
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -69,6 +70,7 @@ const ProductRow = memo(function ProductRow({
         onKeyDown={onKeyDown}
       >
         <div className={styles["product-name"]}>{product.name}</div>
+        <NutritionStars stars={product.nutritionStars}/>
         <div className={styles["product-calories"]}>
           <div className={styles["calories-label"]}>{caloriesLabel}: {product.calories}</div>
           <ProductMacros slug={slug} />
@@ -100,6 +102,8 @@ const ProductsClient = () => {
   const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [loaded, setLoaded] = useState<{ locale: string; index: ProductIndex } | null>(null);
+  // категория, выбранная в горизонтальном меню под поиском (null = «Все»)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   // slug of the product whose detail sheet is currently open, if any
   const [openedSlug, setOpenedSlug] = useState<string | null>(null);
@@ -148,10 +152,39 @@ const ProductsClient = () => {
     ? FAVORITE_CATEGORY_FILTERS[activeCategory][localeKey]
     : null;
 
+  // Категории для меню: из каталога, с учётом ?category=, по убыванию числа продуктов
+  const categoryOptions = useMemo(() => {
+    if (!index) return [];
+    const allow = allowedCategories ? new Set(allowedCategories) : null;
+    const counts = new Map<string, number>();
+    for (const p of index.all) {
+      if (allow && !allow.has(p.category)) continue;
+      counts.set(p.category, (counts.get(p.category) ?? 0) + 1);
+    }
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([category]) => category);
+  }, [index, allowedCategories]);
+
+  // Выбранная категория действительна, только если она есть в текущем списке (смена языка / URL)
+  const activeChip =
+    selectedCategory && categoryOptions.includes(selectedCategory) ? selectedCategory : null;
+
+  const effectiveCategories = useMemo(
+    () => (activeChip ? [activeChip] : allowedCategories),
+    [activeChip, allowedCategories]
+  );
+
+  // повторный клик по активной категории сбрасывает выбор
+  const handleChipClick = useCallback((category: string | null, el: HTMLElement) => {
+    setSelectedCategory((prev) => (category === prev ? null : category));
+    el.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+  }, []);
+
   // Фильтр + поиск + группировка по категориям (порядок групп — по первому появлению)
   const groups = useMemo(() => {
     if (!index) return [];
-    const filtered = searchProducts(index, deferredSearch, allowedCategories);
+    const filtered = searchProducts(index, deferredSearch, effectiveCategories);
     const map = new Map<string, CatalogProduct[]>();
     for (const product of filtered) {
       let arr = map.get(product.category);
@@ -162,7 +195,7 @@ const ProductsClient = () => {
       arr.push(product);
     }
     return Array.from(map.entries());
-  }, [index, deferredSearch, allowedCategories]);
+  }, [index, deferredSearch, effectiveCategories]);
 
   const total = useMemo(() => groups.reduce((sum, [, items]) => sum + items.length, 0), [groups]);
 
@@ -186,7 +219,7 @@ const ProductsClient = () => {
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
     contentRef.current?.scrollTo({ top: 0 });
-  }, [deferredSearch, activeCategory, index]);
+  }, [deferredSearch, activeCategory, activeChip, index]);
 
   // Lazy loading: когда маркер в конце списка подходит к экрану — показываем ещё 100
   useEffect(() => {
@@ -221,6 +254,31 @@ const ProductsClient = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
+
+        {/* 🏷️ Меню категорий */}
+        {index && categoryOptions.length > 1 && (
+          <div className={styles["organs-scroll"]}>
+            <button
+              type="button"
+              aria-pressed={activeChip === null}
+              className={`${styles["organ-chip"]} ${activeChip === null ? styles["organ-chip-active"] : ""}`}
+              onClick={(e) => handleChipClick(null, e.currentTarget)}
+            >
+              <span className={styles["organ-label"]}>{t("all")}</span>
+            </button>
+            {categoryOptions.map((category) => (
+              <button
+                key={category}
+                type="button"
+                aria-pressed={activeChip === category}
+                className={`${styles["organ-chip"]} ${activeChip === category ? styles["organ-chip-active"] : ""}`}
+                onClick={(e) => handleChipClick(category, e.currentTarget)}
+              >
+                <span className={styles["organ-label"]}>{categoryName(category)}</span>
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* 📦 Контент */}

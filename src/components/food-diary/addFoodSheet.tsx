@@ -21,6 +21,7 @@ import {
   type ProductIndex,
 } from "@/lib/productsIndex";
 import { getRecentSlugs } from "@/lib/recentProducts";
+import NutritionStars from "@/components/nutritionStars/NutritionStars";
 
 export type DiaryProduct = CatalogProduct;
 
@@ -48,7 +49,8 @@ const ProductRow = memo(function ProductRow({
   return (
     <div className={styles["item"]}>
       <div className={styles["item-details"]}>
-        <div className={styles["item-name"]}>{product.name}</div>
+        <div className={styles["item-name"]}>{product.name} </div>
+        <NutritionStars stars={product.nutritionStars} />
         <div className={styles["item-calories"]}>
           <div className={styles["calories-label"]}>
             {caloriesLabel}: <span className={styles["calories-value"]}>{product.calories}</span>

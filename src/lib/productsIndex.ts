@@ -13,8 +13,9 @@ export type CatalogProduct = {
   calories: number;
   image: string;
   link: string;
+  nutritionPercentile?: number;
+  nutritionStars?: 1 | 2 | 3 | 4 | 5;
 };
-
 type IndexEntry = {
   product: CatalogProduct;
   /** название в нижнем регистре */
