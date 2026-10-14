@@ -1,0 +1,212 @@
+.main-layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 24px;
+  overflow-y: auto;
+  background-color: #fefefe;
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+
+.navigation {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-top: 10px;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.vitamin-img-container {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 60 / 40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.vitamin-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  position: relative;
+}
+
+.backlink {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0;
+  border: 0;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.content-text {
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  top: -30px;
+  background: #fff;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.vitamin-name {
+  margin: 0;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+}
+
+.vitamin-category {
+  font-size: 16px;
+  line-height: 143%;
+  color: #777;
+}
+
+.vitamin-description {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 143%;
+}
+
+.vitamin-section {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 143%;
+}
+
+.vitamin-section h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 143%;
+}
+
+.vitamin-section ul {
+  padding: 0 0 0 15px;
+  margin: 8px 0;
+}
+
+.vitamin-section li {
+  font-size: 14px;
+  line-height: 120%;
+  margin: 4px 0;
+}
+
+.vitamin-section li::marker {
+  color: orange;
+}
+
+/* Фоны секций (раньше были inline-стилями) */
+.key-functions { background: #fbf2d8; }
+.top-food-sources { background: none; }
+.daily-intake { background: #fbf0d9; }
+.tabs-and-symptoms-section { background: #fff2f0; padding: 0; }
+
+.tabs-and-symptoms {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+  padding: 4px;
+  background: #f5e1bf;
+  border-radius: 10px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  font: inherit;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tab.active {
+  background: #fff;
+}
+
+.tabs-and-symptoms-content {
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+*::-webkit-scrollbar-track {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  *::-webkit-scrollbar {
+    display: none;
+  }
+}
