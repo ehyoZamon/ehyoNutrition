@@ -3,40 +3,55 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 0 24px;
-  overflow-y: auto;
   background-color: #fefefe;
-  font-family: var(--font-family);
+  font-family: var(--second-family);
   font-weight: 400;
   letter-spacing: -0.02em;
   color: #000;
 }
 
-.navigation {
+/* ---- Header (как в foodDiary: header > header-row > page-title) ---- */
+.header {
   width: 100%;
-  max-width: 320px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
   flex-shrink: 0;
-  padding-top: 10px;
+  padding: 16px 16px 8px;
+  padding-top: 50px;
 }
 
-.nav-link {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.content-section {
+.header-row {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  gap: 12px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+.backlink {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+/* ---- Content ---- */
+.content-container {
   flex: 1;
   width: 100%;
+  min-height: 0;
   overflow: hidden;
 }
 
@@ -44,64 +59,36 @@
   width: 100%;
   height: 100%;
   overflow-y: auto;
-}
-
-.vitamin-img-container {
-  width: 100%;
-  max-width: 600px;
-  aspect-ratio: 60 / 40;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-}
-
-.vitamin-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: inline-block;
-  position: relative;
-}
-
-.backlink {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  padding: 0;
-  border: 0;
-  border-radius: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  z-index: 10;
-  cursor: pointer;
-}
-
-.content-text {
-  border-radius: 15px 15px 0 0;
-  position: relative;
-  top: -30px;
-  background: #fff;
-  width: 100%;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 8px;
+  padding-bottom: 140px;
 }
 
-.vitamin-name {
-  margin: 0;
-  font-size: 24px;
-  line-height: 100%;
-  letter-spacing: -0.01em;
+
+.hero-badge {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: orange;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
 }
 
 .vitamin-category {
@@ -115,23 +102,23 @@
   padding: 10px;
   border-radius: 10px;
   font-size: 14px;
-  line-height: 143%;
+  line-height: 160%;
 }
 
 .vitamin-section {
   width: 100%;
-  margin-top: 8px;
   padding: 10px;
   border-radius: 10px;
   font-size: 14px;
-  line-height: 143%;
+  line-height: 160%;
 }
 
 .vitamin-section h3 {
   margin: 0;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 143%;
+  line-height: 160%;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .vitamin-section ul {
@@ -141,7 +128,7 @@
 
 .vitamin-section li {
   font-size: 14px;
-  line-height: 120%;
+  line-height: 160%;
   margin: 4px 0;
 }
 
@@ -149,11 +136,9 @@
   color: orange;
 }
 
-/* Фоны секций (раньше были inline-стилями) */
 .key-functions { background: #fbf2d8; }
 .top-food-sources { background: none; }
-.daily-intake { background: #fbf0d9; }
-.tabs-and-symptoms-section { background: #fff2f0; padding: 0; }
+.tabs-and-symptoms-section {  padding: 0; }
 
 .tabs-and-symptoms {
   width: 100%;
@@ -175,7 +160,7 @@
   background: transparent;
   font: inherit;
   font-size: 16px;
-  line-height: 120%;
+  line-height: 160%;
   letter-spacing: inherit;
   color: inherit;
   cursor: pointer;
@@ -189,7 +174,7 @@
 .tabs-and-symptoms-content {
   padding: 5px 15px;
   font-size: 14px;
-  line-height: 120%;
+  line-height: 160%;
 }
 
 *::-webkit-scrollbar {

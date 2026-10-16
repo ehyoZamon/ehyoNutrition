@@ -532,7 +532,16 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   const handleNutrientClick = async ({ section, key, label, percent }: NutrientClickInfo) => {
     const title = section === "vitamin" ? `${tt("vitaminSingular", "Vitamin")} ${label}` : label;
 
-    setNutrientInfo({ section, ringLabel: label, title });
+    const slug = slugForNutrientKey(section, key);
+    const loc = locale === "ru" ? "ru" : "en";
+
+    setNutrientInfo({
+      section,
+      ringLabel: label,
+      title,
+      // ссылка на страницу с подробной информацией (только для витаминов)
+      slug: section === "vitamin" || section === "mineral" ? slug : undefined,
+    });
     setNutrientPercent(percent);
     setNutrientPlannedPercent(0);
     setNutrientRows([]);
@@ -547,9 +556,6 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setIsNutrientSheetOpen(true);
     setNutrientLoading(true);
     setTopProductsLoading(true);
-
-    const slug = slugForNutrientKey(section, key);
-    const loc = locale === "ru" ? "ru" : "en";
 
     try {
       // Кольцо в шите должно показывать ровно тот же %, что уже нарисован в

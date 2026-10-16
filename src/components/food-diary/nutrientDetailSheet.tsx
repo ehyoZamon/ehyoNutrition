@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 import styles from "./nutrientDetailSheet.module.css";
 import { CircleRing, useGradientStops } from "@/components/daily-value/dailyValueModule";
@@ -11,6 +12,11 @@ export type NutrientDetailInfo = {
   section: "vitamin" | "macro" | "mineral";
   ringLabel: string; // short label shown inside the ring, e.g. "A", "Fat", "Sodium"
   title: string; // full display title, e.g. "Vitamin A", "Fat", "Sodium"
+  /**
+   * Slug of the nutrient's info page, e.g. "vitamin-d" -> /vitamins/vitaminInfo/vitamin-d.
+   * When omitted, no info link is shown next to the title.
+   */
+  slug?: string;
 };
 
 type NutrientDetailSheetProps = {
@@ -179,7 +185,29 @@ const NutrientDetailSheet = ({
           />
         </div>
 
-        <h2 className={styles["title"]}>{info.title}</h2>
+        <div className={styles["title-row"]}>
+          <h2 className={styles["title"]}>{info.title}</h2>
+          {info.slug && (
+            <Link
+              href={`/vitamins/vitaminInfo/${info.slug}`}
+              prefetch={false}
+              className={styles["info-link"]}
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9.5" stroke="currentColor" strokeWidth="1.8" />
+                <path d="M12 11V16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                <circle cx="12" cy="7.8" r="1.1" fill="currentColor" />
+              </svg>
+            </Link>
+          )}
+        </div>
 
        
 
