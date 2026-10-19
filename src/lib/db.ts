@@ -161,3 +161,19 @@ export async function persistWeb() {
     await sqlite.saveToStore('app_db');
   }
 }
+
+export function getSqlite() {
+  return sqlite;
+}
+
+// Закрывает соединение и сбрасывает кэш инициализации.
+// Нужна перед импортом бэкапа (importFromJson не должен работать при открытом соединении).
+export async function closeDB() {
+  try {
+    await sqlite.closeConnection('app_db', false);
+  } catch {
+    // соединения могло уже не быть, это нормально
+  }
+  db = null;
+  initPromise = null;
+}

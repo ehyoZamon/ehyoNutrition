@@ -3,12 +3,7 @@ import { Filesystem, Directory, Encoding } from "@capacitor/filesystem";
 import { Share } from "@capacitor/share";
 import { getUserProfile, saveUserProfile, UserProfile } from "@/lib/userProfile";
 
-// TODO: подставь свои имена. Нужны:
-//  - getDb():     открытое соединение SQLiteDBConnection
-//  - getSqlite(): экземпляр SQLiteConnection
-//  - DB_NAME:     имя базы
-//  - closeDb():   закрыть текущее соединение (чтобы импорт не конфликтовал)
-import { getDb, getSqlite, closeDb, DB_NAME } from "@/lib/db";
+import { initDB, getSqlite, closeDB, persistWeb } from "@/lib/db";
 
 const BACKUP_APP = "NutritionLib";
 const BACKUP_FORMAT = 1;
@@ -29,7 +24,8 @@ export class BackupError extends Error {
 
 /** Собирает все данные в один JSON-объект. */
 async function buildBackup(): Promise<BackupFile> {
-  const db = await getDb();
+  const db = await initDB();
+  if (!db) throw new Error("База данных недоступна");
   const { export: dbJson } = await db.exportToJson("full");
   const profile = await getUserProfile();
 
@@ -87,7 +83,7 @@ export async function importBackup(file: File): Promise<void> {
     throw new BackupError("too-new");
   }
 
-  const sqlite = await getSqlite();
+  const sqlite = getSqlite();
   const dbJson = { ...(parsed.db as object), overwrite: true };
   const dbJsonString = JSON.stringify(dbJson);
 
@@ -95,13 +91,11 @@ export async function importBackup(file: File): Promise<void> {
   if (!result) throw new BackupError("invalid-db");
 
   // Закрываем текущее соединение, затем импортируем.
-  await closeDb();
+  await closeDB();
   await sqlite.importFromJson(dbJsonString);
 
-  // В браузере (jeep-sqlite/WASM) нужно явно сохранить базу в IndexedDB.
-  if (Capacitor.getPlatform() === "web") {
-    await sqlite.saveToStore(DB_NAME);
-  }
+  // В браузере (jeep-sqlite/WASM) сохраняем базу в IndexedDB
+  await persistWeb();
 
   if (parsed.profile) {
     await saveUserProfile(parsed.profile);

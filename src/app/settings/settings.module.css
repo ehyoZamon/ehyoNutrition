@@ -44,7 +44,7 @@
     max-width: clamp(300px, 90vw, 500px);;
     z-index: 1;
     padding-top: 92px;
-    padding-bottom: 112px;
+    padding-bottom: 140px;
 }
 
 .main-layout .content{

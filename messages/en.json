@@ -198,7 +198,17 @@
     "weightPlaceholder": "Weight", 
     "heightPlaceholder": "Height", 
     "kg": "kg", 
-    "cm": "sm"
+    "cm": "sm",
+    "backupTitle": "Backup",
+    "backupHint": "Save your data to a file so you don't lose it if you uninstall the app or switch phones.",
+    "exportData": "Export",
+    "importData": "Import",
+    "exportDone": "File created",
+    "exportError": "Couldn't create the file",
+    "importConfirm": "Your current data will be replaced with the data from the file. Continue?",
+    "importInvalid": "This file is not supported or is corrupted",
+    "importTooNew": "This file was created in a newer version of the app",
+    "importError": "Couldn't import the data"
   },
   "Statistics": {
     "title": "Statistics",
