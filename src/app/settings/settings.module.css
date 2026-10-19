@@ -231,3 +231,67 @@
   color: #999;
   pointer-events: none;
 }
+/* Backup: экспорт / импорт данных */
+.backup-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 12px;
+  font-family: var(--second-family);
+}
+
+.backup-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #696969;
+}
+
+.backup-hint {
+  font-size: 13px;
+  line-height: 1.35;
+  color: #999;
+  margin: 0;
+}
+
+.backup-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 100%;
+}
+
+.backup-btn {
+  flex: 1;
+  height: 52px;
+  border-radius: 16px;
+  border: 1px solid #e2e2e2;
+  background-color: #eee;
+  font-family: var(--second-family);
+  font-size: 16px;
+  color: #696969;
+  cursor: pointer;
+}
+
+.backup-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.backup-status {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.backup-status-ok {
+  color: #4f9a5b;
+}
+
+.backup-status-error {
+  color: #c0504d;
+}
+
+.backup-file-input {
+  display: none;
+}

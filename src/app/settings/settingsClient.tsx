@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
@@ -18,6 +18,7 @@ import {
   sanitizeWeightInput,
   saveUserProfile,
 } from "@/lib/userProfile";
+import { BackupError, exportBackup, importBackup } from "@/lib/backup";
 
 const DEFAULT_PROFILE: UserProfile = {
   name: "",
@@ -73,6 +74,13 @@ const SettingsClient = () => {
   const [weightDisplay, setWeightDisplay] = useState("");
   const [heightDisplay, setHeightDisplay] = useState("");
   const [loaded, setLoaded] = useState(false);
+
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [backupBusy, setBackupBusy] = useState(false);
+  const [backupStatus, setBackupStatus] = useState<{
+    kind: "ok" | "error";
+    text: string;
+  } | null>(null);
 
   useEffect(() => {
     const load = async () => {
@@ -147,6 +155,54 @@ const SettingsClient = () => {
       if (loaded) persist(next);
     } else {
       setHeightDisplay(profile.heightCm != null ? String(profile.heightCm) : "");
+    }
+  };
+
+  const handleExport = async () => {
+    setBackupBusy(true);
+    setBackupStatus(null);
+    try {
+      await exportBackup();
+      setBackupStatus({ kind: "ok", text: t("exportDone") });
+    } catch (e) {
+      console.error("Ошибка экспорта:", e);
+      // Закрытие системного меню «Поделиться» пользователем — не ошибка
+      const msg = e instanceof Error ? e.message.toLowerCase() : "";
+      if (!msg.includes("cancel")) {
+        setBackupStatus({ kind: "error", text: t("exportError") });
+      }
+    } finally {
+      setBackupBusy(false);
+    }
+  };
+
+  const handleImportPick = () => {
+    fileInputRef.current?.click();
+  };
+
+  const handleImportFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // позволяет выбрать тот же файл повторно
+    if (!file) return;
+
+    if (!window.confirm(t("importConfirm"))) return;
+
+    setBackupBusy(true);
+    setBackupStatus(null);
+    try {
+      await importBackup(file);
+      // Перезагружаем, чтобы все страницы и соединение с БД поднялись с новыми данными
+      window.location.reload();
+    } catch (err) {
+      console.error("Ошибка импорта:", err);
+      const key =
+        err instanceof BackupError && err.code === "too-new"
+          ? "importTooNew"
+          : err instanceof BackupError
+            ? "importInvalid"
+            : "importError";
+      setBackupStatus({ kind: "error", text: t(key) });
+      setBackupBusy(false);
     }
   };
 
@@ -246,6 +302,48 @@ const SettingsClient = () => {
               {t("systemLanguage")}
             </span>
             <LanguageSwitcher />
+          </div>
+
+          {/* Backup: export / import */}
+          <div className={styles["backup-section"]}>
+            <span className={styles["backup-title"]}>{t("backupTitle")}</span>
+            <p className={styles["backup-hint"]}>{t("backupHint")}</p>
+            <div className={styles["backup-buttons"]}>
+              <button
+                type="button"
+                className={styles["backup-btn"]}
+                onClick={handleExport}
+                disabled={backupBusy}
+              >
+                {t("exportData")}
+              </button>
+              <button
+                type="button"
+                className={styles["backup-btn"]}
+                onClick={handleImportPick}
+                disabled={backupBusy}
+              >
+                {t("importData")}
+              </button>
+            </div>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="application/json,.json"
+              className={styles["backup-file-input"]}
+              onChange={handleImportFile}
+            />
+            {backupStatus && (
+              <p
+                className={`${styles["backup-status"]} ${
+                  backupStatus.kind === "ok"
+                    ? styles["backup-status-ok"]
+                    : styles["backup-status-error"]
+                }`}
+              >
+                {backupStatus.text}
+              </p>
+            )}
           </div>
         </div>
       </div>
