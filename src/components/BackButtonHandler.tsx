@@ -8,20 +8,17 @@ import { Capacitor } from "@capacitor/core";
 import type { PluginListenerHandle } from "@capacitor/core";
 import { runBackHandlers } from "@/lib/backHandler";
 
-// Логи в консоль WebView (chrome://inspect). После отладки поставьте false.
-const DEBUG = true;
+// Логи в консоль WebView (chrome://inspect). Для отладки поставьте true.
+const DEBUG = false;
 const log = (...args: unknown[]) => {
   if (DEBUG) console.log("[back]", ...args);
 };
 
-// ГЛАВНЫЙ экран приложения
+// Главный экран приложения
 const ROOT_ROUTE = "/food-diary";
 
-// Экраны, на которых "Назад" закрывает приложение
-const EXIT_ROUTES = new Set<string>(["/", ROOT_ROUTE, "/walkthrough", "/onboardingInfo"]);
-
-// Экраны нижней навигации: "Назад" возвращает на главный экран
-const TAB_ROUTES = new Set<string>(["/products", "/statistics", "/settings"]);
+// Экраны, откуда "Назад" ВСЕГДА закрывает приложение (в историю на них не возвращаемся)
+const ALWAYS_EXIT_ROUTES = new Set<string>(["/", "/walkthrough", "/onboardingInfo"]);
 
 // Реальный путь из адреса WebView (не зависит от состояния React/Next)
 const currentPath = (): string => {
@@ -40,9 +37,7 @@ export default function BackButtonHandler() {
   }, [router]);
 
   useEffect(() => {
-    const native = Capacitor.isNativePlatform();
-    log("init, native =", native);
-    if (!native) return;
+    if (!Capacitor.isNativePlatform()) return;
 
     let removed = false;
     let handle: PluginListenerHandle | undefined;
@@ -52,36 +47,28 @@ export default function BackButtonHandler() {
       log("pressed, path =", path, "canGoBack =", canGoBack);
 
       // 1) Открытые шторки/модалки/шаги онбординга (useBackHandler)
-      if (runBackHandlers()) {
-        log("handled by overlay");
-        return;
-      }
+      if (runBackHandlers()) return;
 
-      // 2) Корневые экраны -> выход
-      if (EXIT_ROUTES.has(path)) {
-        log("exit app");
+      // 2) Онбординг и стартовые экраны -> выход
+      if (ALWAYS_EXIT_ROUTES.has(path)) {
         App.exitApp();
         return;
       }
 
-      // 3) Вкладки -> главный экран
-      if (TAB_ROUTES.has(path)) {
-        log("tab -> root");
-        routerRef.current.replace(ROOT_ROUTE);
+      // 3) Обычная цепочка: назад по истории (food-diary -> products -> settings -> products -> ...)
+      if (canGoBack) {
+        routerRef.current.back();
         return;
       }
 
-      // 4) Остальные экраны -> назад по истории, иначе на главный
-      if (canGoBack) {
-        log("history back");
-        routerRef.current.back();
+      // 4) Истории нет: на главном экране выходим, с любого другого — на главный
+      if (path === ROOT_ROUTE) {
+        App.exitApp();
       } else {
-        log("no history -> root");
         routerRef.current.replace(ROOT_ROUTE);
       }
     })
       .then((h) => {
-        log("listener registered");
         if (removed) h.remove();
         else handle = h;
       })
