@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
+import { useBackHandler } from "@/lib/backHandler";
 import {
   addMonths,
   subMonths,
@@ -632,6 +633,13 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setNutrientPlannedPercent(0);
     setTopProducts([]);
   };
+
+  // ---- Аппаратная кнопка "Назад" (Android): сначала закрываем открытое окно ----
+  useBackHandler(() => { setIsCalendarOpen(false); return true; }, isCalendarOpen);
+  useBackHandler(() => { handleEditClose(); return true; }, isEditSheetOpen);
+  useBackHandler(() => { handleDeleteClose(); return true; }, isDeleteConfirmOpen);
+  useBackHandler(() => { handlePlanConfirmNo(); return true; }, isPlanConfirmOpen);
+  useBackHandler(() => { handleNutrientClose(); return true; }, isNutrientSheetOpen);
 
   return (
     <div className={styles["main-layout"]}>

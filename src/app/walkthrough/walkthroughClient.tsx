@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Preferences } from "@capacitor/preferences";
 
@@ -11,25 +10,17 @@ import OnboardingSlider from "@/components/OnboardingSlider";
 const WalkthroughClient = () => {
     const router = useRouter();
 
-    useEffect(() => {
-        const checkOnboarding = async () => {
-            const { value } = await Preferences.get({
-                key: "onboardingCompleted",
-            });
-
-            if (value === "true") {
-                router.replace("/main");
-            }
-        };
-
-        checkOnboarding();
-    }, [router]);
-
-    const handleGetStarted = async () => {
-        await Preferences.set({
-            key: "onboardingCompleted",
-            value: "true",
-        });
+    // Запоминаем только то, что слайды уже показаны.
+    // Сам онбординг считается пройденным ТОЛЬКО когда сохранён профиль
+    // (проверяется на главной через hasCompletedPersonalInfo).
+    const handleGetStarted = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        try {
+            await Preferences.set({ key: "walkthroughSeen", value: "true" });
+        } catch (error) {
+            console.error("Failed to save walkthroughSeen:", error);
+        }
+        router.push("/onboardingInfo");
     };
 
     return (

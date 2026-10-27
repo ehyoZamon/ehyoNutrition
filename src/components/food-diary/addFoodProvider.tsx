@@ -14,6 +14,7 @@ import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet
 import QuantitySheet from "@/components/food-diary/quantitySheet";
 import { addDiaryEntry } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
+import { useBackHandler } from "@/lib/backHandler";
 
 // "uncategorized" is never chosen by the user directly — it's only the
 // fallback stored on an entry auto-added between 22:00–04:59 while on
@@ -116,6 +117,16 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
     setIsQuantitySheetOpen(false);
     setSelectedProduct(null);
   }, []);
+
+  // "Назад" (Android) закрывает шторки добавления продукта
+  useBackHandler(() => {
+    setIsAddSheetOpen(false);
+    return true;
+  }, isAddSheetOpen);
+  useBackHandler(() => {
+    handleQuantityClose();
+    return true;
+  }, isQuantitySheetOpen);
 
   const value = useMemo<AddFoodContextValue>(
     () => ({ openAddFood, setPreferredMeal, diaryVersion }),

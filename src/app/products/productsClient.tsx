@@ -13,6 +13,7 @@ import {
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
+import { useBackHandler } from "@/lib/backHandler";
 
 import styles from "./products.module.css";
 import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
@@ -236,6 +237,9 @@ const ProductsClient = () => {
     io.observe(el);
     return () => io.disconnect();
   }, [hasMore, visibleCount]);
+
+  // "Назад" закрывает шторку с составом продукта
+  useBackHandler(() => { setOpenedSlug(null); return true; }, openedSlug !== null);
 
   const openedProduct = openedSlug && index ? index.bySlug.get(openedSlug) : undefined;
   const caloriesLabel = t("calories");

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { useBackHandler } from "@/lib/backHandler";
 
 import styles from "./onboardingInfo.module.css";
 import {
@@ -128,6 +129,15 @@ const OnboardingInfoClient = () => {
   const handleBack = () => {
     if (step > 1) setStep((s) => (s - 1) as Step);
   };
+
+  // Аппаратная кнопка "Назад" (Android): на шагах 2–5 возвращает на предыдущий шаг.
+  // На шаге 1 обработчик не активен, поэтому "Назад" обрабатывает глобальная логика (выход).
+  // Пока идёт сохранение, нажатие поглощается.
+  useBackHandler(() => {
+    if (saving) return true;
+    setStep((s) => (s - 1) as Step);
+    return true;
+  }, step > 1 || saving);
 
   const handleNext = async () => {
     if (!canGoNext || saving) return;
