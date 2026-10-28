@@ -1,17 +1,27 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import styles from "./ProductDetailSheet.module.css";
 import { parseAmount } from "@/lib/nutrientFormat";
 import { loadProductDetail, type ProductDetail } from "@/lib/productDetail";
 import { useNutrientName } from "@/lib/useNutrientName";
+import { computeDailyValueData, emptyDailyValueData } from "@/lib/dailyValue";
+import type { SimpleUserProfile } from "@/lib/nutritionDRI";
+
+// Все количества в файле продукта указаны на 100 г, поэтому и %DV считаем
+// на 100 г — тогда проценты соответствуют тем цифрам, что видны в списке.
+const DV_GRAMS = 100;
 
 type Props = {
   slug: string;
+  /** id продукта из каталога — нужен для расчёта %DV. */
+  productId: number;
+  /** Профиль (возраст/пол) для персонального %DV; без него — дефолтный DRI. */
+  userProfile?: SimpleUserProfile | null;
   /** Shown immediately, before the full per-product file has loaded. */
   basicInfo: { name: string; image: string };
   /** Optional — link to the full product page, if you still want one. */
@@ -38,7 +48,15 @@ const localizeUnits = (
   return result;
 };
 
-const ProductDetailSheet = ({ slug, basicInfo, fullInfoHref, onClose }: Props) => {
+const ProductDetailSheet = ({
+  slug,
+  productId,
+  userProfile = null,
+  basicInfo,
+  fullInfoHref,
+  onClose,
+}: Props) => {
+  const locale = useLocale();
   const t = useTranslations("Products");
   const nutrientName = useNutrientName();
   const [detail, setDetail] = useState<ProductDetail | null>(null);
@@ -71,6 +89,41 @@ const ProductDetailSheet = ({ slug, basicInfo, fullInfoHref, onClose }: Props) =
     };
   }, [slug]);
 
+  // Персональный %DV на DV_GRAMS граммов. Используем ту же функцию, что и
+  // QuantitySheet / дневник, с одной синтетической записью.
+  const [dv, setDv] = useState(emptyDailyValueData());
+
+  useEffect(() => {
+    if (!detail) {
+      setDv(emptyDailyValueData());
+      return;
+    }
+    let cancelled = false;
+    const entries = [{ productId, grams: DV_GRAMS }];
+    const productMap = new Map([[productId, { link: fullInfoHref ?? `/${slug}` }]]);
+
+    computeDailyValueData(entries, productMap, userProfile).then((data) => {
+      if (!cancelled) setDv(data);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [detail, productId, slug, fullInfoHref, userProfile]);
+
+  // slug нутриента -> округлённый %DV (витамины хранятся как "vitamin-<key>")
+  const percentBySlug = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const [key, percent] of Object.entries(dv.vitaminPercents ?? {})) {
+      map.set(`vitamin-${key}`, Math.round(percent));
+    }
+    for (const [key, percent] of Object.entries(dv.mineralPercents ?? {})) {
+      map.set(key, Math.round(percent));
+    }
+    return map;
+  }, [dv]);
+
+  const dailyValLabel = locale === "en" ? "DV" : "CH";
+
   // Slide-up animation + body scroll lock + Escape to close.
   useEffect(() => {
     const raf = requestAnimationFrame(() => setVisible(true));
@@ -97,7 +150,9 @@ const ProductDetailSheet = ({ slug, basicInfo, fullInfoHref, onClose }: Props) =
 
   const macro = detail?.macroNutrients?.filter((n) => n.slug) ?? [];
   const macroCalories = detail?.macroNutrients?.find((n) => !n.slug); // the "calories" row has slug: ""
-  const listNutrients = [...macro, ...(detail?.microNutrients ?? [])];
+  // Белки/жиры/углеводы уже показаны в горизонтальной плашке (первые 3 макро),
+  // поэтому в вертикальный список их не дублируем.
+  const listNutrients = [...macro.slice(3), ...(detail?.microNutrients ?? [])];
 
   return (
     <div className={styles.overlay} onClick={handleClose}>
@@ -158,13 +213,21 @@ const ProductDetailSheet = ({ slug, basicInfo, fullInfoHref, onClose }: Props) =
 
           <div className={styles.list}>
             {listNutrients.map((n) => {
-              const { value, dv } = parseAmount(n.amount);
+              const { value } = parseAmount(n.amount);
+              const percent = percentBySlug.get(n.slug);
               return (
                 <div className={styles.row} key={`${n.id}-${n.slug}`}>
                   <span className={styles.rowName}>
                     {nutrientName(n)}
                   </span>
-                  <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
+                  <span className={styles.rowRight}>
+                    <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
+                    {percent !== undefined && (
+                      <span className={styles.rowDv}>
+                        / {percent}% {dailyValLabel}
+                      </span>
+                    )}
+                  </span>
                 </div>
               );
             })}

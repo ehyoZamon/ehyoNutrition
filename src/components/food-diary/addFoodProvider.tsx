@@ -82,9 +82,11 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
     setIsAddSheetOpen(true);
   }, []);
 
+  // Список продуктов НЕ закрываем: он остаётся смонтированным под окном
+  // количества (z-index 1000 против 1100), поэтому после «Отмены» пользователь
+  // возвращается к нему с тем же поиском и позицией прокрутки.
   const handleSelectProduct = useCallback((product: DiaryProduct) => {
     setSelectedProduct(product);
-    setIsAddSheetOpen(false);
     setIsQuantitySheetOpen(true);
   }, []);
 
@@ -103,6 +105,9 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
       try {
         await addDiaryEntry(product.id, grams, dateStr, meal, status);
         setDiaryVersion((v) => v + 1);
+        // Запись успешно сохранена («Добавить» или «В план») — закрываем и список.
+        // При ошибке список остаётся открытым, чтобы можно было повторить.
+        setIsAddSheetOpen(false);
       } catch (e) {
         console.error("Не удалось добавить запись:", e);
       } finally {
@@ -113,16 +118,18 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
     []
   );
 
+  // «Отмена»: закрывается только окно количества, список остаётся.
   const handleQuantityClose = useCallback(() => {
     setIsQuantitySheetOpen(false);
     setSelectedProduct(null);
   }, []);
 
-  // "Назад" (Android) закрывает шторки добавления продукта
+  // "Назад" (Android): оба окна могут быть открыты одновременно, поэтому
+  // сначала закрываем верхнее (количество), и только потом — список.
   useBackHandler(() => {
     setIsAddSheetOpen(false);
     return true;
-  }, isAddSheetOpen);
+  }, isAddSheetOpen && !isQuantitySheetOpen);
   useBackHandler(() => {
     handleQuantityClose();
     return true;

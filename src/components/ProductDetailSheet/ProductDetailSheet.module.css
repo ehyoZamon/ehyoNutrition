@@ -150,11 +150,19 @@
   color: #777;
   margin-left: 4px;
   text-align: right;
+  font-size: 13px;
+}
+
+.rowRight {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 3px;
 }
 
 .rowDv {
   font-family: var(--second-family);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: -0.01em;
   color: #444;
@@ -232,4 +240,3 @@
 .closeButton:active {
   background: #e97e67;
 }
-
