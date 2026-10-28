@@ -14,6 +14,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { useBackHandler } from "@/lib/backHandler";
+import { getUserProfile, type UserProfile } from "@/lib/userProfile";
 
 import styles from "./products.module.css";
 import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
@@ -108,6 +109,14 @@ const ProductsClient = () => {
 
   // slug of the product whose detail sheet is currently open, if any
   const [openedSlug, setOpenedSlug] = useState<string | null>(null);
+
+  // профиль (возраст/пол) — для персонального %DV в шторке продукта
+  const [profile, setProfile] = useState<UserProfile | null>(null);
+  useEffect(() => {
+    getUserProfile()
+      .then(setProfile)
+      .catch((e) => console.error("Не удалось загрузить профиль:", e));
+  }, []);
 
   const contentRef = useRef<HTMLDivElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -327,6 +336,8 @@ const ProductsClient = () => {
       {openedProduct && (
         <ProductDetailSheet
           slug={getSlug(openedProduct.link)}
+          productId={openedProduct.id}
+          userProfile={profile}
           basicInfo={{ name: openedProduct.name, image: openedProduct.image }}
           fullInfoHref={openedProduct.link}
           onClose={() => setOpenedSlug(null)}
