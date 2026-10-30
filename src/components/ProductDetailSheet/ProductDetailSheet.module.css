@@ -46,7 +46,7 @@
    (.product, .category-group, .search-container, etc.) */
 .container {
   width: 100%;
-  max-width: clamp(300px, 90vw, 500px);;
+  max-width: clamp(300px, 90vw, 500px);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -72,11 +72,12 @@
 .title {
   font-family: var(--second-family);
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.01em;
   margin: 12px 0 16px;
   color: #444;
+  overflow-wrap: anywhere;
 }
 
 .macroBand {
@@ -210,22 +211,27 @@
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.01em;
-  color: #ed7f5f;
+  color: #91C788;
   text-decoration: underline;
 }
 
 .closeButtonWrap {
   width: 100%;
-  max-width: clamp(300px, 90vw, 500px);;
+  max-width: clamp(300px, 90vw, 500px);
   margin: 0 auto;
-  padding: 0 24px;
   flex-shrink: 0;
+}
+
+.buttonsRow {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0 calc(16px + env(safe-area-inset-bottom));
 }
 
 .closeButton {
   font-family: var(--second-family);
-  width: 100%;
-  margin: 12px 0 calc(16px + env(safe-area-inset-bottom));
+  flex: 1;
+  min-width: 0;
   padding: 16px;
   border: none;
   border-radius: 16px;
@@ -239,4 +245,25 @@
 
 .closeButton:active {
   background: #e97e67;
+}
+
+.moreButton {
+  font-family: var(--second-family);
+  flex: 1;
+  min-width: 0;
+  padding: 16px;
+  border: 2px solid #91C788;
+  border-radius: 16px;
+  background: #91C788;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.moreButton:active {
+  background: #fff2f0;
 }

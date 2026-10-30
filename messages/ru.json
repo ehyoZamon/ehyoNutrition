@@ -151,6 +151,7 @@
     "manganese": "Марганец",
     "chloride": "Хлорид",
     "selenium": "Селен",
+    "iodine": "Йод",
     "saveBtn": "Сохранить",
     "submitBtn": "Подтвердить",
     "deleteTitle": "Удалить из списка",
@@ -278,6 +279,7 @@
     "vitamin-b9": "Витамин B9",
     "vitamin-b12": "Витамин B12",
     "protein": "Белки",
+    "calories": "Калории",
     "carbohydrates": "Углеводы",
     "fats": "Жиры",
     "histidine": "Гистидин",
@@ -341,7 +343,8 @@
   "NutrientsShort": {
     "protein": "Белки",
     "fats": "Жиры",
-    "carbohydrates": "Карб."
+    "carbohydrates": "Карб.",
+    "calories": "Калории"
   },
   "Categories": {
     "beverages": "Напитки",

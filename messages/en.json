@@ -151,6 +151,7 @@
     "manganese": "Manganese",
     "chloride": "Chloride",
     "selenium": "Selenium",
+    "iodine": "Iodine",
     "saveBtn": "Save",
     "submitBtn": "Submit",
     "deleteTitle": "DELETE from daily intake",
@@ -276,6 +277,7 @@
     "vitamin-b9": "Vitamin B9",
     "vitamin-b12": "Vitamin B12",
     "protein": "Protein",
+    "calories": "Calories",
     "carbohydrates": "Carbohydrates",
     "fats": "Fats",
     "histidine": "Histidine",
@@ -340,7 +342,8 @@
   "NutrientsShort": {
     "protein": "Protein",
     "fats": "Fats",
-    "carbohydrates": "Carbs"
+    "carbohydrates": "Carbs",
+    "calories": "Calories"
   },
   "Categories": {
     "beverages": "Beverages",

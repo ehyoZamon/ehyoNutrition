@@ -367,6 +367,7 @@
   gap: 8px;
   flex-direction: row;
   flex: 1;
+  min-width: 0;
 }
 
 .intake-emoji {
@@ -384,6 +385,7 @@
   justify-content: flex-start;
   gap: 5px;
   width:100%;
+  min-width: 0;
 }
 
 .intake-amount{
@@ -409,6 +411,16 @@
   flex-direction: column;
   gap: 2px;
   min-width: 0;
+  max-width: 100%;
+}
+
+/* Имя продукта: одна строка, «…» в конце; полное имя — в детальной карточке */
+.intake-name {
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .intake-meal {

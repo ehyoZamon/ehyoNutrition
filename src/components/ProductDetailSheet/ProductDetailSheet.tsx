@@ -62,6 +62,10 @@ const ProductDetailSheet = ({
   const [detail, setDetail] = useState<ProductDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [visible, setVisible] = useState(false);
+  const [hasMoreInfo, setHasMoreInfo] = useState(false);
+
+  const isRu = locale === "ru";
+  const moreHref = `/products/productInfo/${encodeURIComponent(slug)}`;
 
   const translateUnit = (unit: (typeof UNIT_KEYS)[number]) => {
     try {
@@ -88,6 +92,37 @@ const ProductDetailSheet = ({
       cancelled = true;
     };
   }, [slug]);
+
+  // Проверяем, есть ли /data/<ru|en>/productInfo/<slug>.json —
+  // если есть, показываем кнопку «Больше» / «More».
+  useEffect(() => {
+    let cancelled = false;
+    setHasMoreInfo(false);
+
+    const loc = isRu ? "ru" : "en";
+
+    (async () => {
+      try {
+        const res = await fetch(
+          `/data/${loc}/productInfo/${encodeURIComponent(slug)}.json`
+        );
+        if (!res.ok) return;
+
+        // Подстраховка: некоторые хостинги на 404 отдают index.html со статусом 200,
+        // поэтому проверяем, что это реально JSON с title (как на самой странице).
+        const json = await res.json();
+        if (!cancelled && json && typeof json.title === "string") {
+          setHasMoreInfo(true);
+        }
+      } catch {
+        /* файла нет или это не JSON — кнопку не показываем */
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [slug, isRu]);
 
   // Персональный %DV на DV_GRAMS граммов. Используем ту же функцию, что и
   // QuantitySheet / дневник, с одной синтетической записью.
@@ -166,81 +201,84 @@ const ProductDetailSheet = ({
         <div className={styles.grabber} />
 
         <div className={styles.scrollArea}>
-        <div className={styles.container}>
-          <div className={styles.avatarWrap}>
-            <div className={styles.avatarCircle}>
-              <Image
-                src={basicInfo.image}
-                alt={basicInfo.name}
-                width={64}
-                height={64}
-              />
+          <div className={styles.container}>
+            <div className={styles.avatarWrap}>
+              <div className={styles.avatarCircle}>
+                <Image
+                  src={basicInfo.image}
+                  alt={basicInfo.name}
+                  width={64}
+                  height={64}
+                />
+              </div>
             </div>
-          </div>
 
-          {/* Заголовок — локализованное имя из products.json, а не английское из detail */}
-          <h2 className={styles.title}>{basicInfo.name}</h2>
+            {/* Заголовок — локализованное имя из products.json, а не английское из detail */}
+            <h2 className={styles.title}>{basicInfo.name}</h2>
 
-          {(macroCalories || macro.length > 0) && (
-            <div className={styles.macroBand}>
-              {macroCalories && (
-                <div className={styles.macroCol}>
-                  <span className={styles.macroLabel}>{nutrientName(macroCalories)}</span>
-                  <span className={styles.macroValue}>
-                    {localizeUnits(parseAmount(macroCalories.amount).value, translateUnit)}
-                  </span>
-                </div>
-              )}
-              {macro.slice(0, 3).map((n) => {
+            {(macroCalories || macro.length > 0) && (
+              <div className={styles.macroBand}>
+                {macroCalories && (
+                  <div className={styles.macroCol}>
+                    <span className={styles.macroLabel}>{nutrientName(macroCalories)}</span>
+                    <span className={styles.macroValue}>
+                      {localizeUnits(parseAmount(macroCalories.amount).value, translateUnit)}
+                    </span>
+                  </div>
+                )}
+                {macro.slice(0, 3).map((n) => {
+                  const { value } = parseAmount(n.amount);
+                  return (
+                    <div className={styles.macroCol} key={n.id}>
+                      <span className={styles.macroLabel}>{nutrientName(n)}</span>
+                      <span className={styles.macroValue}>{localizeUnits(value, translateUnit)}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {loading && !detail && (
+              <div className={styles.loadingRows}>
+                {[...Array(6)].map((_, i) => (
+                  <div className={styles.skeletonRow} key={i} />
+                ))}
+              </div>
+            )}
+
+            <div className={styles.list}>
+              {listNutrients.map((n) => {
                 const { value } = parseAmount(n.amount);
+                const percent = percentBySlug.get(n.slug);
                 return (
-                  <div className={styles.macroCol} key={n.id}>
-                    <span className={styles.macroLabel}>{nutrientName(n)}</span>
-                    <span className={styles.macroValue}>{localizeUnits(value, translateUnit)}</span>
+                  <div className={styles.row} key={`${n.id}-${n.slug}`}>
+                    <span className={styles.rowName}>{nutrientName(n)}</span>
+                    <span className={styles.rowRight}>
+                      <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
+                      {percent !== undefined && (
+                        <span className={styles.rowDv}>
+                          / {percent}% {dailyValLabel}
+                        </span>
+                      )}
+                    </span>
                   </div>
                 );
               })}
             </div>
-          )}
-
-          {loading && !detail && (
-            <div className={styles.loadingRows}>
-              {[...Array(6)].map((_, i) => (
-                <div className={styles.skeletonRow} key={i} />
-              ))}
-            </div>
-          )}
-
-          <div className={styles.list}>
-            {listNutrients.map((n) => {
-              const { value } = parseAmount(n.amount);
-              const percent = percentBySlug.get(n.slug);
-              return (
-                <div className={styles.row} key={`${n.id}-${n.slug}`}>
-                  <span className={styles.rowName}>
-                    {nutrientName(n)}
-                  </span>
-                  <span className={styles.rowRight}>
-                    <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
-                    {percent !== undefined && (
-                      <span className={styles.rowDv}>
-                        / {percent}% {dailyValLabel}
-                      </span>
-                    )}
-                  </span>
-                </div>
-              );
-            })}
           </div>
-
-
-        </div>
         </div>
 
         <div className={styles.closeButtonWrap}>
-          <button type="button" className={styles.closeButton} onClick={handleClose}>
-            {t("close")}
-          </button>
+          <div className={styles.buttonsRow}>
+            <button type="button" className={styles.closeButton} onClick={handleClose}>
+              {t("close")}
+            </button>
+            {hasMoreInfo && (
+              <Link href={moreHref} className={styles.moreButton}>
+                {isRu ? "Больше" : "More"}
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </div>

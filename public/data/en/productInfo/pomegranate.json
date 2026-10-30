@@ -1,0 +1,75 @@
+{
+  "id": "pomegranate",
+  "title": "Pomegranate",
+  "image": "/products/pomegranate.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pomegranate (Punica granatum) is a fruit-bearing plant native to regions of the Middle East and surrounding areas. It has been cultivated for thousands of years and is now grown in many parts of the world. The fruit is known for its thick reddish skin and numerous juicy seeds, each surrounded by a sweet-tart, edible pulp called an aril. Pomegranates are commonly eaten fresh or used in juices, sauces, salads, and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a pomegranate is classified as a type of berry.",
+        "A single fruit can contain hundreds of edible seeds.",
+        "Pomegranates have been cultivated for more than 4,000 years.",
+        "The fruit has cultural and symbolic significance in many countries, often representing fertility, abundance, and prosperity.",
+        "Pomegranate juice and molasses are widely used in Middle Eastern and Mediterranean cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Pomegranates contain polyphenols, including punicalagins and anthocyanins, which help protect cells against oxidative damage."
+        },
+        {
+          "title": "Supports heart health",
+          "content": "Some studies suggest that pomegranate juice may help improve certain cardiovascular markers, although more research is needed."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Eating the whole seeds contributes to daily fiber intake, supporting normal digestion."
+        },
+        {
+          "title": "Contains essential nutrients",
+          "content": "Pomegranates provide vitamin C, vitamin K, folate, and potassium."
+        },
+        {
+          "title": "May support a healthy inflammatory response",
+          "content": "Its plant compounds have demonstrated anti-inflammatory activity in laboratory studies."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Although uncommon, some people may experience allergic reactions to pomegranates."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating large amounts may cause bloating or digestive discomfort in sensitive individuals."
+        },
+        {
+          "title": "Natural sugar content",
+          "content": "Pomegranate juice contains naturally occurring sugars and provides less fiber than the whole fruit."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Pomegranate products may interact with certain medications. People taking prescription drugs should consult a healthcare professional if they regularly consume concentrated pomegranate products."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pomegranate seeds can be eaten fresh or added to salads, oatmeal, yogurt, desserts, and savory dishes. They can also be used to make juice, syrups, and sauces. The seeds provide a combination of sweet and tangy flavors that complement both sweet and savory foods."
+    },
+    {
+      "title": "Storage",
+      "content": "Whole pomegranates can be stored in a cool, dry place for a short period or refrigerated to extend freshness. Once opened, the seeds should be placed in an airtight container and refrigerated. For longer storage, the seeds can be frozen."
+    }
+  ]
+}

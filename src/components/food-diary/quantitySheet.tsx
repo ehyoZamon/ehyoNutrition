@@ -367,9 +367,11 @@ const QuantitySheet = ({
       >
         <div className={styles["image-wrap"]}>
           <div className={styles["image-circle"]}>
-            <Image src={product.image} alt={product.name} width={96} height={96} />
+            <Image src={product.image} alt={product.name} width={76} height={76} />
           </div>
         </div>
+
+        
 
         <div className={styles["quantity-row"]}>
           <input
@@ -383,6 +385,7 @@ const QuantitySheet = ({
         </div>
 
         <div className={styles["details-scroll"]}>
+          <h2 className={styles["product-name"]}>{product.name}</h2>
           {macroRows.length > 0 && (
             <div className={styles["macro-band"]}>
               {macroRows.map((row) => (
