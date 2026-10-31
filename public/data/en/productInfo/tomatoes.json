@@ -1,0 +1,75 @@
+{
+  "id": "tomatoes",
+  "title": "Tomatoes",
+  "image": "/products/tomatoes.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tomato (Solanum lycopersicum) is a plant native to western South America whose juicy fruits are eaten around the world. Tomatoes are usually red but can also be yellow, orange, green, pink, or purple. They have a balanced sweet and tangy flavor and are eaten raw, cooked, or processed into sauces, pastes, juices, and ketchup."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a tomato is a fruit, classified as a type of berry, though it is used as a vegetable in cooking.",
+        "Tomatoes were introduced to Europe in the 16th century after being brought from the Americas.",
+        "Thousands of tomato varieties exist, differing in size, color, and flavor.",
+        "The red color comes mainly from lycopene, a pigment that becomes easier to absorb when tomatoes are cooked.",
+        "Tomatoes are one of the most widely grown and consumed vegetable crops in the world."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in lycopene",
+          "content": "Lycopene is an antioxidant found in tomatoes that helps protect cells against oxidative damage."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Tomatoes contain vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Provides vitamin K",
+          "content": "Vitamin K supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Tomatoes are low in calories and high in water, making them refreshing and filling."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Acid reflux",
+          "content": "Tomatoes are acidic and may trigger heartburn or reflux in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may experience itching or tingling in the mouth or other allergic reactions."
+        },
+        {
+          "title": "Salt and sugar in processed products",
+          "content": "Sauces, canned tomatoes, and ketchup may contain added salt or sugar."
+        },
+        {
+          "title": "Potassium considerations",
+          "content": "People on a potassium-restricted diet or taking certain medications should consult a healthcare professional about their intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tomatoes can be eaten fresh in salads and sandwiches, sliced with salt and herbs, or cooked into soups, sauces, stews, and baked dishes. They can also be dried, roasted, or made into juice and paste. Cooking tomatoes with a little olive oil may improve lycopene absorption."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unripe tomatoes at room temperature, away from direct sunlight, until they ripen. Ripe tomatoes can be kept at room temperature for a few days or refrigerated for slightly longer, though cold can affect flavor and texture. Cut tomatoes should be refrigerated in an airtight container. Tomatoes can also be cooked and frozen."
+    }
+  ]
+}

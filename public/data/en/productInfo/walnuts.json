@@ -1,0 +1,63 @@
+{
+  "id": "walnuts",
+  "title": "Walnuts",
+  "image": "/products/walnuts.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Walnuts are the edible seeds of trees belonging to the genus Juglans, most commonly the English or Persian walnut (Juglans regia). Protected by a hard outer shell, the brain-shaped kernel inside is prized for its rich, buttery texture and high concentration of plant-based omega-3 fatty acids."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Walnuts are the only tree nut containing significant amounts of ALA omega-3 fatty acids.",
+        "The physical appearance of a walnut kernel famously resembles the human brain.",
+        "Walnut trees produce juglone, a natural compound that suppresses competing surrounding plants.",
+        "They have been consumed by humans for over 10,000 years.",
+        "The green outer husk was historically used as a natural textile dye."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in ALA Omega-3",
+          "content": "Essential plant fatty acid supporting brain function and cardiovascular health."
+        },
+        {
+          "title": "Powerful Polyphenols",
+          "content": "Contains high levels of antioxidant polyphenols, particularly ellagitannins."
+        },
+        {
+          "title": "Gut Microbiome Support",
+          "content": "Promotes the growth of beneficial gut bacteria that produce butyrate."
+        },
+        {
+          "title": "Brain Health",
+          "content": "Nutrients like polyunsaturated fats, polyphenols, and vitamin E help reduce oxidative stress in brain tissue."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree Nut Allergy",
+          "content": "Can trigger severe allergic reactions in individuals with tree nut allergies."
+        },
+        {
+          "title": "High Calorie Density",
+          "content": "Calorically dense; consume in portion-controlled quantities for weight management."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eat raw as a snack, toss into green salads, mix into oatmeal, or chop into baked goods like muffins and banana bread."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in an airtight container in the refrigerator or freezer to prevent the delicate omega-3 oils from going rancid."
+    }
+  ]
+}

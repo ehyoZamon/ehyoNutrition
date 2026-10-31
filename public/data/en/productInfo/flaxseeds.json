@@ -1,0 +1,75 @@
+{
+  "id": "flaxseeds",
+  "title": "Flaxseeds",
+  "image": "/products/flaxseeds.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Flaxseeds are the small, shiny brown or golden seeds of the flax plant (Linum usitatissimum), one of the oldest cultivated crops. They have a mild, nutty flavor and are used whole or ground in baking, cereals, smoothies, and other foods. The flax plant is also grown for its fibers, which are used to make linen."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Flax has been cultivated for thousands of years for both its seeds and its fibers.",
+        "Flaxseeds come in brown and golden varieties with similar nutrition.",
+        "When soaked in water, flaxseeds form a gel-like substance.",
+        "Whole flaxseeds often pass through the body undigested, so grinding them improves nutrient absorption.",
+        "Ground flaxseed mixed with water is sometimes used as an egg substitute in baking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in ALA omega-3",
+          "content": "Flaxseeds are one of the richest plant sources of alpha-linolenic acid, an omega-3 fatty acid."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Flaxseeds contain both soluble and insoluble fiber, which support digestion and regularity."
+        },
+        {
+          "title": "Contains lignans",
+          "content": "Lignans are plant compounds with antioxidant properties that are being studied."
+        },
+        {
+          "title": "Source of protein and minerals",
+          "content": "Flaxseeds provide plant protein, magnesium, and thiamin."
+        },
+        {
+          "title": "Easy to add to foods",
+          "content": "Ground flaxseed can be mixed into many everyday foods."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Need to be ground",
+          "content": "Whole flaxseeds may pass through the digestive system without being absorbed, so ground flaxseed is generally preferred."
+        },
+        {
+          "title": "Fiber and fluids",
+          "content": "Eating flaxseeds without enough water may cause digestive discomfort or constipation, so drink plenty of fluids."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "The fiber in flaxseed may slow the absorption of some medications, and flaxseed may affect blood sugar or blood clotting. People taking prescription drugs should consult a healthcare professional."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Flaxseed allergy is uncommon but can occur. Eat flaxseed in moderate amounts."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Ground flaxseed can be stirred into oatmeal, yogurt, smoothies, and batters or added to bread, muffins, and pancakes. Whole seeds can be sprinkled on salads or baked into crackers and bread. Start with small amounts and drink plenty of water."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole flaxseeds in an airtight container in a cool, dark place. Ground flaxseed goes rancid faster, so keep it in the refrigerator or freezer in an airtight container. Discard seeds that smell bitter or like paint."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "soybean-oil",
+  "title": "Soybean Oil",
+  "image": "/products/soybean-oil.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soybean oil is a vegetable oil extracted from the seeds of the soybean plant (Glycine max). It has a light color and a neutral flavor and is one of the most widely consumed vegetable oils in the world. It is used for frying, baking, salad dressings, margarine, and many processed foods, and is often labeled simply as vegetable oil."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soybeans have been cultivated in East Asia for thousands of years.",
+        "Soybean oil is made by pressing or solvent-extracting the oil from soybeans and is usually refined.",
+        "It contains both omega-6 (linoleic acid) and omega-3 (alpha-linolenic acid) fatty acids.",
+        "Soybean oil is commonly used in packaged foods, sauces, and dressings.",
+        "Products labeled \"vegetable oil\" often contain soybean oil."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in unsaturated fats",
+          "content": "Replacing saturated fats with unsaturated fats such as those in soybean oil may support heart health."
+        },
+        {
+          "title": "Contains omega-3 ALA",
+          "content": "Soybean oil provides alpha-linolenic acid, a plant-based omega-3 fatty acid."
+        },
+        {
+          "title": "Source of vitamin E and vitamin K",
+          "content": "Soybean oil contains vitamin E, which acts as an antioxidant, and vitamin K, which supports normal blood clotting."
+        },
+        {
+          "title": "Versatile cooking oil",
+          "content": "Its neutral flavor and fairly high smoke point suit many cooking methods."
+        },
+        {
+          "title": "Widely available",
+          "content": "It is affordable and easy to find."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Highly refined soybean oil usually contains little soy protein, but people with soy allergy should ask their doctor whether it is suitable for them."
+        },
+        {
+          "title": "High in calories",
+          "content": "Like all oils, soybean oil is calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Trans fats in hydrogenated products",
+          "content": "Partially hydrogenated soybean oil can contain trans fats, so check labels on processed foods."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Soybean oil contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Soybean oil can be used for frying, sautéing, baking, and roasting, as well as in salad dressings and marinades. Use it in moderation and avoid heating it until it smokes or reusing it many times."
+    },
+    {
+      "title": "Storage",
+      "content": "Store soybean oil in a tightly closed container in a cool, dark place away from heat and light. Once opened, use it within a few months. Discard oil that smells rancid, bitter, or like paint."
+    }
+  ]
+}

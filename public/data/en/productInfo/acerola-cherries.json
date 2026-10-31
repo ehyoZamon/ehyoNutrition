@@ -1,0 +1,63 @@
+{
+  "id": "acerola-cherries",
+  "title": "Acerola Cherries",
+  "image": "/products/acerola-cherries.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Acerola cherry (Malpighia emarginata), also known as Barbados cherry or West Indian cherry, is a tropical fruit-bearing shrub native to South America, Central America, and the Caribbean. Celebrated for its bright red color and sweet-sour taste, it is an extraordinarily rich botanical source of vitamin C."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Acerola cherries contain roughly 50 to 100 times more vitamin C than oranges or lemons.",
+        "Despite being called a cherry, it is botanically distinct from true cherries.",
+        "The fruit ripens rapidly and perishes quickly after harvest.",
+        "Green, slightly unripe acerola fruits contain higher vitamin C concentrations than fully red ones.",
+        "Frequently used to produce natural vitamin C supplements."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Natural Immune Booster",
+          "content": "Highly bioavailable ascorbic acid supports immune defenses and recovery."
+        },
+        {
+          "title": "Antioxidant Protection",
+          "content": "Rich in carotenoids and bioflavonoids that synergy with vitamin C."
+        },
+        {
+          "title": "Skin Vitality",
+          "content": "Promotes collagen synthesis for skin repair and tone."
+        },
+        {
+          "title": "Energy & Vitality",
+          "content": "Helps combat fatigue and improves non-heme iron absorption."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gastrointestinal Upset",
+          "content": "Excessive consumption can lead to diarrhea or stomach cramps due to massive vitamin C loads."
+        },
+        {
+          "title": "Kidney Stone Risk",
+          "content": "High vitamin C intake converts partially to oxalates in the body."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy fresh where grown, or as pure juice, freeze-dried powder mixed into water, beverages, and functional foods."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh acerola must be consumed within 3-5 days. Powders and extracts should be kept sealed in a cool, dark pantry."
+    }
+  ]
+}

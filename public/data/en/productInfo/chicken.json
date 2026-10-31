@@ -1,0 +1,75 @@
+{
+  "id": "chicken",
+  "title": "Chicken",
+  "image": "/products/chicken.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken is the meat of the domestic chicken (Gallus gallus domesticus), which was domesticated from the red junglefowl in Southeast Asia. It is one of the most widely eaten meats in the world, valued for its mild flavor, versatility, and protein content. Chicken is eaten as breast, thighs, drumsticks, wings, and ground meat, and cooked in countless ways."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chickens were domesticated from the red junglefowl in Southeast Asia thousands of years ago.",
+        "Chicken breast is lean, while thighs and drumsticks are darker, juicier, and contain more fat.",
+        "Chicken is one of the most commonly eaten meats worldwide.",
+        "Chicken bones are used to make stock and broth.",
+        "Chicken meat can be white or dark depending on the muscle."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High-quality protein",
+          "content": "Chicken provides complete protein that supports muscle maintenance and repair."
+        },
+        {
+          "title": "Rich in B vitamins",
+          "content": "Chicken provides niacin, vitamin B6, and vitamin B12."
+        },
+        {
+          "title": "Contains selenium and phosphorus",
+          "content": "These minerals support thyroid function, immune health, and bones."
+        },
+        {
+          "title": "Provides zinc",
+          "content": "Dark meat in particular provides zinc, which supports immune function."
+        },
+        {
+          "title": "Lean cuts are low in fat",
+          "content": "Skinless breast is relatively low in fat and calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Foodborne illness",
+          "content": "Raw chicken can carry Salmonella and Campylobacter. Cook it until the internal temperature reaches 74 °C (165 °F)."
+        },
+        {
+          "title": "Cross-contamination",
+          "content": "Do not wash raw chicken, and keep raw chicken, its juices, and the tools used for it away from other foods."
+        },
+        {
+          "title": "Skin and frying",
+          "content": "Chicken skin and deep-fried chicken add saturated fat and calories."
+        },
+        {
+          "title": "Processed chicken products",
+          "content": "Nuggets, sausages, and cold cuts can contain a lot of sodium and additives."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chicken can be roasted, baked, grilled, pan-seared, poached, stewed, or added to soups, stir-fries, salads, and curries. Cook it until there is no pink meat and the juices run clear, and use a thermometer where possible. Let cooked chicken rest briefly before slicing."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep raw chicken in the coldest part of the refrigerator on a lower shelf and cook it within one to two days. Freeze it for longer storage and thaw it in the refrigerator. Cooked chicken should be refrigerated within two hours in an airtight container and eaten within three to four days."
+    }
+  ]
+}

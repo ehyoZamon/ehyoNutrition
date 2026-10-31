@@ -1,0 +1,63 @@
+{
+  "id": "onions",
+  "title": "Onions",
+  "image": "/products/onions.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Onion (Allium cepa) is a widely cultivated vegetable bulb used globally as a fundamental aromatic building block in culinary traditions. Available in yellow, red, and white varieties, onions offer a spectrum of flavors from sweet and mild to sharp and pungent."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Onions release lachrymatory factor gas when cut, which stimulates eye tear glands.",
+        "Yellow onions account for the majority of commercial production worldwide.",
+        "Caramelizing onions low and slow converts harsh sulfur compounds into rich sugars.",
+        "Ancient Egyptians worshipped onions, viewing their concentric rings as a symbol of eternal life.",
+        "Onions are rich in quercetin, a versatile antioxidant bioflavonoid."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in Quercetin",
+          "content": "A potent antioxidant bioflavonoid that supports cardiovascular health."
+        },
+        {
+          "title": "Prebiotic Fiber",
+          "content": "Contains inulin and fructooligosaccharides that feed beneficial gut microbes."
+        },
+        {
+          "title": "Antibacterial Action",
+          "content": "Sulfur compounds demonstrate natural antimicrobial properties."
+        },
+        {
+          "title": "Bone Density Support",
+          "content": "Regular consumption has been associated with improved bone mineral density in studies."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "FODMAP Sensitivity",
+          "content": "High in fructans, which may cause gas, bloating, and IBS symptoms in sensitive individuals."
+        },
+        {
+          "title": "Acid Reflux",
+          "content": "Raw onions can trigger heartburn or acid reflux symptoms."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Dice raw for salsas and salads, caramelize slowly for soups and burgers, or roast whole as a flavorful side dish."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unpeeled onions in a cool, dry, dark, well-ventilated space separated from potatoes. Refrigerate cut onions in a sealed container."
+    }
+  ]
+}

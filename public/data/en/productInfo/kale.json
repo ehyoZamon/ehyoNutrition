@@ -1,0 +1,67 @@
+{
+  "id": "kale",
+  "title": "Kale",
+  "image": "/products/kale.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Kale (Brassica oleracea var. sabellica) is a dark, leafy green vegetable belonging to the cabbage family. Unlike head cabbage, its central leaves do not form a compact head. It comes in curly, flat, or dinosaur (Lacinato) leaf varieties and is widely celebrated as a nutrient-dense superfood."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Kale becomes sweeter after experiencing a frost.",
+        "It was one of the most common green vegetables in Europe until the end of the Middle Ages.",
+        "Lacinato kale is also known as 'dinosaur kale' due to its bumpy texture.",
+        "It is exceptionally rich in lutein and zeaxanthin for eye health.",
+        "Kale leaves are tough enough to be baked into crispy kale chips."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Nutrient Powerhouse",
+          "content": "Packed with vitamins A, K, C, and B6, along with manganese and calcium."
+        },
+        {
+          "title": "Potent Antioxidants",
+          "content": "Contains quercetin and kaempferol with anti-inflammatory properties."
+        },
+        {
+          "title": "Supports Eye Health",
+          "content": "High concentrations of lutein and zeaxanthin protect retina health."
+        },
+        {
+          "title": "Cholesterol-Lowering",
+          "content": "Binds bile acids in the digestive system to help reduce cholesterol levels."
+        },
+        {
+          "title": "Bone Support",
+          "content": "High in plant-based calcium and vitamin K necessary for bone structure."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Thyroid Goitrogens",
+          "content": "Contains compounds that can interfere with thyroid hormone synthesis if consumed raw in excessive amounts."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Contains moderate oxalates; those prone to kidney stones should monitor intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Massage raw kale leaves with olive oil and lemon juice for tender salads, sauté with garlic, or bake into chips."
+    },
+    {
+      "title": "Storage",
+      "content": "Wrap unwashed kale in a damp paper towel and store inside a sealed plastic bag in the refrigerator for up to 5-7 days."
+    }
+  ]
+}

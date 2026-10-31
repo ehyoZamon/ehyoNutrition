@@ -1,0 +1,75 @@
+{
+  "id": "potatoes",
+  "title": "Potatoes",
+  "image": "/products/potatoes.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Potatoes (Solanum tuberosum) are starchy underground tubers of a plant native to the Andes of South America. They have been cultivated for thousands of years and are now one of the world's most important food crops. Potatoes have thin skin and mild-tasting white to yellow flesh, and they are boiled, baked, mashed, fried, and used in countless dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Potatoes were domesticated in the Andes region thousands of years ago and reached Europe in the 16th century.",
+        "Thousands of potato varieties exist, with skins and flesh in white, yellow, red, and purple.",
+        "Potatoes belong to the nightshade family, as do tomatoes, peppers, and eggplants.",
+        "A potato is a tuber, which is a swollen underground stem that stores starch.",
+        "Waxy potatoes hold their shape when cooked, while starchy potatoes become fluffy."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in potassium",
+          "content": "Potatoes provide more potassium than many other vegetables, which supports normal blood pressure."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Potatoes contain vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains vitamin B6",
+          "content": "Vitamin B6 supports normal metabolism and nervous system function."
+        },
+        {
+          "title": "Provides fiber and resistant starch",
+          "content": "Eating the skin adds fiber, and cooked and cooled potatoes contain resistant starch, which supports digestion."
+        },
+        {
+          "title": "Filling source of energy",
+          "content": "Potatoes are rich in carbohydrates and can be a filling part of meals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Green or sprouted potatoes",
+          "content": "Green skin and sprouts contain solanine, a natural toxin. Cut away green parts and sprouts, and discard heavily green or bitter potatoes."
+        },
+        {
+          "title": "Acrylamide",
+          "content": "Frying, roasting, or baking at very high temperatures can form acrylamide, so avoid over-browning."
+        },
+        {
+          "title": "High glycemic effect",
+          "content": "Potatoes can raise blood sugar quickly, so portion size and preparation matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Fat and salt in fried products",
+          "content": "French fries, chips, and processed potato products often contain a lot of fat and sodium."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Potatoes can be boiled, steamed, baked, roasted, mashed, or added to soups, stews, salads, and casseroles. Eating them with the skin on adds fiber. Baking, boiling, or steaming is generally a lighter choice than deep frying."
+    },
+    {
+      "title": "Storage",
+      "content": "Store potatoes in a cool, dark, well-ventilated place, away from onions and sunlight, because light causes greening and the refrigerator can turn their starch to sugar. Keep them unwashed until use. Check regularly and discard any that are soft, moldy, or heavily sprouted."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "cottage-cheese",
+  "title": "Cottage Cheese",
+  "image": "/products/cottage-cheese.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cottage cheese is a fresh, soft cheese made from the curds of milk. It has a mild, slightly tangy flavor and a creamy, lumpy texture. It is made by curdling milk with acid or rennet, draining the whey, and sometimes adding cream. It is available in low-fat and full-fat versions and is related to traditional fresh cheeses such as tvorog and quark."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cottage cheese is a fresh cheese, which means it is not aged.",
+        "It is sold with different curd sizes and fat levels, from fat-free to creamy.",
+        "Much of its protein is casein, which the body digests relatively slowly.",
+        "The liquid drained during production is called whey and is used in other foods.",
+        "Similar fresh curd cheeses are traditional in many countries across Europe and Asia."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Cottage cheese is a good source of protein, which supports muscle maintenance and a feeling of fullness."
+        },
+        {
+          "title": "Provides calcium and phosphorus",
+          "content": "These minerals support normal bones and teeth."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Cottage cheese contains vitamin B12 and riboflavin (B2), which support energy metabolism."
+        },
+        {
+          "title": "Versatile and filling",
+          "content": "Its protein content makes it a satisfying addition to meals and snacks."
+        },
+        {
+          "title": "Lower in lactose than milk",
+          "content": "Many fresh cheeses contain less lactose than milk, though the amount varies."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk allergy",
+          "content": "People allergic to cow's milk protein should avoid cottage cheese."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Cottage cheese still contains some lactose and may cause discomfort in people with lactose intolerance."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some commercial products contain added salt, so people who limit sodium should check the label."
+        },
+        {
+          "title": "Spoilage",
+          "content": "Fresh cheese spoils quickly. Avoid it if it has an off smell, sour taste beyond the usual tang, or visible mold."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cottage cheese can be eaten plain, with fruit, berries, honey, or nuts, or mixed with herbs, cucumbers, and tomatoes. It can be used in pancakes, dumplings, casseroles, pastries, dips, and as a filling. It also works well in smoothies and as a topping for toast."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep cottage cheese in the refrigerator in a tightly closed container. Use it within a few days after opening and always check the expiration date. Use a clean spoon each time to reduce contamination. Freezing can change the texture, so it is best suited for cooking afterward."
+    }
+  ]
+}

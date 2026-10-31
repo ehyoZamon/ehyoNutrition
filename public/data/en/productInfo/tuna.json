@@ -1,0 +1,75 @@
+{
+  "id": "tuna",
+  "title": "Tuna",
+  "image": "/products/tuna.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tuna is a group of large, fast-swimming saltwater fish from the genus Thunnus and related species, including yellowfin, bluefin, albacore, bigeye, and skipjack. It has firm, meaty flesh that ranges from pink to deep red. Tuna is eaten fresh as steaks and sashimi, and is also widely sold canned or pouched."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tuna are among the fastest fish in the sea and swim long distances across oceans.",
+        "Some tuna species can partly regulate their body temperature, which is unusual among fish.",
+        "Canned light tuna is often skipjack, while canned white tuna is albacore.",
+        "Bluefin tuna is highly prized for sushi and sashimi, especially in Japan.",
+        "Canned tuna is sold packed in water, oil, or sauce."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Lean source of protein",
+          "content": "Tuna provides high-quality protein with relatively little fat."
+        },
+        {
+          "title": "Contains omega-3 fatty acids",
+          "content": "Tuna provides EPA and DHA, with higher amounts in fattier types such as bluefin and albacore."
+        },
+        {
+          "title": "Provides vitamin D and B vitamins",
+          "content": "Tuna contains vitamin D, vitamin B12, niacin, and vitamin B6."
+        },
+        {
+          "title": "Rich in selenium",
+          "content": "Selenium supports thyroid function and antioxidant defenses."
+        },
+        {
+          "title": "Convenient and long-lasting",
+          "content": "Canned tuna is a shelf-stable source of protein."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Mercury",
+          "content": "Tuna can contain mercury, with higher levels in larger species such as bigeye, bluefin, and albacore. Pregnant women and young children should follow local guidance on which tuna to eat and how often."
+        },
+        {
+          "title": "Histamine poisoning",
+          "content": "Tuna that has been stored at improper temperatures can cause scombroid poisoning, so keep it cold."
+        },
+        {
+          "title": "Raw fish",
+          "content": "Raw tuna can carry bacteria and parasites and is not recommended for pregnant women, young children, or people with weakened immunity."
+        },
+        {
+          "title": "Allergic reactions and sodium",
+          "content": "Fish allergy can be serious, and canned tuna may contain added salt."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh tuna can be grilled, seared, baked, or eaten as sashimi or poke from a reliable source. Canned tuna can be used in salads, sandwiches, pasta, casseroles, and patties. Choose tuna packed in water or in olive oil according to your preference."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh tuna in the refrigerator and cook it within one to two days, or freeze it for longer storage. Unopened canned tuna keeps for a long time in a cool, dry place. Once opened, transfer canned tuna to an airtight container, refrigerate it, and eat it within three to four days."
+    }
+  ]
+}

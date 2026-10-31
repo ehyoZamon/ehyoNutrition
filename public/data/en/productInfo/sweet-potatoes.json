@@ -1,0 +1,75 @@
+{
+  "id": "sweet-potatoes",
+  "title": "Sweet Potatoes",
+  "image": "/products/sweet-potatoes.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sweet potatoes (Ipomoea batatas) are sweet, starchy root vegetables native to Central and South America. Their skin and flesh can be orange, white, yellow, or purple, and they have a naturally sweet, earthy flavor. Sweet potatoes are baked, roasted, boiled, mashed, and used in both savory dishes and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sweet potatoes are not closely related to regular potatoes; they belong to the morning glory family.",
+        "They are also different from true yams, which are a separate plant.",
+        "Orange sweet potatoes get their color from beta-carotene, while purple ones are rich in anthocyanins.",
+        "The leaves and shoots of the sweet potato plant are also edible in some cuisines.",
+        "Sweet potatoes become sweeter when cooked because starch converts to sugar."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in beta-carotene",
+          "content": "Orange sweet potatoes are an excellent source of beta-carotene, which the body can convert into vitamin A."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Sweet potatoes contribute fiber, especially when eaten with the skin."
+        },
+        {
+          "title": "Contains vitamin C and potassium",
+          "content": "These nutrients support the immune system and normal blood pressure."
+        },
+        {
+          "title": "Provides manganese and vitamin B6",
+          "content": "These support normal metabolism and nervous system function."
+        },
+        {
+          "title": "Purple varieties contain anthocyanins",
+          "content": "These plant pigments have antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oxalates",
+          "content": "Sweet potatoes contain oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Potassium considerations",
+          "content": "People with kidney problems or on certain medications should consult a healthcare professional about potassium intake."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Carbohydrate content and preparation",
+          "content": "Sweet potatoes are rich in carbohydrates, and cooking method affects how quickly they raise blood sugar. Sweetened or fried preparations add sugar, fat, and calories."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Sweet potatoes can be baked whole, roasted in wedges, steamed, boiled, mashed, or added to soups, stews, and curries. They can also be made into pancakes, muffins, and pies. Eating them with the skin on adds fiber."
+    },
+    {
+      "title": "Storage",
+      "content": "Store uncooked sweet potatoes in a cool, dark, dry, well-ventilated place and do not refrigerate them, since cold can affect their texture and flavor. They usually keep for a few weeks. Cooked sweet potatoes should be refrigerated in an airtight container and eaten within a few days."
+    }
+  ]
+}

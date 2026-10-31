@@ -1,0 +1,75 @@
+{
+  "id": "bell-peppers",
+  "title": "Bell Peppers",
+  "image": "/products/bell-peppers.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bell peppers (Capsicum annuum) are crisp, juicy, hollow fruits native to Central and South America. They come in green, red, yellow, orange, and sometimes purple, and have a mild, sweet to slightly bitter flavor. Unlike chili peppers, they contain no capsaicin and are not spicy. They are eaten raw, cooked, stuffed, or used in sauces and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, bell peppers are fruits, classified as a type of berry.",
+        "Color usually reflects ripeness: green peppers are unripe, while red peppers are fully ripe and typically sweeter.",
+        "Bell peppers lack capsaicin because of a gene that prevents its production, so they taste mild.",
+        "Red bell peppers generally contain more vitamin C and carotenoids than green ones.",
+        "Bell peppers are also called sweet peppers in many countries."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Very rich in vitamin C",
+          "content": "Bell peppers, especially red ones, are an excellent source of vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "Red, orange, and yellow peppers contain carotenoids that the body can partly convert into vitamin A."
+        },
+        {
+          "title": "Provides vitamin B6 and folate",
+          "content": "These vitamins support normal metabolism and cell function."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Flavonoids and carotenoids help protect cells against oxidative damage."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Bell peppers are low in calories and high in water, making them a refreshing snack."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those with pollen allergies, may experience itching or tingling in the mouth after eating raw peppers."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Raw bell peppers may cause bloating or gas in sensitive individuals."
+        },
+        {
+          "title": "Nightshade sensitivity",
+          "content": "Bell peppers belong to the nightshade family, and some people report sensitivity to these vegetables."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Conventionally grown peppers may carry residues, so wash them thoroughly before eating."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bell peppers can be eaten raw in salads, as snacks with dips, or sliced into sandwiches. They can be roasted, grilled, sautéed, stuffed with rice or meat, or added to soups, stews, and sauces. Roasting brings out their natural sweetness."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole, unwashed bell peppers in the refrigerator crisper drawer, where they usually keep for one to two weeks. Cut peppers should be kept in an airtight container and used within a few days. Peppers can also be sliced and frozen for cooking."
+    }
+  ]
+}

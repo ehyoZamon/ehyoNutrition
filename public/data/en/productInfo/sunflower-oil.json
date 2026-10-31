@@ -1,0 +1,75 @@
+{
+  "id": "sunflower-oil",
+  "title": "Sunflower Oil",
+  "image": "/products/sunflower-oil.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sunflower oil is a vegetable oil pressed from sunflower seeds. It is light in color with a mild flavor and is one of the most widely used cooking oils in the world, especially in Eastern Europe and Central Asia. It is used for frying, baking, salad dressings, and food manufacturing. Unrefined (cold-pressed) oil has a stronger, seedy taste, while refined oil is neutral."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sunflower oil is made from the seeds of Helianthus annuus.",
+        "Several types exist: high-linoleic, mid-oleic, and high-oleic, which differ in fatty acid composition and stability when heated.",
+        "Refined sunflower oil has a relatively high smoke point and is commonly used for frying.",
+        "Unrefined sunflower oil keeps more of the natural aroma, color, and vitamin E.",
+        "Sunflower oil is one of the main cooking oils in many countries."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of vitamin E",
+          "content": "Sunflower oil contains vitamin E, an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Rich in unsaturated fats",
+          "content": "Replacing saturated fats with unsaturated fats such as those in sunflower oil may support heart health."
+        },
+        {
+          "title": "Versatile cooking oil",
+          "content": "Its mild flavor and relatively high smoke point make it suitable for many dishes."
+        },
+        {
+          "title": "Provides essential fatty acids",
+          "content": "Sunflower oil contains linoleic acid, an essential omega-6 fatty acid."
+        },
+        {
+          "title": "Neutral taste",
+          "content": "Refined sunflower oil does not overpower other flavors."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in calories",
+          "content": "Like all oils, sunflower oil is calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Overheating and reuse",
+          "content": "Heating oil beyond its smoke point or reusing it many times can produce harmful compounds and an unpleasant taste."
+        },
+        {
+          "title": "Omega-6 balance",
+          "content": "Sunflower oil is high in omega-6 fatty acids, so it is best eaten as part of a varied diet that includes other fat sources."
+        },
+        {
+          "title": "Rancidity",
+          "content": "Oils can oxidize and turn rancid, especially when stored improperly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Refined sunflower oil is suitable for frying, sautéing, roasting, and baking. Unrefined sunflower oil is often used cold, for example in salads, vinaigrettes, and for finishing dishes. Use fresh oil and avoid heating it until it smokes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store sunflower oil in a tightly closed bottle in a cool, dark place away from heat and sunlight. Unrefined oil has a shorter shelf life and is best kept in the refrigerator after opening. Discard oil that smells rancid, bitter, or like paint."
+    }
+  ]
+}

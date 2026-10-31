@@ -1,0 +1,75 @@
+{
+  "id": "oranges",
+  "title": "Oranges",
+  "image": "/products/oranges.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Oranges (Citrus × sinensis) are round, juicy citrus fruits that originated in southern China and Southeast Asia. They have a bright orange rind and segmented flesh with a sweet-tart flavor. Oranges are eaten fresh, juiced, and used in desserts, salads, marmalades, and sauces, and their zest is used for flavoring."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The sweet orange is a hybrid of the pomelo and the mandarin.",
+        "In warm tropical climates, ripe oranges can stay green on the outside.",
+        "Oranges are among the most widely grown tree fruits in the world.",
+        "Most oranges have around ten segments, each filled with juice vesicles.",
+        "The orange peel contains aromatic oils used in cooking and flavoring."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Oranges are a well-known source of vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides folate and potassium",
+          "content": "These nutrients support cell function and normal blood pressure."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Eating the whole fruit adds fiber, which supports normal digestion."
+        },
+        {
+          "title": "Contains flavonoids",
+          "content": "Oranges contain plant compounds such as hesperidin that have antioxidant properties."
+        },
+        {
+          "title": "Hydrating",
+          "content": "Oranges have a high water content, which makes them refreshing."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Acidity",
+          "content": "The acid in oranges may trigger heartburn or reflux in sensitive people and may wear down tooth enamel if consumed very often."
+        },
+        {
+          "title": "Juice vs. whole fruit",
+          "content": "Orange juice contains natural sugars and provides less fiber than the whole fruit."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may be allergic to oranges or other citrus fruits."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Bitter (Seville) oranges can interact with certain medications, similar to grapefruit, and orange juice can affect the absorption of some drugs. People taking prescription medicines should check with a healthcare professional."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Oranges can be peeled and eaten in segments, juiced, or added to salads, yogurt, and desserts. The zest can be used in baking and sauces, and the fruit can be turned into marmalade. Eating the whole fruit is a way to get fiber along with the juice."
+    },
+    {
+      "title": "Storage",
+      "content": "Oranges can be kept at room temperature for about a week or refrigerated for several weeks. Store them in a cool, ventilated place and away from moldy fruit. Freshly squeezed juice should be refrigerated and drunk within a couple of days."
+    }
+  ]
+}

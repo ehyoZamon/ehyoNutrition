@@ -1,0 +1,75 @@
+{
+  "id": "chickpeas",
+  "title": "Chickpeas",
+  "image": "/products/chickpeas.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chickpeas (Cicer arietinum), also called garbanzo beans, are legumes with a round, beige seed and a nutty, earthy flavor. They have been cultivated in the Middle East for around 10,000 years and are a staple in Mediterranean, Middle Eastern, and South Asian cuisines. Chickpeas are used in hummus, falafel, curries, stews, and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chickpeas are among the earliest cultivated legumes.",
+        "Two main types exist: the larger, light-colored kabuli and the smaller, darker desi.",
+        "The cooking liquid from canned chickpeas, called aquafaba, can be whipped and used as an egg-white substitute.",
+        "Chickpea flour, also called gram or besan flour, is used in many dishes and flatbreads.",
+        "Hummus and falafel are among the best-known chickpea dishes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Chickpeas provide protein, making them a staple in many plant-based diets."
+        },
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Chickpeas are high in fiber, which supports digestion and a feeling of fullness."
+        },
+        {
+          "title": "Provides folate, iron, and manganese",
+          "content": "These nutrients support cell function, oxygen transport, and normal metabolism."
+        },
+        {
+          "title": "Contains resistant starch",
+          "content": "Resistant starch is fermented in the gut and supports digestive health."
+        },
+        {
+          "title": "Slow-digesting carbohydrates",
+          "content": "Chickpeas have a relatively low glycemic index, so they raise blood sugar more slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gas and bloating",
+          "content": "Chickpeas contain fermentable carbohydrates that may cause gas or bloating, especially when eaten in large amounts or when you are not used to them."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Chickpea allergy is uncommon but can occur, and some people allergic to other legumes may also react."
+        },
+        {
+          "title": "Must be cooked",
+          "content": "Dried chickpeas must be soaked and thoroughly cooked, since raw or undercooked legumes can cause digestive upset."
+        },
+        {
+          "title": "Sodium in canned products",
+          "content": "Canned chickpeas and some prepared hummus can contain added salt, so rinse canned chickpeas and check labels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chickpeas can be boiled and added to salads, soups, stews, pilafs, and curries, mashed into hummus, or roasted for a crunchy snack. They can be ground into flour for falafel, flatbreads, and batters. Soaking dried chickpeas overnight and discarding the soaking water can help reduce gas."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried chickpeas in an airtight container in a cool, dry place, where they keep for a year or longer. Cooked chickpeas should be refrigerated in an airtight container and eaten within three to five days, or frozen for longer storage. Unopened canned chickpeas can be stored in a cool, dry place."
+    }
+  ]
+}

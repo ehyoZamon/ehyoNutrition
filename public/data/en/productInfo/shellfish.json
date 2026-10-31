@@ -1,0 +1,75 @@
+{
+  "id": "shellfish",
+  "title": "Shellfish",
+  "image": "/products/shellfish.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Shellfish is a broad term for aquatic animals with a shell or shell-like exoskeleton that are eaten as food. It includes crustaceans such as shrimp, crab, and lobster, and mollusks such as clams, mussels, oysters, and scallops. Shellfish have a delicate, sweet, briny flavor and are enjoyed in cuisines around the world."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Shellfish are not fish; they belong to the crustacean and mollusk groups.",
+        "Crustaceans turn red or orange when cooked because of a pigment called astaxanthin.",
+        "Clams, mussels, and oysters are filter feeders that strain food and water through their bodies.",
+        "Shellfish have been eaten by people for tens of thousands of years.",
+        "Shellfish allergy is most often triggered by crustaceans such as shrimp, crab, and lobster."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Lean source of protein",
+          "content": "Shellfish provide high-quality protein with relatively little fat."
+        },
+        {
+          "title": "Rich in vitamin B12",
+          "content": "Vitamin B12 supports normal red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Provides zinc and selenium",
+          "content": "Oysters in particular are rich in zinc, and many shellfish provide selenium, which support immune function."
+        },
+        {
+          "title": "Contains iodine and iron",
+          "content": "Shellfish provide iodine, and clams and mussels are good sources of iron."
+        },
+        {
+          "title": "Contains omega-3 fatty acids",
+          "content": "Many shellfish provide small amounts of omega-3 fatty acids."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Shellfish allergy",
+          "content": "Shellfish allergy is common in adults, can be severe, and tends to be lifelong. People with this allergy must avoid shellfish and check labels carefully."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Raw or undercooked shellfish, especially oysters, can carry bacteria and viruses and are not recommended for pregnant women, young children, older adults, or people with weakened immunity."
+        },
+        {
+          "title": "Natural toxins and contaminants",
+          "content": "Shellfish from contaminated waters can contain toxins from algae blooms or heavy metals. Buy from reputable sources and follow local advisories."
+        },
+        {
+          "title": "Cholesterol and purines",
+          "content": "Some shellfish are higher in cholesterol or purines, so people with certain conditions should ask a healthcare professional about suitable amounts."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Shellfish can be boiled, steamed, grilled, baked, sautéed, or added to soups, stews, paella, pasta, and curries. Cook until shrimp turn pink and firm, and bivalves such as clams and mussels open. Discard any that stay closed after cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh shellfish refrigerated and cook it within a day or two. Live clams, mussels, and oysters should be kept cold and covered with a damp cloth, not in water. Cooked shellfish should be refrigerated in an airtight container and eaten within about three days. Shellfish can also be frozen. Discard shellfish that smells strongly of ammonia or has broken or gaping shells that do not close when tapped."
+    }
+  ]
+}

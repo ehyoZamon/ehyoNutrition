@@ -1,0 +1,75 @@
+{
+  "id": "soybeans",
+  "title": "Soybeans",
+  "image": "/products/soybeans.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soybeans (Glycine max) are legumes native to East Asia that have been cultivated for thousands of years. They are one of the world's most important crops and are eaten in many forms, from whole beans and edamame to tofu, tempeh, miso, natto, soy milk, and soy sauce. Soybeans are also used to make soybean oil."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Edamame are immature soybeans harvested while still green and eaten in the pod.",
+        "Soybeans are among the few plant foods that contain all essential amino acids.",
+        "Many traditional Asian foods are made from soybeans, including tofu, tempeh, miso, and natto.",
+        "Soybeans contain isoflavones, plant compounds that are being studied for their biological activity.",
+        "A large share of the world's soybeans is used for animal feed and oil."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Complete plant protein",
+          "content": "Soybeans provide high-quality plant protein with all essential amino acids."
+        },
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Whole soybeans provide fiber that supports digestion and fullness."
+        },
+        {
+          "title": "Contains folate, iron, and vitamin K",
+          "content": "These nutrients support cell function, oxygen transport, and blood clotting."
+        },
+        {
+          "title": "Provides magnesium and potassium",
+          "content": "These minerals support muscle function and normal blood pressure."
+        },
+        {
+          "title": "Contains isoflavones and unsaturated fats",
+          "content": "Soybeans contain isoflavones and mostly unsaturated fats, which can be part of a heart-friendly diet."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Soy is one of the common food allergens, and people with soy allergy must avoid soy products and check labels."
+        },
+        {
+          "title": "Must be cooked",
+          "content": "Raw soybeans contain compounds that interfere with digestion and should be properly soaked and cooked."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Soy can reduce the absorption of some thyroid medications. People taking these or having hormone-sensitive conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Soybeans may cause gas or bloating in some people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Whole soybeans can be soaked and boiled for soups, stews, and salads. Edamame can be steamed or boiled and eaten from the pod. Soy foods such as tofu, tempeh, miso, and soy milk are easy ways to include soy in meals."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried soybeans in an airtight container in a cool, dry place. Cooked soybeans should be refrigerated in an airtight container and eaten within three to five days or frozen. Edamame is often sold frozen. Tofu and other soy products should be stored according to their packaging."
+    }
+  ]
+}

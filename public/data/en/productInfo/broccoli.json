@@ -1,0 +1,75 @@
+{
+  "id": "broccoli",
+  "title": "Broccoli",
+  "image": "/products/broccoli.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Broccoli (Brassica oleracea var. italica) is a green vegetable with a thick, edible stalk topped by tightly packed flower buds called florets. It belongs to the cabbage family and was developed in the Mediterranean region, particularly Italy. Broccoli has a mild, slightly bitter, fresh flavor and is eaten raw or cooked."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Broccoli belongs to the same species as cabbage, cauliflower, kale, and Brussels sprouts.",
+        "The name comes from the Italian word broccolo, meaning the flowering top of a cabbage.",
+        "The florets are the vegetable's immature flower buds.",
+        "Chopping or chewing broccoli helps form sulforaphane, a compound that is being studied for its biological activity.",
+        "The stalk and leaves of broccoli are also edible."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C and vitamin K",
+          "content": "Broccoli is an excellent source of vitamin C, which supports the immune system, and vitamin K, which supports blood clotting and bones."
+        },
+        {
+          "title": "Provides folate and potassium",
+          "content": "These nutrients support cell function and normal blood pressure."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Broccoli contributes fiber that supports normal digestion."
+        },
+        {
+          "title": "Contains glucosinolates",
+          "content": "Compounds in broccoli, including those that form sulforaphane, have shown antioxidant and protective activity in laboratory studies."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Broccoli is low in calories and filling, making it a nutrient-dense choice."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Digestive discomfort",
+          "content": "Broccoli can cause gas or bloating in sensitive individuals, especially when eaten raw or in large amounts."
+        },
+        {
+          "title": "Thyroid considerations",
+          "content": "Cruciferous vegetables contain compounds that may affect thyroid function in very large amounts. People with thyroid conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Broccoli contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Broccoli allergy is uncommon but can occur."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Broccoli can be eaten raw in salads or with dips, or steamed, roasted, stir-fried, boiled, or added to soups, casseroles, and pasta. Light steaming or quick cooking helps preserve its color, texture, and nutrients. The stalk can be peeled and sliced for cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unwashed broccoli in the refrigerator in a perforated bag, where it usually keeps for about a week. Wash it right before use. Broccoli can also be blanched and frozen. Avoid heads that are turning yellow or smell sulfurous."
+    }
+  ]
+}

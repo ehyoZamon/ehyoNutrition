@@ -1,0 +1,75 @@
+{
+  "id": "peanuts",
+  "title": "Peanuts",
+  "image": "/products/peanuts.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Peanuts (Arachis hypogaea) are the edible seeds of a plant native to South America. Although they are commonly called nuts, peanuts are legumes, related to beans and lentils. They have a rich, savory flavor and are eaten roasted, boiled, or ground into peanut butter and are used in cooking in many cuisines."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Peanuts are legumes, not true tree nuts.",
+        "The plant flowers above ground, but the pods develop underground.",
+        "Peanuts originated in South America and spread around the world after European contact.",
+        "Peanut butter is one of the most popular peanut products.",
+        "Peanuts are also pressed to make peanut oil."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Peanuts provide a good amount of protein for a plant food."
+        },
+        {
+          "title": "Provides healthy fats",
+          "content": "Peanuts contain mostly unsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Contains niacin, folate, and vitamin E",
+          "content": "These nutrients support energy metabolism, cell function, and antioxidant protection."
+        },
+        {
+          "title": "Provides magnesium and fiber",
+          "content": "These support normal muscle function and digestion."
+        },
+        {
+          "title": "Contains plant compounds",
+          "content": "Peanuts contain polyphenols such as resveratrol, which has antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Peanut allergy",
+          "content": "Peanut allergy is one of the more common and serious food allergies and can cause severe reactions. People with this allergy must avoid peanuts and check labels carefully."
+        },
+        {
+          "title": "Aflatoxin",
+          "content": "Peanuts can be contaminated with aflatoxin, a toxin produced by mold, especially when stored improperly."
+        },
+        {
+          "title": "High in calories and added salt",
+          "content": "Peanuts are calorie-dense, and salted or flavored varieties can be high in sodium."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Whole peanuts are not suitable for young children because they can cause choking."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Peanuts can be eaten roasted or boiled as a snack, added to salads, stir-fries, sauces, and baked goods, or ground into peanut butter. Choose unsalted or lightly salted peanuts and peanut butter without added sugar when possible."
+    },
+    {
+      "title": "Storage",
+      "content": "Store shelled peanuts in an airtight container in a cool, dry place, or in the refrigerator for longer storage. Keep peanuts in the shell in a cool, dry place. Discard peanuts that look moldy, shriveled, or smell musty or rancid. Natural peanut butter is best refrigerated after opening."
+    }
+  ]
+}

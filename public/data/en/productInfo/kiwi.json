@@ -1,0 +1,75 @@
+{
+  "id": "kiwi",
+  "title": "Kiwi",
+  "image": "/products/kiwi.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Kiwi, or kiwifruit, is the fruit of woody vines of the genus Actinidia, native to China. It has a fuzzy brown skin and bright green, or sometimes golden, flesh with tiny black edible seeds. The flavor is sweet and tangy. It is eaten fresh or used in salads, desserts, drinks, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Kiwifruit was historically known as Chinese gooseberry and was later named after New Zealand's kiwi bird by exporters.",
+        "Golden kiwifruit has smooth skin and sweeter, less tart flesh than the green type.",
+        "Kiwi contains actinidin, an enzyme that breaks down proteins and can tenderize meat.",
+        "The same enzyme can prevent fresh kiwi from setting gelatin desserts.",
+        "The skin of kiwi is edible, and some people eat the fruit whole."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Kiwi is an excellent source of vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides vitamin K and vitamin E",
+          "content": "These vitamins support normal blood clotting and act as antioxidants."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Kiwi contributes fiber that supports normal digestion, and some studies suggest it may support regularity."
+        },
+        {
+          "title": "Contains potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Its plant compounds help protect cells against oxidative damage."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Kiwi can cause allergic reactions, including itching or swelling of the mouth. It may be linked to latex allergy."
+        },
+        {
+          "title": "Mouth irritation",
+          "content": "The enzyme actinidin and natural acids may cause tingling or soreness in the mouth in some people."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating large amounts may cause bloating or stomach upset in sensitive individuals."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Kiwi contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Kiwi can be cut in half and scooped out with a spoon, or peeled and sliced for fruit salads, yogurt, and desserts. It can be blended into smoothies or used in sauces and salsas. Ripe kiwi yields slightly to gentle pressure."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unripe kiwi at room temperature until it softens slightly. Ripe kiwi can be stored in the refrigerator for up to a few weeks. Keep it away from fruits that release a lot of ethylene, such as apples and bananas, if you want to slow ripening. Peeled slices should be refrigerated and eaten within a few days."
+    }
+  ]
+}

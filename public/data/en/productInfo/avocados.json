@@ -1,0 +1,75 @@
+{
+  "id": "avocados",
+  "title": "Avocados",
+  "image": "/products/avocados.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Avocado (Persea americana) is a creamy, nutrient-rich fruit native to Mexico and Central America. It has green or dark, bumpy or smooth skin, a buttery pale-green flesh, and a large central seed. Unlike most fruits, avocados are high in healthy fats. They are eaten fresh in salads, spreads such as guacamole, sandwiches, and smoothies."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, an avocado is a large berry with a single seed.",
+        "Avocados ripen after they are picked, not while still on the tree.",
+        "The Hass variety is the most widely grown and has dark, pebbly skin when ripe.",
+        "Unlike most fruits, avocados contain mostly fat and little sugar.",
+        "Avocado has been cultivated in the Americas for thousands of years."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in monounsaturated fat",
+          "content": "Avocados contain mostly monounsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Avocados are a good source of fiber, which supports normal digestion."
+        },
+        {
+          "title": "Contains potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Provides vitamins K, E, and C",
+          "content": "These vitamins support blood clotting, act as antioxidants, and support the immune system."
+        },
+        {
+          "title": "Helps absorb fat-soluble nutrients",
+          "content": "The fat in avocado may help the body absorb carotenoids and vitamins A, D, E, and K from other foods."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in calories",
+          "content": "Avocados are calorie-dense, so portion size matters."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people with latex allergy may react to avocado, and oral allergy symptoms can occur."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Avocado contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts may cause bloating in people sensitive to certain fermentable carbohydrates."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Avocado can be sliced on toast, added to salads, sandwiches, and bowls, mashed into guacamole, or blended into smoothies and desserts. It is usually eaten raw, since heating can make it taste bitter. Ripe avocado yields slightly to gentle pressure."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unripe avocados at room temperature until they soften slightly. Ripe avocados can be refrigerated for a few days to slow further ripening. Cut avocado can be sprinkled with lemon juice, wrapped tightly, and refrigerated for a day or two. Avocado pulp can also be frozen."
+    }
+  ]
+}

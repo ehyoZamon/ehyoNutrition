@@ -1,0 +1,75 @@
+{
+  "id": "lentils",
+  "title": "Lentils",
+  "image": "/products/lentils.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lentils (Lens culinaris) are small, lens-shaped legume seeds that have been cultivated in the Near East for around 10,000 years. They come in many varieties, including brown, green, red, yellow, and black, and have an earthy flavor. Lentils are a staple in many cuisines and are used in soups, stews, salads, and dals."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lentils are among the oldest cultivated crops in the world.",
+        "The word \"lens\" comes from the Latin word for lentil, because of the seed's shape.",
+        "Unlike many dried beans, lentils usually do not need to be soaked before cooking.",
+        "Red and yellow lentils cook quickly and break down into a creamy texture.",
+        "Lentils are a major source of protein in many vegetarian diets, especially in South Asia and the Middle East."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Lentils provide a good amount of protein for a plant food."
+        },
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Lentils are high in fiber, which supports digestion and fullness."
+        },
+        {
+          "title": "Provides folate and iron",
+          "content": "These nutrients support cell function and oxygen transport."
+        },
+        {
+          "title": "Contains potassium and manganese",
+          "content": "These minerals support normal blood pressure and metabolism."
+        },
+        {
+          "title": "Slow-digesting carbohydrates",
+          "content": "Lentils have a relatively low glycemic index, so they raise blood sugar more slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gas and bloating",
+          "content": "Lentils contain fermentable carbohydrates that may cause gas or bloating, especially in large amounts or when you are not used to them."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Lentil allergy is uncommon but can occur, and some people allergic to other legumes may also react."
+        },
+        {
+          "title": "Must be cooked",
+          "content": "Raw or undercooked lentils can cause digestive upset, so cook them thoroughly."
+        },
+        {
+          "title": "Reduced iron absorption",
+          "content": "Lentils contain compounds called phytates that can reduce mineral absorption. Eating them with vitamin C-rich foods can help the body absorb iron."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Lentils can be rinsed and simmered until tender, then added to soups, stews, salads, and curries or served as a side dish. Red lentils are used for dals and purees, while green and brown lentils hold their shape for salads. Season them at the end of cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried lentils in an airtight container in a cool, dry place, where they keep for a year or longer. Cooked lentils should be refrigerated in an airtight container and eaten within three to five days, or frozen for longer storage."
+    }
+  ]
+}

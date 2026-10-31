@@ -1,0 +1,67 @@
+{
+  "id": "brussels-sprouts",
+  "title": "Brussels Sprouts",
+  "image": "/products/brussels-sprouts.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Brussels sprouts (Brassica oleracea var. gemmifera) are small, leaf-budgeted buds resembling miniature cabbages. They belong to the Gemmifera cultivar group of cabbages and are native to the region around Brussels, Belgium, where they gained popularity in the 16th century. Roasted, steamed, or sautéed, they have a nutty, earthy flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Brussels sprouts grow on thick, long stalks in spiraling clusters.",
+        "Selective breeding in recent decades has significantly reduced their bitter taste.",
+        "They belong to the same species as broccoli, cabbage, and kale.",
+        "High heat roasting caramelizes their natural sugars, transforming their flavor profile.",
+        "They are extremely popular as a traditional holiday side dish."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in Vitamin K",
+          "content": "Essential for blood clotting and bone health maintenance."
+        },
+        {
+          "title": "High Antioxidant Content",
+          "content": "Contains kaempferol, an antioxidant that helps reduce oxidative stress."
+        },
+        {
+          "title": "Excellent Fiber Source",
+          "content": "Supports regular gut motility and blood sugar stability."
+        },
+        {
+          "title": "Contains Omega-3 Fatty Acids",
+          "content": "One of the few plant sources containing ALA omega-3 fats."
+        },
+        {
+          "title": "Immune Boosting",
+          "content": "Provides over 100% of the daily recommended value of vitamin C per cup."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Vitamin K and Blood Thinners",
+          "content": "People on blood thinners like Warfarin should maintain consistent vitamin K intake."
+        },
+        {
+          "title": "Digestive Upset",
+          "content": "May cause gas or bloating due to complex carbohydrates like raffinose."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Trim stems, halve them, and roast at high heat with olive oil, salt, and pepper. You can also shred them raw into winter salads."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh sprouts unwashed in a plastic bag in the refrigerator for up to a week. Sprouts attached to the stalk last longer."
+    }
+  ]
+}

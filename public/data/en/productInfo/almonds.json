@@ -1,0 +1,75 @@
+{
+  "id": "almonds",
+  "title": "Almonds",
+  "image": "/products/almonds.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Almonds are the edible seeds of the almond tree (Prunus dulcis), which is native to the Middle East and Central Asia and is now grown in many warm regions of the world. They have a mild, slightly sweet, nutty flavor and a crunchy texture. Almonds are eaten raw, roasted, or blanched and are used in baking, desserts, spreads, and almond milk."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Almonds are related to peaches, plums, and cherries, and the almond itself is the seed inside the fruit's pit.",
+        "Sweet almonds are the ones eaten as food; bitter almonds contain compounds that are toxic when raw and are not sold as ordinary snacks.",
+        "Almond trees have been cultivated for thousands of years.",
+        "Almonds are used to make almond flour, almond butter, marzipan, and almond milk.",
+        "Almond blossoms appear in early spring, before the leaves."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin E",
+          "content": "Almonds are one of the best food sources of vitamin E, an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Provides healthy fats",
+          "content": "Almonds contain mostly monounsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Contains magnesium",
+          "content": "Magnesium supports normal muscle and nerve function."
+        },
+        {
+          "title": "Provides protein and fiber",
+          "content": "Almonds contribute plant protein and fiber, which support fullness."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Almonds contain more calcium than most other nuts."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Almonds can cause allergic reactions, which may be severe in some people."
+        },
+        {
+          "title": "High in calories",
+          "content": "Almonds are calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Whole almonds are not suitable for young children because they can cause choking."
+        },
+        {
+          "title": "Oxalate content",
+          "content": "Almonds contain oxalates, which people prone to kidney stones may need to limit. Bitter almonds should never be eaten raw."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Almonds can be eaten as a snack, added to oatmeal, yogurt, salads, and baked goods, or ground into almond flour and almond butter. Soaking or blanching almonds softens them and makes the skins easy to remove. Unsalted or lightly salted almonds are a good option."
+    },
+    {
+      "title": "Storage",
+      "content": "Store almonds in an airtight container in a cool, dry, dark place. For longer storage, keep them in the refrigerator or freezer, since their oils can turn rancid. Discard almonds that smell bitter, sharp, or stale."
+    }
+  ]
+}

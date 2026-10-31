@@ -1,0 +1,75 @@
+{
+  "id": "black-beans",
+  "title": "Black Beans",
+  "image": "/products/black-beans.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Black beans are small, glossy, black-skinned seeds of the common bean (Phaseolus vulgaris), native to the Americas. They have a creamy interior and a mild, earthy, slightly sweet flavor. Black beans are a staple in Latin American, Caribbean, and Southwestern cuisines and are eaten in soups, stews, rice dishes, tacos, and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Black beans belong to the same species as kidney beans, pinto beans, and navy beans.",
+        "They have been cultivated in the Americas for thousands of years.",
+        "Black beans are the main ingredient in dishes such as feijoada and black bean soup.",
+        "Their dark color comes from anthocyanins, plant pigments found in the seed coat.",
+        "The cooking liquid of black beans is often kept as part of the dish because it is flavorful."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Black beans provide protein, making them a staple in many plant-based diets."
+        },
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Black beans are high in fiber, which supports digestion and fullness."
+        },
+        {
+          "title": "Provides folate, iron, and magnesium",
+          "content": "These nutrients support cell function, oxygen transport, and muscle function."
+        },
+        {
+          "title": "Contains anthocyanins",
+          "content": "These plant pigments have antioxidant properties."
+        },
+        {
+          "title": "Slow-digesting carbohydrates",
+          "content": "Black beans have a relatively low glycemic index and contain resistant starch."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Must be thoroughly cooked",
+          "content": "Raw or undercooked beans contain lectins that can cause nausea, vomiting, or diarrhea. Soak dried beans, discard the soaking water, and boil them thoroughly."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "Black beans contain fermentable carbohydrates that may cause gas or bloating in some people."
+        },
+        {
+          "title": "Sodium in canned products",
+          "content": "Canned black beans can be high in added salt, so rinse them and check labels."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Bean allergy is uncommon but can occur, and some people allergic to other legumes may also react."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Black beans can be soaked and simmered until tender, then added to soups, stews, burritos, tacos, salads, and rice dishes, or mashed into dips and burgers. Canned black beans should be rinsed before use. Pair them with rice for a balanced meal."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried black beans in an airtight container in a cool, dry place, where they keep for a year or longer. Cooked black beans should be refrigerated in an airtight container and eaten within three to five days, or frozen for longer storage. Unopened canned beans can be stored in a cool, dry place."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "mushrooms",
+  "title": "Mushrooms",
+  "image": "/products/mushrooms.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mushrooms are the fruiting bodies of fungi and are eaten around the world. Common edible types include button mushrooms, cremini, portobello, oyster, and shiitake. They have an earthy, savory flavor and a meaty texture, and they are used in soups, sauces, stir-fries, and many other dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Mushrooms belong to the kingdom of fungi, not to plants or animals.",
+        "Mushrooms can produce vitamin D when exposed to ultraviolet light.",
+        "Thousands of mushroom species exist, but only some are safe to eat.",
+        "Mushrooms are around 90 percent water.",
+        "Mushrooms have been used in cooking and traditional practices for centuries in many cultures."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in calories",
+          "content": "Mushrooms are very low in calories and fat and add flavor and volume to meals."
+        },
+        {
+          "title": "Provides B vitamins",
+          "content": "Mushrooms contain riboflavin, niacin, and pantothenic acid, which support energy metabolism."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "Mushrooms provide selenium, potassium, and copper."
+        },
+        {
+          "title": "Source of vitamin D when UV-exposed",
+          "content": "Mushrooms exposed to ultraviolet light can be a plant-based source of vitamin D."
+        },
+        {
+          "title": "Contains beneficial compounds",
+          "content": "Mushrooms contain antioxidants such as ergothioneine and fibers such as beta-glucans."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Poisonous wild mushrooms",
+          "content": "Some wild mushrooms are toxic and can cause severe illness or death. Never eat wild mushrooms unless an expert has identified them."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may experience allergic reactions to mushrooms or their spores."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Mushrooms contain fibers that may cause bloating or discomfort in sensitive individuals, especially in large amounts."
+        },
+        {
+          "title": "Raw mushrooms",
+          "content": "Some mushrooms should not be eaten raw. Cooking improves digestibility and safety."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mushrooms can be sautéed, grilled, roasted, baked, or added to soups, sauces, omelets, pizzas, and stir-fries. They are also used as fillings and in vegetarian dishes. Cook them thoroughly and buy them only from reliable sources."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh mushrooms in the refrigerator in a paper bag or a container lined with paper towels, which helps absorb moisture. Avoid washing them until just before use. Fresh mushrooms usually keep for several days. Mushrooms can also be dried or cooked and then frozen."
+    }
+  ]
+}

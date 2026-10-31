@@ -1,0 +1,75 @@
+{
+  "id": "bananas",
+  "title": "Bananas",
+  "image": "/products/bananas.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bananas are elongated, soft, sweet fruits that grow in hanging clusters on large herbaceous plants of the genus Musa, native to Southeast Asia. They have a thick peel that turns from green to yellow as they ripen and a creamy flesh. Bananas are one of the most widely eaten fruits in the world and are enjoyed fresh, in desserts, smoothies, and baked goods."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a banana is a berry, and the plant it grows on is a giant herb, not a tree.",
+        "A cluster of bananas is called a hand, and each individual banana is called a finger.",
+        "The Cavendish variety is the most widely exported banana.",
+        "As bananas ripen, starch turns into sugar, which is why ripe bananas taste sweeter.",
+        "Plantains are a starchier type of banana usually eaten cooked."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in potassium",
+          "content": "Bananas are a well-known source of potassium, which supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Provides vitamin B6",
+          "content": "Vitamin B6 supports normal metabolism and nervous system function."
+        },
+        {
+          "title": "Contains vitamin C and manganese",
+          "content": "These nutrients support the immune system and normal metabolism."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Bananas contribute fiber, and less ripe bananas contain resistant starch, which supports digestion."
+        },
+        {
+          "title": "Quick, convenient energy",
+          "content": "Bananas are an easy source of carbohydrates before or after activity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Natural sugar content",
+          "content": "Ripe bananas contain natural sugars, so portions matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Potassium considerations",
+          "content": "People with kidney problems or those taking certain medications, such as some blood pressure drugs, should consult a healthcare professional about potassium intake."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those with latex allergy, may react to bananas."
+        },
+        {
+          "title": "Digestive effects",
+          "content": "Unripe bananas may cause constipation or bloating in some people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bananas can be eaten fresh, sliced onto oatmeal, cereal, or yogurt, or blended into smoothies. Very ripe bananas are good for banana bread, pancakes, and desserts. They can also be baked, grilled, or frozen for ice-cream-like treats."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep bananas at room temperature until ripe. To slow ripening, separate the bunch and keep them away from other ripening fruit. The peel turns dark in the refrigerator, but the flesh is usually still fine. Ripe bananas can be peeled and frozen for smoothies and baking."
+    }
+  ]
+}

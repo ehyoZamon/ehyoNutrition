@@ -1,0 +1,75 @@
+{
+  "id": "strawberries",
+  "title": "Strawberries",
+  "image": "/products/strawberries.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Strawberries are bright red, juicy, fragrant fruits of the plant Fragaria × ananassa, a member of the rose family. The modern garden strawberry is a hybrid that originated in Europe in the 18th century from species of North and South American origin. They have a sweet, slightly tart flavor and are eaten fresh or used in jams, desserts, drinks, and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a strawberry is not a true berry but an aggregate accessory fruit.",
+        "The small \"seeds\" on the outside are actually separate fruits called achenes, and a strawberry can have around 200 of them.",
+        "Strawberries belong to the rose family, as do apples and peaches.",
+        "The modern garden strawberry is a hybrid of two wild species from the Americas.",
+        "Strawberries are among the most popular berries in the world."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Strawberries are an excellent source of vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Anthocyanins and ellagic acid are plant compounds with antioxidant properties."
+        },
+        {
+          "title": "Provides manganese and folate",
+          "content": "These nutrients support normal metabolism and cell function."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Strawberries contribute fiber that supports normal digestion."
+        },
+        {
+          "title": "Relatively low in sugar",
+          "content": "Compared with many fruits, strawberries are lower in sugar and calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Strawberries can cause allergic reactions in some people, including itching, hives, or swelling."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Conventionally grown strawberries may carry pesticide residues, so wash them thoroughly before eating."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts may cause bloating or stomach upset in sensitive individuals."
+        },
+        {
+          "title": "Salicylate sensitivity",
+          "content": "Strawberries contain natural salicylates, which may cause reactions in people who are sensitive to them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Strawberries can be eaten fresh, sliced into salads, yogurt, oatmeal, and desserts, or blended into smoothies. They can also be made into jams, sauces, and baked goods. Wash them just before eating and remove the green leafy tops."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unwashed strawberries in the refrigerator in a single layer in a breathable container and use them within a few days. Remove any moldy berries right away so mold does not spread. Wash just before eating. For longer storage, strawberries can be washed, dried, hulled, and frozen."
+    }
+  ]
+}

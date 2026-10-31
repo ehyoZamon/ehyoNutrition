@@ -1,0 +1,63 @@
+{
+  "id": "garlic",
+  "title": "Garlic",
+  "image": "/products/garlic.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Garlic (Allium sativum) is a bulbous flowering plant closely related to the onion, shallot, and leek. Native to Central Asia and northeastern Iran, it has been a staple culinary seasoning and traditional herbal medicine worldwide for thousands of years, known for its pungent flavor and health properties."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Crushing or chopping garlic activates alliinase, producing its active organosulfur compound, allicin.",
+        "Ancient Greek Olympic athletes consumed garlic to enhance performance.",
+        "Black garlic is produced by aging whole bulbs under controlled heat and humidity.",
+        "China produces over 70% of the global garlic supply.",
+        "Garlic bulbs can be stored for months under appropriate ventilation."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Cardiovascular Support",
+          "content": "Helps maintain blood pressure levels within normal ranges and supports arterial health."
+        },
+        {
+          "title": "Immune Defense",
+          "content": "Organosulfur compounds demonstrate broad antimicrobial and immune-supporting activity."
+        },
+        {
+          "title": "Antioxidant Properties",
+          "content": "Contains antioxidants that protect cellular structures from oxidative damage."
+        },
+        {
+          "title": "Lipid Regulation",
+          "content": "May assist in maintaining healthy total and LDL cholesterol balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Digestive Irritation",
+          "content": "Raw garlic can cause heartburn, reflux, or stomach irritation in sensitive individuals."
+        },
+        {
+          "title": "Bleeding Risk",
+          "content": "May inhibit platelet aggregation; stop high medicinal doses prior to surgery."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mince or crush garlic and let it sit for 10 minutes before cooking to maximize allicin formation. Excellent in roasts, sauces, marinades, and dressings."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole unpeeled bulbs in a cool, dry, dark place with good air circulation. Do not refrigerate whole garlic as it encourages sprouting."
+    }
+  ]
+}

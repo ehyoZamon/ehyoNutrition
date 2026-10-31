@@ -1,0 +1,71 @@
+{
+  "id": "cabbage",
+  "title": "Cabbage",
+  "image": "/products/cabbage.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cabbage (Brassica oleracea var. capitata) is a leafy green, red, or white biennial plant grown as an annual vegetable crop for its dense-leaved heads. It is closely related to broccoli, cauliflower, and Brussels sprouts. Cabbage is widely used in raw salads like coleslaw, as well as cooked in soups, stews, and fermented dishes like sauerkraut and kimchi."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cabbage is one of the oldest known vegetables, cultivated for over 4,000 years.",
+        "Fermented cabbage (sauerkraut) was historically used by sailors to prevent scurvy on long voyages due to its high vitamin C content.",
+        "There are major varieties including green, red, and Savoy cabbage.",
+        "Red cabbage contains anthocyanins, which change color based on acidity levels.",
+        "China is the largest producer of cabbage in the world."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in Vitamin C",
+          "content": "Supports immune function, collagen production, and iron absorption."
+        },
+        {
+          "title": "Contains Glucosinolates",
+          "content": "Sulfur-containing compounds that have potential antioxidant and cellular defense properties."
+        },
+        {
+          "title": "Supports Digestive Health",
+          "content": "Provides insoluble and soluble fiber, which aids healthy bowel movements and friendly gut bacteria."
+        },
+        {
+          "title": "Heart Health Support",
+          "content": "Red cabbage contains anthocyanins, powerful antioxidants that support cardiovascular function."
+        },
+        {
+          "title": "Low in Calories",
+          "content": "A high-volume, nutrient-dense food ideal for weight management."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Thyroid Considerations",
+          "content": "Raw cruciferous vegetables contain goitrogens, which may affect iodine uptake in very high amounts."
+        },
+        {
+          "title": "Digestive Gas",
+          "content": "High fiber and raffinose content may cause bloating or gas in sensitive individuals."
+        },
+        {
+          "title": "Medication Interactions",
+          "content": "High vitamin K levels can interfere with blood-thinning medications like warfarin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cabbage can be shredded for coleslaw, sautéed with garlic and olive oil, simmered in soups like borscht, or fermented into sauerkraut and kimchi."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole heads of cabbage in the refrigerator crisper drawer in a perforated plastic bag for up to two weeks. Once cut, wrap tightly in plastic wrap and use within a few days."
+    }
+  ]
+}

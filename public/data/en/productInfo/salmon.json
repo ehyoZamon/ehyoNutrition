@@ -1,0 +1,75 @@
+{
+  "id": "salmon",
+  "title": "Salmon",
+  "image": "/products/salmon.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Salmon is a fatty fish from the family Salmonidae, found in the North Atlantic and North Pacific oceans and in freshwater rivers where it spawns. It has pink to orange-red flesh and a rich, mild flavor. Salmon is eaten fresh, smoked, cured, canned, or cooked in many ways and is widely known for its omega-3 content."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Salmon are anadromous: they are born in freshwater, live in the ocean, and return to rivers to spawn.",
+        "There is one Atlantic salmon species and several Pacific species, including sockeye, coho, chinook, pink, and chum.",
+        "The pink-orange color comes from astaxanthin, a pigment from the crustaceans and krill salmon eat.",
+        "Salmon sold today is either wild-caught or farmed.",
+        "Salmon is one of the best-known sources of omega-3 fatty acids among foods."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega-3 fatty acids",
+          "content": "Salmon is a good source of EPA and DHA, which support normal heart and brain function."
+        },
+        {
+          "title": "Source of high-quality protein",
+          "content": "Salmon provides complete protein for muscle maintenance and repair."
+        },
+        {
+          "title": "Provides vitamin D",
+          "content": "Salmon is one of the few natural food sources of vitamin D."
+        },
+        {
+          "title": "Contains vitamin B12 and selenium",
+          "content": "These nutrients support red blood cell formation, nervous system function, and immune health."
+        },
+        {
+          "title": "Provides potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Fish allergy can be serious and is lifelong for many people."
+        },
+        {
+          "title": "Raw or undercooked fish",
+          "content": "Raw or undercooked salmon may carry parasites and bacteria and is not recommended for pregnant women, young children, or people with weakened immunity."
+        },
+        {
+          "title": "Contaminants",
+          "content": "Salmon can contain small amounts of environmental contaminants. Follow local guidance on how often to eat it, especially during pregnancy."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "High doses of omega-3 supplements may affect blood clotting. People taking blood thinners should consult a healthcare professional."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Salmon can be baked, grilled, pan-seared, poached, or steamed. Smoked or cured salmon is often eaten on bread or in salads, and canned salmon can be used in sandwiches, patties, and pasta. Cook fresh salmon until it flakes easily with a fork."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh salmon in the coldest part of the refrigerator and cook it within one to two days. For longer storage, wrap it tightly and freeze it, then thaw it in the refrigerator. Cooked salmon should be refrigerated in an airtight container and eaten within about three days. Follow the label for smoked and canned salmon."
+    }
+  ]
+}

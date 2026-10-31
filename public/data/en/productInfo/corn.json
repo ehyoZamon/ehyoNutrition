@@ -1,0 +1,75 @@
+{
+  "id": "corn",
+  "title": "Corn",
+  "image": "/products/corn.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Corn, also called maize (Zea mays), is a cereal grain first domesticated in southern Mexico thousands of years ago. It is now one of the most widely grown crops in the world. Corn is eaten as a vegetable (sweet corn on the cob or as kernels), as a grain, and in products such as cornmeal, polenta, tortillas, popcorn, and corn flour."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Corn was domesticated from a wild grass called teosinte in what is now Mexico.",
+        "Botanically, a corn kernel is a fruit called a caryopsis, and corn is also classified as a cereal grain.",
+        "An ear of corn usually has an even number of kernel rows, commonly 12 to 18.",
+        "Corn comes in many colors, including yellow, white, blue, red, and purple.",
+        "Popcorn pops because the water inside the kernel turns to steam and bursts the hard outer layer."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Corn contains fiber, especially when eaten as whole kernels or whole-grain products."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Corn provides thiamin and folate, which support energy metabolism and cell function."
+        },
+        {
+          "title": "Contains eye-supporting carotenoids",
+          "content": "Yellow corn contains lutein and zeaxanthin, plant pigments associated with eye health."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Corn offers magnesium, potassium, and phosphorus."
+        },
+        {
+          "title": "Source of energy",
+          "content": "Corn is rich in carbohydrates, which provide energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Corn allergy is uncommon but can occur."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Corn kernels contain insoluble fiber that may cause gas or bloating in some people."
+        },
+        {
+          "title": "Carbohydrate content",
+          "content": "Corn is rich in starch, so people monitoring blood sugar should watch portions."
+        },
+        {
+          "title": "Mold toxins and niacin",
+          "content": "Poorly stored corn can contain mold toxins such as aflatoxins. Diets that rely heavily on untreated corn can also be low in available niacin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Sweet corn can be boiled, steamed, grilled, or roasted on the cob, or cut off and added to salads, soups, and sides. Dried corn is ground into cornmeal and flour for porridge, polenta, tortillas, and bread. Popcorn is a popular whole-grain snack when made without a lot of salt or butter."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh sweet corn is best eaten soon after buying; keep it in the refrigerator, ideally in its husk, for a few days, since its sugar turns to starch over time. Kernels can be blanched and frozen. Dried corn, cornmeal, and popcorn should be kept in airtight containers in a cool, dry place."
+    }
+  ]
+}

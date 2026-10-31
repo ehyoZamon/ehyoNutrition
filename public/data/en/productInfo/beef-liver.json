@@ -1,0 +1,75 @@
+{
+  "id": "beef-liver",
+  "title": "Beef Liver",
+  "image": "/products/beef-liver.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef liver is an organ meat from cattle that has been eaten in many cultures for centuries. It has a distinctive, rich flavor and a dense, tender texture when cooked properly. Beef liver is considered one of the most nutrient-dense foods and is used in dishes such as pâté, stews, and pan-fried preparations with onions."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Liver is an organ meat, also known as offal, and plays a major role in storing nutrients in the animal.",
+        "It is among the most nutrient-dense foods, per serving, in terms of vitamins and minerals.",
+        "Liver cooks very quickly and becomes tough and dry if overcooked.",
+        "Soaking liver in milk is a traditional way to soften its strong flavor.",
+        "Liver-based dishes such as pâté and fried liver with onions are traditional in many cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin A",
+          "content": "Beef liver is a very concentrated source of vitamin A (retinol), which supports vision and the immune system."
+        },
+        {
+          "title": "Excellent source of vitamin B12",
+          "content": "Vitamin B12 supports normal red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Provides easily absorbed iron",
+          "content": "Liver contains heme iron, which the body absorbs more readily than iron from plants."
+        },
+        {
+          "title": "Contains folate and other B vitamins",
+          "content": "These nutrients support normal cell division and energy metabolism."
+        },
+        {
+          "title": "High in protein and copper",
+          "content": "Liver provides protein as well as copper, which supports normal iron metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Very high vitamin A content",
+          "content": "Regularly eating large portions can lead to excess vitamin A. Pregnant women are commonly advised to limit or avoid liver and should follow their doctor's guidance."
+        },
+        {
+          "title": "Cholesterol and purines",
+          "content": "Liver is high in cholesterol and purines, so people with gout or certain heart-related conditions should ask a healthcare professional about it."
+        },
+        {
+          "title": "Copper and iron intake",
+          "content": "Frequent consumption can add a lot of copper and iron, which matters for people with related metabolic conditions."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked liver can carry bacteria and parasites and should be cooked thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Beef liver is usually sliced thin and quickly pan-fried with onions, or braised, grilled, or blended into pâté. Do not overcook it, but make sure it is cooked through. It is eaten in small portions and not every day. Mixing it into ground meat dishes can also soften its flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh raw liver in the refrigerator and cook it within one to two days. For longer storage, freeze it tightly wrapped. Cooked liver should be refrigerated in an airtight container and eaten within three to four days. Thaw frozen liver in the refrigerator."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "eggs",
+  "title": "Eggs",
+  "image": "/products/eggs.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Eggs are a widely consumed food, most often from chickens, though duck, quail, and goose eggs are also eaten in many regions. They have been part of human diets for thousands of years. An egg consists of a firm shell, a protein-rich white, and a yolk that contains most of the fat and many of the vitamins and minerals. Eggs are eaten boiled, fried, scrambled, baked, or used as an ingredient in countless dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Shell color (white, brown, or blue-green) depends on the breed of the hen and does not reflect nutritional value.",
+        "The egg white and the yolk contain different nutrients: the white is mostly protein and water, while the yolk holds fats, vitamins, and minerals.",
+        "A hen typically lays no more than about one egg per day.",
+        "Eggs act as a binder, thickener, and leavening agent in cooking and baking.",
+        "Quail, duck, and goose eggs are popular in many national cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of high-quality protein",
+          "content": "Eggs provide complete protein containing all essential amino acids."
+        },
+        {
+          "title": "Contains choline",
+          "content": "Eggs are one of the richer food sources of choline, a nutrient involved in normal cell function."
+        },
+        {
+          "title": "Provides vitamins",
+          "content": "Eggs contain vitamin B12, riboflavin (B2), vitamin A, and small amounts of vitamin D."
+        },
+        {
+          "title": "Contains eye-supporting carotenoids",
+          "content": "Egg yolks contain lutein and zeaxanthin, plant pigments associated with eye health."
+        },
+        {
+          "title": "May help you feel full",
+          "content": "Protein-rich meals such as those with eggs may increase the feeling of fullness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Egg allergy is among the more common food allergies, especially in children."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Raw or undercooked eggs may carry Salmonella. Pregnant women, young children, older adults, and people with weakened immunity should avoid them."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Egg yolks contain dietary cholesterol. People with certain health conditions should ask a healthcare professional how many eggs are suitable for them."
+        },
+        {
+          "title": "Biotin absorption",
+          "content": "Raw egg whites contain avidin, which can bind biotin. Cooking eliminates this effect."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eggs can be boiled, poached, fried, scrambled, or baked in omelets, casseroles, and pastries. They are also added to salads, sandwiches, soups, and sauces. Cook eggs until the white is set and the yolk is firm to reduce the risk of foodborne illness."
+    },
+    {
+      "title": "Storage",
+      "content": "Store eggs in the refrigerator in their original carton, away from strong-smelling foods. Raw eggs in the shell usually keep for several weeks when refrigerated. Hard-boiled eggs should be refrigerated and eaten within about a week. Do not use cracked or dirty eggs."
+    }
+  ]
+}

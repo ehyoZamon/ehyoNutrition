@@ -1,0 +1,75 @@
+{
+  "id": "sunflower-seeds",
+  "title": "Sunflower Seeds",
+  "image": "/products/sunflower-seeds.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sunflower seeds are the edible seeds of the sunflower plant (Helianthus annuus), which is native to North America. Each seed is enclosed in a striped shell, and the kernel inside has a mild, nutty flavor. They are eaten roasted or raw as a snack and used in baking, salads, and spreads, and they are also a source of sunflower oil."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sunflowers were cultivated by Indigenous peoples of North America long before they spread to Europe.",
+        "Botanically, what we call a sunflower seed is a fruit called an achene, with the shell as its outer layer.",
+        "A single sunflower head can contain hundreds to thousands of seeds.",
+        "Sunflower seeds are popular as a snack in many countries, especially in Eastern Europe and Central Asia.",
+        "Young sunflower heads track the sun during growth, a behavior called heliotropism."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin E",
+          "content": "Sunflower seeds are one of the best food sources of vitamin E, an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Provides healthy fats",
+          "content": "They contain mostly unsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "Sunflower seeds provide magnesium, selenium, zinc, and copper."
+        },
+        {
+          "title": "Source of protein and fiber",
+          "content": "Shelled seeds provide plant protein and fiber, which support fullness."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "They provide thiamin, folate, and vitamin B6, which support energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in calories",
+          "content": "Sunflower seeds are calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Sodium in flavored varieties",
+          "content": "Salted or flavored seeds may contain a lot of sodium."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Sunflower seed allergy is uncommon but can occur."
+        },
+        {
+          "title": "Cadmium and shells",
+          "content": "Sunflower seeds can absorb cadmium from soil, so very large regular amounts are not recommended. Cracking shells with the teeth may damage them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Shelled sunflower seeds can be sprinkled on salads, yogurt, oatmeal, and soups, or added to bread, granola, and baked goods. They can be ground into sunflower seed butter or used in pesto. Seeds in the shell are a popular snack, with the shell discarded."
+    },
+    {
+      "title": "Storage",
+      "content": "Store sunflower seeds in an airtight container in a cool, dark place. Because of their oil content, shelled seeds can turn rancid, so refrigerate or freeze them for longer storage. Discard seeds that smell sharp, bitter, or like paint."
+    }
+  ]
+}

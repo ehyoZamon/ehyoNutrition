@@ -1,0 +1,63 @@
+{
+  "id": "cod-liver-oil",
+  "title": "Cod Liver Oil",
+  "image": "/products/cod-liver-oil.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cod liver oil is a dietary supplement derived from the liver of cod fish (Gadus species). Unlike standard fish oils extracted from body tissues, cod liver oil is uniquely high in preformed vitamin A and vitamin D alongside long-chain omega-3 fatty acids EPA and DHA."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "It has been used for centuries in Scandinavian countries to preserve health during dark winters.",
+        "Contains preformed vitamin D3, crucial for bone density and immune function.",
+        "Historical standard prevention method against childhood rickets.",
+        "Unique dual profile of essential vitamins (A & D) combined with marine omega-3s.",
+        "Modern processing removes heavy metals and environmental toxins."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Bone & Immune Support",
+          "content": "Vitamin D aids calcium absorption and immune system readiness."
+        },
+        {
+          "title": "Vision & Skin Health",
+          "content": "Vitamin A maintains healthy skin tissue and nocturnal vision."
+        },
+        {
+          "title": "Cardiovascular Health",
+          "content": "EPA and DHA support healthy triglyceride levels and arterial function."
+        },
+        {
+          "title": "Anti-Inflammatory",
+          "content": "Omega-3s help reduce systemic inflammation throughout the body."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Vitamin A Toxicity Risk",
+          "content": "Excessive doses can lead to hypervitaminosis A; pregnant women should follow strict dosage guidance."
+        },
+        {
+          "title": "Blood Thinning Effect",
+          "content": "High omega-3 doses may increase bleeding risk when taken with blood thinners."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Take as a liquid spoon dose or softgel capsule with a meal containing fats to optimize vitamin absorption."
+    },
+    {
+      "title": "Storage",
+      "content": "Refrigerate liquid cod liver oil immediately after opening and consume within 2-3 months to maintain freshness."
+    }
+  ]
+}

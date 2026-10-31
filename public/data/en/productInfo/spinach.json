@@ -1,0 +1,75 @@
+{
+  "id": "spinach",
+  "title": "Spinach",
+  "image": "/products/spinach.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Spinach (Spinacia oleracea) is a leafy green vegetable that originated in Central and Southwest Asia. Its tender, dark green leaves have a mild, slightly earthy flavor. Spinach is eaten raw in salads and smoothies or cooked in soups, pies, pastas, and many other dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Spinach is thought to have originated in ancient Persia and spread to Europe in the Middle Ages.",
+        "Spinach leaves shrink dramatically when cooked, so a large bag of leaves yields only a small amount.",
+        "Baby spinach is harvested young and has smaller, more tender leaves.",
+        "Spinach contains naturally occurring nitrates, which are also found in other leafy vegetables.",
+        "Spinach is a member of the amaranth family, related to beets and quinoa."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin K",
+          "content": "Spinach is an excellent source of vitamin K, which supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Provides vitamin A and vitamin C",
+          "content": "Spinach contains carotenoids that the body can convert into vitamin A, as well as vitamin C."
+        },
+        {
+          "title": "Contains folate and minerals",
+          "content": "Spinach provides folate, iron, magnesium, and potassium."
+        },
+        {
+          "title": "Contains eye-supporting carotenoids",
+          "content": "Lutein and zeaxanthin are plant pigments associated with eye health."
+        },
+        {
+          "title": "Very low in calories",
+          "content": "Spinach is low in calories and adds nutrients and volume to meals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oxalates",
+          "content": "Spinach is high in oxalates, which can contribute to kidney stones in susceptible people and may reduce the absorption of calcium and iron."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Spinach contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Raw leafy greens can carry bacteria, so wash them well and avoid leaves that are slimy or spoiled."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Spinach allergy is uncommon but can occur."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spinach can be eaten raw in salads, sandwiches, and smoothies or cooked by sautéing, steaming, or adding it to soups, omelets, pasta, and pies. It wilts within minutes of heating, so add it near the end of cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unwashed spinach in the refrigerator in a container or bag with a paper towel to absorb moisture, where it usually keeps for three to five days. Wash it right before use. Spinach can also be blanched and frozen."
+    }
+  ]
+}

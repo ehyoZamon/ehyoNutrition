@@ -1,0 +1,75 @@
+{
+  "id": "pumpkin",
+  "title": "Pumpkin",
+  "image": "/products/pumpkin.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pumpkin is a large, round winter squash from the genus Cucurbita, native to the Americas and cultivated for thousands of years. It has a thick orange rind and soft, mildly sweet orange flesh with many edible seeds inside. Pumpkin is used in soups, stews, baked goods, and desserts, and its seeds are eaten as a snack."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a pumpkin is a fruit, classified as a type of berry called a pepo.",
+        "Pumpkins originated in the Americas and have been grown there for thousands of years.",
+        "Pumpkin flowers, seeds, and flesh are all edible.",
+        "Some giant pumpkin varieties can weigh several hundred kilograms.",
+        "Pumpkin seeds, also called pepitas, are a popular snack in many countries."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in beta-carotene",
+          "content": "Pumpkin's orange flesh is rich in carotenoids that the body can convert into vitamin A."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Pumpkin contributes fiber that supports normal digestion."
+        },
+        {
+          "title": "Contains vitamins and potassium",
+          "content": "Pumpkin provides vitamin C, vitamin E, and potassium."
+        },
+        {
+          "title": "Seeds are rich in minerals",
+          "content": "Pumpkin seeds contain magnesium, zinc, and healthy fats."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Pumpkin flesh is low in calories and has a high water content."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Although uncommon, some people may be allergic to pumpkin or its seeds."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating large amounts of pumpkin or seeds may cause bloating or stomach upset in sensitive individuals."
+        },
+        {
+          "title": "Added sugar in processed products",
+          "content": "Canned pumpkin pie filling and sweetened pumpkin products often contain added sugar."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Concentrated pumpkin seed products or supplements may interact with certain medications. People taking prescription drugs should consult a healthcare professional."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pumpkin can be baked, roasted, steamed, boiled, or pureed for soups, porridge, pancakes, pies, and muffins. It can also be added to stews, pilafs, and savory dishes. Seeds can be rinsed, dried, lightly salted, and roasted as a snack."
+    },
+    {
+      "title": "Storage",
+      "content": "Whole pumpkins can be stored in a cool, dry, well-ventilated place for several weeks to months. Cut pumpkin should be wrapped and refrigerated and used within a few days. Cooked pumpkin or puree can be kept in an airtight container in the refrigerator or frozen for longer storage."
+    }
+  ]
+}

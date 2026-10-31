@@ -1,0 +1,75 @@
+{
+  "id": "yogurt",
+  "title": "Yogurt",
+  "image": "/products/yogurt.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt is a fermented dairy food made by adding live bacterial cultures to milk. The bacteria convert milk sugar into lactic acid, which thickens the milk and gives yogurt its tangy flavor. Yogurt comes in many styles, including plain, Greek, drinkable, and flavored, and is eaten on its own, in smoothies, sauces, and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt is traditionally made with the bacteria Lactobacillus bulgaricus and Streptococcus thermophilus.",
+        "Greek yogurt is strained to remove whey, making it thicker and higher in protein.",
+        "Yogurt-like fermented milks have been made for thousands of years in Central Asia, the Middle East, and the Balkans.",
+        "A \"live and active cultures\" label shows that live bacteria are present in the product.",
+        "Fermentation lowers the lactose content compared with milk."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Yogurt provides protein that supports muscle maintenance and fullness, especially Greek yogurt."
+        },
+        {
+          "title": "Rich in calcium",
+          "content": "Yogurt is a good source of calcium, which supports bones and teeth."
+        },
+        {
+          "title": "Provides B vitamins",
+          "content": "Yogurt contains vitamin B12 and riboflavin (B2)."
+        },
+        {
+          "title": "Contains live cultures",
+          "content": "Yogurt with live cultures may support digestive health."
+        },
+        {
+          "title": "May be easier to digest than milk",
+          "content": "The bacteria in yogurt break down some lactose, which many people with mild lactose intolerance find easier to tolerate."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk allergy",
+          "content": "Yogurt contains milk protein and should be avoided by people allergic to milk."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Yogurt still contains some lactose and may cause discomfort in sensitive individuals."
+        },
+        {
+          "title": "Added sugar",
+          "content": "Flavored and sweetened yogurts can contain a lot of added sugar, so check labels."
+        },
+        {
+          "title": "Medication interactions and weakened immunity",
+          "content": "Calcium in dairy can reduce the absorption of some medications, such as certain antibiotics. People with weakened immunity should ask a healthcare professional about live-culture products."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Yogurt can be eaten plain or with fruit, nuts, honey, or granola, blended into smoothies, or used in dressings, marinades, sauces, and baking. Plain yogurt is a good base for adding your own flavorings. It can replace sour cream or mayonnaise in some recipes."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep yogurt refrigerated and use it by the date on the package. After opening, close the container tightly, use a clean spoon, and eat it within about a week. A little liquid on top is normal whey and can be stirred in. Discard yogurt that smells off or has mold."
+    }
+  ]
+}

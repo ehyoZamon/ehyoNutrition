@@ -1,0 +1,75 @@
+{
+  "id": "shiitake",
+  "title": "Shiitake",
+  "image": "/products/shiitake.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Shiitake (Lentinula edodes) is an edible mushroom native to East Asia, where it has been cultivated for centuries. It has a brown, umbrella-shaped cap and a tough, fibrous stem. Shiitake has a rich, savory, umami flavor and a meaty texture, and it is eaten fresh or dried in soups, stir-fries, and many other dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Shiitake traditionally grows on decaying hardwood logs and is now also grown on sawdust blocks.",
+        "Drying shiitake concentrates its flavor, which is why dried shiitake are prized for broths.",
+        "Shiitake are one of the most widely cultivated edible mushrooms in the world.",
+        "Their savory taste comes partly from natural compounds that give umami flavor.",
+        "The stems are usually too tough to eat but can be used to flavor stock."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides B vitamins",
+          "content": "Shiitake contain pantothenic acid, riboflavin, and niacin, which support energy metabolism."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "Shiitake provide copper, selenium, and zinc."
+        },
+        {
+          "title": "Source of vitamin D when UV-exposed",
+          "content": "Shiitake exposed to sunlight or ultraviolet light can be a plant-based source of vitamin D."
+        },
+        {
+          "title": "Contains beneficial compounds",
+          "content": "Shiitake contain beta-glucans, such as lentinan, and antioxidants such as ergothioneine, which are being studied."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Shiitake are low in calories and add flavor to meals without adding much fat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Shiitake dermatitis",
+          "content": "Eating raw or undercooked shiitake may cause an itchy skin rash in some people, so cook them thoroughly."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may experience allergic reactions to mushrooms."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Mushrooms may cause bloating or discomfort in sensitive individuals, especially in large amounts."
+        },
+        {
+          "title": "Buy from reliable sources",
+          "content": "Buy shiitake from reputable suppliers and do not eat wild mushrooms unless an expert has identified them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Shiitake can be sliced and sautéed, stir-fried, grilled, roasted, or added to soups, ramen, risotto, and omelets. Remove the tough stems before cooking. Dried shiitake should be soaked in warm water first, and the soaking liquid can be used as a flavorful broth."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh shiitake in the refrigerator in a paper bag or a container lined with paper towels, where they usually keep for about a week. Avoid washing them until just before use. Dried shiitake keep for months in an airtight container in a cool, dry place."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "macadamia-nuts",
+  "title": "Macadamia Nuts",
+  "image": "/products/macadamia-nuts.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Macadamia nuts are the edible seeds of trees of the genus Macadamia, native to the rainforests of eastern Australia. They have a creamy, buttery flavor and a rich, crunchy texture. Today they are grown commercially in Australia, Hawaii, South Africa, and other warm regions, and they are eaten as a snack and used in baking, desserts, and chocolate."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Macadamia nuts are native to Australia and were long eaten by Indigenous Australians.",
+        "The shell is extremely hard and needs special equipment to crack.",
+        "Macadamias have one of the highest fat contents of any nut, mostly monounsaturated fat.",
+        "Macadamia trees can take several years to start producing nuts.",
+        "Macadamia nuts are often roasted and sold salted or covered in chocolate."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in monounsaturated fat",
+          "content": "Macadamias contain mostly monounsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Provides thiamin and manganese",
+          "content": "These nutrients support energy metabolism and normal bone health."
+        },
+        {
+          "title": "Contains dietary fiber",
+          "content": "Macadamias contribute fiber that supports normal digestion."
+        },
+        {
+          "title": "Provides magnesium and copper",
+          "content": "These minerals support normal muscle, nerve, and metabolic function."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Macadamias contain flavonoids and other plant compounds with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Macadamia nuts can cause allergic reactions, which may be severe in some people."
+        },
+        {
+          "title": "Very high in calories",
+          "content": "Macadamias are very calorie-dense, so only small portions are needed."
+        },
+        {
+          "title": "Added salt",
+          "content": "Roasted and salted macadamias can contain a lot of sodium."
+        },
+        {
+          "title": "Toxic to dogs",
+          "content": "Macadamia nuts are toxic to dogs, so keep them out of reach of pets."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Macadamia nuts can be eaten raw or roasted as a snack, chopped into cookies, cakes, and granola, or added to salads and stir-fries. They can also be ground into butter or used to make plant-based milk and creamy sauces. Choose unsalted nuts when possible."
+    },
+    {
+      "title": "Storage",
+      "content": "Store macadamia nuts in an airtight container in a cool, dark place. Because of their high oil content, they are best kept in the refrigerator or freezer for longer storage. Discard nuts that smell rancid or taste bitter."
+    }
+  ]
+}

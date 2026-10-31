@@ -1,0 +1,75 @@
+{
+  "id": "fatty-fish",
+  "title": "Fatty Fish",
+  "image": "/products/fatty-fish.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fatty fish are species that store oils in their tissues and around the gut, giving them rich flavor and a soft, flaky texture. Common examples include salmon, mackerel, sardines, herring, trout, and anchovies. They are eaten fresh, smoked, canned, or cured in many cuisines around the world and are especially known for their omega-3 fatty acid content."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Unlike lean white fish, fatty fish store oil throughout their flesh.",
+        "The omega-3 fatty acids EPA and DHA are found mainly in fatty fish and other seafood.",
+        "Many dietary guidelines suggest eating fish, including fatty fish, once or twice a week.",
+        "Sardines are often eaten whole, including their soft bones, which adds calcium.",
+        "Canned fatty fish such as sardines and mackerel are convenient and long-lasting."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega-3 fatty acids",
+          "content": "EPA and DHA support normal heart function and brain function."
+        },
+        {
+          "title": "Source of high-quality protein",
+          "content": "Fatty fish provide complete protein for muscle maintenance and repair."
+        },
+        {
+          "title": "Provides vitamin D",
+          "content": "Fatty fish are one of the few natural food sources of vitamin D."
+        },
+        {
+          "title": "Contains vitamin B12 and minerals",
+          "content": "They provide vitamin B12, selenium, and iodine."
+        },
+        {
+          "title": "May support heart health",
+          "content": "Some studies suggest that regular fish consumption is associated with better cardiovascular health, although more research is needed."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Fish allergy can be serious and is lifelong for many people."
+        },
+        {
+          "title": "Mercury and contaminants",
+          "content": "Some larger fish may contain more mercury and other contaminants. Pregnant women and young children should follow local guidance on which fish to choose."
+        },
+        {
+          "title": "Raw or undercooked fish",
+          "content": "Raw or undercooked fish may carry parasites and bacteria and is not recommended for pregnant women, young children, or people with weakened immunity."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "High doses of omega-3 supplements may affect blood clotting. People taking blood thinners should consult a healthcare professional."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fatty fish can be baked, grilled, pan-seared, steamed, or poached. Smoked or cured fish is often eaten on bread or in salads, and canned fish can be added to sandwiches, pasta, or salads. Cook fresh fish until it flakes easily with a fork."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh fish in the coldest part of the refrigerator and cook it within one to two days. For longer storage, wrap it tightly and freeze it. Thaw frozen fish in the refrigerator. Cooked fish should be refrigerated in an airtight container and eaten within about three days. Unopened canned fish can be stored in a cool, dry place."
+    }
+  ]
+}

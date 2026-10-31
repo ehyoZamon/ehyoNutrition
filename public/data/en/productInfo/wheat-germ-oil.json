@@ -1,0 +1,63 @@
+{
+  "id": "wheat-germ-oil",
+  "title": "Wheat Germ Oil",
+  "image": "/products/wheat-germ-oil.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Wheat germ oil is extracted from the germ of the wheat kernel, which represents the nutrient center of the grain. It is renowned as one of the richest natural sources of vitamin E (alpha-tocopherol) and essential fatty acids, widely used in dietary supplements and skincare."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "It takes over 50 tons of wheat to produce just one liter of pure wheat germ oil.",
+        "It boasts the highest vitamin E concentration among all botanical oils.",
+        "Contains octacosanol, a compound studied for enhancing physical performance.",
+        "Widely utilized in anti-aging cosmetic formulations.",
+        "Has a deep golden-yellow or amber color and a distinct nutty aroma."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Exceptional Vitamin E Source",
+          "content": "Provides potent antioxidant protection against lipid oxidation."
+        },
+        {
+          "title": "Skin Barrier Support",
+          "content": "Helps hydrate dry skin and supports tissue repair and elasticity."
+        },
+        {
+          "title": "Heart Health",
+          "content": "Rich in linoleic acid (omega-6) and plant sterols that support healthy lipid profiles."
+        },
+        {
+          "title": "Cellular Defense",
+          "content": "Neutralizes free radicals to support healthy cellular aging."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten Sensitivity",
+          "content": "May contain trace amounts of gluten; people with celiac disease should exercise caution."
+        },
+        {
+          "title": "Perishable Oil",
+          "content": "Prone to oxidation and rancidity if exposed to light, heat, or oxygen."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drizzle over salads or warm dishes just before serving. Do not cook with wheat germ oil as heat destroys vitamin E and essential fats."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep in a dark glass bottle in the refrigerator after opening to prevent oxidation. Use within 2-3 months."
+    }
+  ]
+}

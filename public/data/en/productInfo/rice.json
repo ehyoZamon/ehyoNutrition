@@ -1,0 +1,75 @@
+{
+  "id": "rice",
+  "title": "Rice",
+  "image": "/products/rice.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Rice (Oryza sativa) is the edible grain of a cereal plant that was first domesticated in Asia thousands of years ago. It is a staple food for more than half of the world's population. Rice comes in many varieties, including white, brown, black, red, basmati, jasmine, and sticky rice, and it is eaten boiled, steamed, fried, or made into dishes such as pilaf, risotto, and congee."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Rice was domesticated in Asia, with evidence pointing to the Yangtze River region of China.",
+        "Brown rice is whole grain with its bran and germ; white rice has had them removed through milling.",
+        "Rice is grown in flooded fields called paddies in many regions.",
+        "Rice varieties are grouped by grain length: long, medium, and short.",
+        "Rice is naturally gluten-free."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Rice is rich in carbohydrates, which provide energy."
+        },
+        {
+          "title": "Brown rice provides fiber",
+          "content": "Brown rice contains more fiber, magnesium, and manganese than white rice."
+        },
+        {
+          "title": "Often enriched",
+          "content": "Enriched white rice may be fortified with B vitamins and iron."
+        },
+        {
+          "title": "Gluten-free",
+          "content": "Rice is suitable for people who need to avoid gluten."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "White rice is mild and generally easy to digest."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Arsenic",
+          "content": "Rice can absorb arsenic from soil and water. Eating a variety of grains and rinsing and cooking rice in plenty of water may reduce exposure."
+        },
+        {
+          "title": "Improperly stored cooked rice",
+          "content": "Cooked rice left at room temperature can grow Bacillus cereus bacteria, which may cause food poisoning."
+        },
+        {
+          "title": "Glycemic effect",
+          "content": "White rice can raise blood sugar quickly, so portions matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Lower fiber in white rice",
+          "content": "Refined white rice contains less fiber than whole grains."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rice can be boiled or steamed and served as a side dish, in bowls, and in pilafs, risottos, sushi, stir-fries, and soups. Rinsing rice before cooking removes surface starch. Pairing rice with vegetables and protein makes a balanced meal."
+    },
+    {
+      "title": "Storage",
+      "content": "Store uncooked rice in an airtight container in a cool, dry place. White rice keeps for a long time, while brown rice, which contains oils, keeps for a shorter time. Cool cooked rice quickly, refrigerate it within about an hour, eat it within one to two days, and reheat it until it is steaming hot."
+    }
+  ]
+}

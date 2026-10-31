@@ -1,0 +1,75 @@
+{
+  "id": "carrot",
+  "title": "Carrot",
+  "image": "/products/carrot.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Carrot (Daucus carota) is a root vegetable believed to have originated in the region of present-day Iran and Afghanistan. It is best known for its crisp texture and sweet, earthy flavor. Although orange carrots are the most familiar, carrots also come in purple, yellow, red, and white varieties. Both the root and the leafy tops are edible."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Early cultivated carrots were often purple or yellow; orange varieties became widespread in Europe later.",
+        "The orange color comes mainly from beta-carotene, a pigment the body can convert into vitamin A.",
+        "Wild carrot, also known as Queen Anne's lace, is the ancestor of the cultivated carrot.",
+        "Carrots are rich in natural sugars, which is why they taste sweeter when cooked or roasted.",
+        "Carrot greens are edible and can be used in pesto, soups, and salads."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in beta-carotene",
+          "content": "The body converts beta-carotene into vitamin A, which supports normal vision, skin, and immune function."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Carrots contribute fiber that supports normal digestion."
+        },
+        {
+          "title": "Contains vitamin K and potassium",
+          "content": "Carrots provide vitamin K1, which supports normal blood clotting, and potassium, which helps maintain normal blood pressure."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Carotenoids and other plant compounds help protect cells against oxidative damage."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Carrots are filling and low in calories, making them a convenient snack."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those allergic to birch pollen, may experience itching or tingling in the mouth after eating raw carrots."
+        },
+        {
+          "title": "Carotenemia",
+          "content": "Very large amounts of carrots or carrot juice over time may cause a harmless yellow-orange tint of the skin."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Raw carrot pieces can be a choking hazard for small children and should be grated, cooked, or cut appropriately."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating a lot of fiber at once may cause bloating in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Carrots can be eaten raw as a snack, grated into salads, or dipped in hummus. They can be boiled, steamed, roasted, or added to soups, stews, pilafs, and baked goods. Eating carrots with a little fat, such as olive oil, may improve the absorption of carotenoids."
+    },
+    {
+      "title": "Storage",
+      "content": "Remove the leafy tops and store carrots in the refrigerator, in a perforated bag or container, where they can keep for several weeks. Keep them away from ripening fruit. Peeled or cut carrots should be kept in an airtight container and eaten within a few days. Carrots can also be blanched and frozen."
+    }
+  ]
+}

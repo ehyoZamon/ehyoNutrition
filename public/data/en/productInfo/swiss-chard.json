@@ -1,0 +1,75 @@
+{
+  "id": "swiss-chard",
+  "title": "Swiss Chard",
+  "image": "/products/swiss-chard.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Swiss chard (Beta vulgaris subsp. vulgaris) is a leafy green vegetable with large, glossy leaves and thick, crunchy stalks. The stalks can be white, yellow, orange, pink, or red, and the leaves taste mildly earthy and slightly bitter. It is eaten cooked in soups, sautés, pies, and stuffed dishes, and the young leaves can be used raw in salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Swiss chard belongs to the same species as beets, but it is grown for its leaves and stalks rather than its root.",
+        "Despite the name, chard is thought to have originated in the Mediterranean region, not in Switzerland.",
+        "Rainbow chard has brightly colored stalks in several hues.",
+        "Both leaves and stalks are edible, though stalks take longer to cook.",
+        "Chard has been used in Mediterranean cooking for centuries."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin K",
+          "content": "Swiss chard is an excellent source of vitamin K, which supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Provides vitamins A and C",
+          "content": "It contains carotenoids that the body can convert into vitamin A, and vitamin C."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "Swiss chard provides magnesium, potassium, and iron."
+        },
+        {
+          "title": "Contains plant pigments",
+          "content": "Its colorful stalks contain betalains and flavonoids, which have antioxidant properties."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Swiss chard is low in calories and provides fiber and volume to meals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oxalates",
+          "content": "Swiss chard is high in oxalates, which can contribute to kidney stones in susceptible people and may reduce calcium and iron absorption."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Swiss chard contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Potassium and sodium",
+          "content": "Swiss chard is relatively high in potassium and naturally contains some sodium, which matters for people on restricted diets."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Raw leafy greens can carry bacteria, so wash them thoroughly before eating."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Swiss chard can be sautéed with garlic and olive oil, steamed, added to soups, stews, frittatas, and pasta, or used instead of cabbage leaves for stuffing. Chop the stalks and cook them a few minutes longer than the leaves. Young leaves can be eaten raw in salads."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unwashed Swiss chard in the refrigerator in a loosely closed bag or container, where it usually keeps for three to five days. Wash it right before use. It can also be blanched and frozen."
+    }
+  ]
+}

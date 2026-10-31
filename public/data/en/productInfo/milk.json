@@ -1,0 +1,75 @@
+{
+  "id": "milk",
+  "title": "Milk",
+  "image": "/products/milk.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Milk is a nutrient-rich liquid produced by mammals to feed their young and is a staple food in many cultures. Cow's milk is the most common, though milk from goats, sheep, buffalo, and camels is also consumed. It is drunk on its own, added to tea, coffee, and cereal, and used to make yogurt, cheese, butter, and many other dairy products."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Milk is typically pasteurized, a heat treatment named after Louis Pasteur that reduces harmful bacteria.",
+        "Milk is sold with different fat contents, such as skim, low-fat, and whole.",
+        "Most milk is homogenized so that the fat does not separate and rise to the top.",
+        "Milk is the base for yogurt, cheese, kefir, butter, and cottage cheese.",
+        "Many people worldwide lose some ability to digest lactose after childhood."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Milk is a well-known source of calcium, which supports healthy bones and teeth."
+        },
+        {
+          "title": "Provides high-quality protein",
+          "content": "Milk contains casein and whey proteins that include all essential amino acids."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Milk provides vitamin B12 and riboflavin (B2), which support energy metabolism."
+        },
+        {
+          "title": "Often fortified with vitamin D",
+          "content": "Many types of milk have added vitamin D, which supports calcium absorption."
+        },
+        {
+          "title": "Provides potassium and phosphorus",
+          "content": "These minerals support normal muscle and bone function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk allergy",
+          "content": "Cow's milk protein allergy is among the more common food allergies, especially in young children."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience bloating, gas, or diarrhea after drinking milk. Lactose-free milk is an alternative."
+        },
+        {
+          "title": "Raw milk",
+          "content": "Unpasteurized milk can carry harmful bacteria and is not recommended, especially for children, pregnant women, and older adults."
+        },
+        {
+          "title": "Infants and medication interactions",
+          "content": "Cow's milk should not replace breast milk or formula as the main drink for infants under one year. Calcium in milk can reduce the absorption of some medicines, such as certain antibiotics, so follow the instructions from your doctor or pharmacist."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Milk can be drunk on its own, warmed, or added to coffee, tea, porridge, cereal, and smoothies. It is used in cooking and baking, in soups and sauces, and in puddings and desserts. It can also be turned into yogurt and other fermented dairy products."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep milk refrigerated at or below about 4 °C (40 °F) and return it to the refrigerator soon after pouring. Use it by the date on the package and within a few days after opening, and do not use milk that smells or tastes sour. Unopened ultra-pasteurized (UHT) milk can be stored at room temperature until opened. Freezing may change the texture."
+    }
+  ]
+}

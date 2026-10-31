@@ -1,0 +1,75 @@
+{
+  "id": "lean-beef",
+  "title": "Lean Beef",
+  "image": "/products/lean-beef.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lean beef refers to cuts of beef that are lower in fat, such as sirloin, round, tenderloin, flank steak, and lean ground beef. It is a widely eaten red meat valued for its savory flavor and rich supply of protein and minerals. Lean cuts are cooked by grilling, roasting, pan-searing, stewing, or slow cooking."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lean beef cuts typically come from muscles that work harder, such as the round and sirloin, and contain less marbling.",
+        "Fat adds juiciness, so lean cuts can become dry if overcooked.",
+        "Ground beef is usually labeled with its lean-to-fat ratio, such as 90/10.",
+        "Marinating or slow cooking helps keep lean cuts tender.",
+        "Beef is among the most widely eaten meats in the world."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High-quality protein",
+          "content": "Beef provides complete protein, supporting muscle maintenance and repair."
+        },
+        {
+          "title": "Rich in heme iron",
+          "content": "Beef contains heme iron, which the body absorbs more readily than iron from plants."
+        },
+        {
+          "title": "Provides zinc",
+          "content": "Zinc supports immune function and wound healing."
+        },
+        {
+          "title": "Rich in vitamin B12",
+          "content": "Vitamin B12 supports red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Contains B vitamins and selenium",
+          "content": "Beef provides niacin, vitamin B6, and selenium."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Red meat consumption",
+          "content": "Health organizations generally suggest limiting red meat, especially processed meat, because high intakes are linked to some health risks."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked beef, especially ground beef, can carry harmful bacteria. Cook ground beef to about 71 °C (160 °F) and steaks and roasts to at least about 63 °C (145 °F), then let them rest."
+        },
+        {
+          "title": "High-heat cooking",
+          "content": "Charring or cooking meat at very high temperatures can form compounds that are best limited."
+        },
+        {
+          "title": "Iron and purines",
+          "content": "People with iron overload conditions or gout should ask a healthcare professional about the amount of beef that is suitable."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Lean beef can be grilled, roasted, pan-seared, stir-fried, or slowly cooked in stews and braises. Slice steaks against the grain and avoid overcooking. Serve beef with vegetables and whole grains for a balanced meal."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep raw beef in the coldest part of the refrigerator, steaks and roasts for three to five days and ground beef for one to two days. Freeze for longer storage and thaw in the refrigerator. Store raw beef away from other foods and cooked beef in an airtight container for three to four days."
+    }
+  ]
+}
