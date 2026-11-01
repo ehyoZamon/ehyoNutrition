@@ -1,0 +1,75 @@
+{
+  "id": "okra",
+  "title": "Okra",
+  "image": "/products/okra.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Okra (Abelmoschus esculentus), also called lady's fingers or bhindi, is a green, ridged, tapering seed pod native to Africa and South Asia. It has a mild, grassy flavor and releases a sticky, gel-like substance called mucilage when cut and cooked. Okra is used in stews, gumbo, curries, stir-fries, and pickles, and is also fried or roasted."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Okra belongs to the mallow family, along with hibiscus and cotton.",
+        "Its slimy mucilage thickens soups and stews, such as gumbo.",
+        "Okra is eaten widely in Africa, South Asia, the Middle East, and the southern United States.",
+        "Cooking it quickly at high heat or with acidic ingredients reduces sliminess.",
+        "Okra seeds can be roasted and used as a coffee substitute."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Okra is a good source of fiber, including mucilage, which supports digestion."
+        },
+        {
+          "title": "Provides vitamin C and vitamin K",
+          "content": "These vitamins support the immune system and blood clotting."
+        },
+        {
+          "title": "Provides folate and magnesium",
+          "content": "These nutrients support cell function and muscle function."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Okra contains polyphenols and flavonoids with antioxidant properties."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Okra is low in calories and filling."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oxalates",
+          "content": "Okra contains oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Okra contains vitamin K, so people taking blood thinners should consult a healthcare professional about keeping their intake consistent. People taking metformin should ask a healthcare professional about large amounts of okra."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Okra contains fructans that may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Okra allergy is uncommon but can occur, and handling raw pods may irritate the skin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Okra can be sliced and added to stews, gumbo, curries, and stir-fries, or roasted, grilled, pickled, or breaded and fried. To reduce sliminess, cook it whole or at high heat, or add an acid such as tomato or lemon. Small, young pods are the most tender."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh, dry okra in the refrigerator in a paper bag, where it keeps for two to three days. Avoid washing it until use, as moisture speeds spoilage. Okra can be blanched and frozen for longer storage."
+    }
+  ]
+}

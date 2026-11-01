@@ -1,0 +1,75 @@
+{
+  "id": "mango",
+  "title": "Mango",
+  "image": "/products/mango.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mango (Mangifera indica) is a tropical stone fruit native to South Asia, with sweet, juicy, golden-orange flesh and a large flat pit. It has green, yellow, orange, or red skin depending on the variety and ripeness. Mangoes are eaten fresh and used in smoothies, salads, chutneys, desserts, and savory dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Mangoes have been cultivated in South Asia for thousands of years.",
+        "Mango is the national fruit of India and a widely loved fruit in tropical regions around the world.",
+        "Mangoes are related to cashews and pistachios.",
+        "Hundreds of mango varieties exist, with differing flavors and textures.",
+        "The skin and sap of mango contain urushiol, the compound also found in poison ivy."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Mango provides vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides vitamin A",
+          "content": "Mango contains carotenoids that the body can convert into vitamin A."
+        },
+        {
+          "title": "Contains folate and vitamin B6",
+          "content": "These nutrients support cell function and metabolism."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Mango contributes fiber that supports digestion."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Mango contains plant compounds such as mangiferin with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Natural sugar content",
+          "content": "Mango is naturally sweet, so portions matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Skin and sap reactions",
+          "content": "People who are sensitive to poison ivy may develop a rash from contact with mango skin or sap."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may be allergic to mango."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating a lot of mango, or unripe mango, may cause stomach upset in some people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mango can be peeled, sliced, or cubed and eaten fresh, blended into smoothies and lassi, added to salads and salsas, or cooked into chutneys and desserts. Unripe green mango is used in savory dishes and pickles. A ripe mango smells fruity near the stem and yields slightly to pressure."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unripe mangoes at room temperature until they soften and smell sweet. Ripe mangoes can be refrigerated for a few days. Cut mango should be stored in an airtight container in the refrigerator or frozen in chunks."
+    }
+  ]
+}

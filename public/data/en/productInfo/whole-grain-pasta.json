@@ -1,0 +1,75 @@
+{
+  "id": "whole-grain-pasta",
+  "title": "Whole Grain Pasta",
+  "image": "/products/whole-grain-pasta.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Whole grain pasta is pasta made from whole wheat flour or other whole grains, so it keeps the bran and germ. It has a chewier texture, a nuttier flavor, and a darker color than regular pasta. Whole grain pasta is cooked and served like regular pasta in a wide range of dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Whole grain pasta is made with flour that includes the bran, germ, and endosperm of the grain.",
+        "It has a chewier texture and a nuttier flavor than pasta made from refined flour.",
+        "Whole grain pasta also comes in versions made from other grains, such as spelt, brown rice, and whole oats, and blends.",
+        "Pasta is traditionally made from durum wheat, which is high in protein.",
+        "Cooking pasta al dente, which means firm to the bite, keeps its texture and lowers its glycemic effect."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Whole grain pasta contains more fiber than regular pasta, which supports digestion and fullness."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Whole grain pasta contains manganese, magnesium, selenium, and phosphorus."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Whole grain pasta provides niacin and thiamin, which support energy metabolism."
+        },
+        {
+          "title": "Slower-digesting carbohydrates",
+          "content": "Whole grain pasta cooked al dente raises blood sugar more slowly."
+        },
+        {
+          "title": "Provides plant protein",
+          "content": "Pasta provides protein, especially when made from durum wheat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten and wheat allergy",
+          "content": "Whole grain pasta made from wheat contains gluten and should be avoided by people with celiac disease, gluten sensitivity, or wheat allergy."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "The higher fiber content may cause gas or bloating in some people, especially if increased quickly."
+        },
+        {
+          "title": "Portion size and sauces",
+          "content": "Pasta can be high in calories, especially with creamy or oily sauces, so portion size matters."
+        },
+        {
+          "title": "Texture and taste",
+          "content": "Some people find whole grain pasta tougher or slightly bitter, and it can turn mushy if overcooked."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Whole grain pasta can be boiled in plenty of salted water until al dente and served with tomato sauce, vegetables, legumes, fish, or olive oil and garlic. It works well in pasta salads and baked dishes. Pair it with vegetables and protein, and choose bolder sauces that suit its nutty flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry whole grain pasta in an airtight container in a cool, dry place. Because it contains the germ with its natural oils, it can keep for a shorter time than regular pasta, so use it by the date on the package. Cooked pasta should be refrigerated in an airtight container and eaten within three to five days."
+    }
+  ]
+}

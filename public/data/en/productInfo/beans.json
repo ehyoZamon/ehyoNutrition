@@ -1,0 +1,75 @@
+{
+  "id": "beans",
+  "title": "Beans",
+  "image": "/products/beans.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beans are the seeds of plants in the genus Phaseolus (most often Phaseolus vulgaris) that grow in pods. They are native to the Americas and are now grown all over the world. There are many varieties, including white, red, black, and speckled beans, as well as green beans. Beans have a mild, earthy flavor and a creamy texture when cooked."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The common bean was domesticated in the Americas thousands of years ago.",
+        "White, red, black, and speckled beans often belong to the same species, Phaseolus vulgaris.",
+        "Green beans are eaten together with their pods, while mature dried beans are eaten only after long cooking.",
+        "Beans are a staple of traditional cuisines in Latin America, Europe, Asia, and Africa.",
+        "Dried beans can be stored for a very long time, but they take longer to cook as they age."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Beans provide protein and are often used in plant-based diets in place of meat."
+        },
+        {
+          "title": "Rich in fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contains folate",
+          "content": "Folate is important for cell formation and especially needed when planning a pregnancy."
+        },
+        {
+          "title": "Contains iron, magnesium, and potassium",
+          "content": "These minerals support oxygen transport and normal muscle and nerve function."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "Thanks to protein and fiber, the carbohydrates in beans are absorbed more slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Raw beans are toxic",
+          "content": "Raw or undercooked beans, especially red kidney beans, contain lectins that can cause severe stomach upset."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "Beans can cause gas; soaking them and introducing them gradually can help."
+        },
+        {
+          "title": "Salt in canned beans",
+          "content": "Canned beans can be high in salt; rinsing them helps."
+        },
+        {
+          "title": "Allergy",
+          "content": "Beans are legumes, and allergic reactions are possible, including cross-reactions with other legumes."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Soak dried beans for 8–12 hours, drain, and cook until completely soft. Red kidney beans should first be boiled hard for at least 10 minutes and then simmered until tender. Cooked beans can be added to soups, salads, stews, purees, and fillings. Canned beans are best rinsed before use."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried beans in an airtight container in a cool, dry, dark place. Keep cooked beans in the refrigerator for 3–5 days or freeze them. Store canned beans in a cool place, and after opening, transfer them to a covered container in the refrigerator."
+    }
+  ]
+}

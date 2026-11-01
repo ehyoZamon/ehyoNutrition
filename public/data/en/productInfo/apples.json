@@ -1,0 +1,75 @@
+{
+  "id": "apples",
+  "title": "Apples",
+  "image": "/products/apples.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Apples (Malus domestica) are round, crisp, juicy fruits that grow on apple trees, which originated in Central Asia. They come in thousands of varieties with skin in red, green, and yellow and flavors ranging from sweet to tart. Apples are eaten fresh and used in pies, sauces, juice, cider, and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Apples originated in the mountains of Central Asia and spread along trade routes around the world.",
+        "Thousands of apple varieties exist, but only a limited number are widely grown.",
+        "Apples are related to roses, pears, and peaches.",
+        "Apples float in water because about a quarter of their volume is air.",
+        "Apple trees need cross-pollination from another variety to produce fruit."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Apples contain fiber, including pectin, which supports normal digestion."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Apples contain flavonoids such as quercetin, mostly in the skin, which have antioxidant properties."
+        },
+        {
+          "title": "Provides vitamin C and potassium",
+          "content": "These nutrients support the immune system and normal blood pressure."
+        },
+        {
+          "title": "Hydrating and filling",
+          "content": "Apples have high water content and help you feel full."
+        },
+        {
+          "title": "Convenient snack",
+          "content": "Apples are portable and easy to eat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those allergic to birch pollen, may experience itching or tingling in the mouth after eating raw apples."
+        },
+        {
+          "title": "Seeds",
+          "content": "Apple seeds contain a compound that can release cyanide when crushed. Swallowing a few whole seeds is generally harmless, but avoid chewing large amounts."
+        },
+        {
+          "title": "Acid and sugar",
+          "content": "Frequent consumption of apple juice or acidic fruit can affect tooth enamel, and juice provides sugar without the fiber of whole fruit."
+        },
+        {
+          "title": "Pesticide residues and digestion",
+          "content": "Wash apples before eating. Some people may experience bloating from the natural sugars and fiber."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Apples can be eaten fresh with the skin on, sliced into salads, paired with cheese or nut butter, baked, stewed, or made into applesauce and pies. Eating the whole apple, including the skin, provides the most fiber. Sprinkling cut apples with lemon juice slows browning."
+    },
+    {
+      "title": "Storage",
+      "content": "Store apples in the refrigerator crisper drawer, where they keep for several weeks, away from other produce because apples release ethylene gas that speeds ripening. Remove any bruised apples. Cut apples can be stored in an airtight container for a day or two."
+    }
+  ]
+}

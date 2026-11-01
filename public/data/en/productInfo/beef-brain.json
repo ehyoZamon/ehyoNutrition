@@ -1,0 +1,75 @@
+{
+  "id": "beef-brain",
+  "title": "Beef Brain",
+  "image": "/products/beef-brain.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef brain is an organ meat from cattle, with a very soft, creamy, delicate texture and a mild flavor when cooked. It has traditionally been eaten in various cuisines, such as in fried, scrambled, and simmered dishes. Because of safety rules related to prion disease, its sale and use are restricted or banned in many countries."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beef brain has a very soft, custard-like texture when cooked.",
+        "It is part of traditional cuisines in Latin America, the Middle East, South Asia, and parts of Europe.",
+        "Brain tissue is very high in fat and cholesterol.",
+        "In many countries, cattle brain is classified as specified risk material because of the risk of bovine spongiform encephalopathy (BSE), and its sale for human consumption is restricted or banned.",
+        "It cooks quickly and is usually soaked, cleaned, and blanched before further cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Beef brain provides protein."
+        },
+        {
+          "title": "Rich in vitamin B12",
+          "content": "Vitamin B12 supports red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Provides fats",
+          "content": "Brain contains fats, including some omega-3 fatty acids."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Brain contains phosphorus, copper, and selenium."
+        },
+        {
+          "title": "Traditional delicacy",
+          "content": "Beef brain is valued for its texture in several traditional cuisines."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Prion disease risk",
+          "content": "Cattle brain can carry the prions that cause BSE, which is linked to variant Creutzfeldt-Jakob disease in people. In many countries it is banned or tightly controlled, so only buy it from sources allowed by local regulations."
+        },
+        {
+          "title": "Very high in cholesterol",
+          "content": "Brain is among the foods highest in cholesterol, so people with certain health conditions should avoid it or ask a healthcare professional."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Brain spoils quickly and must be cooked thoroughly to at least about 71 °C (160 °F)."
+        },
+        {
+          "title": "Purines and fat",
+          "content": "Brain contains purines and a lot of fat, which matters for people with gout."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Beef brain is typically soaked in cold water, the membrane is removed, and it is blanched or simmered before being sliced and pan-fried, scrambled with eggs, breaded, or added to curries. Make sure it is cooked thoroughly. Buy it only from a licensed, regulated source and in places where it is legal."
+    },
+    {
+      "title": "Storage",
+      "content": "Beef brain is highly perishable. Keep it refrigerated and cook it within a day, or freeze it for longer storage. Cooked brain should be refrigerated in an airtight container and eaten within a day or two. Discard any brain that smells off."
+    }
+  ]
+}

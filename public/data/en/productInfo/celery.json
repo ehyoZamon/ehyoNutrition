@@ -1,0 +1,75 @@
+{
+  "id": "celery",
+  "title": "Celery",
+  "image": "/products/celery.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Celery (Apium graveolens) is a crisp, juicy vegetable with long, ribbed stalks and leafy tops, native to the Mediterranean and southern Europe. It has a fresh, slightly salty, herbal flavor and a crunchy texture. Celery is eaten raw as a snack, in salads, and juices, and cooked in soups, stews, and stocks as a basic flavoring."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Celery is about 95 percent water.",
+        "Celery is related to parsley, carrots, and fennel, and celeriac is a root variety of the same species.",
+        "Celery seeds are used as a spice and in celery salt.",
+        "Celery, onion, and carrot form the base of many classic soups and sauces.",
+        "Both celery stalks and leaves are edible."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Hydrating and low in calories",
+          "content": "Celery is mostly water and very low in calories."
+        },
+        {
+          "title": "Provides vitamin K",
+          "content": "Vitamin K supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Contains potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Contains plant compounds",
+          "content": "Celery contains flavonoids such as apigenin and luteolin with antioxidant properties."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Celery contributes fiber that supports digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Celery allergy",
+          "content": "Celery allergy can be serious, including in cooked celery and celery seed, and celery is a recognized major food allergen in many countries."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Celery contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Sun sensitivity",
+          "content": "Celery contains compounds that can make skin more sensitive to sunlight in rare cases."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Wash celery thoroughly, since conventionally grown celery may carry residues."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Celery can be eaten raw with dips, peanut butter, or hummus, chopped into salads, or blended into juices and smoothies. It is sautéed or simmered in soups, stews, stocks, stuffing, and braises. The leaves can be used as an herb."
+    },
+    {
+      "title": "Storage",
+      "content": "Store celery in the refrigerator, wrapped in foil or in a container with a little water, where it usually keeps for one to two weeks. Keep cut celery in an airtight container. Celery that is limp can sometimes be revived in cold water."
+    }
+  ]
+}

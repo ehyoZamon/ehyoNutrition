@@ -1,0 +1,75 @@
+{
+  "id": "cashews",
+  "title": "Cashews",
+  "image": "/products/cashews.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cashews are the kidney-shaped seeds of the cashew tree (Anacardium occidentale), native to northeastern Brazil and now grown in tropical regions around the world. The nut hangs below a fleshy cashew apple and has a creamy, buttery, mildly sweet flavor. Cashews are eaten as a snack and used in stir-fries, curries, sauces, desserts, and plant-based dairy alternatives."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The cashew nut grows outside the cashew apple, a fruit that is also edible but highly perishable.",
+        "Cashews are related to mangoes, pistachios, and poison ivy.",
+        "The shell contains a caustic oil that can irritate skin, so cashews are always sold shelled and processed.",
+        "Cashews are used to make creamy plant-based sauces, cheeses, and milks.",
+        "Major cashew producers include Vietnam, India, and countries in West Africa."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides healthy fats",
+          "content": "Cashews contain mostly unsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Provides magnesium and copper",
+          "content": "These minerals support muscle, nerve, and metabolic function."
+        },
+        {
+          "title": "Provides zinc and manganese",
+          "content": "These support immune function and normal metabolism."
+        },
+        {
+          "title": "Provides protein",
+          "content": "Cashews provide plant protein, which supports fullness."
+        },
+        {
+          "title": "Contains vitamin K and antioxidants",
+          "content": "Cashews provide vitamin K and plant compounds with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Cashew allergy is among the more common tree nut allergies and can be severe. People allergic to cashews may also react to pistachios."
+        },
+        {
+          "title": "High in calories",
+          "content": "Cashews are calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Added salt",
+          "content": "Roasted and salted cashews can contain a lot of sodium."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Cashews contain oxalates, which people prone to kidney stones may need to limit."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cashews can be eaten as a snack, added to stir-fries, curries, salads, granola, and baked goods, or blended into creamy sauces, dips, desserts, and plant-based milks. Soaking cashews softens them for blending. Choose unsalted cashews when possible."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cashews in an airtight container in a cool, dry, dark place, or in the refrigerator or freezer for longer storage, since their oils can turn rancid. Discard cashews that smell sharp or taste bitter."
+    }
+  ]
+}

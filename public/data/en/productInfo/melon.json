@@ -1,0 +1,75 @@
+{
+  "id": "melon",
+  "title": "Melon",
+  "image": "/products/melon.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Melon (Cucumis melo) is a sweet, juicy fruit that grows on a trailing vine, with varieties such as cantaloupe, honeydew, and galia. It has a rind that can be netted or smooth and flesh that ranges from pale green to orange. Melons have a fragrant aroma and a sweet taste and are eaten fresh in slices and cubes, in salads, and in drinks."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Melons are related to cucumbers, watermelons, and squash.",
+        "Cantaloupe has orange flesh and a netted rind, while honeydew has pale green flesh and a smooth rind.",
+        "A ripe melon often has a sweet, fragrant smell at the stem end.",
+        "Melons are about 90 percent water.",
+        "Melons have been cultivated for thousands of years in Africa and Asia."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Hydrating",
+          "content": "Melons are mostly water, making them refreshing."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Provides vitamin A",
+          "content": "Orange-fleshed melons such as cantaloupe contain carotenoids that the body can convert into vitamin A."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Melon is low in calories for its volume."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Food safety",
+          "content": "Bacteria such as Salmonella and Listeria can be present on melon rinds. Wash the rind before cutting and refrigerate cut melon."
+        },
+        {
+          "title": "Natural sugar content",
+          "content": "Melons contain natural sugars, so portions matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those with pollen allergies, may experience itching or tingling in the mouth."
+        },
+        {
+          "title": "Potassium considerations",
+          "content": "People with kidney problems or on certain medications should consult a healthcare professional about potassium intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Melon can be sliced or cubed and eaten fresh, added to fruit salads, wrapped in thin slices of cured ham, blended into juices and smoothies, or frozen into sorbets. Chill it before serving. Remove the seeds and rind before eating."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep uncut melons at room temperature until ripe, then refrigerate them. Wash the rind before cutting. Store cut melon in an airtight container in the refrigerator and eat it within three days. Discard melon that smells fermented or is slimy."
+    }
+  ]
+}

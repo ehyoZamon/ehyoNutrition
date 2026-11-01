@@ -1,0 +1,75 @@
+{
+  "id": "watermelon",
+  "title": "Watermelon",
+  "image": "/products/watermelon.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Watermelon (Citrullus lanatus) is a large, refreshing fruit native to Africa, with a thick green rind and sweet, juicy red or pink flesh. It contains a lot of water and has a crisp, sweet flavor. Watermelon is eaten fresh in slices and cubes, blended into juices and smoothies, and used in salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Watermelon is about 90 percent water.",
+        "Watermelons were cultivated in Africa for thousands of years before spreading around the world.",
+        "Botanically, watermelon is a fruit called a pepo, related to cucumbers, pumpkins, and melons.",
+        "Its red color comes from lycopene, the same pigment found in tomatoes.",
+        "The seeds, rind, and flesh are all edible, and the rind is sometimes pickled."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Very hydrating",
+          "content": "Watermelon is mostly water, making it refreshing in hot weather."
+        },
+        {
+          "title": "Contains lycopene",
+          "content": "Lycopene is an antioxidant pigment that helps protect cells against oxidative damage."
+        },
+        {
+          "title": "Provides vitamin C and vitamin A",
+          "content": "These vitamins support the immune system and skin."
+        },
+        {
+          "title": "Contains citrulline",
+          "content": "Watermelon is a natural source of citrulline, an amino acid that is being studied."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Watermelon is low in calories for its volume."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Natural sugar content",
+          "content": "Watermelon contains natural sugars, so portions matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating a lot of watermelon may cause bloating or loose stools in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those allergic to ragweed pollen, may experience itching or tingling in the mouth."
+        },
+        {
+          "title": "Food safety",
+          "content": "Wash the rind before cutting, because bacteria on the outside can be carried inward by the knife. Refrigerate cut watermelon."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Watermelon can be sliced or cubed and eaten fresh, blended into juices and smoothies, frozen into sorbets, or added to salads with feta, mint, or lime. The rind can be pickled or cooked. Chill it before serving for the best refreshing taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Whole watermelon can be kept at room temperature for a week or two and refrigerated once cut. Store cut watermelon in an airtight container in the refrigerator and eat it within three to five days. Discard watermelon that smells sour or has a slimy texture."
+    }
+  ]
+}

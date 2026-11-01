@@ -1,0 +1,75 @@
+{
+  "id": "green-onion",
+  "title": "Green Onion",
+  "image": "/products/green-onion.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Green onions, also called scallions or spring onions, are young onions harvested before the bulb has fully formed, with slender white bulbs and long, hollow green stalks. They have a fresh, mild onion flavor, sharper in the white part and gentler in the green part. Green onions are eaten raw and cooked and are used as a garnish and flavoring in many cuisines."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Green onions are related to onions, garlic, leeks, and chives.",
+        "Both the white and green parts are edible, with different flavors.",
+        "Green onions can regrow after cutting when the white root ends are placed in water or soil.",
+        "They are widely used in Asian, Middle Eastern, and Eastern European cooking.",
+        "Their flavor is milder than that of mature onions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides vitamin K",
+          "content": "Green onions are a good source of vitamin K, which supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Provides vitamin C and vitamin A",
+          "content": "Green onions contain vitamin C and carotenoids, mostly in the green tops."
+        },
+        {
+          "title": "Contains folate",
+          "content": "Folate supports normal cell function."
+        },
+        {
+          "title": "Contains plant compounds",
+          "content": "Green onions contain flavonoids such as quercetin and sulfur compounds with antioxidant properties."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Green onions add flavor with very few calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Digestive discomfort",
+          "content": "Green onions contain fructans, which may cause gas or bloating in sensitive individuals, including people who follow a low-FODMAP diet. The green tops are generally lower in fructans than the white bulbs."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Green onions contain vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Raw green onions have been linked to outbreaks of foodborne illness, so wash them thoroughly."
+        },
+        {
+          "title": "Toxic to pets and allergies",
+          "content": "Green onions are toxic to dogs and cats, and allergic reactions are possible."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Green onions can be chopped raw into salads, sandwiches, dips, soups, noodles, and fried rice, or grilled, sautéed, or added to omelets. Use the white parts for cooking and the green tops as a fresh garnish. Add them at the end of cooking to keep their flavor and color."
+    },
+    {
+      "title": "Storage",
+      "content": "Store green onions in the refrigerator in a bag lined with a damp paper towel or upright in a jar with a little water, where they keep for one to two weeks. Chopped green onions can be frozen. Discard green onions that are slimy or yellowed."
+    }
+  ]
+}

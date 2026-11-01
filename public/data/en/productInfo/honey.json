@@ -1,0 +1,75 @@
+{
+  "id": "honey",
+  "title": "Honey",
+  "image": "/products/honey.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Honey is a sweet, viscous liquid that bees make from flower nectar. It consists mostly of sugars (about 80%) and water. Its color, aroma, and flavor depend on the plants the nectar came from: it can be light acacia, fragrant linden, or dark buckwheat. Honey is eaten as a treat and added to tea, baked goods, dressings, and marinades."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bees visit millions of flowers to make a kilogram of honey.",
+        "Honey is about 80% sugars, mainly glucose and fructose.",
+        "Over time honey may crystallize, which is a natural process and not spoilage.",
+        "The color and flavor of honey depend on the plants: acacia, linden, buckwheat, sunflower, and others.",
+        "When stored properly, honey practically does not spoil."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Honey provides quick energy thanks to glucose and fructose."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Phenolic acids and flavonoids in honey have antioxidant properties; darker varieties usually have more."
+        },
+        {
+          "title": "May soothe a cough",
+          "content": "A spoonful of honey may help with a cough in adults and children over one year old."
+        },
+        {
+          "title": "Antibacterial properties",
+          "content": "Medical-grade honey is used in the care of some wounds, but these are special sterile products."
+        },
+        {
+          "title": "Adds flavor and sweetness",
+          "content": "Honey is sweeter than sugar, so a smaller amount may be enough for taste."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Not for infants under one year",
+          "content": "Honey should not be given to children under one year old because of the risk of infant botulism."
+        },
+        {
+          "title": "Sugar and calories",
+          "content": "Honey is mostly sugar: it is high in calories and can harm teeth, and people with diabetes need to count it in their diet."
+        },
+        {
+          "title": "Allergy",
+          "content": "In people allergic to pollen or bee products, honey can trigger a reaction."
+        },
+        {
+          "title": "Quality and counterfeits",
+          "content": "Honey is sometimes diluted with syrup, so it is better to buy from trusted producers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eat honey by the spoonful, or add it to warm tea, bread, porridge, yogurt, baked goods, dressings, and marinades. Do not put it in boiling water; wait until the drink cools slightly. Honey is added sugar, so keep the amount moderate."
+    },
+    {
+      "title": "Storage",
+      "content": "Store honey in a tightly closed jar at room temperature in a dry place away from direct light. In the refrigerator it crystallizes faster. Crystallized honey can be gently warmed in a water bath. If honey foams or smells sour, it may have fermented and is best discarded."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "quince",
+  "title": "Quince",
+  "image": "/products/quince.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Quince (Cydonia oblonga) is a fragrant, golden-yellow fruit related to apples and pears, native to the Caucasus and Iran region. It is very hard, tart, and astringent when raw, and becomes tender, sweet, and pink-orange when cooked. Quince is used in jams, jellies, pastes, compotes, stews, and baked dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Quince is related to apples and pears but is rarely eaten raw because of its hard, astringent flesh.",
+        "It has a strong, floral fragrance, and a ripe quince can scent a whole room.",
+        "The word marmalade comes from marmelo, the Portuguese word for quince.",
+        "Quince is very high in pectin, which is why it sets jams and jellies well.",
+        "Quince is used in both sweet and savory dishes, such as stews with meat in Middle Eastern and Central Asian cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Quince is a good source of fiber, including pectin, which supports digestion."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Quince contains polyphenols with antioxidant properties."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Quince is relatively low in calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Astringency when raw",
+          "content": "Raw quince is hard and astringent because of tannins and may cause stomach upset or constipation in large amounts. It is best cooked."
+        },
+        {
+          "title": "Seeds",
+          "content": "Quince seeds contain compounds that can release cyanide when crushed, so remove and discard them."
+        },
+        {
+          "title": "Iron absorption",
+          "content": "Tannins may reduce the absorption of iron from other foods eaten at the same time."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Quince allergy is uncommon but can occur. Rub off the fuzz on the skin before use."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Quince is usually peeled, cored, and cooked by baking, poaching, stewing, or simmering into jams, jellies, and pastes such as membrillo. It can be added to meat stews, pilafs, and baked goods. Cooking turns the flesh tender, sweet, and pink or red."
+    },
+    {
+      "title": "Storage",
+      "content": "Store quince at room temperature for a few weeks to enjoy its fragrance, or in the refrigerator for a couple of months. Keep it separate from other fruit, since its strong aroma can transfer. Cooked quince should be refrigerated in an airtight container and eaten within about a week."
+    }
+  ]
+}

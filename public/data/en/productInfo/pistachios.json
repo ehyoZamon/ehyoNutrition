@@ -1,0 +1,75 @@
+{
+  "id": "pistachios",
+  "title": "Pistachios",
+  "image": "/products/pistachios.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pistachios are the edible seeds of the pistachio tree (Pistacia vera), native to Central and Western Asia. They are enclosed in a hard, beige shell that splits open naturally when the nut ripens, revealing a green kernel. Pistachios have a mildly sweet, buttery flavor and are eaten as a snack and used in desserts, baked goods, ice cream, and savory dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Pistachios belong to the same plant family as cashews and mangoes.",
+        "The shell splits open naturally as the nut matures, and the opening is why pistachios are sometimes called smiling nuts.",
+        "Pistachios have been eaten for thousands of years in Central Asia and the Middle East.",
+        "Iran, the United States, and Turkey are among the major pistachio producers.",
+        "The green color of the kernel comes from chlorophyll and other plant pigments."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Pistachios provide protein, which supports muscle maintenance and fullness."
+        },
+        {
+          "title": "Provides healthy fats",
+          "content": "Pistachios contain mostly unsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Provides fiber",
+          "content": "Pistachios contribute fiber, which supports normal digestion."
+        },
+        {
+          "title": "Contains vitamin B6, thiamin, and potassium",
+          "content": "These nutrients support energy metabolism and normal blood pressure."
+        },
+        {
+          "title": "Contains lutein and zeaxanthin",
+          "content": "These plant pigments are associated with eye health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Pistachios can cause allergic reactions, which may be severe. People allergic to cashews may also react to pistachios."
+        },
+        {
+          "title": "High in calories",
+          "content": "Pistachios are calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Added salt",
+          "content": "Roasted and salted pistachios can contain a lot of sodium."
+        },
+        {
+          "title": "Mold and choking",
+          "content": "Moldy nuts can contain harmful toxins and should be discarded, and whole nuts are not suitable for young children because of choking risk."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pistachios can be eaten as a snack straight from the shell, added to salads, yogurt, oatmeal, and baked goods, or ground into pesto, crusts, and desserts. Shelling the nuts yourself can help slow down eating. Choose unsalted or lightly salted nuts when possible."
+    },
+    {
+      "title": "Storage",
+      "content": "Store pistachios in an airtight container in a cool, dry place, or in the refrigerator or freezer for longer storage. Keep shelled nuts away from moisture and strong odors. Discard nuts that smell rancid, taste bitter, or look moldy."
+    }
+  ]
+}

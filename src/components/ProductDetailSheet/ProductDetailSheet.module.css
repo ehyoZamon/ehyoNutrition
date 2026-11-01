@@ -217,9 +217,9 @@
 
 .closeButtonWrap {
   width: 100%;
-  max-width: clamp(300px, 90vw, 500px);
   margin: 0 auto;
   flex-shrink: 0;
+  padding: 0 24px;
 }
 
 .buttonsRow {

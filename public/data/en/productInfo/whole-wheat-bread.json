@@ -1,0 +1,75 @@
+{
+  "id": "whole-wheat-bread",
+  "title": "Whole Wheat Bread",
+  "image": "/products/whole-wheat-bread.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Whole wheat bread is bread made from flour that contains all parts of the wheat kernel: the bran, the germ, and the endosperm. It is darker, denser, and nuttier in flavor than white bread. Whole wheat bread is eaten as sandwiches, toast, and alongside meals, and it is a common source of whole grains in the diet."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Whole wheat flour keeps the bran and germ that are removed when white flour is made.",
+        "Bread labeled simply as wheat bread is not always whole grain, so check that whole wheat flour is the first ingredient.",
+        "Whole wheat bread is usually denser and has a stronger, nuttier flavor than white bread.",
+        "Whole grains such as whole wheat have been a staple food for thousands of years.",
+        "Sourdough fermentation can also be used to make whole wheat bread."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Whole wheat bread contains more fiber than white bread, which supports digestion and fullness."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Whole wheat bread provides niacin, thiamin, and folate, which support energy metabolism."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Whole wheat bread contains magnesium, selenium, iron, and zinc."
+        },
+        {
+          "title": "Slower-digesting carbohydrates",
+          "content": "Whole grain bread generally raises blood sugar more slowly than white bread."
+        },
+        {
+          "title": "Part of a whole-grain diet",
+          "content": "Eating whole grains is associated with better overall diet quality."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten and wheat allergy",
+          "content": "Whole wheat bread contains gluten and should be avoided by people with celiac disease, gluten sensitivity, or wheat allergy."
+        },
+        {
+          "title": "Sodium and added sugar",
+          "content": "Some commercial breads contain a lot of salt and added sugar, so check labels."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Fiber and fructans in wheat may cause gas or bloating in sensitive individuals, including people with irritable bowel syndrome."
+        },
+        {
+          "title": "Misleading labels",
+          "content": "Some breads are colored to look whole wheat but are made mostly from refined flour. Look for whole wheat flour as the first ingredient."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Whole wheat bread can be eaten as toast, sandwiches, bruschetta, or with soups, salads, and spreads. Pair it with protein and vegetables for a balanced meal. Choose breads with whole wheat flour as the first ingredient and lower sodium and sugar."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole wheat bread at room temperature in a bread box or a closed bag for two to four days. For longer storage, slice and freeze it, then toast slices straight from the freezer. Refrigeration can dry it out faster. Discard bread that shows any mold."
+    }
+  ]
+}

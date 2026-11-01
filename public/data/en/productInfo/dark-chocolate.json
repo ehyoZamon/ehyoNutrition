@@ -1,0 +1,75 @@
+{
+  "id": "dark-chocolate",
+  "title": "Dark Chocolate",
+  "image": "/products/dark-chocolate.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Dark chocolate is chocolate with a high cocoa content (usually from 50% to 90% or more), made from the cocoa beans of the Theobroma cacao tree. It has less sugar and no milk, so its taste is more bitter and intense than milk chocolate. Dark chocolate is eaten as a treat and used in desserts, baking, and hot chocolate."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The genus name Theobroma is translated from Greek as \"food of the gods.\"",
+        "Cocoa beans are the seeds of the cacao tree's fruits.",
+        "Cocoa butter melts at a temperature close to body temperature, which is why chocolate melts in the mouth.",
+        "The Aztecs and Maya drank a bitter beverage made from cocoa.",
+        "Chocolate contains theobromine, which is toxic to dogs, so they should not be given any."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains flavanols",
+          "content": "Cocoa flavanols are antioxidants linked to blood vessel health."
+        },
+        {
+          "title": "Contains magnesium and iron",
+          "content": "These minerals support muscle and nerve function and oxygen transport."
+        },
+        {
+          "title": "Contains fiber",
+          "content": "Chocolate with a high cocoa content provides some fiber."
+        },
+        {
+          "title": "Less sugar than milk chocolate",
+          "content": "The higher the cocoa share, the less sugar there usually is."
+        },
+        {
+          "title": "May lift mood",
+          "content": "Chocolate contains compounds that may affect how you feel, and its taste is a pleasure."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Calories and sugar",
+          "content": "Even dark chocolate is high in calories and fat, and some bars contain quite a bit of sugar, so portions should be small."
+        },
+        {
+          "title": "Caffeine and theobromine",
+          "content": "These compounds can cause insomnia, anxiety, and a racing heartbeat, especially in the evening."
+        },
+        {
+          "title": "Heavy metals",
+          "content": "Cadmium and lead have been found in some chocolate samples, so it is best not to eat it in large amounts every day."
+        },
+        {
+          "title": "Allergens and migraine",
+          "content": "Chocolate may contain traces of milk and nuts, and in some people it triggers migraines."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Dark chocolate is best eaten in small pieces, for example one or two squares, to make the pleasure last. Add it to desserts, baked goods, smoothies, and hot chocolate. Check the ingredients: good chocolate contains cocoa butter rather than substitutes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store chocolate in a cool, dark, dry place in a sealed package, away from strong-smelling foods. The refrigerator is only needed in hot weather: temperature swings can cause a whitish bloom, which is harmless but unattractive. Discard chocolate that smells off or is moldy."
+    }
+  ]
+}

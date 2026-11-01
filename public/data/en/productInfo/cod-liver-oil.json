@@ -5,36 +5,40 @@
   "content": [
     {
       "title": "About",
-      "content": "Cod liver oil is a dietary supplement derived from the liver of cod fish (Gadus species). Unlike standard fish oils extracted from body tissues, cod liver oil is uniquely high in preformed vitamin A and vitamin D alongside long-chain omega-3 fatty acids EPA and DHA."
+      "content": "Cod liver oil is a nutritional oil extracted from the livers of cod fish. It has long been taken as a supplement in Northern Europe and elsewhere and is a natural source of omega-3 fatty acids and the fat-soluble vitamins A and D. It is sold as a liquid and in capsules, sometimes flavored to reduce its fishy taste."
     },
     {
       "title": "Interesting Facts",
       "items": [
-        "It has been used for centuries in Scandinavian countries to preserve health during dark winters.",
-        "Contains preformed vitamin D3, crucial for bone density and immune function.",
-        "Historical standard prevention method against childhood rickets.",
-        "Unique dual profile of essential vitamins (A & D) combined with marine omega-3s.",
-        "Modern processing removes heavy metals and environmental toxins."
+        "Cod liver oil has been used for centuries, traditionally to help prevent rickets in children.",
+        "Unlike most fish oils, which come from the flesh of fish, cod liver oil comes from the liver.",
+        "It provides EPA and DHA omega-3 fatty acids along with vitamin A and vitamin D.",
+        "Liquid cod liver oil has a strong fishy taste, so flavored versions and capsules are common.",
+        "Cod liver oil is a dietary supplement, so the amount of nutrients varies by product."
       ]
     },
     {
       "title": "Potential Health Benefits",
       "items": [
         {
-          "title": "Bone & Immune Support",
-          "content": "Vitamin D aids calcium absorption and immune system readiness."
+          "title": "Source of omega-3 fatty acids",
+          "content": "EPA and DHA support normal heart and brain function."
         },
         {
-          "title": "Vision & Skin Health",
-          "content": "Vitamin A maintains healthy skin tissue and nocturnal vision."
+          "title": "Provides vitamin D",
+          "content": "Vitamin D supports calcium absorption and normal bone and muscle function."
         },
         {
-          "title": "Cardiovascular Health",
-          "content": "EPA and DHA support healthy triglyceride levels and arterial function."
+          "title": "Provides vitamin A",
+          "content": "Vitamin A supports vision, skin, and immune function."
         },
         {
-          "title": "Anti-Inflammatory",
-          "content": "Omega-3s help reduce systemic inflammation throughout the body."
+          "title": "Traditional supplement",
+          "content": "It is often used as a way to get vitamin D and omega-3 when the diet is low in fish and sun exposure is limited."
+        },
+        {
+          "title": "Available in different forms",
+          "content": "It is sold as liquid, capsules, and flavored products."
         }
       ]
     },
@@ -42,22 +46,30 @@
       "title": "Potential Risks and Precautions",
       "items": [
         {
-          "title": "Vitamin A Toxicity Risk",
-          "content": "Excessive doses can lead to hypervitaminosis A; pregnant women should follow strict dosage guidance."
+          "title": "Too much vitamin A",
+          "content": "Cod liver oil is high in vitamin A. Excess vitamin A can be harmful, especially during pregnancy, so do not combine it with other vitamin A supplements and follow your doctor's advice."
         },
         {
-          "title": "Blood Thinning Effect",
-          "content": "High omega-3 doses may increase bleeding risk when taken with blood thinners."
+          "title": "Too much vitamin D",
+          "content": "Excess vitamin D can raise calcium levels in the blood. Follow the label and your healthcare professional's advice."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "High doses of omega-3 and vitamin A or D may interact with medications such as blood thinners. People taking prescription drugs should consult a healthcare professional."
+        },
+        {
+          "title": "Side effects and allergies",
+          "content": "Cod liver oil may cause fishy burps, heartburn, or nausea. It should be avoided by people allergic to fish."
         }
       ]
     },
     {
       "title": "How to Eat",
-      "content": "Take as a liquid spoon dose or softgel capsule with a meal containing fats to optimize vitamin absorption."
+      "content": "Cod liver oil is taken as a liquid or in capsules, usually with a meal to reduce stomach upset. Follow the dose on the label or the advice of a healthcare professional, and ask a doctor or pharmacist before giving it to children. Flavored liquids or capsules can help with the taste."
     },
     {
       "title": "Storage",
-      "content": "Refrigerate liquid cod liver oil immediately after opening and consume within 2-3 months to maintain freshness."
+      "content": "Store cod liver oil in a tightly closed bottle in a cool, dark place, and refrigerate it after opening if the label says so. Keep it away from heat and light. Check the expiration date and discard oil that smells rancid."
     }
   ]
 }

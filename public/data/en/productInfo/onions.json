@@ -5,36 +5,40 @@
   "content": [
     {
       "title": "About",
-      "content": "Onion (Allium cepa) is a widely cultivated vegetable bulb used globally as a fundamental aromatic building block in culinary traditions. Available in yellow, red, and white varieties, onions offer a spectrum of flavors from sweet and mild to sharp and pungent."
+      "content": "Onions (Allium cepa) are bulb vegetables made of concentric layers, native to Central Asia and cultivated for thousands of years. They come in yellow, white, red, and sweet varieties and have a pungent, sharp flavor when raw that turns sweet and mellow when cooked. Onions are a foundation of cooking in nearly every cuisine."
     },
     {
       "title": "Interesting Facts",
       "items": [
-        "Onions release lachrymatory factor gas when cut, which stimulates eye tear glands.",
-        "Yellow onions account for the majority of commercial production worldwide.",
-        "Caramelizing onions low and slow converts harsh sulfur compounds into rich sugars.",
-        "Ancient Egyptians worshipped onions, viewing their concentric rings as a symbol of eternal life.",
-        "Onions are rich in quercetin, a versatile antioxidant bioflavonoid."
+        "Onions are related to garlic, leeks, shallots, and chives.",
+        "Cutting an onion releases a sulfur compound that irritates the eyes and causes tearing.",
+        "Red onions get their color from anthocyanins.",
+        "Onions are among the most widely used vegetables in the world.",
+        "Chilling an onion or using a sharp knife can reduce tearing."
       ]
     },
     {
       "title": "Potential Health Benefits",
       "items": [
         {
-          "title": "Rich in Quercetin",
-          "content": "A potent antioxidant bioflavonoid that supports cardiovascular health."
+          "title": "Contains quercetin",
+          "content": "Onions are a source of quercetin, a flavonoid with antioxidant properties."
         },
         {
-          "title": "Prebiotic Fiber",
-          "content": "Contains inulin and fructooligosaccharides that feed beneficial gut microbes."
+          "title": "Provides vitamin C and vitamin B6",
+          "content": "These nutrients support the immune system and metabolism."
         },
         {
-          "title": "Antibacterial Action",
-          "content": "Sulfur compounds demonstrate natural antimicrobial properties."
+          "title": "Contains prebiotic fibers",
+          "content": "Onions contain inulin and fructooligosaccharides, which feed beneficial gut bacteria."
         },
         {
-          "title": "Bone Density Support",
-          "content": "Regular consumption has been associated with improved bone mineral density in studies."
+          "title": "Contains sulfur compounds",
+          "content": "These plant compounds are being studied for their biological activity."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Onions add a lot of flavor with few calories."
         }
       ]
     },
@@ -42,22 +46,30 @@
       "title": "Potential Risks and Precautions",
       "items": [
         {
-          "title": "FODMAP Sensitivity",
-          "content": "High in fructans, which may cause gas, bloating, and IBS symptoms in sensitive individuals."
+          "title": "Digestive discomfort",
+          "content": "Onions contain fructans, which may cause gas, bloating, or heartburn in sensitive individuals, including people who follow low-FODMAP diets."
         },
         {
-          "title": "Acid Reflux",
-          "content": "Raw onions can trigger heartburn or acid reflux symptoms."
+          "title": "Allergic reactions and irritation",
+          "content": "Some people may be allergic to onions or experience irritation from handling them."
+        },
+        {
+          "title": "Breath odor",
+          "content": "Raw onion can cause lingering breath odor."
+        },
+        {
+          "title": "Toxic to pets",
+          "content": "Onions are toxic to dogs and cats, so keep them out of reach of pets."
         }
       ]
     },
     {
       "title": "How to Eat",
-      "content": "Dice raw for salsas and salads, caramelize slowly for soups and burgers, or roast whole as a flavorful side dish."
+      "content": "Onions can be eaten raw in salads and sandwiches, or sautéed, caramelized, roasted, grilled, pickled, or added to soups, stews, sauces, and stir-fries. Soaking sliced raw onion in cold water can mellow its sharpness. Caramelizing slowly brings out natural sweetness."
     },
     {
       "title": "Storage",
-      "content": "Keep unpeeled onions in a cool, dry, dark, well-ventilated space separated from potatoes. Refrigerate cut onions in a sealed container."
+      "content": "Store whole onions in a cool, dry, dark, well-ventilated place, away from potatoes, where they keep for weeks to months. Wrap cut onions tightly and refrigerate them for about a week. Discard onions that are soft, moldy, or have a bad smell."
     }
   ]
 }

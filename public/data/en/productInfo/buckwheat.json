@@ -1,0 +1,75 @@
+{
+  "id": "buckwheat",
+  "title": "Buckwheat",
+  "image": "/products/buckwheat.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Buckwheat is a groat made from the seeds of the common buckwheat plant (Fagopyrum esculentum). Despite its name, it is not a grain and is not related to wheat: it belongs to the knotweed family, like sorrel and rhubarb. Buckwheat has a nutty, slightly earthy flavor. It is cooked as porridge or a side dish, added to soups and salads, and its flour is used for pancakes and noodles."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Buckwheat is a pseudocereal: its seeds are used like a grain, but the plant is not a cereal.",
+        "Buckwheat is naturally gluten-free, but it may be contaminated with gluten during processing.",
+        "Roasted buckwheat is dark and aromatic, while green (unroasted) buckwheat is paler and milder.",
+        "Buckwheat flour is used to make pancakes, galettes, and Japanese soba noodles.",
+        "Bees make dark, aromatic honey from buckwheat nectar."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Buckwheat contains protein with a good amino acid profile, including lysine, which is low in many grains."
+        },
+        {
+          "title": "Contains fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contains magnesium, copper, and manganese",
+          "content": "These minerals support muscle and nerve function and metabolism."
+        },
+        {
+          "title": "Contains rutin",
+          "content": "Rutin is a flavonoid with antioxidant properties."
+        },
+        {
+          "title": "Suitable for gluten-free diets",
+          "content": "Pure buckwheat without cross-contamination can be part of a gluten-free diet when properly labeled."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Buckwheat allergy can be severe and is sometimes linked with latex allergy."
+        },
+        {
+          "title": "Gluten contamination",
+          "content": "People with celiac disease should choose buckwheat labeled gluten-free because of possible cross-contamination."
+        },
+        {
+          "title": "High in fiber",
+          "content": "A sudden increase in fiber intake can cause bloating and discomfort."
+        },
+        {
+          "title": "Carbohydrates",
+          "content": "Buckwheat contains carbohydrates, so people with diabetes should keep an eye on portion size."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse buckwheat, add water in a ratio of about 1 to 2, bring to a boil, reduce the heat, and cook covered for 15–20 minutes, then let it stand. Serve it as a side dish or add it to soups, salads, fillings, and patties. Green buckwheat can be soaked and sprouted."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry groats in an airtight container in a cool, dry, dark place. Buckwheat flour spoils faster, so keep it in the refrigerator. Store cooked buckwheat in the refrigerator for 3–4 days."
+    }
+  ]
+}

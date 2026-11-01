@@ -1,0 +1,75 @@
+{
+  "id": "cauliflower",
+  "title": "Cauliflower",
+  "image": "/products/cauliflower.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cauliflower (Brassica oleracea var. botrytis) is a cruciferous vegetable with a dense head of tightly packed, undeveloped flower buds called curds. The most familiar type is white, but it also comes in orange, purple, and green varieties. Cauliflower has a mild, slightly nutty flavor and is eaten raw, roasted, steamed, or mashed, and used as a lower-carbohydrate substitute for rice or flour in some recipes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cauliflower belongs to the same species as cabbage, broccoli, kale, and Brussels sprouts.",
+        "The white head is made of immature flower buds, and its leaves wrap around it to protect it from sunlight.",
+        "Cauliflower also grows in orange, purple, and green varieties.",
+        "It can be grated into rice, mashed like potatoes, or ground into flour substitutes.",
+        "Romanesco is a related variety with a striking spiral pattern."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C and vitamin K",
+          "content": "These vitamins support the immune system and normal blood clotting."
+        },
+        {
+          "title": "Provides folate and choline",
+          "content": "These nutrients support cell function and normal metabolism."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Cauliflower contributes fiber that supports normal digestion."
+        },
+        {
+          "title": "Contains glucosinolates",
+          "content": "These plant compounds, found in cruciferous vegetables, are being studied for their protective activity."
+        },
+        {
+          "title": "Low in calories and carbohydrates",
+          "content": "Cauliflower is low in calories and can replace higher-carbohydrate foods in some dishes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gas and bloating",
+          "content": "Cauliflower can cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Thyroid considerations",
+          "content": "Cruciferous vegetables contain compounds that may affect thyroid function in very large amounts. People with thyroid conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Cauliflower contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Cauliflower allergy is uncommon but can occur."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cauliflower can be roasted until golden, steamed, boiled, stir-fried, mashed, or grated into rice, and eaten raw with dips or in salads. It can be used in soups, curries, gratins, and baked dishes. Avoid overcooking to keep its texture and mild flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole cauliflower unwashed in the refrigerator crisper drawer, where it usually keeps for about a week. Cut florets should be kept in an airtight container and used within a few days. Cauliflower can also be blanched and frozen."
+    }
+  ]
+}

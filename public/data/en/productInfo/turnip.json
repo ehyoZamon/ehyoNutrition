@@ -1,0 +1,75 @@
+{
+  "id": "turnip",
+  "title": "Turnip",
+  "image": "/products/turnip.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Turnip (Brassica rapa subsp. rapa) is a round root vegetable of the cruciferous family, usually white with a purple top. It has a crisp texture and a mild, slightly peppery and sweet flavor when young, becoming stronger with age. Both the root and the leafy greens are eaten, raw or cooked."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Turnips have been cultivated for thousands of years in Europe and Asia.",
+        "Turnip greens are edible and nutritious and are eaten as a leafy vegetable.",
+        "Small, young turnips are sweeter and milder than large, mature ones.",
+        "Turnips belong to the same family as cabbage, radishes, and mustard.",
+        "Before potatoes became common in Europe, turnips were an important food and animal feed."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides vitamin C",
+          "content": "Turnips contain vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Turnips contribute fiber that supports digestion."
+        },
+        {
+          "title": "Contains potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Greens are rich in vitamin K and vitamin A",
+          "content": "Turnip greens provide vitamin K, vitamin A, and calcium."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Turnips are low in calories and filling."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Thyroid considerations",
+          "content": "Cruciferous vegetables contain compounds that may affect thyroid function in very large amounts. People with thyroid conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "Turnips may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Turnip greens are high in vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Oxalates and allergies",
+          "content": "Turnip greens contain oxalates, which people prone to kidney stones may need to limit, and allergic reactions are possible."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Turnips can be roasted, boiled, steamed, mashed, added to soups and stews, shredded raw into salads, or pickled. Peel larger turnips because the skin can be tough or bitter. The greens can be sautéed or braised like other leafy greens."
+    },
+    {
+      "title": "Storage",
+      "content": "Remove the greens and store turnips in the refrigerator crisper drawer, where the roots keep for one to two weeks. Store the greens separately in a bag and use them within three to five days. Cooked turnip should be refrigerated in an airtight container and eaten within a few days."
+    }
+  ]
+}

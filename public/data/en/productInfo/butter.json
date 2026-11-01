@@ -1,0 +1,75 @@
+{
+  "id": "butter",
+  "title": "Butter",
+  "image": "/products/butter.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Butter is a dairy product made by churning cream. It is mostly milk fat (usually at least 80%), water, and a small amount of milk proteins. It has a delicate creamy flavor. Butter is used on sandwiches, in porridge, with vegetables, in baking, in sauces, and for frying. It comes salted and unsalted, as well as clarified (ghee)."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "When cream is churned, the milk fat gathers into butter, and the liquid part remains as buttermilk.",
+        "Butter's yellow shade depends on the animals' feed and its beta-carotene content.",
+        "Clarified butter (ghee) is free of water and milk proteins, so it tolerates high heat better.",
+        "It takes about 20 liters of milk to make one kilogram of butter.",
+        "Butter melts at a temperature close to body temperature, which is why it melts so smoothly in the mouth."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains vitamin A",
+          "content": "Vitamin A is fat-soluble and important for vision and skin."
+        },
+        {
+          "title": "Contains other fat-soluble vitamins",
+          "content": "Butter provides small amounts of vitamins D, E, and K."
+        },
+        {
+          "title": "Contains butyrate",
+          "content": "Butyric acid (butyrate) is a short-chain fatty acid naturally present in milk fat."
+        },
+        {
+          "title": "Source of energy",
+          "content": "Butter provides a lot of energy, which is useful when energy needs are high."
+        },
+        {
+          "title": "Rich flavor",
+          "content": "Because butter tastes so rich, a small amount is enough to flavor dishes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Saturated fat",
+          "content": "Butter is rich in saturated fat, and too much can raise cholesterol levels."
+        },
+        {
+          "title": "High in calories",
+          "content": "Butter is very high in calories, so portions should be moderate."
+        },
+        {
+          "title": "Milk components",
+          "content": "Butter contains traces of lactose and milk proteins, so people with a milk allergy should avoid it."
+        },
+        {
+          "title": "Salt and burning",
+          "content": "Salted butter can add to salt intake, and at high heat butter burns and smokes."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spread butter on bread, add it to porridge, vegetables, mashed potatoes, and sauces, or use it in baking. For frying, use medium heat so the milk proteins do not burn, or choose clarified butter (ghee). A small amount is enough for flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store butter in the refrigerator in its original wrapper or in a covered butter dish, away from strong-smelling foods. The piece you are using can be kept at room temperature for one to two days in a cool place. For long-term storage, freeze butter, where it keeps for several months. Discard butter that smells rancid, has mold, or has changed color."
+    }
+  ]
+}

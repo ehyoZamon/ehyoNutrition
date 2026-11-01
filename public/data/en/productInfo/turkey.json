@@ -1,0 +1,75 @@
+{
+  "id": "turkey",
+  "title": "Turkey",
+  "image": "/products/turkey.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Turkey is the meat of the domestic turkey (Meleagris gallopavo), a bird native to North America. The breast is white, lean, and tender meat, while the thigh and drumstick are dark, juicier, and fattier. Turkey is roasted, stewed, fried, and grilled, and ground turkey is made into patties and sausages."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Turkeys are native to North America and were domesticated more than a thousand years ago.",
+        "In the United States, roast turkey is the main dish of Thanksgiving.",
+        "Turkey breast is leaner than the thigh and drumstick.",
+        "The common belief that turkey makes you sleepy because of tryptophan is exaggerated: it has about as much as other meats.",
+        "Turkey is made into fillets, ground meat, sausages, and cold cuts."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complete protein",
+          "content": "Turkey provides protein with all the essential amino acids."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "It contains niacin, B6, and B12, which help produce energy and form blood cells."
+        },
+        {
+          "title": "Contains selenium",
+          "content": "Selenium is an antioxidant trace mineral that is important for the thyroid."
+        },
+        {
+          "title": "Contains zinc and phosphorus",
+          "content": "These minerals support immunity and bone health."
+        },
+        {
+          "title": "Breast is lean",
+          "content": "Skinless breast is low in fat and high in protein."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Undercooked meat",
+          "content": "Undercooked turkey may contain Salmonella and Campylobacter; the meat should be cooked to 74 °C (165 °F) inside."
+        },
+        {
+          "title": "Cross-contamination",
+          "content": "Raw meat and its juices should not come into contact with cooked food, cutting boards, and dishes without washing."
+        },
+        {
+          "title": "Skin and fat",
+          "content": "The skin and dark meat contain more fat and calories."
+        },
+        {
+          "title": "Processed products",
+          "content": "Turkey sausages, ham, and cold cuts contain a lot of salt and additives."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Turkey is roasted whole or in parts, stewed, fried, grilled, added to soups, and ground turkey is made into patties. The breast dries out easily, so do not overcook it; it can be marinated or roasted in a bag. For safety, the meat must reach 74 °C (165 °F) inside."
+    },
+    {
+      "title": "Storage",
+      "content": "Store raw turkey in the refrigerator in a covered container for no more than one to two days, or freeze it. Thaw meat in the refrigerator. Keep cooked meat in the refrigerator for up to three to four days. Do not leave meat at room temperature for more than two hours."
+    }
+  ]
+}

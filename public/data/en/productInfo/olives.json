@@ -1,0 +1,75 @@
+{
+  "id": "olives",
+  "title": "Olives",
+  "image": "/products/olives.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Olives are the fruits of the olive tree (Olea europaea), drupes like cherries or plums. Raw, they are very bitter, so they are soaked, fermented, or cured in brine. Green olives are picked unripe, while black olives are picked ripe or treated in a special way. Olives are eaten as a snack and added to salads, pasta, pizza, sauces, and baked goods."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Olives are drupes, yet the olive tree is related to jasmine and lilac.",
+        "The bitterness of fresh olives comes from a compound called oleuropein, which is removed during processing.",
+        "Green olives are usually picked unripe and black olives fully ripe, but some black olives are produced through special processing.",
+        "Olives are stuffed with peppers, cheese, almonds, or anchovies.",
+        "Spain is the largest producer of olives."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contain monounsaturated fats",
+          "content": "These are heart-friendly fats, the same kind found in olive oil."
+        },
+        {
+          "title": "Contain vitamin E",
+          "content": "Vitamin E is an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Contain polyphenols",
+          "content": "The polyphenols in olives have antioxidant properties."
+        },
+        {
+          "title": "Contain fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contain iron and calcium",
+          "content": "In small amounts, olives provide these minerals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "A lot of salt",
+          "content": "Olives in brine are very salty, so people with high blood pressure should limit portions."
+        },
+        {
+          "title": "High in calories",
+          "content": "Olives contain a lot of fat, so portions should be moderate."
+        },
+        {
+          "title": "Pits",
+          "content": "Olives with pits can damage teeth, and they are a choking hazard for small children."
+        },
+        {
+          "title": "Allergy",
+          "content": "Olive allergy is possible, including in people sensitive to olive tree pollen."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eat olives as a snack, or add them to salads, pasta, pizza, stews, and sauces such as tapenade. You can rinse them before eating to wash off some of the salt from the brine. Pitted olives are convenient for cooking, while olives with pits are often tastier."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened jars in a cool place. After opening, keep olives in the refrigerator in a covered container so they stay submerged in brine, and use them within a few weeks. If there is too little brine, top it up with salted water. Discard olives that are moldy or smell off."
+    }
+  ]
+}

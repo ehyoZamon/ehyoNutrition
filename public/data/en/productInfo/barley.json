@@ -1,0 +1,75 @@
+{
+  "id": "barley",
+  "title": "Barley",
+  "image": "/products/barley.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Barley (Hordeum vulgare) is a cereal grain that was among the first crops domesticated by humans, in the Fertile Crescent. It has a chewy texture and a mild, nutty flavor. Barley is eaten as hulled or pearl barley in soups, stews, and salads, ground into flour, and used to make malt for beer and whisky."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Barley is one of the oldest cultivated grains and has been grown for around 10,000 years.",
+        "Hulled barley keeps its bran, while pearl barley has had the outer layers polished away.",
+        "Barley is the main grain used to make malt for brewing.",
+        "Barley contains beta-glucan, a soluble fiber that forms a gel in water.",
+        "Barley contains gluten."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Barley is high in fiber, especially beta-glucan, which supports digestion and fullness."
+        },
+        {
+          "title": "Provides selenium and manganese",
+          "content": "These minerals support antioxidant defenses and metabolism."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Barley provides niacin and thiamin, which support energy metabolism."
+        },
+        {
+          "title": "Provides magnesium",
+          "content": "Magnesium supports normal muscle and nerve function."
+        },
+        {
+          "title": "Slow-digesting carbohydrates",
+          "content": "Barley has a relatively low glycemic index, so it raises blood sugar more slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Contains gluten",
+          "content": "Barley contains gluten and should be avoided by people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Barley contains fructans and a lot of fiber, which may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Barley allergy is uncommon but can occur."
+        },
+        {
+          "title": "Less fiber in pearl barley",
+          "content": "Pearl barley has less fiber than hulled barley because the outer layers are removed."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Barley can be simmered until tender and added to soups, stews, salads, and pilafs, or served as a side dish or porridge. Rinse it before cooking. Pearl barley cooks faster than hulled barley, which may need soaking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry barley in an airtight container in a cool, dry place, where it keeps for several months to a year. Cooked barley should be refrigerated in an airtight container and eaten within three to five days, or frozen."
+    }
+  ]
+}

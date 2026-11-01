@@ -1,0 +1,75 @@
+{
+  "id": "caviar",
+  "title": "Caviar",
+  "image": "/products/caviar.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Caviar is the salt-cured roe (eggs) of sturgeon and, more broadly, other fish such as salmon, trout, and whitefish. It is a delicacy made of small, glossy, pearl-like eggs with a rich, briny, buttery flavor. Caviar is usually eaten cold in small amounts, on its own or as a topping on blini, toast, and eggs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "True caviar comes from sturgeon, while roe from salmon, trout, and other fish is also sold as caviar or red caviar.",
+        "Caviar is made by gently removing the eggs from the fish, rinsing them, and curing them with salt.",
+        "Traditionally, caviar is served with a non-metallic spoon, such as mother-of-pearl, bone, or plastic, to avoid altering its flavor.",
+        "Many wild sturgeon species are endangered, so most caviar today comes from farmed sturgeon.",
+        "Caviar is a delicacy in Russia, Iran, and across Europe and is traditionally served at celebrations."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of omega-3 fatty acids",
+          "content": "Fish roe provides EPA and DHA, which support normal heart and brain function."
+        },
+        {
+          "title": "Rich in vitamin B12",
+          "content": "Vitamin B12 supports red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Provides protein",
+          "content": "Caviar provides protein, although it is eaten in small amounts."
+        },
+        {
+          "title": "Provides selenium, iron, and vitamin D",
+          "content": "Fish roe provides selenium, iron, and some vitamin D."
+        },
+        {
+          "title": "Contains choline",
+          "content": "Caviar contains choline, which supports normal cell function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Very high in sodium",
+          "content": "Caviar is cured with salt and can be very high in sodium, so people limiting salt should eat it sparingly."
+        },
+        {
+          "title": "Cholesterol and purines",
+          "content": "Caviar contains cholesterol and purines, which matters for people with certain health conditions such as gout."
+        },
+        {
+          "title": "Fish allergy",
+          "content": "Caviar can cause allergic reactions in people allergic to fish."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Refrigerated, unpasteurized caviar can carry Listeria and is not recommended for pregnant women, young children, older adults, or people with weakened immunity."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Caviar is eaten cold, in small portions, on its own from a non-metallic spoon, or on blini, toast, boiled eggs, potatoes, or with sour cream. Do not cook it or mash it. Lightly chilled caviar and neutral accompaniments let its flavor show."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep caviar in the coldest part of the refrigerator, usually about 0 to 4 °C (32 to 39 °F), and follow the date on the tin or jar. Once opened, press plastic wrap against the surface, close tightly, and eat it within two to three days. Do not freeze it, since freezing damages its texture."
+    }
+  ]
+}

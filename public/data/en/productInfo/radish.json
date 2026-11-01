@@ -1,0 +1,75 @@
+{
+  "id": "radish",
+  "title": "Radish",
+  "image": "/products/radish.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Radish (Raphanus sativus) is a crisp, peppery root vegetable of the cruciferous family, native to Asia and Europe. It comes in many shapes and colors, from small round red radishes to long white daikon and black radishes. Radishes are eaten raw in salads and as snacks, pickled, or cooked."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Radishes are one of the fastest-growing vegetables and can be ready to harvest in three to four weeks.",
+        "Their peppery heat comes from sulfur compounds called isothiocyanates, also found in mustard and horseradish.",
+        "Daikon, a large white radish, is widely used in East Asian cuisine.",
+        "Radish leaves and seed pods are also edible.",
+        "Radishes belong to the same family as cabbage, broccoli, and mustard."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides vitamin C",
+          "content": "Radishes contain vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Radishes contribute fiber that supports digestion."
+        },
+        {
+          "title": "Contains potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Contains glucosinolates",
+          "content": "These plant compounds, found in cruciferous vegetables, are being studied for their protective activity."
+        },
+        {
+          "title": "Low in calories and hydrating",
+          "content": "Radishes are crunchy, low in calories, and high in water."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Digestive discomfort",
+          "content": "Radishes, especially raw and in large amounts, may cause gas, bloating, or stomach irritation in sensitive individuals."
+        },
+        {
+          "title": "Thyroid considerations",
+          "content": "Cruciferous vegetables contain compounds that may affect thyroid function in very large amounts. People with thyroid conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Heartburn",
+          "content": "Very pungent radishes may trigger heartburn in some people."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Radish allergy is uncommon but can occur."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Radishes can be sliced into salads, sandwiches, and tacos, eaten with butter and salt, pickled, roasted, or cooked into soups and stir-fries. Daikon can be grated, simmered, or pickled. Roasting makes radishes milder and slightly sweet."
+    },
+    {
+      "title": "Storage",
+      "content": "Remove the leaves, which draw moisture, and store radishes in the refrigerator in a bag or container, where they keep for one to two weeks. Radishes can be kept crisp in a bowl of cold water for a short time. Store the leaves separately and use them within a couple of days."
+    }
+  ]
+}

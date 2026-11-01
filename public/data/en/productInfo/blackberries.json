@@ -1,0 +1,75 @@
+{
+  "id": "blackberries",
+  "title": "Blackberries",
+  "image": "/products/blackberries.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Blackberries are dark purple-black, juicy fruits of thorny shrubs in the genus Rubus, widely found in temperate regions. They have a sweet and tart flavor and a slightly seedy texture. Blackberries are eaten fresh and used in jams, desserts, baked goods, smoothies, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a blackberry is an aggregate fruit made of many small drupelets rather than a true berry.",
+        "Blackberries grow on thorny canes known as brambles, and wild blackberries are common in hedgerows.",
+        "Unlike raspberries, blackberries keep their core when picked.",
+        "Blackberries are among the highest-fiber fruits per serving.",
+        "They are related to raspberries and roses."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Blackberries are a rich source of fiber, which supports digestion and fullness."
+        },
+        {
+          "title": "Rich in vitamin C and vitamin K",
+          "content": "These vitamins support the immune system and normal blood clotting."
+        },
+        {
+          "title": "Provides manganese and folate",
+          "content": "These nutrients support metabolism and cell function."
+        },
+        {
+          "title": "Contains anthocyanins",
+          "content": "These plant pigments have antioxidant properties."
+        },
+        {
+          "title": "Low in sugar",
+          "content": "Blackberries are lower in sugar than many other fruits."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may be allergic to blackberries or sensitive to the natural salicylates they contain."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Blackberries contain vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts of fiber and seeds may cause bloating in sensitive individuals."
+        },
+        {
+          "title": "Spoilage and wild berries",
+          "content": "Blackberries spoil quickly, and wild berries should be washed thoroughly and picked away from roadsides and treated areas."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Blackberries can be eaten fresh, added to yogurt, oatmeal, salads, and smoothies, or baked into pies, cobblers, and muffins. They can also be cooked into jams, sauces, and syrups. Wash them gently just before eating."
+    },
+    {
+      "title": "Storage",
+      "content": "Blackberries are delicate and should be refrigerated unwashed in a single layer in a breathable container and eaten within two to three days. Discard any moldy berries right away. They can be frozen on a tray and stored in a bag for longer storage."
+    }
+  ]
+}

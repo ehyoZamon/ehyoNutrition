@@ -1,0 +1,75 @@
+{
+  "id": "duck-egg",
+  "title": "Duck Egg",
+  "image": "/products/duck-egg.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Duck eggs are larger than chicken eggs, with a thicker smooth shell that is white, pale blue, or greenish. They have a large, rich yolk and a firm white, and the taste is richer and fattier than chicken eggs. Duck eggs are boiled, fried, used in baking, and made into preserved and salted eggs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A duck egg is noticeably larger and heavier than a chicken egg.",
+        "The shell of a duck egg is thicker and tougher than that of a chicken egg.",
+        "In Asia, duck eggs are salted and cured, and are also made into century eggs.",
+        "In Southeast Asia, people eat balut, a special dish made from a fertilized duck egg.",
+        "Thanks to the fatty yolk, duck eggs are valued in baking: baked goods come out more tender and rich."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complete protein",
+          "content": "The egg provides protein with all the essential amino acids."
+        },
+        {
+          "title": "Contain vitamin B12 and riboflavin",
+          "content": "These vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "Contain iron and selenium",
+          "content": "Iron is needed for oxygen transport, and selenium is a trace mineral with antioxidant properties."
+        },
+        {
+          "title": "Contain choline",
+          "content": "Choline is important for nervous system function and cell membranes."
+        },
+        {
+          "title": "Contain vitamins A and D",
+          "content": "The yolk contains the fat-soluble vitamins A and D."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Salmonella",
+          "content": "Duck eggs may contain Salmonella, so they should be boiled or fried until the white and yolk are firm; this is especially important for children, pregnant women, older adults, and people with weakened immunity."
+        },
+        {
+          "title": "Cholesterol and fat",
+          "content": "A duck egg has more fat and cholesterol than a chicken egg; people with high cholesterol should discuss how many to eat with a doctor."
+        },
+        {
+          "title": "High in calories",
+          "content": "One egg is higher in calories than a chicken egg, so portions should be moderate."
+        },
+        {
+          "title": "Allergy",
+          "content": "Egg allergy is possible, including cross-reaction with chicken eggs."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hard-boil duck eggs for about 10–12 minutes, fry them, make omelets, and add them to dough, pasta, and desserts. Eat them only fully cooked, with a firm white and yolk. In baking, one duck egg can roughly replace one to two chicken eggs, following the recipe."
+    },
+    {
+      "title": "Storage",
+      "content": "Store eggs in the refrigerator in their package, away from strong-smelling foods, and use them before the expiration date. Do not wash them in advance. Keep boiled eggs in the refrigerator for a few days. Discard cracked eggs and eggs with an unpleasant smell."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "eggplant",
+  "title": "Eggplant",
+  "image": "/products/eggplant.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Eggplant (Solanum melongena), also called aubergine, is a glossy, deep purple (or white, green, or striped) vegetable with spongy flesh, native to India and Southeast Asia. It has a mild, slightly bitter flavor and absorbs the flavors of the dishes it is cooked in. Eggplant is eaten cooked, roasted, grilled, fried, stuffed, or pureed."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, eggplant is a fruit, classified as a berry, and belongs to the nightshade family with tomatoes and potatoes.",
+        "Eggplants come in many shapes and colors, including long, round, white, green, and striped varieties.",
+        "Its spongy flesh absorbs oil and flavors readily.",
+        "Salting cut eggplant before cooking can reduce bitterness and the amount of oil it absorbs.",
+        "Eggplant is a staple in Mediterranean, Middle Eastern, Indian, and Asian cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Eggplant contributes fiber that supports digestion and fullness."
+        },
+        {
+          "title": "Contains anthocyanins",
+          "content": "The purple skin contains nasunin, an anthocyanin with antioxidant properties."
+        },
+        {
+          "title": "Contains manganese and potassium",
+          "content": "These minerals support normal metabolism and blood pressure."
+        },
+        {
+          "title": "Provides vitamin K and vitamin C",
+          "content": "These vitamins support blood clotting and the immune system."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Eggplant is low in calories, though it absorbs a lot of oil when fried."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Nightshade sensitivity",
+          "content": "Eggplant belongs to the nightshade family, and some people report sensitivity or allergy to these vegetables."
+        },
+        {
+          "title": "Raw eggplant",
+          "content": "Raw eggplant is bitter and can cause stomach upset, so cook it thoroughly."
+        },
+        {
+          "title": "Oil absorption",
+          "content": "Frying eggplant makes it absorb a lot of oil and calories, so baking, roasting, or grilling is a lighter option."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Eggplant contains some oxalates, which people prone to kidney stones may need to limit."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eggplant can be roasted, grilled, baked, stir-fried, steamed, stuffed, or made into dishes such as baba ganoush, ratatouille, moussaka, and curries. Slice and salt it before cooking if you want to reduce bitterness, then rinse and pat dry. Cook until soft and creamy inside."
+    },
+    {
+      "title": "Storage",
+      "content": "Store eggplant in a cool place or in the refrigerator crisper drawer and use it within a few days to a week, since it is sensitive to both cold and heat. Keep it whole until cooking, because cut eggplant browns quickly. Cooked eggplant should be refrigerated in an airtight container and eaten within three to five days."
+    }
+  ]
+}

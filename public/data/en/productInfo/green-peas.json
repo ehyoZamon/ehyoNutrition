@@ -1,0 +1,75 @@
+{
+  "id": "green-peas",
+  "title": "Green Peas",
+  "image": "/products/green-peas.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Green peas are the immature seeds of the pea plant (Pisum sativum), which grow in pods. They taste mildly sweet and are tender and slightly starchy. Peas are eaten fresh, frozen, or canned and added to soups, side dishes, stews, pasta, and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Peas are legumes, and the edible \"peas\" are the seeds inside the pod.",
+        "Gregor Mendel's experiments with pea plants laid the foundation of modern genetics.",
+        "Frozen peas are usually frozen soon after harvest, so they keep their flavor and nutrients well.",
+        "Snap peas and snow peas are eaten together with their pods.",
+        "Peas have been grown for thousands of years and remain one of the most popular vegetable crops."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Green peas provide more protein than many other vegetables and can be part of a plant-based diet."
+        },
+        {
+          "title": "Contains fiber",
+          "content": "Fiber supports digestion and helps you feel full for longer."
+        },
+        {
+          "title": "Contains vitamin K",
+          "content": "Vitamin K plays a role in blood clotting and bone health."
+        },
+        {
+          "title": "Source of vitamin C and folate",
+          "content": "Peas provide vitamin C and folate, which are important for the immune system and cell formation."
+        },
+        {
+          "title": "Contains lutein and zeaxanthin",
+          "content": "These carotenoids are antioxidants linked to eye health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gas and bloating",
+          "content": "Peas contain carbohydrates that may cause gas and bloating in some people."
+        },
+        {
+          "title": "Salt in canned peas",
+          "content": "Canned peas may contain added salt; rinsing them before use can help."
+        },
+        {
+          "title": "Allergy",
+          "content": "Peas are legumes, and allergies are possible, including cross-reactions with other legumes."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Whole peas can be a choking risk for small children, so it is best to mash them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh young peas can be eaten raw or briefly steamed or boiled for 2–3 minutes to keep their color and sweetness. Frozen peas can be added straight from the freezer to soups, rice, pasta, and purees. Avoid overcooking, which makes them mushy and bland."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh peas in their pods in the refrigerator and use them within two to three days, as their sugars quickly turn to starch. Keep frozen peas in the freezer in a sealed package. Store canned peas in a cool place, and after opening, transfer them to a covered container in the refrigerator."
+    }
+  ]
+}

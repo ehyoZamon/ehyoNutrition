@@ -1,0 +1,75 @@
+{
+  "id": "olive-oil",
+  "title": "Olive Oil",
+  "image": "/products/olive-oil.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Olive oil is a vegetable oil made from the fruit of the olive tree (Olea europaea). It comes unrefined (extra virgin and virgin) and refined. Its flavor ranges from mild and fruity to grassy and slightly peppery. Olive oil is the foundation of Mediterranean cooking and is used for dressing salads, frying, stewing, and baking."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Olive oil is the basis of traditional cuisine across the Mediterranean.",
+        "Extra virgin oil is obtained by mechanical pressing, without chemical solvents or strong heat.",
+        "The slight peppery sensation in the throat from fresh unrefined oil is caused by a compound called oleocanthal.",
+        "Spain is the world's largest producer of olive oil.",
+        "Olive trees live for hundreds of years, and some for thousands."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in monounsaturated fats",
+          "content": "The main fatty acid in olive oil is oleic acid, a monounsaturated fat; replacing saturated fats with it can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Unrefined oil contains polyphenols with antioxidant properties."
+        },
+        {
+          "title": "Contains vitamin E",
+          "content": "Vitamin E is an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Part of the Mediterranean diet",
+          "content": "Olive oil is the main source of fat in the Mediterranean style of eating, which is linked to heart health."
+        },
+        {
+          "title": "Adds flavor",
+          "content": "Unrefined oil with a bold flavor lets you get by with a smaller amount."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in calories",
+          "content": "One tablespoon of olive oil has about 120 kilocalories, so portions should be moderate."
+        },
+        {
+          "title": "Overheating",
+          "content": "At very high heat, the oil smokes and breaks down, so it is better to cook at medium heat and avoid overheating."
+        },
+        {
+          "title": "Large amounts",
+          "content": "A large amount of oil, especially on an empty stomach, can cause stomach upset and strain the gallbladder; people with gallbladder conditions should consult a doctor."
+        },
+        {
+          "title": "Allergy and quality",
+          "content": "Olive oil allergy is rare but possible; because of counterfeits, choose oil from trusted producers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Unrefined oil is best in cold dishes: for dressing salads and vegetables, in sauces, on bread, and drizzled over finished dishes. Refined oil is also suitable for stewing and frying at moderate heat. A small amount is enough to add flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store olive oil in a dark glass bottle or a tin in a cool, dark place away from the stove, and keep it tightly closed. After opening, try to use it within a few months. In the refrigerator the oil may turn cloudy and thicken, which is normal. Discard oil that smells rancid, like old nuts or paint."
+    }
+  ]
+}

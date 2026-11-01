@@ -1,0 +1,75 @@
+{
+  "id": "basil",
+  "title": "Basil",
+  "image": "/products/basil.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Basil (Ocimum basilicum) is a fragrant herb in the mint family, native to tropical regions of Asia. It has a slightly sweet, mildly peppery flavor with notes of anise and clove. Basil is used fresh or dried in pesto, salads, tomato dishes, pasta, and drinks."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Basil is related to mint, lemon balm, and rosemary.",
+        "There are hundreds of varieties, including sweet (Genovese), Thai, lemon, and purple basil.",
+        "Classic pesto is made from basil, olive oil, cheese, pine nuts, and garlic.",
+        "Holy basil (tulsi) is a different species, Ocimum tenuiflorum, widely used in India.",
+        "Basil loves warmth and is sensitive to cold: its leaves turn dark at low temperatures."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of vitamin K",
+          "content": "Basil leaves contain vitamin K, which plays a role in blood clotting."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "The essential oils and polyphenols in basil have antioxidant properties."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "The body can partly convert the carotenoids in green leaves into vitamin A."
+        },
+        {
+          "title": "Adds flavor without extra salt",
+          "content": "Fresh herbs make dishes aromatic without needing much salt or fat."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "In small amounts, basil provides calcium, iron, and magnesium."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Vitamin K and blood thinners",
+          "content": "People taking anticoagulants such as warfarin should not suddenly change how much vitamin K-rich greens they eat without consulting a doctor."
+        },
+        {
+          "title": "Concentrated oils and extracts",
+          "content": "Basil essential oil and concentrated extracts contain compounds that should not be taken in large amounts, especially during pregnancy."
+        },
+        {
+          "title": "Allergy",
+          "content": "Basil allergy is possible, especially in people sensitive to other plants in the mint family."
+        },
+        {
+          "title": "Pesto is energy-dense",
+          "content": "Ready-made pesto contains a lot of oil, salt, cheese, and nuts, so portions should be moderate, and people with nut allergies should check the ingredients."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tear fresh basil leaves by hand and add them at the end of cooking to preserve their aroma. Use basil in salads, pizza, pasta, and dishes with tomato and mozzarella, make it into pesto, or add it to drinks. Dried basil is less fragrant and can be added earlier in cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh basil dislikes cold: do not keep it unprotected on cold refrigerator shelves, or the leaves will blacken. Stand the stems in a glass of water at room temperature, or wrap them in a slightly damp paper towel and store for a few days. Basil can be frozen, for example as pesto or chopped with oil. Keep dried basil in an airtight jar away from light."
+    }
+  ]
+}

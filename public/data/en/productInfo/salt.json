@@ -1,0 +1,75 @@
+{
+  "id": "salt",
+  "title": "Salt",
+  "image": "/products/salt.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Salt is a mineral, chemically sodium chloride (NaCl). It is obtained by evaporating seawater or by mining rock salt from underground deposits. Salt enhances the flavor of food and is used for preserving. It comes fine and coarse, as sea salt, rock salt, iodized salt, and specialty types such as pink Himalayan salt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Salt is obtained from the sea by evaporation and also from underground rock salt deposits.",
+        "Iodized salt was introduced to prevent iodine deficiency, which can lead to thyroid problems.",
+        "Pink Himalayan salt is colored by impurities, but it is mostly the same sodium chloride.",
+        "Salt has long been used to preserve meat, fish, and vegetables.",
+        "The body needs a small amount of sodium, but too much is harmful."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Needed by the body in small amounts",
+          "content": "Sodium plays a role in fluid balance and nerve and muscle function."
+        },
+        {
+          "title": "Iodized salt",
+          "content": "It helps you get iodine, which is needed for the thyroid to work."
+        },
+        {
+          "title": "Enhances flavor",
+          "content": "Salt makes dishes tastier and more aromatic."
+        },
+        {
+          "title": "Preserves food",
+          "content": "Salt helps food keep longer by suppressing bacterial growth."
+        },
+        {
+          "title": "Helps replace electrolytes",
+          "content": "With heavy sweating the body loses sodium, which needs to be replaced."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High blood pressure",
+          "content": "Too much salt can raise blood pressure; the WHO recommends consuming less than 5 grams of salt a day, about one teaspoon."
+        },
+        {
+          "title": "Hidden salt",
+          "content": "A lot of salt is found in sausages, cheeses, sauces, canned foods, snacks, and bread, so it is easy to exceed the limit."
+        },
+        {
+          "title": "Heart and kidney disease",
+          "content": "People with heart disease, kidney disease, and hypertension often need to limit salt as advised by their doctor."
+        },
+        {
+          "title": "Children",
+          "content": "Children need much less salt than adults, so it is best not to add extra salt to their food."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Salt dishes at the end of cooking and taste before adding more. To use less salt, add herbs, spices, lemon juice, garlic, and onion. Different kinds of salt, such as sea, rock, and pink, do not differ substantially in sodium content."
+    },
+    {
+      "title": "Storage",
+      "content": "Store salt in a dry place in a tightly closed container: it absorbs moisture and cakes. A few grains of rice in the shaker can help keep it free-flowing. Salt itself does not spoil, but iodized salt gradually loses iodine, especially in light and humid conditions."
+    }
+  ]
+}

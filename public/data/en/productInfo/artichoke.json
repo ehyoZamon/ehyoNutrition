@@ -1,0 +1,75 @@
+{
+  "id": "artichoke",
+  "title": "Artichoke",
+  "image": "/products/artichoke.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Artichoke (Cynara cardunculus var. scolymus) is the edible flower bud of a thistle-like plant native to the Mediterranean. It has layers of tough, overlapping green leaves (bracts) around a tender, fleshy heart. Artichokes have a nutty, slightly sweet, earthy flavor and are eaten steamed, boiled, roasted, grilled, or from jars and cans."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The artichoke is a flower bud that would bloom into a large purple flower if left to mature.",
+        "Only the fleshy base of the leaves and the heart are eaten, while the fuzzy choke inside is removed.",
+        "A compound called cynarin can make foods eaten right after artichoke taste slightly sweeter.",
+        "Artichokes belong to the daisy family, along with sunflowers and thistles.",
+        "Artichokes have been eaten in the Mediterranean region for thousands of years."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Artichokes are a good source of fiber, including inulin, a prebiotic fiber that feeds beneficial gut bacteria."
+        },
+        {
+          "title": "Provides folate and vitamin K",
+          "content": "These vitamins support cell function and normal blood clotting."
+        },
+        {
+          "title": "Provides vitamin C and magnesium",
+          "content": "These nutrients support the immune system and muscle function."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Artichokes contain antioxidant compounds such as cynarin and chlorogenic acid."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Artichokes are low in calories and filling."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "People allergic to plants in the daisy family, such as ragweed or chamomile, may react to artichokes."
+        },
+        {
+          "title": "Gallbladder and bile ducts",
+          "content": "Artichoke stimulates bile flow, so people with gallstones or bile duct problems should consult a healthcare professional, especially before using artichoke extracts."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "The inulin in artichokes may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Sodium in canned artichokes",
+          "content": "Canned and jarred artichokes can be high in added salt, so rinse them and check labels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Whole artichokes are steamed or boiled until the leaves pull off easily, then the base of each leaf is scraped with the teeth and the heart is eaten, often dipped in sauce. Trimmed hearts can be roasted, grilled, sautéed, or added to salads, pizzas, pasta, and dips. Rub cut surfaces with lemon to prevent browning."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh, unwashed artichokes in the refrigerator in a bag, where they keep for about five to seven days. Cooked artichokes should be refrigerated in an airtight container and eaten within three to five days. Artichoke hearts can also be frozen."
+    }
+  ]
+}

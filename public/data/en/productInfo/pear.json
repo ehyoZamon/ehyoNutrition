@@ -1,0 +1,75 @@
+{
+  "id": "pear",
+  "title": "Pear",
+  "image": "/products/pear.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pear (Pyrus communis) is a sweet, juicy fruit with a rounded base and tapered neck, native to Europe and western Asia. It has thin skin in green, yellow, red, or brown shades and soft, slightly gritty flesh. Pears are eaten fresh and used in desserts, salads, baking, and preserves."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Pears are related to apples and roses.",
+        "Unlike many fruits, European pears ripen best off the tree and are usually picked while still firm.",
+        "Popular varieties include Bartlett, Anjou, Bosc, and Comice, and Asian pears are round and crisp.",
+        "A pear is ripe when the area near the stem yields slightly to gentle pressure.",
+        "Pears have been cultivated for thousands of years."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in dietary fiber",
+          "content": "Pears are a good source of fiber, including pectin, especially with the skin."
+        },
+        {
+          "title": "Provides vitamin C and vitamin K",
+          "content": "These vitamins support the immune system and blood clotting."
+        },
+        {
+          "title": "Provides potassium and copper",
+          "content": "These minerals support normal blood pressure and metabolism."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Pears contain plant compounds with antioxidant properties, mainly in the skin."
+        },
+        {
+          "title": "Hydrating",
+          "content": "Pears are juicy and refreshing."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Digestive discomfort",
+          "content": "Pears contain fructose and sorbitol, which may cause gas, bloating, or loose stools in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those allergic to birch pollen, may experience itching or tingling in the mouth."
+        },
+        {
+          "title": "Natural sugars",
+          "content": "Pears contain natural sugars, and juice provides less fiber than the whole fruit."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Wash pears thoroughly before eating, especially if eating the skin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pears can be eaten fresh with the skin on, sliced into salads, paired with cheese and nuts, baked, poached, or cooked into compotes, jams, and desserts. Eating the whole fruit provides the most fiber. Sprinkle cut pears with lemon juice to slow browning."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep firm pears at room temperature until they ripen, then store ripe pears in the refrigerator for three to five days. Keep them away from other produce, because ripe pears release ethylene gas. Cut pears can be stored in an airtight container for a day or two."
+    }
+  ]
+}

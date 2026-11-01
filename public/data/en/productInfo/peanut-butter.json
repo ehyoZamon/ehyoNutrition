@@ -1,0 +1,75 @@
+{
+  "id": "peanut-butter",
+  "title": "Peanut Butter",
+  "image": "/products/peanut-butter.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Peanut butter is a spread made from roasted ground peanuts (Arachis hypogaea), sometimes with salt, sugar, or oil. It has a thick, creamy or crunchy texture and a rich nutty flavor. It is spread on bread and toast and added to smoothies, porridge, baked goods, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, the peanut is a legume, not a true nut.",
+        "Peanut butter is very popular in the United States, where it is often eaten in sandwiches.",
+        "In natural peanut butter, the oil can collect on top, so it needs stirring.",
+        "Peanut butter comes smooth and crunchy, with bits of peanut.",
+        "Peanuts are the basis of African peanut stews and the Asian satay sauce."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Peanut butter provides protein and helps you feel full for longer."
+        },
+        {
+          "title": "Contains unsaturated fats",
+          "content": "Most of the fat in peanuts is mono- and polyunsaturated."
+        },
+        {
+          "title": "Contains vitamin E",
+          "content": "Vitamin E is an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Contains magnesium and niacin",
+          "content": "These nutrients support muscle and nerve function and metabolism."
+        },
+        {
+          "title": "Contains fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Peanut allergy",
+          "content": "Peanut allergy can be very severe, up to anaphylaxis; peanut butter is strictly off limits for people with this allergy."
+        },
+        {
+          "title": "High in calories",
+          "content": "Peanut butter is high in calories, so portions should be moderate."
+        },
+        {
+          "title": "Additives in the ingredients",
+          "content": "Some peanut butters contain added sugar, salt, and palm or hydrogenated oil."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Thick peanut butter can cause choking in small children, so it should be spread in a thin layer."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spread peanut butter on bread and toast, or add it to oatmeal, yogurt, smoothies, pancakes, baked goods, and sauces, or serve it with apple or banana. A serving is one to two tablespoons. It is best to choose peanut butter with only peanuts and a little salt in the ingredients."
+    },
+    {
+      "title": "Storage",
+      "content": "Store peanut butter in a closed jar in a cool, dark place. After opening, natural peanut butter is better kept in the refrigerator so the oil does not turn rancid, and stirred before use. Discard peanut butter that smells rancid or is moldy."
+    }
+  ]
+}

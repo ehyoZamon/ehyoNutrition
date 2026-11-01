@@ -1,0 +1,75 @@
+{
+  "id": "sour-cream",
+  "title": "Sour Cream",
+  "image": "/products/sour-cream.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sour cream is a fermented dairy product made by souring cream with lactic acid bacteria. It is thick, creamy, and slightly tangy. Sour cream comes in different fat levels. It is served with borscht, pancakes, and dumplings, and added to soups, sauces, salads, and baked goods."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sour cream is a traditional product of Eastern Europe, especially in Russian, Ukrainian, and Polish cuisines.",
+        "Sour cream is based on fermentation: lactic acid bacteria turn lactose into lactic acid, which gives it its tang and thickness.",
+        "Crème fraîche is similar to sour cream but less tangy, richer, and better able to withstand heat.",
+        "Low-fat sour cream may curdle when heated.",
+        "Traditional sour cream should contain only cream and a starter culture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Calcium is essential for healthy bones and teeth."
+        },
+        {
+          "title": "Contains vitamin A",
+          "content": "Vitamin A is fat-soluble and found in milk fat; it is important for vision and skin."
+        },
+        {
+          "title": "Contains riboflavin and vitamin B12",
+          "content": "These B vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "May contain live cultures",
+          "content": "Some sour creams retain live lactic acid bacteria; check the label."
+        },
+        {
+          "title": "Adds satiety and flavor",
+          "content": "A small portion of sour cream makes dishes richer and tastier."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fat and calories",
+          "content": "Sour cream is high in calories and saturated fat, so portions should be moderate, especially with high cholesterol."
+        },
+        {
+          "title": "Lactose",
+          "content": "Sour cream has less lactose than milk, but it may not always suit people with lactose intolerance."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Sour cream is not suitable for people with an allergy to cow's milk proteins."
+        },
+        {
+          "title": "Spoilage and safety",
+          "content": "Spoiled sour cream should not be eaten; pregnant women and people with weakened immunity should choose pasteurized products."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve sour cream with borscht, pancakes, dumplings, and pelmeni, or add it to sauces, salad dressings, soups, casseroles, baked goods, and creams. To keep it from curdling, add it to hot dishes at the end and do not let it boil. Choose sour cream whose ingredients are only cream and a starter culture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store sour cream in the refrigerator in a closed container. After opening, use it within a few days or by the date stated on the label, and always take it out with a clean spoon. Freezing sour cream is not recommended because it separates, though after thawing it can still be used in cooking. Discard sour cream that has mold, an unpleasant smell, or a changed color; a little liquid whey on top is normal."
+    }
+  ]
+}

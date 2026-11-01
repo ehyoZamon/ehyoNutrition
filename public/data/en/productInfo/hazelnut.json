@@ -1,0 +1,75 @@
+{
+  "id": "hazelnut",
+  "title": "Hazelnut",
+  "image": "/products/hazelnut.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Hazelnuts are the fruits of the cultivated hazel (Corylus avellana), native to Europe and Western Asia. They have a crunchy texture and a mild, slightly sweet nutty flavor. Hazelnuts are eaten raw and roasted and added to baked goods, chocolate, spreads, salads, and porridge."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The world's largest producer of hazelnuts is Turkey.",
+        "The hazel blooms in late winter or early spring with catkins before its leaves appear.",
+        "The hazel grows as a shrub or small tree.",
+        "Hazelnuts are widely used in chocolate, praline, and nut spreads.",
+        "After roasting hazelnuts, the skins are easy to remove by rubbing the nuts in a towel."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in monounsaturated fats",
+          "content": "These fats can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Contain vitamin E",
+          "content": "Vitamin E is an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Contain magnesium",
+          "content": "Magnesium supports normal muscle and nerve function."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contain manganese and folate",
+          "content": "These nutrients play a role in metabolism and cell formation."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Nut allergy",
+          "content": "Hazelnuts can cause allergic reactions, sometimes severe; they are also linked to birch pollen allergy."
+        },
+        {
+          "title": "High in calories",
+          "content": "Hazelnuts are high in calories, so portions should be moderate."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Whole hazelnuts are not suitable for small children because they can choke on them."
+        },
+        {
+          "title": "Mold",
+          "content": "Nuts with mold or a bitter taste should be discarded."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eat hazelnuts as a snack, or add them to oatmeal, yogurt, salads, baked goods, and desserts, or grind them into flour and spreads. To bring out the flavor, lightly roast them in the oven until golden, and remove the skins by rubbing them in a towel. Unsalted hazelnuts are the better choice."
+    },
+    {
+      "title": "Storage",
+      "content": "Store hazelnuts in an airtight container in a cool, dry, dark place; in the shell they keep longer. Keep shelled hazelnuts in the refrigerator or freezer, because the fats can turn rancid. Discard nuts that smell rancid, taste bitter, or are moldy."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "coffee",
+  "title": "Coffee",
+  "image": "/products/coffee.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Coffee is a drink made from the roasted seeds (beans) of fruits of the coffee plant, genus Coffea. Ethiopia is considered the homeland of coffee. The most common species are Arabica and Robusta. Coffee has a rich aroma and a slightly bitter taste and is prepared in many ways: espresso, filter, Turkish coffee, French press, and instant coffee."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A coffee \"bean\" is actually the seed of the coffee plant's berry.",
+        "Arabica is usually milder and more aromatic, while Robusta is more bitter and contains more caffeine.",
+        "Ethiopia is considered the homeland of coffee.",
+        "The taste of coffee depends on the variety, roast, grind, and brewing method.",
+        "Finland is one of the countries with the highest coffee consumption per person."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains caffeine",
+          "content": "Caffeine supports alertness and concentration."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Coffee contains chlorogenic acids and other polyphenols with antioxidant properties."
+        },
+        {
+          "title": "Linked to benefits in observational studies",
+          "content": "Moderate coffee drinking is linked to a lower risk of some chronic diseases, although these findings do not prove cause and effect."
+        },
+        {
+          "title": "Contains small amounts of vitamins and minerals",
+          "content": "The drink provides a little riboflavin, magnesium, and potassium."
+        },
+        {
+          "title": "Almost calorie-free",
+          "content": "Black coffee without sugar or milk adds almost no calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Too much caffeine",
+          "content": "A lot of coffee can cause anxiety, insomnia, and a racing heartbeat; adults are usually advised not to exceed about 400 mg of caffeine a day."
+        },
+        {
+          "title": "Pregnancy",
+          "content": "During pregnancy, caffeine is usually advised to be limited, generally to about 200 mg a day."
+        },
+        {
+          "title": "Acidity",
+          "content": "Coffee may cause heartburn and irritate a sensitive stomach."
+        },
+        {
+          "title": "Unfiltered coffee and additions",
+          "content": "Unfiltered coffee (French press, Turkish) contains compounds that raise cholesterol, and syrup and sugar add a lot of calories."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Freshly ground coffee gives the best flavor. It can be brewed in a coffee machine, a cezve, a French press, a filter cone, and other ways. Coffee is drunk black or with milk, and sugar is best kept moderate. If you have trouble sleeping, avoid coffee in the afternoon."
+    },
+    {
+      "title": "Storage",
+      "content": "Store beans in an airtight container in a cool, dry, dark place rather than in the refrigerator. Ground coffee goes stale faster, so use it within a few weeks of opening. Do not leave the bag open, so the coffee does not absorb odors."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "oats",
+  "title": "Oats",
+  "image": "/products/oats.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Oats (Avena sativa) are a cereal grain grown in cool, temperate climates and eaten as a whole grain. They have a mild, slightly nutty flavor and a creamy texture when cooked. Oats are available as whole groats, steel-cut, rolled, and instant oats, and are used in porridge, granola, baked goods, and as oat flour."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Oats were first grown as a weed in wheat and barley fields and later became a crop in their own right.",
+        "Rolled oats are steamed and flattened groats, while steel-cut oats are chopped groats.",
+        "Oats are a whole grain when they keep their bran and germ.",
+        "Oats contain beta-glucan, a soluble fiber that forms a gel in water.",
+        "Oats are naturally gluten-free but are often processed alongside wheat, barley, or rye."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in beta-glucan",
+          "content": "Beta-glucan is a soluble fiber that may help support healthy cholesterol levels as part of a balanced diet."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Oats contribute fiber that supports digestion and fullness."
+        },
+        {
+          "title": "Provides minerals and B vitamins",
+          "content": "Oats contain manganese, phosphorus, magnesium, and thiamin."
+        },
+        {
+          "title": "Contains plant protein",
+          "content": "Oats provide more protein than many other grains."
+        },
+        {
+          "title": "Slow-digesting carbohydrates",
+          "content": "Less processed oats release energy more slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten cross-contamination",
+          "content": "Oats are often contaminated with gluten during processing. People with celiac disease should choose oats labeled gluten-free."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating a lot of oats may cause bloating or gas in some people, especially when increasing fiber intake quickly."
+        },
+        {
+          "title": "Added sugar in flavored products",
+          "content": "Flavored instant oatmeal and granola can contain a lot of added sugar."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Oat allergy and sensitivity are uncommon but can occur."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Oats can be cooked into porridge or oatmeal, soaked overnight in milk or yogurt, blended into smoothies, or used in granola, cookies, muffins, and bread. Add fruit, nuts, and seeds rather than a lot of sugar. Rolled oats cook faster than steel-cut oats."
+    },
+    {
+      "title": "Storage",
+      "content": "Store oats in an airtight container in a cool, dry place, where they keep for several months. Cooked oatmeal should be refrigerated in an airtight container and eaten within three to five days. Discard oats that smell musty or rancid."
+    }
+  ]
+}

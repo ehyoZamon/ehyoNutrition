@@ -5,40 +5,40 @@
   "content": [
     {
       "title": "About",
-      "content": "Cabbage (Brassica oleracea var. capitata) is a leafy green, red, or white biennial plant grown as an annual vegetable crop for its dense-leaved heads. It is closely related to broccoli, cauliflower, and Brussels sprouts. Cabbage is widely used in raw salads like coleslaw, as well as cooked in soups, stews, and fermented dishes like sauerkraut and kimchi."
+      "content": "Cabbage (Brassica oleracea var. capitata) is a leafy vegetable that forms a dense, round head of tightly wrapped leaves. It is a member of the cruciferous family, along with broccoli and kale, and comes in green, red, and savoy varieties. Cabbage has a crisp texture and a mild, slightly peppery flavor and is eaten raw, cooked, or fermented."
     },
     {
       "title": "Interesting Facts",
       "items": [
-        "Cabbage is one of the oldest known vegetables, cultivated for over 4,000 years.",
-        "Fermented cabbage (sauerkraut) was historically used by sailors to prevent scurvy on long voyages due to its high vitamin C content.",
-        "There are major varieties including green, red, and Savoy cabbage.",
-        "Red cabbage contains anthocyanins, which change color based on acidity levels.",
-        "China is the largest producer of cabbage in the world."
+        "Cabbage was domesticated from wild cabbage native to the coasts of Europe.",
+        "Fermented cabbage is the basis of sauerkraut and kimchi.",
+        "Red cabbage gets its color from anthocyanins, which change color with acidity and can act as a natural pH indicator.",
+        "Cabbage has been grown for thousands of years and is a staple in many cuisines.",
+        "Cabbage keeps well for weeks, which made it an important winter vegetable."
       ]
     },
     {
       "title": "Potential Health Benefits",
       "items": [
         {
-          "title": "Rich in Vitamin C",
-          "content": "Supports immune function, collagen production, and iron absorption."
+          "title": "Rich in vitamin C and vitamin K",
+          "content": "Cabbage provides vitamin C for immune support and vitamin K for normal blood clotting."
         },
         {
-          "title": "Contains Glucosinolates",
-          "content": "Sulfur-containing compounds that have potential antioxidant and cellular defense properties."
+          "title": "Provides dietary fiber",
+          "content": "Cabbage contributes fiber that supports normal digestion."
         },
         {
-          "title": "Supports Digestive Health",
-          "content": "Provides insoluble and soluble fiber, which aids healthy bowel movements and friendly gut bacteria."
+          "title": "Contains folate",
+          "content": "Folate supports normal cell function."
         },
         {
-          "title": "Heart Health Support",
-          "content": "Red cabbage contains anthocyanins, powerful antioxidants that support cardiovascular function."
+          "title": "Contains plant compounds",
+          "content": "Cabbage contains glucosinolates, and red cabbage contains anthocyanins, which have antioxidant properties."
         },
         {
-          "title": "Low in Calories",
-          "content": "A high-volume, nutrient-dense food ideal for weight management."
+          "title": "Low in calories",
+          "content": "Cabbage is low in calories and filling, making it a nutrient-dense choice."
         }
       ]
     },
@@ -46,26 +46,30 @@
       "title": "Potential Risks and Precautions",
       "items": [
         {
-          "title": "Thyroid Considerations",
-          "content": "Raw cruciferous vegetables contain goitrogens, which may affect iodine uptake in very high amounts."
+          "title": "Gas and bloating",
+          "content": "Cabbage can cause gas or bloating in sensitive individuals, especially when raw."
         },
         {
-          "title": "Digestive Gas",
-          "content": "High fiber and raffinose content may cause bloating or gas in sensitive individuals."
+          "title": "Thyroid considerations",
+          "content": "Cruciferous vegetables contain compounds that may affect thyroid function in very large amounts. People with thyroid conditions should consult a healthcare professional."
         },
         {
-          "title": "Medication Interactions",
-          "content": "High vitamin K levels can interfere with blood-thinning medications like warfarin."
+          "title": "Possible medication interactions",
+          "content": "Cabbage contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Salt in fermented products",
+          "content": "Sauerkraut and kimchi can be high in sodium."
         }
       ]
     },
     {
       "title": "How to Eat",
-      "content": "Cabbage can be shredded for coleslaw, sautéed with garlic and olive oil, simmered in soups like borscht, or fermented into sauerkraut and kimchi."
+      "content": "Cabbage can be eaten raw in salads and coleslaw or cooked by steaming, sautéing, roasting, boiling, or braising. It can be stuffed, added to soups and stews, or fermented. Avoid overcooking, which can make it mushy and strong-smelling."
     },
     {
       "title": "Storage",
-      "content": "Store whole heads of cabbage in the refrigerator crisper drawer in a perforated plastic bag for up to two weeks. Once cut, wrap tightly in plastic wrap and use within a few days."
+      "content": "Store whole cabbage in the refrigerator crisper drawer, where it can keep for several weeks. Wrap cut cabbage tightly and use it within a few days. Wash it just before use and remove any wilted outer leaves."
     }
   ]
 }

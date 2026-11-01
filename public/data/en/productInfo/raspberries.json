@@ -1,0 +1,75 @@
+{
+  "id": "raspberries",
+  "title": "Raspberries",
+  "image": "/products/raspberries.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Raspberries are delicate, tender, red fruits of plants in the genus Rubus, with a sweet, slightly tart flavor. They are hollow in the center because the fruit separates from its core when picked. Raspberries also come in black, purple, and golden varieties and are eaten fresh and used in desserts, jams, sauces, and smoothies."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Botanically, a raspberry is an aggregate fruit made of many small drupelets.",
+        "Raspberries are hollow because the core stays on the plant when the fruit is picked.",
+        "Raspberries come in red, black, purple, and golden varieties.",
+        "Raspberries are among the highest-fiber fruits per serving.",
+        "They are related to blackberries and roses."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Raspberries are a rich source of fiber, which supports digestion and fullness."
+        },
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Provides manganese",
+          "content": "Manganese supports normal metabolism and bone health."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Raspberries contain anthocyanins and ellagic acid, which have antioxidant properties."
+        },
+        {
+          "title": "Low in sugar",
+          "content": "Raspberries are lower in sugar than many other fruits."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may be allergic to raspberries or sensitive to the natural salicylates they contain."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts of fiber and seeds may cause bloating in sensitive individuals."
+        },
+        {
+          "title": "Fragility and mold",
+          "content": "Raspberries spoil quickly and can mold, so discard any moldy berries."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Conventionally grown berries may carry residues, so wash them gently before eating."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Raspberries can be eaten fresh, added to yogurt, oatmeal, cereal, salads, and smoothies, or baked into muffins, tarts, and cakes. They can be cooked into jams, sauces, and coulis. Wash them gently just before eating."
+    },
+    {
+      "title": "Storage",
+      "content": "Raspberries are very delicate. Refrigerate them unwashed in a single layer in a breathable container and eat them within one to three days. Discard any moldy berries right away. Freeze them on a tray and then store them in a bag for longer storage."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "beetroot",
+  "title": "Beetroot",
+  "image": "/products/beetroot.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beetroot (Beta vulgaris) is a round, deep red-purple root vegetable with a sweet, earthy flavor, grown for its root and its edible leaves. It has been cultivated for centuries and is eaten roasted, boiled, pickled, raw, or juiced. Beetroot is a classic ingredient in dishes such as borscht and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beetroot belongs to the same species as sugar beet, Swiss chard, and beet greens.",
+        "Its deep red color comes from betalains, plant pigments with antioxidant properties.",
+        "Eating beetroot can temporarily turn urine or stool pink or red, a harmless effect called beeturia.",
+        "The leaves, known as beet greens, are edible and nutritious.",
+        "Beetroot comes in red, golden, white, and striped varieties."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains dietary nitrates",
+          "content": "Beetroot is a natural source of nitrates, which the body converts to nitric oxide, and they are being studied for blood pressure and exercise performance."
+        },
+        {
+          "title": "Provides folate",
+          "content": "Folate supports normal cell function."
+        },
+        {
+          "title": "Provides potassium and manganese",
+          "content": "These minerals support normal blood pressure and metabolism."
+        },
+        {
+          "title": "Contains betalains",
+          "content": "These plant pigments have antioxidant properties."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Beetroot contributes fiber that supports digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oxalates",
+          "content": "Beetroot and beet greens contain oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Blood pressure medication",
+          "content": "Beetroot, especially juice, may lower blood pressure. People taking blood pressure medication should consult a healthcare professional."
+        },
+        {
+          "title": "Beeturia and staining",
+          "content": "Beetroot can turn urine or stool pink or red, which is harmless but can be mistaken for blood, and it stains clothes and surfaces."
+        },
+        {
+          "title": "Natural sugar content",
+          "content": "Beetroot contains natural sugars, and juice is more concentrated, so portions matter."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Beetroot can be roasted, boiled, steamed, grated raw into salads, pickled, or blended into soups such as borscht, smoothies, and hummus. Roasting concentrates its sweetness. Wear gloves when peeling to avoid staining your hands, and cook the leaves like spinach."
+    },
+    {
+      "title": "Storage",
+      "content": "Remove the leaves, leaving about 2.5 cm (1 inch) of stem, and store unwashed beetroots in the refrigerator crisper drawer, where they keep for two to three weeks. Beet greens keep for a few days. Cooked beetroot should be refrigerated in an airtight container and eaten within three to five days."
+    }
+  ]
+}

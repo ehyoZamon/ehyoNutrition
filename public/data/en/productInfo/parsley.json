@@ -1,0 +1,75 @@
+{
+  "id": "parsley",
+  "title": "Parsley",
+  "image": "/products/parsley.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Parsley (Petroselinum crispum) is a bright green, leafy herb native to the Mediterranean region, with a fresh, slightly peppery flavor. The two main types are curly parsley and flat-leaf (Italian) parsley. Parsley is used as a garnish and as a flavoring in salads, sauces, soups, marinades, and many other dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Parsley belongs to the same plant family as carrots, celery, dill, and cilantro.",
+        "Flat-leaf parsley has a stronger flavor than curly parsley and is preferred for cooking.",
+        "Parsley root, a relative of the herb, is also eaten as a vegetable.",
+        "Parsley is a key ingredient in tabbouleh, chimichurri, and gremolata.",
+        "Parsley has been used as a culinary and traditional herb since ancient times."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Very rich in vitamin K",
+          "content": "Parsley is an excellent source of vitamin K, which supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Provides vitamin C and vitamin A",
+          "content": "Parsley contains vitamin C and carotenoids that support the immune system and vision."
+        },
+        {
+          "title": "Provides folate and iron",
+          "content": "These nutrients support cell function and oxygen transport."
+        },
+        {
+          "title": "Contains plant compounds",
+          "content": "Parsley contains flavonoids such as apigenin and luteolin with antioxidant properties."
+        },
+        {
+          "title": "Adds flavor with few calories",
+          "content": "Parsley brightens dishes without adding many calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Possible medication interactions",
+          "content": "Parsley contains vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Pregnancy and concentrated products",
+          "content": "Parsley in normal food amounts is generally fine, but large medicinal amounts, concentrated oil, or supplements should be avoided during pregnancy unless advised by a healthcare professional."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Parsley contains oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Allergic reactions and skin sensitivity",
+          "content": "Parsley belongs to the same family as celery and carrots, so cross-reactions are possible, and handling large amounts in sunlight may cause skin irritation in sensitive people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh parsley can be chopped into salads, soups, sauces, marinades, eggs, and grains, or blended into pesto, chimichurri, and green juices. Add it at the end of cooking to keep its flavor and color. The stems also have flavor and can be used in stocks."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh parsley in the refrigerator, with the stems in a glass of water loosely covered or wrapped in a damp paper towel in a bag, where it keeps for about a week. Chopped parsley can be frozen. Store dried parsley in an airtight container in a cool, dark place."
+    }
+  ]
+}

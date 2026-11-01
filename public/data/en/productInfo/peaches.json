@@ -1,0 +1,75 @@
+{
+  "id": "peaches",
+  "title": "Peaches",
+  "image": "/products/peaches.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Peaches (Prunus persica) are round, juicy stone fruits native to China, with fuzzy skin in yellow and red shades and sweet, fragrant flesh around a large pit. The flesh can be yellow or white. Peaches are eaten fresh and used in desserts, jams, smoothies, salads, and savory dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Peaches have been cultivated in China for thousands of years.",
+        "Nectarines are peaches without fuzz, and they come from a natural genetic variation, not a hybrid with plums.",
+        "Peaches are related to almonds, plums, cherries, and apricots.",
+        "In freestone peaches the flesh separates easily from the pit, while in clingstone peaches it clings to it.",
+        "Peaches continue to soften after harvest but do not get much sweeter."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides vitamin C and vitamin A",
+          "content": "Peaches contain vitamin C and carotenoids that support the immune system, skin, and vision."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Peaches contribute fiber, especially when eaten with the skin."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Peaches contain plant compounds with antioxidant properties."
+        },
+        {
+          "title": "Hydrating and low in calories",
+          "content": "Peaches are juicy and relatively low in calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Peach allergy can cause itching in the mouth and, in some people, more severe reactions."
+        },
+        {
+          "title": "Pit and kernel",
+          "content": "Do not eat the kernel inside the pit, because it contains a compound that can release cyanide."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Peaches contain natural sugars and sorbitol that may cause bloating or loose stools in sensitive individuals."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Wash peaches thoroughly before eating, especially if eating the skin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Peaches can be eaten fresh, sliced into yogurt, oatmeal, and salads, grilled, baked into pies and cobblers, or blended into smoothies. They can be cooked into jams and sauces and paired with savory dishes. Leaving the skin on adds fiber."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep firm peaches at room temperature until they soften slightly and smell sweet. Ripe peaches can be refrigerated for three to five days. Sprinkle cut peaches with lemon juice to slow browning. Peach slices can be frozen."
+    }
+  ]
+}

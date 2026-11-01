@@ -1,0 +1,75 @@
+{
+  "id": "kefir",
+  "title": "Kefir",
+  "image": "/products/kefir.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Kefir is a tangy, slightly fizzy fermented milk drink made by adding kefir grains, which are small colonies of bacteria and yeasts, to milk. It originated in the North Caucasus and is popular in Eastern Europe, Central Asia, and increasingly around the world. Kefir has a thin, drinkable texture and is consumed on its own, in smoothies, and in cooking."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Kefir originated in the North Caucasus region and has been made for centuries.",
+        "Kefir grains look like small clumps of cauliflower and are used again and again to make new batches.",
+        "Kefir contains a wider variety of microorganisms than most yogurts, including both bacteria and yeasts.",
+        "Fermentation lowers the lactose content compared with milk.",
+        "Kefir can also be made with plant-based drinks, and water kefir is a separate, non-dairy fermented drink."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains live cultures",
+          "content": "Kefir provides live bacteria and yeasts that may support digestive health."
+        },
+        {
+          "title": "Provides protein and calcium",
+          "content": "Kefir provides protein and calcium, which support muscles, bones, and teeth."
+        },
+        {
+          "title": "Provides B vitamins",
+          "content": "Kefir contains vitamin B12 and riboflavin (B2)."
+        },
+        {
+          "title": "May be easier to digest than milk",
+          "content": "Microbes in kefir break down some lactose, so many people with mild lactose intolerance tolerate it better."
+        },
+        {
+          "title": "Versatile",
+          "content": "Kefir can replace buttermilk or yogurt in many recipes and drinks."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk allergy",
+          "content": "Dairy kefir contains milk protein and should be avoided by people allergic to milk."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Kefir still contains some lactose and may cause discomfort in sensitive individuals."
+        },
+        {
+          "title": "Digestive adjustment",
+          "content": "Kefir may cause gas or bloating when you first start drinking it, so introduce it gradually."
+        },
+        {
+          "title": "Weakened immunity, sugar, and medications",
+          "content": "People with weakened immunity should ask a healthcare professional about live-culture products. Flavored kefir can contain added sugar, and calcium in dairy can reduce the absorption of some medications."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Kefir can be drunk on its own, blended into smoothies, poured over cereal, or used in pancakes, baking, salad dressings, and cold soups. Plain kefir can be flavored with fruit or honey. It can replace buttermilk in many recipes."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep kefir refrigerated and use it by the date on the package. After opening, close the container tightly and use it within about a week. It continues to ferment and become more sour over time. Discard kefir that smells bad or has mold."
+    }
+  ]
+}

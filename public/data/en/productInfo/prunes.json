@@ -1,0 +1,75 @@
+{
+  "id": "prunes",
+  "title": "Prunes",
+  "image": "/products/prunes.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Prunes are dried plums of special varieties (Prunus domestica) that are high in sugar and can be dried with the pit without fermenting. Prunes have dark, sticky, soft flesh with a sweet-tart flavor. They are eaten as a snack and added to desserts, baked goods, porridge, sauces, and meat dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Special plum varieties with a high sugar content are used for prunes.",
+        "In the United States, prunes have been allowed to be called dried plums since 2000.",
+        "One of the best-known production regions is Agen in France.",
+        "Prunes have long been paired with meat, such as chicken, duck, and beef, in Russian and European cooking.",
+        "Plums used for prunes are usually smaller and more oval than table varieties."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contain fiber and sorbitol",
+          "content": "These compounds help keep bowel movements regular."
+        },
+        {
+          "title": "Contain potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contain vitamin K",
+          "content": "Vitamin K plays a role in blood clotting and bone health."
+        },
+        {
+          "title": "Contain polyphenols",
+          "content": "The phenolic compounds in prunes have antioxidant properties."
+        },
+        {
+          "title": "Studied for bone health",
+          "content": "Prunes are being studied in relation to maintaining bone density, but evidence is still limited."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Diarrhea and bloating",
+          "content": "Because of fiber and sorbitol, a large amount of prunes can cause diarrhea, gas, and cramps."
+        },
+        {
+          "title": "Sugar and calories",
+          "content": "Prunes are high in calories and sugar, so portions should be moderate."
+        },
+        {
+          "title": "Potassium",
+          "content": "People with kidney disease who need to limit potassium should consult a doctor."
+        },
+        {
+          "title": "Sulfites and pits",
+          "content": "Some prunes are treated with sulfites, and fruit sold with pits may contain a pit that can damage teeth."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Prunes can be eaten as a snack or added to porridge, yogurt, baked goods, desserts, sauces, and meat or poultry dishes. To soften hard prunes, soak them in warm water for a while. A small handful is enough."
+    },
+    {
+      "title": "Storage",
+      "content": "Store prunes in an airtight container in a cool, dry, dark place; they keep longer in the refrigerator. Discard fruit that is moldy, smells sour, or shows signs of fermentation."
+    }
+  ]
+}

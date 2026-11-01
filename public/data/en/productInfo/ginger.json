@@ -1,0 +1,75 @@
+{
+  "id": "ginger",
+  "title": "Ginger",
+  "image": "/products/ginger.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Ginger is the rhizome of the plant Zingiber officinale, native to Southeast Asia. It has a pungent, warming, slightly sweet and citrusy flavor. Ginger is used fresh, dried, ground, and pickled, and is added to tea, soups, sauces, baked goods, and Asian dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The edible part of ginger is not a root but a rhizome, an underground stem of the plant.",
+        "Ginger is related to turmeric and cardamom.",
+        "Gingerols give ginger its heat; when dried, they partly turn into the more pungent shogaols.",
+        "Pickled ginger is traditionally served with sushi.",
+        "India and China are among the largest producers of ginger."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "May reduce nausea",
+          "content": "Ginger is studied as a remedy for nausea, including motion sickness and nausea during pregnancy."
+        },
+        {
+          "title": "Contains gingerols",
+          "content": "Gingerols and other compounds in ginger have antioxidant properties."
+        },
+        {
+          "title": "May support digestion",
+          "content": "Ginger is traditionally used to ease discomfort and heaviness after meals."
+        },
+        {
+          "title": "Anti-inflammatory properties",
+          "content": "Compounds in ginger are being studied for anti-inflammatory effects, but evidence is still limited."
+        },
+        {
+          "title": "Adds flavor without calories",
+          "content": "A small amount of ginger makes dishes flavorful with practically no extra calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Heartburn",
+          "content": "In large amounts, ginger may cause heartburn and stomach irritation."
+        },
+        {
+          "title": "Effect on blood clotting",
+          "content": "Large amounts of ginger may affect blood clotting; people taking anticoagulants or facing surgery should consult a doctor."
+        },
+        {
+          "title": "Gallstones",
+          "content": "Ginger may increase bile flow, so people with gallstones should check with a doctor."
+        },
+        {
+          "title": "Supplements and medications",
+          "content": "Concentrated ginger supplements, especially during pregnancy or alongside blood pressure or diabetes medications, should be discussed with a doctor."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh ginger can be grated or sliced and added to tea, soups, sauces, marinades, vegetable and meat dishes, and baked goods. The skin is easy to scrape off with a spoon. Much less ground ginger is needed than fresh, and its flavor is different."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh ginger in the refrigerator, wrapped in paper or in a container, where it keeps for two to three weeks. For longer storage, freeze it whole or grated. Keep ground ginger in an airtight jar in a cool, dark place. Discard the root if it becomes soft, shriveled, or moldy."
+    }
+  ]
+}

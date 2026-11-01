@@ -1,0 +1,75 @@
+{
+  "id": "dill",
+  "title": "Dill",
+  "image": "/products/dill.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Dill (Anethum graveolens) is an aromatic herb with feathery green leaves and small seeds, native to southwestern Asia and the Mediterranean and eastern Europe regions. Its fresh, grassy, slightly anise-like flavor is a signature of Eastern European, Scandinavian, and Central Asian cooking. Both the leaves, often called dill weed, and the seeds are used as flavoring."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Dill is a member of the same plant family as parsley, carrots, celery, and fennel.",
+        "Dill leaves and dill seeds have different flavors; the seeds are stronger and slightly bitter.",
+        "Dill is a classic flavoring for pickled cucumbers.",
+        "Fresh dill loses flavor quickly when cooked, so it is usually added at the end.",
+        "Dill has been used as a culinary and traditional herb for thousands of years."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Adds flavor with few calories",
+          "content": "Dill brightens the taste of food and can reduce the need for added salt."
+        },
+        {
+          "title": "Provides small amounts of vitamins",
+          "content": "Dill contains vitamin C, vitamin A (as carotenoids), and folate."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Dill contains manganese and some iron and calcium."
+        },
+        {
+          "title": "Contains aromatic compounds",
+          "content": "Dill contains essential oils such as carvone and limonene and plant compounds with antioxidant properties."
+        },
+        {
+          "title": "Easy to add to meals",
+          "content": "Fresh dill goes well with fish, potatoes, eggs, salads, and yogurt sauces."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Dill belongs to the same family as celery, carrots, and parsley, and people allergic to those plants may also react to dill."
+        },
+        {
+          "title": "Pregnancy and concentrated products",
+          "content": "Dill in normal food amounts is generally fine, but concentrated dill oil, extracts, or supplements should be discussed with a healthcare professional, especially during pregnancy."
+        },
+        {
+          "title": "Skin sensitivity",
+          "content": "Handling large amounts of dill and exposure to sunlight may cause skin irritation in sensitive individuals."
+        },
+        {
+          "title": "Contamination",
+          "content": "Wash fresh herbs thoroughly before use."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh dill can be chopped and added to salads, yogurt sauces, soups, potatoes, eggs, fish, and fresh cheeses at the end of cooking. Dill seeds are used for pickling and baking. Dill is often paired with cucumbers, garlic, and lemon."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh dill in the refrigerator, either wrapped in a damp paper towel in a bag or with its stems in a glass of water loosely covered, where it keeps for about a week. Chopped dill can be frozen. Store dried dill and dill seeds in airtight containers in a cool, dark place."
+    }
+  ]
+}

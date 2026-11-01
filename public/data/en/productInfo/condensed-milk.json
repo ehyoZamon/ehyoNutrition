@@ -1,0 +1,75 @@
+{
+  "id": "condensed-milk",
+  "title": "Condensed Milk",
+  "image": "/products/condensed-milk.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Condensed milk is a dairy product made by evaporating part of the water from milk. Most often it is sweetened condensed milk: thick, sweet, creamy, with a caramel tint. It is added to coffee and tea, desserts, cakes, creams, and baked goods, and also eaten as a sweet treat."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The modern method of making condensed milk was invented in the 19th century, largely so milk could be stored for a long time.",
+        "The large amount of sugar acts as a preservative.",
+        "Boiled condensed milk is a favorite filling for cakes, layers, and nut cookies in Russian cuisine.",
+        "In Vietnam, condensed milk is used to make a popular iced coffee.",
+        "Sweetened condensed milk differs from unsweetened concentrated milk (evaporated milk), to which no sugar is added."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Thanks to sugar and milk fat, condensed milk is very high in calories and provides quick energy."
+        },
+        {
+          "title": "Contains calcium",
+          "content": "Like other dairy products, it provides calcium, which bones and teeth need."
+        },
+        {
+          "title": "Contains protein",
+          "content": "It contains milk protein."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Small amounts of riboflavin and B12 are present."
+        },
+        {
+          "title": "Long shelf life",
+          "content": "An unopened can can be stored for a long time without refrigeration, which is convenient."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "A lot of sugar and calories",
+          "content": "Condensed milk contains a great deal of sugar, which is bad for teeth and undesirable for people with diabetes, so portions should be small."
+        },
+        {
+          "title": "Lactose",
+          "content": "It may not suit people with lactose intolerance."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Condensed milk is not suitable for people with an allergy to cow's milk proteins."
+        },
+        {
+          "title": "Damaged can",
+          "content": "A bulging, rusty, or badly dented can is best not used."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Add condensed milk to coffee, tea, creams, cakes, baked goods, ice cream, and desserts, or eat it in small amounts. For boiled condensed milk, it is better to pour the milk into a covered container and cook it in a water bath rather than boil a sealed can: if the can ends up without water around it, it can explode."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened cans in a cool, dry place until the expiration date. After opening, transfer the milk to a covered glass or plastic container, keep it in the refrigerator, and use it within one to two weeks. Discard milk that smells sour, is moldy, or has changed color."
+    }
+  ]
+}

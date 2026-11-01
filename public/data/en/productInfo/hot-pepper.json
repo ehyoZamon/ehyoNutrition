@@ -1,0 +1,75 @@
+{
+  "id": "hot-pepper",
+  "title": "Hot Pepper",
+  "image": "/products/hot-pepper.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Hot peppers, also called chili peppers, are the pungent fruits of plants in the genus Capsicum, native to the Americas. They come in many varieties, from mild jalapeños to very hot habaneros and ghost peppers. Their heat comes from capsaicin, and they are used fresh, dried, and ground to flavor dishes around the world."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The heat of chili peppers comes from capsaicin, which is concentrated in the white membranes around the seeds.",
+        "Heat is measured on the Scoville scale, from mild peppers to extremely hot ones.",
+        "Birds do not feel the heat of capsaicin, which helps them spread the seeds.",
+        "Dairy products such as milk or yogurt can help relieve the burning sensation better than water.",
+        "Chili peppers were domesticated in the Americas thousands of years ago and are now used worldwide."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Hot peppers contain a lot of vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "Red peppers provide carotenoids that the body can convert into vitamin A."
+        },
+        {
+          "title": "Contains capsaicin",
+          "content": "Capsaicin is being studied for its effects on metabolism and satiety."
+        },
+        {
+          "title": "Adds flavor without salt",
+          "content": "Spicy peppers add strong flavor, which can reduce the need for added salt."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Hot peppers contain flavonoids and other plant compounds with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Burning and irritation",
+          "content": "Hot peppers can cause burning in the mouth, stomach discomfort, heartburn, or diarrhea, especially in people with reflux, gastritis, or irritable bowel syndrome."
+        },
+        {
+          "title": "Skin and eye irritation",
+          "content": "Capsaicin can burn skin and eyes. Wear gloves when handling hot peppers and wash your hands thoroughly."
+        },
+        {
+          "title": "Extremely hot peppers",
+          "content": "Very hot peppers eaten in large amounts or in challenges can cause vomiting, severe pain, and other serious problems."
+        },
+        {
+          "title": "Allergic reactions and children",
+          "content": "Allergy to peppers is possible, and very spicy foods are not suitable for young children."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hot peppers can be chopped into salsas, sauces, stir-fries, curries, and soups, or roasted, pickled, dried, and ground into chili powder and flakes. Removing the seeds and white membranes reduces the heat. Start with small amounts and adjust to taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh hot peppers in the refrigerator in a paper bag or breathable container, where they keep for one to two weeks. Peppers can be frozen or dried for longer storage. Keep dried peppers and chili powder in airtight containers in a cool, dark place."
+    }
+  ]
+}

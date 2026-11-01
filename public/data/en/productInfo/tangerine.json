@@ -1,0 +1,75 @@
+{
+  "id": "tangerine",
+  "title": "Tangerine",
+  "image": "/products/tangerine.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tangerine (Citrus reticulata) is a citrus fruit native to Southeast Asia. It is smaller than an orange, easy to peel, and has a sweet-tart flavor with a bright aroma. Tangerines are eaten fresh, added to salads, desserts, and baked goods, made into juice, and their fragrant zest is used as a seasoning."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The word tangerine comes from the name of the Moroccan city of Tangier.",
+        "In many countries of the former USSR, tangerines are a traditional symbol of the New Year.",
+        "Clementines and satsumas are close varieties of mandarin that are usually almost seedless.",
+        "The tangerine's skin is loose and easily separates from the flesh.",
+        "Tangerine zest is used in cooking, and dried peel is used in teas and spices."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains fiber",
+          "content": "Fiber, especially in the white strands on the segments, supports digestion."
+        },
+        {
+          "title": "Contains folate",
+          "content": "Folate plays a role in cell formation."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "Beta-cryptoxanthin and other carotenoids give the fruit its color and have antioxidant properties."
+        },
+        {
+          "title": "Contains flavonoids",
+          "content": "Hesperidin and other citrus flavonoids are studied as beneficial antioxidants."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Acidity",
+          "content": "Tangerines are acidic and may cause heartburn or irritate tooth enamel."
+        },
+        {
+          "title": "Allergy",
+          "content": "Citrus fruits can cause allergic reactions, especially in small children."
+        },
+        {
+          "title": "Juice and sugar",
+          "content": "Tangerine juice has little fiber and a lot of sugar, so whole fruit is a better choice."
+        },
+        {
+          "title": "Medications",
+          "content": "Unlike grapefruit, tangerines usually do not interfere with medications, but if a medication leaflet warns about citrus, consult a doctor."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Peel the tangerine and eat it in segments as a snack, or add it to salads, yogurt, desserts, and baked goods, or make sauces and drinks with it. The zest can be grated into dough, creams, and tea, but use thoroughly washed fruit for this."
+    },
+    {
+      "title": "Storage",
+      "content": "Tangerines can be kept at room temperature for a few days, or in a cool place or the refrigerator for one to two weeks. Do not store them in tightly closed bags, as mold can develop. Discard any moldy fruit. The zest can be frozen."
+    }
+  ]
+}

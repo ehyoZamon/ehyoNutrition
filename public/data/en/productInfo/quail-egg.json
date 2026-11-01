@@ -1,0 +1,75 @@
+{
+  "id": "quail-egg",
+  "title": "Quail Egg",
+  "image": "/products/quail-egg.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Quail eggs are small speckled eggs of the Japanese quail (Coturnix japonica). A single egg weighs about 10 grams, several times less than a chicken egg. The taste is delicate, similar to chicken egg, with a yolk that is large relative to the egg's size. The eggs are boiled, fried, and added to salads, appetizers, and Asian dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "One chicken egg is roughly equal in weight to four or five quail eggs.",
+        "Quail eggshells are speckled and thin, with a tough membrane underneath.",
+        "Quail eggs take only 2–4 minutes to hard-boil.",
+        "They are often served in salads, on appetizer skewers, in soups, and in Asian dishes.",
+        "Claims that quail eggs are hypoallergenic are not scientifically supported."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complete protein",
+          "content": "The egg provides protein with all the essential amino acids."
+        },
+        {
+          "title": "Contain vitamin B12 and riboflavin",
+          "content": "These vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "Contain iron",
+          "content": "Iron is needed for oxygen transport."
+        },
+        {
+          "title": "Contain selenium",
+          "content": "Selenium is a trace mineral with antioxidant properties."
+        },
+        {
+          "title": "Contain choline",
+          "content": "Choline is important for nervous system function and cell membranes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Salmonella",
+          "content": "Raw eggs, including quail eggs, may contain Salmonella; it is best not to eat them raw, especially for children, pregnant women, older adults, and people with weakened immunity."
+        },
+        {
+          "title": "Allergy",
+          "content": "Egg allergy is possible, including cross-reaction with chicken eggs."
+        },
+        {
+          "title": "Cholesterol",
+          "content": "Eggs contain cholesterol, and people with high cholesterol should discuss how many to eat with a doctor."
+        },
+        {
+          "title": "Small size",
+          "content": "Whole small eggs can be a choking hazard for small children."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hard-boil quail eggs for 2–4 minutes, cool them in cold water, and peel. Add them to salads, appetizers, sandwiches, soups, and rolls and Asian dishes, or fry them whole. For safety, the white and yolk should be fully set."
+    },
+    {
+      "title": "Storage",
+      "content": "Store eggs in the refrigerator in their original package, away from strong-smelling foods, and use them before the expiration date. Do not wash them in advance. Keep boiled eggs in the refrigerator for a few days. Discard cracked eggs and eggs with an unpleasant smell."
+    }
+  ]
+}

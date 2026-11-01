@@ -1,0 +1,75 @@
+{
+  "id": "mung-bean",
+  "title": "Mung Bean",
+  "image": "/products/mung-bean.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mung beans (Vigna radiata) are small green legumes native to India and South Asia. They are eaten whole, split (dal), or as sprouts, and are also made into flour and starch. Mung beans have a mild, slightly sweet, nutty flavor. They cook quickly and are widely used in the cuisines of India, China, Southeast Asia, and Central Asia."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Mung beans have been grown in South Asia for thousands of years.",
+        "Mung bean sprouts are a popular ingredient in Asian cooking, often called bean sprouts.",
+        "Mung bean starch is used to make clear glass noodles.",
+        "Mung beans cook faster than many other legumes and do not always need long soaking.",
+        "In Central Asia, mung beans are used in dishes such as mashhurda and mashkichiri."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Mung beans provide plant protein and are often used in plant-based diets."
+        },
+        {
+          "title": "Contain fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contain folate",
+          "content": "Folate is important for cell formation."
+        },
+        {
+          "title": "Contain iron, magnesium, and potassium",
+          "content": "These minerals support muscle and nerve function and oxygen transport."
+        },
+        {
+          "title": "Sprouts contain vitamin C",
+          "content": "Mung bean sprouts are a light vegetable ingredient with vitamin C."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Raw sprouts",
+          "content": "Raw sprouts can be contaminated with bacteria, so it is better to blanch or cook them; vulnerable people and pregnant women should avoid raw sprouts."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "Like other legumes, mung beans can cause gas; soaking and introducing them gradually help."
+        },
+        {
+          "title": "Allergy",
+          "content": "Mung beans are legumes, and allergies are possible, including cross-reactions with other legumes."
+        },
+        {
+          "title": "Antinutrients",
+          "content": "Raw mung beans contain phytates and lectins; soaking and thorough cooking reduce them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse mung beans, soak them for a few hours if you like, and cook for 20–30 minutes until soft; split mung beans cook faster. Add them to soups, porridges, pilaf, vegetable stews, and salads. Sprouts can be briefly blanched and added to salads and stir-fries."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry mung beans in an airtight container in a dry, cool, dark place. Keep cooked mung beans in the refrigerator for 3–5 days. Store sprouts in the refrigerator and use them within a few days, as they spoil quickly."
+    }
+  ]
+}

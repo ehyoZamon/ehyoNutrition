@@ -1,0 +1,75 @@
+{
+  "id": "cheese",
+  "title": "Cheese",
+  "image": "/products/cheese.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cheese is a dairy food made from the curds of milk, most often from cows, goats, sheep, or buffalo. Milk is curdled, drained, and often pressed, salted, and aged, producing thousands of varieties that range from fresh and soft to hard and aged. Cheese is eaten on its own, with bread and fruit, and used in cooking in countless dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cheese has been made for thousands of years as a way to preserve milk.",
+        "Thousands of varieties exist, differing in milk type, bacteria and molds used, and aging time.",
+        "Cheeses range from fresh (cottage cheese, mozzarella) to soft, semi-hard, hard (parmesan), and blue.",
+        "Aged cheeses are generally lower in lactose than fresh cheeses.",
+        "Some cheeses are made with animal rennet and others with microbial or plant-based coagulants."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein and calcium",
+          "content": "Cheese provides protein and calcium, which support muscles, bones, and teeth."
+        },
+        {
+          "title": "Provides vitamin B12 and phosphorus",
+          "content": "These nutrients support red blood cell formation and bone health."
+        },
+        {
+          "title": "Provides zinc",
+          "content": "Zinc supports immune function."
+        },
+        {
+          "title": "Often lower in lactose",
+          "content": "Aged hard cheeses contain very little lactose and are often tolerated by people with lactose intolerance."
+        },
+        {
+          "title": "Flavorful and filling",
+          "content": "A small amount of cheese adds a lot of flavor and helps you feel full."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sodium and saturated fat",
+          "content": "Many cheeses are high in sodium and saturated fat, so portion size matters, especially for people limiting salt or saturated fat."
+        },
+        {
+          "title": "Milk allergy and lactose",
+          "content": "Cheese contains milk protein, so people with milk allergy should avoid it, and fresh cheeses contain some lactose."
+        },
+        {
+          "title": "Listeria",
+          "content": "Soft and unpasteurized cheeses can carry Listeria bacteria. Pregnant women, older adults, and people with weakened immunity should avoid them or follow healthcare advice."
+        },
+        {
+          "title": "Tyramine and medications",
+          "content": "Aged cheeses are high in tyramine, which can be a problem for people taking MAOI antidepressants. Ask a healthcare professional if you take them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cheese can be eaten on its own, on bread and crackers, with fruit and nuts, grated onto pasta, soups, and salads, melted in sandwiches and pizzas, or baked into dishes. Choose smaller portions of strongly flavored cheeses. Let cheese warm slightly before serving for better flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cheese in the refrigerator wrapped in wax paper, parchment, or cheese paper, then loosely in plastic, so it can breathe. Hard cheeses keep for several weeks, while soft and fresh cheeses should be eaten by the date on the package. If hard cheese develops mold, cut off at least about 2.5 cm (1 inch) around it, but discard soft cheese with mold. Freezing can change the texture."
+    }
+  ]
+}

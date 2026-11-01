@@ -1,0 +1,75 @@
+{
+  "id": "black-tea",
+  "title": "Black Tea",
+  "image": "/products/black-tea.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Black tea is a drink made from fully oxidized (fermented) leaves of the tea plant Camellia sinensis. It has a rich, slightly astringent flavor, a dark brew, and a deep aroma. Black tea is drunk hot or iced, with milk, lemon, sugar, or honey, and is also used in blends with spices and flavorings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Black and green tea are made from the leaves of the same plant, Camellia sinensis; the difference is in the processing.",
+        "Well-known black tea varieties include Assam, Darjeeling, Ceylon, and Keemun.",
+        "Earl Grey tea is flavored with bergamot oil.",
+        "In China, black tea is called red tea because of the color of the brew.",
+        "Black tea is the most popular type of tea in the world."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains polyphenols",
+          "content": "Theaflavins and other polyphenols in black tea have antioxidant properties."
+        },
+        {
+          "title": "Contains caffeine",
+          "content": "Caffeine supports alertness and concentration; a cup of tea usually has less than a cup of coffee."
+        },
+        {
+          "title": "Contains L-theanine",
+          "content": "This amino acid works together with caffeine and may promote calm focus."
+        },
+        {
+          "title": "May be part of a heart-friendly diet",
+          "content": "In observational studies, moderate tea drinking is linked to heart and vascular health."
+        },
+        {
+          "title": "Calorie-free",
+          "content": "Tea without sugar or milk adds practically no calories and helps you keep up your fluid intake."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine",
+          "content": "In large amounts, the caffeine in tea can cause anxiety, insomnia, and a racing heartbeat."
+        },
+        {
+          "title": "Reduced iron absorption",
+          "content": "Tannins in tea can reduce the absorption of iron from plant foods, so people with low iron should drink tea between meals."
+        },
+        {
+          "title": "Very hot tea",
+          "content": "Regularly drinking very hot beverages is linked to a higher risk of esophageal problems; let tea cool a little first."
+        },
+        {
+          "title": "Teeth and additions",
+          "content": "Tea can stain tooth enamel, and sugar and syrups add calories and harm teeth."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Use about a teaspoon of leaves per cup, pour over freshly boiled water, and steep for 3–5 minutes. Over-steeped tea turns bitter. Drink it with milk, lemon, honey, or sugar, or chill the brew for iced tea."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry tea in an airtight container in a dry, dark, cool place away from strong-smelling foods. The aroma fades over time, so use tea within a reasonable period. Keep brewed tea in the refrigerator for no more than a day."
+    }
+  ]
+}

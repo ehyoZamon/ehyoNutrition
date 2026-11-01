@@ -1,0 +1,75 @@
+{
+  "id": "dates",
+  "title": "Dates",
+  "image": "/products/dates.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Dates are sweet fruits of the date palm (Phoenix dactylifera), native to the Middle East and North Africa. They have soft, sticky flesh with a caramel-like flavor and one elongated pit. Dates are eaten fresh and dried, added to desserts, baked goods, porridge, and smoothies, and used as a natural sweetener."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Date palms have been cultivated for thousands of years and bear fruit for a long time.",
+        "During Ramadan, Muslims traditionally break their fast with dates.",
+        "The best-known varieties are Medjool and Deglet Noor.",
+        "Dried dates are very sweet because they contain a lot of natural sugars.",
+        "Dates are made into paste and syrup, which are used in place of sugar."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full for longer."
+        },
+        {
+          "title": "Contain potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contain magnesium",
+          "content": "Magnesium plays a role in muscle and nerve function."
+        },
+        {
+          "title": "Contain antioxidants",
+          "content": "The polyphenols and carotenoids in dates have antioxidant properties."
+        },
+        {
+          "title": "Quick source of energy",
+          "content": "Thanks to natural sugars, dates provide energy quickly, which makes them handy as a snack."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar and calories",
+          "content": "Dates are very sweet and high in calories, so portions should be moderate, and people with diabetes need to count them in their diet."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "The fructose and sorbitol in dates can cause bloating and discomfort in some people."
+        },
+        {
+          "title": "Potassium",
+          "content": "People with kidney disease who need to limit potassium should consult a doctor."
+        },
+        {
+          "title": "Pits and additives",
+          "content": "The pit can damage teeth, and some dried dates contain sulfites or syrup."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Dates can be eaten as a snack, stuffed with nuts, cream cheese, or peanut butter, or added to smoothies, porridge, yogurt, and baked goods. They are made into a paste to replace sugar in desserts. Remove the pits before using."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried dates in an airtight container in a cool, dry place; they keep longer in the refrigerator and even longer in the freezer. Keep fresh dates in the refrigerator. Discard dates that are moldy, smell sour, or show signs of fermentation."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "pineapple",
+  "title": "Pineapple",
+  "image": "/products/pineapple.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pineapple (Ananas comosus) is a tropical fruit native to South America. It has a sweet-tart flavor, juicy fragrant flesh, and a tough, spiky skin. Pineapple is eaten fresh, canned, or as juice, and is added to desserts, salads, baked goods, and meat dishes, or grilled."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A pineapple is not a single fruit but a multiple fruit formed from many fused berries.",
+        "It grows not on a tree but on a low plant close to the ground.",
+        "Pineapple contains bromelain, an enzyme that breaks down proteins, which is why fresh pineapple can make your mouth tingle.",
+        "Because of bromelain, gelatin made with raw pineapple does not set, while canned pineapple does not have this effect.",
+        "Pineapple does not become noticeably sweeter after harvest, so it is important to choose a ripe fruit."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains manganese",
+          "content": "Manganese plays a role in metabolism and bone formation."
+        },
+        {
+          "title": "Contains bromelain",
+          "content": "Bromelain is studied as a compound that may support digestion."
+        },
+        {
+          "title": "Contains fiber and water",
+          "content": "Pineapple is refreshing and provides some fiber."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "It provides thiamine and vitamin B6, which help the body get energy from food."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Acidity",
+          "content": "Pineapple is acidic and may cause heartburn or irritate the mouth, tongue, and tooth enamel."
+        },
+        {
+          "title": "Allergy",
+          "content": "Pineapple allergy is possible, including reactions to bromelain."
+        },
+        {
+          "title": "Sugar",
+          "content": "Pineapple contains natural sugars, so people with diabetes should watch their portion size."
+        },
+        {
+          "title": "Bromelain and medications",
+          "content": "Large amounts of bromelain or bromelain supplements may interact with anticoagulants and some antibiotics."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cut off the top and base, slice away the skin, remove the \"eyes,\" and, if you like, the tough core. Cut the flesh into slices or cubes and eat it fresh, add it to salads, smoothies, yogurt, and desserts, or grill it. Choose canned pineapple in its own juice rather than in syrup."
+    },
+    {
+      "title": "Storage",
+      "content": "A whole pineapple can be kept at room temperature for one to two days, then moved to the refrigerator. Store cut pineapple in an airtight container in the refrigerator for 3–5 days, or freeze it in pieces. Store canned pineapple as directed on the package, and refrigerate it after opening."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "zucchini",
+  "title": "Zucchini",
+  "image": "/products/zucchini.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Zucchini (Cucurbita pepo), also called courgette, is a summer squash with a tender, thin green skin and mild, slightly sweet flesh, harvested while still immature. It originated in the Americas and is now eaten worldwide. Zucchini is eaten raw or cooked and used in sautés, soups, baked goods, and as a low-carbohydrate substitute for pasta."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Zucchini is botanically a fruit, though it is used as a vegetable in cooking.",
+        "Zucchini is harvested while young and tender, unlike winter squashes.",
+        "Zucchini flowers are edible and are often stuffed and fried.",
+        "Zucchini can be spiralized into noodles often called zoodles.",
+        "Zucchini plants produce a large number of fruits quickly during the growing season."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides vitamin C and vitamin B6",
+          "content": "These vitamins support the immune system and metabolism."
+        },
+        {
+          "title": "Contains potassium and manganese",
+          "content": "These minerals support normal blood pressure and metabolism."
+        },
+        {
+          "title": "Contains lutein and zeaxanthin",
+          "content": "These plant pigments, especially in the skin, are associated with eye health."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Zucchini contributes fiber that supports digestion."
+        },
+        {
+          "title": "Hydrating and low in calories",
+          "content": "Zucchini is mostly water and low in calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Bitter zucchini",
+          "content": "Rarely, zucchini can contain high levels of bitter cucurbitacins that can cause stomach upset. Discard zucchini that tastes very bitter."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Zucchini allergy is uncommon but can occur."
+        },
+        {
+          "title": "Overcooking",
+          "content": "Overcooked zucchini becomes mushy and watery, and frying makes it absorb a lot of oil."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Zucchini can be sliced raw into salads, grilled, roasted, sautéed, steamed, spiralized into noodles, or grated into fritters, muffins, and breads. It can be stuffed or added to soups, stews, and pasta sauces. The skin and seeds are edible, so no peeling is needed."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unwashed zucchini in the refrigerator crisper drawer in a perforated bag, where it keeps for about a week. Wash it just before use. Grated zucchini can be blanched or squeezed dry and frozen for baking and soups."
+    }
+  ]
+}

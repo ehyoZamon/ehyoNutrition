@@ -5,36 +5,40 @@
   "content": [
     {
       "title": "About",
-      "content": "Garlic (Allium sativum) is a bulbous flowering plant closely related to the onion, shallot, and leek. Native to Central Asia and northeastern Iran, it has been a staple culinary seasoning and traditional herbal medicine worldwide for thousands of years, known for its pungent flavor and health properties."
+      "content": "Garlic (Allium sativum) is a bulb vegetable native to Central Asia and a close relative of onions, leeks, and chives. Each bulb is made up of several cloves wrapped in papery skin. It has a pungent, savory aroma and flavor that mellows and sweetens when cooked. Garlic is used worldwide as a flavoring and has a long history in traditional medicine."
     },
     {
       "title": "Interesting Facts",
       "items": [
-        "Crushing or chopping garlic activates alliinase, producing its active organosulfur compound, allicin.",
-        "Ancient Greek Olympic athletes consumed garlic to enhance performance.",
-        "Black garlic is produced by aging whole bulbs under controlled heat and humidity.",
-        "China produces over 70% of the global garlic supply.",
-        "Garlic bulbs can be stored for months under appropriate ventilation."
+        "Garlic has been cultivated for more than 5,000 years.",
+        "When garlic is crushed or chopped, an enzyme reaction forms allicin, which gives it its sharp smell.",
+        "Letting chopped garlic rest for about ten minutes before cooking can help preserve its beneficial compounds.",
+        "Black garlic is whole garlic aged under controlled heat and humidity, giving it a sweet, soft texture.",
+        "Garlic is one of the most widely used seasonings in the world."
       ]
     },
     {
       "title": "Potential Health Benefits",
       "items": [
         {
-          "title": "Cardiovascular Support",
-          "content": "Helps maintain blood pressure levels within normal ranges and supports arterial health."
+          "title": "Contains sulfur compounds",
+          "content": "Allicin and other organosulfur compounds in garlic are being studied for their biological activity."
         },
         {
-          "title": "Immune Defense",
-          "content": "Organosulfur compounds demonstrate broad antimicrobial and immune-supporting activity."
+          "title": "Provides manganese and vitamin B6",
+          "content": "These nutrients support normal metabolism."
         },
         {
-          "title": "Antioxidant Properties",
-          "content": "Contains antioxidants that protect cellular structures from oxidative damage."
+          "title": "Provides vitamin C and selenium",
+          "content": "These support immune function and antioxidant defenses, though garlic is usually eaten in small amounts."
         },
         {
-          "title": "Lipid Regulation",
-          "content": "May assist in maintaining healthy total and LDL cholesterol balance."
+          "title": "May support heart health",
+          "content": "Some studies suggest that garlic may help improve certain cardiovascular markers, although more research is needed."
+        },
+        {
+          "title": "Adds flavor without salt",
+          "content": "Garlic can add taste to food and reduce the need for added salt."
         }
       ]
     },
@@ -42,22 +46,30 @@
       "title": "Potential Risks and Precautions",
       "items": [
         {
-          "title": "Digestive Irritation",
-          "content": "Raw garlic can cause heartburn, reflux, or stomach irritation in sensitive individuals."
+          "title": "Breath and body odor",
+          "content": "Garlic can cause strong breath and body odor."
         },
         {
-          "title": "Bleeding Risk",
-          "content": "May inhibit platelet aggregation; stop high medicinal doses prior to surgery."
+          "title": "Digestive discomfort",
+          "content": "Garlic may cause heartburn, gas, or stomach upset in some people, especially raw."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Large amounts or garlic supplements may affect blood clotting and interact with some medications. People taking blood thinners or planning surgery should consult a healthcare professional."
+        },
+        {
+          "title": "Garlic in oil",
+          "content": "Garlic stored in oil at room temperature can grow the bacteria that cause botulism. Refrigerate garlic-in-oil mixtures and use them quickly."
         }
       ]
     },
     {
       "title": "How to Eat",
-      "content": "Mince or crush garlic and let it sit for 10 minutes before cooking to maximize allicin formation. Excellent in roasts, sauces, marinades, and dressings."
+      "content": "Garlic can be minced, sliced, crushed, roasted whole, sautéed, or added to sauces, soups, marinades, dressings, and spreads. Raw garlic has the strongest flavor, while roasted garlic is mild and sweet. Add it near the end of sautéing so it does not burn and turn bitter."
     },
     {
       "title": "Storage",
-      "content": "Store whole unpeeled bulbs in a cool, dry, dark place with good air circulation. Do not refrigerate whole garlic as it encourages sprouting."
+      "content": "Store whole garlic bulbs in a cool, dry, dark, well-ventilated place, where they keep for weeks to months. Do not refrigerate whole bulbs for long, as this can cause sprouting. Peeled or chopped garlic should be refrigerated in an airtight container and used within a few days. Do not keep garlic in oil at room temperature."
     }
   ]
 }

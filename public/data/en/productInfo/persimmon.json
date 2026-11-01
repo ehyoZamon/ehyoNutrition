@@ -1,0 +1,75 @@
+{
+  "id": "persimmon",
+  "title": "Persimmon",
+  "image": "/products/persimmon.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Persimmon is an orange, sweet fruit of the Diospyros kaki tree, native to China. Today it is grown in Japan, Korea, the Mediterranean, the Caucasus, and Central Asia. Ripe persimmon has tender, honey-like flesh. There are astringent varieties, which are eaten only when completely soft, and non-astringent ones, which can be eaten firm like an apple."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The genus name Diospyros can be translated from Greek as \"food of the gods.\"",
+        "The astringent taste of unripe persimmon comes from tannins, which disappear as the fruit ripens.",
+        "Sharon fruit is a persimmon variety without seeds or an astringent taste.",
+        "In Japan, persimmons are made into dried fruits called hoshigaki.",
+        "Persimmons ripen in autumn, and the fruits often stay on the branches after the trees have dropped their leaves."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains carotenoids",
+          "content": "Carotenoids give persimmons their color, and the body converts some of them into vitamin A."
+        },
+        {
+          "title": "Contains vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "The tannins and flavonoids in persimmons have antioxidant properties."
+        },
+        {
+          "title": "Contains potassium and manganese",
+          "content": "These minerals support muscle and nerve function and metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Unripe astringent persimmon",
+          "content": "Eating a lot of unripe astringent persimmon, especially on an empty stomach, may lead to dense clumps in the stomach (a bezoar)."
+        },
+        {
+          "title": "Sugar",
+          "content": "Persimmons are sweet and contain a lot of natural sugar, so people with diabetes should watch their portion size."
+        },
+        {
+          "title": "Potassium",
+          "content": "People with kidney disease who need to limit potassium should check with a doctor."
+        },
+        {
+          "title": "Allergy",
+          "content": "Persimmon allergy is possible, including cross-reactions with some other fruits."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Astringent varieties should be eaten only when the fruit has become completely soft, for example with a spoon. Non-astringent ones, such as Sharon fruit, can be eaten firm, cut into wedges. Persimmon can be added to salads, yogurt, smoothies, desserts, and baked goods, or dried."
+    },
+    {
+      "title": "Storage",
+      "content": "Leave firm persimmons at room temperature to ripen. Store ripe fruit in the refrigerator for a few days. The flesh can be frozen whole or as a puree. Keep dried persimmons in an airtight container in a cool, dry place."
+    }
+  ]
+}

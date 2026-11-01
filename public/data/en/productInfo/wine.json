@@ -1,0 +1,75 @@
+{
+  "id": "wine",
+  "title": "Wine",
+  "image": "/products/wine.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Wine is an alcoholic drink made by fermenting grape juice, with red, white, rosé, and sparkling styles. It has been made for thousands of years and is enjoyed with meals and at celebrations and used in cooking. Wine contains alcohol, and health organizations do not recommend drinking alcohol for health benefits. It is intended only for adults of legal drinking age who choose to drink."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Wine is made by fermenting grape juice, in which yeast converts the grape sugar into alcohol.",
+        "Red wine is fermented with the grape skins, which gives it its color and tannins, while white wine is usually made from juice without skins.",
+        "Wine has been made for at least 6,000 to 8,000 years in the South Caucasus region and elsewhere.",
+        "The flavor of wine depends on the grape variety, climate, soil, and winemaking.",
+        "Wine is also used in cooking, in sauces and braises, though some alcohol can remain in the dish."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains grape polyphenols",
+          "content": "Red wine contains polyphenols such as resveratrol and anthocyanins from grape skins, though eating grapes or drinking grape juice provides these without alcohol."
+        },
+        {
+          "title": "Provides small amounts of minerals",
+          "content": "Wine contains small amounts of potassium and magnesium."
+        },
+        {
+          "title": "Culinary use",
+          "content": "Wine adds depth to sauces, stews, and marinades."
+        },
+        {
+          "title": "Cultural and social role",
+          "content": "Wine is part of meals and celebrations in many cultures."
+        },
+        {
+          "title": "Limited health benefit",
+          "content": "Any possible benefit of wine is small, and current evidence does not support drinking alcohol for health, since the risks of alcohol outweigh the possible benefits."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol and health",
+          "content": "Alcohol is linked to liver disease, high blood pressure, certain cancers, accidents, and dependence, and no level of drinking is considered completely risk-free. If you do not drink, there is no health reason to start."
+        },
+        {
+          "title": "Pregnancy and breastfeeding",
+          "content": "Alcohol should be avoided during pregnancy and while trying to conceive, and it is not recommended while breastfeeding."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Alcohol can interact with many medications, including sedatives, antidepressants, pain relievers, antibiotics, blood thinners, and diabetes medicines. Ask a doctor or pharmacist if you take any medication."
+        },
+        {
+          "title": "Dependence, driving, and sensitivities",
+          "content": "Alcohol can be addictive and impairs judgment and driving, and sulfites or other compounds can cause headaches or reactions in some people. Wine is not for minors, people with liver disease, or people with a history of alcohol problems."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "If you are an adult and choose to drink, wine is usually served in small glasses with food, sipped slowly, and chilled according to its style. Alternate with water, avoid drinking on an empty stomach, and never drink and drive. In cooking, wine can flavor sauces and stews, although some alcohol remains."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened wine on its side in a cool, dark place at a steady temperature, roughly 10 to 15 °C (50 to 59 °F). Once opened, recork it and refrigerate it. Still wine usually keeps for three to five days and sparkling wine for one to three days. Discard wine that smells like vinegar."
+    }
+  ]
+}

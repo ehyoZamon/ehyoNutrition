@@ -1,0 +1,75 @@
+{
+  "id": "apricot",
+  "title": "Apricot",
+  "image": "/products/apricot.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Apricot (Prunus armeniaca) is a small, round stone fruit with velvety, yellow-orange skin and sweet-tart, juicy flesh, native to Central Asia and China. It has a single pit with a kernel inside. Apricots are eaten fresh, dried, or cooked into jams, desserts, and savory dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Apricots are related to peaches, plums, almonds, and cherries.",
+        "Dried apricots are a popular snack and are often treated with sulfur dioxide to keep their bright orange color.",
+        "Apricots have been cultivated in Central Asia and China for thousands of years.",
+        "Apricot kernels contain a compound that can release cyanide, so they should not be eaten raw.",
+        "Fresh apricots ripen quickly and are in season for a short time in summer."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin A",
+          "content": "Apricots contain beta-carotene, which the body can convert into vitamin A for vision, skin, and immune function."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Provides potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Apricots contribute fiber, especially when eaten with the skin or dried."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Apricots contain plant compounds with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Apricot kernels",
+          "content": "Raw bitter apricot kernels and kernel-based supplements contain a compound that can release cyanide and can be dangerous. Do not eat them."
+        },
+        {
+          "title": "Sulfites in dried apricots",
+          "content": "Dried apricots are often treated with sulfites, which can trigger reactions in people with sulfite sensitivity or asthma."
+        },
+        {
+          "title": "Natural sugars",
+          "content": "Dried apricots are concentrated in sugar and calories, so portions matter."
+        },
+        {
+          "title": "Allergic reactions and digestion",
+          "content": "Some people may be allergic to apricots, and large amounts, especially dried, may cause loose stools."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Apricots can be eaten fresh, sliced into yogurt, oatmeal, and salads, grilled, baked into tarts, or cooked into jams and sauces. Dried apricots can be added to granola, pilafs, stews, and baking. Choose unsulfured dried apricots if you are sensitive to sulfites."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep firm apricots at room temperature until they soften slightly and smell sweet. Ripe apricots can be refrigerated for a few days. Fresh apricot halves can be frozen. Store dried apricots in an airtight container in a cool, dry place, where they keep for several months."
+    }
+  ]
+}

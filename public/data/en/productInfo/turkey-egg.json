@@ -1,0 +1,75 @@
+{
+  "id": "turkey-egg",
+  "title": "Turkey Egg",
+  "image": "/products/turkey-egg.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Turkey eggs are the eggs of the domestic turkey, larger than chicken eggs, with a speckled, cream-colored shell. They have a rich yolk and a flavor similar to chicken eggs, though slightly richer. Turkey eggs are less commonly sold than chicken eggs and can be cooked in the same ways."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A turkey egg is noticeably larger than a chicken egg.",
+        "The shell is cream-colored with small brown speckles and is thicker than a chicken eggshell.",
+        "Turkey hens lay far fewer eggs per year than chicken hens, which is why the eggs are rarely sold.",
+        "The flavor is similar to a chicken egg, with a slightly richer taste.",
+        "Turkey eggs can be used in the same ways as chicken eggs."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of high-quality protein",
+          "content": "Turkey eggs provide complete protein with all essential amino acids."
+        },
+        {
+          "title": "Contains choline",
+          "content": "Eggs are a source of choline, a nutrient involved in normal cell function."
+        },
+        {
+          "title": "Provides vitamins",
+          "content": "Turkey eggs contain vitamin B12, riboflavin (B2), vitamin A, and small amounts of vitamin D."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Turkey eggs contain selenium, phosphorus, and iron."
+        },
+        {
+          "title": "May help you feel full",
+          "content": "Protein-rich foods may increase the feeling of fullness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "People allergic to chicken eggs may also react to turkey eggs."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Raw or undercooked eggs may carry Salmonella and should be avoided by pregnant women, young children, older adults, and people with weakened immunity."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Egg yolks contain dietary cholesterol. People with certain health conditions should ask a healthcare professional how many eggs are suitable for them."
+        },
+        {
+          "title": "Availability and freshness",
+          "content": "Turkey eggs are less standardized than chicken eggs, so buy from a reliable source and avoid cracked or dirty eggs."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Turkey eggs can be boiled, fried, scrambled, poached, or baked, and used in omelets and baking. One turkey egg is roughly equal to about two chicken eggs. Cook until the white is set and the yolk is firm, and allow slightly longer for boiling because of their size."
+    },
+    {
+      "title": "Storage",
+      "content": "Store turkey eggs in the refrigerator in their carton, away from strong-smelling foods. Use them within about three to five weeks of purchase or by the date given by the seller. Hard-boiled eggs should be refrigerated and eaten within about a week. Do not use cracked or dirty eggs."
+    }
+  ]
+}

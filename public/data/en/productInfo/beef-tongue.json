@@ -1,0 +1,75 @@
+{
+  "id": "beef-tongue",
+  "title": "Beef Tongue",
+  "image": "/products/beef-tongue.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef tongue is a muscular, rich cut from the tongue of cattle, with a firm texture and a rich, beefy flavor. It is tough when raw but becomes tender and succulent when simmered or braised for a long time. Beef tongue is eaten in many cuisines, in dishes such as tacos de lengua, sandwiches, stews, and cold cuts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beef tongue is a muscle meat, not an organ meat in the strict sense, though it is classed as offal.",
+        "It is cooked slowly and the tough outer skin is peeled off after cooking.",
+        "It is a traditional dish in Latin American, Eastern European, Jewish, and Asian cuisines.",
+        "Tongue is a fatty, well-marbled cut with a smooth, tender texture when cooked.",
+        "It can be served hot, sliced cold, pickled, or smoked."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Beef tongue provides complete protein for muscle maintenance and repair."
+        },
+        {
+          "title": "Rich in vitamin B12",
+          "content": "Vitamin B12 supports red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Provides zinc and iron",
+          "content": "Zinc supports immune function, and heme iron is readily absorbed."
+        },
+        {
+          "title": "Provides other B vitamins and selenium",
+          "content": "Beef tongue contains niacin, riboflavin, vitamin B6, and selenium."
+        },
+        {
+          "title": "Rich and filling",
+          "content": "Tongue is a satisfying, flavorful cut."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in fat and calories",
+          "content": "Tongue is a fatty cut and is calorie-dense, so portions should be moderate."
+        },
+        {
+          "title": "Cholesterol and saturated fat",
+          "content": "Tongue contains cholesterol and saturated fat, so people limiting these should watch portion sizes."
+        },
+        {
+          "title": "Sodium in cured products",
+          "content": "Pickled, corned, or smoked tongue can be very high in sodium."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Cook thoroughly and keep raw tongue separate from other foods."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Beef tongue is usually simmered for several hours with onion, garlic, and herbs until tender, then the outer skin is peeled off and the meat is sliced. It can be served hot with sauce, in tacos, or sandwiches, or chilled and thinly sliced. It can also be braised or pressure-cooked."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep raw tongue in the refrigerator and cook it within one to two days, or freeze it for longer storage. Cooked tongue should be refrigerated in an airtight container and eaten within three to four days, or frozen. Cured tongue should be stored according to its package instructions."
+    }
+  ]
+}

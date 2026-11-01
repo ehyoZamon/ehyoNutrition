@@ -1,0 +1,75 @@
+{
+  "id": "rutabaga",
+  "title": "Rutabaga",
+  "image": "/products/rutabaga.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Rutabaga (Brassica napus var. napobrassica), also called swede or yellow turnip, is a large, round root vegetable with a purple-tinged tan skin and yellow-orange flesh. It is a cross between cabbage and turnip, with a mild, sweet, slightly peppery flavor. Rutabaga is eaten roasted, boiled, mashed, or in soups and stews."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Rutabaga is thought to be a natural cross between cabbage and turnip.",
+        "It is called swede in the United Kingdom and neep in Scotland.",
+        "Rutabaga is larger, sweeter, and denser than turnip.",
+        "It is a cool-season crop that keeps well in storage through the winter.",
+        "Store-bought rutabagas are often coated in wax to keep them from drying out."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Rutabaga provides vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Rutabaga contributes fiber that supports digestion."
+        },
+        {
+          "title": "Contains glucosinolates",
+          "content": "These plant compounds, found in cruciferous vegetables, are being studied for their protective activity."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Rutabaga is relatively low in calories and filling."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Thyroid considerations",
+          "content": "Cruciferous vegetables contain compounds that may affect thyroid function in very large amounts. People with thyroid conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "Rutabaga may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Rutabaga allergy is uncommon but can occur."
+        },
+        {
+          "title": "Carbohydrate content",
+          "content": "Rutabaga contains natural sugars and starch, so portions matter for people monitoring blood sugar."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rutabaga should be peeled to remove the waxy skin and then cubed or sliced. It can be roasted, boiled, steamed, mashed with butter, added to soups and stews, or grated raw into salads and slaws. Roasting brings out its sweetness."
+    },
+    {
+      "title": "Storage",
+      "content": "Store rutabaga in a cool, dark place or in the refrigerator crisper drawer, where it keeps for several weeks. Cut rutabaga should be wrapped and refrigerated and used within a few days. Cooked rutabaga can be refrigerated for three to five days or frozen."
+    }
+  ]
+}

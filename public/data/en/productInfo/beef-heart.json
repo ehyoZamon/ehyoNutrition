@@ -1,0 +1,75 @@
+{
+  "id": "beef-heart",
+  "title": "Beef Heart",
+  "image": "/products/beef-heart.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef heart is a dense, lean muscle from cattle, with a firm texture and a mild, beefy flavor that is similar to steak. It is classed as an organ meat, though it is a working muscle. Beef heart is eaten in many cuisines, grilled, braised, or stewed, and is used in dishes such as Peruvian anticuchos."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beef heart is a muscle, so its taste and texture are closer to lean steak than to other organ meats.",
+        "It is very lean and can become tough if overcooked.",
+        "It naturally contains coenzyme Q10, a compound involved in cellular energy production.",
+        "Beef heart is used in Peruvian anticuchos, stews, and ground meat blends.",
+        "It is usually trimmed of fat, valves, and connective tissue before cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Beef heart provides complete protein with relatively little fat."
+        },
+        {
+          "title": "Rich in vitamin B12 and riboflavin",
+          "content": "These vitamins support red blood cell formation and energy metabolism."
+        },
+        {
+          "title": "Provides iron, zinc, and selenium",
+          "content": "These minerals support oxygen transport, immune function, and antioxidant defenses."
+        },
+        {
+          "title": "Contains coenzyme Q10",
+          "content": "Beef heart is a natural food source of coenzyme Q10."
+        },
+        {
+          "title": "Contains copper and niacin",
+          "content": "These nutrients support metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Cholesterol and purines",
+          "content": "Beef heart contains cholesterol and purines, which matters for people with gout or certain heart-related conditions."
+        },
+        {
+          "title": "Toughness when overcooked",
+          "content": "Beef heart becomes dry and tough if overcooked, so cook it quickly over high heat or slowly with moisture."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Cook beef heart thoroughly, to at least about 71 °C (160 °F) for ground heart, and handle it hygienically."
+        },
+        {
+          "title": "Red meat consumption",
+          "content": "Health organizations generally suggest moderating red meat, including organ meats."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Beef heart can be trimmed, sliced thinly, and grilled or pan-seared quickly, marinated for skewers, or braised slowly in stews until tender. It can also be ground and mixed with other meat. Marinating helps keep it tender."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep raw beef heart in the refrigerator and cook it within one to two days, or freeze it for longer storage. Cooked heart should be refrigerated in an airtight container and eaten within three to four days. Thaw frozen heart in the refrigerator."
+    }
+  ]
+}

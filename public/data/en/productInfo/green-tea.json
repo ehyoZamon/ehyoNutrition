@@ -1,0 +1,75 @@
+{
+  "id": "green-tea",
+  "title": "Green Tea",
+  "image": "/products/green-tea.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Green tea is a drink made from the leaves of the tea plant Camellia sinensis that are not oxidized: after harvest they are quickly heated. It has a fresh, grassy, slightly bitter flavor and a pale green or golden brew. Green tea is drunk hot or iced and is also made into matcha powder."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Green and black tea come from the same plant, but green tea is not oxidized.",
+        "In Japan the leaves are usually steamed, while in China they are often pan-fired.",
+        "Matcha is a powder of finely ground leaves grown in the shade.",
+        "Well-known green teas include sencha, Longjing, and gyokuro.",
+        "Green tea is best brewed with water that is not boiling, at about 70–80 °C."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains catechins",
+          "content": "Catechins, including EGCG, are antioxidants that are actively studied."
+        },
+        {
+          "title": "Contains L-theanine",
+          "content": "This amino acid together with caffeine may promote calm focus."
+        },
+        {
+          "title": "Contains a moderate amount of caffeine",
+          "content": "Green tea usually has less caffeine than coffee, and it supports alertness."
+        },
+        {
+          "title": "Contains flavonoids",
+          "content": "The flavonoids in green tea are linked to heart and vascular health."
+        },
+        {
+          "title": "Calorie-free",
+          "content": "Without sugar, green tea adds practically no calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine",
+          "content": "In large amounts, the caffeine in green tea can cause anxiety, insomnia, and a racing heartbeat."
+        },
+        {
+          "title": "Reduced iron absorption",
+          "content": "Tea may reduce the absorption of iron from plant foods, so it is better to drink it between meals."
+        },
+        {
+          "title": "Extracts and the liver",
+          "content": "Concentrated green tea supplements and extracts have in rare cases been linked to liver damage; discuss them with a doctor."
+        },
+        {
+          "title": "Medications and pregnancy",
+          "content": "Green tea may affect how some medications work, and caffeine should be limited during pregnancy; consult a doctor if needed."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pour water at about 70–80 °C over the leaves and steep for 1–3 minutes; boiling water and long steeping make the tea bitter. Whisk matcha powder with hot water using a whisk, or use it in smoothies, desserts, and baked goods. Green tea can also be enjoyed cold."
+    },
+    {
+      "title": "Storage",
+      "content": "Store green tea in an airtight container in a dark, dry, cool place away from light, moisture, and odors. It loses freshness faster than black tea, so use it within a few months. After opening, keep matcha in a tightly closed jar in the refrigerator."
+    }
+  ]
+}

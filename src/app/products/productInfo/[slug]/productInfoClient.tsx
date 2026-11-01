@@ -7,14 +7,52 @@ import BottomNav from "@/components/bottomNav/BottomNav";
 import ProductInfoModule, {
   ProductInfoData,
 } from "@/components/product-info/productInfoModule";
+import { loadProductsIndex } from "@/lib/productsIndex";
 import styles from "./productInfo.module.css";
 
 type Props = { slug: string };
 type Status = "loading" | "ready" | "error";
 
-const ProductInfoClient = ({ slug }: Props) => {
+// Проверяем, что по пути действительно лежит картинка. Через Image, а не fetch/HEAD:
+// некоторые хостинги на 404 отдают index.html со статусом 200, а Image в этом случае
+// вызовет onerror, потому что это не изображение.
+const imageExists = (src: string) =>
+  new Promise<boolean>((resolve) => {
+    const img = new window.Image();
+    img.onload = () => resolve(img.naturalWidth > 0);
+    img.onerror = () => resolve(false);
+    img.src = src;
+  });
+
+// Та же картинка, что показывается в ProductDetailSheet (basicInfo.image из каталога).
+const getCatalogImage = async (
+  locale: string,
+  slug: string
+): Promise<string | undefined> => {
+  try {
+    const index = await loadProductsIndex(locale);
+    return index.bySlug.get(slug)?.image || undefined;
+  } catch {
+    return undefined;
+  }
+};
+
+// Картинка из JSON, если файл существует; иначе картинка из каталога.
+const resolveImage = async (
+  jsonImage: string | undefined,
+  locale: string,
+  slug: string
+): Promise<string | undefined> => {
+  if (jsonImage && (await imageExists(jsonImage))) return jsonImage;
+  return getCatalogImage(locale, slug);
+};
+
+const ProductInfoClient = ({ slug: rawSlug }: Props) => {
   const locale = useLocale();
   const router = useRouter();
+
+  // На всякий случай раскодируем slug: каталог ищет по обычному slug, без %-кодирования
+  const slug = decodeURIComponent(rawSlug);
 
   const [data, setData] = useState<ProductInfoData | null>(null);
   const [status, setStatus] = useState<Status>("loading");
@@ -39,8 +77,11 @@ const ProductInfoClient = ({ slug }: Props) => {
           throw new Error("Invalid productInfo JSON");
         }
 
+        // Выбираем картинку до показа страницы, чтобы иконка не «прыгала»
+        const image = await resolveImage(json.image, locale, slug);
+
         if (!cancelled) {
-          setData(json);
+          setData({ ...json, image });
           setStatus("ready");
         }
       } catch (e) {

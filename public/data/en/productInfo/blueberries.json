@@ -1,0 +1,75 @@
+{
+  "id": "blueberries",
+  "title": "Blueberries",
+  "image": "/products/blueberries.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Blueberries are small, round, blue-purple berries of plants in the genus Vaccinium, native to North America. They have a sweet, mildly tart flavor, a juicy interior, and a natural powdery coating on the skin. Blueberries are eaten fresh or frozen and used in baking, smoothies, jams, and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cultivated highbush blueberries and smaller wild lowbush blueberries are the two main types.",
+        "The dusty, whitish coating on the skin is a natural wax called bloom and is a sign of freshness.",
+        "Blueberries do not continue to ripen after they are picked.",
+        "Their blue color comes from anthocyanins, plant pigments with antioxidant properties.",
+        "Blueberries have long been eaten by Indigenous peoples of North America."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in anthocyanins",
+          "content": "These plant pigments have antioxidant properties and give blueberries their color."
+        },
+        {
+          "title": "Provides vitamin C and vitamin K",
+          "content": "These vitamins support the immune system and normal blood clotting."
+        },
+        {
+          "title": "Contains manganese",
+          "content": "Manganese supports normal metabolism and bone health."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Blueberries contribute fiber that supports normal digestion."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Blueberries are relatively low in calories and sugar compared with many fruits."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions",
+          "content": "Blueberry allergy is uncommon but can occur."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating very large amounts may cause loose stools or stomach upset in sensitive individuals."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Blueberries contain vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Conventionally grown berries may carry residues, so wash them thoroughly before eating."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Blueberries can be eaten fresh as a snack, added to oatmeal, yogurt, cereal, salads, and smoothies, or baked into muffins, pancakes, and pies. They can also be cooked into jams and sauces. Frozen blueberries work well in smoothies and baking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unwashed blueberries in the refrigerator in a breathable container, where they usually keep for about a week or more. Wash them just before eating and discard any soft or moldy berries. Blueberries can also be frozen on a tray and then stored in a bag."
+    }
+  ]
+}

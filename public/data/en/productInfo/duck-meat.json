@@ -1,0 +1,75 @@
+{
+  "id": "duck-meat",
+  "title": "Duck Meat",
+  "image": "/products/duck-meat.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Duck meat is the meat of the domestic duck (Anas platyrhynchos domesticus). It is darker and fattier than chicken, juicy, with a bold, rich flavor. The breast with crispy skin and a layer of fat under it is especially prized. Duck is roasted whole or in parts, stewed, fried, and slow-cooked in its own fat."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The famous Peking duck is a traditional Chinese dish with crispy skin.",
+        "Duck fat is used for frying, including potatoes, and in French cooking for making confit.",
+        "Duck meat is darker than chicken because of more myoglobin.",
+        "Duck with apples is a classic dish of Russian and European cuisine.",
+        "Duck stores its fat under the skin, so it is rendered out during roasting."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complete protein",
+          "content": "Duck meat provides protein with all the essential amino acids."
+        },
+        {
+          "title": "Contains iron and zinc",
+          "content": "These minerals support oxygen transport and immunity."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "It is rich in niacin, riboflavin, and B12."
+        },
+        {
+          "title": "Contains selenium",
+          "content": "Selenium is a trace mineral with antioxidant properties."
+        },
+        {
+          "title": "Duck fat is rich in monounsaturated fats",
+          "content": "It contains a lot of monounsaturated fat, but it is still very high in calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fat and calories",
+          "content": "Duck, especially with the skin, is very fatty and high in calories, so portions should be moderate."
+        },
+        {
+          "title": "Saturated fat",
+          "content": "Duck fat contains a notable amount of saturated fat, and too much can raise cholesterol levels."
+        },
+        {
+          "title": "Undercooked meat",
+          "content": "Undercooked meat may contain Salmonella and Campylobacter, and raw meat should not come into contact with cooked food."
+        },
+        {
+          "title": "Heavy to digest",
+          "content": "Fatty meat may be poorly tolerated in conditions affecting the gallbladder, liver, and pancreas."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Roast duck whole or in parts, scoring the skin so the fat renders out, or stew, fry, and slow-cook it. It pairs well with sour and fruity sides such as apples, citrus, and berry sauces. The rendered fat can be poured off and used for frying. For safety, the meat must reach 74 °C (165 °F) inside."
+    },
+    {
+      "title": "Storage",
+      "content": "Store raw duck in the refrigerator in a covered container for no more than one to two days, or freeze it. Thaw in the refrigerator. Keep cooked meat in the refrigerator for up to three to four days. Store duck fat in a closed jar in the refrigerator."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "grapefruit",
+  "title": "Grapefruit",
+  "image": "/products/grapefruit.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Grapefruit (Citrus × paradisi) is a large, round citrus fruit with a yellow to pinkish skin and juicy white, pink, or red flesh. It has a tangy, slightly bitter flavor. The fruit is a hybrid of pomelo and sweet orange that originated in Barbados. Grapefruit is eaten fresh and juiced, and used in salads and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Grapefruit is a hybrid of pomelo and sweet orange.",
+        "It is named for the way the fruit grows in clusters on the tree, like grapes.",
+        "Pink and red grapefruit get their color from lycopene, the same pigment in tomatoes.",
+        "The bitterness comes from compounds such as naringin, found mainly in the white pith and membranes.",
+        "Grapefruit can strongly interact with many medications."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Grapefruit provides vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains lycopene and vitamin A",
+          "content": "Pink and red grapefruit provide lycopene and carotenoids with antioxidant properties."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Eating the whole fruit adds fiber that supports digestion."
+        },
+        {
+          "title": "Provides potassium",
+          "content": "Potassium supports normal blood pressure."
+        },
+        {
+          "title": "Hydrating and low in calories",
+          "content": "Grapefruit is juicy and relatively low in calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Medication interactions",
+          "content": "Grapefruit and grapefruit juice can interfere with how the body processes many medications, including some statins, blood pressure drugs, and immune-suppressing drugs, and can raise their levels in the blood. If you take prescription medication, ask a doctor or pharmacist before eating grapefruit."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acid in grapefruit may trigger heartburn or reflux in sensitive people and may wear down tooth enamel."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people may be allergic to grapefruit or other citrus fruits."
+        },
+        {
+          "title": "Potassium considerations",
+          "content": "People with kidney problems should ask a healthcare professional about potassium intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Grapefruit can be halved and eaten with a spoon, peeled and eaten in segments, added to salads, juiced, or broiled with a little honey. Cutting away the white pith and membranes reduces bitterness. Always check with a healthcare professional first if you take prescription medication."
+    },
+    {
+      "title": "Storage",
+      "content": "Grapefruit can be kept at room temperature for about a week or refrigerated for two to three weeks. Cut grapefruit should be stored in an airtight container in the refrigerator and eaten within a couple of days. Fresh juice should be refrigerated and drunk within a day or two."
+    }
+  ]
+}

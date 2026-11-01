@@ -1,0 +1,75 @@
+{
+  "id": "lemon",
+  "title": "Lemon",
+  "image": "/products/lemon.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lemon (Citrus × limon) is a bright yellow citrus fruit with a sour, acidic juice and an aromatic, oil-rich peel. It is thought to have originated in northeastern India, Myanmar, and China. Lemons are used in drinks, cooking, baking, marinades, and dressings, and their zest adds fragrance and flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lemon is a hybrid between citron and bitter orange.",
+        "Lemon juice is very acidic because of its high citric acid content.",
+        "Sailors once carried lemons and limes on long voyages to prevent scurvy, a vitamin C deficiency disease.",
+        "The peel contains aromatic oils that are used for flavoring and in cleaning and perfume products.",
+        "Preserved lemons, made with salt, are used in North African cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Lemons provide vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Contains flavonoids",
+          "content": "Lemons contain plant compounds with antioxidant properties."
+        },
+        {
+          "title": "Adds flavor without salt",
+          "content": "Lemon juice and zest can brighten the flavor of food and reduce the need for added salt."
+        },
+        {
+          "title": "Contains citric acid",
+          "content": "Citric acid in lemon juice may help reduce the risk of some kidney stones in some people, although more research is needed."
+        },
+        {
+          "title": "Provides hydration",
+          "content": "Adding lemon to water can make drinking water more appealing."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tooth enamel",
+          "content": "The acid in lemon juice can wear down tooth enamel. Dilute juice, drink it with a straw, and rinse your mouth with water afterward."
+        },
+        {
+          "title": "Heartburn",
+          "content": "Lemon may trigger heartburn or reflux in sensitive individuals."
+        },
+        {
+          "title": "Skin sensitivity",
+          "content": "Lemon juice on the skin followed by sun exposure can cause irritation or a burn-like reaction."
+        },
+        {
+          "title": "Allergic reactions and mouth sores",
+          "content": "Some people may be allergic to citrus, and lemon can irritate mouth sores."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Lemon juice can be squeezed into water, tea, dressings, marinades, sauces, and baked goods, and over fish, vegetables, and salads. The zest adds flavor to baking, pasta, and dressings. Use the zest of unwaxed lemons, washed well."
+    },
+    {
+      "title": "Storage",
+      "content": "Store lemons at room temperature for about a week or in the refrigerator for several weeks. Lemon juice can be frozen in ice cube trays. Keep cut lemons in an airtight container in the refrigerator and use them within a few days."
+    }
+  ]
+}

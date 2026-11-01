@@ -1,0 +1,75 @@
+{
+  "id": "cucumber",
+  "title": "Cucumber",
+  "image": "/products/cucumber.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cucumber (Cucumis sativus) is a long, cylindrical, green-skinned fruit native to South Asia, eaten as a vegetable. It has crisp, watery flesh and a mild, refreshing flavor. Cucumbers are eaten raw in salads, sandwiches, and drinks and are also pickled."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cucumbers are about 95 percent water.",
+        "Botanically, cucumbers are fruits, related to melons, squash, and pumpkins.",
+        "Cucumbers have been cultivated for thousands of years.",
+        "Pickles are cucumbers preserved in brine or vinegar.",
+        "Cucumbers are often eaten with their skin and seeds, which contain much of the fiber and nutrients."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Very hydrating",
+          "content": "Cucumbers are mostly water, making them refreshing."
+        },
+        {
+          "title": "Provides vitamin K",
+          "content": "Vitamin K supports normal blood clotting and bone health."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contains plant compounds",
+          "content": "Cucumbers contain flavonoids and other compounds with antioxidant properties, especially in the skin."
+        },
+        {
+          "title": "Very low in calories",
+          "content": "Cucumbers are low in calories and make a light snack."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Bitterness",
+          "content": "Some cucumbers contain bitter compounds called cucurbitacins. Discard cucumbers that taste very bitter."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Cucumbers may cause gas or burping in sensitive individuals."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some people, especially those allergic to ragweed pollen, may experience itching or tingling in the mouth."
+        },
+        {
+          "title": "Wax and residues",
+          "content": "Wash cucumbers thoroughly, since conventionally grown ones may have wax or residues on the skin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cucumbers can be sliced into salads, sandwiches, and yogurt sauces, eaten with dips, or blended into chilled soups and drinks. They can be pickled in brine or vinegar. Eating them with the skin on gives more fiber."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cucumbers in the refrigerator, wrapped in paper or in a breathable bag in the crisper drawer, where they usually keep for about a week. Very cold storage can cause pitting and softening. Cut cucumber should be stored in an airtight container and eaten within a couple of days."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "halva",
+  "title": "Halva",
+  "image": "/products/halva.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Halva is an eastern sweet made from ground roasted seeds or nuts (sunflower, sesame, peanuts) and sugar or honey caramel. It has a crumbly, slightly fibrous texture and a rich nutty flavor. Halva is eaten as a treat with tea and coffee and added to desserts and baked goods."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The word halva comes from an Arabic word meaning sweet.",
+        "In Turkey, the Middle East, and Central Asia, halva made from tahini, or sesame paste, is common.",
+        "In Russia and the CIS countries, sunflower halva is especially popular.",
+        "Halva comes with nuts, cocoa, vanilla, and other additions.",
+        "For a light texture, a decoction of soapwort or licorice root is sometimes used in production."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Halva is high in calories and gives quick energy."
+        },
+        {
+          "title": "Contains plant fats and protein",
+          "content": "The seeds and nuts used to make halva contain healthy fats and plant protein."
+        },
+        {
+          "title": "Contains vitamin E",
+          "content": "Sunflower halva provides vitamin E, an antioxidant that helps protect cells."
+        },
+        {
+          "title": "Contains calcium and magnesium",
+          "content": "Sesame halva provides calcium, magnesium, and other minerals."
+        },
+        {
+          "title": "Contains iron and zinc",
+          "content": "Sesame and sunflower seeds provide small amounts of these minerals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Calories and sugar",
+          "content": "Halva is very high in calories (about 500 kcal per 100 g) and contains a lot of sugar, so portions should be small, and it is worth brushing your teeth."
+        },
+        {
+          "title": "Allergy",
+          "content": "Sesame, sunflower, peanuts, and nuts are common allergens, and halva can cause severe reactions."
+        },
+        {
+          "title": "Diabetes",
+          "content": "People with diabetes should eat halva with caution and count its carbohydrates."
+        },
+        {
+          "title": "Ingredients",
+          "content": "Some halva contains palm oil, flavorings, and other additives, so read the ingredients."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Halva is best eaten in small pieces, for example one or two slices, with tea or coffee. Cut it with a sharp knife, and add it to ice cream, yogurt, porridge, desserts, and baked goods. Choose halva with a simple ingredient list."
+    },
+    {
+      "title": "Storage",
+      "content": "Store halva in a cool, dark, dry place in a sealed package. In hot weather oil may seep out of it, and in a humid environment it crumbles or spoils. After opening, wrap it in cling film. Discard halva that smells rancid or is moldy."
+    }
+  ]
+}

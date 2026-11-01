@@ -5,36 +5,40 @@
   "content": [
     {
       "title": "About",
-      "content": "Wheat germ oil is extracted from the germ of the wheat kernel, which represents the nutrient center of the grain. It is renowned as one of the richest natural sources of vitamin E (alpha-tocopherol) and essential fatty acids, widely used in dietary supplements and skincare."
+      "content": "Wheat germ oil is a golden, nutty-smelling oil extracted from the germ of the wheat kernel, the embryo of the grain. It is one of the richest natural food sources of vitamin E. Wheat germ oil is used as a dietary supplement and as a flavorful finishing oil, and it is also used in skin and hair care products."
     },
     {
       "title": "Interesting Facts",
       "items": [
-        "It takes over 50 tons of wheat to produce just one liter of pure wheat germ oil.",
-        "It boasts the highest vitamin E concentration among all botanical oils.",
-        "Contains octacosanol, a compound studied for enhancing physical performance.",
-        "Widely utilized in anti-aging cosmetic formulations.",
-        "Has a deep golden-yellow or amber color and a distinct nutty aroma."
+        "The wheat germ is the small embryo of the wheat kernel and makes up only a small fraction of its weight.",
+        "Wheat germ oil is among the richest natural sources of vitamin E.",
+        "It has a strong, nutty flavor and aroma.",
+        "It is sensitive to heat and light and is not suitable for frying.",
+        "Wheat germ oil is also used in cosmetics and skin care."
       ]
     },
     {
       "title": "Potential Health Benefits",
       "items": [
         {
-          "title": "Exceptional Vitamin E Source",
-          "content": "Provides potent antioxidant protection against lipid oxidation."
+          "title": "Very rich in vitamin E",
+          "content": "Wheat germ oil is a concentrated source of vitamin E, an antioxidant that helps protect cells."
         },
         {
-          "title": "Skin Barrier Support",
-          "content": "Helps hydrate dry skin and supports tissue repair and elasticity."
+          "title": "Provides polyunsaturated fats",
+          "content": "It contains essential fatty acids, mainly linoleic acid, which the body needs."
         },
         {
-          "title": "Heart Health",
-          "content": "Rich in linoleic acid (omega-6) and plant sterols that support healthy lipid profiles."
+          "title": "Contains plant compounds",
+          "content": "Wheat germ oil contains plant compounds such as octacosanol and phytosterols that are being studied."
         },
         {
-          "title": "Cellular Defense",
-          "content": "Neutralizes free radicals to support healthy cellular aging."
+          "title": "Easy to add to foods",
+          "content": "A small amount can be added to smoothies, yogurt, or dressings."
+        },
+        {
+          "title": "Used in skin care",
+          "content": "Applied topically, it is used as a moisturizing oil."
         }
       ]
     },
@@ -42,22 +46,30 @@
       "title": "Potential Risks and Precautions",
       "items": [
         {
-          "title": "Gluten Sensitivity",
-          "content": "May contain trace amounts of gluten; people with celiac disease should exercise caution."
+          "title": "Wheat allergy and gluten",
+          "content": "Wheat germ oil is derived from wheat and may contain traces of wheat protein. People with wheat allergy or celiac disease should consult a healthcare professional before using it."
         },
         {
-          "title": "Perishable Oil",
-          "content": "Prone to oxidation and rancidity if exposed to light, heat, or oxygen."
+          "title": "Possible medication interactions",
+          "content": "High intakes of vitamin E may affect blood clotting. People taking blood thinners should consult a healthcare professional."
+        },
+        {
+          "title": "Rancidity",
+          "content": "The oil spoils easily, and rancid oil should not be used."
+        },
+        {
+          "title": "Skin reactions",
+          "content": "Applied to the skin, it may cause irritation or allergic reactions in some people. Do a patch test first."
         }
       ]
     },
     {
       "title": "How to Eat",
-      "content": "Drizzle over salads or warm dishes just before serving. Do not cook with wheat germ oil as heat destroys vitamin E and essential fats."
+      "content": "Wheat germ oil is best used cold, drizzled over salads, stirred into smoothies, yogurt, or oatmeal, or used in dressings. Do not heat it or use it for frying, since heat damages its nutrients and flavor. Use only small amounts, since it is calorie-dense."
     },
     {
       "title": "Storage",
-      "content": "Keep in a dark glass bottle in the refrigerator after opening to prevent oxidation. Use within 2-3 months."
+      "content": "Store wheat germ oil in a tightly closed dark bottle in the refrigerator after opening and keep it away from heat and light. Use it within the time given on the label. Discard oil that smells bitter, sharp, or like paint."
     }
   ]
 }

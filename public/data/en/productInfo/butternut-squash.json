@@ -1,0 +1,75 @@
+{
+  "id": "butternut-squash",
+  "title": "Butternut Squash",
+  "image": "/products/butternut-squash.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Butternut squash (Cucurbita moschata) is a winter squash with a bell-like shape, smooth tan skin, and sweet, nutty, deep orange flesh. It originated in the Americas and is eaten roasted, pureed, or in soups and stews. Butternut squash keeps well for months after harvest."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Butternut squash is a winter squash, harvested when fully mature and with a hard rind.",
+        "It is botanically a fruit, classed as a type of berry.",
+        "The seeds are edible and can be roasted like pumpkin seeds.",
+        "Butternut squash stores for several months in a cool, dry place.",
+        "Its flesh becomes sweeter as it cooks and as it is stored."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin A",
+          "content": "The orange flesh is rich in beta-carotene, which the body can convert into vitamin A."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Provides potassium and magnesium",
+          "content": "These minerals support normal blood pressure and muscle function."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Butternut squash contributes fiber that supports digestion."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Butternut squash is relatively low in calories and filling."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergic reactions and skin irritation",
+          "content": "Squash allergy is uncommon but can occur, and handling raw squash may irritate the skin of some people."
+        },
+        {
+          "title": "Natural sugar content",
+          "content": "Butternut squash contains natural sugars and starch, so portions matter for people monitoring blood sugar."
+        },
+        {
+          "title": "Potassium considerations",
+          "content": "People with kidney problems or on certain medications should consult a healthcare professional about potassium intake."
+        },
+        {
+          "title": "Cutting safety",
+          "content": "The hard rind is difficult to cut, so use a sharp knife on a stable surface or microwave the whole squash briefly to soften it."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Butternut squash can be roasted in cubes or halves, steamed, boiled, mashed, pureed into soups, or added to stews, curries, risottos, pasta, and salads. It can be baked into muffins and pies. The skin is edible when roasted but is usually peeled."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole butternut squash in a cool, dry, well-ventilated place for up to a few months. Cut squash should be wrapped and refrigerated and used within about five days. Cooked squash or puree can be refrigerated for three to five days or frozen."
+    }
+  ]
+}
