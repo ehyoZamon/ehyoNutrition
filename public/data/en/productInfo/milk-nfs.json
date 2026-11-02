@@ -1,0 +1,75 @@
+{
+  "id": "milk-nfs",
+  "title": "Milk",
+  "image": "/products/milk-nfs.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Milk is a nutritious white liquid obtained from cows. It contains water, proteins, milk fat, lactose, and minerals. It is sold as whole, skim, and in different fat levels, pasteurized and ultra-pasteurized (UHT). Milk is drunk, added to coffee, tea, porridge, and baked goods, and used to make yogurt, cottage cheese, cheese, and butter."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "About 87 percent of milk is water.",
+        "Pasteurization, named after Louis Pasteur, heats milk to destroy harmful bacteria.",
+        "In homogenization, fat globules are broken up so that cream does not separate.",
+        "In many parts of the world, most adults lose some ability to digest lactose.",
+        "Milk is made into yogurt, cottage cheese, cheese, cream, butter, and many other products."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Calcium is needed for bones and teeth."
+        },
+        {
+          "title": "Source of protein",
+          "content": "Milk proteins support muscles and help you feel full."
+        },
+        {
+          "title": "Contains vitamins B2 and B12",
+          "content": "These vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "Contains potassium and iodine",
+          "content": "Potassium supports normal blood pressure, and iodine is needed by the thyroid."
+        },
+        {
+          "title": "Often fortified with vitamin D",
+          "content": "Vitamin D helps the body absorb calcium."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose",
+          "content": "In people with lactose intolerance, lactose causes bloating, cramps, and diarrhea."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Milk allergy can be severe and is different from lactose intolerance."
+        },
+        {
+          "title": "Raw milk",
+          "content": "Raw milk may contain dangerous bacteria, so it should be boiled or drunk pasteurized."
+        },
+        {
+          "title": "Fat content",
+          "content": "Whole milk contains more saturated fat and calories, so with high cholesterol it is better to choose a lower-fat option."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink milk chilled or warm, or add it to coffee, cocoa, tea, porridge, smoothies, pancakes, baked goods, sauces, and desserts. Raw milk must be boiled before drinking. Choose the fat level that suits your diet."
+    },
+    {
+      "title": "Storage",
+      "content": "Store milk in the refrigerator in a closed package and do not leave it at room temperature. After opening, use it within a few days or by the date on the package. Keep unopened UHT cartons in a cool place. Discard milk that smells sour or has curdled."
+    }
+  ]
+}

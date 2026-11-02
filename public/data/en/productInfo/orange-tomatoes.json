@@ -1,0 +1,75 @@
+{
+  "id": "orange-tomatoes",
+  "title": "Orange Tomatoes",
+  "image": "/products/orange-tomatoes.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Orange tomatoes are tomatoes of varieties with orange or golden-yellow skin and flesh. They have a mild, slightly sweet flavor and juicy, tender flesh. Carotenoids give them their orange color. The tomatoes are eaten fresh and added to salads, sandwiches, sauces, and salsa, or roasted and grilled."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Carotenoids, including beta-carotene and prolycopene, give tomatoes their orange color.",
+        "Tetra-cis-lycopene in orange tomatoes is absorbed by the body better than the trans-lycopene of red tomatoes.",
+        "Botanically, a tomato is a berry and is native to South and Central America.",
+        "Orange and yellow varieties often seem milder and sweeter than red ones.",
+        "Orange tomatoes make bright golden sauces and soups."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contain carotenoids",
+          "content": "Carotenoids have antioxidant properties, and the body converts some of them into vitamin A."
+        },
+        {
+          "title": "Contain vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contain potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contain folate",
+          "content": "Folate is important for cell formation."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Tomatoes are low in calories and high in water."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Acidity",
+          "content": "Tomatoes can cause heartburn in people with a sensitive stomach."
+        },
+        {
+          "title": "Allergy",
+          "content": "Tomato allergy is possible, including in people sensitive to pollen."
+        },
+        {
+          "title": "Potassium",
+          "content": "People with kidney disease who need to limit potassium should consult a doctor."
+        },
+        {
+          "title": "Leaves and green parts",
+          "content": "The leaves, stems, and green parts of the tomato plant contain alkaloids and are not edible."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Wash tomatoes and eat them fresh, slice them into salads and sandwiches, add them to salsa, sauces, and soups, or roast and grill them. Carotenoids are absorbed better with fat, so tomatoes pair well with olive oil."
+    },
+    {
+      "title": "Storage",
+      "content": "Store tomatoes at room temperature away from direct sunlight until they ripen. In the refrigerator they lose flavor and texture, so use it only for ripe tomatoes you need to keep. Keep sliced tomatoes in the refrigerator for two to three days."
+    }
+  ]
+}

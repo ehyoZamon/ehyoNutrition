@@ -1,0 +1,75 @@
+{
+  "id": "soy-sauce",
+  "title": "Soy Sauce",
+  "image": "/products/soy-sauce.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy sauce is a dark salty condiment traditionally made by fermenting soybeans, roasted wheat, salt, and water. It has a rich salty taste with a deep umami note. It originated in China and is now used in the cuisines of Japan, Korea, Southeast Asia, and the whole world. The sauce is added to marinades, soups, sauces, and stir-fries and served with sushi."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soy sauce originated in China and spread from there to Japan, Korea, and Southeast Asia.",
+        "In traditional production, the sauce ferments for months.",
+        "Most kinds of soy sauce contain wheat, so they contain gluten.",
+        "There are light, dark, Japanese-style, tamari, and sweet soy sauces.",
+        "Umami is a taste created in the sauce by amino acids formed during fermentation, including glutamic acid."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Boosts flavor",
+          "content": "The umami taste lets you add a small amount of sauce in place of a lot of salt."
+        },
+        {
+          "title": "Contains amino acids",
+          "content": "During fermentation, soy proteins are broken down into amino acids."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "The sauce contains melanoidins and other compounds with antioxidant properties."
+        },
+        {
+          "title": "Low in calories",
+          "content": "A spoonful of sauce is low in calories."
+        },
+        {
+          "title": "Fermented product",
+          "content": "Fermentation gives the sauce a complex flavor and aroma."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "A lot of salt",
+          "content": "Soy sauce is very salty, and too much salt can raise blood pressure; people with hypertension and heart or kidney disease should limit it."
+        },
+        {
+          "title": "Gluten and allergy",
+          "content": "The sauce contains soy and usually wheat, so it is not suitable for people with allergies to these foods or with celiac disease; special gluten-free versions exist."
+        },
+        {
+          "title": "Tyramine and histamine",
+          "content": "Fermented sauce is high in tyramine and histamine; people taking MAO inhibitors and those sensitive to them should be careful."
+        },
+        {
+          "title": "Quality",
+          "content": "Sauce made by a fast chemical process may contain undesirable by-products, so it is better to choose naturally brewed sauce."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Add soy sauce to marinades, soups, sauces, dressings, stir-fries, rice, and noodles, and serve it with sushi and dumplings. Use it by the drop and taste the dish before adding extra salt. To cut down on salt, choose reduced-sodium versions."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened bottles in a cool, dark place. After opening, keep the bottle tightly closed and in the refrigerator so the flavor lasts longer. Discard sauce that has mold or smells sour."
+    }
+  ]
+}

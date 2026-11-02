@@ -1,0 +1,75 @@
+{
+  "id": "quinoa",
+  "title": "Quinoa",
+  "image": "/products/quinoa.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Quinoa (Chenopodium quinoa) is a seed from the Andes of South America that is cooked and eaten like a grain, although it is not a true cereal. The tiny round seeds come in white, red, and black varieties and have a mild, nutty flavor and a fluffy texture with a slight pop. Quinoa is naturally gluten-free and used in salads, bowls, soups, and side dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Quinoa has been grown in the Andes for thousands of years and was a sacred crop of the Inca.",
+        "It is a pseudocereal related to beets, spinach, and chard, not to wheat or rice.",
+        "Quinoa is a complete protein, containing all nine essential amino acids.",
+        "Quinoa seeds are coated with natural bitter saponins, which should be rinsed off before cooking.",
+        "Quinoa cooks in about 15 minutes and the seeds unwind into little tails when done."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Complete plant protein",
+          "content": "Quinoa provides all essential amino acids, which is unusual for a plant food."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Quinoa contributes fiber that supports digestion and fullness."
+        },
+        {
+          "title": "Provides magnesium, manganese, and folate",
+          "content": "These nutrients support muscle function, metabolism, and cell function."
+        },
+        {
+          "title": "Provides iron and zinc",
+          "content": "These minerals support oxygen transport and immune function."
+        },
+        {
+          "title": "Naturally gluten-free",
+          "content": "Quinoa suits people who avoid gluten, provided it is processed safely."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Saponins",
+          "content": "The natural coating on quinoa tastes bitter and may irritate some people's stomachs, so rinse quinoa well before cooking."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Quinoa contains oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Allergic reactions and digestion",
+          "content": "Quinoa allergy is uncommon but can occur, and large amounts of fiber may cause gas or bloating."
+        },
+        {
+          "title": "Gluten cross-contamination",
+          "content": "People with celiac disease should choose quinoa labeled gluten-free."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse quinoa in a fine strainer and simmer it in about twice its volume of water until the seeds are tender, then fluff with a fork. Use it in salads, bowls, soups, stuffed vegetables, porridge, and patties, or as a rice substitute. Toasting the rinsed seeds briefly before cooking deepens the flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry quinoa in an airtight container in a cool, dry place, where it keeps for a year or longer. Cooked quinoa should be refrigerated in an airtight container and eaten within three to five days, or frozen."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "arugula",
+  "title": "Arugula",
+  "image": "/products/arugula.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Arugula (Eruca vesicaria) is a salad green in the cabbage family with a peppery, slightly nutty flavor. The leaves are tender and elongated with toothed edges. Arugula is eaten fresh in salads, put on pizza, and added to pasta, sandwiches, sauces, and pesto."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Arugula is related to cabbage, mustard, radish, and wasabi.",
+        "The name arugula is Italian-derived; in the United Kingdom it is called rocket.",
+        "Arugula is especially popular in Italian and Mediterranean cooking, where it is put on pizza after baking.",
+        "Young leaves are milder, while older ones are sharper and more bitter.",
+        "Arugula flowers are also edible."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains vitamin K",
+          "content": "Vitamin K plays a role in blood clotting and bone health."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "The body partly converts carotenoids into vitamin A."
+        },
+        {
+          "title": "Contains vitamin C and folate",
+          "content": "These nutrients support the immune system and cell formation."
+        },
+        {
+          "title": "Contains natural nitrates",
+          "content": "Nitrates from vegetables are studied in relation to vascular health."
+        },
+        {
+          "title": "Contains glucosinolates",
+          "content": "As in other cruciferous vegetables, these compounds turn into isothiocyanates and are studied as antioxidants."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Vitamin K and blood thinners",
+          "content": "People taking warfarin and other anticoagulants should not suddenly change how much of these greens they eat without consulting a doctor."
+        },
+        {
+          "title": "Thyroid",
+          "content": "A large amount of raw cruciferous vegetables may affect the thyroid in people with iodine deficiency."
+        },
+        {
+          "title": "Pungency",
+          "content": "The sharp taste can irritate a sensitive stomach."
+        },
+        {
+          "title": "Safety",
+          "content": "Greens should be washed thoroughly, including ready-to-eat packaged ones."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eat arugula fresh: put it in salads, on pizza after baking, in sandwiches, pasta, and risotto, or make it into pesto. Its tender leaves should not be heated for long. It pairs well with cheese, tomatoes, pear, nuts, and balsamic vinegar."
+    },
+    {
+      "title": "Storage",
+      "content": "Store arugula in the refrigerator in a container or bag with a paper towel for three to five days. Do not wash the leaves in advance, and rinse them thoroughly before eating."
+    }
+  ]
+}

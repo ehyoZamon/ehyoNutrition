@@ -1,0 +1,75 @@
+{
+  "id": "mutton",
+  "title": "Mutton",
+  "image": "/products/mutton.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mutton is the meat of mature sheep, usually older than one year, with a deep red color, firm texture, and a stronger, richer flavor than lamb. It is widely eaten in Central Asia, the Middle East, South Asia, and parts of Europe and Africa. Mutton is traditionally slow-cooked, stewed, roasted, or grilled and is used in dishes such as pilaf, curries, stews, and kebabs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Mutton comes from adult sheep, while lamb comes from sheep under one year old.",
+        "It has a stronger, gamier flavor than lamb because of the animal's age.",
+        "Mutton is a staple meat in Central Asia, the Middle East, and South Asia.",
+        "It is well suited to slow cooking, which makes tough cuts tender.",
+        "Mutton fat has a distinctive flavor and a firm texture at room temperature."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Mutton provides complete protein for muscle maintenance and repair."
+        },
+        {
+          "title": "Rich in heme iron",
+          "content": "Mutton contains iron that the body absorbs readily."
+        },
+        {
+          "title": "Provides zinc",
+          "content": "Zinc supports immune function and wound healing."
+        },
+        {
+          "title": "Rich in vitamin B12",
+          "content": "Vitamin B12 supports red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Provides selenium and niacin",
+          "content": "These nutrients support antioxidant defenses and energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in saturated fat",
+          "content": "Mutton can be high in saturated fat, especially fatty cuts, so choose leaner cuts and trim visible fat."
+        },
+        {
+          "title": "Red meat consumption",
+          "content": "Health organizations generally suggest limiting red meat, especially processed meat, because high intakes are linked to some health risks."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked mutton can carry harmful bacteria. Cook whole cuts to at least about 63 °C (145 °F) and let them rest, and ground mutton to about 71 °C (160 °F)."
+        },
+        {
+          "title": "Purines and cholesterol",
+          "content": "Mutton contains purines and cholesterol, which matters for people with gout or certain heart-related conditions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mutton is best cooked slowly with moisture, such as braised, stewed, or simmered in pilaf, soups, and curries, or marinated and grilled as kebabs. Trim excess fat before cooking, and pair mutton with vegetables, whole grains, and herbs. Marinating in yogurt, lemon, or spices helps tenderize it."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep raw mutton in the coldest part of the refrigerator and cook it within three to five days, or ground mutton within one to two days. Freeze it for longer storage and thaw it in the refrigerator. Cooked mutton should be refrigerated in an airtight container and eaten within three to four days."
+    }
+  ]
+}

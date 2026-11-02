@@ -1,0 +1,75 @@
+{
+  "id": "pine-nuts",
+  "title": "Pine Nuts",
+  "image": "/products/pine-nuts.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pine nuts are the small, creamy-white, elongated edible seeds found inside the cones of certain pine trees, such as the stone pine, Korean pine, and Siberian pine. They have a delicate, buttery, slightly sweet and resinous flavor. Pine nuts are eaten raw or toasted and used in pesto, salads, pilafs, baked goods, and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Pine nuts are seeds harvested from pine cones, and extracting them is labor-intensive, which makes them expensive.",
+        "Different pine species produce pine nuts, including the stone pine of the Mediterranean and the Korean and Siberian pines of Asia.",
+        "Pine nuts are the traditional ingredient in pesto genovese.",
+        "Toasting pine nuts lightly brings out their buttery flavor.",
+        "Some people experience a bitter or metallic taste for days after eating certain pine nuts, a condition called pine mouth."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides healthy fats",
+          "content": "Pine nuts contain mostly unsaturated fats, which can be part of a heart-friendly diet."
+        },
+        {
+          "title": "Provides vitamin E and vitamin K",
+          "content": "These vitamins support antioxidant protection and blood clotting."
+        },
+        {
+          "title": "Provides magnesium, manganese, and zinc",
+          "content": "These minerals support muscle function, metabolism, and immune function."
+        },
+        {
+          "title": "Provides plant protein",
+          "content": "Pine nuts provide protein and some fiber."
+        },
+        {
+          "title": "Contains pinolenic acid",
+          "content": "Pine nuts contain a distinctive fatty acid that is being studied."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Pine mouth",
+          "content": "Some people develop a bitter or metallic taste lasting a few days to weeks after eating pine nuts. It is harmless but unpleasant, and it usually goes away on its own."
+        },
+        {
+          "title": "Tree nut allergy",
+          "content": "Pine nuts can cause allergic reactions in people with nut allergies."
+        },
+        {
+          "title": "High in calories",
+          "content": "Pine nuts are calorie-dense, so portions should be small."
+        },
+        {
+          "title": "Rancidity",
+          "content": "Pine nuts have a lot of oil and turn rancid quickly, so discard nuts that smell or taste bitter or off."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pine nuts can be toasted lightly in a dry pan until golden and added to salads, pilafs, pasta, and vegetables, or blended into pesto and sauces. They can also be added to baked goods and desserts. Use them in small amounts and watch them closely when toasting, because they burn quickly."
+    },
+    {
+      "title": "Storage",
+      "content": "Store pine nuts in an airtight container in the refrigerator or freezer, since their oils turn rancid quickly. Use shelled pine nuts within a few months. Discard nuts that smell rancid or taste bitter."
+    }
+  ]
+}

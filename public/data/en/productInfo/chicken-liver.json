@@ -1,0 +1,75 @@
+{
+  "id": "chicken-liver",
+  "title": "Chicken Liver",
+  "image": "/products/chicken-liver.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken liver is a tender offal with a mild creamy flavor and a slightly earthy edge. Fresh liver has an even dark red or brownish color. Liver cooks quickly but easily dries out and turns tough. It is fried, stewed, made into pâté, and used in fillings and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken liver is one of the richest foods in vitamin A and B12.",
+        "Liver pâté is a classic dish of French and Jewish cuisines.",
+        "Liver cooks very quickly, in just a few minutes, and turns tough if overcooked.",
+        "Before cooking, membranes and greenish areas, which can add bitterness, are removed.",
+        "Liver is often soaked in milk to soften its flavor."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin A",
+          "content": "Vitamin A is important for vision, skin, and the immune system."
+        },
+        {
+          "title": "Very rich in vitamin B12",
+          "content": "Vitamin B12 is important for the nervous system and the formation of blood cells."
+        },
+        {
+          "title": "Contains folate",
+          "content": "Folate is important for cell formation."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Iron from liver is well absorbed and is needed for oxygen transport."
+        },
+        {
+          "title": "Contains riboflavin, selenium, and choline",
+          "content": "These nutrients support metabolism and nervous system function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Too much vitamin A",
+          "content": "Liver contains a lot of retinol; during pregnancy it is usually advised to limit or avoid it, and others should not eat it too often."
+        },
+        {
+          "title": "Undercooked liver",
+          "content": "Chicken liver may contain Campylobacter and Salmonella; it must be fully cooked, with no pink center."
+        },
+        {
+          "title": "Cholesterol and gout",
+          "content": "Liver is high in cholesterol and purines, which are undesirable with high cholesterol and gout."
+        },
+        {
+          "title": "Excess iron",
+          "content": "People with excess iron in the body should discuss liver with a doctor."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse the liver, remove the membranes and bile-stained areas, and if you like, soak it in milk for half an hour. Then fry over medium heat for about 5–7 minutes, or stew, until it is no longer pink inside. Liver is used for pâté, fillings, salads, and braised dishes with sour cream and onion."
+    },
+    {
+      "title": "Storage",
+      "content": "Raw liver is highly perishable: keep it in the refrigerator for one to two days or freeze it. Thaw in the refrigerator. Keep cooked liver in the refrigerator for three to four days."
+    }
+  ]
+}

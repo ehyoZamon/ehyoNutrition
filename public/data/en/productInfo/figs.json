@@ -1,0 +1,75 @@
+{
+  "id": "figs",
+  "title": "Figs",
+  "image": "/products/figs.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Figs (Ficus carica) are soft, sweet, teardrop-shaped fruits with thin skin, a jammy, honeyed pulp, and many tiny crunchy seeds, native to the Middle East and Mediterranean. They range from green and yellow to purple and brown. Figs are eaten fresh or dried and used in salads, desserts, baking, and jams."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A fig is not a true fruit in the usual sense but an inverted flower cluster, called a syconium, with the tiny flowers inside.",
+        "Figs are among the oldest cultivated fruit trees, grown for thousands of years.",
+        "Fresh figs are very delicate and perishable, which is why dried figs are so common.",
+        "The crunchy bits inside are the fig's tiny seeds, which are edible.",
+        "Figs are an important fruit in Central Asian, Middle Eastern, and Mediterranean cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Provides dietary fiber",
+          "content": "Figs are a good source of fiber, which supports digestion and regularity."
+        },
+        {
+          "title": "Provides potassium and calcium",
+          "content": "These minerals support normal blood pressure and bones."
+        },
+        {
+          "title": "Provides vitamin K and copper",
+          "content": "These nutrients support blood clotting and metabolism."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Figs contain plant compounds with antioxidant properties, especially in dark varieties."
+        },
+        {
+          "title": "Natural sweetness",
+          "content": "Figs provide natural sweetness along with fiber."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Natural sugars and calories",
+          "content": "Figs, especially dried figs, are high in natural sugars and calories for their weight."
+        },
+        {
+          "title": "Digestive effects",
+          "content": "Eating a lot of figs may cause loose stools or bloating because of fiber and sorbitol."
+        },
+        {
+          "title": "Allergic reactions and latex",
+          "content": "Some people, especially those with latex or birch pollen allergy, may react to figs, and the sap can irritate the skin."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Figs contain vitamin K. People taking blood thinners should consult a healthcare professional about keeping their intake consistent."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh figs can be eaten whole or halved, with cheese and nuts, in salads, roasted, or baked into tarts and cakes. Dried figs can be eaten as a snack, chopped into oatmeal, yogurt, and baking, or simmered into compotes. Use small portions of dried figs."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh figs are very perishable. Store them in the refrigerator in a single layer and eat them within two to three days. Dried figs keep for several months in an airtight container in a cool, dry place. Discard figs that are moldy or smell fermented."
+    }
+  ]
+}

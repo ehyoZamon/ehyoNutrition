@@ -1,0 +1,75 @@
+{
+  "id": "semolina",
+  "title": "Semolina",
+  "image": "/products/semolina.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Semolina is a finely ground wheat meal, light yellow or cream in color. It cooks very quickly and makes a tender, smooth porridge with a mild flavor. Semolina from durum wheat is used for pasta, couscous, and baked goods, and in Russian and many other cuisines it is cooked into semolina porridge and used for baked puddings, casseroles, and dumplings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Semolina is made from wheat, either soft or durum.",
+        "Semolina from durum wheat is used to make pasta and couscous.",
+        "Semolina porridge is a classic breakfast in Russia and the CIS countries.",
+        "Semolina is used in desserts, such as Greek revani and the Indian sweet suji halwa.",
+        "The English word semolina comes from an Italian word meaning bran or meal."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Semolina provides carbohydrates that are quickly turned into energy."
+        },
+        {
+          "title": "Contains protein",
+          "content": "Semolina from durum wheat contains more protein."
+        },
+        {
+          "title": "Contains B vitamins",
+          "content": "Thiamine, niacin, and folate help the body get energy from food."
+        },
+        {
+          "title": "Contains selenium and iron",
+          "content": "These nutrients support immunity and oxygen transport."
+        },
+        {
+          "title": "Cooks quickly",
+          "content": "The porridge is ready in a few minutes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten and allergy",
+          "content": "Semolina contains gluten and is not suitable for people with celiac disease or gluten intolerance, or with wheat allergy."
+        },
+        {
+          "title": "Fast carbohydrates",
+          "content": "Semolina is low in fiber, so it raises blood sugar faster; people with diabetes should watch their portion."
+        },
+        {
+          "title": "Sugar and additions",
+          "content": "Sweet semolina porridge with sugar, jam, and butter is high in calories."
+        },
+        {
+          "title": "For small children",
+          "content": "Semolina porridge should be introduced to children on a pediatrician's recommendation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pour semolina in a thin stream into boiling milk or water, stirring constantly to prevent lumps, and cook for a few minutes; usually two to three tablespoons are used per cup of liquid. Add it to baked puddings, casseroles, dumplings, and baked goods."
+    },
+    {
+      "title": "Storage",
+      "content": "Store semolina in an airtight container in a dry, cool place and check it for pests from time to time. Keep cooked porridge in the refrigerator for two to three days."
+    }
+  ]
+}

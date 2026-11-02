@@ -1,0 +1,75 @@
+{
+  "id": "chicken-gizzards",
+  "title": "Chicken Gizzards",
+  "image": "/products/chicken-gizzards.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken gizzards are the muscular part of a bird's digestive tract that grinds up food. They are a dense, chewy offal with a rich meaty flavor that needs long boiling or braising. Gizzards are stewed, boiled, fried, and cooked on skewers in the cuisines of Russia, Asia, South America, and the United States."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A bird's muscular gizzard grinds up food with swallowed pebbles.",
+        "Because of their dense structure, chicken gizzards need to be boiled or braised for a long time to become tender.",
+        "Before cooking, the yellow membrane and fat are trimmed from the gizzards.",
+        "In Japan, gizzards are grilled on skewers as yakitori, and in the southern United States they are often served fried in breading.",
+        "In Russia, chicken gizzards are braised with onion and sour cream or boiled in soups."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Gizzards provide plenty of protein with modest fat."
+        },
+        {
+          "title": "Contain iron",
+          "content": "Iron is needed for oxygen transport."
+        },
+        {
+          "title": "Contain zinc",
+          "content": "Zinc supports immunity and wound healing."
+        },
+        {
+          "title": "Contain vitamin B12 and niacin",
+          "content": "These vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "Contain selenium",
+          "content": "Selenium is an antioxidant trace mineral."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Undercooked meat",
+          "content": "Raw and undercooked gizzards may contain Salmonella and Campylobacter; they should be cleaned and rinsed thoroughly and cooked until fully done."
+        },
+        {
+          "title": "Cholesterol",
+          "content": "Gizzards contain cholesterol, so people with high cholesterol should limit portions."
+        },
+        {
+          "title": "Gout",
+          "content": "Offal contains purines, which may trigger gout attacks."
+        },
+        {
+          "title": "Fried in breading",
+          "content": "Gizzards that are deep-fried in breading are high in fat and salt."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse the gizzards, trim off the fat and the yellow inner membrane, and boil for about an hour until tender. After that, braise them with sour cream and onion, fry them, add them to pilaf, soups, and salads, or thread them on skewers and grill. Always cook until fully done."
+    },
+    {
+      "title": "Storage",
+      "content": "Store raw gizzards in the refrigerator in a covered container for one to two days or freeze them. Thaw in the refrigerator. Keep cooked gizzards in the refrigerator for three to four days."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "guava",
+  "title": "Guava",
+  "image": "/products/guava.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Guava (Psidium guajava) is a tropical fruit native to Mexico, Central America, and northern South America, with thin green-to-yellow skin and sweet, fragrant, white, pink, or red flesh full of small hard seeds. It has a flavor between pear and strawberry. Guava is eaten fresh and used in juices, jams, desserts, and savory sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Guava is one of the richest fruit sources of vitamin C, with more per serving than oranges.",
+        "The skin, flesh, and seeds are all edible, though the seeds are hard.",
+        "Pink-fleshed guavas get their color from lycopene, the same pigment found in tomatoes.",
+        "Guava has a strong, sweet, musky fragrance when ripe.",
+        "Guava leaves are also used to make teas in some traditions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Very rich in vitamin C",
+          "content": "Guava provides more vitamin C than most fruits, supporting the immune system and skin."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Guava is one of the higher-fiber fruits, which supports digestion and fullness."
+        },
+        {
+          "title": "Contains lycopene and carotenoids",
+          "content": "Pink guavas provide lycopene and carotenoids with antioxidant properties."
+        },
+        {
+          "title": "Provides potassium and folate",
+          "content": "These nutrients support normal blood pressure and cell function."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Guava is relatively low in calories for its nutrient content."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Hard seeds",
+          "content": "The small hard seeds can be hard on teeth and can cause constipation or discomfort in large amounts. Young children should not eat them whole."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Eating a lot of guava may cause gas or bloating in sensitive individuals."
+        },
+        {
+          "title": "Blood sugar medication",
+          "content": "Guava, especially guava leaf extracts, may lower blood sugar. People taking diabetes medication should consult a healthcare professional before using concentrated products."
+        },
+        {
+          "title": "Allergic reactions and residues",
+          "content": "Guava allergy is uncommon but can occur, and the fruit should be washed thoroughly before eating."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Guava can be eaten fresh with the skin on, sliced into fruit salads, blended into juices and smoothies, or cooked into jams, jellies, and sauces. In some countries it is eaten with a sprinkle of salt or chili. Remove the seeds if you prefer a smoother texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep firm guavas at room temperature until they soften and smell sweet. Ripe guavas can be refrigerated for a few days. Cut guava should be stored in an airtight container and eaten within a couple of days. The pulp can be frozen."
+    }
+  ]
+}

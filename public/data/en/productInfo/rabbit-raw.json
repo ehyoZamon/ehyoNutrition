@@ -1,0 +1,75 @@
+{
+  "id": "rabbit-raw",
+  "title": "Raw Rabbit Meat",
+  "image": "/products/rabbit-raw.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Rabbit meat is tender, light-colored meat with a mild, neutral flavor and very little fat. Raw rabbit meat is sold as whole carcasses or cut into pieces: hind legs, saddle, and front legs. Rabbit is stewed, roasted, and fried in the dishes of many European, Russian, and Central Asian cuisines. It must not be eaten raw."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Rabbit meat is white, tender, and contains very little fat.",
+        "Rabbit is stewed in sour cream, wine, or mustard and cooked with vegetables and herbs in the cuisines of France, Italy, Russia, and other countries.",
+        "Eating only very lean meat such as rabbit, without fat or carbohydrates, can lead to rabbit starvation, a serious metabolic problem caused by too much protein.",
+        "Carcasses are sold whole or cut into hind legs, saddle, and front legs.",
+        "The saddle (loin) is the most tender part, while the legs are tougher and suited to braising."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Rabbit provides high-quality protein."
+        },
+        {
+          "title": "Contains vitamin B12",
+          "content": "Vitamin B12 is important for the nervous system and the formation of blood cells."
+        },
+        {
+          "title": "Contains niacin",
+          "content": "Niacin (vitamin B3) helps the body get energy from food."
+        },
+        {
+          "title": "Contains selenium and phosphorus",
+          "content": "Selenium is an antioxidant trace mineral, and phosphorus is needed for bones and teeth."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Rabbit contains noticeably less fat than many other types of meat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Raw meat",
+          "content": "Raw meat may contain Salmonella and Campylobacter; rabbit should be cooked to at least 71 °C (160 °F) inside."
+        },
+        {
+          "title": "Wild rabbits",
+          "content": "Wild rabbits and hares can be a source of tularemia, so they should be handled with gloves and cooked thoroughly."
+        },
+        {
+          "title": "Rabbit starvation",
+          "content": "Lean meat should be combined with fats and other foods rather than eaten as the only source of nutrition."
+        },
+        {
+          "title": "Cross-contamination",
+          "content": "Raw meat and its juices should not come into contact with cooked food, cutting boards, and dishes without washing."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Marinate rabbit or stew it right away in sour cream, wine, tomatoes, or mustard, roast it with vegetables and herbs, or brown the pieces and then finish cooking. Lean meat dries out easily, so do not overcook it, and add fat or sauce. Cook to at least 71 °C (160 °F) inside."
+    },
+    {
+      "title": "Storage",
+      "content": "Store raw rabbit in the refrigerator in a covered container for no more than one to two days, or freeze it. Thaw in the refrigerator. Keep cooked meat in the refrigerator for three to four days."
+    }
+  ]
+}

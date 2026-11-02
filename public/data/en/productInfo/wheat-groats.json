@@ -1,0 +1,75 @@
+{
+  "id": "wheat-groats",
+  "title": "Wheat Groats",
+  "image": "/products/wheat-groats.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Wheat groats are made from wheat kernels (Triticum) that have been hulled, crushed, or polished. They include Poltava and Artek groats, as well as semolina, bulgur, and couscous. Wheat groats have a mild, neutral flavor. They are cooked as porridge and added to soups, fillings, side dishes, and salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Wheat is one of the oldest and most widespread cereal crops.",
+        "Poltava groats are polished crushed wheat, while Artek groats are finer.",
+        "Bulgur is steamed, crushed wheat that cooks very quickly and is popular in the Middle East.",
+        "Semolina is finely ground wheat.",
+        "Whole-grain groats retain the bran and germ."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Wheat groats provide complex carbohydrates."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Whole-grain groats, such as bulgur, contain more fiber."
+        },
+        {
+          "title": "Contain B vitamins",
+          "content": "Thiamine, niacin, and B6 help the body get energy from food."
+        },
+        {
+          "title": "Contain magnesium and manganese",
+          "content": "These minerals support metabolism and muscle function."
+        },
+        {
+          "title": "Contain iron and zinc",
+          "content": "These minerals support oxygen transport and immunity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten",
+          "content": "Wheat contains gluten and is not suitable for people with celiac disease or gluten intolerance."
+        },
+        {
+          "title": "Wheat allergy",
+          "content": "Wheat allergy can cause reactions of varying severity."
+        },
+        {
+          "title": "Bloating",
+          "content": "The fructans and fiber in wheat cause gas in some people."
+        },
+        {
+          "title": "Carbohydrates",
+          "content": "Groats are rich in carbohydrates, so people with diabetes should watch their portion."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse wheat groats and cook them in water or milk in a ratio of about 1 to 2.5–3 for about 20–30 minutes. Bulgur only needs to be covered with boiling water or cooked for 10–15 minutes. Serve the groats as porridge and a side dish, or add them to soups, fillings, patties, and salads such as tabbouleh."
+    },
+    {
+      "title": "Storage",
+      "content": "Store groats in an airtight container in a dry, cool, dark place. Whole-grain groats are best kept in the refrigerator, because the fats in the germ can turn rancid. Keep cooked groats in the refrigerator for three to five days."
+    }
+  ]
+}

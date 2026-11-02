@@ -1,0 +1,75 @@
+{
+  "id": "ryazhenka",
+  "title": "Ryazhenka",
+  "image": "/products/ryazhenka.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Ryazhenka is a fermented dairy drink made from baked milk that is soured with lactic acid cultures. It has a delicate creamy color, a slightly sweet caramel-like flavor, and a mild tang. Ryazhenka is drunk cold, added to batter for pancakes and fritters, and used in baking and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Ryazhenka is a traditional drink of the Eastern Slavs, popular in Ukraine, Russia, and Belarus.",
+        "The milk for ryazhenka is simmered for a long time at high heat until it takes on a creamy color and caramel flavor.",
+        "The fat content of ryazhenka is usually 2.5 to 4 percent.",
+        "Ryazhenka differs from kefir and yogurt in that it is made from baked milk.",
+        "Good ryazhenka contains live lactic acid cultures."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Calcium is needed for bones and teeth."
+        },
+        {
+          "title": "Contains protein",
+          "content": "Milk protein supports muscles and helps you feel full."
+        },
+        {
+          "title": "Contains vitamin B12 and riboflavin",
+          "content": "These vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "Contains lactic acid bacteria",
+          "content": "Live cultures in fermented foods support gut microflora."
+        },
+        {
+          "title": "Slightly less lactose",
+          "content": "During fermentation some of the lactose is broken down, so some people tolerate it better than milk."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose",
+          "content": "Ryazhenka contains lactose, so it may not suit people with lactose intolerance."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Ryazhenka is not suitable for people with an allergy to cow's milk proteins."
+        },
+        {
+          "title": "Sugar and additives",
+          "content": "Sweetened and flavored versions may contain a lot of added sugar."
+        },
+        {
+          "title": "Fat content",
+          "content": "Ryazhenka is fattier than kefir, so portions should be moderate, especially with high cholesterol."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink ryazhenka cold, at breakfast or as a snack, add it to smoothies, and use it to make pancakes, fritters, baking batter, and desserts. It is better to choose ryazhenka without added sugar."
+    },
+    {
+      "title": "Storage",
+      "content": "Store ryazhenka in the refrigerator in a closed package and use it before the expiration date; after opening, within two to three days. Freezing is not recommended. Discard ryazhenka that is moldy or has an unusual smell."
+    }
+  ]
+}

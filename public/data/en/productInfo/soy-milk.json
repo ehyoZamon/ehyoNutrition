@@ -1,0 +1,75 @@
+{
+  "id": "soy-milk",
+  "title": "Soy Milk",
+  "image": "/products/soy-milk.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy milk is a plant-based drink made from soybeans: they are soaked, ground with water, and strained. It has a mild, slightly beany flavor and a creamy texture. Soy milk is drunk, added to coffee, porridge, baked goods, and smoothies, and is also used to make tofu."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soy milk has been drunk in China for many centuries.",
+        "Tofu is made from soy milk by curdling it, in the same way as cheese.",
+        "When soy milk is heated, a skin forms on the surface, which is made into yuba in Asian cooking.",
+        "Of the plant-based milks, soy is closest to cow milk in protein content.",
+        "Many soy milks are fortified with calcium, vitamin D, and B12."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Soy milk provides protein and suits plant-based diets."
+        },
+        {
+          "title": "Lactose- and cholesterol-free",
+          "content": "It contains no lactose or cholesterol, so it suits people with lactose intolerance."
+        },
+        {
+          "title": "Contains unsaturated fats",
+          "content": "Most of its fat is unsaturated."
+        },
+        {
+          "title": "May be fortified",
+          "content": "Fortified soy milk provides calcium, vitamin D, and B12."
+        },
+        {
+          "title": "Contains isoflavones",
+          "content": "Soy isoflavones are plant compounds that are actively studied."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Soy is a common allergen, so people with this allergy should avoid soy milk."
+        },
+        {
+          "title": "Thyroid and medications",
+          "content": "Soy may reduce the absorption of thyroid medication; people with thyroid conditions should discuss such foods with a doctor."
+        },
+        {
+          "title": "Added sugar",
+          "content": "Flavored and sweetened soy milk can contain a lot of sugar."
+        },
+        {
+          "title": "For infants",
+          "content": "Soy milk is not a substitute for breast milk or infant formula; it should not be given to children under one year old."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink soy milk chilled, add it to coffee, tea, porridge, smoothies, and baked goods, and make sauces and desserts with it. Shake the carton before use. Homemade soy milk must always be boiled for about 15–20 minutes, because raw soy contains compounds that interfere with digestion."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unopened long-life cartons in a cool place. After opening, store soy milk in the refrigerator and use it within a few days. Keep homemade soy milk in the refrigerator for two to three days. Discard milk that smells sour."
+    }
+  ]
+}

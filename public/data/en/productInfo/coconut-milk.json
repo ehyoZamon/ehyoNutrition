@@ -1,0 +1,75 @@
+{
+  "id": "coconut-milk",
+  "title": "Coconut Milk",
+  "image": "/products/coconut-milk.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Coconut milk is a thick, creamy, white liquid made by blending grated coconut flesh with water and straining it. It has a rich, sweet, nutty coconut flavor and is used in curries, soups, desserts, smoothies, and as a dairy-free milk alternative. Canned coconut milk is thick and rich, while carton coconut milk drinks are thinner and diluted."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Coconut milk is not the same as coconut water, which is the thin liquid found inside young coconuts.",
+        "Canned coconut milk separates into a thick cream layer on top and a thinner liquid below.",
+        "Coconut milk is a staple in Southeast Asian, South Asian, Caribbean, and Pacific Island cooking.",
+        "It is naturally dairy-free and lactose-free.",
+        "Coconut cream is a thicker, richer version with less water."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Dairy-free and lactose-free",
+          "content": "Coconut milk is suitable for people who avoid dairy."
+        },
+        {
+          "title": "Provides manganese and copper",
+          "content": "Coconut milk contains manganese and copper, which support metabolism."
+        },
+        {
+          "title": "Contains medium-chain fats",
+          "content": "Coconut milk contains medium-chain triglycerides, a type of fat that is digested differently from other fats."
+        },
+        {
+          "title": "Provides iron and magnesium",
+          "content": "Coconut milk provides small amounts of iron and magnesium."
+        },
+        {
+          "title": "Adds richness and flavor",
+          "content": "A little coconut milk adds creaminess to dishes without dairy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in saturated fat and calories",
+          "content": "Canned coconut milk is very high in saturated fat and calories, so portions should be small."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Coconut allergy is uncommon but can occur."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts may cause bloating or loose stools in sensitive individuals."
+        },
+        {
+          "title": "Additives and added sugar",
+          "content": "Some products contain thickeners such as guar gum, preservatives, or added sugar, so check labels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Coconut milk can be stirred into curries, soups, stews, rice, porridge, sauces, desserts, smoothies, and coffee. Shake the can well before opening, or use the thick cream layer for richer dishes. Use light coconut milk for a thinner, lower-fat version."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened canned coconut milk in a cool, dry place. Once opened, transfer it to an airtight container, refrigerate it, and use it within four to five days, or freeze it for longer storage. Shake or stir before using, since it separates."
+    }
+  ]
+}

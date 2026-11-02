@@ -1,0 +1,75 @@
+{
+  "id": "goat-milk",
+  "title": "Goat Milk",
+  "image": "/products/goat-milk.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Goat milk is the milk of the domestic goat. It is white, slightly sweet, and has a characteristic mild tang. It is drunk, added to porridge and baked goods, and used to make yogurt, cottage cheese, and cheeses such as chèvre and feta. Goat milk is close to cow milk in composition but differs in the structure of its fat and proteins."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The fat globules in goat milk are smaller, so it separates less and mixes more easily.",
+        "Goat milk is whiter than cow milk because goats convert beta-carotene into vitamin A.",
+        "Goat milk is made into chèvre, feta, and other cheeses.",
+        "Goats were among the first domesticated animals.",
+        "A goat gives less milk than a cow."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Goat milk provides high-quality protein."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Calcium is needed for bones and teeth."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contains vitamins A and B2",
+          "content": "These vitamins support vision, skin, and metabolism."
+        },
+        {
+          "title": "May be easier to digest",
+          "content": "Some people find goat milk easier on the stomach, but scientific evidence for this is limited."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose",
+          "content": "Goat milk contains lactose, so it is not suitable for people with lactose intolerance."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "With an allergy to cow milk proteins, goat milk is usually unsafe too because of cross-reaction."
+        },
+        {
+          "title": "Raw milk",
+          "content": "Raw milk may contain Brucella, Campylobacter, and Listeria; it should be boiled or drunk pasteurized."
+        },
+        {
+          "title": "For infants",
+          "content": "Ordinary goat milk is not suitable for infants in place of formula; there are special goat milk-based formulas for them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink goat milk pasteurized or boiled, add it to porridge, cocoa, baked goods, shakes, and smoothies, and make yogurt, cottage cheese, and cheeses from it. Raw milk must be boiled."
+    },
+    {
+      "title": "Storage",
+      "content": "Store milk in the refrigerator in a closed container and use it by the date on the package; after opening, within a few days. Milk can be frozen. Discard milk that smells sour."
+    }
+  ]
+}

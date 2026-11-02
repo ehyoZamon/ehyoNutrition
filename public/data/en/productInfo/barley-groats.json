@@ -1,0 +1,75 @@
+{
+  "id": "barley-groats",
+  "title": "Barley Groats",
+  "image": "/products/barley-groats.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Barley groats are made from crushed kernels of barley (Hordeum vulgare) that have had the outer hull removed. They retain more fiber than polished pearl barley. When cooked, barley groats are soft and crumbly with a light nutty flavor. They are cooked as porridge and used in soups, stews, and side dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Barley is one of the oldest cereal crops, grown for thousands of years.",
+        "Barley groats are crushed kernels, while pearl barley is whole kernels polished to a rounded shape.",
+        "Pearl barley is named for its resemblance to pearls.",
+        "Barley is rich in beta-glucans, a type of soluble fiber.",
+        "Barley is also made into malt, which is used to brew beer."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contain beta-glucans",
+          "content": "Beta-glucans are a soluble fiber that may help lower cholesterol levels."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Slow carbohydrates",
+          "content": "Thanks to fiber, barley groats raise blood sugar more slowly than many other grains."
+        },
+        {
+          "title": "Contain magnesium and selenium",
+          "content": "These minerals support muscle and nerve function and immunity."
+        },
+        {
+          "title": "Contain B vitamins",
+          "content": "Thiamine and niacin help the body get energy from food."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten",
+          "content": "Barley contains gluten and is not suitable for people with celiac disease or gluten intolerance."
+        },
+        {
+          "title": "Bloating",
+          "content": "The fiber and fructans in barley cause gas in some people."
+        },
+        {
+          "title": "Allergy",
+          "content": "Allergy to barley and other grains is possible."
+        },
+        {
+          "title": "Carbohydrates",
+          "content": "Barley groats are rich in carbohydrates, so people with diabetes should watch their portion."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse the groats, soak them for a few hours if you like, and cook in water in a ratio of about 1 to 3 for about 30–45 minutes until tender. Serve as porridge and a side dish, or add them to soups, stews, casseroles, and salads; they go well with mushrooms and vegetables."
+    },
+    {
+      "title": "Storage",
+      "content": "Store groats in an airtight container in a dry, cool, dark place. Keep cooked groats in the refrigerator for three to five days."
+    }
+  ]
+}

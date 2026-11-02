@@ -1,0 +1,75 @@
+{
+  "id": "nectarine",
+  "title": "Nectarine",
+  "image": "/products/nectarine.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Nectarine is a stone fruit, a variety of peach (Prunus persica) with smooth skin and no fuzz. It has juicy, sweet flesh with a light tartness and a bright aroma. The flesh comes yellow or white. Nectarines are eaten fresh, added to salads, desserts, and baked goods, and roasted or grilled."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The nectarine is not a hybrid of a peach and a plum but a variety of peach with a gene that makes its skin smooth.",
+        "Nectarines have yellow or white flesh, and the pit can come away easily from the flesh or cling tightly to it.",
+        "The nectarine is a stone fruit related to almond, plum, and cherry.",
+        "Peaches and nectarines originated in China.",
+        "Thanks to the smooth skin, nectarines are easy to eat without peeling."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "The body partly converts carotenoids into vitamin A."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber, especially in the skin, supports digestion."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "The polyphenols in nectarines have antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "In some people, nectarines cause an itchy mouth or other allergic reactions, especially with pollen allergy."
+        },
+        {
+          "title": "Pits",
+          "content": "The pits contain compounds from which cyanide is formed, so they should not be eaten."
+        },
+        {
+          "title": "Bloating",
+          "content": "Sorbitol and fructose cause bloating and discomfort in some people."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "The fruit is eaten with its skin, so it should be washed thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Wash nectarines thoroughly and eat them whole, removing the pit. Slice them into salads, yogurt, and desserts, roast or grill them, or add them to pies, sauces, and smoothies. Firm fruit is well suited to roasting."
+    },
+    {
+      "title": "Storage",
+      "content": "Leave firm nectarines at room temperature to ripen, for example in a paper bag. Store ripe fruit in the refrigerator for three to five days. Sliced pieces can be frozen."
+    }
+  ]
+}

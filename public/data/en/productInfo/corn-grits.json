@@ -1,0 +1,75 @@
+{
+  "id": "corn-grits",
+  "title": "Corn Grits",
+  "image": "/products/corn-grits.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Corn grits are a coarsely ground meal made from dried corn kernels. They are cooked into a thick porridge that can be creamy or firm. In the United States this dish is called grits and is especially loved in the South, while in Moldova and Romania it is made into mămăligă. Corn grits have a mild, slightly sweet flavor and come in yellow or white."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Grits are a traditional dish of the American South that came from Native American cooking.",
+        "Mămăligă is a national dish of Moldovans and Romanians, and in Georgia, corn meal is made into gomi.",
+        "Grits come in whole-grain and quick-cooking forms, and their cooking times differ greatly.",
+        "Hominy is corn treated with an alkali, after which the niacin in it is better absorbed.",
+        "Corn is naturally gluten-free."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Corn grits provide carbohydrates that are quickly turned into energy."
+        },
+        {
+          "title": "Contain carotenoids",
+          "content": "Yellow corn contains lutein and zeaxanthin, which are important for eye health."
+        },
+        {
+          "title": "Contain fiber",
+          "content": "Whole-grain grits provide more fiber."
+        },
+        {
+          "title": "Suitable for gluten-free diets",
+          "content": "Pure corn grits can be part of a gluten-free diet when properly labeled."
+        },
+        {
+          "title": "Fortified with vitamins",
+          "content": "Some types of grits are fortified with iron and B vitamins."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High glycemic index",
+          "content": "Quick grits raise blood sugar faster than whole-grain grits; people with diabetes should watch their portion."
+        },
+        {
+          "title": "Monotonous diet",
+          "content": "A diet based mostly on corn that is not alkali-treated, and lacking other foods, used to lead to pellagra, a niacin deficiency."
+        },
+        {
+          "title": "Gluten",
+          "content": "People with celiac disease should choose grits labeled gluten-free because of possible cross-contamination."
+        },
+        {
+          "title": "Mold and mycotoxins",
+          "content": "Corn stored poorly may contain mycotoxins; discard grits that are moldy or smell musty."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cook grits in water or milk in a ratio of about 1 to 4, stirring for 20–30 minutes until thickened; whole-grain grits take longer. Season the porridge with salt and add butter, cheese, or herbs. Cooled firm porridge can be sliced and baked or fried."
+    },
+    {
+      "title": "Storage",
+      "content": "Store grits in an airtight container in a dry, cool, dark place. Whole-grain grits with the germ are best kept in the refrigerator. Keep cooked porridge in the refrigerator for three to five days."
+    }
+  ]
+}

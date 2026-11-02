@@ -1,0 +1,75 @@
+{
+  "id": "sheep-milk",
+  "title": "Sheep Milk",
+  "image": "/products/sheep-milk.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sheep milk is a thick, rich milk with a mild, slightly sweet flavor. It contains more fat, protein, and total solids than cow and goat milk. Sheep milk is drunk less often and is used mostly for cheeses, such as Roquefort, pecorino, feta, and ricotta, and for yogurt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sheep milk is thicker and fattier than cow milk, so it yields more cheese and yogurt.",
+        "Sheep milk is made into Roquefort, Pecorino Romano, feta, Manchego, and ricotta.",
+        "A sheep gives far less milk than a cow.",
+        "Sheep give milk seasonally, most often in spring and summer.",
+        "Yogurt made from sheep milk is especially thick and creamy."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Sheep milk has a lot of protein, which muscles and tissues need."
+        },
+        {
+          "title": "Rich in calcium",
+          "content": "It usually has more calcium than cow milk."
+        },
+        {
+          "title": "Contains vitamin B12 and riboflavin",
+          "content": "These vitamins support metabolism and the formation of blood cells."
+        },
+        {
+          "title": "Contains zinc and phosphorus",
+          "content": "These minerals support immunity and bone health."
+        },
+        {
+          "title": "Contains medium-chain fatty acids",
+          "content": "Sheep milk fat is rich in these fatty acids."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Calories and saturated fat",
+          "content": "Sheep milk is fatty and high in calories, so portions should be moderate, especially with high cholesterol."
+        },
+        {
+          "title": "Lactose",
+          "content": "Sheep milk contains lactose, so it is not suitable for people with lactose intolerance."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "With an allergy to cow milk proteins, sheep milk is usually unsafe too because of cross-reaction."
+        },
+        {
+          "title": "Raw milk",
+          "content": "Raw milk may contain Brucella, Campylobacter, and Listeria; it should be boiled or drunk pasteurized."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink sheep milk pasteurized or boiled, add it to porridge and baked goods, or more often use it for yogurt, cottage cheese, and cheeses. Because of its richness, it is sometimes diluted or used in small amounts."
+    },
+    {
+      "title": "Storage",
+      "content": "Store milk in the refrigerator in a closed container and use it by the date on the package; after opening, within a few days. Sheep milk freezes well. Discard milk that smells sour."
+    }
+  ]
+}

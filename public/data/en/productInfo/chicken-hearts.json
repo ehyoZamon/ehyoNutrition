@@ -1,0 +1,75 @@
+{
+  "id": "chicken-hearts",
+  "title": "Chicken Hearts",
+  "image": "/products/chicken-hearts.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken hearts are a small muscular offal with a dense, springy texture and a rich meaty flavor. They are more tender than chicken gizzards and cook faster. Hearts are fried, stewed, cooked on skewers and grilled, and added to stews and soups."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A chicken heart is a muscle about the size of a small bean or nut.",
+        "In Brazil, skewered hearts are a popular barbecue meat, and in Japan they are grilled as yakitori.",
+        "In Russian cooking, hearts are often braised in sour cream with onion.",
+        "They cook quickly and do not need as long a cooking time as gizzards.",
+        "Before cooking, fat, blood clots, and sinew are trimmed off."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Hearts provide high-quality protein."
+        },
+        {
+          "title": "Contain iron",
+          "content": "Iron is well absorbed and is needed for oxygen transport."
+        },
+        {
+          "title": "Contain vitamin B12",
+          "content": "Vitamin B12 is important for the nervous system and the formation of blood cells."
+        },
+        {
+          "title": "Contain zinc and riboflavin",
+          "content": "These nutrients support immunity and metabolism."
+        },
+        {
+          "title": "Contain coenzyme Q10",
+          "content": "Coenzyme Q10 helps cells produce energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Cholesterol",
+          "content": "Hearts contain cholesterol, so people with high cholesterol should limit portions."
+        },
+        {
+          "title": "Gout",
+          "content": "Offal contains purines, which may trigger gout attacks."
+        },
+        {
+          "title": "Undercooked meat",
+          "content": "Undercooked hearts may contain Salmonella and Campylobacter; they should be cooked until fully done."
+        },
+        {
+          "title": "Fat and salt when cooked",
+          "content": "Grilling with a marinade or frying in breading adds a lot of fat and salt to the dish."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Rinse the hearts, trim off the fat and blood clots, then fry for about 8–10 minutes, braise in sour cream with onion, thread on skewers and grill, or add to stews and soups. They are often marinated to soften the flavor. Cook until fully done."
+    },
+    {
+      "title": "Storage",
+      "content": "Store raw hearts in the refrigerator in a covered container for one to two days or freeze them. Thaw in the refrigerator. Keep cooked hearts in the refrigerator for three to four days."
+    }
+  ]
+}

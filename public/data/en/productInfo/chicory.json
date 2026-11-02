@@ -1,0 +1,75 @@
+{
+  "id": "chicory",
+  "title": "Chicory",
+  "image": "/products/chicory.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicory (Cichorium intybus) is a perennial plant in the aster family with blue flowers. Both the leaves, which have a pleasant bitterness, and the root, which is roasted and ground, are used as food. The leaves are added to salads and braised, and the roasted root is made into a caffeine-free coffee-like drink. Radicchio, endive, and witloof are also types of chicory."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicory is related to lettuce, dandelion, and artichoke.",
+        "Radicchio, endive, and witloof are varieties of chicory.",
+        "Roasted and ground chicory root is used as a coffee substitute or additive.",
+        "Chicory's blue flowers open in the morning and close by midday.",
+        "Chicory root is a source of inulin, which is used in the food industry as a dietary fiber."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains inulin",
+          "content": "Inulin is a prebiotic fiber that feeds beneficial gut bacteria."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contains vitamin K",
+          "content": "Vitamin K plays a role in blood clotting and bone health."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "The polyphenols in chicory have antioxidant properties."
+        },
+        {
+          "title": "Caffeine-free drink",
+          "content": "A drink made from chicory root contains no caffeine."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Chicory can cause allergies, especially in people sensitive to ragweed, mugwort, and other plants in the aster family."
+        },
+        {
+          "title": "Bloating",
+          "content": "A large amount of inulin can cause gas and bloating."
+        },
+        {
+          "title": "Pregnancy and supplements",
+          "content": "During pregnancy and breastfeeding, large amounts of the root and supplements should be discussed with a doctor."
+        },
+        {
+          "title": "Gallstones",
+          "content": "Chicory increases bile flow, so people with gallstones should consult a doctor."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Add chicory leaves to salads, or roast, braise, or grill them to soften the bitterness. The root, after roasting and grinding, is used for a drink: brew the powder with hot water or milk, or mix it with coffee. For a less bitter taste, soak the leaves in cold water."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh leaves in the refrigerator, wrapped in a paper towel or in a container, for three to five days. Keep witloof in a dark place, because in light it turns green and bitter. Store dry ground chicory in an airtight jar in a dry place."
+    }
+  ]
+}

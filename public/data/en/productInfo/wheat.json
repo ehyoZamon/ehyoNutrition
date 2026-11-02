@@ -1,0 +1,75 @@
+{
+  "id": "wheat",
+  "title": "Wheat",
+  "image": "/products/wheat.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Wheat (Triticum aestivum and related species) is a cereal grain grown around the world and one of the most important staple foods. Its kernels are eaten whole as wheat berries, cracked as bulgur, and ground into flour for bread, pasta, noodles, couscous, and baked goods. Wheat has a mild, nutty flavor and contains gluten, a protein that gives dough its elasticity."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Wheat was first domesticated about 10,000 years ago in the Fertile Crescent of the Middle East.",
+        "A wheat kernel has three parts: the bran, the germ, and the endosperm, and whole wheat contains all three.",
+        "Durum wheat is used for pasta, while softer wheats are used for bread and pastries.",
+        "Bulgur, couscous, semolina, and farro are all made from wheat.",
+        "Wheat is one of the most widely grown crops in the world."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of energy",
+          "content": "Wheat is rich in carbohydrates, which provide energy."
+        },
+        {
+          "title": "Whole wheat provides dietary fiber",
+          "content": "The bran in whole wheat provides fiber that supports digestion and fullness."
+        },
+        {
+          "title": "Provides B vitamins",
+          "content": "Wheat contains thiamin, niacin, and folate, which support energy metabolism."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Wheat contains manganese, selenium, magnesium, and phosphorus."
+        },
+        {
+          "title": "Provides plant protein",
+          "content": "Wheat provides protein, although it is lower in the amino acid lysine."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Celiac disease and gluten sensitivity",
+          "content": "Wheat contains gluten and must be avoided by people with celiac disease and by people with non-celiac gluten sensitivity."
+        },
+        {
+          "title": "Wheat allergy",
+          "content": "Wheat is one of the more common food allergens, and wheat allergy can be serious, especially in children."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Wheat contains fructans that may cause gas or bloating in people with irritable bowel syndrome."
+        },
+        {
+          "title": "Refined products and mold",
+          "content": "Refined wheat products have less fiber than whole grains, and wheat stored in damp conditions can develop mold."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Whole wheat berries can be soaked and simmered until chewy for salads, soups, and pilafs. Bulgur and couscous cook quickly and make good side dishes, and wheat flour is used in bread, flatbreads, pasta, pancakes, and baking. Choose whole wheat products for more fiber."
+    },
+    {
+      "title": "Storage",
+      "content": "Store wheat berries, bulgur, and flour in airtight containers in a cool, dry place. Whole wheat flour keeps for a shorter time than white flour because of the germ's oils, so refrigerate or freeze it for longer storage. Cooked wheat should be refrigerated and eaten within three to five days."
+    }
+  ]
+}

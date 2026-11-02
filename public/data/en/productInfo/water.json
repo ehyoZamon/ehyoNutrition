@@ -1,0 +1,75 @@
+{
+  "id": "water",
+  "title": "Water",
+  "image": "/products/water.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Water is a clear, odorless, tasteless liquid essential to all known life and the main component of the human body. Drinking water comes from sources such as treated tap water, wells, springs, and bottled and mineral water, and may be still or sparkling. Water has no calories and is the basic drink for staying hydrated."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Water makes up roughly 50 to 60 percent of an adult's body weight.",
+        "Water is involved in nearly every body process, including temperature control, digestion, and the transport of nutrients.",
+        "Mineral water contains naturally dissolved minerals such as calcium, magnesium, and bicarbonate, while sparkling water contains dissolved carbon dioxide.",
+        "Foods such as fruits, vegetables, and soups also contribute to daily fluid intake.",
+        "The amount of water a person needs varies with body size, climate, activity, health, and diet."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Keeps the body hydrated",
+          "content": "Water replaces the fluid lost through sweat, urine, and breathing."
+        },
+        {
+          "title": "Supports body temperature regulation",
+          "content": "Sweating and evaporation help the body cool down."
+        },
+        {
+          "title": "Supports digestion and nutrient transport",
+          "content": "Water helps move nutrients in the blood and supports normal digestion."
+        },
+        {
+          "title": "Contains no calories or sugar",
+          "content": "Water is a calorie-free alternative to sweetened drinks."
+        },
+        {
+          "title": "Supports normal kidney function",
+          "content": "Adequate fluid intake helps the kidneys remove waste products."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Unsafe or contaminated water",
+          "content": "Water from untreated or unknown sources can carry bacteria, parasites, and chemicals. Use safe, treated water, or boil or treat water when its safety is uncertain."
+        },
+        {
+          "title": "Overhydration",
+          "content": "Drinking extremely large amounts in a short time can dilute the body's sodium and cause a dangerous condition called hyponatremia. This is rare."
+        },
+        {
+          "title": "Medical conditions",
+          "content": "People with kidney, heart, or liver conditions, or who have been told to limit fluids, should follow their healthcare professional's advice on how much to drink."
+        },
+        {
+          "title": "Additives and packaging",
+          "content": "Flavored or sweetened waters may contain sugar or additives, and bottled water should be stored away from heat and sunlight."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink water regularly throughout the day, more in hot weather and during exercise, and let thirst and the color of your urine guide you. Water can be served plain, chilled, or infused with slices of lemon, cucumber, or berries. Choose safe, treated water."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bottled water in a cool, dark place away from heat, sunlight, and strong-smelling chemicals. Once opened, drink it within a day or two. Water stored in reusable bottles should be kept in clean, covered containers, and the containers should be washed regularly."
+    }
+  ]
+}

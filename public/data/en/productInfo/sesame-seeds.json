@@ -1,0 +1,75 @@
+{
+  "id": "sesame-seeds",
+  "title": "Sesame Seeds",
+  "image": "/products/sesame-seeds.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sesame (Sesamum indicum) seeds are tiny oily seeds that come in white, golden, and black. They have a nutty, slightly sweet flavor that comes out especially after toasting. Sesame is sprinkled on buns, salads, and dishes, and is made into tahini, halva, oil, and the paste for hummus."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sesame is one of the oldest oilseed crops.",
+        "Sesame is made into tahini, halva, and sesame oil.",
+        "The phrase open sesame is linked to the way ripe sesame pods burst open and scatter their seeds.",
+        "Black sesame usually has its hull and contains more calcium, while white sesame is more often hulled.",
+        "Sesame is widely used in Asian, Middle Eastern, and Mediterranean cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains calcium and magnesium",
+          "content": "These minerals are needed for bones, muscles, and nerves."
+        },
+        {
+          "title": "Contains iron and zinc",
+          "content": "These minerals support oxygen transport and immunity."
+        },
+        {
+          "title": "Contains lignans",
+          "content": "Sesamin and sesamolin are compounds with antioxidant properties."
+        },
+        {
+          "title": "Contains healthy fats",
+          "content": "Most of the fat in sesame is mono- and polyunsaturated."
+        },
+        {
+          "title": "Source of protein and fiber",
+          "content": "Sesame provides plant protein and fiber, especially when unhulled."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Sesame is recognized as a major food allergen, and allergy to it can be severe."
+        },
+        {
+          "title": "High in calories",
+          "content": "Sesame is high in calories, so portions should be small."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Sesame contains oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Whole seeds",
+          "content": "Whole seeds may be poorly digested; it is better to chew them well or use them ground or as tahini."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "To bring out the flavor, lightly toast sesame in a dry pan until golden. Sprinkle it on buns, salads, vegetables, rice, and noodles, add it to dough, or make it into tahini, hummus, gomashio, and sauces. Small amounts are best."
+    },
+    {
+      "title": "Storage",
+      "content": "Store sesame in an airtight container in a cool, dry, dark place. For long-term storage, keep it in the refrigerator or freezer, because the oils can turn rancid. After opening, store tahini in a cool place or in the refrigerator. Discard seeds that smell rancid."
+    }
+  ]
+}

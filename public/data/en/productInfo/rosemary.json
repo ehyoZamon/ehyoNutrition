@@ -1,0 +1,75 @@
+{
+  "id": "rosemary",
+  "title": "Rosemary",
+  "image": "/products/rosemary.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Rosemary (Salvia rosmarinus) is an evergreen aromatic shrub in the mint family, native to the Mediterranean. It has tough needle-like leaves with a pine-like, camphor-spicy aroma and a slightly bitter flavor. Rosemary is used fresh and dried for meat, potatoes, bread, marinades, oils, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The name rosemary comes from Latin words meaning sea dew.",
+        "In 2017, botanists moved rosemary into the sage genus and began calling it Salvia rosmarinus.",
+        "In ancient times, rosemary was considered a symbol of remembrance and fidelity.",
+        "It pairs excellently with grilled meat, potatoes, and bread, such as focaccia.",
+        "Tough rosemary sprigs can be used in place of skewers."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains rosmarinic and carnosic acids",
+          "content": "These compounds have antioxidant properties."
+        },
+        {
+          "title": "Contains essential oils",
+          "content": "Aromatic compounds give rosemary its characteristic smell."
+        },
+        {
+          "title": "Adds flavor without calories or salt",
+          "content": "Fragrant herbs make dishes more flavorful without extra salt or fat."
+        },
+        {
+          "title": "May reduce harmful compounds when grilling",
+          "content": "A marinade with rosemary may reduce the formation of harmful compounds when grilling meat."
+        },
+        {
+          "title": "Contains a small amount of minerals",
+          "content": "The herb contains calcium, iron, and manganese, but the amounts in a dish are small."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Large amounts and pregnancy",
+          "content": "Rosemary is safe in food amounts, but large amounts and concentrated supplements during pregnancy should be discussed with a doctor."
+        },
+        {
+          "title": "Epilepsy and essential oil",
+          "content": "Rosemary essential oil contains camphor and may trigger seizures; it should not be taken internally, and people with epilepsy should be careful."
+        },
+        {
+          "title": "Medications",
+          "content": "In large amounts, rosemary may affect how anticoagulants and some other medications work."
+        },
+        {
+          "title": "Allergy",
+          "content": "Allergic reactions and contact dermatitis are possible."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Finely chop the rosemary needles and add them to meat, chicken, fish, potatoes, vegetables, bread, soups, marinades, and oils. Fresh sprigs can be put whole into a dish and removed before serving. Less dried rosemary is needed than fresh."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh sprigs in the refrigerator, wrapped in a damp paper towel, for one to two weeks, or freeze or dry them. Keep dried rosemary in an airtight jar in a dry, dark place."
+    }
+  ]
+}

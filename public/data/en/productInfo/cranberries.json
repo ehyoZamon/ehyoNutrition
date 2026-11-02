@@ -1,0 +1,75 @@
+{
+  "id": "cranberries",
+  "title": "Cranberries",
+  "image": "/products/cranberries.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cranberries (Vaccinium macrocarpon) are small, round, bright red, very tart berries native to North America. They grow on low vines in bogs and are rarely eaten raw because of their sharp sourness. Cranberries are most often eaten dried and sweetened, or as juice, sauce, and in baked goods, and are a traditional food at holiday meals in North America."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cranberries are harvested by flooding the bogs, so the floating berries can be gathered.",
+        "The berries bounce when ripe, and air pockets inside them make them float.",
+        "Cranberries are very tart because of their acids and low sugar content, so most products are sweetened.",
+        "They contain proanthocyanidins, plant compounds studied for urinary tract health.",
+        "Cranberries are related to blueberries."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in polyphenols",
+          "content": "Cranberries contain proanthocyanidins and other polyphenols with antioxidant properties."
+        },
+        {
+          "title": "Provides vitamin C",
+          "content": "Fresh cranberries provide vitamin C, which supports the immune system and skin."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Cranberries contribute fiber that supports digestion."
+        },
+        {
+          "title": "Provides manganese",
+          "content": "Manganese supports normal metabolism and bone health."
+        },
+        {
+          "title": "May support urinary tract health",
+          "content": "Some studies suggest cranberry products may help reduce the risk of recurring urinary tract infections in some people, but they are not a treatment."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Added sugar",
+          "content": "Dried cranberries, juice cocktails, and sauces usually contain a lot of added sugar, so check labels."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acidity of cranberries may cause heartburn or irritate sensitive stomachs and teeth."
+        },
+        {
+          "title": "Kidney stones",
+          "content": "Cranberries contain oxalates, which people prone to kidney stones may need to limit."
+        },
+        {
+          "title": "Possible medication interactions",
+          "content": "Large amounts of cranberry juice or supplements may interact with blood thinners such as warfarin. People taking prescription drugs should consult a healthcare professional."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fresh cranberries can be cooked into sauces, relishes, and compotes with sweetener, baked into muffins, breads, and desserts, or blended into smoothies. Dried cranberries can be added to oatmeal, salads, granola, and trail mix in small amounts. Choose unsweetened or low-sugar products when possible."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh cranberries in the refrigerator, where they keep for several weeks, or freeze them for up to a year. Dried cranberries keep for several months in an airtight container in a cool, dry place. Discard soft, shriveled, or moldy berries."
+    }
+  ]
+}

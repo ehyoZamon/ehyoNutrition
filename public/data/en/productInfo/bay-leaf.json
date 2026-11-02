@@ -1,0 +1,75 @@
+{
+  "id": "bay-leaf",
+  "title": "Bay Leaf",
+  "image": "/products/bay-leaf.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bay leaves are the leaves of the bay laurel (Laurus nobilis), an evergreen tree native to the Mediterranean. They have a spicy, slightly bitter aroma with notes of mint, pine, and clove. In cooking, dried leaves are usually used, added to soups, meat dishes, sauces, and marinades and removed before serving."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "In ancient Greece and Rome, wreaths of laurel branches were made for victors.",
+        "Dried leaves are more aromatic than fresh ones, and their aroma develops during long cooking.",
+        "The leaves stay tough even after cooking, which is why they are removed from the dish.",
+        "Indian bay leaf (tej patta) is a different plant with a flavor resembling cinnamon.",
+        "Cherry laurel and oleander have similar-looking leaves but are poisonous."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains essential oils",
+          "content": "The aromatic compounds in bay leaf, such as cineole, give it its distinctive smell."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "The leaves contain polyphenols with antioxidant properties."
+        },
+        {
+          "title": "Adds flavor without extra salt",
+          "content": "The aromatic leaf makes dishes richer without adding salt or calories."
+        },
+        {
+          "title": "Traditionally used for digestion",
+          "content": "In folk practice, bay leaf tea is used for stomach discomfort, but there is little scientific evidence."
+        },
+        {
+          "title": "Contains small amounts of minerals",
+          "content": "The leaves contain calcium, iron, and manganese, but the amounts in a dish are small."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Should not be eaten whole",
+          "content": "The tough leaves are hard to chew and can get stuck in the throat or injure the intestines, so they should be removed from the dish."
+        },
+        {
+          "title": "Poisonous look-alikes",
+          "content": "Cherry laurel and oleander leaves are poisonous; use only true bay laurel from a reliable source."
+        },
+        {
+          "title": "Allergy",
+          "content": "Allergic reactions and contact dermatitis are possible."
+        },
+        {
+          "title": "Essential oil",
+          "content": "Bay essential oil should not be taken internally."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Add one or two dried leaves to soup, borscht, broth, braised meat, rice, sauces, and marinades at the start of cooking, and always remove them before serving. For a stronger aroma, lightly crack the leaf."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dried leaves in an airtight jar in a dry, dark place. The aroma fades over time, so use them within a year or two. Fresh leaves can be kept in the refrigerator or dried."
+    }
+  ]
+}

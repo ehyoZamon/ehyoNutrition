@@ -1,0 +1,75 @@
+{
+  "id": "turmeric",
+  "title": "Turmeric",
+  "image": "/products/turmeric.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Turmeric (Curcuma longa) is the rhizome of a tropical plant in the ginger family, native to South Asia. The rhizome is dried and ground into a bright yellow or orange powder with a warm, earthy, slightly bitter flavor. Turmeric is added to curries, rice, soups, vegetable dishes, and drinks, and fresh root is grated like ginger."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Turmeric is related to ginger.",
+        "Turmeric gives dishes a bright golden-yellow color and is part of curry.",
+        "Curcumin, the main coloring compound, makes up only a few percent of the rhizome by weight.",
+        "Black pepper contains piperine, which increases the absorption of curcumin.",
+        "Turmeric leaves stains on fabric, plastic, and skin that are hard to remove."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains curcumin",
+          "content": "Curcumin is a compound with antioxidant properties that is actively studied."
+        },
+        {
+          "title": "Studied for anti-inflammatory properties",
+          "content": "Curcumin is studied for anti-inflammatory effects, but evidence is still limited."
+        },
+        {
+          "title": "Traditionally supports digestion",
+          "content": "In traditional cooking and folk practice, turmeric is used to support digestion."
+        },
+        {
+          "title": "Adds flavor and color",
+          "content": "A pinch of turmeric colors dishes and adds aroma with almost no calories."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "In small amounts, turmeric provides iron and manganese."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Supplements and the liver",
+          "content": "Concentrated curcumin supplements, especially with piperine, have in rare cases been linked to liver damage; discuss them with a doctor."
+        },
+        {
+          "title": "Stones",
+          "content": "Turmeric may increase gallbladder contraction and contains oxalates, so people with gallstones or kidney stones should consult a doctor."
+        },
+        {
+          "title": "Medications",
+          "content": "Turmeric may affect how anticoagulants, diabetes medications, and others work; consult a doctor if you take medications."
+        },
+        {
+          "title": "Spice quality",
+          "content": "In some cases turmeric is adulterated with harmful dyes, so buy it from trusted producers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Add turmeric to curries, rice, soups, vegetables, eggs, sauces, and golden milk. For better absorption, combine it with fat and a pinch of black pepper. Fresh root can be grated or sliced. Keep in mind that turmeric stains hands and dishes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store ground turmeric in an airtight jar in a dry, dark, cool place. Keep fresh root in the refrigerator for two to three weeks or freeze it. Discard powder that has lost its color and smell."
+    }
+  ]
+}

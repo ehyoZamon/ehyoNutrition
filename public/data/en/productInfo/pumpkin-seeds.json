@@ -1,0 +1,75 @@
+{
+  "id": "pumpkin-seeds",
+  "title": "Pumpkin Seeds",
+  "image": "/products/pumpkin-seeds.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pumpkin seeds are the edible seeds of the pumpkin (most often Cucurbita pepo). They come in a tough white hull and as shelled green seeds called pepitas. They have a nutty, slightly sweet flavor and a crunchy texture. Pumpkin seeds are eaten as a snack, roasted, and added to salads, porridge, baked goods, granola, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Shelled green pumpkin seeds are called pepitas; they have long been eaten in Mexico and Central America.",
+        "In Austria, a special pumpkin with seeds that have no hard hull is grown, and a dark green oil is pressed from them.",
+        "Seeds can be taken out of a pumpkin at home, rinsed, dried, and roasted.",
+        "Pumpkin seeds are crunchy and filling, so they are handy to take along as a snack.",
+        "Pumpkin seeds are made into oil, flour, and paste."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contain magnesium",
+          "content": "Magnesium supports normal muscle and nerve function."
+        },
+        {
+          "title": "Contain zinc",
+          "content": "Zinc supports immunity and wound healing."
+        },
+        {
+          "title": "Contain iron",
+          "content": "Iron is needed for oxygen transport."
+        },
+        {
+          "title": "Source of protein and healthy fats",
+          "content": "The seeds provide plant protein and unsaturated fats."
+        },
+        {
+          "title": "Contain antioxidants",
+          "content": "Vitamin E and other compounds protect cells."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Calories and salt",
+          "content": "Pumpkin seeds are high in calories, and roasted salted ones contain a lot of salt, so portions should be moderate."
+        },
+        {
+          "title": "Hulls and bloating",
+          "content": "A lot of seeds in the hull are hard to digest and cause bloating and discomfort in some people."
+        },
+        {
+          "title": "Allergy",
+          "content": "Allergy to pumpkin seeds is possible."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "The seeds are not suitable for small children, as they can choke on them."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eat pumpkin seeds as a snack, or add them to salads, oatmeal, yogurt, smoothies, bread, baked goods, and granola, or grind them for sauces and pesto. To bring out the flavor, lightly toast them in a dry pan. Unsalted seeds are the better choice."
+    },
+    {
+      "title": "Storage",
+      "content": "Store seeds in an airtight container in a cool, dry, dark place. For long-term storage, keep them in the refrigerator or freezer, because the fats can turn rancid. Discard seeds that smell rancid or are moldy."
+    }
+  ]
+}

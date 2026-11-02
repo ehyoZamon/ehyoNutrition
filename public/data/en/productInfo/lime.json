@@ -1,0 +1,75 @@
+{
+  "id": "lime",
+  "title": "Lime",
+  "image": "/products/lime.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lime is a small citrus fruit with green skin and very sour, aromatic flesh. There are varieties such as key lime and Persian lime. Lime is squeezed into drinks, sauces, marinades, and dressings and used in desserts, and its zest is added for aroma."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "British sailors were once supplied with lime juice to prevent scurvy, which is where the nickname limey came from.",
+        "Lime is used in margarita and mojito cocktails and in Latin American and Asian dishes.",
+        "In ceviche, lime juice cooks raw fish through its acidity.",
+        "Unripe limes are green, while fully ripe ones turn yellow.",
+        "The acidity and zest of lime pair well with fish, meat, and vegetables."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains flavonoids",
+          "content": "Citrus flavonoids have antioxidant properties."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Lime juice adds almost no calories."
+        },
+        {
+          "title": "Adds flavor without salt",
+          "content": "The acidity and aroma of lime make it possible to use less salt in dishes."
+        },
+        {
+          "title": "Refreshing",
+          "content": "Lime makes drinks and dishes fresher and brighter."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Acidity",
+          "content": "Lime is very acidic and may cause heartburn and damage tooth enamel."
+        },
+        {
+          "title": "Sunburns",
+          "content": "Lime juice on the skin together with sunlight can cause phytophotodermatitis, with burns and dark marks; wash the skin after contact."
+        },
+        {
+          "title": "Allergy",
+          "content": "Citrus fruits can cause allergic reactions."
+        },
+        {
+          "title": "Zest",
+          "content": "Wash the fruit thoroughly before using the zest."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Squeeze lime into drinks, sauces, dressings, marinades, soups, and desserts. Roll it on the counter before squeezing to get more juice. Grate the zest into baked goods and dishes. Serve lime with fish, meat, tacos, and vegetables."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole limes at room temperature for about a week or in the refrigerator for two to four weeks. Keep squeezed juice in the refrigerator for a few days or freeze it in ice cube trays. The zest can be frozen."
+    }
+  ]
+}

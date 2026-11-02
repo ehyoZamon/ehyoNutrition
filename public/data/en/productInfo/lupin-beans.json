@@ -1,0 +1,75 @@
+{
+  "id": "lupin-beans",
+  "title": "Lupin Beans",
+  "image": "/products/lupin-beans.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lupin beans are the edible seeds of lupin (Lupinus), a legume native to the Mediterranean and South America. Sweet varieties of lupin are eaten, while bitter ones contain alkaloids that are removed by soaking. The beans have a slightly nutty flavor and a firm texture. They are eaten pickled as a snack, and lupin flour is used for baking."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lupin is a legume related to peanut, soy, and beans.",
+        "Bitter lupin varieties contain alkaloids, so they are soaked and rinsed for a long time.",
+        "In Italy, Portugal, Egypt, and other countries, lupin beans in brine are eaten as a snack.",
+        "Lupin beans are high in protein and low in starch.",
+        "Lupin is on the list of food allergens that must be declared on packaging in the EU."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of plant protein",
+          "content": "Lupin contains a lot of protein and suits plant-based diets."
+        },
+        {
+          "title": "Contains fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Low in digestible carbohydrates",
+          "content": "Thanks to protein and fiber, lupin has little effect on blood sugar."
+        },
+        {
+          "title": "Contains magnesium, iron, and folate",
+          "content": "These nutrients support muscle function, oxygen transport, and cell formation."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "The polyphenols in lupin have antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Lupin is a common allergen, and allergy to it can be severe; cross-reaction with peanuts and other legumes is possible."
+        },
+        {
+          "title": "Alkaloids",
+          "content": "Bitter lupin without sufficient soaking can cause poisoning, so use only prepared or sweet varieties."
+        },
+        {
+          "title": "Salt in brine",
+          "content": "Pickled lupin beans contain a lot of salt."
+        },
+        {
+          "title": "Gas and bloating",
+          "content": "Like other legumes, lupin causes gas in some people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pickled lupin beans are eaten as a snack: bite the bean slightly and squeeze out the inside, and do not eat the skin. Dry bitter beans are first soaked, boiled, and then soaked in cold water for several days, changing the water, until the bitterness disappears. Lupin flour is added to baked goods."
+    },
+    {
+      "title": "Storage",
+      "content": "Store dry beans in an airtight container in a dry, cool place. After opening, keep beans in brine in the refrigerator, submerged in the brine. Keep soaked and cooked beans in the refrigerator for a few days."
+    }
+  ]
+}

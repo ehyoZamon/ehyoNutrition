@@ -1,0 +1,75 @@
+{
+  "id": "passion-fruit",
+  "title": "Passion Fruit",
+  "image": "/products/passion-fruit.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Passion fruit (Passiflora edulis) is the fruit of a tropical vine, native to South America. The fruits are round or oval, with a tough purple or yellow rind that wrinkles as it ripens. Inside is aromatic, jelly-like pulp with crunchy edible seeds, tart and sweet in flavor. Passion fruit is eaten fresh and added to desserts, juices, sauces, and cocktails."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The name passion fruit comes from the word passion: missionaries saw the flower as a symbol of the Passion of Christ.",
+        "There are purple and yellow passion fruits.",
+        "The fruit is considered ripe when its rind becomes wrinkled.",
+        "Brazil is one of the largest producers of passion fruit.",
+        "Passion fruit seeds are edible and crunchy."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contains vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains carotenoids",
+          "content": "The body partly converts carotenoids into vitamin A."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium supports normal blood pressure and muscle function."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "The polyphenols in passion fruit have antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Passion fruit can cause allergic reactions, including in people with latex allergy."
+        },
+        {
+          "title": "Rind and unripe fruit",
+          "content": "The rind and unripe fruit contain cyanogenic compounds, so the rind is not eaten and it is better to choose ripe fruit."
+        },
+        {
+          "title": "Acidity",
+          "content": "Passion fruit is acidic and may cause heartburn or irritate tooth enamel."
+        },
+        {
+          "title": "Sugar in juices and desserts",
+          "content": "Ready-made passion fruit juices, syrups, and desserts often contain a lot of added sugar."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cut a ripe passion fruit in half and eat the pulp with a spoon, seeds included. Add the pulp to yogurt, smoothies, desserts, sauces, and cocktails; the juice can be strained to remove the seeds. Do not eat the rind."
+    },
+    {
+      "title": "Storage",
+      "content": "Leave firm fruit at room temperature to ripen. Store ripe fruit in the refrigerator for one to two weeks. The pulp can be frozen."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "watercress",
+  "title": "Watercress",
+  "image": "/products/watercress.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Watercress (Nasturtium officinale) is a semi-aquatic plant in the cabbage family that grows in flowing water. It has small dark green leaves, tender stems, and a sharp peppery flavor. Watercress is eaten fresh in salads, sandwiches, and smoothies and added to soups, sauces, and appetizers. It is different from garden cress."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Watercress is one of the oldest edible leafy greens.",
+        "It is related to mustard, radish, cabbage, and wasabi.",
+        "It grows in flowing water, such as streams and special beds.",
+        "The sharp peppery flavor is created by glucosinolates, which turn into isothiocyanates.",
+        "In the United Kingdom, watercress is a traditional ingredient of soups and tea sandwiches."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin K",
+          "content": "Vitamin K plays a role in blood clotting and bone health."
+        },
+        {
+          "title": "Contains vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains vitamin A",
+          "content": "The body can partly convert the carotenoids in the leaves into vitamin A."
+        },
+        {
+          "title": "Contains isothiocyanates",
+          "content": "These compounds, as in other cruciferous vegetables, are studied as antioxidants."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Watercress is very low in calories and adds a bright flavor."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Vitamin K and blood thinners",
+          "content": "People taking warfarin and other anticoagulants should not suddenly change how much of these foods they eat without consulting a doctor."
+        },
+        {
+          "title": "Wild cress",
+          "content": "Watercress collected in the wild may be contaminated with parasites such as liver fluke, and with bacteria; it is safer to buy cress grown in clean water."
+        },
+        {
+          "title": "Thyroid",
+          "content": "A large amount of raw cruciferous vegetables may affect the thyroid in people with iodine deficiency."
+        },
+        {
+          "title": "Pungency",
+          "content": "The sharp taste can irritate a sensitive stomach."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Wash watercress thoroughly and eat it fresh in salads, sandwiches, and smoothies, or add it to soups, omelets, sauces, and pesto. It is best added at the end of cooking to keep its pungency and color. Tough stems can be removed."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh cress is very delicate: stand the stems in a glass of water in the refrigerator, covered with a bag, or wrap them in a damp paper towel. Use within two to three days."
+    }
+  ]
+}

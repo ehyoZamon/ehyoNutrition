@@ -1,0 +1,75 @@
+{
+  "id": "cocoa-powder",
+  "title": "Cocoa Powder",
+  "image": "/products/cocoa-powder.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cocoa powder is made from roasted, ground cocoa beans (Theobroma cacao) after most of the cocoa butter has been pressed out. It is a dark brown, bitter, unsweetened powder with an intense chocolate flavor. Cocoa powder is used in baking, desserts, hot cocoa, smoothies, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Natural cocoa powder is acidic and lighter in color, while Dutch-processed (alkalized) cocoa is treated to neutralize acidity and is darker and milder.",
+        "Cocoa beans come from the seeds of the cacao tree, which is native to tropical regions of the Americas.",
+        "Cocoa naturally contains theobromine, a mild stimulant related to caffeine.",
+        "Unsweetened cocoa powder is very bitter, unlike sweetened drinking chocolate mixes.",
+        "Cocoa is rich in plant compounds called flavanols, though processing can reduce them."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains flavanols",
+          "content": "Cocoa contains flavanols, plant compounds with antioxidant properties that are being studied."
+        },
+        {
+          "title": "Provides magnesium and iron",
+          "content": "Cocoa provides magnesium and iron, which support muscle function and oxygen transport."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Cocoa powder contributes fiber that supports digestion."
+        },
+        {
+          "title": "Provides copper and manganese",
+          "content": "These minerals support normal metabolism."
+        },
+        {
+          "title": "Intense flavor with little sugar",
+          "content": "Unsweetened cocoa adds chocolate flavor without added sugar."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine and theobromine",
+          "content": "Cocoa contains stimulants that may cause restlessness, trouble sleeping, or a fast heartbeat in sensitive people, children, and during pregnancy if eaten in large amounts."
+        },
+        {
+          "title": "Heavy metals",
+          "content": "Some cocoa products contain traces of cadmium and lead, so eat cocoa in moderation and choose reputable brands."
+        },
+        {
+          "title": "Toxic to dogs",
+          "content": "Cocoa and chocolate are toxic to dogs and cats because of theobromine, so keep them away from pets."
+        },
+        {
+          "title": "Allergies, migraines, and added sugar",
+          "content": "Cocoa can trigger reactions or migraines in some people, and sweetened cocoa mixes can be high in sugar."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cocoa powder can be sifted into cake, brownie, cookie, and pancake batters, stirred into oatmeal or smoothies, or whisked with hot milk and a little sweetener to make hot cocoa. Use unsweetened cocoa powder when you want to control the sugar. Dutch-processed and natural cocoa behave differently in baking recipes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cocoa powder in an airtight container in a cool, dry, dark place, where it keeps for a year or longer. Keep it away from moisture and strong odors. Discard cocoa that has clumped, smells musty, or shows mold."
+    }
+  ]
+}

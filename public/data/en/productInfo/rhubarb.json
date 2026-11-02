@@ -1,0 +1,75 @@
+{
+  "id": "rhubarb",
+  "title": "Rhubarb",
+  "image": "/products/rhubarb.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Rhubarb (Rheum rhabarbarum) is a perennial plant of which only the fleshy reddish or greenish stalks (petioles) are eaten. Rhubarb has a sharp sour flavor. It is almost always cooked with sugar or honey and used in pies, compotes, jams, kissel, and sauces. The leaves of rhubarb are poisonous."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Rhubarb is a vegetable but is cooked like a fruit.",
+        "Rhubarb leaves contain a lot of oxalic acid and are poisonous, so they are not eaten.",
+        "Rhubarb is related to sorrel and buckwheat.",
+        "In the United Kingdom, forced rhubarb is grown in dark sheds, where the stalks come out more tender and pinker.",
+        "Rhubarb is made into pies, crumble, compotes, kissel, and jams."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains vitamin K",
+          "content": "Vitamin K plays a role in blood clotting and bone health."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber supports digestion and helps you feel full."
+        },
+        {
+          "title": "Contains vitamin C",
+          "content": "Vitamin C supports the immune system and skin."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Red stalks contain anthocyanins and other polyphenols."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Rhubarb itself is low in calories."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Poisonous leaves",
+          "content": "Rhubarb leaves are poisonous; only the stalks can be eaten."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Rhubarb is high in oxalates, so people prone to kidney stones should limit it."
+        },
+        {
+          "title": "Laxative effect",
+          "content": "In large amounts, rhubarb can cause stomach upset and a laxative effect."
+        },
+        {
+          "title": "Sugar in desserts",
+          "content": "Because of its sour taste, rhubarb is usually cooked with a lot of sugar."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cut off and discard the leaves, wash the stalks, remove tough strings if needed, and slice. Cook or roast rhubarb with sugar or honey for 10–15 minutes until soft. It is made into compotes, jams, kissel, pies, crumble, and sauces for meat."
+    },
+    {
+      "title": "Storage",
+      "content": "Store stalks in the refrigerator, wrapped in a damp towel or in a bag, for one to two weeks. Sliced rhubarb can be frozen."
+    }
+  ]
+}
