@@ -1,0 +1,75 @@
+{
+  "id": "206",
+  "title": "Soy Milk, Chocolate",
+  "image": "/products/206.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate soy milk is a beverage made from soybeans, enriched with cocoa butter and sugar. It has a smooth, creamy taste with a distinct chocolate note and is often used as a dairy‑free alternative for those avoiding lactose or animal protein."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Commercial soy milk production began in Japan in the early 1920s.",
+        "The chocolate flavor is achieved by adding cocoa butter, not just cocoa powder, for a richer mouthfeel.",
+        "Soybeans are rich in isoflavones, which may have beneficial effects on hormonal balance.",
+        "In some countries, chocolate soy milk is marketed as a \"kids' drink\" and is common in school cafeterias.",
+        "Unlike cow's milk, soy milk naturally contains no lactose."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "One cup of soy milk provides about 7 g of protein, making it a solid alternative to animal proteins."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "The chocolate version typically contains less saturated fat than whole cow's milk."
+        },
+        {
+          "title": "Source of vitamin B12 (fortified)",
+          "content": "Many brands fortify soy milk with vitamin B12, important for vegetarians and vegans."
+        },
+        {
+          "title": "Contains isoflavones",
+          "content": "Isoflavones may support cardiovascular health and bone density."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Soy fiber helps maintain regular bowel movements."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Some individuals may experience allergic reactions to soy proteins."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Chocolate varieties are often sweetened, which may be undesirable for people with diabetes or those watching their weight."
+        },
+        {
+          "title": "Genetically modified soybeans",
+          "content": "The majority of soybeans worldwide are GMO; choose \"non‑GMO\" labeled products if preferred."
+        },
+        {
+          "title": "Phytates",
+          "content": "Soy contains phytates that can reduce the absorption of certain minerals when consumed in excess."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chocolate soy milk can be enjoyed cold, added to smoothies, used in oatmeal, coffee, or baked goods. It pairs well with bananas, berries, and nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Refrigerate after opening and consume within 5‑7 days. Unopened cartons should be stored in a cool, dry place away from direct light."
+    }
+  ]
+}

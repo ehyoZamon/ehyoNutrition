@@ -1,0 +1,75 @@
+{
+  "id": "205",
+  "title": "Soy Milk, Unsweetened",
+  "image": "/products/205.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy milk is a plant‑based beverage made from soybeans. Unsweetened soy milk contains no added sugar, has a neutral flavor, and is often used as a dairy‑free alternative in vegan diets."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Commercial production of soy milk began in Japan in the early 20th century.",
+        "Soybeans are rich in protein, making soy milk one of the best plant‑based protein sources.",
+        "Unsweetened soy milk typically contains about 3 g of protein and 2 g of fat per 100 ml.",
+        "Many brands fortify soy milk with calcium, vitamin D, and vitamin B12 to match the nutritional profile of cow's milk.",
+        "In several countries soy is a declared allergen, so packaging must clearly state its presence."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "A cup of unsweetened soy milk provides roughly 7 g of protein, supporting muscle maintenance."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Soy milk contains mainly polyunsaturated fatty acids, which are heart‑healthy."
+        },
+        {
+          "title": "Source of isoflavones",
+          "content": "Soy isoflavones have antioxidant properties and may help balance hormones."
+        },
+        {
+          "title": "Fortified with calcium and vitamin D",
+          "content": "Most products are enriched with calcium and vitamin D, aiding bone health."
+        },
+        {
+          "title": "Lactose‑free",
+          "content": "Absence of lactose makes soy milk a safe choice for people with lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Some individuals may experience allergic reactions to soy proteins, ranging from skin rashes to respiratory issues."
+        },
+        {
+          "title": "Phytoestrogens",
+          "content": "High intake of isoflavones can affect hormonal balance; those with hormone‑sensitive conditions should consult a healthcare professional."
+        },
+        {
+          "title": "Additives and sweeteners",
+          "content": "Certain brands add flavorings, stabilizers, or artificial sweeteners, which may be undesirable for sensitive consumers."
+        },
+        {
+          "title": "Genetically modified organisms (GMOs)",
+          "content": "Most soybeans are GMO; choose non‑GMO labeled products if this is a concern."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Soy milk can be drunk plain, added to smoothies, oatmeal, coffee, sauces, and baked goods. It is also commonly used in vegan sauces and creams."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened cartons in a cool, dry place. Once opened, keep refrigerated and consume within 5‑7 days. Discard if it develops a sour smell or off‑taste."
+    }
+  ]
+}

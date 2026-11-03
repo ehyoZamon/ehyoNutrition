@@ -1,0 +1,70 @@
+{
+  "id": "201",
+  "title": "Milk, evaporated, fat free (skim)",
+  "image": "/products/201.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fat‑free evaporated milk is a concentrated dairy product made by removing almost all fat and then evaporating water. The result is a thick, sweet product high in protein and calcium but without fat."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Fat‑free evaporated milk is popular in diet nutrition because it retains sweetness without added fat.",
+        "Unlike regular evaporated milk, it contains about 0.1 % fat.",
+        "The high sugar concentration allows it to be stored for long periods without refrigeration.",
+        "In many countries it serves as a base for desserts, sauces, and beverages."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "It provides roughly 8 g of protein per 100 g, supporting muscle maintenance."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Contains about 120 mg of calcium per 100 g, important for bone health."
+        },
+        {
+          "title": "Low in fat",
+          "content": "The absence of fat makes it suitable for low‑calorie diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Provides riboflavin (B2) and B12, which are essential for energy metabolism."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "Without fat, it is gentle on the digestive system, useful for people with gastrointestinal sensitivities."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "The product is very sweet; people with diabetes or those watching their weight should limit intake."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Contains lactose, so it is unsuitable for those who cannot digest it."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Individuals allergic to casein or whey may react."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Use fat‑free evaporated milk in desserts, porridge, smoothies, sauces, and baked goods. It can be reconstituted with water for a light milk drink or added to coffee for sweetness without fat."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place in a tightly sealed container. After opening, keep refrigerated and consume within 2–3 days."
+    }
+  ]
+}

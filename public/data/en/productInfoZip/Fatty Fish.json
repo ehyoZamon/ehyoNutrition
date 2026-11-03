@@ -1,0 +1,75 @@
+{
+  "id": "7",
+  "title": "Fatty Fish",
+  "image": "/products/7.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fatty fish are species that contain a high level of omega‑3 polyunsaturated fatty acids such as EPA and DHA. Examples include salmon, mackerel, herring, sardines and trout. They have a rich flavor, firm texture and are valued for their beneficial fats, protein, vitamins and minerals."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Omega‑3s from fatty fish support heart and brain health.",
+        "Wild salmon gets its pink color from a diet rich in crustaceans and krill.",
+        "Herring has been traditionally preserved by pickling, smoking and canning in northern cuisines.",
+        "Mackerel migrates long distances, traveling thousands of kilometers each year.",
+        "In Japan, saba (yellowtail) is traditionally eaten during New Year celebrations."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of omega‑3",
+          "content": "EPA and DHA help maintain cardiovascular health, reduce inflammation and support brain development."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "Fatty fish provides all essential amino acids needed for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains B12, B6 and niacin, which are important for energy metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "Provides selenium, iodine and potassium, essential for thyroid function and fluid balance."
+        },
+        {
+          "title": "Vitamin D",
+          "content": "One of the few natural food sources of vitamin D, which supports bone health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Mercury contamination",
+          "content": "Some larger predatory fish may contain higher mercury levels; pregnant women and children should limit intake."
+        },
+        {
+          "title": "Fish allergy",
+          "content": "Individuals with fish allergy can experience reactions ranging from skin rash to anaphylaxis."
+        },
+        {
+          "title": "High sodium in smoked products",
+          "content": "Smoked or salted fish can be high in sodium, which is a concern for hypertension."
+        },
+        {
+          "title": "Digestive issues",
+          "content": "People with pancreatitis or gallstones may experience discomfort after eating fatty fish."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fatty fish can be baked, grilled, steamed or enjoyed as canned. It pairs well with lemon, herbs, olive oil and vegetables. For a lighter preparation, it can be marinated in yogurt or soy sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh fish in the refrigerator at 0‑2 °C for up to 2 days. Frozen fish should be kept at –18 °C for up to 3 months. Use airtight packaging and keep away from strong odors."
+    }
+  ]
+}

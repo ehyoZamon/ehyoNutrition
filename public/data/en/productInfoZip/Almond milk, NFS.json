@@ -1,0 +1,75 @@
+{
+  "id": "210",
+  "title": "Almond Milk, NFS (210)",
+  "image": "/products/210.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Almond milk is a plant‑based beverage made by blending almonds with water and straining the mixture. It has a mild nutty flavor, a light‑cream color, and is often used as a dairy‑free alternative."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Almond milk contains roughly 3‑5 times fewer calories than whole cow’s milk.",
+        "Commercial production of almond milk began in the United States in the 1990s.",
+        "In the U.S., almond milk has become the most popular plant milk, surpassing soy.",
+        "About 100 g of almonds are needed to produce 1 L of milk.",
+        "Almond milk is naturally lactose‑free, gluten‑free, and soy‑free."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin E",
+          "content": "Vitamin E is a powerful antioxidant that supports skin health and the immune system."
+        },
+        {
+          "title": "Low in sugar",
+          "content": "Unsweetened almond milk contains very little natural sugar, making it suitable for low‑carb diets."
+        },
+        {
+          "title": "Source of healthy fats",
+          "content": "Almonds provide monounsaturated fatty acids that help maintain cardiovascular health."
+        },
+        {
+          "title": "Supports bone health",
+          "content": "Fortified versions often contain calcium and vitamin D, nutrients essential for strong bones."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "Being lactose‑free, it is safe for people with lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Individuals allergic to almonds may experience reactions when consuming almond milk."
+        },
+        {
+          "title": "Low protein content",
+          "content": "Compared with cow’s milk, almond milk provides significantly less protein."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Flavored varieties can contain added sugars, increasing calorie count."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Almonds contain oxalates; people prone to kidney stones should limit intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Almond milk can be enjoyed on its own, added to coffee, smoothies, cereals, baked goods, or used in sauces. For a richer texture, choose unsweetened, full‑fat versions."
+    },
+    {
+      "title": "Storage",
+      "content": "Store opened almond milk in the refrigerator at 1‑4 °C and consume within 5‑7 days. Do not freeze, as the texture may separate."
+    }
+  ]
+}

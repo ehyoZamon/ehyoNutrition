@@ -1,0 +1,71 @@
+{
+  "id": "224",
+  "title": "Yogurt, NS as type of milk, fruit",
+  "image": "/products/224.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt is a fermented dairy product made by culturing milk with specific bacterial strains. The NS (lactose‑free) version is suitable for people with lactose intolerance. Fruit additions provide natural sweetness and aroma."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt has been known since ancient Mesopotamia more than 5,000 years ago.",
+        "Lactobacillus bulgaricus and Streptococcus thermophilus work together to create yogurt’s characteristic taste and texture.",
+        "Fruit‑flavored yogurts often contain a small amount of natural sugars, making them popular with children.",
+        "Lactose‑free (NS) yogurt is produced by adding lactase, which breaks lactose down into glucose and galactose.",
+        "Regular consumption can support gut health thanks to probiotic bacteria."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Live bacterial cultures help maintain a balanced gut microbiome and support the immune system."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Yogurt provides a substantial amount of calcium essential for strong bones and teeth."
+        },
+        {
+          "title": "High in protein",
+          "content": "Protein contributes to muscle repair and promotes satiety."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "Low‑fat option (NS version)",
+          "content": "Lactose‑free yogurt often has reduced fat content, making it suitable for diet‑focused eating."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "Some individuals may react to casein or whey proteins."
+        },
+        {
+          "title": "Added sugar in fruit flavors",
+          "content": "Fruit‑flavored yogurts can contain added sugars; people monitoring glucose should check labels."
+        },
+        {
+          "title": "Probiotic sensitivity",
+          "content": "Those with compromised immune systems may experience discomfort from live cultures; consult a healthcare professional."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Yogurt can be enjoyed on its own, blended into smoothies, used as a base for sauces, dressings, or desserts. Fruit pieces add extra flavor and nutrients."
+    },
+    {
+      "title": "Storage",
+      "content": "Store yogurt in the refrigerator at 2–4 °C. Once opened, consume within 3–5 days. Do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "221",
+  "title": "Greek Yogurt, Whole Milk, Plain",
+  "image": "/products/221.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt made from whole milk is a thick, creamy yogurt obtained by extensive straining, which removes most of the whey. It has a rich, buttery flavor with a mild tang and a high protein content."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Greek yogurt, known as “straggisto” in Greece, has been a staple of the Mediterranean diet for centuries.",
+        "Straining makes it 2‑3 times thicker than regular yogurt.",
+        "Its high protein level makes it popular among athletes and fitness enthusiasts.",
+        "Unlike low‑fat versions, the whole‑milk product retains natural fats that aid absorption of fat‑soluble vitamins.",
+        "Greek yogurt is often used as a substitute for sour cream or mayonnaise in recipes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "A typical 200 g serving provides about 10‑12 g of high‑quality protein, supporting muscle growth and repair."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Contains live cultures of Lactobacillus and Bifidobacterium that promote a healthy gut microbiome."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Whole milk supplies a good amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Provides vitamin B12 and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "Satiety aid",
+          "content": "The thick texture and protein content help keep you feeling full longer."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Although some lactose is removed during straining, the product still contains enough to cause symptoms in lactose‑intolerant individuals."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey proteins may react to Greek yogurt."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Whole‑milk Greek yogurt contains roughly 120 kcal per 100 g, so portion control is advisable for weight‑management diets."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some brands add salt; those monitoring sodium intake should check the label."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy it plain, blend into smoothies, use as a base for dips and dressings, or substitute for cream cheese in baking and cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep refrigerated at +2‑4 °C in the original container. Once opened, consume within 5‑7 days. Discard if it develops off‑odors, mold, or an unusual texture."
+    }
+  ]
+}

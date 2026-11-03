@@ -1,0 +1,71 @@
+{
+  "id": "214",
+  "title": "Greek Yogurt, No Sugar",
+  "image": "/products/214.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt without added sugar is a thick, strained dairy product. It contains minimal lactose, a high amount of protein, and low carbohydrate content, making it popular among health‑conscious consumers."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Traditional Greek yogurt, known as “straggisto,” originates from Greece.",
+        "Double‑straining removes most whey, resulting in a dense texture.",
+        "Unsweetened Greek yogurt is often used as a substitute for sour cream or mayonnaise in recipes.",
+        "It is rich in probiotics that support gut health.",
+        "Greek yogurt can be made from cow, goat, or sheep milk."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High protein content",
+          "content": "A 200 ml serving provides about 20 g of protein, which helps maintain muscle mass."
+        },
+        {
+          "title": "Low carbohydrate level",
+          "content": "No added sugar makes it suitable for low‑carb diets and blood‑glucose control."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Yogurt is a good source of calcium for bone health and is often fortified with vitamin D."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Contains live cultures such as Lactobacillus and Bifidobacterium that support intestinal microbiota."
+        },
+        {
+          "title": "Low‑fat options",
+          "content": "Reduced‑fat versions help lower overall calorie intake."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey may react to yogurt."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Although much of the lactose is removed during straining, a small amount remains."
+        },
+        {
+          "title": "Sodium content in some brands",
+          "content": "Certain manufacturers add salt for flavor; check labels if you monitor sodium intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Unsweetened Greek yogurt can be enjoyed plain, blended into smoothies, used in sauces, dips, baked goods, or as a base for desserts with berries and nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep yogurt refrigerated at 1‑4 °C. After opening, consume within 5‑7 days. Do not freeze, as texture may change."
+    }
+  ]
+}

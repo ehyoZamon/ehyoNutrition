@@ -1,0 +1,71 @@
+{
+  "id": "222",
+  "title": "Greek Yogurt, Low Fat Milk, Plain",
+  "image": "/products/222.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt made from low‑fat milk is a thick, creamy yogurt with high protein content and low fat. It is produced by straining the whey, which gives it a dense texture and a characteristic tangy flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Greek yogurt typically contains 2–3 times more protein than regular yogurt.",
+        "The straining process reduces lactose, making it easier on people with mild lactose intolerance.",
+        "Low‑fat versions retain most nutrients while cutting calories.",
+        "Greek yogurt is often used as a substitute for sour cream or mayonnaise in recipes.",
+        "In many countries it is marketed as a probiotic food because of live cultures."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "A 200 g serving provides about 20 g of high‑quality protein, supporting muscle growth and repair."
+        },
+        {
+          "title": "Low in fat",
+          "content": "The low‑fat version contains less than 0.5 g of fat per serving, suitable for calorie‑controlled diets."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Yogurt is a good source of calcium for bone health and is often fortified with vitamin D."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Live cultures such as Lactobacillus and Bifidobacterium promote gut health."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "Greek yogurt raises blood sugar slowly, which can help with weight management."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk allergy",
+          "content": "People allergic to milk proteins (casein) may react to yogurt."
+        },
+        {
+          "title": "Lactose content",
+          "content": "Although reduced, some lactose remains, so those with severe intolerance should be cautious."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some brands add sugar or flavorings; choose plain, unsweetened versions if limiting sugar intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Greek yogurt can be enjoyed on its own, blended into smoothies, used in sauces, dips, baked goods, or as a base for desserts. It pairs well with berries, nuts, honey, and whole‑grain cereals."
+    },
+    {
+      "title": "Storage",
+      "content": "Store yogurt in the refrigerator at 1–4 °C. After opening, consume within 5–7 days and do not leave it at room temperature for more than 2 hours."
+    }
+  ]
+}

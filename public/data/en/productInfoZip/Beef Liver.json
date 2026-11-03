@@ -1,0 +1,75 @@
+{
+  "id": "4",
+  "title": "Beef Liver",
+  "image": "/products/4.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef liver is the organ meat of cattle, packed with nutrients. It has a tender, slightly bitter flavor and a soft texture when cooked. Liver is used in many cuisines: pan‑fried, stewed, in pâtés, and soups."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beef liver contains more than 20 vitamins and minerals, including vitamins A, B12, iron, and copper.",
+        "In many cultures liver is considered a delicacy and is often served on special occasions.",
+        "The liver can accumulate toxins, so it should be cooked thoroughly.",
+        "Vitamin A content in liver exceeds the daily requirement by 10‑30 times.",
+        "Some traditional recipes use liver for homemade sausages and meatloaf."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin A",
+          "content": "Vitamin A supports vision, immune function, and skin health."
+        },
+        {
+          "title": "High in iron",
+          "content": "The iron in liver is highly bioavailable and helps prevent anemia."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Including B12, B6, and folate, they are essential for red blood cell formation and energy metabolism."
+        },
+        {
+          "title": "Trace minerals",
+          "content": "Copper, zinc, and selenium contribute to the body’s antioxidant systems."
+        },
+        {
+          "title": "Low in carbs",
+          "content": "Liver fits well into low‑carb diets while providing a substantial amount of protein."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High vitamin A content",
+          "content": "Excessive consumption can lead to hypervitaminosis A, especially in pregnant women."
+        },
+        {
+          "title": "Cholesterol levels",
+          "content": "Liver is cholesterol‑rich; individuals with high cholesterol should limit intake."
+        },
+        {
+          "title": "Potential toxins",
+          "content": "Improper storage or undercooking may allow harmful substances to remain."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Rarely, some people may be allergic to beef liver."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Liver can be pan‑fried, stewed, baked, or made into pâté. Before cooking, rinse, remove any membranes, and cut into bite‑size pieces. Soaking in milk or water can mellow the flavor. Serve with onions, vegetables, or as a spread on toast."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh beef liver in the refrigerator at 0‑4 °C for no more than 2‑3 days. For longer storage, freeze in an airtight bag at –18 °C up to 3 months. Before use, check the smell: fresh liver has a mild meaty aroma, without sour or putrid notes."
+    }
+  ]
+}

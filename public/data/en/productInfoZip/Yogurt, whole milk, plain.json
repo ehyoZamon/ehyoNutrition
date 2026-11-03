@@ -1,0 +1,75 @@
+{
+  "id": "217",
+  "title": "Yogurt, whole milk, plain",
+  "image": "/products/217.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Plain whole‑milk yogurt is made by fermenting whole cow’s milk with live cultures of Lactobacillus bulgaricus and Streptococcus thermophilus. It has a creamy texture, mild milky flavor, and contains about 3.5 % fat."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt is one of the oldest fermented dairy foods, with evidence of production over 5,000 years ago in Central Asia.",
+        "Traditional preparation involves heating milk to 85 °C, cooling to 45 °C, then adding a starter culture.",
+        "Live cultures in yogurt can help improve gut microbiota balance.",
+        "Plain yogurt is often used as a base for sauces, marinades, and desserts in many cuisines.",
+        "Whole‑milk yogurt retains more fat‑soluble vitamins (A, D, E, K) than low‑fat versions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Probiotics",
+          "content": "Live bacteria support a healthy gut microbiome, which may aid digestion and immune function."
+        },
+        {
+          "title": "Calcium and Vitamin D",
+          "content": "Whole milk provides calcium and vitamin D essential for strong bones and teeth."
+        },
+        {
+          "title": "Protein",
+          "content": "Yogurt supplies high‑quality milk protein needed for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains riboflavin (B2) and cobalamin (B12), important for energy metabolism."
+        },
+        {
+          "title": "Fatty Acids",
+          "content": "The fat in whole milk includes conjugated linoleic acid (CLA), studied for potential anti‑inflammatory effects."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming yogurt."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey requires complete avoidance of the product."
+        },
+        {
+          "title": "Higher fat content",
+          "content": "Whole‑milk yogurt is higher in calories and saturated fat; moderation is key for weight management."
+        },
+        {
+          "title": "Added sugars in some brands",
+          "content": "While plain yogurt is typically unsweetened, some manufacturers add sugar; check the label."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy yogurt as a snack, blend into smoothies, use as a base for dressings, sauces, desserts, or top with fruit, honey, and nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Store yogurt in the refrigerator at 1‑4 °C. Once opened, consume within 5‑7 days and do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

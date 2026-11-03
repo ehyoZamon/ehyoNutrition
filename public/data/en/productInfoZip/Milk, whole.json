@@ -1,0 +1,75 @@
+{
+  "id": "187",
+  "title": "Milk, whole",
+  "image": "/products/187.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Whole milk is a natural dairy product obtained from cows without removing the fat component. It contains about 3.5 % fat, giving it a creamy texture and characteristic flavor. Milk is consumed fresh, used in cooking, baking, and for preparing beverages."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Whole milk is rich in calcium, which is essential for bone and tooth health.",
+        "It provides all essential amino acids, making it a complete protein source.",
+        "Vitamin D content is often increased by fortification of whole milk.",
+        "Milk naturally contains lactase, but people with lactase deficiency may experience discomfort.",
+        "Traditionally, whole milk has been used to make cheese, yogurt, and butter."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Calcium supports bone density, tooth strength, and is involved in muscle and nerve function."
+        },
+        {
+          "title": "High‑quality protein source",
+          "content": "Milk protein contains all essential amino acids, supporting tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk provides riboflavin (B2) and B12, which are important for energy metabolism and blood formation."
+        },
+        {
+          "title": "Contains mono‑ and polyunsaturated fats",
+          "content": "The fat fraction supplies energy and aids absorption of fat‑soluble vitamins."
+        },
+        {
+          "title": "Phosphorus and potassium",
+          "content": "These minerals help maintain acid‑base balance and support heart function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People lacking lactase may experience bloating, diarrhea, and discomfort after consuming whole milk."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergic reactions can range from skin symptoms to anaphylaxis and require complete avoidance of dairy."
+        },
+        {
+          "title": "High saturated fat content",
+          "content": "Regular consumption of large amounts of whole milk may raise cholesterol levels in susceptible individuals."
+        },
+        {
+          "title": "Pathogen contamination",
+          "content": "Unpasteurized whole milk can contain bacteria such as Salmonella or Listeria, so choosing pasteurized products is important."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink whole milk fresh, add it to cereals, smoothies, sauces, baked goods, and use it for desserts. It can be warmed for infant feeding or added to coffee for a smoother taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole milk in the refrigerator at 1‑4 °C. After opening, consume within 5‑7 days. Do not freeze, as this can alter the fat structure."
+    }
+  ]
+}

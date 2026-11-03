@@ -1,0 +1,70 @@
+{
+  "id": "209",
+  "title": "Almond milk, unsweetened",
+  "image": "/products/209.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Unsweetened almond milk is a plant‑based beverage made by grinding almonds and straining the liquid. It has a light nutty note, a smooth creamy taste, and contains no added sugar."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Almond milk is a popular dairy‑free alternative for vegans and those with lactose intolerance.",
+        "It provides roughly 3‑4 times fewer calories than whole cow’s milk.",
+        "Unsweetened versions are often fortified with calcium, vitamin D and B12 to match the nutrient profile of dairy milk.",
+        "Production of almond milk uses less water than cow’s milk but more than soy milk."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in calories",
+          "content": "Unsweetened almond milk typically contains 30‑40 kcal per 240 ml, making it suitable for weight management."
+        },
+        {
+          "title": "Rich in vitamin E",
+          "content": "Vitamin E is a powerful antioxidant that supports skin health and the immune system."
+        },
+        {
+          "title": "Contains healthy fats",
+          "content": "Almonds provide monounsaturated fats that may promote heart health."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Fortified versions deliver up to 30 % of the daily calcium requirement, important for bones and teeth."
+        },
+        {
+          "title": "Lactose‑free",
+          "content": "Completely free of lactose, making it safe for people with lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Individuals allergic to almonds may experience reactions when consuming the product."
+        },
+        {
+          "title": "Low protein content",
+          "content": "Compared with cow’s milk, almond milk provides little protein, so it should not be relied on as a primary protein source."
+        },
+        {
+          "title": "Additives and sweeteners",
+          "content": "Some brands add flavorings or artificial sweeteners; choose a plain, additive‑free version if desired."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Almond milk works well with cereals, smoothies, coffee, baking, and sauces. Use it as a dairy substitute to add light texture and a subtle nutty flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store an opened carton in the refrigerator and consume within 5‑7 days. Unopened packages should be kept in a cool, dry place away from direct light."
+    }
+  ]
+}

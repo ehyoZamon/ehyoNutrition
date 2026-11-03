@@ -1,0 +1,71 @@
+{
+  "id": "3",
+  "title": "Cottage Cheese",
+  "image": "/products/cottage-cheese.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cottage cheese is a fresh cheese curd product obtained by curdling milk and draining the whey. It has a mild, slightly tangy flavor and a creamy, lumpy texture. Cottage cheese is eaten on its own, used in cooking, baking, and desserts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cottage cheese is one of the oldest dairy foods, with evidence of its consumption in ancient Egypt.",
+        "It is known by different names worldwide: \"cottage cheese\" in the US, \"tvorog\" in Russia, and \"fromage blanc\" in France.",
+        "Cottage cheese comes in various fat levels, from non‑fat to about 9‑10 % milk fat.",
+        "There are \"small curd\" (soft) and \"large curd\" (firm) varieties, differing by the size of the curd grains.",
+        "It is often used as a base for cheese fillings, dumplings, and classic cottage cheese pancakes (syrniki)."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Cottage cheese provides high‑quality dairy protein that supports muscle growth and repair."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Calcium in cottage cheese helps maintain strong bones and teeth."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "Its low sugar content makes it suitable for low‑carb diets."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "It supplies vitamin B12, riboflavin, and niacin, which are important for energy metabolism."
+        },
+        {
+          "title": "Probiotic potential",
+          "content": "Live cultures in some cottage cheese varieties may support a healthy gut microbiome."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming cottage cheese, especially low‑fat versions with higher lactose content."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey proteins can cause reactions to cottage cheese."
+        },
+        {
+          "title": "Added sodium in some products",
+          "content": "Certain pre‑packaged cottage cheese varieties contain added salt, which may be a concern for those with hypertension."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cottage cheese can be enjoyed as a snack, mixed into smoothies, oatmeal, salads, used as a filling for pancakes, dumplings, or baked into casseroles and cheese pancakes. Sweet versions are often combined with fruit, honey, or jam."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cottage cheese in the refrigerator at 0‑4 °C in a sealed container. It typically remains fresh for 5‑7 days after opening. Discard if it develops a sour odor, mold, or an off‑texture."
+    }
+  ]
+}

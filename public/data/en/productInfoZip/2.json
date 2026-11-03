@@ -1,0 +1,75 @@
+{
+  "id": "2",
+  "title": "Carrot",
+  "image": "/products/carrot.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Carrot is a root vegetable belonging to the Apiaceae family, widely cultivated worldwide. It has a sweet taste, crisp texture, and bright orange color due to its high beta‑carotene content."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Carrots are technically biennial plants, but are cultivated as annuals for their edible roots.",
+        "The orange color was developed through Dutch breeding in the 17th century.",
+        "There are over 100 carrot varieties, including purple, yellow, red, and white.",
+        "Beta‑carotene in carrots is converted to vitamin A in the body, essential for vision.",
+        "Carrots can grow in low‑nitrogen soils but require good drainage."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in beta‑carotene",
+          "content": "Beta‑carotene is a precursor of vitamin A, supporting eye health and immunity."
+        },
+        {
+          "title": "Supports heart health",
+          "content": "Fiber and potassium help lower blood pressure."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Lycopene and other carotenoids combat free radicals."
+        },
+        {
+          "title": "Helps regulate blood sugar",
+          "content": "Low glycemic index and fiber promote gradual glucose rise."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Fiber improves intestinal motility and prevents constipation."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Rarely, some individuals may experience an allergic reaction to carrots."
+        },
+        {
+          "title": "Excess vitamin A",
+          "content": "Very high consumption can lead to hypervitaminosis A, causing skin yellowing."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Sweet varieties may be a concern for those monitoring sugar intake."
+        },
+        {
+          "title": "Soil contamination",
+          "content": "Carrots can accumulate heavy metals from polluted soils, so source them responsibly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Carrots can be eaten raw as sticks, added to salads, soups, stews, roasted, steamed, or used in baking. Grated carrot is common in desserts and carrot cakes. Carrot juice is a popular refreshing drink."
+    },
+    {
+      "title": "Storage",
+      "content": "Store carrots in the refrigerator’s vegetable drawer, preferably in a perforated bag or a container with a small amount of water. In a cool, dark place they can keep for several weeks. Keep carrots away from ethylene‑producing fruits, as they accelerate spoilage."
+    }
+  ]
+}

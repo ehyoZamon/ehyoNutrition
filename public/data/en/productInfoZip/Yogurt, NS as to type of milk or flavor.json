@@ -1,0 +1,71 @@
+{
+  "id": "215",
+  "title": "Yogurt, NS",
+  "image": "/products/215.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt NS is a dairy product made by fermenting whole milk and adding natural flavorings. It has a smooth, creamy taste with a mild tang typical of traditional yogurt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt has been known since ancient Mesopotamia, where it was used as food and medicine.",
+        "The word “yogurt” comes from the Turkish “yoğurt,” meaning “curdled.”",
+        "NS in the name stands for “natural flavor,” with no artificial additives.",
+        "Yogurt is often consumed as a probiotic to support gut microbiota.",
+        "In different countries yogurt can be thick (Greek) or runny."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Yogurt contains live bacterial cultures that promote a healthy digestive system."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Calcium in yogurt supports bone and tooth health."
+        },
+        {
+          "title": "Provides protein",
+          "content": "Protein in yogurt aids muscle repair and helps maintain satiety."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamins B2 and B12, important for energy metabolism."
+        },
+        {
+          "title": "Low‑fat options",
+          "content": "Reduced‑fat yogurt is suitable for calorie‑controlled diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming yogurt."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey protein requires complete avoidance of yogurt."
+        },
+        {
+          "title": "Added sugar in flavored varieties",
+          "content": "Sweetened yogurts can contain added sugars, which are undesirable for diabetics."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Yogurt NS can be enjoyed on its own, added to smoothies, cereals, salads, or used in sauces and desserts. For a thicker texture, mix it with berries or nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Store yogurt in the refrigerator at 1 °C–4 °C. Once opened, consume within 3–5 days. Do not keep at room temperature for more than 2 hours."
+    }
+  ]
+}

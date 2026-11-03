@@ -1,0 +1,71 @@
+{
+  "id": "213",
+  "title": "Yogurt, NFS",
+  "image": "/products/213.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt NFS is a fermented dairy product made by inoculating whole milk with specific bacterial cultures. It has a smooth, creamy taste with a mild tang and a velvety texture. The product is offered in various fat levels and flavor additions."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt is one of the oldest fermented milk foods, traced back to ancient Egypt.",
+        "The bacteria Lactobacillus bulgaricus and Streptococcus thermophilus used in yogurt aid digestion.",
+        "NFS yogurt is often fortified with probiotics, vitamin D and B12 to boost its nutritional profile.",
+        "In many cultures yogurt is traditionally served with honey, nuts or fresh berries.",
+        "Fermentation reduces lactose, making yogurt more tolerable for people with mild lactose intolerance."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Live cultures support gut microbiota balance and strengthen the immune system."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Calcium in yogurt is essential for bone and teeth health."
+        },
+        {
+          "title": "Provides protein",
+          "content": "Yogurt supplies high‑quality dairy protein that helps tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt contains riboflavin (B2) and cobalamin (B12), important for energy metabolism."
+        },
+        {
+          "title": "Low‑fat options",
+          "content": "Light versions are suitable for calorie‑controlled diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey may react to yogurt."
+        },
+        {
+          "title": "Added sugar in flavored varieties",
+          "content": "Sweetened yogurts increase calorie intake and can contribute to tooth decay."
+        },
+        {
+          "title": "Live culture viability",
+          "content": "Probiotic counts may decline if stored at high temperatures for long periods."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Yogurt NFS can be enjoyed on its own, blended into smoothies, mixed with oatmeal or granola, or used in sauces and desserts. For extra creaminess it is often combined with honey, berries or nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep yogurt refrigerated at 1 °C–4 °C. After opening, consume within 3–5 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

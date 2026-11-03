@@ -1,0 +1,75 @@
+{
+  "id": "225",
+  "title": "Yogurt, whole milk, fruit",
+  "image": "/products/225.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit-flavored whole‑milk yogurt is a fermented dairy product made by culturing whole milk with live Lactobacillus bulgaricus and Streptococcus thermophilus cultures, then adding fruit puree or juice for flavor. It has a creamy texture, mild dairy taste, and a bright fruit note."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt has been known since ancient Mesopotamia, where it was used to preserve milk.",
+        "Fruit yogurts appeared in the early 20th century when manufacturers began adding fruit purees to improve taste.",
+        "Live cultures in yogurt help maintain a healthy gut microbiome.",
+        "Whole‑milk yogurt contains more fat and vitamins A and D than low‑fat versions.",
+        "In many cultures yogurt is traditionally served with honey and nuts."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports digestion",
+          "content": "Probiotic cultures promote a balanced intestinal flora, aiding digestion and nutrient absorption."
+        },
+        {
+          "title": "Source of calcium and vitamin D",
+          "content": "Whole milk provides high levels of calcium and vitamin D, essential for bone health."
+        },
+        {
+          "title": "Rich in protein",
+          "content": "Yogurt supplies complete protein important for tissue repair and muscle maintenance."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "It contains notable amounts of B2 and B12, which are involved in energy metabolism."
+        },
+        {
+          "title": "Antioxidants from fruit",
+          "content": "Fruit puree adds antioxidants such as vitamin C and polyphenols that help combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming whole‑milk yogurt."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergic reactions to casein or whey can occur in sensitive individuals."
+        },
+        {
+          "title": "Added sugar content",
+          "content": "Fruit yogurts often contain added sugars; choose low‑sugar options when possible."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Whole‑milk yogurt is more calorie‑dense than low‑fat versions, so portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy it as a snack, blend into smoothies, top oatmeal or granola, or use as a base for sauces and desserts. Garnish with fresh berries or nuts for extra texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store yogurt in the refrigerator at 2–4 °C. Once opened, consume within 3–5 days and do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

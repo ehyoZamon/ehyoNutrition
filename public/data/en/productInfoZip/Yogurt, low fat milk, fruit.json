@@ -1,0 +1,75 @@
+{
+  "id": "226",
+  "title": "Yogurt, Low Fat Milk, Fruit",
+  "image": "/products/226.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt made from low‑fat milk and mixed with fruit pieces is a light dairy product with low fat content and natural fruit sweetness. It is rich in probiotics, calcium, B‑vitamins, and also provides fruit fiber and antioxidants."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Low‑fat milk retains most nutrients while containing almost no fat.",
+        "Fruit additions often use seasonal berries and fruit chunks, boosting vitamin C content.",
+        "Probiotics in yogurt support gut health and strengthen immunity.",
+        "Low‑fat yogurt is a popular choice for athletes and weight‑conscious individuals.",
+        "In some countries yogurt with fruit is served as a dessert, in others as a light breakfast."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in Probiotics",
+          "content": "Probiotic cultures help maintain a balanced gut microbiota, improving digestion and immune function."
+        },
+        {
+          "title": "Low Fat Content",
+          "content": "Low‑fat milk reduces the calorie density of the product, which is beneficial for weight management."
+        },
+        {
+          "title": "Calcium Source",
+          "content": "Calcium supports strong bones and teeth and is essential for muscle and nerve function."
+        },
+        {
+          "title": "Vitamins and Antioxidants",
+          "content": "Fruit adds vitamin C, vitamin A, and polyphenols that protect cells from oxidative stress."
+        },
+        {
+          "title": "Protein",
+          "content": "Yogurt provides high‑quality dairy protein needed for tissue repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose Intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming yogurt, even low‑fat versions."
+        },
+        {
+          "title": "Milk Protein Allergy",
+          "content": "Allergy to casein or whey protein requires complete avoidance of the product."
+        },
+        {
+          "title": "Sugar Content",
+          "content": "Some fruit yogurts contain added sugar; choose unsweetened or low‑sugar options."
+        },
+        {
+          "title": "Canned Fruit",
+          "content": "If fruit is canned in syrup, it increases the calorie and sugar load."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the yogurt as a snack, blend it into smoothies, use it as a base for desserts, or top with granola for crunch. Stir gently before serving to distribute fruit pieces evenly."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the yogurt in the refrigerator at 2‑4 °C. Once opened, consume within 3‑5 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

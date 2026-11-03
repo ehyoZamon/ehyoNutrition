@@ -1,0 +1,75 @@
+{
+  "id": "212",
+  "title": "Oat Milk",
+  "image": "/products/212.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Oat milk is a plant‑based beverage made from whole oat grains, water, and sometimes added ingredients (sweeteners, flavorings, vitamins). It has a mild creamy taste, a slightly sweet oat aroma, and a light‑cream color. Oat milk is suitable for vegans, people with lactose intolerance, and anyone looking for a dairy‑free alternative."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Oat milk gained popularity in Scandinavia in the early 1990s.",
+        "Oats contain beta‑glucans, which may help lower cholesterol levels.",
+        "Unlike many nut milks, oat milk typically contains no nuts, making it safe for most allergy sufferers.",
+        "Producing oat milk uses less water than producing cow’s milk.",
+        "Oat milk creates a stable foam, which is why it’s favored for coffee drinks."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in beta‑glucans",
+          "content": "Beta‑glucans support healthy cholesterol levels and contribute to immune function."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Oat milk provides thiamine, riboflavin, and niacin, which are important for energy metabolism."
+        },
+        {
+          "title": "Contains iron and magnesium",
+          "content": "These minerals are essential for blood formation and normal muscle and nerve function."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Oat milk fits well into diets that limit saturated fat intake."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "The fiber from oats can help maintain regular bowel movements."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oat allergy",
+          "content": "A small number of individuals may experience allergic reactions to oats."
+        },
+        {
+          "title": "Gluten content",
+          "content": "Oats are often processed on shared equipment with wheat, so trace gluten may be present."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some brands sweeten their oat milk, increasing calorie content."
+        },
+        {
+          "title": "High glycemic index",
+          "content": "Oat milk can raise blood sugar levels more quickly than some other plant milks."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Oat milk can be enjoyed on its own, added to coffee, tea, smoothies, cereals, baked goods, sauces, and soups. It is also used as a base for vegan desserts and ice cream."
+    },
+    {
+      "title": "Storage",
+      "content": "Store opened oat milk in the refrigerator for up to 5–7 days. Keep unopened cartons in a cool, dry place away from direct light."
+    }
+  ]
+}

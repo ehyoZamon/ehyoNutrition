@@ -43,7 +43,7 @@ from google.genai import types
 # 1) API-ключ Gemini (получить: https://aistudio.google.com/apikey).
 #    Лучше задать переменной окружения GEMINI_API_KEY.
 #    Либо впишите ключ прямо сюда: GEMINI_API_KEY = "AIza..."
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY = ""
 
 # 2) Модель Gemini, которая будет генерировать текст.
 #    Быстрая и дешёвая: "gemini-2.5-flash". Качественнее: "gemini-2.5-pro".
@@ -60,12 +60,12 @@ PRODUCTS_SOURCE = "products.json"
 # 4) Файл-образец со структурой, по которой Gemini создаст новый продукт.
 #    Если оставить None — образцом станет первый продукт из PRODUCTS_SOURCE
 #    (подходит, когда источник уже содержит полный продукт, как ваш products.json).
-TEMPLATE_FILE = None
+TEMPLATE_FILE = "../public/data/en/productInfo/almonds.json"
 
 # 5) Куда сохранять результат. Внутри создадутся папки RU_DIR_NAME и EN_DIR_NAME.
-OUTPUT_DIR = "."
-RU_DIR_NAME = "ru"
-EN_DIR_NAME = "en"
+OUTPUT_DIR = "../public/data"
+RU_DIR_NAME = "ru/productInfoZip"
+EN_DIR_NAME = "en/productInfoZip"
 
 # 6) Если файл продукта уже существует:
 #    True  — пропустить (не тратить запросы к API), False — перезаписать.

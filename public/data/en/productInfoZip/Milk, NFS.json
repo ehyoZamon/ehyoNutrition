@@ -1,0 +1,75 @@
+{
+  "id": "186",
+  "title": "Milk, NFS",
+  "image": "/products/186.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Milk is a nutrient‑rich fluid produced by the mammary glands of mammals. In the food industry, cow’s milk is most common, though goat, sheep, and plant‑based alternatives are also available. Milk provides high‑quality protein, fats, lactose, vitamins (A, D, B12) and minerals (calcium, phosphorus, potassium)."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Milk is a natural source of calcium, essential for strong bones and teeth.",
+        "Average cow’s milk contains about 3.3 % protein and 3.6 % fat.",
+        "Lactose is the main carbohydrate in milk; some people have lactose intolerance.",
+        "Humans have been consuming milk for over 10,000 years, with archaeological evidence from the Neolithic era.",
+        "Vitamin D content in milk is often increased through fortification."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of calcium",
+          "content": "Calcium from milk is highly bioavailable and supports bone, tooth and nervous system health."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "Milk protein contains all essential amino acids, making it a complete source for growth and tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk supplies vitamin B12, riboflavin and niacin, which are important for energy metabolism."
+        },
+        {
+          "title": "Vitamins D and A",
+          "content": "Vitamin D aids calcium absorption, while vitamin A supports vision and immune function."
+        },
+        {
+          "title": "Beneficial fats",
+          "content": "Milk fat includes short‑ and medium‑chain triglycerides that are quickly metabolized and can serve as an energy source."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactase deficiency may experience bloating, diarrhea and discomfort after consuming milk."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey can cause skin rashes, swelling and, in severe cases, anaphylaxis."
+        },
+        {
+          "title": "Saturated fat content",
+          "content": "Whole milk contains saturated fats; intake should be moderated for those with cardiovascular concerns."
+        },
+        {
+          "title": "Contamination risk",
+          "content": "Improper storage or pasteurization can allow growth of pathogens such as Salmonella or Listeria."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Milk can be consumed plain, added to cereals, smoothies, sauces, baked goods and desserts. Children are usually recommended whole milk, while adults may choose low‑fat or skim varieties based on dietary needs. Lactose‑free options are available for those with intolerance."
+    },
+    {
+      "title": "Storage",
+      "content": "Store milk in the refrigerator at 1–4 °C. After opening, use within 3–5 days. Freezing is possible but may alter texture; thaw in the fridge before use."
+    }
+  ]
+}

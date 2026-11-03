@@ -1,0 +1,75 @@
+{
+  "id": "223",
+  "title": "Greek Yogurt, Nonfat Milk, Plain",
+  "image": "/products/223.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt made from nonfat milk is a thick, creamy product with high protein and low fat. It is produced by double‑straining, which removes much of the whey and creates a denser texture compared with regular yogurt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Greek yogurt contains two to three times more protein than regular yogurt.",
+        "Nonfat milk retains most nutrients while removing almost all fat.",
+        "Traditionally, Greek yogurt is set in a temperature‑controlled environment and then strained through cheesecloth or a special filter.",
+        "Its thick consistency makes it a popular substitute for sour cream or mayonnaise in recipes.",
+        "Greek yogurt surged in popularity in the United States in the early 2000s as a high‑protein snack."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "One cup (≈200 g) provides about 20 g of high‑quality protein, supporting muscle growth and repair."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Made from nonfat milk, the product is virtually fat‑free, suitable for calorie‑restricted diets."
+        },
+        {
+          "title": "Source of probiotics",
+          "content": "Live cultures promote gut health and may strengthen the immune system."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Greek yogurt supplies a substantial portion of the daily calcium requirement, important for bone health."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "The high protein and low sugar content result in a modest impact on blood glucose levels."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Although much of the lactose is removed during straining, a small amount remains."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Casein and whey proteins can trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some brands sweeten the product; choose an unsweetened version if you watch sugar intake."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Certain varieties may contain added salt, which should be considered on low‑sodium diets."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy it plain as a snack, blend into smoothies, use in sauces, dips, desserts, or as a base for dressings. Its thick texture pairs well with berries, nuts, honey, or whole‑grain cereals."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the yogurt refrigerated at 1‑4 °C. Once opened, consume within 5‑7 days and do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

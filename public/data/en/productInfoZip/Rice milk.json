@@ -1,0 +1,75 @@
+{
+  "id": "211",
+  "title": "Rice Milk",
+  "image": "/products/211.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Rice milk is a plant‑based beverage made from whole rice, water, and sometimes added ingredients such as salt, sugar, or flavorings. It has a light yellow color, a gentle sweet taste, and a thin texture. It is commonly used as a dairy‑milk alternative for people with lactose intolerance, dairy‑protein allergy, or vegan diets."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Rice milk first appeared in Japan in the early 20th century as an inexpensive milk substitute.",
+        "Unlike soy milk, rice milk is naturally free of common allergens like soy and nuts.",
+        "It contains less protein than cow’s milk but is rich in carbohydrates, especially starch.",
+        "Manufacturers often add vegetable oils (e.g., sunflower or rapeseed) to improve flavor and mouthfeel.",
+        "Rice milk generally has a longer shelf life after opening compared with most other plant milks."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low allergen content",
+          "content": "Suitable for people allergic to dairy proteins, soy, nuts, and gluten."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Provides thiamine (B1), niacin (B3) and vitamin B6, which support energy metabolism."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Contains modest amounts of iron that contribute to blood formation."
+        },
+        {
+          "title": "Digestive friendly",
+          "content": "Lactose‑free, making it gentle for those with lactose intolerance."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Has less saturated fat than whole cow’s milk, which may help manage cholesterol levels."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High glycemic index",
+          "content": "The high amount of simple carbs can cause a rapid rise in blood sugar."
+        },
+        {
+          "title": "Low protein content",
+          "content": "Not a primary protein source, especially for athletes and children."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some commercial versions contain added sugar, increasing calorie count."
+        },
+        {
+          "title": "Arsenic presence",
+          "content": "Rice can contain trace amounts of heavy metals; choose reputable brands."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink rice milk on its own, add it to cereals, smoothies, coffee, baking, and sauces. For a creamier texture, blend with a little vegetable oil or coconut milk."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the opened container in the refrigerator and consume within 5‑7 days. Avoid exposure to direct sunlight. Discard if the milk develops off‑smell, discoloration, or off‑taste."
+    }
+  ]
+}

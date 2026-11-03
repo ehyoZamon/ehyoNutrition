@@ -1,0 +1,75 @@
+{
+  "id": "204",
+  "title": "Soy Milk, Sweetened",
+  "image": "/products/204.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy milk is a plant‑based beverage made from soybeans that are ground, cooked, and filtered. The sweetened version contains added sugar or other sweeteners, giving it a pleasant, mild sweetness. It is a popular alternative to cow’s milk for people with lactose intolerance, vegans, and those seeking a lower‑calorie drink."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Commercial soy milk production began in the United States in the 1930s.",
+        "Soy milk provides roughly the same amount of protein as cow’s milk (about 3 g per 100 ml).",
+        "Sweetened varieties are often fortified with calcium, vitamin D, and vitamin B12.",
+        "Soybeans are a source of isoflavones, which are studied for potential heart‑health and hormonal benefits.",
+        "In Japan, soy milk is commonly served chilled during the summer months."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "Soy protein contains all essential amino acids, making it a valuable protein source for vegetarians and vegans."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Unlike whole cow’s milk, soy milk is primarily composed of polyunsaturated fats, which are heart‑friendly."
+        },
+        {
+          "title": "Source of isoflavones",
+          "content": "Isoflavones may support hormonal balance and contribute to reduced risk of osteoporosis."
+        },
+        {
+          "title": "Fortified with calcium and vitamins",
+          "content": "Most commercial versions are enriched with calcium, vitamin D, and vitamin B12, helping to replace nutrients typically obtained from dairy."
+        },
+        {
+          "title": "Digestive support",
+          "content": "Sweetened soy milk often contains added probiotics that promote a healthy gut microbiome."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Some individuals may experience allergic reactions to soy proteins, ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "Added sugar content",
+          "content": "Sweetened versions can contain significant amounts of added sugar, which is undesirable for people with diabetes or those monitoring weight."
+        },
+        {
+          "title": "Phytates",
+          "content": "Soy contains phytates that can reduce the absorption of certain minerals (iron, zinc) when consumed in excess."
+        },
+        {
+          "title": "Genetically modified organisms (GMOs)",
+          "content": "The majority of soybeans grown worldwide are GMO; those avoiding GMOs should look for certified organic options."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Sweetened soy milk can be enjoyed straight, added to smoothies, oatmeal, baked goods, coffee, or used as a base for sauces. For extra flavor, consider adding cinnamon, vanilla, or a dash of cocoa."
+    },
+    {
+      "title": "Storage",
+      "content": "Store an opened carton in the refrigerator and consume within 5‑7 days. Keep unopened packages in a cool, dry place away from direct sunlight. Discard if the milk develops a sour smell or off‑taste."
+    }
+  ]
+}

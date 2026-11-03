@@ -1,0 +1,70 @@
+{
+  "id": "216",
+  "title": "Yogurt, NS, plain",
+  "image": "/products/216.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt NS is a smooth dairy product made from whole cow’s milk with live probiotic cultures. It has a creamy texture and a mild tangy flavor, without added sugars or flavorings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt NS is produced using a traditional fermentation process where milk is cultured at a controlled temperature.",
+        "The ingredient list includes only milk and live cultures Lactobacillus bulgaricus and Streptococcus thermophilus, with no artificial sweeteners.",
+        "Yogurt retains most of the milk’s nutrients, including calcium, protein, and B‑vitamins.",
+        "It is often used as a base for sauces, desserts, and smoothies."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports gut microbiota",
+          "content": "Live probiotic cultures promote the growth of beneficial bacteria, improving digestion and immune function."
+        },
+        {
+          "title": "Source of calcium and protein",
+          "content": "Yogurt provides calcium for bone health and high‑quality milk protein for muscle maintenance."
+        },
+        {
+          "title": "Moderate fat content",
+          "content": "Plain NS yogurt has a moderate fat level, making it suitable for balanced diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "It contains riboflavin (B2) and vitamin B12, which are important for energy metabolism."
+        },
+        {
+          "title": "Improved lactose tolerance",
+          "content": "Fermentation partially breaks down lactose, making the product easier to digest for people with mild lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "Individuals allergic to casein or whey may react to yogurt."
+        },
+        {
+          "title": "Live culture viability",
+          "content": "If stored above the recommended temperature, probiotic counts can decline, reducing the product’s benefits."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some yogurt varieties may contain added salt; those monitoring sodium intake should check the label."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Yogurt NS can be enjoyed on its own, mixed with granola or fruit, used as a base for dressings, sauces, and smoothies, or incorporated into baked goods to add moisture and flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep yogurt refrigerated at 1 °C–4 °C. Once opened, consume within 5–7 days. Do not freeze, as the texture may change."
+    }
+  ]
+}
