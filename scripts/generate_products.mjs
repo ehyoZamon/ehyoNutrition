@@ -43,10 +43,9 @@ const EN_DIR_NAME = "en/productInfoZip";
 const RETRY_DELAY_MIN_MS = 30_000; // пауза между повторами — случайная
 const RETRY_DELAY_MAX_MS = 60_000; // в диапазоне 30–60 секунд
 const QUALITY_RETRY_DELAY_MS = 5_000; // пауза после «плохого» JSON (лимиты тут ни при чём)
-const MAX_QUALITY_ATTEMPTS = 10;   // сколько раз подряд можно получить «плохой» JSON, прежде чем остановиться
+const MAX_QUALITY_ATTEMPTS = 10;   // после стольких быстрых повторов (при плохом JSON) паузы становятся 30–60 с
 const REQUEST_TIMEOUT_MS = 60_000;
 const PAUSE_BETWEEN_PRODUCTS_MS = 2000;
-const MAX_AUTO_WAIT_MS = 120_000;  // если Groq просит ждать дольше (суточный лимит) — остановка
 
 // Вывод ответов модели в консоль (удобно для отладки).
 const LOG_MODEL_RESPONSES = true;
@@ -76,6 +75,26 @@ const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const resolveHere = (p) => path.resolve(SCRIPT_DIR, p);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** 75000 -> «1 мин 15 с», 42000 -> «42 с». */
+function formatDuration(ms) {
+  const total = Math.max(0, Math.round(ms / 1000));
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const sec = total % 60;
+  return [h && `${h} ч`, m && `${m} мин`, (sec || (!h && !m)) && `${sec} с`].filter(Boolean).join(" ");
+}
+
+/** Долгое ожидание с напоминанием в консоли раз в минуту. */
+async function sleepWithCountdown(ms) {
+  let left = ms;
+  while (left > 0) {
+    const step = Math.min(left, 60_000);
+    await sleep(step);
+    left -= step;
+    if (left > 0) console.log(`   …ждём ещё ~${formatDuration(left)}`);
+  }
+}
 
 /** Ошибка, после которой продолжать бессмысленно (неверный ключ, исчерпан лимит). */
 class FatalError extends Error {}
@@ -240,10 +259,14 @@ function validate(result, template) {
 
 /** Достаёт из текста ошибки Groq подсказку «Please try again in 7.41s» (в мс). */
 function parseRetryHint(text) {
-  const m = String(text).match(/try again in\s+(?:(\d+)m)?\s*([\d.]+)(ms|s)\b/i);
+  const m = String(text).match(/try again in\s+([0-9hms.]+)/i);
   if (!m) return 0;
-  const value = Number(m[2]);
-  return Number(m[1] || 0) * 60_000 + (m[3].toLowerCase() === "ms" ? value : value * 1000);
+  const units = { h: 3_600_000, m: 60_000, s: 1000, ms: 1 };
+  let total = 0;
+  for (const [, value, unit] of m[1].replace(/\.$/, "").matchAll(/(\d+(?:\.\d+)?)(ms|h|m|s)/g)) {
+    total += Number(value) * units[unit];
+  }
+  return total;
 }
 
 /** Ошибка «плохого» ответа модели (не JSON / нарушена структура / не тот язык). */
@@ -305,14 +328,8 @@ async function callGroq(prompt) {
       throw new FatalError(`Groq 404: модель «${MODEL}» недоступна. ${body.slice(0, 200)}`);
     }
 
-    // Лимиты: ждём и повторяем (если ждать слишком долго — это суточный лимит).
+    // Лимиты (в т. ч. суточный): не останавливаемся, ждём, сколько просит Groq, и повторяем.
     if (res.status === 429) {
-      if (hintMs > MAX_AUTO_WAIT_MS) {
-        throw new FatalError(
-          `Groq 429: исчерпан лимит, повторить можно через ~${Math.ceil(hintMs / 60_000)} мин. ` +
-            "Запустите скрипт позже — готовые файлы он пропустит.",
-        );
-      }
       const kind = body.match(/\((TPM|TPD|RPM|RPD)\)/)?.[1] ?? "лимит";
       const err = new Error(`Groq 429: превышен лимит ${kind}`);
       err.retryAfterMs = hintMs;
@@ -345,9 +362,9 @@ async function callGroq(prompt) {
 }
 
 /**
- * Один продукт. Повторяет запрос, пока не получит корректный результат.
- * Бросает ошибку только если продолжать нельзя (неверный ключ, суточный лимит,
- * либо модель MAX_QUALITY_ATTEMPTS раз подряд вернула некорректный ответ).
+ * Один продукт. Повторяет запрос, пока не получит корректный результат: лимиты Groq,
+ * сбои сети и «плохие» ответы модели не останавливают скрипт — он ждёт и пробует снова.
+ * Ошибку бросает только в случае, когда повторы бессмысленны (неверный ключ, нет модели).
  */
 async function generateProduct(name, slug, structure, template) {
   const prompt = buildPrompt(name, slug, structure);
@@ -383,23 +400,20 @@ async function generateProduct(name, slug, structure, template) {
       // Если Groq отклонил ответ (400), показываем, что модель успела выдать.
       if (error.modelOutput) logModelResponse("невалидный ответ модели", error.modelOutput);
 
-      if (error.quality && ++qualityFails >= MAX_QUALITY_ATTEMPTS) {
-        throw new FatalError(
-          `модель ${MAX_QUALITY_ATTEMPTS} раз подряд вернула некорректный ответ (${error.message}). ` +
-            "Запустите скрипт ещё раз или смените модель.",
-        );
-      }
+      if (error.quality) qualityFails++;
 
-      // Пауза 30–60 с; если Groq просит ждать дольше — ждём столько, сколько просит.
-      const baseWait = error.quality
+      // Плохой JSON: сначала быстрые повторы (5 с), потом паузы 30–60 с.
+      // Остальное (лимиты, сеть): пауза 30–60 с; если Groq просит ждать дольше — ждём сколько просит.
+      const quickRetry = error.quality && qualityFails < MAX_QUALITY_ATTEMPTS;
+      const baseWait = quickRetry
         ? QUALITY_RETRY_DELAY_MS
         : RETRY_DELAY_MIN_MS + Math.random() * (RETRY_DELAY_MAX_MS - RETRY_DELAY_MIN_MS);
       const waitMs = Math.max(baseWait, (error.retryAfterMs ?? 0) + 1000);
 
       console.log(
-        `   попытка ${attempt} не удалась: ${error.message} — повтор через ${Math.round(waitMs / 1000)} с`,
+        `   попытка ${attempt} не удалась: ${error.message} — повтор через ${formatDuration(waitMs)}`,
       );
-      await sleep(waitMs);
+      await sleepWithCountdown(waitMs);
     }
   }
 }

@@ -1,0 +1,71 @@
+{
+  "id": "228",
+  "title": "Greek Yogurt, No Sugar, Fruit",
+  "image": "/products/228.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt with no added sugar, enriched with fruit puree (e.g., strawberry, mango, or blueberry). It is made from whole cow's milk, strained to achieve a thick, creamy texture, and contains minimal lactose."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Greek yogurt contains two to three times more protein than regular yogurt.",
+        "Straining removes whey, making the product denser and lower in moisture.",
+        "Being sugar‑free gives it a lower glycemic index, beneficial for blood‑sugar control.",
+        "Fruit puree is often prepared without added sugars or preservatives.",
+        "Traditional Greek yogurt is made from whole milk, though low‑fat versions exist."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "A 200 ml serving provides about 15–20 g of protein, supporting muscle maintenance."
+        },
+        {
+          "title": "Source of probiotics",
+          "content": "Live cultures such as Lactobacillus and Bifidobacterium promote a healthy gut microbiome."
+        },
+        {
+          "title": "Low sugar content",
+          "content": "No added sugar helps keep calorie count low and stabilizes blood glucose levels."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Yogurt supplies calcium for bone health and is often fortified with vitamin D."
+        },
+        {
+          "title": "Beneficial fats",
+          "content": "When made from whole milk, it retains omega‑3 and omega‑6 fatty acids."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Although some lactose is removed during straining, it may still cause discomfort for highly intolerant individuals."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey should avoid this product."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some brands add a pinch of salt for flavor; check the label if you monitor sodium intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy it straight from the cup, blend into smoothies, use as a base for sauces, dressings, or desserts. The fruit puree makes it a great topping for granola, nuts, and honey."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the yogurt refrigerated at 2–4 °C. Once opened, consume within 5–7 days. Do not freeze, as the texture may become grainy."
+    }
+  ]
+}
