@@ -5,7 +5,7 @@
   transform: translateX(-50%);
   width: 100%;
   max-width: clamp(300px, 90vw, 500px);
-  padding-bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
+  padding-bottom: max(20px, calc(env(safe-area-inset-bottom) + 20px));
   z-index: 10;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;

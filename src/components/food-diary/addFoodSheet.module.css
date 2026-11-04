@@ -143,11 +143,11 @@
   position: absolute;
   max-width: 90%;
   left: 5%;
-  bottom: max(48px, calc(env(safe-area-inset-bottom) + 48px));
+  bottom: max(20px, calc(env(safe-area-inset-bottom) + 20px));
 }
 
 .bottom-shade{
-  height: max(48px, calc(env(safe-area-inset-bottom) + 48px));
+  height: max(20px, calc(env(safe-area-inset-bottom) + 20px));
   left: 0;
   bottom: 0;
   width: 100%;

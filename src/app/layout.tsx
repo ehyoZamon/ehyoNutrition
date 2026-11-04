@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import { Signika, Nunito, Inter} from "next/font/google";
-import LanguageProvider from "@/components/LanguageProvider"; // Импортируем наш провайдер
+import type { Metadata, Viewport } from "next";
+import { Signika, Inter } from "next/font/google";
+import LanguageProvider from "@/components/LanguageProvider";
 import "./globals.css";
 import DBProvider from './providers/DBProvider';
 import NativeInit from "@/components/NativeInit";
@@ -12,20 +12,22 @@ import BackButtonHandler from "@/components/BackButtonHandler";
 const signika = Signika({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-signika", 
+  variable: "--font-signika",
 });
-
-/*const nunito = Nunito({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-nunito", 
-});*/
 
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
-  variable: "--font-inter",   
+  variable: "--font-inter",
 });
+
+// width=device-width вместо width=375: фиксированная ширина заставляла WebView
+// масштабировать страницу и пересчитывать layout при фокусе на input.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
 
 export const metadata: Metadata = {
   title: "Ehyo Nutrition App",
@@ -33,7 +35,6 @@ export const metadata: Metadata = {
   keywords: ["nutrition app", "ehyo", "nutritions", "healthy food"],
   authors: [{ name: "Ehyo Team" }],
   robots: "index, follow",
-  viewport: "width=375, initial-scale=1, viewport-fit=cover",
   other: {
     copyright: "© 2026 Ehyo",
   },
@@ -62,7 +63,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // Тег <html> изначально получает дефолтный язык en, но LanguageProvider обновит его динамически
     <html lang="en" className={`${signika.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light dark" />
@@ -71,7 +71,6 @@ export default function RootLayout({
         <NativeInit />
         <BackButtonHandler />
         <SystemBarOverlays />
-        {/* Оборачиваем все дочерние страницы в мультиязычный контекст */}
         <DBProvider>
           <LanguageProvider>
             <AddFoodProvider>

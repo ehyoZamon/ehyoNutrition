@@ -1,0 +1,280 @@
+{
+  "slug": "broccoli-raw",
+  "name": "Брокколи, сырая",
+  "category": "Овощи и овощные продукты",
+  "macroTitle": "Макронутриенты (на 100 г)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Калории",
+      "slug": "",
+      "amount": "34 ккал"
+    },
+    {
+      "id": "protein",
+      "name": "Белки",
+      "slug": "protein",
+      "amount": "2.82 г"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Углеводы",
+      "slug": "carbohydrates",
+      "amount": "6.64 г"
+    },
+    {
+      "id": "fats",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "0.37 г"
+    },
+    {
+      "id": "fiber",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "2.6 г"
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "1",
+      "name": "Витамин C",
+      "slug": "vitamin-c",
+      "amount": "89.2 мг"
+    },
+    {
+      "id": "2",
+      "name": "Витамин D",
+      "slug": "vitamin-d",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "3",
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "31 мкг"
+    },
+    {
+      "id": "4",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0.78 мг"
+    },
+    {
+      "id": "5",
+      "name": "Витамин K",
+      "slug": "vitamin-k",
+      "amount": "101.6 мкг"
+    },
+    {
+      "id": "6",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.071 мг"
+    },
+    {
+      "id": "7",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.117 мг"
+    },
+    {
+      "id": "8",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.639 мг"
+    },
+    {
+      "id": "9",
+      "name": "Витамин B5",
+      "slug": "vitamin-b5",
+      "amount": "0.57 мг"
+    },
+    {
+      "id": "10",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.175 мг"
+    },
+    {
+      "id": "12",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "63 мкг DFE"
+    },
+    {
+      "id": "13",
+      "name": "Витамин B12",
+      "slug": "vitamin-b12",
+      "amount": "0 мкг"
+    },
+    {
+      "id": "17",
+      "name": "Гистидин",
+      "slug": "histidine",
+      "amount": "0.06 г"
+    },
+    {
+      "id": "18",
+      "name": "Изолейцин",
+      "slug": "isoleucine",
+      "amount": "0.08 г"
+    },
+    {
+      "id": "19",
+      "name": "Лейцин",
+      "slug": "leucine",
+      "amount": "0.13 г"
+    },
+    {
+      "id": "20",
+      "name": "Лизин",
+      "slug": "lysine",
+      "amount": "0.14 г"
+    },
+    {
+      "id": "21",
+      "name": "Метионин",
+      "slug": "methionine",
+      "amount": "0.04 г"
+    },
+    {
+      "id": "22",
+      "name": "Фенилаланин",
+      "slug": "phenylalanine",
+      "amount": "0.12 г"
+    },
+    {
+      "id": "23",
+      "name": "Треонин",
+      "slug": "threonine",
+      "amount": "0.09 г"
+    },
+    {
+      "id": "24",
+      "name": "Триптофан",
+      "slug": "tryptophan",
+      "amount": "0.03 г"
+    },
+    {
+      "id": "25",
+      "name": "Валин",
+      "slug": "valine",
+      "amount": "0.13 г"
+    },
+    {
+      "id": "26",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.06 г"
+    },
+    {
+      "id": "28",
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "47 мг"
+    },
+    {
+      "id": "29",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "66 мг"
+    },
+    {
+      "id": "30",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "21 мг"
+    },
+    {
+      "id": "31",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "33 мг"
+    },
+    {
+      "id": "32",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "316 мг"
+    },
+    {
+      "id": "35",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "0.73 мг"
+    },
+    {
+      "id": "36",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.41 мг"
+    },
+    {
+      "id": "37",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.05 мг"
+    },
+    {
+      "id": "38",
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.21 мг"
+    },
+    {
+      "id": "40",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "2.5 мкг"
+    },
+    {
+      "id": "50",
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "18.7 мг"
+    },
+    {
+      "id": "55",
+      "name": "Бетаин",
+      "slug": "betaine",
+      "amount": "0.1 мг"
+    },
+    {
+      "id": "57",
+      "name": "Бета-каротин",
+      "slug": "beta-carotene",
+      "amount": "361 мкг"
+    },
+    {
+      "id": "66",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.05 г"
+    },
+    {
+      "id": "67",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.03 г"
+    },
+    {
+      "id": "68",
+      "name": "Аргинин",
+      "slug": "arginine",
+      "amount": "0.19 г"
+    },
+    {
+      "id": "71",
+      "name": "Глицин",
+      "slug": "glycine",
+      "amount": "0.09 г"
+    },
+    {
+      "id": "72",
+      "name": "Тирозин",
+      "slug": "tyrosine",
+      "amount": "0.05 г"
+    }
+  ]
+}

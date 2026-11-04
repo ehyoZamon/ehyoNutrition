@@ -48,7 +48,7 @@ export default function BottomNav() {
                 >
                   <path
                     d="M14 5v18M5 14h18"
-                    stroke="currentColor"
+                    stroke="#fefefe"
                     strokeWidth="3"
                     strokeLinecap="round"
                   />

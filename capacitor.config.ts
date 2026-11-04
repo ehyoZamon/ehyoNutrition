@@ -1,26 +1,28 @@
 import type { CapacitorConfig } from '@capacitor/cli';
+import { KeyboardResize } from '@capacitor/keyboard';
 
 const config: CapacitorConfig = {
   appId: 'com.ehyonutridiary.app', //com.ehyonutrition.app
   appName: 'NutriDiary',
   webDir: 'out',
-  // В Capacitor 8 параметр android.adjustMarginsForEdgeToEdge удалён.
-  // Отступы под системные панели теперь настраивает плагин SystemBars (см. ниже).
   plugins: {
+    // ЕДИНСТВЕННЫЙ механизм обработки системных отступов (Capacitor 8).
     SystemBars: {
-      // native: WebView сам учитывает meta viewport-fit=cover (у вас уже стоит cover),
-      // env(safe-area-inset-*) содержат правильные значения -> ваши .system-bar работают.
-      insetsHandling: 'native',
-      // Подсказка, чтобы не было "прыжка" раскладки при запуске
+      insetsHandling: 'css', // CSS-переменные --safe-area-inset-* + env()
       initialViewportFitValueHint: 'cover',
     },
+    // Клавиатура: нативный adjustResize, без JS-обёрток.
+    // Если страницы начнут «прыгать» — попробуйте KeyboardResize.None.
+    Keyboard: {
+      resize: KeyboardResize.Native,
+    },
     StatusBar: {
-      overlaysWebView: true, // edge-to-edge с самого запуска, ещё до JS
-      style: 'DARK',         // тёмные иконки — подходят под светлый #fefefe
+      overlaysWebView: true, // задаётся ТОЛЬКО здесь, в коде не дублируем
+      style: 'DARK',
     },
     SplashScreen: {
-      launchAutoHide: false, // скрываем сплэш вручную после инициализации
-      backgroundColor: '#fefefe', // цвет фона сплэша, чтобы не было резкого перехода к светлой странице
+      launchAutoHide: false,
+      backgroundColor: '#fefefe',
     },
   },
 };

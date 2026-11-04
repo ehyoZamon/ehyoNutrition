@@ -22,7 +22,7 @@
   padding: 32px 24px 24px;
   gap: 12px;
   animation: slideUp 0.25s ease-out;
-  padding-bottom: max(40px, calc(env(safe-area-inset-bottom) + 40px));
+  padding-bottom: max(20px, calc(env(safe-area-inset-bottom) + 20px));
 }
 
 

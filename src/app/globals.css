@@ -1,22 +1,22 @@
 :root {
   --main-bg: #fff;
-	--brand-color-dark: #001a83;
-	--brand-color-default: #002de3;
-	--brand-color-dark-mode: #375fff;
-	--brand-color-light: #879fff;
-	--brand-color-background: #d2d5f9;
-	--neutral-active: #0f1828;
-	--neutral-dark: #152033;
-	--neutral-body: #1b2b48;
-	--neutral-weak: #a4a4a4;
-	--neutral-disabled: #adb5bd;
-	--neutral-line: #ededed;
-	--neutral-off-white: #f7f7fc;
-	--neutral-white: #fff;
-	--accent-danger: #e94242;
-	--accent-warning: #fdcf41;
-	--accent-success: #2cc069;
-	--accent-safe: #7bcbcf;
+  --brand-color-dark: #001a83;
+  --brand-color-default: #002de3;
+  --brand-color-dark-mode: #375fff;
+  --brand-color-light: #879fff;
+  --brand-color-background: #d2d5f9;
+  --neutral-active: #0f1828;
+  --neutral-dark: #152033;
+  --neutral-body: #1b2b48;
+  --neutral-weak: #a4a4a4;
+  --neutral-disabled: #adb5bd;
+  --neutral-line: #ededed;
+  --neutral-off-white: #f7f7fc;
+  --neutral-white: #fff;
+  --accent-danger: #e94242;
+  --accent-warning: #fdcf41;
+  --accent-success: #2cc069;
+  --accent-safe: #7bcbcf;
   --dv-track: #ddd;
 }
 
@@ -26,16 +26,14 @@
   --third-family: var(--font-nunito), sans-serif;
 }
 
-/* глобальный CSS (app/globals.css) */
+/* Системные панели (status bar / navigation bar) */
 .system-bar {
   position: fixed;
   left: 0;
   right: 0;
-  background: rgba(254, 254, 254, 0.8);
-  backdrop-filter: blur(10px); /* "стеклянный" эффект — контент, скроллящийся под баром, будет размыт */
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(254, 254, 254, 0.92); /* сплошнее, без backdrop-filter: блюр мерцал при смене insets */
   z-index: 1000;
-  pointer-events: none; /* тапы проходят сквозь бар к контенту под ним */
+  pointer-events: none;
 }
 
 .system-bar--top {
@@ -48,20 +46,26 @@
   height: env(safe-area-inset-bottom);
 }
 
+/* Пока открыта клавиатура, нижняя панель не нужна */
+html.keyboard-open .system-bar--bottom {
+  display: none;
+}
+
 html, body {
   touch-action: manipulation;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
-*{
-    box-sizing: border-box;
-    transition-property: all;
-    transition-timing-function: linear;
-}
-
-/*Убирает цвет выделения при кликах*/
 * {
+  box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
+/* Глобальный `transition-property: all` удалён: он анимировал height/top/transform
+   при открытии клавиатуры и вызывал «тряску». Задавайте переходы точечно. */
 
 html {
   forced-color-adjust: none;
@@ -131,18 +135,31 @@ html.dark body {
     min-height: min-content;
 }
 
-.no-select{
-    -webkit-user-select: none; /* Chrome, Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* Edge */
-    user-select: none;         /* Стандарт */
+/* Скроллбар */
+.main-layout::-webkit-scrollbar,
+.wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+.wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .loader {
   width: 48px;
   height: 48px;
   display: block;
-  margin:15px auto;
+  margin: 15px auto;
   position: relative;
   color: #6ebeff;
   box-sizing: border-box;
@@ -150,7 +167,7 @@ html.dark body {
 }
 .loader::after,
 .loader::before {
-  content: '';  
+  content: '';
   box-sizing: border-box;
   position: absolute;
   width: 24px;
@@ -169,51 +186,22 @@ html.dark body {
 }
 
 @keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 @keyframes animloader {
-    50% {
-      transform: scale(1) translate(-50%, -50%);
+  50% { transform: scale(1) translate(-50%, -50%); }
 }
-}
-    
+
 @media (pointer: coarse) {
-    .wrapper{
-        border-radius: 0;
-        max-width: clamp(300px, 90vw, 500px);;
-        max-height: 100%;
-    }
-    
-    
-    .main-layout::-webkit-scrollbar{
-        display: none;
-    }
-    
-    .main-layout::-webkit-scrollbar{
-        display: none;
-    }
-    
-    .main-layout:hover::-webkit-scrollbar-thumb{
-        display: none;
-    }
-    
-    
-    .main-layout:hover::-webkit-scrollbar-thumb{
-        display: none;
-    }
-    
-    .main-layout:hover::-webkit-scrollbar-track{
-        display: none;
-    }
-    
-    .main-layout::-webkit-scrollbar-track{
-      display: none; 
-    }
+  .wrapper {
+    border-radius: 0;
+    max-height: 100%;
+  }
+  .main-layout::-webkit-scrollbar,
+  .wrapper::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -221,4 +209,3 @@ html.dark body {
     display: none;
   }
 }
-

@@ -1,0 +1,201 @@
+{
+  "slug": "greek-yogurt",
+  "name": "Греческий йогурт",
+  "category": "Молочные продукты",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Калории",
+      "slug": "",
+      "amount": "97 ккал"
+    },
+    {
+      "id": "14",
+      "name": "Белки",
+      "slug": "protein",
+      "amount": "9 г"
+    },
+    {
+      "id": "36",
+      "name": "Жиры",
+      "slug": "fats",
+      "amount": "5 г"
+    },
+    {
+      "id": "15",
+      "name": "Углеводы",
+      "slug": "carbohydrates",
+      "amount": "3.98 г"
+    }
+  ],
+  "microNutrients": [
+    {
+      "id": "1",
+      "name": "Витамин C",
+      "slug": "vitamin-c",
+      "amount": "0 мг"
+    },
+    {
+      "id": "3",
+      "name": "Витамин A",
+      "slug": "vitamin-a",
+      "amount": "2 мкг"
+    },
+    {
+      "id": "4",
+      "name": "Витамин E",
+      "slug": "vitamin-e",
+      "amount": "0.01 мг"
+    },
+    {
+      "id": "6",
+      "name": "Витамин B1",
+      "slug": "vitamin-b1",
+      "amount": "0.023 мг"
+    },
+    {
+      "id": "7",
+      "name": "Витамин B2",
+      "slug": "vitamin-b2",
+      "amount": "0.278 мг"
+    },
+    {
+      "id": "8",
+      "name": "Витамин B3",
+      "slug": "vitamin-b3",
+      "amount": "0.208 мг"
+    },
+    {
+      "id": "9",
+      "name": "Витамин B5",
+      "slug": "vitamin-b5",
+      "amount": "0.331 мг"
+    },
+    {
+      "id": "10",
+      "name": "Витамин B6",
+      "slug": "vitamin-b6",
+      "amount": "0.063 мг"
+    },
+    {
+      "id": 11,
+      "name": "Витамин B7",
+      "slug": "vitamin-b7",
+      "amount": "0.85 мкг"
+    },
+    {
+      "id": "12",
+      "name": "Витамин B9",
+      "slug": "vitamin-b9",
+      "amount": "5 мкг"
+    },
+    {
+      "id": "13",
+      "name": "Витамин B12",
+      "slug": "vitamin-b12",
+      "amount": "0.75 мкг"
+    },
+    {
+      "id": "28",
+      "name": "Кальций",
+      "slug": "calcium",
+      "amount": "100 мг"
+    },
+    {
+      "id": "29",
+      "name": "Фосфор",
+      "slug": "phosphorus",
+      "amount": "135 мг"
+    },
+    {
+      "id": "30",
+      "name": "Магний",
+      "slug": "magnesium",
+      "amount": "11 мг"
+    },
+    {
+      "id": "31",
+      "name": "Натрий",
+      "slug": "sodium",
+      "amount": "35 мг"
+    },
+    {
+      "id": "32",
+      "name": "Калий",
+      "slug": "potassium",
+      "amount": "141 мг"
+    },
+    {
+      "id": "35",
+      "name": "Железо",
+      "slug": "iron",
+      "amount": "0 мг"
+    },
+    {
+      "id": "36",
+      "name": "Цинк",
+      "slug": "zinc",
+      "amount": "0.52 мг"
+    },
+    {
+      "id": "37",
+      "name": "Медь",
+      "slug": "copper",
+      "amount": "0.017 мг"
+    },
+    {
+      "id": "38",
+      "name": "Марганец",
+      "slug": "manganese",
+      "amount": "0.009 мг"
+    },
+    {
+      "id": "40",
+      "name": "Селен",
+      "slug": "selenium",
+      "amount": "9.7 мкг"
+    },
+    {
+      "id": "44",
+      "name": "Клетчатка",
+      "slug": "fiber",
+      "amount": "0 г"
+    },
+    {
+      "id": "50",
+      "name": "Холин",
+      "slug": "choline",
+      "amount": "15.1 мг"
+    },
+    {
+      "id": "57",
+      "name": "Бета-каротин",
+      "slug": "beta-carotene",
+      "amount": "7 мкг"
+    },
+    {
+      "id": "26",
+      "name": "Альфа-линоленовая кислота",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.023 г"
+    },
+    {
+      "id": "27",
+      "name": "EPA и DHA",
+      "slug": "epa-dha",
+      "amount": "0.004 г"
+    },
+    {
+      "id": "66",
+      "name": "Омега-6 жирные кислоты",
+      "slug": "omega-6-fatty-acids",
+      "amount": "0.209 г"
+    },
+    {
+      "id": "67",
+      "name": "Омега-9 жирные кислоты",
+      "slug": "omega-9-fatty-acids",
+      "amount": "0.993 г"
+    }
+  ]
+}

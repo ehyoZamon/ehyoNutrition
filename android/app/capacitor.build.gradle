@@ -13,12 +13,11 @@ dependencies {
     implementation project(':capacitor-app')
     implementation project(':capacitor-device')
     implementation project(':capacitor-filesystem')
+    implementation project(':capacitor-keyboard')
     implementation project(':capacitor-preferences')
     implementation project(':capacitor-share')
     implementation project(':capacitor-splash-screen')
     implementation project(':capacitor-status-bar')
-    implementation project(':capawesome-capacitor-android-edge-to-edge-support')
-    implementation project(':capacitor-adjust-resize')
 
 }
 
