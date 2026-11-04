@@ -1,0 +1,75 @@
+{
+  "id": "265",
+  "title": "Chocolate Milk, NFS",
+  "image": "/products/265.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate Milk NFS is a ready‑to‑drink beverage made by blending whole cow’s milk with cocoa powder, sugar, and flavorings. Its nutritional profile is similar to regular milk, enriched with a chocolate taste."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first mass production of chocolate milk began in the United States in the early 20th century.",
+        "In Russia, chocolate milk became popular in the 1990s thanks to imported brands.",
+        "Most ready‑to‑drink versions contain 2‑5 % cocoa solids.",
+        "Chocolate milk is often used in children’s nutrition as a source of calcium and quick energy.",
+        "Some countries fortify it with vitamin D to enhance calcium absorption."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "The milk base provides a high level of calcium, essential for bone and tooth health."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Vitamins B2 and B12 support energy metabolism and nervous system function."
+        },
+        {
+          "title": "Contains protein",
+          "content": "Milk proteins contribute to growth and tissue repair."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Sugar and a modest amount of fat give a quick source of energy, useful for children and active individuals."
+        },
+        {
+          "title": "Mood enhancer",
+          "content": "Cocoa contains theobromine and small amounts of phenylethylamine, which may help improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "High sugar levels can contribute to weight gain and increase the risk of dental caries."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should choose lactose‑free versions or limit consumption."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey protein requires complete avoidance of the product."
+        },
+        {
+          "title": "Caffeine and theobromine",
+          "content": "Although present in small amounts, sensitive individuals may experience mild stimulation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chocolate milk can be enjoyed cold as a refreshing drink, used in smoothies, as a base for dessert sauces, or added to cereals and oatmeal for flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in the refrigerator at 1‑4 °C. After opening, consume within 3‑5 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

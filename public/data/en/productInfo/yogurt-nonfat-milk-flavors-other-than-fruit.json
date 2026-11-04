@@ -1,0 +1,71 @@
+{
+  "id": "235",
+  "title": "Yogurt, nonfat milk, flavors other than fruit",
+  "image": "/products/235.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt made from nonfat milk without fruit flavorings is a fermented dairy product created by culturing skimmed milk with live Lactobacillus bulgaricus and Streptococcus thermophilus. Flavors may include plain, vanilla, chocolate, caramel, etc."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Nonfat yogurt retains most of the milk protein while containing virtually no fat.",
+        "The absence of fruit flavorings makes the product more neutral, ideal for cooking and baking.",
+        "Yogurt provides live probiotic cultures that support gut health.",
+        "In many markets it is sold in 150‑ml to 500‑ml containers.",
+        "Lactose content is lower than in whole milk but not completely eliminated."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Nonfat yogurt supplies about 5 g of protein per 100 g, helping maintain muscle mass."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Virtually no fat makes it suitable for calorie‑restricted diets."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "It is a good source of calcium for bone health and is often fortified with vitamin D."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Live cultures aid digestion and support the immune system."
+        },
+        {
+          "title": "Low added sugar (when fruit flavors are omitted)",
+          "content": "Without fruit flavorings, the product usually contains less added sugar."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Although lactose is reduced, people with intolerance should still be cautious."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergic reactions to casein or whey can occur in sensitive individuals."
+        },
+        {
+          "title": "Added additives",
+          "content": "Some brands include stabilizers or sweeteners; check labels if you have sensitivities."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy it plain, blend into smoothies, use as a base for sauces, in casseroles, or as a low‑calorie substitute for sour cream and mayonnaise."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep refrigerated at 1‑4 °C. Once opened, consume within 5‑7 days. Do not freeze, as texture may become grainy."
+    }
+  ]
+}

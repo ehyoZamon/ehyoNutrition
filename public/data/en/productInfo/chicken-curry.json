@@ -1,0 +1,75 @@
+{
+  "id": "1235",
+  "title": "Chicken Curry",
+  "image": "/products/1235.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken curry is an Indian dish where bite‑size pieces of chicken are simmered in a fragrant sauce made from spices, tomatoes, and either coconut milk or yogurt. The dish balances heat, sweetness, and creaminess, highlighted by the characteristic aroma of turmeric, coriander, cumin and ginger."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "‘Curry’ is a generic term for many dishes, not a single spice.",
+        "Traditional Indian curry often starts with whole spices toasted in oil (the “tadka”).",
+        "Turmeric, the key ingredient, gives the sauce its golden hue and has anti‑inflammatory properties.",
+        "Regional variations are wide: southern recipes favor coconut milk, while northern versions use cream or yogurt.",
+        "Chicken curry gained worldwide popularity through adaptations to local tastes and ingredient availability."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Chicken provides high‑quality complete protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Contains beneficial spices",
+          "content": "Turmeric, ginger and garlic offer antioxidant and anti‑inflammatory effects."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Coriander and cumin stimulate bile production, aiding digestion."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Chicken supplies niacin (B3) and vitamin B6, important for energy metabolism."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "The dish contains iron, zinc and magnesium, supporting immunity and nerve function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Spice allergy",
+          "content": "Some individuals may react to turmeric, cumin or other spices."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Prepared curry often includes added salt; people with hypertension should watch intake."
+        },
+        {
+          "title": "Spiciness level",
+          "content": "Very hot versions can irritate the stomach of those with sensitive digestion."
+        },
+        {
+          "title": "Chicken safety",
+          "content": "Use fresh chicken and cook it thoroughly to avoid food‑borne illness."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve hot chicken curry with basmati rice, naan, or flatbreads. It can be added to vegetable stews, used as a filling for wraps, or enjoyed as a quick bowl with quinoa."
+    },
+    {
+      "title": "Storage",
+      "content": "Store leftovers in an airtight container in the refrigerator for 3‑4 days. For longer storage, freeze in portions for up to 2 months. Reheat thoroughly before serving."
+    }
+  ]
+}

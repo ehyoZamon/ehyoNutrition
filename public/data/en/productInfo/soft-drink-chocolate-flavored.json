@@ -1,0 +1,67 @@
+{
+  "id": "5312",
+  "title": "Chocolate Soft Drink",
+  "image": "/products/5312.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate soft drink is a non‑alcoholic carbonated beverage flavored with chocolate, containing carbonated water, sugar (or sugar substitutes), cocoa mass, flavorings and preservatives. It offers a sweet, slightly bitter chocolate taste combined with refreshing fizz."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first chocolate‑flavored soda appeared in the United States in the early 1970s.",
+        "The chocolate‑and‑fizz combination is especially popular in Japan, where it is often served in specialty cafés.",
+        "Both natural cocoa powder and caramel coloring are used to achieve the characteristic brown hue.",
+        "Several brands offer a diet version sweetened with low‑calorie sweeteners.",
+        "Carbonation enhances perceived sweetness, making the drink seem less sugary than it actually is."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains antioxidants",
+          "content": "Cocoa mass is rich in flavonoids, which may support cardiovascular health."
+        },
+        {
+          "title": "Quick energy boost",
+          "content": "Sugar and caffeine (in some formulas) provide a rapid increase in energy levels."
+        },
+        {
+          "title": "Mood improvement",
+          "content": "Chocolate stimulates the release of serotonin and endorphins, which can improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Regular versions contain a lot of sugar, which can contribute to weight gain and increase the risk of tooth decay."
+        },
+        {
+          "title": "Caffeine",
+          "content": "Some variants contain caffeine, which may be undesirable for children and caffeine‑sensitive individuals."
+        },
+        {
+          "title": "Cocoa allergy",
+          "content": "A small number of people may be allergic to cocoa components."
+        },
+        {
+          "title": "Carbonation",
+          "content": "Excessive consumption of carbonated drinks can cause stomach discomfort and heartburn."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve chilled straight from the refrigerator. It can be used as a base for cocktails, added to ice cream for a chocolate float, or mixed with milk for a creamier texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, keep the cap tightly sealed to preserve carbonation. Discard if the taste or smell changes."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "5533",
+  "title": "Beef",
+  "image": "/products/5533.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef is the meat of cattle, obtained from various cuts of the animal's carcass. It is rich in protein, iron, zinc, and B‑vitamins. Beef is used worldwide in dishes ranging from steaks and roasts to soups and stews."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beef has been a staple food for humans since prehistoric times.",
+        "Different cuts have distinct flavors and textures: tenderloin is the most tender, while brisket is tougher but flavorful when slow‑cooked.",
+        "In Japan, thinly sliced raw beef (gyu‑sashimi) is a delicacy served as sushi.",
+        "Quality is often judged by marbling – the amount of intramuscular fat that makes the meat juicier.",
+        "In countries like Argentina, beef is a national dish and a major export commodity."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High‑quality protein",
+          "content": "Beef provides all essential amino acids needed for tissue growth and repair."
+        },
+        {
+          "title": "Rich in iron",
+          "content": "Heme iron from beef is highly bioavailable, helping prevent anemia."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef supplies B12, niacin, and riboflavin, supporting energy metabolism and nervous system health."
+        },
+        {
+          "title": "Zinc and selenium",
+          "content": "These trace minerals boost immune function and protect against oxidative stress."
+        },
+        {
+          "title": "Creatine",
+          "content": "Natural creatine in beef can improve muscular performance and endurance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Saturated fat content",
+          "content": "Consuming large amounts of fatty beef cuts may raise cholesterol levels and cardiovascular risk."
+        },
+        {
+          "title": "Foodborne illness risk",
+          "content": "Undercooked or raw beef can harbor pathogens such as E. coli and Salmonella; cook to safe internal temperatures."
+        },
+        {
+          "title": "Purine content",
+          "content": "Beef is high in purines, which can exacerbate gout in susceptible individuals."
+        },
+        {
+          "title": "Allergy and sensitivity",
+          "content": "Although rare, some people may experience allergic reactions to beef."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Beef can be grilled, pan‑seared, braised, roasted, or boiled. Thin steaks are ideal for quick searing, while larger cuts benefit from slow cooking in sauces. Ground beef is commonly used for burgers, meatballs, and pie fillings."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh beef in the refrigerator at 0‑2 °C for up to 3‑5 days. For longer storage, freeze in airtight packaging at –18 °C; quality is maintained for 6‑12 months. Thaw frozen beef in the fridge, not at room temperature."
+    }
+  ]
+}

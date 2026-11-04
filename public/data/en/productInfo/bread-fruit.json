@@ -1,0 +1,75 @@
+{
+  "id": "2612",
+  "title": "Bread",
+  "image": "/products/2612.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bread is a baked product made from dough consisting of flour, water, yeast (or sourdough starter) and salt. It is one of the oldest and most widely consumed foods, present in cultures around the world. Different types of flour, leavening methods and shaping produce a vast array of breads with varying flavors, aromas and textures."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first breads were baked more than 14,000 years ago in the Near East.",
+        "There are over 300 different varieties of bread, from whole‑grain loaves to baguettes and ciabatta.",
+        "Traditional sourdough contains live lactic‑acid bacteria and yeasts that enhance flavor and extend shelf life.",
+        "Bread is often called a “universal” food: it can be eaten plain, used for sandwiches, or as crumbs and breadcrumbs in cooking.",
+        "In many cultures bread symbolizes hospitality and prosperity."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complex carbohydrates",
+          "content": "Bread provides slowly digestible carbs that supply steady energy and help maintain stable blood sugar levels."
+        },
+        {
+          "title": "Rich in dietary fiber (especially whole‑grain)",
+          "content": "Fiber supports digestion, promotes satiety and contributes to gut health."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "B1, B2, B3 and folate are involved in metabolism and support the nervous system."
+        },
+        {
+          "title": "Minerals",
+          "content": "Bread supplies iron, magnesium, zinc and selenium, essential for immunity and metabolic processes."
+        },
+        {
+          "title": "Supports gut microbiota (sourdough)",
+          "content": "Sourdough fermentation can foster beneficial bacteria in the intestine."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten intolerance",
+          "content": "People with celiac disease or gluten sensitivity may experience inflammation and discomfort after eating regular bread."
+        },
+        {
+          "title": "High glycemic index",
+          "content": "White bread raises blood sugar quickly, which can be problematic for diabetics."
+        },
+        {
+          "title": "Salt content",
+          "content": "Some breads contain high amounts of salt, which may be an issue for hypertension."
+        },
+        {
+          "title": "Preservatives and additives",
+          "content": "Industrial bakery products may include flavor enhancers and preservatives that are not suitable for everyone."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bread can be enjoyed fresh, toasted, as sandwiches, in toast, croutons, breadcrumbs, or in soups. It pairs well with butter, cheese, vegetables, cold cuts and spreads."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bread in a cool, dry place in a paper bag or bread box. For longer storage, freeze it in an airtight bag and thaw at room temperature."
+    }
+  ]
+}

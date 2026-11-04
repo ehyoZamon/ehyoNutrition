@@ -1,0 +1,62 @@
+{
+  "id": "441",
+  "title": "Ice Cream Sandwich, Vanilla",
+  "image": "/products/441.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A vanilla ice cream sandwich consists of two soft waffle cookies with creamy vanilla ice cream sandwiched between them. It is a popular snack often sold in packs of 2–4 pieces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first ice cream sandwich appeared in the United States in the 1960s as a convenient summer treat.",
+        "Vanilla is considered the most neutral flavor and is often used as a base for adding various fillings and toppings.",
+        "The waffle cookies are usually made without added sugar to let the ice cream’s sweetness shine.",
+        "Ice cream sandwiches are commonly packaged in individual boxes, making them ideal for vending machines and street kiosks."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Vanilla ice cream contains dairy, which provides calcium important for bones and teeth."
+        },
+        {
+          "title": "Quick energy source",
+          "content": "The sandwich delivers fast energy through carbohydrates from the cookies and sugar in the ice cream, useful during active days."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Dairy ingredients and a small amount of egg in the cookie batter supply vitamins B2 and B12."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk and gluten allergy",
+          "content": "The sandwich contains milk and wheat flour, which can trigger reactions in people with those allergies."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Sugar in the ice cream and cookies makes the product calorie‑dense; people with diabetes should limit consumption."
+        },
+        {
+          "title": "Melting at high temperatures",
+          "content": "Storing above ‑ 18 °C causes the ice cream to melt quickly, which can lead to bacterial growth."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The sandwich can be eaten straight from the package after a quick chill in the freezer. Optionally, slice it and add fresh berries, nuts, or chocolate sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at ‑ 18 °C or lower. Once removed from the package, it should be consumed within 30 minutes to prevent melting."
+    }
+  ]
+}

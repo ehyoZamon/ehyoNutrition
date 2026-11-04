@@ -1,0 +1,79 @@
+{
+  "id": "5441",
+  "title": "Red Wine",
+  "image": "/products/5441.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Red wine is made from dark‑skinned grape varieties, fermented with the skins, which gives the drink its characteristic color, aroma, and flavor notes. Alcohol content typically ranges from 12–15 % ABV. Many wines are aged in oak barrels, adding vanilla, spice, and woody nuances."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Red wine is rich in polyphenols, especially resveratrol, which is studied for its potential antioxidant properties.",
+        "Terroir (soil, climate, tradition) heavily influences the wine’s flavor profile, so wines from different regions can vary dramatically.",
+        "The oldest known bottled wine dates back to 350 BC.",
+        "Wine is widely used in cooking: marinades, sauces, deglazing pans.",
+        "In several cultures red wine is considered a symbol of health and prosperity."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Antioxidant protection",
+          "content": "Polyphenols and resveratrol help neutralize free radicals, protecting cells from oxidative stress."
+        },
+        {
+          "title": "Cardiovascular support",
+          "content": "Moderate consumption may raise HDL (\"good\") cholesterol levels."
+        },
+        {
+          "title": "Gut microbiota improvement",
+          "content": "Wine’s phytochemicals can positively influence the composition of intestinal bacteria."
+        },
+        {
+          "title": "Reduced risk of type 2 diabetes",
+          "content": "Studies show a link between moderate wine intake and better insulin sensitivity."
+        },
+        {
+          "title": "Cognitive function support",
+          "content": "Some data suggest slower age‑related cognitive decline with regular moderate consumption."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol dependence",
+          "content": "Excessive intake can lead to addiction and adverse health effects."
+        },
+        {
+          "title": "Increased risk of certain diseases",
+          "content": "High alcohol doses are associated with higher risk of cancers, especially of the esophagus and liver."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Alcohol may amplify effects of certain drugs, including anticoagulants and diabetes medications."
+        },
+        {
+          "title": "Pregnancy and lactation",
+          "content": "Alcohol consumption is not recommended during these periods due to fetal and infant risk."
+        },
+        {
+          "title": "Caloric content",
+          "content": "Wine contains about 85 kcal per 100 ml, which can contribute to weight gain if consumed in excess."
+        }
+      ]
+    },
+    {
+      "title": "How to Enjoy",
+      "content": "Serve red wine at 14–18 °C in a wide‑bowl glass to release aromas. Pair with red meats, cheeses, tomato‑based pasta dishes, and braised vegetables. For tastings, pour small servings (≈150 ml) and let the wine breathe for 15–30 minutes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the bottle horizontally in a cool, dark place with a stable temperature of 12–15 °C. Avoid temperature swings and vibrations. Once opened, wine retains optimal flavor for 3–5 days if sealed tightly with a stopper and kept in the refrigerator."
+    }
+  ]
+}

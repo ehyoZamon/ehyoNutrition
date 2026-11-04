@@ -1,0 +1,71 @@
+{
+  "id": "5504",
+  "title": "Energy Drink NOS",
+  "image": "/products/5504.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "NOS is an energy drink designed to boost physical and mental performance. It contains caffeine, taurine, B‑vitamins and sugar (or sugar substitutes in diet versions). The drink is popular among athletes and anyone needing a quick energy surge."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "NOS was first launched in 2005 as part of Monster’s energy‑drink lineup.",
+        "The original formula provides 160 mg of caffeine per 12 oz (355 ml), roughly the amount in two cups of coffee.",
+        "The brand heavily sponsors motorsports events, emphasizing its association with speed and adrenaline.",
+        "Sugar‑free versions are available in several markets, using artificial sweeteners to meet low‑calorie demands.",
+        "Taurine, one of the key ingredients, occurs naturally in meat and fish and is thought to support heart and muscle function."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Increased alertness",
+          "content": "Caffeine stimulates the central nervous system, improving focus and reducing perceived fatigue."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "B‑vitamins (B6, B12, niacin) play a role in converting food into usable energy."
+        },
+        {
+          "title": "Enhanced physical endurance",
+          "content": "Taurine may help muscles use oxygen more efficiently during intense exercise."
+        },
+        {
+          "title": "Antioxidant effect",
+          "content": "Some formulations are fortified with vitamin C, which helps combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High doses can cause anxiety, insomnia, rapid heartbeat, and elevated blood pressure."
+        },
+        {
+          "title": "Sugar content",
+          "content": "The regular version contains about 27 g of sugar per can, which may contribute to weight gain and dental issues."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Caffeine can amplify the effects of certain stimulants and diminish the efficacy of some sedatives."
+        },
+        {
+          "title": "Not recommended for children and pregnant women",
+          "content": "Due to high caffeine and taurine levels, these groups should limit or avoid consumption."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Consume one 12‑oz (355 ml) can 15–30 minutes before physical activity or when you need a rapid energy boost. Do not exceed 2–3 cans per day to avoid caffeine overload."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. Once opened, keep refrigerated and consume within 24 hours."
+    }
+  ]
+}

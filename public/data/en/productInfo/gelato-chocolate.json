@@ -1,0 +1,75 @@
+{
+  "id": "436",
+  "title": "Gelato, chocolate",
+  "image": "/products/436.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate gelato is an Italian frozen dessert made from milk, cream, sugar, and high‑quality cocoa. The slow‑churn process gives gelato a denser, more aromatic texture than regular ice cream, with a rich chocolate flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Gelato contains less air than traditional ice cream, resulting in a creamier mouthfeel.",
+        "It is typically served at about -12°C, whereas ice cream is stored around -18°C.",
+        "Italian gelato makers often use dark chocolate with 70%+ cocoa content for a deep flavor.",
+        "Unlike many ice creams, gelato usually does not contain emulsifiers or stabilizers.",
+        "The first references to gelato date back to the 16th century in Italy."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of antioxidants",
+          "content": "Cocoa is rich in flavonoids that help combat free radicals and support heart health."
+        },
+        {
+          "title": "Contains magnesium",
+          "content": "Magnesium in cocoa supports normal muscle and nerve function."
+        },
+        {
+          "title": "Provides calcium",
+          "content": "The dairy base supplies calcium essential for strong bones and teeth."
+        },
+        {
+          "title": "Healthy fats",
+          "content": "Cream contributes monounsaturated fats, which can be heart‑friendly in moderation."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Gelato quickly replenishes energy thanks to its blend of carbohydrates and fats."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "Gelato contains milk and cream, which may trigger reactions in people allergic to lactose or casein."
+        },
+        {
+          "title": "High sugar content",
+          "content": "The sweet dessert can raise blood glucose levels, so those with diabetes should limit portions."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Gelato is energy‑dense; excessive consumption may contribute to weight gain."
+        },
+        {
+          "title": "Caffeine and theobromine",
+          "content": "Cocoa contains small amounts of theobromine, which can affect sleep and heart rate in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy gelato with a spoon, in a waffle cone, or paired with fruit, nuts, and sauces. For extra depth, sprinkle a pinch of sea salt or fresh berries on top."
+    },
+    {
+      "title": "Storage",
+      "content": "Store gelato in the freezer at about -12°C in an airtight container to prevent ice crystal formation. Let it sit 2–3 minutes at room temperature before serving."
+    }
+  ]
+}

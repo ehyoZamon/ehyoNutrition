@@ -1,0 +1,75 @@
+{
+  "id": "1024",
+  "title": "Fish, Baked or Broiled",
+  "image": "/products/1024.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fish prepared by baking or broiling is a valuable source of high‑quality protein, omega‑3 fatty acids, B‑vitamins, and minerals. Baking retains most nutrients, while broiling creates a crisp crust and intensifies flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Salmon is the most popular fish for baking because of its rich fat content and delicate taste.",
+        "Frying fish in a light batter originated in Japan in the 17th century and is known as “tempura.”",
+        "Omega‑3 levels in fish help lower “bad” cholesterol.",
+        "There are over 30,000 marine fish species, but only about 200 are commonly consumed worldwide.",
+        "Serving fish with lemon began in the Mediterranean, where acidity enhances the aroma."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "A typical serving of fish (≈100 g) provides about 20 g of high‑quality protein needed for tissue growth and repair."
+        },
+        {
+          "title": "Omega‑3 fatty acids",
+          "content": "EPA and DHA found in fatty fish support heart, brain, and eye health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Fish supplies vitamin B12, niacin, and riboflavin, which are essential for energy metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "Selenium, iodine, and phosphorus in fish are important for thyroid function and bone health."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with red meat, fish contains little saturated fat, making it suitable for heart‑healthy diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals may experience severe allergic reactions that require medical attention."
+        },
+        {
+          "title": "Heavy‑metal contamination",
+          "content": "Certain marine species (e.g., shark, swordfish) can accumulate mercury; consumption should be limited."
+        },
+        {
+          "title": "Excess salt in frying",
+          "content": "Salt used during broiling can raise sodium intake, which is undesirable for hypertension."
+        },
+        {
+          "title": "Insufficient cooking",
+          "content": "Undercooked fish may contain parasites; it should be cooked to an internal temperature of at least 63 °C."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bake fish in foil with herbs and lemon for 15‑20 minutes at 180 °C to keep it moist. For broiling, coat fillets lightly with flour or breadcrumbs and sear in a hot pan 3‑4 minutes per side. Serve with vegetables, mashed potatoes, or whole‑grain grains."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh fish in the refrigerator at 0‑2 °C for no more than 2 days. Frozen fish should be stored at –18 °C and used within 3‑6 months. Thaw frozen fish in the fridge, not at room temperature, before cooking."
+    }
+  ]
+}

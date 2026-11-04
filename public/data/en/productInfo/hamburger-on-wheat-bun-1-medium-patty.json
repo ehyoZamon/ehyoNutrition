@@ -1,0 +1,75 @@
+{
+  "id": "1706",
+  "title": "Hamburger",
+  "image": "/products/1706.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A hamburger is a classic fast‑food item consisting of a medium beef patty placed between a soft wheat bun. It is often served with lettuce, tomato, onion, cheese, sauces, and pickles."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first hamburger was served in the United States in the late 19th century.",
+        "The name “hamburger” comes from the German city of Hamburg, where similar meat patties were popular.",
+        "Hamburgers gained massive popularity among American soldiers during World War II.",
+        "There are more than 300 hamburger variations, including vegetarian and vegan versions.",
+        "The world’s largest hamburger weighed over 1 ton."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "The beef patty provides high‑quality protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Beef contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Hamburgers supply B12, B6, and niacin, supporting energy metabolism and nervous system health."
+        },
+        {
+          "title": "Contains zinc",
+          "content": "Zinc is important for immune function and wound healing."
+        },
+        {
+          "title": "Energy dense",
+          "content": "The combination of protein, fat, and carbohydrates provides quick energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High saturated fat",
+          "content": "Excessive intake may raise cholesterol levels."
+        },
+        {
+          "title": "Salt and sauces",
+          "content": "Large amounts of salt and sauces can increase the risk of hypertension."
+        },
+        {
+          "title": "Caloric content",
+          "content": "Hamburgers are calorie‑dense; portion control is advisable, especially on weight‑loss diets."
+        },
+        {
+          "title": "Allergens",
+          "content": "The bun contains gluten, and toppings may include dairy, which is relevant for people with allergies."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hamburgers are typically eaten by hand, holding them with both hands. You can add fresh vegetables, cheese, avocado, or swap heavy sauces for lighter options."
+    },
+    {
+      "title": "Storage",
+      "content": "A prepared hamburger can be kept in the refrigerator for up to 2 days. The patty can be frozen for up to 3 months, and the bun should be stored in a dry place protected from moisture."
+    }
+  ]
+}

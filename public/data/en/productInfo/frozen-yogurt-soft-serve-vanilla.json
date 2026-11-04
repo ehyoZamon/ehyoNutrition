@@ -1,0 +1,74 @@
+{
+  "id": "253",
+  "title": "Frozen yogurt, soft serve, vanilla",
+  "image": "/products/253.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soft‑serve vanilla frozen yogurt is a dessert made from low‑fat yogurt, cream and natural vanilla extract. It has a creamy texture, a mild tang from the yogurt and a sweet vanilla aroma. The product is served as a soft‑serve swirl and is popular in cafés, food trucks and home kitchens."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The yogurt base contains live probiotic cultures that may support gut health.",
+        "Real vanilla flavor is often derived from vanilla beans, though many manufacturers use synthetic vanillin.",
+        "The soft‑serve texture is achieved by continuous agitation during freezing, preventing large ice crystals.",
+        "In some markets, vanilla soft‑serve yogurt is marketed as a healthier alternative to traditional ice cream because of its lower fat content."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Probiotics",
+          "content": "The yogurt component provides live bacteria that can help maintain a balanced intestinal microbiome."
+        },
+        {
+          "title": "Lower fat content",
+          "content": "Compared with regular ice cream, soft‑serve yogurt typically contains less saturated fat."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Dairy ingredients supply calcium and vitamin D, essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt is a source of riboflavin (B2) and cobalamin (B12), supporting energy metabolism."
+        },
+        {
+          "title": "Vanilla antioxidants",
+          "content": "Vanilla contains small amounts of antioxidants that help combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "The product contains dairy, so individuals with lactose intolerance should choose lactose‑free versions."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Some people may be allergic to casein or whey proteins present in yogurt."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Sugar is often added for sweetness; those monitoring sugar intake should consider the caloric impact."
+        },
+        {
+          "title": "Improper storage",
+          "content": "If stored at too high a temperature, ice crystals can form, degrading texture and flavor."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the soft‑serve in cones, cups, or as a scoop in a bowl. Top with fresh berries, nuts, honey, or a sprinkle of cinnamon. It is also used as a base for frozen desserts like milkshakes and smoothie bowls."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C (0 °F) or lower. Once opened, consume within 2–3 days for optimal texture. Thawing may cause the soft‑serve to become grainy."
+    }
+  ]
+}

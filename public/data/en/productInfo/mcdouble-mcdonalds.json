@@ -1,0 +1,75 @@
+{
+  "id": "1688",
+  "title": "McDouble",
+  "image": "/products/1688.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "McDouble is a double burger from McDonald’s, made of two beef patties, a slice of cheese, onions, pickles, mustard and ketchup, all sandwiched between two buns."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The McDouble was introduced in 1997 as a lower‑price alternative to the Double Cheeseburger.",
+        "It contains about 390 calories, making it less caloric than the classic Double Cheeseburger.",
+        "In some countries the burger can be served without onions upon request.",
+        "The McDouble is often featured in “2 for $X” promotions.",
+        "It is popular among students because of its price and size."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "Two beef patties provide roughly 20 g of protein, essential for muscle repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Beef supplies heme iron, which is more readily absorbed by the body."
+        },
+        {
+          "title": "Calcium content",
+          "content": "The cheese adds calcium, important for bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef and the bun provide B12 and niacin, supporting energy metabolism."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Carbohydrates in the bun give a quick source of energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium",
+          "content": "Ketchup and pickles make the burger high in sodium, which can be an issue for hypertension."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Beef patties and cheese contain saturated fats, which should be limited in heart‑healthy diets."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese may trigger reactions in people with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "Gluten",
+          "content": "The bun contains wheat, so the product is not suitable for a gluten‑free diet."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "McDouble is typically served in its standard packaging and can be eaten as a standalone snack or paired with fries and a drink. You can customize it with extra sauces or omit ingredients such as onions."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared McDouble in the refrigerator for no more than 24 hours. For longer storage, reheat in a microwave or oven to retain flavor and texture."
+    }
+  ]
+}

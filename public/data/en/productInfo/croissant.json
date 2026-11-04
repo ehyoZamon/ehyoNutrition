@@ -1,0 +1,75 @@
+{
+  "id": "2440",
+  "title": "Croissant",
+  "image": "/products/2440.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A croissant is a flaky, buttery pastry of French origin made from a yeasted dough that is layered with a large amount of butter. The dough is repeatedly folded and rolled to create distinct layers, then baked until golden brown. Croissants are commonly enjoyed for breakfast or as a snack."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The croissant was inspired by the Austrian kipferl, which arrived in Paris in the 19th century.",
+        "The classic crescent shape symbolizes the victory over the Ottoman siege of Vienna.",
+        "There are over 30 filling variations, ranging from plain butter to chocolate, almond, ham, and cheese.",
+        "Croissants are often called “golden” because of their bright, caramelized crust.",
+        "In Japan, soft, custard‑filled croissants have become a popular twist on the traditional recipe."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energy source",
+          "content": "Croissants provide carbohydrates and a modest amount of fat, delivering a quick boost of energy."
+        },
+        {
+          "title": "B‑vitamin content",
+          "content": "Yeast‑leavened dough is rich in B‑vitamins such as B1, B2, and B3, which support metabolism."
+        },
+        {
+          "title": "Butter nutrients",
+          "content": "Butter supplies vitamins A, D, E, and K, as well as fatty acids beneficial for skin health."
+        },
+        {
+          "title": "Calcium and phosphorus",
+          "content": "The flour and dairy ingredients add calcium and phosphorus, important for bone strength."
+        },
+        {
+          "title": "Dietary fiber (when whole‑grain)",
+          "content": "Using whole‑grain flour can increase fiber content, aiding digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie density",
+          "content": "Croissants are rich in fats and carbs, so they should be eaten in moderation, especially for weight management."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Butter contains saturated fats, which can raise cholesterol levels if consumed excessively."
+        },
+        {
+          "title": "Gluten allergy",
+          "content": "Traditional croissants are made with wheat flour, making them unsuitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some varieties (chocolate, glazed) contain added sugars, which may be problematic for diabetics."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Croissants are typically enjoyed warm, split in half. They can be served with jam, honey, cream cheese, or filled with ham, cheese, or chocolate. For a hearty breakfast, pair a croissant with coffee or tea."
+    },
+    {
+      "title": "Storage",
+      "content": "Store croissants in a paper bag or container at room temperature for up to 2 days. For longer storage, wrap tightly in foil and refrigerate for up to 5 days. Reheat in the oven for 5‑10 minutes before serving to restore a crisp crust."
+    }
+  ]
+}

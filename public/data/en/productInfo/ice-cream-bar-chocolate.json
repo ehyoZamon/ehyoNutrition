@@ -1,0 +1,75 @@
+{
+  "id": "440",
+  "title": "Chocolate Ice Cream Bar",
+  "image": "/products/440.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The chocolate ice cream bar (item 440) is a frozen dessert made from creamy ice cream coated with a thin layer of milk chocolate. It combines a smooth ice‑cream texture with a crunchy chocolate shell, making it a popular treat year‑round."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first chocolate ice‑cream bar was introduced in the United States in the 1920s.",
+        "The chocolate coating protects the ice cream from melting, allowing the bar to stay solid at slightly higher temperatures.",
+        "Emulsifiers and stabilizers are often added to keep the cream smooth after freezing.",
+        "Variants around the world may include nuts, caramel, or fruit pieces.",
+        "Bars are usually sold in individual wrappers, which makes them easy to transport and vending‑machine friendly."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Dairy ice cream provides calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk ingredients supply vitamins B2 and B12, supporting energy metabolism."
+        },
+        {
+          "title": "Quick energy",
+          "content": "The combination of carbohydrates and fats offers a fast source of energy."
+        },
+        {
+          "title": "Mood improvement",
+          "content": "Chocolate stimulates serotonin production, which can lift mood."
+        },
+        {
+          "title": "Hydration",
+          "content": "Ice cream contains a notable amount of water, helping maintain fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Bars often contain a lot of sugar, which can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Dairy components may cause discomfort for people who are lactose intolerant."
+        },
+        {
+          "title": "Nut and soy allergies",
+          "content": "Some recipes use nuts or soy lecithin, which can trigger allergic reactions."
+        },
+        {
+          "title": "Melting if stored improperly",
+          "content": "Storing above –12 °C can cause the chocolate shell to crack and the ice cream to melt."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the bar slowly, allowing the chocolate coating to soften slightly while the ice cream releases its flavor. It’s convenient for on‑the‑go snacking, post‑workout treats, or as a dessert after a meal."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C or lower. Once removed from the wrapper, consume within 30 minutes to prevent melting. Do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

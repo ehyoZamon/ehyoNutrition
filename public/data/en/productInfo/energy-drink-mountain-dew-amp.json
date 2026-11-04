@@ -1,0 +1,63 @@
+{
+  "id": "5501",
+  "title": "Energy Drink Mountain Dew AMP",
+  "image": "/products/5501.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mountain Dew AMP is an energy drink produced by PepsiCo. It contains caffeine, taurine, B‑vitamins, and sugar, delivering a quick boost of energy and heightened focus. The flavor blends citrus notes with a mild sweetness."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "AMP was first launched in 2001 as a response to the growing energy‑drink market.",
+        "The drink provides about 32 mg of caffeine per 100 ml, roughly 80 mg in a standard 250 ml can.",
+        "The brand frequently partners with esports teams and music festivals.",
+        "In some countries the formula is altered to reduce sugar and add artificial sweeteners.",
+        "Packaging often features bright neon colors to emphasize its high‑energy image."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Increased alertness",
+          "content": "Caffeine stimulates the central nervous system, improving attention and reaction time."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "B‑vitamins (B3, B6, B12) play key roles in cellular energy metabolism."
+        },
+        {
+          "title": "Enhanced physical endurance",
+          "content": "Taurine may help muscles use energy more efficiently."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High doses can cause anxiety, insomnia, and rapid heart rate."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Regular consumption may contribute to weight gain and elevated blood glucose."
+        },
+        {
+          "title": "Not recommended for children and pregnant women",
+          "content": "Due to the high level of stimulants, these groups should limit consumption."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Drink AMP chilled, straight from the can. It is recommended not to exceed one 250 ml can within a 4‑hour period. Do not mix with alcohol."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, keep refrigerated and consume within 24 hours."
+    }
+  ]
+}

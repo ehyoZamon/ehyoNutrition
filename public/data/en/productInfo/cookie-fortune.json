@@ -1,0 +1,63 @@
+{
+  "id": "2692",
+  "title": "Fortune Cookie",
+  "image": "/products/2692.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fortune Cookie is a crisp, sweet biscuit flavored with vanilla and a hint of caramel. It is made from wheat flour, sugar, butter, and eggs, with a pinch of salt and leavening agent. The cookies are packaged in individual servings, each containing a small paper slip with a fortune."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Fortune Cookie was introduced in the early 1990s as part of a major confectionery brand’s marketing campaign.",
+        "Each fortune slip is handwritten, making every package unique.",
+        "The original recipe uses natural vanilla extract rather than artificial flavorings.",
+        "The cookies are often given as small gifts during holidays and corporate events.",
+        "In some cultures, Fortune Cookies are considered a symbol of luck and are given before important occasions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Quick energy source",
+          "content": "Sugar and carbohydrates provide a fast boost of energy, useful during short breaks."
+        },
+        {
+          "title": "Contains small amounts of vitamin B2",
+          "content": "Riboflavin, present in dairy ingredients, supports metabolic processes."
+        },
+        {
+          "title": "Mood enhancer",
+          "content": "The sweet taste and vanilla aroma can stimulate serotonin production, improving mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten allergy",
+          "content": "The cookie contains wheat flour, which may trigger reactions in people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption can contribute to weight gain and elevated blood glucose levels."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Butter and other dairy ingredients may cause allergic reactions in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fortune Cookies are convenient as a standalone snack, added to dessert platters, or served with tea. Let the cookie sit at room temperature briefly before eating for a softer texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the cookies in a dry, cool place in an airtight container. For longer shelf life, keep them refrigerated to prevent softening from humidity."
+    }
+  ]
+}

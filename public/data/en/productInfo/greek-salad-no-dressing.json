@@ -1,0 +1,71 @@
+{
+  "id": "4588",
+  "title": "Greek Salad, no dressing",
+  "image": "/products/4588.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek Salad, no dressing is a classic Mediterranean mix of fresh vegetables: tomatoes, cucumbers, sweet bell pepper, red onion, Kalamata olives, and feta cheese. The ingredients are cut into generous pieces and served without any added sauce, letting the natural flavors shine."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The salad originated on the island of Crete in the early 20th century.",
+        "Kalamata olives are one of the oldest cultivated olive varieties in Greece.",
+        "Traditional feta is made from sheep's milk, sometimes blended with goat's milk.",
+        "The original recipe does not include olive oil; it is added only at the table if desired.",
+        "Greek salad is often served as a meze (appetizer) alongside bread or pita."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Tomatoes and olives provide lycopene and polyphenols that help protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Olives contain monounsaturated fats that can help lower LDL cholesterol."
+        },
+        {
+          "title": "Source of vitamin K",
+          "content": "Bell pepper and leafy greens are high in vitamin K, important for blood clotting and bone health."
+        },
+        {
+          "title": "Bone support",
+          "content": "Feta cheese supplies calcium and phosphorus, essential for strong bones."
+        },
+        {
+          "title": "Hydration and cellular nutrition",
+          "content": "Cucumbers are about 95 % water and provide electrolytes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Feta may trigger reactions in people with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Feta and olives are often brined; those monitoring salt intake should limit portions."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "If vegetables are not washed thoroughly, they can harbor bacteria that cause food poisoning."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the salad in a large bowl, allowing each person to take a portion. It can be enjoyed on its own, with whole‑grain bread or pita, or as part of a mezze platter."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the prepared salad in an airtight container in the refrigerator for no more than 24 hours to maintain crispness. Store feta separately in a small container with a bit of brine."
+    }
+  ]
+}

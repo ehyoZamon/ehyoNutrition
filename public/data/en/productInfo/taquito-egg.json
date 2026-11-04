@@ -1,0 +1,75 @@
+{
+  "id": "3363",
+  "title": "Taquito Egg",
+  "image": "/products/3363.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Taquito is a ready‑to‑eat product consisting of a boiled chicken egg packaged in a convenient single‑serving pouch. The egg retains its natural flavor and nutritional properties, while the packaging provides a long shelf life without refrigeration."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Taquito is made from free‑range eggs, which enhances their nutritional value.",
+        "Each pouch contains exactly one medium egg weighing about 50 g.",
+        "The product undergoes thermal treatment at 75 °C for 5 minutes, ensuring safety.",
+        "Taquito is handy for hiking, work, or school lunches.",
+        "The packaging is fully recyclable and meets environmental standards."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "An egg provides about 6 g of high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of vitamin D",
+          "content": "Vitamin D in the yolk supports calcium absorption and bone health."
+        },
+        {
+          "title": "Contains vitamin B12",
+          "content": "Vitamin B12 is important for nervous system function and red blood cell formation."
+        },
+        {
+          "title": "Contains lecithin",
+          "content": "Lecithin aids brain function and fat metabolism."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "Taquito contains virtually no carbs, making it suitable for low‑carb diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "People allergic to eggs may experience reactions ranging from mild to severe."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "The yolk contains cholesterol; individuals with high cholesterol should consume in moderation."
+        },
+        {
+          "title": "Shelf life after opening",
+          "content": "Once opened, the product should be eaten within 24 hours and kept refrigerated."
+        },
+        {
+          "title": "Thermal processing",
+          "content": "Despite heat treatment, a damaged package could allow bacterial contamination."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Taquito can be eaten straight from the pouch, added to salads, sandwiches, or used as a protein boost in smoothies. If desired, gently warm the egg in a microwave for 10–15 seconds."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the unopened pouch in a cool, dry place away from direct sunlight. After opening, keep it refrigerated and consume within a day. Discard any product with a compromised package."
+    }
+  ]
+}

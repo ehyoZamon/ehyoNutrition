@@ -1,0 +1,54 @@
+{
+  "id": "5447",
+  "title": "Wine cooler",
+  "image": "/products/5447.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A wine cooler is a household appliance designed to maintain the optimal storage temperature for wine. It provides a stable climate, protecting wine from sudden temperature swings and preserving its aroma and flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Modern wine coolers often feature dual zones, allowing red and white wines to be stored at different temperatures.",
+        "Some models are equipped with UV‑protective glass to prevent flavor degradation from light exposure.",
+        "Quiet compressors make it possible to place the cooler in a living or dining room without noticeable noise.",
+        "Energy consumption of contemporary units is usually below 100 W, making them economical to run."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Preserves antioxidants",
+          "content": "Proper wine storage retains polyphenols and resveratrol, which have antioxidant properties."
+        },
+        {
+          "title": "Temperature control",
+          "content": "Optimal temperatures (12‑14 °C for reds, 8‑10 °C for whites) prevent the growth of unwanted microbes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Overheating",
+          "content": "Improper ventilation can cause the compressor to overheat and fail."
+        },
+        {
+          "title": "Electrical safety",
+          "content": "Do not place the cooler near water sources without proper grounding and protection."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Place bottles on the shelves without overfilling them to allow air circulation. Select the desired temperature zone and let the unit stabilize before loading."
+    },
+    {
+      "title": "Storage",
+      "content": "Position the cooler in a dry area away from direct sunlight. If not used for an extended period, disconnect power and clean the interior shelves of dust."
+    }
+  ]
+}

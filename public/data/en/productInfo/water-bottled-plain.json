@@ -1,0 +1,71 @@
+{
+  "id": "5461",
+  "title": "Water, bottled, plain",
+  "image": "/products/5461.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Plain bottled water is clean drinking water that has been filtered and disinfected, packaged in plastic or glass bottles. It contains no additives, flavorings, or sugars, making it a neutral source of hydration."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Most bottled water is sourced from municipal supplies that undergo additional purification.",
+        "PET plastic bottles can be recycled many times, but only a small fraction is actually collected for recycling.",
+        "Bottled water often undergoes reverse osmosis, UV treatment, or ozonation to remove microbes and contaminants.",
+        "In some countries bottled water is considered safer than tap water due to aging or contaminated pipes.",
+        "Global bottled water sales increase each year, especially in hot climate regions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Hydration",
+          "content": "Water is essential for maintaining blood volume, regulating body temperature, and proper organ function."
+        },
+        {
+          "title": "Supports metabolism",
+          "content": "Adequate water intake aids digestion and the elimination of metabolic waste."
+        },
+        {
+          "title": "Improves cognitive function",
+          "content": "Even mild dehydration can impair concentration and memory; regular drinking helps keep the mind sharp."
+        },
+        {
+          "title": "Reduces kidney stone risk",
+          "content": "Higher water consumption dilutes urine, decreasing the chance of crystal formation."
+        },
+        {
+          "title": "Skin health",
+          "content": "Proper hydration supports skin elasticity and overall appearance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Plastic micro‑particles",
+          "content": "Long‑term storage in plastic bottles can lead to the release of microscopic plastic particles that may be ingested."
+        },
+        {
+          "title": "Environmental impact",
+          "content": "Production and disposal of bottles generate significant CO₂ emissions and waste."
+        },
+        {
+          "title": "Lack of minerals",
+          "content": "Unlike mineral water, plain bottled water contains virtually no electrolytes, which may require supplementation from other sources."
+        }
+      ]
+    },
+    {
+      "title": "How to Drink",
+      "content": "Sip water regularly throughout the day, especially before, during, and after physical activity. Keep bottles in a cool place and avoid direct sunlight."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bottles in a dry, cool environment away from direct sunlight. Once opened, consume within 1–2 days and keep the cap tightly sealed."
+    }
+  ]
+}

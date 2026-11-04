@@ -1,0 +1,62 @@
+{
+  "id": "450",
+  "title": "Ice Cream Cone, Soft Serve, Chocolate",
+  "image": "/products/450.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soft‑serve chocolate ice cream in a crunchy waffle cone is a classic treat featuring creamy ice cream coated with a thin chocolate glaze and served in a crisp cone. Portion size: 450 ml."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first ice‑cream cone was introduced in the United States in the early 1900s.",
+        "Chocolate glaze often contains cocoa butter, which gives it a glossy, snap‑crisp finish.",
+        "Soft‑serve is typically served at about –6 °C, making it lighter and airier than regular ice cream.",
+        "In some countries the cones are decorated with nuts, sprinkles, or caramel drizzle."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base provides calcium essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk and cream used in the recipe are rich in vitamins B2 and B12, supporting energy metabolism."
+        },
+        {
+          "title": "Antioxidants from cocoa",
+          "content": "Chocolate glaze contains flavonoids that may help protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large servings can raise blood glucose levels."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "The product contains dairy, which may cause discomfort for lactose‑intolerant individuals."
+        },
+        {
+          "title": "Allergy to nuts or soy emulsifiers",
+          "content": "Chocolate glaze may contain nuts or soy lecithin, potential allergens for some people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve immediately after preparation to keep the cone crunchy and the ice cream soft. Optionally garnish with sprinkles, fresh berries, or an extra drizzle of chocolate sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a freezer at –18 °C for no more than 2 weeks. Avoid repeated thawing to preserve the texture of the soft‑serve."
+    }
+  ]
+}

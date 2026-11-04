@@ -1,0 +1,75 @@
+{
+  "id": "3711",
+  "title": "Bibimbap",
+  "image": "/products/3711.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bibimbap is a traditional Korean dish consisting of a bowl of rice topped with assorted vegetables, meat (usually beef), and a fried egg, all mixed together before eating. The dish balances sweet, salty, spicy, and umami flavors and is known for its vibrant colors."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The name “bibimbap” comes from the Korean words “bibida” (to mix) and “bap” (rice).",
+        "Seasonal vegetables such as spinach, carrots, bean sprouts, cucumber, and radish are traditionally used.",
+        "A common variation, “chonggukjang,” includes a fermented soybean paste sauce (gochujang).",
+        "Bibimbap is often served in a hot stone or earthenware bowl (dolsot), creating a crispy rice crust at the bottom.",
+        "The dish is considered a symbol of Korean culinary balance and is frequently served at celebrations and family gatherings."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich vegetable mix",
+          "content": "The assorted vegetables provide vitamins A, C, K and antioxidants that help protect cells."
+        },
+        {
+          "title": "Protein source",
+          "content": "Meat or tofu adds complete protein needed for tissue growth and repair."
+        },
+        {
+          "title": "Probiotics from fermented sauces",
+          "content": "Gochujang and soy sauce contain probiotic cultures that support gut health."
+        },
+        {
+          "title": "Low glycemic rice",
+          "content": "Brown rice, often used in bibimbap, raises blood sugar slowly."
+        },
+        {
+          "title": "Healthy fats",
+          "content": "Sesame seeds and a drizzle of oil contribute monounsaturated fats beneficial for the heart."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Gochujang and soy sauce can trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Soy sauces are salty; people with hypertension should limit usage."
+        },
+        {
+          "title": "Spicy heat",
+          "content": "Gochujang can be very hot and may irritate the stomach of those with gastritis."
+        },
+        {
+          "title": "Meat safety",
+          "content": "Undercooked meat increases the risk of foodborne illness."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Before eating, mix all components—rice, vegetables, meat, egg—with gochujang sauce. Bibimbap is served hot, often in a stone bowl, to create a crunchy rice crust at the bottom."
+    },
+    {
+      "title": "Storage",
+      "content": "Store leftover bibimbap in an airtight container in the refrigerator for up to 2–3 days. Keep vegetables and sauces separate when possible to prevent the rice from becoming soggy."
+    }
+  ]
+}

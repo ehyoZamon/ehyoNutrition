@@ -1,0 +1,75 @@
+{
+  "id": "5345",
+  "title": "Lemonade",
+  "image": "/products/5345.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lemonade is a light fruit juice drink made from freshly squeezed lemon juice, sugar, and water. It has a refreshing sweet‑tart flavor and low calorie content, making it popular in warm weather."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Traditional lemonade originated in the Mediterranean in the 19th century and quickly spread worldwide.",
+        "There are many variations: with mint, ginger, berries, or even carbonated water.",
+        "Lemons used for lemonade are rich in vitamin C, which boosts immunity.",
+        "In some countries lemonade is served hot as a warming drink in cold seasons.",
+        "Sugar in the classic recipe is often replaced with honey or stevia to reduce calories."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system, aids collagen synthesis, and acts as an antioxidant."
+        },
+        {
+          "title": "Hydration",
+          "content": "High water content helps maintain fluid balance, especially in hot weather."
+        },
+        {
+          "title": "Fatigue reduction",
+          "content": "The light sweetness and lemon aroma can quickly lift mood and reduce feelings of tiredness."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Lemon acidity stimulates gastric juice production, improving digestion."
+        },
+        {
+          "title": "Low calorie",
+          "content": "When sweetened moderately, lemonade contains fewer calories than many soft drinks."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Excessive sugar can contribute to weight gain and increase the risk of diabetes."
+        },
+        {
+          "title": "Acidity",
+          "content": "High acidity may irritate the stomach lining in people with gastritis or ulcers."
+        },
+        {
+          "title": "Citrus allergy",
+          "content": "A small number of individuals may experience an allergic reaction to lemons."
+        },
+        {
+          "title": "Tooth enamel erosion",
+          "content": "Frequent consumption of acidic drinks can erode tooth enamel."
+        }
+      ]
+    },
+    {
+      "title": "How to Drink",
+      "content": "Serve lemonade chilled in a glass with ice, often garnished with a lemon wedge or a sprig of mint. Adding sparkling water creates a fizzy version."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared lemonade can be kept in the refrigerator for up to 3 days in a sealed container. Stir before serving as sediment may settle at the bottom."
+    }
+  ]
+}

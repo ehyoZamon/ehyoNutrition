@@ -1,0 +1,75 @@
+{
+  "id": "3278",
+  "title": "Taco",
+  "image": "/products/3278.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Taco is a traditional Mexican dish consisting of a small corn tortilla filled with pork, cheese, and various seasonings. The corn tortilla provides a light, crisp texture, while the pork gives a rich, savory flavor complemented by melted cheese."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tacos originated in Mexico long before the Spanish conquest, when corn tortillas were used as edible “plates.”",
+        "The classic pork filling often uses “al pastor,” marinated pork cooked on a vertical spit.",
+        "Cheese in Mexican tacos is usually a soft “cotija” or shredded cheddar that melts quickly.",
+        "Tacos are commonly served with lime, fresh cilantro, and salsa for a bright, acidic finish.",
+        "In the United States, tacos became a fast‑food staple in the 1970s when chain restaurants added them to their menus."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "The pork filling provides high‑quality animal protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Pork contains vitamin B12, niacin, and riboflavin, which support energy metabolism and nervous system health."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese adds calcium, important for strong bones and teeth."
+        },
+        {
+          "title": "Fiber from corn tortilla",
+          "content": "Corn tortillas contribute dietary fiber that aids digestion."
+        },
+        {
+          "title": "Low in added sugar",
+          "content": "Tacos contain no added sugars, making them suitable for moderate consumption in blood‑glucose‑controlled diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Cheese and prepared sauces can be salty, which may be problematic for hypertension."
+        },
+        {
+          "title": "Fat content of meat",
+          "content": "Pork, especially fatty cuts, can increase saturated fat intake."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "People with lactose intolerance or milk‑protein allergy should choose dairy‑free alternatives."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Tacos can be calorie‑dense due to the combination of tortilla, meat, and cheese; portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve tacos warm, folding the tortilla in half around the filling. They are eaten by hand, optionally topped with lime, salsa, guacamole, or fresh vegetables to taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store prepared tacos in an airtight container in the refrigerator for up to 2‑3 days. Keep corn tortillas in a dry place, refrigerate cooked pork, and freeze for longer storage."
+    }
+  ]
+}

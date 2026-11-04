@@ -1,0 +1,71 @@
+{
+  "id": "513",
+  "title": "Feta Cheese",
+  "image": "/products/513.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Feta is a traditional Greek cheese made from sheep’s milk, goat’s milk, or a mixture of both. It has a crumbly texture, salty flavor, and a characteristic tangy aroma. Feta is used in salads, pastries, appetizers, and as a standalone table cheese."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Feta holds a Protected Designation of Origin (PDO) status in the EU, meaning only cheese produced in specific Greek regions can be called feta.",
+        "Traditionally, feta is aged in a brine of water, salt, and sometimes whey for at least two months.",
+        "The cheese is a key ingredient in the classic Greek salad “horiatiki” with olives, tomatoes, and cucumbers.",
+        "Ancient Greek texts, including works by Homer, reference cheeses similar to modern feta.",
+        "Feta can be made entirely from sheep’s milk, goat’s milk, or a blend, though pure sheep’s milk versions are most common."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Feta provides a high amount of calcium, essential for bone and dental health."
+        },
+        {
+          "title": "Good source of protein",
+          "content": "The cheese supplies high‑quality dairy protein that supports tissue growth and repair."
+        },
+        {
+          "title": "Contains probiotics",
+          "content": "Fermentation introduces beneficial bacteria that may support gut health."
+        },
+        {
+          "title": "Lower lactose content",
+          "content": "Fermentation reduces lactose levels, making feta more tolerable for people with mild lactose intolerance."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Feta contains vitamin B12, riboflavin, and niacin, which are important for energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium",
+          "content": "Because feta is stored in brine, it can contribute a significant amount of sodium to the diet."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Individuals allergic to casein or whey proteins may react to feta."
+        },
+        {
+          "title": "Fat content",
+          "content": "While less fatty than many hard cheeses, feta still contains saturated fats, so portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Crumble feta over salads, add it to pastas, casseroles, pizza, or serve with olives and crusty bread. It also works well in marinades and as a stuffing for vegetables."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep feta in its original brine in the refrigerator at 0‑4 °C, sealed with a lid. If needed, transfer to a fresh brine (water + salt). It lasts 2‑3 weeks. When the brine dries out, the cheese should be dried and consumed within a few days."
+    }
+  ]
+}

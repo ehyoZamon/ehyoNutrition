@@ -1,0 +1,75 @@
+{
+  "id": "2016",
+  "title": "Egg Omelet with Cheese and Tomatoes",
+  "image": "/products/2016.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Egg omelet with cheese and tomatoes is a simple dish made from eggs, grated cheese, and fresh tomatoes. Eggs provide high‑quality protein, cheese adds a creamy flavor and calcium, and tomatoes bring freshness and vitamin C."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most affordable complete protein sources.",
+        "Cream cheese is popular in cooking for its smooth texture and neutral taste.",
+        "Tomatoes are rich in lycopene, a powerful antioxidant.",
+        "An omelet can be prepared in 5‑7 minutes, making it a favorite breakfast.",
+        "Around the world, omelets are customized with herbs, meats, or vegetables."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High‑quality protein",
+          "content": "Eggs contain all essential amino acids, supporting muscle growth and tissue repair."
+        },
+        {
+          "title": "Calcium source",
+          "content": "Cream cheese contributes calcium, important for bone and teeth health."
+        },
+        {
+          "title": "Vitamin C and lycopene",
+          "content": "Tomatoes provide vitamin C and lycopene, boosting immunity and protecting cells from oxidative stress."
+        },
+        {
+          "title": "Low in carbs",
+          "content": "The dish is suitable for low‑carb diets as it contains minimal sugar."
+        },
+        {
+          "title": "Eye health support",
+          "content": "Lutein and zeaxanthin from eggs and tomatoes help maintain healthy vision."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to egg proteins."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Eggs contain cholesterol; people with high cholesterol should consume the dish in moderation."
+        },
+        {
+          "title": "Sodium in cheese",
+          "content": "Cream cheese can be salty, so choose low‑sodium varieties if you watch your salt intake."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked eggs may harbor salmonella; cook until fully set."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the omelet hot, optionally garnish with fresh herbs, add avocado or whole‑grain toast. It works well as a breakfast or a light lunch."
+    },
+    {
+      "title": "Storage",
+      "content": "Best enjoyed fresh. If needed, store in an airtight container in the refrigerator for up to 24 hours and reheat before serving."
+    }
+  ]
+}

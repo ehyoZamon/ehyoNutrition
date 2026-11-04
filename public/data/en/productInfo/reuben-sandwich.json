@@ -1,0 +1,75 @@
+{
+  "id": "1725",
+  "title": "Reuben Sandwich",
+  "image": "/products/1725.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The Reuben sandwich is a classic American hot sandwich made with rye bread, sauerkraut, corned beef, Swiss cheese, and Russian dressing. It is typically grilled until the bread is golden and the cheese melts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The sandwich was created in the 1920s at Blackstone’s Delicatessen in Omaha, Nebraska.",
+        "It is named after the restaurant’s owner, Reuben Kulakofsky.",
+        "Traditional recipes use rye bread, though some regions substitute wheat bread.",
+        "It is often served with potato chips or pickles on the side.",
+        "By the 1940s the Reuben became a staple in U.S. army mess halls."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Corned beef provides high‑quality animal protein essential for tissue repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Red meat contains heme iron, which is readily absorbed by the body."
+        },
+        {
+          "title": "Probiotic sauerkraut",
+          "content": "Fermented cabbage supplies beneficial bacteria that support gut health."
+        },
+        {
+          "title": "Calcium content",
+          "content": "Swiss cheese adds calcium, important for bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Meat and bread supply B12, B6, and niacin, aiding energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium",
+          "content": "Sauerkraut and Russian dressing can be salty, which may be problematic for hypertension."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Cheese and beef contain saturated fats that should be limited in heart‑healthy diets."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Swiss cheese may trigger reactions in people with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "Foodborne illness risk",
+          "content": "Undercooked corned beef can harbor pathogens; it should reach an internal temperature of 63 °C."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Place a layer of sauerkraut on a slice of rye bread, add thinly sliced corned beef, top with a slice of Swiss cheese, and drizzle Russian dressing. Grill in a preheated oven at 180 °C for 10‑12 minutes until the cheese melts and the bread is crisp."
+    },
+    {
+      "title": "Storage",
+      "content": "The sandwich is best enjoyed fresh. If needed, store it in an airtight container in the refrigerator for up to 24 hours. Keep cheese and meat wrapped separately at 0‑4 °C to maintain quality."
+    }
+  ]
+}

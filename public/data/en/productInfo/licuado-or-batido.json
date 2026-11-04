@@ -1,0 +1,75 @@
+{
+  "id": "311",
+  "title": "Licuado or Batido",
+  "image": "/products/311.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Licuado (or batido) is a nutritious blended drink made from milk, fruits, vegetables, nuts, and sometimes protein powders. It is popular in Latin American countries as a quick way to obtain energy and essential nutrients."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The terms “licuado” and “batido” are often used interchangeably, though in some regions batido implies a thicker consistency.",
+        "Traditionally these drinks are prepared in a blender in just a few seconds.",
+        "Classic recipes frequently combine banana, mango or papaya with milk or yogurt.",
+        "Their popularity has surged in the fitness community as a post‑workout shake.",
+        "In some countries they are sold ready‑to‑drink in bottles, but the homemade version is considered healthier."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Fruits and dairy components provide B1, B2, B6 and B12, which support energy metabolism."
+        },
+        {
+          "title": "Protein source",
+          "content": "Adding protein powder, yogurt or nuts boosts the protein content, aiding muscle recovery."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Fiber from fruits and vegetables improves gut function and promotes satiety."
+        },
+        {
+          "title": "Electrolytes and hydration",
+          "content": "Milk, yogurt and certain fruits supply potassium, sodium and magnesium needed for fluid balance."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Berries, mango and other colorful fruits are high in vitamin C and polyphenols that protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "People with lactose intolerance or milk allergy should use plant‑based alternatives."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Sweet fruits and added honey can raise the drink’s glycemic index; diabetics should monitor portions."
+        },
+        {
+          "title": "Food interactions",
+          "content": "Some protein powders contain artificial sweeteners that may cause gastrointestinal discomfort."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Batidos can be calorie‑rich, especially when nuts, seeds and oils are added; portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Blend milk (or a plant‑based substitute) with chosen fruits, vegetables, nuts, and optionally a protein powder until smooth. Serve immediately to preserve vitamins. Add ice for a more refreshing drink."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared drink in the refrigerator for no more than 24 hours. If kept longer, separate any sediment and stir before drinking. Do not leave at room temperature for more than 4 hours."
+    }
+  ]
+}

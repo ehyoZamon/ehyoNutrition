@@ -1,0 +1,79 @@
+{
+  "id": "896",
+  "title": "Chicken Nuggets",
+  "image": "/products/896.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken nuggets are small pieces of chicken breast that are breaded and deep‑fried or baked. They are a popular quick snack and are commonly served in fast‑food restaurants, casual eateries, and at home."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial nugget recipe was created in the 1970s by McDonald’s.",
+        "Traditional breading uses a mix of flour, breadcrumbs and spices, but there are versions with cornflakes or nut crumbs.",
+        "Nuggets are often served with sauces such as barbecue, honey‑mustard, sweet chili, cheese and others.",
+        "In some countries they are called “chicken bites” or “chicken sticks.”",
+        "Vegetarian nuggets made from soy protein mimic the taste and texture of chicken."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Chicken provides high‑quality complete protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Nuggets contain niacin, vitamin B6 and B12, which support energy metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "Chicken supplies iron, zinc and phosphorus, important for immunity and bone health."
+        },
+        {
+          "title": "Low in carbs",
+          "content": "When prepared with a light coating, nuggets can fit into low‑carb diets."
+        },
+        {
+          "title": "Satiety",
+          "content": "The combination of protein and fat helps keep you feeling full longer."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat and calorie content",
+          "content": "Traditional deep‑fried nuggets are rich in saturated fat and calories, which may contribute to weight gain."
+        },
+        {
+          "title": "Sodium",
+          "content": "Salt in the breading and sauces increases sodium intake, which can be problematic for hypertension."
+        },
+        {
+          "title": "Allergens",
+          "content": "Breadings often contain gluten, dairy or egg, which can trigger allergic reactions."
+        },
+        {
+          "title": "Trans fats",
+          "content": "Cooking at high temperatures can create trans fats, which are harmful to cardiovascular health."
+        },
+        {
+          "title": "Temperature control",
+          "content": "Undercooked pieces may harbor harmful bacteria; ensure internal temperature reaches 75 °C."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve nuggets hot, usually with dipping sauces. They can be added to salads, wraps, or used in dishes like nugget‑burgers. For a healthier option, bake at 200 °C for 15‑20 minutes."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep cooked nuggets in an airtight container in the refrigerator for up to 3 days. Frozen nuggets last up to 2 months; reheat thoroughly before eating."
+    }
+  ]
+}

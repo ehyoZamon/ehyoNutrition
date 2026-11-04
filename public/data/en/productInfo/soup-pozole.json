@@ -1,0 +1,75 @@
+{
+  "id": "1902",
+  "title": "Soup, Pozole",
+  "image": "/products/1902.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pozole is a traditional Mexican soup made from hominy (alkaline‑treated corn kernels), meat (usually pork) and aromatic spices. The dish has a thick, stew‑like consistency and a smoky flavor derived from chipotle, dried chilies and herbs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Pozole uses nixtamalized corn, which is soaked in an alkaline solution before cooking.",
+        "The dish dates back over 500 years to the Aztec civilization, where it was prepared for ritual purposes.",
+        "There are two main styles: red pozole (with chipotle) and green pozole (with tomatillo and green chilies).",
+        "Pozole is commonly served on holidays such as Día de los Muertos and at family gatherings.",
+        "In Mexico, pozole is considered a comfort food that warms you on cold days."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Hominy provides both soluble and insoluble fiber, supporting healthy digestion."
+        },
+        {
+          "title": "Protein source",
+          "content": "The combination of meat and corn delivers a complete set of essential amino acids."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Pozole contains thiamine, niacin and vitamin B6, which aid energy metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "The soup supplies iron, magnesium and zinc, important for blood health and immunity."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Chipotle and dried chilies are rich in carotenoids that help combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Traditional broth can be salty; people with hypertension should watch their salt intake."
+        },
+        {
+          "title": "Corn allergy",
+          "content": "Some individuals may be sensitive to corn, leading to allergic reactions."
+        },
+        {
+          "title": "Fatty meat",
+          "content": "Pork can be fatty; lean cuts or chicken can be used as a lighter alternative."
+        },
+        {
+          "title": "Spicy chilies",
+          "content": "Chili peppers may irritate the stomach of those with gastritis or ulcers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve pozole hot, topped with lime wedges, sliced avocado, fresh cilantro, radishes and tortilla strips. Optional additions include sour cream or crumbled queso fresco."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep leftovers in an airtight container in the refrigerator for up to 3 days. When frozen, pozole retains quality for about 2 months; thaw in the fridge before reheating."
+    }
+  ]
+}

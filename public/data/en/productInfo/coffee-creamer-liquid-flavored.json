@@ -1,0 +1,62 @@
+{
+  "id": "400",
+  "title": "Coffee creamer, liquid, flavored",
+  "image": "/products/400.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Liquid coffee creamer is a ready‑to‑use product added to coffee to give it a smoother texture, creamy taste, and aromatic notes. It comes in a variety of flavors such as vanilla, caramel, hazelnut, and more."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Coffee creamer often contains vegetable oils like soy or coconut, plus emulsifiers that keep the mixture homogeneous.",
+        "Flavored versions may use natural extracts, but artificial flavorings are common for flavor stability.",
+        "Liquid creamer is convenient for office coffee machines because it dissolves instantly without frothing.",
+        "In some markets, creamer is sold in single‑serve sachets for one‑time use."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Mildens coffee bitterness",
+          "content": "Cremers reduce the bitterness and acidity of coffee, making it more palatable for a wide audience."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Certain formulations are fortified with riboflavin (B2) and cobalamin (B12), supporting energy metabolism."
+        },
+        {
+          "title": "Improves mouthfeel",
+          "content": "Emulsifiers create a velvety, creamy consistency that enhances the drinking experience."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy or dairy allergy",
+          "content": "Many creamers contain soy protein or dairy solids, which can trigger allergic reactions."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Flavored varieties often contain added sugars, which may be unsuitable for diabetics or those watching weight."
+        },
+        {
+          "title": "Trans fats",
+          "content": "Some creamers use partially hydrogenated oils that contain trans fats, which are harmful to cardiovascular health."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Add 10–30 ml of creamer to hot coffee, stir, and enjoy. It can also be used in iced coffees, lattes, cappuccinos, and dessert sauces."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in the refrigerator after opening, tightly sealed, and use within 30 days. Do not freeze the product."
+    }
+  ]
+}

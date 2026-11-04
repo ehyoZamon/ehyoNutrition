@@ -1,0 +1,75 @@
+{
+  "id": "1977",
+  "title": "Egg omelet or scrambled egg",
+  "image": "/products/1977.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Egg omelets and scrambled eggs are made from chicken eggs, which provide high‑quality protein, B‑group vitamins, vitamin D, and minerals such as iron, zinc, and selenium. Eggs can be prepared in many ways: beaten and cooked as an omelet, stirred and fried as scrambled eggs, or simply boiled."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most affordable and nutrient‑dense foods worldwide.",
+        "Domestication of chickens for egg production dates back over 7,000 years in Southeast Asia.",
+        "The yolk contains almost all the vitamins of the B‑group, as well as vitamins A and D.",
+        "A typical large chicken egg weighs about 50 g, with roughly 30 % white and 70 % yolk.",
+        "Eggs serve as a binding, emulsifying, and leavening agent in many culinary applications."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Eggs provide all essential amino acids, making them a complete protein for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Both yolk and white contain B2, B5, B12, which support energy metabolism and nervous system health."
+        },
+        {
+          "title": "Choline",
+          "content": "Eggs are one of the best dietary sources of choline, important for brain function and liver health."
+        },
+        {
+          "title": "Lutein and zeaxanthin",
+          "content": "These carotenoids in the yolk help maintain eye health and reduce the risk of age‑related macular degeneration."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "Eggs contain virtually no carbs, making them suitable for low‑carb diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Egg allergy is common in children and can range from skin reactions to anaphylaxis."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "A single yolk contains about 186 mg of cholesterol; individuals with high cholesterol may limit yolk intake."
+        },
+        {
+          "title": "Salmonella risk",
+          "content": "Raw or undercooked eggs can harbor Salmonella; use pasteurized eggs or cook thoroughly."
+        },
+        {
+          "title": "Biotin interference",
+          "content": "Raw egg white contains avidin, which binds biotin and can cause deficiency if consumed in excess."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Prepare omelets or scrambled eggs in a lightly oiled pan, adding vegetables, cheese, ham, or herbs. They are suitable for breakfast, lunch, or dinner and can be incorporated into salads and sandwiches."
+    },
+    {
+      "title": "Storage",
+      "content": "Store eggs in the refrigerator at 1‑4 °C in their original carton. Fresh eggs keep for 3‑4 weeks. Cooked omelets should be consumed within 2‑3 days when kept in an airtight container."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2499",
+  "title": "Bagel, wheat bran",
+  "image": "/products/2499.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bagel with wheat bran is a whole‑grain bakery product made from wheat flour, wheat bran and yeast. The bran gives it a nutty aroma, a dense crumb and a higher fiber content."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Wheat bran is the outer layer of the grain, rich in fiber, B‑vitamins and minerals.",
+        "Bagels are traditionally shaped as a ring; adding bran makes them more nutritious without losing shape.",
+        "Bran can help lower blood glucose by slowing carbohydrate absorption.",
+        "In some countries bagels with bran are served for breakfast with cottage cheese or yogurt.",
+        "Wheat bran is often used in diet plans for weight control."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in dietary fiber",
+          "content": "Bran provides soluble and insoluble fiber that supports healthy digestion and promotes satiety."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Contains thiamine, niacin and folate, which are essential for energy metabolism."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "Rich in magnesium, iron and zinc, supporting muscle function and immune health."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "The high fiber content causes a slower rise in blood sugar after eating."
+        },
+        {
+          "title": "Cardiovascular support",
+          "content": "Fiber helps lower LDL (bad) cholesterol levels."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Wheat allergy or gluten intolerance",
+          "content": "People with wheat allergy or celiac disease should avoid this product."
+        },
+        {
+          "title": "High fiber load",
+          "content": "Excessive bran intake may cause bloating, gas or diarrhea."
+        },
+        {
+          "title": "Phytic acid content",
+          "content": "Phytates can reduce the absorption of certain minerals if consumed in large amounts."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The bagel can be eaten plain as a snack, sliced and topped with cream cheese, avocado, smoked salmon, or used for open‑face sandwiches. Light toasting enhances texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep bagels in an airtight container at room temperature for up to 3 days. For longer storage refrigerate (up to 7 days) or freeze (up to 3 months)."
+    }
+  ]
+}

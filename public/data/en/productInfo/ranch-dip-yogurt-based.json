@@ -1,0 +1,71 @@
+{
+  "id": "245",
+  "title": "Ranch dip, yogurt based",
+  "image": "/products/245.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Ranch dip is a creamy sauce made from yogurt and seasoned with classic Ranch spices: garlic, onion, dill, parsley and dried milk powders. It has a mild, slightly tangy flavor with herbal notes and works well as a dip for vegetables, chips and crackers."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Ranch is one of the most popular sauces in the US, with consumption exceeding 1.5 billion servings per year.",
+        "The original Ranch dressing was created in the 1950s in Alabama as a salad topping.",
+        "A yogurt‑based version appeared in the 2000s to offer a lighter alternative to the traditional mayo‑based Ranch.",
+        "The blend of herbs and garlic makes the sauce versatile for many cuisines—from American to Mexican.",
+        "In Russia, Ranch dip is often sold in ready‑to‑eat plastic containers."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "The yogurt base provides live cultures that support gut microbiota."
+        },
+        {
+          "title": "Lower fat content",
+          "content": "Compared with classic mayo‑based Ranch, the yogurt version contains less saturated fat."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Yogurt is a good source of calcium, important for bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, which aid energy metabolism."
+        },
+        {
+          "title": "Herbal antioxidants",
+          "content": "Dill and parsley are rich in vitamin C and flavonoids with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Contains yogurt, so it may trigger reactions in people with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some versions can be salty; those monitoring sodium intake should check the label."
+        },
+        {
+          "title": "Sugar content",
+          "content": "A small amount of sugar is sometimes added for flavor balance."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve Ranch dip with vegetable sticks, potato wedges, crackers, chicken nuggets, or use it as a dressing for salads and burgers."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep refrigerated at 2‑4 °C in a sealed container. Once opened, it is usually good for 5‑7 days. Do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

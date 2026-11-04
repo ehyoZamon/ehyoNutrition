@@ -1,0 +1,75 @@
+{
+  "id": "5323",
+  "title": "Lemonade",
+  "image": "/products/5323.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lemonade is a non‑alcoholic fruit drink made from freshly squeezed lemon juice, sugar and water. It has a refreshing sweet‑tart flavor and is usually served chilled."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Traditional lemonade appeared in Europe in the 19th century as a remedy for colds.",
+        "In the US lemonade is often served over ice with mint, while in Russia berry‑infused versions are popular.",
+        "There is a non‑alcoholic “lemonade cocktail” where lemon juice is mixed with sparkling water.",
+        "Lemonade can be made from fresh lemons or from concentrated lemon syrup.",
+        "In some countries honey is used instead of sugar to sweeten lemonade."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system and helps protect cells from oxidative stress."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Lemon flavonoids help neutralize free radicals."
+        },
+        {
+          "title": "Hydrates the body",
+          "content": "The water in lemonade contributes to fluid balance, especially in hot weather."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Lemon acidity can stimulate gastric juice production, improving digestion."
+        },
+        {
+          "title": "May reduce kidney stone risk",
+          "content": "Citric acid in lemons can inhibit the formation of oxalate stones."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Traditional lemonade contains a lot of sugar, which can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Acidity",
+          "content": "Lemon acidity may irritate the stomach lining in people with gastritis or ulcers."
+        },
+        {
+          "title": "Citrus allergy",
+          "content": "A small number of individuals may experience allergic reactions to lemons."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Large doses of vitamin C can affect the efficacy of certain drugs, such as anticoagulants."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve lemonade cold, often over ice with a lemon wedge or a sprig of mint. It can be diluted with sparkling water for a lighter taste or used as a base in cocktails."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep prepared lemonade in a sealed container in the refrigerator for no more than 3‑4 days. For longer storage, keep the concentrate separate and dilute before serving."
+    }
+  ]
+}

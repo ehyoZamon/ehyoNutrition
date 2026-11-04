@@ -1,0 +1,75 @@
+{
+  "id": "1689",
+  "title": "Big Mac",
+  "image": "/products/1689.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The Big Mac is McDonald's signature double‑burger, made of two beef patties, special sauce, lettuce, cheese, pickles and onions, all stacked between three sesame seed buns."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The Big Mac was first introduced in 1967 in Pittsburgh.",
+        "Its famous tagline “Two all‑beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun” is known worldwide.",
+        "In 1975 the Big Mac Index was created by The Economist as a simple way to compare purchasing power parity across countries.",
+        "The Big Mac arrived in Russia in the early 1990s and quickly became a menu staple.",
+        "A vegetarian version called the Veggie Mac replaces the beef patties with plant‑based patties."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "The two beef patties provide roughly 25 g of high‑quality protein, essential for muscle maintenance."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Beef supplies heme iron, which is readily absorbed and supports oxygen transport in the blood."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "The slice of cheese adds calcium, important for bone and teeth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef and the bun contribute B12, B6 and niacin, which help with energy metabolism."
+        },
+        {
+          "title": "Dietary fiber",
+          "content": "Lettuce and pickles contribute a modest amount of fiber that aids digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie content",
+          "content": "A single Big Mac contains about 540 kcal, which can contribute to weight gain if eaten frequently."
+        },
+        {
+          "title": "Saturated fat and sodium",
+          "content": "The sandwich is rich in saturated fats and salt, which may increase cardiovascular risk when consumed in excess."
+        },
+        {
+          "title": "Allergens",
+          "content": "It contains gluten (bun), dairy (cheese) and soy (in the special sauce), which can trigger allergic reactions."
+        },
+        {
+          "title": "Preservatives",
+          "content": "Some ingredients include additives that may not be suitable for people with sensitivities."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The Big Mac is typically served in its branded wrapper. Eat it by hand, optionally splitting it in half, and pair it with fries and a drink. For a lighter option, some replace the regular bun with a whole‑grain version."
+    },
+    {
+      "title": "Storage",
+      "content": "If not eaten immediately, store the Big Mac in the refrigerator for up to 24 hours. For longer storage, reheat in a microwave or oven to restore the bun’s texture."
+    }
+  ]
+}

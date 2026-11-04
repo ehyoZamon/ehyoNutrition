@@ -1,0 +1,70 @@
+{
+  "id": "5004",
+  "title": "Lettuce",
+  "image": "/products/5004.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lettuce is a leafy vegetable commonly used as a fresh topping for sandwiches, salads, and other dishes. It has a crisp texture, mild flavor, and a slightly bitter note."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "There are over 100 varieties of lettuce, including romaine, iceberg, butterhead, and leaf lettuce.",
+        "Lettuce is composed of more than 95% water, making it an excellent source of hydration.",
+        "Lettuce leaves can absorb light but perform photosynthesis less efficiently than many other plants.",
+        "Beyond raw consumption, lettuce is sometimes lightly sautéed or steamed in culinary applications."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin K",
+          "content": "Lettuce provides a good amount of vitamin K, which is essential for blood clotting and bone health."
+        },
+        {
+          "title": "Contains vitamin A and folate",
+          "content": "Vitamin A supports vision, while folate is important for cell division and fetal development during pregnancy."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Lettuce is very low in calories, making it helpful for weight management."
+        },
+        {
+          "title": "Source of antioxidants",
+          "content": "Leafy greens contain carotenoids and polyphenols that help combat free radicals."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "The fiber in lettuce promotes regular bowel movements and contributes to a feeling of fullness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Bacterial contamination",
+          "content": "Lettuce can be contaminated with bacteria such as E. coli, so thorough washing before consumption is important."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Conventional lettuce may contain pesticide residues; choosing organic or washing well reduces the risk."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Some individuals may experience allergic reactions to leafy vegetables, resulting in itching or swelling."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Lettuce is typically eaten raw: added to sandwiches, salads, wraps, and smoothies. It can also be lightly sautéed, steamed, or incorporated into warm dishes while retaining its crunch."
+    },
+    {
+      "title": "Storage",
+      "content": "Store lettuce in the refrigerator in an airtight container or bag with a small amount of moisture. Use within 3–5 days. Discard if leaves turn yellow or develop an off odor."
+    }
+  ]
+}

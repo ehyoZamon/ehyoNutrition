@@ -1,0 +1,66 @@
+{
+  "id": "591",
+  "title": "Cheese Soufflé",
+  "image": "/products/591.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cheese soufflé is a light baked dish made from eggs, cottage cheese or cream cheese, milk, and aromatic additions. During baking, air bubbles form from whipped egg whites, giving the soufflé its characteristic airy texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soufflé originated in France in the 17th century and was originally a sweet preparation.",
+        "Both sweet and savory versions exist; the cheese version belongs to the savory family.",
+        "Its delicate texture relies on carefully whipping egg whites to stiff peaks.",
+        "Soufflé rises quickly in the oven and can collapse if opened abruptly."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Cheese and eggs provide high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Cream cheese supplies calcium, which supports bone and tooth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Eggs and dairy deliver vitamins B2, B12, and folate, important for energy metabolism."
+        },
+        {
+          "title": "Low in carbs",
+          "content": "A cheese soufflé typically contains few carbohydrates, making it suitable for low‑carb diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese soufflé may trigger reactions in individuals allergic to milk or cheese."
+        },
+        {
+          "title": "High fat content",
+          "content": "Cream cheese and eggs contain saturated fats; people monitoring cholesterol should consume in moderation."
+        },
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Unpasteurized cheeses can harbor pathogenic bacteria; choose pasteurized products."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve cheese soufflé hot, straight from the oven, to preserve its fluffiness. It can be garnished with fresh herbs, grated Parmesan, or a light drizzle of sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Leftover soufflé should be stored in an airtight container in the refrigerator for up to 2 days. Reheat gently in the oven at a low temperature to avoid drying out."
+    }
+  ]
+}

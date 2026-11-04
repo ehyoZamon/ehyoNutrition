@@ -1,0 +1,71 @@
+{
+  "id": "4567",
+  "title": "Turnip, raw",
+  "image": "/products/4567.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Turnip is a root vegetable from the Brassicaceae family, cultivated in temperate regions. Raw turnip has a crisp texture, a mildly peppery and refreshing flavor, and a pale white or pinkish flesh. It is commonly used in salads, as a crunchy snack, or as a side dish."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Turnip belongs to the same family as cabbage, broccoli, and mustard.",
+        "There are over 200 turnip varieties, differing in color, shape, and pungency.",
+        "Historically, turnips were used in folk medicine to aid digestion.",
+        "Turnips grow quickly – from sowing to harvest usually takes 3–4 weeks.",
+        "The edible part is the swollen stem base, not a true root like carrots."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Turnip provides a high amount of vitamin C, which supports the immune system and collagen synthesis."
+        },
+        {
+          "title": "Low‑calorie food",
+          "content": "With very few calories per serving, turnip is an excellent choice for weight‑controlled diets."
+        },
+        {
+          "title": "Source of dietary fiber",
+          "content": "Fiber in turnip aids digestion and promotes a feeling of fullness."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium helps regulate fluid balance and supports heart function."
+        },
+        {
+          "title": "Antioxidant compounds",
+          "content": "Phenolic compounds in turnip have antioxidant properties that protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to turnip, such as skin rash or swelling."
+        },
+        {
+          "title": "Gas formation",
+          "content": "Consuming large amounts of turnip can cause bloating due to its raffinose content."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "High vitamin C levels may enhance the effect of certain drugs, for example anticoagulants."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Raw turnip is usually washed, trimmed, and eaten whole, sliced into rounds, or cut into matchsticks. It can be added to salads, sandwiches, snack plates, or used as a garnish."
+    },
+    {
+      "title": "Storage",
+      "content": "Store turnip in the refrigerator in a perforated bag or a container with a damp cloth to keep it crisp for up to 2 weeks. Rinse thoroughly before consumption."
+    }
+  ]
+}

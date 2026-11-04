@@ -1,0 +1,75 @@
+{
+  "id": "5369",
+  "title": "Beer",
+  "image": "/products/5369.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beer is an alcoholic beverage produced by fermenting malted grains (such as barley or wheat) with water, hops, and yeast. It comes in a wide range of styles, from light lagers to rich stouts, and is one of the most popular drinks worldwide."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beer is considered one of the oldest drinks, with archaeological evidence dating back to 5,000 BCE.",
+        "Hops are added not only for bitterness but also as a natural preservative.",
+        "There are more than 20,000 beer styles, classified by flavor, region, and brewing method.",
+        "In many countries, beer is served in specially shaped glasses that enhance aroma and taste.",
+        "Beer festivals such as Germany's Oktoberfest attract millions of visitors each year."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Beer is a good source of B1, B2, B6, and folate, which support metabolism and nervous system function."
+        },
+        {
+          "title": "Source of minerals",
+          "content": "It provides magnesium, potassium, phosphorus, and selenium, important for muscle and bone health."
+        },
+        {
+          "title": "Polysaccharides and fiber",
+          "content": "Malt and hops contain soluble fibers that may benefit digestive health."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Flavonoids from hops have antioxidant properties that help protect cells from oxidative stress."
+        },
+        {
+          "title": "Moderate consumption and cardiovascular health",
+          "content": "Some studies associate moderate beer intake with a slightly reduced risk of heart disease."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol content",
+          "content": "Beer contains alcohol and should be consumed in moderation; excessive intake leads to health problems."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Certain beers, especially sweet or high‑ABV varieties, can be high in calories and may contribute to weight gain."
+        },
+        {
+          "title": "Yeast or gluten allergy",
+          "content": "Some individuals may react to yeast or gluten present in barley malt."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Alcohol can amplify the effects of many drugs, so people on medication should limit beer consumption."
+        }
+      ]
+    },
+    {
+      "title": "How to Drink",
+      "content": "Beer is typically served chilled in glasses or mugs suited to its style. Pairings include light lagers with seafood and salads, ales with meat and cheese, and stouts with desserts or chocolate."
+    },
+    {
+      "title": "Storage",
+      "content": "Store beer in a cool, dark place, ideally at 7‑12 °C (45‑54 °F). Avoid direct sunlight, which can cause \"skunking\" and degrade flavor. Once opened, seal the bottle or keg and consume within a few days."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3456",
+  "title": "Meat Pizza, Gluten-Free Thin Crust",
+  "image": "/products/3456.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Meat pizza on a gluten‑free thin crust is a flavorful culinary creation that combines a crisp, gluten‑free base, tomato sauce, melted cheese, and a variety of meat toppings such as ham, sausage, beef, or chicken. It’s perfect for those following a gluten‑free diet without sacrificing the classic taste of pizza."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Gluten‑free dough is often made from a blend of rice, potato, and tapioca flours.",
+        "A thin crust allows toppings to cook evenly and stays crunchy.",
+        "Meat toppings are usually pre‑seared to enhance flavor.",
+        "Traditional Italian Margherita pizza contains no meat, but modern versions with meat are among the most popular worldwide.",
+        "Gluten‑free products can contain more sugar or fat to improve texture, so choosing reputable brands is important."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "The meat provides high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Iron content",
+          "content": "Red meat supplies heme iron, which is more readily absorbed by the body."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Meat and cheese deliver B6, B12, and niacin, supporting energy metabolism."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese is a good source of calcium, important for bone and teeth health."
+        },
+        {
+          "title": "Antioxidants in tomato sauce",
+          "content": "Tomatoes are rich in lycopene, an antioxidant with health‑promoting properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sodium content",
+          "content": "Cheese and processed meats can be high in salt, which may be problematic for hypertension."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Large amounts of cheese and fatty meats increase saturated fat intake, potentially affecting cholesterol levels."
+        },
+        {
+          "title": "Dairy allergy or lactose intolerance",
+          "content": "People with dairy sensitivities should choose lactose‑free or dairy‑free alternatives."
+        },
+        {
+          "title": "Gluten cross‑contamination",
+          "content": "Preparing gluten‑free pizza requires strict kitchen hygiene to avoid cross‑contamination."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Slice the pizza into portions and serve hot. Garnish with fresh herbs such as basil or oregano, or add a light salad on the side. Optional extra vegetables like bell peppers, mushrooms, or olives can enhance flavor and nutrition."
+    },
+    {
+      "title": "Storage",
+      "content": "Store leftovers in an airtight container in the refrigerator for up to 2‑3 days. Reheat in an oven or grill to restore the crust’s crispness."
+    }
+  ]
+}

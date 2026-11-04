@@ -1,0 +1,75 @@
+{
+  "id": "1996",
+  "title": "Egg omelet with cheese and meat",
+  "image": "/products/1996.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An egg omelet or scrambled eggs enriched with cheese and meat, cooked in vegetable oil. Eggs provide high‑quality protein, while cheese and meat add flavor, aroma, and additional nutrients."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs contain all essential amino acids required by humans.",
+        "The cheese used can range from soft cottage cheese to aged cheddar.",
+        "Meat is usually pre‑cooked or lightly seared to shorten cooking time.",
+        "Cooking in vegetable oil gives a crisp exterior without excessive greasiness.",
+        "Egg omelet with cheese and meat is a common breakfast item in fast‑food restaurants and home kitchens."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Eggs and meat supply complete protein needed for tissue growth and repair."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Eggs provide vitamin B12, while meat adds niacin and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Calcium and phosphorus",
+          "content": "Cheese contributes calcium and phosphorus, essential for bone and tooth health."
+        },
+        {
+          "title": "Healthy fats",
+          "content": "Vegetable oil adds monounsaturated and polyunsaturated fatty acids beneficial for cardiovascular health."
+        },
+        {
+          "title": "Iron content",
+          "content": "Meat offers heme iron, which is more readily absorbed than plant‑based iron."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to egg proteins."
+        },
+        {
+          "title": "High sodium",
+          "content": "Cheese and processed meat can be salty; people with hypertension should watch portion size."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The combination of eggs, cheese, meat, and oil makes the dish relatively high in calories; moderation is key for weight management."
+        },
+        {
+          "title": "Trans fats in oil",
+          "content": "Reusing or overheating oil may generate small amounts of trans fats."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the hot omelet with fresh vegetables, herbs, or whole‑grain toast. It can be sliced for sandwiches or added to salads."
+    },
+    {
+      "title": "Storage",
+      "content": "Store leftovers in an airtight container in the refrigerator for up to 2 days. Reheat in a microwave or skillet with a little oil to prevent drying out."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "444",
+  "title": "Ice cream cone, scooped, vanilla",
+  "image": "/products/444.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Ice cream cone is a classic dessert consisting of a crisp waffle cone filled with a scoop of vanilla ice cream. The vanilla flavor is achieved with natural vanilla beans or flavorings, and the cone is typically baked from wheat flour, sugar, and butter."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first documented ice‑cream‑in‑a‑cone recipe appeared in the United States in the early 1920s.",
+        "Vanilla is one of the most popular ice‑cream flavors worldwide, used in over 30 % of all varieties.",
+        "Traditional waffle cones are formed in special presses where the batter is quickly baked under high pressure, creating the characteristic grid pattern.",
+        "In many countries the cone is served with extra toppings such as chocolate drizzle, sprinkles, nuts, or cherries.",
+        "Ice cream cones are often associated with summer fairs and street festivals."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Vanilla ice cream typically contains dairy, which provides calcium essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk and cream in the ice cream supply vitamin B2 (riboflavin) and vitamin B12, supporting energy metabolism."
+        },
+        {
+          "title": "Small amount of protein",
+          "content": "Dairy ingredients add a modest amount of protein useful for tissue repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Traditional ice cream contains a considerable amount of sugar, which can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Lactose",
+          "content": "People with lactose intolerance may experience discomfort after consuming dairy ice cream."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Some individuals may have an allergic reaction to milk or cream."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Ice cream cones are calorie‑dense; portion control is advisable, especially on a diet."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the ice cream cone immediately after scooping so the cone stays crunchy. Eat it by hand, and add toppings such as chocolate sprinkles, nuts, berries, or caramel sauce if desired."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep ice cream in the freezer at –18 °C (0 °F) or lower. Store the cone in a dry place to prevent it from absorbing moisture and becoming soft. Do not leave the ice cream at room temperature for more than 30 minutes, as it will melt."
+    }
+  ]
+}

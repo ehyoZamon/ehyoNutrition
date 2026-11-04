@@ -1,0 +1,79 @@
+{
+  "id": "5454",
+  "title": "Scotch",
+  "image": "/products/5454.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Scotch is a single‑malt or blended whisky produced in Scotland under strict regulations. It must be aged for at least three years in oak barrels, which gives it a distinctive aroma and flavor with notes of peat, smoke, fruit, and spice."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Scotch can be single malt or blended, depending on the number of distillates used.",
+        "Peat used to dry the barley imparts a characteristic smoky aroma, especially in island malts.",
+        "The oldest recorded Scotch, \"Glenlivet 1862,\" has been aged for over 150 years.",
+        "Scotland is home to more than 130 distilleries, each with its own unique flavor profile.",
+        "Scotch is often used in cooking, adding depth to sauces, marinades, and desserts."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains antioxidants",
+          "content": "Polysaccharides and phenolic compounds in Scotch may help neutralize free radicals."
+        },
+        {
+          "title": "Moderate consumption supports cardiovascular health",
+          "content": "Studies suggest small amounts of alcohol can raise HDL (good) cholesterol levels."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Traditionally enjoyed as a digestif, Scotch can stimulate gastric secretions."
+        },
+        {
+          "title": "Reduces stress",
+          "content": "Moderate alcohol intake promotes relaxation and lowers cortisol levels."
+        },
+        {
+          "title": "Supports cognitive function",
+          "content": "Some research links moderate drinking with slower cognitive decline in older adults."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol dependence",
+          "content": "Excessive consumption can lead to addiction and serious health problems."
+        },
+        {
+          "title": "Blood pressure increase",
+          "content": "Alcohol may temporarily raise blood pressure, especially in sensitive individuals."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Scotch can amplify the effects of sedatives and anticoagulants."
+        },
+        {
+          "title": "Caloric content",
+          "content": "Alcohol provides 7 kcal/g, so large servings can contribute to weight gain."
+        },
+        {
+          "title": "Not recommended during pregnancy",
+          "content": "Alcohol consumption during pregnancy raises the risk of fetal defects."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Scotch is typically served in small glasses (30–50 ml) at room temperature. It can be enjoyed neat, on the rocks, or in cocktails such as an Old Fashioned or a Rob Roy. For tasting, let the whisky breathe in the glass for a few minutes to release its aromas."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the bottle upright in a cool, dark place away from direct sunlight and temperature fluctuations. After opening, keep the cap tightly sealed to minimize oxidation."
+    }
+  ]
+}

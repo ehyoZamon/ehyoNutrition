@@ -1,0 +1,75 @@
+{
+  "id": "4080",
+  "title": "Apple juice, 100%",
+  "image": "/products/4080.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Apple juice 100 % is a completely natural beverage made from selected apple varieties without added sugar, preservatives or flavorings. It has a bright aroma, a sweet‑tart taste and retains most of the vitamins and minerals found in fresh apples."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Apple juice is one of the most popular non‑alcoholic drinks worldwide.",
+        "Juice from different apple varieties varies in color, from light golden to deep amber.",
+        "\"100 %\" guarantees that no extra sugar or water has been added.",
+        "Apple juice is often used in cooking for marinades, sauces and desserts.",
+        "In some countries it is a traditional drink for autumn festivals."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system and helps protect cells from oxidative stress."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Flavonoids and polyphenols in apple juice help neutralize free radicals."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Pectin, a soluble fiber, promotes regular bowel movements."
+        },
+        {
+          "title": "May reduce cardiovascular risk",
+          "content": "Regular consumption of apple juice can help lower LDL cholesterol levels."
+        },
+        {
+          "title": "Hydrating",
+          "content": "The drink is almost entirely water, aiding overall hydration."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Even without added sugar, natural fruit sugars can be significant; people with diabetes should monitor portion size."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acidic nature may irritate sensitive teeth and stomachs."
+        },
+        {
+          "title": "Apple allergy",
+          "content": "Some individuals may experience allergic reactions to apple juice."
+        },
+        {
+          "title": "Pasteurization",
+          "content": "To extend shelf life, juice is often pasteurized, which can slightly reduce some vitamin levels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Apple juice can be enjoyed chilled as a refreshing drink, used in smoothies, cocktails, sauces, or as a base for marinades. It pairs well with cinnamon, ginger and honey."
+    },
+    {
+      "title": "Storage",
+      "content": "After opening, keep the juice refrigerated in a tightly sealed bottle and consume within 5‑7 days. Unopened bottles should be stored in a cool, dry place away from direct sunlight."
+    }
+  ]
+}

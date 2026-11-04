@@ -1,0 +1,63 @@
+{
+  "id": "5103",
+  "title": "Candy",
+  "image": "/products/5103.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Candy is a sweet confection made from sugar, syrups, flavorings and various additives (fruits, nuts, gelatin, etc.). This type falls under the “non‑chocolate, other” category and is classified in the NFS system with code 5103."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The earliest candy recipes were recorded in China more than 2,000 years ago.",
+        "In the Soviet era candies were often called “sweets” and used as holiday gifts.",
+        "There are over 1,000 varieties of candy: chewy, caramel, gummy, hard‑candy, and more.",
+        "Most modern candies are produced on automated lines where each ingredient is weighed to the gram.",
+        "In some countries candy is considered part of cultural heritage and featured in national food festivals."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Quick energy source",
+          "content": "Candy provides rapid glucose, which can be useful when blood‑sugar levels are low."
+        },
+        {
+          "title": "Mood boost",
+          "content": "Sugar stimulates serotonin production, improving mood and giving a sense of pleasure."
+        },
+        {
+          "title": "Source of added vitamins",
+          "content": "Candies fortified with vitamins (e.g., vitamin C or B‑complex) can contribute small amounts of these nutrients."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption can lead to weight gain, tooth decay, and metabolic disturbances."
+        },
+        {
+          "title": "Allergens",
+          "content": "Many candies contain nuts, dairy, gluten, and food colorings that may trigger allergic reactions."
+        },
+        {
+          "title": "Artificial additives",
+          "content": "Some candies include artificial flavors and preservatives, which may have adverse health effects when eaten frequently."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Candies are typically enjoyed in small portions as a dessert or snack. They can be added to baked goods, ice cream, yogurt, or used as cake decorations."
+    },
+    {
+      "title": "Storage",
+      "content": "Store candies in an airtight container in a cool, dry place away from direct sunlight. For long‑term storage, keep them in the refrigerator to prevent melting and texture changes."
+    }
+  ]
+}

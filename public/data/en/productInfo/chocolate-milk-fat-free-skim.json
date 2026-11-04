@@ -1,0 +1,65 @@
+{
+  "id": "268",
+  "title": "Chocolate Milk, Fat Free (Skim)",
+  "image": "/products/268.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fat‑free chocolate milk is a beverage made from skimmed cow’s milk (usually less than 0.5 % fat) to which cocoa powder, sugar and flavorings are added. It retains most of the nutrients of regular milk while offering a low‑calorie, smooth chocolate taste."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Skim milk provides almost the same amount of calcium as whole milk but with roughly half the calories.",
+        "The chocolate flavor is achieved by combining cocoa powder with a modest amount of sugar, making it popular among both children and calorie‑conscious adults.",
+        "In the United States, fat‑free chocolate milk is often marketed as a post‑workout recovery drink."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Calcium is essential for strong bones and teeth and also supports muscle and nerve function."
+        },
+        {
+          "title": "Source of vitamin D",
+          "content": "Vitamin D enhances calcium absorption and supports the immune system."
+        },
+        {
+          "title": "Low‑calorie protein source",
+          "content": "Skim milk provides about 3.4 g of protein per 100 ml, helping maintain muscle mass."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Cocoa powder is high in flavonoids, which may reduce oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience digestive discomfort after consuming dairy products."
+        },
+        {
+          "title": "Added sugar content",
+          "content": "Despite being low‑calorie, the drink contains added sugar, which may be a concern for diabetics or those limiting sugar intake."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey protein requires complete avoidance of dairy."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Enjoy chilled as a refreshing drink, blend into smoothies, use in protein shakes, or pour over oatmeal for a chocolate twist."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep refrigerated at 1‑4 °C. Once opened, consume within 5‑7 days. Avoid freezing, as it can alter the texture."
+    }
+  ]
+}

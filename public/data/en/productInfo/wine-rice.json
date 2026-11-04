@@ -1,0 +1,75 @@
+{
+  "id": "5444",
+  "title": "Wine, Rice",
+  "image": "/products/5444.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Wine is an alcoholic beverage made by fermenting grape juice or other fruit juices. Rice is a cereal grain that serves as a staple carbohydrate source in many Asian cuisines. Together they appear in traditional dishes where wine adds aroma and rice acts as a base or side."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Wine can be aged in oak barrels, imparting vanilla and spice notes.",
+        "There are over 10,000 grape varieties used for winemaking.",
+        "Rice feeds more than half of the world’s population.",
+        "More than 40,000 rice varieties exist, differing in grain shape, flavor, and cooking method.",
+        "In Japan, rice is often paired with a small amount of sake (rice wine) during ceremonies."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Antioxidants in wine",
+          "content": "Red wine is rich in polyphenols, especially resveratrol, which may support cardiovascular health."
+        },
+        {
+          "title": "Energy from rice",
+          "content": "Rice provides a quick source of complex carbohydrates, useful for athletes and active individuals."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Both wine and rice contain B1, B3, and B6 vitamins important for metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "Rice supplies magnesium and phosphorus, while wine contributes modest amounts of potassium and iron."
+        },
+        {
+          "title": "Digestive support",
+          "content": "Fiber in whole‑grain rice promotes healthy bowel function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol content",
+          "content": "Excessive wine consumption can lead to liver issues, increased disease risk, and dependence."
+        },
+        {
+          "title": "Sugar levels",
+          "content": "Sweet wines contain high sugar, which may be problematic for people with diabetes."
+        },
+        {
+          "title": "Arsenic in rice",
+          "content": "Certain rice strains can accumulate arsenic from soil; rinsing rice before cooking reduces this risk."
+        },
+        {
+          "title": "Gluten",
+          "content": "While rice is naturally gluten‑free, some flavored wines may contain trace gluten."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve wine chilled (white) or at room temperature (red) in appropriate glasses. Cook rice in water or broth for sushi, pilaf, risotto, or as a side dish. In cooking, wine is often added to sauces, marinades, and desserts, while rice can absorb wine aromas when prepared together."
+    },
+    {
+      "title": "Storage",
+      "content": "Store wine in a cool, dark place on its side to keep the cork moist. Once opened, consume within 3–5 days. Keep rice in an airtight container in a cool, dry area; uncooked rice can last up to a year, while cooked rice should be refrigerated and used within 4 days."
+    }
+  ]
+}

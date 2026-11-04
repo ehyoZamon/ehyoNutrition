@@ -1,0 +1,75 @@
+{
+  "id": "2880",
+  "title": "Nutrition Bar (Clif Bar)",
+  "image": "/products/2880.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Clif Bar is a whole-food energy bar designed for active people and athletes. It contains whole grains, nuts, dried fruit, plant‑based protein, and added vitamins and minerals to support energy and recovery."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first Clif Bar was created in 1992 in California as a \"cyclist’s energy snack\".",
+        "Most varieties contain organic rolled oats that provide a slow‑release source of carbohydrates.",
+        "The bars are free from artificial flavors, colors, and GMOs.",
+        "Clif Bar offers more than 20 flavors, including chocolate, berry, and nut blends.",
+        "Each bar is packaged in recyclable material, and the company supports environmental stewardship programs."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Quick source of energy",
+          "content": "Complex carbs from whole grains and fruit deliver a steady flow of glucose during prolonged activity."
+        },
+        {
+          "title": "Plant protein",
+          "content": "Bars provide 9–11 g of protein per serving, helping muscle repair after exercise."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Added B1, B2, B3, and B6 support carbohydrate metabolism and boost endurance."
+        },
+        {
+          "title": "Fiber",
+          "content": "Approximately 3 g of fiber per bar promotes healthy digestion and prolonged satiety."
+        },
+        {
+          "title": "Minerals",
+          "content": "Calcium, iron, and magnesium contribute to bone health and muscle function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Nut and soy allergy",
+          "content": "Some varieties contain nuts, peanuts, or soy protein, which may trigger allergic reactions."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Bars contain 12–18 g of sugar, so people with diabetes should monitor portion size."
+        },
+        {
+          "title": "Caloric density",
+          "content": "One bar provides about 250 kcal, which can contribute to weight gain if consumed excessively."
+        },
+        {
+          "title": "Gluten",
+          "content": "Certain flavors include wheat, making them unsuitable for a gluten‑free diet."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The bar is convenient to take to the gym, on a hike, or during travel. Eat it 10–15 minutes before a workout for fuel or right after for recovery. You can also slice the bar and add it to yogurt, oatmeal, or a smoothie."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bars in a cool, dry place away from direct sunlight. After opening, reseal the package tightly or transfer the bar to an airtight container to maintain its crunchy texture."
+    }
+  ]
+}

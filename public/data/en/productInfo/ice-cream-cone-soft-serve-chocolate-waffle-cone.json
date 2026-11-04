@@ -1,0 +1,79 @@
+{
+  "id": "452",
+  "title": "Ice cream cone, soft serve, chocolate, waffle cone",
+  "image": "/products/452.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soft‑serve chocolate ice cream served in a crisp waffle cone. The combination of creamy texture and rich chocolate flavor makes it a popular treat in cafés and on the street."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chocolate soft‑serve is commonly served in waffle cones in the US and Europe.",
+        "The waffle cone adds a crunchy texture and a subtle toasted flavor.",
+        "Traditional recipes use milk, cream, sugar and cocoa mass.",
+        "Soft‑serve is frozen at a higher temperature than regular ice cream, giving it a lighter, airy consistency.",
+        "Waffle cones can be tinted and decorated with sprinkles."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Dairy ingredients provide calcium, essential for bones and teeth."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Cocoa mass is rich in flavonoids that may support cardiovascular health."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Provides quick energy from sugars and fats."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk and cream contain vitamins B2 and B12, important for metabolism."
+        },
+        {
+          "title": "Mood enhancement",
+          "content": "Sweet chocolate flavor can stimulate serotonin production, improving mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption may contribute to weight gain and elevated blood glucose."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Dairy components can cause discomfort for people who are lactose intolerant."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Some individuals may experience allergic reactions to casein."
+        },
+        {
+          "title": "Potential nut or soy additives",
+          "content": "Some recipes may include nut‑based or soy‑based emulsifiers."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The waffle cone adds extra calories and carbohydrates."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve immediately after preparation while the ice cream is still soft. Top with sprinkles, nuts, fruit sauce, or caramel for extra flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C or lower. The waffle cone is best used right away, as it can become soggy over time."
+    }
+  ]
+}

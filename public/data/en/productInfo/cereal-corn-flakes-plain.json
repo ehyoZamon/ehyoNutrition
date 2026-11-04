@@ -1,0 +1,75 @@
+{
+  "id": "3214",
+  "title": "Corn Flakes",
+  "image": "/products/3214.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Corn flakes are dry cereal flakes made from whole corn kernels that are steamed and extruded. They have a light, crunchy texture and a neutral flavor, making them a popular breakfast when served with milk or yogurt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first corn flakes were created in the late 19th century in the United States as part of a health food movement.",
+        "Corn, the base grain, is one of the most widely cultivated crops worldwide.",
+        "Flakes are often fortified with B‑vitamins, iron, and calcium.",
+        "There are many varieties: sweetened, with fruit, with nuts, or plain.",
+        "The extrusion process helps retain most of the corn's natural nutrients."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complex carbohydrates",
+          "content": "Corn flakes provide a quick source of energy through easily digestible carbs."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Unlike many ready‑to‑eat breakfasts, they contain virtually no fat."
+        },
+        {
+          "title": "Rich in fiber",
+          "content": "Fiber supports digestion and promotes a feeling of fullness."
+        },
+        {
+          "title": "Fortified with vitamins and minerals",
+          "content": "Most brands add vitamin D, iron, and calcium, enhancing nutritional value."
+        },
+        {
+          "title": "Convenient preparation",
+          "content": "Just add milk or water – ready in a couple of minutes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High glycemic index",
+          "content": "Can cause a rapid rise in blood sugar, which may be undesirable for people with diabetes."
+        },
+        {
+          "title": "Added sugar content",
+          "content": "Some versions contain significant amounts of sugar, increasing calorie count."
+        },
+        {
+          "title": "Corn allergy",
+          "content": "Rarely, individuals may have an allergic reaction to corn products."
+        },
+        {
+          "title": "Low protein content",
+          "content": "Corn flakes provide little protein, so pairing with dairy or nuts is advisable."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Flakes are typically served with milk, yogurt, or a plant‑based beverage. They can be added to smoothies, used in baking, or as a crunchy topping for desserts."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place in a tightly sealed package. For longer shelf life, keep in the refrigerator to prevent moisture absorption and maintain crispness."
+    }
+  ]
+}

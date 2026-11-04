@@ -1,0 +1,75 @@
+{
+  "id": "1150",
+  "title": "Oysters, baked or broiled",
+  "image": "/products/1150.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Oysters are marine bivalve mollusks that live in coastal waters of seas and oceans. Their flesh is tender, mildly sweet, and carries a distinct briny flavor. Oysters are commonly served baked in the oven or quickly broiled on a grill, often with butter, garlic, or herbs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "One gram of oysters can filter up to 50 liters of water per day, helping to clean their environment.",
+        "Oysters are considered an aphrodisiac because of their high zinc content.",
+        "Ancient cultures used oysters as a remedy for wounds and skin conditions.",
+        "There are over 100 oyster species, but the Pearl, Kokanee, and Pacific oysters are most popular in cuisine.",
+        "Oysters can change sex several times during their life, starting as males and later becoming females."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in zinc",
+          "content": "Zinc supports the immune system, aids wound healing, and plays a role in reproductive health."
+        },
+        {
+          "title": "Source of vitamin B12",
+          "content": "Vitamin B12 is essential for red blood cell formation and proper nervous system function."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Oysters are low in calories yet provide high‑quality protein and valuable micronutrients."
+        },
+        {
+          "title": "Contains omega‑3 fatty acids",
+          "content": "Omega‑3s promote heart health and reduce inflammatory processes."
+        },
+        {
+          "title": "Provides iron",
+          "content": "Iron is necessary for oxygen transport in the blood and helps prevent anemia."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Risk of foodborne illness",
+          "content": "Raw or undercooked oysters may contain Vibrio bacteria, which can cause gastroenteritis."
+        },
+        {
+          "title": "Shellfish allergy",
+          "content": "Some individuals may experience allergic reactions to oysters, ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Oysters naturally contain a fair amount of sodium; people monitoring salt intake should consume them in moderation."
+        },
+        {
+          "title": "Heavy metal accumulation",
+          "content": "In certain regions oysters can accumulate cadmium or lead, so it is important to source them from reputable suppliers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bake oysters in the oven with butter, garlic, and herbs for 5‑7 minutes at 200 °C, or quickly broil them until the edges turn lightly golden. Serve with lemon wedges, tartar sauce, or a simple soy sauce. Rinse oysters thoroughly under cold water before cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep live oysters in the refrigerator on a tray covered with a damp cloth, no more than 24 hours. Cooked oysters should be stored in an airtight container in the fridge for up to 2 days. Discard any oysters with shells that do not close when tapped gently."
+    }
+  ]
+}

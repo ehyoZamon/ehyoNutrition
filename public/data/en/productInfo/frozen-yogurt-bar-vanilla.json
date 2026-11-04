@@ -1,0 +1,75 @@
+{
+  "id": "256",
+  "title": "Frozen Yogurt Bar, Vanilla",
+  "image": "/products/256.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The frozen yogurt bar with vanilla flavor is a chilled dessert made from smooth yogurt, lightly sweetened and infused with natural vanilla. It offers a creamy texture, a mild sweetness, and lower fat content compared with traditional ice cream."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The yogurt base provides live probiotic cultures that support gut health.",
+        "Vanilla flavor can come from real vanilla beans or natural extracts in large‑scale production.",
+        "Freezing retains most of the protein present in regular yogurt.",
+        "Bars are portable and require no utensils.",
+        "In some markets the bars are coated with a thin layer of dark chocolate for extra crunch."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Probiotics",
+          "content": "Yogurt contains live bacterial cultures that help maintain a healthy intestinal microbiome."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with traditional ice cream, frozen yogurt typically contains less saturated fat."
+        },
+        {
+          "title": "Calcium",
+          "content": "Yogurt is a good source of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Protein",
+          "content": "The bar provides a moderate amount of protein, contributing to satiety."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies B12 and riboflavin, which support energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People who are lactose intolerant may experience discomfort after consuming yogurt."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Some individuals may have an allergic reaction to milk proteins."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Although moderately sweet, the bar still contains added sugar, which should be considered by diabetics or those on low‑sugar diets."
+        },
+        {
+          "title": "Melting storage",
+          "content": "If stored above –18 °C for extended periods, the texture can become icy and grainy."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the bar straight from the wrapper, let it soften for a smoother bite, or crumble it over fruit salads, granola, and smoothies."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C or lower. Once removed from the package, consume within about 30 minutes to avoid ice crystal formation on the surface."
+    }
+  ]
+}

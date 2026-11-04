@@ -1,0 +1,75 @@
+{
+  "id": "2175",
+  "title": "Falafel",
+  "image": "/products/2175.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Falafel is a deep‑fried ball made from ground chickpeas (sometimes mixed with fava beans), herbs and spices. It is a staple snack in the Middle East and Mediterranean, often served in pita bread or with tahini sauce."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Traditional falafel is made from dried chickpeas that are soaked, not from canned beans.",
+        "It is believed to have originated in Egypt, where it is called \"ta’amiya\".",
+        "In Israel falafel is considered a national street food and is sold by countless vendors.",
+        "Recipes vary widely – common additions include green onion, parsley, cilantro, cumin, and coriander.",
+        "Falafel can be baked for a healthier version, but classic preparation involves deep‑frying for a crisp crust."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "Chickpeas provide about 20 % protein, making falafel a good protein source for vegetarians."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Fiber supports digestion and promotes satiety."
+        },
+        {
+          "title": "Contains iron and folate",
+          "content": "These micronutrients are important for blood formation and nervous system health."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "Falafel raises blood sugar slowly, which can help with glucose control."
+        },
+        {
+          "title": "Rich in antioxidants",
+          "content": "Spices such as cumin and coriander add antioxidant compounds that combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may be allergic to chickpeas."
+        },
+        {
+          "title": "High fat content when fried",
+          "content": "Deep‑frying adds significant oil, increasing the calorie density."
+        },
+        {
+          "title": "Salt and spice excess",
+          "content": "Too much salt can be problematic for people with hypertension."
+        },
+        {
+          "title": "Contamination risk if stored improperly",
+          "content": "Dry chickpeas can develop mycotoxins when kept in humid conditions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve hot falafel in pita with lettuce, tomatoes, cucumber, and tahini sauce, or enjoy it with hummus. It also works well added to salads, soups, or as a snack on its own."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep dry chickpeas in an airtight container in a cool, dry place. Cooked falafel should be refrigerated and consumed within 2‑3 days, or frozen for up to 3 months."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5460",
+  "title": "Water, tap",
+  "image": "/products/5460.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tap water is drinking water supplied by municipal water systems. It undergoes treatment and disinfection to meet safety standards and be suitable for everyday consumption."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "In most countries tap water undergoes triple treatment: mechanical, chemical and biological.",
+        "Some regions add fluoride to tap water to help prevent cavities.",
+        "Mineral content (hardness) varies according to the geology of the area the water passes through.",
+        "Tap water is typically 30‑50 times cheaper than bottled water.",
+        "In many places tap water can be used for cooking without additional filtration."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Hydration",
+          "content": "Regular consumption of clean water maintains the body’s fluid balance, essential for all physiological processes."
+        },
+        {
+          "title": "Kidney function support",
+          "content": "Adequate water intake helps flush metabolic waste and reduces the risk of kidney stone formation."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Water participates in breaking down food and facilitates nutrient absorption."
+        },
+        {
+          "title": "Skin health",
+          "content": "Proper hydration contributes to skin elasticity and overall appearance."
+        },
+        {
+          "title": "Body temperature regulation",
+          "content": "Sweating and evaporation of water help keep body temperature within a safe range."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Contamination",
+          "content": "In some areas tap water may contain heavy metals, bacteria or chemical pollutants; it is advisable to check water quality."
+        },
+        {
+          "title": "Water hardness",
+          "content": "High mineral levels can cause scale buildup on appliances and may lead to dry skin."
+        },
+        {
+          "title": "Chlorine and by‑products",
+          "content": "Chlorine is commonly used for disinfection and can impart taste and cause irritation in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tap water can be consumed directly, after boiling, or filtered if quality is uncertain. It is also used for preparing beverages, meals, and household purposes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store water in a clean, sealed container, preferably glass or food‑grade plastic, in a cool place. For prolonged storage, replace the water every 2‑3 days."
+    }
+  ]
+}

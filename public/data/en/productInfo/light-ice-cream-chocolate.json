@@ -1,0 +1,66 @@
+{
+  "id": "465",
+  "title": "Light Ice Cream, Chocolate",
+  "image": "/products/465.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Light chocolate ice cream is a low‑fat dessert made from skimmed milk, reduced‑fat cream, sugar and natural cocoa. It retains a rich chocolate flavor while delivering fewer calories than traditional ice cream."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Often used in diet plans because of its reduced calorie count.",
+        "Chocolate flavor is achieved with cocoa mass and natural flavorings without added vegetable fats.",
+        "Stabilizers such as gelatin or pectin are sometimes added to keep a creamy texture with low fat.",
+        "The product can be fortified with B‑vitamins and calcium to boost its nutritional profile."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in fat",
+          "content": "Reduced fat content helps lower the overall calorie load, supporting weight management."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Dairy ingredients provide calcium essential for bone and teeth health."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Cocoa is rich in flavonoids, which may help protect cells from oxidative stress."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Sugar and carbohydrates quickly replenish glycogen stores, offering a rapid energy lift."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "Individuals with lactose intolerance or milk protein allergy should choose alternative options."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Despite low fat, the sugar level can be high, which is important for people with diabetes."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Even with fewer calories than regular ice cream, overconsumption can still lead to excess energy intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve light chocolate ice cream in individual cups or as scoops. It pairs well with berries, nuts, or a drizzle of honey for added flavor variety."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the ice cream at –18 °C in an airtight container. After opening, consume within 2–3 days to maintain texture and flavor."
+    }
+  ]
+}

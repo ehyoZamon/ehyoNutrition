@@ -1,0 +1,75 @@
+{
+  "id": "255",
+  "title": "Frozen Yogurt Sandwich",
+  "image": "/products/255.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The frozen yogurt sandwich is a chilled dessert consisting of two soft waffle cookies filled with a creamy layer of frozen yogurt. It is popular in the summer months for its refreshing taste and moderate sweetness."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first frozen yogurt sandwich appeared in the United States in the early 2000s as an alternative to ice cream.",
+        "The yogurt often contains live cultures that remain viable even after freezing.",
+        "Waffle cookies can be classic or enriched with whole grains, nuts, or chocolate chips.",
+        "The product is commonly sold in single‑serve packages, convenient for on‑the‑go snacking.",
+        "In some countries the sandwiches are drizzled with a thin layer of chocolate or fruit glaze."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Frozen yogurt retains a portion of live cultures that support gut microbiota balance."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with traditional ice cream, frozen yogurt sandwiches usually contain less saturated fat."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Yogurt provides a good amount of calcium, essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, which aid energy metabolism."
+        },
+        {
+          "title": "Moderate sweetness",
+          "content": "Sugar is typically added in modest amounts, making it a more calorie‑conscious treat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "The product contains milk sugar, so those with lactose intolerance should choose lactose‑free versions."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Yogurt can trigger allergic reactions in individuals sensitive to casein."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Some varieties may contain added sugars, which should be considered in a controlled diet."
+        },
+        {
+          "title": "Temperature storage",
+          "content": "Improper storage temperature can affect texture and flavor."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The frozen yogurt sandwich is convenient to eat straight from the wrapper. It can be sliced, topped with fresh berries, nuts, or drizzled with fruit sauce for extra flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the frozen yogurt sandwich in the freezer at –18 °C (0 °F) or lower. Once thawed, consume within 24 hours and do not refreeze."
+    }
+  ]
+}

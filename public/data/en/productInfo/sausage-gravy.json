@@ -1,0 +1,62 @@
+{
+  "id": "1204",
+  "title": "Sausage Gravy",
+  "image": "/products/1204.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sausage gravy is a thick sauce made from milk, cream, and browned sausage pieces, seasoned with spices. It is traditionally served over mashed potatoes, eggs, or biscuits. The flavor is rich, creamy, with a subtle smoky note."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sausage gravy originated in American cuisine as a quick way to use leftover sausage.",
+        "The classic recipe uses a milk base, but variations with broth or cream cheese exist.",
+        "It is often served as part of a Southern breakfast alongside fried eggs and toast.",
+        "Vegetarian versions replace sausage with soy “links” or mushroom crumble."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "The sausage pieces provide animal protein essential for tissue repair."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "The dairy base supplies calcium and vitamin D, supporting bone health."
+        },
+        {
+          "title": "Energy dense",
+          "content": "Gravy is calorie‑rich, offering a good energy boost in colder months."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat and sodium",
+          "content": "Traditional gravy contains saturated fat and salt, so it should be consumed in moderation, especially by those with cardiovascular concerns."
+        },
+        {
+          "title": "Milk allergy or lactose intolerance",
+          "content": "People with dairy sensitivities should choose dairy‑free alternatives."
+        },
+        {
+          "title": "Nitrites in sausage",
+          "content": "Some sausages contain nitrites, which can be harmful in large amounts."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the gravy hot, pouring it over mashed potatoes, rice, pasta, or scrambled eggs. Garnish with fresh herbs, black pepper, or hot sauce for extra flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep prepared gravy in an airtight container in the refrigerator for up to 3‑4 days. It can be frozen for up to 2 months after cooling and portioning."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "430",
+  "title": "Ice cream, vanilla, with additional ingredients",
+  "image": "/products/430.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Vanilla ice cream is a classic dessert made from milk, cream, sugar and natural vanilla flavoring. In this version additional ingredients (such as nuts, chocolate chips, berries) are mixed into the base, enriching both taste and texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Vanilla is the most expensive spice in the world; its flavor comes from the seeds of the orchid Vanilla planifolia.",
+        "The first vanilla‑flavoured ice cream appeared in Europe in the 17th century.",
+        "Adding extra ingredients allows for more than 400 flavor variations, making ice cream a highly versatile dessert.",
+        "Vanilla ice cream is often used in culinary shows for “soft‑serve” effects because it molds easily.",
+        "Traditionally ice cream was served as a soft scoop, but modern techniques create rolls, sandwiches, and even milk‑shake‑style desserts."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Dairy components provide calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Cream and milk contain vitamin B12 and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Vanilla antioxidants",
+          "content": "Vanilla contains vanillin, an antioxidant that helps combat free radicals."
+        },
+        {
+          "title": "Quick energy",
+          "content": "The fat and sugar content offers a rapid source of energy when consumed in moderation."
+        },
+        {
+          "title": "Mood‑boosting effect",
+          "content": "Sweet taste and creamy texture can improve mood by triggering endorphin release."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Dairy ingredients may cause discomfort for people lacking lactase."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption can contribute to weight gain and elevated blood glucose."
+        },
+        {
+          "title": "Allergy to nuts or other add‑ins",
+          "content": "If nuts, chocolate, or berries are included, allergic reactions are possible."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Ice cream is rich in fats and calories, so portion control is advisable."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Ice cream can be enjoyed with a spoon, as an ice‑cream sandwich, blended into smoothies, or used as a base for dessert sauces. Sprinkle extra ingredients (nuts, fruit, chocolate) just before serving to keep them crunchy."
+    },
+    {
+      "title": "Storage",
+      "content": "Store ice cream in a freezer at –18 °C (0 °F) or lower. After opening, use within 1–2 weeks to prevent ice crystal formation and flavor loss. Do not leave ice cream at room temperature for more than 30 minutes."
+    }
+  ]
+}

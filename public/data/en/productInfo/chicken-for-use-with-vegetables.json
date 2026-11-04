@@ -1,0 +1,75 @@
+{
+  "id": "4996",
+  "title": "Chicken",
+  "image": "/products/4996.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken is the meat of the domestic bird (Gallus gallus domesticus). It has a mild flavor, tender texture, and is one of the most widely consumed protein sources worldwide. Chicken can be prepared by boiling, frying, baking, stewing, or adding to salads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken provides all essential amino acids needed by humans.",
+        "More than 130 million tonnes of chicken meat are produced globally each year.",
+        "Chicken breast is the leanest cut, while thighs are juicier and more flavorful.",
+        "Bones and skin are often used to make stocks and sauces.",
+        "Chicken readily absorbs herbs, spices, and marinades, making it extremely versatile."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Chicken contains about 31 g of protein per 100 g, supporting muscle growth and repair."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Skin‑less breast meat is very low in saturated fat, suitable for low‑fat diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Chicken is high in niacin (B3) and vitamin B6, which aid metabolism and nervous‑system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "It provides phosphorus, selenium and zinc, important for bones, immunity and antioxidant protection."
+        },
+        {
+          "title": "Immune support",
+          "content": "Selenium and vitamin B6 help maintain a healthy immune response."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked chicken may contain Salmonella or Campylobacter; cook to an internal temperature of 75 °C."
+        },
+        {
+          "title": "Allergy",
+          "content": "Some individuals may be allergic to chicken proteins."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Processed chicken products (deli meats, nuggets) often contain high levels of salt."
+        },
+        {
+          "title": "Preservatives and additives",
+          "content": "Ready‑to‑eat chicken dishes can include flavor enhancers and additives that may not suit everyone."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chicken can be baked, pan‑fried, boiled, steamed, or stewed with vegetables. For vegetable‑based dishes, bite‑size pieces of breast or thigh are often sautéed and then simmered with carrots, broccoli, peppers, and other veggies."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh chicken should be kept in the refrigerator at 0‑4 °C for no more than 2 days. Frozen chicken retains quality for up to 9 months at –18 °C. Before cooking, check for off‑odors or a grayish color, which indicate spoilage."
+    }
+  ]
+}

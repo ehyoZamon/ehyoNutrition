@@ -1,0 +1,75 @@
+{
+  "id": "2207",
+  "title": "Natto",
+  "image": "/products/2207.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Natto is a traditional Japanese fermented soybean product made by inoculating soybeans with the bacterium Bacillus subtilis var. natto. It has a sticky texture, strong aroma, and a mildly nutty flavor. Natto is commonly served over rice, used in salads, sushi, and as a supplement to various dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Natto is one of the oldest fermented foods in Japan, with a history spanning over a thousand years.",
+        "The bacterium Bacillus subtilis produces the enzyme nattokinase, which is known to help thin the blood.",
+        "In Japan, natto is traditionally eaten for breakfast, often with soy sauce, mustard, and chopped green onions.",
+        "There are several regional varieties of natto that differ in taste, texture, and bean preparation methods.",
+        "Natto is exceptionally rich in vitamin K2 (menaquinone), a nutrient rarely found in other foods."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin K2",
+          "content": "Vitamin K2 plays a key role in regulating calcium deposition in bones and blood vessels, supporting cardiovascular health."
+        },
+        {
+          "title": "Source of probiotics",
+          "content": "Bacillus subtilis promotes a healthy gut microbiome and may improve digestion."
+        },
+        {
+          "title": "Contains complete protein",
+          "content": "Natto provides plant‑based protein with all essential amino acids, beneficial for vegetarians."
+        },
+        {
+          "title": "High in enzymes",
+          "content": "Enzymes such as nattokinase may help maintain healthy blood flow and reduce clot risk."
+        },
+        {
+          "title": "Contains isoflavones",
+          "content": "Soy isoflavones have antioxidant properties and may support hormonal balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "People allergic to soy should avoid natto as it can trigger reactions up to anaphylaxis."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Prepared natto products often contain soy sauce, increasing the salt level."
+        },
+        {
+          "title": "Possible foodborne issues",
+          "content": "Improper storage can lead to growth of unwanted bacteria and spoilage."
+        },
+        {
+          "title": "Effect on blood clotting",
+          "content": "Because of nattokinase, individuals on anticoagulant medication should consume natto with caution."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Natto is typically served over hot rice, drizzled with soy sauce, mixed with mustard and finely chopped green onions. It can also be added to salads, rolls, omelets, or blended into smoothies as a nutritional boost."
+    },
+    {
+      "title": "Storage",
+      "content": "Store natto in the refrigerator at 0‑4 °C in its original packaging. Once opened, consume within 3‑5 days. For longer storage, freeze in an airtight container for up to 3 months."
+    }
+  ]
+}

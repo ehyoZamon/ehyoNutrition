@@ -1,0 +1,75 @@
+{
+  "id": "3306",
+  "title": "Chicken, Bean & Cheese Burrito",
+  "image": "/products/3306.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The chicken, bean and cheese burrito is a Mexican‑inspired dish consisting of a large soft flour tortilla filled with sautéed chicken pieces, cooked beans, melted cheese, and often rice, salsa and sour cream. It combines protein, fiber and bold flavors in a convenient handheld meal."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Burritos as we know them today originated in the northern United States, where Mexican cuisine merged with local ingredients.",
+        "Traditional Mexican burritos were simple, usually just beans and rice; chicken and cheese became popular in the U.S. in the 20th century.",
+        "Flour tortillas are preferred for burritos because they are more pliable than corn tortillas.",
+        "Burritos are commonly served with guacamole, adding heart‑healthy monounsaturated fats.",
+        "The United States celebrates National Burrito Day on the first Thursday of March."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Chicken provides a complete source of high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Fiber from beans",
+          "content": "Beans supply soluble and insoluble fiber, supporting healthy digestion and stable blood‑sugar levels."
+        },
+        {
+          "title": "Calcium and phosphorus from cheese",
+          "content": "Cheese contributes calcium and phosphorus, nutrients important for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Chicken and beans are rich in B‑vitamins such as B6 and folate, which aid energy metabolism."
+        },
+        {
+          "title": "Moderate saturated fat",
+          "content": "When made with lean chicken breast and low‑fat cheese, the burrito can be relatively low in saturated fat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese may trigger allergic reactions in individuals with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Prepared sauces and cheese can be high in salt; people with hypertension should watch portion size."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Large burritos can be calorie‑dense due to the tortilla and cheese, so portion control is advisable."
+        },
+        {
+          "title": "Chicken safety",
+          "content": "Chicken must be cooked to an internal temperature of 75 °C (165 °F) to prevent salmonella."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Burritos are eaten by hand, often sliced in half. Serve with salsa, guacamole, sour cream, or fresh veggies. For a lighter option, choose a whole‑grain tortilla and reduced‑fat cheese."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared burrito in an airtight container in the refrigerator for up to 2 days. Freeze in a separate bag at –18 °C; reheat in the microwave or oven before serving."
+    }
+  ]
+}

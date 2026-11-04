@@ -1,0 +1,62 @@
+{
+  "id": "433",
+  "title": "Soft Serve Ice Cream, Vanilla",
+  "image": "/products/433.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soft serve vanilla ice cream is a light, airy dessert made from milk, cream, sugar, and natural vanilla extract. Served at a slightly higher temperature than regular ice cream, it has a smooth texture and a delicate vanilla aroma."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Vanilla is the most expensive spice in the world, derived from the orchid Vanilla planifolia.",
+        "Soft serve is typically served at around -4 °C, which keeps it soft and scoopable.",
+        "Traditional soft‑serve machines continuously churn the mixture to prevent ice crystal formation.",
+        "Heating the milk with vanilla beans enhances the flavor, which is why many recipes include a brief infusion step."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base provides calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk and cream contain riboflavin (B2) and B12, supporting energy metabolism."
+        },
+        {
+          "title": "Potential probiotics",
+          "content": "Recipes that incorporate yogurt or kefir add beneficial bacteria for gut health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "The milk content may cause discomfort for people who are lactose intolerant."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Sweet ice cream can contribute to weight gain and raise blood glucose levels."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Casein and whey proteins can trigger allergic reactions in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Soft vanilla ice cream is served in cones, cups, or as a layer in desserts. It pairs well with fresh fruit, berry sauces, nuts, or chocolate shavings."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the ice cream in a freezer at -18 °C or lower. After opening, seal the container tightly to prevent ice crystal formation and absorption of other odors."
+    }
+  ]
+}

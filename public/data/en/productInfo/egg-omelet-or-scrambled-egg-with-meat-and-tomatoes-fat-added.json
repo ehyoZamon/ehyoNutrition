@@ -1,0 +1,75 @@
+{
+  "id": "2024",
+  "title": "Egg omelet with meat and tomatoes",
+  "image": "/products/2024.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An egg omelet prepared with added meat (commonly ham or chicken breast) and tomatoes, cooked in a modest amount of fat. The dish is rich in protein, B‑vitamins, vitamin C from the tomatoes, and healthy fats."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most affordable sources of complete protein.",
+        "Tomatoes contain lycopene, a powerful antioxidant that becomes more bioavailable after cooking.",
+        "Meat adds iron and zinc, nutrients important for immune function.",
+        "Traditionally the omelet is fried in butter, but plant oils can be used to lower saturated fat content.",
+        "The dish is popular worldwide, from the American “Western omelette” to the Spanish “tortilla” with meat additions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High-quality protein",
+          "content": "Eggs and meat provide all essential amino acids, supporting muscle growth and tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Eggs are rich in B12, while meat supplies niacin and riboflavin, aiding energy metabolism."
+        },
+        {
+          "title": "Tomato antioxidants",
+          "content": "Tomatoes deliver vitamin C and lycopene, which help protect cells from oxidative stress."
+        },
+        {
+          "title": "Beneficial fats",
+          "content": "The cooking fat can be a source of monounsaturated and polyunsaturated fats when using olive or sunflower oil."
+        },
+        {
+          "title": "Minerals",
+          "content": "Meat provides iron and zinc; eggs add phosphorus and selenium, important for bones and immunity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to egg white proteins."
+        },
+        {
+          "title": "Saturated fat content",
+          "content": "Using large amounts of butter can raise saturated fat levels, which may be undesirable for heart‑healthy diets."
+        },
+        {
+          "title": "Cholesterol",
+          "content": "Eggs contain cholesterol; people with hypercholesterolemia should consume them in moderation."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked meat can harbor pathogenic bacteria; ensure meat is cooked thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the omelet hot, cut into portions. It can be eaten on its own, placed in a sandwich, added to a salad, or served alongside vegetables. Optional toppings include fresh herbs, cheese, or spices."
+    },
+    {
+      "title": "Storage",
+      "content": "Best consumed within 2–3 hours at room temperature. For longer storage, cool quickly and keep in a sealed container in the refrigerator for up to 24 hours. Reheat until the internal temperature reaches 75 °C."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5008",
+  "title": "Spinach",
+  "image": "/products/5008.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Spinach is a leafy vegetable belonging to the Amaranthaceae family. It is cultivated in temperate regions and is commonly used fresh in salads, sandwiches, as well as in cooked dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Spinach is high in iron, but its absorption improves when paired with vitamin C.",
+        "Spinach was known in ancient Rome and Greece.",
+        "Its oxalate content can contribute to kidney stone formation in susceptible individuals.",
+        "There are several varieties: flat‑leaf, curly, and savoy (Latin).",
+        "Spinach is often used as a natural green food coloring."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin K",
+          "content": "Vitamin K is essential for blood clotting and bone health."
+        },
+        {
+          "title": "Source of vitamin A",
+          "content": "Beta‑carotene, which converts to vitamin A, supports vision and immunity."
+        },
+        {
+          "title": "Contains folate",
+          "content": "Folate is needed for DNA synthesis and is especially important during pregnancy."
+        },
+        {
+          "title": "Low‑calorie fiber source",
+          "content": "Fiber aids digestion and promotes satiety."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Lutein and zeaxanthin protect the eyes from age‑related changes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Oxalates",
+          "content": "High oxalate levels may increase the risk of kidney stones in sensitive individuals."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Raw leaves can carry pesticide residues; wash thoroughly or choose organic."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Rarely, some people may experience an allergy to spinach."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spinach can be added to sandwiches, salads, smoothies, or lightly sautéed or stewed. For sandwiches, use fresh young leaves, rinsed and patted dry."
+    },
+    {
+      "title": "Storage",
+      "content": "Store spinach in the refrigerator in a perforated bag or a container lined with a damp paper towel. Use within 3–5 days. Frozen spinach should be kept in an airtight bag for up to 6 months."
+    }
+  ]
+}

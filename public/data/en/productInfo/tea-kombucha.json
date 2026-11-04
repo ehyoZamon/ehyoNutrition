@@ -1,0 +1,79 @@
+{
+  "id": "5262",
+  "title": "Tea, Kombucha",
+  "image": "/products/5262.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tea is an infusion made from the leaves, buds or flowers of the Camellia sinensis plant. Kombucha is a fermented beverage produced by the joint fermentation of tea, sugar and a symbiotic culture of bacteria and yeast (SCOBY). Both products are popular for their taste and potential health benefits."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tea is the second most consumed beverage in the world after water.",
+        "There are more than 3,000 tea varieties, distinguished by processing methods.",
+        "Kombucha has been known in Asia for over 2,000 years and traditionally used as a tonic.",
+        "During fermentation kombucha produces a small amount of alcohol (usually less than 0.5 %).",
+        "The SCOBY looks like a jelly‑like “mushroom,” but it is not a fungus; it is a colony of bacteria and yeast."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Antioxidants",
+          "content": "Tea, especially green tea, is rich in polyphenols that help protect cells from oxidative stress."
+        },
+        {
+          "title": "Digestive support",
+          "content": "Kombucha contains probiotics that promote a healthy gut microbiome."
+        },
+        {
+          "title": "Improved hydration",
+          "content": "Both drinks contribute to maintaining the body’s fluid balance."
+        },
+        {
+          "title": "Blood sugar regulation",
+          "content": "Some studies suggest tea polyphenols may improve insulin sensitivity."
+        },
+        {
+          "title": "Immune support",
+          "content": "B‑vitamins and organic acids in kombucha may help strengthen the immune system."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine",
+          "content": "Black and green teas contain caffeine, which can cause anxiety or sleep disturbances in sensitive individuals."
+        },
+        {
+          "title": "Tea leaf allergy",
+          "content": "A small number of people may experience allergic reactions to tea components."
+        },
+        {
+          "title": "Kombucha contamination",
+          "content": "Improper fermentation can lead to growth of pathogenic microbes and higher alcohol content."
+        },
+        {
+          "title": "Acidity",
+          "content": "Kombucha’s low pH may irritate the stomach in people with gastritis."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Caffeine and certain tea compounds can amplify the effects of stimulants or anticoagulants."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Steep tea in hot (not boiling) water for 2–5 minutes, depending on the type. Kombucha is usually consumed chilled; it can be diluted with water or flavored with fruit juices and spices. Both beverages are suitable for breakfast, snacks, or as a refreshing evening drink."
+    },
+    {
+      "title": "Storage",
+      "content": "Store tea in an airtight container in a cool, dry, dark place, protected from moisture and odors. Keep kombucha refrigerated in a sealed bottle for 1–2 weeks; discard it if mold or off‑flavors appear."
+    }
+  ]
+}

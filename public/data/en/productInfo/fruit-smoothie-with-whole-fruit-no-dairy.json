@@ -1,0 +1,70 @@
+{
+  "id": "4094",
+  "title": "Fruit Smoothie",
+  "image": "/products/4094.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit smoothie is a beverage made from whole fruits without any dairy ingredients. It retains most of the fiber, vitamins, and minerals found in fresh fruit and is suitable for those avoiding dairy."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Smoothies made with whole fruit retain more fiber than juice made from the same amount of fruit.",
+        "The absence of dairy makes it suitable for vegans and people with lactose intolerance.",
+        "A wide variety of fruits allows easy flavor changes and nutritional tweaks.",
+        "Combining different fruits can provide a broader spectrum of antioxidants than a single‑fruit blend."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamins",
+          "content": "Fruit smoothies provide vitamin C, vitamin A, folate, and other micronutrients that support immunity and skin health."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Whole fruits keep dietary fiber intact, aiding digestion and promoting satiety."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Without dairy, the drink is low‑calorie and contains minimal saturated fat."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Flavonoids and carotenoids from the fruit help combat free radicals and reduce oxidative stress."
+        },
+        {
+          "title": "Hydration",
+          "content": "The high water content of fresh fruit contributes to overall fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Even though natural, fruit smoothies can be high in fructose, which should be considered by people with diabetes or those monitoring weight."
+        },
+        {
+          "title": "Allergies",
+          "content": "Certain fruits (e.g., kiwi, mango) may trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Microbial growth",
+          "content": "If left at room temperature for more than 2 hours, the smoothie can become a breeding ground for bacteria. Consume immediately or refrigerate."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink the smoothie on its own, use it as a base for breakfast bowls, add to oatmeal, plant‑based yogurt, or incorporate into dessert recipes. Optional add‑ins include chia seeds, nuts, or protein powder."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared smoothie in an airtight container in the refrigerator for up to 24 hours. For longer storage, freeze in portion‑sized containers."
+    }
+  ]
+}

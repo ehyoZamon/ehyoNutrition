@@ -1,0 +1,62 @@
+{
+  "id": "454",
+  "title": "Chocolate Ice Cream Cone (Pre‑packaged)",
+  "image": "/products/454.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The chocolate ice cream cone is a ready‑to‑eat dessert consisting of a crisp waffle cone coated with a thin layer of chocolate and filled with a portion of ice cream. It is individually wrapped, which preserves flavor and texture for extended storage."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first ice cream cone appeared in the early 1920s in the United States.",
+        "The chocolate coating often contains small pieces of nuts or caramel for extra flavor.",
+        "Aluminum foil packaging protects the product from light and moisture, extending shelf life up to 6 months.",
+        "In some markets the cones are sold in “mini” sizes to help control portion size."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Ice cream made from dairy provides calcium, essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Dairy products contain vitamins B2 and B12, which support energy metabolism."
+        },
+        {
+          "title": "Small amount of protein",
+          "content": "The ice cream contributes a modest amount of protein useful for tissue repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "The product contains milk and may trigger reactions in individuals allergic to lactose or casein."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Both the chocolate coating and the ice cream contain significant sugar, which can contribute to weight gain if consumed frequently."
+        },
+        {
+          "title": "Temperature sensitivity",
+          "content": "Storing above +4 °C can cause the ice cream to melt and the chocolate layer to become sticky."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Remove the cone from its wrapper, let it sit at room temperature for 2–3 minutes so the chocolate softens slightly, and enjoy immediately. Do not cut the cone, as this may cause the ice cream to spill."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C or lower. Once removed from the wrapper, consume within 30 minutes to avoid melting. Do not store at room temperature for more than 2 hours."
+    }
+  ]
+}

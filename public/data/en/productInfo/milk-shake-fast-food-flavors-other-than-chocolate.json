@@ -1,0 +1,75 @@
+{
+  "id": "308",
+  "title": "Milk Shake",
+  "image": "/products/308.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A milk shake is a cold beverage made from milk, cream and various flavorings, commonly served in fast‑food restaurants. Non‑chocolate versions include vanilla, strawberry, banana, caramel and nut flavors."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first milk shake appeared in the United States in the early 20th century as a \"milk frappe\".",
+        "In Russia the milk shake became popular in the 1990s alongside the expansion of fast‑food chains.",
+        "Non‑chocolate shakes often use real fruit purées, increasing their vitamin content.",
+        "There are \"shake bars\" where customers can mix several flavors into one drink.",
+        "Traditionally the shake is served in a tall glass with a straw, sometimes topped with whipped cream and sprinkles."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Milk, the main ingredient, is rich in calcium, which supports bone and teeth health."
+        },
+        {
+          "title": "Protein rich",
+          "content": "Cream and milk provide complete protein that aids muscle repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk shakes contain vitamin B12 and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "Probiotics (when yogurt is added)",
+          "content": "If yogurt is used, the shake can help maintain a healthy gut microbiome."
+        },
+        {
+          "title": "Antioxidants (with fruit flavors)",
+          "content": "Fruit additions like strawberry or blueberry supply vitamin C and polyphenols."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should use lactose‑free milk or plant‑based alternatives."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Sweet syrups and flavorings can raise calorie count and blood glucose levels."
+        },
+        {
+          "title": "Nut allergy",
+          "content": "Some flavors (e.g., nut) contain nuts and may trigger allergic reactions."
+        },
+        {
+          "title": "Excess calories",
+          "content": "Large portions can contribute to weight gain if consumed frequently."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The shake is served cold, typically in a 300–500 ml glass. It is drunk through a straw and can also be used as a topping for pancakes, waffles or ice cream."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared shake should be kept in the refrigerator for no more than 2 hours. If components (milk, cream, fruit purée) are pre‑made, store them in sealed containers for up to 24 hours."
+    }
+  ]
+}

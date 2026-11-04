@@ -1,0 +1,75 @@
+{
+  "id": "1299",
+  "title": "Beef Wellington",
+  "image": "/products/1299.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef Wellington is a classic British dish consisting of a beef tenderloin coated with a mushroom duxelles and a layer of ham or prosciutto, wrapped in puff pastry and baked until golden."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The dish is named after the Duke of Wellington, who defeated Napoleon at the Battle of Waterloo in 1815.",
+        "It is traditionally served at festive occasions, especially Christmas and New Year’s dinners.",
+        "There are many variations: some recipes use veal, turkey, or even plant‑based substitutes instead of beef.",
+        "The pastry must stay cold; otherwise it won’t puff and will lose its flaky texture.",
+        "Mushroom duxelles are often enriched with shallots, thyme, and a splash of brandy for extra flavor."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Beef tenderloin provides high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Iron and zinc",
+          "content": "Red meat is a good source of heme iron and zinc, supporting immune function and energy metabolism."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef Wellington supplies B12, B6, and niacin, which are important for nervous system health and metabolism."
+        },
+        {
+          "title": "Beneficial mushrooms",
+          "content": "The mushroom duxelles add antioxidants, fiber, and vitamin D, which are good for bone health."
+        },
+        {
+          "title": "Balanced fats",
+          "content": "Puff pastry and ham contribute monounsaturated and polyunsaturated fats that can be heart‑friendly in moderation."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie content",
+          "content": "The pastry and meat make the dish calorie‑dense; portion control is advisable for weight management."
+        },
+        {
+          "title": "Saturated fat",
+          "content": "A significant amount of saturated fat may raise cholesterol levels if consumed frequently."
+        },
+        {
+          "title": "Gluten and dairy allergens",
+          "content": "Puff pastry typically contains wheat flour and sometimes dairy, which can trigger reactions in sensitive individuals."
+        },
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked beef can harbor harmful bacteria; ensure the interior reaches at least 63 °C (145 °F)."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve Beef Wellington hot, sliced into portions. It is commonly accompanied by a sauce (such as red‑wine reduction or mushroom sauce), roasted vegetables, and mashed potatoes."
+    },
+    {
+      "title": "Storage",
+      "content": "Cooked Beef Wellington can be kept in the refrigerator for up to 2 days, tightly wrapped. For longer storage, freeze it in an airtight container for up to 2 months; reheat in the oven to restore the crisp pastry before serving."
+    }
+  ]
+}

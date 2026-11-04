@@ -1,0 +1,75 @@
+{
+  "id": "5351",
+  "title": "Fruit Flavored Drink",
+  "image": "/products/5351.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The fruit flavored drink comes as a powder designed for quick preparation of a refreshing beverage with a high vitamin C content. The powder dissolves in water to create a low‑calorie diet drink suitable for those monitoring sugar intake."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The powdered format allows long‑term storage without loss of vitamins.",
+        "Vitamin C remains active after drying thanks to micro‑encapsulation technology.",
+        "The product is easy to transport and use on trips, at work, or while camping.",
+        "Sugar content is minimal; sweetness is achieved with natural sweeteners.",
+        "The drink can be prepared hot or cold, offering different taste experiences."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High vitamin C content",
+          "content": "Vitamin C supports the immune system, aids collagen synthesis, and acts as an antioxidant."
+        },
+        {
+          "title": "Low calorie",
+          "content": "The diet drink provides few calories, helping to maintain energy balance."
+        },
+        {
+          "title": "Hydration",
+          "content": "A soluble drink helps replenish body fluids, especially in hot weather or after exercise."
+        },
+        {
+          "title": "No artificial colors",
+          "content": "Only natural extracts are used for coloring, reducing the risk of allergic reactions."
+        },
+        {
+          "title": "Convenient to use",
+          "content": "The powder dissolves quickly in water without the need for special equipment."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy to fruit extracts",
+          "content": "Some individuals may experience allergic reactions to flavor components."
+        },
+        {
+          "title": "Excessive vitamin C intake",
+          "content": "Very high doses of vitamin C can cause gastrointestinal discomfort."
+        },
+        {
+          "title": "Storage in high humidity",
+          "content": "Powder may clump and lose efficacy if kept in a damp environment."
+        },
+        {
+          "title": "Not recommended for children under 3",
+          "content": "Due to the risk of accidental over‑consumption of the powder."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mix one serving (typically 10 g) with 200–250 ml of cold or warm water, stir thoroughly until fully dissolved. Optionally add a slice of lemon or a sprig of mint for extra flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place, tightly sealed. After opening, use within 3 months for best quality."
+    }
+  ]
+}

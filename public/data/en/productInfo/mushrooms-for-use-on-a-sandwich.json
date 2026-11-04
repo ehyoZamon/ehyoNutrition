@@ -1,0 +1,75 @@
+{
+  "id": "5005",
+  "title": "Mushrooms",
+  "image": "/products/5005.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mushrooms are the edible fruiting bodies of fungi belonging to various species of the Basidiomycota and Ascomycota families. They have a mild, slightly earthy flavor and a tender, sometimes crisp texture. Mushrooms can be eaten raw, sautéed, boiled, baked, and are used in soups, sauces, salads, and sandwiches."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Mushrooms are not plants; they belong to their own kingdom, Fungi.",
+        "There are over 10,000 edible mushroom species, but culinary use focuses on button, oyster, shiitake, and porcini varieties.",
+        "Mushrooms can produce vitamin D when exposed to ultraviolet light.",
+        "Some mushrooms, such as shiitake, contain compounds that boost immune function.",
+        "Mushrooms can be cultivated on substrates like sawdust, straw, or coffee grounds in controlled environments."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Mushrooms provide niacin, riboflavin, pyridoxine, and folate, supporting metabolism and nervous system health."
+        },
+        {
+          "title": "Low in calories",
+          "content": "100 g of fresh mushrooms contain about 22 kcal, making them an excellent choice for calorie‑controlled diets."
+        },
+        {
+          "title": "Source of antioxidants",
+          "content": "Selenium and ergothioneine in mushrooms protect cells from oxidative stress."
+        },
+        {
+          "title": "Immune‑supporting",
+          "content": "Beta‑glucans found in mushrooms stimulate macrophage and natural killer cell activity."
+        },
+        {
+          "title": "High in fiber",
+          "content": "Dietary fiber in mushrooms aids digestion and promotes satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to certain mushroom varieties."
+        },
+        {
+          "title": "Toxic wild species",
+          "content": "Foraging for wild mushrooms without expert knowledge can lead to poisoning from toxic species."
+        },
+        {
+          "title": "Foodborne contamination",
+          "content": "Improper storage or cooking can allow bacterial or mold growth."
+        },
+        {
+          "title": "Purine content",
+          "content": "Mushrooms contain purines, so people with gout should limit intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mushrooms can be eaten raw in salads, sautéed, stewed, baked, or added to soups and sauces. Before cooking, they are usually brushed clean with a damp cloth and sliced. For a sandwich, mushrooms are often sautéed with onion and seasonings, then placed between bread."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh mushrooms in the refrigerator in a paper bag or container that allows airflow. Use them within 3–5 days. For longer storage, blanch them 2–3 minutes and freeze."
+    }
+  ]
+}

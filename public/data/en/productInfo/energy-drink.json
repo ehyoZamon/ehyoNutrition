@@ -1,0 +1,79 @@
+{
+  "id": "5509",
+  "title": "Energy Drink",
+  "image": "/products/5509.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Energy drink is a non‑alcoholic beverage enriched with caffeine, taurine, B‑vitamins and sugar or its substitutes. It is intended to boost alertness, improve concentration and temporarily increase physical endurance."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial energy drink appeared in Japan in the 1960s under the brand “Lipovitan”.",
+        "A typical energy drink (80‑100 mg caffeine) contains roughly the same amount of caffeine as a strong cup of coffee.",
+        "Taurine, often added to these drinks, occurs naturally in meat and fish and helps regulate electrolyte balance.",
+        "Many countries restrict the sale of energy drinks to minors by law.",
+        "Some brands use natural extracts of guarana or ginseng to enhance the effect."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Increased alertness",
+          "content": "Caffeine stimulates the central nervous system, improving attention and reaction time."
+        },
+        {
+          "title": "Energy replenishment",
+          "content": "Sugar and glucose polymers quickly restore muscle glycogen, which can be useful during intense workouts."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Vitamins B1, B2, B3, B6 and B12 support carbohydrate metabolism and nervous system function."
+        },
+        {
+          "title": "Electrolyte balance",
+          "content": "Some formulas contain sodium and potassium, helping to prevent dehydration."
+        },
+        {
+          "title": "Mood enhancement",
+          "content": "Caffeine raises dopamine levels, which may temporarily improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High doses can cause anxiety, insomnia, rapid heartbeat and increased blood pressure."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Regular consumption of high‑sugar drinks raises the risk of tooth decay and obesity."
+        },
+        {
+          "title": "Interaction with alcohol",
+          "content": "Mixing energy drinks with alcohol can mask intoxication, increasing the risk of overexertion."
+        },
+        {
+          "title": "Not recommended for children and pregnant women",
+          "content": "Due to high caffeine and stimulant levels, these drinks are not advised for children, adolescents, pregnant or nursing women."
+        },
+        {
+          "title": "Cardiovascular concerns",
+          "content": "People with heart conditions should limit or avoid energy drinks."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Energy drinks are usually consumed cold, straight from the can. A typical serving is 250‑350 ml (one can) within 1‑2 hours. Do not exceed 2‑3 servings per day and avoid combining with other caffeine sources."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the drink in a cool, dry place away from direct sunlight. After opening, keep it refrigerated and consume within 24 hours."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3322",
+  "title": "Burrito Bowl, Chicken, with Rice",
+  "image": "/products/3322.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The Burrito Bowl with chicken and rice is a Mexican‑inspired dish that consists of a base of rice topped with grilled or baked chicken pieces, beans, fresh vegetables, salsa and sour cream. It combines the bold flavors of spices, the protein of chicken, and the carbs of rice for a balanced meal."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The burrito bowl was created as a lighter alternative to the traditional burrito, eliminating the need for a tortilla.",
+        "Chicken is often marinated in lime juice, chili, and cumin, giving it a distinctive aroma.",
+        "Rice in Mexican bowls is frequently cooked with tomato sauce and spices, making it more flavorful than plain white rice.",
+        "The dish is popular in fast‑casual chains where customers can customize their bowls with a variety of toppings.",
+        "A chicken version is considered more diet‑friendly compared to beef or pork bowls because chicken contains less fat."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Chicken provides complete protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Energy‑rich rice",
+          "content": "Rice supplies complex carbohydrates that release energy gradually."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Both chicken and rice contain B6 and B12 vitamins, supporting nervous system function and metabolism."
+        },
+        {
+          "title": "Contains dietary fiber",
+          "content": "Added beans and vegetables increase fiber content, aiding digestion."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared to beef‑based bowls, chicken bowls typically have less saturated fat."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Chicken allergy",
+          "content": "Some individuals may experience allergic reactions to chicken."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Salsa, sauces, and marinades can add significant salt, which may be problematic for hypertension."
+        },
+        {
+          "title": "Food‑borne bacteria risk",
+          "content": "Undercooked chicken may harbor salmonella; ensure it reaches an internal temperature of 75 °C."
+        },
+        {
+          "title": "Gluten in sauces",
+          "content": "Certain ready‑made sauces may contain gluten; people with celiac disease should check labels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the bowl in a deep dish. Start with rice, add chicken, beans, vegetables, then drizzle salsa, guacamole or sour cream. Top with shredded cheese, cilantro, or a squeeze of lime if desired."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the assembled bowl in an airtight container in the refrigerator for up to 2‑3 days. Reheat chicken and rice to at least 75 °C before eating. Store raw components (vegetables, sauces) separately."
+    }
+  ]
+}

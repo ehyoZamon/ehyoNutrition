@@ -1,0 +1,71 @@
+{
+  "id": "4326",
+  "title": "Casabe",
+  "image": "/products/4326.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Casabe is a traditional flatbread made from cassava (manioc) root, widely consumed in the Caribbean, South America and parts of Africa. The grated cassava is pressed to remove moisture, then baked until crisp. It is gluten‑free, has a neutral flavor and can be used as a substitute for wheat bread."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Casabe has been prepared for more than 5,000 years, predating European contact.",
+        "Heat treatment destroys cyanogenic glycosides that are toxic in raw cassava.",
+        "In many regions the bread is considered a “food of the poor” because cassava grows on marginal soils.",
+        "The flatbread stays crisp for a few days but quickly softens when exposed to moisture.",
+        "Traditional recipes sometimes add coconut milk or spices to the dough."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Gluten‑free",
+          "content": "Casabe is suitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Unlike many baked goods, casabe contains virtually no fat."
+        },
+        {
+          "title": "Source of complex carbs",
+          "content": "Cassava provides starch that releases energy slowly."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "The bread contains thiamine, niacin and folate, important for metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "Casabe supplies potassium, magnesium and small amounts of iron."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Toxic raw cassava",
+          "content": "Raw cassava contains cyanogenic compounds; they must be fully eliminated by proper cooking."
+        },
+        {
+          "title": "Low protein content",
+          "content": "Casabe is not a significant source of protein, so it should be paired with protein‑rich foods."
+        },
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience an allergic reaction to cassava."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Casabe can be eaten plain, spread with butter, avocado, cheese, or used as a base for sandwiches and tacos. It is also cut into cubes and fried to make crispy chips."
+    },
+    {
+      "title": "Storage",
+      "content": "Store casabe in a dry, cool place in an airtight container. For longer shelf life keep it in the refrigerator to prevent mold growth."
+    }
+  ]
+}

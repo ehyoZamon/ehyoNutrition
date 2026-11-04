@@ -1,0 +1,75 @@
+{
+  "id": "2362",
+  "title": "White Bread",
+  "image": "/products/2362.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "White bread, made from a home recipe or purchased at a bakery, is a baked product of wheat flour, water, yeast, and salt. It has a soft crumb, light crust, and a mild, pleasant flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The earliest known bread recipes date back more than 14,000 years.",
+        "The traditional French baguette is one of the most famous types of white bread.",
+        "In many cultures bread is a symbol of hospitality and prosperity.",
+        "Homemade bread often contains fewer preservatives than industrially produced loaves.",
+        "There are over 200 different wheat flour varieties used for bread baking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of carbohydrates",
+          "content": "White bread provides a quick source of energy through easily digestible carbs."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Fermentation by yeast produces B1, B2, and B3 vitamins that support metabolism."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "A modest amount of fiber helps regulate bowel movements."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "Its soft texture makes it suitable for diets requiring gentle foods."
+        },
+        {
+          "title": "Mineral content",
+          "content": "It supplies small amounts of iron, magnesium, and phosphorus."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High glycemic index",
+          "content": "White bread can cause rapid blood‑sugar spikes, which may be problematic for diabetics."
+        },
+        {
+          "title": "Low fiber content",
+          "content": "Compared with whole‑grain breads, it provides less dietary fiber."
+        },
+        {
+          "title": "Gluten allergy",
+          "content": "People with celiac disease or gluten sensitivity should avoid wheat bread."
+        },
+        {
+          "title": "Preservatives in commercial loaves",
+          "content": "Some factory‑produced breads contain additives that may not suit everyone."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bread can be eaten plain, used for sandwiches, toasted, served with soups and sauces, or as a base for appetizers. Toasting enhances aroma and texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep bread in a paper bag or bread box at room temperature for up to 3 days. For longer storage, freeze it in an airtight bag for up to 3 months. Thaw and warm before serving."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1698",
+  "title": "Hamburger",
+  "image": "/products/1698.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A hamburger is a hot sandwich consisting of a beef patty placed between a split bun, often accompanied by cheese, lettuce, tomato, onion, sauces and seasonings. In school cafeterias of 1698 it was prepared from simple, locally available ingredients and served as a hearty meal for students."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first school hamburger appeared in 1698 in a historic school cafeteria, where it was prepared by student‑cooks.",
+        "The traditional bun was lightly toasted over an open fire, and the patty was cooked on a cast‑iron griddle.",
+        "The original recipe used only pure beef, without any soy or plant‑based fillers.",
+        "Hamburgers were often served with sauerkraut instead of modern sauces.",
+        "In some schools, melted cottage cheese was used in place of cheese, as it was more readily available."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "The beef patty provides high‑quality protein essential for growth and tissue repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Beef contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Hamburgers supply B12, B6 and niacin, supporting nervous system function and metabolism."
+        },
+        {
+          "title": "Energy dense",
+          "content": "The combination of protein, fat and carbohydrates in the bun offers sustained satiety and quick energy."
+        },
+        {
+          "title": "Provides fiber",
+          "content": "When topped with lettuce, tomato and onion, the sandwich adds dietary fiber beneficial for digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in saturated fat",
+          "content": "The patty and cheese can contain significant saturated fat, which may increase cardiovascular risk if consumed frequently."
+        },
+        {
+          "title": "Salt and additives",
+          "content": "Historical recipes often relied on salt and dried spices for flavor, which can be problematic for people with hypertension."
+        },
+        {
+          "title": "Gluten allergy",
+          "content": "The wheat bun contains gluten, posing a risk for individuals with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Foodborne illness risk",
+          "content": "Undercooked beef may harbor pathogenic bacteria, so the patty should be cooked thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hamburgers are typically eaten with the hands, holding the bun. They can be topped with mustard, ketchup or a homemade sauce. Optional additions include fresh lettuce, tomato slices, onion, and a slice of cheese that melts over the hot patty."
+    },
+    {
+      "title": "Storage",
+      "content": "A freshly prepared hamburger is best consumed immediately. For storage, separate the components: keep the cooked patty refrigerated for up to 2 days, the bun in a dry paper bag, and the vegetables in an airtight container. Reheat the patty thoroughly before assembling."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1110",
+  "title": "Canned Tuna",
+  "image": "/products/1110.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Canned tuna is fish from the mackerel family, caught in open oceans, heat‑processed and sealed in airtight cans with its own juice, oil, or tomato sauce. The canning process preserves most nutrients, gives a tender texture, and a characteristic sea flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tuna is one of the fastest marine predators, capable of swimming up to 75 km/h.",
+        "Most canned tuna comes from skipjack and yellowfin species.",
+        "Canning allows the fish to be stored for several years without added preservatives.",
+        "Tuna is used in traditional dishes worldwide: sushi in Japan, salads in the Mediterranean, and sandwiches in the United States."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega‑3 fatty acids",
+          "content": "Tuna provides EPA and DHA, which support heart health, vascular function, and normal brain activity."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "A typical serving (≈100 g) delivers about 25 g of complete animal protein essential for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Tuna is a good source of B12, B6, and niacin, which aid energy metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals: selenium and iodine",
+          "content": "Selenium protects cells from oxidative stress, while iodine is vital for proper thyroid function."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with many meat products, tuna contains relatively little saturated fat, making it suitable for low‑fat diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Mercury content",
+          "content": "Tuna can accumulate mercury; pregnant or nursing women and young children should limit intake."
+        },
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals may experience allergic reactions to fish, including tuna."
+        },
+        {
+          "title": "Sodium",
+          "content": "Canned tuna often contains added salt; choose low‑sodium versions if you monitor sodium intake."
+        },
+        {
+          "title": "Bacterial growth after opening",
+          "content": "Once opened, store tuna in a sealed container in the refrigerator and consume within 2‑3 days to prevent bacterial contamination."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Canned tuna can be eaten straight from the can, added to salads, pasta, sandwiches, sushi rolls, or used as a filling for pies. It pairs well with olive oil, lemon, herbs, and fresh vegetables."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep unopened cans in a cool, dry place away from direct light. After opening, transfer the tuna to an airtight container and refrigerate, using it within 2‑3 days."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "4444",
+  "title": "Peas and carrots",
+  "image": "/products/4444.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Peas and carrots are fresh vegetables cooked by steaming without added fat. Peas have a sweet, tender flavor and a crisp texture, while carrots offer a sweet, slightly earthy taste with a soft yet firm bite."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Peas belong to the legume family and are a good source of plant protein.",
+        "Carrots are one of the richest sources of beta‑carotene, a vitamin A precursor.",
+        "The combination is common in traditional dishes worldwide, from Russian salads to Indian curries.",
+        "Steaming preserves more vitamins and minerals compared with boiling in water.",
+        "Together they provide a broad range of amino acids, enhancing protein bioavailability."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Peas contain vitamin B6 and folate, supporting metabolism and nervous system function."
+        },
+        {
+          "title": "High in beta‑carotene",
+          "content": "Carrots deliver a high amount of provitamin A, essential for vision and immunity."
+        },
+        {
+          "title": "Digestive support",
+          "content": "Fiber from peas and carrots promotes regular bowel movements and satiety."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Prepared without added fat, the dish fits low‑calorie dietary plans."
+        },
+        {
+          "title": "Antioxidant protection",
+          "content": "Phytonutrients such as lutein and zeaxanthin in carrots help protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may experience allergic reactions to peas."
+        },
+        {
+          "title": "Sugar content for children",
+          "content": "Carrots contain natural sugars; small portions are fine for kids, but total sugar intake should be considered."
+        },
+        {
+          "title": "Gas formation",
+          "content": "Legumes, including peas, can cause flatulence in sensitive people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve as a side dish, add to salads, soups, or use as a filling for wraps. You may season with fresh herbs, lemon juice, or a light soy sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the cooked product in an airtight container in the refrigerator for up to 3‑4 days. For longer storage, freeze portions and re‑steam before serving."
+    }
+  ]
+}

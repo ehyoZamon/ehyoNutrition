@@ -1,0 +1,75 @@
+{
+  "id": "2323",
+  "title": "Peanut Butter and Jelly Sandwich",
+  "image": "/products/2323.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A peanut butter and jelly sandwich is made with two slices of wheat bread spread with regular peanut butter and reduced‑sugar jelly. The classic sweet‑salty combination is a popular quick snack or light meal in the United States and many other countries."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The PB&J sandwich first appeared in the early 20th century in the US and became especially popular during the Great Depression because it was inexpensive.",
+        "Wheat bread provides complex carbohydrates, while peanut butter adds plant protein and healthy fats.",
+        "Reduced‑sugar jelly lowers the overall glycemic impact while preserving the fruit flavor.",
+        "Americans consume more than 2.5 billion PB&J sandwiches each year.",
+        "Peanut butter in the US is sold as \"creamy\" or \"chunky\"; the creamy version is usually chosen for a smooth spread."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "Peanut butter contains about 25 % protein, helping to support muscle maintenance and satiety."
+        },
+        {
+          "title": "Source of healthy fats",
+          "content": "Monounsaturated and polyunsaturated fatty acids in peanut butter promote heart health when consumed in moderation."
+        },
+        {
+          "title": "Contains vitamin E",
+          "content": "Vitamin E is a powerful antioxidant that protects cells from oxidative damage."
+        },
+        {
+          "title": "Reduced sugar in jelly",
+          "content": "Lower sugar content reduces rapid blood‑glucose spikes, making the snack more balanced."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Whole‑grain wheat bread and fruit‑based jelly add fiber, supporting digestive health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Peanut allergy",
+          "content": "Peanuts are one of the most common food allergens; individuals with a peanut allergy must avoid this sandwich."
+        },
+        {
+          "title": "High calorie density",
+          "content": "Peanut butter is calorie‑dense (about 190 kcal per tablespoon); portion size should be monitored, especially on weight‑control diets."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some peanut butter brands add salt; those watching sodium intake should choose unsalted varieties."
+        },
+        {
+          "title": "Sugar in jelly",
+          "content": "Even reduced‑sugar jelly contains fructose; people sensitive to sugar should account for it."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spread an even layer of peanut butter on one slice of bread, spread jelly on the other slice, and press them together. The sandwich can be cut in half or quarters for easier handling. It pairs well with milk, yogurt, or a fruit juice."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep a prepared sandwich in an airtight container at room temperature for no more than 4 hours. Store opened peanut butter and jelly in the refrigerator, and keep bread in a dry place or sealed bag to prevent drying out."
+    }
+  ]
+}

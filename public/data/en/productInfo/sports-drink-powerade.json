@@ -1,0 +1,66 @@
+{
+  "id": "5523",
+  "title": "Sports Drink Powerade",
+  "image": "/products/5523.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Powerade is an isotonic sports drink designed to replenish electrolytes and energy lost during intense physical activity. It contains water, carbohydrates, sodium, potassium, and B‑vitamins, helping to maintain hydration and improve endurance."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Powerade was first launched in 2002 as a competitor to Gatorade.",
+        "The lineup includes several flavors such as Lemon‑Lime, Berry Mix, and Tropical Fruit.",
+        "Some versions are fortified with creatine or higher‑sodium electrolytes for extreme conditions.",
+        "The brand actively sponsors sports events and teams worldwide."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Electrolyte balance restoration",
+          "content": "Sodium and potassium help quickly replace electrolytes lost through sweat, reducing the risk of cramps."
+        },
+        {
+          "title": "Energy support",
+          "content": "Carbohydrates (typically 6‑10% solution) provide a rapid source of fuel for working muscles."
+        },
+        {
+          "title": "Improved hydration",
+          "content": "The drink’s osmolality is optimized for fast absorption into the bloodstream, speeding up rehydration."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "B‑vitamins aid in converting carbohydrates into energy and support the nervous system."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Some Powerade variants contain up to 6 g of sugar per 100 ml, which may be undesirable for low‑sugar diets."
+        },
+        {
+          "title": "Allergy to ingredients",
+          "content": "The drink may contain flavorings, colorants, and preservatives that can trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Excess sodium",
+          "content": "Consuming large amounts can lead to high sodium intake, which is not recommended for people with hypertension."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Drink Powerade 15‑30 minutes before exercise and/or within the first 30‑60 minutes of activity. For recovery after prolonged sessions, consume 500‑750 ml, divided into several sips."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the bottle in a cool, dry place away from direct sunlight. Once opened, consume within 24 hours and keep the cap tightly sealed."
+    }
+  ]
+}

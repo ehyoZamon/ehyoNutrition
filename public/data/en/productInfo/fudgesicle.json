@@ -1,0 +1,71 @@
+{
+  "id": "473",
+  "title": "Fudgesicle",
+  "image": "/products/473.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fudgesicle is a frozen dessert pop on a stick made from creamy ice cream flavored like fudge. It is coated with a thin chocolate shell and often contains bits of nuts or caramel. The treat is popular as a refreshing sweet snack in warm weather."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first fudgesicle appeared in the United States in the 1970s as an experimental version of the classic popsicle.",
+        "The name combines “fudge” and “popsicle.”",
+        "Original recipes used real fudge paste, but today many manufacturers use flavorings.",
+        "Fudgesicles are typically sold in bite‑size portions that are easy to hold without a spoon.",
+        "Some countries now offer a vegan version made with coconut milk."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base provides calcium, essential for bone health."
+        },
+        {
+          "title": "Contains vitamin A",
+          "content": "Vitamin A supports vision and the immune system."
+        },
+        {
+          "title": "Quick energy source",
+          "content": "Sugar and fat give a rapid boost of energy, useful before physical activity."
+        },
+        {
+          "title": "Probiotic content (in some versions)",
+          "content": "Certain recipes include live cultures that may benefit gut health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to weight gain and raise blood glucose levels."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "The dairy base may cause discomfort for people who are lactose intolerant."
+        },
+        {
+          "title": "Nut allergy",
+          "content": "Some varieties contain nuts, posing a risk for allergic individuals."
+        },
+        {
+          "title": "Brain freeze",
+          "content": "Eating it straight from the freezer can cause a sudden headache known as brain freeze."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fudgesicles are eaten directly from the freezer, holding the stick. Letting it sit for a minute allows the chocolate coating to soften. Serve with fresh berries or sprinkle with nut crumble for extra texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a freezer at –18 °C (0 °F) or lower in the original packaging. Over long periods sugar may crystallize, making the texture slightly grainy."
+    }
+  ]
+}

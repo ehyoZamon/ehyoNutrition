@@ -1,0 +1,75 @@
+{
+  "id": "2000",
+  "title": "Egg Omelet with Cheese and Meat",
+  "image": "/products/2000.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An egg omelet with cheese and meat is a nutrient‑dense dish that provides protein, fats, and micronutrients. Eggs supply a complete amino‑acid profile, cheese adds calcium and vitamin D, and meat contributes iron and vitamin B12."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most affordable sources of high‑quality protein.",
+        "Cream cheese is popular for its smooth texture and mild flavor.",
+        "Meat in an omelet can be ham, bacon, chicken, or turkey.",
+        "Traditional omelets are cooked over medium heat to keep the eggs tender.",
+        "In many cultures the omelet is garnished with herbs, tomatoes, or avocado."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Eggs and meat provide all essential amino acids, supporting muscle growth and tissue repair."
+        },
+        {
+          "title": "B‑vitamin complex",
+          "content": "Vitamins B2, B6 and B12 from eggs and meat aid energy metabolism and nervous‑system function."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Cheese contributes calcium for bone health, while vitamin D enhances its absorption."
+        },
+        {
+          "title": "Iron",
+          "content": "Meat supplies heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "Satiety",
+          "content": "The combination of protein and fat promotes long‑lasting fullness, useful for weight management."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to egg whites."
+        },
+        {
+          "title": "High saturated‑fat content",
+          "content": "Cream cheese and fatty meat cuts can raise cholesterol levels if consumed in excess."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Processed meats and cheese may increase salt intake, which is a concern for hypertension."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The dish is relatively calorie‑rich; portion control is advisable for those monitoring energy intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Cook",
+      "content": "Beat eggs with a splash of milk, stir in grated cheese and diced meat. Cook in a lightly oiled skillet over medium heat, gently folding until the omelet is set but still soft inside."
+    },
+    {
+      "title": "Storage",
+      "content": "Best enjoyed fresh. If needed, store in an airtight container in the refrigerator for up to 24 hours. Reheat in a skillet or microwave, adding a little oil to prevent drying out."
+    }
+  ]
+}

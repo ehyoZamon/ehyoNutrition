@@ -1,0 +1,71 @@
+{
+  "id": "2202",
+  "title": "Soybean curd",
+  "image": "/products/2202.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soybean curd, commonly known as tofu, is made by coagulating soy milk and pressing the resulting curds into blocks. It has a soft, slightly creamy texture and a neutral flavor that readily absorbs the taste of other ingredients."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tofu originated in China over 2,000 years ago and has become a staple in many Asian cuisines.",
+        "There are several varieties: silken (soft), regular (firm) and extra‑firm, each suited to different cooking methods.",
+        "Tofu is often called “plant meat” because it can mimic the texture of meat when marinated and cooked.",
+        "In Japan tofu is traditionally served in hot pot dishes like oden or with soba noodles, often garnished with green onions and soy sauce.",
+        "Tofu can be fermented (e.g., natto) or smoked, giving it distinctive flavors."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "Tofu provides all essential amino acids, making it a complete protein source for vegetarians and vegans."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Most of the fat in tofu is polyunsaturated, which supports heart health."
+        },
+        {
+          "title": "Source of calcium and iron",
+          "content": "Coagulants such as calcium sulfate enrich tofu with calcium, and soy isoflavones aid iron absorption."
+        },
+        {
+          "title": "Contains isoflavones",
+          "content": "Soy isoflavones may help balance hormones and support bone health."
+        },
+        {
+          "title": "Low‑calorie food",
+          "content": "Tofu is relatively low in calories, making it useful for weight management."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Some individuals may experience allergic reactions to soy products, including tofu."
+        },
+        {
+          "title": "Antinutrient content",
+          "content": "Soy contains phytic acid, which can reduce mineral absorption when consumed in excess."
+        },
+        {
+          "title": "Genetically modified varieties",
+          "content": "Most soybeans grown worldwide are GMO; choose organic or non‑GMO tofu if preferred."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tofu can be eaten raw in salads, marinated, stir‑fried, baked, added to soups, or blended into smoothies. Silken tofu works well in desserts and sauces, while firm tofu is ideal for grilling and frying. Pressing excess water before cooking improves texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep tofu in its original package submerged in cold water, changing the water daily. It stays fresh in the refrigerator for 3–5 days. For longer storage, freeze it; the texture becomes more porous, which is great for stir‑frying."
+    }
+  ]
+}

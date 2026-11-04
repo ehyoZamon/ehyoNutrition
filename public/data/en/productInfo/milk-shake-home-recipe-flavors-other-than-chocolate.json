@@ -1,0 +1,75 @@
+{
+  "id": "303",
+  "title": "Milk Shake",
+  "image": "/products/303.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A milk shake is a beverage made from milk, ice cream or frozen yogurt, and various flavorings. In a home recipe you can use fresh fruit, berries, nuts, spices and sweeteners to create a wide range of flavors other than the classic chocolate."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The milk shake originated in the United States in the early 20th century and quickly became popular in diners and restaurants.",
+        "In Russia the drink is often called “milk frappe,” especially when served over ice.",
+        "There are more than 100 flavor variations, including vanilla, strawberry, banana, mango, caramel and nutty.",
+        "A homemade shake lets you control sugar levels and add nutritious ingredients such as chia seeds or protein powder.",
+        "The traditional preparation method is blending, but a shaker can be used for a lighter texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Milk, the main ingredient, is rich in calcium, which supports bone and tooth health."
+        },
+        {
+          "title": "High in protein",
+          "content": "Adding yogurt, ice cream or protein powder boosts the protein content, aiding muscle recovery."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk provides vitamin B2 (riboflavin) and B12, important for energy metabolism."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Using kefir or live‑culture yogurt can contribute beneficial bacteria for gut health."
+        },
+        {
+          "title": "Antioxidants from fruit",
+          "content": "Berries, mango, kiwi and other fruits add vitamin C and polyphenols that protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should use lactose‑free milk or plant‑based alternatives."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Store‑bought ice cream and added sweeteners can raise calories and blood sugar levels."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Casein and whey proteins may trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Shakes made with ice cream and cream can be very calorie‑rich; watch portion size if weight management is a goal."
+        }
+      ]
+    },
+    {
+      "title": "How to Make",
+      "content": "Combine 200 ml of milk (or a plant‑based alternative), 2 tablespoons of ice cream or yogurt, your chosen flavoring (fruit, nuts, spices) and a sweetener to taste in a blender. Blend until smooth and creamy; add ice if a thicker texture is desired. Serve immediately, garnished with berries, sprinkles or mint."
+    },
+    {
+      "title": "Storage",
+      "content": "A milk shake is best enjoyed right away. If you need to store it, keep it in a sealed container in the refrigerator for no more than 24 hours; give it a quick stir before serving as ingredients may separate."
+    }
+  ]
+}

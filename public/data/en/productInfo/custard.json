@@ -1,0 +1,75 @@
+{
+  "id": "481",
+  "title": "Custard",
+  "image": "/products/481.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Custard is a dessert made from eggs, milk, and sugar, thickened by gentle heating. It has a smooth, creamy texture and a mildly sweet flavor, often flavored with vanilla, cinnamon, or fruit purées."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Custard has been known since ancient times; the earliest recipes appear in Roman cookbooks.",
+        "Traditional English custard is made only with eggs, milk, and sugar, without any starch.",
+        "In the United States, “thickened custard” often includes corn starch for a firmer consistency.",
+        "Custard is frequently used as a filling for pies, tarts, and éclairs.",
+        "Savory custard, made with cheese, herbs, and spices, is served as a side dish in many cuisines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Eggs, the main ingredient, provide high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of vitamin D",
+          "content": "Milk contributes vitamin D, which supports bone health and the immune system."
+        },
+        {
+          "title": "Contains calcium",
+          "content": "Calcium from milk helps strengthen teeth and bones."
+        },
+        {
+          "title": "Provides B‑vitamins",
+          "content": "Eggs supply B2 and B12, important for energy metabolism and nervous system function."
+        },
+        {
+          "title": "Easily digestible energy source",
+          "content": "The combination of simple carbs and protein makes custard a quick and sustained source of energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to eggs, ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Traditional sweet custard contains a notable amount of sugar, which can contribute to weight gain and blood‑glucose spikes."
+        },
+        {
+          "title": "Risk of bacterial contamination",
+          "content": "If not heated properly, eggs may not be fully pasteurized, increasing the risk of salmonella."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming milk‑based custard."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Custard can be served chilled or warm as a dessert, used as a filling for pastries, drizzled with fruit, berries, or caramel sauce. It can be prepared on the stovetop, in the microwave, or in a steam bath."
+    },
+    {
+      "title": "Storage",
+      "content": "Store prepared custard in an airtight container in the refrigerator for up to 3‑4 days. For longer storage, freeze in portions; thaw in the fridge before serving."
+    }
+  ]
+}

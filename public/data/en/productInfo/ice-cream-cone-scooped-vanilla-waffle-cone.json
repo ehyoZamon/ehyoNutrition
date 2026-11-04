@@ -1,0 +1,62 @@
+{
+  "id": "445",
+  "title": "Ice Cream Cone, Scooped, Vanilla, Waffle Cone",
+  "image": "/products/445.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Ice cream cone is a classic dessert consisting of vanilla‑flavored scooped ice cream served in a crisp waffle cone. The vanilla taste comes from real vanilla beans or natural flavorings, while the waffle cone adds a light sweetness and crunchy texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first waffle cone was invented in the early 1900s in the United States.",
+        "Vanilla is one of the most popular ice cream flavors worldwide.",
+        "Waffle cones can be slightly sweet or mildly salty, enhancing the ice cream’s flavor.",
+        "Traditionally the cone is served with chocolate sauce or sprinkles."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Moderate sugar content (when choosing reduced‑sugar versions)",
+          "content": "Vanilla ice cream can contain less sugar than many fruit‑flavored varieties if a low‑sugar option is selected."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base of the ice cream provides calcium essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Dairy products contain vitamins B2 and B12, supporting energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Dairy‑based ice cream may cause discomfort for people who are lactose intolerant."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Individuals allergic to milk should avoid this product."
+        },
+        {
+          "title": "High calorie content",
+          "content": "The combination of sweet ice cream and a waffle cone adds significant calories, so portion control is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hold the cone by the base and enjoy, allowing the ice cream to soften slightly to release the vanilla aroma. You can top it with chocolate sauce, nuts, or fresh berries for extra flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the ice cream in a freezer at –18 °C (0 °F) or lower. Keep the waffle cone in a dry place to maintain its crunch."
+    }
+  ]
+}

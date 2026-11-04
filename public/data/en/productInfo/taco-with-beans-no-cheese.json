@@ -1,0 +1,70 @@
+{
+  "id": "3293",
+  "title": "Bean Taco without Cheese",
+  "image": "/products/3293.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A taco is a Mexican dish consisting of a soft or crispy tortilla filled with various ingredients. This version features beans, spices and vegetables, with no cheese added."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Traditional Mexican tacos use corn tortillas, though flour versions are also common.",
+        "Beans are the main protein source in vegetarian tacos.",
+        "Tacos are often served with salsa, guacamole and lime.",
+        "The dish gained worldwide popularity in the 1990s through fast‑food chains."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich plant protein",
+          "content": "Beans provide all essential amino acids, making them a solid meat alternative."
+        },
+        {
+          "title": "High fiber content",
+          "content": "Fiber supports digestion and promotes satiety."
+        },
+        {
+          "title": "Low saturated fat",
+          "content": "Omitting cheese reduces saturated fat levels."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beans are a good source of folate, thiamine and niacin, which aid energy metabolism."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Polyphenols in beans help combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may experience allergic reactions to beans."
+        },
+        {
+          "title": "Gas formation",
+          "content": "Beans can cause bloating in sensitive people."
+        },
+        {
+          "title": "Phytic acid content",
+          "content": "Phytic acid may reduce mineral absorption; soaking beans is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tacos can be enjoyed on their own or with salsa, guacamole, fresh veggies and a squeeze of lime. Lightly toast the tortilla for extra crunch."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep tortillas in an airtight container at room temperature for up to 3 days. Store cooked beans in the refrigerator in a sealed container for no more than 4 days."
+    }
+  ]
+}

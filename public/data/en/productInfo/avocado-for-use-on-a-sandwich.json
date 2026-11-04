@@ -1,0 +1,71 @@
+{
+  "id": "5002",
+  "title": "Avocado",
+  "image": "/products/5002.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Avocado is the fruit of the avocado tree (Persea americana) native to tropical and subtropical regions. The fruit has a creamy, slightly nutty flesh rich in healthy fats and is commonly used in sandwiches, salads, and smoothies."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Avocado is often called the \"butter fruit\" because of its high monounsaturated fat content.",
+        "The world’s largest avocado weighed over 5 kg.",
+        "The pit contains about 20 % oil, which is used in cosmetics.",
+        "There are more than 500 avocado varieties, with Hass and Fuerte being the most popular.",
+        "Avocado contains no sugar but has a natural mild sweetness."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in monounsaturated fats",
+          "content": "These fats help lower LDL cholesterol and support heart health."
+        },
+        {
+          "title": "Source of vitamin K",
+          "content": "Vitamin K is essential for blood clotting and bone health."
+        },
+        {
+          "title": "Contains potassium",
+          "content": "Potassium aids in blood pressure regulation and muscle function."
+        },
+        {
+          "title": "Folate",
+          "content": "Folate is important for cell division and especially vital during pregnancy."
+        },
+        {
+          "title": "Dietary fiber",
+          "content": "Fiber improves digestion and promotes satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience an allergic reaction to avocado, particularly those with latex allergy."
+        },
+        {
+          "title": "High calorie density",
+          "content": "Avocado is calorie‑dense, so portion control is advisable for weight‑management diets."
+        },
+        {
+          "title": "Possible drug interactions",
+          "content": "Its high potassium content can affect certain medications, such as diuretics."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Slice avocado for sandwiches, mash it into a spread, add it to salads, or use it as a mayo substitute."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep whole avocados at room temperature until ripe, then refrigerate for up to 5 days. Store cut pieces in an airtight container with lemon juice to prevent browning."
+    }
+  ]
+}

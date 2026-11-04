@@ -1,0 +1,71 @@
+{
+  "id": "2249",
+  "title": "Falafel Sandwich",
+  "image": "/products/2249.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The falafel sandwich is a nutritious vegetarian sandwich featuring a spiced chickpea patty placed between slices of bread or wrapped in a flatbread together with vegetables, sauces, and herbs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Falafel originated in the Middle East and is a staple in Mediterranean cuisines.",
+        "The chickpea patty is rich in plant protein and often used as a meat alternative.",
+        "There are many serving styles: in pita, in a wrap, on a bun, or as a standalone burger.",
+        "Traditionally falafel is deep‑fried, but it can also be baked for a lighter version.",
+        "In some regions beans are used instead of chickpeas in the mixture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "Chickpeas, the main ingredient, provide about 20 g of protein per 100 g, supporting muscle maintenance."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Fiber aids digestion and promotes a feeling of fullness."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Falafel contains folate, thiamine, and niacin, important for energy metabolism."
+        },
+        {
+          "title": "Contains iron and magnesium",
+          "content": "These minerals support blood formation and muscle function."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "When baked, falafel remains a low‑saturated‑fat option."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may experience allergic reactions to chickpeas."
+        },
+        {
+          "title": "High calories when fried",
+          "content": "Traditional deep‑fried falafel can be calorie‑dense; portion control is advised."
+        },
+        {
+          "title": "Oxalate content",
+          "content": "Chickpeas contain oxalates, which in excess may contribute to kidney stone formation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the falafel sandwich hot, adding fresh veggies (tomato, cucumber, lettuce), sauces (tahini, yogurt, hummus), and aromatic herbs. It can be eaten by hand or with a fork."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the assembled sandwich in a sealed container in the refrigerator for up to 2‑3 days. Falafel patties can be frozen for up to 3 months; reheat before serving in an oven or microwave."
+    }
+  ]
+}

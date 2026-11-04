@@ -1,0 +1,75 @@
+{
+  "id": "230",
+  "title": "Greek Yogurt, Low Fat Milk, Fruit",
+  "image": "/products/230.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt made from low‑fat milk with added fruit is a thick, creamy dairy product high in protein and low in calories. The fruit provides natural sweetness and a boost of vitamins."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Greek yogurt is strained to remove whey, giving it a denser texture than regular yogurt.",
+        "Low‑fat milk retains most nutrients while contributing almost no fat.",
+        "Fruit is often folded in after fermentation to preserve flavor and vitamins.",
+        "Greek yogurt is frequently used as a substitute for sour cream or mayonnaise in recipes.",
+        "Regular consumption can support gut health thanks to its probiotic cultures."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Greek yogurt provides up to 10 g of protein per 100 g, supporting muscle maintenance and satiety."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Using low‑fat milk makes the product virtually fat‑free, suitable for calorie‑controlled diets."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Live bacterial cultures promote a healthy intestinal microbiome."
+        },
+        {
+          "title": "Vitamins and minerals",
+          "content": "Fruit adds vitamin C, potassium and antioxidants, while the milk contributes calcium and vitamin D."
+        },
+        {
+          "title": "Digestive support",
+          "content": "The combination of probiotics and fruit fiber aids digestion and regular bowel movements."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming yogurt."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey requires complete avoidance of the product."
+        },
+        {
+          "title": "Sugar content in fruit",
+          "content": "Certain fruit additions can raise sugar levels, which is important for diabetics to monitor."
+        },
+        {
+          "title": "Canned fruit",
+          "content": "If canned fruit is used, it may contain added sugars and preservatives."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the yogurt as a snack, blend it into smoothies, use it in sauces, desserts, or as a base for dressings. Pair with nuts, honey, or whole grains for a more balanced meal."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the yogurt in the refrigerator at 1‑4 °C in its original container. Once opened, consume within 5‑7 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

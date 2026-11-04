@@ -1,0 +1,71 @@
+{
+  "id": "4095",
+  "title": "Fruit Smoothie",
+  "image": "/products/4095.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit smoothie is made from whole fruits without any dairy ingredients. It contains added plant protein, making the drink nutritious and suitable for vegans and those monitoring protein intake."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Blends can include banana, berries, mango, pineapple and other seasonal fruits.",
+        "The absence of dairy makes the smoothie suitable for people with lactose intolerance.",
+        "Added plant protein is often derived from pea, hemp or soy.",
+        "Fruit smoothie retains most vitamins and minerals thanks to the use of whole fruits.",
+        "The recipe can be tweaked for specific goals, such as adding chia seeds, flax or nut milk."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamins and antioxidants",
+          "content": "Fruits provide vitamin C, vitamin A, folate and polyphenols that support immunity and protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports muscle growth",
+          "content": "The added plant protein supplies about 15–20 g of protein per serving, aiding muscle recovery after workouts."
+        },
+        {
+          "title": "Improves digestion",
+          "content": "Fiber from whole fruits promotes regular bowel movements and helps maintain satiety."
+        },
+        {
+          "title": "Low sugar when using appropriate fruits",
+          "content": "Choosing berries and low‑sugar fruits helps keep the glycemic index of the drink moderate."
+        },
+        {
+          "title": "Hydration",
+          "content": "The high water content of fruits helps maintain the body’s fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy to plant protein",
+          "content": "Some individuals may react to pea, soy or hemp protein."
+        },
+        {
+          "title": "High natural fruit sugars",
+          "content": "Large amounts of sweet fruits can make the smoothie calorie‑dense and raise blood sugar levels."
+        },
+        {
+          "title": "Digestive issues from excess fiber",
+          "content": "Very large servings may cause bloating or diarrhea in sensitive people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink the smoothie immediately after blending to preserve vitamins. It works well as a breakfast, post‑workout snack, or light dinner. Optionally garnish with chia seeds, nuts or fresh berries."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the blend in the refrigerator for no more than 24 hours. Longer storage may lead to flavor loss and reduced vitamin levels."
+    }
+  ]
+}

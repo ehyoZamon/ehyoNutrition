@@ -1,0 +1,75 @@
+{
+  "id": "1973",
+  "title": "Egg omelet or scrambled egg, made with oil",
+  "image": "/products/1973.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Omelets and scrambled eggs are dishes made from eggs cooked in vegetable oil. Eggs provide high‑quality protein, B‑group vitamins, vitamin D, and minerals such as iron and selenium. Cooking in oil adds energy and fat‑soluble vitamins but also raises the calorie count."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs were first domesticated more than 6,000 years ago in Southeast Asia.",
+        "Frying in oil creates a golden crust that locks moisture inside the dish.",
+        "Different oils (sunflower, olive, butter) give distinct flavors and aromas.",
+        "Eggs are often used as a binding agent in cooking, replacing flour or starch.",
+        "In 1973 the United States mandated mandatory labeling of cholesterol content in foods, including eggs."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Eggs contain all essential amino acids, making them a complete protein for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Eggs are high in vitamins B2, B6, and B12, which support energy metabolism and nervous system function."
+        },
+        {
+          "title": "Fat‑soluble vitamins",
+          "content": "Oil helps absorb vitamins A, D, E, and K present in the yolk."
+        },
+        {
+          "title": "Minerals",
+          "content": "Eggs provide iron, zinc, and selenium, important for immunity and antioxidant protection."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "Egg‑based dishes fit well into low‑carb dietary patterns."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may develop allergic reactions ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "Cholesterol",
+          "content": "The yolk contains cholesterol; people with high cholesterol should consume eggs in moderation."
+        },
+        {
+          "title": "Calorie density",
+          "content": "Cooking with oil increases the dish’s energy content, which can contribute to weight gain if over‑consumed."
+        },
+        {
+          "title": "Trans fats in oil",
+          "content": "Highly refined oils may contain small amounts of trans fats."
+        }
+      ]
+    },
+    {
+      "title": "How to Cook",
+      "content": "Beat the eggs with a pinch of salt and pepper. Heat a skillet, add 1‑2 tsp of vegetable oil, pour in the egg mixture and cook over medium heat, stirring for scrambled eggs or leaving untouched until set for an omelet."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh eggs in the refrigerator at 1‑4 °C for up to 3‑4 weeks. Cooked omelets or scrambled eggs can be kept in an airtight container in the fridge for up to 2 days, reheating before serving."
+    }
+  ]
+}

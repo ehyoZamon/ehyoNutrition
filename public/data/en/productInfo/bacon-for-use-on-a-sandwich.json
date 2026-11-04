@@ -1,0 +1,79 @@
+{
+  "id": "5010",
+  "title": "Bacon",
+  "image": "/products/5010.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bacon is cured, smoked pork meat, usually taken from the belly or back. It has a distinctive aroma, rich flavor, and becomes crispy when fried. Bacon is commonly used as a topping for sandwiches, salads, soups, and many other dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bacon has been part of cuisine since ancient Rome, where pork was salted and air‑dried.",
+        "The word “bacon” comes from the Old French “bacon,” meaning “pork, bacon.”",
+        "In the United States more than 18 million tons of bacon are consumed each year.",
+        "Bacon is a popular ingredient in culinary experiments, including desserts and cocktails.",
+        "Smoking bacon can be done hot or cold, which influences its flavor and texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Bacon provides high‑quality animal protein needed for tissue growth and repair."
+        },
+        {
+          "title": "Source of vitamin B12",
+          "content": "Vitamin B12 supports red blood cell formation and nervous system function."
+        },
+        {
+          "title": "Contains zinc",
+          "content": "Zinc helps maintain immune function and participates in protein metabolism."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Iron is essential for oxygen transport in the blood."
+        },
+        {
+          "title": "Presence of fatty acids",
+          "content": "Bacon includes monounsaturated and polyunsaturated fatty acids that can support heart health when consumed in moderation."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Bacon is salty, which can raise blood pressure if eaten frequently."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "A large amount of saturated fat may contribute to cardiovascular disease."
+        },
+        {
+          "title": "Nitrites and nitrates",
+          "content": "Smoking often involves nitrites, which can be harmful in high doses."
+        },
+        {
+          "title": "Pork allergy",
+          "content": "Some individuals may experience allergic reactions to pork."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Bacon is calorie‑dense, so portion control is important, especially on weight‑loss diets."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bacon is usually fried until crisp and added to sandwiches, salads, omelets, or used as a flavoring ingredient in soups and vegetable dishes. It can also be baked in the oven or cooked in a microwave."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bacon in the refrigerator at 0 °C–4 °C in its original packaging or an airtight container for up to 5–7 days. For longer storage, freeze it at –18 °C, where it retains quality for up to 6 months. Before use, check the smell and color: discard if it develops an off‑odor or discoloration."
+    }
+  ]
+}

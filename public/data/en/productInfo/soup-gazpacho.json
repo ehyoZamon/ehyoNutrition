@@ -1,0 +1,71 @@
+{
+  "id": "4864",
+  "title": "Soup, gazpacho",
+  "image": "/products/4864.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Gazpacho is a cold Spanish soup made from fresh vegetables such as tomatoes, cucumbers, bell peppers, onion, and garlic, seasoned with olive oil, vinegar, and spices. Served chilled, it offers a bright flavor and refreshing aroma."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Gazpacho originated in Andalusia in the 19th century as a way to use surplus summer vegetables.",
+        "Traditional recipes do not include bread, though some variations add stale bread for thickness.",
+        "There are many regional versions, including cucumber gazpacho and watermelon gazpacho.",
+        "The original recipe used wine vinegar; today apple or balsamic vinegar is common.",
+        "Gazpacho is often garnished with diced vegetables and croutons for textural contrast."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Tomatoes and peppers provide lycopene and vitamin C, which help protect cells from oxidative stress."
+        },
+        {
+          "title": "Low in calories",
+          "content": "The high water and vegetable content makes it suitable for calorie‑restricted diets."
+        },
+        {
+          "title": "Supports hydration",
+          "content": "Served cold with a high water content, it helps maintain fluid balance."
+        },
+        {
+          "title": "Contains healthy fats",
+          "content": "Olive oil adds monounsaturated fatty acids that are heart‑friendly."
+        },
+        {
+          "title": "High in fiber",
+          "content": "The vegetables supply dietary fiber, promoting healthy digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tomato allergy",
+          "content": "Some individuals may experience allergic reactions to tomatoes or other ingredients."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Adding too much salt or using ready‑made sauces can increase sodium load on the kidneys."
+        },
+        {
+          "title": "Acidity",
+          "content": "Vinegar and tomatoes make the soup acidic; people with gastritis or reflux should consume it in moderation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve gazpacho chilled in bowls or glasses, often topped with finely diced vegetables, herbs, croutons, or a drizzle of olive oil. It can be enjoyed as a light snack, a starter, or a refreshing lunch on hot days."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep gazpacho in an airtight container in the refrigerator for up to 3‑4 days. Stir well before serving, as ingredients may settle. For longer storage, freeze in portion‑size containers, though texture may change."
+    }
+  ]
+}

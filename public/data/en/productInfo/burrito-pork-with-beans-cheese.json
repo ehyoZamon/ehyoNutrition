@@ -1,0 +1,75 @@
+{
+  "id": "3302",
+  "title": "Burrito with pork, beans, cheese",
+  "image": "/products/3302.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Burrito with pork, beans, and cheese is a Mexican dish consisting of a large soft tortilla filled with sautéed pork, cooked beans, shredded cheese, and often topped with salsa, sour cream, or guacamole."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Burritos originated in northern Mexico, where tortillas served as a convenient “container” for meals on the go.",
+        "Pork in traditional burritos is often marinated with spices such as cumin, chili, and oregano for a rich flavor.",
+        "Beans, usually black or pinto, provide a valuable source of plant‑based protein and fiber.",
+        "Shredded cheese, commonly cheddar or Mexican “queso,” melts to create a creamy texture and enhance taste.",
+        "Burritos are frequently served with a wedge of lime, adding fresh acidity that balances the richness of the pork."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Pork and beans supply high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Iron source",
+          "content": "Pork provides heme iron, which is more readily absorbed, while beans add non‑heme iron."
+        },
+        {
+          "title": "Fiber",
+          "content": "Beans are rich in soluble and insoluble fiber, supporting digestive health."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Cheese contributes calcium and small amounts of vitamin D, important for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Both pork and beans contain B1, B6, and niacin, which are vital for energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat content",
+          "content": "Pork and cheese can be high in saturated fat; people with cardiovascular concerns should watch portion size."
+        },
+        {
+          "title": "Sodium levels",
+          "content": "Prepared sauces and cheese often contain a lot of salt, which may be problematic for hypertension."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese can trigger allergic reactions in individuals with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Burritos are calorie‑dense; portion control is advisable for weight management."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Burritos are usually served hot, cut in half, and eaten with hands or with a fork and knife. Add salsa, guacamole, or sour cream to taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cooked burritos in an airtight container in the refrigerator for up to 2‑3 days. For longer storage, freeze; thaw before reheating and warm in an oven or microwave."
+    }
+  ]
+}

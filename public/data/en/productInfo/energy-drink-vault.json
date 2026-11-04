@@ -1,0 +1,75 @@
+{
+  "id": "5508",
+  "title": "Energy Drink Vault",
+  "image": "/products/5508.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Vault is an energy drink designed to boost focus, endurance, and rapid recovery after physical activity. It contains 200 mg of caffeine, B‑vitamins, taurine, electrolytes, and natural flavorings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Vault uses a blend of caffeine from green coffee and guarana for a longer‑lasting effect.",
+        "Electrolytes (sodium, potassium, magnesium) are added to support fluid balance.",
+        "The drink is sugar‑free, sweetened with stevia and erythritol, making it low‑calorie.",
+        "Each 250 ml can is wrapped in aluminum foil to protect from light and preserve freshness.",
+        "Vault has undergone clinical trials on athletes, showing a 12 % improvement in reaction time."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energy boost",
+          "content": "Caffeine and taurine stimulate the central nervous system, increasing alertness and concentration."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "B‑vitamins help convert carbohydrates, fats, and proteins into usable energy."
+        },
+        {
+          "title": "Electrolyte balance",
+          "content": "Sodium, potassium and magnesium help prevent dehydration and muscle cramps."
+        },
+        {
+          "title": "Low calorie",
+          "content": "Absence of sugar and use of sweeteners make the drink suitable for calorie‑controlled diets."
+        },
+        {
+          "title": "Antioxidant protection",
+          "content": "Green tea and guarana extracts contain polyphenols that combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "People sensitive to caffeine may experience anxiety, rapid heartbeat, or insomnia."
+        },
+        {
+          "title": "Not for children or pregnant women",
+          "content": "Due to high caffeine content, the product is not recommended for children, adolescents, pregnant or nursing women."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Caffeine can amplify the effects of certain stimulants and cold medicines."
+        },
+        {
+          "title": "Stomach discomfort",
+          "content": "Some individuals may experience heartburn or gastric irritation after consumption."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Consume one 250 ml can 30 minutes before training or when energy drops. Do not exceed two cans per day. Do not mix with alcohol."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. Once opened, consume within 24 hours."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "4062",
+  "title": "Fruit Salad",
+  "image": "/products/4062.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit salad is a mixture of fresh fruits, often featuring citrus fruits (oranges, mandarins, grapefruit, lemon) combined with other seasonal fruits and tossed with a light dressing made from salad sauce or mayonnaise. The dish offers a bright aroma, juicy taste, and works well as a snack or dessert."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Citrus fruits are rich in vitamin C, which boosts immunity and improves skin health.",
+        "The combination of fruit and a light mayonnaise‑based dressing originated in the United States in the early 20th century.",
+        "Fruit salad is a popular holiday dish because its vivid colors create a festive atmosphere.",
+        "Many variations exist: honey, yogurt, nuts, mint, or ginger are often added for extra flavor.",
+        "When stored properly, the salad stays fresh for up to 24 hours; after that, the fruit may start to lose texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Citrus fruits and berries provide a powerful antioxidant that supports the immune system and fights free radicals."
+        },
+        {
+          "title": "Source of dietary fiber",
+          "content": "Fruits contain soluble and insoluble fiber that promotes healthy digestion and a feeling of fullness."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Potassium found in bananas, oranges, and kiwi helps regulate blood pressure."
+        },
+        {
+          "title": "Low‑calorie snack",
+          "content": "A moderate portion delivers energy without excessive calories, making it suitable for weight management."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Bananas, kiwi, and mango supply vitamins B6 and B9, which are important for metabolism and nervous system function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Citrus allergy",
+          "content": "Some individuals may experience allergic reactions to oranges, lemons, or grapefruit."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Fruits are naturally sweet; people with diabetes should monitor portion size."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acid from citrus can irritate sensitive tooth enamel and the stomach if consumed in excess."
+        },
+        {
+          "title": "Mayonnaise content",
+          "content": "Traditional mayonnaise adds saturated fat and calories; a lighter yogurt‑based dressing can be used as an alternative."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the salad chilled; you can add mint, nuts, or seeds for crunch. It works as a light appetizer, a side to meat dishes, or a standalone dessert. For a lighter version, replace mayonnaise with a yogurt dressing."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fruit salad in an airtight container in the refrigerator for no more than 24 hours. Stir before serving to redistribute the dressing. Discard any fruit that has darkened or lost its fresh aroma."
+    }
+  ]
+}

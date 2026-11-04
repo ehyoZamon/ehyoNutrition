@@ -1,0 +1,75 @@
+{
+  "id": "5131",
+  "title": "Coffee, espresso",
+  "image": "/products/5131.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Espresso is a concentrated coffee beverage made by forcing hot water under high pressure through finely ground coffee. It features a strong aroma, a thick crema on top, and a characteristic bittersweet flavor. Espresso serves as the base for many coffee drinks such as latte, cappuccino, and Americano."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The word “espresso” comes from Italian meaning “fast”, because the drink is prepared in 25‑30 seconds.",
+        "The first commercial espresso machine was invented in 1901 in Italy by Luigi Bezzera.",
+        "Crema is an emulsion of oils and gases that forms only under proper pressure (about 9 bar).",
+        "Espresso accounts for more than 70 % of all coffee beans consumed worldwide.",
+        "In Japan, “siphon espresso” is popular, where water passes through coffee under vacuum rather than pressure."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Espresso contains polyphenols that help combat free radicals and reduce oxidative stress."
+        },
+        {
+          "title": "Supports cognitive function",
+          "content": "Caffeine improves attention, reaction time, and short‑term memory, especially with moderate intake."
+        },
+        {
+          "title": "Boosts metabolism",
+          "content": "Caffeine increases thermogenesis, leading to a modest rise in calorie expenditure."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Espresso supplies magnesium, potassium, and manganese, essential for muscle and nerve function."
+        },
+        {
+          "title": "Enhances mood",
+          "content": "Caffeine raises dopamine and serotonin levels, which can improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "Some individuals may experience anxiety, insomnia, or rapid heartbeat with excessive consumption."
+        },
+        {
+          "title": "Increased stomach acidity",
+          "content": "Espresso can aggravate gastritis and reflux symptoms in susceptible people."
+        },
+        {
+          "title": "Impact on bone health",
+          "content": "High caffeine intake may increase calcium excretion, so those at risk of osteoporosis should limit consumption."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Caffeine can amplify the effects of certain stimulants and diminish the efficacy of sedative medications."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Espresso is served in small cups (30‑40 ml) immediately after extraction to preserve the crema. It can be enjoyed straight or used as a base for latte, cappuccino, macchiato, and Americano. Optional additions include a pinch of sugar, milk, or flavored syrups."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep ground coffee in an airtight container in a cool, dark place, preferably refrigerated, but use within a month. For optimal flavor, store whole beans and grind them just before pulling an espresso shot."
+    }
+  ]
+}

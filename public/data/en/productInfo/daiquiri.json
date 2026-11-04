@@ -1,0 +1,71 @@
+{
+  "id": "5383",
+  "title": "Daiquiri",
+  "image": "/products/5383.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Daiquiri is a classic cocktail made with rum, fresh lime juice, and sugar. It originated in Cuba in the early 20th century and quickly became popular worldwide thanks to its refreshing taste and simple preparation."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The original recipe was created by American engineer John Daiquiri in 1903.",
+        "The drink is named after the Cuban town of Daiquiri, where it was first served.",
+        "In the 1940s, Daiquiri became James Bond’s favorite cocktail, boosting its global fame.",
+        "There are many variations: strawberry, banana, passion‑fruit, and even spicy ginger versions.",
+        "Traditionally, Daiquiri is served without ice, shaking all ingredients until a smooth, slightly frothy texture is achieved."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains vitamin C",
+          "content": "Lime juice is rich in vitamin C, which supports the immune system and acts as an antioxidant."
+        },
+        {
+          "title": "Low sugar content (when made with modest sweetener)",
+          "content": "Using a small amount of sugar or a substitute makes Daiquiri less caloric than many other cocktails."
+        },
+        {
+          "title": "Beneficial compounds from rum",
+          "content": "Rum, distilled from sugarcane, contains trace polyphenols that may have antioxidant effects."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "The acidity of lime stimulates gastric juice production, helping digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol",
+          "content": "Daiquiri contains alcohol and should be consumed in moderation; avoid during pregnancy, driving, or liver disease."
+        },
+        {
+          "title": "Lime acidity",
+          "content": "High acidity can irritate the stomach lining in people with gastritis or ulcers."
+        },
+        {
+          "title": "Sugar",
+          "content": "Excess sugar adds calories and may contribute to tooth decay and blood‑glucose spikes."
+        },
+        {
+          "title": "Rum allergy",
+          "content": "Rare, but possible allergic reactions to rum components."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve Daiquiri chilled in cocktail glasses. Shake the ingredients with ice, then strain into a glass without ice. Variations may include fresh berries, mint, or spices."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the components separately: rum in a cool, dark place; lime juice in the refrigerator for 2‑3 days; sugar in a dry container. The mixed cocktail should be consumed immediately after preparation."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "241",
+  "title": "Yogurt, liquid",
+  "image": "/products/241.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Liquid yogurt is a fermented dairy product made by culturing whole milk with live bacteria Lactobacillus bulgaricus and Streptococcus thermophilus. It has a smooth, creamy consistency, a mild tangy flavor, and is often fortified with vitamins and minerals."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Liquid yogurt is commonly consumed as a drink, making it convenient for on‑the‑go consumption.",
+        "In some countries (e.g., Russia) the term “kefir” is sometimes used for similar fermented drinks, but true kefir contains different cultures.",
+        "The probiotic content can help improve gut microbiota balance.",
+        "Flavor and aroma vary with added ingredients such as fruit, honey, vanilla, etc.",
+        "Liquid yogurt is used in smoothies, sauces, and marinades."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Calcium supports bone and teeth health."
+        },
+        {
+          "title": "Source of probiotics",
+          "content": "Live cultures may aid digestion and strengthen the immune system."
+        },
+        {
+          "title": "High protein content",
+          "content": "Protein helps maintain muscle mass and promotes satiety."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt provides riboflavin (B2) and B12, important for energy metabolism."
+        },
+        {
+          "title": "Low‑fat options",
+          "content": "Reduced‑fat liquid yogurt is suitable for calorie‑controlled diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consumption."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey requires complete avoidance."
+        },
+        {
+          "title": "Added sugar in flavored versions",
+          "content": "Sweetened varieties increase calorie count and can affect blood glucose levels."
+        },
+        {
+          "title": "Shelf life",
+          "content": "After opening, keep refrigerated and consume within a few days."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Liquid yogurt can be drunk on its own, blended into smoothies, used as a base for sauces and dressings, or poured over cereals and muesli."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in the refrigerator at 2‑4 °C in the original container. After opening, seal tightly and do not keep at room temperature for more than 2 hours."
+    }
+  ]
+}

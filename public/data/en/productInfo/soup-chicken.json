@@ -1,0 +1,74 @@
+{
+  "id": "1907",
+  "title": "Chicken Soup",
+  "image": "/products/1907.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken soup is a classic dish made from chicken meat, bones, vegetables, and spices. It has a gentle aroma, light texture, and comforting flavor, often served as a starter in cold weather."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken broth is the base for many cuisines, including French, Chinese, and Russian.",
+        "Traditionally the soup includes carrots, onion, celery, and noodles or rice for added heartiness.",
+        "Some cultures add ginger or garlic to boost its immune‑supporting properties.",
+        "Chicken soup is often called a “home remedy” for colds because of its warming and hydrating effects."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "The chicken meat provides high‑quality protein essential for tissue repair."
+        },
+        {
+          "title": "Source of collagen",
+          "content": "Simmered bones and cartilage release collagen, supporting joint and skin health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "The soup supplies vitamins B6 and B12, important for the nervous system and metabolism."
+        },
+        {
+          "title": "Electrolytes",
+          "content": "Salt and vegetables deliver sodium and potassium, helping maintain fluid balance."
+        },
+        {
+          "title": "Hydration",
+          "content": "Warm liquid aids hydration, especially during illness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sodium content",
+          "content": "Over‑salting can raise blood pressure; monitor added salt."
+        },
+        {
+          "title": "Chicken allergy",
+          "content": "A small number of people may be allergic to chicken meat or eggs used in the recipe."
+        },
+        {
+          "title": "Contamination",
+          "content": "Undercooked bones may harbor pathogens; simmer the broth for at least 1–2 hours."
+        },
+        {
+          "title": "Histamine formation",
+          "content": "Prolonged storage can lead to histamine buildup, causing food reactions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the soup hot, often garnished with herbs, lemon wedges, noodles, rice, or potatoes. Fresh vegetables or scallions can be added for extra brightness."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the soup to room temperature, then store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze in portions for up to 2 months. Reheat to a rolling boil before serving."
+    }
+  ]
+}

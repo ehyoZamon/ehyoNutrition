@@ -1,0 +1,75 @@
+{
+  "id": "2222",
+  "title": "Canned Bean Soup, Reduced Sodium",
+  "image": "/products/2222.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Reduced‑sodium canned bean soup is a ready‑to‑eat soup made from selected dry beans, vegetables, and spices. The canning process preserves flavor and nutrients while significantly lowering added salt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beans are one of the oldest cultivated legumes, grown by humans for over 7,000 years.",
+        "Canning allows the product to be stored for 2‑3 years without quality loss.",
+        "Sodium reduction is achieved by using natural flavor enhancers and spices instead of salt.",
+        "Bean soup is considered a comfort food in many cultures, from the United States to Russia.",
+        "Legumes are rich in plant protein and fiber, making them an excellent choice for vegetarians."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "Beans provide about 8 g of protein per 100 g, supporting muscle maintenance."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Fiber aids digestion and helps maintain stable blood‑sugar levels."
+        },
+        {
+          "title": "Low sodium content",
+          "content": "Reduced salt is beneficial for individuals monitoring blood pressure."
+        },
+        {
+          "title": "Source of iron and magnesium",
+          "content": "These minerals contribute to hemoglobin formation and nervous system function."
+        },
+        {
+          "title": "Supports immunity",
+          "content": "B‑vitamins and antioxidants in beans help strengthen the immune system."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some people may experience allergic reactions to beans."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Certain recipes may add sugar or sweeteners; diabetics should check the label."
+        },
+        {
+          "title": "Preservatives",
+          "content": "While most brands avoid artificial preservatives, some may use additives that cause sensitivity."
+        },
+        {
+          "title": "Proper heating",
+          "content": "The soup should be heated to a rolling boil to eliminate any possible bacteria."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Heat the soup in the microwave or on the stove for about 5‑7 minutes. It can be garnished with fresh herbs, served with crusty bread, or paired with boiled potatoes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the unopened can in a cool, dry place away from direct sunlight. After opening, transfer leftovers to an airtight container and keep refrigerated for up to 3‑4 days."
+    }
+  ]
+}

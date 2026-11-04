@@ -1,0 +1,75 @@
+{
+  "id": "2705",
+  "title": "Lebkuchen Cookie",
+  "image": "/products/2705.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lebkuchen is a traditional German cookie made with honey, spices, nuts, and dried fruit. The dough is soft and aromatic, while the finished treat has a crisp edge and a gently spiced flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lebkuchen originated in medieval monasteries as an energy snack for fasting monks.",
+        "Typical ingredients include almonds, hazelnuts, raisins, and orange zest.",
+        "Regional variations exist: Bavarian recipes add ginger, Thuringian versions use cardamom.",
+        "The cookies are often glazed with powdered sugar to resemble snow.",
+        "Around Christmas, lebkuchen is considered a symbol of warmth and coziness."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in nuts and dried fruit",
+          "content": "Nuts and dried fruit provide healthy fats, vitamins, and minerals."
+        },
+        {
+          "title": "Contains honey",
+          "content": "Honey offers antioxidant properties and may support immune function."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Dietary fiber aids digestion and promotes satiety."
+        },
+        {
+          "title": "Spice content",
+          "content": "Ginger, cinnamon, and clove have anti‑inflammatory effects."
+        },
+        {
+          "title": "Energy dense",
+          "content": "The combination of carbs and fats makes lebkuchen a quick source of energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Nut allergy",
+          "content": "Lebkuchen contains almonds and hazelnuts, which can trigger allergic reactions."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Honey and added sugar make the cookie calorie‑dense; moderation is advised."
+        },
+        {
+          "title": "Gluten presence",
+          "content": "The dough is usually wheat‑based, unsuitable for people with celiac disease."
+        },
+        {
+          "title": "Acidity",
+          "content": "Some recipes use lemon juice; individuals with acid reflux should be cautious."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Lebkuchen can be enjoyed as a standalone snack, served with tea or coffee, used in dessert platters, or crumbled over yogurt or ice cream."
+    },
+    {
+      "title": "Storage",
+      "content": "Store lebkuchen in an airtight container in a cool, dry place. For longer shelf life, keep it in the refrigerator to prevent moisture‑related spoilage."
+    }
+  ]
+}

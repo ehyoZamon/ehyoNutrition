@@ -1,0 +1,75 @@
+{
+  "id": "5132",
+  "title": "Coffee, espresso, decaffeinated",
+  "image": "/products/5132.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Decaffeinated coffee is made from beans that have had almost all caffeine removed while preserving the characteristic aroma and flavor. Decaf espresso beans are usually roasted to a medium‑dark level to achieve a rich, full‑bodied taste similar to regular espresso, but without the stimulating effect."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Decaffeination can be performed by several methods: solvent‑based, super‑critical CO₂, or the water‑based “Swiss Water” process.",
+        "Most of the caffeine is removed while the beans are still green, before roasting.",
+        "Decaf espresso is often offered in cafés for customers who want the espresso experience without caffeine.",
+        "Decaffeinated coffee typically contains less than 0.1 % of the original caffeine content.",
+        "Some decaf varieties may exhibit a brighter acidity compared to their regular counterparts due to the processing method."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Antioxidants",
+          "content": "Even without caffeine, coffee retains polyphenols and chlorogenic acid, which help combat free radicals."
+        },
+        {
+          "title": "Metabolic support",
+          "content": "Some studies suggest decaf coffee may improve insulin sensitivity."
+        },
+        {
+          "title": "Liver health",
+          "content": "Regular consumption of decaf coffee is associated with a lower risk of cirrhosis and liver cancer."
+        },
+        {
+          "title": "Cognitive function",
+          "content": "Antioxidant compounds in coffee can support memory and attention even without caffeine."
+        },
+        {
+          "title": "Cardiovascular support",
+          "content": "Beneficial coffee compounds may help lower blood pressure in some individuals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Residual caffeine",
+          "content": "Although low, trace amounts of caffeine may still affect highly sensitive individuals."
+        },
+        {
+          "title": "Chemical solvents",
+          "content": "Some decaffeination methods use solvents (e.g., methylene chloride) that are fully removed but can raise consumer concerns."
+        },
+        {
+          "title": "Increased acidity",
+          "content": "Decaf coffee can be more acidic, potentially irritating the stomach of people with gastritis."
+        },
+        {
+          "title": "Coffee allergy",
+          "content": "A small number of people may experience allergic reactions to coffee components."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "For espresso, use ground decaf coffee at standard doses (about 7–9 g per shot). It can also be brewed as filter coffee, Aeropress, or French press. Serve plain, with milk, or cream, just like regular espresso."
+    },
+    {
+      "title": "Storage",
+      "content": "Store coffee in an airtight container in a cool, dry, dark place. Keep it away from moisture and strong odors. For longer shelf life, refrigerate, but use within 2–3 months to preserve flavor."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2550",
+  "title": "Barley Bread",
+  "image": "/products/2550.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Barley bread is made from whole barley grain or flour, often blended with wheat. It has a dense crumb, a mildly nutty flavor, and a dark‑golden crust. Barley is rich in fiber and β‑glucan, making this bread nutritious and filling."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Barley is one of the oldest cultivated grains, grown by humans for over 10,000 years.",
+        "In ancient Egypt barley bread was offered to the gods as a sacred food.",
+        "The high β‑glucan content can help lower cholesterol levels.",
+        "Barley contains antioxidants such as selenium and vitamin E.",
+        "Traditional Scandinavian “rugbrød” often combines barley and rye flours."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Fiber supports digestion, promotes satiety, and helps regulate blood sugar."
+        },
+        {
+          "title": "Contains β‑glucan",
+          "content": "This soluble fiber can reduce LDL cholesterol and support immune function."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Barley provides thiamine, niacin, and folate, essential for energy metabolism."
+        },
+        {
+          "title": "Rich in minerals",
+          "content": "It supplies magnesium, phosphorus, iron, and zinc, which aid muscle and nerve health."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "Compared with white wheat bread, barley bread raises blood glucose more slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten",
+          "content": "Barley contains gluten, so the product is unsuitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "High phytic acid",
+          "content": "Phytic acid can impair mineral absorption; soaking or fermenting the dough can reduce its level."
+        },
+        {
+          "title": "Cereal allergy",
+          "content": "Some individuals may experience an allergic reaction to barley."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Barley bread works well toasted, in sandwiches, as a soup side, or as a base for breadcrumbs. It can be grilled with olive oil and herbs or used for open‑face toppings."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the bread in a paper bag or bread box at room temperature for up to 3 days. For longer storage, freeze it in an airtight bag for up to 2 months. Thaw at room temperature before use."
+    }
+  ]
+}

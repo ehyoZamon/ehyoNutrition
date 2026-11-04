@@ -1,0 +1,75 @@
+{
+  "id": "5225",
+  "title": "Coffee, Cappuccino",
+  "image": "/products/5225.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cappuccino is a popular coffee drink made of espresso, hot milk, and a thick layer of milk foam. The name comes from the Italian “cappuccino,” referring to the color of the Capuchin monks’ robes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cappuccino first appeared in Italy in the early 1920s.",
+        "Traditional cappuccino follows a 1:1:1 ratio of espresso, steamed milk, and foam.",
+        "In Japan, iced cappuccino versions served over ice are common.",
+        "The foam helps trap aromatic oils from the coffee, enhancing flavor.",
+        "Some countries top cappuccino with a dusting of cocoa powder or cinnamon."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Stimulating effect",
+          "content": "Caffeine in cappuccino stimulates the central nervous system, increasing alertness and concentration."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Coffee contains polyphenols that may protect cells from oxidative stress."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "Caffeine can boost metabolic rate, helping with calorie burning."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Coffee provides vitamins B2 (riboflavin) and B3 (niacin), important for energy metabolism."
+        },
+        {
+          "title": "Calcium from milk",
+          "content": "The milk component adds calcium, beneficial for bones and teeth."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "Some individuals may experience anxiety, insomnia, or rapid heartbeat after caffeine."
+        },
+        {
+          "title": "Higher calorie content",
+          "content": "Milk and foam add calories, so portion control is advisable, especially on a diet."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should use lactose‑free or plant‑based milks."
+        },
+        {
+          "title": "Acidity",
+          "content": "Coffee can aggravate gastritis and heartburn in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Prepare",
+      "content": "For a classic cappuccino, pull a double espresso (30 ml), add an equal amount of steamed milk (≈30 ml), and top with a thick milk foam (≈30 ml). The foam should be dense and creamy; optionally garnish with cocoa or cinnamon."
+    },
+    {
+      "title": "Storage",
+      "content": "Store freshly roasted coffee beans in an airtight container in a cool, dark place for up to 2‑3 weeks. Keep milk refrigerated and use within 5‑7 days. Foam is prepared fresh and should not be stored."
+    }
+  ]
+}

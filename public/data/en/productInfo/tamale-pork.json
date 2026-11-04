@@ -1,0 +1,75 @@
+{
+  "id": "3333",
+  "title": "Pork Tamale",
+  "image": "/products/3333.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pork tamale is a traditional Mexican dish consisting of corn masa filled with seasoned pork, chilies, garlic and spices, wrapped in a corn husk and steamed until tender."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tamales are among the oldest foods in the Americas, dating back to the Maya and Aztec civilizations.",
+        "The masa is made from nixtamalized corn flour, which gives it a distinctive aroma and yellowish hue.",
+        "Regional variations may include chicken, beef, cheese, vegetables, or even sweet fillings.",
+        "Tamales are commonly served at celebrations such as Day of the Dead and Christmas.",
+        "The corn husk wrapper imparts a subtle flavor and keeps the tamale moist during cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "The pork filling provides high‑quality animal protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of vitamin B12",
+          "content": "Pork supplies vitamin B12, important for nerve function and red blood cell formation."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Iron from the meat helps maintain hemoglobin levels and prevents anemia."
+        },
+        {
+          "title": "Complex carbohydrates from masa",
+          "content": "Corn masa releases energy slowly, promoting lasting satiety."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "The corn husk and part of the masa add fiber, supporting digestive health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Tamales are often seasoned with salt and sauces, which may be a concern for people with hypertension."
+        },
+        {
+          "title": "Saturated fat",
+          "content": "Pork contains saturated fats; moderate consumption is advised for those monitoring cholesterol."
+        },
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked tamales can harbor salmonella or other bacteria."
+        },
+        {
+          "title": "Corn allergy",
+          "content": "A small number of individuals may be allergic to corn products, including the masa."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tamales are served hot, unwrapped from the corn husk. They can be enjoyed plain or topped with salsa, guacamole, sour cream, or a spicy chili sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep cooked tamales in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze them in a zip‑lock bag for up to 2 months. Reheat thoroughly to an internal temperature of 75 °C before eating."
+    }
+  ]
+}

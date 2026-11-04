@@ -1,0 +1,75 @@
+{
+  "id": "1694",
+  "title": "Hamburger",
+  "image": "/products/1694.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A hamburger is a classic fast‑food item consisting of a small beef patty (1694), a bun, lettuce, tomato slice, cheese, sauce, and optional extra toppings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first hamburger was served in the United States in the late 19th century.",
+        "There are more than 300 variations of hamburgers worldwide.",
+        "The world’s largest hamburger weighed over 1 ton.",
+        "In Japan, “rice burgers” replace the bun with compressed rice cakes.",
+        "The hamburger is often used as a symbol of American culture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "The beef patty provides high‑quality animal protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Beef is rich in heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Hamburgers supply vitamin B12, niacin, and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Zinc content",
+          "content": "Zinc contributes to immune function and wound healing."
+        },
+        {
+          "title": "Energy dense",
+          "content": "The combination of protein, fat, and carbohydrates quickly replenishes energy stores."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calories and fat",
+          "content": "Large portions and added sauces can lead to overeating and weight gain."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Beef and cheese contain saturated fats, which may raise cholesterol when consumed in excess."
+        },
+        {
+          "title": "Sodium",
+          "content": "Salty sauces and processed ingredients increase sodium intake, which can affect blood pressure."
+        },
+        {
+          "title": "Allergens",
+          "content": "The bun may contain gluten, and sauces often contain dairy, important for people with allergies."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hamburgers are typically eaten by hand, holding the bottom bun. They are often served with fries, a dip, or a drink. For a healthier option, choose a whole‑grain bun and limit sauce amounts."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared hamburger in the refrigerator for up to 2‑3 days in an airtight container. If needed, freeze for up to 2 months. Thaw in the fridge and reheat in an oven or microwave."
+    }
+  ]
+}

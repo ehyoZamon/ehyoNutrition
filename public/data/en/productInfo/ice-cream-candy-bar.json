@@ -1,0 +1,75 @@
+{
+  "id": "439",
+  "title": "Ice Cream Candy Bar",
+  "image": "/products/439.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An ice cream candy bar is a dessert that combines creamy ice cream with a crunchy chocolate coating. It often contains nuts, caramel, or fruit pieces inside. The format is portable, making it popular year‑round."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first ice‑cream bar hit the U.S. market in the 1970s as an alternative to traditional cone ice cream.",
+        "Stabilizers are added to keep the ice cream firm during temperature fluctuations.",
+        "More than 30 flavor variations exist: vanilla, chocolate, strawberry, mint‑chocolate, and others.",
+        "Bars are frequently double‑coated with dark and milk chocolate for extra crunch.",
+        "In some countries the bars are sold in mini‑size portions for children."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "The dairy base provides a notable amount of calcium, essential for bones and teeth."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "B2 and B12 vitamins in the milk support energy metabolism."
+        },
+        {
+          "title": "Small amount of protein",
+          "content": "Milk protein contributes to tissue repair."
+        },
+        {
+          "title": "Quick energy",
+          "content": "The bar delivers fast‑acting calories, useful during active days."
+        },
+        {
+          "title": "Mood boost",
+          "content": "Sweet taste can improve mood and reduce stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption may lead to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should choose dairy‑free versions."
+        },
+        {
+          "title": "Nut and gluten allergies",
+          "content": "Some bars contain nuts, peanuts, or wheat crumbs, which can trigger allergic reactions."
+        },
+        {
+          "title": "Melting in heat",
+          "content": "Storing in hot environments can cause the bar to melt and lose its texture."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the bar straight from the wrapper, optionally letting it soften for a few minutes. It can be chopped and added to ice cream, yogurt, or used as a topping for desserts."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C (0 °F) or lower. Once removed from the freezer, consume within 2–3 days to prevent ice crystal formation."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "5322",
+  "title": "Fruit punch",
+  "image": "/products/5322.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit punch is a refreshing beverage made from fruit juices mixed with carbonated water. It combines the natural sweetness of fruits with a light fizz, creating a bright flavor suitable for both children and adults."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first fruit punch appeared in the United States in the early 1920s.",
+        "Blending different juices (orange, pineapple, cherry) provides a variety of taste notes.",
+        "Carbonated water helps quench thirst more quickly.",
+        "Punch is often served at parties and summer cafés as a non‑alcoholic alternative."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Vitamin boost",
+          "content": "Fresh fruit juice is rich in vitamin C and other antioxidants that support the immune system."
+        },
+        {
+          "title": "Hydration",
+          "content": "Carbonated water contributes to rapid fluid replenishment."
+        },
+        {
+          "title": "Low in fat",
+          "content": "The drink contains virtually no fat, making it suitable for low‑fat diets."
+        },
+        {
+          "title": "Mineral content",
+          "content": "Fruit juices provide potassium, magnesium, and small amounts of calcium, beneficial for heart and muscle function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Some versions may contain added sugar, increasing the calorie count."
+        },
+        {
+          "title": "Acidity",
+          "content": "High acidity of fruit juices can irritate the stomach in people with gastritis."
+        },
+        {
+          "title": "Carbonation",
+          "content": "The fizz may cause bloating in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve fruit punch chilled in glasses or cups. Garnish with fruit slices, mint leaves, or ice cubes. It works as a standalone drink or as a base for non‑alcoholic cocktails."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep prepared punch in the refrigerator in a sealed container for no more than 3‑4 days. For longer storage, keep the carbonated water separate from the juice to preserve fizz."
+    }
+  ]
+}

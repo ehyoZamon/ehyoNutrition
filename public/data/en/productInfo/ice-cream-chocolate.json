@@ -1,0 +1,75 @@
+{
+  "id": "431",
+  "title": "Ice cream, chocolate",
+  "image": "/products/431.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate ice cream is a frozen dessert made from milk, cream, sugar and cocoa mass or chocolate chips. It features a smooth, creamy flavor with a pronounced chocolate note and a characteristic velvety texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first chocolate‑flavored ice cream appeared in the United States in the early 20th century.",
+        "Chocolate ice cream is often used as a base for ice‑cream suflés and milkshakes.",
+        "Dark chocolate in the recipe increases antioxidant content compared with plain vanilla ice cream.",
+        "In many countries, nuts or caramel pieces are added for extra texture.",
+        "There is a “soft‑serve” version that is served immediately after freezing, without a hardening period."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of antioxidants",
+          "content": "Cocoa mass contains flavonoids that help combat free radicals."
+        },
+        {
+          "title": "Provides calcium",
+          "content": "Dairy ingredients supply calcium, essential for bones and teeth."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Combines carbohydrates and fats for a quick source of energy."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk and chocolate provide vitamin B12 and riboflavin, supporting the nervous system."
+        },
+        {
+          "title": "Mood improvement",
+          "content": "Chocolate stimulates serotonin production, which can enhance mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption may contribute to weight gain and increase diabetes risk."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Contains dairy, which can cause discomfort for those who are lactose intolerant."
+        },
+        {
+          "title": "Allergy to cocoa or milk",
+          "content": "Some individuals may experience allergic reactions."
+        },
+        {
+          "title": "Caloric density",
+          "content": "A typical serving (100 g) contains about 200–250 kcal."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve chocolate ice cream in cones, cups, or as part of desserts such as cakes, parfaits, and milkshakes. It pairs well with berries, nuts, caramel sauce, or a sprinkle of grated chocolate."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep ice cream in a freezer at –18 °C (0 °F) or lower. After opening, store in an airtight container to prevent absorption of other odors. Do not thaw and refreeze."
+    }
+  ]
+}

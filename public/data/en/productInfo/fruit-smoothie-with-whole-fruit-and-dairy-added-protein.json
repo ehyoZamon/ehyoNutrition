@@ -1,0 +1,75 @@
+{
+  "id": "314",
+  "title": "Fruit Smoothie",
+  "image": "/products/314.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A fruit smoothie with whole fruit, dairy, and added protein is a nutrient‑dense beverage that blends the natural sweetness of ripe fruit, the creamy texture of milk, and an extra protein boost to support muscle recovery and satiety."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Whole‑fruit blends retain fiber, vitamins, and minerals that are lost when using only fruit purées.",
+        "Dairy adds calcium and vitamin D, contributing to bone health.",
+        "Protein from whey or plant isolates improves the amino‑acid profile of the drink.",
+        "Athletes often use fruit smoothies as a quick post‑workout recovery shake.",
+        "Varying the fruit mix lets you switch from tropical to berry‑focused flavors."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamins and antioxidants",
+          "content": "Fruits provide vitamin C, vitamin A, and polyphenols that support immunity and protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports muscle mass",
+          "content": "Added protein supplies essential amino acids for muscle repair and growth."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Dairy ingredients help strengthen bones and teeth."
+        },
+        {
+          "title": "Fiber for digestion",
+          "content": "Whole fruit retains dietary fiber, promoting healthy gut function."
+        },
+        {
+          "title": "Sustained energy",
+          "content": "The combination of natural fruit sugars and slower‑digesting carbs provides lasting fullness and energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy or lactose intolerance",
+          "content": "People with these conditions should use plant‑based milk alternatives."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Multiple sweet fruits can raise the drink’s glycemic index; diabetics should monitor portion size."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts of fruit and protein may cause bloating in sensitive individuals."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Protein and dairy increase calories; consider the portion within your daily energy budget."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Consume the smoothie immediately after blending to preserve vitamin freshness. It works well as a breakfast, post‑workout snack, or light dinner. Add ice for extra refreshment or swap dairy for a plant‑based milk if a lactose‑free option is needed."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared smoothie in an airtight container in the refrigerator for up to 24 hours. For longer storage, portion and freeze; thaw in the fridge before drinking and give it a quick shake."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2245",
+  "title": "Vegetarian Stew",
+  "image": "/products/2245.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Vegetarian stew is a hearty dish made from a variety of vegetables, legumes, and spices. It is rich in fiber, vitamins, and minerals, making it suitable for vegetarians and anyone looking to reduce meat consumption."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Traditional stews are cooked slowly to allow vegetables to fully develop their flavors.",
+        "Legumes such as lentils or beans add protein and make the dish more filling.",
+        "A mix of carrots, celery, tomatoes, and zucchini provides a wide range of vitamins and antioxidants.",
+        "Vegetarian stew can be repurposed as a base for cold soups or casseroles."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Fiber supports digestion, promotes satiety, and helps maintain healthy blood sugar levels."
+        },
+        {
+          "title": "Plant‑based protein source",
+          "content": "Legumes supply a complete set of amino acids essential for muscle and tissue health."
+        },
+        {
+          "title": "B‑vitamin complex",
+          "content": "Vegetables and legumes provide B6, folate, and niacin, which are important for energy metabolism."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Tomatoes, carrots, and spices like turmeric are rich in antioxidants that protect cells from oxidative stress."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "The absence of meat makes the stew suitable for heart‑healthy diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may experience allergic reactions to beans, peas, or lentils."
+        },
+        {
+          "title": "Oxalate content",
+          "content": "Certain vegetables (e.g., spinach) can increase oxalate levels, which may be a concern for kidney‑stone‑prone people."
+        },
+        {
+          "title": "Potential sodium levels",
+          "content": "Using prepared broths or soy sauce can raise the salt content of the stew."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the stew hot as a main dish or alongside whole‑grain cereals, quinoa, rice, or bread. It stores well in the fridge for reheating and can also be used as a filling for pies."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the stew in an airtight container in the refrigerator for up to 4‑5 days. For longer storage, freeze in portions for up to 3 months. Reheat thoroughly before consuming."
+    }
+  ]
+}

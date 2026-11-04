@@ -1,0 +1,75 @@
+{
+  "id": "334",
+  "title": "Enfamil Infant, powder, prepared with tap water",
+  "image": "/products/334.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Enfamil Infant is a powdered infant formula designed for babies from birth to 12 months. It provides proteins, fats, carbohydrates, vitamins, and minerals essential for growth and development. Preparation is done with clean tap water according to the manufacturer’s instructions."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Enfamil is one of the most recognized infant nutrition brands, produced by Mead Johnson.",
+        "The formula is enriched with DHA and ARA – fatty acids important for brain and eye development.",
+        "It is formulated according to WHO recommendations for early childhood nutrition.",
+        "The product has undergone clinical trials confirming its safety and efficacy.",
+        "Enfamil Infant is available in various package sizes for parental convenience."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports growth and development",
+          "content": "The blend offers an optimal balance of proteins, fats, carbohydrates, B‑vitamins, vitamin D, and calcium to promote healthy bone and muscle growth."
+        },
+        {
+          "title": "Brain development",
+          "content": "DHA and ARA help build neural pathways, enhancing cognitive function and vision in infants."
+        },
+        {
+          "title": "Immune support",
+          "content": "Vitamin C, zinc, and iron strengthen the immune system, increasing resistance to infections."
+        },
+        {
+          "title": "Easy digestion",
+          "content": "Proteins are partially hydrolyzed, making them easier to digest and reducing the risk of colic."
+        },
+        {
+          "title": "Balanced blood‑sugar level",
+          "content": "Carbohydrates are provided as lactose, which raises blood glucose slowly, delivering steady energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "Some infants may develop an allergy to casein or whey; if symptoms appear, discontinue use and consult a pediatrician."
+        },
+        {
+          "title": "Incorrect reconstitution",
+          "content": "Too concentrated or too diluted formula can cause dehydration or over‑feeding; always follow the water‑to‑powder ratio."
+        },
+        {
+          "title": "Water temperature control",
+          "content": "Water should be warm (~37 °C); water that is too hot can degrade nutrients, while cold water may cause discomfort."
+        },
+        {
+          "title": "Shelf life",
+          "content": "After opening, use the formula within 30 days and store it in a dry, light‑protected place."
+        }
+      ]
+    },
+    {
+      "title": "How to Prepare",
+      "content": "Measure the recommended amount of powder (usually 1 scoop per 30 ml of water), add clean warm tap water, and stir thoroughly until fully dissolved. Allow the mixture to cool to body temperature before feeding."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the unopened container in a cool, dry place away from direct sunlight. After opening, seal tightly and use within one month."
+    }
+  ]
+}

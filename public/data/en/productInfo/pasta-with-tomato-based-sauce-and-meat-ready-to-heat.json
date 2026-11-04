@@ -1,0 +1,75 @@
+{
+  "id": "3600",
+  "title": "Pasta with tomato-based sauce and meat, ready-to-heat",
+  "image": "/products/3600.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pasta with tomato-based sauce and meat is a ready‑to‑heat meal that can be quickly warmed in a microwave or on the stove. It contains pasta, a tomato sauce, pieces of selected meat and spices. Designed for convenient and tasty nutrition at any time."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The tomato sauce is made from ripe tomatoes, giving the dish a bright flavor and aroma.",
+        "The meat is usually beef or pork, pre‑seared and seasoned with herbs.",
+        "The pasta is often fortified with B‑vitamins and iron, making it nutritionally rich.",
+        "The dish can be stored in the refrigerator for up to 5 days or frozen for up to 3 months.",
+        "Heating typically takes 2–3 minutes in a microwave."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Meat and pasta provide complete protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Rich in complex carbohydrates",
+          "content": "Pasta supplies sustained energy through complex carbs, helping maintain blood‑sugar levels."
+        },
+        {
+          "title": "Vitamins and minerals",
+          "content": "Tomato sauce offers vitamin C, lycopene and potassium, while the meat contributes iron and zinc."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "Thermally processed ingredients make the meal soft and easy on the stomach."
+        },
+        {
+          "title": "Convenient and time‑saving",
+          "content": "A ready‑made dish provides a complete meal quickly without cooking."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sodium content",
+          "content": "The tomato sauce can be salty; people monitoring sodium intake should consider portion size."
+        },
+        {
+          "title": "Gluten allergy",
+          "content": "Wheat pasta contains gluten, making the product unsuitable for those with celiac disease."
+        },
+        {
+          "title": "Fat content",
+          "content": "Meat pieces may contain saturated fats; moderation is recommended."
+        },
+        {
+          "title": "Thermal safety",
+          "content": "Insufficient heating may leave cold spots where bacteria could survive."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Heat the meal in a microwave (800 W) for 2–3 minutes, stirring halfway through. If needed, finish heating on the stovetop while stirring. Serve hot, optionally topped with grated cheese or fresh herbs."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep refrigerated at 0–4 °C for no more than 5 days. For longer storage, freeze at –18 °C for up to 3 months. Ensure the packaging is intact before reheating."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5007",
+  "title": "Pepper",
+  "image": "/products/5007.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pepper is a flavorful vegetable used worldwide in cooking. There are several types: sweet (bell) pepper and hot (chili) pepper. Pepper adds a bright taste and aroma that enhances sandwiches, giving them a pleasant bite and freshness."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sweet pepper contains more vitamin C than any fruit.",
+        "Hot pepper contains capsaicin, the compound responsible for the burning sensation.",
+        "There are over 30 varieties of bell pepper in different colors – red, yellow, orange, and green.",
+        "Pepper was first domesticated in Central and South America more than 6,000 years ago.",
+        "Capsaicin is used in medicine for pain relief and metabolism boosting."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system, aids collagen synthesis, and improves iron absorption."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Carotenoids and flavonoids in pepper protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports heart health",
+          "content": "Capsaicin and potassium help lower blood pressure and improve vascular function."
+        },
+        {
+          "title": "Improves digestion",
+          "content": "Capsaicin stimulates gastric juice production, enhancing food digestion."
+        },
+        {
+          "title": "Provides fiber",
+          "content": "Dietary fiber aids regular bowel movements and promotes satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to pepper, such as skin rashes or swelling."
+        },
+        {
+          "title": "Stomach irritation",
+          "content": "Consuming large amounts of hot pepper can irritate the stomach lining and cause heartburn."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Capsaicin may enhance the effects of certain anticoagulants, so moderation is advised for those on such medication."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pepper can be used fresh in sandwiches, sliced into rings or strips. Sweet pepper is often roasted, grilled, or pickled. Hot pepper is added to sauces, pastes, and marinades for heat."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh pepper in the refrigerator’s vegetable drawer, placed in a perforated bag. It stays crisp and aromatic for up to a week. Frozen pepper can be kept for up to 8 months in an airtight container."
+    }
+  ]
+}

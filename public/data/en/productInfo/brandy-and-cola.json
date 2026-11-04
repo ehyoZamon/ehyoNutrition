@@ -1,0 +1,63 @@
+{
+  "id": "5416",
+  "title": "Brandy and Cola",
+  "image": "/products/5416.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Brandy and cola is a mix of classic brandy and carbonated cola, creating a refreshing, slightly sweet drink with the aroma of aged spirit. It is often served over ice as a cocktail."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Brandy is produced by distilling wine, and its aging in oak barrels gives it a distinctive flavor.",
+        "The combination of brandy and cola is popular in the US and Europe as a light evening cocktail.",
+        "In some countries the drink is called “Brandy‑Cola” or “Brandy‑Cola Freeze”.",
+        "Cola is chosen for its sweetness, which softens the strength of the brandy.",
+        "A variant with lime or lemon adds an extra citrus note."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Antioxidants in brandy",
+          "content": "Brandy contains polyphenols that may provide antioxidant effects."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Caffeine in cola and alcohol in brandy give a quick energy lift and a feeling of alertness."
+        },
+        {
+          "title": "Digestive aid",
+          "content": "Moderate alcohol can stimulate gastric juice secretion, aiding digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol content",
+          "content": "Brandy contains about 35–40 % alcohol; excessive consumption can lead to intoxication."
+        },
+        {
+          "title": "Sugar in cola",
+          "content": "High sugar content increases calories and may contribute to tooth decay and weight gain."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Alcohol can amplify the effects of certain drugs, so caution is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pour 30–50 ml of brandy into a glass with ice, add 150–200 ml of cola, stir gently. Optionally garnish with a lemon or lime wedge."
+    },
+    {
+      "title": "Storage",
+      "content": "Brandy should be kept in a tightly sealed bottle in a cool, dark place. Cola should be refrigerated after opening to maintain carbonation."
+    }
+  ]
+}

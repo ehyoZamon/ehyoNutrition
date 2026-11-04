@@ -1,0 +1,71 @@
+{
+  "id": "4872",
+  "title": "Minestrone Soup",
+  "image": "/products/4872.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Minestrone is a hearty Italian vegetable soup made with seasonal vegetables, legumes, pasta or rice, and aromatic herbs. It is known for its rich flavor and nutritional value, as well as its flexibility—any combination of ingredients can be used."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The name “minestrone” comes from the Italian “minestra” meaning “soup”, with the augmentative suffix “-one” indicating a large soup.",
+        "Traditional recipes vary by Italian region and season, so each cook can add their favorite vegetables.",
+        "Classic versions often use cannellini beans, but any type of bean can be substituted.",
+        "Minestrone is commonly finished with grated Parmesan cheese and fresh parsley.",
+        "The soup is a symbol of Italian home cooking and is frequently prepared in large pots for family meals."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vegetables",
+          "content": "Minestrone provides a wide range of vegetables that are sources of vitamins A, C, K, and folate."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Legumes and vegetables supply fiber that supports healthy digestion and blood‑sugar regulation."
+        },
+        {
+          "title": "Low in fat",
+          "content": "The soup is typically prepared with minimal added oil, making it suitable for low‑fat diets."
+        },
+        {
+          "title": "Plant‑based protein source",
+          "content": "Beans and, when used, pasta or rice deliver a complete set of essential amino acids."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Tomatoes, carrots, and greens contain lycopene, beta‑carotene, and other antioxidants that protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may experience allergic reactions to beans or peas used in the soup."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Using prepared broth or adding salt can raise sodium levels; it is advisable to monitor salt usage."
+        },
+        {
+          "title": "Tomato acidity",
+          "content": "Tomatoes can increase stomach acidity, which may be problematic for people with gastritis."
+        }
+      ]
+    },
+    {
+      "title": "How to Serve",
+      "content": "Serve minestrone hot, topped with grated Parmesan cheese and fresh herbs. A slice of toasted bread or croutons can be added for extra crunch."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the soup to room temperature, then store in an airtight container in the refrigerator for up to 3 days. Reheat on the stove, adding a splash of water or broth to restore the desired consistency."
+    }
+  ]
+}

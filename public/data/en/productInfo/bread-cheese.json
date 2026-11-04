@@ -1,0 +1,79 @@
+{
+  "id": "2380",
+  "title": "Bread, cheese",
+  "image": "/products/2380.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bread is a baked product made from dough of flour, water, yeast and salt. Cheese is a dairy product obtained by curdling milk and allowing it to mature. Together they are commonly enjoyed as sandwiches, snacks and various dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bread is one of the oldest foods, with a history dating back over 14,000 years.",
+        "There are more than 2,000 varieties of cheese, differing in flavor, texture and aging process.",
+        "In many cultures bread symbolizes hospitality and prosperity.",
+        "Certain cheeses contain probiotics that support gut health.",
+        "The bread‑cheese combination appears in traditional dishes worldwide, such as French croque‑monsieur or Italian panini."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energy source",
+          "content": "Bread provides quick‑release carbohydrates, while cheese supplies protein and fat, making a balanced energy boost."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Cheese is a rich source of calcium for bone health, and many cheeses are fortified with vitamin D."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Live‑culture cheeses (e.g., brie, camembert) help maintain a healthy intestinal microbiome."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Whole‑grain bread contains B1, B3 and folate, essential for metabolism."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "Cheese delivers complete protein needed for tissue growth and repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk‑protein allergy",
+          "content": "Some individuals may be allergic to casein or lactose found in cheese."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Many cheeses are salty, which can be problematic for hypertension."
+        },
+        {
+          "title": "Gluten in bread",
+          "content": "Traditional bread contains gluten, unsuitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The bread‑cheese combo can be calorie‑rich, so portion control is advised."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Some cheeses are high in saturated fat, which may affect cholesterol levels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spread soft cheese on bread, make sandwiches, toast with melted cheese, or serve cheese slices alongside fresh bread. Cheese can be grated, cubed, added to salads, casseroles, or enjoyed as a snack."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bread in a dry place in a bread box or bag; freeze if not used quickly. Keep cheese refrigerated, wrapped in parchment and foil to prevent drying; hard cheeses last weeks, soft cheeses a few days."
+    }
+  ]
+}

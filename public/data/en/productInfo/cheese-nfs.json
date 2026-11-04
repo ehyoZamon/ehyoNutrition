@@ -1,0 +1,79 @@
+{
+  "id": "503",
+  "title": "Cheese, NFS",
+  "image": "/products/503.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cheese is a dairy product made by coagulating milk, separating the curds from the whey, and pressing the curds. Over 1,500 varieties exist, differing in flavor, texture, aging process, and the type of milk used (cow, goat, sheep)."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cheese has been produced since ancient Mesopotamia and Egypt.",
+        "The world’s most expensive cheese, “Pule,” can cost over $1,000 per kilogram.",
+        "Swiss cheese caves maintain constant temperature and humidity, ideal for aging.",
+        "Many regions celebrate a “cheese day” where enthusiasts sample multiple varieties.",
+        "Cheese ranges from soft (brie, camembert) to hard (cheddar, parmesan)."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Cheese provides a high amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Good source of protein",
+          "content": "Complete protein in cheese supports tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Cheese contains vitamins B2, B12, and niacin, important for energy metabolism."
+        },
+        {
+          "title": "Probiotic cultures",
+          "content": "Some aged cheeses contain live cultures that benefit gut microbiota."
+        },
+        {
+          "title": "Beneficial fatty acids",
+          "content": "Conjugated linoleic acid (CLA) in cheese may support cardiovascular health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after eating cheese."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Many cheeses are salty, which can be problematic for hypertension."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergic reactions to casein can occur in sensitive individuals."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Cheese is calorie‑dense, so portion control is advisable."
+        },
+        {
+          "title": "Contamination risk",
+          "content": "Improper storage can lead to mold growth and harmful bacteria."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cheese can be sliced for snacks, added to salads, pastas, casseroles, used in sauces, or enjoyed melted in fondue or as a topping. Pair it with fruit, nuts, or wine for a balanced snack."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cheese in the refrigerator, wrapped in parchment paper and then in foil or a sealed container. Hard cheeses keep for months, soft cheeses for about a week. Check for unwanted mold before consumption."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5200",
+  "title": "Coffee, Iced Cafe Mocha, Decaf, Nonfat",
+  "image": "/products/5200.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Iced Cafe Mocha is a cold beverage made from espresso, chocolate syrup, and nonfat milk, prepared without caffeine. It combines the aromatic taste of coffee, the sweetness of chocolate, and a light creamy texture while keeping calories low."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first \"mocha\" originated in Yemen in the 15th century, where coffee was mixed with chocolate.",
+        "Decaffeination is usually done by water or CO₂ methods, preserving most flavor notes.",
+        "Nonfat milk contains about 90 % less fat but retains most of the protein and calcium.",
+        "Cold coffee drinks gained popularity in the US in the 1990s thanks to the rise of Starbucks.",
+        "Chocolate syrup is often made from cocoa mass, sugar, and vanilla, giving the drink its distinctive aroma."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Chocolate syrup provides flavonoids that help combat free radicals."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Nonfat milk supplies calcium and vitamin D, beneficial for bones and heart."
+        },
+        {
+          "title": "Reduced caffeine intake",
+          "content": "Decaf coffee lets you enjoy the flavor without the stimulant effect, useful for caffeine‑sensitive individuals."
+        },
+        {
+          "title": "Source of protein",
+          "content": "Nonfat milk offers about 3 g of protein per 100 ml, supporting muscle maintenance."
+        },
+        {
+          "title": "Mood improvement",
+          "content": "Chocolate can boost serotonin levels, helping improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein should choose dairy‑free alternatives."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Chocolate syrup adds sugar; those monitoring glucose should watch portion size."
+        },
+        {
+          "title": "Possible additives",
+          "content": "Some brands use artificial flavors; check the ingredient list if you avoid additives."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve Iced Cafe Mocha over ice in a glass. You can top with whipped cream, dust with cocoa powder, or swap regular chocolate syrup for a diet version."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the prepared drink refrigerated in a sealed container for no more than 24 hours. Store nonfat milk at 0‑4 °C and keep chocolate syrup in a cool, dry place."
+    }
+  ]
+}

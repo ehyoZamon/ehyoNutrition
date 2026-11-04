@@ -1,0 +1,75 @@
+{
+  "id": "316",
+  "title": "Chocolate Milk Drink",
+  "image": "/products/316.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate milk drink is a ready‑to‑drink beverage made from whole milk, cocoa mass, sugar, and sometimes added flavorings such as vanilla or sea salt. It has a sweet, creamy taste with a pronounced chocolate note and is usually served cold or slightly warmed."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial chocolate milk drink appeared in the United States in the early 1920s.",
+        "Cocoa content typically ranges from 2 % to 5 % of the total volume.",
+        "In some countries the drink is sold as a concentrate that is reconstituted with water or milk.",
+        "Chocolate milk is often used as a base for desserts, smoothies, and sauces.",
+        "In Russia its popularity grew after brands introduced organic milk and \"clean\" cocoa versions."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Milk, the main ingredient, provides calcium essential for strong bones and teeth."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "The drink contains riboflavin (B2) and B12, which support energy metabolism."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Cocoa mass is high in flavonoids that help combat free radicals."
+        },
+        {
+          "title": "Mood‑enhancing",
+          "content": "Theobromine and small amounts of caffeine in cocoa can boost alertness and improve mood."
+        },
+        {
+          "title": "Supports hydration",
+          "content": "The water content of milk contributes to overall fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People lacking lactase may experience bloating, gas, or diarrhea after consumption."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Sweetened versions can contribute to weight gain and increase the risk of dental caries."
+        },
+        {
+          "title": "Cocoa allergy",
+          "content": "Rarely, individuals may have an allergic reaction to cocoa components."
+        },
+        {
+          "title": "Caloric density",
+          "content": "A 250 ml serving contains roughly 150–200 kcal, which should be considered in a calorie‑controlled diet."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chocolate milk drink can be enjoyed straight from the carton, added to coffee, blended into smoothies, or used as a base for milkshakes. If desired, gently warm it in the microwave, but avoid boiling to preserve flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the drink refrigerated at 1 °C–4 °C. Once opened, consume within 5–7 days. Do not freeze, as thawing may alter the texture."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "435",
+  "title": "Gelato, vanilla",
+  "image": "/products/435.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Gelato is an Italian frozen dessert known for its dense texture and lower overrun compared to traditional ice cream. The vanilla flavor is achieved with natural vanilla beans or extract, giving the product an aromatic, mildly sweet, and creamy taste."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Gelato is churned at a lower temperature than regular ice cream, preserving a more intense flavor.",
+        "Traditional gelato uses less cream and more milk, making it less fatty.",
+        "Vanilla flavor is often sourced from Madagascar beans, considered the best in the world.",
+        "In Italy gelato is served at about -12 °C, whereas ice cream is typically stored at -18 °C.",
+        "Gelato is frequently made without added stabilizers or emulsifiers, relying on the natural emulsification of eggs and sugar."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Lower fat content",
+          "content": "Compared with regular ice cream, gelato usually contains less cream, reducing the amount of saturated fat."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base provides calcium, essential for bone and teeth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Eggs used in the recipe supply vitamins B2 and B12, supporting energy metabolism."
+        },
+        {
+          "title": "Vanilla antioxidants",
+          "content": "Vanilla contains vanillin, an antioxidant that helps combat free radicals."
+        },
+        {
+          "title": "Moderate glycemic index",
+          "content": "The sugar in gelato is balanced with milk, leading to a smoother rise in blood glucose compared with pure sugary desserts."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Gelato contains dairy, so people with lactose intolerance should choose lactose‑free versions."
+        },
+        {
+          "title": "Egg allergy",
+          "content": "Traditional gelato recipes include egg yolks, which can trigger allergic reactions."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Despite lower fat, gelato still contains a notable amount of sugar, which can be problematic for diabetics or those monitoring weight."
+        },
+        {
+          "title": "Caloric density",
+          "content": "A typical serving (≈100 g) can contain 150–200 kcal, so portion control is important."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve gelato as scoops in cones, cups, or as a dessert portion. It pairs well with fresh fruit, nuts, chocolate sauce, or can be used as a base for milkshakes."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep gelato in the freezer at about -18 °C in an airtight container to prevent ice crystal formation. Before serving, let it sit 2–3 minutes at room temperature for a softer texture."
+    }
+  ]
+}

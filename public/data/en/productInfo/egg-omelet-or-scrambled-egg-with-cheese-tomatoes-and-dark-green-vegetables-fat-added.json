@@ -1,0 +1,75 @@
+{
+  "id": "2020",
+  "title": "Egg omelet with cheese, tomatoes, and dark‑green vegetables",
+  "image": "/products/2020.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An egg omelet prepared with creamy cheese, fresh tomatoes, and dark‑green vegetables such as spinach or broccoli, with a modest amount of added fat for flavor and texture. The dish is rich in protein, B‑vitamins, vitamin C, vitamin K, and minerals like calcium, iron, and potassium."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most nutrient‑dense foods, containing all essential amino acids.",
+        "Cream cheese adds a smooth texture and boosts calcium content.",
+        "Dark‑green vegetables are high in lutein and zeaxanthin, antioxidants beneficial for eye health.",
+        "Tomatoes provide fresh flavor and are a source of lycopene, which becomes more bioavailable after cooking.",
+        "A small amount of added fat (butter or olive oil) helps absorb fat‑soluble vitamins A, D, E, and K."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High-quality protein",
+          "content": "One serving supplies about 6 g of complete protein, supporting muscle growth and repair."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "B2, B6, and B12 support energy metabolism and nervous system function."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Cheese and green vegetables increase calcium intake, essential for bone health."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Lycopene from tomatoes and carotenoids from greens protect cells from oxidative stress."
+        },
+        {
+          "title": "Immune support",
+          "content": "Vitamin C from tomatoes and vitamin K from leafy greens help strengthen the immune system."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to egg proteins."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Egg yolks contain cholesterol; people with high cholesterol should consume in moderation."
+        },
+        {
+          "title": "Sodium and fat",
+          "content": "Cheese and added oil can raise sodium and calorie levels, which should be considered in low‑salt or calorie‑restricted diets."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked eggs may harbor Salmonella; cook until fully set."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the omelet hot, garnished with fresh herbs. It works well as a standalone breakfast, as a filling for sandwiches or wraps, or as a side to a vegetable salad."
+    },
+    {
+      "title": "Storage",
+      "content": "Store leftovers in an airtight container in the refrigerator for up to 2 days. Reheat on a skillet or in the microwave to an internal temperature of 75 °C."
+    }
+  ]
+}

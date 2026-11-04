@@ -1,0 +1,79 @@
+{
+  "id": "5115",
+  "title": "Cough Drops",
+  "image": "/products/5115.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cough drops are small pastille tablets that contain soothing and expectorant ingredients such as menthol, eucalyptus, honey, thyme extract, or other plant extracts. They are intended to relieve dry or irritated cough, soften the throat lining, and reduce discomfort."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cough drops are popular for travel because they are portable and do not require water.",
+        "Some recipes include natural honey, which has antibacterial properties.",
+        "Menthol, a common ingredient, creates a cooling sensation and eases breathing.",
+        "In Soviet pharmacy practice, cough drops were often combined with herbal decoctions like sage.",
+        "Modern sugar‑free versions use sweeteners such as stevia to lower calorie content."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Soothes irritated throat",
+          "content": "Components like honey and plant extracts form a protective layer that reduces irritation."
+        },
+        {
+          "title": "Expectorant effect",
+          "content": "Eucalyptus and menthol help thin mucus, making it easier to clear."
+        },
+        {
+          "title": "Relieves dry cough",
+          "content": "Mild sweeteners and aromatic agents lower the reflex cough response."
+        },
+        {
+          "title": "Calming effect",
+          "content": "The scent of menthol and eucalyptus provides a mild soothing sensation for the airways."
+        },
+        {
+          "title": "Convenient use",
+          "content": "Drops can be taken anytime without the need for water."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy to ingredients",
+          "content": "Honey, plant extracts, or flavorings may trigger allergic reactions."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Traditional drops contain sugar, which may be unsuitable for people with diabetes."
+        },
+        {
+          "title": "Menthol overuse",
+          "content": "High amounts of menthol can cause mucosal irritation or dizziness."
+        },
+        {
+          "title": "Not for children under 3",
+          "content": "Drops pose a choking hazard for young children."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Some herbal components may affect the action of certain drugs, for example by altering mucus consistency."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Allow the cough drop to dissolve slowly in the mouth, letting it fully melt. Do not swallow whole. Typical dosage is 1‑2 drops every 2‑3 hours, not exceeding 6‑8 per day. Consult a healthcare professional if you have a chronic cough or underlying conditions."
+    },
+    {
+      "title": "Storage",
+      "content": "Store drops in a cool, dry place in a tightly sealed container to prevent moisture absorption. At temperatures above 25 °C they may soften and lose shape. Observe the expiration date on the package and discard after it passes."
+    }
+  ]
+}

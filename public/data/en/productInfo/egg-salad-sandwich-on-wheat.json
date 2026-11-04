@@ -1,0 +1,75 @@
+{
+  "id": "2048",
+  "title": "Egg Salad Sandwich on Wheat",
+  "image": "/products/2048.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The egg salad sandwich on wheat bread is a classic light lunch or snack. Whole‑wheat bread provides a soft, slightly crunchy base, while the egg salad—made from boiled eggs, mayonnaise, mustard, and seasonings—adds a creamy, savory flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Egg salad became popular in the United States in the early 20th century as a convenient sandwich filling.",
+        "Wheat bread is often chosen over white bread for its higher fiber and B‑vitamin content.",
+        "Traditional recipes include finely chopped eggs, celery, and dill for extra aroma.",
+        "The sandwich packs well in plastic wrap, making it a favorite office lunch.",
+        "Variations may add avocado, spinach, or a light yogurt‑based dressing instead of mayo."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Eggs provide high‑quality protein essential for tissue repair and muscle maintenance."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Both wheat bread and eggs supply B12, riboflavin, and niacin, supporting energy metabolism."
+        },
+        {
+          "title": "Source of healthy fats",
+          "content": "Mayonnaise or alternative spreads contribute monounsaturated fats that can support heart health in moderation."
+        },
+        {
+          "title": "Fiber",
+          "content": "Whole‑wheat bread adds dietary fiber, aiding normal digestion."
+        },
+        {
+          "title": "Vitamin D and choline",
+          "content": "Eggs are a good source of choline, important for brain function, and contain a modest amount of vitamin D."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to eggs, ranging from mild to severe anaphylaxis."
+        },
+        {
+          "title": "High calorie content",
+          "content": "Mayonnaise and bread add calories; portion control is advisable for calorie‑restricted diets."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Eggs contain cholesterol; people with elevated cholesterol levels should consume them in moderation."
+        },
+        {
+          "title": "Gluten",
+          "content": "Wheat bread contains gluten, making the sandwich unsuitable for those with celiac disease or gluten sensitivity."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The sandwich is easy to eat by hand, preferably cut in half. It can be served cold or lightly toasted. Add lettuce, tomato, or cucumber slices for extra freshness."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the assembled sandwich in an airtight container in the refrigerator for up to 2 days. If the bread begins to dry out, wrap it tightly in plastic. Keep the egg salad separate if you need longer storage."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "242",
+  "title": "Yogurt Tube",
+  "image": "/products/242.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The yogurt tube is a single‑serve fermented milk product packed in a convenient plastic tube. It has a creamy texture, mild tanginess, and is often flavored with fruit or berry extracts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The tube design lets you eat a portion without utensils.",
+        "Thanks to airtight packaging, pasteurised yogurt stays fresh up to 30 days without refrigeration.",
+        "Yogurt tubes became popular in Russia in the early 2000s as a quick snack for kids and athletes.",
+        "Some brands enrich the product with probiotic strains for added gut health benefits.",
+        "They are a common item in school lunches because they fit easily into backpacks."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Yogurt provides calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Source of probiotics",
+          "content": "Live cultures such as Lactobacillus and Bifidobacterium support intestinal microbiota."
+        },
+        {
+          "title": "Low‑fat options",
+          "content": "Reduced‑fat yogurt delivers protein without excess calories."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Lactose is partially broken down by the fermentation process, making it easier to digest."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey may react to yogurt."
+        },
+        {
+          "title": "Added sugar in flavored versions",
+          "content": "Fruit‑flavored tubes often contain extra sugar, which can be problematic for diabetics."
+        },
+        {
+          "title": "Shelf life after opening",
+          "content": "Once opened, keep the tube refrigerated and consume within 2–3 days."
+        },
+        {
+          "title": "Probiotics and immunocompromised individuals",
+          "content": "Those with weakened immune systems should choose yogurt without live cultures."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The yogurt tube is eaten straight from the package. It can be added to smoothies, used as a topping for fruit, oatmeal or granola, or as a filling for pancakes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened tubes in a cool, dry place. After opening, keep the tube refrigerated at 2 °C–6 °C and consume within a few days."
+    }
+  ]
+}

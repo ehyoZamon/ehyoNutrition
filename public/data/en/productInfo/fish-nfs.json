@@ -1,0 +1,75 @@
+{
+  "id": "1023",
+  "title": "Fish, NFS",
+  "image": "/products/1023.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fish are aquatic vertebrates that serve as a valuable source of high‑quality protein, omega‑3 fatty acids, vitamins, and minerals. Depending on the species, fish can have a delicate or firm flavor and a variety of textures. They are widely used in cuisines around the world."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Fish contain all essential amino acids required by humans.",
+        "Omega‑3 fatty acids EPA and DHA found in fish support heart and brain health.",
+        "The fastest fish, the sailfish, can reach speeds over 100 km/h.",
+        "Some fish species, such as salmon, can change sex during their lifetime.",
+        "Fish are often used in traditional medicine to improve vision and reduce inflammation."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Fish provides high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Omega‑3 fatty acids",
+          "content": "EPA and DHA help maintain cardiovascular health, lower triglycerides, and support brain development."
+        },
+        {
+          "title": "Vitamin D",
+          "content": "Fatty fish are one of the few natural food sources of vitamin D, important for bones and immunity."
+        },
+        {
+          "title": "Minerals",
+          "content": "Fish supplies iodine, selenium, zinc, and iron, which are vital for metabolism and hormonal balance."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with red meat, fish contains less saturated fat, making it a heart‑friendly option."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals may experience allergic reactions to fish, ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "Heavy‑metal contamination",
+          "content": "Certain large predatory fish can accumulate mercury and other toxins; intake should be limited."
+        },
+        {
+          "title": "Food poisoning",
+          "content": "Improperly stored or undercooked fish can harbor bacteria and parasites that cause illness."
+        },
+        {
+          "title": "High sodium in canned fish",
+          "content": "Canned fish often contains added salt, which may be problematic for people with hypertension."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fish can be steamed, baked, grilled, fried, boiled, or eaten raw as sushi or sashimi. It pairs well with lemon, herbs, olive oil, and vegetables. For a softer texture, fish can be marinated or poached in broth."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh fish in the refrigerator at 0‑2 °C in an airtight container for up to 2 days. Keep frozen fish at –18 °C; when properly stored it retains quality for up to 6 months. Before cooking, check the smell—fresh fish should have a mild, clean scent without ammonia notes."
+    }
+  ]
+}

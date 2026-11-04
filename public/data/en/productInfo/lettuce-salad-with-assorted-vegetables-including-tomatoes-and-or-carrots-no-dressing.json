@@ -1,0 +1,71 @@
+{
+  "id": "4580",
+  "title": "Lettuce Salad",
+  "image": "/products/4580.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lettuce is a salad made from lettuce leaves with assorted vegetables, including tomatoes and/or carrots, served without dressing. It is rich in vitamins, minerals, and fiber, making it a light and nutritious option."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lettuce salads are commonly served as a basic side dish in many restaurants.",
+        "Tomatoes add bright flavor and lycopene, while carrots provide beta‑carotene.",
+        "No dressing preserves the natural taste of fresh vegetables.",
+        "Lettuce leaves are a good source of vitamin K, important for blood clotting.",
+        "The salad can be easily customized with seasonal vegetables."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamins",
+          "content": "The salad provides vitamins A, C, K, and folate, supporting immunity and vision."
+        },
+        {
+          "title": "Low in calories",
+          "content": "Its low calorie content makes it suitable for weight‑management diets."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Fiber aids digestion and promotes a feeling of fullness."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Lycopene from tomatoes and beta‑carotene from carrots help combat free radicals."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Potassium in the salad helps maintain normal blood pressure."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Vegetable allergies",
+          "content": "Some individuals may be allergic to tomatoes or carrots."
+        },
+        {
+          "title": "Bacterial contamination",
+          "content": "Raw vegetables can harbor salmonella; thorough washing is recommended."
+        },
+        {
+          "title": "Pesticide residues",
+          "content": "Choose organic produce or wash well to reduce pesticide exposure."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the salad immediately after preparation to retain its crisp texture. A pinch of salt, pepper, or a squeeze of lemon juice can be added to taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared salad in an airtight container in the refrigerator for up to 24 hours. Leaves may lose crunch, so it is best to assemble just before serving."
+    }
+  ]
+}

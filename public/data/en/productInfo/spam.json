@@ -1,0 +1,71 @@
+{
+  "id": "1010",
+  "title": "Spam",
+  "image": "/products/1010.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Spam is a canned meat product made from pork, beef, salt, sugar, water and sodium nitrite. It was first introduced in 1937 by Hormel Foods and became popular during World War II because of its long shelf life."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first advertising slogan was “It’s the meat you can’t eat without it.”",
+        "During the war Spam was supplied to the U.S. military and occupied territories as a reliable protein source.",
+        "In Hawaii Spam is a cultural icon; an annual Spam Fest celebrates it.",
+        "There are more than 30 flavor variations, including Spicy, Teriyaki and Jalapeño.",
+        "In the 2020s Spam has been featured in gourmet restaurant menus."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "One slice of Spam (≈57 g) provides about 7 g of protein, supporting muscle maintenance."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "Contains vitamin B12",
+          "content": "Vitamin B12 is essential for nerve function and red blood cell formation."
+        },
+        {
+          "title": "High energy density",
+          "content": "Its calorie density makes Spam a convenient energy source in demanding situations."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "A single slice can contain over 800 mg of salt, exceeding daily recommendations for people with hypertension."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Spam contains a notable amount of saturated fat, which may raise cholesterol levels."
+        },
+        {
+          "title": "Preservatives",
+          "content": "Nitrites used in the recipe can form potentially harmful compounds over long storage periods."
+        },
+        {
+          "title": "Meat allergy",
+          "content": "Some individuals may experience allergic reactions to pork or beef."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Spam can be eaten cold, sliced thin and fried until crisp, added to sandwiches, salads, rice dishes, or used as a filling for omelets."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened cans in a cool, dry place. After opening, transfer to an airtight container and keep refrigerated for up to 5 days."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "5280",
+  "title": "Tea, iced, bottled, black",
+  "image": "/products/5280.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Iced black tea in a bottle is a ready‑to‑drink beverage made from fully oxidized black tea leaves, cooled and sealed in a hermetic container. It offers a strong, slightly bitter flavor with a refreshing aroma, often lightly sweetened or flavored with fruit notes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Black tea is the second most consumed tea worldwide after green tea.",
+        "Oxidation (fermentation) gives black tea its dark color and robust taste.",
+        "Bottled iced teas gained popularity in the early 2000s as an alternative to sodas.",
+        "Some manufacturers add vitamin C to boost antioxidant capacity.",
+        "Bottled tea is best stored below 25 °C to preserve flavor and prevent microbial growth."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Black tea contains polyphenols such as theaflavins and thearubigins that help neutralize free radicals."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Moderate regular consumption may help lower LDL‑cholesterol levels."
+        },
+        {
+          "title": "Improves focus",
+          "content": "Caffeine stimulates the central nervous system, enhancing alertness and concentration."
+        },
+        {
+          "title": "Hydration",
+          "content": "As a liquid beverage, it contributes to daily fluid intake."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Tannins can promote digestive comfort and reduce post‑meal heaviness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine content",
+          "content": "Excessive intake may cause nervousness, insomnia, and rapid heartbeat."
+        },
+        {
+          "title": "Tannins",
+          "content": "High amounts can interfere with iron absorption from plant foods."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some versions contain added sugar, increasing calories and risk of dental caries."
+        },
+        {
+          "title": "Preservatives",
+          "content": "To extend shelf life, preservatives may be used, which some consumers prefer to avoid."
+        }
+      ]
+    },
+    {
+      "title": "How to Drink",
+      "content": "Iced bottled tea is ready to drink straight from the bottle. It can be enjoyed on its own, used in cocktails, mixed with fruit juices, or served over ice with a slice of lemon."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the bottle in a cool, dry place away from direct sunlight. After opening, refrigerate and consume within 3–5 days, sealing the cap tightly."
+    }
+  ]
+}

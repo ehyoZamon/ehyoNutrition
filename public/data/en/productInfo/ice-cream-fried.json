@@ -1,0 +1,71 @@
+{
+  "id": "462",
+  "title": "Fried Ice Cream",
+  "image": "/products/462.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fried ice cream is a dessert consisting of a frozen ice‑cream ball coated in a crumb mixture (often cookies, cornflakes or panko) and quickly deep‑fried in hot oil. The interior stays cold and creamy while the exterior becomes crisp and lightly caramelized."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Fried ice cream originated in Asian cuisine and is especially popular in Thailand, China and Japan.",
+        "The ice‑cream ball is typically frozen to –30 °C to withstand the brief frying without melting.",
+        "High‑smoke‑point oils such as peanut or canola are commonly used for frying.",
+        "The coating can be flavored with coconut, cocoa, spices or dried fruit.",
+        "Many restaurants serve it with chocolate, caramel or fruit sauces."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "As a dairy product, fried ice cream provides calcium important for bone and teeth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "The milk base supplies vitamins B2 and B12, supporting energy metabolism."
+        },
+        {
+          "title": "Protein",
+          "content": "Dairy protein contributes to tissue repair and maintenance."
+        },
+        {
+          "title": "Psychological pleasure",
+          "content": "The contrast of a hot crunchy shell and a cold creamy core enhances sensory enjoyment."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar and fat content",
+          "content": "Fried ice cream can be calorie‑dense; people watching weight or blood‑sugar levels should consume it in moderation."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Individuals with lactose intolerance or dairy allergy should choose non‑dairy alternatives."
+        },
+        {
+          "title": "Trans fats in frying oil",
+          "content": "Repeated use of oil can generate trans fats, which are detrimental to cardiovascular health."
+        },
+        {
+          "title": "Burn hazard",
+          "content": "Hot oil can cause burns; preparation and serving should be done carefully."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve fried ice cream immediately after cooking while the crust is still warm. Sprinkle with powdered sugar, toasted coconut, nuts, or drizzle with chocolate, caramel, or berry sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Fried ice cream is best enjoyed right away. If leftovers are needed, keep the frozen balls in a sealed container at –18 °C. Before refrying, fully thaw them."
+    }
+  ]
+}

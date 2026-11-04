@@ -1,0 +1,75 @@
+{
+  "id": "3332",
+  "title": "Beef Tamale",
+  "image": "/products/3332.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef tamale is a traditional Mexican dish consisting of a corn masa dough filled with seasoned stewed beef, wrapped in corn husks and steamed. The dough is slightly sweet and dense, while the beef provides a rich, savory flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tamales have been prepared in Mexico for over 2,000 years and are considered one of the oldest dishes in the Americas.",
+        "They are traditionally made in large batches for celebrations, especially Day of the Dead and Christmas.",
+        "There are more than 200 regional filling variations, ranging from sweet fruit to spicy chili and meat.",
+        "Corn husks (hojuelas) impart a distinctive aroma and keep the tamale shape during cooking.",
+        "In some regions the masa is made from fermented corn flour, which can improve digestibility."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "The beef filling provides high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Beef contains heme iron, which is more readily absorbed and helps maintain healthy hemoglobin levels."
+        },
+        {
+          "title": "Contains zinc",
+          "content": "Zinc supports immune function and wound healing."
+        },
+        {
+          "title": "Corn masa – carbohydrate source",
+          "content": "Corn provides energy and dietary fiber that promotes digestive health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef and corn together supply B6, B12, and niacin, important for metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High saturated fat content",
+          "content": "Beef can contain saturated fats, so people with cardiovascular concerns should limit portion size."
+        },
+        {
+          "title": "Sodium levels",
+          "content": "Traditional recipes often use salt and sauces, raising the sodium content."
+        },
+        {
+          "title": "Corn allergy",
+          "content": "A small number of individuals may be allergic to corn products."
+        },
+        {
+          "title": "Risk of foodborne bacteria",
+          "content": "If tamales are not cooked to an internal temperature of 74 °C (165 °F), there is a risk of salmonella or other intestinal infections."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Tamales are usually served hot, unwrapped from the husk. They can be eaten on their own or topped with salsa, guacamole, or sour cream. Fresh cilantro, lime juice, and diced onion add brightness."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cooked tamales in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze them in a freezer‑safe bag – they keep quality for about 2 months. Reheat thoroughly before serving."
+    }
+  ]
+}

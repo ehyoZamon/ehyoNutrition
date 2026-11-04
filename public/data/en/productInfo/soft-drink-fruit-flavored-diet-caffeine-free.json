@@ -1,0 +1,75 @@
+{
+  "id": "5305",
+  "title": "Soft drink, fruit flavored, diet, caffeine free",
+  "image": "/products/5305.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "This is a carbonated soft drink with a fruit flavor, designed as a diet alternative to regular sugary beverages. It contains no sugar or caffeine and is sweetened with artificial sweeteners, making it suitable for those watching their calorie intake."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first diet carbonated drink appeared in the early 20th century.",
+        "Fruit flavorings are often derived from natural extracts, but most manufacturers use synthetic analogues for flavor stability.",
+        "The lack of caffeine makes this drink popular among children and caffeine‑sensitive individuals.",
+        "Most diet drinks use sweeteners such as aspartame, sucralose, or stevia.",
+        "Carbonated water enhances the perception of flavor and provides a refreshing sensation."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low calorie content",
+          "content": "Absence of sugar and the use of sweeteners keep the calorie count low, which is helpful for weight management."
+        },
+        {
+          "title": "Caffeine‑free",
+          "content": "Does not stimulate the nervous system, suitable for people sensitive to caffeine."
+        },
+        {
+          "title": "Hydration",
+          "content": "Carbonated water contributes to overall fluid balance."
+        },
+        {
+          "title": "Vitamin profile",
+          "content": "Some versions are fortified with vitamin C or other vitamins, supporting immune health."
+        },
+        {
+          "title": "Supports diet goals",
+          "content": "Allows enjoyment of flavor without added sugar, aiding adherence to dietary restrictions."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Artificial sweeteners",
+          "content": "Certain individuals may experience gastrointestinal discomfort from artificial sweeteners."
+        },
+        {
+          "title": "Acidity",
+          "content": "Carbonic acid can contribute to tooth enamel erosion with frequent consumption."
+        },
+        {
+          "title": "Allergens",
+          "content": "Flavorings may contain trace allergens such as citrus; check labels if you have sensitivities."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some diet drinks contain small amounts of sodium; people with hypertension should account for total intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Drink",
+      "content": "Serve chilled straight from the refrigerator. Adding a slice of lemon or lime can enhance the taste. It is not recommended to mix with alcohol if you wish to keep the drink diet‑friendly."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, keep refrigerated and consume within 3–5 days."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "5522",
+  "title": "Sports Drink Gatorade G",
+  "image": "/products/5522.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Gatorade G is an electrolyte sports drink designed to replenish fluids and minerals lost during intense exercise. It contains sodium, potassium, magnesium, and carbohydrates that help maintain energy and speed up recovery."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Gatorade was created in 1965 by researchers at the University of Southern California for the US football team.",
+        "The brand offers more than 30 flavors, and G is one of the most popular thanks to its light fruity taste.",
+        "The drink contains 6% carbohydrates, providing a quick energy boost without a sharp sugar spike.",
+        "It includes electrolytes that help prevent muscle cramps.",
+        "Gatorade G is frequently used in professional sports, including the Olympic Games."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Restores electrolyte balance",
+          "content": "Sodium and potassium replace losses from sweat, supporting muscle and nerve function."
+        },
+        {
+          "title": "Supports energy levels",
+          "content": "Carbohydrates are rapidly absorbed, providing an immediate fuel source for working muscles."
+        },
+        {
+          "title": "Reduces risk of dehydration",
+          "content": "The water and electrolyte content helps re‑hydrate more quickly after intense activity."
+        },
+        {
+          "title": "Lessens muscle cramps",
+          "content": "Magnesium and potassium promote normal muscle contraction and help prevent spasms."
+        },
+        {
+          "title": "Improves post‑workout recovery",
+          "content": "The combination of carbs and electrolytes speeds glycogen replenishment and tissue repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "The drink contains simple sugars, which may be undesirable for people with diabetes or those trying to lose weight."
+        },
+        {
+          "title": "Excess sodium",
+          "content": "Individuals with hypertension should monitor intake, as the drink provides a notable amount of sodium."
+        },
+        {
+          "title": "Allergy to additives",
+          "content": "Flavorings and colorants may cause allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Not a meal replacement",
+          "content": "Gatorade is intended only for hydration and electrolyte restoration, not as a primary source of nutrients."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Consume Gatorade G before, during, and after exercise, 200–500 ml at a time. For prolonged activities, alternate with water to avoid excessive sugar intake."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the bottle in a cool, dry place away from direct sunlight. Once opened, it should be consumed within 3–5 days and kept refrigerated."
+    }
+  ]
+}

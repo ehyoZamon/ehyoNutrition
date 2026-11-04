@@ -1,0 +1,75 @@
+{
+  "id": "1746",
+  "title": "Cuban Sandwich",
+  "image": "/products/1746.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The Cuban sandwich is a hot pressed sandwich made with roasted pork, ham, Swiss cheese, pickles, and mustard, layered between two slices of Cuban bread and grilled until the crust is golden and the cheese melts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The sandwich originated in the early 1900s in Florida, where many Cuban immigrants settled.",
+        "Traditional bread is Cuban \"pan cubano,\" slightly sweet and crisp on the outside.",
+        "The classic recipe uses only Swiss cheese, though some variations add mozzarella.",
+        "Cuban sandwiches are often served with French fries and pickled vegetables.",
+        "In 2015 the Cuban sandwich was listed among the \"100 Best Foods in America\" by Food & Wine."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Roast pork and ham provide high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Calcium source",
+          "content": "Swiss cheese supplies calcium that supports bone and dental health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Meat and bread deliver B12 and other B‑vitamins important for energy metabolism."
+        },
+        {
+          "title": "Probiotics from pickles",
+          "content": "Fermented pickles contain live cultures that can benefit gut health."
+        },
+        {
+          "title": "Low added sugar",
+          "content": "The traditional recipe contains little added sugar, keeping the sandwich moderately sweet."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium",
+          "content": "Ham and pickles can be salty, which may be problematic for hypertension."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Pork and cheese are rich in saturated fats, which should be limited in heart‑healthy diets."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Swiss cheese may trigger reactions in people with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "Caloric density",
+          "content": "A Cuban sandwich is calorie‑dense, so portion control is advisable for weight management."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the sandwich hot, cut in half. It can be eaten with hands, or with a knife and fork if preferred. Optional toppings include chipotle sauce or a dash of hot sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "The sandwich is best enjoyed immediately. Leftovers can be wrapped in foil and refrigerated for up to 24 hours, then reheated in an oven or on a grill."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5512",
+  "title": "Energy drink, sugar free (Mountain Dew AMP)",
+  "image": "/products/5512.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mountain Dew AMP is a sugar‑free carbonated energy drink containing caffeine, taurine, B‑vitamins and artificial sweeteners. It is formulated to boost alertness, concentration and physical endurance without added sugar."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "AMP stands for “Advanced Molecular Performance”.",
+        "The drink was first launched in the United States in 2001 as a response to the growing demand for sugar‑free energy beverages.",
+        "It contains 150 mg of caffeine per 12 oz (355 ml), roughly the amount in a strong cup of coffee.",
+        "B‑vitamins (B3, B6, B12) help support the body’s energy metabolism.",
+        "The sweetness comes from sucralose and acesulfame‑K, not from sugar."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Increased alertness",
+          "content": "Caffeine stimulates the central nervous system, improving focus and reducing perceived fatigue."
+        },
+        {
+          "title": "Metabolic support",
+          "content": "B‑vitamins assist in converting carbohydrates, fats and proteins into usable energy."
+        },
+        {
+          "title": "Enhanced physical endurance",
+          "content": "Taurine may help muscles use energy more efficiently during exercise."
+        },
+        {
+          "title": "No sugar spike",
+          "content": "Provides an energy boost without raising blood glucose, which is beneficial for sugar‑conscious individuals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High doses can cause anxiety, insomnia, rapid heartbeat and elevated blood pressure."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Caffeine may amplify the effects of stimulants and diminish the efficacy of sedatives."
+        },
+        {
+          "title": "Individual intolerance",
+          "content": "Some people are sensitive to taurine or artificial sweeteners and may experience gastrointestinal discomfort."
+        },
+        {
+          "title": "Not for children or pregnant women",
+          "content": "Due to its caffeine content, the drink is not recommended for persons under 18, pregnant or nursing women."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Consume one 12‑oz can 30‑60 minutes before physical activity or when energy levels drop. Do not exceed 2‑3 cans per day. Avoid mixing with alcohol."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, keep refrigerated and consume within 3‑5 days."
+    }
+  ]
+}

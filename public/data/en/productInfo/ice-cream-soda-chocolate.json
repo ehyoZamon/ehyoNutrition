@@ -1,0 +1,62 @@
+{
+  "id": "456",
+  "title": "Ice Cream Soda, Chocolate",
+  "image": "/products/456.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate ice cream soda is a carbonated dessert drink that blends the creamy taste of ice cream with a sweet chocolate note and a refreshing fizz. It is often served in a glass with a scoop of ice cream and may include chocolate candy pieces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first carbonated ice cream recipes appeared in the United States in the early 20th century.",
+        "The chocolate flavor makes the drink popular with both children and adults.",
+        "The soda base gives a light foam and a characteristic \"tingling\" sensation.",
+        "In some countries the drink is served with whipped cream and a dusting of cocoa powder."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base provides calcium, essential for bone health."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Chocolate is rich in flavonoids that help combat free radicals."
+        },
+        {
+          "title": "Quick energy",
+          "content": "The soda delivers fast‑acting carbohydrates for rapid energy replenishment."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "The product contains dairy ingredients, which may cause discomfort for those with lactose intolerance."
+        },
+        {
+          "title": "Chocolate allergy",
+          "content": "Some individuals may experience allergic reactions to cocoa."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the ice cream soda chilled, immediately after preparation to retain carbonation. You can top it with whipped cream, sprinkle grated chocolate, or garnish with a cherry."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the prepared drink in the refrigerator for no more than 24 hours to maintain fizz. Longer storage will cause the carbonation to dissipate and the texture to change."
+    }
+  ]
+}

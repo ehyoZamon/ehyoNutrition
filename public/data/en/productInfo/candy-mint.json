@@ -1,0 +1,63 @@
+{
+  "id": "5111",
+  "title": "Candy Mint",
+  "image": "/products/5111.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Candy Mint (5111) are small mint-flavored candies coated with a sugary glaze. They offer a refreshing mint taste combined with a sweet note, making them a popular treat after meals and as a breath freshener."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Candy Mint first appeared in the early 20th century in Europe as a breath‑freshening confection.",
+        "The sugary glaze helps preserve the mint aroma longer.",
+        "The recipe often includes natural menthol, which intensifies the cooling sensation.",
+        "These candies are frequently used in film and theater as a prop for “minty” scenes.",
+        "In some countries they are sold in small packets of 10–20 pieces."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Freshens breath",
+          "content": "Menthol and mint stimulate saliva production, neutralizing unpleasant mouth odors."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Mint can help ease mild gastrointestinal discomfort."
+        },
+        {
+          "title": "Reduces fatigue",
+          "content": "The menthol aroma provides a mild stimulating effect, increasing alertness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Menthol allergy",
+          "content": "Some individuals may experience allergic reactions to menthol or flavoring agents."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption can contribute to tooth decay and raise blood glucose levels."
+        },
+        {
+          "title": "Stomach irritation",
+          "content": "Large amounts of mint candies may cause heartburn in people with high gastric acidity."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Candy Mint is best enjoyed one at a time, allowing the menthol to gradually release its aroma. They can be taken after a meal, as a small snack, or added to dessert presentations for a minty accent."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the candies in an airtight container in a cool, dry place away from direct sunlight. Properly stored, they retain flavor and aroma for up to 12 months."
+    }
+  ]
+}

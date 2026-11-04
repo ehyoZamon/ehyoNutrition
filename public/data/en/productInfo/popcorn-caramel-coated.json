@@ -1,0 +1,75 @@
+{
+  "id": "3001",
+  "title": "Popcorn, caramel coated",
+  "image": "/products/3001.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Caramel coated popcorn is made from popped corn kernels that are drizzled with a sweet caramel glaze. The popcorn is created by heating whole corn kernels until they burst, forming a light, crunchy base, which is then coated with a caramel syrup that gives it a golden color and a rich sweet‑caramel flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Caramel popcorn is a popular sweet snack at movie theaters and fairs.",
+        "The caramel coating often contains butter, brown sugar, and vanilla, adding a buttery taste.",
+        "Popcorn is one of the oldest snacks; early mentions come from Native American tribes in North America.",
+        "When stored in an airtight bag, caramel popcorn stays crisp and flavorful for up to 2 weeks.",
+        "There are many variations: with nuts, chocolate, sea salt, or spices."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in fat",
+          "content": "Popcorn is prepared with little added oil, so it contains less fat than many other sweet snacks."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Corn kernels are high in dietary fiber, which supports digestion and promotes satiety."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Caramel, especially when made with brown sugar, provides small amounts of antioxidants that help combat free radicals."
+        },
+        {
+          "title": "Quick energy source",
+          "content": "The carbohydrates in popcorn are rapidly absorbed, making it a convenient snack before physical activity."
+        },
+        {
+          "title": "Gluten‑free",
+          "content": "Corn is naturally gluten‑free, so caramel popcorn is suitable for people with celiac disease."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "The caramel coating adds a significant amount of sugar, which can contribute to weight gain and increase the risk of cavities if consumed frequently."
+        },
+        {
+          "title": "Corn allergy",
+          "content": "Some individuals may be allergic to corn, experiencing skin rashes or digestive reactions."
+        },
+        {
+          "title": "Burn risk",
+          "content": "Caramel popcorn can be very hot right after preparation; allow it to cool to avoid mouth burns."
+        },
+        {
+          "title": "Trans‑fat content",
+          "content": "If the caramel uses partially hydrogenated oil, the product may contain trans fats, which are harmful to heart health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Caramel popcorn is convenient as a stand‑alone snack, and it can be mixed into dessert mixes, sprinkled over ice cream, added to yogurt, or incorporated into chocolate bars. For children, serve small portions to limit sugar intake."
+    },
+    {
+      "title": "Storage",
+      "content": "Store popcorn in an airtight container in a cool, dry place away from direct sunlight. Properly stored, it remains crisp and flavorful for up to 2 weeks. Discard if the caramel becomes sticky or develops an off odor."
+    }
+  ]
+}

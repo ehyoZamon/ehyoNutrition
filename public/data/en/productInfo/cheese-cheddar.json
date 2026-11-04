@@ -1,0 +1,75 @@
+{
+  "id": "508",
+  "title": "Cheddar Cheese",
+  "image": "/products/508.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cheddar is a hard cheese with a distinctive sharp flavor, originating from the English county of Somerset. It is made from cow’s milk and aged from several months to several years, which determines its intensity of taste and color."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first cheddar was produced in the 12th century in the village of Cheddar, giving the cheese its name.",
+        "Mature cheddar can be aged up to 10 years, developing a crystalline texture and a more pronounced aroma.",
+        "The cheese’s orange hue is often enhanced with annatto, a natural pigment derived from the seeds of the achiote tree.",
+        "Cheddar is widely used in melt‑friendly dishes such as macaroni and cheese and cheeseburgers.",
+        "In the United States, cheddar is one of the most consumed cheeses."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Cheddar provides a high amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Good source of protein",
+          "content": "The cheese supplies complete protein needed for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "It contains vitamins B2 and B12, supporting energy metabolism and nervous system function."
+        },
+        {
+          "title": "Contains probiotics",
+          "content": "During aging, beneficial bacteria develop, which can promote gut health."
+        },
+        {
+          "title": "Fat‑soluble vitamins",
+          "content": "Cheddar includes vitamins A and D, important for vision and immune function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or lactose may experience reactions when consuming cheddar."
+        },
+        {
+          "title": "High saturated fat content",
+          "content": "Cheddar contains a notable amount of saturated fats, so it should be eaten in moderation."
+        },
+        {
+          "title": "Sodium levels",
+          "content": "The cheese is often salty; individuals with hypertension should monitor portion size."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Cheddar is calorie‑dense, and large servings can contribute to weight gain."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cheddar can be enjoyed sliced, grated into salads, soups, and casseroles, or used in hot dishes where it melts. Choose a younger cheddar for a milder taste and an aged cheddar for a sharper flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cheddar in an airtight container in the refrigerator at 2‑4 °C. For longer storage, wrap it in wax paper followed by aluminum foil to prevent drying out. Use the cheese within 3‑4 weeks after opening."
+    }
+  ]
+}

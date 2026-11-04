@@ -1,0 +1,75 @@
+{
+  "id": "1900",
+  "title": "Canned Beef Soup",
+  "image": "/products/1900.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Canned beef soup is a ready‑to‑eat product made from beef, vegetables, broth and spices, sealed in an airtight can. It is designed for quick heating and consumption without additional cooking."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Canning allows the product to be stored for more than a year without refrigeration.",
+        "Beef soup is a staple in military rations and backpacking meals because of its nutrition and convenience.",
+        "Mass production of canned foods became widespread in the early 20th century with the advent of steel and aluminum cans.",
+        "A typical canned beef soup provides about 5‑7 g of protein per 100 g.",
+        "There are many regional variations that add potatoes, noodles or beans."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "The beef in the soup supplies a complete set of essential amino acids needed for tissue repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Beef is rich in heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "The soup provides vitamin B12, niacin and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Electrolytes",
+          "content": "Sodium and potassium in the broth help maintain fluid and electrolyte balance."
+        },
+        {
+          "title": "Convenience",
+          "content": "A ready‑to‑eat product saves time and provides a nutritious meal without cooking."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Canned soups often contain a lot of salt, which may be problematic for people with hypertension."
+        },
+        {
+          "title": "Preservatives and additives",
+          "content": "To extend shelf life, manufacturers may use additives that some consumers prefer to avoid."
+        },
+        {
+          "title": "Beef allergy",
+          "content": "A minority of individuals can have an allergic reaction to beef."
+        },
+        {
+          "title": "Bacterial safety",
+          "content": "Bulging or damaged cans can indicate compromised seals and a risk of botulism."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Open the can and heat the contents in the microwave or on the stove until boiling (about 3‑5 minutes). Optionally garnish with fresh herbs, greens or a slice of bread."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened cans in a cool, dry place away from direct sunlight. After opening, transfer to an airtight container and keep refrigerated, consuming within 2‑3 days."
+    }
+  ]
+}

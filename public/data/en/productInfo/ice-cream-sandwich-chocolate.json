@@ -1,0 +1,75 @@
+{
+  "id": "442",
+  "title": "Chocolate Ice Cream Sandwich",
+  "image": "/products/442.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The chocolate ice cream sandwich is a dessert consisting of two soft cookies with a layer of creamy ice cream in between, coated in a chocolate glaze. It is popular in the US and Europe as a summer snack and is often sold in packs of 2–4 pieces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first ice cream sandwich appeared in the 1970s in the United States as a quick way to combine cookies and ice cream.",
+        "The chocolate version became the best‑selling thanks to the sweet chocolate and cold ice cream combination.",
+        "In some countries the sandwich is offered with extra fillings such as nuts, caramel or fruit sauces.",
+        "A single sandwich typically contains about 150–200 kcal.",
+        "Vegan versions use plant‑based milk and chocolate alternatives."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy component of the ice cream provides calcium, which is important for bones and teeth."
+        },
+        {
+          "title": "Contains vitamin D",
+          "content": "Vitamin D present in dairy helps the body absorb calcium."
+        },
+        {
+          "title": "Quick energy boost",
+          "content": "Sugar and fats in the chocolate coating supply rapid energy, useful on hot days."
+        },
+        {
+          "title": "Mood improvement",
+          "content": "Sweet desserts stimulate serotonin production, enhancing mood."
+        },
+        {
+          "title": "Antioxidant content",
+          "content": "Dark chocolate contains flavonoids that have antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "The ice cream contains lactose, which may cause discomfort for those who are intolerant."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Some individuals may experience allergic reactions to casein."
+        },
+        {
+          "title": "Trans fat presence",
+          "content": "Certain chocolate glazes may contain trans fats, which are harmful to heart health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Sandwiches are usually eaten frozen, straight from the package. They can be paired with berries, nuts, or drizzled with extra chocolate sauce. For children, cut into small pieces to prevent choking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in the freezer at –18 °C (0 °F) or lower. After opening, consume within 1–2 weeks to avoid ice crystal formation."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "483",
+  "title": "Crème brûlée",
+  "image": "/products/483.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Crème brûlée is a classic French dessert consisting of a baked custard topped with a caramelized sugar crust. Main ingredients are cream, egg yolks, sugar and vanilla. The dessert is known for its silky smooth texture and crisp caramel topping."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first recorded recipe for crème brûlée appeared in France in the 17th century.",
+        "The word “brûlée” comes from the French verb “brûler,” meaning “to burn.”",
+        "Traditionally the crust is created with a kitchen torch, though a broiler can be used as well.",
+        "Variations exist worldwide: Spain has “flan,” Italy offers “panna cotta with caramel,” and many countries have their own take.",
+        "Crème brûlée is often served in small ramekins, which promote even cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Cream and egg yolks provide calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Vitamin D",
+          "content": "Cream contains vitamin D, which aids calcium absorption."
+        },
+        {
+          "title": "Protein",
+          "content": "Egg yolks supply high‑quality protein needed for tissue repair."
+        },
+        {
+          "title": "Energy boost",
+          "content": "The combination of fats and sugar offers a quick source of energy when consumed in moderation."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to tooth decay and raise blood glucose levels."
+        },
+        {
+          "title": "Fat content",
+          "content": "Cream makes the dessert rich in saturated fats, which may affect cholesterol levels."
+        },
+        {
+          "title": "Egg allergy",
+          "content": "People allergic to eggs should avoid crème brûlée."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Crème brûlée is calorie‑dense, so portion control is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve crème brûlée chilled, caramelizing the sugar crust just before serving. It can be garnished with berries, mint leaves, or a thin drizzle of chocolate. Eat with a spoon, gently cracking the crisp topping."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared crème brûlée keeps in the refrigerator in a sealed container for 2–3 days. Re‑caramelize the top with a torch or broiler before serving."
+    }
+  ]
+}

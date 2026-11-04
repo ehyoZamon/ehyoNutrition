@@ -1,0 +1,75 @@
+{
+  "id": "1672",
+  "title": "Whopper with cheese",
+  "image": "/products/1672.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Whopper with cheese is Burger King’s signature burger made with a flame‑grilled beef patty, melted cheese, fresh vegetables, sauce and a sesame‑seed bun. The grilling gives it a distinctive smoky flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The original Whopper was introduced in 1957 in the United States.",
+        "The cheese version appeared in the early 2000s to meet growing demand for cheesier burgers.",
+        "It is sold in more than 100 countries worldwide.",
+        "Ingredients may vary slightly to meet regional regulations.",
+        "Burger King uses 100 % beef with no fillers."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein",
+          "content": "The beef patty provides high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Iron",
+          "content": "Red meat is a good source of heme iron, which is readily absorbed by the body."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "The burger contains B12, B6 and niacin, supporting energy metabolism."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Melted cheese adds calcium, important for bones and teeth."
+        },
+        {
+          "title": "Fiber from vegetables",
+          "content": "Lettuce, tomato and onion contribute a modest amount of dietary fiber."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie content",
+          "content": "A Whopper with cheese contains roughly 700–800 kcal, which can contribute to weight gain if eaten frequently."
+        },
+        {
+          "title": "Saturated fat and sodium",
+          "content": "The burger is relatively high in saturated fats and salt, which may affect cardiovascular health."
+        },
+        {
+          "title": "Allergens",
+          "content": "Contains milk, gluten, and soy (in the sauce), which can trigger allergic reactions."
+        },
+        {
+          "title": "Preservatives and additives",
+          "content": "Some components may include food additives that are unsuitable for people with sensitivities."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The burger is served in its classic bun and is meant to be eaten by hand. You can add extra sauce, remove the bun, or swap it for a whole‑grain version for a healthier twist."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared burger in the refrigerator for no more than 24 hours. For longer storage, reheat in an oven or microwave to restore the bun’s texture."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1105",
+  "title": "Fish, trout, fried",
+  "image": "/products/1105.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fried trout is a member of the salmon family that has been pan‑ or oven‑fried until a golden crust forms. The flesh is tender, mildly sweet, and retains most of its nutrients while offering a rich, savory flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Trout lives in cold, fresh waters of the Northern Hemisphere, often in mountain streams.",
+        "Several species exist, including rainbow, golden, and brown trout.",
+        "Frying preserves a high proportion of omega‑3 fatty acids, which are heart‑healthy.",
+        "In Europe, trout is traditionally served with lemon and herbs such as dill and parsley.",
+        "In Japan, fried trout is used in sushi rolls and bento boxes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega‑3",
+          "content": "Omega‑3 fatty acids help lower triglycerides and support cardiovascular health."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "Easily digestible protein aids muscle building and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains B12, B6, and niacin, which are important for energy metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "Provides selenium, phosphorus, and potassium, essential for immunity and electrolyte balance."
+        },
+        {
+          "title": "Low mercury content",
+          "content": "Compared with larger ocean fish, trout typically has lower mercury levels, making it safe for regular consumption."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals may experience allergic reactions to fish, including trout."
+        },
+        {
+          "title": "Over‑cooking",
+          "content": "Excessive frying can create harmful compounds such as acrylamide."
+        },
+        {
+          "title": "Sodium content",
+          "content": "If salt is added, monitor the amount to avoid excessive sodium intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fried trout can be served hot as a main dish, sliced into salads, used in sandwiches, or tossed with pasta. It pairs well with lemon, butter sauces, herbs, and vegetable sides."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the trout to room temperature, then store in an airtight container in the refrigerator for up to 2 days. For longer storage, freeze in a sealed bag for up to 3 months. Reheat to an internal temperature of at least 63 °C before serving."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3292",
+  "title": "Taco with meat and beans, no cheese",
+  "image": "/products/3292.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A taco is a traditional Mexican dish consisting of a soft or crispy tortilla filled with meat, beans, and various seasonings. This version uses lean beef, cooked red beans, fresh vegetables, and spices, without any cheese."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tacos originated in Mexico in the early 19th century as street food for laborers.",
+        "Traditionally the meat is grilled over an open flame, giving it a smoky flavor.",
+        "Beans in tacos provide a great source of plant protein and fiber.",
+        "Leaving out cheese makes the dish lighter and suitable for people with lactose intolerance.",
+        "Classic tacos are often served with lime, cilantro, and salsa."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Beef and beans together supply a complete set of amino acids, supporting tissue growth and repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Red meat is a good source of heme iron, which is more readily absorbed by the body."
+        },
+        {
+          "title": "Fiber from beans",
+          "content": "Beans are high in soluble and insoluble fiber, promoting digestive health."
+        },
+        {
+          "title": "Low in lactose",
+          "content": "The absence of cheese makes the dish safe for those with lactose intolerance."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Meat and beans provide B12, niacin, and riboflavin, essential for energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High saturated fat content",
+          "content": "Using fatty cuts of beef can increase saturated fat levels, which may be a concern for heart‑healthy diets."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Added salt and sauces can raise sodium intake, which should be limited for hypertension."
+        },
+        {
+          "title": "Bean allergy",
+          "content": "Some individuals are allergic to beans and should avoid this ingredient."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The combination of meat, beans, and tortilla makes the dish relatively calorie‑dense; portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Warm the tortilla, then fill it with beef, beans, fresh veggies (tomatoes, onion, lettuce) and seasonings. Optional toppings include salsa, guacamole, or a squeeze of lime."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared tacos are best eaten immediately. If needed, store meat and beans separately in airtight containers in the refrigerator for up to 2 days. Tortillas can be kept at room temperature in a sealed bag for up to 5 days."
+    }
+  ]
+}

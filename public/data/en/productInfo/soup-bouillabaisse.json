@@ -1,0 +1,70 @@
+{
+  "id": "1500",
+  "title": "Soup, bouillabaisse",
+  "image": "/products/1500.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bouillabaisse is a traditional Provençal fish stew made with several types of seafood, fish, shellfish, tomatoes, saffron and aromatic herbs. Served hot, often accompanied by croutons and rouille."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bouillabaisse originated in the port of Marseille, where fishermen used unsold catch to make a flavorful broth.",
+        "The classic recipe calls for at least three fish species: sea bass, rascasse, and conger eel.",
+        "Saffron, which gives the dish its golden hue, was historically an expensive spice, so it was used sparingly.",
+        "Marseille hosts an annual \"Bouillabaisse Competition\" where judges evaluate aroma, taste and presentation."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega‑3 fatty acids",
+          "content": "Fish and shellfish provide EPA and DHA, supporting heart and brain health."
+        },
+        {
+          "title": "High-quality protein",
+          "content": "The stew supplies a complete set of essential amino acids for tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Cod, sea bass and shellfish are abundant in B12 and niacin, important for nervous system function."
+        },
+        {
+          "title": "Minerals: iodine, zinc, selenium",
+          "content": "Seafood is a good source of trace elements that boost immunity and metabolism."
+        },
+        {
+          "title": "Antioxidants from tomatoes and saffron",
+          "content": "Lycopene in tomatoes and crocin in saffron help combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Shellfish allergy",
+          "content": "Some individuals may experience severe allergic reactions to fish or shellfish."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Bouillabaisse often contains added salt and fish sauce, so people with hypertension should watch portion size."
+        },
+        {
+          "title": "Risk of foodborne illness",
+          "content": "Improperly cooked shellfish can harbor toxins; always use fresh ingredients and cook thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the soup hot in a deep bowl, often with toasted croutons topped with rouille (garlic‑saffron mayo) and a sprinkle of fresh parsley. A squeeze of lemon brightens the flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep leftovers in an airtight container in the refrigerator for up to 2‑3 days. Reheat to a rolling boil to ensure safety."
+    }
+  ]
+}

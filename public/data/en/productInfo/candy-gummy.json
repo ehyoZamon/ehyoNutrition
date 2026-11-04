@@ -1,0 +1,62 @@
+{
+  "id": "5112",
+  "title": "Candy, gummy",
+  "image": "/products/5112.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Gummy candy is a sweet treat made from gelatin, sugar, fruit or berry flavorings, and colorants. It has a soft, chewy texture and a bright, fruity flavor profile."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first gummy-like sweets appeared in ancient Rome, using honey and fish-derived gelatin.",
+        "Modern gummies often use plant‑based gelling agents such as pectin instead of animal gelatin.",
+        "Bright colors are frequently obtained from natural extracts, but mass production relies on synthetic food dyes.",
+        "In Japan, “gummy‑med” coated with powdered sugar change flavor as you chew."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energy source",
+          "content": "The sugar provides a rapid increase in blood glucose, delivering an immediate energy boost."
+        },
+        {
+          "title": "Contains vitamin C",
+          "content": "Fruit flavorings may contribute a small amount of vitamin C, which supports the immune system."
+        },
+        {
+          "title": "Mood improvement",
+          "content": "Sweet taste stimulates serotonin production, helping to improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Excessive consumption can lead to weight gain, tooth decay, and blood‑sugar spikes."
+        },
+        {
+          "title": "Gelatin allergy",
+          "content": "Some individuals may experience allergic reactions to gelatin, especially when it is animal‑derived."
+        },
+        {
+          "title": "Synthetic colorants",
+          "content": "Certain food dyes have been linked to hyperactivity in children."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Gummy candy is convenient as a standalone snack, can be added to dessert mixes, used in baking, or as decorative toppings for cakes and cocktails."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place in an airtight package, protecting from moisture and direct sunlight. Properly stored, they retain shape and flavor for up to 12 months."
+    }
+  ]
+}

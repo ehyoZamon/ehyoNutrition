@@ -1,0 +1,75 @@
+{
+  "id": "507",
+  "title": "Cheese, Brie",
+  "image": "/products/507.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Brie is a soft French cheese with a white mold rind, made from cow’s milk. It has a delicate buttery flavor, a faint nutty aroma, and a creamy texture. Traditionally produced in the Île-de-France region, it is now crafted worldwide."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Brie is often called the “King of Cheeses” and is a staple at formal gatherings.",
+        "The first recorded mention of Brie dates back to the 12th century.",
+        "Its characteristic white rind is created by the harmless mold Penicillium candidum.",
+        "Several varieties exist, such as Brie de Meaux and Brie de Melun, differing mainly in aging time.",
+        "Brie pairs well with fruits, nuts, and light red wines."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Brie provides a good amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Source of vitamin B12",
+          "content": "Vitamin B12 in Brie supports nerve function and red blood cell formation."
+        },
+        {
+          "title": "Contains probiotics",
+          "content": "The mold rind and soft interior foster beneficial bacteria that can aid gut health."
+        },
+        {
+          "title": "Provides protein",
+          "content": "Brie supplies high‑quality animal protein needed for tissue repair."
+        },
+        {
+          "title": "Unsaturated fats",
+          "content": "Its mix of monounsaturated and polyunsaturated fats may benefit cardiovascular health when eaten in moderation."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or lactose may react to Brie."
+        },
+        {
+          "title": "High in fat",
+          "content": "Brie is calorie‑dense and contains saturated fat, so portion control is advisable."
+        },
+        {
+          "title": "Food‑borne risk",
+          "content": "Improperly stored Brie can become a breeding ground for harmful bacteria; keep it refrigerated at 2 °C–6 °C."
+        },
+        {
+          "title": "Mold rind",
+          "content": "While Penicillium candidum is safe, individuals with weakened immune systems or mold allergies should exercise caution."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve Brie at room temperature, slicing 5–7 mm thick pieces. It can be enjoyed on its own, spread on bread, added to salads, baked in pastry, or paired with fruit, honey, and nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep Brie in its original packaging or wrapped in parchment inside an airtight container in the refrigerator (2 °C–6 °C). Consume within 1–2 weeks after opening. Discard if it develops an off‑odor or the rind changes color."
+    }
+  ]
+}

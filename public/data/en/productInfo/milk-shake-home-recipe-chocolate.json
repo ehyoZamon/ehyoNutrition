@@ -1,0 +1,79 @@
+{
+  "id": "302",
+  "title": "Milk shake, home recipe, chocolate",
+  "image": "/products/302.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate milk shake is a beverage made from milk, ice cream or frozen yogurt, cocoa powder or melted chocolate, and sometimes add‑ins like banana, nuts or spices. It has a thick, creamy texture and a rich chocolate flavor, perfect as a dessert snack or post‑workout energy boost."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chocolate milk shakes became popular in the United States in the 1950s when ice cream started being blended into drinks.",
+        "A classic recipe uses 250 ml milk, 2 tablespoons ice cream, and 2 teaspoons cocoa powder.",
+        "A pinch of salt enhances the perception of sweetness and chocolate depth.",
+        "In many countries the shake is topped with whipped cream and chocolate shavings.",
+        "Homemade versions let you control sugar levels and add healthy boosters such as protein powder."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Milk, the main base, is rich in calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Protein rich",
+          "content": "Adding protein powder or yogurt turns the shake into a high‑quality protein source."
+        },
+        {
+          "title": "Quick energy boost",
+          "content": "Combined carbs from sugar and fats from ice cream rapidly replenish energy stores."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Cocoa powder is high in flavonoids, which help combat free radicals."
+        },
+        {
+          "title": "Mood enhancer",
+          "content": "Chocolate stimulates serotonin and endorphin production, improving mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Traditional recipes contain a lot of sugar, which can contribute to weight gain and raise blood glucose."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should use lactose‑free milk or plant‑based alternatives."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Allergy to cow’s milk requires substitution with dairy‑free options."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The creamy texture from ice cream makes the shake calorie‑dense; portion control is advised."
+        },
+        {
+          "title": "Saturated fat content",
+          "content": "Ice cream and cream can contain saturated fats, which in excess may affect cardiovascular health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the shake cold, immediately after blending, in tall glasses. Top with whipped cream, chocolate shavings or sprinkles if desired. For a lighter version, replace ice cream with frozen yogurt or banana."
+    },
+    {
+      "title": "Storage",
+      "content": "The shake is best enjoyed right away. If needed, store it in a sealed container in the refrigerator for up to 24 hours. Shake well before serving as ingredients may separate."
+    }
+  ]
+}

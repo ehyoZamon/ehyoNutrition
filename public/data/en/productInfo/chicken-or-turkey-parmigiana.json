@@ -1,0 +1,75 @@
+{
+  "id": "1240",
+  "title": "Chicken or Turkey Parmigiana",
+  "image": "/products/1240.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken or turkey parmigiana is a baked dish made from poultry fillet topped with tomato sauce, melted cheese and breadcrumbs. It is traditionally served with pasta or vegetables. The turkey version is leaner, while the chicken version is more tender."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The dish originates from Italian cuisine, where the classic version uses eggplant.",
+        "In Australia and the United States the chicken or turkey fillet is often substituted for the original eggplant.",
+        "Mozzarella and Parmesan give the dish its characteristic creamy and sharp flavor.",
+        "Tomato sauce can be made from fresh or canned tomatoes, making preparation convenient.",
+        "Parmigiana is frequently served as individual casseroles, ideal for family meals."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Chicken and turkey provide high‑quality protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Low fat content (turkey)",
+          "content": "Turkey breast contains less saturated fat than chicken, making it suitable for low‑fat diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Poultry is high in niacin (B3) and vitamin B6, which support metabolism and nervous system function."
+        },
+        {
+          "title": "Lycopene in tomato sauce",
+          "content": "Tomatoes supply lycopene, an antioxidant that helps protect cells from oxidative stress."
+        },
+        {
+          "title": "Calcium and phosphorus from cheese",
+          "content": "The cheeses add calcium and phosphorus, important for bone and tooth health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese may trigger allergic reactions in people with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Prepared sauce and cheeses often contain a lot of salt; individuals with hypertension should monitor portion size."
+        },
+        {
+          "title": "Possible pathogens in chicken",
+          "content": "Undercooked chicken can harbor salmonella; ensure the internal temperature reaches 75 °C."
+        },
+        {
+          "title": "Caloric density",
+          "content": "A cheese‑topped casserole can be calorie‑rich; portion control is advisable for weight management."
+        }
+      ]
+    },
+    {
+      "title": "How to Prepare and Serve",
+      "content": "Dredge the fillet in flour, egg and breadcrumbs, pan‑fry until golden, then bake under tomato sauce topped with a mixture of mozzarella and Parmesan for 15‑20 minutes at 180 °C. Serve with pasta, rice or a fresh salad."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the cooked dish in an airtight container in the refrigerator for up to 3 days. For freezing, place in a freezer‑safe bag and use within 2 months; reheat to an internal temperature of 75 °C before serving."
+    }
+  ]
+}

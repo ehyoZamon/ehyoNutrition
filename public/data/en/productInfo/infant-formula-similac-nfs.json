@@ -1,0 +1,70 @@
+{
+  "id": "318",
+  "title": "Infant Formula Similac NFS",
+  "image": "/products/318.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Similac NFS (Newborn Feeding System) is an infant formula designed for newborns and babies up to 6 months. The formula provides an optimal balance of proteins, fats, carbohydrates, vitamins, and minerals in line with WHO recommendations and FDA standards."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Similac is one of the most widely used infant nutrition brands in the US and Europe.",
+        "The NFS formula is enriched with DHA and ARA – fatty acids important for brain and eye development.",
+        "It contains the prebiotic FOS (fructooligosaccharides) to support a healthy gut microbiome.",
+        "Each batch undergoes double quality testing: during manufacturing and before market release."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports growth and development",
+          "content": "A balanced protein and energy profile promotes normal weight gain and linear growth in infants."
+        },
+        {
+          "title": "Brain development",
+          "content": "DHA and ARA help form neural connections and support visual function."
+        },
+        {
+          "title": "Gut health",
+          "content": "The FOS prebiotic encourages growth of beneficial bacteria, improving digestion."
+        },
+        {
+          "title": "Immune support",
+          "content": "Vitamins A, C, E and zinc strengthen the infant’s immune system."
+        },
+        {
+          "title": "Easy digestibility",
+          "content": "A special protein processing technology reduces the risk of allergic reactions."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Cow‑milk protein allergy",
+          "content": "Infants with a confirmed allergy to cow‑milk protein may react to this formula."
+        },
+        {
+          "title": "Incorrect reconstitution",
+          "content": "Over‑concentrated formula can cause dehydration, while overly diluted formula may lead to nutrient deficiency."
+        },
+        {
+          "title": "Storage after preparation",
+          "content": "Prepared formula left at room temperature for more than 2 hours should be discarded to prevent bacterial growth."
+        }
+      ]
+    },
+    {
+      "title": "How to Prepare",
+      "content": "Mix the specified amount of powder with freshly boiled water cooled to 37 °C. Stir thoroughly until the mixture is smooth and free of lumps."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the unopened container in a cool, dry place away from direct sunlight. Once opened, use within 4 weeks. Prepared formula can be kept in the refrigerator for up to 24 hours."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "585",
+  "title": "Cheese Dip",
+  "image": "/products/585.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cheese dip is a ready‑to‑eat spread made from processed cheese, cream and seasonings. It has a smooth, buttery flavor with a hint of spice and is perfect for serving with chips, vegetables, crackers or as a sauce for grilled dishes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cheese dip is a popular snack in American cuisine, often enjoyed with beer.",
+        "There are many flavor variations: garlic, jalapeño, bacon, green onion, etc.",
+        "The classic recipe relies on processed cheese, which gives a stable texture at room temperature.",
+        "In some countries the dip is served warm, while in others it is served cold."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Cheese dip provides calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Rich in protein",
+          "content": "The cheese base supplies a good amount of protein needed for tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "It contains vitamins B2 and B12, which support energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People with lactose intolerance or milk protein allergy may react to cheese dip."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Some versions contain a lot of salt, which can be problematic for hypertension."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Because of its creamy base, the dip is relatively high in calories, so portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve cheese dip chilled or slightly warmed. It pairs well with tortilla chips, veggie sticks, crackers, and can be used as a topping for burgers, tacos or casseroles."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep cheese dip refrigerated at 2 °C–6 °C in its original packaging or an airtight container. Check the label for the best‑by date; once opened, consume within 5–7 days."
+    }
+  ]
+}

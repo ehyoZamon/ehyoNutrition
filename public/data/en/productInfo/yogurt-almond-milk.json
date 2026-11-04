@@ -1,0 +1,75 @@
+{
+  "id": "2333",
+  "title": "Yogurt, almond milk",
+  "image": "/products/2333.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt with almond milk is a blended beverage that mixes traditional dairy yogurt with plant‑based almond milk. It has a smooth, creamy taste with a subtle nutty note and a velvety texture. Suitable as a stand‑alone snack or as a base for smoothies, desserts, and breakfasts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The combination delivers a double dose of probiotics from the yogurt and plant nutrients from the almond milk.",
+        "Almond milk is lower in calories and fat than cow’s milk while retaining a pleasant nutty aroma.",
+        "Yogurt‑almond milk drinks are often fortified with vitamin D and calcium to support bone health.",
+        "The product is popular among vegetarians and those with lactose intolerance because part of the dairy is replaced with a plant component.",
+        "In some countries it is served frozen as a “yogurt ice‑cream cocktail.”"
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Probiotics",
+          "content": "Yogurt provides live bacterial cultures that support gut health and the immune system."
+        },
+        {
+          "title": "Protein",
+          "content": "The blend offers a good source of complete protein, essential for muscle and tissue maintenance."
+        },
+        {
+          "title": "Vitamin E",
+          "content": "Almond milk is rich in vitamin E, a powerful antioxidant that protects cells from oxidative stress."
+        },
+        {
+          "title": "Calcium",
+          "content": "Yogurt is a calcium source, and almond milk is often fortified, together promoting strong bones."
+        },
+        {
+          "title": "Reduced lactose",
+          "content": "Lowering the proportion of dairy reduces lactose content, making it more suitable for people with mild lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk allergy",
+          "content": "Individuals allergic to cow’s milk may still react to the yogurt component, even with almond milk added."
+        },
+        {
+          "title": "Tree‑nut allergy",
+          "content": "Almond milk contains nut proteins that can trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Flavored versions may contain added sugars; choose unsweetened options if blood‑glucose control is a concern."
+        },
+        {
+          "title": "Caloric density",
+          "content": "While almond milk is low‑calorie, the yogurt base adds calories; portion control is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink it straight, blend into smoothies, pour over granola, stir into oatmeal, create parfaits, or freeze for a creamy ice‑cream alternative."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep refrigerated at 1‑4 °C. After opening, consume within 5‑7 days. Do not freeze, as the texture may separate."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2210",
+  "title": "Soy Yogurt",
+  "image": "/products/2210.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy yogurt is a fermented beverage made from soy milk. It has a creamy texture, a mildly tangy flavor, and is often fortified with vitamins and minerals to match the nutritional profile of traditional dairy yogurt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soy yogurt is suitable for vegans and people with lactose intolerance.",
+        "It is frequently fortified with calcium and vitamin D to compensate for the lower natural levels in soy milk.",
+        "Soy products contain isoflavones, which may have beneficial effects on hormonal balance.",
+        "Unlike dairy yogurt, soy yogurt typically contains no cholesterol.",
+        "Manufacturers often add probiotic strains such as Lactobacillus and Bifidobacterium to support gut health."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in plant protein",
+          "content": "One cup of soy yogurt provides about 6–8 g of protein, useful for maintaining muscle mass."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Fortified soy yogurt can deliver up to 30 % of the daily calcium requirement, important for bones and teeth."
+        },
+        {
+          "title": "Low in sugar (when unsweetened)",
+          "content": "Plain soy yogurt contains little sugar, making it suitable for blood‑glucose control."
+        },
+        {
+          "title": "Contains isoflavones",
+          "content": "Soy isoflavones may support heart health and act as antioxidants."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Probiotics in the yogurt help balance intestinal flora and improve digestive function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Individuals allergic to soy may experience reactions ranging from skin rash to anaphylaxis when consuming soy yogurt."
+        },
+        {
+          "title": "Phytic acid content",
+          "content": "Soy contains phytic acid, which can reduce the absorption of certain minerals if consumed in excess."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Some brands sweeten their soy yogurt, increasing calorie content and glycemic impact."
+        },
+        {
+          "title": "GMO concerns",
+          "content": "Much of the commercial soy supply is genetically modified; choose non‑GMO labeled products if this matters to you."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Soy yogurt can be enjoyed on its own, blended into smoothies, mixed with granola, fruit salads, or used as a base for sauces and desserts. Sweeten with honey, maple syrup, or fresh berries if desired."
+    },
+    {
+      "title": "Storage",
+      "content": "Store soy yogurt in the refrigerator at 2–4 °C. Once opened, consume within 5–7 days and do not leave it at room temperature for more than 2 hours."
+    }
+  ]
+}

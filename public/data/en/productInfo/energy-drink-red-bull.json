@@ -1,0 +1,67 @@
+{
+  "id": "5505",
+  "title": "Red Bull Energy Drink",
+  "image": "/products/5505.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Red Bull is a popular energy drink created in Austria in 1987. It contains caffeine, taurine, B‑vitamins, and sugar (in the classic version). The drink is marketed as a way to boost alertness, concentration, and physical endurance."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Red Bull was inspired by the Thai energy drink “Krating Daeng”.",
+        "The brand heavily sponsors extreme sports, Formula 1 racing, and music festivals.",
+        "In the 2020s Red Bull became the first beverage to be an official sponsor of the Tokyo Olympic Games.",
+        "A 250 ml can contains about 80 mg of caffeine – roughly the same as a cup of regular coffee.",
+        "Red Bull offers sugar‑free, caffeine‑free, and “Energy Shot” 60 ml variants."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Increased alertness",
+          "content": "Caffeine stimulates the central nervous system, improving focus and reducing feelings of fatigue."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "B‑vitamins (B6, B12, niacin, pyridoxine) play key roles in energy metabolism, helping convert food into usable energy."
+        },
+        {
+          "title": "Enhanced physical endurance",
+          "content": "Taurine may help muscles use oxygen more efficiently during intense activity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High caffeine doses can cause anxiety, insomnia, rapid heartbeat, and increased blood pressure."
+        },
+        {
+          "title": "Sugar content",
+          "content": "The classic version contains about 27 g of sugar, which can contribute to weight gain and dental caries if consumed frequently."
+        },
+        {
+          "title": "Not recommended for children and pregnant women",
+          "content": "Due to its high caffeine and stimulant levels, the drink is not advised for people under 18, pregnant or nursing women."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Caffeine may amplify the effects of certain drugs, especially central nervous system stimulants."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Red Bull is typically consumed chilled, straight from the can. It is recommended to limit intake to 1‑2 cans (250‑500 ml) per day and avoid mixing with alcohol."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. Once opened, consume within 24 hours for best taste."
+    }
+  ]
+}

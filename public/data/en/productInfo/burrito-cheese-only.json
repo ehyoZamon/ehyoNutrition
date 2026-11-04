@@ -1,0 +1,70 @@
+{
+  "id": "3315",
+  "title": "Burrito, cheese only",
+  "image": "/products/3315.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A cheese‑only burrito is a Mexican dish consisting of a soft wheat tortilla filled with melted cheese. Common cheeses include cheddar, mozzarella, or a blend that gives a creamy, stretchy texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Burritos originated in northern Mexico where wheat flour is more common than corn.",
+        "The cheese is served hot so it stays gooey and pulls apart.",
+        "The “cheese only” version is popular among vegetarians looking for a quick, filling snack.",
+        "Traditional Mexican cheese, queso fresco, is rarely used in burritos because it is less melt‑friendly."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Cheese provides calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Rich in protein",
+          "content": "Cheese contains high‑quality protein that supports tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Cheese supplies vitamins B2 and B12, important for energy metabolism."
+        },
+        {
+          "title": "Probiotics (in some cheeses)",
+          "content": "Fermented cheeses may contain beneficial bacteria that aid gut health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People who cannot digest lactose may experience discomfort after eating cheese."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Many cheeses are salty, which can be an issue for hypertension."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein can trigger severe reactions."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Cheese is calorie‑dense, so portion control is advisable."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Heat the burrito in a skillet or microwave until the cheese melts. Serve with salsa, guacamole, or sour cream. For a lighter option, use a whole‑grain tortilla."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared burrito in the refrigerator in an airtight container for up to 2 days. Keep cheese wrapped tightly and tortillas in a dry place to prevent drying out."
+    }
+  ]
+}

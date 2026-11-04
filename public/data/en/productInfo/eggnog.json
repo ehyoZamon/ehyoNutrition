@@ -1,0 +1,75 @@
+{
+  "id": "301",
+  "title": "Eggnog",
+  "image": "/products/301.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Eggnog is a traditional holiday drink made from milk, cream, eggs, sugar, and spices, often spiked with alcohol such as rum, brandy, or whiskey. It has a thick, creamy texture and a distinctive aroma of cinnamon, nutmeg, and vanilla."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggnog originated in medieval England, where it was made from egg yolks, milk, and spices.",
+        "The drink became popular in colonial America and has since become a symbol of Christmas celebrations.",
+        "Nutmeg is a classic ingredient that gives eggnog its characteristic warm, slightly spicy flavor.",
+        "There are many variations: non‑alcoholic, vegan (using plant‑based milk), and versions with different spirits.",
+        "In some parts of the United States, frozen eggnog (“frosted eggnog”) is served as a dessert."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Eggs, the main ingredient, provide high‑quality protein essential for tissue repair and maintenance."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Eggnog contains vitamin B12 and riboflavin, which support energy metabolism and nervous system function."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Milk and cream supply calcium and vitamin D, important for bone health."
+        },
+        {
+          "title": "Antioxidants from spices",
+          "content": "Cinnamon and nutmeg contain polyphenols with antioxidant properties."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Sugar and fats provide a quick source of energy, useful in cold weather."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Risk of foodborne illness",
+          "content": "Raw eggs may harbor salmonella; use pasteurized eggs or heat‑treat the mixture."
+        },
+        {
+          "title": "High in sugar and fat",
+          "content": "Eggnog is calorie‑dense; people watching weight or blood sugar should consume it in moderation."
+        },
+        {
+          "title": "Alcohol content",
+          "content": "Alcoholic versions can be unsafe for children, pregnant individuals, and those with liver issues."
+        },
+        {
+          "title": "Milk allergy or lactose intolerance",
+          "content": "Those with dairy sensitivities should choose dairy‑free alternatives."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Eggnog is served chilled in glasses or mugs, often topped with a sprinkle of ground cinnamon or nutmeg. It can be homemade using pasteurized eggs or bought ready‑to‑drink. Non‑alcoholic versions are suitable for children and anyone avoiding spirits."
+    },
+    {
+      "title": "Storage",
+      "content": "Store prepared eggnog in the refrigerator for up to 3–4 days in a sealed container. For longer storage, it can be frozen, though the texture may change. Discard if it develops an off‑odor or signs of spoilage."
+    }
+  ]
+}

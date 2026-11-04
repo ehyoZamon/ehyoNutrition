@@ -1,0 +1,75 @@
+{
+  "id": "724",
+  "title": "Raccoon",
+  "image": "/products/724.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Raccoon is an innovative product designed to address home automation challenges. It combines compact design, high performance, and easy integration with other smart devices."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The name “Raccoon” reflects the product’s ability to adapt to various environments, just like the animal in nature.",
+        "The product supports over 20 communication protocols, including Wi‑Fi, Zigbee, and Bluetooth Low Energy.",
+        "Raccoon is ENERGY STAR certified, demonstrating energy efficiency.",
+        "Inside the device is a quad‑core processor that ensures fast data processing.",
+        "Developers added a self‑learning feature that lets the system optimize its operation based on user behavior."
+      ]
+    },
+    {
+      "title": "Potential Benefits",
+      "items": [
+        {
+          "title": "Smart Control",
+          "content": "Enables management of lighting, climate, and security through a single interface."
+        },
+        {
+          "title": "Energy Efficiency",
+          "content": "Reduces electricity consumption by intelligently scheduling device operation."
+        },
+        {
+          "title": "Flexible Integration",
+          "content": "Easily connects with existing smart‑home systems from various manufacturers."
+        },
+        {
+          "title": "Data Security",
+          "content": "AES‑256 level encryption protects personal information and settings."
+        },
+        {
+          "title": "Over‑the‑Air Updates",
+          "content": "Automatically receives new features and bug fixes without user intervention."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Compatibility",
+          "content": "Some older devices may not support newer protocols and might require an additional adapter."
+        },
+        {
+          "title": "Network Requirements",
+          "content": "A stable 2.4 GHz Wi‑Fi network is recommended for reliable operation."
+        },
+        {
+          "title": "Privacy",
+          "content": "Users should regularly review access settings to avoid unintended data sharing."
+        },
+        {
+          "title": "Firmware Updates",
+          "content": "During updates the device may need to be temporarily disconnected."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Connect Raccoon to your Wi‑Fi network, download the app, follow the setup wizard, and add your devices. Once synced, you can control all functions via smartphone, voice assistants, or a web interface."
+    },
+    {
+      "title": "Storage and Maintenance",
+      "content": "Store the device in a dry, cool place away from direct sunlight. If needed, clean the exterior with a dry soft cloth. Regularly check for firmware updates through the app."
+    }
+  ]
+}

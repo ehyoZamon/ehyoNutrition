@@ -1,0 +1,63 @@
+{
+  "id": "5407",
+  "title": "Whiskey sour",
+  "image": "/products/5407.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Whiskey sour is a classic cocktail made with whiskey, fresh lemon juice, and simple syrup. Sometimes an egg white is added for a silky foam. The drink balances acidity, sweetness, and the woody notes of the whiskey."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first recorded Whiskey sour recipe appeared in 1862 in \"The Bartender's Guide\".",
+        "It is one of the five \"essential\" cocktails (Old Fashioned, Martini, Manhattan, Daiquiri, Whiskey Sour) listed in the 1930s \"Savoy Cocktail Book\".",
+        "The original recipe called for American bourbon, though rye whiskey is also common today.",
+        "Egg white (the \"float\") is added to soften the acidity and create a smooth foam.",
+        "The drink’s popularity surged in the 2020s as craft bartenders experiment with fruit and spice variations."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains antioxidants",
+          "content": "Lemon juice is rich in vitamin C, which helps combat free radicals."
+        },
+        {
+          "title": "Moderate alcohol content",
+          "content": "Moderate whiskey consumption may support cardiovascular health thanks to its polyphenols."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "The acidity of lemon stimulates gastric juice production, aiding digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol",
+          "content": "Excessive alcohol intake leads to health deterioration, dependence, and increased injury risk."
+        },
+        {
+          "title": "Acidity",
+          "content": "High amounts of lemon juice can irritate the stomach lining in people with gastritis or ulcers."
+        },
+        {
+          "title": "Egg allergy",
+          "content": "If egg white is used, individuals with egg allergy may experience reactions."
+        }
+      ]
+    },
+    {
+      "title": "How to Make",
+      "content": "Combine 45 ml bourbon, 30 ml fresh lemon juice, and 15 ml simple syrup in a shaker with ice. Optionally add 15 ml egg white. Shake vigorously for 10–12 seconds, then strain into a glass over fresh ice. Garnish with a maraschino cherry or a lemon wedge."
+    },
+    {
+      "title": "Storage",
+      "content": "Store ingredients separately: whiskey in a cool, dark place; lemons in the refrigerator; simple syrup in a sealed bottle in the fridge for up to a week. Use egg white immediately after separating."
+    }
+  ]
+}

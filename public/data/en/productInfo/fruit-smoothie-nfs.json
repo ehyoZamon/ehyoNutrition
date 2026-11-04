@@ -1,0 +1,71 @@
+{
+  "id": "312",
+  "title": "Fruit smoothie, NFS",
+  "image": "/products/312.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit smoothie, NFS is a ready‑to‑drink fruit smoothie made from selected ripe fruits, berries and natural juices. It contains no artificial colors, flavors or preservatives and is fortified with vitamins and minerals to support energy and immunity."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The blend includes more than 10 fruit varieties, such as mango, pineapple, kiwi and acai berries.",
+        "One serving provides about 150% of the daily recommended vitamin C.",
+        "The product was developed under the NFS (Nutri‑Fruit Solution) program for rapid post‑workout recovery.",
+        "The mix is completely vegan and gluten‑free.",
+        "Packaging is made from recyclable plastic, reducing environmental impact."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "The fruit composition delivers a high level of antioxidants that help combat free radicals."
+        },
+        {
+          "title": "Immune support",
+          "content": "Vitamin C and other micronutrients contribute to a stronger immune system."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Natural fruit sugars quickly replenish muscle glycogen stores."
+        },
+        {
+          "title": "Hydration",
+          "content": "The blend contains over 80% water, aiding overall body hydration."
+        },
+        {
+          "title": "Digestive aid",
+          "content": "Fruit fiber supports healthy bowel function and promotes satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fruit allergy",
+          "content": "Individuals allergic to specific fruits (e.g., kiwi or strawberry) may experience reactions."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Despite being natural, the product contains a notable amount of sugar and may not be suitable for people with diabetes."
+        },
+        {
+          "title": "Acidity",
+          "content": "High acidity of certain fruits can cause discomfort for those with a sensitive stomach."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink the ready‑to‑consume smoothie chilled, straight from the bottle. Optionally add ice, mint, or a protein powder to increase nutritional value."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in the refrigerator at 2 °C–6 °C. Once opened, consume within 3‑5 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

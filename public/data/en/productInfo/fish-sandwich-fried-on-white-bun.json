@@ -1,0 +1,75 @@
+{
+  "id": "1800",
+  "title": "Fish sandwich, fried, on white bun",
+  "image": "/products/1800.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A fried fish sandwich served on a soft white bun. It contains a breaded and deep‑fried piece of fish, usually a white‑meat variety, with lettuce, sauce, and sometimes a slice of tomato. The sandwich offers a crispy fish coating, a tender bun, and a balanced flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first fish sandwich appeared in the United States in the early 1920s as a quick lunch for workers.",
+        "Traditionally cod or haddock are used, but regional versions feature salmon, sea bass, or pollock.",
+        "The breading is often a mix of breadcrumbs and spices such as paprika, garlic, and black pepper.",
+        "A white bun provides a neutral backdrop that lets the sauce and fish flavor shine.",
+        "In some countries the sandwich is served with lemon wedges and tartar sauce."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega‑3 fatty acids",
+          "content": "Even after frying, fish retains some omega‑3s, which support heart and brain health."
+        },
+        {
+          "title": "Good source of protein",
+          "content": "Fish provides high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains vitamin B12 and niacin, important for nervous system function and metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "Provides selenium, iodine, and phosphorus, which aid thyroid function and bone health."
+        },
+        {
+          "title": "Energy boost",
+          "content": "The combination of bun carbohydrates and fish fats gives a quick source of energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals may experience allergic reactions ranging from skin rash to anaphylaxis."
+        },
+        {
+          "title": "High fat from frying",
+          "content": "Frying adds saturated and trans fats, so the sandwich should be eaten in moderation."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Salt in the breading and sauce can raise blood pressure in sensitive people."
+        },
+        {
+          "title": "Possible contaminants",
+          "content": "Certain fish species may contain mercury or other heavy metals; choose reputable suppliers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The sandwich is easy to eat with hands, but you can halve it and add fresh veggies like cucumber, radish, or lettuce. It pairs well with potato chips or a light side salad."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the assembled sandwich in the refrigerator for up to 24 hours in an airtight container. For longer storage, store the fish separately in the fridge and keep the bun in a dry place."
+    }
+  ]
+}

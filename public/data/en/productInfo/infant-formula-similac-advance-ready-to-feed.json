@@ -1,0 +1,75 @@
+{
+  "id": "321",
+  "title": "Similac Advance Ready-to-Feed",
+  "image": "/products/321.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Similac Advance Ready-to-Feed is a infant formula designed for babies from birth to 12 months. It contains whole cow’s milk, fermented lactose, prebiotics, DHA, ARA, and a full spectrum of vitamins and minerals needed for growth and development."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Similac Advance is manufactured by Abbott, one of the world’s largest infant nutrition companies.",
+        "The formula is enriched with DHA and ARA – fatty acids that support brain and eye development.",
+        "It includes prebiotics (PDX and GOS) to promote a healthy gut microbiome.",
+        "Ready-to-Feed format requires no mixing with water, making it convenient for travel and situations without clean water.",
+        "The product has undergone clinical testing and meets the recommendations of the American Academy of Pediatrics."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Bone growth support",
+          "content": "Contains calcium, phosphorus and vitamin D, which together help build strong bones and teeth."
+        },
+        {
+          "title": "Brain and eye development",
+          "content": "DHA and ARA are structural components of brain tissue and retinal cells, supporting their normal development."
+        },
+        {
+          "title": "Healthy gut flora",
+          "content": "Prebiotics PDX and GOS stimulate the growth of beneficial bacteria, improving digestion and immunity."
+        },
+        {
+          "title": "Energy provision",
+          "content": "A balanced mix of protein, fat and carbohydrates provides a steady source of energy for rapid growth."
+        },
+        {
+          "title": "Vitamin‑mineral complex",
+          "content": "B‑vitamins, vitamin C, iron and zinc support immune function and metabolic processes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Cow‑milk allergy",
+          "content": "Infants with a confirmed cow‑milk protein allergy may react to this formula and should not use it."
+        },
+        {
+          "title": "Lactose content",
+          "content": "Babies with lactose intolerance may experience discomfort; a lactose‑free formula should be chosen instead."
+        },
+        {
+          "title": "Shelf‑life after opening",
+          "content": "Once opened, the product should be refrigerated at +2–4 °C and used within 48 hours."
+        },
+        {
+          "title": "Not a complete substitute for breast milk",
+          "content": "While nutritionally complete, breast milk remains the preferred source of nutrition during the first six months."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Serve the ready‑to‑feed formula directly from the container, warming gently to body temperature if desired (no more than 37 °C). Do not microwave, as it can create hot spots."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened containers in a cool, dry place away from direct sunlight. After opening, keep refrigerated and use within 48 hours. Discard if the product develops an off‑smell, color change, or unusual taste."
+    }
+  ]
+}

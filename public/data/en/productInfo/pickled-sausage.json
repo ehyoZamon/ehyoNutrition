@@ -1,0 +1,75 @@
+{
+  "id": "1003",
+  "title": "Pickled Sausage",
+  "image": "/products/1003.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pickled sausage is a cooked or smoked meat sausage that has been cured in a brine with spices, vinegar, and sometimes sugar. The process gives it a distinctive tangy‑salty flavor, aromatic notes from the spices, and a longer shelf life."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The tradition of pickling sausages originated in Eastern Europe, where cold climates made brining a practical preservation method.",
+        "Typical brine ingredients include mustard seeds, coriander, garlic, and bay leaf, creating a complex aroma.",
+        "Pickled sausage can be either boiled or smoked; smoking adds a subtle smoky depth.",
+        "In some regions it is served cold as an appetizer, while in others it is heated and used in hot dishes.",
+        "There are many regional variants that differ in spice blends and marinating time."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "The sausage provides high‑quality animal protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Meat in the sausage supplies heme iron, which supports healthy hemoglobin levels."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Processing retains B1, B2, B6 and B12 vitamins that are important for energy metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "Zinc and phosphorus are present, contributing to immune health and bone strength."
+        },
+        {
+          "title": "Probiotic effect (when fermented)",
+          "content": "If the brine contains live cultures, they may help maintain a healthy gut microbiota."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High salt content",
+          "content": "Pickling requires a lot of salt, which can raise blood pressure if consumed in excess."
+        },
+        {
+          "title": "Nitrites and preservatives",
+          "content": "Some varieties contain nitrites that can form potentially harmful compounds over long storage."
+        },
+        {
+          "title": "Meat allergy",
+          "content": "Individuals allergic to certain meats (e.g., pork) may experience reactions."
+        },
+        {
+          "title": "Fat content",
+          "content": "The sausage can be high in saturated fats, so it should be eaten in moderation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pickled sausage can be enjoyed cold as a snack, sliced thin for sandwiches, added to salads, soups, or stir‑fries. It is often lightly pan‑seared before serving to enhance its aroma."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the pickled sausage in the refrigerator at 0 °C–4 °C, either in its original brine or in an airtight container. For longer storage (over 2‑3 weeks) keep it submerged in fresh brine, changing the liquid every few days. Discard the product if it develops an off‑odor, discoloration, or a slimy surface."
+    }
+  ]
+}

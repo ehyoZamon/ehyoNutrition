@@ -1,0 +1,75 @@
+{
+  "id": "700",
+  "title": "Pork Belly",
+  "image": "/products/700.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pork belly is the cut from the underside of a pig, consisting of layers of meat, fat, and skin. It is prized for its tenderness, juiciness, and rich flavor, and is used in Asian, American, and European cuisines."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Pork belly is one of the fattiest cuts of meat, making it ideal for slow cooking and achieving a crispy crackling.",
+        "In China, braised pork belly (红烧肉) is considered a national delicacy.",
+        "In the United States pork belly is the base for bacon, which is cured, smoked, and sliced.",
+        "Korean cuisine features samgyeopsal – thick slices of pork belly grilled at the table.",
+        "The fat in pork belly contains both monounsaturated and polyunsaturated fatty acids that enhance flavor when cooked properly."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Pork belly provides high‑quality animal protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "It contains thiamine (B1), riboflavin (B2), pyridoxine (B6) and cobalamin (B12), which support energy metabolism and nervous system function."
+        },
+        {
+          "title": "Iron and zinc",
+          "content": "These minerals are important for immune health, DNA synthesis, and oxygen transport."
+        },
+        {
+          "title": "Polyunsaturated fatty acids",
+          "content": "When consumed in moderation, the fat can promote satiety and improve the taste profile of dishes."
+        },
+        {
+          "title": "Collagen",
+          "content": "The skin and connective tissue contain collagen, which may benefit joint and skin health when cooked slowly."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat content",
+          "content": "Pork belly is rich in saturated fat; excessive intake can raise cholesterol levels and increase cardiovascular risk."
+        },
+        {
+          "title": "Calorie dense",
+          "content": "Because of its fat, it is very calorie‑dense, so portion control is recommended."
+        },
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked pork may harbor pathogens such as Salmonella. Cook to an internal temperature of at least 71 °C."
+        },
+        {
+          "title": "Pig meat allergy",
+          "content": "A small number of people may experience allergic reactions to pork proteins."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pork belly can be roasted, braised, fried, smoked, or steamed. Popular methods include slow‑roasting for crispy crackling, marinating and frying as bacon, or cooking in teriyaki or sweet‑sour sauces. It is cut into cubes, strips, or large slabs depending on the recipe."
+    },
+    {
+      "title": "Storage",
+      "content": "Store fresh pork belly in the refrigerator at 0‑4 °C, wrapped in plastic or in an airtight container, for up to 3‑5 days. For longer storage, freeze in a sealed bag at –18 °C for up to 6 months. Discard if it develops an off‑odor or discoloration before cooking."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1702",
+  "title": "Hamburger",
+  "image": "/products/1702.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A hamburger is a classic fast‑food item consisting of a medium beef patty (1702 g), a bun, lettuce, a tomato slice, cheese, pickles and sauce. It is quick to prepare and often served with fries and a drink."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first hamburger was served in the United States in the late 19th century.",
+        "There are more than 300 variations of toppings and sauces, from classic to exotic.",
+        "In Japan, rice‑bread buns are sometimes used instead of wheat buns.",
+        "The world’s largest hamburger weighed over 1 ton and was made in the USA in 2012.",
+        "In some countries the hamburger is considered a national dish."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "A medium patty (≈ 100 g) provides about 20 g of protein, essential for muscle growth and repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Beef is rich in heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Hamburgers supply vitamin B12, niacin and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Energy dense",
+          "content": "The high calorie content offers a quick source of energy for active lifestyles."
+        },
+        {
+          "title": "Zinc content",
+          "content": "Zinc from beef supports immune function and wound healing."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calories and saturated fat",
+          "content": "One hamburger can contain 500‑800 kcal and a notable amount of saturated fat, which may be undesirable for weight management."
+        },
+        {
+          "title": "Sodium",
+          "content": "Sauces and processed buns often contain high levels of salt, potentially raising blood pressure."
+        },
+        {
+          "title": "Allergens",
+          "content": "Buns may contain gluten and dairy, which can trigger allergic reactions."
+        },
+        {
+          "title": "Nitrites in processed meat",
+          "content": "Some pre‑made patties contain nitrites that can form potentially harmful compounds when cooked at high temperatures."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hamburgers are typically eaten by hand, holding the bottom bun. You can add extra vegetables, swap the sauce, or choose a whole‑grain bun for a healthier option."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cooked patties in the refrigerator for up to 2 days, and keep buns in a dry place for several days. Frozen patties retain quality for up to 3 months."
+    }
+  ]
+}

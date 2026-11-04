@@ -1,0 +1,62 @@
+{
+  "id": "437",
+  "title": "Ice cream bar, vanilla",
+  "image": "/products/437.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A vanilla ice cream bar is a frozen dessert shaped into a convenient single‑serve stick. It contains a dairy base, sugar, natural vanilla flavor, and stabilizers that give it a smooth, creamy texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The vanilla flavor is often derived from the seeds of the orchid Vanilla planifolia, though most mass‑produced bars use synthetic vanillin.",
+        "Bars are portable and melt quickly in the mouth, requiring no utensils.",
+        "The first commercial vanilla ice cream bar appeared in the United States in the 1970s.",
+        "In some markets the bars are coated with chocolate or nut crumbs for extra crunch and flavor."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base provides calcium, essential for bone and tooth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains riboflavin (B2) and cobalamin (B12), supporting energy metabolism."
+        },
+        {
+          "title": "Small amount of protein",
+          "content": "Milk protein contributes to tissue repair and satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Bars contain a considerable amount of sugar, which can contribute to weight gain and increase the risk of dental caries."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "The dairy base may cause discomfort for people who are lactose intolerant."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Individuals allergic to casein or whey may experience allergic reactions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Keep the bar frozen and eat it straight from the wrapper. For a richer flavor, let it sit at room temperature for 1–2 minutes before consumption."
+    },
+    {
+      "title": "Storage",
+      "content": "Store at –18 °C or lower in an airtight package. Once removed from the wrapper, consume within 2–3 days to avoid sugar crystallization."
+    }
+  ]
+}

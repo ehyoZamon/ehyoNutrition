@@ -1,0 +1,75 @@
+{
+  "id": "5127",
+  "title": "Coffee",
+  "image": "/products/5127.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Coffee is a beverage made from roasted and ground seeds of the coffee plant (genus Coffea). The market offers two main types: brewed (ground) coffee and instant coffee. Brewed coffee retains a richer aroma and flavor, while instant coffee is convenient for quick preparation and storage."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Coffee is the second most traded commodity in the world after oil.",
+        "There are over 100 species of coffee plants, but Arabica and Robusta dominate commercial production.",
+        "The first coffeehouse opened in Istanbul in 1555.",
+        "Caffeine in coffee stimulates the central nervous system, increasing alertness and concentration.",
+        "Instant coffee was invented in the early 20th century and became popular during World War II."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Coffee contains polyphenols such as chlorogenic acid that help combat free radicals."
+        },
+        {
+          "title": "Supports cognitive function",
+          "content": "Moderate coffee consumption is linked to improved memory, attention, and a lower risk of dementia."
+        },
+        {
+          "title": "Boosts metabolism",
+          "content": "Caffeine can increase metabolic rate, aiding calorie burning."
+        },
+        {
+          "title": "May reduce risk of certain diseases",
+          "content": "Studies associate regular coffee intake with lower incidence of Parkinson’s disease, type 2 diabetes, and some cancers."
+        },
+        {
+          "title": "Enhances physical performance",
+          "content": "Caffeine raises adrenaline levels, which can improve athletic endurance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "Some individuals may experience anxiety, insomnia, or rapid heartbeat with excessive intake."
+        },
+        {
+          "title": "Increased stomach acidity",
+          "content": "Coffee can aggravate gastritis and reflux symptoms in susceptible people."
+        },
+        {
+          "title": "Pregnancy considerations",
+          "content": "Pregnant women are advised to limit caffeine to about 200 mg per day (roughly 1–2 cups)."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Caffeine may amplify the effects of stimulants and diminish the efficacy of sedatives."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Brewed coffee is prepared with hot (not boiling) water at 90–96 °C using methods such as drip, espresso, or French press. Instant coffee is simply dissolved in hot water. Milk, cream, sugar, or spices can be added to taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store coffee in an airtight container in a cool, dry, dark place. Ground coffee is best used within 2–3 weeks after opening, while whole beans stay fresh up to 2 months. Instant coffee has a longer shelf life but also requires a dry environment."
+    }
+  ]
+}

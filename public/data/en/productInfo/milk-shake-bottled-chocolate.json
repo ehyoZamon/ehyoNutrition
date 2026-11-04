@@ -1,0 +1,66 @@
+{
+  "id": "309",
+  "title": "Milk shake, bottled, chocolate",
+  "image": "/products/309.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate milk shake in a bottle is a ready‑to‑drink beverage containing whole milk, cocoa mass, sugar and flavorings. It is packaged in a sealed PET bottle, convenient for transport and storage. The taste is rich, creamy, with a pronounced chocolate note."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first ready‑to‑drink milk shake appeared in the United States in the 1950s.",
+        "Chocolate is the most popular flavor among all milk shake varieties.",
+        "PET bottles preserve flavor and aroma for up to 12 months when stored refrigerated.",
+        "Stabilizers are often added to prevent separation of the product."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The milk in the shake provides a substantial amount of calcium, essential for bone and teeth health."
+        },
+        {
+          "title": "Rich in vitamin D",
+          "content": "Vitamin D enhances calcium absorption and supports the immune system."
+        },
+        {
+          "title": "Contains protein",
+          "content": "Milk protein aids muscle recovery and promotes satiety."
+        },
+        {
+          "title": "Energy source",
+          "content": "Sugar and milk fat deliver quick energy, useful as a post‑exercise snack."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "High sugar levels can contribute to weight gain and increase the risk of dental caries."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may need to choose a lactose‑free version."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Some individuals may experience allergic reactions to casein or whey."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The shake is ready to drink straight from the bottle. It can be enjoyed chilled, over ice, or used as a base for desserts and smoothies."
+    },
+    {
+      "title": "Storage",
+      "content": "Store refrigerated at 2 °C to 6 °C. After opening, consume within 5‑7 days. Do not freeze, as texture may change."
+    }
+  ]
+}

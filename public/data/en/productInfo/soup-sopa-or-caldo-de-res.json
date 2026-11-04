@@ -1,0 +1,75 @@
+{
+  "id": "1901",
+  "title": "Soup",
+  "image": "/products/1901.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soup is a liquid dish made from broth, water or milk with added meat, fish, vegetables, grains, legumes and spices. Across cultures there are hundreds of variations, from light clear broths to thick creamy soups."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soup is considered one of the oldest dishes: archaeological evidence shows its preparation over 5,000 years ago.",
+        "In Japan popular soups include miso‑soup and ramen, while in Russia you’ll find borscht, shchi and rassolnik.",
+        "Soups are often served as the first course of a multi‑course meal because they warm and prepare the stomach for later dishes.",
+        "The word “soup” comes from the Latin “suppa”, meaning “to soak up”.",
+        "In some countries, such as Poland, a traditional dish called “zupa” is baked in a clay pot, giving a unique texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamins and minerals",
+          "content": "Vegetable‑based soups provide vitamin C, vitamin A, potassium and magnesium, which support immunity and overall health."
+        },
+        {
+          "title": "Hydration",
+          "content": "Because soups are mostly liquid, they help maintain proper hydration, especially in colder months."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "Warm liquid foods are gentle on the digestive system and the soft ingredients are absorbed quickly."
+        },
+        {
+          "title": "Low in calories (when made with the right ingredients)",
+          "content": "Clear broth and vegetable soups often contain few calories, making them suitable for weight management."
+        },
+        {
+          "title": "Heart‑friendly",
+          "content": "Soups based on lean meat or fish broth and whole grains can help lower cholesterol levels."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Prepared bouillons and canned soups frequently contain a lot of salt, which may raise blood pressure."
+        },
+        {
+          "title": "Allergens",
+          "content": "Soups with dairy, seafood or nuts can trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Bacterial contamination",
+          "content": "Improper storage or reheating can allow pathogenic bacteria to grow."
+        },
+        {
+          "title": "Sensitivity to glutamates",
+          "content": "Some ready‑made soups contain added monosodium glutamate, which can cause headaches in susceptible people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve soup hot, often accompanied by bread, croutons or fresh herbs. It can be prepared in advance and reheated, adding fresh vegetables or protein for variety."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the soup to room temperature, then store it in an airtight container in the refrigerator for up to 3‑4 days. For longer storage, freeze in portions for up to 3 months. Reheat to a rolling boil before serving."
+    }
+  ]
+}

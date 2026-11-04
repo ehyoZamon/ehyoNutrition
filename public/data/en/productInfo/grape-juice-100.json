@@ -1,0 +1,75 @@
+{
+  "id": "4085",
+  "title": "Grape juice, 100%",
+  "image": "/products/4085.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Grape juice 100% is made from selected grape varieties without added sugar, preservatives or flavorings. The juice retains the natural taste, aroma and nutrients of fresh grapes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Grape juice is rich in antioxidants, especially resveratrol found in the skins of dark grapes.",
+        "It can be produced from white or dark grapes; dark juice usually has a richer color and flavor.",
+        "Traditionally consumed in Mediterranean countries as a refreshing beverage.",
+        "Often used in cooking for marinades, sauces, desserts and cocktails.",
+        "When stored properly, the juice can keep its quality for up to 12 months."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Antioxidants help protect cells from oxidative stress and may support heart health."
+        },
+        {
+          "title": "Source of vitamin C",
+          "content": "Vitamin C supports the immune system and improves iron absorption."
+        },
+        {
+          "title": "Supports blood vessels",
+          "content": "Flavonoids improve vessel elasticity and help maintain normal blood pressure."
+        },
+        {
+          "title": "Hydration",
+          "content": "Mostly water, the juice helps maintain the body’s fluid balance."
+        },
+        {
+          "title": "Nutrient content",
+          "content": "Contains potassium, important for muscle and nerve function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Even without added sugar, natural sugars can raise the glycemic index, which is relevant for people with diabetes."
+        },
+        {
+          "title": "Grape allergy",
+          "content": "Some individuals may experience allergic reactions to grapes or grape juice."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acidic nature may irritate the stomach lining in sensitive individuals."
+        },
+        {
+          "title": "Quality control",
+          "content": "Improper pasteurization can allow microbial growth; choose products from reputable manufacturers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink chilled as a refreshing beverage, use in smoothies, cocktails, sauces, marinades, or add to oatmeal and yogurt."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dark place. After opening, keep refrigerated and consume within 5–7 days. Discard if taste, smell changes or mold appears."
+    }
+  ]
+}

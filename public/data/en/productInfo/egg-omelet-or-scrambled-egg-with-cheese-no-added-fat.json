@@ -1,0 +1,70 @@
+{
+  "id": "1985",
+  "title": "Egg omelet or scrambled egg with cheese, no added fat",
+  "image": "/products/1985.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A dish made from eggs cooked without added oil or fat, with cheese added. Eggs provide high‑quality protein, B‑vitamins, and minerals, while cheese contributes calcium and flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most affordable and versatile foods worldwide.",
+        "Cooking without fat preserves the natural taste of eggs and reduces the dish’s calorie count.",
+        "The cheese can range from soft cottage cheese to sharp cheddar, altering taste and nutrient profile.",
+        "Scrambling technique creates a lighter, airy texture by gently stirring the eggs while cooking."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Eggs contain all essential amino acids, making them a complete protein for muscle and tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Eggs are high in B12, riboflavin (B2) and folate, which support energy metabolism and nervous system health."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese adds a substantial amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "The dish contains virtually no carbs, fitting well into low‑carb dietary patterns."
+        },
+        {
+          "title": "Cholesterol in moderation",
+          "content": "Although eggs contain cholesterol, current research shows moderate intake does not raise blood cholesterol for most people."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may develop an allergy to egg proteins, ranging from skin reactions to anaphylaxis."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "People with high blood cholesterol should monitor their egg consumption."
+        },
+        {
+          "title": "Sodium in cheese",
+          "content": "Choose low‑salt cheeses to avoid excessive sodium intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Cook",
+      "content": "Beat eggs with a splash of milk or water, stir in grated cheese, salt and pepper. Pour the mixture onto a pre‑heated non‑stick pan and cook over medium heat, gently stirring until the eggs set but remain tender."
+    },
+    {
+      "title": "Storage",
+      "content": "Best enjoyed fresh. If needed, store the cooked omelet in an airtight container in the refrigerator for up to 24 hours. Reheat gently with a little water to restore moisture."
+    }
+  ]
+}

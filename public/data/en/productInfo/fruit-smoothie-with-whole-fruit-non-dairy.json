@@ -1,0 +1,75 @@
+{
+  "id": "4096",
+  "title": "Fruit Smoothie",
+  "image": "/products/4096.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A fruit smoothie is a beverage made from whole fruits without any dairy ingredients. It retains most of the fiber, vitamins, and minerals found in fresh fruit and is suitable for vegans and those with lactose intolerance."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Common blends include banana, berries, mango or pineapple, providing natural sweetness without added sugar.",
+        "Blending preserves more antioxidants compared to juicing, where much of the fiber is lost.",
+        "Fruit smoothies can be an excellent way to increase fruit intake in children who dislike eating whole fruit.",
+        "Some recipes add nut milk or oat milk for a creamier texture while staying dairy‑free.",
+        "Smoothies are often served chilled, but they can also be frozen into ice cubes for refreshing drinks."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamins",
+          "content": "Smoothies provide vitamin C, vitamin A, folate, and B‑vitamins that support immunity and energy metabolism."
+        },
+        {
+          "title": "Source of dietary fiber",
+          "content": "Whole fruits keep the fiber intact, promoting healthy digestion and satiety."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "The absence of dairy makes the drink suitable for low‑saturated‑fat diets."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Berries such as blueberries and raspberries are high in anthocyanins, which help combat free radicals."
+        },
+        {
+          "title": "Hydration",
+          "content": "Smoothies have a high water content, contributing to overall fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Even natural sugars can raise blood glucose levels if consumed in large portions, especially for people with diabetes."
+        },
+        {
+          "title": "Fruit allergies",
+          "content": "Some individuals may be allergic to specific fruits like kiwi or strawberries."
+        },
+        {
+          "title": "Microbial contamination",
+          "content": "If fruits are not washed thoroughly, bacteria or pesticide residues can end up in the smoothie."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Grapefruit can affect the metabolism of certain medications; consult a healthcare professional when using it in smoothies."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink the smoothie immediately after blending to preserve nutrients. It can replace a breakfast, serve as a snack, or act as a dessert alternative. For extra protein and healthy fats, add protein powder, chia seeds, or nut milk."
+    },
+    {
+      "title": "Storage",
+      "content": "Store smoothies in a sealed container in the refrigerator for up to 24 hours. Longer storage may lead to flavor loss and vitamin degradation. Shake or stir before drinking, as ingredients tend to settle."
+    }
+  ]
+}

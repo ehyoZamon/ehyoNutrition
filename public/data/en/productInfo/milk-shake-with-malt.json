@@ -1,0 +1,71 @@
+{
+  "id": "306",
+  "title": "Milk Shake with Malt",
+  "image": "/products/306.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Milk shake with malt is a refreshing beverage made from milk, ice cream, malt flavoring, and sometimes a splash of cream. The malt gives it a sweet, slightly caramel-like taste reminiscent of beer notes, but without any alcohol."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The malt used in the shake is derived from sprouted barley that is dried and roasted.",
+        "The first malt‑flavored milk shake appeared in the United States in the 1960s as a fast‑food menu item.",
+        "Malt aroma often evokes childhood memories of the Soviet‑era “milk bar” ice creams.",
+        "The shake can be served cold or warm by substituting hot milk for ice.",
+        "Malt extract contains small amounts of B‑vitamins retained from the grain."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "The milk base provides calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Rich in protein",
+          "content": "Milk and ice cream supply a complete set of amino acids that support muscle recovery."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Malt extract retains modest levels of vitamins B1, B2 and niacin, aiding energy metabolism."
+        },
+        {
+          "title": "Mood‑boosting",
+          "content": "The sweet taste and malt aroma can stimulate serotonin production, helping improve mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "The shake often contains a lot of sugar, which can contribute to weight gain if consumed frequently."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should use lactose‑free milk or plant‑based alternatives."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Allergy to milk or dairy proteins makes the shake unsuitable for some individuals."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Added ice cream and cream make the drink calorie‑dense; portion control is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the milk shake with malt in tall glasses, topped with whipped cream and a sprinkle of ground malt or cinnamon. It can be sipped through a straw or used as a sauce for desserts such as pancakes."
+    },
+    {
+      "title": "Storage",
+      "content": "The shake is best enjoyed immediately. If you need to store it, keep it refrigerated in a sealed container for no more than 2‑3 hours to prevent cream separation."
+    }
+  ]
+}

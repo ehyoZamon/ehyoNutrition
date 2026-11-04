@@ -1,0 +1,75 @@
+{
+  "id": "2110",
+  "title": "Egg Burrito",
+  "image": "/products/2110.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An egg burrito is a soft wheat or whole‑grain tortilla wrapped around a filling whose core is scrambled or folded eggs, often combined with cheese, vegetables, meat or beans. The dish is popular in Mexican and American cuisines as a quick breakfast or light lunch."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Egg burritos are commonly served with salsa, guacamole or sour cream for extra flavor.",
+        "A “breakfast” version may include bacon, sausage or ham, while a vegetarian version relies solely on veggies and beans.",
+        "Traditional Mexican tortillas are made from corn flour, but in the U.S. flour tortillas are more common.",
+        "The burrito is portable: it can be wrapped in foil and reheated in a microwave.",
+        "There is a world record for the largest burrito – over 2 meters long."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Eggs provide a complete source of protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Eggs supply B12, riboflavin and folate, which support energy metabolism and nervous system health."
+        },
+        {
+          "title": "Contains healthy fats",
+          "content": "When avocado or olive oil is added, the burrito delivers monounsaturated fats that are heart‑friendly."
+        },
+        {
+          "title": "Promotes satiety",
+          "content": "The combination of protein, fat and fiber from vegetables helps keep you full longer."
+        },
+        {
+          "title": "Provides minerals",
+          "content": "Eggs and added ingredients (cheese, beans) contribute iron, zinc and phosphorus, important for bones and immunity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to eggs, ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Egg yolks contain cholesterol; people with high cholesterol should monitor yolk intake."
+        },
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked eggs can harbor Salmonella; ensure eggs are cooked through."
+        },
+        {
+          "title": "High calorie density",
+          "content": "Burritos loaded with cheese, meat and sauces can be calorie‑rich, so watch portion size."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Heat the burrito in a microwave or on a skillet, cutting it in half. Serve with salsa, guacamole, sour cream or fresh herbs. A squeeze of lime adds a bright tang."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared burrito in an airtight container in the refrigerator for up to 2‑3 days. For longer storage, freeze in a freezer‑safe bag for up to 2 months. Reheat to an internal temperature of 75 °C before eating."
+    }
+  ]
+}

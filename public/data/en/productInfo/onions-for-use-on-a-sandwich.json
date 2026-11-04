@@ -1,0 +1,71 @@
+{
+  "id": "5006",
+  "title": "Onions",
+  "image": "/products/5006.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Onions are a bulbous plant of the Amaryllidaceae family cultivated for its edible bulbs. The bulbs have a sharp aroma, mildly sweet flavor and a crisp texture. Onions are eaten raw, sautéed, caramelized, and used as a base for sauces, soups, and sandwiches."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Onions were domesticated over 5,000 years ago in Central Asia.",
+        "There are more than 600 onion varieties, including yellow, red, white, and shallot.",
+        "Each layer of the bulb is a modified leaf.",
+        "Tearing is caused by volatile sulfur compounds released when the onion tissue is cut.",
+        "Onions can be stored in a cool, dry place for up to six months."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Onions contain quercetin and sulfur compounds that help protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Flavonoids and potassium in onions contribute to lower blood pressure and improved lipid profiles."
+        },
+        {
+          "title": "Boosts immunity",
+          "content": "Vitamin C and sulfur enhance immune cell function."
+        },
+        {
+          "title": "Aids digestion",
+          "content": "Fiber and prebiotic compounds promote the growth of beneficial gut bacteria."
+        },
+        {
+          "title": "Helps regulate blood sugar",
+          "content": "Sulfur compounds may improve insulin sensitivity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to onions, manifested as skin rashes or swelling."
+        },
+        {
+          "title": "Stomach irritation",
+          "content": "Large amounts of raw onion can cause heartburn or discomfort in people with high gastric acidity."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Sulfur compounds may enhance the effect of anticoagulants, so moderation is advised for those on blood thinners."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Onions can be used raw in salads and sandwiches, sautéed, caramelized, roasted, or added to soups and sauces. For a milder taste, lightly sauté the onion until golden."
+    },
+    {
+      "title": "Storage",
+      "content": "Store onions in a cool, dry, well‑ventilated area. Avoid sealed plastic bags to prevent moisture buildup. Discard any onions with mold or soft spots."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "234",
+  "title": "Yogurt, low fat milk, non‑fruit flavors",
+  "image": "/products/234.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt made from low‑fat milk is a fermented dairy product created by adding live cultures Lactobacillus bulgaricus and Streptococcus thermophilus to skim milk. Non‑fruit flavors include classic, vanilla, creamy, spiced (e.g., cinnamon) and other aromatics without fruit additives."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Low‑fat yogurt retains most of milk’s nutrients while having reduced fat content.",
+        "Live cultures support gut health by improving intestinal microbiota.",
+        "Non‑fruit versions are often chosen by people monitoring sugar intake because they tend to be less sweet.",
+        "Yogurt can replace sour cream in recipes, lowering calorie density.",
+        "Fermentation of milk into yogurt originated in Central Asia over 5,000 years ago."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Live bacteria help maintain a balanced gut microbiome, aiding digestion and immunity."
+        },
+        {
+          "title": "High protein content",
+          "content": "Low‑fat yogurt provides about 10 g of protein per 100 g, supporting muscle maintenance."
+        },
+        {
+          "title": "Low in fat",
+          "content": "The reduced‑fat profile makes it suitable for calorie‑controlled diets."
+        },
+        {
+          "title": "Calcium source",
+          "content": "Calcium strengthens bones and teeth and is essential for muscle function."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, important for energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort, although fermentation reduces lactose levels."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey requires complete avoidance of the product."
+        },
+        {
+          "title": "Added sugar content",
+          "content": "Some flavored varieties may contain hidden sugars; check the label."
+        },
+        {
+          "title": "Probiotic spoilage",
+          "content": "Improper storage can kill beneficial cultures and allow pathogenic growth."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy yogurt as a snack, blend into smoothies, use in sauces, dressings, baked goods, or as a base for dips. Non‑fruit flavors pair well with nuts, honey, whole grains and spices."
+    },
+    {
+      "title": "Storage",
+      "content": "Store yogurt in the refrigerator at 1‑4 °C in its original container. After opening, consume within 5‑7 days. Do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

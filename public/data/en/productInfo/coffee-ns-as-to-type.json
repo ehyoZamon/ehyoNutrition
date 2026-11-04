@@ -1,0 +1,75 @@
+{
+  "id": "5126",
+  "title": "Coffee",
+  "image": "/products/5126.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Coffee is a beverage made from roasted seeds of the coffee plant (genus Coffea). The main species are Arabica (Coffea arabica) and Robusta (Coffea canephora). Coffee has a distinctive aroma, a bitter‑acidic taste, and contains caffeine, a stimulant for the central nervous system."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Coffee is the second most traded commodity in the world after oil.",
+        "Arabica accounts for about 60‑70 % of global production, while Robusta makes up 30‑40 %.",
+        "The first commercial coffee was cultivated in Yemen in the 15th century.",
+        "There are over 100 Arabica varieties, each with its own flavor profile.",
+        "Coffee beans are not true beans; they are seeds inside the fruit called coffee cherries."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energizing effect",
+          "content": "Caffeine increases alertness, improves concentration, and can reduce feelings of fatigue."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Coffee is rich in polyphenols that help combat free radicals and may lower the risk of certain chronic diseases."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "Caffeine can boost metabolic rate, leading to a modest increase in calorie burning."
+        },
+        {
+          "title": "Reduced disease risk",
+          "content": "Moderate coffee consumption is linked to lower risk of Parkinson’s disease, type‑2 diabetes, and some cancers."
+        },
+        {
+          "title": "Liver health",
+          "content": "Regular moderate coffee intake may reduce the risk of cirrhosis and liver cancer."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "Some individuals may experience anxiety, insomnia, rapid heartbeat, or gastrointestinal upset after caffeine."
+        },
+        {
+          "title": "Blood pressure increase",
+          "content": "High doses of caffeine can temporarily raise blood pressure, which is relevant for people with hypertension."
+        },
+        {
+          "title": "Mineral absorption",
+          "content": "Caffeine can reduce the absorption of iron and calcium, so it’s advisable not to drink coffee immediately with these minerals."
+        },
+        {
+          "title": "Pregnancy",
+          "content": "Pregnant women are advised to limit caffeine intake to about 200 mg per day (roughly one cup)."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Coffee is typically brewed with hot water (90‑96 °C) as espresso, drip, French press, or Turkish coffee. It can be enjoyed with milk, cream, sugar, spices (cinnamon, cardamom), or used in desserts, sauces, and marinades."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole beans in an airtight container in a cool, dark place, away from moisture and direct sunlight. For longer storage, keep them in the refrigerator or freezer, but avoid condensation when removing them."
+    }
+  ]
+}

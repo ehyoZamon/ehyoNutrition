@@ -1,0 +1,75 @@
+{
+  "id": "501",
+  "title": "Tiramisu",
+  "image": "/products/501.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tiramisu is a classic Italian dessert made of coffee‑soaked ladyfingers, a creamy mixture of mascarpone cheese, eggs, and sugar, and a dusting of cocoa powder. It has a smooth, velvety texture and a distinctive coffee‑chocolate flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tiramisu originated in Venice in the mid‑20th century.",
+        "The name “tiramisu” means “pick me up,” referring to the energizing effect of coffee.",
+        "The traditional recipe involves no baking; all layers are assembled without heat.",
+        "There are many variations, including fruit‑infused, chocolate, and non‑alcoholic versions.",
+        "Original recipes use ladyfingers soaked in coffee and sometimes a splash of Marsala wine."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Mascarpone cheese used in the cream is rich in calcium, essential for bone and teeth health."
+        },
+        {
+          "title": "Provides protein",
+          "content": "Eggs and mascarpone supply a good amount of protein needed for tissue repair."
+        },
+        {
+          "title": "Contains vitamin A",
+          "content": "Mascarpone provides vitamin A, supporting vision and immune function."
+        },
+        {
+          "title": "Antioxidants from cocoa",
+          "content": "Cocoa powder is high in flavonoids, which may help reduce oxidative stress."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Tiramisu offers quick energy from the carbohydrates in ladyfingers and sugar."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Mascarpone and cream can trigger allergic reactions in people with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "High sugar content",
+          "content": "The dessert contains a lot of sugar, which may be problematic for diabetics or those watching their weight."
+        },
+        {
+          "title": "Caffeine content",
+          "content": "Coffee‑soaked ladyfingers add caffeine, which can affect sleep and heart rate."
+        },
+        {
+          "title": "Raw eggs",
+          "content": "Traditional recipes use raw eggs, posing a risk of salmonella; using pasteurized eggs is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve tiramisu chilled, cut into portions. It can be garnished with extra cocoa, grated chocolate, or fresh berries. For a lighter version, replace part of the cream with yogurt."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep tiramisu in an airtight container in the refrigerator for up to 3‑4 days. Longer storage may cause the texture and flavor to deteriorate."
+    }
+  ]
+}

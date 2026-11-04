@@ -1,0 +1,75 @@
+{
+  "id": "743",
+  "title": "Chicken",
+  "image": "/products/743.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken is a widely consumed source of protein obtained from domestic poultry. It is commonly used as fillet, breast, thigh, or whole carcass. Grilled with sauce, it stays juicy and develops a flavorful crust."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken is the most consumed meat worldwide.",
+        "Its low fat content makes it a staple in weight‑loss diets.",
+        "Grilling helps retain more B‑vitamins compared with deep‑frying.",
+        "Yogurt, lemon, or soy‑based sauces are popular marinades before grilling.",
+        "Chicken bones are rich in collagen, beneficial for joints and skin."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Chicken provides all essential amino acids needed for tissue growth and repair."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Especially skin‑less breast, making it suitable for heart‑healthy diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains niacin, vitamin B6 and B12, supporting metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "Provides phosphorus, selenium and zinc, important for bones, immunity and antioxidant protection."
+        },
+        {
+          "title": "Satiety support",
+          "content": "High protein content promotes lasting fullness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked chicken may harbor salmonella; cook to an internal temperature of 75 °C."
+        },
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to chicken protein."
+        },
+        {
+          "title": "Sodium in sauces",
+          "content": "Prepared sauces can be high in salt; monitor sodium intake if needed."
+        },
+        {
+          "title": "Skin content",
+          "content": "Chicken skin contains more fat and should be eaten in moderation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chicken can be served sliced, added to salads, wraps, pasta, or used in stews. Grilled with sauce, it works well as a main dish or in sandwiches."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh raw chicken refrigerated at +2‑4 °C for up to 2 days. Store cooked chicken in an airtight container in the fridge for up to 3 days or freeze for up to 3 months."
+    }
+  ]
+}

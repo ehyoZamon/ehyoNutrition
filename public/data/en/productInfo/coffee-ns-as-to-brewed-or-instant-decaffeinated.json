@@ -1,0 +1,75 @@
+{
+  "id": "5204",
+  "title": "Coffee",
+  "image": "/products/5204.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Coffee is a beverage made from roasted and ground seeds of the coffee plant. There are two main types: instant (soluble) and brewed. Decaffeinated (decaf) coffee undergoes a special process to remove most of the caffeine while preserving flavor and aroma."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Coffee is the second most traded commodity in the world after oil.",
+        "The first coffee beans were discovered in Ethiopia and later spread throughout the Arab world.",
+        "More than 100 species of coffee trees exist, but commercial production focuses on Coffea arabica and Coffea robusta.",
+        "Instant coffee was invented in the early 20th century and quickly gained popularity due to its convenience.",
+        "Decaf can be produced by the Swiss water process, which uses no chemical solvents."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Coffee contains polyphenols that help combat free radicals and may reduce the risk of certain diseases."
+        },
+        {
+          "title": "Boosts mental alertness",
+          "content": "Caffeine stimulates the central nervous system, improving concentration and reaction time."
+        },
+        {
+          "title": "Supports metabolism",
+          "content": "Caffeine can increase metabolic rate, aiding calorie burning."
+        },
+        {
+          "title": "May lower risk of type 2 diabetes",
+          "content": "Studies show that moderate regular coffee consumption is associated with a reduced incidence of diabetes."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Coffee provides niacin, riboflavin, and pyridoxine, which are important for energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "Some individuals may experience anxiety, insomnia, or rapid heartbeat after coffee consumption."
+        },
+        {
+          "title": "Increased stomach acidity",
+          "content": "Coffee can stimulate gastric acid production, which may be problematic for gastritis or ulcer patients."
+        },
+        {
+          "title": "Impact on bone health",
+          "content": "High caffeine intake can increase calcium excretion, so people at risk of osteoporosis should limit consumption."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Caffeine may amplify the effects of certain medications, such as antidepressants and stimulants."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Brewed coffee is prepared by pouring hot water over ground beans (French press, espresso, drip). Instant coffee is simply mixed with hot water. Decaf is available in both forms and is suitable for those who want to avoid caffeine while keeping the coffee flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store whole beans in an airtight container in a cool, dry, dark place. Ground coffee loses aroma faster, so keep it refrigerated and use within a few weeks. Instant coffee should be kept dry and used before the best‑by date on the package."
+    }
+  ]
+}

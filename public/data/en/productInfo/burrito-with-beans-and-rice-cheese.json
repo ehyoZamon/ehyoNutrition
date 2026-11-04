@@ -1,0 +1,75 @@
+{
+  "id": "3310",
+  "title": "Burrito with Beans, Rice, and Cheese",
+  "image": "/products/3310.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A burrito is a Mexican dish consisting of a large soft tortilla wrapped around a filling of beans, rice, cheese, and often additional ingredients such as vegetables, meat, or sauces. The beans‑rice‑cheese version is popular among vegetarians and anyone looking for a hearty, easy‑to‑prepare meal."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The tortilla for a burrito is traditionally made from corn or wheat flour; wheat tortillas are softer and more common in the United States.",
+        "Beans used are usually black or pinto, both rich in protein and fiber.",
+        "Mexican rice is often cooked with tomato sauce and spices, giving it a characteristic color and flavor.",
+        "Cheese commonly added is cheddar, Monterey Jack, or Mexican “queso” that melts and binds the other ingredients.",
+        "Burritos are frequently served with salsa, guacamole, sour cream, or a squeeze of lime for extra zest."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of plant protein",
+          "content": "Beans and cheese provide a substantial amount of protein needed for tissue repair and muscle maintenance."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Beans and rice supply fiber that supports healthy digestion and helps keep you feeling full."
+        },
+        {
+          "title": "Complex carbohydrates",
+          "content": "Rice offers slowly released energy, which helps maintain stable blood‑sugar levels."
+        },
+        {
+          "title": "Calcium and vitamin D from cheese",
+          "content": "Cheese is a good source of calcium for bone health and contains vitamin D that aids calcium absorption."
+        },
+        {
+          "title": "Contains beneficial micronutrients",
+          "content": "Beans provide iron, magnesium, and folate, while rice contributes vitamin B6 and thiamine, supporting metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie content",
+          "content": "A cheese‑and‑rice burrito can be calorie‑dense, so portion control is advisable for weight‑management diets."
+        },
+        {
+          "title": "Sodium levels",
+          "content": "Cheese and prepared sauces often contain a lot of salt; people with hypertension should opt for low‑sodium versions."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Cheese contains lactose, so those who are lactose‑intolerant may need dairy‑free alternatives."
+        },
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals are allergic to beans and should substitute another protein source."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Burritos can be enjoyed hot or at room temperature. Hold it in your hand, cut it in half if desired, and add fresh veggies, salsa, guacamole, or sour cream to taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared burrito in an airtight container in the refrigerator for 2‑3 days. For longer storage, wrap tightly in plastic wrap and freeze up to 2 months, then reheat in the microwave or oven."
+    }
+  ]
+}

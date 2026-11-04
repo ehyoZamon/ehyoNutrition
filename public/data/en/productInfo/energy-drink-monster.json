@@ -1,0 +1,67 @@
+{
+  "id": "5500",
+  "title": "Energy Drink Monster",
+  "image": "/products/5500.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Monster is a popular energy drink containing caffeine, taurine, B‑vitamins and sugar (or sugar substitutes). It is sold in various flavors and sizes, including a 550 ml can. The drink is intended to boost alertness and concentration."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first Monster drink was launched in 2002 by Monster Beverage Corporation.",
+        "The brand is known for its bold can design with the iconic “M” logo and aggressive marketing in extreme sports.",
+        "A typical 500 ml can contains about 160 mg of caffeine, roughly equivalent to two cups of coffee.",
+        "There are more than 30 flavors, including the original “Original”, sugar‑free “Zero Ultra”, and tropical “Pipeline Punch”.",
+        "Monster sponsors numerous music festivals, esports teams and athletes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energy boost",
+          "content": "Caffeine stimulates the central nervous system, temporarily increasing alertness and reducing perceived fatigue."
+        },
+        {
+          "title": "Improved focus",
+          "content": "B‑vitamins (B2, B3, B6, B12) support energy metabolism and may help maintain cognitive performance."
+        },
+        {
+          "title": "Recovery aid",
+          "content": "Taurine and electrolytes (sodium, potassium) help maintain fluid balance during intense physical activity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High caffeine doses can cause anxiety, insomnia, rapid heartbeat and increased blood pressure."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Regular versions contain up to 55 g of sugar per 500 ml, which may contribute to weight gain and dental caries."
+        },
+        {
+          "title": "Interaction with alcohol",
+          "content": "Mixing energy drinks with alcohol can mask intoxication, raising the risk of overexertion."
+        },
+        {
+          "title": "Not recommended for children and pregnant women",
+          "content": "Due to high caffeine and stimulant levels, the product is not advised for people under 18, pregnant or nursing women."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Drink Monster chilled, straight from the can. A typical serving is 250–500 ml over 2–3 hours. Do not exceed 2–3 cans per day, especially if you are caffeine‑sensitive."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, consume within 24 hours for best taste."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "4098",
+  "title": "Fruit Smoothie, Light",
+  "image": "/products/4098.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A light fruit smoothie is a refreshing drink made from fresh fruits, berries, a small amount of water or low‑fat yogurt, and no added sugar. It provides vitamins, minerals and antioxidants while remaining low in calories, making it an excellent choice for breakfast or a snack."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "A blend of berries and tropical fruits delivers a wide range of vitamins C and A.",
+        "Without added sugar, a serving typically contains no more than 120 kcal.",
+        "The fruit mix can be adapted to seasonal produce, making the drink environmentally sustainable.",
+        "Fruit smoothies are often used in sports nutrition for quick energy and electrolyte replenishment.",
+        "Blending retains most of the dietary fiber, contributing to a feeling of fullness."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C supports the immune system and aids iron absorption."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Flavonoids and carotenoids from berries protect cells from oxidative stress."
+        },
+        {
+          "title": "Low‑calorie",
+          "content": "The modest calorie count makes the smoothie suitable for weight management."
+        },
+        {
+          "title": "Provides hydration",
+          "content": "Water and natural fruit juice help maintain fluid balance."
+        },
+        {
+          "title": "Provides dietary fiber",
+          "content": "Fiber promotes healthy digestion and sustains satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fruit allergy",
+          "content": "Some individuals may have allergic reactions to specific fruits used in the smoothie."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Although no sugar is added, natural fruit sugars can be a concern for people with diabetes."
+        },
+        {
+          "title": "Acidity",
+          "content": "Acidic fruits may exacerbate heartburn in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink the smoothie immediately after blending to preserve freshness and nutrients. It can be added to a bowl of muesli, used as a base for protein shakes, or served as a light dessert."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared smoothie in an airtight container in the refrigerator for no more than 24 hours. Shake well before drinking, as particles may settle at the bottom."
+    }
+  ]
+}

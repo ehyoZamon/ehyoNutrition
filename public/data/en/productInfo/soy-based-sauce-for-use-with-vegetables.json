@@ -1,0 +1,75 @@
+{
+  "id": "5000",
+  "title": "Soy Based Sauce",
+  "image": "/products/5000.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy based sauce is a traditional condiment made by fermenting soybeans, wheat, salt and water. It has a distinctive aroma, salty‑umami flavor and is used to enhance vegetable dishes, salads, marinades and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first soy sauce originated in China more than 2,500 years ago.",
+        "There are several types of soy sauce: light (shōyu), dark, sweet and low‑sodium varieties.",
+        "Traditional fermentation can take from several months up to several years.",
+        "In Japan soy sauce is called \"shoyu\", in Korea – \"jang\".",
+        "Soy sauce is often used in vegetarian cuisine as a fish or seafood substitute."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Soybeans provide a complete plant protein, which remains in small amounts in the finished sauce."
+        },
+        {
+          "title": "Source of antioxidants",
+          "content": "Fermentation creates phenolic compounds such as isoflavones that have antioxidant activity."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Fermented foods can promote the growth of beneficial gut bacteria."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Soy sauce contains virtually no fat, making it suitable for low‑fat diets."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "It provides modest amounts of B1, B2 and B6 vitamins, which are involved in energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Traditional soy sauce contains 14‑18 % sodium, which can raise blood pressure if consumed in excess."
+        },
+        {
+          "title": "Soy allergy",
+          "content": "People allergic to soy may experience reactions ranging from skin rash to anaphylaxis."
+        },
+        {
+          "title": "Monosodium glutamate",
+          "content": "Some soy sauces are fortified with MSG, which can cause headaches or a tingling sensation in sensitive individuals."
+        },
+        {
+          "title": "Histamine content",
+          "content": "Fermented products may contain histamine, triggering symptoms in those with histamine intolerance."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Add soy sauce to vegetable stir‑fries, marinades, salads, soups and sauces. It can be diluted with water or vinegar for a milder taste and combined with ginger, garlic and sesame oil."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the sauce in a tightly sealed bottle in a cool, dark place. After opening, keep it refrigerated where it retains quality for up to 6 months. Avoid exposure to direct sunlight."
+    }
+  ]
+}

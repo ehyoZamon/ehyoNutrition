@@ -1,0 +1,66 @@
+{
+  "id": "5151",
+  "title": "Frozen Coffee Drink",
+  "image": "/products/5151.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The frozen coffee drink is a ready‑to‑serve beverage made from cold coffee, sugar and dairy components, frozen to a soft‑serve ice‑cream consistency. It combines the aroma of freshly brewed coffee with a refreshing chill, perfect for hot days."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first frozen coffee drink appeared in Japan in the 1990s under the brand “Frappuccino”.",
+        "Stabilizers are often added to prevent ice crystal formation and keep a creamy texture.",
+        "It can be made at home using coffee syrup, milk and liquid nitrogen.",
+        "There are many flavor variations: vanilla, caramel, mint, chocolate, and spiced."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of caffeine",
+          "content": "Caffeine boosts alertness and may improve concentration."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Coffee is rich in polyphenols that help combat free radicals."
+        },
+        {
+          "title": "Energy support",
+          "content": "Sugar and dairy proteins provide a quick energy boost."
+        },
+        {
+          "title": "Mood enhancement",
+          "content": "Caffeine stimulates dopamine production, contributing to a better mood."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "High caffeine intake can cause anxiety, insomnia, and rapid heartbeat."
+        },
+        {
+          "title": "Sugar content",
+          "content": "High sugar levels may contribute to weight gain and increase diabetes risk."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Dairy ingredients can cause discomfort for people who are lactose intolerant."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the frozen coffee drink in a glass with a straw; you can top it with whipped cream, dust with cocoa powder, or add a scoop of ice cream for extra richness."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep in the freezer at –18 °C. Over time ice crystals may form; let the drink sit at room temperature for 2–3 minutes before serving to soften."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3283",
+  "title": "Taco",
+  "image": "/products/3283.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Taco is a traditional Mexican dish consisting of a soft flour tortilla, seasoned ground beef, and melted cheese. The tortilla provides a tender base, the beef adds a rich meaty flavor, and the cheese contributes a creamy note."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Flour tortillas originated in northern Mexico in the 19th century as an alternative to corn tortillas.",
+        "Tacos are often served with a variety of toppings: salsa, guacamole, onions, and cilantro.",
+        "In the United States, tacos became a popular fast‑food item after World War II when American soldiers brought the recipe back from Mexico.",
+        "Traditional Mexican tacos are usually cooked on an open flame, giving the meat a distinctive char.",
+        "There are over 100 taco variations, differing in meat type, sauces, and presentation."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Ground beef in tacos provides a complete source of protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Red meat supplies a notable amount of iron, supporting normal blood formation."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese adds calcium, important for bone and tooth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef and cheese contain B12, B6, and niacin, which aid energy metabolism."
+        },
+        {
+          "title": "Complex carbs from tortilla",
+          "content": "Flour tortillas provide sustained energy through complex carbohydrates."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High saturated fat",
+          "content": "Cheese and fatty beef can raise cholesterol levels if consumed in excess."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Added salt in the filling and sauces may be a concern for people with hypertension."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese can trigger allergic reactions in individuals with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Gluten in tortilla",
+          "content": "Flour tortillas contain gluten, making the dish unsuitable for those with celiac disease."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve tacos hot, folding the tortilla in half and filling it with seasoned ground beef, shredded cheese, and preferred toppings such as salsa, guacamole, fresh onion, cilantro, and a squeeze of lime. A dollop of sour cream or yogurt can add extra creaminess."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared tacos are best eaten immediately. If needed, store the cooked beef filling in an airtight container in the refrigerator for up to 2 days. Keep tortillas in a dry, cool place at room temperature, and store cheese in the refrigerator wrapped in plastic."
+    }
+  ]
+}

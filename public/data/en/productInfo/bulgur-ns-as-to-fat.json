@@ -1,0 +1,71 @@
+{
+  "id": "3201",
+  "title": "Bulgur",
+  "image": "/products/3201.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bulgur is a pre-cooked, dried, and coarsely ground wheat of the hard varieties (triticale). It is widely used in Middle Eastern, Mediterranean and Caucasian cuisines. Bulgur has a light nutty flavor, pleasant texture and cooks quickly."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bulgur dates back to ancient Egypt where it was used in ceremonial dishes.",
+        "Unlike couscous, bulgur is not steamed before drying, preserving more nutrients.",
+        "It comes in several grinds: fine (for couscous), medium (for tabbouleh) and coarse (for soups).",
+        "Bulgur is often used as a rice or couscous substitute in diet meals.",
+        "When kept dry, it can be stored for up to 2 years."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Both soluble and insoluble fiber support digestion and promote satiety."
+        },
+        {
+          "title": "Source of complex carbs",
+          "content": "Complex carbohydrates provide a slow, steady release of energy, helpful for blood‑sugar control."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "B1, B3 and B6 vitamins aid carbohydrate metabolism and support the nervous system."
+        },
+        {
+          "title": "Minerals",
+          "content": "Bulgur supplies iron, magnesium, phosphorus and zinc, important for blood, bones and immunity."
+        },
+        {
+          "title": "Low in fat",
+          "content": "It contains virtually no fat, making it suitable for low‑fat diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten",
+          "content": "Bulgur is made from wheat, so it is unsuitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Phytic acid",
+          "content": "It contains phytic acid, which can reduce mineral absorption when consumed in excess."
+        },
+        {
+          "title": "Food allergies",
+          "content": "Rarely, wheat‑sensitive individuals may experience an allergic reaction."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bulgur can be used as a side dish, added to salads (tabbouleh), soups, meat fillings and patties. Typically the grains are rinsed, soaked for 15‑30 minutes, then boiled 10‑15 minutes until tender."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bulgur in an airtight container in a cool, dry place away from moisture and light. For long‑term storage, keep it in the refrigerator."
+    }
+  ]
+}

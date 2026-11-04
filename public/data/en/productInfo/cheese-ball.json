@@ -1,0 +1,62 @@
+{
+  "id": "580",
+  "title": "Cheese Ball",
+  "image": "/products/580.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cheese ball is a small snack made from processed cheese, often enriched with spices, breadcrumbs and flavorings. It has a soft, slightly melt-in‑your‑mouth texture and a pronounced cheesy taste, making it popular with both children and adults."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cheese balls originated in the United States in the early 20th century as a convenient snack for schoolchildren.",
+        "Typical ingredients include milk protein, vegetable oils and flavor enhancers that mimic various cheese varieties.",
+        "There are many variants: smoked, herb‑infused, cheddar, parmesan, and more.",
+        "Cheese balls are frequently included in school lunches and used as toppings for salads."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Cheese balls provide calcium, which is essential for bone and tooth health."
+        },
+        {
+          "title": "Rich in protein",
+          "content": "Milk protein supports tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "They contain vitamins B2 and B12, which help maintain energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Cheese balls contain lactose and may cause discomfort for lactose‑intolerant individuals."
+        },
+        {
+          "title": "High sodium content",
+          "content": "The product can be high in salt, which is not recommended for people with hypertension."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Those allergic to milk proteins should avoid consumption."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cheese balls are convenient as a stand‑alone snack, added to salads, soups, or used as a sandwich filling. They can also be warmed in the microwave for a softer texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place in a tightly sealed package. For longer shelf life, keep refrigerated to prevent fat oxidation."
+    }
+  ]
+}

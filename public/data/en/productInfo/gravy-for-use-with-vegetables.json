@@ -1,0 +1,63 @@
+{
+  "id": "4999",
+  "title": "Gravy",
+  "image": "/products/4999.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Gravy is a thick sauce made from meat or vegetable stock, thickened with flour, starch, or cream. It adds a rich aroma and flavor, enhancing the natural notes of vegetables."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The word “gravy” comes from the English term for a sauce made from meat drippings.",
+        "Traditional British gravy is made from pan juices, but many vegetarian versions use vegetable broth.",
+        "In the United States, gravy is a staple accompaniment to turkey on Thanksgiving.",
+        "There are “brown” and “white” gravies – they differ by the type of base and thickening method.",
+        "Homemade gravy can be refrigerated for up to 5 days or frozen for up to 3 months."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Improves nutrient absorption",
+          "content": "Gravy’s small amount of fat helps the body absorb fat‑soluble vitamins from vegetables more efficiently."
+        },
+        {
+          "title": "Contains collagen (in meat versions)",
+          "content": "Meat‑based stocks used in traditional gravy are rich in collagen, which supports joint and skin health."
+        },
+        {
+          "title": "Flavor‑rich with herbs",
+          "content": "Herbs and spices added to the sauce can provide antioxidant benefits."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Prepared gravies often contain a lot of salt; people with hypertension should watch portion sizes."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Cream‑based versions may trigger reactions in individuals with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "Monosodium glutamate (MSG)",
+          "content": "Some commercial gravies contain added MSG, which can cause sensitivity in certain individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Serve gravy over roasted, stewed, or boiled vegetables, mashed potatoes, rice, and legumes. It can be stirred into vegetable casseroles, ragouts, or used as a base for soups."
+    },
+    {
+      "title": "Storage",
+      "content": "Store prepared gravy in an airtight container in the refrigerator for up to 5 days. For longer storage, portion into containers and freeze for up to 3 months. Reheat to a boil before serving."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "453",
+  "title": "Ice Cream Cone, Vanilla, Prepackaged",
+  "image": "/products/453.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A prepackaged vanilla ice cream cone is a convenient dessert ready to eat. Inside the crisp waffle cone lies smooth, creamy vanilla ice cream with a natural vanilla flavor, finished with a thin crunchy shell."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Vanilla is one of the most popular ice cream flavors worldwide.",
+        "The waffle cone was invented in the early 1900s in the United States as a handy way to serve ice cream.",
+        "Prepackaged cones often contain a small amount of air to prevent deformation during transport.",
+        "There are over 30 flavor variations for ice cream cones, but vanilla remains a classic."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy base of the ice cream provides calcium, essential for bone health."
+        },
+        {
+          "title": "Vitamin D",
+          "content": "Vitamin D present in dairy helps with calcium absorption."
+        },
+        {
+          "title": "Quick energy",
+          "content": "Ice cream supplies fast‑acting carbohydrates and a modest amount of fat for quick energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to weight gain and raise blood glucose levels."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Ice cream contains lactose, which may cause discomfort for those who are lactose intolerant."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Some individuals may experience allergic reactions to casein or whey proteins."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The cone can be eaten straight from the package. For extra flavor, add toppings such as chocolate sauce, nuts, berries, or sprinkle with cookie crumbs."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a freezer at –18 °C (0 °F) or lower. Once opened, consume within 1–2 days to avoid ice crystal formation and texture loss."
+    }
+  ]
+}

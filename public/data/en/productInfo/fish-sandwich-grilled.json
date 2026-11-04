@@ -1,0 +1,75 @@
+{
+  "id": "1804",
+  "title": "Fish Sandwich, Grilled",
+  "image": "/products/1804.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A grilled fish sandwich consists of tender fish fillet (commonly cod or sea bass), toasted bread, fresh vegetables and a light sauce. The sandwich carries the smoky aroma of the grill, a crisp crust on the bun and the juicy flavor of the fish."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Grilling preserves most of the beneficial omega‑3 fatty acids found in fish.",
+        "The classic American fish sandwich appeared in the early 20th century as a quick port‑workers lunch.",
+        "A lightly oil‑dipped bun is often used to achieve a golden crust.",
+        "A squeeze of lemon is traditionally served to brighten the fish flavor.",
+        "In some regions, sauerkraut is added for a tangy contrast."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega‑3",
+          "content": "The fish provides EPA and DHA, which support heart and brain health."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with meat sandwiches, the fish version contains less saturated fat."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "Fish fillet supplies complete protein essential for tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Fish is a good source of B12 and niacin, aiding energy metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "The sandwich delivers selenium and iodine, important for thyroid function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Individuals with a fish allergy may experience severe reactions after consumption."
+        },
+        {
+          "title": "Heavy‑metal contamination",
+          "content": "Certain fish species can contain mercury; choose reputable suppliers."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Sauces and marinades can increase salt levels, which may be a concern for hypertension."
+        },
+        {
+          "title": "Bacterial growth risk",
+          "content": "If left at room temperature for more than 2 hours, the sandwich may develop harmful bacteria."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the sandwich hot, cut in half. It can be eaten with hands, but a fork and knife work as well. Add fresh lemon juice, lettuce, or pickles to enhance the flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the prepared sandwich in an airtight container in the refrigerator for up to 24 hours. For longer storage, keep ingredients separate and assemble just before serving."
+    }
+  ]
+}

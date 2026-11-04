@@ -1,0 +1,75 @@
+{
+  "id": "4001",
+  "title": "Lychee",
+  "image": "/products/4001.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lychee is a juicy tropical fruit native to Southeast Asia. It is covered by a thin, slightly rough brown skin that hides a translucent, sweet flesh with a rose‑like aroma and a hint of pear. The fruit is usually eaten fresh, but it is also used in desserts, drinks, and sauces."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lychee belongs to the Sapindaceae family and is related to rambutan and durian.",
+        "In China lychee has been cultivated for over 2,000 years and was once called the “fruit of the emperor.”",
+        "The seeds contain toxic cyanogenic compounds and are not edible.",
+        "Several cultivars differ in size and sweetness, such as “Mise” and “Fosho.”",
+        "In some cultures lychee is considered a symbol of good luck and prosperity."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "One fruit provides more than 70 % of the daily vitamin C requirement, supporting immunity and antioxidant protection."
+        },
+        {
+          "title": "Contains polyphenols",
+          "content": "Flavonoids and anthocyanins in lychee help combat free radicals and reduce inflammation."
+        },
+        {
+          "title": "Source of potassium",
+          "content": "Potassium contributes to normal blood pressure and heart function."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Dietary fiber in the flesh promotes intestinal motility and a feeling of fullness."
+        },
+        {
+          "title": "Provides copper and iron",
+          "content": "These trace minerals are involved in hemoglobin formation and energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to lychee, such as skin rash or swelling."
+        },
+        {
+          "title": "Toxic seeds",
+          "content": "The seeds and inedible parts contain cyanogenic glycosides and must not be consumed."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Lychee is relatively sweet, so people with diabetes should monitor portion size."
+        },
+        {
+          "title": "Gastrointestinal issues",
+          "content": "Large amounts can cause stomach upset due to the high fructose concentration."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Peel the skin, remove the seed, and eat the flesh fresh. Lychee is added to fruit salads, smoothies, ice cream, and cocktails. It can also be made into jam, jelly, or a sauce for fish."
+    },
+    {
+      "title": "Storage",
+      "content": "Store lychee in the refrigerator in an airtight container for up to 5 days. For longer storage, freeze the peeled flesh in bags—it retains flavor and aroma for up to 6 months."
+    }
+  ]
+}

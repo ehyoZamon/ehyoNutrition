@@ -1,0 +1,75 @@
+{
+  "id": "1662",
+  "title": "Cheeseburger",
+  "image": "/products/1662.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A cheeseburger is a classic fast‑food item consisting of a small beef patty, melted cheese, a bun, lettuce, tomato slice, pickles, and sauce. It is quick to prepare and popular worldwide."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first cheeseburger appeared in the United States in the 1920s.",
+        "The combination of beef and processed cheese creates the characteristic \"stretchy\" taste.",
+        "Different countries add local twists: Japan uses teriyaki sauce, India offers meat‑free patties.",
+        "Cheeseburgers are often featured in advertising as a symbol of fast, affordable food.",
+        "There is a \"double\" cheeseburger version with two patties and double cheese."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein",
+          "content": "The beef patty provides high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Calcium",
+          "content": "Melted cheese supplies calcium, which supports bone and tooth health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef and cheese contain B12, B6, and niacin, important for energy metabolism."
+        },
+        {
+          "title": "Iron",
+          "content": "Red meat is rich in heme iron, which is readily absorbed by the body."
+        },
+        {
+          "title": "Dietary fiber from bun and veggies",
+          "content": "A whole‑grain bun and fresh vegetables add a modest amount of fiber that aids digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie content",
+          "content": "Cheeseburgers are calorie‑dense due to meat, cheese, and sauce, so they should be eaten in moderation."
+        },
+        {
+          "title": "Saturated fat and sodium",
+          "content": "Cheese and sauces can be high in saturated fats and salt, which may affect cardiovascular health if consumed frequently."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "People allergic to dairy may react to the melted cheese."
+        },
+        {
+          "title": "Foodborne illness risk",
+          "content": "Undercooked patties may harbor harmful bacteria; ensure the meat is cooked thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cheeseburgers are typically eaten by hand, holding the bottom bun. They can be customized with extra sauces, spices, or additional vegetables to suit personal taste."
+    },
+    {
+      "title": "Storage",
+      "content": "A freshly prepared cheeseburger is best enjoyed immediately. If needed, store it in an airtight container in the refrigerator for up to 24 hours. Reheat using an oven or grill rather than a microwave to keep the bun crisp."
+    }
+  ]
+}

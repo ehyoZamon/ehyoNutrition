@@ -1,0 +1,75 @@
+{
+  "id": "505",
+  "title": "Cheese, Brick",
+  "image": "/products/505.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Brick (Brie) is a soft, ripened cheese with a white mold rind, originating from the Île-de-France region of France. It has a mild buttery flavor with subtle mushroom notes and a creamy texture. The cheese is typically aged from 4 to 8 weeks."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Brie is often called the “king of cheeses” because of its historic popularity among French aristocracy.",
+        "Traditional brick is made from cow’s milk, but goat and sheep milk versions also exist.",
+        "The rind forms thanks to the noble mold Penicillium candidum, which gives the cheese its characteristic aroma.",
+        "Originally, brick is sold in a round wheel about 30 cm in diameter, though today many smaller portions are available.",
+        "There are several varieties such as Brie de Meaux, Brie de Melun, and Brie de Montmartre, each with distinct flavor and aging time."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Brick provides a good amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Source of protein",
+          "content": "The cheese supplies high‑quality animal protein needed for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Brick contains vitamins B2, B12 and niacin, supporting energy metabolism and nervous system health."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Fermentation introduces beneficial bacteria that can promote gut health."
+        },
+        {
+          "title": "Low in lactose",
+          "content": "During aging part of the lactose is broken down, making brick often tolerable for people with mild lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk‑protein allergy",
+          "content": "Individuals allergic to casein or whey proteins should avoid brick."
+        },
+        {
+          "title": "High fat content",
+          "content": "Brick is a high‑fat cheese, so it should be consumed in moderation."
+        },
+        {
+          "title": "Sodium",
+          "content": "The cheese can contain a notable amount of salt; those monitoring sodium intake should limit portions."
+        },
+        {
+          "title": "Mold sensitivity",
+          "content": "While Penicillium candidum is safe, people with weakened immune systems or mold sensitivities should be cautious."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve brick at room temperature, sliced or cut into wedges. It pairs well with bread, crackers, fruits (pear, apple) and nuts. The cheese complements red wines and certain beers. In cooking, brick is used in sauces, casseroles and on pizza."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep brick in its original packaging or wrapped in parchment placed inside an airtight container in the refrigerator at 2‑4 °C. Consume within 1‑2 weeks after opening. Discard if it develops an off‑odor or any mold other than the white rind."
+    }
+  ]
+}

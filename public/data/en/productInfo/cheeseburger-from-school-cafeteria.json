@@ -1,0 +1,75 @@
+{
+  "id": "1666",
+  "title": "Cheeseburger",
+  "image": "/products/1666.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A cheeseburger is a hot sandwich consisting of a beef patty, melted cheese, lettuce leaf, tomato slice, pickles and sauce, placed between two halves of a bun. In school cafeteria 1666 it is prepared from readily available ingredients and served as a quick lunch for students."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first cheeseburger appeared in the United States in the early 1920s, and it became popular in Russian schools only in the 21st century.",
+        "The combination of beef and melted cheese provides a fast source of protein and calcium.",
+        "Some schools replace beef with a chicken patty to lower fat content.",
+        "The bun is often toasted, giving it a crunchy crust and enhancing flavor.",
+        "Cheeseburgers are frequently listed under \"quick meals\" because they can be prepared in 5–7 minutes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "The beef patty supplies essential amino acids needed for growth and tissue repair."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Melted cheese contains calcium important for bones and teeth, especially in children."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Beef and cheese provide vitamins B12 and B6, supporting normal nervous system function."
+        },
+        {
+          "title": "Energy dense",
+          "content": "A cheeseburger quickly replenishes energy stores thanks to its mix of protein, fat, and carbohydrates."
+        },
+        {
+          "title": "Dietary fiber",
+          "content": "Lettuce and tomato add a modest amount of fiber that aids digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High in fat and calories",
+          "content": "Cheeseburgers can be calorie‑dense and contain saturated fats, so they should be eaten in moderation."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Cheese and sauce often contain a lot of salt, which may be undesirable for people with hypertension."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Melted cheese can trigger allergic reactions in individuals with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Meat safety",
+          "content": "Improperly cooked beef poses a risk of foodborne illness, so the patty must be fully cooked."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cheeseburgers are typically eaten with the hands, holding the bottom bun. They can be topped with extra fresh vegetables or swapped for a lighter yogurt‑based sauce."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared cheeseburger in the refrigerator for no more than 2–3 days. When reheating, use an oven or microwave to avoid making the bun too soggy."
+    }
+  ]
+}

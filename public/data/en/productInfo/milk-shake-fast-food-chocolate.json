@@ -1,0 +1,79 @@
+{
+  "id": "307",
+  "title": "Chocolate Milk Shake",
+  "image": "/products/307.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A chocolate milk shake is a cold beverage made from milk, ice cream, and cocoa chocolate. It has a thick creamy texture, sweet chocolate aroma, and refreshing taste, often served in fast‑food venues as a quick dessert or energy drink."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first chocolate milk shake appeared in the United States in the early 20th century.",
+        "The shake is commonly served in tall glasses with a straw, making it visually appealing.",
+        "There are many variations: with banana, nuts, caramel, or protein powders.",
+        "Chocolate flavor is enhanced by using high‑quality cocoa mass.",
+        "In some countries the shake is topped with whipped cream and chocolate shavings."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "The milk in the shake provides calcium, essential for bone and teeth health."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Sugar and carbohydrates quickly replenish glycogen stores, useful after physical activity."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Milk and chocolate contain vitamins B2 and B12, supporting metabolism."
+        },
+        {
+          "title": "Antioxidants",
+          "content": "Cocoa chocolate is rich in flavonoids, which may protect cells from oxidative stress."
+        },
+        {
+          "title": "Protein",
+          "content": "Ice cream and milk add dairy protein, aiding muscle recovery."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to weight gain and increase diabetes risk."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after drinking the shake."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey can trigger reactions in sensitive individuals."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Chocolate milk shakes are quite calorie‑dense, so portion control is advisable."
+        },
+        {
+          "title": "Caffeine content",
+          "content": "Dark chocolate may contain small amounts of caffeine, which should be considered for children."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the shake cold, often over ice. Drink it through a straw, add whipped cream, sprinkle chocolate shavings or nuts. For a lighter version, use skim milk and sugar substitutes."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared shake should be kept in the refrigerator and consumed within 24 hours. If it contains ice cream, store it in an airtight container to prevent absorption of other odors."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "2104",
+  "title": "Bacon Biscuit Sandwich",
+  "image": "/products/2104.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The Bacon Biscuit Sandwich is a layered sandwich made of a soft biscuit, crispy bacon, lettuce, tomato, and sauce. It combines the sweetness of the biscuit with the salty aroma of bacon, creating a balanced flavor popular in fast‑food and café menus."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The Bacon Biscuit Sandwich originated in the United States in the early 2000s as an experimental item in fast‑food chains.",
+        "Crispy bacon is often achieved by double‑frying the strips.",
+        "The biscuit used is typically unsweetened to let the bacon flavor shine.",
+        "The sandwich is commonly served with potato wedges or coleslaw.",
+        "Variations include adding cheddar cheese, avocado, or a fried egg."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Bacon provides high‑quality animal protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Bacon contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Bacon supplies thiamine, niacin, and vitamin B12, supporting energy metabolism."
+        },
+        {
+          "title": "Energy dense",
+          "content": "The combination of carbohydrates from the biscuit and fats from the bacon offers a quick energy boost."
+        },
+        {
+          "title": "Contains zinc",
+          "content": "Zinc in bacon supports immune function and wound healing."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Bacon is often heavily salted, which can raise blood pressure when consumed frequently."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "A large amount of saturated fat may contribute to elevated cholesterol levels."
+        },
+        {
+          "title": "Gluten allergy",
+          "content": "The biscuit typically contains wheat flour; those with celiac disease should choose a gluten‑free version."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The sandwich is relatively high in calories, so portion control is advisable for weight management."
+        },
+        {
+          "title": "Nitrites in bacon",
+          "content": "Some bacon varieties contain nitrites, which can form potentially harmful compounds when overcooked."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the sandwich hot, cut in half. It can be enhanced with mayo or mustard, sliced avocado, cheese, or a fried egg according to personal taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared sandwich should be refrigerated and consumed within 24 hours. Keep bacon in an airtight container and store the biscuit in a dry place to prevent sogginess."
+    }
+  ]
+}

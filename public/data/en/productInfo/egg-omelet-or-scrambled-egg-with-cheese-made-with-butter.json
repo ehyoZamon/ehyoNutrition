@@ -1,0 +1,75 @@
+{
+  "id": "1982",
+  "title": "Egg omelet or scrambled egg with cheese, made with butter",
+  "image": "/products/1982.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An egg omelet or scrambled egg with cheese, cooked in butter. This simple dish is popular worldwide and combines the protein of eggs, the fat of butter, and the savory flavor of melted cheese."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are one of the most affordable complete protein sources.",
+        "Butter gives the dish a distinctive aroma and helps absorb fat‑soluble vitamins.",
+        "Cheese can vary from soft cream cheese to sharp cheddar, changing taste and texture.",
+        "The \"scrambled\" technique makes the eggs fluffy and creamy.",
+        "Often served with herbs, tomatoes, or toast."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Eggs contain all essential amino acids needed for tissue growth and repair."
+        },
+        {
+          "title": "B‑vitamin source",
+          "content": "The yolk provides B12, riboflavin (B2) and folate, important for energy metabolism."
+        },
+        {
+          "title": "Contains vitamin D",
+          "content": "Egg yolk is one of the few natural food sources of vitamin D, supporting bone health."
+        },
+        {
+          "title": "Healthy fats",
+          "content": "Butter supplies monounsaturated and polyunsaturated fatty acids that aid absorption of vitamins A, D, E and K."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese adds calcium, essential for strong bones and teeth."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg allergy",
+          "content": "Some individuals may experience allergic reactions to egg proteins."
+        },
+        {
+          "title": "High saturated fat",
+          "content": "Butter and many cheeses are high in saturated fat, which should be limited in heart‑related conditions."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Eggs contain cholesterol, which may be a concern for those monitoring blood cholesterol levels."
+        },
+        {
+          "title": "Sodium in cheese",
+          "content": "Certain cheeses have high sodium levels, potentially affecting blood pressure."
+        }
+      ]
+    },
+    {
+      "title": "How to Cook",
+      "content": "Beat eggs with a splash of milk, add grated cheese, salt and pepper. Melt butter in a heated pan, pour in the egg mixture and stir continuously until the omelet is soft and lightly golden."
+    },
+    {
+      "title": "Storage",
+      "content": "The omelet is best enjoyed fresh. If you need to store it, cool to room temperature, place in an airtight container and refrigerate for up to 24 hours."
+    }
+  ]
+}

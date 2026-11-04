@@ -1,0 +1,75 @@
+{
+  "id": "1002",
+  "title": "Vienna Sausage, Canned",
+  "image": "/products/1002.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Vienna sausage, canned, is a ready‑to‑eat meat product made from finely ground pork and beef, seasoned with spices and flavorings. It is packed in a hermetically sealed metal can, providing a long shelf life without refrigeration."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The original Vienna sausage was created in Austria at the end of the 19th century as a convenient snack for travelers.",
+        "Traditional recipes combine beef, pork, onion, salt, white pepper and paprika.",
+        "Cans are often coated with a lacquer layer to prevent corrosion and preserve flavor.",
+        "Vienna sausage is popular in many post‑Soviet countries, where it is used in salads, sandwiches and hot dishes.",
+        "There are nitrite‑free versions aimed at consumers who avoid artificial preservatives."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "The sausage provides about 12–14 g of protein per 100 g, supporting muscle maintenance."
+        },
+        {
+          "title": "Rich in iron",
+          "content": "Contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Provides vitamin B12, niacin and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "Typically less than 2 g of carbs per 100 g, making it suitable for low‑carb diets."
+        },
+        {
+          "title": "Convenient and long‑lasting",
+          "content": "The sealed can allows storage for 2–3 years without refrigeration."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Vienna sausage is fairly salty (about 1.5 g of salt per 100 g), so people with hypertension should limit intake."
+        },
+        {
+          "title": "Preservatives and nitrites",
+          "content": "Some varieties contain nitrites, which may cause allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Fat content",
+          "content": "Contains 20–25 g of fat per 100 g, including saturated fatty acids."
+        },
+        {
+          "title": "Meat allergy",
+          "content": "Individuals allergic to pork or beef may experience reactions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The sausage can be eaten straight from the can, warmed in the microwave or skillet, added to salads, pasta, omelets, or used as a sandwich filling."
+    },
+    {
+      "title": "Storage",
+      "content": "Store unopened cans in a cool, dry place away from direct sunlight. After opening, keep the contents in a sealed container in the refrigerator and consume within 3–5 days."
+    }
+  ]
+}

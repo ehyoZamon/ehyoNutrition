@@ -1,0 +1,75 @@
+{
+  "id": "4863",
+  "title": "Soup, borscht",
+  "image": "/products/4863.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Borscht is a traditional Eastern European soup made with beetroot, meat, cabbage and other vegetables. It has a vivid red color, a rich flavor, and is often served with sour cream and fresh herbs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Borscht originated in Ukraine and is considered a national dish.",
+        "Traditional recipes use a meat broth, but vegetarian versions are common.",
+        "Beetroot gives the soup its characteristic red hue and is high in beta‑carotene.",
+        "Regional variations exist: Russian borscht often includes beans, Polish versions may add mushrooms.",
+        "Borscht can be served cold in summer and hot in winter."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Beetroot contains betalains, which help combat free radicals."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Cabbage and carrots provide dietary fiber that promotes healthy bowel function."
+        },
+        {
+          "title": "Source of vitamins",
+          "content": "Borscht supplies vitamin C, vitamin B6 and folate, important for immunity and metabolism."
+        },
+        {
+          "title": "Low in fat",
+          "content": "When prepared with moderate meat, borscht remains a low‑fat dish."
+        },
+        {
+          "title": "Hydration",
+          "content": "The high liquid content helps maintain the body’s water balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Traditional recipes often use a lot of salt, which may be problematic for people with hypertension."
+        },
+        {
+          "title": "Allergy to ingredients",
+          "content": "Some individuals may be allergic to beef, pork, or certain vegetables."
+        },
+        {
+          "title": "Nitrate content",
+          "content": "Beetroot can contain nitrates; excessive intake may lead to nitrite formation."
+        },
+        {
+          "title": "Calorie increase with sour cream",
+          "content": "Adding sour cream raises calories and saturated fat levels."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve borscht hot, typically topped with a dollop of sour cream, fresh dill or parsley, and a slice of rye bread. Optional additions include boiled eggs or beans for extra protein."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the soup to room temperature, then store in an airtight container in the refrigerator for up to 3‑4 days. When frozen, it keeps for up to 2 months; thaw in the fridge before reheating."
+    }
+  ]
+}

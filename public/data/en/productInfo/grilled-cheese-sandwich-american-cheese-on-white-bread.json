@@ -1,0 +1,75 @@
+{
+  "id": "601",
+  "title": "Grilled Cheese Sandwich",
+  "image": "/products/601.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A grilled cheese sandwich is a classic American comfort food made with slices of white bread and melt‑ready American cheese. The sandwich is cooked on a skillet or grill until the bread is golden and crisp and the cheese inside becomes a gooey, stretchy filling."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first printed recipe for a grilled cheese sandwich appeared in the United States in the early 1920s.",
+        "American cheese was engineered to melt smoothly and has a mild, slightly sweet flavor.",
+        "Traditionally the sandwich is buttered on the outside, giving it a rich, buttery aroma.",
+        "In the 1950s the grilled cheese became a staple in school cafeterias and military mess halls.",
+        "Many variations exist, adding tomatoes, bacon, ham, or spices."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "American cheese provides calcium, which is essential for strong bones and teeth."
+        },
+        {
+          "title": "Quick energy source",
+          "content": "The combination of carbohydrates from the bread and fats from the cheese rapidly replenishes energy stores."
+        },
+        {
+          "title": "Contains vitamin D",
+          "content": "Vitamin D in the cheese helps calcium absorption and supports the immune system."
+        },
+        {
+          "title": "Protein",
+          "content": "Cheese contributes a modest amount of protein useful for tissue repair."
+        },
+        {
+          "title": "Satiety",
+          "content": "A warm, melty sandwich quickly satisfies hunger, aiding appetite control."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "American cheese often contains a lot of salt, which can be problematic for hypertension."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "The saturated fat in cheese may raise cholesterol levels if consumed frequently."
+        },
+        {
+          "title": "Lactose",
+          "content": "People with lactose intolerance may experience discomfort after eating."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese can trigger allergic reactions in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Butter the outside of the bread slices, place a slice of American cheese between them, and grill until golden brown. Optional add‑ins include tomato slices, ham, or seasonings. Serve hot, cut diagonally."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep cheese refrigerated at 1‑4 °C in its original packaging or an airtight container. Store bread in a cool, dry place. A prepared sandwich should be eaten within a few hours, otherwise the bread will lose its crispness."
+    }
+  ]
+}

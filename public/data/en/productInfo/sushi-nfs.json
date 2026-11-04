@@ -1,0 +1,75 @@
+{
+  "id": "3720",
+  "title": "Sushi",
+  "image": "/products/3720.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sushi is a traditional Japanese dish consisting of vinegared rice combined with various fillings such as raw fish, seafood, vegetables, and omelette. It is served as rolls (maki), nigiri (rice topped with a slice of fish), or sashimi (just the fish without rice)."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The earliest references to sushi date back to the 8th century in Japan, where it was a method of preserving fish.",
+        "There are more than 200 types of sushi, including maki, nigiri, uramaki, and tempura rolls.",
+        "Traditional sushi rice is seasoned with rice vinegar, sugar, and salt, giving it a characteristic sweet‑sour flavor.",
+        "In Japan sushi is commonly eaten with soy sauce, wasabi, and pickled ginger, which cleanse the palate between bites.",
+        "Sushi became popular outside Japan in the 1970s when the first sushi restaurants opened in the United States."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in omega‑3 fatty acids",
+          "content": "Raw fish used in sushi contains EPA and DHA, which support heart and brain health."
+        },
+        {
+          "title": "Low in calories",
+          "content": "A single piece of sushi typically contains 30–50 kcal, making it a convenient snack for weight control."
+        },
+        {
+          "title": "Good source of protein",
+          "content": "Fish and seafood provide high‑quality complete protein needed for tissue growth and repair."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Tuna, salmon, and sea bass are rich in vitamin B12, essential for nervous system function and blood formation."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Rice, vinegar, and seaweed (nori) promote the growth of beneficial gut bacteria."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Risk of foodborne infections",
+          "content": "Raw fish can harbor parasites and bacteria; only fish that has been inspected and approved for raw consumption should be used."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Soy sauce and pickled ginger can increase sodium intake, which may be problematic for hypertension."
+        },
+        {
+          "title": "Seafood allergies",
+          "content": "Some individuals may experience allergic reactions to fish, shellfish, or crustaceans."
+        },
+        {
+          "title": "Mercury content",
+          "content": "Certain fish such as mackerel and tuna may contain mercury; pregnant women and children should limit their consumption."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Sushi is typically picked up with chopsticks or by hand, dipped lightly (1–2 cm) into soy sauce, a small dab of wasabi may be added, and eaten in one bite. Sashimi is served without rice, and rolls are usually cut into 6–8 pieces."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared sushi should be kept in the refrigerator at 0–4 °C and consumed within 24 hours. The rice quickly loses its texture and the fish loses freshness. Discard sushi if the fish smells sour or appears discolored."
+    }
+  ]
+}

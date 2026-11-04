@@ -1,0 +1,75 @@
+{
+  "id": "3242",
+  "title": "Cereal",
+  "image": "/products/3242.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cereal is a ready‑to‑eat breakfast made from processed grains (wheat, corn, rice, oats, etc.), often fortified with vitamins and minerals. It is typically served with milk or yogurt and may contain dried fruit, nuts, sweeteners, and flavorings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial dry breakfast cereal was created in 1863 by the Jones Company.",
+        "There are more than 200 varieties of ready‑to‑eat cereals, differing in flavor and composition.",
+        "Most brands add iron and B‑vitamins to compensate for nutrient losses during grain processing.",
+        "Some options contain whole grains, which retain more fiber than fully refined cereals.",
+        "Dry cereals often use a “puffing” process where grain is heated under pressure, creating a light, porous texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complex carbohydrates",
+          "content": "Cereals provide quick and sustained energy through easily digestible carbs."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Vitamins B1, B2, B6 and folate support metabolism and nervous system function."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Fortified cereals help prevent iron deficiency, especially in children and women of reproductive age."
+        },
+        {
+          "title": "Fiber",
+          "content": "Whole‑grain varieties supply dietary fiber that promotes healthy digestion."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Most dry cereals have a low fat content, making them suitable for calorie‑controlled diets."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Many varieties contain added sugars, which can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Allergens",
+          "content": "Common ingredients include nuts, soy, or dairy, which may trigger allergic reactions."
+        },
+        {
+          "title": "Low protein",
+          "content": "Compared with whole grains, most cereals provide relatively little protein."
+        },
+        {
+          "title": "Gluten",
+          "content": "Most cereals are wheat‑based and unsuitable for people with celiac disease."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pour milk, kefir, or a plant‑based beverage over the cereal and let it sit for 2–3 minutes. Add fresh berries, banana slices, nuts, or honey to enhance flavor and nutritional value."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the package in a cool, dry place and reseal tightly after each use. For long‑term storage, transfer to an airtight container to prevent moisture absorption."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "5196",
+  "title": "Coffee, Iced Cafe Mocha",
+  "image": "/products/5196.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Iced Cafe Mocha is a cold beverage made with espresso, milk and chocolate syrup, served over ice. It blends the strength of coffee, the creaminess of milk, and the sweetness of chocolate for a refreshing, aromatic taste."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first mocha‑latte appeared in the early 1990s in the United States as a chocolate‑flavored variation of the classic latte.",
+        "Combining coffee and chocolate enhances perceived bitterness, creating a more balanced drink.",
+        "Both dark and milk chocolate syrups are used, altering the intensity of flavor.",
+        "Iced Cafe Mocha is often topped with whipped cream and a dusting of cocoa powder."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Antioxidants",
+          "content": "Coffee and dark chocolate are rich in polyphenols, which help combat free radicals."
+        },
+        {
+          "title": "Energy boost",
+          "content": "Caffeine in espresso increases alertness and concentration."
+        },
+        {
+          "title": "Mood support",
+          "content": "The combination of caffeine and theobromine from chocolate can improve mood."
+        },
+        {
+          "title": "Calcium source",
+          "content": "Milk provides calcium, essential for bone health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Coffee contains vitamins B2 and B3, which play roles in energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "High caffeine intake may cause anxiety, insomnia, and rapid heartbeat."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Chocolate syrup and optional sweeteners increase calories and blood sugar levels."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "Milk can cause discomfort for those with lactose intolerance; plant‑based alternatives can be used."
+        },
+        {
+          "title": "Acidity",
+          "content": "Coffee may aggravate acid reflux in susceptible individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Enjoy",
+      "content": "Serve Iced Cafe Mocha in tall glasses over ice, garnish with whipped cream and a sprinkle of cocoa. Add vanilla or caramel syrup for flavor variations."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared drink should be kept in the refrigerator and consumed within 24 hours. Store raw ingredients—milk, coffee, and syrup—in their original packaging in a cool, dry place."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2345",
+  "title": "Sunflower seeds, plain, unsalted",
+  "image": "/products/2345.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sunflower seeds are the edible seeds of the sunflower plant (Helianthus annuus). They have a mild nutty flavor, a crunchy texture, and are typically sold without added salt."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sunflower is one of the most widely cultivated crops worldwide, and its seeds are a major source of vegetable oil.",
+        "The seeds are rich in vitamin E, a powerful antioxidant.",
+        "Seeds can be used both as food and in cosmetics (oil for skin and hair).",
+        "There are several seed varieties: large ones for snacking and smaller ones for oil production.",
+        "Sunflowers attract bees and other pollinators, supporting biodiversity."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin E",
+          "content": "Vitamin E protects cells from oxidative stress and supports skin health."
+        },
+        {
+          "title": "Contains healthy fats",
+          "content": "Most of the fat is polyunsaturated, including omega‑6 fatty acids important for heart health."
+        },
+        {
+          "title": "Source of magnesium",
+          "content": "Magnesium aids muscle and nerve function and helps regulate blood sugar levels."
+        },
+        {
+          "title": "Provides protein and fiber",
+          "content": "Protein supports muscle maintenance, while fiber aids digestion and promotes satiety."
+        },
+        {
+          "title": "Contains selenium",
+          "content": "Selenium contributes to immune function and protects against free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Seed allergy",
+          "content": "Some individuals may experience allergic reactions to sunflower seeds."
+        },
+        {
+          "title": "High calorie content",
+          "content": "Seeds are calorie-dense, so they should be consumed in moderation."
+        },
+        {
+          "title": "Phytic acid content",
+          "content": "Phytic acid can reduce mineral absorption; soaking can lower its level."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Sunflower seeds can be enjoyed as a snack, added to salads, yogurts, oatmeal, baked goods, or used to make homemade oil. Eating them unsalted helps control sodium intake."
+    },
+    {
+      "title": "Storage",
+      "content": "Store seeds in an airtight container in a cool, dry, dark place. For longer shelf life, keep them in the refrigerator or freezer to prevent fat oxidation."
+    }
+  ]
+}

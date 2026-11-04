@@ -1,0 +1,71 @@
+{
+  "id": "5430",
+  "title": "Mai Tai",
+  "image": "/products/5430.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Mai Tai is a classic tropical cocktail created in 1944 in California. It blends rum, lime juice, orgeat (almond syrup), orange curaçao, and sometimes a dash of absinthe. Served over ice in a tall glass, it is often garnished with a sprig of mint, a lime wedge, and pineapple."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The name “Mai Tai” comes from the Hawaiian phrase “Mai Tai roa,” meaning “very good” or “out of this world.”",
+        "The original Victor J. Jasper recipe used both light and dark rum together with orgeat – a syrup made from almonds and nuts.",
+        "The drink became a hallmark of Tiki culture in the 1950s and remains popular on bar menus worldwide.",
+        "Some versions add a splash of absinthe or pastis to boost the herbal aroma.",
+        "Mai Tai is often associated with beach parties but is also served in cozy lounge bars."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Vitamin C from lime",
+          "content": "Lime juice provides vitamin C, which supports the immune system and acts as an antioxidant."
+        },
+        {
+          "title": "Polyunsaturated fats in rum",
+          "content": "Rum contains small amounts of polyunsaturated fats that may contribute to heart health when consumed in moderation."
+        },
+        {
+          "title": "Antioxidants from curaçao",
+          "content": "Orange curaçao is rich in flavonoids that help combat free radicals."
+        },
+        {
+          "title": "Almond orgeat",
+          "content": "Orgeat adds a modest amount of vitamin E and healthy monounsaturated fats."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol",
+          "content": "Excessive alcohol intake can lead to liver issues, dependence, and other health problems."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Orgeat syrup and curaçao add significant sugar, which may be problematic for diabetics or low‑glycemic diets."
+        },
+        {
+          "title": "Nut allergy",
+          "content": "Orgeat is made from almonds; people with nut allergies should avoid this cocktail."
+        },
+        {
+          "title": "Medication interactions",
+          "content": "Alcohol can amplify the effects of certain medications, so consumption should be limited when taking drugs."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mai Tai is served in a highball glass over ice, garnished with mint, a lime wedge, and sometimes a pineapple slice. It can be enjoyed as an aperitif or a refreshing drink on a hot day."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cocktail components separately: rum in a cool, dark place, lime juice refrigerated, orgeat in a sealed bottle. Once mixed, the drink should be consumed within 2–3 hours as the ice melts and flavors change."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "600",
+  "title": "Grilled Cheese Sandwich",
+  "image": "/products/600.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A grilled cheese sandwich is a hot sandwich made with two slices of bread and melted cheese in the middle, toasted until the exterior is golden and crisp. Common cheeses include cheddar, mozzarella, or gouda, but any melt‑friendly cheese works. The dish is a staple fast‑food snack in the United States and many other countries."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first recorded cheese sandwich recipe appeared in the US in the early 1920s.",
+        "Original street vendors cooked the sandwich on open grills rather than in home kitchens.",
+        "In Japan a variation called “tokai” is served with tartar sauce and ham.",
+        "Vegan versions using plant‑based cheeses have become popular in recent years.",
+        "During the 2020s the grilled cheese became one of the top‑selling items in fast‑casual chains."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "The cheese provides high‑quality animal protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Hard cheeses are rich in calcium for bone health and are often fortified with vitamin D."
+        },
+        {
+          "title": "Quick energy",
+          "content": "Combining bread carbohydrates with cheese fats delivers fast‑acting calories."
+        },
+        {
+          "title": "Probiotics (when using fermented cheeses)",
+          "content": "Aged cheeses like cheddar contain live cultures that can support gut microbiota."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Cheese supplies B2, B12, and niacin, which are important for metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat and calorie content",
+          "content": "Grilled cheese can be calorie‑dense and high in saturated fat, so moderation is advised."
+        },
+        {
+          "title": "Lactose and dairy allergy",
+          "content": "People with lactose intolerance or casein allergy should choose dairy‑free alternatives."
+        },
+        {
+          "title": "Sodium",
+          "content": "Many cheeses contain significant sodium, which may be a concern for hypertension."
+        },
+        {
+          "title": "Trans fats (in some processed cheeses)",
+          "content": "Certain commercial cheese products may contain trans fats, which are detrimental to heart health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Slice the bread, place cheese (and optional ham, tomato, or herbs) between the slices, butter the outsides, and toast on a skillet or grill until golden and the cheese melts."
+    },
+    {
+      "title": "Storage",
+      "content": "Grilled cheese is best enjoyed fresh. If you need to store it, let it cool to room temperature, then place in an airtight container in the refrigerator for up to 24 hours. Keep cheese separately, wrapped in parchment and stored in a container, to maintain freshness."
+    }
+  ]
+}

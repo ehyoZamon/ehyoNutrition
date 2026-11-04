@@ -1,0 +1,75 @@
+{
+  "id": "2022",
+  "title": "Egg omelet with cheese, tomatoes and dark‑green vegetables",
+  "image": "/products/2022.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An omelet made from eggs, enriched with cheese, tomatoes and dark‑green vegetables such as spinach or broccoli. It is a nutrient‑dense dish rich in protein, vitamins and minerals, suitable for breakfast or a light lunch."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Eggs are an excellent source of complete protein, containing all essential amino acids.",
+        "Cheese adds calcium and enhances flavor, increasing the dish’s energy value.",
+        "Dark‑green vegetables are high in lutein and zeaxanthin, which support eye health.",
+        "Tomatoes provide lycopene, a powerful antioxidant that becomes more bioavailable after cooking.",
+        "An omelet cooks quickly—usually 5‑7 minutes on the stovetop."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Muscle support",
+          "content": "Egg protein aids muscle growth and repair, especially important for active individuals."
+        },
+        {
+          "title": "Bone health",
+          "content": "Calcium from cheese and vitamin K from green vegetables help maintain bone density."
+        },
+        {
+          "title": "Antioxidant protection",
+          "content": "Lycopene from tomatoes and carotenoids from greens protect cells from oxidative stress."
+        },
+        {
+          "title": "Immune support",
+          "content": "Vitamins A, C and B‑complex present in the ingredients support normal immune function."
+        },
+        {
+          "title": "Sustained energy",
+          "content": "The combination of protein, fat and carbohydrates provides lasting satiety and stable energy levels."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg or dairy allergy",
+          "content": "People allergic to eggs or dairy proteins (casein) may experience reactions up to anaphylaxis."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Using salty cheese can raise the sodium level, which is undesirable for hypertension."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Egg yolks contain cholesterol; individuals with high cholesterol should consume in moderation."
+        },
+        {
+          "title": "Foodborne illness",
+          "content": "Undercooked eggs may harbor Salmonella; ensure the omelet is fully cooked."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the omelet hot, optionally garnish with fresh herbs, add a slice of whole‑grain bread or avocado. It can be eaten with a fork or cut into wedges."
+    },
+    {
+      "title": "Storage",
+      "content": "Best enjoyed immediately. If needed, store in an airtight container in the refrigerator for up to 24 hours and reheat in a pan or microwave."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3281",
+  "title": "Taco",
+  "image": "/products/3281.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A taco is a Mexican dish consisting of a corn tortilla filled with chicken, beans, and cheese. The whole‑grain corn tortilla provides a light base, while the chicken, beans, and cheese make the dish hearty and nutritious."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Tacos are traditionally served in small portions, allowing you to try several different fillings.",
+        "Corn tortillas have been used in Mexico for over 3,000 years.",
+        "Beans in tacos are a good source of plant protein and fiber.",
+        "The cheese commonly used is cheddar or queso fresco, which melts easily.",
+        "Typical toppings include salsa, guacamole, and a squeeze of lime."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Chicken and beans provide high‑quality protein essential for tissue repair."
+        },
+        {
+          "title": "Source of fiber",
+          "content": "Beans and whole‑grain corn tortilla supply dietary fiber that supports healthy digestion."
+        },
+        {
+          "title": "Contains calcium",
+          "content": "Cheese adds calcium, important for bones and teeth."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Using lean chicken and moderate cheese keeps saturated fat levels modest."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Chicken and beans are sources of vitamin B6 and folate, supporting energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese may trigger allergic reactions in people with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Prepared sauces and cheese can be high in sodium; those with hypertension should monitor intake."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Tacos can be calorie‑dense, especially with generous cheese and sauces; portion control is advised."
+        },
+        {
+          "title": "Food‑borne bacteria",
+          "content": "Chicken must be fully cooked to avoid the risk of salmonella."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Warm the tortilla, fold it in half with the filling, and add fresh salsa, guacamole, sour cream, or lime to taste. For a lighter version, use whole‑grain tortillas and reduce the amount of cheese."
+    },
+    {
+      "title": "Storage",
+      "content": "Tacos are best eaten immediately. If needed, store them in an airtight container in the refrigerator for up to 2 days. Keep tortillas dry in a cool place, and store raw ingredients (chicken, beans) in the fridge at ≤ 4 °C."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2205",
+  "title": "Miso Sauce",
+  "image": "/products/2205.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Miso sauce is a traditional Japanese condiment made by fermenting soybeans with salt and rice or barley. It has a thick, paste‑like texture, a rich umami aroma, and a slightly sweet‑salty flavor. It is widely used in marinades, soups, sauces, and salad dressings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Miso comes in several varieties—white (shiro), red (aka), and dark (matsu)—which differ in fermentation time and ingredient ratios.",
+        "The first written mention of miso dates back to the 9th century, though its ancestors were used in China as early as the 3rd century.",
+        "Traditional fermentation can last from a few months to several years, profoundly affecting taste and aroma.",
+        "Miso is often used as a natural flavor enhancer, reducing the need for added salt.",
+        "In Japan, miso is considered cultural heritage and is listed as an Intangible Cultural Heritage."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Fermentation of soybeans creates beneficial bacteria that support gut health."
+        },
+        {
+          "title": "Source of protein and B‑vitamins",
+          "content": "Miso provides plant‑based protein along with vitamins B2, B6, and folate, important for metabolism."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "It supplies iron, magnesium, zinc, and copper, which contribute to normal bodily functions."
+        },
+        {
+          "title": "Immune‑supporting",
+          "content": "Glutamine and other amino acids formed during fermentation may help maintain a healthy immune system."
+        },
+        {
+          "title": "Low in sugar",
+          "content": "Despite its mildly sweet taste, miso contains little simple sugar, making it suitable for moderate consumption."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Miso sauce is relatively salty, so people with hypertension should limit intake."
+        },
+        {
+          "title": "Soy allergy",
+          "content": "Individuals allergic to soy may experience reactions, up to anaphylaxis, when consuming miso."
+        },
+        {
+          "title": "Fermented food sensitivity",
+          "content": "Excessive consumption can cause gastrointestinal discomfort in sensitive individuals."
+        },
+        {
+          "title": "Histamine levels",
+          "content": "Fermented products can be high in histamine, potentially triggering migraines or allergic responses."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Use miso sauce in marinades for fish or meat, in miso soup, as a base for dressings, in glazes, or as a flavor boost for vegetables. Add it in small amounts because its flavor is concentrated."
+    },
+    {
+      "title": "Storage",
+      "content": "Store miso sauce in a tightly sealed container in the refrigerator. Properly stored, it retains its flavor for up to a year. Discard if mold appears or the aroma changes."
+    }
+  ]
+}

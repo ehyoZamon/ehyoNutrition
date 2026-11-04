@@ -1,0 +1,75 @@
+{
+  "id": "1134",
+  "title": "Shellfish",
+  "image": "/products/1134.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Shellfish are aquatic invertebrates that include crustaceans, bivalves, and cephalopods. They are widely used in cuisines around the world for their delicate flavor and high nutritional value. Popular varieties include mussels, oysters, shrimp, lobster, and squid."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Shellfish can filter water, helping to clean their environment of microscopic particles.",
+        "Oysters can change sex during their lifetime, starting as males and later becoming females.",
+        "Shrimp have the ability to quickly regenerate lost limbs.",
+        "Mussels can form massive colonies known as \"mussel beds\" that cover hundreds of square kilometers.",
+        "Some shellfish, such as certain squid species, are capable of bioluminescence."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Shellfish provide high‑quality protein that is easily digested and utilized by the body."
+        },
+        {
+          "title": "Source of omega‑3 fatty acids",
+          "content": "Omega‑3s support heart health and help reduce inflammation."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Including B12, B6, and niacin, which are important for nervous system function and metabolism."
+        },
+        {
+          "title": "Minerals: zinc, iron, selenium",
+          "content": "These minerals support immune function, thyroid health, and antioxidant protection."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Makes shellfish a good choice for diets limiting saturated fat intake."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Shellfish allergy",
+          "content": "Some individuals may experience severe allergic reactions to shellfish."
+        },
+        {
+          "title": "Contamination risk",
+          "content": "Shellfish can accumulate toxins and heavy metals from polluted waters; purchase from reputable sources."
+        },
+        {
+          "title": "Bacterial infection",
+          "content": "Raw oysters and mussels may contain harmful bacteria; it is advisable to cook them thoroughly."
+        },
+        {
+          "title": "Cholesterol content",
+          "content": "Certain types, such as shrimp, contain notable cholesterol levels, which should be considered in cholesterol‑restricted diets."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Shellfish can be steamed, grilled, baked, or added to soups and salads. Raw oysters are often served with lemon and sauce. Before cooking, rinse and clean shells thoroughly."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep live shellfish in the refrigerator on a tray with a damp cloth for no more than 2‑3 days. Frozen seafood should be stored at –18 °C and used within 3‑4 months. Thaw in the refrigerator, not at room temperature."
+    }
+  ]
+}

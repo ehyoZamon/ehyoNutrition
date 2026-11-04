@@ -1,0 +1,75 @@
+{
+  "id": "1226",
+  "title": "Chicken with Gravy",
+  "image": "/products/1226.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken with gravy is a dish made from boiled or roasted chicken served under a flavorful sauce made from broth, cream, or flour. It is popular in Russian and European cuisines, offering a tender taste and juicy texture."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken is one of the most consumed meats worldwide.",
+        "Traditional gravy is prepared from chicken broth made by simmering bones and vegetables.",
+        "Regional variations may include mushrooms, onions, carrots, or spices such as bay leaf and black pepper.",
+        "The dish is often served with mashed potatoes, rice, or pasta.",
+        "Chicken bones used for broth are rich in collagen, which gives the sauce body."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Chicken provides high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with red meat, chicken contains less saturated fat, making it a heart‑friendlier option."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Chicken supplies niacin, vitamin B6, and B12, supporting energy metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "It contains phosphorus, selenium, and zinc, important for bones and immunity."
+        },
+        {
+          "title": "Hydration",
+          "content": "Gravy made from broth helps maintain the body’s fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Chicken allergy",
+          "content": "Some individuals may experience allergic reactions to chicken proteins."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Prepared gravies often contain salt; people with hypertension should monitor intake."
+        },
+        {
+          "title": "Bacterial contamination risk",
+          "content": "Undercooked chicken may harbor salmonella; cook to an internal temperature of 75 °C."
+        },
+        {
+          "title": "Fat in the sauce",
+          "content": "Gravies made with cream or butter increase calories and saturated fat."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve hot chicken with gravy alongside mashed potatoes, rice, pasta, or vegetables. Garnish with fresh herbs for extra aroma."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the dish to room temperature, then store in an airtight container in the refrigerator for up to 3 days. Reheat thoroughly to a boil before serving to eliminate any bacteria."
+    }
+  ]
+}

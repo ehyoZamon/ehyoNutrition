@@ -1,0 +1,75 @@
+{
+  "id": "232",
+  "title": "Yogurt",
+  "image": "/products/232.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Yogurt is a fermented dairy product made by inoculating milk with specific bacterial cultures. This version uses whole cow’s milk (NS) and is flavored with non‑fruit options such as vanilla, caramel, nut, or spice."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Yogurt originated in Central Asia more than 5,000 years ago.",
+        "Traditional preparation involved fermenting milk in clay pots at room temperature.",
+        "Different countries have their own styles: Greek yogurt is thick, Turkish yogurt is more liquid, and Scandinavian varieties are often fortified with vitamins D and B12.",
+        "Yogurt can be pasteurized or raw; raw versions contain more live cultures but require strict quality control.",
+        "Non‑fruit flavors are usually derived from natural extracts, spices, and plant essences."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Probiotics",
+          "content": "Yogurt provides live cultures of Lactobacillus and Bifidobacterium that support gut microbiota."
+        },
+        {
+          "title": "Calcium and Vitamin D",
+          "content": "The dairy base supplies high levels of calcium, and added vitamin D enhances its absorption."
+        },
+        {
+          "title": "Protein",
+          "content": "Yogurt is a good source of complete protein, aiding tissue repair and satiety."
+        },
+        {
+          "title": "Reduced Lactose",
+          "content": "Fermentation breaks down part of the lactose, making yogurt easier to digest for those with mild lactose intolerance."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt contains vitamin B12 and riboflavin, important for energy metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey may react to yogurt."
+        },
+        {
+          "title": "Added sugar in flavored versions",
+          "content": "Some non‑fruit flavorings contain added sugars, increasing calorie content."
+        },
+        {
+          "title": "Shelf life",
+          "content": "After opening, live cultures diminish quickly, so consume within a few days."
+        },
+        {
+          "title": "Probiotic imbalance",
+          "content": "Excessive consumption can cause temporary gastrointestinal discomfort in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Yogurt can be enjoyed on its own, mixed into oatmeal, smoothies, or used as a base for sauces and desserts. Non‑fruit varieties pair well with honey, nuts, granola, or spices such as cinnamon and cardamom."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep yogurt refrigerated at 2‑4 °C in its original container. After opening, seal tightly and consume within 5‑7 days. Discard if it develops off‑odors or an unusual texture."
+    }
+  ]
+}

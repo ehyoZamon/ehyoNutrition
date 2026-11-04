@@ -1,0 +1,75 @@
+{
+  "id": "1022",
+  "title": "Fish, raw",
+  "image": "/products/1022.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Raw fish is a seafood product obtained directly after catch and without any heat treatment. It is rich in high‑quality protein, omega‑3 fatty acids, vitamins D and B12, as well as minerals such as selenium and iodine. Raw fish is enjoyed as sashimi, carpaccio, marinated dishes, and as part of sushi."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Raw fish is a staple in Japanese, Korean and Scandinavian cuisines.",
+        "Omega‑3 fatty acids EPA and DHA found in fish support heart and brain health.",
+        "Certain species, like farmed salmon, are raised in controlled aquaculture environments to limit contaminants.",
+        "Raw fish must be stored at temperatures between 0 °C and +4 °C to prevent bacterial growth.",
+        "Traditional serving involves thin slices accompanied by soy sauce, wasabi and pickled ginger."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High‑quality protein",
+          "content": "Raw fish provides all essential amino acids needed for tissue growth and repair."
+        },
+        {
+          "title": "Omega‑3 fatty acids",
+          "content": "EPA and DHA help maintain cardiovascular health, reduce inflammation, and support brain development."
+        },
+        {
+          "title": "Vitamin D",
+          "content": "Vitamin D from fish enhances calcium absorption and promotes bone health."
+        },
+        {
+          "title": "Iodine and selenium",
+          "content": "These trace minerals are crucial for thyroid function and antioxidant protection."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with many meat products, raw fish contains mainly polyunsaturated fats."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Food‑borne infection risk",
+          "content": "Raw fish may harbor parasites (Anisakis, Opisthorchis) and bacteria (Salmonella, Listeria). Purchase from reputable sources and keep properly refrigerated."
+        },
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals can experience severe allergic reactions, including anaphylaxis."
+        },
+        {
+          "title": "Mercury content",
+          "content": "Large predatory species (tiger, swordfish) can accumulate mercury; intake should be limited, especially for pregnant women and children."
+        },
+        {
+          "title": "Not suitable for young children",
+          "content": "The firm texture and possible parasites make raw fish unsafe for children under 5 years old."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Slice raw fish thinly and serve with soy sauce, wasabi, ginger, lemon or vinegar. It is also used in rolls, sashimi, carpaccio and marinades. Keep the fish chilled and serve immediately after slicing."
+    },
+    {
+      "title": "Storage",
+      "content": "Store raw fish in an airtight container at 0 °C to +4 °C for no more than 2‑3 days. For longer storage, freeze at –18 °C and thaw in the refrigerator before use. Discard fish with off‑odors, discolored flesh or a slimy surface."
+    }
+  ]
+}

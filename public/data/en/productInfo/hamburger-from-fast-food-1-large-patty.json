@@ -1,0 +1,75 @@
+{
+  "id": "1703",
+  "title": "Hamburger",
+  "image": "/products/1703.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A hamburger is a classic fast‑food item consisting of a large beef patty (170 g), a bun, lettuce, a slice of tomato, cheese, pickles and sauce. It is quick to prepare, easy to package, and popular worldwide."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first hamburger was served in the United States in the early 1920s.",
+        "The name comes from the German city of Hamburg, where similar meat dishes were common.",
+        "There are over 100 hamburger variations, including vegetarian and vegan versions.",
+        "The world’s largest hamburger weighed more than 1 ton and was made in the US in 2012.",
+        "In Japan, “rice burgers” replace the bun with pressed rice."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "A large beef patty provides about 25 g of protein, essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Beef contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Hamburgers provide vitamin B12, niacin and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Vegetable content",
+          "content": "Lettuce, tomato and pickles add fiber, vitamins A and C, and antioxidants."
+        },
+        {
+          "title": "Energy dense",
+          "content": "A hamburger quickly replenishes energy, making it convenient for active lifestyles."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie count",
+          "content": "One hamburger can contain 500–900 kcal, so it should be eaten in moderation."
+        },
+        {
+          "title": "Saturated fat and sodium",
+          "content": "Cheese, sauce and a fried patty increase saturated fat and salt, which may affect cardiovascular health."
+        },
+        {
+          "title": "Allergens",
+          "content": "Ingredients may include wheat (bun), dairy (cheese) and eggs (some sauces), which can trigger allergies."
+        },
+        {
+          "title": "Foodborne illness risk",
+          "content": "Undercooked beef can harbor pathogens such as E. coli."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hamburgers are typically eaten with the hands, holding the bottom bun. They can be split in half, topped with extra sauces, or served on a whole‑grain bun for a healthier option."
+    },
+    {
+      "title": "Storage",
+      "content": "A prepared hamburger can be stored in the refrigerator for up to 24 hours. For longer storage, freeze it and reheat in an oven or microwave to an internal temperature of 75 °C before eating."
+    }
+  ]
+}

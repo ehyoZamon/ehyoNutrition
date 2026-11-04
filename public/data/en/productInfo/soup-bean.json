@@ -1,0 +1,69 @@
+{
+  "id": "2219",
+  "title": "Bean Soup",
+  "image": "/products/2219.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bean soup is a hearty dish made from cooked beans, vegetables, spices, and sometimes meat. Beans are rich in protein, fiber, and complex carbohydrates, making this soup a filling meal for lunch or dinner."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beans are one of the oldest cultivated crops, grown for over 7,000 years.",
+        "There are more than 700 bean varieties, differing in size, color, and flavor.",
+        "Bean soup appears in traditional dishes worldwide: Mexican chili, Russian bean stew, and Indian dal."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Beans provide plant‑based protein that supports muscle maintenance and tissue repair."
+        },
+        {
+          "title": "High in fiber",
+          "content": "Dietary fiber aids digestion, promotes satiety, and helps regulate blood sugar levels."
+        },
+        {
+          "title": "Source of iron and magnesium",
+          "content": "These minerals are essential for hemoglobin formation and nervous system function."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "Bean soup raises blood glucose slowly, which is beneficial for people with pre‑diabetes."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Beans contain flavonoids and polyphenols that protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Phytic acid",
+          "content": "Raw beans contain phytic acid, which can reduce mineral absorption; soaking and thorough cooking are recommended."
+        },
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience an allergic reaction to legumes."
+        },
+        {
+          "title": "Gas formation",
+          "content": "Beans contain oligosaccharides that can cause flatulence in sensitive people."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve bean soup hot, often garnished with herbs, sour cream, or crusty bread. It can be prepared vegetarian with only vegetables, or with meat such as sausage, ham, or chicken."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the cooked soup in an airtight container in the refrigerator for 3‑4 days. For longer storage, freeze it in portion‑sized bags for up to 3 months."
+    }
+  ]
+}

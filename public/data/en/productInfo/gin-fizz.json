@@ -1,0 +1,62 @@
+{
+  "id": "5438",
+  "title": "Gin Fizz",
+  "image": "/products/5438.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Gin Fizz is a classic cocktail made with gin, fresh lemon juice, simple syrup and carbonated water. It is light, refreshing and features a bright citrus note highlighted by the juniper-forward gin."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The drink originated in the early 1920s in the United States as a variation of the popular “fizz” style, which mixes spirit with soda.",
+        "The original recipe calls for a simple syrup rather than pre‑made sweetened syrup.",
+        "Some versions add egg white, creating a frothy texture often called a “Fizz with foam”.",
+        "Gin Fizz is typically served in a highball glass, garnished with a lemon wedge or a sprig of rosemary."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low calorie content",
+          "content": "When consumed in moderation, the cocktail is low in calories because the bulk of the drink is carbonated water."
+        },
+        {
+          "title": "Vitamin C from lemon",
+          "content": "Fresh lemon juice provides vitamin C, which supports the immune system and acts as an antioxidant."
+        },
+        {
+          "title": "Digestive boost from gin",
+          "content": "Gin, containing juniper berries, may aid digestion and offers a subtle aromatic effect."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol",
+          "content": "Like any alcoholic beverage, Gin Fizz can cause intoxication and is not recommended for pregnant individuals, people with liver disease, or those taking certain medications."
+        },
+        {
+          "title": "Lemon acidity",
+          "content": "High acidity may irritate the stomach of people with gastritis or ulcer disease."
+        },
+        {
+          "title": "Gin allergy",
+          "content": "Some individuals may be allergic to gin components such as juniper."
+        }
+      ]
+    },
+    {
+      "title": "How to Make",
+      "content": "Combine 45 ml gin, 30 ml fresh lemon juice and 15 ml simple syrup in a shaker with ice. Shake well, then strain into a highball glass filled with ice and top with carbonated water. Garnish with a lemon wedge."
+    },
+    {
+      "title": "Storage",
+      "content": "Store ingredients separately: gin in a cool, dark place, lemons in the refrigerator, and use carbonated water shortly after opening."
+    }
+  ]
+}

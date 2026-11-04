@@ -1,0 +1,75 @@
+{
+  "id": "3000",
+  "title": "Popcorn, Ready-to-Eat, Kettle",
+  "image": "/products/3000.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Popcorn is whole corn kernels that explode when heated, creating light, airy pieces. Ready‑to‑eat kettle popcorn is popped in oil with salt and flavorings, then sealed in an airtight package."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Popcorn has been enjoyed since ancient times; archaeologists have found popcorn remnants in Mayan tombs.",
+        "Each kernel contains about 14 % water; when heated, the water turns to steam and forces the kernel to pop.",
+        "Kettle popcorn is cooked in large kettles where kernels are constantly stirred in oil, giving a uniform flavor and crunchy texture.",
+        "Popcorn is one of the most popular cinema snacks; in the United States more than 13 billion servings are consumed each year.",
+        "There are over 30 flavor varieties, including caramel, cheese, barbecue, chili, and more."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in calories",
+          "content": "Popcorn provides about 380 kcal per 100 g, which is lower than most crackers and chips when prepared with modest amounts of salt and oil."
+        },
+        {
+          "title": "High in fiber",
+          "content": "Dietary fiber in popcorn supports digestion and promotes a feeling of fullness."
+        },
+        {
+          "title": "Source of antioxidants",
+          "content": "Polysaccharides and polyphenols in corn have antioxidant properties that help protect cells from oxidative stress."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Popcorn supplies thiamine, niacin, and vitamin B6, which are involved in energy metabolism."
+        },
+        {
+          "title": "Gluten‑free",
+          "content": "Popcorn is naturally gluten‑free, making it suitable for people with celiac disease."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Corn allergy",
+          "content": "A small number of individuals may experience allergic reactions to corn."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Kettle popcorn often contains a notable amount of salt; those with hypertension should choose low‑sodium versions."
+        },
+        {
+          "title": "Oil content",
+          "content": "Excessive oil increases the product’s calorie density."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Fine popcorn pieces can be inhaled, especially by young children."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Popcorn is convenient to eat straight from the bag as a quick snack. It can also be tossed into salads, soups, or used as a crunchy base for sweet treats like caramel popcorn."
+    },
+    {
+      "title": "Storage",
+      "content": "Store popcorn in a cool, dry place, tightly sealed to prevent moisture absorption. For long‑term storage keep it in the refrigerator, and keep opened bags in an airtight container."
+    }
+  ]
+}

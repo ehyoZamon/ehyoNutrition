@@ -1,0 +1,75 @@
+{
+  "id": "278",
+  "title": "Chocolate Milk, Reduced Sugar, Whole",
+  "image": "/products/278.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Reduced‑sugar chocolate milk is made from whole cow’s milk and cocoa powder. The lower sugar content makes the drink less sweet while preserving a creamy texture and classic chocolate flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sugar is typically reduced by 30‑40 % compared with regular chocolate milk.",
+        "The cocoa powder used is often enriched with antioxidants – flavonoids.",
+        "Whole milk provides higher levels of calcium and vitamin D than skimmed milk.",
+        "The beverage is marketed as a better option for children and active adults looking to cut sugar.",
+        "In some countries the product is certified as “low‑sugar” according to national regulations."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in calcium",
+          "content": "Whole milk is a good source of calcium, which supports bone and tooth health."
+        },
+        {
+          "title": "Contains vitamin D",
+          "content": "Vitamin D enhances calcium absorption and supports immune function."
+        },
+        {
+          "title": "Cocoa flavonoids",
+          "content": "Flavonoids have antioxidant properties and may contribute to cardiovascular health."
+        },
+        {
+          "title": "Reduced sugar content",
+          "content": "Lower sugar helps control blood glucose levels and reduces the risk of dental caries."
+        },
+        {
+          "title": "Protein and fats",
+          "content": "Whole milk provides a complete set of proteins and healthy fats needed for growth and tissue repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort after consuming the product."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey requires complete avoidance of dairy products."
+        },
+        {
+          "title": "Fat content",
+          "content": "Whole milk contains saturated fats; those monitoring fat intake should consider overall daily balance."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Although reduced, the product still contains carbohydrates, which is important for diabetics."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chocolate milk can be enjoyed cold as a refreshing drink, added to smoothies, used in desserts, or poured over pancakes and waffles. For children, serve in modest portions."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in the refrigerator at 1‑4 °C. After opening, consume within 5‑7 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

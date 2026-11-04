@@ -1,0 +1,75 @@
+{
+  "id": "3311",
+  "title": "Burrito, meat, no cheese",
+  "image": "/products/3311.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Burrito, meat, no cheese is a classic Mexican dish consisting of a large soft wheat tortilla filled with sautéed meat, rice, beans, vegetables and sauces, but without cheese. This combination keeps the dish lighter while preserving the rich flavor of the meat and aromatic spices."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Burritos originated in northern Mexico where wheat flour was more available than corn.",
+        "Traditional meat is slow‑cooked in adobo sauce, giving the dish its distinctive aroma.",
+        "Leaving out cheese makes the burrito suitable for people with lactose intolerance.",
+        "In the United States burritos are often served with guacamole, salsa and sour cream, though the original version may omit these toppings.",
+        "Burritos are portable – they can be wrapped in foil and eaten on the go."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "The meat provides high‑quality protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Complex carbohydrates",
+          "content": "Rice and beans supply slowly digestible carbs that help maintain steady energy levels."
+        },
+        {
+          "title": "Dietary fiber",
+          "content": "Beans and vegetables add fiber, supporting healthy digestion."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Meat and beans contain B6, B12 and niacin, important for metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "The dish provides iron, zinc and magnesium, which aid immunity and metabolic processes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Sauces and seasonings can be salty, which may be problematic for hypertension."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Large portions can be high in calories due to rice and cooking oil."
+        },
+        {
+          "title": "Gluten allergy",
+          "content": "Wheat tortillas contain gluten, posing a risk for people with celiac disease."
+        },
+        {
+          "title": "Potential pathogens",
+          "content": "Undercooked meat may harbor bacteria, so it should be cooked thoroughly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Burritos are hand‑held. Warm them in a microwave or skillet, add fresh salsa, guacamole or a squeeze of lime. For extra crunch you can include lettuce leaves."
+    },
+    {
+      "title": "Storage",
+      "content": "Store a prepared burrito in an airtight container in the refrigerator for up to 3 days. For longer keeping, freeze it – up to 2 months. Reheat to an internal temperature of at least 75 °C before eating."
+    }
+  ]
+}

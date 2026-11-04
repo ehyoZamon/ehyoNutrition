@@ -1,0 +1,75 @@
+{
+  "id": "2412",
+  "title": "Bread",
+  "image": "/products/2412.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bread is a baked product made from dough of flour, water, yeast (or sourdough starter) and salt. It is a staple source of carbohydrates in many cultures and comes in many varieties: white, whole‑grain, rye, baguette, ciabatta, and more."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The earliest known bread was baked over 14,000 years ago in the Near East.",
+        "The word “bread” derives from the Proto‑Indo‑European root *bʰleh₁‑ meaning “to grow, to flourish”.",
+        "In ancient Rome, bread was a symbol of prosperity and often depicted on coins.",
+        "There are more than 200 recognized types of bread, differing in ingredients, leavening method, and shape.",
+        "Sourdough bread contains probiotic bacteria that may support gut health."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of complex carbohydrates",
+          "content": "Bread provides steady energy by slowly releasing glucose into the bloodstream."
+        },
+        {
+          "title": "Rich in fiber (whole‑grain)",
+          "content": "Whole‑grain breads contain dietary fiber that aids digestion and promotes satiety."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "B1, B2, B3 and folate support metabolism and nervous system function."
+        },
+        {
+          "title": "Mineral content",
+          "content": "Bread supplies iron, magnesium, zinc and selenium."
+        },
+        {
+          "title": "Supports gut microbiota (sourdough)",
+          "content": "Sourdough breads carry live cultures that can help balance intestinal microbiota."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High glycemic index",
+          "content": "White bread can cause rapid spikes in blood sugar, which may be problematic for diabetics."
+        },
+        {
+          "title": "Gluten",
+          "content": "People with celiac disease or gluten sensitivity should avoid regular wheat bread."
+        },
+        {
+          "title": "Salt content",
+          "content": "Some breads contain high amounts of salt, potentially contributing to elevated blood pressure."
+        },
+        {
+          "title": "Preservatives and additives",
+          "content": "Commercially produced loaves may include additives that are not suitable for everyone."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Bread can be enjoyed on its own, used for sandwiches and toast, served alongside soups and salads, or incorporated into breadcrumbs, croutons, and stuffing recipes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bread in a cool, dry place in a paper bag or bread box. For longer storage, freeze in an airtight bag and thaw at room temperature."
+    }
+  ]
+}

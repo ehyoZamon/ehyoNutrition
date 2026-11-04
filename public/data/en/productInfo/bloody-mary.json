@@ -1,0 +1,75 @@
+{
+  "id": "5381",
+  "title": "Bloody Mary",
+  "image": "/products/5381.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Bloody Mary is a ready‑to‑mix blend for making the classic Bloody Mary cocktail, containing tomato juice, spices, flavorings, and sometimes a pinch of salt. It is designed for quick and convenient preparation at home."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The Bloody Mary cocktail originated in the United States in the 1920s and quickly became popular as a \"hair of the dog\" drink.",
+        "Tomato juice gives the drink its rich flavor and bright red color, while spices like Worcestershire sauce, Tabasco, and black pepper provide characteristic heat.",
+        "Bloody Mary is often served with celery stalks, olives, pickles, or shrimp as garnish.",
+        "The drink is believed to help relieve hangovers thanks to the vitamins and antioxidants in tomatoes.",
+        "Various countries have their own twists, adding horseradish, soy sauce, or even bacon."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in lycopene",
+          "content": "Tomato juice is a good source of lycopene, a powerful antioxidant that supports heart health and may reduce the risk of certain cancers."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains vitamin B6 and folate (B9), important for metabolism and nervous system function."
+        },
+        {
+          "title": "Electrolytes",
+          "content": "Salt and tomato juice provide sodium and potassium, helping maintain fluid balance."
+        },
+        {
+          "title": "Anti‑inflammatory compounds",
+          "content": "Spices such as black pepper and Worcestershire sauce contain compounds with anti‑inflammatory effects."
+        },
+        {
+          "title": "Digestive aid",
+          "content": "Tomato juice and spices stimulate gastric secretions, aiding digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "The added salt can be problematic for people with hypertension; portion control is recommended."
+        },
+        {
+          "title": "Spicy flavor",
+          "content": "Tabasco and Worcestershire sauce make the drink very hot, which may irritate sensitive stomachs."
+        },
+        {
+          "title": "Allergy to ingredients",
+          "content": "Some individuals may be allergic to components like soy sauce or anchovies found in Worcestershire sauce."
+        },
+        {
+          "title": "Acidity of tomato juice",
+          "content": "The acidic nature can exacerbate heartburn in those with gastritis or reflux."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mix 200 ml of the blend with 50 ml of vodka, add ice, and garnish with a celery stalk, olive, or lemon wedge. Optional additions include lime juice, horseradish, or bacon for variations."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the packet in a cool, dry place away from direct sunlight. After opening, keep it refrigerated and use within 3–4 days. Discard if the smell or taste changes."
+    }
+  ]
+}

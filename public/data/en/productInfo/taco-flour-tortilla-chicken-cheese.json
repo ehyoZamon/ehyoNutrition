@@ -1,0 +1,75 @@
+{
+  "id": "3287",
+  "title": "Taco",
+  "image": "/products/3287.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A taco is a Mexican dish consisting of a soft flour tortilla filled with chicken, cheese, and often additional ingredients such as vegetables, sauces, and spices. The tortilla provides a tender base, while the chicken and cheese deliver protein and a rich flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Flour tortillas originated in northern Mexico in the 19th century as an alternative to corn tortillas.",
+        "Tacos became popular in the United States after World War II when American soldiers brought them back from Mexico.",
+        "While soft tortillas are traditional, some regions serve them toasted for a crisp texture.",
+        "Chicken in tacos is often marinated in lime juice and spices to enhance its aroma.",
+        "The cheese used is usually a melting variety such as cheddar or Mexican queso fresco, adding a creamy texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in protein",
+          "content": "Chicken provides high‑quality protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Cheese adds calcium, which supports bone and dental health."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Chicken and wheat flour tortillas contain B6 and B12 vitamins that aid nervous system function and metabolism."
+        },
+        {
+          "title": "Moderate carbohydrate content",
+          "content": "Compared with many fast‑food options, a flour‑tortilla taco offers a balanced amount of carbs suitable for a varied diet."
+        },
+        {
+          "title": "Potential probiotic boost (with fermented sauces)",
+          "content": "If the taco includes fermented sauces like salsa, it can contribute beneficial bacteria to the gut."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Cheese may trigger allergic reactions in individuals with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Cheese and ready‑made sauces often contain a lot of salt, which can be problematic for hypertension."
+        },
+        {
+          "title": "Gluten in the tortilla",
+          "content": "Flour tortillas contain gluten, making them unsuitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Caloric density",
+          "content": "The combination of tortilla, cheese, and sauce makes tacos relatively calorie‑dense; portion control is recommended."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Warm the tortilla briefly, then fill it with chicken, shredded cheese, and any desired toppings—fresh veggies, salsa, guacamole, or sour cream. The tortilla can be folded in half or rolled into a wrap."
+    },
+    {
+      "title": "Storage",
+      "content": "Prepared tacos should be stored in an airtight container in the refrigerator for up to 2–3 days. Tortillas can be frozen in a bag for up to 2 months; thaw and warm them before serving."
+    }
+  ]
+}

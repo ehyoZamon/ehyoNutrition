@@ -1,0 +1,71 @@
+{
+  "id": "410",
+  "title": "Whipped topping",
+  "image": "/products/410.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Whipped topping is a ready‑to‑use aerated dessert product made from cream, sugar and stabilizers. It has a light, airy texture, a gentle buttery flavor and is used to garnish and enrich desserts, drinks and baked goods."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Whipped topping is often sold in aerosol cans, which makes dispensing convenient.",
+        "The formulation may contain vegetable oils, providing greater stability during storage.",
+        "In some countries the product is fortified with vitamins A and D.",
+        "Its texture is achieved by injecting air under pressure, increasing the volume 5–7 times.",
+        "Whipped topping can be sweetened or neutral, allowing use in a variety of culinary applications."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Cream, like other dairy products, provides calcium essential for bone and teeth health."
+        },
+        {
+          "title": "Vitamin D",
+          "content": "Some versions are fortified with vitamin D, which supports the immune system and calcium absorption."
+        },
+        {
+          "title": "Low carbohydrate content",
+          "content": "Whipped topping typically contains modest amounts of sugar, making it suitable for moderate consumption in low‑carb diets."
+        },
+        {
+          "title": "Enhances flavor",
+          "content": "Adding whipped topping can boost taste perception without the need for large amounts of heavy cream."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "The product contains dairy proteins and may trigger allergic reactions in individuals with lactose intolerance or milk allergy."
+        },
+        {
+          "title": "High calorie density",
+          "content": "Whipped topping is rich in fats, so it should be consumed in moderation, especially when managing weight."
+        },
+        {
+          "title": "Stabilizer content",
+          "content": "Certain stabilizers (e.g., emulsifiers) may cause discomfort in sensitive individuals."
+        },
+        {
+          "title": "Pressurized storage",
+          "content": "Aerosol cans require careful handling; a damaged can can pose a safety hazard."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Whipped topping can be added to desserts, cakes, ice cream, coffee, hot chocolate, and used to decorate fruit and pastries. It can be lightly whipped with a spoon for a firmer texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the can in a cool, dry place away from direct sunlight. After opening, use the product within 2–3 days. Do not store at temperatures above 25°C."
+    }
+  ]
+}

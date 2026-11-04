@@ -1,0 +1,75 @@
+{
+  "id": "2300",
+  "title": "Cashew Butter",
+  "image": "/products/2300.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cashew butter is a spread made by grinding cashew nuts into a smooth paste. It has a delicate creamy flavor with a hint of natural sweetness and a nutty aroma. Cashew butter is popular in vegan cooking, used in sauces, desserts, and as a butter substitute."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cashews originate from tropical regions of Africa but are now cultivated mainly in Southeast Asia and South America.",
+        "Cashews belong to the Anacardiaceae family and are more closely related to mangoes than to typical nuts.",
+        "Raw cashews contain urushiol, a toxic compound, so they are sold only after roasting or other processing.",
+        "Cashew butter is a staple in Asian cuisines, especially in Thai curries and sauces.",
+        "Unlike many peanut butters, cashew butter is often sold without added sugar or salt."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in monounsaturated fats",
+          "content": "Monounsaturated fats support heart health and help maintain healthy cholesterol levels."
+        },
+        {
+          "title": "Source of magnesium and copper",
+          "content": "Magnesium aids muscle and nerve function, while copper is essential for red blood cell formation."
+        },
+        {
+          "title": "Contains vitamin K",
+          "content": "Vitamin K is important for blood clotting and bone health."
+        },
+        {
+          "title": "Antioxidant content",
+          "content": "Cashew butter provides tocopherols and phenolic compounds that protect cells from oxidative stress."
+        },
+        {
+          "title": "Energy support",
+          "content": "Its high calorie density and healthy fats make it a good source of sustained energy for active individuals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tree nut allergy",
+          "content": "Cashews can trigger severe allergic reactions in people with nut allergies."
+        },
+        {
+          "title": "High in calories",
+          "content": "Because of its energy density, portion sizes should be moderated to avoid excess calorie intake."
+        },
+        {
+          "title": "Oxalate content",
+          "content": "Cashews contain oxalates, which may contribute to kidney stone formation in susceptible individuals."
+        },
+        {
+          "title": "Raw nut toxicity",
+          "content": "Unprocessed cashews contain urushiol and should only be consumed after proper heating."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Cashew butter can be spread on toast, added to smoothies, sauces, oatmeal, baked goods, and desserts. It is also used as a vegan butter alternative. Gently warming the butter improves its pourability."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cashew butter in an airtight container in a cool, dry, dark place. For longer shelf life, keep it refrigerated – this helps preserve flavor and prevents oxidation. Discard if it develops a rancid smell or changes color."
+    }
+  ]
+}

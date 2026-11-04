@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 /**
+ * https://console.groq.com/keys
  * Генерация информации о продуктах через Groq API.
  *
  * Положите файл в scripts/generate_products.mjs и запускайте из корня проекта:

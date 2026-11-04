@@ -1,0 +1,75 @@
+{
+  "id": "365",
+  "title": "Infant formula, Enfamil ProSobee, powder, prepared with tap water",
+  "image": "/products/365.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Enfamil ProSobee is a hypoallergenic infant formula powder designed for babies at risk of developing allergies. It contains partially hydrolyzed soy protein, prebiotics, DHA, ARA, and essential vitamins and minerals. Preparation is done with clean tap water according to the manufacturer’s instructions."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "ProSobee is one of the few formulas where the soy protein is partially hydrolyzed, reducing its allergenic potential.",
+        "The formula is enriched with prebiotics (FOS) that support the growth of beneficial gut bacteria.",
+        "It includes DHA and ARA – fatty acids important for brain and eye development.",
+        "The product has a neutral taste, making the transition from breast milk to formula easier.",
+        "Enfamil ProSobee has undergone clinical testing confirming its safety for infants with a family history of allergies."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Reduced allergy risk",
+          "content": "Partially hydrolyzed soy protein is less likely to trigger allergic reactions, helping prevent food allergies in susceptible infants."
+        },
+        {
+          "title": "Brain development support",
+          "content": "DHA and ARA contribute to neuronal connectivity and visual function during early growth."
+        },
+        {
+          "title": "Immune system support",
+          "content": "Vitamins A, C, D and zinc help maintain a healthy immune response in babies."
+        },
+        {
+          "title": "Gut health",
+          "content": "Prebiotics (FOS) stimulate beneficial bacteria, improving digestion and nutrient absorption."
+        },
+        {
+          "title": "Growth nourishment",
+          "content": "A balanced blend of proteins, fats, and carbohydrates provides the energy and building blocks needed for healthy growth."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy protein allergy",
+          "content": "Although hydrolyzed, some infants may still react to soy components."
+        },
+        {
+          "title": "Water quality",
+          "content": "Using tap water requires that the water meets safety standards; otherwise there is a risk of microbial contamination."
+        },
+        {
+          "title": "Incorrect dilution",
+          "content": "Over‑concentrated or overly diluted formula can lead to dehydration or over‑feeding, negatively affecting the infant’s health."
+        },
+        {
+          "title": "Sugar content",
+          "content": "The formula contains a small amount of sugar for palatability; caregivers should monitor intake in children prone to dental caries."
+        }
+      ]
+    },
+    {
+      "title": "How to Prepare",
+      "content": "Mix the specified amount of powder into clean boiled (or filtered) water that has been cooled to body temperature (≈37 °C). Stir thoroughly to eliminate lumps. The prepared feed should be used within 2 hours and should not be stored in the refrigerator for more than 24 hours."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the dry powder in its original airtight container in a cool, dry place away from direct sunlight. Once opened, use within 3 months. Do not keep prepared formula for more than 24 hours."
+    }
+  ]
+}

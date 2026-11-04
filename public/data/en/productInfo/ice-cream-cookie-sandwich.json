@@ -1,0 +1,62 @@
+{
+  "id": "443",
+  "title": "Ice Cream Cookie Sandwich",
+  "image": "/products/443.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "An ice cream cookie sandwich is a dessert made of two soft cookies with a scoop of ice cream sandwiched between them. Common flavors include vanilla or chocolate ice cream, and the cookies may be chocolate, vanilla, or chocolate‑chip."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial ice cream sandwich appeared in the United States in the 1970s.",
+        "Cookie sandwiches are often sold in individual wrappers, making them a convenient on‑the‑go snack.",
+        "There are many filling variations: caramel, nuts, fruit sauces, and even alcoholic infusions.",
+        "Seasonal versions are popular in some countries, such as pumpkin‑spice ice cream in the fall."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "The dairy component of the ice cream provides calcium essential for bone health."
+        },
+        {
+          "title": "Quick energy",
+          "content": "The combination of carbohydrates and fats supplies rapid energy."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Dairy contributes vitamins B2 and B12, supporting metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Large amounts of sugar can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience digestive discomfort."
+        },
+        {
+          "title": "Nut and gluten allergies",
+          "content": "Some versions contain nuts or wheat‑based cookies, which can trigger allergic reactions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the sandwich straight from the freezer so the ice cream is soft and the cookies stay crunchy. It can be split in half for children or topped with chocolate sprinkles for extra texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen at –18 °C in the original packaging. For best quality, consume within 3–4 months; longer storage may lead to ice crystal formation."
+    }
+  ]
+}

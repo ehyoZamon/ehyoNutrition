@@ -1,0 +1,71 @@
+{
+  "id": "5511",
+  "title": "Energy drink, sugar free (Monster)",
+  "image": "/products/5511.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Monster Zero Sugar is a zero‑calorie version of the popular Monster energy drink. It contains caffeine, taurine, B‑vitamins and natural flavorings, but no sugar. Designed to boost alertness and concentration without raising blood glucose levels."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Monster Zero Sugar was launched in 2002 in response to growing demand for sugar‑free energy drinks.",
+        "It uses the artificial sweetener sucralose, which is about 600 times sweeter than sugar but contributes virtually no calories.",
+        "The drink provides 140 mg of caffeine per 12 oz (355 ml), comparable to a strong cup of coffee.",
+        "Each can contains taurine, an amino acid often linked to cardiovascular support.",
+        "Monster Zero Sugar is sold in more than 30 countries worldwide."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Increased energy and focus",
+          "content": "Caffeine stimulates the central nervous system, improving alertness and reaction time."
+        },
+        {
+          "title": "Metabolism support",
+          "content": "B‑vitamins (B2, B3, B6, B12) play key roles in energy metabolism, helping convert food into usable energy."
+        },
+        {
+          "title": "No sugar",
+          "content": "The absence of sugar makes the drink suitable for people monitoring blood glucose levels."
+        },
+        {
+          "title": "Hydration contribution",
+          "content": "While not a water substitute, the beverage adds fluid to the daily intake."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Excessive caffeine intake",
+          "content": "High caffeine doses can cause anxiety, insomnia, rapid heartbeat, and increased blood pressure."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Caffeine may amplify the effects of certain stimulants and antidepressants."
+        },
+        {
+          "title": "Artificial sweeteners",
+          "content": "Sucralose is safe in moderate amounts, but some individuals may experience gastrointestinal discomfort."
+        },
+        {
+          "title": "Not recommended for children and pregnant women",
+          "content": "Due to its high caffeine content, the product is not advised for children, adolescents, pregnant or nursing women."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Consume one 12‑oz (355 ml) can 30‑60 minutes before the activity that requires extra energy. Do not exceed 2‑3 cans per day. Avoid mixing with alcohol."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, keep refrigerated and consume within 7 days."
+    }
+  ]
+}

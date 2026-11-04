@@ -1,0 +1,75 @@
+{
+  "id": "3405",
+  "title": "Pepperoni Pizza",
+  "image": "/products/3405.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Pepperoni pizza is a popular school lunch option. A medium crust provides a crunchy base, while slices of spicy pepperoni add flavor and a hint of heat. The pizza is served hot, often with tomato sauce and a modest amount of cheese."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Pepperoni is an American version of Italian salami, made from pork and beef.",
+        "A medium crust is considered ideal for balancing crispness and softness.",
+        "Pizza is frequently included in school menus as a quick source of carbs and protein.",
+        "Tomato sauce in pizza is rich in lycopene, an antioxidant that retains its bright red color when baked.",
+        "Some schools bake pizza in specialized ovens that reach the required temperature quickly."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "Pepperoni and cheese provide a substantial amount of protein needed for growth and tissue repair."
+        },
+        {
+          "title": "Energy supply",
+          "content": "Carbohydrates from the crust give a rapid source of energy, important for active students."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "The dough and meat ingredients contain vitamins B1, B2 and B6, supporting metabolism."
+        },
+        {
+          "title": "Lycopene in tomato sauce",
+          "content": "Lycopene has antioxidant properties and may help protect cells from oxidative stress."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese adds calcium, essential for bone and tooth development in children."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sodium content",
+          "content": "Salt in the sauce and pepperoni can lead to exceeding the daily recommended sodium intake."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Meat toppings and cheese contain saturated fats, which should be consumed in moderation."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Cheese may trigger allergic reactions in children with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Monosodium glutamate",
+          "content": "Some sauces may contain added MSG, which can cause headaches in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pepperoni pizza is typically eaten hot, cut into serving slices. Adding fresh vegetables such as tomatoes or arugula can balance flavor and boost nutrient content."
+    },
+    {
+      "title": "Storage",
+      "content": "Store leftover pizza in an airtight container in the refrigerator for up to 2‑3 days. Reheat in an oven or microwave to restore crust crispness."
+    }
+  ]
+}

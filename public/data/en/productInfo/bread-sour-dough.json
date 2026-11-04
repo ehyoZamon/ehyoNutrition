@@ -1,0 +1,71 @@
+{
+  "id": "2408",
+  "title": "Bread, sour dough",
+  "image": "/products/2408.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sourdough bread is a whole‑grain loaf made with a natural starter cultivated from wild yeasts and lactic‑acid bacteria. The dough rises slowly, giving the crust a crisp snap and a tangy aroma. Because of the long fermentation, it is often considered healthier than commercial yeast breads."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sourdough starters have been used for over 5,000 years, dating back to ancient Egypt.",
+        "Extended fermentation increases B‑vitamins and minerals compared with standard breads.",
+        "Sourdough bread has a lower glycemic index, making it better for blood‑sugar control.",
+        "Traditional recipes require at least two days to develop a mature starter.",
+        "The acidity of the starter (pH 3.5‑4.0) inhibits pathogenic bacteria, extending shelf life."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Fermentation produces live lactic‑acid bacteria that support gut microbiota."
+        },
+        {
+          "title": "Lowers glycemic response",
+          "content": "Slow breakdown of starch during fermentation leads to slower carbohydrate absorption."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Sourdough provides thiamine, riboflavin, niacin, and folate, essential for energy metabolism."
+        },
+        {
+          "title": "Heart‑healthy",
+          "content": "Whole grains supply fiber, which helps reduce cholesterol levels."
+        },
+        {
+          "title": "Improves mineral absorption",
+          "content": "Fermentation reduces phytic acid, allowing better uptake of iron and zinc."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Gluten allergy",
+          "content": "Like any wheat bread, sourdough contains gluten and can trigger reactions in people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Sodium content",
+          "content": "Some recipes use a noticeable amount of salt; those monitoring sodium should check the label."
+        },
+        {
+          "title": "Acidity",
+          "content": "The higher acidity may irritate the stomach of individuals with gastritis or ulcer disease."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the bread fresh, toasted, or as the base for sandwiches, soups, and salads. It pairs well with olive oil, avocado, cheese, fish, and vegetable spreads."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the loaf in a paper bag or linen sack at room temperature for up to 3 days. For longer storage, freeze in an airtight bag for up to 2 months. Reheat in the oven before serving to restore crust crispness."
+    }
+  ]
+}

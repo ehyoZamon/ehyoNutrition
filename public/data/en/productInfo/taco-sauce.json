@@ -1,0 +1,75 @@
+{
+  "id": "4500",
+  "title": "Taco Sauce",
+  "image": "/products/4500.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Taco sauce is a tangy, slightly spicy sauce made from tomatoes, chili peppers, vinegar, and a blend of spices, designed to accompany Mexican dishes such as tacos, burritos, and nachos. It delivers a bright, mildly hot flavor with hints of smokiness and fresh herbs."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Taco sauce originated in the United States in the mid‑20th century as an adaptation of traditional Mexican sauces.",
+        "There are many varieties, ranging from mild to extra hot, and some include mango, pineapple, or smoked peppers.",
+        "Core ingredients are tomato paste, vinegar, sugar, and a spice mix (coriander, cumin, garlic).",
+        "The sauce is used not only as a condiment but also as a marinade for meat and fish.",
+        "Its characteristic bright red color comes from tomato puree and red pepper."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Tomatoes and spices provide lycopene and vitamin C, which help protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Capsaicin from chili peppers stimulates gastric juice production, aiding digestion."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Taco sauce supplies modest amounts of B6 and folate, important for metabolism."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Unlike many sauces, it contains virtually no fat, making it suitable for low‑fat diets."
+        },
+        {
+          "title": "Moderate sodium content",
+          "content": "When consumed in moderation, the sauce can help maintain electrolyte balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Spicy heat",
+          "content": "Capsaicin may cause stomach irritation in people with sensitive digestive systems."
+        },
+        {
+          "title": "Allergy to spices",
+          "content": "Some individuals may be allergic to coriander, cumin, or garlic used in the sauce."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Certain recipes add significant sugar, which can be a concern for diabetics."
+        },
+        {
+          "title": "Sodium level",
+          "content": "Those monitoring salt intake should choose a low‑sodium version."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve taco sauce with tacos, burritos, nachos, fajitas, or use it as a marinade for chicken, beef, or fish. It also works well in salads, soups, or as a dip for vegetable sticks."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the sauce in a tightly sealed jar in the refrigerator. Once opened, it typically stays good for 1‑2 months. Avoid contaminating the sauce with used utensils."
+    }
+  ]
+}

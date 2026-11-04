@@ -1,0 +1,74 @@
+{
+  "id": "3511",
+  "title": "Lasagna with meat",
+  "image": "/products/3511.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lasagna with meat is a classic Italian dish made of layers of pasta, ground meat, tomato sauce, cheese and sometimes béchamel. Baking melds the flavors together, creating a hearty and aromatic meal."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The earliest forms of lasagna date back to ancient Rome, but the modern recipe originated in Naples in the 19th century.",
+        "The traditional meat sauce is called “ragù” and is usually made with beef, pork, or a mixture of both.",
+        "In the United States, lasagna is often topped with mozzarella and Parmesan, and sometimes ricotta for extra creaminess.",
+        "Vegetarian versions replace the meat with mushrooms, eggplant or soy‑based crumble."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "The meat provides high‑quality protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Beef and pork supply iron, which is vital for oxygen transport in the blood."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Hard cheeses such as Parmesan add calcium that supports bone health."
+        },
+        {
+          "title": "Lycopene in tomato sauce",
+          "content": "Tomatoes are rich in lycopene, an antioxidant that may benefit cardiovascular health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Meat and whole‑grain pasta provide B1, B3, B6 vitamins important for metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High calorie content",
+          "content": "Lasagna is calorie‑dense due to fats and carbs, so portion control is advisable for weight management."
+        },
+        {
+          "title": "Saturated fats",
+          "content": "Cheese and meat can increase saturated fat intake, which may be a concern for heart‑related conditions."
+        },
+        {
+          "title": "Sodium",
+          "content": "Tomato sauce and cheeses often contain added salt; people with hypertension should choose low‑sodium options."
+        },
+        {
+          "title": "Dairy allergy or lactose intolerance",
+          "content": "Cheese can trigger reactions in individuals allergic to milk proteins or intolerant to lactose."
+        }
+      ]
+    },
+    {
+      "title": "How to Cook",
+      "content": "Boil lasagna sheets until al dente, sauté ground meat with onion and garlic, add tomato sauce and seasonings. In a baking dish layer pasta, meat sauce, cheese and repeat. Bake at 180 °C for 30‑40 minutes until the top is golden and bubbling."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the cooked lasagna to room temperature, cover with plastic wrap and refrigerate for up to 3 days. For longer storage, freeze in an airtight container for up to 2 months. Reheat until the internal temperature reaches 75 °C."
+    }
+  ]
+}

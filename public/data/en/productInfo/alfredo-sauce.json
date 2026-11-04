@@ -1,0 +1,63 @@
+{
+  "id": "608",
+  "title": "Alfredo Sauce",
+  "image": "/products/608.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Alfredo sauce is a classic Italian creamy sauce made from butter, heavy cream, and grated Parmesan cheese. It has a smooth, buttery flavor with a subtle cheesy note and is most commonly served with pasta, especially fettuccine."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The sauce is named after the restaurant \"Alfredo\" in Rome, where chef Alfredo Di Lelio created it in the early 1900s.",
+        "The original recipe used only butter, Parmesan, and pasta, without cream.",
+        "In the United States the sauce is often enriched with cream, making it richer and silkier.",
+        "Alfredo is frequently used as a base for other sauces, adding mushrooms, chicken, or seafood.",
+        "Variations may include garlic, nutmeg, or white wine for extra flavor."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Hard Parmesan cheese is rich in calcium, which supports bone and teeth health."
+        },
+        {
+          "title": "Contains vitamins A and D",
+          "content": "Butter and cream provide fat‑soluble vitamins that aid vision and immune function."
+        },
+        {
+          "title": "Protein content",
+          "content": "Parmesan adds a modest amount of protein, contributing to tissue repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat and calorie content",
+          "content": "Butter and cream make the sauce calorie‑dense; those watching weight should consume it in moderation."
+        },
+        {
+          "title": "Lactose intolerance",
+          "content": "The dairy components can cause discomfort for people with lactose intolerance."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Allergy to milk or cheese (e.g., Parmesan) requires avoiding the sauce entirely."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Alfredo sauce is traditionally tossed with hot pasta until evenly coated. It can also be used in casseroles, pizza, vegetable dishes, or as a topping for chicken breast."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared sauce in an airtight container in the refrigerator for up to 3‑4 days. Reheat gently over low heat while stirring to prevent separation. Do not freeze, as the texture may become grainy."
+    }
+  ]
+}

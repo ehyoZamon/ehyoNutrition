@@ -1,0 +1,75 @@
+{
+  "id": "740",
+  "title": "Chicken",
+  "image": "/products/740.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken is one of the most widely consumed meats worldwide. This entry describes a piece of chicken breast grilled without sauce, with the skin left on and edible. Grilling preserves the natural flavor while adding a smoky aroma."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken meat is a complete source of all essential amino acids.",
+        "Grilling creates a distinctive flavor through Maillard reactions.",
+        "Chicken is one of the most affordable animal protein sources globally.",
+        "The skin contains more fat than the breast meat but also provides beneficial monounsaturated fats.",
+        "Culinary traditions around the world feature chicken in countless ways, from simple grills to complex marinades."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "A 100 g serving of chicken breast provides about 31 g of high‑quality protein, supporting muscle growth and repair."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "Chicken contains virtually no carbs, making it suitable for low‑carb diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Chicken supplies niacin (B3) and pyridoxine (B6), which are important for energy metabolism and nervous system health."
+        },
+        {
+          "title": "Minerals",
+          "content": "It provides phosphorus, selenium, and zinc—nutrients essential for bone health, immune function, and antioxidant protection."
+        },
+        {
+          "title": "Beneficial fats in the skin",
+          "content": "When eaten in moderation, chicken skin adds monounsaturated fatty acids that can support heart health."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Food‑borne illness risk",
+          "content": "Undercooked chicken may harbor Salmonella or Campylobacter. Cook to an internal temperature of 75 °C (165 °F)."
+        },
+        {
+          "title": "High sodium in marinades",
+          "content": "If the meat was pre‑marinated, watch the salt content to avoid excessive sodium intake."
+        },
+        {
+          "title": "Poultry allergy",
+          "content": "A small number of people are allergic to chicken proteins."
+        },
+        {
+          "title": "Fatty skin",
+          "content": "Chicken skin increases the calorie density of the dish and should be consumed in moderation."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Grilled chicken breast can be served as a main dish, sliced into salads, added to sandwiches, or used in Asian‑style stir‑fries. The skin can be eaten together with the meat or removed according to personal preference."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cooked chicken in an airtight container in the refrigerator for up to 3‑4 days. For longer storage, freeze in a sealed bag at –18 °C, where it keeps quality for 2‑3 months. Reheat to an internal temperature of 75 °C before serving."
+    }
+  ]
+}

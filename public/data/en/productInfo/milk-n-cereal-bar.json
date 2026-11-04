@@ -1,0 +1,75 @@
+{
+  "id": "2848",
+  "title": "Milk 'n Cereal Bar",
+  "image": "/products/2848.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Milk 'n Cereal Bar is a ready‑to‑eat snack consisting of whole grain cereal, dried fruit, nuts and a milk‑yogurt coating. Each bar weighs 30 g, provides 150 kcal, 5 g protein, 20 g carbohydrates and 5 g fat."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Designed as a quick breakfast or energy snack for active people.",
+        "Contains whole rolled oats that retain most of their fiber.",
+        "The milk layer includes probiotic cultures that support gut health.",
+        "No artificial colors or flavors are added.",
+        "Packaging is made from recyclable material and is fully recyclable."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of fiber",
+          "content": "Whole oats are rich in soluble fiber, which helps maintain normal digestive function."
+        },
+        {
+          "title": "Contains probiotics",
+          "content": "The yogurt coating provides live Lactobacillus cultures that promote a balanced microbiome."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Includes thiamine, riboflavin and niacin, essential for energy metabolism."
+        },
+        {
+          "title": "Low added sugar",
+          "content": "Sweetness comes from dried fruit; added sugar is limited to 5 g per serving."
+        },
+        {
+          "title": "Supports muscle maintenance",
+          "content": "5 g of plant protein help replenish amino acid stores after workouts."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Nut and dairy allergy",
+          "content": "The bar contains nuts and a dairy yogurt coating, which may trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Gluten content",
+          "content": "Rolled oats may contain trace gluten, important for people with celiac disease."
+        },
+        {
+          "title": "Caloric density for strict diets",
+          "content": "150 kcal per bar can be significant on very low‑calorie diets, so consider overall daily intake."
+        },
+        {
+          "title": "Sugar content for diabetics",
+          "content": "Although modest, the sugar amount should be monitored by people with diabetes."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The bar is ready to eat straight from the wrapper. It’s convenient to take to the gym, on a trip, or to work. For a more filling breakfast, you can slice it and add to yogurt or kefir."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the bars in a dry, cool place away from direct sunlight. Once opened, consume within 7 days. For longer storage, keep in an airtight container."
+    }
+  ]
+}

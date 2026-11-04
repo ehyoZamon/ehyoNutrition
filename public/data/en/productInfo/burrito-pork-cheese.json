@@ -1,0 +1,75 @@
+{
+  "id": "3300",
+  "title": "Pork and Cheese Burrito",
+  "image": "/products/3300.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "The pork and cheese burrito is a Mexican dish consisting of a large soft wheat tortilla wrapped around a filling of braised pork, melted cheese, rice, beans, and spices. It offers a rich meaty flavor, creamy cheese texture, and a hint of heat from the seasonings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Burritos originated in northern Mexico where wheat flour is more common than corn.",
+        "Traditional fillings include black beans, but modern versions often use pinto or red beans.",
+        "Pork for burritos is frequently marinated in chili, lime, and garlic for a distinctive aroma.",
+        "Cheese melts at around 30 °C, creating a stretchy texture inside the burrito.",
+        "Burritos are commonly served with salsa, guacamole, and sour cream."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Pork and cheese provide complete protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Red meat supplies heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "Calcium from cheese",
+          "content": "Cheese contributes calcium important for bone and teeth health."
+        },
+        {
+          "title": "Complex carbohydrates",
+          "content": "Rice and beans deliver slowly released energy and help maintain stable blood sugar levels."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Pork contains vitamin B12, niacin, and riboflavin, which support metabolic processes."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High fat content",
+          "content": "Pork and cheese can be high in saturated fats, so individuals with cardiovascular concerns should watch portion size."
+        },
+        {
+          "title": "Sodium levels",
+          "content": "Cheese and prepared sauces often contain a lot of salt, which may raise blood pressure."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "People with lactose intolerance or casein allergy should choose dairy‑free cheese alternatives."
+        },
+        {
+          "title": "Foodborne illness risk",
+          "content": "Undercooked pork may harbor pathogens; ensure it reaches an internal temperature of 71 °C."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Burritos are hand‑friendly; cut them in half for easier handling. Warm them in a microwave or on a grill to make the cheese extra melty. Serve with salsa, guacamole, lime wedges, or fresh cilantro."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cooked burritos in an airtight container in the refrigerator for 2‑3 days. For freezing, wrap tightly in plastic film and place in a zip‑lock bag; they keep well for up to 2 months. Reheat to an internal temperature of 74 °C before eating."
+    }
+  ]
+}

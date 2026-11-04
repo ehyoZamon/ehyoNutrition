@@ -1,0 +1,75 @@
+{
+  "id": "2200",
+  "title": "Soy nuts",
+  "image": "/products/2200.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy nuts are roasted soybeans (Glycine max) that have a light nutty flavor and a crunchy texture. They are often used as an alternative snack for people avoiding traditional tree nuts."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soy nuts are made from soybeans, one of the most widely cultivated legume crops worldwide.",
+        "Unlike most nuts, soy nuts are not true nuts botanically; they are seeds of a legume.",
+        "In Asian cuisine, especially Japanese, boiled soybeans in the pod are called edamame, a close relative to roasted soy nuts.",
+        "Soy is rich in isoflavones, which can have phytoestrogenic effects.",
+        "Roasting enhances aroma but can also reduce some heat‑sensitive vitamins."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Soy nuts contain about 35 % protein, making them an excellent source of plant‑based protein."
+        },
+        {
+          "title": "Contains healthy fats",
+          "content": "They provide polyunsaturated fatty acids, including omega‑6 and a modest amount of omega‑3."
+        },
+        {
+          "title": "Source of B vitamins",
+          "content": "Soy nuts supply B‑vitamins such as thiamine, riboflavin, and folate, which support energy metabolism."
+        },
+        {
+          "title": "Rich in minerals",
+          "content": "They contain iron, magnesium, phosphorus, and calcium, supporting bone health and nerve function."
+        },
+        {
+          "title": "Phytoestrogens",
+          "content": "Soy isoflavones may help balance hormones, especially for women during menopause."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Some individuals may experience severe allergic reactions to soy products."
+        },
+        {
+          "title": "Phytic acid content",
+          "content": "Phytic acid can reduce the absorption of certain minerals when consumed in large amounts."
+        },
+        {
+          "title": "Genetically modified organisms (GMOs)",
+          "content": "Most soy worldwide is GMO; choose certified organic varieties if you wish to avoid GMOs."
+        },
+        {
+          "title": "High sodium in salted versions",
+          "content": "Salted soy nuts can contain a lot of sodium, which is undesirable for people with hypertension."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Soy nuts can be eaten straight as a snack, tossed into salads, soups, rice or noodle dishes, and used in vegetarian and vegan recipes as a nut substitute."
+    },
+    {
+      "title": "Storage",
+      "content": "Store soy nuts in an airtight container in a cool, dry place. For longer shelf life, keep them in the refrigerator or freezer to prevent the fats from becoming rancid."
+    }
+  ]
+}

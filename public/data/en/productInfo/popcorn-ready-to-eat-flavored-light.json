@@ -1,0 +1,75 @@
+{
+  "id": "2999",
+  "title": "Popcorn",
+  "image": "/products/2999.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Popcorn is a ready‑to‑eat, flavored, light snack made from specially selected corn kernels. The kernels puff when heated, creating airy, crunchy pieces that are coated with a variety of flavorings."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Popcorn has been known since ancient times; archaeologists have found evidence of its use in Peru dating back over 5,000 years.",
+        "There are more than 30 flavor varieties for popcorn, ranging from classic butter to caramel, cheese, chili, and even truffle.",
+        "Popcorn is one of the most popular cinema snacks worldwide; in the United States, more than 15 billion servings are consumed each year.",
+        "Puffing occurs because each kernel contains a small amount of moisture that turns to steam and bursts the hull.",
+        "Air‑popped popcorn can be made without any added oil, making it a low‑fat option."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in calories",
+          "content": "Light flavored popcorn provides about 350 kcal per 100 g, which is lower than most crackers and chips."
+        },
+        {
+          "title": "Rich in fiber",
+          "content": "As a whole‑grain snack, popcorn supplies dietary fiber that supports healthy digestion."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Corn kernels are rich in polyphenols, which help combat free radicals."
+        },
+        {
+          "title": "Gluten‑free",
+          "content": "Popcorn naturally contains no gluten, making it suitable for people with celiac disease."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Popcorn provides thiamine, niacin, and vitamin B6, which are important for metabolism."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Salt and sugar content",
+          "content": "Flavored varieties often contain added salt or sugar, which may be problematic for hypertension or diabetes."
+        },
+        {
+          "title": "Allergens in flavorings",
+          "content": "Some flavor additives may include dairy, soy, or nut ingredients that can trigger allergies."
+        },
+        {
+          "title": "Choking hazard",
+          "content": "Small popcorn pieces can pose a choking risk for young children; supervision is recommended."
+        },
+        {
+          "title": "Calorie increase with oil",
+          "content": "When popcorn is prepared with oil, its energy density rises significantly."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Popcorn is convenient as a stand‑alone snack, mixed with nuts and dried fruit, added to salads, or used as a base for sweet desserts. It can be reheated in the microwave if stored frozen."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep popcorn in an airtight container in a cool, dry place. For longer shelf life, store it in the refrigerator to preserve crunch and flavor. Avoid moisture, which can make popcorn soggy."
+    }
+  ]
+}

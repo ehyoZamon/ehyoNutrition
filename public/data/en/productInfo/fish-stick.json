@@ -1,0 +1,75 @@
+{
+  "id": "1030",
+  "title": "Fish Sticks",
+  "image": "/products/1030.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fish sticks are a ready‑to‑eat product made from white fish fillet that is minced, breaded, and partially fried. They are a convenient way to add fish to the diet, especially for children."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first fish sticks were introduced in the United States in the 1950s as a way to use fish trimmings.",
+        "Common fish used include cod, pollock, or hake, along with starch and seasonings.",
+        "The coating often contains wheat flour, but gluten‑free versions are available.",
+        "Fish sticks can be stored frozen for up to 12 months.",
+        "In some countries they are called “fish‑strips” or “fish‑sticks.”"
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of protein",
+          "content": "Fish sticks provide high‑quality animal protein essential for growth and tissue repair."
+        },
+        {
+          "title": "Omega‑3 fatty acids",
+          "content": "Depending on the fish species, they may contain beneficial omega‑3s that support cardiovascular health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Fish is rich in B12, B6, and niacin, which are important for energy metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "They supply phosphorus, selenium, and iodine, important for bones, thyroid function, and antioxidant protection."
+        },
+        {
+          "title": "Low in carbohydrates",
+          "content": "For those monitoring carb intake, fish sticks are relatively low in carbohydrates."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Fish allergy",
+          "content": "Some individuals may experience allergic reactions to fish or seafood."
+        },
+        {
+          "title": "Sodium content",
+          "content": "The breading and additives often contain salt; people with hypertension should watch portion size."
+        },
+        {
+          "title": "Trans fats and additives",
+          "content": "Certain brands use partially hydrogenated oils, which may contain trans fats."
+        },
+        {
+          "title": "Food additives",
+          "content": "Preservatives and flavor enhancers may be present and not suit everyone."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Fish sticks are typically baked or pan‑fried until golden brown. Serve them with mashed potatoes, a vegetable salad, tartar sauce, or simple ketchup."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen fish sticks in an airtight bag at –18 °C. After thawing, consume within 1–2 days and do not refreeze."
+    }
+  ]
+}

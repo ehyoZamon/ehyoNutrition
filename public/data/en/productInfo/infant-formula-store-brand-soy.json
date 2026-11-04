@@ -1,0 +1,75 @@
+{
+  "id": "377",
+  "title": "Infant Formula, Store Brand, Soy",
+  "image": "/products/377.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Soy-based infant formula is intended for babies from 6 months old when breast milk alone is no longer sufficient. The product is fortified with vitamins, minerals, and proteins to support growth and development. Soy protein is easily digestible, and added nutrients help maintain immunity and bone health."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Soy formula is often used as an alternative to cow's milk for infants with lactose intolerance.",
+        "It contains DHA and ARA, which are important for brain and eye development.",
+        "Some formulas are enriched with probiotics to support gut microbiota.",
+        "Manufacturers frequently use fermented soy protein to improve taste and reduce gas production.",
+        "Soy formula has a longer shelf life than dairy-based formulas when stored properly."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of plant protein",
+          "content": "Soy protein provides all essential amino acids needed for tissue growth."
+        },
+        {
+          "title": "Contains iron and zinc",
+          "content": "These minerals support the immune system and cognitive development."
+        },
+        {
+          "title": "Fortified with B‑vitamins",
+          "content": "Vitamins B6, B12, and folate aid normal nervous system development."
+        },
+        {
+          "title": "Supports bone health",
+          "content": "Added calcium and vitamin D are essential for strong bone formation."
+        },
+        {
+          "title": "Low in lactose allergens",
+          "content": "Suitable for infants with lactose intolerance, though it may trigger reactions in those allergic to soy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy allergy",
+          "content": "Some infants may develop allergic reactions to soy proteins; discontinue use at the first sign of symptoms."
+        },
+        {
+          "title": "Phytoestrogen content",
+          "content": "Soy contains isoflavones, which in large amounts can affect hormonal balance, but levels in infant formulas are tightly regulated."
+        },
+        {
+          "title": "Need for proper dilution",
+          "content": "Over‑concentrated formula can strain an infant's kidneys; always follow the manufacturer's mixing instructions."
+        },
+        {
+          "title": "Shelf life after opening",
+          "content": "Once opened, the formula should be used within 30 days and kept refrigerated."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Mix the formula with warm (not hot) water according to the ratio on the package. Stir thoroughly until smooth and check the temperature before feeding. A small amount of breast milk can be added if desired for a familiar taste."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the dry powder in a cool, dry place away from direct sunlight. After opening, keep it in a tightly sealed container in the refrigerator and use within a month. Discard if the product develops an off‑smell, color change, or unusual taste."
+    }
+  ]
+}

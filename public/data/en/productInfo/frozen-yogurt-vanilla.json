@@ -1,0 +1,75 @@
+{
+  "id": "251",
+  "title": "Frozen Yogurt, Vanilla",
+  "image": "/products/251.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Frozen vanilla yogurt is a chilled dessert made from yogurt that is rapidly frozen while being continuously stirred. It combines the creamy tang of yogurt with the sweet aroma of natural vanilla, typically contains less fat than ice cream, and retains live probiotic cultures."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Frozen yogurt was introduced in the United States in the 1970s as a healthier alternative to ice cream.",
+        "Vanilla flavor is often derived from real vanilla beans, though many commercial products use synthetic vanillin.",
+        "The low‑temperature freezing process helps preserve most of the live probiotic cultures.",
+        "In some countries it is served with fruit sauces, granola, or nuts.",
+        "Sugar levels are usually lower than in traditional ice cream, but they vary by brand."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Yogurt provides live Lactobacillus and Bifidobacterium cultures that support gut health."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Like regular yogurt, frozen yogurt supplies calcium important for bones and teeth."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with ice cream, it generally contains less saturated fat, making it suitable for lower‑fat diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt contains vitamins B2 and B12, which aid energy metabolism."
+        },
+        {
+          "title": "Antioxidant properties of vanilla",
+          "content": "Natural vanilla contains vanillin and other compounds with antioxidant activity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People who are lactose intolerant may experience discomfort after consuming yogurt."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Yogurt can trigger allergic reactions in individuals allergic to dairy."
+        },
+        {
+          "title": "Added sugar",
+          "content": "Some frozen yogurts contain added sugars; check the label if you watch sugar intake."
+        },
+        {
+          "title": "Cold shock",
+          "content": "The rapid freezing can cause a “brain freeze” sensation in sensitive individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Frozen vanilla yogurt can be enjoyed on its own, topped with fresh berries, nuts, granola, or drizzled with fruit sauce. It is convenient to serve in cups or cones."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep in the freezer at –18 °C (0 °F) or lower. After opening, consume within 1–2 days to prevent ice crystal formation. Do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

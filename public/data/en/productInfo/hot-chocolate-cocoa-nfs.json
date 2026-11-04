@@ -1,0 +1,75 @@
+{
+  "id": "271",
+  "title": "Hot Chocolate / Cocoa",
+  "image": "/products/271.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Hot chocolate (cocoa) is a beverage made from cocoa powder, sugar, and milk or water. It offers a rich chocolate flavor, aroma, and a warming effect. It is often served with whipped cream, marshmallows, or spices."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Cocoa beans were first domesticated in Mesoamerica over 3,000 years ago.",
+        "The term “hot chocolate” appeared in Europe in the 16th century after cocoa was brought from the New World.",
+        "Cocoa contains more than 600 biologically active compounds, including theobromine and flavonoids.",
+        "In some countries hot chocolate is traditionally made with dark chocolate rather than cocoa powder.",
+        "There are many variations: with cinnamon, vanilla, mint, chili, and even sea salt."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Cocoa flavonoids help combat free radicals and support cardiovascular health."
+        },
+        {
+          "title": "Mood enhancement",
+          "content": "Theobromine and phenylethylamine promote endorphin release, improving mood."
+        },
+        {
+          "title": "Blood pressure reduction",
+          "content": "Moderate regular cocoa consumption may lead to a modest drop in blood pressure."
+        },
+        {
+          "title": "Source of minerals",
+          "content": "Cocoa provides magnesium, iron, zinc, and potassium, important for muscle and nerve function."
+        },
+        {
+          "title": "Cognitive support",
+          "content": "Studies suggest flavonoids can help maintain memory and attention."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Hot chocolate is often prepared with a lot of sugar, which can contribute to weight gain and elevated blood glucose."
+        },
+        {
+          "title": "Caffeine and theobromine",
+          "content": "These stimulants may cause insomnia or rapid heartbeat in sensitive individuals."
+        },
+        {
+          "title": "Milk allergy",
+          "content": "Dairy‑based versions may be unsuitable for people with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "Acidity",
+          "content": "Cocoa powder can irritate the stomach of those with gastritis or ulcers."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Mix cocoa powder into hot water or milk, add sugar or a sweetener to taste. Top with whipped cream, marshmallows, a sprinkle of cinnamon or grated chocolate. For a vegan version, use plant‑based milk."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cocoa powder in an airtight container in a cool, dry, dark place. Properly stored, it retains flavor for up to 2 years. Milk‑based mixes should be refrigerated and used within a few days."
+    }
+  ]
+}

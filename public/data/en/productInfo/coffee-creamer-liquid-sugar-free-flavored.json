@@ -1,0 +1,75 @@
+{
+  "id": "404",
+  "title": "Coffee creamer, liquid, sugar free, flavored",
+  "image": "/products/404.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Liquid sugar‑free coffee creamer is a low‑calorie alternative to dairy cream, designed to enhance the flavor and texture of coffee. It comes in a variety of flavors (vanilla, caramel, hazelnut, etc.) and typically contains plant oils, emulsifiers, and non‑sugar sweeteners."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Sugar‑free creamer often uses stevia or erythritol as sweeteners.",
+        "The liquid form allows easy dosing and quick mixing with hot beverages.",
+        "Flavored versions may contain natural extracts derived from plants.",
+        "Most brands base the product on vegetable oils (coconut, sunflower), making it suitable for vegetarians.",
+        "Sugar‑free creamer usually has a longer shelf life than traditional dairy cream."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Low in calories",
+          "content": "Absence of sugar and the use of light plant oils keep the calorie count lower than regular cream."
+        },
+        {
+          "title": "Supports blood‑sugar control",
+          "content": "Non‑sugar sweeteners do not cause rapid glucose spikes, which is beneficial for people with pre‑diabetes or diabetes."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Some creamer formulas are fortified with riboflavin (B2) and cobalamin (B12), which aid energy metabolism."
+        },
+        {
+          "title": "Improves drink texture",
+          "content": "Emulsifiers create a creamy foam, giving coffee a velvety mouthfeel without dairy."
+        },
+        {
+          "title": "Lactose‑free",
+          "content": "The product is suitable for individuals with lactose intolerance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Allergy to plant oils",
+          "content": "Some individuals may react to coconut or sunflower oil used in the formulation."
+        },
+        {
+          "title": "Artificial sweeteners",
+          "content": "High amounts of stevia or erythritol can cause gastrointestinal discomfort in sensitive people."
+        },
+        {
+          "title": "Emulsifier content",
+          "content": "Emulsifiers such as soy lecithin may be problematic for those with soy allergies."
+        },
+        {
+          "title": "Not a complete dairy substitute",
+          "content": "For children or people with specific nutritional needs, the creamer does not provide all essential nutrients found in milk."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Add 10–20 ml of creamer to hot coffee, stir, and enjoy. It can also be used in iced drinks, desserts, oatmeal, or any recipe that calls for a creamy texture without dairy."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the creamer refrigerated after opening. Shelf life is usually indicated on the package—typically 3 to 6 months. Discard if the product develops off‑odors, discoloration, or an unusual taste."
+    }
+  ]
+}

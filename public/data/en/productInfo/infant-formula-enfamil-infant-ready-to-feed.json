@@ -1,0 +1,75 @@
+{
+  "id": "333",
+  "title": "Infant formula, Enfamil Infant, ready-to-feed",
+  "image": "/products/333.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Enfamil Infant Ready‑to‑Feed is a pre‑mixed infant formula designed for newborns and babies up to 12 months. It provides a complete balance of proteins, fats, carbohydrates, vitamins, and minerals that meet WHO and national infant nutrition guidelines."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The formula is ready to use straight from the container – no water addition required.",
+        "Enfamil uses MFGM technology to preserve milk fat globule membranes that support brain development.",
+        "Each serving contains DHA and ARA, essential fatty acids for visual and cognitive growth.",
+        "The product has undergone clinical trials confirming safety and efficacy for both breast‑fed and formula‑fed infants.",
+        "Packaging is multi‑layered to protect the formula from light and oxygen."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports growth and development",
+          "content": "A balanced blend of macro‑ and micronutrients meets the needs of a growing body, promoting healthy weight gain and length increase."
+        },
+        {
+          "title": "Brain development",
+          "content": "DHA and ARA help form neural connections, enhancing visual acuity and cognitive function."
+        },
+        {
+          "title": "Bone health",
+          "content": "Calcium, phosphorus, and vitamin D support bone and tooth mineralization."
+        },
+        {
+          "title": "Immune support",
+          "content": "Vitamins A, C, E and zinc contribute to a robust immune system."
+        },
+        {
+          "title": "Easy digestion",
+          "content": "Partially hydrolyzed proteins are easier to digest and may reduce the risk of allergic reactions."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Cow‑milk protein allergy",
+          "content": "Some infants may develop an allergy to cow’s milk; seek medical advice if symptoms appear."
+        },
+        {
+          "title": "Lactose content",
+          "content": "The formula contains lactose, which can cause discomfort in infants with lactose intolerance."
+        },
+        {
+          "title": "Shelf‑life after opening",
+          "content": "Once opened, the formula should be used within 48 hours and kept refrigerated."
+        },
+        {
+          "title": "Temperature control",
+          "content": "Do not heat the formula in a microwave, as it can create hot spots that may burn the baby."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Shake the bottle before feeding, check the temperature by feeling the wrist. Offer the amount recommended on the label based on the baby’s age and weight. If dilution is needed, add a small amount of warm water only after consulting a pediatrician."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the unopened container in a cool, dry place away from direct sunlight. After opening, keep it refrigerated and use within 48 hours. Discard any formula that develops an off‑smell, color change, or unusual taste."
+    }
+  ]
+}

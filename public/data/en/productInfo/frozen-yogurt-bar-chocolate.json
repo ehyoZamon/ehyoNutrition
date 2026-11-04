@@ -1,0 +1,75 @@
+{
+  "id": "257",
+  "title": "Frozen yogurt bar, chocolate",
+  "image": "/products/257.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Frozen yogurt bar, chocolate is a frozen yogurt bar coated with a chocolate glaze. The combination of smooth yogurt and crunchy chocolate makes it a popular snack for both children and adults."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The yogurt base contains live probiotic cultures that support gut health.",
+        "The chocolate coating is often made from dark chocolate, increasing antioxidant content.",
+        "Frozen yogurt bars first appeared in the United States in the 1970s as a lighter alternative to ice cream.",
+        "Flavor is frequently enhanced with natural aromatics such as vanilla or berries.",
+        "Bars are packaged in individual wrappers, facilitating transport and storage."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Probiotics",
+          "content": "Live cultures in the yogurt help maintain a healthy digestive microbiome."
+        },
+        {
+          "title": "Lower Fat Content",
+          "content": "Compared with traditional ice cream, frozen yogurt bars usually contain less fat."
+        },
+        {
+          "title": "Calcium",
+          "content": "Yogurt provides a good source of calcium for strong bones."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, supporting energy metabolism."
+        },
+        {
+          "title": "Chocolate Antioxidants",
+          "content": "Dark chocolate is rich in flavonoids that help combat free radicals."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk Protein Allergy",
+          "content": "Yogurt contains lactose and casein, which can trigger allergic reactions in sensitive individuals."
+        },
+        {
+          "title": "Sugar Content",
+          "content": "Bars are often sweetened, so people monitoring sugar intake should consume them in moderation."
+        },
+        {
+          "title": "Thermal Shock",
+          "content": "If the bar warms too quickly, the chocolate coating may crack, affecting texture."
+        },
+        {
+          "title": "Acidity",
+          "content": "Yogurt’s low pH can be irritating to sensitive teeth."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the bar straight from the freezer, allowing the chocolate coating to soften slightly. It can also be sliced and added to fruit salads or smoothies."
+    },
+    {
+      "title": "Storage",
+      "content": "Store bars at –18 °C or lower in a sealed package. After removal from the freezer, consume within 30 minutes for optimal texture. Do not keep thawed bars for more than 2 hours."
+    }
+  ]
+}

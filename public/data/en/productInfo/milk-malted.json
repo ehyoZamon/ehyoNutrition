@@ -1,0 +1,74 @@
+{
+  "id": "300",
+  "title": "Milk, malted (300)",
+  "image": "/products/300.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Malted milk is a dairy beverage to which malted barley extract has been added. It has a mildly sweet, caramel‑like flavor and a creamy texture. The product is widely used in cooking, for desserts, shakes, and as a base for infant nutrition."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The malt extract gives the milk a characteristic golden hue.",
+        "Malted milk is a traditional ingredient in many Scandinavian recipes.",
+        "The lactose content may be slightly higher than in regular milk because of the added maltose.",
+        "It is often served chilled in summer and warm in winter."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of calcium",
+          "content": "Like regular milk, malted milk provides calcium essential for strong bones and teeth."
+        },
+        {
+          "title": "Rich in B‑vitamins",
+          "content": "Maltose contributes riboflavin (B2) and niacin (B3), which support energy metabolism."
+        },
+        {
+          "title": "Supports immunity",
+          "content": "Vitamin D and vitamin A present in the milk help maintain immune function."
+        },
+        {
+          "title": "Energy source",
+          "content": "The combination of lactose and maltose offers both quick and sustained energy."
+        },
+        {
+          "title": "Contains protein",
+          "content": "Milk proteins (casein and whey) aid in tissue growth and repair."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance should limit intake or choose lactose‑free alternatives."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein or whey can cause reactions up to anaphylaxis."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Added maltose raises the total sugar level, which may be undesirable for diabetics."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Malted milk is more calorie‑dense than regular milk, so portion control is advised."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Malted milk can be enjoyed cold, blended into smoothies, added to porridge, baked goods, sauces, and desserts. It is often mixed into infant cereals to improve taste and energy content."
+    },
+    {
+      "title": "Storage",
+      "content": "Store malted milk in the refrigerator at 1‑4 °C. Once opened, consume within 5‑7 days. Do not freeze, as the texture may change."
+    }
+  ]
+}

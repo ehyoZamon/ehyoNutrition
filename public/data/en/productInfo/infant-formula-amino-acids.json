@@ -1,0 +1,75 @@
+{
+  "id": "382",
+  "title": "Infant formula, amino acids",
+  "image": "/products/382.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Infant formula enriched with a complex of amino acids is designed for complete nutrition of babies from birth to 12 months. The formula provides essential proteins, vitamins, and minerals to support growth and development."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Amino acids are often supplied in free form, making them easier for infants to absorb.",
+        "The formula may be fortified with DHA and ARA, fatty acids important for brain and eye development.",
+        "Some brands use hydrolyzed milk proteins to reduce the risk of allergy.",
+        "The product undergoes strict quality control and meets international infant nutrition standards.",
+        "Prebiotics may be added to support a healthy gut microbiome."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports tissue growth",
+          "content": "Amino acids are the building blocks of proteins needed for muscle, organ, and immune system development."
+        },
+        {
+          "title": "Enhances brain development",
+          "content": "DHA and ARA in the formula aid cognitive function and visual system maturation."
+        },
+        {
+          "title": "Reduces allergy risk",
+          "content": "Hydrolyzed proteins are less allergenic, benefiting infants with a predisposition to food allergies."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Prebiotics and easily digestible amino acids promote a healthy intestinal flora."
+        },
+        {
+          "title": "Provides energy",
+          "content": "Amino acids are quickly converted into energy, sustaining the active growth of the baby."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Milk protein allergy",
+          "content": "Some infants may react to milk components even when hydrolyzed."
+        },
+        {
+          "title": "Improper dilution",
+          "content": "An overly concentrated solution can strain an infant's kidneys; follow manufacturer instructions."
+        },
+        {
+          "title": "Contamination from poor storage",
+          "content": "Open packaging can allow bacterial growth, so store according to guidelines."
+        },
+        {
+          "title": "Overconsumption",
+          "content": "Excessive formula intake may lead to rapid weight gain; adhere to age‑appropriate feeding volumes."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Prepare the formula by mixing the specified amount of powder with boiled, cooled water to body temperature. Feed using a sterilized bottle, maintaining hygiene and following recommended portion sizes."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the container in a dry, cool place away from direct sunlight. After opening, use within 30 days and keep tightly sealed. Do not store prepared formula at room temperature for more than 2 hours."
+    }
+  ]
+}

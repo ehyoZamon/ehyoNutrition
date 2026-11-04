@@ -1,0 +1,70 @@
+{
+  "id": "2500",
+  "title": "Muffin",
+  "image": "/products/2500.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A muffin is a small, sweet quick‑bread made with flour, eggs, milk, sugar and a leavening agent. This version incorporates wheat bran (2500 g), boosting dietary fiber and nutritional value."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bran is the outer layer of the wheat kernel and is rich in fiber, B‑vitamins and minerals.",
+        "Adding bran to the batter makes muffins denser and gives them a nutty flavor.",
+        "Muffins are often packaged as single servings, making them a popular snack at work and school.",
+        "Traditionally muffins are baked in metal or silicone cups, but paper liners are also common."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Bran provides both soluble and insoluble fiber, supporting healthy digestion."
+        },
+        {
+          "title": "Source of B‑vitamins",
+          "content": "Bran contains thiamine, niacin and folate, which are important for metabolism."
+        },
+        {
+          "title": "Contains minerals",
+          "content": "Bran supplies magnesium, iron and zinc."
+        },
+        {
+          "title": "Low glycemic impact",
+          "content": "The fiber in bran helps moderate blood‑sugar spikes compared with regular sweet baked goods."
+        },
+        {
+          "title": "May aid weight control",
+          "content": "Fiber promotes satiety, which can help reduce overall calorie intake."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Wheat allergy",
+          "content": "People with gluten intolerance or wheat allergy may experience reactions."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Typical muffin recipes contain a lot of sugar; moderation is advised."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Despite the added bran, muffins remain calorie‑dense due to fats and sugar."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Muffins can be enjoyed as a snack on their own, split and topped with cottage cheese, yogurt or nut butter. They are convenient to pack in a lunchbox."
+    },
+    {
+      "title": "Storage",
+      "content": "Store muffins in an airtight container at room temperature for up to 3 days or in the refrigerator for up to 5 days. For longer storage, freeze in bags – they keep well for up to 2 months."
+    }
+  ]
+}

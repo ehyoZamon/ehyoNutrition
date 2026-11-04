@@ -1,0 +1,75 @@
+{
+  "id": "4873",
+  "title": "Beef Soup",
+  "image": "/products/4873.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Beef soup is a classic dish made from beef, vegetables, and broth. It has a rich meaty flavor, aromatic spices, and a warming effect. Common variations include potatoes, carrots, onions, celery, and noodles."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Beef soup is one of the oldest dishes mentioned in ancient culinary texts.",
+        "Different countries have their own versions: French \"bouillon de boeuf\", Japanese \"gyūniku suupu\", and American \"beef noodle soup\".",
+        "Traditionally, beef is simmered for several hours to extract maximum gelatin and flavor.",
+        "Beef broth is rich in collagen, which turns into jelly when cooled.",
+        "Some cultures add sauerkraut or fermented beans to the soup for extra depth."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in protein",
+          "content": "Beef provides high‑quality protein essential for tissue growth and repair."
+        },
+        {
+          "title": "Source of iron",
+          "content": "Beef supplies easily absorbed heme iron, important for blood formation."
+        },
+        {
+          "title": "Contains zinc",
+          "content": "Zinc supports immune function and wound healing."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "B‑vitamins in beef help convert food into energy."
+        },
+        {
+          "title": "Hydration",
+          "content": "A warm broth helps maintain fluid balance, especially in cold weather."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High saturated fat",
+          "content": "Large portions can raise cholesterol; choose lean cuts when possible."
+        },
+        {
+          "title": "Sodium",
+          "content": "Broth can be salty; consider reducing added salt."
+        },
+        {
+          "title": "Beef allergy",
+          "content": "Rare, but possible for individuals with meat allergies."
+        },
+        {
+          "title": "Contamination",
+          "content": "Undercooked meat may harbor harmful bacteria."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve hot, garnish with fresh herbs, lemon juice, or hot sauce to taste. Pair with bread, croutons, or rice for a complete meal."
+    },
+    {
+      "title": "Storage",
+      "content": "Cool the soup to room temperature, then store in an airtight container in the refrigerator for up to 3 days. For longer storage, freeze in portions for up to 2 months. Reheat to a rolling boil before serving."
+    }
+  ]
+}

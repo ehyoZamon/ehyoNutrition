@@ -1,0 +1,75 @@
+{
+  "id": "728",
+  "title": "Chicken",
+  "image": "/products/728.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken is one of the most widely consumed meats worldwide. Depending on the part of the carcass (breast, thigh, wing, drumstick) and the cooking method (frying, boiling, roasting, grilling) the flavor, texture, and nutritional profile vary. The skin is edible and contains beneficial fats, though many diets limit its amount."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chicken provides all essential amino acids, making it a complete protein source.",
+        "Breast meat is the leanest cut, while the skin contains about 30 % fat.",
+        "Chicken eggs are a separate product but often featured together in culinary traditions.",
+        "Various cultures have signature preparations: Japanese teriyaki, Indian tandoori, French sous‑vide, etc.",
+        "Chicken can be raised in conventional farms or free‑range systems, influencing flavor and texture."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Chicken delivers high‑quality protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Especially in skin‑less breast meat, making it suitable for heart‑healthy diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Contains niacin, vitamin B6 and B12, which support metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals",
+          "content": "Provides phosphorus, selenium and zinc, important for bones and immunity."
+        },
+        {
+          "title": "Satiety support",
+          "content": "High protein content helps maintain a feeling of fullness for longer periods."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Bacterial contamination",
+          "content": "Raw chicken may harbor Salmonella or Campylobacter; cook to an internal temperature of 75 °C (165 °F)."
+        },
+        {
+          "title": "Allergy",
+          "content": "Some individuals may experience allergic reactions to chicken proteins."
+        },
+        {
+          "title": "High sodium in processed products",
+          "content": "Smoked or marinated chicken often contains added salt, which is undesirable for hypertension."
+        },
+        {
+          "title": "Fat in the skin",
+          "content": "Chicken skin is rich in fat; remove it when following a low‑calorie diet."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chicken can be fried, roasted, boiled, steamed, or grilled. Breast meat is common in salads, sandwiches, and quick‑cook dishes, while thighs and drumsticks shine in stews and baked meals. The skin can be left on for a crispy crust or removed before serving to reduce fat content."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh chicken should be kept in the refrigerator at ≤ 4 °C and used within 2 days. Frozen chicken can be stored up to 12 months at –18 °C. Before cooking, check for off‑odors or discoloration; discard if any signs of spoilage are present."
+    }
+  ]
+}

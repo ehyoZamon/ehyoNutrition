@@ -1,0 +1,79 @@
+{
+  "id": "593",
+  "title": "Cheese Sandwich",
+  "image": "/products/593.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A cheese sandwich is a simple and popular snack consisting of two slices of bread with melted cheese between them. Common cheeses include cheddar, mozzarella, or processed cheese, and it can be enriched with vegetables, ham, or sauces for extra flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The cheese sandwich gained mass popularity in the United States in the early 1920s thanks to the rise of processed cheese production.",
+        "In Japan a grilled version called “gratin” is often baked until the top is golden and crispy.",
+        "Vegetarian versions use plant‑based cheese alternatives, making the sandwich suitable for dairy‑free diets.",
+        "Cheese sandwiches are a staple quick lunch in many school cafeterias worldwide.",
+        "Adding crispy bacon creates the well‑known “cheeseburger” style sandwich."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Calcium source",
+          "content": "Cheese is rich in calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "High‑quality protein",
+          "content": "The protein in cheese supports muscle growth and tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Cheese provides vitamins B2 and B12, which help energy metabolism."
+        },
+        {
+          "title": "Probiotics (in certain varieties)",
+          "content": "Cheeses made with live cultures can contribute to gut health."
+        },
+        {
+          "title": "Quick energy",
+          "content": "A cheese sandwich delivers fast‑acting calories, useful when time is limited."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People who cannot digest lactose may experience digestive discomfort after eating cheese."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Many cheeses contain a lot of salt, which can be problematic for hypertension."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Allergy to casein can cause reactions ranging from mild to severe."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Cheese sandwiches are relatively high in calories, so portion control is advisable."
+        },
+        {
+          "title": "Trans fats in processed cheese",
+          "content": "Some processed cheese products contain trans fats, which are detrimental to heart health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the sandwich cold or toast it on a pan, grill, or toaster until the cheese melts. Add lettuce, tomato, cucumber, or mustard for extra flavor and texture."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the assembled sandwich in an airtight container in the refrigerator for up to 24 hours. Keep cheese wrapped separately to prevent it from drying out."
+    }
+  ]
+}

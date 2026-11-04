@@ -1,0 +1,75 @@
+{
+  "id": "4242",
+  "title": "Potato, Hash Brown (School Lunch)",
+  "image": "/products/4242.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A hash brown is a fried patty of shredded potato, commonly served in school cafeterias as part of a hot lunch. Potato is one of the world’s most widely cultivated vegetables, rich in carbohydrates, vitamins, and minerals."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Hash browns originated in the United States in the early 20th century and quickly became a staple in school menus because they are easy to prepare.",
+        "Potatoes are about 70% water and contain roughly 17% starch, making them an excellent source of energy.",
+        "There are over 4,000 potato varieties, but starchy types are usually chosen for hash browns.",
+        "In some countries hash browns are served with cheese, bacon, or sour cream.",
+        "Potatoes were first domesticated in the Andes more than 7,000 years ago."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Source of Vitamin C",
+          "content": "Potatoes provide a substantial portion of the daily vitamin C requirement, which supports immunity and antioxidant protection."
+        },
+        {
+          "title": "Rich in Potassium",
+          "content": "Potassium helps regulate blood pressure and supports muscle and nerve function."
+        },
+        {
+          "title": "Contains Vitamin B6",
+          "content": "Vitamin B6 is involved in protein metabolism and neurotransmitter synthesis."
+        },
+        {
+          "title": "Provides Dietary Fiber",
+          "content": "Fiber promotes digestive health and helps maintain a feeling of fullness."
+        },
+        {
+          "title": "Energy Source",
+          "content": "The starch in potatoes is quickly converted to glucose, delivering rapid energy—important for school‑age children."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High Fat Content When Fried",
+          "content": "Hash browns are cooked in oil, which can make them calorie‑dense and high in saturated fat."
+        },
+        {
+          "title": "Added Salt",
+          "content": "Salt is often used for flavor, which may be a concern for those monitoring sodium intake."
+        },
+        {
+          "title": "Rare Potato Allergy",
+          "content": "A small number of individuals may experience an allergic reaction to potatoes."
+        },
+        {
+          "title": "Acrylamide Formation",
+          "content": "High‑temperature frying can produce acrylamide, a potentially harmful compound; avoid over‑cooking."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Hash browns are served hot, usually as a few patties. They can be eaten on their own or paired with salads, sauces, cottage cheese, or yogurt."
+    },
+    {
+      "title": "Storage",
+      "content": "Cooked hash browns keep in the refrigerator for 2‑3 days in an airtight container. Reheat in an oven or skillet to restore a crispy exterior."
+    }
+  ]
+}

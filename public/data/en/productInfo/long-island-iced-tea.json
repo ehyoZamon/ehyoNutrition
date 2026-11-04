@@ -1,0 +1,63 @@
+{
+  "id": "5432",
+  "title": "Long Island Iced Tea",
+  "image": "/products/5432.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Long Island Iced Tea is a strong cocktail made with vodka, gin, white rum, tequila, triple sec, lemon juice and cola. Despite its name, it contains no tea; the color resembles tea, which gives the drink its name."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The drink originated in the 1970s on Long Island, New York.",
+        "The original recipe called for only vodka, gin, rum, tequila, triple sec, lemon juice and cola.",
+        "Long Island Iced Tea is often considered one of the strongest cocktails, with about 22 % alcohol by volume.",
+        "In the US it is typically served in a highball glass over ice with a lemon wedge.",
+        "There are many variations, such as the “Texas Tea” which adds bourbon."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Taste stimulation",
+          "content": "The combination of sour lemon juice and sweet cola creates a vivid flavor contrast that can lift mood."
+        },
+        {
+          "title": "Temporary energy boost",
+          "content": "The high alcohol content may give a short‑term feeling of alertness, though it is not a healthy source of energy."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High alcohol content",
+          "content": "The cocktail mixes several spirits, making it very strong and increasing the risk of intoxication."
+        },
+        {
+          "title": "Impact on liver and heart",
+          "content": "Excessive consumption can strain the liver, raise blood pressure, and cause other cardiovascular issues."
+        },
+        {
+          "title": "Interaction with medications",
+          "content": "Alcohol can amplify the effects of certain drugs and reduce their efficacy."
+        },
+        {
+          "title": "Not recommended for pregnant or nursing women",
+          "content": "Alcohol may negatively affect fetal development and the quality of breast milk."
+        }
+      ]
+    },
+    {
+      "title": "How to Make",
+      "content": "In a shaker combine 15 ml vodka, gin, white rum, tequila and triple sec, add 30 ml fresh lemon juice and 15 ml simple syrup. Pour into a highball glass filled with ice, top with cola and stir gently. Garnish with a lemon wedge."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the individual alcoholic ingredients according to the manufacturers’ guidelines. The mixed cocktail should be served immediately; any leftover can be kept in the refrigerator for up to 24 hours, though flavor and aroma may change."
+    }
+  ]
+}

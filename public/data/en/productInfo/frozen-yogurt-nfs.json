@@ -1,0 +1,75 @@
+{
+  "id": "250",
+  "title": "Frozen Yogurt, NFS",
+  "image": "/products/250.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Frozen yogurt is a frozen dessert made from yogurt, offering a smoother texture than ice cream and a mildly tangy flavor. It typically contains yogurt, milk, sugar, and live probiotic cultures, making it a healthier alternative to traditional ice cream."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Frozen yogurt originated in the United States in the 1970s as a healthier ice cream alternative.",
+        "It is often served with a variety of toppings such as fruit, nuts, chocolate, and granola.",
+        "The probiotics in yogurt can support gut health.",
+        "Compared to regular ice cream, frozen yogurt usually has less fat.",
+        "Texture can range from creamy to airy depending on the amount of air incorporated (overrun)."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "Live cultures help maintain a balanced gut microbiome and support the immune system."
+        },
+        {
+          "title": "Source of calcium and protein",
+          "content": "Yogurt provides calcium for bones and protein for tissue repair."
+        },
+        {
+          "title": "Lower fat content",
+          "content": "Frozen yogurt typically contains less saturated fat than traditional ice cream."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt supplies vitamin B12 and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "May reduce overeating",
+          "content": "The tangy taste can promote quicker satiety."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "People with lactose intolerance may experience discomfort."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Some varieties contain added sugar, increasing calorie count."
+        },
+        {
+          "title": "Dairy allergy",
+          "content": "Individuals allergic to dairy may react to frozen yogurt."
+        },
+        {
+          "title": "Probiotics and immune status",
+          "content": "Those with compromised immune systems should consult a doctor before consuming live cultures."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve frozen yogurt in cones or cups, add fresh berries, fruit, nuts, honey, or chocolate sauce. It can also be used as a base for smoothies or dessert parfaits."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep frozen yogurt in the freezer at –18 °C. After opening, consume within 1–2 days to maintain texture and probiotic activity."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5273",
+  "title": "Tea, iced, brewed, black, decaffeinated, unsweetened",
+  "image": "/products/5273.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Iced, brewed, black, decaffeinated, unsweetened tea is a refreshing beverage made from black tea leaves that are first brewed and then chilled. The caffeine is removed and no sugar is added, making it low‑calorie and suitable for those avoiding stimulants and sweeteners."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Black tea is the world’s second most consumed beverage after water.",
+        "Cold‑brew retains many of the antioxidants found in hot‑brew tea.",
+        "Decaffeination is usually done by water or CO₂ processes, preserving leaf flavor.",
+        "Without sugar, the tea has a naturally slightly bitter taste that becomes more pronounced when chilled.",
+        "In some cultures, iced black tea is served with a slice of lemon or mint for extra aroma."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Black tea contains polyphenols that help combat free radicals and support cellular health."
+        },
+        {
+          "title": "Supports cardiovascular health",
+          "content": "Regular tea consumption may help lower cholesterol levels and improve vessel function."
+        },
+        {
+          "title": "Improves hydration",
+          "content": "Unsweetened iced tea is a tasty way to increase fluid intake, especially in warm weather."
+        },
+        {
+          "title": "Low in calories",
+          "content": "The absence of sugar and caffeine makes this drink virtually calorie‑free, useful for weight management."
+        },
+        {
+          "title": "Stress reduction",
+          "content": "L‑theanine in tea can promote relaxation without causing drowsiness."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Tea allergy",
+          "content": "A small number of individuals may experience allergic reactions to tea components."
+        },
+        {
+          "title": "Iron absorption",
+          "content": "Tannins can reduce iron absorption from meals, so it’s best not to drink tea with main meals."
+        },
+        {
+          "title": "Fluoride content",
+          "content": "Excessive consumption may lead to fluoride buildup, which can affect dental health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy the iced tea on its own, or add a slice of lemon, mint leaves, or berries for extra flavor. It also works well as a base for non‑alcoholic cocktails."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared beverage in a sealed container in the refrigerator for up to 3‑5 days. Discard if it becomes cloudy, develops an off‑smell, or changes taste."
+    }
+  ]
+}

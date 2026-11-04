@@ -1,0 +1,75 @@
+{
+  "id": "229",
+  "title": "Greek Yogurt with Whole Milk and Fruit",
+  "image": "/products/229.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Greek yogurt made from whole milk with fruit additions is a thick, creamy dairy product created by straining regular yogurt. It is rich in protein, calcium, and probiotics, while the fruit provides natural sweetness and a boost of vitamins."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Greek yogurt contains two to three times more protein than regular yogurt.",
+        "Traditional straining removes most of the whey, giving it a dense texture.",
+        "Fruit mixes often use seasonal berries and fruits, increasing vitamin C content.",
+        "In Greece, yogurt is a national staple and is frequently served with honey and nuts.",
+        "Probiotics in yogurt support gut health and boost immunity."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High protein content",
+          "content": "Protein supports muscle growth and repair and helps maintain satiety."
+        },
+        {
+          "title": "Calcium and vitamin D",
+          "content": "Calcium strengthens bones and teeth, while vitamin D enhances its absorption."
+        },
+        {
+          "title": "Probiotics",
+          "content": "Beneficial bacteria promote a healthy gut microbiome and may improve digestion."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Yogurt provides vitamin B12 and riboflavin, important for energy metabolism."
+        },
+        {
+          "title": "Antioxidants from fruit",
+          "content": "Fruit adds vitamin C and polyphenols that protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "Although some lactose is removed during straining, the product still contains it."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "People allergic to casein or whey may react to Greek yogurt."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Fruit sweeteners can raise sugar levels, especially in flavored varieties."
+        },
+        {
+          "title": "Caloric density",
+          "content": "Whole‑milk Greek yogurt is more calorie‑dense than low‑fat versions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Enjoy it as a snack, blend into smoothies, use in sauces, desserts, or as a base for dressings. Fruit pieces make it a tasty breakfast with granola or nuts."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the yogurt in the refrigerator at 1‑4 °C. Once opened, consume within 5‑7 days and do not leave at room temperature for more than 2 hours."
+    }
+  ]
+}

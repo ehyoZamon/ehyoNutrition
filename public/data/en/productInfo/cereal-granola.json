@@ -1,0 +1,75 @@
+{
+  "id": "3222",
+  "title": "Granola",
+  "image": "/products/3222.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Granola is a mixture of rolled oats, nuts, seeds, and dried fruit baked until crisp. It is often sweetened with honey or maple syrup. Granola can be enjoyed as a standalone breakfast, added to yogurt, smoothie bowls, or used in baked goods."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Granola originated in the United States in the early 20th century as a high‑energy breakfast for athletes.",
+        "There are countless variations: nut‑free, gluten‑free, vegan, protein‑enriched, and more.",
+        "Oats, the main ingredient, are rich in beta‑glucan, which supports heart health.",
+        "Dried fruits can be dehydrated without added sugar, preserving most of their vitamins.",
+        "Granola is frequently used as a crunchy topping for ice cream and desserts."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High in fiber",
+          "content": "Oats and seeds provide soluble and insoluble fiber that promotes healthy digestion."
+        },
+        {
+          "title": "Source of healthy fats",
+          "content": "Nuts and seeds supply monounsaturated and polyunsaturated fatty acids beneficial for cardiovascular health."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Oats deliver B1, B2, and folate, which are important for energy metabolism."
+        },
+        {
+          "title": "Supports blood sugar balance",
+          "content": "Beta‑glucan slows carbohydrate absorption, helping to stabilize glucose levels."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Pumpkin and sunflower seeds are rich in vitamin E and selenium, protecting cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Nut and seed allergies",
+          "content": "Granola often contains nuts, which can trigger severe allergic reactions in susceptible individuals."
+        },
+        {
+          "title": "High calorie density",
+          "content": "Because of nuts and sweeteners, granola can be very calorie‑dense, so portion control is advisable."
+        },
+        {
+          "title": "Added sugar content",
+          "content": "Some commercial granolas contain added sugars, which may be undesirable for people with diabetes."
+        },
+        {
+          "title": "Digestive discomfort",
+          "content": "Large amounts of fiber can cause bloating in those with sensitive gastrointestinal tracts."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Granola can be eaten dry as a quick snack, poured over milk or plant‑based milk, mixed into yogurt, added to smoothie bowls, or incorporated into baked goods. For a softer texture, it is sometimes soaked in milk for a few minutes."
+    },
+    {
+      "title": "Storage",
+      "content": "Store granola in an airtight container in a cool, dry place. For longer shelf life, keep it in the refrigerator to prevent the nuts from going rancid."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "5338",
+  "title": "Fruit juice drink",
+  "image": "/products/5338.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Fruit juice drink is a beverage made from fresh fruits, enriched with a high amount of vitamin C. It has a light, refreshing taste and is suitable for daily consumption."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Vitamin C in the juice helps strengthen the immune system.",
+        "The juice retains some of the natural antioxidants from the fruits.",
+        "Its light consistency makes it popular among both children and adults.",
+        "Often used in cooking as a base for sauces and marinades.",
+        "When stored properly, the juice can keep its qualities for up to 7 days."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in vitamin C",
+          "content": "Vitamin C protects cells from oxidative stress and improves iron absorption."
+        },
+        {
+          "title": "Immune support",
+          "content": "Regular consumption may boost the body’s defense mechanisms."
+        },
+        {
+          "title": "Hydration",
+          "content": "The juice is mostly water, helping maintain proper fluid balance."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Fruit polyphenols help combat free radicals."
+        },
+        {
+          "title": "Easy to digest",
+          "content": "The juice is quickly absorbed, providing a rapid energy boost."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Some fruit juices can have high natural sugar levels, which should be considered for diabetes management."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acidic nature may irritate the stomach lining in sensitive individuals."
+        },
+        {
+          "title": "Nutrient loss over time",
+          "content": "Prolonged storage can reduce vitamin C levels."
+        },
+        {
+          "title": "Allergy to specific fruits",
+          "content": "People allergic to certain fruits should choose juice without those ingredients."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink the juice chilled, use it in smoothies, cocktails, or as a base for fruit desserts. It is best to consume freshly prepared juice within 24 hours for maximum vitamin C content."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the juice in the refrigerator at 0‑4 °C in a tightly sealed bottle. For longer storage, use an airtight container and consume within 3‑5 days."
+    }
+  ]
+}

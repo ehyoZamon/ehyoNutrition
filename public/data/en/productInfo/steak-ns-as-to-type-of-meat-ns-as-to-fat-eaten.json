@@ -1,0 +1,75 @@
+{
+  "id": "622",
+  "title": "Steak",
+  "image": "/products/622.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Steak is a cut of beef, typically taken from the rib, sirloin, or tenderloin. It has a rich, meaty flavor, firm texture, and a distinctive aroma that intensifies when seared over high heat."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The word “steak” derives from the Old English “steik,” meaning a stick or spear, as early cuts were often impaled on rods.",
+        "The most popular doneness level is medium‑rare, where the internal temperature reaches about 55 °C.",
+        "In Japan, “sashimi‑steak” is served raw, sliced paper‑thin, and seasoned with soy and citrus.",
+        "Steak quality is often judged by marbling – the intramuscular fat that creates a buttery mouthfeel.",
+        "The world’s most expensive steak is Japanese Wagyu, which can reach a BMS (Beef Marbling Standard) of 12."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High‑quality protein",
+          "content": "Steak provides complete protein essential for muscle growth and repair."
+        },
+        {
+          "title": "Rich in iron",
+          "content": "Beef contains heme iron, which is more readily absorbed than plant‑based iron."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Steak supplies B12, niacin, and riboflavin, supporting energy metabolism and nervous system health."
+        },
+        {
+          "title": "Zinc and selenium",
+          "content": "These trace minerals aid immune function and protect against oxidative stress."
+        },
+        {
+          "title": "Creatine",
+          "content": "Natural creatine in beef helps improve muscular energy production."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Saturated fat content",
+          "content": "Excessive intake may raise cholesterol levels."
+        },
+        {
+          "title": "Food‑borne infection risk",
+          "content": "Undercooked steak can harbor pathogens such as E. coli or salmonella."
+        },
+        {
+          "title": "Beef allergy",
+          "content": "Some individuals may experience allergic reactions to beef."
+        },
+        {
+          "title": "Purine content",
+          "content": "High purine levels can exacerbate gout symptoms."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Steak is typically grilled, pan‑seared, or oven‑roasted to the desired doneness. Let it rest for 5‑10 minutes after cooking so juices redistribute. Serve with sauces, vegetables, potatoes, or fresh herbs."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep fresh steak in the refrigerator at 0‑2 °C for 2‑3 days. For longer storage, freeze in an airtight bag at –18 °C, where it remains good for 6‑12 months. Thaw in the fridge before cooking."
+    }
+  ]
+}

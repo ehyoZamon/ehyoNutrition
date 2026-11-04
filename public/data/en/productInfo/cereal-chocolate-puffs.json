@@ -1,0 +1,75 @@
+{
+  "id": "3210",
+  "title": "Chocolate Puffs",
+  "image": "/products/3210.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate puffs are dry corn flakes coated with a sweet chocolate glaze. They have a crunchy texture and a pronounced chocolate flavor, making them a popular breakfast cereal and snack for both children and adults."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial chocolate puff cereal appeared in the 1970s.",
+        "The flakes are toasted under high pressure to achieve their crispness.",
+        "The chocolate coating is typically made from cocoa butter, sugar, and milk powder.",
+        "In many markets the product is fortified with vitamins and minerals.",
+        "Packaging often uses bright colors to attract children’s attention."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Energy source",
+          "content": "Carbohydrates provide a quick source of energy, convenient for an active start to the day."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Fortified versions often include iron, which is essential for blood formation."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Vitamins B1, B2 and B6 support metabolism and nervous system function."
+        },
+        {
+          "title": "Calcium",
+          "content": "Added calcium helps strengthen bones and teeth."
+        },
+        {
+          "title": "Dietary fiber",
+          "content": "A modest amount of fiber aids digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Added sugars can contribute to weight gain and increase the risk of dental caries."
+        },
+        {
+          "title": "Allergens",
+          "content": "The formula may contain milk, soy, or nuts, which are important to note for people with food allergies."
+        },
+        {
+          "title": "Glycemic index",
+          "content": "The cereal has a high glycemic index, which can cause rapid spikes in blood glucose."
+        },
+        {
+          "title": "Food additives",
+          "content": "Some varieties contain artificial flavors and preservatives that may cause sensitivity in certain individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Chocolate puffs are typically served with milk or yogurt. They can be added to smoothies, used as a topping for desserts, or eaten dry as a snack."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the cereal in a sealed package in a cool, dry place away from direct sunlight. After opening, keep the bag tightly closed to prevent moisture absorption."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2228",
+  "title": "Lentil Soup",
+  "image": "/products/2228.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Lentil soup is a nourishing dish made from red or green lentils, vegetables, broth, and spices. Lentils are rich in protein, fiber, and micronutrients, and the soup format makes these nutrients easy to digest."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Lentils are one of the oldest cultivated crops, grown for over 8,000 years.",
+        "There are more than 50 lentil varieties, differing in color and flavor.",
+        "Lentil soup is a staple in many Middle Eastern and Mediterranean cuisines.",
+        "Lentils contain almost twice the protein of most other legumes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of plant protein",
+          "content": "Lentils provide essential amino acids, making them valuable for vegetarians and vegans."
+        },
+        {
+          "title": "High in dietary fiber",
+          "content": "Fiber supports healthy digestion, promotes satiety, and helps regulate blood sugar."
+        },
+        {
+          "title": "Contains iron and folate",
+          "content": "These micronutrients are important for blood formation and anemia prevention."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "Lentil soup raises blood glucose slowly, which is beneficial for people with diabetes."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Phytonutrients in lentils help combat oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Legume allergy",
+          "content": "Some individuals may experience allergic reactions to lentils."
+        },
+        {
+          "title": "Gas formation",
+          "content": "Lentils contain oligosaccharides that can cause bloating in sensitive people."
+        },
+        {
+          "title": "Phytic acid content",
+          "content": "Phytic acid may reduce mineral absorption; soaking lentils before cooking can mitigate this."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve lentil soup hot, often finished with a splash of lemon juice, fresh herbs, or a drizzle of olive oil. It keeps well in the refrigerator for up to 3 days and can be frozen for longer storage."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the prepared soup in an airtight container in the fridge for no more than 3 days. For longer keeping, portion it into freezer‑safe bags and freeze up to 2 months."
+    }
+  ]
+}

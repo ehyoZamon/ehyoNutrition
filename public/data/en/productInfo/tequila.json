@@ -1,0 +1,63 @@
+{
+  "id": "5458",
+  "title": "Tequila",
+  "image": "/products/5458.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Tequila is a Mexican distilled spirit made from the fermented juice of blue agave (Agave tequilana). Production is strictly regulated and the name is protected by a geographical indication, meaning tequila can only be produced in designated regions of Mexico."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "True tequila can only be made from blue agave; other agave species are used for mezcal.",
+        "There are five official categories: Blanco (Silver), Joven (Gold), Reposado, Añejo and Extra Añejo.",
+        "Agave plants must mature for at least 8 years before they are harvested for tequila production.",
+        "Traditional agave cooking uses a copper \"tahona\" where the piña is roasted to caramelize sugars.",
+        "While often served with salt and lime, in Mexico tequila is frequently sipped neat."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Contains antioxidants",
+          "content": "Blue agave is rich in polyphenols, which may help neutralize free radicals."
+        },
+        {
+          "title": "Moderate consumption supports cardiovascular health",
+          "content": "Studies suggest moderate tequila intake can raise HDL (good) cholesterol levels."
+        },
+        {
+          "title": "Provides inulin",
+          "content": "Inulin is a prebiotic fiber that promotes a healthy gut microbiome."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Alcohol intoxication",
+          "content": "Like any high‑proof spirit, tequila can cause alcohol poisoning when consumed in excess."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Alcohol may amplify the effects of sedatives and anti‑inflammatory medications."
+        },
+        {
+          "title": "Agave allergy",
+          "content": "A small number of individuals may experience allergic reactions to agave components."
+        }
+      ]
+    },
+    {
+      "title": "How to Drink",
+      "content": "Tequila can be enjoyed neat, chilled, or as a base for cocktails such as Margarita or Paloma. Aged varieties (Reposado, Añejo) are best sipped in a glass that allows aromas to develop."
+    },
+    {
+      "title": "Storage",
+      "content": "Store the bottle in a cool, dark place away from direct sunlight. Once opened, tequila retains its quality for several years, though the aroma may gradually diminish."
+    }
+  ]
+}

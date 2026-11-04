@@ -1,0 +1,75 @@
+{
+  "id": "5080",
+  "title": "Chocolate Candy",
+  "image": "/products/5080.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate candy are small sweets made from chocolate (milk, dark or white) with a variety of fillings such as nuts, caramel, fruit, spices, and more. They have a rich cocoa flavor, aromatic notes, and are often coated with glaze or sprinkles."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first chocolate bar was created in 1847 in England.",
+        "Chocolate candies are popular gifts for holidays like Valentine’s Day, Easter, and Christmas.",
+        "Dark chocolate contains over 70% cocoa and is considered healthier than milk chocolate.",
+        "In some countries (e.g., Switzerland) per‑capita consumption exceeds 10 kg per year.",
+        "Chocolate candies can be gluten‑free, but always check the filling ingredients."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Dark chocolate is high in flavonoids, which help protect cells from oxidative stress."
+        },
+        {
+          "title": "Mood‑enhancing",
+          "content": "Chocolate stimulates serotonin and endorphin production, improving mood."
+        },
+        {
+          "title": "Source of minerals",
+          "content": "Chocolate provides magnesium, iron, zinc, and copper, important for metabolism."
+        },
+        {
+          "title": "Contains some fiber",
+          "content": "When nuts or dried fruit are included, they add dietary fiber."
+        },
+        {
+          "title": "Quick energy source",
+          "content": "Sugar and fat deliver fast energy, useful during periods of high activity."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Excessive intake can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Allergy to ingredients",
+          "content": "Candies often contain nuts, milk, soy lecithin – common allergens."
+        },
+        {
+          "title": "Caffeine and theobromine",
+          "content": "Large amounts may cause insomnia or rapid heartbeat, especially in children."
+        },
+        {
+          "title": "Trans fats in some varieties",
+          "content": "Certain industrial candies use hydrogenated fats, which are harmful to heart health."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Candies can be enjoyed as a standalone snack, added to baked goods, ice cream, or dessert sauces. For a softer taste, they are sometimes gently warmed to melt the chocolate."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep candies in an airtight container in a cool, dry place away from direct sunlight. Above 20 °C the chocolate may melt, and high humidity can cause a white bloom (fat bloom)."
+    }
+  ]
+}

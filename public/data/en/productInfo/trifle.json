@@ -1,0 +1,75 @@
+{
+  "id": "500",
+  "title": "Trifle",
+  "image": "/products/500.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Trifle is a layered dessert made of biscuit crumbs, custard, fruit puree or berries, whipped cream, and often topped with chocolate glaze. It is popular in the United Kingdom and the United States, where it is served in individual glasses or bowls."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Trifle originated in the 19th century as a way to use up leftover biscuits and custard.",
+        "Traditional English trifle often includes layers of berry jelly and marzipan.",
+        "In the US, chocolate mousse and nut crumble versions are common.",
+        "Trifle is frequently served at holidays such as Christmas and Thanksgiving.",
+        "Vegan versions replace cream with coconut cream and gelatin with agar‑agar."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Protein source",
+          "content": "The custard and yogurt used in trifle provide animal or plant protein that supports tissue repair."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Eggs in the custard are rich in vitamins B2 and B12, important for energy metabolism."
+        },
+        {
+          "title": "Antioxidants from berries",
+          "content": "Fresh berries and fruit puree supply vitamin C and polyphenols that protect cells from oxidative stress."
+        },
+        {
+          "title": "Calcium from dairy",
+          "content": "Cream and cream cheese in trifle contribute calcium for bone health."
+        },
+        {
+          "title": "Dietary fiber",
+          "content": "Whole‑grain biscuit crumbs add fiber, aiding digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "Trifle often contains cream, cream cheese, and eggs, which can trigger allergic reactions."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Sweet syrups, jelly, and fruit purees make the dessert calorie‑dense; people with diabetes should limit portions."
+        },
+        {
+          "title": "Raw egg content",
+          "content": "Traditional custard is made with raw eggs; improper preparation can pose a salmonella risk."
+        },
+        {
+          "title": "Gluten in biscuit crumbs",
+          "content": "Biscuit crumbs usually contain wheat; gluten‑free alternatives are needed for those with celiac disease."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve trifle chilled in clear glasses to showcase the layers. Eat with a spoon, enjoying each component. For a lighter taste, add fresh berries or a sprig of mint."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep prepared trifle in an airtight container in the refrigerator for up to 3‑4 days. Add the biscuit crumb layer just before serving to retain crunch."
+    }
+  ]
+}

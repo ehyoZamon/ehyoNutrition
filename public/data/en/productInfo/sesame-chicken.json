@@ -1,0 +1,75 @@
+{
+  "id": "1242",
+  "title": "Sesame Chicken",
+  "image": "/products/1242.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Sesame chicken is a popular Asian‑inspired dish consisting of bite‑size pieces of chicken breast coated in a light batter, fried until crisp, and tossed in a sweet‑tangy sauce with toasted sesame seeds. The result is tender meat, a crunchy exterior, and a fragrant nutty flavor."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The dish originated in Chinese-American restaurants and has become a staple in many fast‑food menus worldwide.",
+        "Sesame seeds are rich in calcium, magnesium, and lignans, which are natural antioxidants.",
+        "The sauce typically combines soy sauce, honey or sugar, rice vinegar, ginger, and garlic for its characteristic sweet‑sour profile.",
+        "Traditional recipes marinate the chicken in soy sauce and rice wine before coating and frying.",
+        "Both white and black sesame seeds can be used; black sesame adds a deeper, earthier aroma."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "High‑quality protein",
+          "content": "Chicken breast provides lean protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Healthy fats",
+          "content": "Sesame seeds contain mono‑ and polyunsaturated fatty acids that support heart health."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Chicken and soy sauce supply B6 and B12 vitamins, important for metabolism."
+        },
+        {
+          "title": "Minerals",
+          "content": "Sesame contributes calcium, iron, and magnesium, beneficial for bones and nerve function."
+        },
+        {
+          "title": "Antioxidant properties",
+          "content": "Lignans and vitamin E in sesame help protect cells from oxidative stress."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sesame allergy",
+          "content": "Sesame is a major allergen; sensitive individuals may experience severe reactions."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Soy sauce adds a lot of salt, which can be problematic for people with hypertension."
+        },
+        {
+          "title": "Added sugars",
+          "content": "Sweet sauces increase calories and can affect blood glucose levels."
+        },
+        {
+          "title": "Frying oil",
+          "content": "Deep‑frying adds extra calories and may introduce trans fats if the oil is reused."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve sesame chicken hot, sprinkled with toasted seeds, alongside rice, noodles, or stir‑fried vegetables. Garnish with sliced green onions or cilantro for extra freshness."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep leftovers in an airtight container in the refrigerator for up to 3‑4 days. Reheat in a skillet to retain the crispness of the coating."
+    }
+  ]
+}

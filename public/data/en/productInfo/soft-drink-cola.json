@@ -1,0 +1,67 @@
+{
+  "id": "5294",
+  "title": "Cola",
+  "image": "/products/5294.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Cola is a carbonated soft drink with a sweet flavor, made from caramelized sugar, flavorings, caffeine and carbon dioxide. It is commonly enjoyed as a refreshing beverage in restaurants, cafés, and at home."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The first commercial cola recipe was created in 1886 by John Pemberton.",
+        "The dark color comes from caramel, not from the cola plant.",
+        "Cola typically contains 30–40 mg of caffeine per 330 ml.",
+        "Various countries produce low‑sugar and diet versions without added sugar.",
+        "Glass bottles preserve the taste longer than plastic containers."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Boosts energy",
+          "content": "Caffeine in cola can temporarily increase alertness and concentration."
+        },
+        {
+          "title": "Hydration",
+          "content": "Like any beverage, cola contributes to overall fluid intake when consumed in moderation."
+        },
+        {
+          "title": "Contains antioxidants",
+          "content": "Caramel flavoring provides small amounts of polyphenols with antioxidant properties."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High sugar content",
+          "content": "Regular consumption can lead to weight gain and dental caries."
+        },
+        {
+          "title": "Caffeine",
+          "content": "Excessive caffeine may cause anxiety, insomnia, and rapid heartbeat."
+        },
+        {
+          "title": "Acidity",
+          "content": "The acidic pH can irritate the stomach lining and promote reflux."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Caffeine can amplify the effects of certain stimulants and reduce the efficacy of some sedatives."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Cola is usually served chilled in a glass with ice. It can be used in cocktails, as a base for marinades, or in recipes that call for a sweet carbonated liquid."
+    },
+    {
+      "title": "Storage",
+      "content": "Store cola in a cool, dark place, keeping the bottle or can sealed. After opening, consume within a few days to retain carbonation."
+    }
+  ]
+}

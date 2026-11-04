@@ -1,0 +1,71 @@
+{
+  "id": "2524",
+  "title": "Bagel, pumpernickel",
+  "image": "/products/2524.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "A bagel is a ring‑shaped bread made from a yeasted dough that is boiled briefly in water with baking soda and then baked until a glossy, golden crust forms. The pumpernickel version incorporates rye flour, giving it a dense texture, a slightly sour taste, and a dark color."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Bagels originated in Eastern European Jewish communities in the 19th century.",
+        "Traditionally the dough is boiled for 30–60 seconds, which creates the characteristic shiny crust.",
+        "Rye bagels are often called “pumpernickel” because of the rye flour and malt used.",
+        "In the United States the bagel became popular in the early 20th century thanks to New York immigrants.",
+        "There are more than 20 bagel varieties: topped with poppy seeds, sesame, smoked salmon, cheese, etc."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in complex carbs",
+          "content": "Rye bagels provide slowly digestible carbohydrates that help maintain steady blood‑sugar levels."
+        },
+        {
+          "title": "Source of dietary fiber",
+          "content": "Rye flour adds fiber, supporting healthy digestion."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "Yeast‑leavened dough supplies thiamine, niacin, and folate, important for energy metabolism."
+        },
+        {
+          "title": "Low in fat",
+          "content": "Unlike many baked goods, bagels contain little added fat."
+        },
+        {
+          "title": "Provides iron and magnesium",
+          "content": "Rye flour is a good source of these minerals, which aid blood formation and nerve function."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "High glycemic index",
+          "content": "Despite the fiber, bagels can raise blood sugar quickly if eaten in large portions, which may be a concern for diabetics."
+        },
+        {
+          "title": "Gluten",
+          "content": "Contains wheat and rye, making it unsuitable for people with celiac disease or gluten sensitivity."
+        },
+        {
+          "title": "Sodium",
+          "content": "Traditional bagels are often sprinkled with coarse salt, which can be problematic for hypertension."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Slice the bagel in half and toast it, then add cream cheese, smoked salmon, avocado, ham, or vegetables. It also works well as a sandwich with hummus or as a “bagel pizza” base."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep the bagel in a paper bag at room temperature for up to 2 days. For longer storage place it in an airtight container in the refrigerator (up to 5 days) or freeze (up to 3 months). Warm in a toaster or oven before serving."
+    }
+  ]
+}

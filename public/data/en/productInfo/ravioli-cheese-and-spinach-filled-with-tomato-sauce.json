@@ -1,0 +1,75 @@
+{
+  "id": "3535",
+  "title": "Ravioli, cheese and spinach filled, with tomato sauce",
+  "image": "/products/3535.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Ravioli are small pasta parcels filled with a mixture of cheese and spinach, served in a flavorful tomato sauce. The dough is made from wheat flour and eggs, while the filling typically includes ricotta, Parmesan, and fresh spinach, seasoned with salt, pepper, and a hint of nutmeg."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Ravioli originated in Italy and have been made for over a thousand years.",
+        "The cheese‑spinach combination makes the dish a good source of calcium and iron.",
+        "The classic tomato sauce is often prepared from ripe tomatoes, garlic, and basil.",
+        "Ravioli can be frozen raw and cooked later without loss of texture or flavor.",
+        "In some Italian regions, ravioli are served with a drizzle of butter instead of tomato sauce."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Cheese and spinach provide a complete blend of animal and plant protein essential for tissue repair."
+        },
+        {
+          "title": "High in calcium",
+          "content": "Calcium from the cheese supports bone and dental health."
+        },
+        {
+          "title": "Provides iron",
+          "content": "Spinach supplies non‑heme iron, which is better absorbed when paired with vitamin C from the tomato sauce."
+        },
+        {
+          "title": "Antioxidant rich",
+          "content": "Tomatoes and spinach contain lycopene and lutein, antioxidants that protect cells from oxidative stress."
+        },
+        {
+          "title": "Supports digestion",
+          "content": "Fiber from spinach and tomato sauce promotes regular bowel movements."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Dairy allergy",
+          "content": "The cheese filling may trigger reactions in individuals with lactose intolerance or milk protein allergy."
+        },
+        {
+          "title": "High sodium content",
+          "content": "Tomato sauce often contains added salt; people monitoring sodium intake should choose a low‑salt version."
+        },
+        {
+          "title": "Gluten",
+          "content": "The wheat‑based dough contains gluten, making it unsuitable for those with celiac disease."
+        },
+        {
+          "title": "Oxalates",
+          "content": "Spinach is high in oxalates, which can contribute to kidney stone formation in susceptible individuals."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the ravioli hot, topped with tomato sauce. Sprinkle with grated Parmesan, add fresh basil, or drizzle a little olive oil. Suitable side dishes include a light salad or steamed vegetables."
+    },
+    {
+      "title": "Storage",
+      "content": "Fresh ravioli can be kept in the refrigerator for up to 2 days in an airtight container. Frozen ravioli retain quality for up to 3 months; cook directly from frozen in boiling water without thawing."
+    }
+  ]
+}

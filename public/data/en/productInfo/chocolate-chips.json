@@ -1,0 +1,75 @@
+{
+  "id": "5086",
+  "title": "Chocolate chips",
+  "image": "/products/5086.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chocolate chips are small pieces of chocolate, usually shaped like tiny drops or discs. They are made from cocoa mass, sugar, milk (in the milk‑chocolate version), and sometimes added flavorings such as vanilla or salt. Chocolate chips are widely used in baking, desserts, and as a standalone snack."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Chocolate chips were first introduced in the United States in the 1930s as a convenient way to add chocolate to cookies.",
+        "There are several types: dark, milk, white, and semi‑sweet.",
+        "Dark chocolate with a high cocoa content (70 % and above) is considered more beneficial because of its higher antioxidant levels.",
+        "Chips are often coated with a thin layer of sugar to prevent them from sticking together during storage.",
+        "In some countries chocolate chips are called “chocolate morsels” or “chocolate bits.”"
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Dark chocolate contains flavonoids that help combat free radicals and support heart health."
+        },
+        {
+          "title": "Source of magnesium",
+          "content": "Magnesium in chocolate supports normal muscle and nerve function."
+        },
+        {
+          "title": "Contains iron",
+          "content": "Iron contributes to hemoglobin formation and oxygen transport."
+        },
+        {
+          "title": "Mood‑enhancing",
+          "content": "Chocolate stimulates the production of serotonin and endorphins, which can improve mood."
+        },
+        {
+          "title": "Cognitive support",
+          "content": "Flavonoids may help improve memory and concentration."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Cocoa allergy",
+          "content": "Some individuals may experience allergic reactions to cocoa or other ingredients."
+        },
+        {
+          "title": "High sugar content",
+          "content": "Milk and sweet varieties contain a lot of sugar, which can contribute to weight gain and increase the risk of cavities."
+        },
+        {
+          "title": "Caffeine and theobromine",
+          "content": "Chocolate contains small amounts of caffeine and theobromine, which may affect sleep if consumed in excess."
+        },
+        {
+          "title": "Fat content",
+          "content": "Chocolate chips are high in saturated fats; people with elevated cholesterol should limit intake."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Add chocolate chips to cookies, cupcakes, muffins, ice cream, yogurt, granola, and energy bars. They can be used as a topping for desserts or enjoyed in small portions as a sweet snack."
+    },
+    {
+      "title": "Storage",
+      "content": "Store chocolate chips in an airtight container in a cool, dry place away from direct sunlight. For longer storage, keep them in the refrigerator to prevent melting and the formation of a white fat bloom."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "260",
+  "title": "Frozen yogurt cone, vanilla, waffle cone",
+  "image": "/products/260.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Frozen yogurt cone is a yogurt‑based frozen dessert with a gentle vanilla flavor, served in a crisp waffle cone. The light, creamy texture of the yogurt pairs with the sweet, crunchy shell, creating a pleasant contrast of taste and mouthfeel."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Frozen yogurt typically contains less fat than traditional ice cream thanks to its yogurt base.",
+        "Vanilla flavor is often derived from natural vanilla beans, but many commercial products use synthetic vanillin.",
+        "Waffle cones add extra crunch and can be made with whole‑grain flour for a healthier option.",
+        "The yogurt component provides probiotics that support gut health.",
+        "Serving ice cream in a cone became popular in the United States in the early 20th century."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in probiotics",
+          "content": "The yogurt base contains live cultures that help maintain a healthy digestive microbiome."
+        },
+        {
+          "title": "Low in saturated fat",
+          "content": "Compared with regular ice cream, frozen yogurt usually has less saturated fat."
+        },
+        {
+          "title": "Source of calcium",
+          "content": "Yogurt provides a good amount of calcium, essential for strong bones and teeth."
+        },
+        {
+          "title": "Contains B‑vitamins",
+          "content": "It supplies riboflavin (B2) and cobalamin (B12), supporting energy metabolism."
+        },
+        {
+          "title": "Low glycemic index",
+          "content": "The yogurt base raises blood sugar more slowly than typical ice cream."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Lactose intolerance",
+          "content": "The product contains milk sugar, so those with lactose intolerance should choose lactose‑free versions."
+        },
+        {
+          "title": "Milk protein allergy",
+          "content": "Some individuals may react to casein or whey proteins."
+        },
+        {
+          "title": "Added sugar",
+          "content": "Despite lower fat, sugar may be added, so portion control is advisable."
+        },
+        {
+          "title": "Cone fragility",
+          "content": "Waffle cones can soften quickly if held for long, increasing the risk of breakage."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "The product is ready to eat straight from the package. Enjoy it as a standalone treat, or top with fresh berries, nuts, or a drizzle of fruit sauce for extra flavor."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a freezer at –18 °C (0 °F) or lower. Once removed from the wrapper, consume within 2–3 days to keep the cone crisp."
+    }
+  ]
+}

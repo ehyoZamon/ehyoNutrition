@@ -1,0 +1,75 @@
+{
+  "id": "4111",
+  "title": "Vinegar",
+  "image": "/products/4111.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Vinegar is a liquid produced by the fermentation of sugars into acetic acid. Common types include apple cider, wine, distilled (grain‑based) and balsamic. It is used as a culinary seasoning, preservative and cleaning agent."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The earliest recorded vinegar recipe comes from ancient Egypt, around 3000 BC.",
+        "Apple cider vinegar is often called “natural” because it undergoes double fermentation: sugars become alcohol, then acetic acid.",
+        "Balsamic vinegar was originally made in Italy for over 800 years and aged in wooden barrels for up to 25 years.",
+        "Vinegar can be used to test pH at home: its reaction with indicator solutions shows acidity.",
+        "In some cultures vinegar is regarded as a longevity tonic due to its antioxidant properties."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Supports digestion",
+          "content": "Vinegar, especially apple cider, may stimulate gastric juice production, aiding food breakdown."
+        },
+        {
+          "title": "Blood sugar regulation",
+          "content": "Moderate vinegar intake has been shown to lower post‑prandial glucose spikes."
+        },
+        {
+          "title": "Antibacterial properties",
+          "content": "Acetic acid can inhibit the growth of certain bacteria and fungi, making vinegar an effective preservative."
+        },
+        {
+          "title": "Cardiovascular support",
+          "content": "Some studies suggest vinegar may help reduce LDL‑cholesterol levels."
+        },
+        {
+          "title": "Weight management aid",
+          "content": "Vinegar can increase feelings of fullness, helping control calorie intake."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Mucosal irritation",
+          "content": "The acidity of vinegar can cause burning or irritation of the stomach and esophagus when consumed in large amounts."
+        },
+        {
+          "title": "Drug interactions",
+          "content": "Vinegar may potentiate the effects of diuretics and blood‑glucose‑lowering medications."
+        },
+        {
+          "title": "Tooth enamel erosion",
+          "content": "Frequent undiluted vinegar consumption can wear down tooth enamel."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Rarely, some individuals may react to components present in fermented products."
+        }
+      ]
+    },
+    {
+      "title": "How to Use",
+      "content": "Add vinegar to marinades, sauces, salad dressings and pickled vegetables. For preserving, dilute it with water (commonly 1:1). Small amounts enhance the flavor of dishes, and a diluted solution works well for cleaning surfaces."
+    },
+    {
+      "title": "Storage",
+      "content": "Store vinegar in a tightly sealed glass or plastic bottle in a cool, dark place. Properly stored, it remains stable for years. Discard if it becomes cloudy, develops sediment, or changes smell."
+    }
+  ]
+}

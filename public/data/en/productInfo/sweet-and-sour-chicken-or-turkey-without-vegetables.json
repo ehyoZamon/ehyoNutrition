@@ -1,0 +1,75 @@
+{
+  "id": "1234",
+  "title": "Sweet and Sour Chicken or Turkey (no vegetables)",
+  "image": "/products/1234.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Chicken or turkey cooked in a sweet‑sour sauce without any vegetables is a dish where the main flavor comes from the balance of sweetness (often honey, sugar or pineapple juice) and mild acidity (vinegar, lemon juice or soy sauce). It is commonly served with rice or noodles."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "The sweet‑sour sauce has ancient roots in Asian cuisine, where the combination of sweet and sour is considered harmonious.",
+        "Traditional recipes often include pineapple, but in the vegetable‑free version it is frequently replaced by juice or a small amount of fruit puree.",
+        "Chicken and turkey absorb the sauce quickly, so marinating for at least 30 minutes is recommended.",
+        "The dish is popular in fast‑food and home cooking because of its simplicity and bold flavor.",
+        "When the sugar‑acid ratio is balanced, the sauce can also be used as a glaze for other dishes."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of protein",
+          "content": "Chicken and turkey provide high‑quality protein essential for muscle growth and tissue repair."
+        },
+        {
+          "title": "Low in fat (especially turkey)",
+          "content": "When prepared without added oil, the dish remains relatively low‑fat, suitable for reduced‑fat diets."
+        },
+        {
+          "title": "B‑vitamins",
+          "content": "Poultry is abundant in niacin (B3) and vitamin B6, which support metabolism and nervous system function."
+        },
+        {
+          "title": "Minerals: iron and zinc",
+          "content": "The meat supplies iron and zinc, important for immune health and blood formation."
+        },
+        {
+          "title": "Antioxidant properties of the sauce",
+          "content": "Ingredients such as ginger and garlic contain antioxidants that help protect cells."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Soy sauce allergy",
+          "content": "If soy sauce is used in the glaze, people with soy allergy should choose a suitable alternative."
+        },
+        {
+          "title": "Sugar content",
+          "content": "Sweet‑sour sauces can be high in sugar; individuals with diabetes should monitor portion size."
+        },
+        {
+          "title": "Meat handling",
+          "content": "Improper storage or undercooking of chicken/turkey can lead to foodborne illness."
+        },
+        {
+          "title": "Sodium level",
+          "content": "Soy sauce adds considerable sodium; those watching salt intake should opt for low‑sodium versions."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Serve the dish hot, typically over steamed rice, noodles, or mashed potatoes. Garnish with toasted sesame seeds or chopped green onions for extra aroma."
+    },
+    {
+      "title": "Storage",
+      "content": "Keep leftovers in an airtight container in the refrigerator for up to 3‑4 days. Reheat to an internal temperature of at least 75 °C to ensure safety."
+    }
+  ]
+}

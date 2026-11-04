@@ -1,0 +1,75 @@
+{
+  "id": "5245",
+  "title": "Oolong Tea (hot, leaf)",
+  "image": "/products/5245.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Oolong is a semi‑oxidized tea made from the leaves of Camellia sinensis. It sits between green and black tea, offering a light fruity aroma and a gentle briskness. Served hot, it is typically brewed using whole leaves."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Oolong originates from the Fujian province of China and Taiwan.",
+        "There are more than 30 varieties, each with distinct aromas ranging from floral to nutty.",
+        "The “twisting” technique of the leaves preserves natural flavors and makes brewing easier.",
+        "Oolong is often featured in tea ceremonies that value its evolving flavor profile over multiple infusions.",
+        "Aged oolongs, stored for several years, develop a deep, earthy character."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Oolong contains polyphenols that help combat free radicals and support cellular health."
+        },
+        {
+          "title": "Metabolism boost",
+          "content": "Caffeine and catechins may increase metabolic rate and aid fat oxidation."
+        },
+        {
+          "title": "Cardiovascular support",
+          "content": "Regular moderate consumption can help lower LDL cholesterol levels."
+        },
+        {
+          "title": "Stress reduction",
+          "content": "Aromatic compounds in oolong have calming effects, promoting relaxation."
+        },
+        {
+          "title": "Digestive aid",
+          "content": "Warm oolong stimulates gastric juice production, easing digestion."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Caffeine sensitivity",
+          "content": "Oolong contains caffeine; those sensitive should limit intake."
+        },
+        {
+          "title": "Iron absorption",
+          "content": "Tannins may reduce iron absorption, so avoid drinking tea with iron supplements."
+        },
+        {
+          "title": "Allergic reactions",
+          "content": "Rarely, some individuals may experience an allergy to tea components."
+        },
+        {
+          "title": "Water quality",
+          "content": "Hard water can alter flavor and increase mineral content in the brew."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Pour hot water (80‑90 °C) over the leaf oolong and steep for 2‑3 minutes. Multiple infusions are possible, extending steep time slightly each round. Drink plain or with a touch of honey."
+    },
+    {
+      "title": "Storage",
+      "content": "Store oolong in an airtight container in a cool, dry, dark place. Keep it away from direct sunlight and moisture to prevent oxidation of the leaves."
+    }
+  ]
+}
