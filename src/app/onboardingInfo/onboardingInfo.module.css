@@ -1,6 +1,14 @@
 .onboarding-layout {
-  width: 100%;
-  height: 100%;
+  /* Закрепляем относительно окна, а не относительно .wrapper:
+     при уменьшении WebView клавиатурой родитель больше не влияет на раскладку. */
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* та же ширина, что у .wrapper в globals.css */
+  width: clamp(300px, 90vw, 500px);
+  height: 100%; /* перекрывается inline-style высотой lockedHeight */
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +16,12 @@
   padding: 48px 24px;
   gap: 24px;
   overflow-y: auto;
+}
+
+/* Пока открыта клавиатура, содержимое нельзя прокручивать:
+   браузер иначе сдвигает контент, чтобы показать поле ввода. */
+:global(html.keyboard-open) .onboarding-layout {
+  overflow: hidden;
 }
 
 .ehyo-logo {

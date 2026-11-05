@@ -64,7 +64,7 @@
   flex-direction: column;
   align-items: stretch;
   gap: 8px;
-  padding-top: max(10px, calc(env(safe-area-inset-top) + 10px));
+  padding-top: 10px;
   padding-bottom: max(110px, calc(env(safe-area-inset-bottom) + 110px));
 }
 

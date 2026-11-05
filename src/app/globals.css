@@ -31,7 +31,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  background: rgba(254, 254, 254, 0.92); /* сплошнее, без backdrop-filter: блюр мерцал при смене insets */
+  background: rgba(254, 254, 254, 0.3); /* сплошнее, без backdrop-filter: блюр мерцал при смене insets */
   z-index: 1000;
   pointer-events: none;
 }
@@ -72,8 +72,8 @@ html {
 }
 
 html, body {
-  background-color: var(--neutral-white);
-  color: var(--neutral-active);
+  background-color: var(--neutral-active);
+  color: var(--neutral-white);
 }
 
 html.dark body {

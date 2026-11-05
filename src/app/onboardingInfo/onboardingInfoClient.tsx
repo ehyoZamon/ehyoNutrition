@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
@@ -77,6 +77,10 @@ const OnboardingInfoClient = () => {
   const router = useRouter();
   const t = useTranslations("OnboardingInfo");
 
+  const layoutRef = useRef<HTMLDivElement>(null);
+  // Высота экрана, измеренная при закрытой клавиатуре. Не меняется при её появлении.
+  const [lockedHeight, setLockedHeight] = useState<number | null>(null);
+
   const [step, setStep] = useState<Step>(1);
   const [name, setName] = useState("");
   const [gender, setGender] = useState<Gender | null>(null);
@@ -88,6 +92,56 @@ const OnboardingInfoClient = () => {
 
   const weightKg = isValidWeight(Number(weightInput)) ? Number(weightInput) : null;
   const heightCm = isValidHeight(Number(heightInput)) ? Number(heightInput) : null;
+
+  // Фиксируем высоту страницы, чтобы при появлении клавиатуры (KeyboardResize.Native
+  // уменьшает WebView) элементы не перераскладывались и не двигались.
+  // Сама страница в CSS закреплена как position: fixed, поэтому изменение размера
+  // WebView на неё не влияет, а клавиатура просто перекрывает нижнюю часть.
+  useEffect(() => {
+    const root = document.documentElement;
+    const layout = layoutRef.current;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+
+    const measure = () => {
+      // Пока клавиатура открыта (класс ставит NativeInit), высоту не обновляем.
+      if (root.classList.contains("keyboard-open")) return;
+      setLockedHeight(window.innerHeight);
+    };
+
+    // Дебаунс: при закрытии клавиатуры resize приходит несколько раз
+    // с промежуточной высотой, поэтому измеряем только после того, как она устоялась.
+    const onResize = () => {
+      clearTimeout(timer);
+      timer = setTimeout(measure, 200);
+    };
+
+    measure();
+    window.addEventListener("resize", onResize);
+
+    // Сбрасываем любой программный скролл (браузер скроллит к полю ввода),
+    // пока клавиатура открыта.
+    const resetScroll = () => {
+      if (!root.classList.contains("keyboard-open")) return;
+      if (layout && layout.scrollTop !== 0) layout.scrollTop = 0;
+      const parent = layout?.parentElement;
+      if (parent && parent.scrollTop !== 0) parent.scrollTop = 0;
+      if (window.scrollY !== 0) window.scrollTo(0, 0);
+      const se = document.scrollingElement;
+      if (se && se.scrollTop !== 0) se.scrollTop = 0;
+    };
+
+    layout?.addEventListener("scroll", resetScroll);
+    layout?.parentElement?.addEventListener("scroll", resetScroll);
+    window.addEventListener("scroll", resetScroll);
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("resize", onResize);
+      layout?.removeEventListener("scroll", resetScroll);
+      layout?.parentElement?.removeEventListener("scroll", resetScroll);
+      window.removeEventListener("scroll", resetScroll);
+    };
+  }, []);
 
   // Если пользователь уже прошёл онбординг целиком — сразу пропускаем его.
   // Если он прошёл его в старой версии (имя/пол/дата есть, а веса и роста
@@ -165,7 +219,15 @@ const OnboardingInfoClient = () => {
   };
 
   return (
-    <div className={styles["onboarding-layout"]}>
+    <div
+      ref={layoutRef}
+      className={styles["onboarding-layout"]}
+      style={
+        lockedHeight
+          ? { height: lockedHeight, minHeight: lockedHeight }
+          : undefined
+      }
+    >
       <div className={styles["ehyo-logo"]}>Ehyo</div>
 
       <div className={styles["step-dots"]} aria-hidden="true">
