@@ -8,6 +8,7 @@ import { useLocale, useTranslations } from "next-intl";
 import styles from "./ProductDetailSheet.module.css";
 import { parseAmount } from "@/lib/nutrientFormat";
 import { loadProductDetail, type ProductDetail } from "@/lib/productDetail";
+import { loadProductInfo } from "@/lib/productInfoShards";
 import { useNutrientName } from "@/lib/useNutrientName";
 import { computeDailyValueData, emptyDailyValueData } from "@/lib/dailyValue";
 import type { SimpleUserProfile } from "@/lib/nutritionDRI";
@@ -65,7 +66,7 @@ const ProductDetailSheet = ({
   const [hasMoreInfo, setHasMoreInfo] = useState(false);
 
   const isRu = locale === "ru";
-  const moreHref = `/products/productInfo/${encodeURIComponent(slug)}`;
+  const moreHref = `/products/productInfo?slug=${encodeURIComponent(slug)}`;
 
   const translateUnit = (unit: (typeof UNIT_KEYS)[number]) => {
     try {
@@ -93,31 +94,21 @@ const ProductDetailSheet = ({
     };
   }, [slug]);
 
-  // Проверяем, есть ли /data/<ru|en>/productInfo/<slug>.json —
-  // если есть, показываем кнопку «Больше» / «More».
+  // Проверяем, есть ли данные продукта в шарде productInfo — если есть,
+  // показываем кнопку «Больше» / «More». Шард кэшируется и потом используется страницей.
   useEffect(() => {
     let cancelled = false;
     setHasMoreInfo(false);
 
-    const loc = isRu ? "ru" : "en";
-
-    (async () => {
-      try {
-        const res = await fetch(
-          `/data/${loc}/productInfo/${encodeURIComponent(slug)}.json`
-        );
-        if (!res.ok) return;
-
-        // Подстраховка: некоторые хостинги на 404 отдают index.html со статусом 200,
-        // поэтому проверяем, что это реально JSON с title (как на самой странице).
-        const json = await res.json();
+    loadProductInfo(isRu ? "ru" : "en", slug)
+      .then((json) => {
         if (!cancelled && json && typeof json.title === "string") {
           setHasMoreInfo(true);
         }
-      } catch {
-        /* файла нет или это не JSON — кнопку не показываем */
-      }
-    })();
+      })
+      .catch(() => {
+        /* продукта нет в шарде — кнопку не показываем */
+      });
 
     return () => {
       cancelled = true;

@@ -137,6 +137,13 @@
   color: orange;
 }
 
+.status {
+  text-align: center;
+  color: #777;
+  padding: 96px 0;
+  font-size: 16px;
+}
+
 .key-functions { background: #fbf2d8; }
 .top-food-sources { background: none; }
 .tabs-and-symptoms-section {  padding: 0; }

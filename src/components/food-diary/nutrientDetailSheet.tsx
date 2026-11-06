@@ -189,7 +189,7 @@ const NutrientDetailSheet = ({
           <h2 className={styles["title"]}>{info.title}</h2>
           {info.slug && (
             <Link
-              href={`/vitamins/vitaminInfo/${info.slug}`}
+              href={`/vitamins/vitaminInfo?slug=${encodeURIComponent(info.slug)}`}
               prefetch={false}
               className={styles["info-link"]}
             >

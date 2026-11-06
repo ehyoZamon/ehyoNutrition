@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "pack": "node scripts/packProductInfo.mjs",
+    "predev": "npm run pack",
+    "prebuild": "npm run pack && npm run build:top-products",
     "build:top-products": "node scripts/build-top-products.mjs",
-    "prebuild": "npm run build:top-products",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
