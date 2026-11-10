@@ -209,7 +209,9 @@
     "importConfirm": "Your current data will be replaced with the data from the file. Continue?",
     "importInvalid": "This file is not supported or is corrupted",
     "importTooNew": "This file was created in a newer version of the app",
-    "importError": "Couldn't import the data"
+    "importError": "Couldn't import the data",
+    "analyticsTitle": "Anonymous statistics",
+    "analyticsHint": "Helps us improve the app. We never send your personal data, weight, height or diary contents."
   },
   "Statistics": {
     "title": "Statistics",

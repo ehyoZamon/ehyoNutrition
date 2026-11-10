@@ -15,6 +15,7 @@ import QuantitySheet from "@/components/food-diary/quantitySheet";
 import { addDiaryEntry } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
 import { useBackHandler } from "@/lib/backHandler";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 // "uncategorized" is never chosen by the user directly — it's only the
 // fallback stored on an entry auto-added between 22:00–04:59 while on
@@ -74,6 +75,7 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const openAddFood = useCallback(() => {
+    track(AnalyticsEvent.AddFoodOpen);
     // Профиль (вес, рост, пол) мог измениться в настройках, пока провайдер
     // жил в layout — перечитываем при каждом открытии.
     getUserProfile()
@@ -104,6 +106,7 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
 
       try {
         await addDiaryEntry(product.id, grams, dateStr, meal, status);
+        track(AnalyticsEvent.FoodAdded, { meal_type: meal, entry_status: status });
         setDiaryVersion((v) => v + 1);
         // Запись успешно сохранена («Добавить» или «В план») — закрываем и список.
         // При ошибке список остаётся открытым, чтобы можно было повторить.

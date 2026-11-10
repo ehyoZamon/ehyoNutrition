@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import styles from "./settings.module.css";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import BottomNav from "@/components/bottomNav/BottomNav";
@@ -19,6 +19,12 @@ import {
   saveUserProfile,
 } from "@/lib/userProfile";
 import { BackupError, exportBackup, importBackup } from "@/lib/backup";
+import {
+  AnalyticsEvent,
+  isAnalyticsEnabled,
+  setAnalyticsEnabled,
+  track,
+} from "@/lib/analytics";
 
 const DEFAULT_PROFILE: UserProfile = {
   name: "",
@@ -69,11 +75,36 @@ const SettingsClient = () => {
   const t = useTranslations("Settings");
   const navBar=useTranslations("navBar");
 
+  // Смена языка: переключатель — отдельный компонент, поэтому ловим смену локали здесь
+  const locale = useLocale();
+  const prevLocale = useRef(locale);
+  useEffect(() => {
+    if (prevLocale.current !== locale) {
+      prevLocale.current = locale;
+      track(AnalyticsEvent.LanguageChanged, { language: locale });
+    }
+  }, [locale]);
+
   const [profile, setProfile] = useState<UserProfile>(DEFAULT_PROFILE);
   const [birthDateDisplay, setBirthDateDisplay] = useState("");
   const [weightDisplay, setWeightDisplay] = useState("");
   const [heightDisplay, setHeightDisplay] = useState("");
   const [loaded, setLoaded] = useState(false);
+  // Последнее сохранённое имя — чтобы не слать событие на каждый blur без изменений
+  const savedNameRef = useRef("");
+
+  // Согласие на анонимную статистику (хранится в localStorage, см. lib/analytics.ts)
+  const [analyticsOn, setAnalyticsOn] = useState(true);
+  useEffect(() => {
+    setAnalyticsOn(isAnalyticsEnabled());
+  }, []);
+
+  const handleAnalyticsToggle = async (checked: boolean) => {
+    setAnalyticsOn(checked);
+    await setAnalyticsEnabled(checked);
+    // Только включение: после отказа ничего не отправляем
+    if (checked) track(AnalyticsEvent.AnalyticsEnabled);
+  };
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [backupBusy, setBackupBusy] = useState(false);
@@ -87,6 +118,7 @@ const SettingsClient = () => {
       const stored = await getUserProfile();
       if (stored) {
         setProfile(stored);
+        savedNameRef.current = stored.name ?? "";
         if (stored.birthDate) {
           setBirthDateDisplay(isoToDisplay(stored.birthDate));
         }
@@ -111,10 +143,16 @@ const SettingsClient = () => {
   };
 
   const handleNameBlur = () => {
-    if (loaded) persist(profile);
+    if (!loaded) return;
+    persist(profile);
+    if (profile.name !== savedNameRef.current) {
+      savedNameRef.current = profile.name;
+      track(AnalyticsEvent.ProfileUpdated, { field: "name" });
+    }
   };
 
   const handleGenderChange = (value: Gender) => {
+    if (value !== profile.gender) track(AnalyticsEvent.ProfileUpdated, { field: "gender" });
     const next = { ...profile, gender: value };
     setProfile(next);
     if (loaded) persist(next);
@@ -125,6 +163,7 @@ const SettingsClient = () => {
     setBirthDateDisplay(display);
 
     if (iso) {
+      if (iso !== profile.birthDate) track(AnalyticsEvent.ProfileUpdated, { field: "birth_date" });
       const next = { ...profile, birthDate: iso };
       setProfile(next);
       if (loaded) persist(next);
@@ -137,6 +176,7 @@ const SettingsClient = () => {
   const handleWeightBlur = () => {
     const value = Number(weightDisplay);
     if (isValidWeight(value)) {
+      if (value !== profile.weightKg) track(AnalyticsEvent.ProfileUpdated, { field: "weight" });
       const next = { ...profile, weightKg: value };
       setProfile(next);
       setWeightDisplay(String(value));
@@ -149,6 +189,7 @@ const SettingsClient = () => {
   const handleHeightBlur = () => {
     const value = Number(heightDisplay);
     if (isValidHeight(value)) {
+      if (value !== profile.heightCm) track(AnalyticsEvent.ProfileUpdated, { field: "height" });
       const next = { ...profile, heightCm: value };
       setProfile(next);
       setHeightDisplay(String(value));
@@ -163,12 +204,14 @@ const SettingsClient = () => {
     setBackupStatus(null);
     try {
       await exportBackup();
+      track(AnalyticsEvent.BackupExport);
       setBackupStatus({ kind: "ok", text: t("exportDone") });
     } catch (e) {
       console.error("Ошибка экспорта:", e);
       // Закрытие системного меню «Поделиться» пользователем — не ошибка
       const msg = e instanceof Error ? e.message.toLowerCase() : "";
       if (!msg.includes("cancel")) {
+        track(AnalyticsEvent.BackupExportFailed);
         setBackupStatus({ kind: "error", text: t("exportError") });
       }
     } finally {
@@ -191,6 +234,7 @@ const SettingsClient = () => {
     setBackupStatus(null);
     try {
       await importBackup(file);
+      track(AnalyticsEvent.BackupImport);
       // Перезагружаем, чтобы все страницы и соединение с БД поднялись с новыми данными
       window.location.reload();
     } catch (err) {
@@ -201,6 +245,7 @@ const SettingsClient = () => {
           : err instanceof BackupError
             ? "importInvalid"
             : "importError";
+      track(AnalyticsEvent.BackupImportFailed, { reason: key });
       setBackupStatus({ kind: "error", text: t(key) });
       setBackupBusy(false);
     }
@@ -344,6 +389,25 @@ const SettingsClient = () => {
                 {backupStatus.text}
               </p>
             )}
+          </div>
+
+          {/* Analytics consent */}
+          <div className={styles["analytics-section"]}>
+            <div className={styles["analytics-text"]}>
+              <span className={styles["analytics-title"]}>{t("analyticsTitle")}</span>
+              <p className={styles["analytics-hint"]}>{t("analyticsHint")}</p>
+            </div>
+            <label className={styles["switch"]}>
+              <input
+                type="checkbox"
+                role="switch"
+                className={styles["switch-input"]}
+                checked={analyticsOn}
+                onChange={(e) => handleAnalyticsToggle(e.target.checked)}
+                aria-label={t("analyticsTitle")}
+              />
+              <span className={styles["switch-slider"]} />
+            </label>
           </div>
         </div>
       </div>

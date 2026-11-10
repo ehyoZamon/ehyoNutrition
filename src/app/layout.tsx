@@ -8,6 +8,7 @@ import SystemBarOverlays from "@/components/SystemBarOverlays";
 import AddFoodProvider from "@/components/food-diary/addFoodProvider";
 import SplashGate from "@/components/SplashGate";
 import BackButtonHandler from "@/components/BackButtonHandler";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 
 const signika = Signika({
   subsets: ["latin"],
@@ -71,6 +72,7 @@ export default function RootLayout({
         <NativeInit />
         <BackButtonHandler />
         <SystemBarOverlays />
+        <AnalyticsTracker />
         <DBProvider>
           <LanguageProvider>
             <AddFoodProvider>

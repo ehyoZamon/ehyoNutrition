@@ -38,6 +38,7 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useAddFood, type MealType, type MealFilter } from "@/components/food-diary/addFoodProvider";
 
 import BottomNav from "@/components/bottomNav/BottomNav";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 import {
   deleteDiaryEntry,
@@ -257,6 +258,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     setWaterMl(next);
     try {
       await setWaterByDate(format(selectedDate, "yyyy-MM-dd"), next);
+      track(deltaMl > 0 ? AnalyticsEvent.WaterAdded : AnalyticsEvent.WaterRemoved);
     } catch (e) {
       console.error("Не удалось сохранить воду:", e);
       setWaterMl(previous);
@@ -365,6 +367,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   };
 
   const handleSelectDate = (date: Date) => {
+    track(AnalyticsEvent.DiaryDateSelect, { is_today: isToday(date) });
     setSelectedDate(date);
     if (!isSameMonth(date, viewMonth)) {
       setViewMonth(startOfMonth(date));
@@ -375,12 +378,13 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   const goPrevMonth = () => setViewMonth((m) => subMonths(m, 1));
   const goNextMonth = () => setViewMonth((m) => addMonths(m, 1));
 
-  const removeEntry = async (id: number) => {
+  const removeEntry = async (id: number, entryStatus?: "consumed" | "planned") => {
     if (!isToday(selectedDate)) return; // страховка: удаление доступно только для сегодняшнего дня
 
     const dateStr = format(selectedDate, "yyyy-MM-dd");
     try {
       await deleteDiaryEntry(id, dateStr);
+      track(AnalyticsEvent.FoodRemoved, entryStatus ? { entry_status: entryStatus } : undefined);
       await loadEntriesForDate(selectedDate);
       await loadDatesWithEntries();
     } catch (e) {
@@ -428,6 +432,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
     try {
       await updateDiaryEntry(editingEntry.id, grams, dateStr);
+      track(AnalyticsEvent.FoodEdited, { entry_status: editingEntry.status });
       await loadEntriesForDate(selectedDate);
       await loadDatesWithEntries();
     } catch (e) {
@@ -451,7 +456,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
   const handleDeleteConfirm = async () => {
     if (!deletingEntry) return;
-    await removeEntry(deletingEntry.id);
+    await removeEntry(deletingEntry.id, deletingEntry.status);
     setIsDeleteConfirmOpen(false);
     setDeletingEntry(null);
   };
@@ -475,6 +480,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
     try {
       await confirmPlannedEntry(confirmingPlanEntry.id, dateStr);
+      track(AnalyticsEvent.PlanConfirmed, { meal_type: confirmingPlanEntry.meal });
       await loadEntriesForDate(selectedDate);
       await loadDatesWithEntries();
     } catch (e) {
@@ -534,6 +540,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     const title = section === "vitamin" ? `${tt("vitaminSingular", "Vitamin")} ${label}` : label;
 
     const slug = slugForNutrientKey(section, key);
+    track(AnalyticsEvent.NutrientDetailOpen, { section, nutrient: slug });
     const loc = locale === "ru" ? "ru" : "en";
 
     setNutrientInfo({
@@ -650,7 +657,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
             type="button"
             className={styles["header-date-btn"]}
             aria-expanded={isCalendarOpen}
-            onClick={() => setIsCalendarOpen((v) => !v)}
+            onClick={() => {
+              if (!isCalendarOpen) track(AnalyticsEvent.CalendarOpen);
+              setIsCalendarOpen((v) => !v);
+            }}
           >
             <span className={styles["header-date-text"]}>
               {format(selectedDate, "d, MMM yyyy", { locale: dateFnsLocale })}
@@ -763,7 +773,10 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
                     selectedMeal === key ? styles["meal-tab--selected"] : "",
                   ].join(" ")}
                   aria-pressed={selectedMeal === key}
-                  onClick={() => setSelectedMeal(key)}
+                  onClick={() => {
+                    if (key !== selectedMeal) track(AnalyticsEvent.MealTabSelect, { meal_type: key });
+                    setSelectedMeal(key);
+                  }}
                 >
                   <Image src={icon} alt="" width={50} height={50} className={styles["meal-tab-icon"]} />
                   <span className={styles["meal-tab-label"]}>{mealLabel(key)}</span>

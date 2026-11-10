@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useBackHandler } from "@/lib/backHandler";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 import styles from "./onboardingInfo.module.css";
 import {
@@ -158,7 +159,12 @@ const OnboardingInfoClient = () => {
       }
 
       const stored = await getUserProfile();
-      if (cancelled || !stored?.name || !stored.birthDate) return;
+      if (cancelled) return;
+
+      // Онбординг реально показан пользователю (resumed — дозаполнение веса и роста после старой версии)
+      const resumed = !!(stored?.name && stored.birthDate);
+      track(AnalyticsEvent.OnboardingStarted, { resumed });
+      if (!stored || !resumed) return;
 
       setName(stored.name);
       setGender(stored.gender);
@@ -181,7 +187,10 @@ const OnboardingInfoClient = () => {
     (step === 5 && heightCm !== null);
 
   const handleBack = () => {
-    if (step > 1) setStep((s) => (s - 1) as Step);
+    if (step > 1) {
+      track(AnalyticsEvent.OnboardingBack, { from_step: step });
+      setStep((s) => (s - 1) as Step);
+    }
   };
 
   // Аппаратная кнопка "Назад" (Android): на шагах 2–5 возвращает на предыдущий шаг.
@@ -197,6 +206,7 @@ const OnboardingInfoClient = () => {
     if (!canGoNext || saving) return;
 
     if (step < LAST_STEP) {
+      track(AnalyticsEvent.OnboardingStepComplete, { step });
       setStep((s) => (s + 1) as Step);
       return;
     }
@@ -212,6 +222,7 @@ const OnboardingInfoClient = () => {
         weightKg,
         heightCm,
       });
+      track(AnalyticsEvent.OnboardingCompleted);
       router.replace("/food-diary");
     } finally {
       setSaving(false);

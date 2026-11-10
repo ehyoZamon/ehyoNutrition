@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from "next-intl";
 import styles from "./vitaminInfo.module.css";
 import BottomNav from "@/components/bottomNav/BottomNav";
 import type { VitaminDetail } from "@/types/details";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 export type VitaminInfoMap = Record<string, { en: VitaminDetail; ru: VitaminDetail }>;
 
@@ -47,6 +48,20 @@ const VitaminInfoClient = ({ vitamins }: Props) => {
 
   const entry = Object.prototype.hasOwnProperty.call(vitamins, slug) ? vitamins[slug] : null;
   const vitamin = entry ? (locale === "ru" ? entry.ru : entry.en) : null;
+
+  // Аналитика: просмотр страницы витамина/минерала (или "не найдено" — нет данных по этому slug)
+  const found = entry !== null;
+  useEffect(() => {
+    if (!slug) return;
+    track(found ? AnalyticsEvent.VitaminInfoOpen : AnalyticsEvent.VitaminInfoNotFound, { slug });
+  }, [slug, found]);
+
+  const handleTabSelect = (tab: Tab) => {
+    if (tab !== activeTab) {
+      track(AnalyticsEvent.VitaminInfoTabSelect, { slug, tab });
+    }
+    setActiveTab(tab);
+  };
 
   const badgeText = useMemo(() => getBadgeText(vitamin?.title ?? ""), [vitamin?.title]);
 
@@ -118,7 +133,7 @@ const VitaminInfoClient = ({ vitamins }: Props) => {
                     <button
                       type="button"
                       key={tab.id}
-                      onClick={() => setActiveTab(tab.id)}
+                      onClick={() => handleTabSelect(tab.id)}
                       className={`${styles["tab"]} ${activeTab === tab.id ? styles["active"] : ""}`}
                       aria-pressed={activeTab === tab.id}
                     >

@@ -34,6 +34,7 @@ import BottomNav from "@/components/bottomNav/BottomNav";
 import ProductMacros from "@/components/productMacros/ProductMacros";
 import { useCategoryName } from "@/lib/categoryName";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -151,6 +152,7 @@ const ProductsClient = () => {
     const store = toggleProductFavorite(id);
     if (store?.products) {
       setFavoriteIds(store.products);
+      track(AnalyticsEvent.FavoriteToggle, { is_favorite: store.products.includes(id) });
     }
   }, []);
 
@@ -187,6 +189,7 @@ const ProductsClient = () => {
 
   // повторный клик по активной категории сбрасывает выбор
   const handleChipClick = useCallback((category: string | null, el: HTMLElement) => {
+    track(AnalyticsEvent.CategoryChipSelect, { category: category ?? "all" });
     setSelectedCategory((prev) => (category === prev ? null : category));
     el.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   }, []);
@@ -225,6 +228,23 @@ const ProductsClient = () => {
 
   const hasMore = visibleCount < total;
 
+  // Аналитика поиска: шлём после паузы в наборе, один раз на запрос.
+  // Текст запроса не отправляем — только длину и число найденных продуктов.
+  const lastTrackedSearch = useRef("");
+  useEffect(() => {
+    const q = deferredSearch.trim();
+    if (!index || q.length < 2 || q === lastTrackedSearch.current) return;
+    const id = setTimeout(() => {
+      lastTrackedSearch.current = q;
+      track(AnalyticsEvent.SearchProducts, {
+        query_length: q.length,
+        results_count: total,
+        has_results: total > 0,
+      });
+    }, 800);
+    return () => clearTimeout(id);
+  }, [deferredSearch, index, total]);
+
   // Новый запрос / категория / язык -> снова первые 100 и прокрутка наверх
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
@@ -249,6 +269,11 @@ const ProductsClient = () => {
 
   // "Назад" закрывает шторку с составом продукта
   useBackHandler(() => { setOpenedSlug(null); return true; }, openedSlug !== null);
+
+  const handleOpen = useCallback((slug: string) => {
+    setOpenedSlug(slug);
+    track(AnalyticsEvent.ProductSheetOpen, { slug });
+  }, []);
 
   const openedProduct = openedSlug && index ? index.bySlug.get(openedSlug) : undefined;
   const caloriesLabel = t("calories");
@@ -313,7 +338,7 @@ const ProductsClient = () => {
                       product={product}
                       isFavorite={favoriteSet.has(product.id)}
                       caloriesLabel={caloriesLabel}
-                      onOpen={setOpenedSlug}
+                      onOpen={handleOpen}
                       onToggleFavorite={toggleFavorite}
                     />
                   ))}

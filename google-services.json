@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504549614133",
+    "project_id": "nutridiary-596d2",
+    "storage_bucket": "nutridiary-596d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504549614133:android:9dd9202b2cc9ab5103877c",
+        "android_client_info": {
+          "package_name": "com.ehyonutridiary.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGK9ZQdqQIGhcxgRZPH4KTzeB17cCldxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

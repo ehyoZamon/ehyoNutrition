@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { format, subDays } from "date-fns";
@@ -15,6 +15,7 @@ import MealsBreakdown, { MealSlice } from "@/components/statistics/mealsBreakdow
 import WaterChart from "@/components/statistics/waterChart";
 import TopProducts, { TopProductItem } from "@/components/statistics/topProducts";
 import NutrientSection, { NutrientRow } from "@/components/statistics/nutrientSection";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 import { getDiaryEntriesByDate, getDatesWithEntriesInRange } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
@@ -252,6 +253,15 @@ const StatisticsClient = () => {
   const tickInterval = range === 7 ? 0 : 2;
   const hasData = !!stats && stats.days.some((d) => d.logged || d.waterMl > 0);
 
+  // Аналитика: один раз на каждый период, когда данные загружены.
+  // has_data=false показывает, как часто пользователи видят пустую статистику.
+  const viewedRange = useRef<Range | null>(null);
+  useEffect(() => {
+    if (!stats || stats.days.length !== range || viewedRange.current === range) return;
+    viewedRange.current = range;
+    track(AnalyticsEvent.StatsView, { range_days: range, has_data: hasData });
+  }, [stats, range, hasData]);
+
   const summaryItems: SummaryItem[] = summary
     ? [
         {
@@ -373,7 +383,10 @@ const StatisticsClient = () => {
               className={`${styles["period-tab"]} ${
                 range === r ? styles["period-tab--active"] : ""
               }`}
-              onClick={() => setRange(r)}
+              onClick={() => {
+                if (r !== range) track(AnalyticsEvent.StatsRangeSelect, { range_days: r });
+                setRange(r);
+              }}
             >
               {t(r === 7 ? "period7" : "period30")}
             </button>

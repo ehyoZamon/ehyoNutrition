@@ -10,6 +10,7 @@ import ProductInfoModule, {
 import { loadProductsIndex } from "@/lib/productsIndex";
 import { loadProductInfo } from "@/lib/productInfoShards";
 import styles from "./productInfo.module.css";
+import { AnalyticsEvent, track } from "@/lib/analytics";
 
 type Status = "loading" | "ready" | "error";
 
@@ -85,10 +86,14 @@ const ProductInfoClient = () => {
         if (!cancelled) {
           setData({ ...json, image });
           setStatus("ready");
+          track(AnalyticsEvent.ProductInfoOpen, { slug });
         }
       } catch (e) {
         console.error("Не удалось загрузить productInfo:", e);
-        if (!cancelled) setStatus("error");
+        if (!cancelled) {
+          setStatus("error");
+          track(AnalyticsEvent.ProductInfoNotFound, { slug });
+        }
       }
     })();
 
