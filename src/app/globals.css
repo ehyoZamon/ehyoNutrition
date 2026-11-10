@@ -23,9 +23,9 @@
 :root {
   --font-inter: "Inter Variable";
   --font-signika: "Signika";
-  --font-family: var(--font-inter), sans-serif;
-  --second-family: var(--font-inter), sans-serif;
-  --third-family: var(--font-nunito), sans-serif;
+  --font-family: var(--font-inter), var(--font-signika), sans-serif;
+  --second-family: var(--font-inter), var(--font-signika), sans-serif;
+  --third-family: var(--font-nunito),  var(--font-inter), var(--font-signika), sans-serif;
 }
 
 /* Системные панели (status bar / navigation bar) */
