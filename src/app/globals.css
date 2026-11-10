@@ -21,6 +21,8 @@
 }
 
 :root {
+  --font-inter: "Inter Variable";
+  --font-signika: "Signika";
   --font-family: var(--font-inter), sans-serif;
   --second-family: var(--font-inter), sans-serif;
   --third-family: var(--font-nunito), sans-serif;
@@ -63,6 +65,17 @@ html, body {
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Убираем задержку тапа (double-tap-zoom) на всех полях ввода и кнопках */
+input,
+textarea,
+select,
+button,
+a,
+label,
+[role="button"] {
+  touch-action: manipulation;
 }
 /* Глобальный `transition-property: all` удалён: он анимировал height/top/transform
    при открытии клавиатуры и вызывал «тряску». Задавайте переходы точечно. */

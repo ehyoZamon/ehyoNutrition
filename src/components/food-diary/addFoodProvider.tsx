@@ -16,6 +16,7 @@ import { addDiaryEntry } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
 import { useBackHandler } from "@/lib/backHandler";
 import { AnalyticsEvent, track } from "@/lib/analytics";
+import { isNavigationSettling } from "@/components/pageTransition/PageTransition";
 
 // "uncategorized" is never chosen by the user directly — it's only the
 // fallback stored on an entry auto-added between 22:00–04:59 while on
@@ -75,6 +76,10 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const openAddFood = useCallback(() => {
+    // Не открываем список, если это «хвостовой» клик во время/сразу после смены
+    // страницы: страница ещё выезжает, и под пальцем может оказаться кнопка «Add».
+    if (isNavigationSettling()) return;
+
     track(AnalyticsEvent.AddFoodOpen);
     // Профиль (вес, рост, пол) мог измениться в настройках, пока провайдер
     // жил в layout — перечитываем при каждом открытии.

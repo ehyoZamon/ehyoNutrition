@@ -322,11 +322,7 @@ const ProductsClient = () => {
       {/* 📦 Контент */}
       <div className={styles["content-container"]} ref={contentRef}>
         <div className={styles["content"]}>
-          {!index ? (
-            <div className={styles["loader"]}>
-              <div className={styles["spinner"]} />
-            </div>
-          ) : visibleGroups.length > 0 ? (
+          {!index ? null : visibleGroups.length > 0 ? (
             <>
               {visibleGroups.map(([category, items]) => (
                 <div key={category} className={styles["category-group"]}>

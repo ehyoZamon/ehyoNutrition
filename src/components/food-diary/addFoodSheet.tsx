@@ -198,7 +198,6 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
             className={styles["search-input"]}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            autoFocus
           />
         </div>
 

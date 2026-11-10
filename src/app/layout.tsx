@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Signika, Inter } from "next/font/google";
+// Шрифты берутся из npm-пакетов и собираются локально: сборка не ходит
+// на fonts.googleapis.com / fonts.gstatic.com и работает офлайн
 import LanguageProvider from "@/components/LanguageProvider";
 import "./globals.css";
 import DBProvider from './providers/DBProvider';
@@ -8,7 +9,10 @@ import SystemBarOverlays from "@/components/SystemBarOverlays";
 import AddFoodProvider from "@/components/food-diary/addFoodProvider";
 import SplashGate from "@/components/SplashGate";
 import BackButtonHandler from "@/components/BackButtonHandler";
+import PageTransitionProvider from "@/components/pageTransition/PageTransition";
+import PagePrefetcher from "@/components/pageTransition/PagePrefetcher";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
+import { Signika, Inter } from "next/font/google";
 
 const signika = Signika({
   subsets: ["latin"],
@@ -64,7 +68,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${signika.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light dark" />
       </head>
@@ -72,12 +76,13 @@ export default function RootLayout({
         <NativeInit />
         <BackButtonHandler />
         <SystemBarOverlays />
-        <AnalyticsTracker />
         <DBProvider>
           <LanguageProvider>
             <AddFoodProvider>
               <SplashGate />
-              {children}
+              <PagePrefetcher />
+              <AnalyticsTracker />
+              <PageTransitionProvider>{children}</PageTransitionProvider>
             </AddFoodProvider>
           </LanguageProvider>
         </DBProvider>
