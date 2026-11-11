@@ -12,6 +12,7 @@ import {
 import { format } from "date-fns";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
+import BodyPortal from "@/components/BodyPortal";
 import { addDiaryEntry } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
 import { useBackHandler } from "@/lib/backHandler";
@@ -152,19 +153,23 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
     <AddFoodContext.Provider value={value}>
       {children}
 
-      <AddFoodSheet
-        open={isAddSheetOpen}
-        onClose={() => setIsAddSheetOpen(false)}
-        onSelectProduct={handleSelectProduct}
-      />
+      {/* Шторки рендерим в <body>, чтобы они гарантированно были выше навбара
+          (z-index 1000/1100 против 10 — в одном корневом контексте наложения). */}
+      <BodyPortal>
+        <AddFoodSheet
+          open={isAddSheetOpen}
+          onClose={() => setIsAddSheetOpen(false)}
+          onSelectProduct={handleSelectProduct}
+        />
 
-      <QuantitySheet
-        open={isQuantitySheetOpen}
-        product={selectedProduct}
-        onClose={handleQuantityClose}
-        onAdd={handleQuantityAdd}
-        userProfile={profile}
-      />
+        <QuantitySheet
+          open={isQuantitySheetOpen}
+          product={selectedProduct}
+          onClose={handleQuantityClose}
+          onAdd={handleQuantityAdd}
+          userProfile={profile}
+        />
+      </BodyPortal>
     </AddFoodContext.Provider>
   );
 }

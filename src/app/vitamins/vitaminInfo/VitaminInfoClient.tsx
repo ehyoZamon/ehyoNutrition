@@ -5,7 +5,6 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import styles from "./vitaminInfo.module.css";
-import BottomNav from "@/components/bottomNav/BottomNav";
 import type { VitaminDetail } from "@/types/details";
 import { AnalyticsEvent, track } from "@/lib/analytics";
 
@@ -148,7 +147,6 @@ const VitaminInfoClient = ({ vitamins }: Props) => {
         </div>
       </div>
 
-      <BottomNav />
     </div>
   );
 };

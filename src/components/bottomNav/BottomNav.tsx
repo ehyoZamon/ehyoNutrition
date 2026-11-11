@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -22,16 +24,37 @@ const ITEMS = [
   { kind: "link", href: "/settings",   labelKey: "settings",   icon: "settings",   iconActive: "settings-green" },
 ] as const;
 
+// Страницы, где нижнего меню быть не должно (поправьте под свои роуты).
+const HIDDEN_ON = ["/", "/walkthrough", "/onboardingInfo"];
+
+const isHiddenOn = (p: string) => {
+  const path = p.replace(/\/+$/, "") || "/";
+  return HIDDEN_ON.some((h) =>
+    h === "/" ? path === "/" : path === h || path.startsWith(`${h}/`)
+  );
+};
+
 const indexOfPath = (p: string) =>
   ITEMS.findIndex(
     (i) => i.kind === "link" && (p === i.href || p.startsWith(`${i.href}/`))
   );
 
+// Навбар рендерится ОДИН раз в layout.tsx, а не внутри каждой страницы,
+// поэтому он не участвует в анимации перехода между страницами.
+// Через портал в document.body он лежит вне анимируемого контейнера:
+// transform у предка ломает position: fixed, а так навбар всегда
+// прикреплён к экрану. Контексты (PageTransition, AddFood) работают,
+// потому что по React-дереву компонент остаётся внутри провайдеров.
 export default function BottomNav() {
   const t = useTranslations("navBar");
   const pathname = usePathname() ?? "";
   const { openAddFood } = useAddFood();
   const { navigate, pendingHref } = usePageTransition();
+
+  // портал можно создавать только на клиенте, после монтирования
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   // подсвечиваем вкладку сразу по нажатию, не дожидаясь открытия страницы
   const currentPath = pendingHref ?? pathname;
 
@@ -48,7 +71,10 @@ export default function BottomNav() {
     navigate(item.href, currentIdx > targetIdx ? "left" : "right");
   };
 
-  return (
+  // все хуки выше; ранний return только после них
+  if (!mounted || isHiddenOn(pathname)) return null;
+
+  return createPortal(
     <nav className={styles["navigation-container"]}>
       <div className={styles["navigation"]}>
         {ITEMS.map((item) => {
@@ -117,6 +143,7 @@ export default function BottomNav() {
           );
         })}
       </div>
-    </nav>
+    </nav>,
+    document.body
   );
 }

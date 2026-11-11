@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import styles from "./nutrientDetailSheet.module.css";
+import BodyPortal from "@/components/BodyPortal";
 import { CircleRing, useGradientStops } from "@/components/daily-value/dailyValueModule";
 import { NutrientBreakdownRow, TopProductForNutrient } from "@/lib/dailyValue";
 
@@ -171,184 +172,186 @@ const NutrientDetailSheet = ({
   if (!open || !info) return null;
 
   return (
-    <div className={styles["overlay"]} onClick={onClose}>
-      <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
-        <div className={styles["ring-wrap"]}>
-          <CircleRing
-            percent={percent}
-            plannedPercent={plannedPercent}
-            label={""}
-            size={"glge"}
-            stops={stops}
-            overLimit={severity === "danger"}
-            overLimitInfo={severity === "info"}
-          />
-        </div>
+    <BodyPortal>
+      <div className={styles["overlay"]} onClick={onClose}>
+        <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
+          <div className={styles["ring-wrap"]}>
+            <CircleRing
+              percent={percent}
+              plannedPercent={plannedPercent}
+              label={""}
+              size={"glge"}
+              stops={stops}
+              overLimit={severity === "danger"}
+              overLimitInfo={severity === "info"}
+            />
+          </div>
 
-        <div className={styles["title-row"]}>
-          <h2 className={styles["title"]}>{info.title}</h2>
-          {info.slug && (
-            <Link
-              href={`/vitamins/vitaminInfo?slug=${encodeURIComponent(info.slug)}`}
-              prefetch={false}
-              className={styles["info-link"]}
-            >
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
+          <div className={styles["title-row"]}>
+            <h2 className={styles["title"]}>{info.title}</h2>
+            {info.slug && (
+              <Link
+                href={`/vitamins/vitaminInfo?slug=${encodeURIComponent(info.slug)}`}
+                prefetch={false}
+                className={styles["info-link"]}
               >
-                <circle cx="12" cy="12" r="9.5" stroke="currentColor" strokeWidth="1.8" />
-                <path d="M12 11V16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                <circle cx="12" cy="7.8" r="1.1" fill="currentColor" />
-              </svg>
-            </Link>
-          )}
-        </div>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="9.5" stroke="currentColor" strokeWidth="1.8" />
+                  <path d="M12 11V16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <circle cx="12" cy="7.8" r="1.1" fill="currentColor" />
+                </svg>
+              </Link>
+            )}
+          </div>
 
        
 
-        <div className={styles["list"]}>
-           {!loading && recommendedLabel && (
-              <p className={styles["daily-norm"]}>
-                {tt("dailyNorm", "Your daily value")}: {recommendedLabel}
-                {ulLabel && ` - ${ulLabel}`}
-              </p>
-            )}
+          <div className={styles["list"]}>
+             {!loading && recommendedLabel && (
+                <p className={styles["daily-norm"]}>
+                  {tt("dailyNorm", "Your daily value")}: {recommendedLabel}
+                  {ulLabel && ` - ${ulLabel}`}
+                </p>
+              )}
 
-            {/* Shown whenever this nutrient has a UL and a configured note,
-                regardless of whether today's intake is currently over it — the
-                nuance (e.g. "this limit is about supplements, not food") is
-                useful context before it becomes relevant, not just after. */}
-            {!loading && ulLabel && ulNote && <p className={styles["ul-note"]}>{ulNote}</p>}
+              {/* Shown whenever this nutrient has a UL and a configured note,
+                  regardless of whether today's intake is currently over it — the
+                  nuance (e.g. "this limit is about supplements, not food") is
+                  useful context before it becomes relevant, not just after. */}
+              {!loading && ulLabel && ulNote && <p className={styles["ul-note"]}>{ulNote}</p>}
 
-            {!loading && severity !== "none" && ulPercent !== null && ulPercent !== undefined && (
-              <p
-                className={styles["warning"]}
-                style={
-                  severity === "danger"
-                    ? { color: "rgb(217, 33, 33)", fontWeight: 600 }
-                    : { color: "#F59E0B", fontWeight: 600 }
-                }
-              >
-                {severity === "danger" ? "⚠" : <span className={styles['info-circle']}>ℹ</span>}{" "}
-                {severity === "danger"
-                  ? tt(
-                      "overLimitWarning",
-                      "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
-                      {
-                        ulLabel: ulLabel ?? "",
-                        consumedLabel: consumedLabel ?? "",
-                        percent: Math.round(ulPercent - 100),
-                      }
-                    )
-                  : tt(
-                      "overLimitWarning",
-                      "{percent}% over the supplement limit {ulLabel} — from whole food, not considered a risk",
-                      {
-                        ulLabel: ulLabel ?? "",
-                        consumedLabel: consumedLabel ?? "",
-                        percent: Math.round(ulPercent - 100),
-                      }
-                    )}
-              </p>
-            )}
+              {!loading && severity !== "none" && ulPercent !== null && ulPercent !== undefined && (
+                <p
+                  className={styles["warning"]}
+                  style={
+                    severity === "danger"
+                      ? { color: "rgb(217, 33, 33)", fontWeight: 600 }
+                      : { color: "#F59E0B", fontWeight: 600 }
+                  }
+                >
+                  {severity === "danger" ? "⚠" : <span className={styles['info-circle']}>ℹ</span>}{" "}
+                  {severity === "danger"
+                    ? tt(
+                        "overLimitWarning",
+                        "Limit {ulLabel}, consumed {consumedLabel} — {percent}% over",
+                        {
+                          ulLabel: ulLabel ?? "",
+                          consumedLabel: consumedLabel ?? "",
+                          percent: Math.round(ulPercent - 100),
+                        }
+                      )
+                    : tt(
+                        "overLimitWarning",
+                        "{percent}% over the supplement limit {ulLabel} — from whole food, not considered a risk",
+                        {
+                          ulLabel: ulLabel ?? "",
+                          consumedLabel: consumedLabel ?? "",
+                          percent: Math.round(ulPercent - 100),
+                        }
+                      )}
+                </p>
+              )}
             
-          <div className={styles["divider"]} />
+            <div className={styles["divider"]} />
 
-          <h3 className={styles["section-title"]}>
-            {tt("consumption", "Consumption")}
-            {!loading && consumedLabel && (
-              <span className={styles["consumed-total"]}>{consumedLabel}</span>
+            <h3 className={styles["section-title"]}>
+              {tt("consumption", "Consumption")}
+              {!loading && consumedLabel && (
+                <span className={styles["consumed-total"]}>{consumedLabel}</span>
+              )}
+            </h3>
+
+            {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
+
+            {!loading && rows.length === 0 && (
+              <p className={styles["empty"]}>
+                {tt("noContribution", "No foods logged yet contribute to this nutrient")}
+              </p>
             )}
-          </h3>
 
-          {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
-
-          {!loading && rows.length === 0 && (
-            <p className={styles["empty"]}>
-              {tt("noContribution", "No foods logged yet contribute to this nutrient")}
-            </p>
-          )}
-
-          {!loading &&
-            rows.map((row) => (
-              <div className={styles["row"]} key={`${row.productId}-${row.grams}`}>
-                <div className={styles["row-left"]}>
-                  <Image src={row.image} alt={row.name} width={32} height={32} />
-                  <span className={styles["row-name"]}>
-                    {row.name} ({row.grams}g)
+            {!loading &&
+              rows.map((row) => (
+                <div className={styles["row"]} key={`${row.productId}-${row.grams}`}>
+                  <div className={styles["row-left"]}>
+                    <Image src={row.image} alt={row.name} width={32} height={32} />
+                    <span className={styles["row-name"]}>
+                      {row.name} ({row.grams}g)
+                    </span>
+                  </div>
+                  <span className={styles["row-value"]}>
+                    {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
                   </span>
                 </div>
-                <span className={styles["row-value"]}>
-                  {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
-                </span>
-              </div>
-            ))}
+              ))}
 
-          <div className={styles["divider"]} />
+            <div className={styles["divider"]} />
 
-          <h3 className={styles["section-title"]}>
-            {tt("dailyPlanTitle", "Daily Plan")}
-          </h3>
+            <h3 className={styles["section-title"]}>
+              {tt("dailyPlanTitle", "Daily Plan")}
+            </h3>
 
-          {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
+            {loading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
 
-          {!loading && plannedRows.length === 0 && (
-            <p className={styles["empty"]}>
-              {tt("noPlannedContribution", "Nothing planned yet that contributes to this nutrient")}
-            </p>
-          )}
+            {!loading && plannedRows.length === 0 && (
+              <p className={styles["empty"]}>
+                {tt("noPlannedContribution", "Nothing planned yet that contributes to this nutrient")}
+              </p>
+            )}
 
-          {!loading &&
-            plannedRows.map((row) => (
-              <div className={styles["row"]} key={`planned-${row.productId}-${row.grams}`}>
-                <div className={styles["row-left"]}>
-                  <Image src={row.image} alt={row.name} width={32} height={32} />
-                  <span className={styles["row-name"]}>
-                    {row.name} ({row.grams}g)
+            {!loading &&
+              plannedRows.map((row) => (
+                <div className={styles["row"]} key={`planned-${row.productId}-${row.grams}`}>
+                  <div className={styles["row-left"]}>
+                    <Image src={row.image} alt={row.name} width={32} height={32} />
+                    <span className={styles["row-name"]}>
+                      {row.name} ({row.grams}g)
+                    </span>
+                  </div>
+                  <span className={styles["row-value"]}>
+                    {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
                   </span>
                 </div>
-                <span className={styles["row-value"]}>
-                  {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
-                </span>
-              </div>
-            ))}
+              ))}
 
-          <div className={styles["divider"]} />
+            <div className={styles["divider"]} />
 
-          <h3 className={styles["section-title"]}>
-            {tt("topProductsTitle", "Foods rich in this nutrient")}
-          </h3>
+            <h3 className={styles["section-title"]}>
+              {tt("topProductsTitle", "Foods rich in this nutrient")}
+            </h3>
 
-          {topProductsLoading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
+            {topProductsLoading && <p className={styles["empty"]}>{tt("loading", "Loading...")}</p>}
 
-          {!topProductsLoading && topProducts.length === 0 && (
-            <p className={styles["empty"]}>{tt("noTopProducts", "No data available")}</p>
-          )}
+            {!topProductsLoading && topProducts.length === 0 && (
+              <p className={styles["empty"]}>{tt("noTopProducts", "No data available")}</p>
+            )}
 
-          {!topProductsLoading &&
-            topProducts.map((product) => (
-              <div className={styles["row"]} key={product.productId}>
-                <div className={styles["row-left"]}>
-                  <Image src={product.image} alt={product.name} width={32} height={32} />
-                  <span className={styles["row-name"]}>{product.name}</span>
+            {!topProductsLoading &&
+              topProducts.map((product) => (
+                <div className={styles["row"]} key={product.productId}>
+                  <div className={styles["row-left"]}>
+                    <Image src={product.image} alt={product.name} width={32} height={32} />
+                    <span className={styles["row-name"]}>{product.name}</span>
+                  </div>
+                  <span className={styles["row-value"]}>
+                    {product.amountLabel} {tt("per100g", "/ 100g")}
+                  </span>
                 </div>
-                <span className={styles["row-value"]}>
-                  {product.amountLabel} {tt("per100g", "/ 100g")}
-                </span>
-              </div>
-            ))}
+              ))}
+          </div>
+
+          <button type="button" className={styles["close-btn"]} onClick={onClose}>
+            {tt("closeBtn", "Close")}
+          </button>
         </div>
-
-        <button type="button" className={styles["close-btn"]} onClick={onClose}>
-          {tt("closeBtn", "Close")}
-        </button>
       </div>
-    </div>
+    </BodyPortal>
   );
 };
 

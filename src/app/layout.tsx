@@ -12,6 +12,7 @@ import BackButtonHandler from "@/components/BackButtonHandler";
 import PageTransitionProvider from "@/components/pageTransition/PageTransition";
 import PagePrefetcher from "@/components/pageTransition/PagePrefetcher";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
+import BottomNav from "@/components/bottomNav/BottomNav";
 import { Signika, Inter } from "next/font/google";
 import WaterReminderSync from "@/components/WaterReminderSync";
 
@@ -84,7 +85,12 @@ export default function RootLayout({
               <PagePrefetcher />
               <AnalyticsTracker />
               <WaterReminderSync />
-              <PageTransitionProvider>{children}</PageTransitionProvider>
+              <PageTransitionProvider>
+                {children}
+                {/* Один навбар на всё приложение: не перерисовывается и не
+                    анимируется при переходах. Рендерится порталом в body. */}
+                <BottomNav />
+              </PageTransitionProvider>
             </AddFoodProvider>
           </LanguageProvider>
         </DBProvider>

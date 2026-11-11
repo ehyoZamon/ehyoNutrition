@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useLocale } from "next-intl";
-import BottomNav from "@/components/bottomNav/BottomNav";
 import ProductInfoModule, {
   ProductInfoData,
 } from "@/components/product-info/productInfoModule";
@@ -148,7 +147,6 @@ const ProductInfoClient = () => {
         )}
       </div>
 
-      <BottomNav />
     </div>
   );
 };

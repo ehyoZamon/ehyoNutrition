@@ -7,7 +7,6 @@ import { format, subDays } from "date-fns";
 import { ru, enUS } from "date-fns/locale";
 
 import styles from "./statistics.module.css";
-import BottomNav from "@/components/bottomNav/BottomNav";
 import { useAddFood } from "@/components/food-diary/addFoodProvider";
 import StatsSummary, { SummaryItem } from "@/components/statistics/statsSummary";
 import CaloriesChart from "@/components/statistics/caloriesChart";
@@ -457,7 +456,6 @@ const StatisticsClient = () => {
         </div>
       </div>
 
-      <BottomNav />
     </div>
   );
 };

@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import styles from "./settings.module.css";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
-import BottomNav from "@/components/bottomNav/BottomNav";
 
 import {
   Gender,
@@ -419,8 +418,7 @@ const SettingsClient = () => {
         </div>
       </div>
 
-      <BottomNav/>
-
+      
     </div>
   );
 };

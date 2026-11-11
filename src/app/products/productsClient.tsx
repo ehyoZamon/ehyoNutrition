@@ -30,7 +30,6 @@ import {
   type ProductIndex,
 } from "@/lib/productsIndex";
 import ProductDetailSheet from "@/components/ProductDetailSheet/ProductDetailSheet";
-import BottomNav from "@/components/bottomNav/BottomNav";
 import ProductMacros from "@/components/productMacros/ProductMacros";
 import { useCategoryName } from "@/lib/categoryName";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
@@ -351,8 +350,7 @@ const ProductsClient = () => {
         </div>
       </div>
 
-      <BottomNav />
-
+      
       {/* 🧾 Вкладка с составом продукта */}
       {openedProduct && (
         <ProductDetailSheet

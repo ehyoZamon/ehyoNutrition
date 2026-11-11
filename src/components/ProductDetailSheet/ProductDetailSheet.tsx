@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 
 import styles from "./ProductDetailSheet.module.css";
+import BodyPortal from "@/components/BodyPortal";
 import { parseAmount } from "@/lib/nutrientFormat";
 import { loadProductDetail, type ProductDetail } from "@/lib/productDetail";
 import { loadProductInfo } from "@/lib/productInfoShards";
@@ -181,98 +182,100 @@ const ProductDetailSheet = ({
   const listNutrients = [...macro.slice(3), ...(detail?.microNutrients ?? [])];
 
   return (
-    <div className={styles.overlay} onClick={handleClose}>
-      <div
-        className={`${styles.sheet} ${visible ? styles.sheetVisible : ""}`}
-        onClick={(e) => e.stopPropagation()}
-        role="dialog"
-        aria-modal="true"
-        aria-label={basicInfo.name}
-      >
-        <div className={styles.grabber} />
+    <BodyPortal>
+      <div className={styles.overlay} onClick={handleClose}>
+        <div
+          className={`${styles.sheet} ${visible ? styles.sheetVisible : ""}`}
+          onClick={(e) => e.stopPropagation()}
+          role="dialog"
+          aria-modal="true"
+          aria-label={basicInfo.name}
+        >
+          <div className={styles.grabber} />
 
-        <div className={styles.scrollArea}>
-          <div className={styles.container}>
-            <div className={styles.avatarWrap}>
-              <div className={styles.avatarCircle}>
-                <Image
-                  src={basicInfo.image}
-                  alt={basicInfo.name}
-                  width={64}
-                  height={64}
-                />
+          <div className={styles.scrollArea}>
+            <div className={styles.container}>
+              <div className={styles.avatarWrap}>
+                <div className={styles.avatarCircle}>
+                  <Image
+                    src={basicInfo.image}
+                    alt={basicInfo.name}
+                    width={64}
+                    height={64}
+                  />
+                </div>
               </div>
-            </div>
 
-            {/* Заголовок — локализованное имя из products.json, а не английское из detail */}
-            <h2 className={styles.title}>{basicInfo.name}</h2>
+              {/* Заголовок — локализованное имя из products.json, а не английское из detail */}
+              <h2 className={styles.title}>{basicInfo.name}</h2>
 
-            {(macroCalories || macro.length > 0) && (
-              <div className={styles.macroBand}>
-                {macroCalories && (
-                  <div className={styles.macroCol}>
-                    <span className={styles.macroLabel}>{nutrientName(macroCalories)}</span>
-                    <span className={styles.macroValue}>
-                      {localizeUnits(parseAmount(macroCalories.amount).value, translateUnit)}
-                    </span>
-                  </div>
-                )}
-                {macro.slice(0, 3).map((n) => {
+              {(macroCalories || macro.length > 0) && (
+                <div className={styles.macroBand}>
+                  {macroCalories && (
+                    <div className={styles.macroCol}>
+                      <span className={styles.macroLabel}>{nutrientName(macroCalories)}</span>
+                      <span className={styles.macroValue}>
+                        {localizeUnits(parseAmount(macroCalories.amount).value, translateUnit)}
+                      </span>
+                    </div>
+                  )}
+                  {macro.slice(0, 3).map((n) => {
+                    const { value } = parseAmount(n.amount);
+                    return (
+                      <div className={styles.macroCol} key={n.id}>
+                        <span className={styles.macroLabel}>{nutrientName(n)}</span>
+                        <span className={styles.macroValue}>{localizeUnits(value, translateUnit)}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {loading && !detail && (
+                <div className={styles.loadingRows}>
+                  {[...Array(6)].map((_, i) => (
+                    <div className={styles.skeletonRow} key={i} />
+                  ))}
+                </div>
+              )}
+
+              <div className={styles.list}>
+                {listNutrients.map((n) => {
                   const { value } = parseAmount(n.amount);
+                  const percent = percentBySlug.get(n.slug);
                   return (
-                    <div className={styles.macroCol} key={n.id}>
-                      <span className={styles.macroLabel}>{nutrientName(n)}</span>
-                      <span className={styles.macroValue}>{localizeUnits(value, translateUnit)}</span>
+                    <div className={styles.row} key={`${n.id}-${n.slug}`}>
+                      <span className={styles.rowName}>{nutrientName(n)}</span>
+                      <span className={styles.rowRight}>
+                        <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
+                        {percent !== undefined && (
+                          <span className={styles.rowDv}>
+                            / {percent}% {dailyValLabel}
+                          </span>
+                        )}
+                      </span>
                     </div>
                   );
                 })}
               </div>
-            )}
+            </div>
+          </div>
 
-            {loading && !detail && (
-              <div className={styles.loadingRows}>
-                {[...Array(6)].map((_, i) => (
-                  <div className={styles.skeletonRow} key={i} />
-                ))}
-              </div>
-            )}
-
-            <div className={styles.list}>
-              {listNutrients.map((n) => {
-                const { value } = parseAmount(n.amount);
-                const percent = percentBySlug.get(n.slug);
-                return (
-                  <div className={styles.row} key={`${n.id}-${n.slug}`}>
-                    <span className={styles.rowName}>{nutrientName(n)}</span>
-                    <span className={styles.rowRight}>
-                      <span className={styles.rowValue}>{localizeUnits(value, translateUnit)}</span>
-                      {percent !== undefined && (
-                        <span className={styles.rowDv}>
-                          / {percent}% {dailyValLabel}
-                        </span>
-                      )}
-                    </span>
-                  </div>
-                );
-              })}
+          <div className={styles.closeButtonWrap}>
+            <div className={styles.buttonsRow}>
+              <button type="button" className={styles.closeButton} onClick={handleClose}>
+                {t("close")}
+              </button>
+              {hasMoreInfo && (
+                <Link href={moreHref} className={styles.moreButton}>
+                  {isRu ? "Больше" : "More"}
+                </Link>
+              )}
             </div>
           </div>
         </div>
-
-        <div className={styles.closeButtonWrap}>
-          <div className={styles.buttonsRow}>
-            <button type="button" className={styles.closeButton} onClick={handleClose}>
-              {t("close")}
-            </button>
-            {hasMoreInfo && (
-              <Link href={moreHref} className={styles.moreButton}>
-                {isRu ? "Больше" : "More"}
-              </Link>
-            )}
-          </div>
-        </div>
       </div>
-    </div>
+    </BodyPortal>
   );
 };
 

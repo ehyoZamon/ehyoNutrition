@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 
 import styles from "./VitaminDetailSheet.module.css";
+import BodyPortal from "@/components/BodyPortal";
 
 type DRIGroupKey = "Children" | "Male" | "Female";
 
@@ -188,112 +189,114 @@ const VitaminDetailSheet = ({ slug, basicInfo, onClose }: Props) => {
   const groups = GROUP_ORDER.filter(({ key }) => entry?.DRI?.[key]);
 
   return (
-    <div className={styles.overlay} onClick={handleClose}>
-      <div
-        className={`${styles.sheet} ${visible ? styles.sheetVisible : ""}`}
-        onClick={(e) => e.stopPropagation()}
-        role="dialog"
-        aria-modal="true"
-        aria-label={basicInfo.name}
-      >
-        <div className={styles.grabber} />
+    <BodyPortal>
+      <div className={styles.overlay} onClick={handleClose}>
+        <div
+          className={`${styles.sheet} ${visible ? styles.sheetVisible : ""}`}
+          onClick={(e) => e.stopPropagation()}
+          role="dialog"
+          aria-modal="true"
+          aria-label={basicInfo.name}
+        >
+          <div className={styles.grabber} />
 
-        <div className={styles.scrollArea}>
-          <div className={styles.container}>
-            <div className={styles.avatarWrap}>
-              <div className={styles.avatarCircle}>
-                <span
-                  className={styles.moleculeGlyph}
-                  dangerouslySetInnerHTML={{ __html: basicInfo.image }}
-                />
-              </div>
-            </div>
-
-            <h2 className={styles.title}>{basicInfo.name}</h2>
-
-            <div className={styles.sectionHeader}>{t("title")}</div>
-
-            {/* Shown whenever this nutrient has a configured UL nuance,
-                regardless of which age group the person falls into — the
-                context (e.g. "this limit is about supplements, not food")
-                is useful before it becomes relevant, not just after. */}
-            {!loading && entry?.ulNote && (
-              <p
-                style={{
-                  fontFamily: "var(--font-family)",
-                  fontSize: 12,
-                  color: "#9a9a9a",
-                  textAlign: "center",
-                  lineHeight: 1.35,
-                  margin: "-4px 0 4px",
-                  padding: "0 8px",
-                }}
-              >
-                {entry.ulNote[noteLocale] ?? entry.ulNote.en ?? entry.ulNote.ru}
-              </p>
-            )}
-
-            {loading && !entry && (
-              <div className={styles.loadingRows}>
-                {[...Array(6)].map((_, i) => (
-                  <div className={styles.skeletonRow} key={i} />
-                ))}
-              </div>
-            )}
-
-            {!loading && groups.length === 0 && (
-              <div className={styles.emptyState}>{t("noData")}</div>
-            )}
-
-            {groups.map(({ key, labelId }) => {
-              const ages = entry?.DRI?.[key] ?? {};
-              return (
-                <div className={styles.group} key={key}>
-                  <h3 className={styles.groupTitle}>{t(`groups.${labelId}`)}</h3>
-                  <div className={styles.list}>
-                    {Object.entries(ages).map(([ageLabel, values]) => {
-                      const ageId = AGE_LABEL_IDS[ageLabel];
-                      const main = primaryDRIValue(values);
-                      const ul = values.UL;
-                      return (
-                        <div className={styles.row} key={ageLabel}>
-                          <span className={styles.rowName}>
-                            {ageId ? t(`ages.${ageId}`) : ageLabel}
-                          </span>
-                          <span className={styles.rowValue}>
-                            {main ? localizeDRIValue(main, translateUnit) : "—"}
-                            {isRealUL(ul) && (
-                              <span
-                                style={{
-                                  display: "block",
-                                  fontSize: 11,
-                                  fontWeight: 400,
-                                  opacity: 0.65,
-                                }}
-                              >
-                                {tSafe("ulLabel", "UL")} {localizeDRIValue(ul, translateUnit)}
-                              </span>
-                            )}
-                          </span>
-                        </div>
-                      );
-                    })}
-                  </div>
+          <div className={styles.scrollArea}>
+            <div className={styles.container}>
+              <div className={styles.avatarWrap}>
+                <div className={styles.avatarCircle}>
+                  <span
+                    className={styles.moleculeGlyph}
+                    dangerouslySetInnerHTML={{ __html: basicInfo.image }}
+                  />
                 </div>
-              );
-            })}
+              </div>
+
+              <h2 className={styles.title}>{basicInfo.name}</h2>
+
+              <div className={styles.sectionHeader}>{t("title")}</div>
+
+              {/* Shown whenever this nutrient has a configured UL nuance,
+                  regardless of which age group the person falls into — the
+                  context (e.g. "this limit is about supplements, not food")
+                  is useful before it becomes relevant, not just after. */}
+              {!loading && entry?.ulNote && (
+                <p
+                  style={{
+                    fontFamily: "var(--font-family)",
+                    fontSize: 12,
+                    color: "#9a9a9a",
+                    textAlign: "center",
+                    lineHeight: 1.35,
+                    margin: "-4px 0 4px",
+                    padding: "0 8px",
+                  }}
+                >
+                  {entry.ulNote[noteLocale] ?? entry.ulNote.en ?? entry.ulNote.ru}
+                </p>
+              )}
+
+              {loading && !entry && (
+                <div className={styles.loadingRows}>
+                  {[...Array(6)].map((_, i) => (
+                    <div className={styles.skeletonRow} key={i} />
+                  ))}
+                </div>
+              )}
+
+              {!loading && groups.length === 0 && (
+                <div className={styles.emptyState}>{t("noData")}</div>
+              )}
+
+              {groups.map(({ key, labelId }) => {
+                const ages = entry?.DRI?.[key] ?? {};
+                return (
+                  <div className={styles.group} key={key}>
+                    <h3 className={styles.groupTitle}>{t(`groups.${labelId}`)}</h3>
+                    <div className={styles.list}>
+                      {Object.entries(ages).map(([ageLabel, values]) => {
+                        const ageId = AGE_LABEL_IDS[ageLabel];
+                        const main = primaryDRIValue(values);
+                        const ul = values.UL;
+                        return (
+                          <div className={styles.row} key={ageLabel}>
+                            <span className={styles.rowName}>
+                              {ageId ? t(`ages.${ageId}`) : ageLabel}
+                            </span>
+                            <span className={styles.rowValue}>
+                              {main ? localizeDRIValue(main, translateUnit) : "—"}
+                              {isRealUL(ul) && (
+                                <span
+                                  style={{
+                                    display: "block",
+                                    fontSize: 11,
+                                    fontWeight: 400,
+                                    opacity: 0.65,
+                                  }}
+                                >
+                                  {tSafe("ulLabel", "UL")} {localizeDRIValue(ul, translateUnit)}
+                                </span>
+                              )}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
 
             
+            </div>
+          </div>
+
+          <div className={styles.closeButtonWrap}>
+            <button type="button" className={styles.closeButton} onClick={handleClose}>
+              {t("close")}
+            </button>
           </div>
         </div>
-
-        <div className={styles.closeButtonWrap}>
-          <button type="button" className={styles.closeButton} onClick={handleClose}>
-            {t("close")}
-          </button>
-        </div>
       </div>
-    </div>
+    </BodyPortal>
   );
 };
 

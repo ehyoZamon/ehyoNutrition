@@ -37,7 +37,6 @@ import {
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useAddFood, type MealType, type MealFilter } from "@/components/food-diary/addFoodProvider";
 
-import BottomNav from "@/components/bottomNav/BottomNav";
 import { AnalyticsEvent, track } from "@/lib/analytics";
 
 import {
@@ -995,7 +994,6 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         </div>
       )}
 
-      <BottomNav/>
       {/* Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule) */}
       <NutrientDetailSheet
         open={isNutrientSheetOpen}
