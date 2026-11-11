@@ -13,6 +13,7 @@ import PageTransitionProvider from "@/components/pageTransition/PageTransition";
 import PagePrefetcher from "@/components/pageTransition/PagePrefetcher";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import { Signika, Inter } from "next/font/google";
+import WaterReminderSync from "@/components/WaterReminderSync";
 
 const signika = Signika({
   subsets: ["latin"],
@@ -82,6 +83,7 @@ export default function RootLayout({
               <SplashGate />
               <PagePrefetcher />
               <AnalyticsTracker />
+              <WaterReminderSync />
               <PageTransitionProvider>{children}</PageTransitionProvider>
             </AddFoodProvider>
           </LanguageProvider>

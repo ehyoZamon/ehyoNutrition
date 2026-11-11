@@ -59,6 +59,7 @@ import {
   getWaterByDate,
   setWaterByDate,
 } from "@/lib/water";
+import { requestWaterReminderSync } from "@/lib/waterReminders";
 
 import productsRu from "@/data/ru/products.json";
 import productsEn from "@/data/en/products.json";
@@ -259,6 +260,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     try {
       await setWaterByDate(format(selectedDate, "yyyy-MM-dd"), next);
       track(deltaMl > 0 ? AnalyticsEvent.WaterAdded : AnalyticsEvent.WaterRemoved);
+      // Прогресс изменился — перепланируем напоминания на сегодня
+      requestWaterReminderSync();
     } catch (e) {
       console.error("Не удалось сохранить воду:", e);
       setWaterMl(previous);

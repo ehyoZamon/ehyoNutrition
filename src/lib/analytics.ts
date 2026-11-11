@@ -40,6 +40,11 @@ export const AnalyticsEvent = {
   NutrientDetailOpen: "nutrient_detail_open",
   WaterAdded: "water_added",
   WaterRemoved: "water_removed",
+  WaterReminderEnabled: "water_reminder_enabled",
+  WaterReminderDisabled: "water_reminder_disabled",
+  WaterReminderPermissionDenied: "water_reminder_permission_denied",
+  WaterReminderSettingsChanged: "water_reminder_settings_changed",
+  WaterReminderOpened: "water_reminder_opened",
 
   // Прочее
   OnboardingStarted: "onboarding_started",

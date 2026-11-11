@@ -25,6 +25,8 @@ import {
   setAnalyticsEnabled,
   track,
 } from "@/lib/analytics";
+import WaterReminderSettingsBlock from "@/components/settings/waterReminderSettings";
+import { requestWaterReminderSync } from "@/lib/waterReminders";
 
 const DEFAULT_PROFILE: UserProfile = {
   name: "",
@@ -133,6 +135,8 @@ const SettingsClient = () => {
   const persist = async (next: UserProfile) => {
     try {
       await saveUserProfile(next);
+      // Вес и пол меняют норму воды — обновляем расписание напоминаний
+      requestWaterReminderSync();
     } catch (e) {
       console.error("Не удалось сохранить профиль:", e);
     }
@@ -390,6 +394,9 @@ const SettingsClient = () => {
               </p>
             )}
           </div>
+
+          {/* Water reminders */}
+          <WaterReminderSettingsBlock />
 
           {/* Analytics consent */}
           <div className={styles["analytics-section"]}>

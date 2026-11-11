@@ -409,5 +409,23 @@
     "liquor-and-cocktails": "Liquor and cocktails",
     "wine": "Wine",
     "protein-and-nutritional-powders": "Protein and nutritional powders"
+  },
+  "WaterReminder": {
+    "title": "Water reminders",
+    "hint": "Gentle notifications during the day. No reminders once your goal is reached.",
+    "intervalLabel": "How often to remind",
+    "interval90": "1.5 h",
+    "interval120": "2 h",
+    "interval180": "3 h",
+    "from": "From",
+    "to": "To",
+    "permissionDenied": "Notifications are blocked. Allow them in Android settings: Apps → NutritionLib → Notifications.",
+    "channelName": "Water reminders",
+    "channelDescription": "Reminders to drink water during the day",
+    "notifTitle": "Time for some water 💧",
+    "notifProgress": "{drunk} of {goal} L so far. One glass gets you closer.",
+    "notifGeneric1": "Take a few sips of water",
+    "notifGeneric2": "A glass of water now is a good move",
+    "notifGeneric3": "Don't forget your water"
   }
 }

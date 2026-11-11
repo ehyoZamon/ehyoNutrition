@@ -24,6 +24,10 @@ const config: CapacitorConfig = {
       launchAutoHide: false,
       backgroundColor: '#fefefe',
     },
+    LocalNotifications: {
+      smallIcon: "ic_stat_water",   // см. п. 3
+      iconColor: "#8bd3fb",
+    }
   },
 };
 
