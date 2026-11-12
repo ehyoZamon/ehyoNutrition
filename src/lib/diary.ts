@@ -1,5 +1,6 @@
 // lib/diary.ts
 import { getDB, persistWeb } from "./db";
+import { requestMealReminderSync } from "./reminderEvents";
 
 export type DiaryEntryRow = {
   id: number;
@@ -47,6 +48,8 @@ export async function addDiaryEntry(
     [productId, amount, date, meal, status]
   );
   await persistWeb();
+  // Новое блюдо в Daily Plan — нужно (пере)запланировать напоминание о приёме пищи
+  if (status === "planned") requestMealReminderSync();
 }
 
 // Обновляет количество (amount) уже существующей записи по id — используется
@@ -74,6 +77,8 @@ export async function confirmPlannedEntry(id: number, date: string) {
     [id, date]
   );
   await persistWeb();
+  // Блюдо съедено — убираем его из напоминания
+  requestMealReminderSync();
 }
 
 export async function deleteDiaryEntry(id: number, date: string) {
@@ -83,6 +88,8 @@ export async function deleteDiaryEntry(id: number, date: string) {
   await db.run(`DELETE FROM diary WHERE id = ?`, [id]);
   await cleanupDiaryDateIfEmpty(date);
   await persistWeb();
+  // Могла быть удалена запись из Daily Plan
+  requestMealReminderSync();
 }
 
 export async function getDiaryEntriesByDate(date: string): Promise<DiaryEntryRow[]> {

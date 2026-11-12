@@ -121,7 +121,7 @@
       "breakfast": "Завтрак",
       "lunch": "Обед",
       "dinner": "Ужин",
-      "snacks": "Закуски",
+      "snacks": "Перекусы",
       "all": "Все",
       "uncategorized": "Другое"
     },
@@ -428,5 +428,23 @@
     "notifGeneric1": "Сделайте несколько глотков воды",
     "notifGeneric2": "Стакан воды сейчас — хороший ход",
     "notifGeneric3": "Не забудьте про воду"
+  },
+  "MealReminder": {
+    "title": "Напоминания о еде",
+    "hint": "Придут в выбранное время, если в Daily Plan на сегодня есть неотмеченные блюда этого приёма пищи.",
+    "breakfast": "Завтрак",
+    "lunch": "Обед",
+    "dinner": "Ужин",
+    "snacks": "Перекус",
+    "permissionDenied": "Уведомления запрещены. Разрешите их в настройках Android: Приложения → NutritionLib → Уведомления.",
+    "channelName": "Напоминания о еде",
+    "channelDescription": "Напоминания о запланированных приёмах пищи",
+    "notifTitleBreakfast": "Время завтрака 🍳",
+    "notifTitleLunch": "Время обеда 🍲",
+    "notifTitleDinner": "Время ужина 🍽️",
+    "notifTitleSnacks": "Время перекуса 🍎",
+    "notifBody": "В плане: {items}",
+    "notifBodyMore": "В плане: {items} и ещё {count}",
+    "notifBodyFallback": "Загляните в Daily Plan на сегодня"
   }
 }

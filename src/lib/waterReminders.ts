@@ -88,7 +88,7 @@ export const SYNC_EVENT = "water-reminders:sync";
 
 /**
  * Попросить перепланировать напоминания. Можно вызывать откуда угодно
- * (после изменения воды, веса, настроек) — слушает WaterReminderSync.
+ * (после изменения воды, веса, настроек) — слушает MealReminderSync (components/mealReminderSync.tsx).
  */
 export function requestWaterReminderSync(): void {
   if (typeof window === "undefined") return;

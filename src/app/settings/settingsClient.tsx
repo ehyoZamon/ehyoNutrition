@@ -26,6 +26,7 @@ import {
 } from "@/lib/analytics";
 import WaterReminderSettingsBlock from "@/components/settings/waterReminderSettings";
 import { requestWaterReminderSync } from "@/lib/waterReminders";
+import MealReminderSettingsBlock from "@/components/settings/mealReminderSettings";
 
 const DEFAULT_PROFILE: UserProfile = {
   name: "",
@@ -396,6 +397,9 @@ const SettingsClient = () => {
 
           {/* Water reminders */}
           <WaterReminderSettingsBlock />
+
+          {/* Meal reminders */}
+          <MealReminderSettingsBlock />
 
           {/* Analytics consent */}
           <div className={styles["analytics-section"]}>

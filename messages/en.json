@@ -427,5 +427,23 @@
     "notifGeneric1": "Take a few sips of water",
     "notifGeneric2": "A glass of water now is a good move",
     "notifGeneric3": "Don't forget your water"
+  },
+  "MealReminder": {
+    "title": "Meal reminders",
+    "hint": "Sent at the chosen time if today's Daily Plan has unchecked dishes for that meal.",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "snacks": "Snacks",
+    "permissionDenied": "Notifications are blocked. Allow them in Android settings: Apps → NutritionLib → Notifications.",
+    "channelName": "Meal reminders",
+    "channelDescription": "Reminders about planned meals",
+    "notifTitleBreakfast": "Breakfast time 🍳",
+    "notifTitleLunch": "Lunch time 🍲",
+    "notifTitleDinner": "Dinner time 🍽️",
+    "notifTitleSnacks": "Snack time 🍎",
+    "notifBody": "Planned: {items}",
+    "notifBodyMore": "Planned: {items} and {count} more",
+    "notifBodyFallback": "Check today's Daily Plan"
   }
 }

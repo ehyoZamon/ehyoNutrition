@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 
 import styles from "./vitamins.module.css";
-import { loadFavorites, toggleVitaminFavorite } from "@/lib/favorites";
 import VitaminDetailSheet from "@/components/VitaminDetailSheet/VitaminDetailSheet";
 
 import BottomNav from "@/components/bottomNav/BottomNav";
@@ -21,7 +20,6 @@ type VitaminItem = {
   unit: string;
   benefit: string;
   image: string;
-  favorite: boolean;
   link: string;
   organs?: string[];
 };
@@ -53,24 +51,13 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
 
   // Синхронизируем состояние витаминов, если язык изменился на лету
   useEffect(() => {
-    const store = loadFavorites();
     setVitamins(
       currentData.map((vitamin) => ({
         ...vitamin,
-        favorite: store.vitamins.includes(vitamin.id),
       }))
     );
   }, [currentData]);
 
-  const toggleFavorite = (id: number) => {
-    const store = toggleVitaminFavorite(id);
-    setVitamins((current) =>
-      current.map((vitamin) => ({
-        ...vitamin,
-        favorite: store.vitamins.includes(vitamin.id),
-      }))
-    );
-  };
 
   const filteredVitamins = useMemo(() => {
     const query = search.toLowerCase();
@@ -159,21 +146,6 @@ const VitaminsClient = ({ vitaminsEn, vitaminsRu }: Props) => {
                 </div>
               </div>
 
-              <div
-                className={styles["put-to-favorite"]}
-                onClick={() => toggleFavorite(vitamin.id)}
-              >
-                <Image
-                  src={
-                    vitamin.favorite
-                      ? "/vitamins/heart-filled.svg"
-                      : "/vitamins/heart.svg"
-                  }
-                  alt="favorite"
-                  width={24}
-                  height={24}
-                />
-              </div>
             </div>
           ))}
 

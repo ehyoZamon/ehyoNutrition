@@ -14,7 +14,7 @@ import PagePrefetcher from "@/components/pageTransition/PagePrefetcher";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import BottomNav from "@/components/bottomNav/BottomNav";
 import { Signika, Inter } from "next/font/google";
-import WaterReminderSync from "@/components/WaterReminderSync";
+import MealReminderSync from "@/components/MealReminderSync";
 
 const signika = Signika({
   subsets: ["latin"],
@@ -84,7 +84,7 @@ export default function RootLayout({
               <SplashGate />
               <PagePrefetcher />
               <AnalyticsTracker />
-              <WaterReminderSync />
+              <MealReminderSync />
               <PageTransitionProvider>
                 {children}
                 {/* Один навбар на всё приложение: не перерисовывается и не

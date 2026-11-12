@@ -45,6 +45,11 @@ export const AnalyticsEvent = {
   WaterReminderPermissionDenied: "water_reminder_permission_denied",
   WaterReminderSettingsChanged: "water_reminder_settings_changed",
   WaterReminderOpened: "water_reminder_opened",
+  MealReminderEnabled: "meal_reminder_enabled",
+  MealReminderDisabled: "meal_reminder_disabled",
+  MealReminderPermissionDenied: "meal_reminder_permission_denied",
+  MealReminderSettingsChanged: "meal_reminder_settings_changed",
+  MealReminderOpened: "meal_reminder_opened",
 
   // Прочее
   OnboardingStarted: "onboarding_started",

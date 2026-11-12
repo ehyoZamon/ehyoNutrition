@@ -48,7 +48,6 @@ export const MINERAL_ITEMS = [
   //{ key: "chloride", label: "Chloride" },
   { key: "manganese", label: "Manganese" },
   { key: "selenium", label: "Selenium" },
-  { key: "iodine", label: "Iodine" },
 ] as const;
 
 /* ============================================================

@@ -7,7 +7,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import styles from "./waterReminderSettings.module.css";
+import styles from "./reminderSettings.module.css";
 import { AnalyticsEvent, track } from "@/lib/analytics";
 import {
   INTERVAL_OPTIONS_MIN,

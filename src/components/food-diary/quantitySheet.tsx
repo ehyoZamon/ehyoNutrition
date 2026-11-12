@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import styles from "./quantitySheet.module.css";
+import BodyPortal from "@/components/BodyPortal";
 import { DiaryProduct } from "./addFoodSheet";
 
 // productDetails is now one file per product slug (see lib/productDetail.ts)
@@ -359,87 +360,89 @@ const QuantitySheet = ({
   };
 
   return (
-    <div className={styles["overlay"]} onClick={onClose}>
-      <div
-        className={styles["sheet"]}
-        onClick={(e) => e.stopPropagation()}
-        style={{ transform: keyboardInset ? `translateY(-${keyboardInset}px)` : undefined }}
-      >
-        <div className={styles["image-wrap"]}>
-          <div className={styles["image-circle"]}>
-            <Image src={product.image} alt={product.name} width={76} height={76} />
+    <BodyPortal>
+      <div className={styles["overlay"]} onClick={onClose}>
+        <div
+          className={styles["sheet"]}
+          onClick={(e) => e.stopPropagation()}
+          style={{ transform: keyboardInset ? `translateY(-${keyboardInset}px)` : undefined }}
+        >
+          <div className={styles["image-wrap"]}>
+            <div className={styles["image-circle"]}>
+              <Image src={product.image} alt={product.name} width={76} height={76} />
+            </div>
           </div>
-        </div>
 
         
 
-        <div className={styles["quantity-row"]}>
-          <input
-            type="number"
-            min={0}
-            className={styles["quantity-input"]}
-            value={quantity}
-            onChange={(e) => handleQuantityChange(e.target.value)}
-          />
-          <span className={styles["quantity-unit"]}>{unitLabel}</span>
-        </div>
+          <div className={styles["quantity-row"]}>
+            <input
+              type="number"
+              min={0}
+              className={styles["quantity-input"]}
+              value={quantity}
+              onChange={(e) => handleQuantityChange(e.target.value)}
+            />
+            <span className={styles["quantity-unit"]}>{unitLabel}</span>
+          </div>
 
-        <div className={styles["details-scroll"]}>
-          <h2 className={styles["product-name"]}>{product.name}</h2>
-          {macroRows.length > 0 && (
-            <div className={styles["macro-band"]}>
-              {macroRows.map((row) => (
-                <div className={styles["macro-col"]} key={row.id}>
-                  <span className={styles["macro-label"]}>
-                    {row.name}
-                  </span>
-                  <span className={styles["macro-value"]}>{row.amount}</span>
-                </div>
-              ))}
-            </div>
-          )}
+          <div className={styles["details-scroll"]}>
+            <h2 className={styles["product-name"]}>{product.name}</h2>
+            {macroRows.length > 0 && (
+              <div className={styles["macro-band"]}>
+                {macroRows.map((row) => (
+                  <div className={styles["macro-col"]} key={row.id}>
+                    <span className={styles["macro-label"]}>
+                      {row.name}
+                    </span>
+                    <span className={styles["macro-value"]}>{row.amount}</span>
+                  </div>
+                ))}
+              </div>
+            )}
 
           
-          {renderDVSection(
-            "vitamins",
-            "Vitamins",
-            dv.vitaminsOverallPercent,
-            vitaminRows,
-            visibleVitaminRows,
-            vitaminsExpanded,
-            () => setVitaminsExpanded((v) => !v)
-          )}
+            {renderDVSection(
+              "vitamins",
+              "Vitamins",
+              dv.vitaminsOverallPercent,
+              vitaminRows,
+              visibleVitaminRows,
+              vitaminsExpanded,
+              () => setVitaminsExpanded((v) => !v)
+            )}
 
-          {renderDVSection(
-            "minerals",
-            "Minerals",
-            dv.mineralsOverallPercent,
-            mineralRows,
-            visibleMineralRows,
-            mineralsExpanded,
-            () => setMineralsExpanded((v) => !v)
-          )}
-        </div>
+            {renderDVSection(
+              "minerals",
+              "Minerals",
+              dv.mineralsOverallPercent,
+              mineralRows,
+              visibleMineralRows,
+              mineralsExpanded,
+              () => setMineralsExpanded((v) => !v)
+            )}
+          </div>
 
-        <div className={styles["actions"]}>
-          <button type="button" className={styles["cancel-btn"]} onClick={onClose}>
-            {t("cancelBtn")}
-          </button>
-          {!isEdit && (
-            <button
-              type="button"
-              className={styles["plan-btn"]}
-              onClick={() => handleAdd("planned")}
-            >
-              {tt("planBtn", "Plan")}
+          <div className={styles["actions"]}>
+            <button type="button" className={styles["cancel-btn"]} onClick={onClose}>
+              {t("cancelBtn")}
             </button>
-          )}
-          <button type="button" className={styles["add-btn"]} onClick={() => handleAdd("consumed")}>
-            {actionLabel}
-          </button>
+            {!isEdit && (
+              <button
+                type="button"
+                className={styles["plan-btn"]}
+                onClick={() => handleAdd("planned")}
+              >
+                {tt("planBtn", "Plan")}
+              </button>
+            )}
+            <button type="button" className={styles["add-btn"]} onClick={() => handleAdd("consumed")}>
+              {actionLabel}
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </BodyPortal>
   );
 };
 

@@ -11,17 +11,11 @@ import {
   type KeyboardEvent,
 } from "react";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { useBackHandler } from "@/lib/backHandler";
 import { getUserProfile, type UserProfile } from "@/lib/userProfile";
 
 import styles from "./products.module.css";
-import { loadFavorites, toggleProductFavorite } from "@/lib/favorites";
-import {
-  FAVORITE_CATEGORY_FILTERS,
-  isFavoriteCategory,
-} from "@/lib/productCategories";
 import {
   getSlug,
   loadProductsIndex,
@@ -38,20 +32,16 @@ import { AnalyticsEvent, track } from "@/lib/analytics";
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
 
-// memo: при подгрузке следующих 100 и при смене избранного перерисовываются
-// только изменившиеся строки, а не весь список.
+// memo: при подгрузке следующих 100 перерисовываются только новые строки,
+// а не весь список.
 const ProductRow = memo(function ProductRow({
   product,
-  isFavorite,
   caloriesLabel,
   onOpen,
-  onToggleFavorite,
 }: {
   product: CatalogProduct;
-  isFavorite: boolean;
   caloriesLabel: string;
   onOpen: (slug: string) => void;
-  onToggleFavorite: (id: number) => void;
 }) {
   const slug = getSlug(product.link);
   const open = () => onOpen(slug);
@@ -78,15 +68,6 @@ const ProductRow = memo(function ProductRow({
           <ProductMacros slug={slug} />
         </div>
       </div>
-
-      <div className={styles["put-to-favorite"]} onClick={() => onToggleFavorite(product.id)}>
-        <Image
-          src={isFavorite ? "/heart-filled.svg" : "/heart.svg"}
-          alt="favorite"
-          width={27}
-          height={27}
-        />
-      </div>
     </div>
   );
 });
@@ -95,13 +76,8 @@ const ProductsClient = () => {
   const t = useTranslations("Products");
   const categoryName = useCategoryName();
   const locale = useLocale();
-  const searchParams = useSearchParams();
-
-  const categoryParam = searchParams.get("category");
-  const activeCategory = isFavoriteCategory(categoryParam) ? categoryParam : null;
 
   const [search, setSearch] = useState("");
-  const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [loaded, setLoaded] = useState<{ locale: string; index: ProductIndex } | null>(null);
   // категория, выбранная в горизонтальном меню под поиском (null = «Все»)
@@ -137,54 +113,26 @@ const ProductsClient = () => {
     };
   }, [locale]);
 
-  useEffect(() => {
-    const store = loadFavorites();
-    if (store?.products) {
-      setFavoriteIds(store.products);
-    }
-  }, []);
-
-  // Set вместо favoriteIds.includes(...) на каждый продукт: O(1) и без пересборки всего списка
-  const favoriteSet = useMemo(() => new Set(favoriteIds), [favoriteIds]);
-
-  const toggleFavorite = useCallback((id: number) => {
-    const store = toggleProductFavorite(id);
-    if (store?.products) {
-      setFavoriteIds(store.products);
-      track(AnalyticsEvent.FavoriteToggle, { is_favorite: store.products.includes(id) });
-    }
-  }, []);
-
   // useDeferredValue: ввод в поле остаётся отзывчивым, тяжёлая фильтрация идёт с низким приоритетом
   const deferredSearch = useDeferredValue(search);
 
-  const localeKey = locale === "ru" ? "ru" : "en";
-  const allowedCategories = activeCategory
-    ? FAVORITE_CATEGORY_FILTERS[activeCategory][localeKey]
-    : null;
-
-  // Категории для меню: из каталога, с учётом ?category=, по убыванию числа продуктов
+  // Категории для меню: из каталога, по убыванию числа продуктов
   const categoryOptions = useMemo(() => {
     if (!index) return [];
-    const allow = allowedCategories ? new Set(allowedCategories) : null;
     const counts = new Map<string, number>();
     for (const p of index.all) {
-      if (allow && !allow.has(p.category)) continue;
       counts.set(p.category, (counts.get(p.category) ?? 0) + 1);
     }
     return Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1])
       .map(([category]) => category);
-  }, [index, allowedCategories]);
+  }, [index]);
 
-  // Выбранная категория действительна, только если она есть в текущем списке (смена языка / URL)
+  // Выбранная категория действительна, только если она есть в текущем списке (например, после смены языка)
   const activeChip =
     selectedCategory && categoryOptions.includes(selectedCategory) ? selectedCategory : null;
 
-  const effectiveCategories = useMemo(
-    () => (activeChip ? [activeChip] : allowedCategories),
-    [activeChip, allowedCategories]
-  );
+  const effectiveCategories = useMemo(() => (activeChip ? [activeChip] : null), [activeChip]);
 
   // повторный клик по активной категории сбрасывает выбор
   const handleChipClick = useCallback((category: string | null, el: HTMLElement) => {
@@ -248,7 +196,7 @@ const ProductsClient = () => {
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
     contentRef.current?.scrollTo({ top: 0 });
-  }, [deferredSearch, activeCategory, activeChip, index]);
+  }, [deferredSearch, activeChip, index]);
 
   // Lazy loading: когда маркер в конце списка подходит к экрану — показываем ещё 100
   useEffect(() => {
@@ -331,10 +279,8 @@ const ProductsClient = () => {
                     <ProductRow
                       key={product.id}
                       product={product}
-                      isFavorite={favoriteSet.has(product.id)}
                       caloriesLabel={caloriesLabel}
                       onOpen={handleOpen}
-                      onToggleFavorite={toggleFavorite}
                     />
                   ))}
                 </div>

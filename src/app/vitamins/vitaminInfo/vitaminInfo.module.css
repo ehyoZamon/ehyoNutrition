@@ -3,6 +3,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fefefe;
   font-family: var(--second-family);
   font-weight: 400;
@@ -16,6 +18,7 @@
   flex-shrink: 0;
   padding: 16px 16px 8px;
   padding-top: max(20px, calc(env(safe-area-inset-top) + 20px));
+  max-width: clamp(300px, 90vw, 500px);
 }
 
 .header-row {
@@ -50,7 +53,7 @@
 /* ---- Content ---- */
 .content-container {
   flex: 1;
-  width: 100%;
+  max-width: clamp(300px, 90vw, 500px);
   min-height: 0;
   overflow: hidden;
 }

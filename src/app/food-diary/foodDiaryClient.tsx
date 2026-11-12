@@ -20,6 +20,7 @@ import {
 } from "date-fns";
 import { ru, enUS } from "date-fns/locale";
 import styles from "./foodDiary.module.css";
+import BodyPortal from "@/components/BodyPortal";
 import DailyValueModule, { NutrientClickInfo } from "@/components/daily-value/dailyValueModule";
 import { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
@@ -967,31 +968,33 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
 
       {/* Подтверждение запланированного приёма пищи (чекбокс в Daily Plan) */}
       {isPlanConfirmOpen && confirmingPlanEntry && (
-        <div className={styles["plan-confirm-overlay"]} onClick={handlePlanConfirmNo}>
-          <div className={styles["plan-confirm-sheet"]} onClick={(e) => e.stopPropagation()}>
-            <div className={styles["plan-confirm-product"]}>
-              <Image src={confirmingPlanEntry.emoji} alt="" width={40} height={40} />
-              <span>
-                {confirmingPlanEntry.label} - {confirmingPlanEntry.amount}
-              </span>
-            </div>
-            <p className={styles["plan-confirm-title"]}>
-              {tt("confirmPlannedMealTitle", "Have you consumed this planned meal?")}
-            </p>
-            <div className={styles["plan-confirm-actions"]}>
-              <button type="button" className={styles["plan-confirm-no"]} onClick={handlePlanConfirmNo}>
-                {tt("no", "No")}
-              </button>
-              <button
-                type="button"
-                className={styles["plan-confirm-yes"]}
-                onClick={handlePlanConfirmYes}
-              >
-                {tt("yes", "Yes")}
-              </button>
+        <BodyPortal>
+          <div className={styles["plan-confirm-overlay"]} onClick={handlePlanConfirmNo}>
+            <div className={styles["plan-confirm-sheet"]} onClick={(e) => e.stopPropagation()}>
+              <div className={styles["plan-confirm-product"]}>
+                <Image src={confirmingPlanEntry.emoji} alt="" width={40} height={40} />
+                <span>
+                  {confirmingPlanEntry.label} - {confirmingPlanEntry.amount}
+                </span>
+              </div>
+              <p className={styles["plan-confirm-title"]}>
+                {tt("confirmPlannedMealTitle", "Have you consumed this planned meal?")}
+              </p>
+              <div className={styles["plan-confirm-actions"]}>
+                <button type="button" className={styles["plan-confirm-no"]} onClick={handlePlanConfirmNo}>
+                  {tt("no", "No")}
+                </button>
+                <button
+                  type="button"
+                  className={styles["plan-confirm-yes"]}
+                  onClick={handlePlanConfirmYes}
+                >
+                  {tt("yes", "Yes")}
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        </BodyPortal>
       )}
 
       {/* Разбивка нутриента по продуктам (клик по кольцу/бару в DailyValueModule) */}
