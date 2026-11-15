@@ -226,3 +226,42 @@
 .macronutrients-section .ring-label-lg{
   font-size: 14px;
 }
+
+/* "Other nutrients" list — nutrients without a ring/bar: name + amount eaten */
+
+.other-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.other-list-section .section-header{
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+.other-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.other-name {
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #696969;
+  min-width: 0;
+}
+
+.other-amount {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+  color: #696969;
+  white-space: nowrap;
+  flex-shrink: 0;
+}

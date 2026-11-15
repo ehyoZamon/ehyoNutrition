@@ -23,6 +23,7 @@ import {
   DailyValueModuleProps,
   MACRO_ITEMS,
   MINERAL_ITEMS,
+  OtherNutrientItem,
   OverLimitMap,
   PercentMap,
   VITAMIN_PRIMARY,
@@ -116,6 +117,68 @@ function slugForKey(sectionKey: string): string {
   return MACRO_KEY_TO_SLUG[sectionKey] ?? sectionKey;
 }
 
+// Different product files spell the same nutrient differently (abalone has
+// "omega-6", acorn squash "omega-6-fatty-acids"). Everything is keyed by the
+// canonical slug so one nutrient is one row, and it matches the "Nutrients"
+// translations.
+const SLUG_ALIASES: Record<string, string> = {
+  "omega-3": "omega-3-fatty-acids",
+  "omega-6": "omega-6-fatty-acids",
+  "omega-9": "omega-9-fatty-acids",
+};
+
+function canonicalSlug(slug: string): string {
+  return SLUG_ALIASES[slug] ?? slug;
+}
+
+// "0.03 g" / "220 mcg" / "11 mg" -> "g" | "mg" | "mcg" (null if unknown).
+function unitFromAmount(amount: unknown): "g" | "mg" | "mcg" | null {
+  const match = String(amount ?? "")
+    .trim()
+    .match(/^-?[\d.,]+\s*([a-zA-Z\u00b5\u03bc]+)/);
+  const unit = match?.[1].toLowerCase();
+  if (unit === "g") return "g";
+  if (unit === "mg") return "mg";
+  if (unit === "mcg" || unit === "ug" || unit === "\u00b5g" || unit === "\u03bcg") return "mcg";
+  return null;
+}
+
+// Nutrients that already have a ring/bar — they must not repeat in the list.
+function diagramSlugs(): Set<string> {
+  return new Set<string>([
+    "calories",
+    ...[...VITAMIN_PRIMARY, ...VITAMIN_SECONDARY].map((v) => `vitamin-${v.key}`),
+    ...MACRO_ITEMS.map((m) => slugForKey(m.key)),
+    ...MINERAL_ITEMS.map((m) => m.key),
+  ]);
+}
+
+// Picks a readable unit for a total given in mg. Keeps grams for nutrients
+// that arrive in grams (omegas, amino acids) while the amount is >= 0.1 g.
+function toDisplayAmount(
+  totalMg: number,
+  preferred: "g" | "mg" | "mcg" | null
+): { amount: number; unit: "g" | "mg" | "mcg" } {
+  if (preferred === "g" && totalMg >= 100) return { amount: totalMg / 1000, unit: "g" };
+  if (totalMg >= 1000) return { amount: totalMg / 1000, unit: "g" };
+  if (totalMg >= 1) return { amount: totalMg, unit: "mg" };
+  return { amount: totalMg * 1000, unit: "mcg" };
+}
+
+function buildOtherNutrients(
+  consumedMgById: Map<string, number>,
+  unitById: Map<string, "g" | "mg" | "mcg">
+): OtherNutrientItem[] {
+  const skip = diagramSlugs();
+  const result: OtherNutrientItem[] = [];
+  consumedMgById.forEach((mg, slug) => {
+    if (skip.has(slug) || !(mg > 0)) return;
+    const { amount, unit } = toDisplayAmount(mg, unitById.get(slug) ?? null);
+    result.push({ slug, amount, unit });
+  });
+  return result;
+}
+
 export function productSlugFromLink(link: string): string {
   return link.substring(link.lastIndexOf("/") + 1);
 }
@@ -155,8 +218,13 @@ export function accumulateNutrients(
   entries: DiaryEntryInput[],
   detailsByProductId: Map<number, ProductDetail | null>,
   slugByProductId: Map<number, string>
-): { mgById: Map<string, number>; calories: number } {
+): {
+  mgById: Map<string, number>;
+  calories: number;
+  unitById: Map<string, "g" | "mg" | "mcg">;
+} {
   const mgById = new Map<string, number>();
+  const unitById = new Map<string, "g" | "mg" | "mcg">();
   let calories = 0;
 
   for (const entry of entries) {
@@ -179,11 +247,16 @@ export function accumulateNutrients(
       warnIfMalformedAmount("en", productSlug, nutrient.slug, nutrient.amount);
       const mg = parseAmountToMg(nutrient.amount);
       if (mg === null) continue;
-      mgById.set(nutrient.slug, (mgById.get(nutrient.slug) ?? 0) + mg * factor);
+      const slug = canonicalSlug(nutrient.slug);
+      mgById.set(slug, (mgById.get(slug) ?? 0) + mg * factor);
+      if (!unitById.has(slug)) {
+        const unit = unitFromAmount(nutrient.amount);
+        if (unit) unitById.set(slug, unit);
+      }
     }
   }
 
-  return { mgById, calories };
+  return { mgById, calories, unitById };
 }
 
 /** Returns an empty (all-zero) dashboard — used while data is still loading. */
@@ -212,6 +285,7 @@ export function emptyDailyValueData(): DailyValueModuleProps {
     mineralOverLimitInfo: {},
     mineralsOverallPlannedPercent: 0,
     plannedMineralPercents: {},
+    otherNutrients: [],
   };
 }
 
@@ -255,7 +329,11 @@ export async function computeDailyValueData(
 
   // consumed amount per nutrient id, in mg, across every logged entry today
   // — plus the same for planned-but-not-yet-eaten entries, kept separate.
-  const { mgById: consumedMgById, calories: consumedCalories } = accumulateNutrients(
+  const {
+    mgById: consumedMgById,
+    calories: consumedCalories,
+    unitById: consumedUnitById,
+  } = accumulateNutrients(
     entries,
     detailsByProductId,
     slugByProductId
@@ -431,6 +509,8 @@ export async function computeDailyValueData(
     mineralOverLimitInfo,
     mineralsOverallPlannedPercent,
     plannedMineralPercents,
+    // Everything eaten that has no ring/bar (omegas, amino acids, ...).
+    otherNutrients: buildOtherNutrients(consumedMgById, consumedUnitById),
   };
 }
 

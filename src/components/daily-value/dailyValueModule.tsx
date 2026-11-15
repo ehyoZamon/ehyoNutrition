@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "./dailyValue.module.css";
-import {useTranslations} from "next-intl";
+import {useLocale, useTranslations} from "next-intl";
 
 /* ============================================================
    Fixed structure — which nutrients exist never changes,
@@ -78,6 +78,15 @@ export type NutrientClickInfo = {
   percent: number;
 };
 
+// One row of the "Other nutrients" list under the diagrams — a nutrient that
+// has no ring/bar (omega fatty acids, amino acids, choline, lutein, ...) with
+// the absolute amount eaten today. `amount` is already converted to `unit`.
+export type OtherNutrientItem = {
+  slug: string; // canonical slug, matches messages "Nutrients" namespace
+  amount: number;
+  unit: "g" | "mg" | "mcg";
+};
+
 export type DailyValueModuleProps = {
   vitaminsOverallPercent?: number;
   vitaminPercents?: PercentMap; // keyed by VITAMIN_PRIMARY/SECONDARY .key
@@ -120,6 +129,9 @@ export type DailyValueModuleProps = {
   mineralOverLimitInfo?: OverLimitMap;
   plannedMineralPercents?: PercentMap;
   mineralsOverallPlannedPercent?: number;
+  // Consumed nutrients that aren't part of the rings/bars above, shown as a
+  // plain "name — amount" list below the Minerals section.
+  otherNutrients?: OtherNutrientItem[];
   onNutrientClick?: (info: NutrientClickInfo) => void;
 };
 
@@ -569,6 +581,12 @@ function SectionHeader({
   );
 }
 
+// 2 decimals for small numbers, fewer for big ones; trailing zeros stripped.
+function formatOtherAmount(value: number): string {
+  const digits = value >= 100 ? 0 : value >= 10 ? 1 : 2;
+  return String(Number(value.toFixed(digits)));
+}
+
 /* ============================================================
    Module — no data of its own. Every number defaults to 0,
    so with no props at all the whole dashboard renders "empty"
@@ -598,9 +616,12 @@ export default function DailyValueModule({
   mineralOverLimitInfo = {},
   plannedMineralPercents = {},
   mineralsOverallPlannedPercent = 0,
+  otherNutrients = [],
   onNutrientClick,
 }: DailyValueModuleProps) {
   const t = useTranslations("FoodDiary");
+  const tn = useTranslations("Nutrients");
+  const locale = useLocale();
   const stops = useGradientStops();
 
   // Same graceful-fallback pattern used elsewhere (QuantitySheet,
@@ -613,6 +634,26 @@ export default function DailyValueModule({
       return fallback;
     }
   };
+
+  // Display name for a nutrient slug — Nutrients namespace first, then a
+  // prettified slug so a missing translation never shows a raw key.
+  const nutrientName = (slug: string) => {
+    try {
+      const value = tn(slug);
+      if (value && value !== slug && !value.endsWith(`.${slug}`)) return value;
+    } catch {
+      /* fall through to the prettified slug */
+    }
+    const pretty = slug.replace(/-/g, " ");
+    return pretty.charAt(0).toUpperCase() + pretty.slice(1);
+  };
+
+  const unitLabel = (unit: OtherNutrientItem["unit"]) =>
+    locale === "ru" ? { g: "г", mg: "мг", mcg: "мкг" }[unit] : unit;
+
+  const otherRows = otherNutrients
+    .map((n) => ({ ...n, name: nutrientName(n.slug) }))
+    .sort((a, b) => a.name.localeCompare(b.name, locale));
 
   // Whether to show the "+xy% = planned meal" legend at all — only worth
   // showing when at least one section actually has something planned today.
@@ -773,6 +814,27 @@ export default function DailyValueModule({
           })}
         </div>
       </section>
+
+      {/* Other nutrients — no ring/bar, just name + amount eaten today */}
+      {otherRows.length > 0 && (
+          <section className={`${styles["section"]} ${styles["other-list-section"]}`}>
+            <div className={styles["section-header"]}>
+            <h2 className={styles["section-title"]}>
+              {tt("otherNutrientsSection", "Other nutrients")}
+            </h2>
+          </div>
+          <ul className={styles["other-list"]}>
+            {otherRows.map((n) => (
+              <li key={n.slug} className={styles["other-row"]}>
+                <span className={styles["other-name"]}>{n.name}</span>
+                <span className={styles["other-amount"]}>
+                  {formatOtherAmount(n.amount)} {unitLabel(n.unit)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }
