@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – NutriDiary</title>
+<meta name="description" content="Privacy Policy for the NutriDiary nutrition tracking app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7faf8;
+    --surface: #ffffff;
+    --ink: #17231d;
+    --muted: #53635a;
+    --line: #dbe5df;
+    --accent: #1f6f4a;
+    --accent-soft: #e4f2ea;
+    --warn-bg: #fff4d6;
+    --warn-ink: #6b4b00;
+    --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1713;
+      --surface: #16211b;
+      --ink: #e6efe9;
+      --muted: #9fb2a7;
+      --line: #263830;
+      --accent: #5fc58f;
+      --accent-soft: #1b2f25;
+      --warn-bg: #3a2f10;
+      --warn-ink: #f2d98a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+  header.top {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 1.25rem; }
+  header.top .wrap { padding-top: 2.5rem; padding-bottom: 2rem; }
+  .app-name { font-family: var(--sans); font-weight: 600; color: var(--accent); font-size: 1rem; margin: 0 0 .5rem; }
+  h1 {
+    font-family: var(--sans);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin: 0 0 1rem;
+  }
+  .dates { font-family: var(--sans); font-size: .9rem; color: var(--muted); margin: 0; }
+  .dates span + span { margin-left: 1.25rem; }
+
+  .layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 3rem; padding-top: 2.5rem; padding-bottom: 4rem; }
+  nav.toc { position: sticky; top: 1.5rem; align-self: start; font-family: var(--sans); font-size: .9rem; }
+  nav.toc p { margin: 0 0 .75rem; font-weight: 600; }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); }
+  nav.toc a { display: block; padding: .3rem 0 .3rem .9rem; margin-left: -2px; border-left: 2px solid transparent; color: var(--muted); text-decoration: none; }
+  nav.toc a:hover { color: var(--ink); border-left-color: var(--accent); }
+
+  main { max-width: 68ch; }
+  .summary {
+    background: var(--accent-soft);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .summary h2 { margin-top: 0; font-size: 1.15rem; }
+  .summary ul { margin-bottom: 0; }
+  h2 {
+    font-family: var(--sans);
+    font-size: 1.4rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 3rem 0 .75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  .summary h2 { border-top: 0; padding-top: 0; }
+  h3 { font-family: var(--sans); font-size: 1.05rem; margin: 1.75rem 0 .5rem; }
+  p { margin: 0 0 1rem; }
+  ul { padding-left: 1.3rem; margin: 0 0 1rem; }
+  li { margin-bottom: .4rem; }
+  li::marker { color: var(--accent); }
+
+  .note {
+    background: var(--warn-bg);
+    color: var(--warn-ink);
+    border-radius: 8px;
+    padding: .9rem 1.1rem;
+    font-family: var(--sans);
+    font-size: .95rem;
+  }
+  .fill {
+    background: var(--warn-bg);
+    color: var(--warn-ink);
+    padding: 0 .3em;
+    border-radius: 4px;
+    font-family: var(--sans);
+    font-size: .92em;
+    font-weight: 500;
+  }
+  address { font-style: normal; }
+
+  footer { border-top: 1px solid var(--line); font-family: var(--sans); font-size: .85rem; color: var(--muted); }
+  footer .wrap { padding-top: 1.5rem; padding-bottom: 2rem; }
+
+  @media (max-width: 820px) {
+    .layout { grid-template-columns: 1fr; gap: 1.5rem; }
+    nav.toc { position: static; }
+    nav.toc details { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: .6rem 1rem; }
+    nav.toc summary { cursor: pointer; font-weight: 600; }
+    nav.toc ol { border-left: 0; margin-top: .5rem; }
+    nav.toc a { padding-left: 0; border-left: 0; margin-left: 0; }
+  }
+  @media (min-width: 821px) {
+    nav.toc details > summary { display: none; }
+    nav.toc details > p { display: block; }
+  }
+  @media print {
+    nav.toc { display: none; }
+    .layout { display: block; }
+    body { background: #fff; color: #000; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <p class="app-name">NutritionLib</p>
+    <h1>Privacy Policy</h1>
+    <p class="dates"><span>Effective date: November 17, 2026</span><span>Last updated: November 17, 2026</span></p>
+  </div>
+</header>
+
+<div class="wrap layout">
+
+  <nav class="toc" aria-label="Table of contents">
+    <details open>
+      <summary>Contents</summary>
+      <p>Contents</p>
+      <ol>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#information">Information the App handles</a></li>
+        <li><a href="#use">How we use information</a></li>
+        <li><a href="#sharing">Sharing of information</a></li>
+        <li><a href="#security">Storage, backup and security</a></li>
+        <li><a href="#retention">Retention and deletion</a></li>
+        <li><a href="#rights">Your choices and rights</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#health">Health disclaimer</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <p>NutritionLib ("the App", "we", "us") is a nutrition tracking app that helps you explore foods and nutrients, keep a food diary, track water intake and monitor your daily activity. This Privacy Policy explains what information the App handles, how it is used, and what choices you have.</p>
+    <p>By using the App, you agree to the practices described in this policy. If you do not agree, please do not use the App.</p>
+
+    <section class="summary" id="summary">
+      <h2>Summary</h2>
+      <ul>
+        <li>Your personal and diary data is stored <strong>locally on your device</strong>. The App needs no account, and we do not run a server that stores your profile or diary.</li>
+        <li>We <strong>do not sell</strong> your data and we <strong>do not show ads</strong>.</li>
+        <li>Step data from Health Connect is read only with your permission and stays on your device.</li>
+        <li>Anonymous usage analytics may be collected to improve the App.</li>
+        <li>You can export or delete your data at any time.</li>
+      </ul>
+    </section>
+
+    <h2 id="information">1. Information the App handles</h2>
+
+    <h3>1.1 Information you provide</h3>
+    <p>During onboarding and in Settings you may enter:</p>
+    <ul>
+      <li>Name (or nickname)</li>
+      <li>Gender</li>
+      <li>Date of birth</li>
+      <li>Weight and height</li>
+      <li>Preferred language</li>
+    </ul>
+    <p>In the Food Diary you may add foods and products you eat, with dates and quantities, and water intake entries.</p>
+    <p>This information is used to calculate your daily nutrient values, your daily water goal and your statistics. It is stored in a local database on your device (SQLite) and is <strong>not transmitted to us</strong>.</p>
+
+    <h3>1.2 Health and activity data (Health Connect)</h3>
+    <p>If you enable the step tracking feature, the App asks for permission to read your <strong>step count</strong> through Android Health Connect.</p>
+    <ul>
+      <li>The permission is optional. The rest of the App works without it.</li>
+      <li>Step data is used only to display your activity inside the App.</li>
+      <li>Step data is stored locally on your device.</li>
+      <li>We do not share, sell or transfer this data to third parties, and we do not use it for advertising or credit decisions.</li>
+      <li>You can revoke the permission at any time in Health Connect or Android system settings.</li>
+    </ul>
+    <p>The App's use of information received from Health Connect adheres to the Google Play User Data Policy, including the Limited Use requirements.</p>
+
+    <h3>1.3 Notifications</h3>
+    <p>If you enable reminders (for example, water or meal reminders), the App schedules local notifications on your device. Scheduling happens on the device, and no notification content is sent to our servers.</p>
+
+    <h3>1.4 Usage analytics</h3>
+    <p>To understand which parts of the App are useful, we may collect anonymous usage events, such as which screens are opened, approximate time spent in the App, and which features are used (for example, adding a food or water entry).</p>
+    <p>This analytics data does not include your name, date of birth, weight, height, diary contents or step counts, and is not used to identify you. Analytics are provided by <span class="fill">Google FireBase</span>.</p>
+
+    <h3>1.5 Information we do not collect</h3>
+    <p>We do not collect your precise location, contacts, photos, microphone or camera data, or payment information.</p>
+
+    <h2 id="use">2. How we use information</h2>
+    <p>We use the information described above only to:</p>
+    <ul>
+      <li>Provide the App's features: diary, nutrient calculations, water goals, statistics, reminders and step display</li>
+      <li>Personalize values, for example daily nutrient values based on your profile</li>
+      <li>Understand usage in aggregate and fix problems</li>
+      <li>Improve the App's content and design</li>
+    </ul>
+    <p>We do not use your information for advertising, and we do not sell it.</p>
+
+    <h2 id="sharing">3. Sharing of information</h2>
+    <p>We do not sell, rent or trade your personal information. We may share limited data only in these cases:</p>
+    <ul>
+      <li><strong>Service providers:</strong> the analytics provider named in section 1.4, strictly to process anonymous usage events.</li>
+      <li><strong>Legal reasons:</strong> if required by law or to protect rights and safety.</li>
+    </ul>
+    <p>Your profile, diary and health data stay on your device unless you choose to export them yourself.</p>
+
+    <h2 id="security">4. Data storage, backup and security</h2>
+    <ul>
+      <li>Data is stored in a local database on your device. Its protection depends in part on your device security (screen lock, encryption, system updates).</li>
+      <li>The App offers <strong>export and import</strong> of your data so you can create a backup. Exported files are saved where you choose, and you are responsible for keeping them safe.</li>
+      <li>No method of electronic storage is completely secure, and we cannot guarantee absolute security.</li>
+    </ul>
+
+    <h2 id="retention">5. Data retention and deletion</h2>
+    <ul>
+      <li>Your data remains on your device until you delete it.</li>
+      <li>You can remove entries inside the App, or remove all App data by clearing the App's storage in Android settings or by uninstalling the App.</li>
+      <li>Because we do not hold your profile or diary data on our servers, we cannot recover it if it is deleted. Use the export feature to keep a backup.</li>
+      <li>For questions about analytics data, contact us using the details in <a href="#contact">section 10</a>.</li>
+    </ul>
+
+    <h2 id="rights">6. Your choices and rights</h2>
+    <p>You can:</p>
+    <ul>
+      <li>Edit or delete your profile and diary entries in the App</li>
+      <li>Export or import your data</li>
+      <li>Grant or revoke Health Connect and notification permissions at any time</li>
+      <li>Contact us about information or deletion related to analytics data</li>
+    </ul>
+    <p>Depending on where you live (for example, the EU/EEA or the UK), you may have additional rights such as access, correction, deletion, restriction, objection and portability. To exercise them, contact us using the details below.</p>
+
+    <h2 id="children">7. Children's privacy</h2>
+    <p>The App is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided information, please contact us and we will take appropriate steps.</p>
+
+    <h2 id="health">8. Health disclaimer</h2>
+    <p>NutritionLib provides general nutrition information for educational purposes. It is <strong>not medical advice</strong> and does not replace consultation with a doctor or qualified dietitian. Nutrient values are approximate and based on third-party food databases. Consult a professional before making significant changes to your diet.</p>
+
+    <h2 id="changes">9. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. The "Last updated" date at the top shows the latest version. Significant changes will be reflected on this page. Continued use of the App after changes means you accept the updated policy.</p>
+
+    <h2 id="contact">10. Contact us</h2>
+    <p>If you have questions about this Privacy Policy or your data, contact:</p>
+    <address>
+      <span class="fill">Mirzobakhtiyor Rahmatov</span><br>
+      Email: <span class="fill">ehyozamon@gmail.com</span>
+    </address>
+  </main>
+
+</div>
+
+<footer>
+  <div class="wrap">© 2026 NutriDiary. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
