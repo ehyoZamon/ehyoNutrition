@@ -10,7 +10,7 @@ import { CircleRing, useGradientStops } from "@/components/daily-value/dailyValu
 import { NutrientBreakdownRow, TopProductForNutrient } from "@/lib/dailyValue";
 
 export type NutrientDetailInfo = {
-  section: "vitamin" | "macro" | "mineral";
+  section: "vitamin" | "macro" | "mineral" | "other";
   ringLabel: string; // short label shown inside the ring, e.g. "A", "Fat", "Sodium"
   title: string; // full display title, e.g. "Vitamin A", "Fat", "Sodium"
   /**
@@ -175,40 +175,24 @@ const NutrientDetailSheet = ({
     <BodyPortal>
       <div className={styles["overlay"]} onClick={onClose}>
         <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
-          <div className={styles["ring-wrap"]}>
-            <CircleRing
-              percent={percent}
-              plannedPercent={plannedPercent}
-              label={""}
-              size={"glge"}
-              stops={stops}
-              overLimit={severity === "danger"}
-              overLimitInfo={severity === "info"}
-            />
-          </div>
+          {/* У нутриентов из списка «Other nutrients» нет суточной нормы в %,
+              поэтому кольцо для них не рисуем. */}
+          {info.section !== "other" && (
+            <div className={styles["ring-wrap"]}>
+              <CircleRing
+                percent={percent}
+                plannedPercent={plannedPercent}
+                label={""}
+                size={"glge"}
+                stops={stops}
+                overLimit={severity === "danger"}
+                overLimitInfo={severity === "info"}
+              />
+            </div>
+          )}
 
           <div className={styles["title-row"]}>
             <h2 className={styles["title"]}>{info.title}</h2>
-            {info.slug && (
-              <Link
-                href={`/vitamins/vitaminInfo?slug=${encodeURIComponent(info.slug)}`}
-                prefetch={false}
-                className={styles["info-link"]}
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="12" r="9.5" stroke="currentColor" strokeWidth="1.8" />
-                  <path d="M12 11V16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  <circle cx="12" cy="7.8" r="1.1" fill="currentColor" />
-                </svg>
-              </Link>
-            )}
           </div>
 
        
@@ -286,7 +270,9 @@ const NutrientDetailSheet = ({
                     </span>
                   </div>
                   <span className={styles["row-value"]}>
-                    {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
+                    {info.section === "other"
+                      ? row.amountLabel
+                      : `${row.amountLabel}/${row.percent}% ${tt("dvSuffix", "DV")}`}
                   </span>
                 </div>
               ))}
@@ -315,7 +301,9 @@ const NutrientDetailSheet = ({
                     </span>
                   </div>
                   <span className={styles["row-value"]}>
-                    {row.amountLabel}/{row.percent}% {tt("dvSuffix", "DV")}
+                    {info.section === "other"
+                      ? row.amountLabel
+                      : `${row.amountLabel}/${row.percent}% ${tt("dvSuffix", "DV")}`}
                   </span>
                 </div>
               ))}
@@ -346,9 +334,20 @@ const NutrientDetailSheet = ({
               ))}
           </div>
 
-          <button type="button" className={styles["close-btn"]} onClick={onClose}>
-            {tt("closeBtn", "Close")}
-          </button>
+          <div className={styles["buttons-row"]}>
+            <button type="button" className={styles["close-btn"]} onClick={onClose}>
+              {tt("closeBtn", "Close")}
+            </button>
+            {info.slug && (
+              <Link
+                href={`/vitamins/vitaminInfo?slug=${encodeURIComponent(info.slug)}`}
+                prefetch={false}
+                className={styles["more-btn"]}
+              >
+                {tt("moreBtn", "More")}
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </BodyPortal>

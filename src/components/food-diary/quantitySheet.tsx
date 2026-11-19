@@ -3,6 +3,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import styles from "./quantitySheet.module.css";
 import BodyPortal from "@/components/BodyPortal";
@@ -11,6 +12,7 @@ import { DiaryProduct } from "./addFoodSheet";
 // productDetails is now one file per product slug (see lib/productDetail.ts)
 // instead of a single productDetails.json — loaded on demand below.
 import { loadProductDetail, ProductDetail } from "@/lib/productDetail";
+import { loadProductInfo } from "@/lib/productInfoShards";
 // components/food-diary/QuantitySheet.tsx
 import { parseServingInfo, ServingInfo, localizeServingUnit } from "@/lib/servingInfo";
 import { useServingUnitLabels } from "@/lib/useServingUnitLabels";
@@ -175,6 +177,36 @@ const QuantitySheet = ({
       cancelled = true;
     };
   }, [open, slug]);
+
+  // Показываем кнопку «Подробнее» только если у продукта есть данные в шарде
+  // productInfo — та же проверка, что в ProductDetailSheet. Шард кэшируется и
+  // потом используется самой страницей продукта.
+  const isRu = locale === "ru";
+  const moreHref = `/products/productInfo?slug=${encodeURIComponent(slug)}`;
+  const [hasMoreInfo, setHasMoreInfo] = useState(false);
+
+  useEffect(() => {
+    if (!open || !slug) {
+      setHasMoreInfo(false);
+      return;
+    }
+    let cancelled = false;
+    setHasMoreInfo(false);
+
+    loadProductInfo(isRu ? "ru" : "en", slug)
+      .then((json) => {
+        if (!cancelled && json && typeof json.title === "string") {
+          setHasMoreInfo(true);
+        }
+      })
+      .catch(() => {
+        /* продукта нет в шарде — кнопку не показываем */
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [open, slug, isRu]);
 
   const dailyVal=locale==="en" ? "DV": "CH";
   const servingInfo = useMemo(() => parseServingInfo(detail?.macroTitle), [detail]);
@@ -387,7 +419,32 @@ const QuantitySheet = ({
           </div>
 
           <div className={styles["details-scroll"]}>
-            <h2 className={styles["product-name"]}>{product.name}</h2>
+            <div className={styles["product-title-row"]}>
+              <h2 className={styles["product-name"]}>{product.name}
+              {hasMoreInfo && (
+                <Link
+                  href={moreHref}
+                  prefetch={false}
+                  className={styles["info-link"]}
+                  aria-label={t("more")}
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                  >
+                    <circle cx="12" cy="12" r="9.5" stroke="currentColor" strokeWidth="1.8" />
+                    <path d="M12 11V16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                    <circle cx="12" cy="7.8" r="1.1" fill="currentColor" />
+                  </svg>
+                </Link>
+                
+              )}
+              </h2>
+            </div>
             {macroRows.length > 0 && (
               <div className={styles["macro-band"]}>
                 {macroRows.map((row) => (

@@ -131,6 +131,19 @@ function canonicalSlug(slug: string): string {
   return SLUG_ALIASES[slug] ?? slug;
 }
 
+// Every spelling a nutrient can have in the data: the canonical slug plus all
+// aliases that point to it (e.g. "omega-6-fatty-acids" -> also "omega-6").
+// Needed wherever a canonical slug is looked up in data keyed by the raw
+// spelling (topProducts.json is keyed "omega-6", not "omega-6-fatty-acids").
+function slugVariants(slug: string): string[] {
+  const canonical = canonicalSlug(slug);
+  const variants = [canonical];
+  for (const [alias, target] of Object.entries(SLUG_ALIASES)) {
+    if (target === canonical && alias !== canonical) variants.push(alias);
+  }
+  return variants;
+}
+
 // "0.03 g" / "220 mcg" / "11 mg" -> "g" | "mg" | "mcg" (null if unknown).
 function unitFromAmount(amount: unknown): "g" | "mg" | "mcg" | null {
   const match = String(amount ?? "")
@@ -708,7 +721,7 @@ export async function computeNutrientBreakdown(
     if (!enDetail) continue;
 
     const nutrient = [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
-      (n) => n.slug === nutrientSlug
+      (n) => canonicalSlug(n.slug) === canonicalSlug(nutrientSlug)
     );
     if (!nutrient) continue;
 
@@ -764,7 +777,7 @@ export async function computeNutrientBreakdown(
     if (!enDetail) continue;
 
     const nutrient = [...enDetail.macroNutrients, ...enDetail.microNutrients].find(
-      (n) => n.slug === nutrientSlug
+      (n) => canonicalSlug(n.slug) === canonicalSlug(nutrientSlug)
     );
     if (!nutrient) continue;
 
@@ -937,7 +950,10 @@ async function computeTopProductsForNutrient(
   if (allProducts.length === 0) return [];
 
   const index = await loadTopProductsIndex();
-  const entries = index[nutrientSlug] ?? [];
+  const entries =
+    slugVariants(nutrientSlug)
+      .map((variant) => index[variant])
+      .find((list) => list && list.length > 0) ?? [];
   const bySlug = new Map(allProducts.map((p) => [productSlugFromLink(p.link), p]));
 
   const result: TopProductForNutrient[] = [];

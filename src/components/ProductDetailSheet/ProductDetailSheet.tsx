@@ -268,7 +268,7 @@ const ProductDetailSheet = ({
               </button>
               {hasMoreInfo && (
                 <Link href={moreHref} className={styles.moreButton}>
-                  {isRu ? "Больше" : "More"}
+                  {t("more")}
                 </Link>
               )}
             </div>

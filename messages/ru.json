@@ -20,7 +20,8 @@
       "kg": "кг",
       "kcal": "ккал"
     },
-    "all": "Все"
+    "all": "Все",
+    "more": "Подробнее"
   },
   "ProductInfo": {
     "clickToLearnMore": "(Нажмите, чтобы узнать больше)",
@@ -190,7 +191,9 @@
     "waterAddGlass": "Добавить стакан воды", 
     "waterRemoveGlass": "Убрать стакан воды",
     "waterCustomLabel": "Свой объём, мл",
-    "waterAddCustom": "Добавить"
+    "waterAddCustom": "Добавить",
+    "moreBtn": "Подробнее",
+    "more": "Больше"
   },
   "Settings":{
     "male": "мужчина",

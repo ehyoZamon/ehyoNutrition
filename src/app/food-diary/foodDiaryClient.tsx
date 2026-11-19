@@ -542,7 +542,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   const handleNutrientClick = async ({ section, key, label, percent }: NutrientClickInfo) => {
     const title = section === "vitamin" ? `${tt("vitaminSingular", "Vitamin")} ${label}` : label;
 
-    const slug = slugForNutrientKey(section, key);
+    // Для "other" (список «Other nutrients») key уже является каноническим slug.
+    const slug = section === "other" ? key : slugForNutrientKey(section, key);
     track(AnalyticsEvent.NutrientDetailOpen, { section, nutrient: slug });
     const loc = locale === "ru" ? "ru" : "en";
 

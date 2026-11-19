@@ -72,7 +72,9 @@ export type OverLimitMap = Record<string, boolean>;
 // second translation lookup. `percent` is the value already on screen,
 // handy for an instant first paint before a fresh breakdown loads.
 export type NutrientClickInfo = {
-  section: "vitamin" | "macro" | "mineral";
+  // "other" — a row from the "Other nutrients" list (no ring/bar, so `key` is
+  // the nutrient's canonical slug and `percent` is 0).
+  section: "vitamin" | "macro" | "mineral" | "other";
   key: string;
   label: string;
   percent: number;
@@ -825,7 +827,28 @@ export default function DailyValueModule({
           </div>
           <ul className={styles["other-list"]}>
             {otherRows.map((n) => (
-              <li key={n.slug} className={styles["other-row"]}>
+              <li
+                key={n.slug}
+                className={styles["other-row"]}
+                onClick={
+                  onNutrientClick
+                    ? () => onNutrientClick({ section: "other", key: n.slug, label: n.name, percent: 0 })
+                    : undefined
+                }
+                role={onNutrientClick ? "button" : undefined}
+                tabIndex={onNutrientClick ? 0 : undefined}
+                onKeyDown={
+                  onNutrientClick
+                    ? (e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          onNutrientClick({ section: "other", key: n.slug, label: n.name, percent: 0 });
+                        }
+                      }
+                    : undefined
+                }
+                style={onNutrientClick ? { cursor: "pointer" } : undefined}
+              >
                 <span className={styles["other-name"]}>{n.name}</span>
                 <span className={styles["other-amount"]}>
                   {formatOtherAmount(n.amount)} {unitLabel(n.unit)}

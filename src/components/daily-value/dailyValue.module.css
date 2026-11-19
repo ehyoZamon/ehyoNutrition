@@ -243,6 +243,7 @@
 
 
 .other-row {
+  cursor: pointer;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -265,4 +266,8 @@
   color: #696969;
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+.other-row:active {
+  opacity: 0.6;
 }

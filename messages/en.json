@@ -20,7 +20,8 @@
       "kg": "kg",
       "kcal": "ккал"
     },
-    "all": "All"
+    "all": "All",
+    "more": "More"
   },
   "ProductInfo": {
     "clickToLearnMore": "(Click to learn more)",
@@ -190,7 +191,9 @@
     "waterAddGlass": "Add glass of water", 
     "waterRemoveGlass": "Remove glass of watery",
     "waterCustomLabel": "Personal volume, ml",
-    "waterAddCustom": "Add"
+    "waterAddCustom": "Add",
+    "moreBtn": "More",
+    "more": "More"
   },
   "Settings":{
     "male": "male",
