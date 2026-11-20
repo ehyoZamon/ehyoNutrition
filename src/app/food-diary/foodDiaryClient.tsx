@@ -551,8 +551,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       section,
       ringLabel: label,
       title,
-      // ссылка на страницу с подробной информацией (только для витаминов)
-      slug: section === "vitamin" || section === "mineral" ? slug : undefined,
+      // slug страницы с описанием подставляется после загрузки разбивки (см. ниже)
+      slug: undefined,
     });
     setNutrientPercent(percent);
     setNutrientPlannedPercent(0);
@@ -589,6 +589,7 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
         ulSeverity,
         ulNote,
         plannedPercent,
+        infoSlug,
       } = await computeNutrientBreakdown(
           slug,
           entryList
@@ -610,6 +611,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
       setNutrientUlSeverity(ulSeverity);
       setNutrientUlNote(ulNote);
       setNutrientPlannedPercent(plannedPercent);
+      // Кнопка «More» — для любого нутриента, у которого есть страница с описанием
+      setNutrientInfo((prev) => (prev ? { ...prev, slug: infoSlug ?? undefined } : prev));
     } catch (e) {
       console.error("Не удалось посчитать разбивку нутриента:", e);
     } finally {

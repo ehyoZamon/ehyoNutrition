@@ -603,6 +603,11 @@ export type NutrientBreakdownResult = {
   // is the number (e.g. "Adults (19-30 years)", "Female").
   driGroup: DRIGroupKey;
   driAgeLabel: string;
+  // Slug of the nutrient's info page (/vitamins/vitaminInfo?slug=...), or null
+  // when there is none. Resolved against vitaminDRI.json (same slug set as
+  // vitaminDetails.json) and tries every alias spelling, so e.g. canonical
+  // "omega-6-fatty-acids" resolves to "omega-6". No hand-kept list to maintain.
+  infoSlug: string | null;
 };
 
 // Inverse of what buildSection() does above — maps a (section, key) pair
@@ -669,6 +674,10 @@ export async function computeNutrientBreakdown(
   // whether they've logged anything yet, so the sheet can show "your norm
   // is X" alongside "no foods logged yet contribute to this nutrient".
   const driData = await loadVitaminDRI();
+  const infoSlug =
+    slugVariants(nutrientSlug).find((v) =>
+      Object.prototype.hasOwnProperty.call(driData as object, v)
+    ) ?? null;
   const recommendedRaw = getRecommendedAmountRaw(driData, nutrientSlug, ctx);
   const recommendedLabel = recommendedRaw ? localizeAmountString(recommendedRaw, locale) : null;
   const ulRaw = getULAmountRaw(driData, nutrientSlug, ctx);
@@ -693,6 +702,7 @@ export async function computeNutrientBreakdown(
       plannedPercent: 0,
       driGroup: ctx.group,
       driAgeLabel: ctx.ageLabel,
+      infoSlug,
     };
   }
 
@@ -868,6 +878,7 @@ export async function computeNutrientBreakdown(
     plannedPercent,
     driGroup: ctx.group,
     driAgeLabel: ctx.ageLabel,
+    infoSlug,
   };
 }
 

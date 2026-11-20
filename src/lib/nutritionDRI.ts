@@ -29,6 +29,10 @@ export type DRIEntry = {
   title: string;
   category: string;
   DRI: Partial<Record<DRIGroupKey, Record<string, DRIAmounts>>>;
+  // Only on entries whose DRI is per-kg ("14 mg/kg/day"): the reference body
+  // weight (kg) per group/age row, same shape as `DRI`. Used when the user's
+  // own weight isn't known.
+  referenceWeightKg?: Partial<Record<DRIGroupKey, Record<string, number>>>;
 };
 
 export type DRIData = Record<string, DRIEntry>;
@@ -36,6 +40,10 @@ export type DRIData = Record<string, DRIEntry>;
 export type SimpleUserProfile = {
   gender: "male" | "female";
   birthDate: string; // yyyy-MM-dd
+  // Body weight in kg, if the profile has it. Used to turn per-kg DRI values
+  // (amino acids: "14 mg/kg/day") into a final per-day amount. When missing,
+  // the entry's referenceWeightKg from vitaminDRI.json is used instead.
+  weightKg?: number;
 };
 
 // Reference diet used (a) as the denominator for the "Calories" ring and
@@ -53,7 +61,19 @@ export const ASSUMED_DAILY_CALORIES = 2000;
 // group/age-label pair but some of its rows still carry a girl/boy split
 // inside a single string (see resolveGenderedAmount below) — we need the
 // real gender to resolve those even though `group` itself stays "Children".
-export type AgeBracket = { group: DRIGroupKey; ageLabel: string; gender: "male" | "female" };
+export type AgeBracket = {
+  group: DRIGroupKey;
+  ageLabel: string;
+  gender: "male" | "female";
+  // The user's own weight in kg, when the profile has one. Undefined otherwise
+  // — per-kg DRI values then fall back to the entry's referenceWeightKg.
+  weightKg?: number;
+};
+
+function profileWeightKg(profile: SimpleUserProfile): number | undefined {
+  const w = profile.weightKg;
+  return typeof w === "number" && Number.isFinite(w) && w > 0 ? w : undefined;
+}
 
 const CHILD_AGE_LABEL_BY_MONTHS: { maxMonths: number; label: string }[] = [
   { maxMonths: 6, label: "Infants (0-6 months)" },
@@ -104,13 +124,19 @@ export function resolveDRIContext(profile: SimpleUserProfile | null): AgeBracket
       group: "Children",
       ageLabel: bracket?.label ?? "School-age (9-13 years)",
       gender: profile.gender,
+      weightKg: profileWeightKg(profile),
     };
   }
 
   const years = months / 12;
   const group: DRIGroupKey = profile.gender === "male" ? "Male" : "Female";
   const bracket = ADULT_AGE_LABEL_BY_YEARS.find((b) => years < b.maxYears)!;
-  return { group, ageLabel: bracket.label, gender: profile.gender };
+  return {
+    group,
+    ageLabel: bracket.label,
+    gender: profile.gender,
+    weightKg: profileWeightKg(profile),
+  };
 }
 
 /* ------------------------------------------------------------------ */
@@ -133,7 +159,8 @@ const PERCENT_OF_CALORIES_RE =
   /^([\d.,]+)\s*(?:-\s*([\d.,]+)\s*)?%\s*of calories/i;
 
 // Extracts the trailing unit word from a raw DRI string ("3.00 mg" -> "mg").
-const TRAILING_UNIT_RE = /([a-zA-Z]+)\s*$/;
+// Takes the first *known* unit word, so "14 mg/kg/day" gives "mg" (not "day").
+const TRAILING_UNIT_RE = /\b(mcg|mg|kg|g)\b/i;
 
 /**
  * Converts a plain mg amount (as produced by parseAmountToMg) back into a
@@ -204,11 +231,9 @@ export function parseAmountToMg(
     return grams * 1000;
   }
 
-  // Per-kg-bodyweight AIs/EARs/RDAs (amino acids, creatine, l-carnitine,
-  // ...) aren't tracked by any nutrient this app shows — no bodyweight
-  // input exists to resolve them. This also correctly skips the "mg/kg/day"
-  // girl/boy ranges vitaminDRI.json carries for some amino acids, since
-  // there's nothing useful to do with either number without a bodyweight.
+  // Per-kg-bodyweight values ("14 mg/kg/day") can't be parsed without a
+  // bodyweight. The getters below convert them first via resolvePerKg(), so
+  // anything still per-kg when it reaches here is skipped.
   if (/\/\s*kg/i.test(trimmed)) return null;
 
   const match = trimmed.match(AMOUNT_RE);
@@ -299,6 +324,43 @@ function rangeSelectFor(ctx: AgeBracket): RangeSelect {
   return ctx.gender === "male" ? "high" : "low";
 }
 
+// "14 mg/kg/day" / "12-13 mg/kg/day" (amino acids etc.)
+const PER_KG_RE =
+  /^([\d.,]+)(?:\s*-\s*([\d.,]+))?\s*(mcg|mg|g)\s*\/\s*kg(?:\s*\/\s*(?:day|d))?\s*$/i;
+
+/**
+ * Turns a per-kg-bodyweight DRI string into a final per-day amount for this
+ * user ("14 mg/kg/day" at 57 kg -> "798 mg"; at 70 kg -> "980 mg"). Weight is
+ * the user's own (ctx.weightKg) or, failing that, the reference weight stored
+ * in vitaminDRI.json for this row. A "low-high" range is a girl/boy split for
+ * Children rows (picked by gender), otherwise averaged. Any other string —
+ * or a per-kg one with no weight available — is returned unchanged.
+ */
+export function resolvePerKg(
+  raw: string,
+  ctx: AgeBracket,
+  referenceWeightKg?: number
+): string {
+  const match = raw.trim().match(PER_KG_RE);
+  if (!match) return raw;
+  const weightKg = ctx.weightKg ?? referenceWeightKg;
+  if (!weightKg || !(weightKg > 0)) return raw;
+
+  const [, lowStr, highStr, unit] = match;
+  const low = parseFloat(lowStr.replace(/,/g, ""));
+  if (Number.isNaN(low)) return raw;
+  const high = highStr ? parseFloat(highStr.replace(/,/g, "")) : low;
+
+  let perKg: number;
+  if (!highStr) perKg = low;
+  else if (ctx.group === "Children") perKg = ctx.gender === "male" ? high : low;
+  else perKg = (low + high) / 2;
+
+  const totalMg = perKg * weightKg * UNIT_TO_MG[unit.toLowerCase()];
+  const displayUnit = totalMg < 1 ? "mcg" : totalMg >= 1000 ? "g" : "mg";
+  return formatMgAsUnitOf(totalMg, displayUnit);
+}
+
 export function getRecommendedMg(
   driData: DRIData,
   slug: string,
@@ -309,7 +371,11 @@ export function getRecommendedMg(
   if (!entry) return null;
   const raw = pickRecommendedRaw(entry.DRI?.[ctx.group]?.[ctx.ageLabel]);
   if (!raw) return null;
-  return parseAmountToMg(raw, assumedDailyCalories, rangeSelectFor(ctx));
+  return parseAmountToMg(
+    resolvePerKg(raw, ctx, entry.referenceWeightKg?.[ctx.group]?.[ctx.ageLabel]),
+    assumedDailyCalories,
+    rangeSelectFor(ctx)
+  );
 }
 
 /**
@@ -327,7 +393,11 @@ export function getULMg(
   if (!entry) return null;
   const raw = pickULRaw(entry.DRI?.[ctx.group]?.[ctx.ageLabel]);
   if (!raw) return null;
-  return parseAmountToMg(raw, assumedDailyCalories, rangeSelectFor(ctx));
+  return parseAmountToMg(
+    resolvePerKg(raw, ctx, entry.referenceWeightKg?.[ctx.group]?.[ctx.ageLabel]),
+    assumedDailyCalories,
+    rangeSelectFor(ctx)
+  );
 }
 
 /**
@@ -348,7 +418,11 @@ export function getRecommendedAmountRaw(
   if (!entry) return null;
   const raw = pickRecommendedRaw(entry.DRI?.[ctx.group]?.[ctx.ageLabel]);
   if (!raw) return null;
-  return resolveGenderedAmount(raw, ctx.group, ctx.gender);
+  return resolveGenderedAmount(
+    resolvePerKg(raw, ctx, entry.referenceWeightKg?.[ctx.group]?.[ctx.ageLabel]),
+    ctx.group,
+    ctx.gender
+  );
 }
 
 /**
@@ -366,7 +440,11 @@ export function getULAmountRaw(
   if (!entry) return null;
   const raw = pickULRaw(entry.DRI?.[ctx.group]?.[ctx.ageLabel]);
   if (!raw) return null;
-  return resolveGenderedAmount(raw, ctx.group, ctx.gender);
+  return resolveGenderedAmount(
+    resolvePerKg(raw, ctx, entry.referenceWeightKg?.[ctx.group]?.[ctx.ageLabel]),
+    ctx.group,
+    ctx.gender
+  );
 }
 
 /* ------------------------------------------------------------------ */
