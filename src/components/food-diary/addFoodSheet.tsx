@@ -23,7 +23,9 @@ import {
 import { getRecentSlugs } from "@/lib/recentProducts";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
 
-export type DiaryProduct = CatalogProduct;
+// `source` — откуда взяты данные о продукте (например "USDA"); у части
+// продуктов поля нет.
+export type DiaryProduct = CatalogProduct & { source?: string };
 
 type AddFoodSheetProps = {
   open: boolean;
@@ -57,6 +59,7 @@ const ProductRow = memo(function ProductRow({
           </div>
           <ProductMacros slug={getSlug(product.link)} />
         </div>
+        {product.source && <div className={styles["item-source"]}>{product.source}</div>}
       </div>
 
       <button

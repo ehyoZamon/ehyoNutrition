@@ -39,7 +39,7 @@ const ProductRow = memo(function ProductRow({
   caloriesLabel,
   onOpen,
 }: {
-  product: CatalogProduct;
+  product: CatalogProduct & { source?: string };
   caloriesLabel: string;
   onOpen: (slug: string) => void;
 }) {
@@ -67,6 +67,7 @@ const ProductRow = memo(function ProductRow({
           <div className={styles["calories-label"]}>{caloriesLabel}: {product.calories}</div>
           <ProductMacros slug={slug} />
         </div>
+        {product.source && <div className={styles["product-source"]}>{product.source}</div>}
       </div>
     </div>
   );
