@@ -6,6 +6,8 @@
 // Промис кешируется на модульном уровне — AddFoodSheet и страница products
 // используют один и тот же индекс, файл читается и обрабатывается один раз.
 
+import { getCustomFoodsVersion, loadCustomFoods } from "@/lib/customFoods";
+
 export type CatalogProduct = {
   id: number;
   name: string;
@@ -38,7 +40,8 @@ const normalize = (s: string) => s.toLowerCase().replace(/ё/g, "е");
 
 const cache = new Map<string, Promise<ProductIndex>>();
 
-export function loadProductsIndex(locale: string): Promise<ProductIndex> {
+// Чистый каталог (products.json) — грузится и обрабатывается один раз на локаль.
+function loadCatalogIndex(locale: string): Promise<ProductIndex> {
   let cached = cache.get(locale);
   if (!cached) {
     cached = (
@@ -94,4 +97,58 @@ export function searchProducts(
     else inCategory.push(e.product);
   }
   return starts.concat(inName, inCategory);
+}
+
+// ---------------------------------------------------------------------------
+// Блюда пользователя (Create Food) подмешиваются в индекс, поэтому все, кто
+// ищет продукт по id/slug или показывает список — AddFoodSheet, Products,
+// дневник, расчёт %DV — видят их без отдельной логики.
+// Индекс с блюдами кешируется по версии списка блюд: создали блюдо / импортировали
+// бэкап -> версия выросла -> следующий loadProductsIndex() соберёт его заново
+// (экраны вызывают его повторно через useCustomFoodsVersion()).
+// ---------------------------------------------------------------------------
+const mergedCache = new Map<string, { version: number; promise: Promise<ProductIndex> }>();
+
+function withCustomFoods(base: ProductIndex, custom: CatalogProduct[]): ProductIndex {
+  if (custom.length === 0) return base;
+
+  const bySlug = new Map(base.bySlug);
+  const entries: IndexEntry[] = custom.map((product) => {
+    bySlug.set(getSlug(product.link), product);
+    const name = normalize(product.name);
+    const source = normalize((product as { source?: string }).source ?? "");
+    return { product, name, hay: `${name} ${source}` };
+  });
+
+  // свои блюда — в начале, чтобы они шли выше каталога при пустом поиске и при равной релевантности
+  return {
+    all: [...custom, ...base.all],
+    entries: [...entries, ...base.entries],
+    bySlug,
+  };
+}
+
+export function loadProductsIndex(locale: string): Promise<ProductIndex> {
+  const version = getCustomFoodsVersion();
+  const hit = mergedCache.get(locale);
+  if (hit && hit.version === version) return hit.promise;
+
+  let customFailed = false;
+  const promise = Promise.all([
+    loadCatalogIndex(locale),
+    // если БД ещё недоступна — каталог всё равно показываем, блюда подтянутся при следующей попытке
+    loadCustomFoods(locale).catch((e) => {
+      customFailed = true;
+      console.error("Не удалось загрузить свои блюда:", e);
+      return [] as CatalogProduct[];
+    }),
+  ]).then(([base, custom]) => {
+    if (customFailed) mergedCache.delete(locale);
+    return withCustomFoods(base, custom);
+  });
+
+  mergedCache.set(locale, { version, promise });
+  // при ошибке загрузки каталога не кешируем, чтобы можно было повторить
+  promise.catch(() => mergedCache.delete(locale));
+  return promise;
 }

@@ -193,7 +193,18 @@
     "waterCustomLabel": "Personal volume, ml",
     "waterAddCustom": "Add",
     "moreBtn": "More",
-    "more": "More"
+    "more": "More",
+    "createFood": "Create Food",
+    "createFoodNamePrompt": "What will you call the food?",
+    "createFoodNamePlaceholder": "Name of the Dish",
+    "ingredientsTitle": "Ingredients",
+    "addIngredient": "Add Ingredient",
+    "selectIngredient": "Select ingredient",
+    "deleteIngredientTitle": "Delete from ingredients?",
+    "createBtn": "Create",
+    "ingredientsEmpty": "Add at least one ingredient",
+    "createFoodError": "Could not save the food. Try again.",
+    "delete": "Delete"
   },
   "Settings":{
     "male": "male",

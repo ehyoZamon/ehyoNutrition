@@ -4,6 +4,7 @@ import { Share } from "@capacitor/share";
 import { getUserProfile, saveUserProfile, UserProfile } from "@/lib/userProfile";
 
 import { initDB, getSqlite, closeDB, persistWeb } from "@/lib/db";
+import { notifyCustomFoodsChanged } from "@/lib/customFoods";
 
 const BACKUP_APP = "NutritionLib";
 const BACKUP_FORMAT = 1;
@@ -22,7 +23,11 @@ export class BackupError extends Error {
   }
 }
 
-/** Собирает все данные в один JSON-объект. */
+/**
+ * Собирает все данные в один JSON-объект.
+ * db.exportToJson("full") выгружает ВСЕ таблицы базы, включая custom_foods и
+ * custom_food_ingredients (блюда пользователя) — отдельно их собирать не нужно.
+ */
 async function buildBackup(): Promise<BackupFile> {
   const db = await initDB();
   if (!db) throw new Error("База данных недоступна");
@@ -100,4 +105,7 @@ export async function importBackup(file: File): Promise<void> {
   if (parsed.profile) {
     await saveUserProfile(parsed.profile);
   }
+
+  // Блюда пользователя пришли из бэкапа — списки (AddFoodSheet, Products) перечитывают их.
+  notifyCustomFoodsChanged();
 }

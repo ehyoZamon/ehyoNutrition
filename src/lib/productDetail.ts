@@ -53,6 +53,12 @@ export function loadProductDetail(
   _locale: ProductLocale,
   slug: string
 ): Promise<ProductDetail | null> {
+  // Блюда пользователя (Create Food): файла в public/ нет, состав считается из ингредиентов.
+  // Динамический import — чтобы не было циклической зависимости с lib/customFoods.
+  if (slug.startsWith("custom-")) {
+    return import("./customFoods").then((m) => m.loadCustomProductDetail(slug));
+  }
+
   const key = slug;
   let cached = cache.get(key);
 

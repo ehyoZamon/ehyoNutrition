@@ -140,10 +140,23 @@
   transform: scale(0.92);
 }
 
-.close-btn {
+/* Нижний ряд кнопок: Close (+ Create Food, если страница его включила) */
+.actions {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  bottom: max(20px, calc(env(safe-area-inset-bottom) + 20px));
+}
+
+.close-btn,
+.create-btn {
+  flex: 1;
+  min-width: 0;
   border-radius: 24px;
   min-height: 56px;
-  background: #ff7a5c;
   color: #fff;
   font-family: var(--font-family);
   font-weight: 600;
@@ -151,11 +164,40 @@
   border: 0;
   cursor: pointer;
   flex-shrink: 0;
-  width: 100%;
-  position: absolute;
-  max-width: 90%;
-  left: 5%;
-  bottom: max(20px, calc(env(safe-area-inset-bottom) + 20px));
+}
+
+.close-btn {
+  background: #ff7a5c;
+}
+
+.create-btn {
+  background: #91c788;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.create-btn:active {
+  transform: scale(0.99);
+}
+
+/* Заголовок над поиском (например, "SELECT INGREDIENT") */
+.title {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #444;
+  z-index: 1;
+  background: #fff;
+}
+
+.has-title .search-container {
+  top: 55px;
 }
 
 .bottom-shade{

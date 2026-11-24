@@ -12,6 +12,7 @@ import {
 import { format } from "date-fns";
 import AddFoodSheet, { DiaryProduct } from "@/components/food-diary/addFoodSheet";
 import QuantitySheet from "@/components/food-diary/quantitySheet";
+import CreateFoodSheet from "@/components/food-diary/createFoodSheet";
 import BodyPortal from "@/components/BodyPortal";
 import { addDiaryEntry } from "@/lib/diary";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
@@ -64,6 +65,7 @@ export function useAddFood(): AddFoodContextValue {
 export default function AddFoodProvider({ children }: { children: ReactNode }) {
   const [isAddSheetOpen, setIsAddSheetOpen] = useState(false);
   const [isQuantitySheetOpen, setIsQuantitySheetOpen] = useState(false);
+  const [isCreateFoodOpen, setIsCreateFoodOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<DiaryProduct | null>(null);
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [diaryVersion, setDiaryVersion] = useState(0);
@@ -133,12 +135,19 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
     setSelectedProduct(null);
   }, []);
 
-  // "Назад" (Android): оба окна могут быть открыты одновременно, поэтому
-  // сначала закрываем верхнее (количество), и только потом — список.
+  // Блюдо создано: закрываем только модуль создания — список остаётся открытым,
+  // и новое блюдо уже видно в нём (useCustomFoods обновился).
+  const handleFoodCreated = useCallback(() => {
+    setIsCreateFoodOpen(false);
+  }, []);
+
+  // "Назад" (Android): окна могут быть открыты одновременно, поэтому
+  // сначала закрываем верхнее (количество / создание блюда), и только потом — список.
+  // Свой "Назад" у модуля создания блюда (с вложенными шторками) — внутри CreateFoodSheet.
   useBackHandler(() => {
     setIsAddSheetOpen(false);
     return true;
-  }, isAddSheetOpen && !isQuantitySheetOpen);
+  }, isAddSheetOpen && !isQuantitySheetOpen && !isCreateFoodOpen);
   useBackHandler(() => {
     handleQuantityClose();
     return true;
@@ -160,6 +169,13 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
           open={isAddSheetOpen}
           onClose={() => setIsAddSheetOpen(false)}
           onSelectProduct={handleSelectProduct}
+          onCreateFood={() => setIsCreateFoodOpen(true)}
+        />
+
+        <CreateFoodSheet
+          open={isCreateFoodOpen}
+          onClose={() => setIsCreateFoodOpen(false)}
+          onCreated={handleFoodCreated}
         />
 
         <QuantitySheet

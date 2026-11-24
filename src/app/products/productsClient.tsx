@@ -28,6 +28,7 @@ import ProductMacros from "@/components/productMacros/ProductMacros";
 import { useCategoryName } from "@/lib/categoryName";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
 import { AnalyticsEvent, track } from "@/lib/analytics";
+import { CUSTOM_CATEGORY, customCategoryLabel, useCustomFoodsVersion } from "@/lib/customFoods";
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -62,7 +63,7 @@ const ProductRow = memo(function ProductRow({
         onKeyDown={onKeyDown}
       >
         <div className={styles["product-name"]}>{product.name}</div>
-        <NutritionStars stars={product.nutritionStars}/>
+        {product.category !== CUSTOM_CATEGORY && <NutritionStars stars={product.nutritionStars}/>}
         <div className={styles["product-calories"]}>
           <div className={styles["calories-label"]}>{caloriesLabel}: {product.calories}</div>
           <ProductMacros slug={slug} />
@@ -75,8 +76,16 @@ const ProductRow = memo(function ProductRow({
 
 const ProductsClient = () => {
   const t = useTranslations("Products");
-  const categoryName = useCategoryName();
+  const catalogCategoryName = useCategoryName();
   const locale = useLocale();
+  // Свои блюда лежат в индексе как отдельная "категория" (см. lib/productsIndex.ts)
+  const categoryName = useCallback(
+    (category: string) =>
+      category === CUSTOM_CATEGORY ? customCategoryLabel(locale) : catalogCategoryName(category),
+    [catalogCategoryName, locale]
+  );
+  // Меняется после создания блюда / импорта бэкапа — индекс грузим заново
+  const customVersion = useCustomFoodsVersion();
 
   const [search, setSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -112,7 +121,7 @@ const ProductsClient = () => {
     return () => {
       cancelled = true;
     };
-  }, [locale]);
+  }, [locale, customVersion]);
 
   // useDeferredValue: ввод в поле остаётся отзывчивым, тяжёлая фильтрация идёт с низким приоритетом
   const deferredSearch = useDeferredValue(search);
@@ -124,9 +133,13 @@ const ProductsClient = () => {
     for (const p of index.all) {
       counts.set(p.category, (counts.get(p.category) ?? 0) + 1);
     }
-    return Array.from(counts.entries())
+    const sorted = Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1])
       .map(([category]) => category);
+    // "Моя еда" — первым чипом
+    return sorted.includes(CUSTOM_CATEGORY)
+      ? [CUSTOM_CATEGORY, ...sorted.filter((c) => c !== CUSTOM_CATEGORY)]
+      : sorted;
   }, [index]);
 
   // Выбранная категория действительна, только если она есть в текущем списке (например, после смены языка)

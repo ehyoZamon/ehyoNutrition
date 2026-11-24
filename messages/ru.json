@@ -193,7 +193,18 @@
     "waterCustomLabel": "Свой объём, мл",
     "waterAddCustom": "Добавить",
     "moreBtn": "Подробнее",
-    "more": "Больше"
+    "more": "Больше",
+    "createFood": "Создать",
+    "createFoodNamePrompt": "Как назовёте блюдо?",
+    "createFoodNamePlaceholder": "Название блюда",
+    "ingredientsTitle": "Ингредиенты",
+    "addIngredient": "Добавить ингредиент",
+    "selectIngredient": "Выберите ингредиент",
+    "deleteIngredientTitle": "Удалить из ингредиентов?",
+    "createBtn": "Создать",
+    "ingredientsEmpty": "Добавьте хотя бы один ингредиент",
+    "createFoodError": "Не удалось сохранить блюдо. Попробуйте ещё раз.",
+    "delete": "Удалить"
   },
   "Settings":{
     "male": "мужчина",

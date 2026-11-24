@@ -30,6 +30,24 @@ const SCHEMA = `
     date TEXT PRIMARY KEY,
     amount_ml INTEGER NOT NULL DEFAULT 0
   );
+
+  -- Блюда, которые пользователь собрал сам (модуль Create Food).
+  -- В diary.product_id такое блюдо хранится как -custom_foods.id.
+  CREATE TABLE IF NOT EXISTS custom_foods (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    calories REAL NOT NULL DEFAULT 0,
+    created_at TEXT NOT NULL
+  );
+
+  CREATE TABLE IF NOT EXISTS custom_food_ingredients (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    food_id INTEGER NOT NULL,
+    product_slug TEXT NOT NULL,
+    grams REAL NOT NULL
+  );
+
+  CREATE INDEX IF NOT EXISTS idx_custom_food_ingredients_food ON custom_food_ingredients(food_id);
 `;
 
 // Для установок, где таблица diary уже существовала до появления колонки

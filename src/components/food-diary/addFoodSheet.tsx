@@ -22,6 +22,7 @@ import {
 } from "@/lib/productsIndex";
 import { getRecentSlugs } from "@/lib/recentProducts";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
+import { CUSTOM_CATEGORY, useCustomFoodsVersion } from "@/lib/customFoods";
 
 // `source` — откуда взяты данные о продукте (например "USDA"); у части
 // продуктов поля нет.
@@ -31,7 +32,22 @@ type AddFoodSheetProps = {
   open: boolean;
   onClose: () => void;
   onSelectProduct: (product: DiaryProduct) => void;
+  /** Если передан — рядом с Close появляется кнопка "Create Food". */
+  onCreateFood?: () => void;
+  /** Заголовок над поиском (например, "Select ingredient"). */
+  title?: string;
+  /** Свой z-index, когда список открывается поверх другой шторки. */
+  zIndex?: number;
+  /** Не показывать блюда пользователя (нужно при выборе ингредиентов). */
+  hideCustom?: boolean;
 };
+
+const CreateFoodIcon = () => (
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.6" />
+    <path d="M12 7v10M7 12h10" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+  </svg>
+);
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -52,7 +68,7 @@ const ProductRow = memo(function ProductRow({
     <div className={styles["item"]}>
       <div className={styles["item-details"]}>
         <div className={styles["item-name"]}>{product.name} </div>
-        <NutritionStars stars={product.nutritionStars} />
+        {product.category !== CUSTOM_CATEGORY && <NutritionStars stars={product.nutritionStars} />}
         <div className={styles["item-calories"]}>
           <div className={styles["calories-label"]}>
             {caloriesLabel}: <span className={styles["calories-value"]}>{product.calories}</span>
@@ -77,11 +93,28 @@ const ProductRow = memo(function ProductRow({
 // ---------------------------------------------------------------------------
 // Компонент
 // ---------------------------------------------------------------------------
-const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => {
+const AddFoodSheet = ({
+  open,
+  onClose,
+  onSelectProduct,
+  onCreateFood,
+  title,
+  zIndex,
+  hideCustom = false,
+}: AddFoodSheetProps) => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
   // ключ "calories" в FoodDiary необязателен: без него остаётся "Calories"
   const caloriesLabel = t.has("calories") ? t("calories") : "Calories";
+  // ключ "createFood" тоже необязателен
+  const createLabel = t.has("createFood")
+    ? t("createFood")
+    : locale === "ru"
+      ? "Cоздать"
+      : "Create Food";
+
+  // Меняется после создания блюда / импорта бэкапа — тогда индекс (в нём лежат и свои блюда) грузим заново
+  const customVersion = useCustomFoodsVersion();
 
   const [search, setSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -122,7 +155,7 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
       cancelled = true;
       clearTimeout(id);
     };
-  }, [locale, open]);
+  }, [locale, open, customVersion]);
 
   // Сбрасываем поиск при закрытии, чтобы не тащить старый запрос в следующее открытие
   useEffect(() => {
@@ -137,7 +170,9 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
 
   const filteredProducts = useMemo(() => {
     if (!index) return [];
-    const found = searchProducts(index, deferredSearch);
+    const searched = searchProducts(index, deferredSearch);
+    // При выборе ингредиентов свои блюда прячем (блюдо внутри блюда не поддерживается)
+    const found = hideCustom ? searched.filter((p) => p.category !== CUSTOM_CATEGORY) : searched;
 
     // Недавние — наверх только когда поле поиска пустое
     if (deferredSearch.trim() !== "" || recentSlugs.length === 0) return found;
@@ -146,13 +181,13 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
     const seen = new Set<DiaryProduct>();
     for (const slug of recentSlugs) {
       const p = index.bySlug.get(slug);
-      if (p && !seen.has(p)) {
+      if (p && !(hideCustom && p.category === CUSTOM_CATEGORY) && !seen.has(p)) {
         seen.add(p);
         recent.push(p);
       }
     }
     return recent.concat(found.filter((p) => !seen.has(p)));
-  }, [index, deferredSearch, recentSlugs]);
+  }, [index, deferredSearch, recentSlugs, hideCustom]);
 
   // Новый запрос -> снова первые 100 и прокрутка наверх
   useEffect(() => {
@@ -185,8 +220,17 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
   if (!open) return null;
 
   return (
-    <div className={styles["overlay"]} onClick={onClose}>
-      <div className={styles["sheet"]} onClick={(e) => e.stopPropagation()}>
+    <div
+      className={styles["overlay"]}
+      style={zIndex ? { zIndex } : undefined}
+      onClick={onClose}
+    >
+      <div
+        className={`${styles["sheet"]} ${title ? styles["has-title"] : ""}`}
+        onClick={(e) => e.stopPropagation()}
+      >
+        {title && <div className={styles["title"]}>{title}</div>}
+
         <div className={styles["search-container"]}>
           <Image
             src="/search.svg"
@@ -229,9 +273,17 @@ const AddFoodSheet = ({ open, onClose, onSelectProduct }: AddFoodSheetProps) => 
           )}
         </div>
 
-        <button type="button" className={styles["close-btn"]} onClick={onClose}>
-          {t("closeBtn")}
-        </button>
+        <div className={styles["actions"]}>
+          <button type="button" className={styles["close-btn"]} onClick={onClose}>
+            {t("closeBtn")}
+          </button>
+          {onCreateFood && (
+            <button type="button" className={styles["create-btn"]} onClick={onCreateFood}>
+              {createLabel}
+              <CreateFoodIcon />
+            </button>
+          )}
+        </div>
         <div className={styles["bottom-shade"]}></div>
       </div>
     </div>
