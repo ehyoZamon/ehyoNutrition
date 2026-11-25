@@ -51,6 +51,7 @@ import {
 import { parseServingInfo, formatAmountLabel } from "@/lib/servingInfo";
 import { useServingUnitLabels } from "@/lib/useServingUnitLabels";
 import { loadProductDetail } from "@/lib/productDetail";
+import { loadCustomFoods, useCustomFoodsVersion } from "@/lib/customFoods";
 import { getUserProfile, UserProfile } from "@/lib/userProfile";
 import WaterModule from "@/components/food-diary/waterModule";
 import {
@@ -185,12 +186,36 @@ const FoodDiaryClient = () => {
 
 const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   // ---- Локализованные данные продуктов ----
+  // Блюда пользователя (Create Food) лежат в SQLite, а не в products.json, поэтому
+  // подмешиваем их к каталогу сами — иначе записи с их id превращаются в "Unknown product".
+  const customVersion = useCustomFoodsVersion();
+  const [customFoods, setCustomFoods] = useState<DiaryProduct[]>([]);
+  // false, пока блюда не загружены — до этого записи не грузим, чтобы не мелькало "Unknown product"
+  const [customReady, setCustomReady] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadCustomFoods(locale)
+      .then((list) => {
+        // не меняем ссылку, если блюд нет — иначе productMap пересоберётся зря
+        if (!cancelled) setCustomFoods((prev) => (prev.length === 0 && list.length === 0 ? prev : list));
+      })
+      .catch((e) => console.error("Не удалось загрузить свои блюда:", e))
+      .finally(() => {
+        if (!cancelled) setCustomReady(true);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [locale, customVersion]);
+
   const productMap = useMemo(() => {
     const list = (locale === "ru" ? productsRu : productsEn) as DiaryProduct[];
     const map = new Map<number, DiaryProduct>();
     list.forEach((p) => map.set(p.id, p));
+    customFoods.forEach((p) => map.set(p.id, p)); // id блюд отрицательные — с каталогом не пересекаются
     return map;
-  }, [locale]);
+  }, [locale, customFoods]);
 
   // Personal info (birth date + gender) needed to resolve which DRI
   // bracket applies — loaded once, from the same storage onboarding writes to.
@@ -353,8 +378,9 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
   }, [weeks]);
 
   useEffect(() => {
+    if (!customReady) return; // ждём свои блюда, чтобы их записи не показались как "Unknown product"
     loadEntriesForDate(selectedDate);
-  }, [selectedDate, loadEntriesForDate]);
+  }, [selectedDate, loadEntriesForDate, customReady]);
 
   useEffect(() => {
     loadDatesWithEntries();
@@ -623,7 +649,8 @@ const dateFnsLocale = useMemo(() => (locale === "ru" ? ru : enUS), [locale]);
     // не зависит от того, что уже съедено сегодня, поэтому грузится и
     // ошибается независимо (одно не должно блокировать другое).
     try {
-      const catalog = Array.from(productMap.values());
+      // "Богатые источники" — только каталог, свои блюда (id < 0) в рейтинг не берём
+      const catalog = Array.from(productMap.values()).filter((p) => p.id > 0);
       const top = await getTopProductsForNutrient(slug, catalog, loc, 10);
       setTopProducts(top);
     } catch (e) {
