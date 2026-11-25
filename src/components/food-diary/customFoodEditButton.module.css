@@ -1,0 +1,19 @@
+/* components/food-diary/customFoodEditButton.module.css */
+
+.edit-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 0;
+  background: #f1f1f1;
+  color: #8a8a8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.edit-btn:active {
+  transform: scale(0.92);
+}

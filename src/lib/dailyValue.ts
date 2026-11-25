@@ -624,24 +624,19 @@ export function slugForNutrientKey(
   return key;
 }
 
-// Scales a per-100g amount string (e.g. "8 mg", "1.2g") by `factor` and
-// keeps the original unit. Mirrors the identical helper in
-// components/food-diary/quantitySheet.tsx (kept local here too, rather than
-// pulled into a shared module, to avoid a cross-cutting refactor of that
-// component while adding this feature).
-function scaleAmountString(value: string, factor: number): string {
-  const match = value.trim().match(/^(-?[\d.]+)\s*(.*)$/);
-  if (!match) return value;
+// Below this amount (1 mcg) a product is considered to contain "practically
+// none" of the nutrient and is hidden from the breakdown lists.
+const MIN_DISPLAY_MG = 0.001;
 
-  const num = parseFloat(match[1]);
-  if (Number.isNaN(num)) return value;
-
-  const unit = match[2].trim();
-  const scaled = num * factor;
-  const rounded = Math.round(scaled * 10) / 10;
-  const numStr = Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
-
-  return unit ? `${numStr} ${unit}` : numStr;
+// Formats an already-scaled amount (in mg) choosing the unit by magnitude, so
+// small amounts stay visible ("0.003 g" -> "3 mg", "0.0004 g" -> "400 mcg")
+// instead of being rounded to "0 g" like scaleAmountString() does.
+// Keeps a trailing qualifier (RAE / DFE) from the source string if present.
+function formatConsumedMg(mg: number, sourceAmount: string): string {
+  const unit = mg >= 1000 ? "g" : mg >= 1 ? "mg" : "mcg";
+  const qualifier = parseAmount(sourceAmount).value.match(/\s([A-Z]{2,})\s*$/)?.[1];
+  const base = formatMgAsUnitOf(mg, unit);
+  return qualifier ? `${base} ${qualifier}` : base;
 }
 
 /**
@@ -744,14 +739,14 @@ export async function computeNutrientBreakdown(
     if (consumedMg <= 0) continue;
 
     totalMg += consumedMg;
+    // Следовые количества (< 1 мкг) в список не выводим — иначе строка
+    // выглядела бы как "0 г". В totalMg они всё равно учтены выше.
+    if (consumedMg < MIN_DISPLAY_MG) continue;
     const percent = recommendedMg && recommendedMg > 0 ? (consumedMg / recommendedMg) * 100 : 0;
 
     let amountLabel = "";
     try {
-      amountLabel = localizeAmountString(
-        scaleAmountString(parseAmount(nutrient.amount).value, factor),
-        locale
-      );
+      amountLabel = localizeAmountString(formatConsumedMg(consumedMg, nutrient.amount), locale);
     } catch (err) {
       console.warn(`computeNutrientBreakdown: bad display amount for "${product.name}"`, err);
     }
@@ -799,14 +794,12 @@ export async function computeNutrientBreakdown(
     if (mg <= 0) continue;
 
     plannedTotalMg += mg;
+    if (mg < MIN_DISPLAY_MG) continue;
     const percent = recommendedMg && recommendedMg > 0 ? (mg / recommendedMg) * 100 : 0;
 
     let amountLabel = "";
     try {
-      amountLabel = localizeAmountString(
-        scaleAmountString(parseAmount(nutrient.amount).value, factor),
-        locale
-      );
+      amountLabel = localizeAmountString(formatConsumedMg(mg, nutrient.amount), locale);
     } catch (err) {
       console.warn(`computeNutrientBreakdown: bad planned display amount for "${product.name}"`, err);
     }

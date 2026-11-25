@@ -48,6 +48,11 @@ type AddFoodContextValue = {
    * вкладке "All") приём пищи определяется по времени суток.
    */
   setPreferredMeal: (meal: MealFilter) => void;
+  /**
+   * Открывает модуль Create Food в режиме редактирования для своего блюда.
+   * Принимает id продукта (у блюд пользователя он отрицательный: -custom_foods.id).
+   */
+  editCustomFood: (productId: number) => void;
   /** Увеличивается после каждой успешной записи — по нему дневник перезагружает список. */
   diaryVersion: number;
 };
@@ -66,6 +71,8 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
   const [isAddSheetOpen, setIsAddSheetOpen] = useState(false);
   const [isQuantitySheetOpen, setIsQuantitySheetOpen] = useState(false);
   const [isCreateFoodOpen, setIsCreateFoodOpen] = useState(false);
+  // id блюда в custom_foods, если модуль открыт на редактирование; null — создание нового
+  const [editFoodId, setEditFoodId] = useState<number | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<DiaryProduct | null>(null);
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [diaryVersion, setDiaryVersion] = useState(0);
@@ -135,11 +142,36 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
     setSelectedProduct(null);
   }, []);
 
-  // Блюдо создано: закрываем только модуль создания — список остаётся открытым,
-  // и новое блюдо уже видно в нём (useCustomFoods обновился).
-  const handleFoodCreated = useCallback(() => {
-    setIsCreateFoodOpen(false);
+  const handleCreateFoodOpen = useCallback(() => {
+    setEditFoodId(null);
+    setIsCreateFoodOpen(true);
   }, []);
+
+  const editCustomFood = useCallback((productId: number) => {
+    if (productId >= 0) return; // только блюда пользователя
+    if (isNavigationSettling()) return;
+    setEditFoodId(-productId);
+    setIsCreateFoodOpen(true);
+  }, []);
+
+  const closeCreateFood = useCallback(() => {
+    setIsCreateFoodOpen(false);
+    setEditFoodId(null);
+  }, []);
+
+  // Блюдо создано/изменено: закрываем только модуль — список остаётся открытым,
+  // и блюдо уже видно в нём (useCustomFoodsVersion обновился). После правки состава
+  // меняются калории и %DV старых записей, поэтому дневник перечитываем.
+  const handleFoodCreated = useCallback(() => {
+    if (editFoodId !== null) setDiaryVersion((v) => v + 1);
+    closeCreateFood();
+  }, [editFoodId, closeCreateFood]);
+
+  // Блюдо удалено вместе со своими записями дневника — дневник тоже перечитываем.
+  const handleFoodDeleted = useCallback(() => {
+    setDiaryVersion((v) => v + 1);
+    closeCreateFood();
+  }, [closeCreateFood]);
 
   // "Назад" (Android): окна могут быть открыты одновременно, поэтому
   // сначала закрываем верхнее (количество / создание блюда), и только потом — список.
@@ -154,8 +186,8 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
   }, isQuantitySheetOpen);
 
   const value = useMemo<AddFoodContextValue>(
-    () => ({ openAddFood, setPreferredMeal, diaryVersion }),
-    [openAddFood, setPreferredMeal, diaryVersion]
+    () => ({ openAddFood, setPreferredMeal, editCustomFood, diaryVersion }),
+    [openAddFood, setPreferredMeal, editCustomFood, diaryVersion]
   );
 
   return (
@@ -169,13 +201,16 @@ export default function AddFoodProvider({ children }: { children: ReactNode }) {
           open={isAddSheetOpen}
           onClose={() => setIsAddSheetOpen(false)}
           onSelectProduct={handleSelectProduct}
-          onCreateFood={() => setIsCreateFoodOpen(true)}
+          onCreateFood={handleCreateFoodOpen}
+          onEditCustom={(product) => editCustomFood(product.id)}
         />
 
         <CreateFoodSheet
           open={isCreateFoodOpen}
-          onClose={() => setIsCreateFoodOpen(false)}
+          onClose={closeCreateFood}
           onCreated={handleFoodCreated}
+          editId={editFoodId}
+          onDeleted={handleFoodDeleted}
         />
 
         <QuantitySheet

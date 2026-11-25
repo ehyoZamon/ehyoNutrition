@@ -29,6 +29,8 @@ import { useCategoryName } from "@/lib/categoryName";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
 import { AnalyticsEvent, track } from "@/lib/analytics";
 import { CUSTOM_CATEGORY, customCategoryLabel, useCustomFoodsVersion } from "@/lib/customFoods";
+import { useAddFood } from "@/components/food-diary/addFoodProvider";
+import CustomFoodEditButton from "@/components/food-diary/customFoodEditButton";
 
 /** Сколько продуктов дорисовываем за один раз при прокрутке. */
 const PAGE_SIZE = 100;
@@ -38,11 +40,15 @@ const PAGE_SIZE = 100;
 const ProductRow = memo(function ProductRow({
   product,
   caloriesLabel,
+  editLabel,
   onOpen,
+  onEdit,
 }: {
   product: CatalogProduct & { source?: string };
   caloriesLabel: string;
+  editLabel: string;
   onOpen: (slug: string) => void;
+  onEdit: (productId: number) => void;
 }) {
   const slug = getSlug(product.link);
   const open = () => onOpen(slug);
@@ -53,8 +59,7 @@ const ProductRow = memo(function ProductRow({
     }
   };
 
-  return (
-    <div className={styles["product"]}>
+  const details = (
       <div
         className={styles["product-details"]}
         role="button"
@@ -70,6 +75,19 @@ const ProductRow = memo(function ProductRow({
         </div>
         {product.source && <div className={styles["product-source"]}>{product.source}</div>}
       </div>
+  );
+
+  // У своих блюд справа от описания — кнопка редактирования (удаление внутри экрана редактирования)
+  return (
+    <div className={styles["product"]}>
+      {details}
+      {product.category === CUSTOM_CATEGORY && (
+        <CustomFoodEditButton
+          className={styles["product-edit-btn"]}
+          label={editLabel}
+          onClick={() => onEdit(product.id)}
+        />
+      )}
     </div>
   );
 });
@@ -78,6 +96,8 @@ const ProductsClient = () => {
   const t = useTranslations("Products");
   const catalogCategoryName = useCategoryName();
   const locale = useLocale();
+  const { editCustomFood } = useAddFood();
+  const editLabel = t.has("edit") ? t("edit") : locale === "ru" ? "Изменить" : "Edit";
   // Свои блюда лежат в индексе как отдельная "категория" (см. lib/productsIndex.ts)
   const categoryName = useCallback(
     (category: string) =>
@@ -294,7 +314,9 @@ const ProductsClient = () => {
                       key={product.id}
                       product={product}
                       caloriesLabel={caloriesLabel}
+                      editLabel={editLabel}
                       onOpen={handleOpen}
+                      onEdit={editCustomFood}
                     />
                   ))}
                 </div>

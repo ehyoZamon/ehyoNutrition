@@ -21,7 +21,8 @@
       "kcal": "ккал"
     },
     "all": "All",
-    "more": "More"
+    "more": "More",
+    "edit": "Edit"
   },
   "ProductInfo": {
     "clickToLearnMore": "(Click to learn more)",
@@ -204,7 +205,12 @@
     "createBtn": "Create",
     "ingredientsEmpty": "Add at least one ingredient",
     "createFoodError": "Could not save the food. Try again.",
-    "delete": "Delete"
+    "delete": "Delete",
+    "edit": "Edit",
+    "deleteFoodBtn": "Delete food",
+    "deleteFoodTitle": "Delete this food?",
+    "deleteFoodWithEntries": "Diary entries that will be removed with it: {count}.",
+    "deleteFoodNoEntries": "This can't be undone."
   },
   "Settings":{
     "male": "male",

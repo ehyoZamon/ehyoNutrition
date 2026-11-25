@@ -11,14 +11,18 @@ import { useLocale, useTranslations } from "next-intl";
 import styles from "./createFoodSheet.module.css";
 import BodyPortal from "@/components/BodyPortal";
 import AddFoodSheet, { type DiaryProduct } from "./addFoodSheet";
-import { getSlug } from "@/lib/productsIndex";
+import { getSlug, loadProductsIndex } from "@/lib/productsIndex";
 import { useBackHandler } from "@/lib/backHandler";
 import { useNutrientName } from "@/lib/useNutrientName";
 import { useLocalizeUnits } from "@/lib/useLocalizeUnits";
 import {
   CUSTOM_FOOD_IMAGE,
   computeFoodNutrition,
+  countCustomFoodDiaryEntries,
   createCustomFood,
+  deleteCustomFood,
+  loadCustomFoodForEdit,
+  updateCustomFood,
   type CustomProduct,
   type FoodNutrition,
 } from "@/lib/customFoods";
@@ -29,8 +33,12 @@ type QtyState = { product: DiaryProduct; editIndex: number | null };
 type CreateFoodSheetProps = {
   open: boolean;
   onClose: () => void;
-  /** Блюдо сохранено — провайдер закрывает модуль, список обновляется сам (useCustomFoods). */
+  /** Блюдо сохранено (создано или изменено) — провайдер закрывает модуль, список обновляется сам. */
   onCreated: (food: CustomProduct) => void;
+  /** id блюда в custom_foods: если задан — модуль работает в режиме редактирования. */
+  editId?: number | null;
+  /** Блюдо удалено (только в режиме редактирования). */
+  onDeleted?: () => void;
 };
 
 // Насколько нижний край экрана закрыт клавиатурой (тот же приём, что в QuantitySheet).
@@ -189,15 +197,77 @@ function DeleteSheet({
 }
 
 // ---------------------------------------------------------------------------
+// Подтверждение удаления всего блюда (режим редактирования)
+// ---------------------------------------------------------------------------
+function DeleteFoodSheet({
+  name,
+  title,
+  warning,
+  cancelLabel,
+  submitLabel,
+  busy,
+  onCancel,
+  onConfirm,
+}: {
+  name: string;
+  title: string;
+  warning: string;
+  cancelLabel: string;
+  submitLabel: string;
+  busy: boolean;
+  onCancel: () => void;
+  onConfirm: () => void;
+}) {
+  return (
+    <BodyPortal>
+      <div className={`${styles["overlay"]} ${styles["overlay-top"]}`} onClick={onCancel}>
+        <div className={styles["small-sheet"]} onClick={(e) => e.stopPropagation()}>
+          <h2 className={styles["sheet-title"]}>{title}</h2>
+
+          <div className={styles["entry-row"]}>
+            <div className={styles["entry-img"]}>
+              <Image src={CUSTOM_FOOD_IMAGE} alt="" width={36} height={36} />
+            </div>
+            <span className={styles["entry-label"]}>{name}</span>
+          </div>
+
+          <p className={styles["warning-text"]}>{warning}</p>
+
+          <div className={styles["actions-row"]}>
+            <button type="button" className={styles["cancel-btn"]} onClick={onCancel}>
+              {cancelLabel}
+            </button>
+            <button type="button" className={styles["submit-btn"]} disabled={busy} onClick={onConfirm}>
+              {submitLabel}
+            </button>
+          </div>
+        </div>
+      </div>
+    </BodyPortal>
+  );
+}
+
+// ---------------------------------------------------------------------------
 // Экран 2: само создание блюда
 // ---------------------------------------------------------------------------
-const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => {
+const CreateFoodSheet = ({ open, onClose, onCreated, editId = null, onDeleted }: CreateFoodSheetProps) => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
   const gramUnit = t("gramUnit");
   const kcalUnit = t("kcalUnit");
   const nutrientName = useNutrientName();
   const localizeUnits = useLocalizeUnits();
+  const isEdit = editId !== null;
+
+  // Ключи для режима редактирования необязательны: без них в messages/*.json
+  // остаётся встроенный текст (тот же приём, что в AddFoodSheet).
+  const tt = (key: string, ru: string, en: string, values?: Record<string, string | number>) => {
+    if (t.has(key)) return t(key, values as never);
+    const raw = locale === "ru" ? ru : en;
+    return values
+      ? Object.entries(values).reduce((acc, [k, v]) => acc.replaceAll(`{${k}}`, String(v)), raw)
+      : raw;
+  };
 
   const [name, setName] = useState("");
   const [items, setItems] = useState<Ingredient[]>([]);
@@ -207,6 +277,9 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
   const [nutrition, setNutrition] = useState<FoodNutrition | null>(null);
   const [saving, setSaving] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [loadingEdit, setLoadingEdit] = useState(false);
+  const [deleteFoodOpen, setDeleteFoodOpen] = useState(false);
+  const [diaryCount, setDiaryCount] = useState(0);
 
   // Закрыли модуль — черновик не храним
   useEffect(() => {
@@ -219,7 +292,39 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
     setNutrition(null);
     setSaving(false);
     setFailed(false);
+    setLoadingEdit(false);
+    setDeleteFoodOpen(false);
   }, [open]);
+
+  // Режим редактирования: подставляем название и состав сохранённого блюда
+  useEffect(() => {
+    if (!open || editId === null) return;
+    let cancelled = false;
+    setLoadingEdit(true);
+    (async () => {
+      try {
+        const [food, index] = await Promise.all([loadCustomFoodForEdit(editId), loadProductsIndex(locale)]);
+        if (cancelled || !food) return;
+        setName(food.name);
+        const loaded: Ingredient[] = [];
+        for (const it of food.items) {
+          const product = index.bySlug.get(it.slug);
+          if (product) loaded.push({ product, grams: it.grams });
+        }
+        setItems(loaded);
+      } catch (e) {
+        console.error("Не удалось загрузить блюдо для редактирования:", e);
+        if (!cancelled) setFailed(true);
+      } finally {
+        if (!cancelled) setLoadingEdit(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+    // locale намеренно не в deps: смена языка не должна затирать правки пользователя
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, editId]);
 
   // Пересчёт сводки (белки / ккал / жиры / углеводы) при любом изменении состава
   useEffect(() => {
@@ -252,7 +357,7 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
   }, [nutrition, locale]);
 
   const totalGrams = items.reduce((sum, i) => sum + i.grams, 0);
-  const canCreate = name.trim().length > 0 && items.length > 0 && totalGrams > 0 && !saving;
+  const canCreate = name.trim().length > 0 && items.length > 0 && totalGrams > 0 && !saving && !loadingEdit;
 
   // "Назад" (Android): закрываем самое верхнее окно; условия взаимоисключающие
   useBackHandler(() => {
@@ -268,9 +373,13 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
     return true;
   }, pickerOpen && qty === null && deleteIndex === null);
   useBackHandler(() => {
+    setDeleteFoodOpen(false);
+    return true;
+  }, deleteFoodOpen);
+  useBackHandler(() => {
     onClose();
     return true;
-  }, open && !pickerOpen && qty === null && deleteIndex === null);
+  }, open && !pickerOpen && qty === null && deleteIndex === null && !deleteFoodOpen);
 
   // Экран 4 → выбрали ингредиент. Если он уже в составе — открываем его на редактирование.
   const handlePick = (product: DiaryProduct) => {
@@ -302,14 +411,41 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
     setSaving(true);
     setFailed(false);
     try {
-      const food = await createCustomFood(
-        name,
-        items.map((i) => ({ slug: getSlug(i.product.link), grams: i.grams })),
-        locale
-      );
+      const payload = items.map((i) => ({ slug: getSlug(i.product.link), grams: i.grams }));
+      const food =
+        editId !== null
+          ? await updateCustomFood(editId, name, payload, locale)
+          : await createCustomFood(name, payload, locale);
       onCreated(food);
     } catch (e) {
       console.error("Не удалось создать блюдо:", e);
+      setFailed(true);
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  // Перед удалением блюда показываем, сколько записей дневника исчезнет вместе с ним
+  const openDeleteFood = async () => {
+    if (editId === null) return;
+    try {
+      setDiaryCount(await countCustomFoodDiaryEntries(editId));
+    } catch {
+      setDiaryCount(0);
+    }
+    setDeleteFoodOpen(true);
+  };
+
+  const handleDeleteFood = async () => {
+    if (editId === null) return;
+    setSaving(true);
+    try {
+      await deleteCustomFood(editId);
+      setDeleteFoodOpen(false);
+      onDeleted?.();
+    } catch (e) {
+      console.error("Не удалось удалить блюдо:", e);
+      setDeleteFoodOpen(false);
       setFailed(true);
     } finally {
       setSaving(false);
@@ -356,7 +492,7 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
               )}
             </h3>
 
-            {items.length === 0 && <p className={styles["empty"]}>{t("ingredientsEmpty")}</p>}
+            {items.length === 0 && !loadingEdit && <p className={styles["empty"]}>{t("ingredientsEmpty")}</p>}
 
             {items.map((item, index) => (
               <div className={styles["ingredient"]} key={getSlug(item.product.link)}>
@@ -388,6 +524,17 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
               {t("addIngredient")}
             </button>
 
+            {isEdit && (
+              <button
+                type="button"
+                className={styles["delete-food-btn"]}
+                disabled={saving || loadingEdit}
+                onClick={openDeleteFood}
+              >
+                {tt("deleteFoodBtn", "Удалить блюдо", "Delete food")}
+              </button>
+            )}
+
             {failed && <p className={styles["error"]}>{t("createFoodError")}</p>}
           </div>
 
@@ -396,7 +543,7 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
               {t("cancelBtn")}
             </button>
             <button type="button" className={styles["submit-btn"]} disabled={!canCreate} onClick={handleCreate}>
-              {t("createBtn")}
+              {isEdit ? t("saveBtn") : t("createBtn")}
             </button>
           </div>
         </div>
@@ -422,6 +569,28 @@ const CreateFoodSheet = ({ open, onClose, onCreated }: CreateFoodSheetProps) => 
           unit={gramUnit}
           onCancel={() => setQty(null)}
           onConfirm={handleQtyConfirm}
+        />
+      )}
+
+      {deleteFoodOpen && (
+        <DeleteFoodSheet
+          name={name}
+          title={tt("deleteFoodTitle", "Удалить блюдо?", "Delete this food?")}
+          warning={
+            diaryCount > 0
+              ? tt(
+                  "deleteFoodWithEntries",
+                  "Записей в дневнике, которые будут удалены вместе с блюдом: {count}.",
+                  "Diary entries that will be removed with it: {count}.",
+                  { count: diaryCount }
+                )
+              : tt("deleteFoodNoEntries", "Это действие нельзя отменить.", "This can't be undone.")
+          }
+          cancelLabel={t("cancelBtn")}
+          submitLabel={t("submitBtn")}
+          busy={saving}
+          onCancel={() => setDeleteFoodOpen(false)}
+          onConfirm={handleDeleteFood}
         />
       )}
 

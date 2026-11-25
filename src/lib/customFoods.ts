@@ -13,6 +13,7 @@ import { initDB, persistWeb } from "@/lib/db";
 import { loadProductDetail, type ProductDetail, type ProductNutrient } from "@/lib/productDetail";
 import { parseServingInfo } from "@/lib/servingInfo";
 import { parseAmount } from "@/lib/nutrientFormat";
+import { requestMealReminderSync } from "@/lib/reminderEvents";
 import type { CatalogProduct } from "@/lib/productsIndex"; // только тип: productsIndex импортирует этот файл
 
 // ---------------------------------------------------------------------------
@@ -220,6 +221,86 @@ export async function createCustomFood(
   await persistWeb();
   notifyCustomFoodsChanged();
   return toProduct({ id, name: cleanName, calories: kcalPer100 }, locale);
+}
+
+/** Состав блюда для экрана редактирования. */
+export async function loadCustomFoodForEdit(
+  id: number
+): Promise<{ name: string; items: FoodItem[] } | null> {
+  const db = await conn();
+  const food = await db.query(`SELECT name FROM custom_foods WHERE id = ?`, [id]);
+  const row = food.values?.[0] as { name?: string } | undefined;
+  if (!row) return null;
+
+  const res = await db.query(
+    `SELECT product_slug, grams FROM custom_food_ingredients WHERE food_id = ? ORDER BY id`,
+    [id]
+  );
+  const items = ((res.values ?? []) as { product_slug: string; grams: number }[]).map((r) => ({
+    slug: r.product_slug,
+    grams: r.grams,
+  }));
+  return { name: row.name ?? "", items };
+}
+
+/**
+ * Сохраняет изменения блюда: название, калории и состав заменяются одной
+ * транзакцией (executeSet), поэтому при ошибке блюдо остаётся прежним.
+ * Записи дневника хранят только id блюда и граммы, так что они сами
+ * пересчитаются по новому составу.
+ */
+export async function updateCustomFood(
+  id: number,
+  name: string,
+  items: FoodItem[],
+  locale: string
+): Promise<CustomProduct> {
+  const cleanName = name.trim();
+  const { kcalPer100 } = await computeFoodNutrition(items);
+  const db = await conn();
+
+  await db.executeSet([
+    {
+      statement: `UPDATE custom_foods SET name = ?, calories = ? WHERE id = ?`,
+      values: [cleanName, kcalPer100, id],
+    },
+    { statement: `DELETE FROM custom_food_ingredients WHERE food_id = ?`, values: [id] },
+    ...items.map((i) => ({
+      statement: `INSERT INTO custom_food_ingredients (food_id, product_slug, grams) VALUES (?, ?, ?)`,
+      values: [id, i.slug, i.grams],
+    })),
+  ]);
+
+  await persistWeb();
+  notifyCustomFoodsChanged();
+  return toProduct({ id, name: cleanName, calories: kcalPer100 }, locale);
+}
+
+/** Сколько записей дневника ссылается на блюдо (для предупреждения перед удалением). */
+export async function countCustomFoodDiaryEntries(id: number): Promise<number> {
+  const db = await conn();
+  const res = await db.query(`SELECT COUNT(*) as cnt FROM diary WHERE product_id = ?`, [-id]);
+  return Number((res.values?.[0] as { cnt?: number } | undefined)?.cnt ?? 0);
+}
+
+/**
+ * Удаляет блюдо вместе с его составом и со всеми записями дневника, где оно
+ * использовано (diary.product_id = -id) — иначе в дневнике остались бы
+ * строки без продукта. Всё в одной транзакции.
+ */
+export async function deleteCustomFood(id: number): Promise<void> {
+  const db = await conn();
+  await db.executeSet([
+    { statement: `DELETE FROM diary WHERE product_id = ?`, values: [-id] },
+    { statement: `DELETE FROM custom_food_ingredients WHERE food_id = ?`, values: [id] },
+    { statement: `DELETE FROM custom_foods WHERE id = ?`, values: [id] },
+    // даты, в которых не осталось записей, убираем из вспомогательной таблицы
+    { statement: `DELETE FROM diary_dates WHERE date NOT IN (SELECT DISTINCT date FROM diary)`, values: [] },
+  ]);
+
+  await persistWeb();
+  requestMealReminderSync(); // могли исчезнуть записи из Daily Plan
+  notifyCustomFoodsChanged();
 }
 
 /** Деталь блюда в формате каталога — её отдаёт loadProductDetail("…", "custom-<n>"). */

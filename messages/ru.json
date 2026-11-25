@@ -21,7 +21,8 @@
       "kcal": "ккал"
     },
     "all": "Все",
-    "more": "Подробнее"
+    "more": "Подробнее",
+    "edit": "Изменить"
   },
   "ProductInfo": {
     "clickToLearnMore": "(Нажмите, чтобы узнать больше)",
@@ -204,7 +205,12 @@
     "createBtn": "Создать",
     "ingredientsEmpty": "Добавьте хотя бы один ингредиент",
     "createFoodError": "Не удалось сохранить блюдо. Попробуйте ещё раз.",
-    "delete": "Удалить"
+    "delete": "Удалить",
+    "edit": "Изменить",
+    "deleteFoodBtn": "Удалить блюдо",
+    "deleteFoodTitle": "Удалить блюдо?",
+    "deleteFoodWithEntries": "Записей в дневнике, которые будут удалены вместе с блюдом: {count}.",
+    "deleteFoodNoEntries": "Это действие нельзя отменить."
   },
   "Settings":{
     "male": "мужчина",

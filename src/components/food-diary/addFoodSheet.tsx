@@ -23,6 +23,7 @@ import {
 import { getRecentSlugs } from "@/lib/recentProducts";
 import NutritionStars from "@/components/nutritionStars/NutritionStars";
 import { CUSTOM_CATEGORY, useCustomFoodsVersion } from "@/lib/customFoods";
+import CustomFoodEditButton from "./customFoodEditButton";
 
 // `source` — откуда взяты данные о продукте (например "USDA"); у части
 // продуктов поля нет.
@@ -40,6 +41,8 @@ type AddFoodSheetProps = {
   zIndex?: number;
   /** Не показывать блюда пользователя (нужно при выборе ингредиентов). */
   hideCustom?: boolean;
+  /** Если передан — у своих блюд рядом с "+" появляется кнопка редактирования. */
+  onEditCustom?: (product: DiaryProduct) => void;
 };
 
 const CreateFoodIcon = () => (
@@ -58,11 +61,15 @@ const PAGE_SIZE = 100;
 const ProductRow = memo(function ProductRow({
   product,
   caloriesLabel,
+  editLabel,
   onSelect,
+  onEdit,
 }: {
   product: DiaryProduct;
   caloriesLabel: string;
+  editLabel: string;
   onSelect: (product: DiaryProduct) => void;
+  onEdit?: (product: DiaryProduct) => void;
 }) {
   return (
     <div className={styles["item"]}>
@@ -77,6 +84,10 @@ const ProductRow = memo(function ProductRow({
         </div>
         {product.source && <div className={styles["item-source"]}>{product.source}</div>}
       </div>
+
+      {onEdit && product.category === CUSTOM_CATEGORY && (
+        <CustomFoodEditButton label={editLabel} onClick={() => onEdit(product)} />
+      )}
 
       <button
         type="button"
@@ -101,11 +112,13 @@ const AddFoodSheet = ({
   title,
   zIndex,
   hideCustom = false,
+  onEditCustom,
 }: AddFoodSheetProps) => {
   const locale = useLocale();
   const t = useTranslations("FoodDiary");
   // ключ "calories" в FoodDiary необязателен: без него остаётся "Calories"
   const caloriesLabel = t.has("calories") ? t("calories") : "Calories";
+  const editLabel = t.has("edit") ? t("edit") : locale === "ru" ? "Изменить" : "Edit";
   // ключ "createFood" тоже необязателен
   const createLabel = t.has("createFood")
     ? t("createFood")
@@ -260,7 +273,9 @@ const AddFoodSheet = ({
                   key={product.id}
                   product={product}
                   caloriesLabel={caloriesLabel}
+                  editLabel={editLabel}
                   onSelect={onSelectProduct}
+                  onEdit={onEditCustom}
                 />
               ))}
               {hasMore && <div ref={sentinelRef} className={styles["sentinel"]} />}

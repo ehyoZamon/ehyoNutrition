@@ -360,3 +360,34 @@
 .submit-btn:not(:disabled):active {
   transform: scale(0.98);
 }
+
+/* ---------- режим редактирования ---------- */
+.delete-food-btn {
+  min-height: 48px;
+  border-radius: 20px;
+  border: 1px solid #f3907b;
+  background: transparent;
+  color: #e0553b;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.delete-food-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.delete-food-btn:not(:disabled):active {
+  transform: scale(0.99);
+}
+
+.warning-text {
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 13px;
+  color: #999;
+}

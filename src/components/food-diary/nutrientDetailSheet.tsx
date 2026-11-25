@@ -261,8 +261,8 @@ const NutrientDetailSheet = ({
             )}
 
             {!loading &&
-              rows.map((row) => (
-                <div className={styles["row"]} key={`${row.productId}-${row.grams}`}>
+              rows.map((row, index) => (
+                <div className={styles["row"]} key={`${row.productId}-${row.grams}-${index}`}>
                   <div className={styles["row-left"]}>
                     <Image src={row.image} alt={row.name} width={32} height={32} />
                     <span className={styles["row-name"]}>
@@ -292,8 +292,8 @@ const NutrientDetailSheet = ({
             )}
 
             {!loading &&
-              plannedRows.map((row) => (
-                <div className={styles["row"]} key={`planned-${row.productId}-${row.grams}`}>
+              plannedRows.map((row, index) => (
+                <div className={styles["row"]} key={`planned-${row.productId}-${row.grams}-${index}`}>
                   <div className={styles["row-left"]}>
                     <Image src={row.image} alt={row.name} width={32} height={32} />
                     <span className={styles["row-name"]}>
