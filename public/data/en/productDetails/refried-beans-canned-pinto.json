@@ -1,0 +1,161 @@
+{
+  "slug": "refried-beans-canned-pinto",
+  "name": "Refried beans, canned (pinto)",
+  "category": "Legumes and Legume Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "87 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "4.12 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "13.4 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "1.88 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "3.9 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.112 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.116 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.173 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "0.324 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "0.254 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.057 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.234 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.187 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.04 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.189 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.152 g"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "28.7 mg"
+    },
+    {
+      "id": "omega-6",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6",
+      "amount": "0.305 g"
+    },
+    {
+      "id": "omega-9",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9",
+      "amount": "0.55 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.239 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.164 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.117 g"
+    }
+  ]
+}

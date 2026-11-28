@@ -1,0 +1,101 @@
+{
+  "slug": "nuts-macadamia-nuts-raw",
+  "name": "Nuts, macadamia nuts, raw",
+  "category": "Nut and Seed Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "712 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "7.79 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "24.1 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "64.9 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "7.56 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "52.7 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "208 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "107 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "0 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "373 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.88 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "1.2 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.446 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "11.3 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "32.6 mcg"
+    }
+  ]
+}

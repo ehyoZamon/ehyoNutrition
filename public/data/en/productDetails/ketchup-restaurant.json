@@ -1,0 +1,89 @@
+{
+  "slug": "ketchup-restaurant",
+  "name": "Ketchup, restaurant",
+  "category": "Vegetables and Vegetable Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "117 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "1.11 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "26.8 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.55 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "14 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "25 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "13.5 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "949 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "249 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.43 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.16 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.066 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.086 mg"
+    }
+  ]
+}

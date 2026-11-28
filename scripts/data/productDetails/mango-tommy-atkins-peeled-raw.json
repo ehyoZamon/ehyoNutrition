@@ -1,0 +1,113 @@
+{
+  "slug": "mango-tommy-atkins-peeled-raw",
+  "name": "Mango, Tommy Atkins, peeled, raw",
+  "category": "Fruits and Fruit Juices",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "68 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "0.562 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "15.3 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "0.572 g"
+    },
+    {
+      "id": "fiber",
+      "name": "Fiber",
+      "slug": "fiber",
+      "amount": "1.75 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "slug": "vitamin-c",
+      "amount": "25.5 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.071 mg"
+    },
+    {
+      "id": "vitamin-b7",
+      "name": "Vitamin B7",
+      "slug": "vitamin-b7",
+      "amount": "0.925 mcg"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "12.4 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "16.4 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "10.3 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "0 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "165 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.066 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.091 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.106 mg"
+    }
+  ]
+}

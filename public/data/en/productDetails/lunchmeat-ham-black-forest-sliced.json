@@ -1,0 +1,155 @@
+{
+  "slug": "lunchmeat-ham-black-forest-sliced",
+  "name": "Lunchmeat, ham, black forest, sliced",
+  "category": "Sausages and Luncheon Meats",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "114 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "17.1 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.81 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "4.21 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0.17 mcg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.254 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.219 mg"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "0.232 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.627 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.679 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.21 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.34 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.424 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.623 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.71 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.17 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.716 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.02 g"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "48.8 mg"
+    },
+    {
+      "id": "omega-6",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6",
+      "amount": "0.513 g"
+    },
+    {
+      "id": "omega-9",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9",
+      "amount": "1.74 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "0.991 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.744 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.53 g"
+    }
+  ]
+}

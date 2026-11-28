@@ -1,0 +1,251 @@
+{
+  "slug": "sausage-turkey-breakfast-links-mild-raw",
+  "name": "Sausage, turkey, breakfast links, mild, raw",
+  "category": "Sausages and Luncheon Meats",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "169 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.7 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "0.93 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "10.4 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "0.24 mg"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "Vitamin K",
+      "slug": "vitamin-k",
+      "amount": "0.4 mcg"
+    },
+    {
+      "id": "vitamin-b1",
+      "name": "Vitamin B1",
+      "slug": "vitamin-b1",
+      "amount": "0.047 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.296 mg"
+    },
+    {
+      "id": "vitamin-b3",
+      "name": "Vitamin B3",
+      "slug": "vitamin-b3",
+      "amount": "5.02 mg"
+    },
+    {
+      "id": "vitamin-b5",
+      "name": "Vitamin B5",
+      "slug": "vitamin-b5",
+      "amount": "0.952 mg"
+    },
+    {
+      "id": "vitamin-b6",
+      "name": "Vitamin B6",
+      "slug": "vitamin-b6",
+      "amount": "0.335 mg"
+    },
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "amount": "1.2 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.42 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.65 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.24 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.41 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.45 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.82 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.71 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.15 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.65 g"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.186 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0.009 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "32 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "178 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "18.9 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "599 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "310 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "1.17 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "2.58 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.07 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.035 mg"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "12.5 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "59.6 mg"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "8.1 mg"
+    },
+    {
+      "id": "omega-6",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6",
+      "amount": "2.8 g"
+    },
+    {
+      "id": "omega-9",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9",
+      "amount": "2.75 g"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "1.03 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.88 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.56 g"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "eggs-grade-a-large-egg-yolk",
+  "name": "Eggs, Grade A, Large, egg yolk",
+  "category": "Dairy and Egg Products",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "334 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "16.2 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "1.02 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "28.8 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E",
+      "slug": "vitamin-e",
+      "amount": "5.64 mg"
+    },
+    {
+      "id": "vitamin-b2",
+      "name": "Vitamin B2",
+      "slug": "vitamin-b2",
+      "amount": "0.467 mg"
+    },
+    {
+      "id": "vitamin-b7",
+      "name": "Vitamin B7",
+      "slug": "vitamin-b7",
+      "amount": "45.9 mcg"
+    },
+    {
+      "id": "histidine",
+      "name": "Histidine",
+      "slug": "histidine",
+      "amount": "0.369 g"
+    },
+    {
+      "id": "isoleucine",
+      "name": "Isoleucine",
+      "slug": "isoleucine",
+      "amount": "0.766 g"
+    },
+    {
+      "id": "leucine",
+      "name": "Leucine",
+      "slug": "leucine",
+      "amount": "1.35 g"
+    },
+    {
+      "id": "lysine",
+      "name": "Lysine",
+      "slug": "lysine",
+      "amount": "1.2 g"
+    },
+    {
+      "id": "methionine",
+      "name": "Methionine",
+      "slug": "methionine",
+      "amount": "0.398 g"
+    },
+    {
+      "id": "phenylalanine",
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "amount": "0.673 g"
+    },
+    {
+      "id": "threonine",
+      "name": "Threonine",
+      "slug": "threonine",
+      "amount": "0.789 g"
+    },
+    {
+      "id": "tryptophan",
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "amount": "0.174 g"
+    },
+    {
+      "id": "valine",
+      "name": "Valine",
+      "slug": "valine",
+      "amount": "0.846 g"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "slug": "selenium",
+      "amount": "55.8 mcg"
+    },
+    {
+      "id": "lycopene",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "2 mcg"
+    },
+    {
+      "id": "arginine",
+      "name": "Arginine",
+      "slug": "arginine",
+      "amount": "1.12 g"
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "slug": "glycine",
+      "amount": "0.47 g"
+    },
+    {
+      "id": "tyrosine",
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "amount": "0.684 g"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "restaurant-chinese-fried-rice-without-meat",
+  "name": "Restaurant, Chinese, fried rice, without meat",
+  "category": "Restaurant Foods",
+  "macroTitle": "Macro Nutrients (per 100g)",
+  "macroNutrients": [
+    {
+      "id": "calories",
+      "name": "Calories",
+      "slug": "",
+      "amount": "174 kcal"
+    },
+    {
+      "id": "protein",
+      "name": "Protein",
+      "slug": "protein",
+      "amount": "3.84 g"
+    },
+    {
+      "id": "carbohydrates",
+      "name": "Carbohydrates",
+      "slug": "carbohydrates",
+      "amount": "32.5 g"
+    },
+    {
+      "id": "fats",
+      "name": "Fats",
+      "slug": "fats",
+      "amount": "3.19 g"
+    }
+  ],
+  "microTitle": "Micro Nutrients (per 100g)",
+  "microNutrients": [
+    {
+      "id": "vitamin-d",
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "amount": "0 mcg"
+    },
+    {
+      "id": "vitamin-a",
+      "name": "Vitamin A",
+      "slug": "vitamin-a",
+      "amount": "22 mcg RAE"
+    },
+    {
+      "id": "alpha-linolenic-acid",
+      "name": "Alpha-Linolenic Acid",
+      "slug": "alpha-linolenic-acid",
+      "amount": "0.118 g"
+    },
+    {
+      "id": "epa-dha",
+      "name": "EPA & DHA",
+      "slug": "epa-dha",
+      "amount": "0 g"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "slug": "calcium",
+      "amount": "11 mg"
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "slug": "phosphorus",
+      "amount": "44 mg"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "slug": "magnesium",
+      "amount": "9.7 mg"
+    },
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "slug": "sodium",
+      "amount": "361 mg"
+    },
+    {
+      "id": "potassium",
+      "name": "Potassium",
+      "slug": "potassium",
+      "amount": "69 mg"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "slug": "iron",
+      "amount": "0.46 mg"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "amount": "0.69 mg"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "slug": "copper",
+      "amount": "0.086 mg"
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese",
+      "slug": "manganese",
+      "amount": "0.428 mg"
+    },
+    {
+      "id": "lutein",
+      "name": "Lutein",
+      "slug": "lutein",
+      "amount": "103 mcg"
+    },
+    {
+      "id": "beta-carotene",
+      "name": "Beta-carotene",
+      "slug": "beta-carotene",
+      "amount": "128 mcg"
+    },
+    {
+      "id": "lycopene",
+      "name": "Lycopene",
+      "slug": "lycopene",
+      "amount": "3 mcg"
+    },
+    {
+      "id": "choline",
+      "name": "Choline",
+      "slug": "choline",
+      "amount": "5.5 mg"
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "slug": "betaine",
+      "amount": "0.2 mg"
+    },
+    {
+      "id": "omega-6",
+      "name": "Omega-6 fatty acids",
+      "slug": "omega-6",
+      "amount": "0.998 g"
+    },
+    {
+      "id": "omega-9",
+      "name": "Omega-9 fatty acids",
+      "slug": "omega-9",
+      "amount": "0.574 g"
+    }
+  ]
+}

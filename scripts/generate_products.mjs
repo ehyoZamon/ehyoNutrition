@@ -29,7 +29,7 @@ const MODEL = "openai/gpt-oss-120b";
 // Откуда брать названия продуктов: файл или ссылка (http/https).
 // Пути к файлам считаются от папки скрипта (scripts/).
 // Форматы: один объект, список объектов {id, title}, список строк.
-const PRODUCTS_SOURCE = "products.json";
+const PRODUCTS_SOURCE = "productdetails-to-generate.json";
 
 // Файл-образец структуры. null — взять первый продукт из PRODUCTS_SOURCE.
 const TEMPLATE_FILE = "../public/data/en/productInfo/almonds.json";

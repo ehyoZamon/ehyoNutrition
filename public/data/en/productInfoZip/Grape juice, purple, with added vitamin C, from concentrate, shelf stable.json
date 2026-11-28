@@ -1,0 +1,75 @@
+{
+  "id": "5678",
+  "title": "Purple Grape Juice with Vitamin C",
+  "image": "/products/5678.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Purple grape juice enriched with vitamin C is made from concentrate and shelf‑stable. It offers a rich berry flavor, the characteristic aroma of purple grapes, and an extra burst of freshness from added vitamin C."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Purple grapes contain more anthocyanins than light‑colored varieties, giving the juice its deep color and antioxidant power.",
+        "Vitamin C enhances the juice’s stability and provides an immune‑boosting boost.",
+        "Using concentrate preserves most nutrients while reducing package size.",
+        "Shelf‑stable formulation means the juice does not require refrigeration until opened.",
+        "Purple grapes have a long history of use in traditional medicine for cardiovascular support."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich in antioxidants",
+          "content": "Anthocyanins and vitamin C help neutralize free radicals, protecting cells from oxidative stress."
+        },
+        {
+          "title": "Supports immune function",
+          "content": "Vitamin C contributes to a stronger immune system and faster recovery from colds."
+        },
+        {
+          "title": "May help lower blood pressure",
+          "content": "Flavonoids in grape juice can improve vascular function."
+        },
+        {
+          "title": "Promotes gut health",
+          "content": "Residual dietary fiber from the concentrate supports a healthy microbiome."
+        },
+        {
+          "title": "Hydration",
+          "content": "High water content helps maintain proper fluid balance."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Sugar content",
+          "content": "Concentrated juice can be high in natural sugars; people with diabetes should monitor portion size."
+        },
+        {
+          "title": "Grape allergy",
+          "content": "Rarely, individuals may experience an allergic reaction to grape components."
+        },
+        {
+          "title": "Acidity",
+          "content": "The juice is acidic and may cause stomach discomfort in those sensitive to acid."
+        },
+        {
+          "title": "Preservatives",
+          "content": "Small amounts of food‑grade preservatives may be used for shelf stability; those with sensitivities should check the label."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Drink it chilled as a refreshing beverage, blend into smoothies, use in cocktails, drizzle over desserts, or incorporate into marinades. It can also be diluted with water to reduce sweetness."
+    },
+    {
+      "title": "Storage",
+      "content": "Store in a cool, dry place away from direct sunlight. After opening, keep refrigerated and consume within 7‑10 days."
+    }
+  ]
+}

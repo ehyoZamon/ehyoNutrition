@@ -66575,5 +66575,3173 @@
     "nutritionPercentile": 8,
     "nutritionStars": 1,
     "source": "USDA"
+  },
+  {
+    "id": 5568,
+    "name": "Хумус, промышленного производства",
+    "category": "food/legumes",
+    "calories": 229,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/hummus-commercial"
+  },
+  {
+    "id": 5569,
+    "name": "Томаты грейп (черри), сырые",
+    "category": "food/vegetables",
+    "calories": 27,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomatoes-grape-raw"
+  },
+  {
+    "id": 5570,
+    "name": "Фасоль стручковая, зелёная, консервированная, обычная фасовка, без жидкости",
+    "category": "food/vegetables",
+    "calories": 21,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/beans-snap-green-canned-regular-pack-drained-solids"
+  },
+  {
+    "id": 5571,
+    "name": "Сосиска говяжья, неразогретая",
+    "category": "food/meat",
+    "calories": 314,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/frankfurter-beef-unheated"
+  },
+  {
+    "id": 5572,
+    "name": "Орехи, миндаль, обжаренный без масла, с добавлением соли",
+    "category": "food/seeds and nuts",
+    "calories": 620,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-almonds-dry-roasted-with-salt-added"
+  },
+  {
+    "id": 5573,
+    "name": "Яйцо цельное, сырое, замороженное, пастеризованное",
+    "category": "food/eggs and dairy",
+    "calories": 150,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/egg-whole-raw-frozen-pasteurized"
+  },
+  {
+    "id": 5574,
+    "name": "Яичный белок, сырой, замороженный, пастеризованный",
+    "category": "food/eggs and dairy",
+    "calories": 48,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/egg-white-raw-frozen-pasteurized"
+  },
+  {
+    "id": 5575,
+    "name": "Яичный белок, сушёный",
+    "category": "food/eggs and dairy",
+    "calories": 376,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/egg-white-dried"
+  },
+  {
+    "id": 5576,
+    "name": "Луковые кольца в панировке, предварительно обжаренные, замороженные, разогретые в духовке",
+    "category": "food/vegetables",
+    "calories": 288,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/onion-rings-breaded-par-fried-frozen-prepared-heated-in-oven"
+  },
+  {
+    "id": 5577,
+    "name": "Огурцы маринованные, с укропом или кошерные с укропом",
+    "category": "food/vegetables",
+    "calories": 12,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/pickles-cucumber-dill-or-kosher-dill"
+  },
+  {
+    "id": 5578,
+    "name": "Сыр пармезан, тёртый",
+    "category": "food/eggs and dairy",
+    "calories": 421,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-parmesan-grated"
+  },
+  {
+    "id": 5579,
+    "name": "Сыр плавленый пастеризованный, американский, обогащённый витамином D",
+    "category": "food/eggs and dairy",
+    "calories": 366,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-pasteurized-process-american-vitamin-d-fortified"
+  },
+  {
+    "id": 5580,
+    "name": "Сок грейпфрутовый, белый, консервированный или бутилированный, без сахара",
+    "category": "food/fruits",
+    "calories": 37,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/grapefruit-juice-white-canned-or-bottled-unsweetened"
+  },
+  {
+    "id": 5581,
+    "name": "Персики жёлтые, сырые",
+    "category": "food/fruits",
+    "calories": 42,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/peaches-yellow-raw"
+  },
+  {
+    "id": 5582,
+    "name": "Семена, ядра семян подсолнечника, обжаренные без масла, с добавлением соли",
+    "category": "food/seeds and nuts",
+    "calories": 612,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/seeds-sunflower-seed-kernels-dry-roasted-with-salt-added"
+  },
+  {
+    "id": 5583,
+    "name": "Капуста кале, замороженная, отварная, откинутая, без соли",
+    "category": "food/vegetables",
+    "calories": 36,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/kale-frozen-cooked-boiled-drained-without-salt"
+  },
+  {
+    "id": 5584,
+    "name": "Горчица готовая, жёлтая",
+    "category": "food/herbs and spices",
+    "calories": 61,
+    "image": "/products/herbs-and-spices.png",
+    "favorite": false,
+    "link": "/productinfo/mustard-prepared-yellow"
+  },
+  {
+    "id": 5585,
+    "name": "Киви зелёный, сырой",
+    "category": "food/fruits",
+    "calories": 58,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/kiwifruit-green-raw"
+  },
+  {
+    "id": 5586,
+    "name": "Нектарины, сырые",
+    "category": "food/fruits",
+    "calories": 39,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/nectarines-raw"
+  },
+  {
+    "id": 5587,
+    "name": "Творог (коттедж), нежирный, 2% жирности",
+    "category": "food/eggs and dairy",
+    "calories": 84,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-cottage-lowfat-2-milkfat"
+  },
+  {
+    "id": 5588,
+    "name": "Сыр моцарелла, низкой влажности, частично обезжиренный",
+    "category": "food/eggs and dairy",
+    "calories": 298,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-mozzarella-low-moisture-part-skim"
+  },
+  {
+    "id": 5589,
+    "name": "Яйцо цельное, сушёное",
+    "category": "food/eggs and dairy",
+    "calories": 575,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/egg-whole-dried"
+  },
+  {
+    "id": 5590,
+    "name": "Яичный желток, сырой, замороженный, пастеризованный",
+    "category": "food/eggs and dairy",
+    "calories": 296,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/egg-yolk-raw-frozen-pasteurized"
+  },
+  {
+    "id": 5591,
+    "name": "Яичный желток, сушёный",
+    "category": "food/eggs and dairy",
+    "calories": 654,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/egg-yolk-dried"
+  },
+  {
+    "id": 5592,
+    "name": "Йогурт греческий, натуральный, обезжиренный",
+    "category": "food/eggs and dairy",
+    "calories": 61,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt-greek-plain-nonfat"
+  },
+  {
+    "id": 5593,
+    "name": "Йогурт греческий, клубничный, обезжиренный",
+    "category": "food/eggs and dairy",
+    "calories": 83,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt-greek-strawberry-nonfat"
+  },
+  {
+    "id": 5594,
+    "name": "Масло кокосовое",
+    "category": "food/oils and fats",
+    "calories": 833,
+    "image": "/products/oils-and-fats.png",
+    "favorite": false,
+    "link": "/productinfo/oil-coconut"
+  },
+  {
+    "id": 5595,
+    "name": "Курица (бройлер), голень, только мясо, тушёная",
+    "category": "food/meat",
+    "calories": 156,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-broilers-or-fryers-drumstick-meat-only-cooked-braised"
+  },
+  {
+    "id": 5596,
+    "name": "Курица (бройлер), грудка, без кожи, без кости, только мясо, тушёная",
+    "category": "food/meat",
+    "calories": 166,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-broiler-or-fryers-breast-skinless-boneless-meat-only-cooked-braised"
+  },
+  {
+    "id": 5597,
+    "name": "Соус для пасты, спагетти/маринара, готовый к употреблению",
+    "category": "food/herbs and spices",
+    "calories": 45,
+    "image": "/products/herbs-and-spices.png",
+    "favorite": false,
+    "link": "/productinfo/sauce-pasta-spaghetti-marinara-ready-to-serve"
+  },
+  {
+    "id": 5598,
+    "name": "Ветчина нарезанная, фасованная, деликатесная (96% без жира, с добавлением воды)",
+    "category": "food/meat",
+    "calories": 106,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/ham-sliced-pre-packaged-deli-meat-96-fat-free-water-added"
+  },
+  {
+    "id": 5599,
+    "name": "Оливки зелёные, мансанилья, фаршированные перцем пимиенто",
+    "category": "food/fruits",
+    "calories": 130,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/olives-green-manzanilla-stuffed-with-pimiento"
+  },
+  {
+    "id": 5600,
+    "name": "Печенье овсяное, мягкое, с изюмом",
+    "category": "food/grains and cereals",
+    "calories": 430,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/cookies-oatmeal-soft-with-raisins"
+  },
+  {
+    "id": 5601,
+    "name": "Томаты консервированные, красные, спелые, нарезанные кубиками",
+    "category": "food/vegetables",
+    "calories": 18,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomatoes-canned-red-ripe-diced"
+  },
+  {
+    "id": 5602,
+    "name": "Рыба, пикша, сырая",
+    "category": "food/seafood",
+    "calories": 74,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-haddock-raw"
+  },
+  {
+    "id": 5603,
+    "name": "Рыба, сайда (поллок), сырая",
+    "category": "food/seafood",
+    "calories": 56,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-pollock-raw"
+  },
+  {
+    "id": 5604,
+    "name": "Рыба, тунец светлый, консервированный в собственном соку, без жидкости",
+    "category": "food/seafood",
+    "calories": 90,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-tuna-light-canned-in-water-drained-solids"
+  },
+  {
+    "id": 5605,
+    "name": "Ресторанное, китайская кухня, жареный рис без мяса",
+    "category": "food/restaurant foods",
+    "calories": 174,
+    "image": "/products/restaurant-foods.png",
+    "favorite": false,
+    "link": "/productinfo/restaurant-chinese-fried-rice-without-meat"
+  },
+  {
+    "id": 5606,
+    "name": "Ресторанное, латиноамериканская кухня, тамале со свининой",
+    "category": "food/restaurant foods",
+    "calories": 174,
+    "image": "/products/restaurant-foods.png",
+    "favorite": false,
+    "link": "/productinfo/restaurant-latino-tamale-pork"
+  },
+  {
+    "id": 5607,
+    "name": "Ресторанное, латиноамериканская кухня, пупусас с фасолью",
+    "category": "food/restaurant foods",
+    "calories": 229,
+    "image": "/products/restaurant-foods.png",
+    "favorite": false,
+    "link": "/productinfo/restaurant-latino-pupusas-con-frijoles-pupusas-bean"
+  },
+  {
+    "id": 5608,
+    "name": "Говядина, поясничная часть, вырезка для запекания, только постное мясо, без кости, жир срезан до 0\", категория Select, запечённая",
+    "category": "food/meat",
+    "calories": 176,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-loin-tenderloin-roast-separable-lean-only-boneless-trimmed-to-0-fat-select-cooked-roa"
+  },
+  {
+    "id": 5609,
+    "name": "Говядина, поясничная часть, стейк топ-лоин, без кости, с краем, только постное мясо, жир срезан до 1/8\", категория Choice, сырая",
+    "category": "food/meat",
+    "calories": 155,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-loin-top-loin-steak-boneless-lip-on-separable-lean-only-trimmed-to-1-8-fat-choice-raw"
+  },
+  {
+    "id": 5610,
+    "name": "Говядина, огузок, «глазок» для запекания, без кости, только постное мясо, жир срезан до 0\", категория Select, сырая",
+    "category": "food/meat",
+    "calories": 122,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-round-eye-of-round-roast-boneless-separable-lean-only-trimmed-to-0-fat-select-raw"
+  },
+  {
+    "id": 5611,
+    "name": "Говядина, огузок, верхняя часть для запекания, без кости, только постное мясо, жир срезан до 0\", категория Select, сырая",
+    "category": "food/meat",
+    "calories": 123,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-round-top-round-roast-boneless-separable-lean-only-trimmed-to-0-fat-select-raw"
+  },
+  {
+    "id": 5612,
+    "name": "Говядина, короткая поясница, стейк портерхаус, только постное мясо, жир срезан до 1/8\", категория Select, сырая",
+    "category": "food/meat",
+    "calories": 145,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-short-loin-porterhouse-steak-separable-lean-only-trimmed-to-1-8-fat-select-raw"
+  },
+  {
+    "id": 5613,
+    "name": "Говядина, короткая поясница, стейк ти-бон, на кости, только постное мясо, жир срезан до 1/8\", категория Choice, приготовленная на гриле",
+    "category": "food/meat",
+    "calories": 219,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-short-loin-t-bone-steak-bone-in-separable-lean-only-trimmed-to-1-8-fat-choice-cooked"
+  },
+  {
+    "id": 5614,
+    "name": "Морковь замороженная, неприготовленная",
+    "category": "food/vegetables",
+    "calories": 37,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/carrots-frozen-unprepared"
+  },
+  {
+    "id": 5615,
+    "name": "Сыр сухой белый, кесо секо",
+    "category": "food/eggs and dairy",
+    "calories": 326,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-dry-white-queso-seco"
+  },
+  {
+    "id": 5616,
+    "name": "Сыр рикотта, из цельного молока",
+    "category": "food/eggs and dairy",
+    "calories": 157,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-ricotta-whole-milk"
+  },
+  {
+    "id": 5617,
+    "name": "Инжир сушёный, без варки",
+    "category": "food/fruits",
+    "calories": 249,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/figs-dried-uncooked"
+  },
+  {
+    "id": 5618,
+    "name": "Салат ромэн (кос), сырой",
+    "category": "food/vegetables",
+    "calories": 17,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/lettuce-cos-or-romaine-raw"
+  },
+  {
+    "id": 5619,
+    "name": "Дыня канталупа, сырая",
+    "category": "food/fruits",
+    "calories": 34,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/melons-cantaloupe-raw"
+  },
+  {
+    "id": 5620,
+    "name": "Апельсины навел, сырые",
+    "category": "food/fruits",
+    "calories": 47,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/oranges-raw-navels"
+  },
+  {
+    "id": 5621,
+    "name": "Молоко нежирное, 1% жирности, с добавлением витаминов A и D",
+    "category": "food/eggs and dairy",
+    "calories": 43,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/milk-lowfat-fluid-1-milkfat-with-added-vitamin-a-and-vitamin-d"
+  },
+  {
+    "id": 5622,
+    "name": "Груши Бартлетт, сырые",
+    "category": "food/fruits",
+    "calories": 57,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/pears-raw-bartlett"
+  },
+  {
+    "id": 5623,
+    "name": "Ресторанное, китайская кухня, свинина в кисло-сладком соусе",
+    "category": "food/restaurant foods",
+    "calories": 260,
+    "image": "/products/restaurant-foods.png",
+    "favorite": false,
+    "link": "/productinfo/restaurant-chinese-sweet-and-sour-pork"
+  },
+  {
+    "id": 5624,
+    "name": "Молоко обезжиренное, с добавлением витаминов A и D",
+    "category": "food/eggs and dairy",
+    "calories": 34,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/milk-nonfat-fluid-with-added-vitamin-a-and-vitamin-d-fat-free-or-skim"
+  },
+  {
+    "id": 5625,
+    "name": "Соус сальса, готовый к употреблению",
+    "category": "food/herbs and spices",
+    "calories": 29,
+    "image": "/products/herbs-and-spices.png",
+    "favorite": false,
+    "link": "/productinfo/sauce-salsa-ready-to-serve"
+  },
+  {
+    "id": 5626,
+    "name": "Молоко пониженной жирности, 2% жирности, с добавлением витаминов A и D",
+    "category": "food/eggs and dairy",
+    "calories": 50,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/milk-reduced-fat-fluid-2-milkfat-with-added-vitamin-a-and-vitamin-d"
+  },
+  {
+    "id": 5627,
+    "name": "Колбаски для завтрака, говяжьи, предварительно приготовленные, неразогретые",
+    "category": "food/meat",
+    "calories": 328,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/sausage-breakfast-sausage-beef-pre-cooked-unprepared"
+  },
+  {
+    "id": 5628,
+    "name": "Колбаски итальянские, свиные, неострые, обжаренные на сковороде",
+    "category": "food/meat",
+    "calories": 322,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/sausage-italian-pork-mild-cooked-pan-fried"
+  },
+  {
+    "id": 5629,
+    "name": "Колбаски свиные, чоризо, в оболочке или фарш, обжаренные на сковороде",
+    "category": "food/meat",
+    "calories": 346,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/sausage-pork-chorizo-link-or-ground-cooked-pan-fried"
+  },
+  {
+    "id": 5630,
+    "name": "Молоко цельное, 3,25% жирности, с добавлением витамина D",
+    "category": "food/eggs and dairy",
+    "calories": 60,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/milk-whole-3-25-milkfat-with-added-vitamin-d"
+  },
+  {
+    "id": 5631,
+    "name": "Колбаски из индейки для завтрака, неострые, сырые",
+    "category": "food/meat",
+    "calories": 169,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/sausage-turkey-breakfast-links-mild-raw"
+  },
+  {
+    "id": 5632,
+    "name": "Сахар-песок",
+    "category": "food/snacks and sweets",
+    "calories": 385,
+    "image": "/products/snacks-and-sweets.png",
+    "favorite": false,
+    "link": "/productinfo/sugars-granulated"
+  },
+  {
+    "id": 5633,
+    "name": "Индейка, фарш, 93% постного мяса, 7% жира, обжаренный крошкой",
+    "category": "food/meat",
+    "calories": 220,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/turkey-ground-93-lean-7-fat-pan-broiled-crumbles"
+  },
+  {
+    "id": 5634,
+    "name": "Ветчина нарезанная, ресторанная",
+    "category": "food/meat",
+    "calories": 121,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/ham-sliced-restaurant"
+  },
+  {
+    "id": 5635,
+    "name": "Сыр американский, ресторанный",
+    "category": "food/eggs and dairy",
+    "calories": 375,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-american-restaurant"
+  },
+  {
+    "id": 5636,
+    "name": "Кетчуп, ресторанный",
+    "category": "food/vegetables",
+    "calories": 117,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/ketchup-restaurant"
+  },
+  {
+    "id": 5637,
+    "name": "Яйца, категория A, крупные, белок",
+    "category": "food/eggs and dairy",
+    "calories": 55,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/eggs-grade-a-large-egg-white"
+  },
+  {
+    "id": 5638,
+    "name": "Яйца, категория A, крупные, желток",
+    "category": "food/eggs and dairy",
+    "calories": 334,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/eggs-grade-a-large-egg-yolk"
+  },
+  {
+    "id": 5639,
+    "name": "Яйца, категория A, крупные, цельное яйцо",
+    "category": "food/eggs and dairy",
+    "calories": 148,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/eggs-grade-a-large-egg-whole"
+  },
+  {
+    "id": 5640,
+    "name": "Свинина, бекон солёный, приготовленный, ресторанный",
+    "category": "food/meat",
+    "calories": 500,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pork-cured-bacon-cooked-restaurant"
+  },
+  {
+    "id": 5641,
+    "name": "Мука пшеничная, универсальная, обогащённая, отбеленная",
+    "category": "food/grains and cereals",
+    "calories": 366,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-wheat-all-purpose-enriched-bleached"
+  },
+  {
+    "id": 5642,
+    "name": "Мука пшеничная, универсальная, обогащённая, неотбеленная",
+    "category": "food/grains and cereals",
+    "calories": 358,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-wheat-all-purpose-enriched-unbleached"
+  },
+  {
+    "id": 5643,
+    "name": "Мука пшеничная, универсальная, необогащённая, неотбеленная",
+    "category": "food/grains and cereals",
+    "calories": 362,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-wheat-all-purpose-unenriched-unbleached"
+  },
+  {
+    "id": 5644,
+    "name": "Мука пшеничная цельнозерновая, необогащённая",
+    "category": "food/grains and cereals",
+    "calories": 370,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-whole-wheat-unenriched"
+  },
+  {
+    "id": 5645,
+    "name": "Мука хлебопекарная, белая, обогащённая, неотбеленная",
+    "category": "food/grains and cereals",
+    "calories": 363,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-bread-white-enriched-unbleached"
+  },
+  {
+    "id": 5646,
+    "name": "Мука рисовая, белая, необогащённая",
+    "category": "food/grains and cereals",
+    "calories": 359,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-rice-white-unenriched"
+  },
+  {
+    "id": 5647,
+    "name": "Мука кукурузная, жёлтая, мелкого помола, обогащённая",
+    "category": "food/grains and cereals",
+    "calories": 364,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-corn-yellow-fine-meal-enriched"
+  },
+  {
+    "id": 5648,
+    "name": "Лук красный, сырой",
+    "category": "food/vegetables",
+    "calories": 44,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/onions-red-raw"
+  },
+  {
+    "id": 5649,
+    "name": "Лук жёлтый, сырой",
+    "category": "food/vegetables",
+    "calories": 38,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/onions-yellow-raw"
+  },
+  {
+    "id": 5650,
+    "name": "Мука соевая, обезжиренная",
+    "category": "food/legumes",
+    "calories": 366,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/flour-soy-defatted"
+  },
+  {
+    "id": 5651,
+    "name": "Мука соевая, необезжиренная",
+    "category": "food/legumes",
+    "calories": 452,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/flour-soy-full-fat"
+  },
+  {
+    "id": 5652,
+    "name": "Мука рисовая, из бурого риса",
+    "category": "food/grains and cereals",
+    "calories": 365,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-rice-brown"
+  },
+  {
+    "id": 5653,
+    "name": "Мука рисовая, клейкая",
+    "category": "food/grains and cereals",
+    "calories": 358,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-rice-glutinous"
+  },
+  {
+    "id": 5654,
+    "name": "Мука кондитерская, необогащённая, неотбеленная",
+    "category": "food/grains and cereals",
+    "calories": 358,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-pastry-unenriched-unbleached"
+  },
+  {
+    "id": 5655,
+    "name": "Лук белый, сырой",
+    "category": "food/vegetables",
+    "calories": 35,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/onions-white-raw"
+  },
+  {
+    "id": 5656,
+    "name": "Бананы перезрелые, сырые",
+    "category": "food/fruits",
+    "calories": 85,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/bananas-overripe-raw"
+  },
+  {
+    "id": 5657,
+    "name": "Бананы спелые и слегка спелые, сырые",
+    "category": "food/fruits",
+    "calories": 97,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/bananas-ripe-and-slightly-ripe-raw"
+  },
+  {
+    "id": 5658,
+    "name": "Яблоки Ред Делишес, с кожурой, сырые",
+    "category": "food/fruits",
+    "calories": 62,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apples-red-delicious-with-skin-raw"
+  },
+  {
+    "id": 5659,
+    "name": "Яблоки Фуджи, с кожурой, сырые",
+    "category": "food/fruits",
+    "calories": 65,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apples-fuji-with-skin-raw"
+  },
+  {
+    "id": 5660,
+    "name": "Яблоки Гала, с кожурой, сырые",
+    "category": "food/fruits",
+    "calories": 61,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apples-gala-with-skin-raw"
+  },
+  {
+    "id": 5661,
+    "name": "Яблоки Гренни Смит, с кожурой, сырые",
+    "category": "food/fruits",
+    "calories": 59,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apples-granny-smith-with-skin-raw"
+  },
+  {
+    "id": 5662,
+    "name": "Яблоки Хонникрисп, с кожурой, сырые",
+    "category": "food/fruits",
+    "calories": 60,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apples-honeycrisp-with-skin-raw"
+  },
+  {
+    "id": 5663,
+    "name": "Гриб ежовик гребенчатый («львиная грива»)",
+    "category": "food/vegetables",
+    "calories": 43,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-lions-mane"
+  },
+  {
+    "id": 5664,
+    "name": "Гриб вёшенка",
+    "category": "food/vegetables",
+    "calories": 41,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-oyster"
+  },
+  {
+    "id": 5665,
+    "name": "Грибы шиитаке",
+    "category": "food/vegetables",
+    "calories": 44,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushrooms-shiitake"
+  },
+  {
+    "id": 5666,
+    "name": "Грибы шампиньоны белые",
+    "category": "food/vegetables",
+    "calories": 31,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushrooms-white-button"
+  },
+  {
+    "id": 5667,
+    "name": "Соевое молоко, без сахара, натуральное, длительного хранения",
+    "category": "food/legumes",
+    "calories": 38,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/soy-milk-unsweetened-plain-shelf-stable"
+  },
+  {
+    "id": 5668,
+    "name": "Миндальное молоко, без сахара, натуральное, длительного хранения",
+    "category": "food/beverages",
+    "calories": 15,
+    "image": "/products/beverages.png",
+    "favorite": false,
+    "link": "/productinfo/almond-milk-unsweetened-plain-shelf-stable"
+  },
+  {
+    "id": 5669,
+    "name": "Шпинат молодой (бэби)",
+    "category": "food/vegetables",
+    "calories": 27,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/spinach-baby"
+  },
+  {
+    "id": 5670,
+    "name": "Шпинат зрелый",
+    "category": "food/vegetables",
+    "calories": 28,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/spinach-mature"
+  },
+  {
+    "id": 5671,
+    "name": "Томат рома",
+    "category": "food/vegetables",
+    "calories": 22,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomato-roma"
+  },
+  {
+    "id": 5672,
+    "name": "Мука 00",
+    "category": "food/grains and cereals",
+    "calories": 357,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-00"
+  },
+  {
+    "id": 5673,
+    "name": "Мука полбяная, цельнозерновая",
+    "category": "food/grains and cereals",
+    "calories": 364,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-spelt-whole-grain"
+  },
+  {
+    "id": 5674,
+    "name": "Мука семолина, крупного и среднего помола",
+    "category": "food/grains and cereals",
+    "calories": 357,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-semolina-coarse-and-semi-coarse"
+  },
+  {
+    "id": 5675,
+    "name": "Мука семолина, мелкого помола",
+    "category": "food/grains and cereals",
+    "calories": 358,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-semolina-fine"
+  },
+  {
+    "id": 5676,
+    "name": "Яблочный сок, с добавлением витамина C, восстановленный, длительного хранения",
+    "category": "food/fruits",
+    "calories": 48,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apple-juice-with-added-vitamin-c-from-concentrate-shelf-stable"
+  },
+  {
+    "id": 5677,
+    "name": "Апельсиновый сок, без мякоти, необогащённый, восстановленный, охлаждённый",
+    "category": "food/fruits",
+    "calories": 47,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/orange-juice-no-pulp-not-fortified-from-concentrate-refrigerated"
+  },
+  {
+    "id": 5678,
+    "name": "Виноградный сок, красный, с добавлением витамина C, восстановленный, длительного хранения",
+    "category": "food/fruits",
+    "calories": 66,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/grape-juice-purple-with-added-vitamin-c-from-concentrate-shelf-stable"
+  },
+  {
+    "id": 5679,
+    "name": "Виноградный сок, белый, с добавлением витамина C, восстановленный, длительного хранения",
+    "category": "food/fruits",
+    "calories": 66,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/grape-juice-white-with-added-vitamin-c-from-concentrate-shelf-stable"
+  },
+  {
+    "id": 5680,
+    "name": "Клюквенный сок, необогащённый, восстановленный, длительного хранения",
+    "category": "food/fruits",
+    "calories": 32,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/cranberry-juice-not-fortified-from-concentrate-shelf-stable"
+  },
+  {
+    "id": 5681,
+    "name": "Грейпфрутовый сок, красный, необогащённый, прямого отжима, охлаждённый",
+    "category": "food/fruits",
+    "calories": 41,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/grapefruit-juice-red-not-fortified-not-from-concentrate-refrigerated"
+  },
+  {
+    "id": 5682,
+    "name": "Томатный сок, с добавками, восстановленный, длительного хранения",
+    "category": "food/vegetables",
+    "calories": 23,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomato-juice-with-added-ingredients-from-concentrate-shelf-stable"
+  },
+  {
+    "id": 5683,
+    "name": "Апельсиновый сок, без мякоти, необогащённый, прямого отжима, охлаждённый",
+    "category": "food/fruits",
+    "calories": 46,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/orange-juice-no-pulp-not-fortified-not-from-concentrate-refrigerated"
+  },
+  {
+    "id": 5684,
+    "name": "Гриб портобелло",
+    "category": "food/vegetables",
+    "calories": 32,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-portabella"
+  },
+  {
+    "id": 5685,
+    "name": "Гриб вёшенка королевская",
+    "category": "food/vegetables",
+    "calories": 46,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-king-oyster"
+  },
+  {
+    "id": 5686,
+    "name": "Гриб эноки",
+    "category": "food/vegetables",
+    "calories": 44,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-enoki"
+  },
+  {
+    "id": 5687,
+    "name": "Гриб кримини",
+    "category": "food/vegetables",
+    "calories": 30,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-crimini"
+  },
+  {
+    "id": 5688,
+    "name": "Гриб майтаке",
+    "category": "food/vegetables",
+    "calories": 38,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-maitake"
+  },
+  {
+    "id": 5689,
+    "name": "Гриб буковый (шимеджи)",
+    "category": "food/vegetables",
+    "calories": 40,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-beech"
+  },
+  {
+    "id": 5690,
+    "name": "Гриб пиоппино",
+    "category": "food/vegetables",
+    "calories": 39,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-pioppini"
+  },
+  {
+    "id": 5691,
+    "name": "Соевое молоко, с сахаром, натуральное, охлаждённое",
+    "category": "food/legumes",
+    "calories": 41,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/soy-milk-sweetened-plain-refrigerated"
+  },
+  {
+    "id": 5692,
+    "name": "Миндальное молоко, без сахара, натуральное, охлаждённое",
+    "category": "food/beverages",
+    "calories": 19,
+    "image": "/products/beverages.png",
+    "favorite": false,
+    "link": "/productinfo/almond-milk-unsweetened-plain-refrigerated"
+  },
+  {
+    "id": 5693,
+    "name": "Овсяное молоко, без сахара, натуральное, охлаждённое",
+    "category": "food/beverages",
+    "calories": 48,
+    "image": "/products/beverages.png",
+    "favorite": false,
+    "link": "/productinfo/oat-milk-unsweetened-plain-refrigerated"
+  },
+  {
+    "id": 5694,
+    "name": "Морковь зрелая, сырая",
+    "category": "food/vegetables",
+    "calories": 48,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/carrots-mature-raw"
+  },
+  {
+    "id": 5695,
+    "name": "Морковь мини (бэби), сырая",
+    "category": "food/vegetables",
+    "calories": 41,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/carrots-baby-raw"
+  },
+  {
+    "id": 5696,
+    "name": "Перец болгарский, зелёный, сырой",
+    "category": "food/vegetables",
+    "calories": 23,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-bell-green-raw"
+  },
+  {
+    "id": 5697,
+    "name": "Перец болгарский, жёлтый, сырой",
+    "category": "food/vegetables",
+    "calories": 31,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-bell-yellow-raw"
+  },
+  {
+    "id": 5698,
+    "name": "Перец болгарский, красный, сырой",
+    "category": "food/vegetables",
+    "calories": 31,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-bell-red-raw"
+  },
+  {
+    "id": 5699,
+    "name": "Перец болгарский, оранжевый, сырой",
+    "category": "food/vegetables",
+    "calories": 32,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-bell-orange-raw"
+  },
+  {
+    "id": 5700,
+    "name": "Пахта, нежирная",
+    "category": "food/eggs and dairy",
+    "calories": 43,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/buttermilk-low-fat"
+  },
+  {
+    "id": 5701,
+    "name": "Йогурт натуральный, из цельного молока",
+    "category": "food/eggs and dairy",
+    "calories": 78,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt-plain-whole-milk"
+  },
+  {
+    "id": 5702,
+    "name": "Йогурт греческий, натуральный, из цельного молока",
+    "category": "food/eggs and dairy",
+    "calories": 94,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt-greek-plain-whole-milk"
+  },
+  {
+    "id": 5703,
+    "name": "Сыр пармезан, тёртый, охлаждённый",
+    "category": "food/eggs and dairy",
+    "calories": 403,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-parmesan-grated-refrigerated"
+  },
+  {
+    "id": 5704,
+    "name": "Сыр фета, из цельного молока, раскрошенный",
+    "category": "food/eggs and dairy",
+    "calories": 273,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-feta-whole-milk-crumbled"
+  },
+  {
+    "id": 5705,
+    "name": "Мука миндальная",
+    "category": "food/seeds and nuts",
+    "calories": 622,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/flour-almond"
+  },
+  {
+    "id": 5706,
+    "name": "Мука овсяная, цельнозерновая",
+    "category": "food/grains and cereals",
+    "calories": 389,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-oat-whole-grain"
+  },
+  {
+    "id": 5707,
+    "name": "Мука картофельная",
+    "category": "food/vegetables",
+    "calories": 361,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/flour-potato"
+  },
+  {
+    "id": 5708,
+    "name": "Арахисовая паста, кремовая",
+    "category": "food/legumes",
+    "calories": 632,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/peanut-butter-creamy"
+  },
+  {
+    "id": 5709,
+    "name": "Кунжутная паста, кремовая",
+    "category": "food/seeds and nuts",
+    "calories": 697,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/sesame-butter-creamy"
+  },
+  {
+    "id": 5710,
+    "name": "Миндальная паста, кремовая",
+    "category": "food/seeds and nuts",
+    "calories": 645,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/almond-butter-creamy"
+  },
+  {
+    "id": 5711,
+    "name": "Семена льна, молотые",
+    "category": "food/seeds and nuts",
+    "calories": 545,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/flaxseed-ground"
+  },
+  {
+    "id": 5712,
+    "name": "Творог (коттедж), жирный, крупное или мелкое зерно",
+    "category": "food/eggs and dairy",
+    "calories": 103,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cottage-cheese-full-fat-large-or-small-curd"
+  },
+  {
+    "id": 5713,
+    "name": "Сливочный сыр, жирный, брусок",
+    "category": "food/eggs and dairy",
+    "calories": 343,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cream-cheese-full-fat-block"
+  },
+  {
+    "id": 5714,
+    "name": "Сметана, жирная",
+    "category": "food/eggs and dairy",
+    "calories": 196,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cream-sour-full-fat"
+  },
+  {
+    "id": 5715,
+    "name": "Салат айсберг, сырой",
+    "category": "food/vegetables",
+    "calories": 17,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/lettuce-iceberg-raw"
+  },
+  {
+    "id": 5716,
+    "name": "Салат ромэн, зелёный, сырой",
+    "category": "food/vegetables",
+    "calories": 21,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/lettuce-romaine-green-raw"
+  },
+  {
+    "id": 5717,
+    "name": "Салат листовой, красный, сырой",
+    "category": "food/vegetables",
+    "calories": 18,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/lettuce-leaf-red-raw"
+  },
+  {
+    "id": 5718,
+    "name": "Салат листовой, зелёный, сырой",
+    "category": "food/vegetables",
+    "calories": 22,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/lettuce-leaf-green-raw"
+  },
+  {
+    "id": 5719,
+    "name": "Орехи, кедровые орехи, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 689,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-pine-nuts-raw"
+  },
+  {
+    "id": 5720,
+    "name": "Орехи, миндаль, целый, сырой",
+    "category": "food/seeds and nuts",
+    "calories": 626,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-almonds-whole-raw"
+  },
+  {
+    "id": 5721,
+    "name": "Орехи, грецкие орехи, половинки, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 730,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-walnuts-english-halves-raw"
+  },
+  {
+    "id": 5722,
+    "name": "Орехи, пекан, половинки, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 750,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-pecans-halves-raw"
+  },
+  {
+    "id": 5723,
+    "name": "Овёс, цельнозерновой, плющеные хлопья, традиционные",
+    "category": "food/grains and cereals",
+    "calories": 382,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/oats-whole-grain-rolled-old-fashioned"
+  },
+  {
+    "id": 5724,
+    "name": "Овёс, цельнозерновой, дроблёный (стальная резка)",
+    "category": "food/grains and cereals",
+    "calories": 381,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/oats-whole-grain-steel-cut"
+  },
+  {
+    "id": 5725,
+    "name": "Черешня, тёмно-красная, сырая",
+    "category": "food/fruits",
+    "calories": 70,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/cherries-sweet-dark-red-raw"
+  },
+  {
+    "id": 5726,
+    "name": "Фасоль стручковая, зелёная, сырая",
+    "category": "food/vegetables",
+    "calories": 40,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/beans-snap-green-raw"
+  },
+  {
+    "id": 5727,
+    "name": "Картофель рассет, без кожуры, сырой",
+    "category": "food/vegetables",
+    "calories": 83,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/potatoes-russet-without-skin-raw"
+  },
+  {
+    "id": 5728,
+    "name": "Картофель красный, без кожуры, сырой",
+    "category": "food/vegetables",
+    "calories": 76,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/potatoes-red-without-skin-raw"
+  },
+  {
+    "id": 5729,
+    "name": "Картофель золотистый, без кожуры, сырой",
+    "category": "food/vegetables",
+    "calories": 74,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/potatoes-gold-without-skin-raw"
+  },
+  {
+    "id": 5730,
+    "name": "Батат, с оранжевой мякотью, без кожуры, сырой",
+    "category": "food/vegetables",
+    "calories": 79,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/sweet-potatoes-orange-flesh-without-skin-raw"
+  },
+  {
+    "id": 5731,
+    "name": "Огурец, с кожурой, сырой",
+    "category": "food/vegetables",
+    "calories": 16,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/cucumber-with-peel-raw"
+  },
+  {
+    "id": 5732,
+    "name": "Виноград красный, без косточек, сырой",
+    "category": "food/fruits",
+    "calories": 86,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/grapes-red-seedless-raw"
+  },
+  {
+    "id": 5733,
+    "name": "Виноград зелёный, без косточек, сырой",
+    "category": "food/fruits",
+    "calories": 80,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/grapes-green-seedless-raw"
+  },
+  {
+    "id": 5734,
+    "name": "Яблочное пюре, без сахара, с добавлением витамина C",
+    "category": "food/fruits",
+    "calories": 52,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/applesauce-unsweetened-with-added-vitamin-c"
+  },
+  {
+    "id": 5735,
+    "name": "Мука амарантовая",
+    "category": "food/grains and cereals",
+    "calories": 384,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-amaranth"
+  },
+  {
+    "id": 5736,
+    "name": "Мука из киноа",
+    "category": "food/grains and cereals",
+    "calories": 385,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-quinoa"
+  },
+  {
+    "id": 5737,
+    "name": "Мука из сорго",
+    "category": "food/grains and cereals",
+    "calories": 375,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-sorghum"
+  },
+  {
+    "id": 5738,
+    "name": "Мука гречневая",
+    "category": "food/grains and cereals",
+    "calories": 358,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-buckwheat"
+  },
+  {
+    "id": 5739,
+    "name": "Мука ржаная",
+    "category": "food/grains and cereals",
+    "calories": 359,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-rye"
+  },
+  {
+    "id": 5740,
+    "name": "Мука ячменная",
+    "category": "food/grains and cereals",
+    "calories": 367,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/flour-barley"
+  },
+  {
+    "id": 5741,
+    "name": "Мука из маниоки",
+    "category": "food/vegetables",
+    "calories": 357,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/flour-cassava"
+  },
+  {
+    "id": 5742,
+    "name": "Гречиха, цельнозерновая",
+    "category": "food/grains and cereals",
+    "calories": 356,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/buckwheat-whole-grain"
+  },
+  {
+    "id": 5743,
+    "name": "Просо, цельнозерновое",
+    "category": "food/grains and cereals",
+    "calories": 376,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/millet-whole-grain"
+  },
+  {
+    "id": 5744,
+    "name": "Рис бурый, длиннозёрный, необогащённый, сырой",
+    "category": "food/grains and cereals",
+    "calories": 366,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/rice-brown-long-grain-unenriched-raw"
+  },
+  {
+    "id": 5745,
+    "name": "Рис белый, длиннозёрный, необогащённый, сырой",
+    "category": "food/grains and cereals",
+    "calories": 359,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/rice-white-long-grain-unenriched-raw"
+  },
+  {
+    "id": 5746,
+    "name": "Говядина, фарш, 90% постного мяса / 10% жира, сырой",
+    "category": "food/meat",
+    "calories": 185,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-ground-90-lean-meat-10-fat-raw"
+  },
+  {
+    "id": 5747,
+    "name": "Говядина, фарш, 80% постного мяса / 20% жира, сырой",
+    "category": "food/meat",
+    "calories": 243,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-ground-80-lean-meat-20-fat-raw"
+  },
+  {
+    "id": 5748,
+    "name": "Свинина, фарш, сырой",
+    "category": "food/meat",
+    "calories": 228,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pork-ground-raw"
+  },
+  {
+    "id": 5749,
+    "name": "Курица, фарш, с добавками, сырой",
+    "category": "food/meat",
+    "calories": 133,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-ground-with-additives-raw"
+  },
+  {
+    "id": 5750,
+    "name": "Индейка, фарш, 93% постного мяса / 7% жира, сырой",
+    "category": "food/meat",
+    "calories": 153,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/turkey-ground-93-lean-7-fat-raw"
+  },
+  {
+    "id": 5751,
+    "name": "Орехи, бразильские орехи, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 664,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-brazilnuts-raw"
+  },
+  {
+    "id": 5752,
+    "name": "Орехи, кешью, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 565,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-cashew-nuts-raw"
+  },
+  {
+    "id": 5753,
+    "name": "Орехи, фундук (лесной орех), сырые",
+    "category": "food/seeds and nuts",
+    "calories": 641,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-hazelnuts-or-filberts-raw"
+  },
+  {
+    "id": 5754,
+    "name": "Арахис, сырой",
+    "category": "food/legumes",
+    "calories": 588,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/peanuts-raw"
+  },
+  {
+    "id": 5755,
+    "name": "Мука каштановая",
+    "category": "food/seeds and nuts",
+    "calories": 385,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/flour-chestnut"
+  },
+  {
+    "id": 5756,
+    "name": "Орехи, макадамия, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 712,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-macadamia-nuts-raw"
+  },
+  {
+    "id": 5757,
+    "name": "Орехи, фисташки, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 598,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/nuts-pistachio-nuts-raw"
+  },
+  {
+    "id": 5758,
+    "name": "Семена, тыквенные семечки (пепитас), сырые",
+    "category": "food/seeds and nuts",
+    "calories": 555,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/seeds-pumpkin-seeds-pepitas-raw"
+  },
+  {
+    "id": 5759,
+    "name": "Семена, ядра семян подсолнечника, сырые",
+    "category": "food/seeds and nuts",
+    "calories": 609,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/seeds-sunflower-seed-kernel-raw"
+  },
+  {
+    "id": 5760,
+    "name": "Мука кокосовая",
+    "category": "food/seeds and nuts",
+    "calories": 438,
+    "image": "/products/seeds-and-nuts.png",
+    "favorite": false,
+    "link": "/productinfo/flour-coconut"
+  },
+  {
+    "id": 5761,
+    "name": "Фасоль каннеллини, сухая",
+    "category": "food/legumes",
+    "calories": 345,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-cannellini-dry"
+  },
+  {
+    "id": 5762,
+    "name": "Нут (турецкий горох, бенгальский грамм), сухой",
+    "category": "food/legumes",
+    "calories": 383,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/chickpeas-garbanzo-beans-bengal-gram-dry"
+  },
+  {
+    "id": 5763,
+    "name": "Чечевица, сухая",
+    "category": "food/legumes",
+    "calories": 360,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/lentils-dry"
+  },
+  {
+    "id": 5764,
+    "name": "Вигна (черноглазый горох), сухая",
+    "category": "food/legumes",
+    "calories": 354,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/blackeye-pea-dry"
+  },
+  {
+    "id": 5765,
+    "name": "Фасоль чёрная, консервированная, с добавлением соли, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 118,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-black-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5766,
+    "name": "Фасоль нэви (мелкая белая), консервированная, с добавлением соли, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 119,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-navy-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5767,
+    "name": "Фасоль каннеллини, консервированная, с добавлением соли, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 115,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-cannellini-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5768,
+    "name": "Нут (турецкий горох, бенгальский грамм), консервированный, с добавлением соли, откинутый и промытый",
+    "category": "food/legumes",
+    "calories": 137,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/chickpeas-garbanzo-beans-bengal-gram-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5769,
+    "name": "Фасоль кидни, тёмно-красная, консервированная, с добавлением соли и сахара, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 127,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-kidney-dark-red-canned-sodium-added-sugar-added-drained-and-rinsed"
+  },
+  {
+    "id": 5770,
+    "name": "Фасоль кидни, светло-красная, консервированная, с добавлением соли и сахара, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 127,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-kidney-light-red-canned-sodium-added-sugar-added-drained-and-rinsed"
+  },
+  {
+    "id": 5771,
+    "name": "Горошек зелёный, сладкий, консервированный, с добавлением соли и сахара, откинутый и промытый",
+    "category": "food/vegetables",
+    "calories": 80,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peas-green-sweet-canned-sodium-added-sugar-added-drained-and-rinsed"
+  },
+  {
+    "id": 5772,
+    "name": "Фасоль пинто, консервированная, с добавлением соли, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 117,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-pinto-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5773,
+    "name": "Вигна (черноглазый горох), консервированная, с добавлением соли, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 116,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/blackeye-pea-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5774,
+    "name": "Фасоль грейт нортерн (белая), консервированная, с добавлением соли, откинутая и промытая",
+    "category": "food/legumes",
+    "calories": 117,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-great-northern-canned-sodium-added-drained-and-rinsed"
+  },
+  {
+    "id": 5775,
+    "name": "Свинина, корейка, без кости, сырая",
+    "category": "food/meat",
+    "calories": 168,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pork-loin-boneless-raw"
+  },
+  {
+    "id": 5776,
+    "name": "Свинина, вырезка, без кости, сырая",
+    "category": "food/meat",
+    "calories": 119,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pork-loin-tenderloin-boneless-raw"
+  },
+  {
+    "id": 5777,
+    "name": "Курица, грудка, без кости, без кожи, сырая",
+    "category": "food/meat",
+    "calories": 106,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-breast-boneless-skinless-raw"
+  },
+  {
+    "id": 5778,
+    "name": "Курица, бедро, без кости, без кожи, сырое",
+    "category": "food/meat",
+    "calories": 144,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-thigh-boneless-skinless-raw"
+  },
+  {
+    "id": 5779,
+    "name": "Говядина, рибай, стейк, без кости, категория Choice, сырая",
+    "category": "food/meat",
+    "calories": 254,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-ribeye-steak-boneless-choice-raw"
+  },
+  {
+    "id": 5780,
+    "name": "Говядина, огузок, верхняя часть, без кости, категория Choice, сырая",
+    "category": "food/meat",
+    "calories": 141,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-round-top-round-boneless-choice-raw"
+  },
+  {
+    "id": 5781,
+    "name": "Говядина, лопатка, для запекания, без кости, категория Choice, сырая",
+    "category": "food/meat",
+    "calories": 232,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-chuck-roast-boneless-choice-raw"
+  },
+  {
+    "id": 5782,
+    "name": "Говядина, пашина, стейк фланк, без кости, категория Choice, сырая",
+    "category": "food/meat",
+    "calories": 164,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-flank-steak-boneless-choice-raw"
+  },
+  {
+    "id": 5783,
+    "name": "Йогурт натуральный, обезжиренный",
+    "category": "food/eggs and dairy",
+    "calories": 50,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/yogurt-plain-nonfat"
+  },
+  {
+    "id": 5784,
+    "name": "Сыр монтерей джек, кусковой",
+    "category": "food/eggs and dairy",
+    "calories": 392,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-monterey-jack-solid"
+  },
+  {
+    "id": 5785,
+    "name": "Сыр плавленый пастеризованный (сырный продукт), американский, в ломтиках",
+    "category": "food/eggs and dairy",
+    "calories": 310,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-pasteurized-process-cheese-food-or-product-american-singles"
+  },
+  {
+    "id": 5786,
+    "name": "Сыр проволоне, нарезанный",
+    "category": "food/eggs and dairy",
+    "calories": 357,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-provolone-sliced"
+  },
+  {
+    "id": 5787,
+    "name": "Сыр оахака, кусковой",
+    "category": "food/eggs and dairy",
+    "calories": 297,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-oaxaca-solid"
+  },
+  {
+    "id": 5788,
+    "name": "Сыр кесо фреско, кусковой",
+    "category": "food/eggs and dairy",
+    "calories": 298,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-queso-fresco-solid"
+  },
+  {
+    "id": 5789,
+    "name": "Сыр котиха, кусковой",
+    "category": "food/eggs and dairy",
+    "calories": 351,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/cheese-cotija-solid"
+  },
+  {
+    "id": 5790,
+    "name": "Рыба, лосось нерка, дикий, сырой",
+    "category": "food/seafood",
+    "calories": 130,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-salmon-sockeye-wild-caught-raw"
+  },
+  {
+    "id": 5791,
+    "name": "Рыба, лосось атлантический, фермерский, сырой",
+    "category": "food/seafood",
+    "calories": 197,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-salmon-atlantic-farm-raised-raw"
+  },
+  {
+    "id": 5792,
+    "name": "Рыба, тилапия, фермерская, сырая",
+    "category": "food/seafood",
+    "calories": 95,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-tilapia-farm-raised-raw"
+  },
+  {
+    "id": 5793,
+    "name": "Ракообразные, креветки, фермерские, сырые",
+    "category": "food/seafood",
+    "calories": 71,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/crustaceans-shrimp-farm-raised-raw"
+  },
+  {
+    "id": 5794,
+    "name": "Рыба, треска атлантическая, дикая, сырая",
+    "category": "food/seafood",
+    "calories": 66,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-cod-atlantic-wild-caught-raw"
+  },
+  {
+    "id": 5795,
+    "name": "Рыба, сом, фермерский, сырой",
+    "category": "food/seafood",
+    "calories": 129,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/fish-catfish-farm-raised-raw"
+  },
+  {
+    "id": 5796,
+    "name": "Ракообразные, синий плавающий краб, мясо кусочками, пастеризованное, охлаждённое",
+    "category": "food/seafood",
+    "calories": 81,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/crustaceans-crab-blue-swimming-lump-pasteurized-refrigerated"
+  },
+  {
+    "id": 5797,
+    "name": "Кабачок летний, зелёный, цукини, с кожурой, сырой",
+    "category": "food/vegetables",
+    "calories": 19,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/squash-summer-green-zucchini-includes-skin-raw"
+  },
+  {
+    "id": 5798,
+    "name": "Кабачок летний, жёлтый, с кожурой, сырой",
+    "category": "food/vegetables",
+    "calories": 22,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/squash-summer-yellow-includes-skin-raw"
+  },
+  {
+    "id": 5799,
+    "name": "Тыква зимняя, баттернат, сырая",
+    "category": "food/vegetables",
+    "calories": 48,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/squash-winter-butternut-raw"
+  },
+  {
+    "id": 5800,
+    "name": "Тыква зимняя, желудёвая, сырая",
+    "category": "food/vegetables",
+    "calories": 49,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/squash-winter-acorn-raw"
+  },
+  {
+    "id": 5801,
+    "name": "Капуста бок-чой, сырая",
+    "category": "food/vegetables",
+    "calories": 20,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/cabbage-bok-choy-raw"
+  },
+  {
+    "id": 5802,
+    "name": "Томаты целые, консервированные, с соком, с добавлением соли",
+    "category": "food/vegetables",
+    "calories": 22,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomatoes-whole-canned-solids-and-liquids-with-salt-added"
+  },
+  {
+    "id": 5803,
+    "name": "Томатный соус, консервированный, с добавлением соли",
+    "category": "food/vegetables",
+    "calories": 34,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomato-sauce-canned-with-salt-added"
+  },
+  {
+    "id": 5804,
+    "name": "Томатная паста, консервированная, без добавления соли",
+    "category": "food/vegetables",
+    "calories": 104,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomato-paste-canned-without-salt-added"
+  },
+  {
+    "id": 5805,
+    "name": "Томаты дроблёные, консервированные",
+    "category": "food/vegetables",
+    "calories": 38,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomatoes-crushed-canned"
+  },
+  {
+    "id": 5806,
+    "name": "Томатное пюре, консервированное",
+    "category": "food/vegetables",
+    "calories": 41,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/tomato-puree-canned"
+  },
+  {
+    "id": 5807,
+    "name": "Абрикос, с кожицей, сырой",
+    "category": "food/fruits",
+    "calories": 48,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/apricot-with-skin-raw"
+  },
+  {
+    "id": 5808,
+    "name": "Дыня медовая (ханидью), сырая",
+    "category": "food/fruits",
+    "calories": 37,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/melons-honeydew-raw"
+  },
+  {
+    "id": 5809,
+    "name": "Плантаны (овощные бананы), спелые, сырые",
+    "category": "food/fruits",
+    "calories": 136,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/plantains-ripe-raw"
+  },
+  {
+    "id": 5810,
+    "name": "Плантаны (овощные бананы), недозрелые, сырые",
+    "category": "food/fruits",
+    "calories": 145,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/plantains-underripe-raw"
+  },
+  {
+    "id": 5811,
+    "name": "Семена чиа, сухие, сырые",
+    "category": "food/grains and cereals",
+    "calories": 517,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/chia-seeds-dry-raw"
+  },
+  {
+    "id": 5812,
+    "name": "Булгур, сухой, сырой",
+    "category": "food/grains and cereals",
+    "calories": 372,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/bulgur-dry-raw"
+  },
+  {
+    "id": 5813,
+    "name": "Дикий рис, сухой, сырой",
+    "category": "food/grains and cereals",
+    "calories": 369,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/wild-rice-dry-raw"
+  },
+  {
+    "id": 5814,
+    "name": "Руккола молодая (бэби), сырая",
+    "category": "food/vegetables",
+    "calories": 31,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/arugula-baby-raw"
+  },
+  {
+    "id": 5815,
+    "name": "Спаржа зелёная, сырая",
+    "category": "food/vegetables",
+    "calories": 28,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/asparagus-green-raw"
+  },
+  {
+    "id": 5816,
+    "name": "Авокадо Хасс, очищенный, сырой",
+    "category": "food/fruits",
+    "calories": 223,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/avocado-hass-peeled-raw"
+  },
+  {
+    "id": 5817,
+    "name": "Рис чёрный, необогащённый, сырой",
+    "category": "food/grains and cereals",
+    "calories": 370,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/rice-black-unenriched-raw"
+  },
+  {
+    "id": 5818,
+    "name": "Кукуруза сахарная, жёлтые и белые зёрна, свежая, сырая",
+    "category": "food/vegetables",
+    "calories": 85,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/corn-sweet-yellow-and-white-kernels-fresh-raw"
+  },
+  {
+    "id": 5819,
+    "name": "Однозернянка (эйнкорн), зерно, сухое, сырое",
+    "category": "food/grains and cereals",
+    "calories": 369,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/einkorn-grain-dry-raw"
+  },
+  {
+    "id": 5820,
+    "name": "Фарро, шлифованное, сухое, сырое",
+    "category": "food/grains and cereals",
+    "calories": 367,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/farro-pearled-dry-raw"
+  },
+  {
+    "id": 5821,
+    "name": "Фонио, зерно, сухое, сырое",
+    "category": "food/grains and cereals",
+    "calories": 369,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/fonio-grain-dry-raw"
+  },
+  {
+    "id": 5822,
+    "name": "Хорасан, зерно, сухое, сырое",
+    "category": "food/grains and cereals",
+    "calories": 371,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/khorasan-grain-dry-raw"
+  },
+  {
+    "id": 5823,
+    "name": "Киви, зелёный, очищенный, сырой",
+    "category": "food/fruits",
+    "calories": 65,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/kiwifruit-kiwi-green-peeled-raw"
+  },
+  {
+    "id": 5824,
+    "name": "Мандарин, без косточек, очищенный, сырой",
+    "category": "food/fruits",
+    "calories": 62,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/mandarin-seedless-peeled-raw"
+  },
+  {
+    "id": 5825,
+    "name": "Манго Томми Аткинс, очищенное, сырое",
+    "category": "food/fruits",
+    "calories": 68,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/mango-tommy-atkins-peeled-raw"
+  },
+  {
+    "id": 5826,
+    "name": "Манго Атаульфо, очищенное, сырое",
+    "category": "food/fruits",
+    "calories": 78,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/mango-ataulfo-peeled-raw"
+  },
+  {
+    "id": 5827,
+    "name": "Мука кукурузная, маса арина, белая или жёлтая, сухая, сырая",
+    "category": "food/grains and cereals",
+    "calories": 376,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/corn-flour-masa-harina-white-or-yellow-dry-raw"
+  },
+  {
+    "id": 5828,
+    "name": "Груша Анжу, зелёная, с кожурой, сырая",
+    "category": "food/fruits",
+    "calories": 64,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/pear-anjou-green-with-skin-raw"
+  },
+  {
+    "id": 5829,
+    "name": "Слива чёрная, с кожицей, сырая",
+    "category": "food/fruits",
+    "calories": 59,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/plum-black-with-skin-raw"
+  },
+  {
+    "id": 5830,
+    "name": "Рис красный, необогащённый, сухой, сырой",
+    "category": "food/grains and cereals",
+    "calories": 370,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/rice-red-unenriched-dry-raw"
+  },
+  {
+    "id": 5831,
+    "name": "Отруби сорго, белого, необогащённые, сухие, сырые",
+    "category": "food/grains and cereals",
+    "calories": 403,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-bran-white-unenriched-dry-raw"
+  },
+  {
+    "id": 5832,
+    "name": "Мука из сорго, белого, шлифованного, необогащённая, сухая, сырая",
+    "category": "food/grains and cereals",
+    "calories": 364,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-flour-white-pearled-unenriched-dry-raw"
+  },
+  {
+    "id": 5833,
+    "name": "Зерно сорго, белое, шлифованное, необогащённое, сухое, сырое",
+    "category": "food/grains and cereals",
+    "calories": 370,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-grain-white-pearled-unenriched-dry-raw"
+  },
+  {
+    "id": 5834,
+    "name": "Сорго, цельнозерновое, белое, сухое, сырое",
+    "category": "food/grains and cereals",
+    "calories": 373,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-whole-grain-white-dry-raw"
+  },
+  {
+    "id": 5835,
+    "name": "Плантаны (овощные бананы), перезрелые, сырые",
+    "category": "food/fruits",
+    "calories": 130,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/plantains-overripe-raw"
+  },
+  {
+    "id": 5836,
+    "name": "Курица, голень, мясо с кожей, сырая",
+    "category": "food/meat",
+    "calories": 125,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-drumstick-meat-and-skin-raw"
+  },
+  {
+    "id": 5837,
+    "name": "Курица, бедро, мясо с кожей, сырое",
+    "category": "food/meat",
+    "calories": 188,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-thigh-meat-and-skin-raw"
+  },
+  {
+    "id": 5838,
+    "name": "Курица, крыло, мясо с кожей, сырое",
+    "category": "food/meat",
+    "calories": 168,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-wing-meat-and-skin-raw"
+  },
+  {
+    "id": 5839,
+    "name": "Курица, грудка, мясо с кожей, сырая",
+    "category": "food/meat",
+    "calories": 127,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/chicken-breast-meat-and-skin-raw"
+  },
+  {
+    "id": 5840,
+    "name": "Баранина, фарш, сырой",
+    "category": "food/meat",
+    "calories": 237,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/lamb-ground-raw"
+  },
+  {
+    "id": 5841,
+    "name": "Бизон, фарш, сырой",
+    "category": "food/meat",
+    "calories": 159,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/bison-ground-raw"
+  },
+  {
+    "id": 5842,
+    "name": "Говядина, короткая поясница (стейк нью-йорк стрип), сырая",
+    "category": "food/meat",
+    "calories": 190,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-short-loin-ny-strip-steak-raw"
+  },
+  {
+    "id": 5843,
+    "name": "Говядина, стейк из вырезки, сырой",
+    "category": "food/meat",
+    "calories": 143,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-tenderloin-steak-raw"
+  },
+  {
+    "id": 5844,
+    "name": "Говядина, стейк топ-сирлойн, сырой",
+    "category": "food/meat",
+    "calories": 140,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/beef-top-sirloin-steak-raw"
+  },
+  {
+    "id": 5845,
+    "name": "Свинина, отбивная, центральная часть, сырая",
+    "category": "food/meat",
+    "calories": 138,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pork-chop-center-cut-raw"
+  },
+  {
+    "id": 5846,
+    "name": "Свинина, грудинка, с кожей, сырая",
+    "category": "food/meat",
+    "calories": 380,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pork-belly-with-skin-raw"
+  },
+  {
+    "id": 5847,
+    "name": "Тыква, для пирогов, очищенная, без семян, сырая",
+    "category": "food/vegetables",
+    "calories": 35,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/squash-pie-pumpkin-peeled-seeded-raw"
+  },
+  {
+    "id": 5848,
+    "name": "Анчоусы, консервированные в оливковом масле, с солью, без жидкости",
+    "category": "food/seafood",
+    "calories": 206,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/anchovies-canned-in-olive-oil-with-salt-drained"
+  },
+  {
+    "id": 5849,
+    "name": "Треска тихоокеанская или аляскинская, замороженная, дикая",
+    "category": "food/seafood",
+    "calories": 61,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/cod-pacific-or-alaskan-frozen-wild-caught"
+  },
+  {
+    "id": 5850,
+    "name": "Палтус, замороженный, дикий",
+    "category": "food/seafood",
+    "calories": 81,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/halibut-frozen-wild-caught"
+  },
+  {
+    "id": 5851,
+    "name": "Омар, только хвост, замороженный, дикий",
+    "category": "food/seafood",
+    "calories": 59,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/lobster-tail-only-frozen-wild-caught"
+  },
+  {
+    "id": 5852,
+    "name": "Махи-махи (корифена), замороженная, дикая",
+    "category": "food/seafood",
+    "calories": 84,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/mahi-mahi-frozen-wild-caught"
+  },
+  {
+    "id": 5853,
+    "name": "Пастернак, сырой",
+    "category": "food/vegetables",
+    "calories": 87,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/parsnips-raw"
+  },
+  {
+    "id": 5854,
+    "name": "Перец банановый или венгерский восковой, без семян, сырой",
+    "category": "food/vegetables",
+    "calories": 24,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-banana-or-hungarian-wax-seeded-raw"
+  },
+  {
+    "id": 5855,
+    "name": "Перец халапеньо, без семян, сырой",
+    "category": "food/vegetables",
+    "calories": 24,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-jalapeno-seeded-raw"
+  },
+  {
+    "id": 5856,
+    "name": "Перец поблано, без семян, сырой",
+    "category": "food/vegetables",
+    "calories": 28,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-poblano-seeded-raw"
+  },
+  {
+    "id": 5857,
+    "name": "Перец серрано, без семян, сырой",
+    "category": "food/vegetables",
+    "calories": 29,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/peppers-serrano-seeded-raw"
+  },
+  {
+    "id": 5858,
+    "name": "Редис красный, сырой",
+    "category": "food/vegetables",
+    "calories": 20,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/radishes-red-raw"
+  },
+  {
+    "id": 5859,
+    "name": "Гребешки заливные, патагонские, замороженные, дикие",
+    "category": "food/seafood",
+    "calories": 78,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/scallops-bay-patagonian-frozen-wild-caught"
+  },
+  {
+    "id": 5860,
+    "name": "Гребешки морские, замороженные, дикие",
+    "category": "food/seafood",
+    "calories": 66,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/scallops-sea-frozen-wild-caught"
+  },
+  {
+    "id": 5861,
+    "name": "Чилийский морской окунь (клыкач), замороженный, дикий",
+    "category": "food/seafood",
+    "calories": 209,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/sea-bass-chilean-frozen-wild-caught"
+  },
+  {
+    "id": 5862,
+    "name": "Луциан (снэппер), замороженный, дикий",
+    "category": "food/seafood",
+    "calories": 90,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/snapper-frozen-wild-caught"
+  },
+  {
+    "id": 5863,
+    "name": "Краб-стригун (снежный краб), только ноги, замороженный",
+    "category": "food/seafood",
+    "calories": 69,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/snow-crab-legs-only-frozen"
+  },
+  {
+    "id": 5864,
+    "name": "Кальмар, замороженный, только тушки",
+    "category": "food/seafood",
+    "calories": 44,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/squid-calamari-frozen-tubes-only"
+  },
+  {
+    "id": 5865,
+    "name": "Рыба-меч, замороженная, дикая",
+    "category": "food/seafood",
+    "calories": 152,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/swordfish-frozen-wild-caught"
+  },
+  {
+    "id": 5866,
+    "name": "Тунец ахи (желтопёрый), замороженный, дикий",
+    "category": "food/seafood",
+    "calories": 102,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/tuna-ahi-or-yellowfin-frozen-wild-caught"
+  },
+  {
+    "id": 5867,
+    "name": "Репа, сырая",
+    "category": "food/vegetables",
+    "calories": 34,
+    "image": "/products/vegetables.png",
+    "favorite": false,
+    "link": "/productinfo/turnips-raw"
+  },
+  {
+    "id": 5868,
+    "name": "Арбуз, без косточек, только корка, сырой",
+    "category": "food/fruits",
+    "calories": 19,
+    "image": "/products/fruits.png",
+    "favorite": false,
+    "link": "/productinfo/watermelon-seedless-rind-only-raw"
+  },
+  {
+    "id": 5869,
+    "name": "Фасоль печёная, оригинальная, консервированная, со свининой",
+    "category": "food/legumes",
+    "calories": 122,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/baked-beans-original-canned-with-pork"
+  },
+  {
+    "id": 5870,
+    "name": "Фасоль печёная, консервированная, вегетарианская",
+    "category": "food/legumes",
+    "calories": 119,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/beans-baked-canned-vegetarian"
+  },
+  {
+    "id": 5871,
+    "name": "Фасоль пережаренная (рефрито), консервированная (пинто)",
+    "category": "food/legumes",
+    "calories": 87,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/refried-beans-canned-pinto"
+  },
+  {
+    "id": 5872,
+    "name": "Фасоль пережаренная (рефрито), консервированная, вегетарианская",
+    "category": "food/legumes",
+    "calories": 90,
+    "image": "/products/legumes.png",
+    "favorite": false,
+    "link": "/productinfo/refried-beans-canned-vegetarian"
+  },
+  {
+    "id": 5873,
+    "name": "Заправка ранч",
+    "category": "food/oils and fats",
+    "calories": 438,
+    "image": "/products/oils-and-fats.png",
+    "favorite": false,
+    "link": "/productinfo/dressing-ranch"
+  },
+  {
+    "id": 5874,
+    "name": "Сгущённое молоко с сахаром",
+    "category": "food/eggs and dairy",
+    "calories": 336,
+    "image": "/products/eggs-and-dairy.png",
+    "favorite": false,
+    "link": "/productinfo/sweetened-condensed-milk"
+  },
+  {
+    "id": 5875,
+    "name": "Колбаса болонья, говяжья",
+    "category": "food/meat",
+    "calories": 267,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/bologna-beef"
+  },
+  {
+    "id": 5876,
+    "name": "Колбаса болонья, классическая",
+    "category": "food/meat",
+    "calories": 258,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/bologna-classic"
+  },
+  {
+    "id": 5877,
+    "name": "Хлеб белый, промышленный",
+    "category": "food/grains and cereals",
+    "calories": 263,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/bread-white-commercial"
+  },
+  {
+    "id": 5878,
+    "name": "Хлеб, 100% цельнозерновой пшеничный, промышленный",
+    "category": "food/grains and cereals",
+    "calories": 261,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/bread-100-whole-wheat-commercial"
+  },
+  {
+    "id": 5879,
+    "name": "Хлеб многозерновой, промышленный",
+    "category": "food/grains and cereals",
+    "calories": 271,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/bread-mulitgrain-commercial"
+  },
+  {
+    "id": 5880,
+    "name": "Тортилья из пшеничной муки, длительного хранения",
+    "category": "food/grains and cereals",
+    "calories": 299,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/tortilla-wheat-flour-shelf-stable"
+  },
+  {
+    "id": 5881,
+    "name": "Тортилья кукурузная, длительного хранения",
+    "category": "food/grains and cereals",
+    "calories": 215,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/tortilla-corn-shelf-stable"
+  },
+  {
+    "id": 5882,
+    "name": "Макароны сухие, обогащённые, спагетти",
+    "category": "food/grains and cereals",
+    "calories": 371,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/pasta-dry-enriched-spaghetti"
+  },
+  {
+    "id": 5883,
+    "name": "Макароны сухие, цельнозерновые, спагетти",
+    "category": "food/grains and cereals",
+    "calories": 376,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/pasta-dry-whole-grain-spaghetti"
+  },
+  {
+    "id": 5884,
+    "name": "Мясная нарезка, индейка, запечённая, ломтиками",
+    "category": "food/meat",
+    "calories": 110,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/lunchmeat-turkey-oven-roasted-sliced"
+  },
+  {
+    "id": 5885,
+    "name": "Мясная нарезка, ветчина шварцвальдская, ломтиками",
+    "category": "food/meat",
+    "calories": 114,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/lunchmeat-ham-black-forest-sliced"
+  },
+  {
+    "id": 5886,
+    "name": "Мясная нарезка, ростбиф, ломтиками, фасованный",
+    "category": "food/meat",
+    "calories": 116,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/lunchmeat-roast-beef-sliced-prepackaged"
+  },
+  {
+    "id": 5887,
+    "name": "Мясная нарезка, куриная грудка, ломтиками",
+    "category": "food/meat",
+    "calories": 100,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/lunchmeat-chicken-breast-sliced"
+  },
+  {
+    "id": 5888,
+    "name": "Салями твёрдая, нарезанная",
+    "category": "food/meat",
+    "calories": 417,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/salami-hard-sliced"
+  },
+  {
+    "id": 5889,
+    "name": "Пепперони, из говядины и свинины, нарезанная",
+    "category": "food/meat",
+    "calories": 470,
+    "image": "/products/meat.png",
+    "favorite": false,
+    "link": "/productinfo/pepperoni-beef-and-pork-sliced"
+  },
+  {
+    "id": 5890,
+    "name": "Минтай аляскинский, сырой",
+    "category": "food/seafood",
+    "calories": 78,
+    "image": "/products/seafood.png",
+    "favorite": false,
+    "link": "/productinfo/alaska-pollock-raw"
+  },
+  {
+    "id": 5891,
+    "name": "Сорго воздушное, органическое",
+    "category": "food/grains and cereals",
+    "calories": 381,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-puffed-organic"
+  },
+  {
+    "id": 5892,
+    "name": "Киноа воздушная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 379,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/quinoa-puffed-organic"
+  },
+  {
+    "id": 5893,
+    "name": "Кукуруза воздушная (сорт mushroom), органическая",
+    "category": "food/grains and cereals",
+    "calories": 384,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/mushroom-corn-puffed-organic"
+  },
+  {
+    "id": 5894,
+    "name": "Просо воздушное, органическое",
+    "category": "food/grains and cereals",
+    "calories": 385,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/millet-puffed-organic"
+  },
+  {
+    "id": 5895,
+    "name": "Хорасан воздушный, органический",
+    "category": "food/grains and cereals",
+    "calories": 378,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/khorasan-puffed-organic"
+  },
+  {
+    "id": 5896,
+    "name": "Камут воздушный, органический",
+    "category": "food/grains and cereals",
+    "calories": 372,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/kamut-puffed-organic"
+  },
+  {
+    "id": 5897,
+    "name": "Пшеница озимая, твёрдая красная, воздушная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 375,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/winter-wheat-hard-red-puffed-organic"
+  },
+  {
+    "id": 5898,
+    "name": "Гречиха воздушная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 372,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/buckwheat-puffed-organic"
+  },
+  {
+    "id": 5899,
+    "name": "Бурый рис воздушный, органический",
+    "category": "food/grains and cereals",
+    "calories": 385,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/brown-rice-puffed-organic"
+  },
+  {
+    "id": 5900,
+    "name": "Амарант воздушный, органический",
+    "category": "food/grains and cereals",
+    "calories": 385,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/amaranth-puffed-organic"
+  },
+  {
+    "id": 5901,
+    "name": "Рис белый, воздушный",
+    "category": "food/grains and cereals",
+    "calories": 371,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/rice-white-puffed"
+  },
+  {
+    "id": 5902,
+    "name": "Сорго воздушное",
+    "category": "food/grains and cereals",
+    "calories": 377,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-puffed"
+  },
+  {
+    "id": 5903,
+    "name": "Киноа воздушная",
+    "category": "food/grains and cereals",
+    "calories": 398,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/quinoa-puffed"
+  },
+  {
+    "id": 5904,
+    "name": "Овёс воздушный",
+    "category": "food/grains and cereals",
+    "calories": 402,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/oats-puffed"
+  },
+  {
+    "id": 5905,
+    "name": "Пшеница твёрдая (дурум), воздушная",
+    "category": "food/grains and cereals",
+    "calories": 375,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/wheat-durum-puffed"
+  },
+  {
+    "id": 5906,
+    "name": "Нут воздушный",
+    "category": "food/grains and cereals",
+    "calories": 402,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/chickpeas-puffed"
+  },
+  {
+    "id": 5907,
+    "name": "Бурый рис воздушный",
+    "category": "food/grains and cereals",
+    "calories": 377,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/brown-rice-puffed"
+  },
+  {
+    "id": 5908,
+    "name": "Просо воздушное",
+    "category": "food/grains and cereals",
+    "calories": 387,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/millet-puffed"
+  },
+  {
+    "id": 5909,
+    "name": "Мука из сорго, прежелатинизированная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 374,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-flour-pre-gelatinized-organic"
+  },
+  {
+    "id": 5910,
+    "name": "Мука из киноа, прежелатинизированная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 380,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/quinoa-flour-pre-gelatinized-organic"
+  },
+  {
+    "id": 5911,
+    "name": "Мука просяная, прежелатинизированная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 383,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/millet-flour-pre-gelatinized-organic"
+  },
+  {
+    "id": 5912,
+    "name": "Мука из бурого риса, крупного помола, прежелатинизированная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 383,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/brown-rice-flour-coarse-ground-pre-gelatinized-organic"
+  },
+  {
+    "id": 5913,
+    "name": "Мука амарантовая, прежелатинизированная, органическая",
+    "category": "food/grains and cereals",
+    "calories": 378,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/amaranth-flour-pre-gelatinized-organic"
+  },
+  {
+    "id": 5914,
+    "name": "Мука из белого риса, прежелатинизированная",
+    "category": "food/grains and cereals",
+    "calories": 379,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/white-rice-flour-pre-gelatinized"
+  },
+  {
+    "id": 5915,
+    "name": "Мука из сорго, прежелатинизированная",
+    "category": "food/grains and cereals",
+    "calories": 374,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/sorghum-flour-pre-gelatinized"
+  },
+  {
+    "id": 5916,
+    "name": "Мука просяная, прежелатинизированная",
+    "category": "food/grains and cereals",
+    "calories": 393,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/millet-flour-pre-gelatinized"
+  },
+  {
+    "id": 5917,
+    "name": "Мука кукурузная, прежелатинизированная",
+    "category": "food/grains and cereals",
+    "calories": 372,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/corn-flour-pre-gelatinized"
+  },
+  {
+    "id": 5918,
+    "name": "Мука нутовая, прежелатинизированная",
+    "category": "food/grains and cereals",
+    "calories": 391,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/chickpea-flour-pre-gelatinized"
+  },
+  {
+    "id": 5919,
+    "name": "Мука из кернзы, прежелатинизированная",
+    "category": "food/grains and cereals",
+    "calories": 387,
+    "image": "/products/grains-and-cereals.png",
+    "favorite": false,
+    "link": "/productinfo/kernza-flour-pre-gelatinized"
   }
 ]

@@ -1,0 +1,71 @@
+{
+  "id": "5637",
+  "title": "Eggs, Grade A, Large, Egg White",
+  "image": "/products/5637.png",
+  "content": [
+    {
+      "title": "About",
+      "content": "Grade A large eggs are top‑quality eggs from hens raised without hormones or antibiotics. The egg white is high in protein, low in fat, and contains virtually no carbohydrates. These eggs are widely used in baking, omelets, and protein shakes."
+    },
+    {
+      "title": "Interesting Facts",
+      "items": [
+        "Egg white is about 90 % water and 10 % proteins, including albumin.",
+        "A typical large egg weighs roughly 63–73 g.",
+        "Grade A eggs undergo strict quality checks: clean shells, no cracks, and uniform yolk color.",
+        "Egg white contains no cholesterol, unlike the yolk.",
+        "Unwashed eggs can be refrigerated for up to 5 weeks."
+      ]
+    },
+    {
+      "title": "Potential Health Benefits",
+      "items": [
+        {
+          "title": "Rich source of high‑quality protein",
+          "content": "Egg white provides all essential amino acids, making it an excellent protein source for athletes and vegetarians."
+        },
+        {
+          "title": "Low‑calorie food",
+          "content": "100 g of egg white contains about 52 kcal, useful for weight management."
+        },
+        {
+          "title": "Contains vitamin B2 (riboflavin)",
+          "content": "Riboflavin supports energy metabolism and skin health."
+        },
+        {
+          "title": "Supports immune function",
+          "content": "Lysozyme and lactoferrin in egg white have antibacterial properties."
+        },
+        {
+          "title": "Helps regulate blood sugar",
+          "content": "The high protein content slows carbohydrate absorption, promoting more stable glucose levels."
+        }
+      ]
+    },
+    {
+      "title": "Potential Risks and Precautions",
+      "items": [
+        {
+          "title": "Egg white allergy",
+          "content": "Some individuals may experience allergic reactions ranging from skin rashes to anaphylaxis."
+        },
+        {
+          "title": "Risk of salmonella",
+          "content": "Raw eggs can carry salmonella; cook them thoroughly to eliminate the risk."
+        },
+        {
+          "title": "Low biotin availability",
+          "content": "Excessive consumption of raw egg whites can lead to biotin deficiency because avidin binds this vitamin."
+        }
+      ]
+    },
+    {
+      "title": "How to Eat",
+      "content": "Egg white can be used in omelets, protein shakes, baked goods, meringues, and added to salads. For best texture, whip the whites to stiff peaks before cooking."
+    },
+    {
+      "title": "Storage",
+      "content": "Store eggs in their original carton in the refrigerator at 1–4 °C. Do not wash them before storage to preserve the natural protective cuticle on the shell."
+    }
+  ]
+}
